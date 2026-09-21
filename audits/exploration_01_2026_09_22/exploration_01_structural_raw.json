@@ -1,0 +1,1137 @@
+{
+  "control_count": 40,
+  "experiment_count": 5,
+  "input_length": 97,
+  "input_sha256": "eea813570c7f1fd3b34674e47b5c3da8948026f5cefee612a0b38ffaa515ceab",
+  "interpretation_status": "EXPLORATION RESULT",
+  "protocol": "Exploration-01-execution-protocol.md",
+  "provenance_note": "No result was used to alter recipes, parameters, metrics, controls, or seeds.",
+  "record_count": 45,
+  "records": [
+    {
+      "control_id": "E01-R-RAGGED-COL7-REAL",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 4,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 4,
+        "output": "OOOFRTSAINZKIUBGLLNWSTAYFZGEKHIRGTEJWPPXKKRUFVKQKKIVKTUCULBQSSZLNTWJHAOBBQSJZUFTGCURXSWPOQWDBMDDA",
+        "output_sha256": "3e6301b9bb881f1016bb57f6a6cca6ceb79b710fc86c55fb23ef35bb0671a4cf",
+        "public_crib_positional_match": 3
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": null,
+      "source_kind": "REAL",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1001",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 2,
+        "index_of_coincidence": 0.038445017182,
+        "length": 97,
+        "non_crib_identity_match": 1,
+        "output": "ZMUBWTVRFAELGLBZYAUEERMNRNBPYFMXTADZBSOFTAYNYWXSIMEYGDCXGXSXGDNCDKSWHVCLGPQUSJTGBLQYRSTWXNCLGYBQS",
+        "output_sha256": "150c95e126d8e561e6abd570688c0614e27a070889938e36a8d96714ee419c56",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1001,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1002",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 5,
+        "index_of_coincidence": 0.046176975945,
+        "length": 97,
+        "non_crib_identity_match": 5,
+        "output": "QPNNSUONZCBBWATEQAFITWTQDPYHNUBSJCJCEZCIDZHSHROQWUTZYASBETHVYSZCNRNBCHECZEUUCMCFCGCPIWBYZWDKPZPFH",
+        "output_sha256": "a7bfe4ba12d14866ba0507c66f265bfdb424253369ce81e96d0d7e444e86bff1",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1002,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1003",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 2,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 6,
+        "index_of_coincidence": 0.040163230241,
+        "length": 97,
+        "non_crib_identity_match": 5,
+        "output": "PRPSHVBIGVFUDIROQQVRRMYEALGQLMOWRRHEIEMEBHHAQVRAWIOSGRWCXWCWBEYMYXXQNOOKJBKMMNGTKNFNOCKUHKBGYIOMQ",
+        "output_sha256": "8651c3f149ce4abc2d54a6e1223845f3ad1be1fb13b02300ea19f770a8a0c250",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1003,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1004",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.037800687285,
+        "length": 97,
+        "non_crib_identity_match": 2,
+        "output": "NQUTEKPAZZEOTXDUBLWNXWFWFEKPXGWCAJBMVMPYENTYYQEAJJPOFRJURYWHEDROZFXLOHWGZXCNABNHFRUXVKEAQDHWPOAAM",
+        "output_sha256": "da563f8cbf4d71cae5f6ba2858fdf39d3466147ce08d8b3f2d03ebd4e6fca96a",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1004,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1005",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 1,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 6,
+        "index_of_coincidence": 0.036512027491,
+        "length": 97,
+        "non_crib_identity_match": 4,
+        "output": "PJSVBJMVOALWAOZLKVKULVOLSUBPMRLSPDWJKTGEGGRVZZDPRIQMTBEKNFGBIGBNJJOQOFSPZJHYITTRRACHUDBYCTZPDZVOH",
+        "output_sha256": "d7dab552d9674af869e041a38c59c93fef4a8734a640f7f41e126d907a94400c",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1005,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1006",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.038015463918,
+        "length": 97,
+        "non_crib_identity_match": 1,
+        "output": "LKJJYCMYWDGCSBBVUAXCPNOGFQLPHAEIATLUISEBEOOYSBBMKSRCLQHOAGCJIAMUTQCPBCGQMXZZDFQZWYMKSYAYJOQWNMAKC",
+        "output_sha256": "72f738bc7cbae9c6d630bfa6b92453f9f7cd6a5edbbca03050bf22f809f223e2",
+        "public_crib_positional_match": 3
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1006,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1007",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 3,
+        "output": "BZRBDNSOIAZKIDZFBBVJKDBQPLWYTHONUJCOMPGATZFQSGBHHMIODFMVJBJHIUAJNTHQGIXUXWWABYFZCERBWGTCUKSNGFLUJ",
+        "output_sha256": "46006b358f3aca85fbf7ea171545e3cd3adc6ad1acfb9ddc7a2a135e4e7ca7eb",
+        "public_crib_positional_match": 2
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1007,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-R-RAGGED-COL7-C1008",
+      "experiment_id": "E01-R-RAGGED-COL7",
+      "family": "R",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.04574742268,
+        "length": 97,
+        "non_crib_identity_match": 3,
+        "output": "QBSIEDDEVYEORROVLHXEOONLJYUYKWVPDZXLVBBVBPCEAEHHOOLRHPWIWVRRMLJYSQPPXBYSZBLHKSLHIODCDDKGDHYKNPKHD",
+        "output_sha256": "7bff8cc9e57944c4cd2c40f1982628c37e38819bc47ab20754191411a763ad47",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-RAGGED-COL7",
+      "seed": 1008,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-REAL",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 1,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 1,
+        "output": "RACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTAWZZKESSQJSQTWTOSSKGNRPQQVRLFWBBFILOSBLUHGOXOURKBO",
+        "output_sha256": "f3310b05f0ec1d1d05a97fd03ac2b0729befdb86c63f5b159a38eb7c4aeeb55e",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": null,
+      "source_kind": "REAL",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1001",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 2,
+        "index_of_coincidence": 0.038445017182,
+        "length": 97,
+        "non_crib_identity_match": 2,
+        "output": "YVXAPLSQHCTBGQLWDFNLBBSGOREYGKYSNAGTDEBMFLJCMZRRCSNIDEVNUDSAETXQGXTUWWPXWXABTGSYMYUSLXNFZMRCGYYBZ",
+        "output_sha256": "11d9e00c45aab4c06e177ec8befc485cde1bf957ce67e4776555bc94bdcbfbec",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1001,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1002",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 5,
+        "index_of_coincidence": 0.046176975945,
+        "length": 97,
+        "non_crib_identity_match": 4,
+        "output": "PHBZHAHCCSDYWFGBAIPBPCNYCDBZFRZZQCPCNTETZKMCUCWNDCZWJTOWUSQCIUZUYOJFSYEVRSANBZHHBQNWCTSUEPIEEHNTQ",
+        "output_sha256": "f91f7386b01e766e1cb0fa9bf69ff412a6a205cd4a673faa5a1abe086c8594ce",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1002,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1003",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 0,
+        "index_of_coincidence": 0.040163230241,
+        "length": 97,
+        "non_crib_identity_match": 0,
+        "output": "NOCHQIQFNWBGDMNQRELUOKXGMAFITXSEEVYGYOIYGGNMIEMIBMYWHRBKMEARRVHKBRRVHUBWVWQSKJCQOQPCKWAMOROOXHLRP",
+        "output_sha256": "caa4cf70dad8e5d1d6a70fde753129f2128019f4f71ed99b6c86579bf99d90f0",
+        "public_crib_positional_match": 2
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1003,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1004",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 6,
+        "index_of_coincidence": 0.037800687285,
+        "length": 97,
+        "non_crib_identity_match": 5,
+        "output": "XHUNPXMUOJEKTARLRYEOAFXFPFEOHFOMWZPNZPVFZWBOJMWAHARJBXPDNDAJNKQCEEAWEAXHQCLTEZWYWBUKGYYGUQVWRTXDN",
+        "output_sha256": "6fa744764b026b05789baba1384bad8e4f49c3edd3a3e71ef56fcd87286edeff",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1004,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1005",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 6,
+        "index_of_coincidence": 0.036512027491,
+        "length": 97,
+        "non_crib_identity_match": 5,
+        "output": "HFKGPOHCOEGBAOAQBEUWVROTGSLZRJMTLADTJQKOOPTNIJVVZIBRWLMTYGPDUJCHIDPKBYJBZSVVBZGZLKSDPFVRLJUSNRMZP",
+        "output_sha256": "a0be471143a5a9dc5345576fc32204a5ca231c210d0f1bc9aa9164011723e52f",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1005,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1006",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 4,
+        "index_of_coincidence": 0.038015463918,
+        "length": 97,
+        "non_crib_identity_match": 4,
+        "output": "KCOOPBCMBHELSKYPQBQCAWCLEFGMZQCSGDNQTRIOWWFUSUNYQDMKLPMOZAMTCCJZIBAXYYXJBIAJAMCSEUJYQGYAVKSGAOHBL",
+        "output_sha256": "0e9d97bff1a5373864f3e10b079a7f9b7dc8e8ce1ac98cf714b50546febb7e3e",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1006,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1007",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 1,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 1,
+        "output": "BIVZYDJRGMTWIUEQFALKLCHDGPZFZTOPQAGFNIMBINYJMODOSBAHCKSKAUHJJNUWIBUVDCWHGNBBTXJSOBRGUBQHFZWXJFTZB",
+        "output_sha256": "e03ac4cd273d24615ccc20cf10841acb434af57dcb3e8e12576b12e9827d4cbe",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1007,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-G-ROT180-97-C1008",
+      "experiment_id": "E01-G-ROT180-97",
+      "family": "G",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 5,
+        "index_of_coincidence": 0.04574742268,
+        "length": 97,
+        "non_crib_identity_match": 4,
+        "output": "CBIPYRDDXWBURHOPPVYOKIPHBJEPHQRBLYNLSLVNVKSYOLOEYKJOXODHHLHZEDDLMHDXEGBREPHIKZRAVLSDSVEWVBDYWCKOQ",
+        "output_sha256": "a528277e2315a7599dcec1c8206af136c336a9909b646bd9dee482ceb3eaaae1",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-GEOM-ROT180",
+      "seed": 1008,
+      "source_kind": "random_ciphertext_same_length",
+      "status": "EXECUTED",
+      "transformation": "reverse97"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-REAL",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.03231292517,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "OKUXGUBOIBWLVQRGSOWQJSEZWTKUIWNBYVTZPWDZTCIKHAECR",
+        "output_sha256": "2310ccfc0a221f77e435b4f7cae0ef772ad1b55255ded70a0d60b850ca0a8e92",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": null,
+      "source_kind": "REAL",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1001",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 2,
+        "index_of_coincidence": 0.028911564626,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "OKRXOGHULBSIBWFVQPSTQSEZWATJKDNYTTZFPKGKZCDIGHACA",
+        "output_sha256": "6abf4ba09b1b17513dc4b0d7e1b9be55cc5c20683773ff1638f35615a8b2c8b0",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1001,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1002",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 1,
+        "index_of_coincidence": 0.03231292517,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "RUOXHULBIBWQQPRGKTTQSQKJLUDIWINFYPVTFPWGDZXTHAUKC",
+        "output_sha256": "8f1a4c5f3d1b2a535ae073cc109bbac936fa4ae637a40db103858f65bf17df0b",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1002,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1003",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 4,
+        "index_of_coincidence": 0.028911564626,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "ORUOGLBLIFVQPRNOTJSSEZATJAWINNYVTMFKWDKTJCIKHUAUE",
+        "output_sha256": "7d9e6fb8f2efb2d3c957798170c4888fcb420902761618c2472b796f2878991d",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1003,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1004",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 5,
+        "index_of_coincidence": 0.02806122449,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "OBROGLSLIBBVQRGTQQSEZZLUDAWIFNYPVTMZWGKZXJCDGUHUE",
+        "output_sha256": "bbdab177a21b0733e4aceee5ef4f6639e082df1575ca3a3fb23c6354b4077e4d",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1004,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1005",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 0,
+        "index_of_coincidence": 0.035714285714,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "RUOOLBLFBLQNSOTQQSSKZTJKUDANFBNYPVTZKWDZTJDIGUUAE",
+        "output_sha256": "4d6c687132dc6ef114abc49777743faa3f3567a8eeba9934498da8ec673346fd",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1005,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1006",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 4,
+        "index_of_coincidence": 0.034013605442,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "OBROXOHLBWLQQNKSOWQSJQEKWAJIAVTTMZPKWGJIGKUHUUECR",
+        "output_sha256": "34832b5de4fbb4309ea4ff67354584775a3b09ae06cc52b266c1b6337d453e49",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1006,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1007",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 5,
+        "index_of_coincidence": 0.03656462585,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "OKRUXOHLLFBLVQPRNGTWTSQSWKUDAVTTMFPKWDXTJKHUAUCAR",
+        "output_sha256": "9fcd0fce7f03eaeb8e346d6e10cfd5ce4976695d3a10d82d89d15db6ca48d32a",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1007,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-M-PERIOD2-EVEN-C1008",
+      "experiment_id": "E01-M-PERIOD2-EVEN",
+      "family": "M",
+      "metrics": {
+        "adjacent_pair_preservation": null,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 2,
+        "index_of_coincidence": 0.034013605442,
+        "length": 49,
+        "non_crib_identity_match": null,
+        "output": "BOXGUBSOLBBFRPRNSQSEZZWALUIIFBYVTMFPGDZDIGKUHAUEA",
+        "output_sha256": "4a38701cc8ff5f2727b80dc2c1b6e0ea9854fb70ea5f09a633ecca4d06613c1a",
+        "public_crib_positional_match": null
+      },
+      "null_id": "NULL-LIMITED-MASK-CARD49",
+      "seed": 1008,
+      "source_kind": "random_mask_same_cardinality",
+      "status": "EXECUTED",
+      "transformation": "mask_even"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-REAL",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 1,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 1,
+        "output": "ADDMBDWQOPWSXRUCGTFUZJSQBBOAHJWTNLZSSQBLUCUTKVIKKQKVFURKKXPPWJETGRIHKEGZFYATSWNLLGBUIKZNIASTRFOOO",
+        "output_sha256": "74652d984854c125fc60d68dc26ef3b07d3237c282d94a3fe455b734bb2e11ab",
+        "public_crib_positional_match": 2
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": null,
+      "source_kind": "REAL",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1001",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 4,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 3,
+        "output": "OQLFWWKZPDJKAKXRNZVYBKHBAIGSDHTCSEUIGTTCQSOPTAFZGORWWNJRLPRLSKSOOQLUKVXMBUUWSGEBZNKKQIFFITDAJUBTU",
+        "output_sha256": "a505d80cfd1b4d322633b228f7f806243739d3d1a190a6af8371c5f6631d32f7",
+        "public_crib_positional_match": 3
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1001,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1002",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 3,
+        "output": "VDLRBITFUTWXLDPXGKOCRPFHWSIAUTITHBPKZQUQGJQYUQWKNSMIKJWBTUAAFBKSUODEEGKCOAZRLTNRSKOOSGVWNZBSFJLKZ",
+        "output_sha256": "c4fac34237ba99529bae21698b2d5007c9e1d9244f2f1b8b62282aeb9d41bf14",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1002,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1003",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 4,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 4,
+        "output": "NFZREIAMWJRSGNYACLTSWTUNTUOJKOFTKDOLEJAVKVQIIUPBHKPWGLDZSZXBUKFKRHDAPSTIXQLSOCGBZKGWBUWQFTQKRUOBS",
+        "output_sha256": "b66cff597dbe91b67ba4d12855e254930fec7f10df900fc01cc293bbcb9d4ff4",
+        "public_crib_positional_match": 2
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1003,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1004",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 3,
+        "output": "LSEZMHGPJVQSDOBXZGYGOBRICLUQDQWLUZKFZVTGTBNWEUARIKFSKPKQAUKNUNBISROUJFSADPSTHOBTAIRKCXWTTWWLKOJKF",
+        "output_sha256": "525d3696c79650da918f38f62709c42221b1b4ead83e5e150912109d19f49ccb",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1004,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1005",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 2,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 2,
+        "output": "FJTKKJQKZILBLEQZQUWOAOSGBSNLTUNTTUVUANDORFYZSBDPDGHRFSBWXBRQKTCPZHSIOOIUJXPKGKTVUKIEWLRWWKGFAACMS",
+        "output_sha256": "ed38c55040b6b38d0502829b1dc8c7e21dc8119461b21024075153925f9a80ac",
+        "public_crib_positional_match": 2
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1005,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1006",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 3,
+        "output": "EONIBQKQIOUVSJBGHJRHUOXQEOSWLTAPAWKLWQWZGKJMUTKRCITAYPWBTUKVKUGRFDKZPNLUZBXKARLGCDNOSSSBZFDITTFFS",
+        "output_sha256": "19b4b5d4dd776ebc3f02e356523b3abe42696b9e42d016189a9f30cbda68d17e",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1006,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1007",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 4,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 3,
+        "output": "UDLSUCRVOJQFXAWWXRTDVGHLHTUTMNRSQLKOUTKAPTKBWPFKATQNBBSKKQKGEIBZRWKFOIPYGEBUIZCNWSSADLUOFJZGIZOSJ",
+        "output_sha256": "070ed851c2e856f9fca7149047cc16e20abaa92522b294bdb1b3f9e70f0001b6",
+        "public_crib_positional_match": 0
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1007,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-C-COL7-ROT180-C1008",
+      "experiment_id": "E01-C-COL7-ROT180",
+      "family": "C",
+      "metrics": {
+        "adjacent_pair_preservation": 0,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 3,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 2,
+        "output": "VISUASXIBKGOUEBMQSRBHTOPDUNWDFBPZZLAGILEYZFBFAGURZWWCQSJDLUSROSKKHTCOXTKNKKTVJFNJIQRWUOPKQLGTAKWT",
+        "output_sha256": "6944b82a195bf98eb3efdb48e8d8b547018bfdbb2b6b921997f44053c39aed10",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-COMPOSED-RANDOM",
+      "seed": 1008,
+      "source_kind": "random_first_layer_then_fixed_reverse",
+      "status": "EXECUTED",
+      "transformation": "ragged_col7_then_reverse97"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-REAL",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 53,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 40,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWRACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTA",
+        "output_sha256": "cbb0ae4a1edef184f48716ce46a5efddba0c211489a54dded545229bc7c6df7c",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": null,
+      "source_kind": "REAL",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1001",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 51,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 37,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWEANCNIUFDPXDYCUTJVJZUADLZBMKKTAWKTTRAHWGPGIKIUFK",
+        "output_sha256": "31ec3c6a143f9a8e43bd195f9dd67f9cffe86a218f1fa07424d776b825d46bae",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1001,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1002",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 53,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 37,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWIFZDTWPIRGDUTFNCMPTHIEAKKLZATABJKYKJDUKUXVAWNGUC",
+        "output_sha256": "4f2f966743e4e380893bc9ff964d7923a0b4276212179fc5a5fe021839d547e2",
+        "public_crib_positional_match": 2
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1002,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1003",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 52,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 38,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWUTNKHGBRDJAFAYKACGVIMUKKFPTIDWCUAUJXLZTWEDKZNPIT",
+        "output_sha256": "669da40acc14f84f9e0d9aff9cdfaf859485d96b5a28523dec64307deac39160",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1003,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1004",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 52,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 39,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWUWIAKUINANVMARTTCTZKKGCIPJDXTFKAYELPWKZBFUJUDHDG",
+        "output_sha256": "1d442568273bddc6d62134f1a21e0b3fe99dcbdb7cb6b554203f525478ca00b2",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1004,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1005",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 51,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 38,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWNUKCUAPVZDLAZTCUFDKAHRKEAKYITKWJJBPMITNIFTUGGDWX",
+        "output_sha256": "e5ae51935d2b0ad2175eda14e390c504f2dd7173c02a2ceab4f31ec2d0c5fccf",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1005,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1006",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 54,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 40,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWYTVNUADZCIUUDIPRFTJDZKXGKKPIJAHATWLWTCUEMGBAKNKF",
+        "output_sha256": "0732551cf00b2665d89ebec5d405fa5c94dc1a306b20f3ed03f3fe475c95f316",
+        "public_crib_positional_match": 2
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1006,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1007",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 50,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 37,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWLUGWJDETVYPGPUAIAXKWBKATMZKAFZIHDDRTKUIFKCNCTNUJ",
+        "output_sha256": "e14fbf781d47e785e014e4d21a47ac3559066ba3dd524072b3731bdad7c563a4",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1007,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    },
+    {
+      "control_id": "E01-P-TWO-BAND-REVERSE7-C1008",
+      "experiment_id": "E01-P-TWO-BAND-REVERSE7",
+      "family": "P",
+      "metrics": {
+        "adjacent_pair_preservation": 48,
+        "alphabet_valid": true,
+        "crib_occurrences": {
+          "BERLINCLOCK": 0,
+          "EASTNORTHEAST": 0
+        },
+        "fixed_points": 52,
+        "index_of_coincidence": 0.036082474227,
+        "length": 97,
+        "non_crib_identity_match": 38,
+        "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWGUAADIBJKTRYATJZCWGIKNFHUPXETVLTNPMDAFUIKWKDUZKC",
+        "output_sha256": "86307e7f25306c549061a1c66dbc8003ab02e25392119db2f8601086e417ce40",
+        "public_crib_positional_match": 1
+      },
+      "null_id": "NULL-LIMITED-TWO-BAND",
+      "seed": 1008,
+      "source_kind": "random_second_band_permutation",
+      "status": "EXECUTED",
+      "transformation": "fixed_band_49_48_reverse_second"
+    }
+  ]
+}
