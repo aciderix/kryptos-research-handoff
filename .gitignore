@@ -1,0 +1,23 @@
+# Local and generated artifacts
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw archive media and heavy logs are intentionally excluded
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.webp
+*.mp4
+*.mov
+*.zip
+*.tar
+*.gz
+*.log
