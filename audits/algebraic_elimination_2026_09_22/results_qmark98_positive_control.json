@@ -1,0 +1,66 @@
+{
+ "True-fwd-TS-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "True-fwd-TS-beau": {
+  "p10": true,
+  "p7": false
+ },
+ "True-fwd-ST-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "True-fwd-ST-beau": {
+  "p10": true,
+  "p7": false
+ },
+ "True-inv-TS-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "True-inv-TS-beau": {
+  "p10": true,
+  "p7": false
+ },
+ "True-inv-ST-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "True-inv-ST-beau": {
+  "p10": true,
+  "p7": false
+ },
+ "False-fwd-TS-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "False-fwd-TS-beau": {
+  "p10": true,
+  "p7": false
+ },
+ "False-fwd-ST-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "False-fwd-ST-beau": {
+  "p10": true,
+  "p7": false
+ },
+ "False-inv-TS-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "False-inv-TS-beau": {
+  "p10": true,
+  "p7": false
+ },
+ "False-inv-ST-vig": {
+  "p10": true,
+  "p7": false
+ },
+ "False-inv-ST-beau": {
+  "p10": true,
+  "p7": false
+ }
+}

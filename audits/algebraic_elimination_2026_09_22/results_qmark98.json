@@ -1,0 +1,149 @@
+{
+ "n_candidates": 16,
+ "survivors": [
+  {
+   "keyed": true,
+   "bottom_up": false,
+   "direction": "fwd",
+   "null": "start",
+   "null_lands_at": 0,
+   "TS_vig": {
+    "K4_sat_periods": [
+     26
+    ],
+    "null_mean_sat_periods": 4.4
+   },
+   "TS_beau": {
+    "K4_sat_periods": [
+     15,
+     19,
+     23,
+     25
+    ],
+    "null_mean_sat_periods": 3.5
+   },
+   "ST_vig": {
+    "K4_sat_periods": [],
+    "null_mean_sat_periods": 7.0
+   },
+   "ST_beau": {
+    "K4_sat_periods": [
+     18,
+     23,
+     25,
+     26
+    ],
+    "null_mean_sat_periods": 4.8
+   }
+  },
+  {
+   "keyed": true,
+   "bottom_up": false,
+   "direction": "inv",
+   "null": "start",
+   "null_lands_at": 0,
+   "TS_vig": {
+    "K4_sat_periods": [
+     23
+    ],
+    "null_mean_sat_periods": 2.9
+   },
+   "TS_beau": {
+    "K4_sat_periods": [
+     19,
+     25
+    ],
+    "null_mean_sat_periods": 1.7
+   },
+   "ST_vig": {
+    "K4_sat_periods": [],
+    "null_mean_sat_periods": 6.3
+   },
+   "ST_beau": {
+    "K4_sat_periods": [
+     22,
+     24,
+     25,
+     26
+    ],
+    "null_mean_sat_periods": 4.6
+   }
+  },
+  {
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "fwd",
+   "null": "start",
+   "null_lands_at": 0,
+   "TS_vig": {
+    "K4_sat_periods": [
+     18,
+     26
+    ],
+    "null_mean_sat_periods": 7.6
+   },
+   "TS_beau": {
+    "K4_sat_periods": [
+     15,
+     18,
+     23,
+     26
+    ],
+    "null_mean_sat_periods": 4.5
+   },
+   "ST_vig": {
+    "K4_sat_periods": [
+     25,
+     26
+    ],
+    "null_mean_sat_periods": 8.4
+   },
+   "ST_beau": {
+    "K4_sat_periods": [
+     13,
+     14,
+     21,
+     25,
+     26
+    ],
+    "null_mean_sat_periods": 5.1
+   }
+  },
+  {
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "inv",
+   "null": "start",
+   "null_lands_at": 0,
+   "TS_vig": {
+    "K4_sat_periods": [],
+    "null_mean_sat_periods": 2.6
+   },
+   "TS_beau": {
+    "K4_sat_periods": [
+     16,
+     20,
+     26
+    ],
+    "null_mean_sat_periods": 3.7
+   },
+   "ST_vig": {
+    "K4_sat_periods": [
+     18,
+     25,
+     26
+    ],
+    "null_mean_sat_periods": 5.2
+   },
+   "ST_beau": {
+    "K4_sat_periods": [
+     13,
+     16,
+     24,
+     26
+    ],
+    "null_mean_sat_periods": 6.0
+   }
+  }
+ ]
+}

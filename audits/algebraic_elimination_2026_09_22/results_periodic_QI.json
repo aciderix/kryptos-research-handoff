@@ -1,0 +1,74 @@
+{
+ "K1_real_control": {
+  "7": false,
+  "8": false,
+  "9": false,
+  "10": true,
+  "11": false,
+  "20": true
+ },
+ "periodic_QI": {
+  "vig": {
+   "K4_sat": [
+    13,
+    16,
+    19,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    38,
+    39,
+    41,
+    46,
+    47,
+    48,
+    49,
+    51,
+    52
+   ],
+   "n_params": 52,
+   "null_mean_sat_params": 19.4,
+   "null_frac_with_any_sat": 1.0,
+   "positive_control": true
+  },
+  "beau": {
+   "K4_sat": [
+    13,
+    16,
+    19,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    38,
+    39,
+    41,
+    46,
+    47,
+    48,
+    49,
+    51,
+    52
+   ],
+   "n_params": 52,
+   "null_mean_sat_params": 19.4,
+   "null_frac_with_any_sat": 1.0,
+   "positive_control": true
+  }
+ }
+}

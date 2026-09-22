@@ -1,0 +1,57 @@
+{
+ "K1_real_control": {
+  "7": false,
+  "8": false,
+  "9": false,
+  "10": true,
+  "11": false,
+  "20": true
+ },
+ "autokey_PT": {
+  "vig": {
+   "K4_sat": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    46,
+    48,
+    49,
+    50
+   ],
+   "n_params": 96,
+   "null_mean_sat_params": 15.85,
+   "null_frac_with_any_sat": 1.0,
+   "positive_control": true
+  },
+  "beau": {
+   "K4_sat": [
+    6,
+    7,
+    8,
+    10,
+    32,
+    33,
+    36,
+    37,
+    39,
+    41,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "n_params": 96,
+   "null_mean_sat_params": 14.0,
+   "null_frac_with_any_sat": 1.0,
+   "positive_control": true
+  }
+ }
+}
