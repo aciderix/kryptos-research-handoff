@@ -1,0 +1,22 @@
+{
+ "K4_best": 6,
+ "K4_arg": [
+  "KA",
+  "KA",
+  "vig",
+  [
+   "grid flipv=False mirror=False d=-1 fb=False",
+   "AZ",
+   "H-L"
+  ]
+ ],
+ "null_max_dist": {
+  "4": 2,
+  "5": 86,
+  "6": 94,
+  "7": 16,
+  "8": 2
+ },
+ "n_geoms": 40,
+ "n_keysets": 1200
+}
