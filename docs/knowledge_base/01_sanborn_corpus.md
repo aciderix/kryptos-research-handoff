@@ -36,7 +36,7 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 | Écran de cuivre en S | **Côté gauche** : K1–K4 (869 caractères, dont 4 « ? »). **Côté droit** : tableau de Vigenère à alphabet KRYPTOS (867 lettres) | S [W-K] |
 | **« L » supplémentaire** dans une ligne du tableau | Il forme « HILL » verticalement dans la colonne de droite (lecture suggérée : chiffre de Hill, Bauer/Link/Molle) | S [W-K] |
 | Lettres **« YAR » surélevées** près du bas | Sanborn : « une lettre a été omise… pour des raisons esthétiques » (avril 2006) | S [W-K] |
-| Plaques de granit + cuivre à l'entrée (**K0**, Morse) | `SOS`, `RQ`/`YR`, `LUCID MEMORY`, `SHADOW FORCES`, `(WHA)T IS YOUR POSITION`, `DIGETAL INTERPRETATI(U)`, `VIRTUALLY INVISIBLE`, avec de nombreux « E » en surnombre. Certaines erreurs sont dites intentionnelles | C [RK0] |
+| Plaques de granit + cuivre à l'entrée (**K0**, Morse) | `SOS`, `RQ`/`YR`, `LUCID MEMORY`, `SHADOW FORCES`, `(WHA)T IS YOUR POSITION`, `DIGETAL INTERPRETATI(U)`, `VIRTUALLY INVISIBLE`, avec de nombreux « E » en surnombre. Certaines erreurs sont dites intentionnelles. **Les séquences Morse sont des palindromes de points et traits** : lues à l'envers, avec les substitutions Q=Y, N=A, D=U, V=B, F=L, G=W, C=AA, elles redonnent un texte (`SOS/SOS`, `RQ/YR`, `MEMORY/EQROMEM`…) (E. Dunin et E. Hall) | C [RK0] [ED-morse] |
 | **Rose des vents gravée pointant vers une magnétite** | La pierre aimantée dévie l'aiguille : le « nord » local n'est pas là où on l'attend. Direction de déviation rapportée : ouest-sud-ouest *(à vérifier)* | S [W-K] / C [inteltoday] |
 | Bois pétrifié, bassin, plantations | Éléments paysagers de l'installation | S [CIA] |
 
@@ -82,9 +82,44 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 | 2010 → 2020 | Sanborn | Indices positionnels (voir §5) | P | presse |
 | 2014 | Sanborn | « Il y a plusieurs horloges vraiment intéressantes à Berlin… Vous feriez mieux de vous plonger dans cette horloge-là. » | P | [RK4] [W-K] |
 | 2020 | Sanborn | « Le pouvoir réside dans un secret, pas sans lui. » | P | Washington Post (via [W-K]) |
-| août 2025 | Sanborn | Lettre ouverte : vente aux enchères, K5 existe, ne sera révélé qu'après la résolution de K4 | P | [OL25] (page non récupérée ici ; à relire) |
+| août 2025 | Sanborn | Lettre ouverte (texte intégral reçu) : vente du clair, *« AI has been a recent curse for Kryptos K4 and is responsible for a flood of meaningless decrypts »* ; un système de **vérification par IA** est en préparation pour le futur propriétaire ; *« If they don't [keep it secret], then (CLUE) what's the point? Power resides with a secret, not without it »* ; *« even when K4 has been solved, its riddle will persist as K5 »* | P | [OL25] |
 | nov. 2025 | Sanborn | « **Qui dit que c'est même une solution mathématique ?** » ; conseille la « créativité » | P | [SA-25b] |
 | 2025 | Sanborn | « Ils l'ont découvert. Ils ne l'ont pas déchiffré. Ils n'ont pas la clé. Ils n'ont pas la méthode. » ; « Ce qu'ils ont trouvé, c'est du texte brouillé, pas une résolution du cryptogramme. » ; « K4 a été découvert et il pointe vers K5. » | P | [RR-disc] |
+
+## 4 bis. Source primaire majeure : entretien d'histoire orale, Archives of American Art (14–16 juillet 2009)
+
+Entretien mené par Avis Berman, **relu et corrigé par Sanborn en 2020**. Environ 56 000 mots. Source : https://www.aaa.si.edu/collections/interviews/oral-history-interview-jim-sanborn-15700 (transcription PDF fournie par l'utilisateur, non versée dans le dépôt pour des raisons de droits). Citations originales en anglais, traduction entre crochets. **Niveau P.**
+
+**Sur la méthode**
+- *« Ed basically gave me—he gave me a primer of ancient encoding systems. And he also gave me some ideas for contemporary coding systems, more sophisticated systems, systems that didn't necessarily depend on mathematics. That was one of my prerequisites. »* [Ed m'a donné un abécédaire des systèmes anciens et des idées de systèmes contemporains… qui ne dépendaient pas nécessairement des mathématiques. **C'était une de mes conditions préalables.**]
+- *« So he told me about matrix codes and things like that. These are the parts of Kryptos that have already been cracked. So I can discuss them. But he told me about coding systems that I could then modify in a myriad of ways. So that even he would not know what it says. »* [Les **codes matriciels** relèvent des parties **déjà cassées**. Pour le reste, des systèmes qu'il pouvait **modifier d'une myriade de façons, pour que même Scheidt ne sache pas** ce que cela dit.]
+- *« I couldn't really do a code or invent a code based on ancient codes because they'd all been cracked. »* [Il ne pouvait pas se fonder sur des codes anciens, tous déjà cassés.]
+- *« We met two or three times. And that's what I based the whole thing on. »* [Deux ou trois rencontres avec Scheidt seulement.]
+- *« I traded what I told William Webster was the entire code to Kryptos; but whether I told him the truth remains to be seen. »* ; *« I didn't necessarily give them the whole code. »* [Même le directeur de la CIA n'a peut-être pas reçu tout le code.]
+- *« the outside has very simple codes, and the inside has complicated code »* [**L'extérieur** (affleurement de pierre devant l'entrée, plaques Morse) a des codes **très simples** ; **l'intérieur** (la cour) a le code **compliqué**. Les deux affleurements sont **parallèles**, « alignés comme des strates géologiques vus d'avion ».]
+
+**Sur les « textes brouillés » retrouvés en 2025 (explication directe)**
+- Pour le Department of Historical Intelligence : *« I took the text, this is the English text, and cut it into strips in sentences. And then took the sentences and rearranged them all in a different order. And glued them onto pieces of paper. I made two sets »* [Il a **découpé le texte anglais en bandes, phrase par phrase, les a recollées dans un autre ordre**, en deux jeux, pour qu'on puisse vérifier le contenu sans le mémoriser.]
+- ⇒ Les « scrambled texts » de l'archive sont du **clair mélangé par phrases**, pas une étape du chiffrement. **Correction** de l'interprétation antérieure (§6).
+
+**Sur la fabrication**
+- Police fournie et **stencilisée** avec Buddy Harris (General Type) pour que les centres des lettres ne tombent pas. Lettres **découpées à la scie sauteuse** dans le cuivre épais (Revere Copper), par 5 à 20 assistants pendant **deux ans et demi**. Aucune erreur de découpe n'était permise.
+- Le **tableau** a été découpé d'abord (neuf mois) pendant qu'il composait le chiffré de l'autre côté.
+- Il a **écrit le clair lui-même** en revenant d'Arizona où il avait acheté l'arbre pétrifié. Il avait d'abord pensé à demander un texte à John le Carré.
+
+**Sur ses thèmes (clés de lecture artistique)**
+- *« excavating and finding something that's been hidden for millennia »* : Carter et Toutânkhamon, Schliemann et Troie, les manuscrits de la mer Morte. Des objets **cachés puis retrouvés**.
+- *« the earth's magnetic field is invisible; and so I basically would work with compasses or lodestones in some way to visualize that field »* [**Boussoles et magnétites pour rendre visible le champ magnétique invisible.**]
+- *« exposing things unseen »* ; *« The aha was all things to me. »*
+- Une œuvre publique *« should operate somehow with the sun, some light; it should interact with the sun in some way, day and night »*. Les **cylindres de projection** sont nés de Kryptos : en rapprochant deux plaques du Kryptos dans son atelier et en y plaçant une lumière, **le texte découpé se projetait**.
+- Œuvre de Martinsburg (IRS, 1999) : une **magnétite de 11 tonnes** entre deux plaques de cuivre. Les noms des présidents entrent en lettres anglaises d'un côté et **ressortent en binaire** de l'autre. Autrement dit, un **changement de « base de langage » matérialisé par un aimant**. *(Parallèle notable avec la phrase de Scheidt en 2020 ; interprétation.)*
+- Ses œuvres ultérieures emploient 10 à 15 langues : *« it's like a code… it's a language code »*.
+- Égypte : voyages en **1977** et **1984** selon cet entretien. L'indice de 2025 parle d'un voyage en **1986**. **Écart à noter** (troisième voyage, ou erreur de date d'une des sources).
+- *« crippled by my lack of mathematics »* [handicapé par son absence de mathématiques].
+
+**Ce que cet entretien ajoute à la synthèse (§8)**
+- Le système de K4 est **un système contemporain modifié par Sanborn lui-même**, volontairement non mathématique, au point que **Scheidt lui-même ne connaîtrait pas le résultat**. C'est cohérent avec la remarque de Scheidt en 2005 : il ne sait pas ce que Sanborn a changé.
+- Il distingue **codes simples à l'extérieur** et **code compliqué à l'intérieur**, deux ensembles **alignés** : une relation spatiale délibérée entre les deux parties du site.
 
 ## 5. Indices officiels sur K4
 
@@ -107,7 +142,7 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 - Le lot vendu 962 500 $ contient notamment : le clair manuscrit de K4 avec une lettre signée de Scheidt, **« le système de codage original de K4 »**, les **clairs manuscrits utilisés pour la découpe de l'écran de K4 (2 pièces)**, les « textes brouillés montrés au Department of Historical Intelligence », un **K1 alternatif de 1988** avec sa charte, et un **« K4 alternatif de 1988 » = K5** avec sa charte. **[P]** [RR-lot]
 
 **Ce qui en ressort** *(interprétation)* :
-- Le mot « **brouillé** » (*scrambled*) est employé par Sanborn lui-même pour l'état intermédiaire du texte.
+- ~~Le mot « brouillé » désignerait l'état intermédiaire du texte.~~ **Corrigé le 23/09** : d'après l'entretien de 2009 (§4 bis), les textes « brouillés » sont le **clair découpé par phrases et remélangé** pour la CIA. Ce n'est pas une étape du chiffrement.
 - « Clairs utilisés pour la **découpe de l'écran** » indique que la gravure elle-même est une étape documentée du procédé.
 - K5 étant un « K4 alternatif » avec sa propre charte et des mots aux **mêmes positions**, la méthode de K4 est **positionnelle** et réutilisable avec une autre charte.
 
@@ -137,14 +172,13 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 
 ## 9. Questions ouvertes pour enrichir cette base
 
-- Relire l'original de la **lettre ouverte d'août 2025** (page Dunin non récupérée automatiquement).
 - Retrouver le **texte exact du discours d'inauguration de 1990** (« deux systèmes »).
 - Transcription vérifiée de **K0** (Morse), avec la position physique de chaque plaque et de chaque « E » en surnombre.
 - **Direction exacte** de la rose des vents et de la déviation induite par la magnétite (relevé sur site ou photos datées).
 - Relevé métrique de l'écran K4 : lignes, retraits, « ? », lettres surélevées « YAR ».
 - Différences **Antipodes / Kryptos** lettre à lettre (Antipodes contient K4 ?).
 - Interviews vidéo : NOVA 2013 (feuille K3 avec « P/C »), Big Techday 2013, LEMMiNO.
-- ~~Article de Bean~~ : intégré le 23/09 (texte fourni par l'utilisateur). À lire ensuite : **l'entretien d'histoire orale de Sanborn aux Archives of American Art (14–16 juillet 2009)**, source primaire longue sur son œuvre : https://www.aaa.si.edu/collections/interviews/oral-history-interview-jim-sanborn-15700 ; la **transcription Scheidt 2020 (A.J. Jacobs)** ; les comptes rendus du **dîner de 2011** (Hannon).
+- ~~Article de Bean~~ et ~~entretien AAA 2009~~ : intégrés le 23/09. ~~Lettre ouverte d'août 2025~~ : texte intégral reçu (voir ci-dessous). Reste : la **transcription Scheidt 2020 (A.J. Jacobs)** ; les comptes rendus du **dîner de 2011** (Hannon).
 
 ## Sources
 
@@ -160,5 +194,8 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 - [RK0] Rumkin, K0 : https://www.rumkin.com/reference/kryptos/k0/
 - [KF-m] Kryptos Beyond K4, *matrix codes* : https://kryptosfan.wordpress.com/tag/matrix-codes/
 - [Bean21] R. Bean, *Cryptodiagnosis of “Kryptos K4”*, HistoCrypt 2021 (texte fourni par l'utilisateur) ; code : https://github.com/RichardBean/k4testing
+- [ED-morse] E. Dunin, page Morse (palindromes, avec E. Hall) : https://www.elonka.com/kryptos/ (fichier fourni par l'utilisateur)
+- [Stein] D. D. Stein, *The Puzzle at CIA Headquarters: Cracking the Courtyard Crypto*, CIA, 1999 : K1–K3 résolus **au crayon et au papier, sans ordinateur**. Il note : « présenter la solution sans la méthode, c'est un peu tricher ». Miroir : pages de David Allen Wilson (fournies par l'utilisateur), qui transcrivent aussi les textes d'autres œuvres de Sanborn (*Lingua*, Cleveland, Ohio)
+- [AAA09] Entretien d'histoire orale, Archives of American Art, 14–16 juillet 2009 : https://www.aaa.si.edu/collections/interviews/oral-history-interview-jim-sanborn-15700
 - [inteltoday] https://inteltoday.org/2021/08/14/kryptos-the-mystery-of-the-morse-messages/
 - Dépôt : `docs/documentary_research_2026_09_21.md`, `docs/k3_chart_layout_and_route_2026_09_19.md`, `docs/nyt_k1k2_chart_physical_layout_2026_09_19.md`
