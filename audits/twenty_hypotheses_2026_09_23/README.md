@@ -27,3 +27,15 @@
 - **#19** transposition par colonnes à clé DYAHR / YAR, avant ou après QIII tout alphabet, p 1–26.
 - **#20** substitution selon la ligne physique (« ID BY ROWS ») puis lecture en colonnes de bas en haut sur la largeur 31 (geste de K3), QIII tout alphabet.
 Témoins : chiffrés aléatoires pour chaque configuration où K4 passe ; verdict final comparé au hasard.
+
+## Résultats (23/09, nuit)
+| # | Test | Résultat | Verdict |
+|---|---|---|---|
+| 2 | Partition par lettres à îlot fermé {A,B,D,O,P,Q,R}, QIII tout alphabet | compatible seulement là où le hasard passe ; p = 19 (phénomène distance 38 connu) | aucun signal |
+| 3 | Décalage par ligne physique + clé périodique | éliminé Vig p 1–11, 17 ; Beau p 1–5, 9, 10, 19 ; ailleurs au niveau du hasard | aucun signal |
+| 8 | Chiffres des coordonnées de K2 comme clé (QI–QIV, toutes phases, inversés) | **0** ; témoin 0/20 (test puissant) | **éliminé** |
+| 14b | 9 312 affines x → a·x + b mod 97, alphabets fixés, avant/après, 12 conventions | **aucune** compatible pour p ≤ 21 | **éliminé** (p ≤ 21) |
+| 14a | 256 permutations (x → a·x, forme de K3 a(x+1) − 1, x → g^x, logarithmes) mod 97, QIII tout alphabet | K4 : 9 / 76 / 260 cases compatibles (p ≤ 8 / 10 / 12) ; **témoin global** (6 chiffrés aléatoires, même balayage) : 14–33 / 69–117 / 262–327 ⇒ **K4 en dessous de presque tous les aléatoires** ; déchiffrements des cas p = 7 : lettres aléatoires (un fragment « LANGLAD » : coïncidence) | **aucun signal** |
+| 15 | Générateur congruentiel mod 26 (toutes graines, a, c), alphabets fixés ; graine L tout alphabet | jamais ≥ 8/24 ; graine L : 0 compatible | **éliminé** |
+| 19 | Colonnes à clé DYAHR / YAR + QIII tout alphabet | K4 35 cases compatibles ; 10 aléatoires : 13–47 (3 font mieux) | aucun signal |
+| 20 | Substitution selon la ligne (« ID BY ROWS ») puis colonnes de bas en haut en largeur 31 | forme exacte incompatible ; 3 variantes (clé en plus de période 7) au niveau du hasard (20–25 %) | **éliminé** (forme proposée) |
