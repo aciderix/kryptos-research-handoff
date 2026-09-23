@@ -29,7 +29,7 @@
 
 ## 2. Le site : ce que l'artiste met physiquement à disposition
 
-Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à Langley. **[P]** [CIA] **[S]** [W-K]
+Kryptos n'est pas seulement l'écran de cuivre. Inauguré à Langley le **5 novembre 1990, 15 h**, selon le programme imprimé et la transcription des discours (pièces 15 et 17 du lot RR Auction, §4 quinquies). La date du **3 novembre**, donnée par la CIA, Wikipédia et d'autres, est contredite par ces deux documents d'époque. **[P]** [RR-lot] ; ~~[CIA] [W-K]~~
 
 | Élément | Description | Niveau |
 |---|---|---|
@@ -69,7 +69,7 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 | L'axe N–S gravé serait tourné d'environ 15° vers l'ouest (≈ 345°) | fil Reddit (u/cjneutron) | **Lu dans l'archive** : c'est une estimation « à l'œil d'après le trottoir de l'entrée », **pas une mesure** (et non « par ombres et satellite », comme l'affirmait Gemini) |
 | Une vraie boussole posée sur la rose pointerait vers la magnétite | déduction | Plausible (c'est le propos de l'œuvre), **jamais mesuré publiquement** à notre connaissance |
 | Le cap orthodromique de Kryptos vers la Weltzeituhr (Alexanderplatz) est de 44,4°, c'est-à-dire le NE | solvekryptos.com | **Calcul vérifié ici : 44,4°** (coordonnées de K2 → 52,5215 N, 13,4133 E). Mais c'est le **NE (45°), pas l'ENE (67,5°)**. La source est le site du « clair reconstruit » (niveau X) : **risque de raisonnement circulaire** |
-| La Weltzeituhr repose sur une mosaïque en rose des vents | solvekryptos.com | **Invérifié** ici |
+| La Weltzeituhr repose sur une mosaïque en rose des vents | solvekryptos.com ; repris par la Cipher Museum (2025/26) | **Invérifié** : deux sources secondaires, sans doute dépendantes l'une de l'autre |
 | Photos de K4 en haute définition dans le NYT et sur WJLA | — | **Faux ou inaccessible** : NYT bloqué (403) ; WJLA ne reprend que les photos CIA |
 
 **Observation à garder en tête :** le crib `EASTNORTHEAST` est une **direction de boussole**, et l'installation contient une **boussole volontairement faussée par un aimant**. Chez un artiste dont c'est le sujet central, ce rapprochement est de l'ordre de l'intention, pas du hasard. *(Interprétation. Il ne fixe aucun paramètre.)*
@@ -340,6 +340,16 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 - ~~Le mot « brouillé » désignerait l'état intermédiaire du texte.~~ **Corrigé le 23/09** : d'après l'entretien de 2009 (§4 bis), les textes « brouillés » sont le **clair découpé par phrases et remélangé** pour la CIA. Ce n'est pas une étape du chiffrement.
 - « Clairs utilisés pour la **découpe de l'écran** » indique que la gravure elle-même est une étape documentée du procédé.
 - K5 étant un « K4 alternatif » avec sa propre charte et des mots aux **mêmes positions**, la méthode de K4 est **positionnelle** et réutilisable avec une autre charte.
+
+### Triage : The Cipher Museum, page « Kryptos » (https://ciphermuseum.com/ciphers/kryptos.html, lue le 23/09)
+Page de vulgarisation **tertiaire**, qui cite Wikipédia, Dunin, Stein, le NYT et RR Auction. **Rien de nouveau** pour nos questions ouvertes :
+- son plan de l'installation est un **schéma** en trois zones (entrée, place, pelouse), sans position des dalles ni sens de marche ;
+- ses messages Morse reprennent la liste de Wikipédia (DIGETAL INTERPRETATIT) ;
+- les positions des cribs sont données en base 1 (EAST 22–25, NORTHEAST 26–34, BERLIN 64–69, CLOCK 70–74) et concordent avec les nôtres en base 0.
+
+À ne **pas** reprendre, faute de source : la date d'installation « 3 novembre 1990 » (le programme dit le 5), Scheidt notant la difficulté « 9 sur 10 », et un K4 qui « change de méthode » (formulation non sourcée). Deux affirmations ont un intérêt, mais restent **secondaires** :
+- **l'attribution de LAYER TWO à Nicole Friedrich** (2005–2006) ;
+- **la confirmation par Sanborn, en 2025, que CLOCK désigne la Weltzeituhr**, déjà dans notre base [SA-25b].
 
 ## 7. Informations exclues (niveau X)
 
