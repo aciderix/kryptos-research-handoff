@@ -27,6 +27,7 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
 - `docs/` — protocole, frontière expérimentale, registres, contexte K1–K4 et documentation de recherche.
 - `audits/` — audits de fiabilité, authenticité, cohérence et cartographie des cellules ouvertes.
 - `MEMORY.md` — mémoire opérationnelle utile à la reprise.
+- `docs/knowledge_base/` — **bases documentaires : tout le savoir public sur Sanborn, et tout ce qui a déjà été testé (à lire avant tout calcul)**.
 - `docs/k4_mechanism_reasoning_2026_09_22.md` — raisonnement « mécanisme plutôt que clé » et éliminations algébriques (SAT, alphabets inconnus) ; code dans `audits/algebraic_elimination_2026_09_22/`.
 - `exhaustion_log.json` — copie documentaire du journal d’antériorité, avec les chemins locaux neutralisés.
 

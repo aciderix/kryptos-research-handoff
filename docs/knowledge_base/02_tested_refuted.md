@@ -1,0 +1,161 @@
+# Base documentaire 2 — Ce qui a déjà été testé (pour ne pas le refaire)
+
+**Version :** 2026-09-23 (première consolidation)
+**Règle d'usage :** avant tout calcul, chercher ici la famille concernée. Si elle y figure, lire la **portée exacte** (alphabets, périodes, alignement, textes). Un nouveau test n'est justifié que s'il sort **explicitement** de cette portée, et dit en quoi.
+
+Rappels de vocabulaire (repris de `docs/family_registry.md`) :
+- **Éliminé sous portée** : impossible ou sans signal *dans les hypothèses précisées*, pas en général.
+- **Registre incomplet** : un script existe mais son résultat n'est pas archivé. Ce n'est pas une élimination.
+- **Revendication seulement** : une « solution » publique existe, sans méthode vérifiable.
+
+Sources :
+- **Dépôt** : `exhaustion_log.json` (1 044 entrées : 732 actives, 310 épuisées, 2 remplacées), `docs/family_registry.md`, `MEMORY.md`, `audits/`.
+- **Campagne algébrique du 22/09** : `audits/algebraic_elimination_2026_09_22/`, rapport `docs/k4_mechanism_reasoning_2026_09_22.md`.
+- **Communauté** : références en fin de document.
+
+---
+
+## 1. Faits établis qui encadrent tout le reste
+
+| Fait | Portée | Source |
+|---|---|---|
+| Aucune clé **périodique** (Vigenère, Beaufort, Beaufort variant, en AZ ou KA) ne passe sous alignement direct pour les périodes testables ; les contraintes de Bean ne laissent que 624 suites de clé possibles aux 24 positions | alignement direct (H1), additif | dépôt `MEMORY.md` (Bean, contraintes linéaires 2026-04-10) ; Bean 2021 |
+| Périodes 27–29 : éliminées formellement | H1 | dépôt `e_period_27_29_formal` |
+| **Quagmire III avec n'importe quel alphabet mélangé** (26! possibles), sens Vigenère, périodique 1–26, 31–40, 42–52 : impossible | H1 | campagne 22/09 (nouveau par rapport au registre, qui testait des alphabets de listes) |
+| **Transposition pure** : exclue (la fréquence des lettres ne correspond pas à de l'anglais) | toute transposition sans substitution | dépôt `e_audit_05_scytale_cylinder`, `docs/two_systems_landscape.md` |
+| **Autoclave** (sur clair ou chiffré, tout amorçage) : structurellement impossible | H1, alphabets AZ/KA | dépôt `e06_autokey`, `e_autokey_bidir_extended`, `e_s_69`, `e_s_85`, `e_autokey_bootstrap_00` |
+| **Hill** 2×2 (et variantes par anomalies) : éliminé algébriquement | H1 | dépôt `e04_hill_cipher`, `e_audit_05_hill_2x2_lyar`, `k4_algebraic_eliminations` ; Numberworld (dét. insoluble) |
+| **Bifide, trifide, fractionnements** : famille éliminée par preuves structurelles | périodes testées | dépôt `e_frac_21`, `e_s_09`, `e_s_42`, `e_s_44` |
+| **Playfair**, **César**, **affine/monoalphabétique**, **Atbash** : éliminés | — | dépôt `e_playfair_01_full_disproof`, `disprove_caesar_rot`, `e_affine_mono_disproof`, `e_atbash_03_crib_drag` |
+| **Insérer des nulles** ne sauve pas une clé périodique | H1 + nulles | dépôt `e_solve_10_null_proof` ; confirmé avec alphabet inconnu, p ≤ 11, campagne 22/09 |
+
+## 2. Par famille
+
+### 2.1 Substitutions polyalphabétiques et tableaux
+
+| Ce qui a été testé | Portée | Statut | Où |
+|---|---|---|---|
+| Vigenère/Beaufort périodiques avec mots-clés thématiques | listes de mots-clés, AZ/KA | éliminé sous portée | dépôt `e_poly_01..03`, `e_rerun_01/02`, `e_tableau_20` |
+| Quagmire III/IV, balayage d'indicateurs | 6 alphabets × 10 clés × 26 indicateurs | éliminé (0/24) | `e_aaa_indicator_sweep_07` |
+| Quagmire III, axe « tableau » (PALIMPSEST, ABSCISSA, LATITUDE, MAGNETIC, COMPASS) | 22 périodes × 3 indicateurs | éliminé sous portée | `f_quagmire_tableau_axis_completion_2026_06_09` |
+| Quagmire III masqué (nulles arbitraires) | 915 masques × 18 mots × p 3–12 | éliminé | `masked_quagmire_iii_probe_2026_05_25` |
+| Tableaux KA non standard, navigation algébrique | — | éliminé sous portée | `e_ka_01`, `e_ka_02`, `e_tableau_nav_001_algebraic` |
+| Alphabets étendus (27–30 symboles), Vigenère homophone | community (Kimmo) | éliminé | `e_extended_alphabet_vig_27/28_30`, `e_homophonic_vigenere_duplet` |
+| Chaocipher | 142 000 paires d'alphabets de mots-clés | bruit (7/24) | `e_chaocipher_exhaustive_01` |
+| Deux couches additives (KA dedans, AZ dehors) | thématique | éliminé sous portée | `e_two_layer_kainner_01` |
+| Quagmire I, II, III, IV **avec alphabets inconnus** | p 1–52 | III-Vig éliminé ; I, II, IV **non tranchables** par 24 lettres | campagne 22/09 §2.2 |
+| Sélecteur limité aux lettres de KRYPTOS/PALIMPSEST/ABSCISSA | 6 conventions | impossible (≥ 12 lignes distinctes nécessaires) | campagne 22/09 §2.1 |
+
+### 2.2 Clés structurées et générateurs
+
+| Ce qui a été testé | Portée | Statut | Où |
+|---|---|---|---|
+| Clé ligne + colonne (« ID BY ROWS », codes matriciels 2D) | algébrique | éliminé | dépôt `e_s_10_additive_grid_key`, `e_solve_17`, `e_solve_19` ; **doublon** : campagne 22/09 §2.1 |
+| Clés progressives, polynomiales, Fibonacci, récurrences | Bean | éliminé | `e_s_90`, `e_s_84`, `e_s_50`, `e_recurrence_00` |
+| Gromark / clé numérique en chaîne | + colonnes largeur 7 | éliminé sous portée | `e_s_67` ; carnet utilisateur (forme canonique, bases 3–12) |
+| **Gromark, base 10, amorce de 5 chiffres, alphabets clair et chiffré libres** | espace entier examiné (inégalités + base de Gröbner) | **39 amorces compatibles** avec les 24 lettres (dont 26717 ≡ 84393). Plaintexts « proches de l'anglais » trouvés par recuit, aucun convaincant. **Non éliminé** | Bean 2021, §3 ; code https://github.com/RichardBean/k4testing |
+| Gromark, autres bases/longueurs | base 10 à 4 chiffres : 3 amorces (3301, 6740, 9903) ; base 8 à 5 chiffres : 4 amorces (dont 00351, 00537, période 84) | ouvert | Bean 2021 |
+| ⚠ **Désaccord à résoudre** | le carnet utilisateur trouve **0** amorce compatible (« substitution fixe quelconque », bases 3–12), Bean en trouve **39** en base 10. Cause probable : le modèle de Bean laisse **les deux alphabets libres**, pas le carnet (à vérifier avant tout nouveau calcul) | — | carnet ; Bean 2021 |
+| Clé interrompue, pas dépendant des données | 8 modèles | éliminé | `e_interrupted_key_vig_01` |
+| Chiffre soviétique en trois étapes, VIC, Ubchi | — | éliminé sous portée | `e_soviet_threestep_01`, `e_full_vic_pipeline_k4`, `e_ubchi_null_insertion_01` |
+| Wichmann-Hill (PRNG) | graines 0–50 | éliminé | Numberworld |
+
+### 2.3 Clés courantes (running key)
+
+| Source de clé | Portée | Statut | Où |
+|---|---|---|---|
+| Textes K1, K2, K3 (clairs) | AZ/KA, puis alphabets mélangés de mots-clés (672 M de vérifications), puis avec transposition largeur 1–10 (47 G) | éliminé | `blitz_plaintext_archaeology2`, `e_audit_07_k3_running_key`, `e_aaa_runkey_bijection_08b/08c` ; **doublon partiel** : campagne 22/09 (avec *tout* alphabet) |
+| K1–K3 + routes de K3 et grilles 7/14/21 | 7 272 combinaisons, AZ/KA | éliminé (max 8/24 = hasard) | campagne 22/09 `route_runkey_fixed.py` |
+| Carter, *The Tomb of Tut-ankh-Amen* (vol. 1, Gutenberg) | décalages, 52 routes | éliminé sous portée | `f_non_direct_alignment_carter_tape`, `f_carter_gutenberg_running_key_nondirect` |
+| Corpus égyptiens, textes thématiques, italien/espagnol | + colonnes largeur 7 | éliminé (0 sur 17 milliards) | `e_s_103`, `e_diana_constant_rk_01`, `e_egypt_01`, `e_team_italian_spanish_scan` |
+| Texte Morse K0 | — | éliminé sous portée | `e_k0_running_key_01` |
+| Clé courante générique « livre » | — | **ouvert** (non réfutable sans connaître le texte) | Numberworld ; MEMORY (clé courante « rétrogradée ») |
+
+### 2.3 bis Diagnostic statistique de Bean (2021)
+
+| Constat | Valeur | Conséquence tirée par Bean |
+|---|---|---|
+| Bigrammes verticaux répétés en largeur 21 (11 sur 76) | 1 permutation aléatoire sur 6 750 | propriété probablement « causale » du chiffrement |
+| « Différences mineures » (Materna) : lettres claires de {K,R,Y,P,T,O,S} proches de leur chiffré dans l'alphabet standard | 1 sur 5 520 | alphabet chiffré « proche » de A–Z (mot-clé ?) |
+| Distances entre les lettres chiffrées d'une même lettre claire (moyenne 3,6 ; 10 sur 13 < 5) | 1 sur 240 / 1 sur 310 | **correspondance un-à-un, pas de transposition** |
+| Playfair sérié en largeur 21 et 7 | exclus par les cribs (ZT, BQ) | — |
+| Hill | argument contre : 97 est premier | — |
+
+### 2.4 Transpositions et routes
+
+> **Note (23/09) :** Sanborn affirme lui-même la correspondance lettre à lettre (CNN 2019, base 1 §4), et Bean la soutient statistiquement. Les familles de cette section sont donc **défavorisées par la source primaire**, en plus d'être largement testées.
+
+| Ce qui a été testé | Portée | Statut | Où |
+|---|---|---|---|
+| Grilles et routes rectangulaires | jusqu'à 20×20 | éliminé sous portée | `e_grid_route_20x20`, `e_route_definitive` |
+| Colonnes simples, doubles, Myszkowski, AMSCO, Nihiliste | largeurs usuelles | éliminé sous portée | `dragnet_v4`, `e_s_06`, `e_s_19`, `e_frac_46..48`, `e_s_53` |
+| Transposition puis substitution périodique (« TABP ») | 6 165 transpositions + 252 840 composées, AZ/KA, p 1–50 | éliminé | `f_tabp_*` |
+| Alignement libre (cribs n'importe où) | 6 millions de configurations, et multicouche | éliminé sous portée | `f_free_alignment_classical`, `f_solver_free_alignment` |
+| **Route de K3 appliquée à K4** | rotation style K3 | bruit (4/24) | `e_cfm_07_k3_rotational`, `e_hybrid_04_reverse_k3`, `e_s_58` ; **doublon élargi** : campagne 22/09 §2.5 (les 102 variantes exactes par multiplication modulaire, tout alphabet, p 1–26) |
+| Colonnes KRYPTOS + Quagmire III, alphabet inconnu | p 1–26 | pas de signal | campagne 22/09 §2.3 |
+| Grille 98 = 14×7 avec le « ? » | — | éliminé sous portée | dépôt `e_s_130_checkpoint_98char`, `e_s_03`, `e_s_04` ; **doublon** : campagne 22/09 §2.4 |
+| Routes selon la rose des vents | 576 configurations | bruit (4/24) | `e_compass_route_01` |
+| Grilles tournantes, grilles de Cardan, Fleissner | — | bruit | `e_s_18`, `e_s_70`, `blitz_rotation_180`, `blitz_grille_*` |
+| Carré latin (Swagman), bandes (strip cipher) | — | bruit | `e_swagman_01`, `blitz_strip_*` |
+| Paires digraphiques 8×13 → 31×3 | — | revendication non validée | Nash Associates (2025) |
+
+### 2.5 Masques, nulles, stéganographie
+
+| Ce qui a été testé | Statut | Où |
+|---|---|---|
+| Palette {B,G,I,K,O,W,Z} et masques de nulles dérivés | **RETIRÉ** (artefact) | `C-PALETTE-01`, `stego_mechanism/*` |
+| Masques de nulles géométriques, par colonnes, grille 28×31 | éliminé sous portée | `e_two_sys_06..08` |
+| Morse : « E » en surnombre comme masque | **registre incomplet** (scripts jamais exécutés) | F-10 |
+| Masques issus des anomalies physiques | bruit (5/24) | `e_team_anomaly_extraction` |
+
+### 2.6 Idées thématiques et physiques
+
+| Ce qui a été testé | Statut | Où |
+|---|---|---|
+| Horloge de Berlin (Mengenlehreuhr, Weltzeituhr) comme route ou sélecteur | registre du dépôt actif (non conclu) ; mruckman1 : 0/48 masques UTC | `thematic/berlin_clock/*` ; [MR] |
+| Mots-clés « Operation Gold », tunnel de Berlin, cryptonymes CIA | éliminé sous portée | `e_opgold_*`, `e_cryptonym_crib_screen_01` |
+| Coordonnées, dates, abscisse | éliminé sous portée | `e_s_60`, `e_roman_03b/04b`, `e_k2_coords_transposition` |
+| Fautes d'orthographe (deltas) comme clé | éliminé | `e02_misspelling_deltas`, `e_bespoke_03` |
+| Différences Antipodes / Kryptos | éliminé sous portée | `e_antipodes_11/12` |
+| Superposition cuivre ↔ tableau (lettre en face) | forme naïve : 1/24 ; forme générale **ouverte** | carnet utilisateur ; F-07 |
+| Géométrie mesurée de l'écran | **jamais testée** (donnée absente) | [MR] ; `current_experimental_frontier.md` |
+
+### 2.7 « Solutions » revendiquées publiquement (non validées)
+
+| Revendication | Problème relevé | Où |
+|---|---|---|
+| SolveKryptos (7×14, cartes auxiliaires) | les cartes auxiliaires sont ajustées sur le clair proposé | F-06 |
+| « Genie Engine » (A. Glanz), horloge de Berlin | réplication indépendante manquante | F-05 |
+| Nash Associates (digraphes) | explicitement incomplète | F-03 |
+
+## 3. Ce qui reste réellement ouvert
+
+Les familles ci-dessous sont ouvertes parce que **l'information manque**, pas parce que personne n'y a pensé :
+
+1. **Géométrie physique mesurée** de l'écran K4 (lignes, espacements, « ? », « YAR », « L » en trop) et de ses rapports au tableau et au site (rose des vents, magnétite). Voir base 1, §8–9.
+2. **Masques Morse (F-10)** : jamais réellement exécutés dans le dépôt, mais ils exigent une transcription vérifiée de K0.
+3. **Superposition physique (F-07) et opérations sur la charte (F-08)** : il faut le plan coté.
+4. **Clé courante tirée d'un texte non identifié** : impossible à réfuter avec 24 lettres (campagne 22/09 §5).
+5. **Quagmire I, II, IV à période moyenne** : 24 lettres ne suffisent pas mathématiquement.
+
+## 4. Mes tests du 22/09 : lesquels étaient des redites ?
+
+| Test | Nouveau ? |
+|---|---|
+| Quagmire III périodique avec **tout** alphabet mélangé | **Probablement nouveau dans cette forme** (le registre utilisait des listes de mots-clés) |
+| Ligne+colonne, autoclave, progressive (alphabets fixes) | **Redite** (E-S-10, e_autokey_*, E-S-90) |
+| Périodicité robuste aux nulles | **Redite** (E-SOLVE-10), élargie à tout alphabet |
+| Clé courante K1–K3 | **Redite** (E-AUDIT-07, bijection 08b/08c), élargie à tout alphabet |
+| Grille 98 = 14×7 | **Redite** (E-S-130) |
+| Route de K3 sur K4 | **Redite élargie** (E-CFM-07), avec en plus la formulation exacte par multiplication modulaire qui ferme la famille |
+| Route de K3 + clé courante des textes de la sculpture | Nouveau comme combinaison, sans signal |
+
+## Références communautaires
+
+- [MR] mruckman1, *K4 synthesis* (63 verdicts, « toutes les approches déterministes et légitimes sont épuisées » selon l'auteur ; restent la géométrie mesurée et un éventuel 5ᵉ crib) : https://github.com/mruckman1/k4_cipher/blob/main/docs/K4_synthesis.md
+- rayborg, *kryptos-k4-dashboard* (registre de 100 méthodes, majoritairement ouvertes, outillage) : https://github.com/rayborg/kryptos-k4-dashboard
+- Numberworld, *K4 abnormalities and solution attempts* (Hill, clé courante, Wichmann-Hill ; anomalie des lettres doubles en 7×14) : https://www.numberworld.blog/2017/03/kryptos-cipher-part-2.html
+- Numberworld, *Part 4* (Quagmire + permutation par coordonnées) : https://www.numberworld.blog/2020/07/kryptos-cipher-part-4.html
+- R. Bean, *Cryptodiagnosis of “Kryptos K4”*, HistoCrypt 2021 : https://richardbean.id.au/papers/03_Bean_HistoCrypt2021.pdf (intégré le 23/09)
+- Kryptos Beyond K4 (blog) : https://kryptosfan.wordpress.com/
+- Elonka Dunin : https://www.elonka.com/kryptos/
