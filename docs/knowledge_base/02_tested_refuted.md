@@ -86,7 +86,7 @@ Sources :
 
 ### 2.4 Transpositions et routes
 
-> **Note (23/09) :** Sanborn affirme lui-même la correspondance lettre à lettre (CNN 2019, base 1 §4), et Bean la soutient statistiquement. Les familles de cette section sont donc **défavorisées par la source primaire**, en plus d'être largement testées.
+> **Note (23/09, corrigée le soir) :** Sanborn affirme la correspondance lettre à lettre (CNN 2019), mais **recule** la même année (déjeuner de mars 2019 : il ne s'engage que sur « 97 caractères » et « BERLIN au 64ᵉ »). La transposition **pure** reste impossible (comptes de lettres) ; une transposition **locale + substitution** n'est défavorisée que par la statistique de Bean, pas par une parole fiable.
 
 | Ce qui a été testé | Portée | Statut | Où |
 |---|---|---|---|
