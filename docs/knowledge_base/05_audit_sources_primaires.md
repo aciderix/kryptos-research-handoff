@@ -103,11 +103,11 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 | 6/10 | Pre-Production and Notes, 1990–1999 | 33 | ref75 | **oui** |
 | 6/11 | Codes Research, c. 1980s–c. 2002 | 37 | ref77 | **oui** |
 | 6/12 | Dedication, 1990 | 12 | ref78 | **oui (en entier)** |
-| 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | 6/15 (ref256) et 6/17 (ref258) **oui** ; 6/13, 6/14, 6/16 en cours |
+| 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | **oui, les 5** (lecture sur planches contact) |
 | 6/18 | Cracked Codes and Charts, 1990–c. 2013 | 17 | ref80 | **oui** |
 | 6/19 | Cracked Codes and Charts, c. 1999–2010 | 124 | ref253 | **oui (124/124)** |
 | 16/2 | Scrapbook Kryptos, c. 1975–1993 | 106 | ref215 | **oui** (pages Kryptos 35–62 en haute définition) |
-| 9/4, 9/5, 1/11 | Miscellaneous ; « Dead Sea Scrolls » (1964) | 59, 42, 16 | ref119, ref252, ref31 | non |
+| 9/4, 9/5, 1/11 | Miscellaneous ; « Dead Sea Scrolls » (1964) | 59, 42, 16 | ref119, ref252, ref31 | 1/11 **oui** (sans rapport) ; 9/4 et 9/5 survolés (catalogues, revues ; OCR plein texte non terminé) |
 | 18/10–11 (addition de 2026) | Articles 1990–2015 ; Posters | — | pas de lien | non numérisé |
 | 11/34 (photos) | Kryptos, undated | — | pas de lien | non numérisé |
 
@@ -240,3 +240,24 @@ Contenu :
 4. **Précédent légitime** : le *Cyrillic Projector* a été résolu publiquement en 2003. Ces feuilles en montrent le procédé. **Aucune donnée ne concerne le clair de K4.**
 
 **Statut : vu en entier ; exploité (méthode personnelle de Sanborn en 1990–1991) ; aucune piste de calcul nouvelle.**
+
+### 6/13, 6/14, 6/16 « Correspondence, 2007–2015 » : lus (planches contact)
+
+**Uniquement des envois de tiers**, sans aucune réponse de Sanborn. La plupart viennent de deux ou trois correspondants de Floride (Gainesville, Jacksonville) et de Virginie-Occidentale : numérologie biblique, « BERLIN », « Can you see anything? », anagrammes, grilles, album photo d'un cylindre. **Statut : vu ; rien pour K4.**
+
+### 1/11, 9/4, 9/5
+- **1/11** : dissertation scolaire de Sanborn sur les manuscrits de la mer Morte (« Sacred Studies 12 », mai 1964) et notes de cours. **Sans rapport avec Kryptos.**
+- **9/4 et 9/5** (« Printed Material ») : catalogues et revues des années 1980–1990 (symposium de Kawasaki, *Sculpture* 1996, *NC Arts* 1997 avec le *Cyrillic Projector* de Charlotte, Fairfax Executive Park…). Survolés sur planches ; l'OCR plein texte n'est pas terminé. **Priorité basse** : imprimés publics sans lien direct avec le chiffrement de 1988–1990.
+
+## Bilan de l'audit (23/09)
+
+| Priorité | Dossier | Apport |
+|---|---|---|
+| **Haute** | 6/9 (livre) | Chronologie : tableau avant clair ; clair révisé jusqu'en 1989 ; K3–K4 découpés par une seule personne ; clé **partielle** remise à Webster |
+| **Haute** | 16/2 (presse 1990–1991) | Système de K4 « developed by and encoded for Sanborn » par Scheidt (1990) ; « multiple codes » ; « **keywords** » dans l'enveloppe de Webster (AP 1991) |
+| **Haute** | 6/8 (feuilles russes) | Pratique réelle de Sanborn en 1990–1991 : Quagmire II à mot-clé, grille P/K/C, coquilles de clé |
+| Moyenne | 6/12, 6/18 | Transcription de la dédicace ; « 7×88 » élucidé ; presse de janvier 1990 |
+| Moyenne | 6/15 | GSA 1993 (« primer… codes become more complex ») ; plaques de l'entrée déplacées en 2008 |
+| Nulle | 6/10, 6/11, 6/13, 6/14, 6/16, 6/17, 6/19, 1/11 | Administratif, textes du *Cyrillic Projector*, propositions de tiers |
+
+**Conclusion de l'audit** : aucune source primaire accessible ne donne de règle nouvelle pour K4. Les sources resserrent deux points. (1) Le système de K4 est de **Scheidt** et repose sur des **mots-clés**, en **plusieurs couches**. (2) Le répertoire personnel de Sanborn se limite à la famille Quagmire, **déjà éliminée** pour K4. Nous n'avons pas retrouvé la cassette de la dédicace ni le dossier « Stencil Patterns » (hors ligne).
