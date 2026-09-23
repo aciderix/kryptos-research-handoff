@@ -74,6 +74,26 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 
 **Observation à garder en tête :** le crib `EASTNORTHEAST` est une **direction de boussole**, et l'installation contient une **boussole volontairement faussée par un aimant**. Chez un artiste dont c'est le sujet central, ce rapprochement est de l'ordre de l'intention, pas du hasard. *(Interprétation. Il ne fixe aucun paramètre.)*
 
+### K0 (Morse de l'entrée) : transcription de référence et vérifications (23/09)
+
+**Référence retenue : Rumkin** (https://rumkin.com/reference/kryptos/k0/, fondée sur les photos de Gillogly 1999 ; copie .mht fournie par l'utilisateur). Sanborn la décrit comme un « seam » de cuivre entre deux couches de granit de 12 pouces, perforé en Morse, « the simplest of all codes ». Lecture « de la roche vers le bord », sauf VIRTUALLY/INVISIBLE, **le seul message qui se lit vers la roche** et qui s'étend sur deux plaques.
+
+| Message (2 lignes) | Transcription Rumkin | Anomalies notées |
+|---|---|---|
+| SOS | `...---...` (prosigne, sans espace) | un point à gauche à peine visible sous la pierre |
+| RQ | `.-. --.-` | lu à l'envers : YR ; le Q est au ras du bord |
+| LUCID MEMORY | `.-.. ..- -.-. .. -.. / . / . / .` · `/ -- . -- --- .-. -.-- / . /` → LUCID E E E / MEMORY E | le L est collé à la roche |
+| SHADOW FORCES | E E SHADOW E E / FORCES E E E E E | — |
+| WHAT IS YOUR POSITION | `- / .. ... / -.-- --- --. .-.` · `.--. --- ... .. - .. --- -. / .` → T IS YOUR / POSITION E | le T peut être la fin d'une lettre cachée ; un trait et un point cachés par la roche dans POSITION ; **voir l'écart sur YOUR ci-dessous** |
+| DIGITAL INTERPRETATION | E DIGE TAL E E E / INTERPRETATI | **espace en trop dans DIGE TAL** (DIGETAL) ; INTERPRETATI coupé par le bord |
+| VIRTUALLY INVISIBLE | E E VIRTUALLYE / E E E E E INVISIBLE | E final **collé** à VIRTUALLY (pas d'espace de mot) ; les deux plaques sont séparées par une jointure |
+
+**Vérification indépendante sur les photos de Gillogly** (`docs/knowledge_base/measurements/morse_plate_reader.py`, lecteur semi-automatique avec contrôle à l'œil) : les plaques 1 à 6 et 8 à 10 concordent avec Rumkin (SHADOW/FORCES, LUCID/MEMORY, VIRTUALLY/INVISIBLE, RQ). Plusieurs photos sont prises depuis l'autre côté et se lisent à l'envers. Pas de `morse7` sur le site.
+
+**Écart non résolu : le U de « YOUR ».** Rumkin note `-.-- --- --. .-.` : le 3ᵉ signe est `--.` (**G**), soit « YOGR », sans le commenter, et sa lecture inversée (« RWOQ ») est cohérente avec ce G. La page Wilson/Hall (relayée par Dunin) donne l'inverse « RDOQSIT », cohérent avec `..-` (**U**). La seule photo disponible (`morse11.jpg`, plaque au pied de la magnétite) est trop rasante pour trancher. **Si le cuivre porte `--.`, ce serait une anomalie de plus, comme DIGETAL, sur la plaque voisine de la magnétite.** À vérifier sur une photo de face.
+
+**Les « E » isolés, positions (Rumkin)** : E E ‹SHADOW› E E ; ‹FORCES› E E E E E ; ‹LUCID› E E E ; ‹MEMORY› E ; ‹POSITION› E ; E ‹DIGE TAL› E E E ; E E ‹VIRTUALLY›(E) ; E E E E E ‹INVISIBLE›. Hypothèses publiées : pauses d'opérateur ; indices pour K5 (Rumkin). Leur exploitation comme masque (F-10) n'a **jamais été exécutée** dans le dépôt.
+
 ## 3. K1–K3 : ce qu'ils enseignent
 
 | | Méthode | Clé | Clair (extrait) | Niveau |
