@@ -112,6 +112,7 @@ Sources :
 | Masques de nulles géométriques, par colonnes, grille 28×31 | éliminé sous portée | `e_two_sys_06..08` |
 | Morse : « E » en surnombre comme masque | **registre incomplet** (scripts jamais exécutés) | F-10 |
 | **Tailles des groupes de E du Morse (26 E) comme clé numérique** (4 ordres, toutes phases, QI/II/IV tout alphabet ; QIII déjà mort à p = 11) | **éliminé** : K4 0, témoin 0/50 (23/09) ; règle « intervalles » non définie | `audits/morse_E_key_2026_09_23/` |
+| **« Miroir » Morse** (lettres lues à l'envers, A↔N, B↔V…) avant/après un Quagmire ; C, J, Z sans image | QIII : aucune p ≤ 12 ; seul phénomène sévère p = 19 (distance 38), déchiffrement en charabia ⇒ **éliminé** (23/09) | `audits/morse_mirror_2026_09_23/` |
 | Masques issus des anomalies physiques | bruit (5/24) | `e_team_anomaly_extraction` |
 
 ### 2.6 Idées thématiques et physiques
