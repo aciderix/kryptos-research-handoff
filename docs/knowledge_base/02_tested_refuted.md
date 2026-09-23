@@ -131,6 +131,8 @@ Sources :
 
 ## 3. Ce qui reste réellement ouvert
 
+> **Mise à jour du 23/09 (source primaire retrouvée).** « Deux systèmes… indice majeur » (Sanborn, inauguration 1990) porte sur **la plaque du bas, K3 + K4**, pas sur K4 seul (base 1, §4 quinquies). Les familles « deux couches » (substitution + transposition, etc.) ne reposent donc plus que sur le « masquage » de Scheidt (2020) et « plus d'une étape » (2015). Elles ne sont ni plus ni moins réfutées qu'avant, mais **moins prioritaires** qu'un système unique inconnu, sans le tableau.
+
 Les familles ci-dessous sont ouvertes parce que **l'information manque**, pas parce que personne n'y a pensé :
 
 1. **Géométrie physique mesurée** de l'écran K4 (lignes, espacements, « ? », « YAR », « L » en trop) et de ses rapports au tableau et au site (rose des vents, magnétite). Voir base 1, §8–9.

@@ -194,7 +194,7 @@ Source : https://www.thekryptosproject.com/kryptos/cia/thecryptogram/pdfs/Binder
 
 - Hommage au sens du lieu, aux symboles de **l'eau et de la roche**.
 - *« all intelligence professionals will enjoy the opportunity to tackle the code you've presented us in this courtyard… We like to be tested. And we enjoy a challenge. The sculpture in this courtyard is both a symbol of that challenge and the very thing itself… »*
-- **Aucune indication technique.** La phrase « deux systèmes… indice majeur » attribuée à l'inauguration (§4) **n'est pas dans ce discours**. Elle vient d'une autre transcription (discours ou échange de Sanborn), à retrouver.
+- **Aucune indication technique.** La phrase « deux systèmes… indice majeur » **n'est pas dans ce discours** : elle est dans les **propos de Sanborn**, qui parlait après Webster (§4 quinquies).
 
 ### « CIA has $250,000 Headache », Jim Yandle (NCVA *Cryptolog*, été 1991)
 
@@ -262,10 +262,42 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 | Le U de YOUR est « intégralement et proprement découpé » | Aucune photo de face citée. Rumkin transcrit `--.` (G) ; Phillips/kryptosfan `..-` (U). `morse11.jpg` est trop rasante | **Non vérifié** ; la question reste ouverte |
 | La rose est orientée vers la magnétite, qui dévierait une boussole d'environ 15° | L'**aiguille gravée** pointe bien vers la magnétite (mesure ici : 246–247°). Les « 15° » reprennent l'estimation à l'œil de u/cjneutron (345°), déjà classée « pas une mesure ». Aucune mesure de déviation magnétique publiée | Aiguille → magnétite : **fait mesuré** ; 15° : **non sourcé** |
 | Les E sont des séparateurs / nulles | Hypothèse, déjà listée (pauses d'opérateur, Rumkin, sans source) | **Interprétation** |
-| « Deux systèmes » viendrait des notes de travail de 1990 révélées à l'enchère | Nos sources l'attribuent à une **réponse orale** de Sanborn pendant l'inauguration (ci-dessous). Le fil Reddit cité (1oaa9e0, « K4 more documents revealed from the auction ») n'est pas lisible d'ici | **Non vérifié** ; fil à archiver |
+| « Deux systèmes » viendrait des notes de travail de 1990 révélées à l'enchère | La photo de l'enchère montre une **transcription de ses propos à l'inauguration**, pas des notes de travail (§4 quinquies) | **Faux sur la nature du document** ; la phrase, elle, est authentifiée |
+
+**Revendication communautaire sur les E (fil Reddit r/KryptosK4 « Do we know what the E's mean? », transmis le 23/09).** u/Cultural_Project5093 utilise le **nombre de E** autour de chaque mot comme **rang d'une lettre** dans ce mot (depuis la droite sur la ligne du haut, depuis la gauche sur celle du bas). Il obtient A, E, L, I, C, M, P, T, plus les lettres « du milieu » de INTERPRETATI et T IS YOUR (P, S), soit un **anagramme de PALIMPCEST**. **Vérifié ici :** ce résultat exige les comptes de **Wikipédia** (six E avant INVISIBLE, aucun E avant DIGETAL). Avec ceux de **Rumkin** (cinq E, un E avant DIGETAL), on obtient **S** au lieu de I et **E** au lieu de T : l'anagramme tombe. S'y ajoutent **quatre choix libres** : le sens par ligne, la règle du « milieu » (INTERPRETATI a 12 lettres, sans milieu unique), la liste des mots retenus et l'anagramme non ordonné. C'est une construction **a posteriori**, qui dépend d'une transcription contestée. Autre avis dans le fil : un E répété signalerait une erreur de télégraphe à ignorer (usage réel, non relié à Kryptos). Aucune ne fixe de paramètre pour K4.
 
 ### Origine de la phrase « deux systèmes… indice majeur »
-Attribuée à Sanborn **pendant la cérémonie d'inauguration**, en réponse à une question (collection d'archives de kryptosbot.com, `docs/documentary_research_2026_09_21.md` [4]). **Absente du discours de Webster.** Le document primaire n'est pas encore localisé. Cohérent sur le fond avec la lettre de 1989 (§4 ter).
+**Résolu le 23/09 :** la phrase figure dans la **transcription des propos de Sanborn à l'inauguration** (5 nov. 1990), photographiée par RR Auction (§4 quinquies). Elle porte sur « **le texte du bas** », c'est-à-dire la **plaque du bas (K3 + K4)**, pas sur K4 seul. Elle ne vient pas de « notes de travail » (affirmation de Gemini, non fondée).
+
+## 4 quinquies. Archive vendue par RR Auction (lot 3507616), photos transmises par l'utilisateur (23/09)
+
+**Source :** photos du lot « The Complete Secrets of Kryptos: Jim Sanborn's Private Archive » (https://www.rrauction.com/auctions/lot-detail/350761607302001-the-complete-secrets-of-kryptos-jim-sanborns-private-archive/). Ce sont des **pièces publiées par la maison de vente**, pas l'archive scellée ; elles ne contiennent aucun clair de K4. Les images ne sont pas versées au dépôt. Nous en avons 12.
+
+| Pièce | Contenu utile |
+|---|---|
+| **Transcription dactylographiée des propos de Sanborn à l'inauguration** (5 nov. 1990 ; une page) | **Source primaire de « deux systèmes »**, voir ci-dessous |
+| Programme de la cérémonie | Introduction : Harry W. Esterley (Director of Logistics) ; allocutions : Webster, puis Sanborn |
+| Discours d'Esterley (première page, partiellement lisible) | « …the entrance of the new… in the sculpture you… see between the pages… [M]orse and increasing in… into the courtyard… have no trouble in… could do it in ten… still haven't… » : reprend la lettre de 1989 |
+| Contrat GSA GS-11P88EGC0237 (SF 33) | 250 000 $, attribué le 29 juillet 1988 ; offrant « Herbert James Sanborn Jr » |
+| Avenant CO #1 (SF 30) | +5 000 $ pour « **additional fill around artwork outside the fourth floor entrance to the new building** » et des bancs en pierre ; prolongation de 186 jours |
+| Plaque de cuivre d'essai « CDEFGHIJ / DEFGHIJK / EFGHIJKL », signée « J.S. 1988 » sur la tranche | Échantillon du **tableau** (lignes décalées d'un cran), police de l'œuvre, découpé dans les deux sens |
+| Brouillons sur bloc jaune de K1–K2 | K1 écrit « …the nuance of **illusion** X » : le **Q d'IQLUSION n'est pas dans le brouillon** |
+| Badge « Escort Required » n° 13764 (15 mai 1991), photos d'atelier et de la cérémonie | Contexte uniquement |
+
+**Propos de Sanborn à l'inauguration, 5 novembre 1990 (extraits de la page photographiée) :**
+- *« …into that ancient structure of those stratas out front, I inserted a copper plate… **The piece that's in front of the building is an indicator of what you might come into later in the building.** »*
+- *« The stratas that are out in front of the building are also **on the same line** as the stratas of stone that are in this building. This piece works **diagonally across the Agency's center line from north to south** and so do the slabs of stone that are out front… **I didn't line it up with anything particular to the Agency.** »*
+- *« At first I was working with just language and code… then it developed into… a text… that relates to language and secrecy and information. »*
+- *« The plates that are in the front of the building are enciphered in International Morse Code and they are very simple to decipher… several people in Navy uniforms… read it right out to me. »*
+- *« These sheets are really composed of **four separate copper sheets**. Around to the other side there are two plates of copper and that is Vigenère's table… **I used that table to encipher the top plate.** This top plate is enciphered by that chart over there. Now, I haven't given anybody the key words that are involved with that chart… **The bottom plate is enciphered in a much more difficult fashion** and the whole piece is designed to unveil itself, as if you were to **pull up one layer, then you can come to the next**… »*
+- *« **There are two systems of enciphering the bottom text.** No one really asked me if there are two systems to encipher the bottom text until today at sort of the eleventh hour, and yes, there are two separate systems and that is a major clue in itself, apparently. »*
+
+**Ce que cela change (lecture).**
+1. **« Deux systèmes » porte sur la plaque du bas, pas sur K4 seul.** Le côté chiffré est fait de deux plaques : celle du haut (K1–K2), chiffrée « avec ce tableau », et celle du bas, qui porte **K3 et K4**. D'après la mise en page connue, K3 commence en tête de la plaque du bas (*à revérifier sur la grille de 28 lignes*). La lecture la plus économe est donc : **système 1 = la transposition de K3, système 2 = celui de K4.** C'est ce que disaient déjà deux commentateurs du fil Reddit (Traditional_Gate_163, DJDevon3). La phrase **ne prouve plus** que K4 est chiffré en deux couches. Le « masquage » de Scheidt (NYT 2020) et « plus d'une étape » (2015) restent les seuls appuis d'un K4 multicouche.
+2. **« I used that table to encipher the top plate »** : Sanborn réserve lui-même le tableau à la plaque du haut. Avec la lettre de 1989 (« en partie avec le tableau, en partie avec un système potentiellement redoutable »), c'est une **seconde confirmation primaire** que K4 ne passe pas (ou pas seulement) par le tableau.
+3. **« Pull up one layer, then… the next »** : la progression par couches décrit **l'ordre K1 → K2 → K3 → K4**. C'est le sens le plus direct de « LAYER TWO » dans ce contexte.
+4. **Le site :** les strates de l'entrée sont **alignées** avec celles de la cour, en diagonale sur l'axe nord-sud de l'Agence. Sanborn dit ne les avoir alignées **sur rien de particulier**. Le Morse est à l'entrée **du 4ᵉ étage** du nouveau bâtiment (avenant de 1988). Et le Morse est présenté comme **« l'indicateur de ce qu'on trouvera plus loin »**.
+5. **Coïncidence écartée :** le code comptable du contrat commence par « 192 » (192.8.80.P1140001…, puis 192X…). Le même nombre apparaît dans la route de K3 (192 = 8 × 24), mais ici c'est un code budgétaire fédéral. On ne l'exploite pas.
 
 ## 5. Indices officiels sur K4
 
@@ -310,7 +342,7 @@ Attribuée à Sanborn **pendant la cérémonie d'inauguration**, en réponse à 
    - peut-être fondé sur des **motifs** (codes de motifs, Sanborn 2020) ;
    - modifié par Sanborn, au point que Scheidt ne connaît pas le résultat.
 0. **Correspondance lettre à lettre, à la même position** : affirmée par Sanborn lui-même (CNN 2019). C'est la contrainte la plus forte de toute cette base : elle rend improbable une transposition entre le clair et le chiffré gravé. Les tests statistiques de Bean vont dans le même sens.
-1. **Deux systèmes**, et le fait qu'il y en ait deux est « un indice majeur » (1990). Scheidt parle de « plus d'une étape » (2015). Compatible avec le point 0 si les deux étapes sont une **fabrication de clé** puis une **substitution lettre à lettre**, comme dans le Gromark.
+1. **Deux systèmes pour la plaque du bas (K3 + K4)**, et le fait qu'il y en ait deux est « un indice majeur » (1990, transcription authentifiée au §4 quinquies ; probablement K3 d'un côté, K4 de l'autre). Scheidt parle de « plus d'une étape » (2015). Compatible avec le point 0 si les deux étapes sont une **fabrication de clé** puis une **substitution lettre à lettre**, comme dans le Gromark.
 1 bis. **Simple, mémorisable, exécutable des années plus tard avec le(s) bon(s) mot(s)-clé(s)**, du niveau d'un **chiffre de terrain pour agent ou pilote** (Scheidt 2011). Et **« changer la base du langage »** (Scheidt 2020).
 2. L'un des deux peut être **visuel/matériel et individuel**, conçu par l'artiste, et non tiré d'un manuel (2005).
 3. Les **textes précédents contiennent des instructions** pour les suivants (2005, 2006).
@@ -326,7 +358,7 @@ Attribuée à Sanborn **pendant la cérémonie d'inauguration**, en réponse à 
 
 ## 9. Questions ouvertes pour enrichir cette base
 
-- ~~Discours de Webster (1990)~~ : intégré (§4 ter). Reste à retrouver la **source exacte de la phrase « deux systèmes… indice majeur »**, absente du discours de Webster.
+- ~~Discours de Webster (1990)~~ : intégré (§4 ter). Source de « deux systèmes » **retrouvée** (§4 quinquies).
 - Transcription vérifiée de **K0** (Morse), avec la position physique de chaque plaque et de chaque « E » en surnombre.
 - **Direction exacte** de l'aiguille gravée de la rose des vents : photo prise **à la verticale**, ou relevé avec l'orientation du vrai nord. Cela permettrait de trancher entre SO/NE et OSO/ENE (voir §2).
 - Relevé métrique de l'écran K4 : lignes, retraits, « ? », lettres surélevées « YAR ».

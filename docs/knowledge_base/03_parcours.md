@@ -13,7 +13,7 @@ Ce document suit donc le visiteur, station par station. Pour chacune : **ce qui 
 
 **Ce qui est là.** L'allée principale vers le nouveau bâtiment traverse un affleurement de dalles de granit de 12 pouces, **inclinées comme des strates**. Entre deux couches court un **« seam » de cuivre vert**, perforé en Morse sur sa face supérieure, visible par endroits (description de Sanborn, via Rumkin). Il est aligné avec un second affleurement dans la cour, « comme des strates géologiques vues d'avion » (Sanborn 2009).
 
-**Ce que Sanborn en dit.** Les strates inclinées « racontent une histoire comme les **pages d'un document** » ; le cuivre est le « **papier** » (1989). À l'extérieur, les codes sont « très simples » ; à l'intérieur, le code est « compliqué » (2009).
+**Ce que Sanborn en dit.** Les strates inclinées « racontent une histoire comme les **pages d'un document** » ; le cuivre est le « **papier** » (1989). À l'inauguration (1990) : *« la pièce devant le bâtiment est **un indicateur de ce que vous trouverez plus loin** dans le bâtiment »* ; les strates de l'entrée sont **sur la même ligne** que celles de la cour, en diagonale sur l'axe nord-sud de l'Agence, alignées « **sur rien de particulier** ». L'avenant au contrat (1988) situe l'œuvre extérieure « à l'entrée du **4ᵉ étage** » (base 1, §4 quinquies). À l'extérieur, les codes sont « très simples » ; à l'intérieur, le code est « compliqué » (2009).
 
 *Interprétation.* Le texte est littéralement **enfoui entre deux couches**, visible seulement par endroits. Le cuivre est une **couche** entre deux couches de pierre.
 
@@ -75,14 +75,14 @@ Les séquences sont presque des **palindromes de points et traits** : lues à l'
 
 *Interprétation.*
 - **K2 décrit le site.** Invisible, magnétisme terrestre, transmission souterraine, lieu inconnu, position exacte : chacun de ces éléments a son **objet physique** dans le parcours. Les « instructions dans le texte antérieur » pourraient être là : K2 dit **où regarder**.
-- **« LAYER TWO »** (fin corrigée de K2) : dans un site fait de **couches** (dalles, seam de cuivre entre deux couches, deux affleurements), « couche deux » peut être autre chose qu'une métaphore. C'est aussi, plus sobrement, l'annonce d'un **second système** (« deux systèmes… indice majeur », 1990 ; lettre de 1989 : une partie déchiffrable avec le tableau, une autre avec « un système potentiellement redoutable »).
+- **« LAYER TWO »** (fin corrigée de K2) : dans un site fait de **couches** (dalles, seam de cuivre entre deux couches, deux affleurements), « couche deux » peut être autre chose qu'une métaphore. Sanborn l'a dit lui-même en 1990 : l'œuvre se dévoile « comme si on soulevait **une couche**, puis on passe à la suivante ». « Couche deux » désigne donc d'abord **l'étape suivante du parcours de lecture**. Sa phrase « **deux systèmes** » porte sur la **plaque du bas (K3 + K4)**, pas sur K4 seul : ce n'est plus une preuve que K4 a deux couches (base 1, §4 quinquies). Elle confirme en revanche que le **tableau sert la plaque du haut** (« I used that table to encipher the top plate »).
 - **K0 pose la question, K4 donne une position.** Le genre du clair de K4 serait donc un **message de position / navigation**. C'est cohérent avec les fragments, mais **on ne cherche pas à deviner le reste du clair** : c'est précisément la dérive des reconstructions (base 1, §7).
 
 ## Station 6 — Le dos : le tableau
 
-**Ce qui est là.** Tableau à alphabet KRYPTOS, lisible depuis l'arrière, avec un **« L » en trop** (formant « HILL » en colonne). Selon la lettre de 1989, le texte chiffré se déchiffre « **en partie** avec le tableau, **en partie** avec un système potentiellement redoutable ».
+**Ce qui est là.** Tableau à alphabet KRYPTOS, lisible depuis l'arrière, avec un **« L » en trop** (formant « HILL » en colonne). Selon la lettre de 1989, le texte chiffré se déchiffre « **en partie** avec le tableau, **en partie** avec un système potentiellement redoutable ». En 1990, Sanborn précise : *« I used that table to encipher **the top plate** »* ; la plaque du bas est chiffrée « d'une façon beaucoup plus difficile », avec **deux systèmes**.
 
-*Interprétation.* Le tableau sert K1–K2. Pour K4, les sources suggèrent un **autre système**. Toutes les variantes « tableau + clé périodique » échouent (base 2), ce qui est cohérent avec cette phrase de 1989.
+*Interprétation.* Le tableau sert K1–K2 : c'est désormais dit par Sanborn lui-même. Pour K4, les sources indiquent un **autre système**. Toutes les variantes « tableau + clé périodique » échouent (base 2), ce qui est cohérent avec cette phrase de 1989.
 
 ---
 
@@ -104,4 +104,4 @@ Les séquences sont presque des **palindromes de points et traits** : lues à l'
 | **Le U de « YOUR »** (`..-` ou `--.`) | anomalie possible sur la plaque au pied de la magnétite | photo de face de la plaque |
 | **Orientation de la rose par rapport au vrai nord** | savoir si l'aiguille ENE est « vraie » ou seulement dans le repère de la rose | vue satellite nette, relevé sur place |
 | **Position des « E » isolés dans l'espace** (pas seulement dans le texte) | « l'orientation des lettres » et le « positionnement » comptent (Sanborn, sur les fautes) | photos de face de chaque plaque |
-| **Source primaire de « deux systèmes… indice majeur »** | préciser ce que Sanborn a dit exactement en 1990 | archives de la cérémonie, vidéo, presse de 1990 |
+| ~~Source primaire de « deux systèmes »~~ | **résolu** : propos de Sanborn à l'inauguration, photographiés par RR Auction ; la phrase porte sur K3 + K4 | base 1, §4 quinquies |
