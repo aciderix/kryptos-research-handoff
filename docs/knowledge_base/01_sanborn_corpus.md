@@ -47,6 +47,16 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 - Si la mesure verticale confirme que la **pointe claire indique l'OSO**, alors l'**autre extrémité de l'aiguille indique l'ENE**, c'est-à-dire le premier fragment de K4 (EASTNORTHEAST). **Hypothèse visuelle, non mesurée** : la perspective ne permet pas de distinguer SO/NE (45°) d'OSO/ENE (22,5°).
 - Photos officielles CIA : https://www.cia.gov/legacy/headquarters/kryptos-sculpture/ (fichiers `kryptos_sculpture_1_lg.jpg` magnétite + Morse, `_2_lg.jpg` rose des vents, `_3_lg.jpg` vue d'ensemble, `kryptos-panel-encoded-text.png` panneau chiffré). Zone « DYAHR » : https://scirealm.org/DYAHR.jpg
 
+**Affirmations communautaires sur la rose des vents** (rapportées le 23/09 via un assistant IA tiers, Gemini ; triées ici) :
+
+| Affirmation | Source citée | Statut |
+|---|---|---|
+| L'axe N–S gravé serait tourné d'environ 15° vers l'ouest (≈ 345°), mesuré par ombres et satellite | fil Reddit r/KryptosK4 « Does the compass point ENE/NE? » | **Invérifié** : Reddit est inaccessible depuis cet environnement (403). À lire directement |
+| Une vraie boussole posée sur la rose pointerait vers la magnétite | déduction | Plausible (c'est le propos de l'œuvre), **jamais mesuré publiquement** à notre connaissance |
+| Le cap orthodromique de Kryptos vers la Weltzeituhr (Alexanderplatz) est de 44,4°, c'est-à-dire le NE | solvekryptos.com | **Calcul vérifié ici : 44,4°** (coordonnées de K2 → 52,5215 N, 13,4133 E). Mais c'est le **NE (45°), pas l'ENE (67,5°)**. La source est le site du « clair reconstruit » (niveau X) : **risque de raisonnement circulaire** |
+| La Weltzeituhr repose sur une mosaïque en rose des vents | solvekryptos.com | **Invérifié** ici |
+| Photos de K4 en haute définition dans le NYT et sur WJLA | — | **Faux ou inaccessible** : NYT bloqué (403) ; WJLA ne reprend que les photos CIA |
+
 **Observation à garder en tête :** le crib `EASTNORTHEAST` est une **direction de boussole**, et l'installation contient une **boussole volontairement faussée par un aimant**. Chez un artiste dont c'est le sujet central, ce rapprochement est de l'ordre de l'intention, pas du hasard. *(Interprétation. Il ne fixe aucun paramètre.)*
 
 ## 3. K1–K3 : ce qu'ils enseignent
