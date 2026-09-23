@@ -150,6 +150,40 @@ Source : https://www.thekryptosproject.com/kryptos/cia/thecryptogram/pdfs/Binder
 - Sanborn : *« They will be able to read what I wrote, but what I wrote is a mystery itself… People will always say, "What did he mean by that?" **What I wrote out were clues to a larger mystery.** »*
 - Reprend la description de 1989 : environ 2 000 lettres, table de Vigenère à gauche, texte « partly by the table and partly by a potentially challenging enciphering system ».
 
+## 4 quater. Autres déclarations primaires (sources publiques, lues le 23/09)
+
+### Sanborn interviewé par A.J. Jacobs (2020)
+Source : https://scienceblogs.de/klausis-krypto-kolumne/files/2020/10/KRYPTOS-Interview-Jacobs.pdf. **Niveau P** (notes d'entretien de Jacobs). À ne pas confondre avec la transcription **Scheidt**/Jacobs de groups.io (non accessible), d'où vient la phrase sur la « base du langage » citée par Bean.
+
+- **Création du code** : *« I came up with a system based on the materials that he [Scheidt] had given me and suggestions from him… **There are codes that depend entirely on patterns. There are pattern codes that are woven into blankets in some countries in Africa** in particular. I mean, so codes can come in many different shapes and sizes. »* Pour la dernière section : *« he gave me a few suggestions, all of which I could then modify myself… he still doesn't know what it says. »*
+- **Faisabilité** : *« it could be done with **pencil and paper** »* ; un ordinateur puissant peut aussi y arriver.
+- **Erreurs** : certaines erreurs du texte chiffré **n'étaient pas voulues**. *« There was nobody I could ask to proofread KRYPTOS. »* [Il n'y avait personne pour relire.]
+- **Indices** : EAST et NORTHEAST ont été préparés ensemble. *« there will not be any more clues »* [en 2020 ; il en a pourtant donné d'autres en 2025].
+- **Nature du clair** : *« a riddle within a riddle »* [une énigme dans l'énigme] : lire le clair ne donne pas la clarté.
+- Voir l'œuvre en personne aide-t-il (formes, ombres) ? *« I can't say. »*
+- Même récit du clair découpé par phrases pour la CIA (§4 bis) : phrases distribuées **dans le désordre** entre deux ou trois personnes. Webster aurait reçu une enveloppe, peut-être pas complète.
+
+### Recueil « John's Collected Kryptos Hints » (scirealm.org)
+Compilation secondaire de citations primaires, avec leurs sources (Wired 2005, NPR 2005, WSJ 2005, « roadtrip » d'E. Dunin en 2003…). **Niveau S** : chaque citation est à vérifier dans la source d'origine. http://scirealm.org/KryptosHints.html
+
+| Qui | Déclaration rapportée | Source indiquée |
+|---|---|---|
+| Scheidt | K4 est conçu pour être résolu **« de manière directe, au crayon et au papier »** | roadtrip Dunin 2003 |
+| Scheidt | Les **clés sont « dissimulées sur la sculpture »**. Le code est conçu pour que **quelqu'un qui aurait oublié les clés 15 ans plus tard puisse les retrouver grâce aux indices présents** | roadtrip Dunin 2003 |
+| Scheidt | *« "Key" is not necessarily the keyword… In analog systems (as used in Kryptos) the "key" is the algorithm »* [la « clé » n'est pas forcément le mot-clé ; dans ces systèmes analogiques, **la clé est l'algorithme**] | roadtrip Dunin 2003 |
+| Scheidt | Quatre procédés au total : **« deux sont similaires, les deux autres sont différents »** | Wired 2005 |
+| Scheidt | *« you need to solve the technique first and then go for the puzzle »* [il faut **d'abord trouver la technique**, puis l'énigme] | Wired 2005 |
+| Scheidt | Personne n'a retrouvé **« la matrice d'origine »**. Il emploie sans cesse « matrix », « matrix system » | roadtrip Dunin 2003 |
+| Sanborn | Les fautes d'orthographe : *« it's more the **orientation** of those letters that's useful »*, le **positionnement** compte | roadtrip Dunin 2003 |
+| Sanborn | *« The most obvious key to the sculpture, nobody has picked up on »* [la clé la plus évidente de la sculpture, personne ne l'a remarquée] | WSJ, mai 2005 |
+| Sanborn | 80 % du texte devait être déchiffré « par étapes et assez vite » ; la dernière partie est « le sommet de la pyramide » | Wired 2005 |
+| Sanborn | K4 résolu, « on sera au **début** de l'énigme » | NPR, juin 2005 |
+| Sanborn | Il a délibérément « masqué l'avantage » de la fréquence des lettres anglaises dans la partie 4 | NPR 2005 (paraphrase) |
+| ? | « J'ai utilisé un peu de **stéganographie** dans la 4ᵉ partie » | conférence 2004, **source jugée peu fiable par le recueil** |
+
+### Origine de la phrase « deux systèmes… indice majeur »
+Attribuée à Sanborn **pendant la cérémonie d'inauguration**, en réponse à une question (collection d'archives de kryptosbot.com, `docs/documentary_research_2026_09_21.md` [4]). **Absente du discours de Webster.** Le document primaire n'est pas encore localisé. Cohérent sur le fond avec la lettre de 1989 (§4 ter).
+
 ## 5. Indices officiels sur K4
 
 | Date | Indice | Positions (1-indexées) | Niveau |
@@ -184,6 +218,14 @@ Source : https://www.thekryptosproject.com/kryptos/cia/thecryptogram/pdfs/Binder
 
 ## 8. Ce que l'artiste semble dire, rassemblé *(synthèse interprétative)*
 
+00. **Synthèse au 23/09 des sources primaires sur la méthode** :
+   - un système **différent du tableau** (1989), **« d'abord trouver la technique »** (Scheidt 2005) ;
+   - des **mots-clés** (enveloppes de 1990, Scheidt 2011) ;
+   - des **clés « dissimulées sur la sculpture »**, retrouvables grâce aux indices présents (Scheidt 2003) ;
+   - **simple, au crayon et au papier** (Scheidt 2003 et 2011, Sanborn 2020) ;
+   - **non mathématique**, une exigence de Sanborn (2009) ;
+   - peut-être fondé sur des **motifs** (codes de motifs, Sanborn 2020) ;
+   - modifié par Sanborn, au point que Scheidt ne connaît pas le résultat.
 0. **Correspondance lettre à lettre, à la même position** : affirmée par Sanborn lui-même (CNN 2019). C'est la contrainte la plus forte de toute cette base : elle rend improbable une transposition entre le clair et le chiffré gravé. Les tests statistiques de Bean vont dans le même sens.
 1. **Deux systèmes**, et le fait qu'il y en ait deux est « un indice majeur » (1990). Scheidt parle de « plus d'une étape » (2015). Compatible avec le point 0 si les deux étapes sont une **fabrication de clé** puis une **substitution lettre à lettre**, comme dans le Gromark.
 1 bis. **Simple, mémorisable, exécutable des années plus tard avec le(s) bon(s) mot(s)-clé(s)**, du niveau d'un **chiffre de terrain pour agent ou pilote** (Scheidt 2011). Et **« changer la base du langage »** (Scheidt 2020).
@@ -226,5 +268,7 @@ Source : https://www.thekryptosproject.com/kryptos/cia/thecryptogram/pdfs/Binder
 - [ED-morse] E. Dunin, page Morse (palindromes, avec E. Hall) : https://www.elonka.com/kryptos/ (fichier fourni par l'utilisateur)
 - [Stein] D. D. Stein, *The Puzzle at CIA Headquarters: Cracking the Courtyard Crypto*, CIA, 1999 : K1–K3 résolus **au crayon et au papier, sans ordinateur**. Il note : « présenter la solution sans la méthode, c'est un peu tricher ». Miroir : pages de David Allen Wilson (fournies par l'utilisateur), qui transcrivent aussi les textes d'autres œuvres de Sanborn (*Lingua*, Cleveland, Ohio)
 - [AAA09] Entretien d'histoire orale, Archives of American Art, 14–16 juillet 2009 : https://www.aaa.si.edu/collections/interviews/oral-history-interview-jim-sanborn-15700
+- [Jacobs20] Notes d'entretien Sanborn / A.J. Jacobs, 2020 : https://scienceblogs.de/klausis-krypto-kolumne/files/2020/10/KRYPTOS-Interview-Jacobs.pdf
+- [scirealm] John's Collected Kryptos Hints : http://scirealm.org/KryptosHints.html
 - [inteltoday] https://inteltoday.org/2021/08/14/kryptos-the-mystery-of-the-morse-messages/
 - Dépôt : `docs/documentary_research_2026_09_21.md`, `docs/k3_chart_layout_and_route_2026_09_19.md`, `docs/nyt_k1k2_chart_physical_layout_2026_09_19.md`
