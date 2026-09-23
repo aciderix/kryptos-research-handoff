@@ -95,6 +95,7 @@ Sources :
 | Transposition puis substitution périodique (« TABP ») | 6 165 transpositions + 252 840 composées, AZ/KA, p 1–50 | éliminé | `f_tabp_*` |
 | Alignement libre (cribs n'importe où) | 6 millions de configurations, et multicouche | éliminé sous portée | `f_free_alignment_classical`, `f_solver_free_alignment` |
 | **Route de K3 appliquée à K4** | rotation style K3 | bruit (4/24) | `e_cfm_07_k3_rotational`, `e_hybrid_04_reverse_k3`, `e_s_58` ; **doublon élargi** : campagne 22/09 §2.5 (les 102 variantes exactes par multiplication modulaire, tout alphabet, p 1–26) |
+| **Serpentin (boustrophédon)** par lignes ou colonnes, largeurs 7–31, avant ou après la substitution, **cribs = positions du clair**, Quagmire III tout alphabet, p 1–26 | K4 au niveau du hasard ou en dessous (témoin global : 5 chiffrés aléatoires sur 6 ont autant ou plus de cases compatibles) ; déchiffrements en charabia ⇒ **éliminé en pratique** (23/09) | `audits/serpentine_2026_09_23/` |
 | Colonnes KRYPTOS + Quagmire III, alphabet inconnu | p 1–26 | pas de signal | campagne 22/09 §2.3 |
 | Grille 98 = 14×7 avec le « ? » | — | éliminé sous portée | dépôt `e_s_130_checkpoint_98char`, `e_s_03`, `e_s_04` ; **doublon** : campagne 22/09 §2.4 |
 | Routes selon la rose des vents | 576 configurations | bruit (4/24) | `e_compass_route_01` |
