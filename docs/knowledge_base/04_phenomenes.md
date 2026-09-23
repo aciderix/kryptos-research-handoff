@@ -64,3 +64,11 @@ Pour chaque mécanisme manuel plausible en 1989, se demander s'il produit **à l
 - ⇒ « Masquage », « changer la base du langage », « plus d'une étape » décrivent ce que Scheidt a **proposé**, pas nécessairement ce que Sanborn a **exécuté**.
 - Un artiste « réfractaire aux maths » qui adapte un chiffre de terrain le **simplifie** plus probablement qu'il ne le complique. Il l'exécute sur le même type de feuille (lignes de 31 : clair, clé, chiffré) et **avec des erreurs**.
 - **La source la plus fiable sur la méthode réelle reste Sanborn en 1990** : le tableau pour la plaque du haut ; la plaque du bas « d'une façon beaucoup plus difficile », avec deux systèmes (K3 et K4).
+
+### D. « Le clair de K4 est de l'anglais courant »
+- Sanborn : « I wrote the plain text for Kryptos to be **enigmatic** » (IMG_1410) ; « a riddle within a riddle » (2020) ; « K4 pointe vers K5 » (2025).
+- Sa liste de procédés : « Beaufort cipher, **Compass cipher**, Morse code, **Alphabet code**, **Cryptonyms** » (IMG_1569), avec sa description des cryptonymes CIA (IMG_1570).
+- K5 « partage certains **mots codés** aux mêmes positions » que K4 (2025).
+- Les deux fragments connus sont une **direction de boussole** et une **horloge**, deux cadrans qui codent une position par un angle ; l'œuvre contient une rose des vents dont l'aiguille est gravée ENE.
+- **Lecture** *(interprétation)* : le clair est probablement **fait de mots codés** (directions, heures, cryptonymes), pas de prose. Il faudrait **l'œuvre elle-même** pour le lire ensuite (d'où « a riddle within a riddle »).
+- **Conséquence pratique, et c'est peut-être l'angle mort le plus coûteux :** presque toutes les recherches publiques trient leurs candidats par **ressemblance à l'anglais** (n-grammes). Un clair fait de directions et de mots codés obtiendrait un score médiocre ; le bon candidat a pu être **produit puis écarté** par ce juge. Nos propres tests n'y sont pas exposés : ils ne jugent que la cohérence exacte avec les 24 lettres, jamais l'anglais.
