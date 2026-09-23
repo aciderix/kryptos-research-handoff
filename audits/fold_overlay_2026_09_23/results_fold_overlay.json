@@ -1,0 +1,50 @@
+{
+ "FOLD": {
+  "hits_out_of_24": {
+   "direct": 0,
+   "vig_AZ": 1,
+   "beau_AZ": 2,
+   "varbeau_AZ": 0,
+   "vig_KA": 1,
+   "beau_KA": 0,
+   "varbeau_KA": 0
+  },
+  "tableau_under_K4": "WXZKYXZKRYPTOSABCDEFGHIJLMNQUVWXZKRZZKRYPTOSABCDEFGHIJLMNQUVWXZKRYABCDEFGHIJKLMNOPQRSTUVWXYZABCD "
+ },
+ "FOLD_footerblank": {
+  "hits_out_of_24": {
+   "direct": 1,
+   "vig_AZ": 1,
+   "beau_AZ": 1,
+   "varbeau_AZ": 0,
+   "vig_KA": 2,
+   "beau_KA": 1,
+   "varbeau_KA": 0
+  },
+  "tableau_under_K4": "WXZKYXZKRYPTOSABCDEFGHIJLMNQUVWXZKRZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY ABCDEFGHIJKLMNOPQRSTUVWXYZABCD"
+ },
+ "FRONT_MIRROR": {
+  "hits_out_of_24": {
+   "direct": 1,
+   "vig_AZ": 1,
+   "beau_AZ": 1,
+   "varbeau_AZ": 1,
+   "vig_KA": 0,
+   "beau_KA": 1,
+   "varbeau_KA": 2
+  },
+  "tableau_under_K4": "ZXWXRKZXWVUQNMLJIHGFEDCBASOTPYRKZXYYRKZXWVUQNMLJIHGFEDCBASOTPYRKZZDCBAZYXWVUTSRQPONMLKJIHGFEDCBA "
+ },
+ "FRONT_MIRROR_footerblank": {
+  "hits_out_of_24": {
+   "direct": 1,
+   "vig_AZ": 1,
+   "beau_AZ": 1,
+   "varbeau_AZ": 1,
+   "vig_KA": 0,
+   "beau_KA": 1,
+   "varbeau_KA": 2
+  },
+  "tableau_under_K4": "ZXWXRKZXWVUQNMLJIHGFEDCBASOTPYRKZXYYRKZXWVUQNMLJIHGFEDCBASOTPYRKZZDCBAZYXWVUTSRQPONMLKJIHGFEDCBA "
+ }
+}

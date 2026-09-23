@@ -119,7 +119,7 @@ Sources :
 | Coordonnées, dates, abscisse | éliminé sous portée | `e_s_60`, `e_roman_03b/04b`, `e_k2_coords_transposition` |
 | Fautes d'orthographe (deltas) comme clé | éliminé | `e02_misspelling_deltas`, `e_bespoke_03` |
 | Différences Antipodes / Kryptos | éliminé sous portée | `e_antipodes_11/12` |
-| Superposition cuivre ↔ tableau (lettre en face) | forme naïve : 1/24 ; forme générale **ouverte** | carnet utilisateur ; F-07 |
+| Superposition cuivre ↔ tableau (lettre en face) | forme naïve : 1/24. **23/09 :** l'écran replié comme un livre et le miroir donnent 0 à 2 sur 24. **Fermeture générale** : toute superposition à lignes parallèles, lettre du tableau = clé (quels que soient décalage, appariement des lignes, miroir), exige une clé en progression ±1 dans KA sous EASTNORTHEAST (qui tient sur une seule ligne). Aucune convention ne la donne : **classe éliminée**. Restent ouvertes : superposition tournée, gabarit de sélection, gabarit extérieur | carnet utilisateur ; F-07 ; `audits/fold_overlay_2026_09_23/` |
 | Géométrie mesurée de l'écran | **jamais testée** (donnée absente) | [MR] ; `current_experimental_frontier.md` |
 
 ### 2.7 « Solutions » revendiquées publiquement (non validées)
