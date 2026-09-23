@@ -369,6 +369,7 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
   15. **une copie originale des discours de Webster et de Sanborn** à l'inauguration (une page de Sanborn photographiée, §4 quinquies) ;
   16. la photo CIA de Webster recevant de Sanborn « le code de Kryptos » lors de la **petite cérémonie de 1991** (sic ; l'inauguration est de 1990) ;
   17. le programme signé par Webster (photographié).
+- **Acheteur : Paradigm** (billet du 12 juin 2026, https://paradigm.xyz/2026/06/kryptos). Il propose un vérificateur par empreinte SHA-256 (1 $ la soumission) et annonce la **publication future du chiffré de K5**, sans date ; rien sur les feuilles ni la méthode. Voir base 5.
 - **Conséquence pour nos recherches :** les pièces 1 à 7 ne sont **pas publiées**, et nos règles excluent de s'en servir. Seules les pièces 9 à 17 sont documentées. La **suite de la transcription** (pièce 15) n'existe que si l'acheteur ou la maison publie d'autres photos. **Point de recherche éventuel : la photo de la maquette de 1988 (pièce 10)**, qui montrerait l'agencement prévu des dalles.
 **Ce qui en ressort** *(interprétation)* :
 - ~~Le mot « brouillé » désignerait l'état intermédiaire du texte.~~ **Corrigé le 23/09** : d'après l'entretien de 2009 (§4 bis), les textes « brouillés » sont le **clair découpé par phrases et remélangé** pour la CIA. Ce n'est pas une étape du chiffrement.
