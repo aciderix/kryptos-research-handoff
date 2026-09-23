@@ -99,13 +99,13 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 | Dossier (2026) | Titre | Images | Lien EDAN | Lu ? |
 |---|---|---|---|---|
 | 6/8 | Sculpture, 1993–2009 | 49 | ref73 | non |
-| 6/9 | Book, undated | 30 | ref74 | non |
+| 6/9 | Book, undated | 30 | ref74 | **oui (OCR complet)** |
 | 6/10 | Pre-Production and Notes, 1990–1999 | 33 | ref75 | **oui** |
 | 6/11 | Codes Research, c. 1980s–c. 2002 | 37 | ref77 | **oui** |
 | 6/12 | Dedication, 1990 | 12 | ref78 | **oui (en entier)** |
 | 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | non |
 | 6/18 | Cracked Codes and Charts, 1990–c. 2013 | 17 | ref80 | **oui** |
-| 6/19 | Cracked Codes and Charts, c. 1999–2010 | 124 | ref253 | non |
+| 6/19 | Cracked Codes and Charts, c. 1999–2010 | 124 | ref253 | **oui (124/124)** |
 | 16/2 | Scrapbook Kryptos, c. 1975–1993 | 106 | ref215 | non |
 | 9/4, 9/5, 1/11 | Miscellaneous ; « Dead Sea Scrolls » (1964) | 59, 42, 16 | ref119, ref252, ref31 | non |
 | 18/10–11 (addition de 2026) | Articles 1990–2015 ; Posters | — | pas de lien | non numérisé |
@@ -138,3 +138,33 @@ Images téléchargées dans l'espace de travail (non versées au dépôt : droit
 ### Portée pour le raisonnement
 - **Source d'époque (janvier 1990), avant les récits ultérieurs** : le second système est un **« système moderne créé pour le projet par un cryptographe expert »**. Cela nuance « Sanborn l'a modifié lui-même » (2009, 2020) : le système est de **Scheidt**, conçu **spécifiquement pour Kryptos** ; les modifications de Sanborn sont venues ensuite ou restent secondaires. La base 4 (§C) est à nuancer en ce sens.
 - **Direction de l'aiguille** : confirmée par la presse de 1990 (« points at the magnetized stone ») et par Sanborn lui-même (« deviated the compass dial from true north »).
+
+### 6/9 « Book, undated » : manuscrit de Sanborn, « KRYPTOS: From The Source » (vers 2009)
+
+**Le document le plus important lu jusqu'ici.** C'est un **projet de livre de Sanborn**, écrit à la première personne. Il annonce une préface de Steven Levy, 17 chapitres (plusieurs seulement esquissés : « Expand… », « Continue… ») et un profil *Wired*. Il est daté par le texte (« fast approaching the 20th anniversary »), donc vers 2009. Le livre n'a jamais paru. Citations exactes (OCR contrôlé sur les images) :
+
+- **Intention déclarée** : *« the author is going to imbed significant clues to K4 in the text of this book »* ; *« Other images will include the **original coding charts** used by Sanborn »*. Le manuscrit conservé **ne contient aucun indice identifiable ni aucun tableau de codage** : ces parties n'ont pas été écrites, ou pas versées au fonds.
+- **Ordre de fabrication** (ch. 3 « Cutting the Code ») : *« since I hadn't written the plain text yet we started cutting the **Vigenère Tableaux plates first** »* : 8 mois, 20 assistants, 9 scies, 900 lames. Puis : *« When we started on the encoded plates K1–K4 only two assistants remained, after two months only one, very focused guy remained and **cut out K3 and K4 by himself in just two months with virtually no errors**. The Morse code sections were cut quickly in a couple of weeks. »*
+  - **Fait** : le tableau (donc l'alphabet KRYPTOS) a été **fixé et découpé avant que le clair existe**.
+  - **Fait** : K3 et K4 ont été découpés par **une seule personne**, « virtually no errors ». C'est le témoignage de l'auteur : il ne dit rien du chiffrement lui-même, mais il affaiblit l'hypothèse d'erreurs de découpe nombreuses (cf. base 4 §A).
+  - Procédé : lignes horizontales gravées, un **pochoir métallique par lettre** placé sur la ligne, contrôle double. C'est l'origine du dossier « Stencil Patterns » de 2025.
+- **Rédaction du clair** : en **juin 1989**, Sanborn montre le clair, **découpé en phrases mélangées**, à un « Department of Historical Intelligence » de trois personnes à la CIA (une analyste réagit, la séance est interrompue). Ensuite : *« On the rest of the trip from Amarillo to DC **I endlessly revised the Kryptos plain text**… Howard Carter had found amazing things underground. »* **Le clair était donc encore révisé mi-1989**, après la découpe du tableau.
+- **Collaboration** (ch. 6 « Clandestine Collaboration ») : *« I am an anathamath, one who is confounded by mathematics »* ; *« I was aware of various historic coding systems like Vigenère Tableaux etc. but… I needed contemporary expertise to stump contemporary and future code-breakers… Enter Edward Scheidt. »* Le chapitre s'arrête là.
+- **Dédicace** (ch. 10) : *« I passed **some of the plain text and a partial code key** to… William Webster »*. Cela nuance « This is the key and the actual text » (discours de 1990) : **partiel**, selon Sanborn lui-même.
+- **Conception** (ch. 12) : *« When I designed the code on Kryptos I assumed that the first three sections would be unraveled within a few weeks or months, with the final part K4 taking far longer. »*
+- **Site** (ch. 2a–2c) : le tableau sert *« for decoding that encoded text »* ; l'affleurement de la cour est *« on the same axis »* que celui de l'entrée : *« seen from an airplane the two are parallel »*. Sur la plaque Morse : *« the most simple of codes, the beginning of Kryptos would be simple and easy to decode »*. L'aiguille est *« deflected metaphorically from true north by the magnetic properties of the lodestone »*.
+- **Photographies** (ch. 14) : *« I always wanted to **obscure some part of the encoded text** to at least delay decryption »*. Les photos officielles de 1990 cachent donc volontairement une partie du texte. Elles ne peuvent pas servir de référence complète.
+- Divers : textes codés ultérieurs (« Projection Cylinder », 1991) *« I stuck with the **coding systems developed during the Kryptos period** »* ; ch. 7 : clair inspiré de Carter, Schliemann, fossiles ; John le Carré sollicité sans réponse.
+
+**Portée :** ce manuscrit n'apporte aucune clé. Il établit trois faits de chronologie : **tableau avant clair ; clair révisé jusqu'en 1989 ; K3 et K4 découpés par une seule personne presque sans erreur.** Il confirme aussi que Webster n'a reçu qu'une clé **partielle**. **Statut : vu, exploité (chronologie) ; aucune piste de calcul.**
+
+### 6/19 « Cracked Codes and Charts, c. 1999–2010 » : propositions de tiers uniquement
+
+Les 124 images ont été lues. Il n'y a **aucun document de travail de Sanborn**. Contenu :
+- Lettre de « Beltesshazzar » (2008) en écriture spéculaire ; dessin « Congruence 1 » ; K4 imprimé avec positions numérotées ; note « CAN I SEE ANYTHING? YES! ACBECIAOEAHCC ».
+- **Numéro complet de *The Cryptogram*, novembre–décembre 1991** (couverture Kryptos, lettre de Sanborn pp. 8–9, remarques de Webster, article de Yandle, article « Gromark Primer »). C'est une source publiée, déjà connue.
+- Fax d'Emmanuel Collomb transmis par les Public Affairs de la CIA (juillet 1999) ; lettre de Richard Gay (1999) ; poème de Kim Stephens ; courriel SciRealm (2005).
+- **Ronald Reece (2006)** : « décryptage » par anagrammes sur Toutânkhamon. Dans la réponse d'Elonka Dunin et Chris Hanson (octobre 2006), on lit : *« The CIA representatives have indicated we should contact Mr Sanborn… Mr Sanborn has asked us to only contact him about validating solutions that we ourselves believe are defensibly correct »* (procédure de filtrage).
+- Dossier « Kryptos 2 : X layers two / 2×2 matrix » (théorie des quadrants, acronymes, 24 pages) ; courriels de mai 2009 à kryptos@earthlink.net (après l'article de *Wired*) ; « APEX theory » et « Peter Tompkins and Kryptos » de Randy Thompson (2010) ; lettre d'un tiers adressée au « Dr. Thompson » (août 2010) et imprimée depuis la boîte de Sanborn : **son contenu (astrologie, MJ12, Plantard) n'est pas de Sanborn**, qui y est cité à la troisième personne. C'est l'« e-mail au Dr. Thompson » du relais d'IA : il est localisé ici, en 6/19 et pas en 6/9, et **n'a aucune portée sur la méthode**.
+
+**Statut : vu en entier ; rien d'exploitable pour la méthode.**
