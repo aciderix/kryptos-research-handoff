@@ -121,6 +121,35 @@ Entretien mené par Avis Berman, **relu et corrigé par Sanborn en 2020**. Envir
 - Le système de K4 est **un système contemporain modifié par Sanborn lui-même**, volontairement non mathématique, au point que **Scheidt lui-même ne connaîtrait pas le résultat**. C'est cohérent avec la remarque de Scheidt en 2005 : il ne sait pas ce que Sanborn a changé.
 - Il distingue **codes simples à l'extérieur** et **code compliqué à l'intérieur**, deux ensembles **alignés** : une relation spatiale délibérée entre les deux parties du site.
 
+## 4 ter. Documents de 1989–1991 (*The Cryptogram*, vol. LVII n° 6, nov.–déc. 1991, p. 8–9)
+
+Source : https://www.thekryptosproject.com/kryptos/cia/thecryptogram/pdfs/Binder2.pdf (scan). Lu le 23/09 sur une capture fournie par l'utilisateur. La transcription ci-dessous est faite **à l'œil sur une image de faible résolution** : les mots entre [ ] sont incertains, à vérifier sur l'original. **Niveau P.**
+
+### Lettre de Sanborn aux employés de la CIA, « Project Explanation », 15 décembre 1989 (≈ 11 mois avant l'inauguration)
+
+- *« The stonework in the courtyard and at the entrance to the new building serves two functions. First, it creates a natural framework… recall the natural stone outcroppings that existed on this site… Second, the **tilted strata tell a story like pages of a document**. Over the next several months, a flat copper sheet through which letters and symbols are cut will be inserted between these stone "pages". »*
+- *« This code, which includes certain **ancient ciphers**, **begins at International Morse and increases in complexity as you move through the piece** at the entrance and into the courtyard. Its placement in a geologic context reinforces the text's "hiddenness" as if it were a fossil or an image frozen in time. »*
+- *« The left side of the plate is a table for deciphering and enciphering code, developed by Blaise de Vigenère in 1570. **The right side is a text that can be partly deciphered by using the table and partly by using a potentially challenging enciphering system.** The text, written in collaboration with a prominent fiction writer, is revealed only after the code is deciphered. »*
+- *« **My choice of materials, like code, conveys meaning.** At the entrance, a lodestone (a rock naturally magnetized by [lightning]) refers to ancient navigational compasses. The petrified tree recalls the trees… source of materials on which written language has been recorded. The copper, perforated by text, represents this "paper". I also use another symbol: water. In a small pool on the plaza… water will be turbulent… In the other pool… water will be calm, reflective, contemplative. »*
+
+**Portée** *(interprétation)* :
+1. Dès 1989, Sanborn décrit **deux régimes** : une partie déchiffrable **avec le tableau** (K1–K2), une partie avec **un autre système**, « potentiellement redoutable ». C'est la formulation la plus ancienne des « deux systèmes ». Elle suggère que **K4 ne se déchiffre pas (ou pas seulement) avec le tableau Vigenère/KRYPTOS**. Cohérent avec l'échec de toutes les variantes Quagmire (base 2).
+2. L'œuvre est conçue comme une **progression** : du Morse (entrée) vers le plus complexe (cour). Les pierres sont des **« pages »**, le cuivre du **« papier »**. La lecture du site est donc un **parcours ordonné**.
+3. « Le choix des matériaux, comme le code, porte du sens » : la magnétite = **boussoles de navigation anciennes**.
+4. Le « texte écrit avec un romancier célèbre » (1989) n'a pas eu lieu. En 2009, Sanborn dit avoir écrit le clair lui-même (§4 bis).
+
+### Discours de William H. Webster, directeur de la CIA, à l'inauguration (5 novembre 1990)
+
+- Hommage au sens du lieu, aux symboles de **l'eau et de la roche**.
+- *« all intelligence professionals will enjoy the opportunity to tackle the code you've presented us in this courtyard… We like to be tested. And we enjoy a challenge. The sculpture in this courtyard is both a symbol of that challenge and the very thing itself… »*
+- **Aucune indication technique.** La phrase « deux systèmes… indice majeur » attribuée à l'inauguration (§4) **n'est pas dans ce discours**. Elle vient d'une autre transcription (discours ou échange de Sanborn), à retrouver.
+
+### « CIA has $250,000 Headache », Jim Yandle (NCVA *Cryptolog*, été 1991)
+
+- *« Sanborn presented Webster **two sealed envelopes** when the sculpture was dedicated… One contained the message translation while the other contained **the keywords required to break the code**. »* [→ la méthode de K4 repose sur des **mots-clés**. Cohérent avec Scheidt 2011, « avec le ou les bons mots-clés ».]
+- Sanborn : *« They will be able to read what I wrote, but what I wrote is a mystery itself… People will always say, "What did he mean by that?" **What I wrote out were clues to a larger mystery.** »*
+- Reprend la description de 1989 : environ 2 000 lettres, table de Vigenère à gauche, texte « partly by the table and partly by a potentially challenging enciphering system ».
+
 ## 5. Indices officiels sur K4
 
 | Date | Indice | Positions (1-indexées) | Niveau |
@@ -172,7 +201,7 @@ Entretien mené par Avis Berman, **relu et corrigé par Sanborn en 2020**. Envir
 
 ## 9. Questions ouvertes pour enrichir cette base
 
-- Retrouver le **texte exact du discours d'inauguration de 1990** (« deux systèmes »).
+- ~~Discours de Webster (1990)~~ : intégré (§4 ter). Reste à retrouver la **source exacte de la phrase « deux systèmes… indice majeur »**, absente du discours de Webster.
 - Transcription vérifiée de **K0** (Morse), avec la position physique de chaque plaque et de chaque « E » en surnombre.
 - **Direction exacte** de la rose des vents et de la déviation induite par la magnétite (relevé sur site ou photos datées).
 - Relevé métrique de l'écran K4 : lignes, retraits, « ? », lettres surélevées « YAR ».
