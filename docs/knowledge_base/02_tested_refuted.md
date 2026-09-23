@@ -127,6 +127,7 @@ Sources :
 | **Une erreur de Sanborn tolérée dans les cribs** (23/24) : Quagmire III tout alphabet p 1–13 ; clés suivies K1–K3 tout alphabet | **toujours éliminé** : les éliminations classiques résistent à une erreur | `audits/one_slip_2026_09_23/` |
 | Mot-clé **recommencé à chaque ligne de 31** (feuille ou cuivre), Quagmire I–III, p 1–13, exact et avec une erreur | bruit (K4 : 3 cases sur 26 ; hasard : 2 en moyenne) ; la case p = 8 Beaufort meurt avec les alphabets de Sanborn | `audits/one_slip_2026_09_23/` |
 | **Cryptographe de Wheatstone** (cadran à deux aiguilles), extérieur AZ ou KA, **intérieur quelconque** | **éliminé exactement**, même sur EASTNORTHEAST seul ; contrôle 20/20 | `audits/wheatstone_2026_09_23/` ; antériorité échantillonnée `e_wheatstone_clock_01` |
+| **Mots visibles sur l'œuvre** (39 : Morse K0, KRYPTOS, HILL, YAR/DYAHR, rose des vents, PALIMPSEST, ABSCISSA) comme alphabet à mot-clé et/ou clé périodique, montage MEDUSA inclus, QI–QIV, 3 modes ; et comme amorces de Gromark | K4 10/24 ; hasard P(≥ 10) = 7 % ; Gromark 0 ⇒ **éliminé** (23/09) | `audits/visible_words_2026_09_23/` |
 | Géométrie mesurée de l'écran | **jamais testée** (donnée absente) | [MR] ; `current_experimental_frontier.md` |
 
 ### 2.7 « Solutions » revendiquées publiquement (non validées)
