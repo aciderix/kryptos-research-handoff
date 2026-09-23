@@ -95,6 +95,7 @@ Sources :
 | Colonnes KRYPTOS + Quagmire III, alphabet inconnu | p 1–26 | pas de signal | campagne 22/09 §2.3 |
 | Grille 98 = 14×7 avec le « ? » | — | éliminé sous portée | dépôt `e_s_130_checkpoint_98char`, `e_s_03`, `e_s_04` ; **doublon** : campagne 22/09 §2.4 |
 | Routes selon la rose des vents | 576 configurations | bruit (4/24) | `e_compass_route_01` |
+| Grilles irrégulières de largeur 7, 14, 21 (97 lettres), lecture par colonnes vers le haut ou vers le bas, directe ou inverse, + Quagmire III, alphabet inconnu, p 1–26 | 48 des 80 configurations (1 lot sur 4 perdu lors d'un redémarrage, non relancé) | pas de signal : 11 compatibilités à période courte pour ≈ 19 attendues par hasard | campagne 22/09, `ragged_widths.py`, `results_ragged_widths_summary.json` |
 | Grilles tournantes, grilles de Cardan, Fleissner | — | bruit | `e_s_18`, `e_s_70`, `blitz_rotation_180`, `blitz_grille_*` |
 | Carré latin (Swagman), bandes (strip cipher) | — | bruit | `e_swagman_01`, `blitz_strip_*` |
 | Paires digraphiques 8×13 → 31×3 | — | revendication non validée | Nash Associates (2025) |

@@ -1,0 +1,119 @@
+{
+ "coverage": "48 of 80 configurations (shard 3 of 4 lost in a container restart, not rerun)",
+ "K4_short_period_hits": 11,
+ "expected_under_null": 19.4,
+ "positive_controls_ok": true,
+ "rows_with_short_period": [
+  {
+   "w": 21,
+   "keyed": false,
+   "bu": true,
+   "dir": "inv",
+   "order": "TS",
+   "mode": "vig",
+   "p": [
+    12
+   ]
+  },
+  {
+   "w": 21,
+   "keyed": false,
+   "bu": false,
+   "dir": "fwd",
+   "order": "TS",
+   "mode": "vig",
+   "p": [
+    11
+   ]
+  },
+  {
+   "w": 7,
+   "keyed": false,
+   "bu": true,
+   "dir": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "p": [
+    13
+   ]
+  },
+  {
+   "w": 7,
+   "keyed": false,
+   "bu": false,
+   "dir": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "p": [
+    13
+   ]
+  },
+  {
+   "w": 7,
+   "keyed": true,
+   "bu": true,
+   "dir": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "p": [
+    12
+   ]
+  },
+  {
+   "w": 14,
+   "keyed": false,
+   "bu": true,
+   "dir": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "p": [
+    13
+   ]
+  },
+  {
+   "w": 14,
+   "keyed": false,
+   "bu": false,
+   "dir": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "p": [
+    13
+   ]
+  },
+  {
+   "w": 21,
+   "keyed": false,
+   "bu": false,
+   "dir": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "p": [
+    13
+   ]
+  },
+  {
+   "w": 21,
+   "keyed": false,
+   "bu": true,
+   "dir": "inv",
+   "order": "ST",
+   "mode": "vig",
+   "p": [
+    12,
+    13
+   ]
+  },
+  {
+   "w": 21,
+   "keyed": false,
+   "bu": false,
+   "dir": "fwd",
+   "order": "ST",
+   "mode": "vig",
+   "p": [
+    12
+   ]
+  }
+ ]
+}
