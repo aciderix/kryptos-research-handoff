@@ -87,3 +87,54 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 | Les feuilles 6/21–23 seraient recopiées dans le simulateur de dCode | dCode implémente le déchiffrement connu de K1–K3 ; rien n'indique qu'il reprenne ces dossiers | **Non établi** |
 
 ⇒ **Rien de nouveau n'est utilisable.** La demande de reproduction aux Archives reste la seule voie vers ces dossiers.
+
+---
+
+## MISE À JOUR MAJEURE (23/09, soir) : le fonds Kryptos est NUMÉRISÉ et consultable en ligne
+
+**Source :** inventaire officiel à jour (PDF « A Finding Aid to the Jim Sanborn papers, circa 1945-2024 », Ricky Gomez, 2024-02-12, révisé le **2026-05-06**, transmis par l'utilisateur). Il contient **16 liens** vers la visionneuse d'images du Smithsonian (`https://edan.si.edu/slideshow/viewer/?eadrefid=AAA.sanbojim_refNNN`), accessibles depuis cet environnement. **Aucune demande n'est nécessaire.**
+
+**La numérotation actuelle (2026) remplace celle de mars 2025.** Les numéros de ChatGPT correspondaient à cette version récente. Le dossier « **Stencil Patterns, circa 1988** » (6/13 en 2025) **n'apparaît plus** dans l'inventaire de 2026. Hypothèse, non vérifiée : fusionné ailleurs, ou retiré lors de la mise sous scellés.
+
+| Dossier (2026) | Titre | Images | Lien EDAN | Lu ? |
+|---|---|---|---|---|
+| 6/8 | Sculpture, 1993–2009 | 49 | ref73 | non |
+| 6/9 | Book, undated | 30 | ref74 | non |
+| 6/10 | Pre-Production and Notes, 1990–1999 | 33 | ref75 | **oui** |
+| 6/11 | Codes Research, c. 1980s–c. 2002 | 37 | ref77 | **oui** |
+| 6/12 | Dedication, 1990 | 12 | ref78 | **oui (en entier)** |
+| 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | non |
+| 6/18 | Cracked Codes and Charts, 1990–c. 2013 | 17 | ref80 | **oui** |
+| 6/19 | Cracked Codes and Charts, c. 1999–2010 | 124 | ref253 | non |
+| 16/2 | Scrapbook Kryptos, c. 1975–1993 | 106 | ref215 | non |
+| 9/4, 9/5, 1/11 | Miscellaneous ; « Dead Sea Scrolls » (1964) | 59, 42, 16 | ref119, ref252, ref31 | non |
+| 18/10–11 (addition de 2026) | Articles 1990–2015 ; Posters | — | pas de lien | non numérisé |
+| 11/34 (photos) | Kryptos, undated | — | pas de lien | non numérisé |
+
+Images téléchargées dans l'espace de travail (non versées au dépôt : droits de Sanborn).
+
+### Ce que contiennent les dossiers lus
+
+**6/12 Dedication, 1990 : transcription complète** (Esterley, Webster, Sanborn), **dont la suite de « two systems »** :
+- après « …that is a major clue in itself, apparently », Sanborn parle du **symbolisme** : la plaque comme feuille de papier sortant d'un terminal d'ordinateur ; le passage pierre → bois → papier ; le rouge et le vert (bâbord et tribord, stop et go) ; la **magnétite venue d'un sommet de l'Utah**, frappée par la foudre. Puis : *« The compass dial that's included out there is there to show you that that stone has **deviated the compass dial from true north** in typical invisible force of nature »*. **Aucune autre précision sur les deux systèmes.**
+- fin du discours : *« I have this text… **This is the key and the actual text** that's written there. I want to present this to Judge Webster. »* Webster : *« My lips are sealed. So is this. »*
+- dans les remerciements, le transcripteur avait tapé « Ed **Shaw**… the **photographer** » ; la correction manuscrite donne « **Scheidt** » et « **cryptographer** ». Sanborn : *« Ed Scheidt, who was really the genesis of a lot of the mystery that has to do with this piece. That was the cryptographer I collaborated with on the text that is included here. »*
+- *« leaving out certain need to know information »* : il présente lui-même son récit comme partiel.
+
+**6/11 Codes Research : rien sur la méthode de K4.** Couvertures « SECRET » et « CLASSIFIED » (accessoires) ; textes sources du *Cyrillic Projector* (Pasternak 1959, dossier KGB sur Sakharov 1979, Soljénitsyne 1974) ; « Russian Decoding Chart » de 2002 (Morse, binaire) ; pochoirs « FUMEE » ; textes multilingues ; une épreuve typographique du tableau KRYPTOS (job 57562).
+
+**6/10 Pre-Production and Notes : administratif.** Heures des assistants (janvier–mars 1990), pierres (« Prairie mountain or sunset red », granits), budget GSA, instructions d'entretien de 1990 (brouillon manuscrit et version tapée), lettre du paysagiste James Urban (20 février 1990). Elle situe l'œuvre extérieure à l'**entrée ouest** du bâtiment : allée d'entrée avec un côté nord (parking) et un côté sud (bâtiment des tours de refroidissement). Ses croquis montrent l'allée, pas les dalles. Aucun élément de chiffrement.
+
+**6/18 Cracked Codes and Charts (1990–2013) :**
+- **« 7×88 on a side » élucidé** : c'est une note de composeur, « misc type for jim sanborn stencil type, jennifer nov. 9 7a88 on a side aps 55741 », sur un **essai de police de pochoir** (texte sur les musées de Washington). **Aucun rapport avec une grille de K4** ; la lecture de KryptosBot est fausse.
+- **Tableau KRYPTOS tracé à la main** : 26 lignes décalées, ligne AZ en bas, **trois cases entourées**. Toutes trois sont cohérentes avec le procédé de K1–K2 (alphabet KRYPTOS pour le clair, la clé et le chiffré) : clé A / clair W → T ; clé G / clair G → K ; clé Q / clair Q → H. **Les clés G et Q ne sont ni dans PALIMPSEST ni dans ABSCISSA.** Origine inconnue : exemple, essai, ou autre texte. *Observation seulement.*
+- Au dos : note manuscrite « Shadow in the NixNixNixHi … ». Illisible, sens inconnu.
+- Le croquis IMG_1236 (« encrypted message included within set of modern day font characters… shade an area ») est **en entier** ici : des **maisonnettes** couvertes de symboles et un grand « A ». **Autre projet**, pas Kryptos. Cela confirme notre tri.
+- **Presse de 1990 conservée par Sanborn :**
+  - *Washington Post*, 14 janvier 1990 (Thomas Bell) : *« A representation of a compass needle sandblasted into the granite **points at the magnetized stone** »* ; la moitié déchiffrable avec le tableau, *« **the other half will be encoded in a modern system created for the project by an expert cryptographer**, whom Sanborn refused to identify »*. Assistant cité : Peter Sawchuck, qui découpe les lettres et « n'a aucune idée » du sens.
+  - *Boston Globe*, 4 juillet 1990 : *« partly encoded using a cipher developed by… Vigenère. The rest of the text is displayed in **modern code** »* ; Sanborn : *« the enciphered passage is not the only message the sculpture contains »* et *« It's also very much about making the invisible visible »*.
+  - *Northern Virginia Sun*, *The Independent*, *Sun Gazette*, *Washington Monthly* (janvier–mars 1990) : polémique sur le coût, sans information technique.
+
+### Portée pour le raisonnement
+- **Source d'époque (janvier 1990), avant les récits ultérieurs** : le second système est un **« système moderne créé pour le projet par un cryptographe expert »**. Cela nuance « Sanborn l'a modifié lui-même » (2009, 2020) : le système est de **Scheidt**, conçu **spécifiquement pour Kryptos** ; les modifications de Sanborn sont venues ensuite ou restent secondaires. La base 4 (§C) est à nuancer en ce sens.
+- **Direction de l'aiguille** : confirmée par la presse de 1990 (« points at the magnetized stone ») et par Sanborn lui-même (« deviated the compass dial from true north »).
