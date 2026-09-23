@@ -40,6 +40,13 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 | **Rose des vents gravée pointant vers une magnétite** | La pierre aimantée dévie l'aiguille : le « nord » local n'est pas là où on l'attend. Direction de déviation rapportée : ouest-sud-ouest *(à vérifier)* | S [W-K] / C [inteltoday] |
 | Bois pétrifié, bassin, plantations | Éléments paysagers de l'installation | S [CIA] |
 
+**Lecture de la photo officielle de la rose des vents** (CIA, `kryptos_sculpture_2_lg.jpg` ; légende CIA : « a compass pointing Southwest ») *(observation du 23/09, à confirmer par une mesure prise à la verticale)* :
+- La rose est gravée dans le granit rouge. La **magnétite** est posée juste au-delà de son bord, côté S–W. Le Morse court sur les bandes de cuivre prises entre les plaques de granit (photo `kryptos_sculpture_1_lg.jpg`).
+- Vus d'en haut, dans le sens horaire, les repères de la rose se lisent S → W → N → E : l'ordre normal d'une rose vue de dessus.
+- L'**aiguille gravée ne pointe pas vers le N de la rose**. Sa moitié claire pointe **vers la magnétite**, entre S et W, légèrement du côté W. Estimation à l'œil sur une photo prise en perspective : ≈ SO à OSO. La moitié sombre pointe donc à l'opposé, entre N et E, **légèrement du côté E : ≈ NE à ENE**.
+- Si la mesure verticale confirme que la **pointe claire indique l'OSO**, alors l'**autre extrémité de l'aiguille indique l'ENE**, c'est-à-dire le premier fragment de K4 (EASTNORTHEAST). **Hypothèse visuelle, non mesurée** : la perspective ne permet pas de distinguer SO/NE (45°) d'OSO/ENE (22,5°).
+- Photos officielles CIA : https://www.cia.gov/legacy/headquarters/kryptos-sculpture/ (fichiers `kryptos_sculpture_1_lg.jpg` magnétite + Morse, `_2_lg.jpg` rose des vents, `_3_lg.jpg` vue d'ensemble, `kryptos-panel-encoded-text.png` panneau chiffré). Zone « DYAHR » : https://scirealm.org/DYAHR.jpg
+
 **Observation à garder en tête :** le crib `EASTNORTHEAST` est une **direction de boussole**, et l'installation contient une **boussole volontairement faussée par un aimant**. Chez un artiste dont c'est le sujet central, ce rapprochement est de l'ordre de l'intention, pas du hasard. *(Interprétation. Il ne fixe aucun paramètre.)*
 
 ## 3. K1–K3 : ce qu'ils enseignent
@@ -245,7 +252,7 @@ Attribuée à Sanborn **pendant la cérémonie d'inauguration**, en réponse à 
 
 - ~~Discours de Webster (1990)~~ : intégré (§4 ter). Reste à retrouver la **source exacte de la phrase « deux systèmes… indice majeur »**, absente du discours de Webster.
 - Transcription vérifiée de **K0** (Morse), avec la position physique de chaque plaque et de chaque « E » en surnombre.
-- **Direction exacte** de la rose des vents et de la déviation induite par la magnétite (relevé sur site ou photos datées).
+- **Direction exacte** de l'aiguille gravée de la rose des vents : photo prise **à la verticale**, ou relevé avec l'orientation du vrai nord. Cela permettrait de trancher entre SO/NE et OSO/ENE (voir §2).
 - Relevé métrique de l'écran K4 : lignes, retraits, « ? », lettres surélevées « YAR ».
 - Différences **Antipodes / Kryptos** lettre à lettre (Antipodes contient K4 ?).
 - Interviews vidéo : NOVA 2013 (feuille K3 avec « P/C »), Big Techday 2013, LEMMiNO.
