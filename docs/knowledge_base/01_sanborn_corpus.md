@@ -47,11 +47,26 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 - Si la mesure verticale confirme que la **pointe claire indique l'OSO**, alors l'**autre extrémité de l'aiguille indique l'ENE**, c'est-à-dire le premier fragment de K4 (EASTNORTHEAST). **Hypothèse visuelle, non mesurée** : la perspective ne permet pas de distinguer SO/NE (45°) d'OSO/ENE (22,5°).
 - Photos officielles CIA : https://www.cia.gov/legacy/headquarters/kryptos-sculpture/ (fichiers `kryptos_sculpture_1_lg.jpg` magnétite + Morse, `_2_lg.jpg` rose des vents, `_3_lg.jpg` vue d'ensemble, `kryptos-panel-encoded-text.png` panneau chiffré). Zone « DYAHR » : https://scirealm.org/DYAHR.jpg
 
+**Mesure de l'aiguille gravée (23/09) : axe OSO–ENE confirmé.** `docs/knowledge_base/measurements/compass_rose_bearing.py`
+- Méthode : homographie calculée à partir des quatre lettres N, E, S, W (supposées à égale distance du centre), puis cap de l'aiguille **dans le repère de la rose**. Incertitude estimée par des perturbations de ±15 px sur chaque point lu.
+- **Photo officielle CIA** : pointe claire (vers la magnétite) **246,0°**, autre extrémité **66,0°** (intervalle à 95 % : 63,6–68,4°).
+- **Photo de Jim Gillogly, 1999** (https://www.voynich.net/Kryptos/compass1.jpg), autre angle de vue, indépendante : **247,3° / 67,3°** (63,9–70,8°).
+- Concordant avec la version redressée publiée par u/colski sur r/KryptosK4 (« points precisely WSW (or ENE) »).
+- ⇒ **L'aiguille gravée par Sanborn en 1990 est orientée OSO (vers la magnétite) / ENE**, soit la direction exacte du premier fragment révélé en 2020 (`EASTNORTHEAST`). Le NE (45°) est exclu.
+- Limites : le cap est mesuré dans le **repère de la rose**, pas par rapport au vrai nord. L'orientation de la dalle par rapport au nord géographique n'est pas mesurée : une estimation communautaire (~345°, u/cjneutron) a été faite « à l'œil d'après le trottoir de l'entrée » et n'est pas fiable. Les points des lettres et de l'aiguille ont été lus à l'œil.
+- Portée : c'est un **fait physique de l'œuvre**, gravé 30 ans avant l'indice. Il indique que K4 parle du site lui-même. Il **ne fixe aucun paramètre de chiffrement**.
+
+**Fil Reddit r/KryptosK4 « Does the compass point ENNENE? »** (archive fournie par l'utilisateur ; post d'origine supprimé ; 20 commentaires). Contenu utile : le redressement de u/colski (ci-dessus) ; une carte de Berlin reliant la Mengenlehreuhr (emplacement de 1990) et la Weltzeituhr, avec la porte de Brandebourg comme milieu (spéculation, niveau C) ; la remarque de DJDevon3 : « Sanborn a souvent dit qu'il n'est pas nécessaire d'être sur place pour résoudre Kryptos » (à sourcer) ; de fines lignes roses sur la dalle, « virtually invisible » (veines naturelles du granit ou traits gravés : indéterminé).
+
+**Photothèque de Jim Gillogly (1999)** : https://www.voynich.net/Kryptos/ : 39 photos. Rose des vents (`compass1.jpg`, `compass2.jpg`), **les 12 plaques Morse une à une** (`morse1–12.jpg`, `morse-sos.jpg`, `digetal.jpg`), strates, début de K4 (`obkr.jpg`), panneau chiffré en 9 gros plans, tableau. **Source prioritaire pour une transcription vérifiée de K0.**
+
+**NYT, 29 janvier 2020** (archive .mht fournie par l'utilisateur) : Sanborn a remis à Webster « une clé pour déchiffrer les messages » ; le dernier passage « utilise ce qu'on appelle une technique de masquage, un niveau supplémentaire d'obscurcissement » ; les passages suivent « un thème de dissimulation et de découverte, chacun plus difficile que le précédent ».
+
 **Affirmations communautaires sur la rose des vents** (rapportées le 23/09 via un assistant IA tiers, Gemini ; triées ici) :
 
 | Affirmation | Source citée | Statut |
 |---|---|---|
-| L'axe N–S gravé serait tourné d'environ 15° vers l'ouest (≈ 345°), mesuré par ombres et satellite | fil Reddit r/KryptosK4 « Does the compass point ENE/NE? » | **Invérifié** : Reddit est inaccessible depuis cet environnement (403). À lire directement |
+| L'axe N–S gravé serait tourné d'environ 15° vers l'ouest (≈ 345°) | fil Reddit (u/cjneutron) | **Lu dans l'archive** : c'est une estimation « à l'œil d'après le trottoir de l'entrée », **pas une mesure** (et non « par ombres et satellite », comme l'affirmait Gemini) |
 | Une vraie boussole posée sur la rose pointerait vers la magnétite | déduction | Plausible (c'est le propos de l'œuvre), **jamais mesuré publiquement** à notre connaissance |
 | Le cap orthodromique de Kryptos vers la Weltzeituhr (Alexanderplatz) est de 44,4°, c'est-à-dire le NE | solvekryptos.com | **Calcul vérifié ici : 44,4°** (coordonnées de K2 → 52,5215 N, 13,4133 E). Mais c'est le **NE (45°), pas l'ENE (67,5°)**. La source est le site du « clair reconstruit » (niveau X) : **risque de raisonnement circulaire** |
 | La Weltzeituhr repose sur une mosaïque en rose des vents | solvekryptos.com | **Invérifié** ici |
