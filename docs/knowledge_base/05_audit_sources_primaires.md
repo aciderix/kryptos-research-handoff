@@ -103,7 +103,7 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 | 6/10 | Pre-Production and Notes, 1990–1999 | 33 | ref75 | **oui** |
 | 6/11 | Codes Research, c. 1980s–c. 2002 | 37 | ref77 | **oui** |
 | 6/12 | Dedication, 1990 | 12 | ref78 | **oui (en entier)** |
-| 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | non |
+| 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | 6/15 (ref256) **oui** ; les autres en cours |
 | 6/18 | Cracked Codes and Charts, 1990–c. 2013 | 17 | ref80 | **oui** |
 | 6/19 | Cracked Codes and Charts, c. 1999–2010 | 124 | ref253 | **oui (124/124)** |
 | 16/2 | Scrapbook Kryptos, c. 1975–1993 | 106 | ref215 | non |
@@ -168,3 +168,18 @@ Les 124 images ont été lues. Il n'y a **aucun document de travail de Sanborn**
 - Dossier « Kryptos 2 : X layers two / 2×2 matrix » (théorie des quadrants, acronymes, 24 pages) ; courriels de mai 2009 à kryptos@earthlink.net (après l'article de *Wired*) ; « APEX theory » et « Peter Tompkins and Kryptos » de Randy Thompson (2010) ; lettre d'un tiers adressée au « Dr. Thompson » (août 2010) et imprimée depuis la boîte de Sanborn : **son contenu (astrologie, MJ12, Plantard) n'est pas de Sanborn**, qui y est cité à la troisième personne. C'est l'« e-mail au Dr. Thompson » du relais d'IA : il est localisé ici, en 6/19 et pas en 6/9, et **n'a aucune portée sur la méthode**.
 
 **Statut : vu en entier ; rien d'exploitable pour la méthode.**
+
+### 6/15 « Correspondence, 1988–2010 » (ref256, 55 images) : lu en entier
+
+Pour l'essentiel, ce sont des candidatures, de la presse et des envois de tiers. Il n'y a **aucune réponse de Sanborn sur la méthode**. Éléments à retenir :
+- **Lettre de Sanborn du 4 juillet 1988** (panel « Austin project ») : il est « currently working on two large projects, one for the C.I.A. in McLean Virginia… in the design development phase for the next few months ». Donc à l'été 1988, le projet est encore en **développement du design**.
+- **Cold Spring Granite, 10 avril 1990** : contrat « C.I.A. », job 90-1101. C'est le granit de l'œuvre. La base 6/9 dit « South Dakota » ; Cold Spring (Minnesota) exploite des carrières dans le Dakota du Sud, ce qui est cohérent.
+- **Fiche descriptive de la GSA (22 septembre 1993)**, texte manifestement fourni par l'atelier : *« The first section, at the west entrance, is a series of stones embedded with copper, which has been cut with a message in Morse code. **This serves as a primer; as one goes further into the CIA, codes become more complex.** »* ; *« This copper screen is embedded with **2,000 words** [sic, sans doute des lettres] written by Sanborn, and **he encoded the screen with the assistance of a cryptographer**. The final code is known only to Sanborn and the Director of the CIA. »*
+  - **Fait** : la progression « Morse = amorce → codes de plus en plus complexes » est une intention de parcours déclarée dès 1993. Cela concorde avec la base 3.
+- **Candidature Guggenheim (1994)** : la pulpe de documents classifiés, les projections, NOAA (tourbillons de Coriolis) ; « Career summary » : « From 1988 to 1991, I worked on a GSA Public Art Project for the C.I.A. ». Rien de technique.
+- Transcription de *Good Morning America* (12 janvier 2004) : jeu-concours du *Da Vinci Code*. Dan Brown : « Only WW knows » ; les coordonnées sur la jaquette « are one mile off… **It's intentional** » (Brown, pas Sanborn).
+- **Constat de conservation de la CIA, décembre 2008** : *« The bronze sheets at the **entrance installation have shifted slightly**. The stone elements have shifted and there has been some cracking… The artist should be contacted regarding the shifting copper plates »*. **Fait utile pour K0** : les plaques Morse de l'entrée avaient **bougé** en 2008. Les photos postérieures à 2008 ne prouvent donc pas l'alignement d'origine. Cela ne change pas l'ordre de lecture établi en base 3 (il vient des croquis de 2009 et de la transcription), mais c'est une réserve à garder.
+- Page imprimée du site d'Elonka Dunin (27 janvier 2010) avec **annotations manuscrites** : « Newly available!! », « scale model of the screen », « 1/12 scale Kryptos model ». C'est la préparation de la vente des **maquettes au 1/12** (2010). Pas de contenu cryptographique.
+- Le reste : lettres de tiers (2008–2010 : Isaïe 8, « LO WS », « DIDEIE1GBHBDHBDGFEDC », Sharon Cain, « DB SHAZZAR »…), pass VIP de la CIA du 5 mai 2009, annonce du déchiffrement du *Cyrillic Projector* (2003).
+
+**Statut : vu en entier.** À exploiter : la citation de la GSA sur l'« amorce » (déjà cohérente avec la base 3) et le déplacement des plaques de l'entrée (réserve sur les photos après 2008). **Aucune piste de calcul.**
