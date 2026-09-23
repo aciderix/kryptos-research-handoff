@@ -72,6 +72,7 @@ Sources :
 | Carter, *The Tomb of Tut-ankh-Amen* (vol. 1, Gutenberg) | décalages, 52 routes | éliminé sous portée | `f_non_direct_alignment_carter_tape`, `f_carter_gutenberg_running_key_nondirect` |
 | Corpus égyptiens, textes thématiques, italien/espagnol | + colonnes largeur 7 | éliminé (0 sur 17 milliards) | `e_s_103`, `e_diana_constant_rk_01`, `e_egypt_01`, `e_team_italian_spanish_scan` |
 | Texte Morse K0 | — | éliminé sous portée | `e_k0_running_key_01` |
+| **Inscriptions de Langley** (devise Jean 8:32 du hall, avec/sans référence ; Memorial Wall), toutes phases | alphabets fixés : max 5/24 ; tout alphabet (QIII) : 0 phase ⇒ **éliminé** (23/09) | `audits/langley_texts_2026_09_23/` |
 | Clé courante générique « livre » | — | **ouvert** (non réfutable sans connaître le texte) | Numberworld ; MEMORY (clé courante « rétrogradée ») |
 
 ### 2.3 bis Diagnostic statistique de Bean (2021)
@@ -114,6 +115,7 @@ Sources :
 | Morse : « E » en surnombre comme masque | **registre incomplet** (scripts jamais exécutés) | F-10 |
 | **Tailles des groupes de E du Morse (26 E) comme clé numérique** (4 ordres, toutes phases, QI/II/IV tout alphabet ; QIII déjà mort à p = 11) | **éliminé** : K4 0, témoin 0/50 (23/09) ; règle « intervalles » non définie | `audits/morse_E_key_2026_09_23/` |
 | **« Miroir » Morse** (lettres lues à l'envers, A↔N, B↔V…) avant/après un Quagmire ; C, J, Z sans image | QIII : aucune p ≤ 12 ; seul phénomène sévère p = 19 (distance 38), déchiffrement en charabia ⇒ **éliminé** (23/09) | `audits/morse_mirror_2026_09_23/` |
+| **Substitution partitionnée** (clé selon position ET lettre claire ∈ KRYPTOS ou non ; anomalie Materna), QIII tout alphabet, p 1–26 | compatible seulement là où le hasard passe, sauf p = 19 (phénomène distance 38, charabia) ⇒ **aucun signal** (23/09) | `audits/langley_texts_2026_09_23/` |
 | Masques issus des anomalies physiques | bruit (5/24) | `e_team_anomaly_extraction` |
 
 ### 2.6 Idées thématiques et physiques
