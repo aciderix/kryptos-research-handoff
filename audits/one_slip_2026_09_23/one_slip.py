@@ -53,27 +53,15 @@ def work(args):
 
 
 if __name__ == "__main__":
-    n_null = int(sys.argv[1]) if len(sys.argv) > 1 else 20
-    tasks = [(c, f, q, x) for c in ["K4"] + list(range(n_null)) for (f, q, x) in JOBS]
-    res = {}
-    with Pool(4) as pool:
-        for ct_id, fam, x, hits in pool.imap_unordered(work, tasks, chunksize=8):
-            res.setdefault(fam, {}).setdefault(str(ct_id), {})[x] = hits
-    summary = {}
-    for fam, byct in res.items():
-        k4 = {x: h for x, h in byct["K4"].items() if h}
-        null_any = [sum(1 for h in byct[str(i)].values() if h) for i in range(n_null)]
-        summary[fam] = {"K4_params_with_hit": sorted(k4), "K4_hits": {str(x): h for x, h in sorted(k4.items())},
-                        "n_params": len(byct["K4"]),
-                        "null_mean_params_with_hit": sum(null_any) / n_null,
-                        "null_frac_any": sum(1 for c in null_any if c) / n_null}
-        if fam.startswith("periodic"):
-            per_p = {}
-            for p in range(1, 14):
-                per_p[p] = {"K4": bool(byct["K4"].get(p)),
-                            "null_rate": sum(1 for i in range(n_null) if byct[str(i)].get(p)) / n_null}
-            summary[fam]["per_period"] = per_p
-    json.dump(summary, open(os.path.join(os.path.dirname(__file__) or ".", "results_one_slip.json"), "w"), indent=1)
-    for fam, s in summary.items():
-        print(fam, "K4:", s["K4_params_with_hit"][:20], "| null mean", s["null_mean_params_with_hit"],
-              "null any", s["null_frac_any"])
+    # usage: one_slip.py K4            -> results_one_slip_K4.jsonl
+    #        one_slip.py null a b      -> random ciphertexts a..b-1 -> results_one_slip_null.jsonl (appended)
+    which = sys.argv[1]
+    if which == "K4":
+        ids, fn = ["K4"], "results_one_slip_K4.jsonl"
+    else:
+        ids, fn = list(range(int(sys.argv[2]), int(sys.argv[3]))), "results_one_slip_null.jsonl"
+    tasks = [(c, f, q, x) for c in ids for (f, q, x) in JOBS]
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), fn)
+    with Pool(4) as pool, open(path, "a") as out:
+        for ct_id, fam, x, hits in pool.imap_unordered(work, tasks, chunksize=4):
+            out.write(json.dumps({"ct": ct_id, "fam": fam, "x": x, "hits": hits}) + "\n"); out.flush()
