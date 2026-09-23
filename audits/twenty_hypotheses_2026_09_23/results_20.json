@@ -1,0 +1,226 @@
+{
+ "off=27 ST vig periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST vig periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST vig periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST vig periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST vig periodic=5": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST vig periodic=6": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=27 ST vig periodic=7": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=27 ST beau periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST beau periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST beau periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST beau periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST beau periodic=5": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=27 ST beau periodic=6": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 ST beau periodic=7": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS vig periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS vig periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS vig periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS vig periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS vig periodic=5": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS vig periodic=6": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS vig periodic=7": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=27 TS beau periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS beau periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS beau periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS beau periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS beau periodic=5": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS beau periodic=6": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=27 TS beau periodic=7": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST vig periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST vig periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST vig periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST vig periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST vig periodic=5": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=0 ST vig periodic=6": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=0 ST vig periodic=7": {
+  "K4": true,
+  "null_of_20": 4
+ },
+ "off=0 ST beau periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST beau periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST beau periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST beau periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST beau periodic=5": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=0 ST beau periodic=6": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 ST beau periodic=7": {
+  "K4": true,
+  "null_of_20": 4
+ },
+ "off=0 TS vig periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS vig periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS vig periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS vig periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS vig periodic=5": {
+  "K4": null,
+  "null_of_20": null
+ },
+ "off=0 TS vig periodic=6": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS vig periodic=7": {
+  "K4": true,
+  "null_of_20": 5
+ },
+ "off=0 TS beau periodic=None": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS beau periodic=2": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS beau periodic=3": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS beau periodic=4": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS beau periodic=5": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS beau periodic=6": {
+  "K4": false,
+  "null_of_20": null
+ },
+ "off=0 TS beau periodic=7": {
+  "K4": false,
+  "null_of_20": null
+ }
+}

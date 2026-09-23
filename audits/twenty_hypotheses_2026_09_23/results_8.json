@@ -1,0 +1,66 @@
+{
+ "I vig rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "I vig rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "I beau rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "I beau rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "II vig rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "II vig rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "II beau rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "II beau rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "III vig rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "III vig rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "III beau rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "III beau rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "IV vig rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "IV vig rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "IV beau rev=False": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ },
+ "IV beau rev=True": {
+  "K4_phases": [],
+  "null_any_phase_of_20": 0
+ }
+}
