@@ -261,3 +261,15 @@ Contenu :
 | Nulle | 6/10, 6/11, 6/13, 6/14, 6/16, 6/17, 6/19, 1/11 | Administratif, textes du *Cyrillic Projector*, propositions de tiers |
 
 **Conclusion de l'audit** : aucune source primaire accessible ne donne de règle nouvelle pour K4. Les sources resserrent deux points. (1) Le système de K4 est de **Scheidt** et repose sur des **mots-clés**, en **plusieurs couches**. (2) Le répertoire personnel de Sanborn se limite à la famille Quagmire, **déjà éliminée** pour K4. Nous n'avons pas retrouvé la cassette de la dédicace ni le dossier « Stencil Patterns » (hors ligne).
+
+### Recoupement externe (23/09, soir) : *Cyrillic Projector* et *Antipodes*
+
+Sources : Wikipédia (*Cyrillic Projector*, *Antipodes*), *Science* 302 (10/10/2003, p. 224), et la page de John Wilson (scirealm.org, **source secondaire**, niveau S) : http://scirealm.org/CyrillicProjector.html, http://scirealm.org/Antipodes.html
+
+- **Solution du *Cyrillic Projector*** : Frank Corr (juillet 2003), puis Mike Bales (septembre 2003) ; traduction dirigée par Elonka Dunin. Vigenère à alphabet chiffré à mot-clé **ТЕНЬ** (« ombre ») et seconde clé **ЙБАСГТ**, « dérivée du mot-indice MEDUSA » présent sur la sculpture.
+  **Vérification (calcul)** : ЙБАСГТ est exactement МЕДУЗА lu à travers l'alphabet ТЕНЬ (keyed[std(М)], …). C'est donc **le même procédé que les feuilles manuscrites 6/8** (Quagmire II, ТЕНЬ + МЕДУЗА) : **les feuilles 6/8 sont bien des feuilles de travail de cette famille d'œuvres** (Code Room / Cyrillic Projector). Recoupement indépendant.
+- Alphabet de la sculpture selon scirealm : ТЕНЬАБВГДЖЗИЙКЛМОПРСУФХ**Ш**ЦЧЩЪЫЭЮЯ (**Ш déplacé** à côté de Х ; Ё absent). Le tableau manuscrit 6/8 semble montrer le même ordre (Х Ш Ц Ч), à confirmer sur l'image. Ma vérification 22/23 est inchangée avec l'un ou l'autre ordre.
+- **« MEDUSA » en lettres latines** : sur le *Cyrillic Projector*, le mot MEDUSA est gravé **en lettres latines, dans une autre police**, au milieu du texte cyrillique (enchâssé dans le mot russe « pour ») ; il est **absent** du côté cyrillique d'Antipodes (scirealm). **Le relais Gemini du 23/09 avait raison sur ce point** ; je l'avais classé « invérifié » : il est maintenant **vérifié (source secondaire)**.
+  - Portée : Sanborn **montre le mot-indice sur l'œuvre elle-même**. Cela recoupe Scheidt 2003 (« les clés sont dissimulées sur la sculpture »). *Interprétation* : sur Kryptos, les indices de clé (KRYPTOS en tête du tableau, PALIMPSEST/ABSCISSA ?) seraient à chercher de la même façon, comme des mots visibles ; pour K4, aucun mot-indice n'a été identifié.
+- ***Antipodes* (1997, Hirshhorn)** : le côté latin répète Kryptos dans l'ordre K3 → K4 → espace → K1 → K2 → K3 → K4 → K1 → K2 ; UNDERGROUND y est correct ; une espace et deux points en plus au centre.
+  **Vérification** : le K4 d'Antipodes (transcription scirealm) est **identique lettre pour lettre** au K4 de Kryptos (97 lettres). ⇒ **aucune divergence dans K4** à exploiter. Les différences d'Antipodes portent sur K1–K3 (déjà testées : `e_antipodes_11/12`).
