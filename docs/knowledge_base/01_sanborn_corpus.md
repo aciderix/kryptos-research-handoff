@@ -452,3 +452,15 @@ Page de vulgarisation **tertiaire**, qui cite Wikipédia, Dunin, Stein, le NYT e
 - Dépôt : `docs/documentary_research_2026_09_21.md`, `docs/k3_chart_layout_and_route_2026_09_19.md`, `docs/nyt_k1k2_chart_physical_layout_2026_09_19.md`
 - [Friedrich09] Croquis « North Morse Strata » et « Front Compass Strata », Monet Friedrich, via *Kryptos – Beyond K4* : https://web.archive.org/web/20151226160921/https://kryptosfan.wordpress.com/morse-code/ (images : https://kryptosfan.files.wordpress.com/2009/05/morse-north.gif, https://kryptosfan.files.wordpress.com/2009/05/morse-south.gif)
 - [Gill99] Légendes de la photothèque Gillogly : https://www.voynich.net/Kryptos/
+
+### Tri du tableur « cartographie » (Google Sheets, relayé le 23/09 avec un commentaire de Gemini)
+**Nature du document** : ses 64 « sources » sont **nos propres fichiers** (les PDF AAA sous leurs noms hachés, `01_sanborn_corpus.md`, `02_tested_refuted.md`, `veille_k5…`, etc.)
+et quelques pages publiques. C'est une **synthèse automatique de notre dépôt**, pas une source nouvelle. Elle contient des erreurs de synthèse :
+le texte de K1 (« BETWEEN SUBTLE SHADING… ») présenté comme du Morse ; « 7×88 » présenté comme une instruction (c'est une note de composeur, base 5) ; « Bottom chart **seeding** » repris de KryptosBot (ma lecture : « **section** », incertaine).
+
+| Affirmation (Gemini, d'après le tableur) | Vérification | Statut |
+|---|---|---|
+| Table « miroir » du Morse (lire les signaux à l'envers : Q↔Y, A↔N, D↔U, B↔V, F↔L, G↔W) appliquée à K4 | (1) C, J et Z **n'ont pas d'image miroir** (lettres non Morse) : 9 lettres de K4 sont intraduisibles, dont le Z en position 70, **dans le crib** ; côté clair, les deux C de BERLINCLOCK aussi ⇒ inapplicable lettre à lettre. (2) Même corrigée, une permutation fixe appliquée avant ou après un Quagmire **se fond dans l'alphabet inconnu** : c'est déjà couvert par les tests « tout alphabet » (QI–QIV). « YAR → QNR » et « QQ » sont de la numérologie | **Couvert / inapplicable** |
+| K4 continue la grille de K3 en largeur 14 ; la 25ᵉ ligne « L / » serait son amorce | La grille de K3 (24 × 14 = 336) est **fermée** : le clair de K3 se lit entièrement dedans. En largeur 14, K4 « à la suite » donne les mêmes colonnes que K4 seul (336 = 24 × 14). Fait réel mais connu : les cribs sont distants de **42 = 3 × 14 = 2 × 21 = 6 × 7**, donc ils s'empilent aux mêmes colonnes en largeurs 7, 14, 21 et 42. Ces largeurs sont déjà testées (grilles 7/14/21, 98 = 14 × 7, périodes 7/14/21/42 tout alphabet) | **Couvert** |
+| Les 26 « E » isolés du Morse = ordre de l'alphabet / grille de lecture | Le nombre même n'est pas établi (25 ou 26 selon les transcriptions, base 1). Aucune règle précise n'est proposée ; à définir **avant** tout test (masques Morse F-10, « registre incomplet ») | **Non défini** |
+| « Sanborn surpris que personne n'ait retrouvé la matrice d'origine et tous les shifts » | Notre source (roadtrip Dunin 2003) attribue « matrice d'origine » à **Scheidt** | **Mal attribué** |
