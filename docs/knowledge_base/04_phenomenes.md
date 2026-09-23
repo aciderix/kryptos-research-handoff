@@ -52,6 +52,7 @@ Pour chaque mécanisme manuel plausible en 1989, se demander s'il produit **à l
 - **Au moins 3 erreurs de fabrication sur 432 lettres**, et chacune a égaré les solveurs pendant des années. Sanborn : « il n'y avait personne pour relire » (2020).
 - **Conséquence.** Toutes les éliminations de K4 (communauté, dépôt, les nôtres) exigent que les 24 lettres connues soient exactes. Avec un taux d'erreur de cet ordre, un procédé « beaucoup plus difficile » a une probabilité **non négligeable** de contenir une erreur dans la zone des cribs. Le vrai mécanisme aurait alors été écarté à tort.
 - **Test** : `audits/one_slip_2026_09_23/` (familles à mot-clé et clés suivies, une erreur tolérée, témoin aléatoire).
+- **Nuance (manuscrit de Sanborn, AAA 6/9, vers 2009)** : *« only one, very focused guy remained and **cut out K3 and K4 by himself** in just two months with **virtually no errors** »*. Les trois erreurs connues de K1–K2 viennent de la **feuille** (clé, lettre omise), pas seulement du découpage. Pour K3–K4, un seul découpeur, contrôle double au pochoir : **le risque de coquille de découpe baisse ; celui d'une erreur sur la feuille de chiffrement reste entier.** L'audit « one-slip » garde donc son sens, pour une erreur de feuille.
 
 ### B. « Les anomalies sont des indices »
 - IQLUSION et UNDERGRUUND sont des **accidents de fabrication**, prouvés par la feuille : la décision n'existait pas au moment du chiffrement.
@@ -64,6 +65,12 @@ Pour chaque mécanisme manuel plausible en 1989, se demander s'il produit **à l
 - ⇒ « Masquage », « changer la base du langage », « plus d'une étape » décrivent ce que Scheidt a **proposé**, pas nécessairement ce que Sanborn a **exécuté**.
 - Un artiste « réfractaire aux maths » qui adapte un chiffre de terrain le **simplifie** plus probablement qu'il ne le complique. Il l'exécute sur le même type de feuille (lignes de 31 : clair, clé, chiffré) et **avec des erreurs**.
 - **La source la plus fiable sur la méthode réelle reste Sanborn en 1990** : le tableau pour la plaque du haut ; la plaque du bas « d'une façon beaucoup plus difficile », avec deux systèmes (K3 et K4).
+- **Nuance par des sources d'époque (AAA, base 5)** :
+  - *Washington Post*, 14 janvier 1990 : *« the other half will be encoded in a **modern system created for the project by an expert cryptographer** »* ;
+  - GSA, 1993 : *« he encoded the screen **with the assistance of** a cryptographer »* ;
+  - manuscrit de Sanborn (vers 2009) : *« I needed contemporary expertise… Enter Edward Scheidt »* ; à la dédicace, il remet *« some of the plain text and a **partial** code key »*.
+  - ⇒ En 1990, le second système est présenté comme **conçu par Scheidt pour Kryptos**, pas comme une adaptation d'amateur. Les « modifications » de Sanborn (récit de 2009 et 2020) restent possibles mais **ne sont pas attestées à l'époque**. Les deux lectures (système de Scheidt exécuté fidèlement, ou système simplifié par Sanborn) restent ouvertes ; **aucune n'est privilégiée**.
+- **Chronologie établie (manuscrit 6/9)** : le tableau KRYPTOS a été découpé **avant que le clair soit écrit** ; le clair était encore « endlessly revised » mi-1989. L'alphabet KRYPTOS était donc fixé avant K4, **indépendamment** de son clair.
 
 ### D. « Le clair de K4 est de l'anglais courant »
 - Sanborn : « I wrote the plain text for Kryptos to be **enigmatic** » (IMG_1410) ; « a riddle within a riddle » (2020) ; « K4 pointe vers K5 » (2025).
