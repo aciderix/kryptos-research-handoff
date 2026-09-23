@@ -51,7 +51,7 @@ Sources :
 
 | Ce qui a été testé | Portée | Statut | Où |
 |---|---|---|---|
-| Clé ligne + colonne (« ID BY ROWS », codes matriciels 2D) | algébrique | éliminé | dépôt `e_s_10_additive_grid_key`, `e_solve_17`, `e_solve_19` ; **doublon** : campagne 22/09 §2.1 |
+| Clé ligne + colonne (« ID BY ROWS », codes matriciels 2D) | algébrique ; **précision 23/09 : avec un alphabet QUELCONQUE (QIII)**, éliminé seulement aux largeurs Vig [6, 9, 15, 19, 21, 38, 42, 45] et Beau [5, 6, 9, 10, 19, 20, 21, 38, 40, 42] (CP-SAT, `audits/rowcol_beau_2026_09_23/`) ; ailleurs compatible mais indécidable (hasard 60–100 %) | éliminé (alphabets fixes) ; **partiel** (alphabet libre) | dépôt `e_s_10_additive_grid_key`, `e_solve_17`, `e_solve_19` ; **doublon** : campagne 22/09 §2.1 |
 | Clés progressives, polynomiales, Fibonacci, récurrences | Bean | éliminé | `e_s_90`, `e_s_84`, `e_s_50`, `e_recurrence_00` |
 | Gromark / clé numérique en chaîne | + colonnes largeur 7 | éliminé sous portée | `e_s_67` ; carnet utilisateur (forme canonique, bases 3–12) |
 | **Gromark, base 10, amorce de 5 chiffres, alphabets clair et chiffré libres** | espace entier examiné (inégalités + base de Gröbner) | **39 amorces compatibles** avec les 24 lettres (dont 26717 ≡ 84393). Plaintexts « proches de l'anglais » trouvés par recuit, aucun convaincant. **Non éliminé** | Bean 2021, §3 ; code https://github.com/RichardBean/k4testing |
