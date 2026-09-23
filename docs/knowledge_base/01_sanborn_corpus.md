@@ -233,6 +233,37 @@ Compilation secondaire de citations primaires, avec leurs sources (Wired 2005, N
 | Sanborn | Il a délibérément « masqué l'avantage » de la fréquence des lettres anglaises dans la partie 4 | NPR 2005 (paraphrase) |
 | ? | « J'ai utilisé un peu de **stéganographie** dans la 4ᵉ partie » | conférence 2004, **source jugée peu fiable par le recueil** |
 
+### K0 : emplacement physique des messages et second relais Gemini (23/09)
+
+**Source trouvée : le plan de Monet Friedrich (2009)**, publié sur *Kryptos – Beyond K4* (https://kryptosfan.wordpress.com/morse-code/, archive web.archive.org 2015-12-26). Deux croquis : `morse-north.gif` (« North Morse Strata ») et `morse-south.gif` (« Front Compass Strata »), avec la mention « **the Morse code is read facing South** ». C'est un **relevé d'amateur tracé d'après les photos de Gillogly**, pas un plan de l'artiste. Il concorde avec ce qu'on peut vérifier :
+- la silhouette du croquis nord est celle de `morse-overview.jpg` (Gillogly) ;
+- la plaque POSITION est bien au pied d'un gros bloc sombre (`morse11.jpg`), comme sur le croquis de la rose, où ce bloc est nommé *Lodestone* ;
+- Gillogly (légendes, 1999) : « un bloc simple et une dalle gravée d'une rose des vents » à l'extérieur, et « **près de la rose, une autre dalle** avec du Morse dans une couche de cuivre ».
+
+| Dalle (Friedrich) | Messages | Place sur la dalle |
+|---|---|---|
+| **Dalle de la rose** (« Front Compass Strata ») | T IS YOUR / POSITION E | contre la **magnétite** |
+| | E DIGETAL E E E / INTERPRETATI | le long du bord bas, au-delà de la rose |
+| **Dalle Morse** (« North Morse Strata ») | SOS, RQ | sur le petit côté (extrémité) |
+| | LUCID E E E / MEMORY E | sous le premier pan |
+| | E E SHADOW E E / FORCES E E E E E | long bord bas, côté gauche |
+| | E E VIRTUALLYE / E E E E E INVISIBLE | long bord bas, côté droit, vers le « Triangle » |
+
+Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au nord), *Compass Strata*, *Arrowhead Strata* (triangle). **Ce que le plan ne dit pas : dans quel sens le visiteur les parcourt.** L'ordre de lecture « de l'entrée vers la cour » reste donc **non établi**. Le seul fait nouveau solide est le **regroupement** : les messages se répartissent sur **deux dalles**, et la dalle de la rose porte **POSITION** (contre la magnétite) et **DIGETAL INTERPRETATI** (les deux plaques où l'on relève une anomalie de gravure).
+
+*Attention :* le croquis de la rose ajoute un **anneau de lettres** (l'alphabet KRYPTOS) et des **chiffres bleus** (4, 8, 9, 5) autour de la rose. On ne les voit **ni sur `compass1/2.jpg` (Gillogly) ni sur la photo CIA**, qui ne montrent que N, E, S, W. C'est une **surcouche spéculative** de l'auteur, à exclure des faits.
+
+**Tri du second relais Gemini (23/09)**
+
+| Affirmation relayée | Vérification | Statut |
+|---|---|---|
+| Ordre physique de l'entrée à la cour : VIRTUALLY/INVISIBLE, DIGETAL/INTERPRETATIT, SHADOW/FORCES, LUCID/MEMORY, T IS YOUR/POSITION, SOS, RQ | C'est **mot pour mot la liste de Wikipédia**, qui dit seulement « traductions attribuées aux plaques, **lues face au sud** », sans prétendre à un ordre. Même ordre dans le tableau de Gary Phillips repris par *kryptosfan* (2009) : c'est **un ordre de liste, transmis de site en site**. Il **alterne les deux dalles** (DIGETAL est sur la dalle de la rose, entre deux messages de la dalle Morse). Ce n'est donc pas un parcours le long d'un seul seam | **Non établi / réfuté comme « ordre physique »** |
+| « INTERPRETATIT », six E avant INVISIBLE, pas de E avant DIGETAL | Graphies de Wikipédia et Phillips. Rumkin lit INTERPRETATI (coupé par le bord), **cinq** E avant INVISIBLE, un E avant DIGETAL. Wikipédia signale elle-même les variantes INTERPRETATIU / INTERPRETATIO[N] | **Variantes de transcription** ; Rumkin reste la référence, avec l'écart signalé |
+| Le U de YOUR est « intégralement et proprement découpé » | Aucune photo de face citée. Rumkin transcrit `--.` (G) ; Phillips/kryptosfan `..-` (U). `morse11.jpg` est trop rasante | **Non vérifié** ; la question reste ouverte |
+| La rose est orientée vers la magnétite, qui dévierait une boussole d'environ 15° | L'**aiguille gravée** pointe bien vers la magnétite (mesure ici : 246–247°). Les « 15° » reprennent l'estimation à l'œil de u/cjneutron (345°), déjà classée « pas une mesure ». Aucune mesure de déviation magnétique publiée | Aiguille → magnétite : **fait mesuré** ; 15° : **non sourcé** |
+| Les E sont des séparateurs / nulles | Hypothèse, déjà listée (pauses d'opérateur, Rumkin, sans source) | **Interprétation** |
+| « Deux systèmes » viendrait des notes de travail de 1990 révélées à l'enchère | Nos sources l'attribuent à une **réponse orale** de Sanborn pendant l'inauguration (ci-dessous). Le fil Reddit cité (1oaa9e0, « K4 more documents revealed from the auction ») n'est pas lisible d'ici | **Non vérifié** ; fil à archiver |
+
 ### Origine de la phrase « deux systèmes… indice majeur »
 Attribuée à Sanborn **pendant la cérémonie d'inauguration**, en réponse à une question (collection d'archives de kryptosbot.com, `docs/documentary_research_2026_09_21.md` [4]). **Absente du discours de Webster.** Le document primaire n'est pas encore localisé. Cohérent sur le fond avec la lettre de 1989 (§4 ter).
 
@@ -324,3 +355,5 @@ Attribuée à Sanborn **pendant la cérémonie d'inauguration**, en réponse à 
 - [scirealm] John's Collected Kryptos Hints : http://scirealm.org/KryptosHints.html
 - [inteltoday] https://inteltoday.org/2021/08/14/kryptos-the-mystery-of-the-morse-messages/
 - Dépôt : `docs/documentary_research_2026_09_21.md`, `docs/k3_chart_layout_and_route_2026_09_19.md`, `docs/nyt_k1k2_chart_physical_layout_2026_09_19.md`
+- [Friedrich09] Croquis « North Morse Strata » et « Front Compass Strata », Monet Friedrich, via *Kryptos – Beyond K4* : https://web.archive.org/web/20151226160921/https://kryptosfan.wordpress.com/morse-code/ (images : https://kryptosfan.files.wordpress.com/2009/05/morse-north.gif, https://kryptosfan.files.wordpress.com/2009/05/morse-south.gif)
+- [Gill99] Légendes de la photothèque Gillogly : https://www.voynich.net/Kryptos/
