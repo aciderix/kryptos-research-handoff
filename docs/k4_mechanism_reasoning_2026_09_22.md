@@ -114,6 +114,29 @@ Le contrôle positif passe : un faux K4 de 98 symboles construit avec chacune de
 
 À noter : la « validation gratuite » par la position du « ? » est plus faible qu'annoncé. Toute lecture de haut en bas qui commence par la colonne 0 place une nulle initiale en tête. Le seul fait non trivial est que K, première lettre de KRYPTOS, est aussi la première de ses lettres dans l'ordre alphabétique : la grille clée se comporte donc ici comme la grille naturelle.
 
+### 2.5 La vraie méthode de K3, généralisée exactement
+
+**Fait établi (vérifié sur les vrais textes de K3).** La route de K3 se décrit ainsi : écrire le clair en lignes de 42, lire les colonnes de gauche à droite, chacune de bas en haut, puis réécrire en lignes de 14 et relire de la même façon. C'est **exactement** une multiplication des positions :
+
+> (position chiffrée + 1) = 192 × (position claire + 1) mod 337, avec 192 = 8 × 24 (le nombre de lignes des deux grilles) et 337 = 336 + 1, qui est premier.
+
+Plus généralement, un passage dans une grille pleine de *r* lignes multiplie (position + 1) par *r* modulo *n* + 1. C'est la raison profonde de l'observation connue « K3 = prendre une lettre sur 192 ». Conséquence : « appliquer la méthode de K3 à K4 » n'est pas un espace flou de grilles et de sens de lecture, c'est une **liste fermée de multiplicateurs** :
+
+- **Modèle A (le « ? » fait partie de K4, 98 symboles, modulo 99).** Les grilles pleines ont 2, 7, 14 ou 49 lignes, et ce nombre de lignes est aussi le multiplicateur d'un passage. Avec un nombre quelconque de passages, les multiplicateurs engendrés par 2 et 7 sont **les 60 multiplicateurs inversibles modulo 99**, c'est-à-dire toutes les décimations. La position gravée du « ? » (en tête) détermine alors où se trouvait la nulle dans le clair : ce n'est pas un paramètre libre.
+- **Modèle B (97 lettres, modulo 98).** Aucune grille pleine n'existe (97 est premier). La généralisation naturelle est la décimation x → m·x mod 98, avec m premier avec 98 (42 multiplicateurs).
+
+Chaque permutation est combinée à Quagmire III (alphabet inconnu, clé périodique 1–26, Vigenère et Beaufort, substitution avant ou après la transposition), soit (60 + 42) × 2 × 2 = 408 configurations. Les contrôles positifs passent (12/12 : un faux K4 construit avec un multiplicateur est retrouvé à la vraie période et rejeté à une fausse).
+
+**Résultat : pas de signal.** Le jugement porte sur les périodes courtes (1–13), les seules que les 24 lettres contraignent vraiment.
+
+- **Vue d'ensemble** (`results_k3_multiplicative_partial_summary.json`). Sur les 260 configurations entièrement calculées (3 380 cellules configuration × période), K4 est compatible dans **96 cellules (2,8 %)**. Des chiffrés aléatoires passés dans les mêmes cellules tirées au sort le sont dans **3,4 %** des cas (43/1 280, `results_k3_family_null_seed*.json`), soit environ 114 attendues. **Aucun excès.**
+- **Le cas de la période 7.** Quelques cellules à période 7 (la longueur de KRYPTOS) étaient compatibles pour K4 et pour 0 texte aléatoire sur 30. Examen complet (`k3_p7_check.py`) :
+  - Sur les 408 configurations à p = 7, K4 est compatible dans **8**, pour environ **2,2 attendues**. Cette espérance est estimée avec 20 tirages par cellule, donc sous-estimée : de nombreuses cellules à taux réel d'environ 1 % apparaissent à 0/20. Avec 300 tirages, les 5 cellules suivies ont un taux de hasard de 0,7 à 1,7 %.
+  - **La période 7 a été choisie après avoir vu les données**, parmi 13 périodes courtes testées. Sur l'ensemble de ces 13 périodes, il n'y a aucun excès. Ce n'est pas un signal pré-enregistré.
+  - **Le test décisif : les lettres prédites** (`k3_p7_forced.py`). Pour chaque cellule, le solveur établit quelles lettres du clair **hors cribs** sont forcées, c'est-à-dire identiques pour tous les alphabets et toutes les clés compatibles. Une vraie solution doit donner de l'anglais. Les deux cellules les plus contraintes donnent du charabia : multiplicateur 58 (58 lettres forcées : `LNZZLJ…ZXI…WXHZD…BLNDKUFSZN…`) et multiplicateur 85 (52 lettres forcées : `…JZRTBPKSYW BERLINCLOCK FLXG…`). Les deux autres (multiplicateurs 81 et 91) ne forcent que 15 à 21 lettres, trop peu pour trancher à l'œil. Leur comparaison statistique avec le hasard est dans `results_k3_p7_forced_null_*.json` (voir §6 si le calcul n'a pas abouti).
+
+**Conclusion : « méthode de K3 (toutes ses variantes pleines, avec ou sans le « ? ») + système de K1/K2 avec clé périodique courte » ne rend pas compte de K4, pour aucun alphabet.** Si K4 réutilise la route de K3, la seconde couche n'est pas une Quagmire III à clé courte. Il faut alors une clé longue ou non périodique, et on retombe sur le besoin d'un objet extérieur (§3).
+
 ---
 
 ## 3. La déduction centrale
@@ -151,7 +174,7 @@ Ces trois indices désignent la même famille : **grilles de 7 colonnes, avec ou
 
 Chaque étape est une liste **fermée**, écrite avant tout résultat. Chaque candidat coûte une requête SAT et passe par les mêmes contrôles.
 
-1. **Reconstituer exactement la procédure de K3** (dimensions des deux grilles, sens des rotations, ordre de lecture) à partir de la solution publiée de K3. Puis écrire **toutes** ses adaptations naturelles à 97 et à 98 symboles (liste close, probablement quelques dizaines). Filtre gratuit : la position du « ? ». Test : Quagmire III avec alphabet inconnu, périodes 1–26, les deux ordres de couches.
+1. ~~Reconstituer exactement la procédure de K3 et tester toutes ses adaptations à 97 et 98 symboles.~~ **Fait (§2.5)** : la route de K3 est une multiplication modulaire, la famille est close (102 permutations), et elle est négative avec Quagmire III à clé courte. **Suite naturelle** : la même famille close combinée à une clé courante tirée des textes de la sculpture (test sans faux positif). Environ 250 000 requêtes, faisable en quelques heures sur une machine plus large.
 2. **Même chose pour les grilles de largeur 21** (anomalie de Bean) et de largeur 7 non clés : remplissage par lignes, lecture par colonnes, dans les deux sens.
 3. **Clé courante issue d'objets publics de la sculpture**, toujours avec alphabet inconnu : textes chiffrés de K1–K3, Morse K0, lignes du tableau lues dans les sens naturels. Le test est puissant : zéro faux positif sur texte aléatoire. Il faut d'abord établir les transcriptions exactes à partir de sources primaires.
 4. Seulement si une étape donne un « oui » **plus rare que le hasard** : reconstruire la solution complète, puis vérifier qu'elle prédit des lettres hors cribs lisibles. Sinon, conserver le négatif avec sa portée exacte.
@@ -165,6 +188,7 @@ Ce qui ne peut **pas** se décider avec les données publiques, et qu'il ne faut
 - **Z3 et délais.** Un premier encodage Z3 (entiers modulo 26) a renvoyé `unknown` (délai dépassé) sur un contrôle positif. Il pouvait donc manquer des solutions sans le signaler. Tous les résultats ci-dessus proviennent de l'encodage **booléen exact** (python-sat / CaDiCaL), qui n'a pas de délai. Z3 n'a servi qu'au recoupement des périodes Quagmire I–IV, où il n'a renvoyé aucun `unknown`.
 - **Bug corrigé dans un contrôle.** Le générateur synthétique utilisait par erreur un alphabet mélangé du côté censé être l'identité pour Quagmire I et II. Leurs contrôles positifs échouaient donc à tort. Après correction, les 8 variantes retrouvent la vraie période et rejettent une fausse (`positive_controls_periodic_fixed.json`). Q-I et Q-II ont été relancés, et les fichiers de résultats portent les contrôles corrigés.
 - **Calculs non terminés.** Les passes complètes « clé progressive » et « ligne + colonne » avec alphabet inconnu, 20 contrôles nuls chacune, ont été arrêtées faute de temps : les preuves d'impossibilité sur chiffrés aléatoires sont lentes. Les passes ciblées (`prog_rowcol_targeted.py`) ont aussi été arrêtées avant la fin. Seules les réponses pour K4 sont archivées (`results_k4_only_progressive.json`, `results_k4_only_rowcol.json` en Vigenère seulement). En conséquence, ces deux familles restent `OPEN` avec un alphabet inconnu (elles sont éliminées avec AZ et KA).
+- **Route de K3, calcul partiel.** Deux des quatre lots de `k3_multiplicative.py` (modèle B du lot 1 et lot 0 entier) ont été arrêtés après plusieurs heures, bloqués sur des instances SAT difficiles. Le bilan porte sur 260 des 408 configurations. En revanche, l'examen de la période 7 couvre les 408.
 - **Transcriptions.** Les clairs de K1–K3 utilisés comme clés courantes viennent de la solution publique usuelle, avec les fautes gravées conservées (`IQLUSION`, `UNDERGRUUND`, `DESPARATLY`). Une erreur de transcription entre les deux cribs pourrait faire échouer un bon décalage. Les résultats « aucun » valent pour ces transcriptions.
 - **Portée.** Toutes les éliminations sont conditionnelles à H1 (ou à la transposition précisée) et aux conventions Vigenère/Beaufort de la famille Quagmire. « Compatible » ne vaut jamais indice, sauf si c'est nettement plus rare que pour le hasard.
 - **Antériorité.** Le registre contient deux scripts Z3 (`e_z3_periodic_feasibility`, `e_z3_multilayer_feasibility`) marqués `last_run: never`, qui portent sur des alphabets fixes. Aucune entrée ne documente une élimination sur **tous** les alphabets mélangés. Des solveurs publics ont pu le faire ailleurs : cette note ne revendique pas une première mondiale.

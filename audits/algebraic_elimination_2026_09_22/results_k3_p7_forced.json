@@ -1,0 +1,22 @@
+{
+ "A-91-ST-vig-p7": {
+  "forced_outside_cribs": 15,
+  "plaintext_forced_letters": "I.A..S.R.............EASTNORTHEAST....L...R...NU......U.T..X...BERLINCLOCK...L..R.....A.........O"
+ },
+ "B-81-TS-vig-p7": {
+  "forced_outside_cribs": 21,
+  "plaintext_forced_letters": ".T..INC..F...CN...R..EASTNORTHEAST...CK.N..N......A..C..B......BERLINCLOCK.....R...TLA.......Z.V."
+ },
+ "B-81-ST-vig-p7": {
+  "forced_outside_cribs": 21,
+  "plaintext_forced_letters": ".T..INC..F...CN...R..EASTNORTHEAST...CK.N..N......A..C..B......BERLINCLOCK.....R...TLA.......Z.V."
+ },
+ "A-85-ST-vig-p7": {
+  "forced_outside_cribs": 52,
+  "plaintext_forced_letters": ".....ESBH.E.YENY.FIICEASTNORTHEASTT.BX.GHRUZX.GYB.U..JZRTBPKSYWBERLINCLOCKFLXG.E..HBAXH..B.PXJI.I"
+ },
+ "A-58-ST-vig-p7": {
+  "forced_outside_cribs": 58,
+  "plaintext_forced_letters": "LNZZLJ...OZK.EWQZYQ.YEASTNORTHEASTZXI.WXHZD.E.IT.S.BLNDKUFSZN.FBERLINCLOCKYS.P.CY.ZHYJJTC.NBKUDYP"
+ }
+}
