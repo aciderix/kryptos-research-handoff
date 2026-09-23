@@ -13,6 +13,11 @@
 | **9 sur 10 à ±2** | **2 sur 14 à ±2** (les deux sont des E) |
 
 - Bean évalue ce phénomène à **1 chance sur 5 520** pour une permutation aléatoire. *Réserve :* il a été remarqué **après** avoir regardé les données.
+- **Contrôle du 23/09.**
+  - L'effet suit bien **la lettre et non la position**. Sur les 11 petits écarts, 9 tombent sur des lettres de KRYPTOS : p = 0,0004. Leur concentration dans EASTNORTHEAST est moins nette : p = 0,017.
+  - Mais seules **13 lettres claires** figurent dans les cribs. L'effet porte en réalité sur **5 lettres (R, S, T, O, K)**, dont plusieurs répétées.
+  - Un **ensemble aléatoire de 7 lettres** fait aussi bien dans **0,3 %** des cas au seuil ±2, et dans **5,6 %** au seuil ±1.
+  - **Conclusion : suggestif, pas assez solide pour fonder un mécanisme.**
 - **Ce qu'il dit, s'il est réel.** L'effet du chiffrement **dépend de la lettre claire elle-même**, et pas seulement de la position. Les lettres du mot KRYPTOS sont traitées à part. Ce n'est pas le comportement d'un simple décalage par position, quel que soit l'alphabet : c'est celui d'un **alphabet construit sur le mot KRYPTOS**, utilisé d'une façon que personne n'a encore identifiée.
 - **Ce qui est déjà exclu** (base 2) : un seul décalage par position, avec les alphabets normal ou KRYPTOS.
 

@@ -299,6 +299,23 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 4. **Le site :** les strates de l'entrée sont **alignées** avec celles de la cour, en diagonale sur l'axe nord-sud de l'Agence. Sanborn dit ne les avoir alignées **sur rien de particulier**. Le Morse est à l'entrée **du 4ᵉ étage** du nouveau bâtiment (avenant de 1988). Et le Morse est présenté comme **« l'indicateur de ce qu'on trouvera plus loin »**.
 5. **Coïncidence écartée :** le code comptable du contrat commence par « 192 » (192.8.80.P1140001…, puis 192X…). Le même nombre apparaît dans la route de K3 (192 = 8 × 24), mais ici c'est un code budgétaire fédéral. On ne l'exploite pas.
 
+## 4 sexies. Papiers de Sanborn aux Archives of American Art, photographiés par KryptosBot (lus le 23/09)
+
+**Source :** https://www.kryptosbot.com/archive/ : photos prises en **salle de lecture publique** (mars 2026) dans les *Jim Sanborn papers*, circa 1950–2023, **hors du dossier scellé**. Les **images** sont primaires (P) ; les **légendes** du site sont des interprétations (C), parfois excessives. Les lectures ci-dessous sont **les miennes**, faites sur les photos.
+
+| Image | Ce que je lis | Portée |
+|---|---|---|
+| IMG_1249 | La même page de transcription de 1990 que la photo RR Auction (« two systems of enciphering the bottom text ») | Pas de page suivante disponible |
+| IMG_1340 | Carnet de notes **tardif** (il mentionne « Dan Brown (email) » et « Zodiac », donc après 2009). En bas, une liste numérotée qui ressemble à des **réponses préparées sur les anomalies** : « 1. Code originally developed to keep things secret in the military. 2. Keywords chosen for their mysterious nature and how they fit into the aesthetics. Palimpsest is to write over… / ABSISSA. **3. Extra L at end of line, bottom chart section. 4. ? [or like 4, 8, 10, 2?] not coded.** » | Lecture incertaine sur le point 4. **Si elle est juste**, Sanborn explique lui-même le « L » en trop (fin de ligne, bas du tableau) et dit que les « ? » **ne sont pas chiffrés**. Le « ? » ne ferait alors pas partie de K4 (97 lettres, pas 98). KryptosBot lit « bottom chart **seeding** » ; je lis « **section** » |
+| IMG_1410 | « I wrote the plain text for Kryptos [and designed it] to be **enigmatic** and [recoded] it to make it challenging… in 1988 [encoding and cryptography] were forgotten arts… » | Le clair est **volontairement énigmatique** (cohérent avec « a riddle within a riddle », 2020) : un clair correct ne ressemblera pas forcément à de l'anglais ordinaire |
+| IMG_1555 | Croquis sur bloc jaune : une plaque « **Code Breaker** » posée **sur** une plaque « **Coded** », toutes deux couvertes de lignes de texte ; chemise « Professional Activity » | **Seul dessin de Sanborn montrant un décodeur physique posé sur un texte chiffré.** Non daté, non rattaché à Kryptos |
+| IMG_1236 | Croquis d'une façade couverte de **symboles** (« ??? ◎◎=◎∩= »), avec une porte : « encrypted message is included within set of modern day font characters. Could be done to shade an area » | Selon toute vraisemblance **un autre projet** : un écran perforé qui fait de l'ombre, avec un message chiffré mêlé aux caractères. La lecture « stéganographie de K4 » de KryptosBot est une **surinterprétation** |
+| IMG_1224 | Tableau KA manuscrit, un seul « H » entouré | Inexploitable sans contexte |
+
+**Ce que cela apporte au raisonnement** *(interprétation)* :
+- Si IMG_1340 se lit bien, Sanborn traite le « L » en trop et les « ? » comme des **particularités expliquées**, pas comme des clés. Les pistes communautaires fondées sur ces anomalies (HILL, « ? » + 97 = 98 = 14 × 7) reposeraient alors sur une **lecture erronée**.
+- IMG_1555 donne une **forme concrète** à ses « systèmes visuels d'encodage, individuels » (2005), au « pull up one layer » (1990) et à la naissance des projections (deux plaques de Kryptos superposées devant une lumière, AAA 2009). L'idée : **un gabarit physique posé sur le texte chiffré**. Si K4 fonctionne ainsi, l'élément manquant est **un objet**, qu'aucune analyse des 97 lettres ne peut reconstituer. Cela expliquerait aussi « qui dit que c'est même une solution mathématique ? » (2025). *Hypothèse, non démontrée.*
+
 ## 5. Indices officiels sur K4
 
 | Date | Indice | Positions (1-indexées) | Niveau |
