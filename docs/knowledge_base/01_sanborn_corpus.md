@@ -115,7 +115,7 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 
 | Affirmation | Où | Pourquoi exclue |
 |---|---|---|
-| « THE COMPASS ROSE IS HERE » serait le début du clair de K4 | résumé d'un résultat de recherche web (source non identifiée, 2026-09-23) | Clair non publié, source invérifiable. Si c'est une fuite de l'archive scellée, l'utiliser violerait la règle « ne pas ajuster sur un clair privé ». Consigné pour que personne ne s'en serve à son insu |
+| « THE COMPASS ROSE IS HERE » serait le début du clair de K4 | Origine identifiée le 23/09 : **« clair reconstruit » de SolveKryptos** (solvekryptos.com/solution), repris par des blogs, dont un billet de 2014 et un article « AI cracked » de M. Naughton | **Reconstruction communautaire, pas une fuite ni une confirmation.** Sanborn n'a confirmé que les 4 fragments officiels. Le clair réel (Kobek/Byrne, archive scellée, acheteur de 2025) n'est pas publié. La propre page de vérification de SolveKryptos admet que des éléments sont **déduits à rebours du clair proposé** (registre F-06, « revendication seulement »). Fiabilité : **très faible**. Danger : raisonnement circulaire si on s'en sert pour « valider » une méthode |
 | « La clé de Kryptos est KOMITET » | message instantané anonyme reçu par E. Dunin | Anonyme, jamais confirmé |
 
 ## 8. Ce que l'artiste semble dire, rassemblé *(synthèse interprétative)*
