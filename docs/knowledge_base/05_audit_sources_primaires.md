@@ -72,3 +72,18 @@
 - **Conséquence pour nous :**
   - **si K5 est publié**, ce sera un second chiffré de 97 lettres qui « partage des mots codés aux mêmes positions » que K4. Deux textes chiffrés avec la même clé aux mêmes positions sont « en profondeur », la situation classique qui a permis de casser des chiffres à la main. **C'est le seul événement prévisible qui pourrait changer la donne.**
   - **Règle maintenue :** le vérificateur de Paradigm **ne doit pas servir à ajuster une méthode** (ce serait un oracle). Une seule soumission, à la toute fin, pour confirmer.
+
+## Triage d'un relais IA (« tout ce qui est disponible sur la boîte 6 », 23/09)
+Relais transmis par l'utilisateur. Les références pointaient vers des pages d'accueil (reddit.com, si.edu, paradigm.xyz), jamais vers les pages précises.
+
+| Affirmation | Vérification | Statut |
+|---|---|---|
+| Des scans de la boîte 6 circulent (e-mails, pochoirs) | Aucun trouvé. Seules les photos KryptosBot (sans numéro de dossier) sont publiques | **Non établi** |
+| E-mail au « Dr. Thompson » (2003) sur l'astrologie, dossier 6/9 | Randy Thompson est un auteur connu de « solutions » (listé sur thekryptosproject). Le document n'est pas localisé | Invérifié ; sans portée sur la méthode |
+| 900 lames de scie sauteuse enterrées à Langley « en dédicace » | Les **900 lames** sont un fait de fabrication (copper.org : 12 scies, 900 lames, 15 assistants). Qu'elles aient été **enterrées** n'est pas sourcé : c'est un amalgame avec « it's buried out there somewhere » (K2) | Chiffre réel ; enfouissement **non sourcé** |
+| Des photos du dossier « Stencil Patterns » prouveraient des anomalies volontaires (« X », « Y en trop » dans le tableau) | Aucune photo trouvée. La seule anomalie connue du tableau est le **L en trop** ; aucun « Y » anormal n'est connu | **Probablement inventé** |
+| Le dossier « Dedication » contiendrait les cribs : « NYST (64–67) = BERLIN » | **Faux** : c'est NYPVTT (64–69) = BERLIN. Les cribs ont été donnés en 2010, 2014 et 2020 dans la presse, sans lien avec ce dossier. EAST (22–25) manque dans la ligne proposée | **Faux** |
+| Paradigm : annonce en « septembre 2026 », K5 « inconnu jusqu'alors » | Billet du **12 juin 2026**. K5 était annoncé par Sanborn dès **2025** (Scientific American) | Dates erronées ; le reste concorde avec la base 5 |
+| Les feuilles 6/21–23 seraient recopiées dans le simulateur de dCode | dCode implémente le déchiffrement connu de K1–K3 ; rien n'indique qu'il reprenne ces dossiers | **Non établi** |
+
+⇒ **Rien de nouveau n'est utilisable.** La demande de reproduction aux Archives reste la seule voie vers ces dossiers.
