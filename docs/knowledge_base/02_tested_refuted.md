@@ -44,6 +44,7 @@ Sources :
 | Chaocipher | 142 000 paires d'alphabets de mots-clés | bruit (7/24) | `e_chaocipher_exhaustive_01` |
 | Deux couches additives (KA dedans, AZ dehors) | thématique | éliminé sous portée | `e_two_layer_kainner_01` |
 | Quagmire I, II, III, IV **avec alphabets inconnus** | p 1–52 | III-Vig éliminé ; I, II, IV **non tranchables** par 24 lettres | campagne 22/09 §2.2 |
+| **Quagmire I, II, IV avec alphabets À MOT-CLÉ** (préfixe ≤ 12 lettres puis le reste dans l'ordre ; tout mot-clé, sans liste), Vig/Beau, p 1–52. Motivé par les feuilles de Sanborn (AAA 6/8) et les « keywords » (AP 1991) | exact (SAT), témoins positifs 350/350 | éliminé sauf aux périodes longues où le hasard passe aussi ; la seule case « sévère » (p = 19) déchiffre en charabia : **coïncidence** | `audits/keyword_alphabet_2026_09_23/` (23/09) |
 | Sélecteur limité aux lettres de KRYPTOS/PALIMPSEST/ABSCISSA | 6 conventions | impossible (≥ 12 lignes distinctes nécessaires) | campagne 22/09 §2.1 |
 
 ### 2.2 Clés structurées et générateurs
