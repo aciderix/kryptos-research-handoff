@@ -128,6 +128,7 @@ Sources :
 | Mot-clé **recommencé à chaque ligne de 31** (feuille ou cuivre), Quagmire I–III, p 1–13, exact et avec une erreur | bruit (K4 : 3 cases sur 26 ; hasard : 2 en moyenne) ; la case p = 8 Beaufort meurt avec les alphabets de Sanborn | `audits/one_slip_2026_09_23/` |
 | **Cryptographe de Wheatstone** (cadran à deux aiguilles), extérieur AZ ou KA, **intérieur quelconque** | **éliminé exactement**, même sur EASTNORTHEAST seul ; contrôle 20/20 | `audits/wheatstone_2026_09_23/` ; antériorité échantillonnée `e_wheatstone_clock_01` |
 | **Mots visibles sur l'œuvre** (39 : Morse K0, KRYPTOS, HILL, YAR/DYAHR, rose des vents, PALIMPSEST, ABSCISSA) comme alphabet à mot-clé et/ou clé périodique, montage MEDUSA inclus, QI–QIV, 3 modes ; et comme amorces de Gromark | K4 10/24 ; hasard P(≥ 10) = 7 % ; Gromark 0 ⇒ **éliminé** (23/09) | `audits/visible_words_2026_09_23/` |
+| **Codage 5 bits (A1Z26, A0Z25, Baudot ITA2) + XOR / addition mod 32**, clé périodique p 1–48 (« changer la base », Scheidt 2020) | seul cas non trivial : ITA2 XOR p = 30, niveau du hasard (0,54 attendu), déchiffrement avec 13 codes non-lettres ⇒ **éliminé** (23/09) | `audits/binary_xor_2026_09_23/` |
 | Géométrie mesurée de l'écran | **jamais testée** (donnée absente) | [MR] ; `current_experimental_frontier.md` |
 
 ### 2.7 « Solutions » revendiquées publiquement (non validées)
