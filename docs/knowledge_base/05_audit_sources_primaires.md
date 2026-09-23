@@ -29,6 +29,36 @@
 
 **Numérisation directement accessible :** je n'ai trouvé **aucune mention** d'une numérisation en ligne des dossiers ci-dessus (hors entretien de 2009). **À vérifier** sur la page de chaque dossier (un lien « digitized » ou « view images » apparaîtrait).
 
+
+## Inventaire réel de la série 3, dossiers « Kryptos » CIA Headquarters (capture web.archive.org du 29 mars 2025, collée par l'utilisateur le 23/09)
+
+**Source :** https://web.archive.org/web/20250329201108/https://www.aaa.si.edu/collections/jim-sanborn-papers-22298/series-3 (version « circa 1950-2023 », **antérieure à l'addition de 2026**). **Vérifié par lecture directe** du texte de la page.
+
+| Boîte / dossier(s) | Titre exact | Apport possible | Priorité |
+|---|---|---|---|
+| 6 / 9–10 | Sculpture, 1993–2009 | Documents ultérieurs sur la sculpture | Faible |
+| 6 / 11 | Book, undated | Inconnu (projet de livre ?) | Moyenne (à qualifier) |
+| 6 / 12 | **Pre-Production and Notes, 1990** | Notes de fabrication : c'est à ce stade que les erreurs sont entrées (UNDERGRUUND, lettre omise) | **Haute** |
+| 6 / 13 | **Stencil Patterns, circa 1988** | **Nouveau.** Les pochoirs des lettres découpées : forme, **orientation** des lettres (« it's more the orientation of those letters that's useful », Sanborn 2003), écarts entre gabarit et cuivre | **Haute** |
+| 6 / 14 | **Codes Research, undated** | L'abécédaire de Scheidt et les notes de Sanborn sur les procédés (la liste « Compass cipher » pourrait en venir, **non établi**) | **Haute** |
+| 6 / 15 | **Dedication, 1990** | La suite de « two systems… major clue », les autres discours | **Haute** |
+| 6 / 16–20 | Correspondence, Attempts at Deciphering Codes, 1988–2015 | Ce que Sanborn a confirmé ou démenti aux solveurs ; lettres de 1988–1990 | Moyenne |
+| 6 / 21–23 | **Cracked Codes and Charts, 1999–2013** | Les feuilles de K1–K3 (celle de K1–K2 publiée par le NYT en 2010 y est probablement) et d'éventuelles feuilles non publiées | **Haute** |
+| 6 / 24 | Articles, circa 2005 | Presse | Faible |
+
+**Autres dossiers de la série 3 à connaître :**
+- **3 / 10–11 « Early Ideas, circa 1986 »** : idées antérieures à la commande (1988). Moyenne.
+- **4 / 14–16 « IRS Building, Martinsburg »** : l'œuvre où les noms passent en binaire à travers une magnétite (« changer la base du langage »). Faible à moyenne.
+- **5 / 9–11 « Spy Museum »** et **7 / 11–12 « Research and Texts for Works »**. Faible.
+
+**Correction :** les numéros donnés par ChatGPT (6/10 Pre-Production, 6/11 Codes Research, 6/12 Dedication, 6/15 Correspondence, 6/18 Cracked Codes) **ne correspondent pas** à cette version de l'inventaire. Soit ils sont faux, soit la version mise à jour après l'addition de 2026 a renuméroté les dossiers. **À vérifier sur la page actuelle avant toute demande.**
+
+**Modalités (lues sur la page) :**
+- **Salle de lecture** : cocher les dossiers, bouton « Reading Room ». On reçoit **la boîte entière**. Du lundi au vendredi, sur rendez-vous, au 750 9th Street NW, Washington.
+- **Reproductions à distance** : cocher les dossiers, bouton « Reproduction ». Conditions et tarifs non affichés sur cette page.
+- **« Ask a Question »** : question libre au service de référence.
+- **Aucune numérisation en ligne** n'apparaît pour ces dossiers.
+
 ## Ce que nous avons réellement vu (inventaire honnête)
 - **Photos KryptosBot (mars 2026, 40 images)** : une sélection, **sans indication de boîte ni de dossier** (sauf l'onglet « Professional Activity » sur IMG_1555). Lues par nous : IMG_1223, 1224, 1236, 1238, 1249, 1340, 1410, 1531, 1555, 1566, 1567, 1569, 1571, 1560. **Non lues** : les 26 autres.
 - **Photos RR Auction (12)** : pièces de **l'archive privée**, distincte du fonds Smithsonian.
