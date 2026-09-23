@@ -103,7 +103,7 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 | 6/10 | Pre-Production and Notes, 1990–1999 | 33 | ref75 | **oui** |
 | 6/11 | Codes Research, c. 1980s–c. 2002 | 37 | ref77 | **oui** |
 | 6/12 | Dedication, 1990 | 12 | ref78 | **oui (en entier)** |
-| 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | 6/15 (ref256) **oui** ; les autres en cours |
+| 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | 6/15 (ref256) et 6/17 (ref258) **oui** ; 6/13, 6/14, 6/16 en cours |
 | 6/18 | Cracked Codes and Charts, 1990–c. 2013 | 17 | ref80 | **oui** |
 | 6/19 | Cracked Codes and Charts, c. 1999–2010 | 124 | ref253 | **oui (124/124)** |
 | 16/2 | Scrapbook Kryptos, c. 1975–1993 | 106 | ref215 | non |
@@ -183,3 +183,12 @@ Pour l'essentiel, ce sont des candidatures, de la presse et des envois de tiers.
 - Le reste : lettres de tiers (2008–2010 : Isaïe 8, « LO WS », « DIDEIE1GBHBDHBDGFEDC », Sharon Cain, « DB SHAZZAR »…), pass VIP de la CIA du 5 mai 2009, annonce du déchiffrement du *Cyrillic Projector* (2003).
 
 **Statut : vu en entier.** À exploiter : la citation de la GSA sur l'« amorce » (déjà cohérente avec la base 3) et le déplacement des plaques de l'entrée (réserve sur les photos après 2008). **Aucune piste de calcul.**
+
+### 6/17 « Correspondence, undated » (ref258, 39 images) : lu en entier
+
+- Deux versions d'un « Career summary » de Sanborn (vers 1986 et 1994) : rien de technique.
+- **Tract manuscrit daté du 25 janvier 1991** (« In the name of God… every Moslem must copy 10 copies ») : c'est **la feuille glissée dans la traduction arabe** racontée au ch. 7 du manuscrit 6/9. Elle authentifie ce récit. Sans rapport avec K4.
+- Envois numérologiques et bibliques d'un même correspondant de Floride (2009–2010 ; « OBKR = 15 2 11 18 », « CAN YOU SEE ANYTHING Q… », grilles colorées, « LET THERE BE L ») : **propositions de tiers**.
+- Documents soviétiques (Pasternak 1959, Soljénitsyne 1974, Berdiaev et Boulgakov 1977, Sakharov 1979 et 1982), en russe et en traduction anglaise : **textes sources du *Cyrillic Projector***, comme en 6/11.
+
+**Statut : vu en entier ; rien pour K4.**
