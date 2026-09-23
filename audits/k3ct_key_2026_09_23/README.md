@@ -9,5 +9,5 @@ Portée fixée avant calcul (voir l'en-tête de `k3ct_key.py`) :
   - en Vigenère et en Beaufort.
 
 **Résultats** : **K4 : 0 cas compatible.**
-Témoin : 5 chiffrés aléatoires, 0 cas compatible chacun (le test est sévère : un passage aurait été significatif).
+Témoin : 5 chiffrés aléatoires : **0, 0, 4, 68, 0** cas compatibles (en moyenne 14 ; 2 textes sur 5 passent au moins une fois). Le hasard passe parfois ; **K4 ne passe jamais**, et un cas incompatible reste une élimination.
 ⇒ **éliminé** : le chiffré de K3 n'est pas la clé de K4, ni en alignement linéaire, ni ligne par ligne.
