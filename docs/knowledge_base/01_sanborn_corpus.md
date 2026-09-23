@@ -90,7 +90,7 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré le 3 novembre 1990 à 
 
 **Vérification indépendante sur les photos de Gillogly** (`docs/knowledge_base/measurements/morse_plate_reader.py`, lecteur semi-automatique avec contrôle à l'œil) : les plaques 1 à 6 et 8 à 10 concordent avec Rumkin (SHADOW/FORCES, LUCID/MEMORY, VIRTUALLY/INVISIBLE, RQ). Plusieurs photos sont prises depuis l'autre côté et se lisent à l'envers. Pas de `morse7` sur le site.
 
-**Écart non résolu : le U de « YOUR ».** Rumkin note `-.-- --- --. .-.` : le 3ᵉ signe est `--.` (**G**), soit « YOGR », sans le commenter, et sa lecture inversée (« RWOQ ») est cohérente avec ce G. La page Wilson/Hall (relayée par Dunin) donne l'inverse « RDOQSIT », cohérent avec `..-` (**U**). La seule photo disponible (`morse11.jpg`, plaque au pied de la magnétite) est trop rasante pour trancher. **Si le cuivre porte `--.`, ce serait une anomalie de plus, comme DIGETAL, sur la plaque voisine de la magnétite.** À vérifier sur une photo de face.
+**Le U de « YOUR » : `..-` (U), vérifié par l'utilisateur le 23/09 sur une photo de face** (photo non versée au dépôt ; la source est à noter). Le `--.` (G) de Rumkin est donc une **erreur de transcription**. Sa lecture inversée « RWOQ » en découle ; celle de Wilson/Hall, « RDOQSIT », était la bonne. **La plaque POSITION n'a pas d'anomalie sur YOUR.** Seules restent : le début caché (WHA-), les signes masqués par la roche dans POSITION, et le E final.
 
 **Les « E » isolés, positions (Rumkin)** : E E ‹SHADOW› E E ; ‹FORCES› E E E E E ; ‹LUCID› E E E ; ‹MEMORY› E ; ‹POSITION› E ; E ‹DIGE TAL› E E E ; E E ‹VIRTUALLY›(E) ; E E E E E ‹INVISIBLE›. Hypothèses publiées : pauses d'opérateur ; indices pour K5 (Rumkin). Leur exploitation comme masque (F-10) n'a **jamais été exécutée** dans le dépôt.
 
@@ -249,7 +249,7 @@ Compilation secondaire de citations primaires, avec leurs sources (Wired 2005, N
 | | E E SHADOW E E / FORCES E E E E E | long bord bas, côté gauche |
 | | E E VIRTUALLYE / E E E E E INVISIBLE | long bord bas, côté droit, vers le « Triangle » |
 
-Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au nord), *Compass Strata*, *Arrowhead Strata* (triangle). **Ce que le plan ne dit pas : dans quel sens le visiteur les parcourt.** L'ordre de lecture « de l'entrée vers la cour » reste donc **non établi**. Le seul fait nouveau solide est le **regroupement** : les messages se répartissent sur **deux dalles**, et la dalle de la rose porte **POSITION** (contre la magnétite) et **DIGETAL INTERPRETATI** (les deux plaques où l'on relève une anomalie de gravure).
+Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au nord), *Compass Strata*, *Arrowhead Strata* (triangle). **Ce que le plan ne dit pas : dans quel sens le visiteur les parcourt.** L'ordre de lecture « de l'entrée vers la cour » reste donc **non établi**. Le seul fait nouveau solide est le **regroupement** : les messages se répartissent sur **deux dalles**, et la dalle de la rose porte **POSITION** (contre la magnétite) et **DIGETAL INTERPRETATI** (DIGETAL garde son espace en trop ; l'anomalie supposée de YOUR est levée : c'est bien un U).
 
 *Attention :* le croquis de la rose ajoute un **anneau de lettres** (l'alphabet KRYPTOS) et des **chiffres bleus** (4, 8, 9, 5) autour de la rose. On ne les voit **ni sur `compass1/2.jpg` (Gillogly) ni sur la photo CIA**, qui ne montrent que N, E, S, W. C'est une **surcouche spéculative** de l'auteur, à exclure des faits.
 
@@ -259,7 +259,7 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 |---|---|---|
 | Ordre physique de l'entrée à la cour : VIRTUALLY/INVISIBLE, DIGETAL/INTERPRETATIT, SHADOW/FORCES, LUCID/MEMORY, T IS YOUR/POSITION, SOS, RQ | C'est **mot pour mot la liste de Wikipédia**, qui dit seulement « traductions attribuées aux plaques, **lues face au sud** », sans prétendre à un ordre. Même ordre dans le tableau de Gary Phillips repris par *kryptosfan* (2009) : c'est **un ordre de liste, transmis de site en site**. Il **alterne les deux dalles** (DIGETAL est sur la dalle de la rose, entre deux messages de la dalle Morse). Ce n'est donc pas un parcours le long d'un seul seam | **Non établi / réfuté comme « ordre physique »** |
 | « INTERPRETATIT », six E avant INVISIBLE, pas de E avant DIGETAL | Graphies de Wikipédia et Phillips. Rumkin lit INTERPRETATI (coupé par le bord), **cinq** E avant INVISIBLE, un E avant DIGETAL. Wikipédia signale elle-même les variantes INTERPRETATIU / INTERPRETATIO[N] | **Variantes de transcription** ; Rumkin reste la référence, avec l'écart signalé |
-| Le U de YOUR est « intégralement et proprement découpé » | Aucune photo de face citée. Rumkin transcrit `--.` (G) ; Phillips/kryptosfan `..-` (U). `morse11.jpg` est trop rasante | **Non vérifié** ; la question reste ouverte |
+| Le U de YOUR est « intégralement et proprement découpé » | Confirmé par l'utilisateur sur une photo de face : `..-` | **Vrai** (U) ; Rumkin se trompe |
 | La rose est orientée vers la magnétite, qui dévierait une boussole d'environ 15° | L'**aiguille gravée** pointe bien vers la magnétite (mesure ici : 246–247°). Les « 15° » reprennent l'estimation à l'œil de u/cjneutron (345°), déjà classée « pas une mesure ». Aucune mesure de déviation magnétique publiée | Aiguille → magnétite : **fait mesuré** ; 15° : **non sourcé** |
 | Les E sont des séparateurs / nulles | Hypothèse, déjà listée (pauses d'opérateur, Rumkin, sans source) | **Interprétation** |
 | « Deux systèmes » viendrait des notes de travail de 1990 révélées à l'enchère | La photo de l'enchère montre une **transcription de ses propos à l'inauguration**, pas des notes de travail (§4 quinquies) | **Faux sur la nature du document** ; la phrase, elle, est authentifiée |
@@ -317,8 +317,25 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 - En 2025, Jarett Kobek et Richard Byrne ont trouvé aux Archives of American Art (Smithsonian) des **fragments de texte brouillé** qui leur ont permis de reconstituer le clair. Ce sont des copies de documents de 1990 destinés à montrer au Department of Historical Intelligence de la CIA que le texte n'était pas offensant. **[S]** [RR-disc]
 - Sanborn a confirmé l'authenticité du clair et fait sceller le fonds pour 50 ans (jusqu'en 2075). **[S]** [W-K]
 - Kobek : « Il n'y a aucune chance que ce soit une résolution cryptographique. » Byrne : il fallait absolument les indices de l'artiste pour lui donner un sens. **[S]** [RR-disc]
-- Le lot vendu 962 500 $ contient notamment : le clair manuscrit de K4 avec une lettre signée de Scheidt, **« le système de codage original de K4 »**, les **clairs manuscrits utilisés pour la découpe de l'écran de K4 (2 pièces)**, les « textes brouillés montrés au Department of Historical Intelligence », un **K1 alternatif de 1988** avec sa charte, et un **« K4 alternatif de 1988 » = K5** avec sa charte. **[P]** [RR-lot]
-
+- **Inventaire complet du lot** (texte de la page RR Auction, transmis par l'utilisateur le 23/09). La maison précise : « *pour des raisons de secret, aucune photo ne sera fournie des pièces 1 à 7* ». **[P]** [RR-lot]
+  1. le clair manuscrit original de K4, avec une lettre dactylographiée signée d'Ed Scheidt ;
+  2. **le système de codage original de K4** ;
+  3. les clairs manuscrits signés utilisés pour la **découpe de l'écran**, K4 (2 pièces) ;
+  4. les chartes de codage originales de K1, K2 et K3 ;
+  5. un **K1 alternatif** de 1988, inédit, avec sa charte ;
+  6. un **K4 alternatif** de 1988, inédit, avec sa charte, « désormais appelé K5 » ;
+  7. les **textes brouillés** montrés au Department of Historical Intelligence ;
+  8. une séance privée avec Sanborn pour l'acheteur ;
+  9. le badge « Escort Required » (photographié) ;
+  10. une photo couleur de la **maquette** soumise au jury de la CIA en 1988 ;
+  11. la plaque d'essai en cuivre, 3/8" × 12" × 24", signée « J.S.1988 » (photographiée) ;
+  12. une photo de l'atelier pendant la découpe (photographiée) ;
+  13. une photo de Sanborn avec une plaque courbe, 1990 (photographiée) ;
+  14. une copie du contrat GSA signé (photographiée) ;
+  15. **une copie originale des discours de Webster et de Sanborn** à l'inauguration (une page de Sanborn photographiée, §4 quinquies) ;
+  16. la photo CIA de Webster recevant de Sanborn « le code de Kryptos » lors de la **petite cérémonie de 1991** (sic ; l'inauguration est de 1990) ;
+  17. le programme signé par Webster (photographié).
+- **Conséquence pour nos recherches :** les pièces 1 à 7 ne sont **pas publiées**, et nos règles excluent de s'en servir. Seules les pièces 9 à 17 sont documentées. La **suite de la transcription** (pièce 15) n'existe que si l'acheteur ou la maison publie d'autres photos. **Point de recherche éventuel : la photo de la maquette de 1988 (pièce 10)**, qui montrerait l'agencement prévu des dalles.
 **Ce qui en ressort** *(interprétation)* :
 - ~~Le mot « brouillé » désignerait l'état intermédiaire du texte.~~ **Corrigé le 23/09** : d'après l'entretien de 2009 (§4 bis), les textes « brouillés » sont le **clair découpé par phrases et remélangé** pour la CIA. Ce n'est pas une étape du chiffrement.
 - « Clairs utilisés pour la **découpe de l'écran** » indique que la gravure elle-même est une étape documentée du procédé.

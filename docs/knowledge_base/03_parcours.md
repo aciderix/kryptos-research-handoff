@@ -28,7 +28,7 @@ Ce document suit donc le visiteur, station par station. Pour chacune : **ce qui 
 | LUCID E E E / MEMORY E | dalle Morse | le L contre la roche |
 | E E SHADOW E E / FORCES E E E E E | dalle Morse, long bord | — |
 | E E VIRTUALLYE / E E E E E INVISIBLE | dalle Morse, long bord | seul message lu **vers** la roche ; E collé ; à cheval sur une jointure |
-| T IS YOUR / POSITION E | **dalle de la rose, contre la magnétite** (`morse11`) | le début (WHA-) est caché ; U de YOUR incertain (`..-` ou `--.`) |
+| T IS YOUR / POSITION E | **dalle de la rose, contre la magnétite** (`morse11`) | le début (WHA-) est caché ; U de YOUR = `..-` (vérifié sur photo de face ; Rumkin se trompait) |
 | E DIGE TAL E E E / INTERPRETATI | **dalle de la rose** | espace en trop (DIGETAL) ; coupé au bord |
 
 Les séquences sont presque des **palindromes de points et traits** : lues à l'envers, elles forment d'autres lettres (Dunin, Hall).
@@ -38,7 +38,7 @@ Les séquences sont presque des **palindromes de points et traits** : lues à l'
 *Interprétation.*
 - K0 **ouvre un échange** : on appelle, on demande une position. Le thème final de Sanborn est de « **délivrer un message** », du Morse jusqu'à K5 (2025).
 - « DIGITAL INTERPRETATION » : le Morse est déjà un code **binaire** (point/trait). Sanborn a fait le même geste ailleurs : à Martinsburg, les noms entrent en lettres d'un côté d'une magnétite et **ressortent en 0 et 1** de l'autre (2009). Scheidt parle de **« changer la base du langage »** (2020).
-- **Emplacement (base 1, plan Friedrich 2009, recoupé sur les photos de Gillogly) :** les messages sont sur **deux dalles**. La dalle de la rose porte **POSITION** (contre la magnétite) et **DIGETAL INTERPRETATI**, les deux plaques qui présentent une anomalie de gravure (U/G incertain ; espace en trop). La dalle Morse porte les cinq autres. *Interprétation :* la question de position et « l'interprétation numérique » sont posées **à côté de l'instrument** (rose, aimant) ; les mots de perception (lucide, mémoire, ombre, forces, invisible) sont à part.
+- **Emplacement (base 1, plan Friedrich 2009, recoupé sur les photos de Gillogly) :** les messages sont sur **deux dalles**. La dalle de la rose porte **POSITION** (contre la magnétite) et **DIGETAL INTERPRETATI**, dont seule la seconde présente une anomalie de gravure (espace en trop ; le U de YOUR est normal). La dalle Morse porte les cinq autres. *Interprétation :* la question de position et « l'interprétation numérique » sont posées **à côté de l'instrument** (rose, aimant) ; les mots de perception (lucide, mémoire, ombre, forces, invisible) sont à part.
 - **Toujours ouvert : le sens de lecture entre dalles.** L'« ordre de l'entrée à la cour » qui circule (Wikipédia, puis Gemini) n'est qu'un **ordre de liste** et il alterne les dalles (base 1). Le sens réel du parcours dépend de l'emplacement de l'entrée par rapport aux trois affleurements, que le plan ne donne pas.
 
 ## Station 3 — La rose des vents et la magnétite
@@ -101,7 +101,7 @@ Les séquences sont presque des **palindromes de points et traits** : lues à l'
 | Donnée | Pourquoi | Comment l'obtenir |
 |---|---|---|
 | **Sens du parcours entre les deux dalles Morse** (la répartition par dalle est désormais connue) | si le parcours a un sens, l'ordre compte ; la liste « officielle » n'est qu'un ordre de liste | vue aérienne situant l'entrée ; relevé d'un visiteur |
-| **Le U de « YOUR »** (`..-` ou `--.`) | anomalie possible sur la plaque au pied de la magnétite | photo de face de la plaque |
+| ~~Le U de « YOUR »~~ | **résolu : U (`..-`)** ; pas d'anomalie | photo de face vérifiée par l'utilisateur |
 | **Orientation de la rose par rapport au vrai nord** | savoir si l'aiguille ENE est « vraie » ou seulement dans le repère de la rose | vue satellite nette, relevé sur place |
 | **Position des « E » isolés dans l'espace** (pas seulement dans le texte) | « l'orientation des lettres » et le « positionnement » comptent (Sanborn, sur les fautes) | photos de face de chaque plaque |
 | ~~Source primaire de « deux systèmes »~~ | **résolu** : propos de Sanborn à l'inauguration, photographiés par RR Auction ; la phrase porte sur K3 + K4 | base 1, §4 quinquies |
