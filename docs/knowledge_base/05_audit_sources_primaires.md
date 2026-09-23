@@ -106,7 +106,7 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 | 6/13–17 | Correspondence, Attempts at Deciphering Codes (1988–2015) | 48+33+55+64+39 | ref254–258 | 6/15 (ref256) et 6/17 (ref258) **oui** ; 6/13, 6/14, 6/16 en cours |
 | 6/18 | Cracked Codes and Charts, 1990–c. 2013 | 17 | ref80 | **oui** |
 | 6/19 | Cracked Codes and Charts, c. 1999–2010 | 124 | ref253 | **oui (124/124)** |
-| 16/2 | Scrapbook Kryptos, c. 1975–1993 | 106 | ref215 | non |
+| 16/2 | Scrapbook Kryptos, c. 1975–1993 | 106 | ref215 | **oui** (pages Kryptos 35–62 en haute définition) |
 | 9/4, 9/5, 1/11 | Miscellaneous ; « Dead Sea Scrolls » (1964) | 59, 42, 16 | ref119, ref252, ref31 | non |
 | 18/10–11 (addition de 2026) | Articles 1990–2015 ; Posters | — | pas de lien | non numérisé |
 | 11/34 (photos) | Kryptos, undated | — | pas de lien | non numérisé |
@@ -192,3 +192,29 @@ Pour l'essentiel, ce sont des candidatures, de la presse et des envois de tiers.
 - Documents soviétiques (Pasternak 1959, Soljénitsyne 1974, Berdiaev et Boulgakov 1977, Sakharov 1979 et 1982), en russe et en traduction anglaise : **textes sources du *Cyrillic Projector***, comme en 6/11.
 
 **Statut : vu en entier ; rien pour K4.**
+
+### 16/2 « Scrapbook », c. 1975–1993 (ref215, 106 images) : lu ; **presse d'époque sur la méthode (1990–1991)**
+
+Les images 0–34 et 63–105 relèvent de la carrière antérieure (1974–1984 : Virginia Museum, Corcoran 1978, Charleston 1980, Arlington 1984…). À noter seulement : dès 1980, sculptures « from sandstone and **magnetized compass needles** », aiguilles « oriented toward a lodestone, itself charged by lightning ». L'aiguille et la magnétite de Kryptos sont donc un motif antérieur de son œuvre, pas un indice créé pour K4.
+
+**Images 35–62 : coupures de 1990–1991 sur Kryptos**, lues en haute définition (`max_w=4000`). Citations exactes :
+
+| Source | Citation | Portée |
+|---|---|---|
+| *The Independent*, 17 janvier 1990 (Colin Hughes) | « The secret phrase has been inscribed using **two codes** — one invented in 1586 by Blaise de Vigenère… and the other devised by an unidentified cryptographer **especially for the sculpture** » ; le texte serait « a 2,000-character phrase written by a spy novelist » | Confirme le *Washington Post* du 14/01/1990. Le « romancier d'espionnage » est une rumeur que Sanborn entretient (voir plus bas) |
+| *Washington Post*, 14 janvier 1990 (déjà en 6/18) | « one half… Vigenère… **The other half will be encoded in a modern system created for the project by an expert cryptographer** » | Même contenu |
+| *Museum & Arts Washington*, sept.–oct. 1990 (« The Sanborn File », Paul Clements) | « Sanborn's work uses **"three or four" systems of encoding, progressing in complexity** from the mundane international Morse code at the building's entrance to a far more challenging cipher **developed by and encoded for Sanborn by a former CIA employee** » ; sur le romancier : « It's strictly conjecture who the collaborator is. **If there's a collaborator, anyway.** » | **Fait d'époque important** : en 1990, le dernier système est dit **conçu ET appliqué** (« encoded for Sanborn ») par l'ancien de la CIA (Scheidt). Voir la portée ci-dessous |
+| **AP, mars 1991** (Robert H. Andrews ; reprises : *Charleston Daily Mail* 29/03, *Roanoke Times* 30/03, *Tulsa Tribune* 28/03, *Washington Post* 29/03…) | « The inscription includes a Vigenère table… and a Vigenère-coded message that Sanborn says an expert can decipher in a few hours. **But the rest of the message, contained in the lower-right quadrant, is "a whole different ball game" of multiple codes**, Sanborn said. **It was written by a retired CIA cryptographer**… » ; « Parts can be deciphered in a matter of weeks or months, but **other parts might never be deciphered without the knowledge that Webster has**. He has the key to the code » ; « Sanborn handed Webster **two sealed envelopes. One contained the translation of the message. The other contained the keywords required to break the code.** » ; « Even if someone breaks the CIA sculpture's code someday… **the message won't make sense**… There are still things they have to discover once it's deciphered. » ; NSA et Cray : « They might have figured out **one-fourth** of it. » | Voir ci-dessous |
+| *Northern Virginia Sun*, 17/01/1990, éditorial ; réponse de James W. Greenleaf (Public Affairs, CIA) | « 2,000 words from a spy novel… a code… that the Soviets broke years ago » | Polémique ; l'éditorial confond le Vigenère et le reste. Sans valeur technique |
+| *Washington Post*, 1991 (Paul Richard, « Coded Creations, Inside Messages », exposition *Covert Obsolescence* au Corcoran) | Les œuvres de 1991 sont « encoded in accordance with **a system adopted by the artist** »… « **"Medusa" is the key word to the cipher of "Code Room."** You can read it on the wall in projected letters made of light. » | **Piste** : voir ci-dessous |
+| Programme et photos de la dédicace (5 novembre 1990) ; lettre du Protocole de la CIA, 3 janvier 1991 (photos, programme, **cassette audio de la cérémonie** envoyés aux parents) | Contenu identique à 6/12 | L'enregistrement audio existe ou a existé ; il n'est pas numérisé ici |
+
+**Portée (faits, puis interprétation) :**
+1. **Fait.** Toutes les sources de 1990–1991 attribuent le dernier système à **Scheidt**. Il l'a *développé*, et selon *Museum & Arts* il l'a aussi *appliqué* (« encoded for Sanborn »). Selon l'AP, la partie du bas est « written by a retired CIA cryptographer ». Le récit « Sanborn a modifié lui-même le système, même Scheidt ne sait pas » n'apparaît qu'à partir de 2005–2009. **Interprétation** : en 1990–1991, rien n'indique une exécution d'amateur. Si Scheidt a produit lui-même le chiffré de K4, un schéma « de terrain » **exécuté par un professionnel** devient plus probable qu'un bricolage d'artiste. Cela nuance fortement la base 4 §C. **Réserve** : l'artiste a pu simplifier ses propos pour la presse ; ces formules sont celles de journalistes.
+2. **Fait.** « **Keywords** » au pluriel (AP 1991) : la clé remise à Webster est un ensemble de **mots-clés**. **Interprétation** : cela cadre avec des systèmes à mots-clés (alphabets ou clés mots), comme K1–K3, plutôt qu'avec une clé numérique ou un gabarit physique seul. C'est un indice, pas une preuve : la même enveloppe couvrait peut-être aussi K1–K3.
+3. **Fait.** « **Lower-right quadrant** » = K4 (bas de la plaque de droite) ; « multiple codes » dans ce seul quadrant. Cela concorde avec « plus d'une étape » (Scheidt, 2005) et avec la mention de 1990 de « three or four systems ».
+4. **Fait.** « Parts can be deciphered in weeks or months, other parts might **never** be deciphered without the knowledge that Webster has » : dans la conception d'origine, une partie du texte n'est pas censée se déchiffrer **sans information extérieure**.
+5. **Piste nouvelle, légitime et sans fuite.** Sanborn écrit (manuscrit 6/9) : *« I stuck with the coding systems developed during the Kryptos period »*, et le *Post* de 1991 donne le **mot-clé de *Code Room* : MEDUSA**. Les œuvres codées de 1991 (*Code Room*, *Covert Obsolescence*, *Listening Post*, cylindres) utilisent donc des systèmes de la même période, avec au moins un **mot-clé connu**. Leur chiffrement, s'il est documenté ou photographié, est **une source primaire sur la méthode** de Sanborn et de Scheidt, sans rien toucher au clair de K4. (Précédent : le *Cyrillic Projector* a été déchiffré en 2003.) **À instruire : existe-t-il des relevés publics des textes de *Code Room* ou *Covert Obsolescence* ?**
+6. La cassette audio de la dédicace (1990) n'est pas dans les dossiers numérisés.
+
+**Statut : vu ; exploité pour la chronologie et l'attribution ; une piste documentaire nouvelle (§5).**
