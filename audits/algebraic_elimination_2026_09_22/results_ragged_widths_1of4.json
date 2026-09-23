@@ -1,0 +1,290 @@
+{
+ "positive_controls": {
+  "w7-fwd-buTrue-TS": [
+   true,
+   false
+  ],
+  "w7-fwd-buTrue-ST": [
+   true,
+   false
+  ],
+  "w7-inv-buTrue-TS": [
+   true,
+   false
+  ],
+  "w7-inv-buTrue-ST": [
+   true,
+   false
+  ],
+  "w7-fwd-buFalse-TS": [
+   true,
+   false
+  ],
+  "w7-fwd-buFalse-ST": [
+   true,
+   false
+  ],
+  "w7-inv-buFalse-TS": [
+   true,
+   false
+  ],
+  "w7-inv-buFalse-ST": [
+   true,
+   false
+  ]
+ },
+ "rows": [
+  {
+   "width": 7,
+   "keyed": false,
+   "bottom_up": true,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    13,
+    17,
+    22,
+    23,
+    25,
+    26
+   ],
+   "K4_short": 1,
+   "null_short_mean": 0.2
+  },
+  {
+   "width": 7,
+   "keyed": false,
+   "bottom_up": true,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    23,
+    24,
+    25
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.2
+  },
+  {
+   "width": 7,
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    13,
+    18,
+    22,
+    23,
+    26
+   ],
+   "K4_short": 1,
+   "null_short_mean": 0.7
+  },
+  {
+   "width": 7,
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    26
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.5
+  },
+  {
+   "width": 7,
+   "keyed": true,
+   "bottom_up": true,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    19,
+    25,
+    26
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.3
+  },
+  {
+   "width": 7,
+   "keyed": true,
+   "bottom_up": true,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    12,
+    16,
+    24,
+    25,
+    26
+   ],
+   "K4_short": 1,
+   "null_short_mean": 0.0
+  },
+  {
+   "width": 7,
+   "keyed": true,
+   "bottom_up": false,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    15,
+    22,
+    25,
+    26
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.0
+  },
+  {
+   "width": 7,
+   "keyed": true,
+   "bottom_up": false,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    16,
+    20,
+    23
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.1
+  },
+  {
+   "width": 14,
+   "keyed": false,
+   "bottom_up": true,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    13,
+    22,
+    23,
+    26
+   ],
+   "K4_short": 1,
+   "null_short_mean": 0.0
+  },
+  {
+   "width": 14,
+   "keyed": false,
+   "bottom_up": true,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    18,
+    23,
+    26
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.4
+  },
+  {
+   "width": 14,
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    26
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.5
+  },
+  {
+   "width": 14,
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    13,
+    18,
+    22,
+    23,
+    26
+   ],
+   "K4_short": 1,
+   "null_short_mean": 0.7
+  },
+  {
+   "width": 21,
+   "keyed": false,
+   "bottom_up": true,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    16,
+    18,
+    19,
+    23,
+    24,
+    26
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.2
+  },
+  {
+   "width": 21,
+   "keyed": false,
+   "bottom_up": true,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    24,
+    25
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.1
+  },
+  {
+   "width": 21,
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "fwd",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    24,
+    26
+   ],
+   "K4_short": 0,
+   "null_short_mean": 0.5
+  },
+  {
+   "width": 21,
+   "keyed": false,
+   "bottom_up": false,
+   "direction": "inv",
+   "order": "TS",
+   "mode": "beau",
+   "K4_sat": [
+    13,
+    23,
+    24,
+    25,
+    26
+   ],
+   "K4_short": 1,
+   "null_short_mean": 0.6
+  }
+ ],
+ "K4_short_hits_total": 6,
+ "expected_under_null": 5.0
+}
