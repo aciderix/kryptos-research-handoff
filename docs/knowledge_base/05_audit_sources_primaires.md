@@ -98,7 +98,7 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 
 | Dossier (2026) | Titre | Images | Lien EDAN | Lu ? |
 |---|---|---|---|---|
-| 6/8 | Sculpture, 1993–2009 | 49 | ref73 | non |
+| 6/8 | Sculpture, 1993–2009 | 49 | ref73 | **oui** (PDF haute définition fourni par l'utilisateur) |
 | 6/9 | Book, undated | 30 | ref74 | **oui (OCR complet)** |
 | 6/10 | Pre-Production and Notes, 1990–1999 | 33 | ref75 | **oui** |
 | 6/11 | Codes Research, c. 1980s–c. 2002 | 37 | ref77 | **oui** |
@@ -218,3 +218,25 @@ Les images 0–34 et 63–105 relèvent de la carrière antérieure (1974–1984
 6. La cassette audio de la dédicace (1990) n'est pas dans les dossiers numérisés.
 
 **Statut : vu ; exploité pour la chronologie et l'attribution ; une piste documentaire nouvelle (§5).**
+
+### 6/8 « Sculpture, 1993–2009 » (ref73) : **les feuilles de chiffrement manuscrites de Sanborn (russe, 1990–1991)**
+
+**Source des images :** l'utilisateur a fourni (Google Drive, 23/09) une archive de **15 PDF** : ce sont les visionneuses EDAN de l'AAA exportées (ref215, 253, 252, 119, 73, 258, 256, 257, 255, 80, 78, 77, 75, 74, 31 ; **ref254 manque**), avec des images d'environ 2300×3000. **Même contenu public que l'EDAN**, en meilleure résolution. Rien n'est versé au dépôt (droits).
+
+Contenu :
+- Des impressions de 2009 : article de David Stein (« The Puzzle at CIA Headquarters »), page de Sean O'Neil (clé de K3 « KRYPTOS / 0362514 », 2003), *New York Times* du 16/06/1999, *Washington Post* du 19/07/1999, fax de Jim Gillogly du 30/06/2009 (« one of the few paper notes from the cracking period: 8 Jun 1999, K3 »), texte de tiers « Sunrise » (Star-Spangled Banner).
+  - **WaPo 1999** : *« Scheidt spent four months devising the systems that Sanborn would use… **With the code system in hand, Sanborn set to encrypting the message** »* ; *« Sanborn had placed the stones around the sculpture strategically so that a photo could not capture all of the elements »* ; *« slight misalignment of some letters along the matrix, which might figure in unlocking the secrets »*. **Cette version de 1999 contredit *Museum & Arts* 1990 (« encoded for Sanborn by a former CIA employee »).** Sur **qui a exécuté** K4, les sources divergent. *Museum & Arts* 1990 est plus ancien ; le WaPo de 1999 cite Scheidt et Sanborn directement. **Question non tranchée.**
+- **Images 31–47 : feuilles de travail manuscrites de Sanborn pour les textes russes** (sources KGB et Sakharov, cf. 6/11 et 6/17), destinées au *Cyrillic Projector* ou à *Code Room* (1990–1991). On y lit « **#3A Tradecraft (ТЕНЬ)** », « Roadroom (3) corrected Russian mat'l ».
+  - **Format** : papier quadrillé, **trois lignes par bloc, marquées P / K / C** (clair / clé / chiffré), clé périodique écrite sous le clair. C'est **exactement le format de la feuille K1–K2 du NYT (2010)**.
+  - **Clés** : **МЕДУЗА** (« Medusa », répétée ; cf. *Washington Post* 1991 : « "Medusa" is the key word to the cipher of "Code Room" ») et **ЧШЖИФ** (période 5).
+  - **Tableau cyrillique manuscrit** (image 42) : colonne de gauche = alphabet russe standard ; corps = alphabet à mot-clé **ТЕНЬАБВГДЖЗИЙКЛМОПРСУФХЦЧШЩЪЫЭЮЯ** (ТЕНЬ = « ombre » ; 32 lettres), décalé ligne par ligne. **Même construction que le tableau KRYPTOS**, lignes débordantes comprises.
+  - **Vérification exacte (script ad hoc, bloc 1 de la feuille 3B)** : `C = ТЕНЬ-alphabet[ std(P) + std(K) mod 32 ]` reproduit **22 lettres sur 23** du chiffré MEDUSA. L'écart (Щ/Ш) est une lecture douteuse ou une coquille. Le **clair et la clé sont dans l'alphabet standard, le chiffré dans l'alphabet à mot-clé** : c'est un **Quagmire II**, pas le Quagmire III de K1–K2 (tout en KRYPTOS). La feuille ЧШЖИФ est cohérente avec la même structure et un **autre** alphabet chiffré : 1 conflit sur 23 avec un alphabet chiffré libre ; bloc 1 seulement, transcription à la main.
+  - **Coquilles visibles sur la feuille** : un « N » latin à la place de « И » dans la ligne de clé ; un « Х » isolé dans une clé ЧШЖИФ ; des lettres corrigées ou barrées (images 44–45). **Fait** : Sanborn commet des erreurs de clé sur la feuille elle-même (cf. base 4 §A).
+
+**Portée :**
+1. **Fait.** C'est un **document de première main sur la pratique de chiffrement de Sanborn juste après Kryptos**. Il l'annonçait lui-même : « I stuck with the coding systems developed during the Kryptos period ». Les systèmes employés sont **uniquement des Vigenère à alphabet à mot-clé (famille Quagmire), à clé périodique**, sur une grille à trois lignes. **Aucune transposition, aucun autre procédé** n'apparaît dans ces feuilles.
+2. **Interprétation.** Le répertoire que Sanborn manie seul, en 1990–1991, est celui de K1–K2, avec des variantes de convention (II contre III). Le système de K4, qu'il ne réutilise pas, cadre avec l'idée d'un procédé **apporté, voire exécuté, par Scheidt**. Cela reste une inférence : l'absence dans ces feuilles ne prouve rien.
+3. **Conséquence pour notre base 2.** Les Quagmire I–IV à clé périodique sont déjà testés et éliminés pour K4 (moteur SAT, alphabets libres, petites périodes). Ces feuilles **n'ouvrent donc pas de piste de calcul directe**. Elles confirment que le fait de *changer de convention* (II au lieu de III) était naturel pour Sanborn. Pour toute future famille à tester, **les quatre conventions** doivent être couvertes, ce qui est déjà le cas.
+4. **Précédent légitime** : le *Cyrillic Projector* a été résolu publiquement en 2003. Ces feuilles en montrent le procédé. **Aucune donnée ne concerne le clair de K4.**
+
+**Statut : vu en entier ; exploité (méthode personnelle de Sanborn en 1990–1991) ; aucune piste de calcul nouvelle.**
