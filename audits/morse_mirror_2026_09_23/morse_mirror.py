@@ -18,13 +18,18 @@ def job(a):
     nul = sum(periodic(tr(rand_ct(800 + t)), anch, mode, p, q) for t in range(20))
     return dict(side=side, var=var, q=q, mode=mode, p=p, K4=k4, null=nul)
 if __name__ == "__main__":
-    jobs = [(s, v, q, md, p) for s in ("ct", "pt", "both") for v in ("a", "b") for q in ("III", "I", "II", "IV")
-            for md in ("vig", "beau") for p in range(1, 27)]
-    with Pool(4) as pool: R = pool.map(job, jobs)
+    # only combinations NOT absorbed by a free alphabet (QIV and the free side of QI/QII are absorbed)
+    keep = {("III", "ct"), ("III", "pt"), ("III", "both"), ("I", "ct"), ("I", "both"), ("II", "pt"), ("II", "both")}
+    jobs = [(s, v, q, md, p) for s in ("ct", "pt", "both") for v in ("a", "b") for q in ("III", "I", "II")
+            if (q, s) in keep for md in ("vig", "beau") for p in range(1, 27)]
+    R = []
+    with Pool(4) as pool, open("results.jsonl", "w") as f:
+        for r in pool.imap_unordered(job, jobs, chunksize=1):
+            R.append(r); f.write(json.dumps(r) + "\n"); f.flush()
     json.dump(R, open("results.json", "w"), indent=1)
     for s in ("ct", "pt", "both"):
         for v in ("a", "b"):
-            for q in ("III", "I", "II", "IV"):
+            for q in ("III", "I", "II"):
                 for md in ("vig", "beau"):
                     rs = [r for r in R if (r["side"], r["var"], r["q"], r["mode"]) == (s, v, q, md)]
                     print(f"{s:4} {v} Q{q:3} {md}: K4 SAT p={[r['p'] for r in rs if r['K4']]} severe={[r['p'] for r in rs if r['K4'] and r['null'] <= 1]}")
