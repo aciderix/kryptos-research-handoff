@@ -101,6 +101,7 @@ Sources :
 | Grilles irrégulières de largeur 7, 14, 21 (97 lettres), lecture par colonnes vers le haut ou vers le bas, directe ou inverse, + Quagmire III, alphabet inconnu, p 1–26 | 48 des 80 configurations (1 lot sur 4 perdu lors d'un redémarrage, non relancé) | pas de signal : 11 compatibilités à période courte pour ≈ 19 attendues par hasard | campagne 22/09, `ragged_widths.py`, `results_ragged_widths_summary.json` |
 | Grilles tournantes, grilles de Cardan, Fleissner | — | bruit | `e_s_18`, `e_s_70`, `blitz_rotation_180`, `blitz_grille_*` |
 | Carré latin (Swagman), bandes (strip cipher) | — | bruit | `e_swagman_01`, `blitz_strip_*` |
+| **Réglettes M-138 découpées dans le tableau KRYPTOS** (lignes ou colonnes) | chaque réglette = KA décalé ⇒ équivaut à un décalage constant par bloc de 30 ; les T des positions 24 et 28 (même bloc) donnent V et R ⇒ **impossible** (23/09, sans calcul). Réglettes aléatoires : invérifiable (au-delà de 112 bits) | raisonnement |
 | Paires digraphiques 8×13 → 31×3 | — | revendication non validée | Nash Associates (2025) |
 
 ### 2.5 Masques, nulles, stéganographie
@@ -129,6 +130,7 @@ Sources :
 | **Cryptographe de Wheatstone** (cadran à deux aiguilles), extérieur AZ ou KA, **intérieur quelconque** | **éliminé exactement**, même sur EASTNORTHEAST seul ; contrôle 20/20 | `audits/wheatstone_2026_09_23/` ; antériorité échantillonnée `e_wheatstone_clock_01` |
 | **Mots visibles sur l'œuvre** (39 : Morse K0, KRYPTOS, HILL, YAR/DYAHR, rose des vents, PALIMPSEST, ABSCISSA) comme alphabet à mot-clé et/ou clé périodique, montage MEDUSA inclus, QI–QIV, 3 modes ; et comme amorces de Gromark | K4 10/24 ; hasard P(≥ 10) = 7 % ; Gromark 0 ⇒ **éliminé** (23/09) | `audits/visible_words_2026_09_23/` |
 | **Codage 5 bits (A1Z26, A0Z25, Baudot ITA2) + XOR / addition mod 32**, clé périodique p 1–48 (« changer la base », Scheidt 2020) | seul cas non trivial : ITA2 XOR p = 30, niveau du hasard (0,54 attendu), déchiffrement avec 13 codes non-lettres ⇒ **éliminé** (23/09) | `audits/binary_xor_2026_09_23/` |
+| **Crib décalé** (lettre sautée ou ajoutée entre les cribs, décalage de phase s = −3…+3), Quagmire I–IV tout alphabet, p 1–26 | QIII : p ≤ 12 éliminé pour tout s ; les cases QI/II/IV « sévères » relèvent toutes d'un seul phénomène (distance 38 entre cribs), au niveau du hasard (≈ 10 %) ⇒ **aucun signal** (23/09) | `audits/crib_shift_2026_09_23/` |
 | Géométrie mesurée de l'écran | **jamais testée** (donnée absente) | [MR] ; `current_experimental_frontier.md` |
 
 ### 2.7 « Solutions » revendiquées publiquement (non validées)
