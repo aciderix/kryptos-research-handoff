@@ -55,7 +55,8 @@ Sources :
 | Gromark / clé numérique en chaîne | + colonnes largeur 7 | éliminé sous portée | `e_s_67` ; carnet utilisateur (forme canonique, bases 3–12) |
 | **Gromark, base 10, amorce de 5 chiffres, alphabets clair et chiffré libres** | espace entier examiné (inégalités + base de Gröbner) | **39 amorces compatibles** avec les 24 lettres (dont 26717 ≡ 84393). Plaintexts « proches de l'anglais » trouvés par recuit, aucun convaincant. **Non éliminé** | Bean 2021, §3 ; code https://github.com/RichardBean/k4testing |
 | Gromark, autres bases/longueurs | base 10 à 4 chiffres : 3 amorces (3301, 6740, 9903) ; base 8 à 5 chiffres : 4 amorces (dont 00351, 00537, période 84) | ouvert | Bean 2021 |
-| ⚠ **Désaccord à résoudre** | le carnet utilisateur trouve **0** amorce compatible (« substitution fixe quelconque », bases 3–12), Bean en trouve **39** en base 10. Cause probable : le modèle de Bean laisse **les deux alphabets libres**, pas le carnet (à vérifier avant tout nouveau calcul) | — | carnet ; Bean 2021 |
+| ✔ **Désaccord résolu (23/09)** | Les deux résultats sont justes, leurs portées diffèrent. Le carnet fixe l'alphabet clair à A–Z : c'est impossible (clair R en 27 et clair C en 72 donnent tous deux P, d'où k72 − k27 ≡ 15, hors de portée de chiffres 0–9 ; Bean le note aussi). Bean laisse les **deux** alphabets libres : 39 amorces, **reproduites** avec son `gt.c`. Le registre du dépôt (`two_systems_landscape.md`, « Gromark STRUCTURAL, zéro amorce ») n'est valable qu'avec des alphabets fixés | `audits/gromark_scope_2026_09_23/` |
+| Gromark base 10, amorce de 5, **un côté fixé** par un alphabet de l'œuvre : normal, KRYPTOS, mot-clé PALIMPSEST ou ABSCISSA, ou leurs inverses ; l'autre côté libre | 100 000 amorces × 16 conventions, plus les couples AZ/KA | **éliminé (0)** ; contrôles positifs 5/5. **Mais** 0 amorce sur 200 alphabets aléatoires aussi : fixer un côté suffit presque toujours à exclure. Le Gromark ne survit qu'avec **deux alphabets étrangers à l'œuvre connue**, cas que 24 lettres ne tranchent pas | `audits/gromark_scope_2026_09_23/` |
 | Clé interrompue, pas dépendant des données | 8 modèles | éliminé | `e_interrupted_key_vig_01` |
 | Chiffre soviétique en trois étapes, VIC, Ubchi | — | éliminé sous portée | `e_soviet_threestep_01`, `e_full_vic_pipeline_k4`, `e_ubchi_null_insertion_01` |
 | Wichmann-Hill (PRNG) | graines 0–50 | éliminé | Numberworld |
@@ -140,6 +141,7 @@ Les familles ci-dessous sont ouvertes parce que **l'information manque**, pas pa
 3. **Superposition physique (F-07) et opérations sur la charte (F-08)** : il faut le plan coté.
 4. **Clé courante tirée d'un texte non identifié** : impossible à réfuter avec 24 lettres (campagne 22/09 §5).
 5. **Quagmire I, II, IV à période moyenne** : 24 lettres ne suffisent pas mathématiquement.
+6. **Gromark à deux alphabets inconnus** (39 amorces de Bean) : même situation. Il ne devient testable que si une source fixe les alphabets ; les alphabets de l'œuvre ne marchent pas (23/09).
 
 ## 4. Mes tests du 22/09 : lesquels étaient des redites ?
 

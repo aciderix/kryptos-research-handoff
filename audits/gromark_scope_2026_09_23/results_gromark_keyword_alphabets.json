@@ -1,0 +1,82 @@
+{
+ "P=KRYPTOS": {
+  "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+  "count": 0,
+  "primers": []
+ },
+ "C=KRYPTOS": {
+  "alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+  "count": 0,
+  "primers": []
+ },
+ "P=KRYPTOS_rev": {
+  "alphabet": "ZXWVUQNMLJIHGFEDCBASOTPYRK",
+  "count": 0,
+  "primers": []
+ },
+ "C=KRYPTOS_rev": {
+  "alphabet": "ZXWVUQNMLJIHGFEDCBASOTPYRK",
+  "count": 0,
+  "primers": []
+ },
+ "P=PALIMPSEST": {
+  "alphabet": "PALIMSETBCDFGHJKNOQRUVWXYZ",
+  "count": 0,
+  "primers": []
+ },
+ "C=PALIMPSEST": {
+  "alphabet": "PALIMSETBCDFGHJKNOQRUVWXYZ",
+  "count": 0,
+  "primers": []
+ },
+ "P=PALIMPSEST_rev": {
+  "alphabet": "ZYXWVURQONKJHGFDCBTESMILAP",
+  "count": 0,
+  "primers": []
+ },
+ "C=PALIMPSEST_rev": {
+  "alphabet": "ZYXWVURQONKJHGFDCBTESMILAP",
+  "count": 0,
+  "primers": []
+ },
+ "P=ABSCISSA": {
+  "alphabet": "ABSCIDEFGHJKLMNOPQRTUVWXYZ",
+  "count": 0,
+  "primers": []
+ },
+ "C=ABSCISSA": {
+  "alphabet": "ABSCIDEFGHJKLMNOPQRTUVWXYZ",
+  "count": 0,
+  "primers": []
+ },
+ "P=ABSCISSA_rev": {
+  "alphabet": "ZYXWVUTRQPONMLKJHGFEDICSBA",
+  "count": 0,
+  "primers": []
+ },
+ "C=ABSCISSA_rev": {
+  "alphabet": "ZYXWVUTRQPONMLKJHGFEDICSBA",
+  "count": 0,
+  "primers": []
+ },
+ "P=AZ": {
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "count": 0,
+  "primers": []
+ },
+ "C=AZ": {
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "count": 0,
+  "primers": []
+ },
+ "P=AZ_rev": {
+  "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+  "count": 0,
+  "primers": []
+ },
+ "C=AZ_rev": {
+  "alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+  "count": 0,
+  "primers": []
+ }
+}
