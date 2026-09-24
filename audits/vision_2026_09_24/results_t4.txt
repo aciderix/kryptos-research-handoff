@@ -1,2 +1,95 @@
 Validation (clé périodique simple, alphabet quelconque) :
   VIG compatibles p=1..26 :
+  BEAU compatibles p=1..26 : 16? 19? 23 24? 25? 26
+contrôle positif (7,10) VIG : -1 (attendu 1 ; -1 = limite)
+  VIG (3,10) ppcm 30 : K4 COMPATIBLE ; témoins 5/10 (non tranchés 2) 7.4s
+  VIG (3,14) : non tranché (limite)
+  VIG (3,17) : non tranché (limite)
+  VIG (4,14) : non tranché (limite)
+  VIG (4,15) ppcm 60 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 5.0s
+  VIG (5,6) ppcm 30 : K4 COMPATIBLE ; témoins 4/10 (non tranchés 2) 11.6s
+  VIG (5,11) ppcm 55 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 8.9s
+  VIG (5,12) ppcm 60 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 2.2s
+  VIG (5,13) ppcm 65 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 6.9s
+  VIG (5,14) ppcm 70 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 11.0s
+  VIG (6,7) : non tranché (limite)
+  VIG (6,9) : non tranché (limite)
+  VIG (6,10) ppcm 60 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 1) 4.2s
+  VIG (6,11) ppcm 66 : K4 COMPATIBLE ; témoins 4/10 (non tranchés 6) 11.8s
+  VIG (6,13) ppcm 78 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.1s
+  VIG (6,14) : non tranché (limite)
+  VIG (7,8) ppcm 56 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.0s
+  VIG (7,9) ppcm 63 : K4 COMPATIBLE ; témoins 5/10 (non tranchés 5) 12.4s
+  VIG (7,10) ppcm 70 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 3.2s
+  VIG (7,11) ppcm 77 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 3) 5.7s
+  VIG (7,12) ppcm 84 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.1s
+  VIG (7,13) ppcm 91 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 3) 4.6s
+  VIG (8,9) ppcm 72 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 9.7s
+  VIG (8,11) ppcm 88 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.8s
+  VIG (9,10) ppcm 90 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 3) 4.3s
+  VIG (9,11) ppcm 99 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.5s
+VIG : couples compatibles pour K4 = 20 ; sévères (témoin ≤ 1/10) = 0 ; non tranchés = 6
+  BEAU (2,13) ppcm 26 : K4 COMPATIBLE ; témoins 8/10 (non tranchés 1) 2.8s
+  BEAU (2,15) ppcm 30 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 5.3s
+  BEAU (3,10) ppcm 30 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 1) 4.0s
+  BEAU (3,11) ppcm 33 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 1) 1.7s
+  BEAU (3,16) : non tranché (limite)
+  BEAU (3,17) : non tranché (limite)
+  BEAU (4,6) : non tranché (limite)
+  BEAU (4,9) : non tranché (limite)
+  BEAU (4,10) : non tranché (limite)
+  BEAU (4,13) ppcm 52 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 2.8s
+  BEAU (4,14) : non tranché (limite)
+  BEAU (4,15) ppcm 60 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 6.3s
+  BEAU (5,6) ppcm 30 : K4 COMPATIBLE ; témoins 3/10 (non tranchés 5) 17.2s
+  BEAU (5,11) ppcm 55 : K4 COMPATIBLE ; témoins 8/10 (non tranchés 2) 2.5s
+  BEAU (5,12) ppcm 60 : K4 COMPATIBLE ; témoins 8/10 (non tranchés 2) 2.3s
+  BEAU (5,13) ppcm 65 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 7.5s
+  BEAU (5,14) ppcm 70 : K4 COMPATIBLE ; témoins 8/10 (non tranchés 2) 2.6s
+  BEAU (6,7) : non tranché (limite)
+  BEAU (6,8) : non tranché (limite)
+  BEAU (6,9) : non tranché (limite)
+  BEAU (6,10) : non tranché (limite)
+  BEAU (6,11) ppcm 66 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.0s
+  BEAU (6,13) ppcm 78 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.3s
+  BEAU (6,14) : non tranché (limite)
+  BEAU (7,8) ppcm 56 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 3.8s
+  BEAU (7,9) ppcm 63 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 0) 0.0s
+  BEAU (7,10) ppcm 70 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.0s
+  BEAU (7,11) ppcm 77 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.0s
+  BEAU (7,12) ppcm 84 : K4 COMPATIBLE ; témoins 8/10 (non tranchés 2) 2.3s
+  BEAU (7,13) ppcm 91 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.0s
+  BEAU (8,9) ppcm 72 : K4 COMPATIBLE ; témoins 8/10 (non tranchés 2) 3.9s
+  BEAU (8,10) : non tranché (limite)
+  BEAU (8,11) ppcm 88 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.0s
+  BEAU (8,12) : non tranché (limite)
+  BEAU (9,10) ppcm 90 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.5s
+  BEAU (9,11) ppcm 99 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 2.1s
+BEAU : couples compatibles pour K4 = 23 ; sévères (témoin ≤ 1/10) = 0 ; non tranchés = 13
+  VARB (3,10) ppcm 30 : K4 COMPATIBLE ; témoins 5/10 (non tranchés 2) 7.0s
+  VARB (3,14) : non tranché (limite)
+  VARB (3,17) : non tranché (limite)
+  VARB (4,14) : non tranché (limite)
+  VARB (4,15) ppcm 60 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 2) 2.9s
+  VARB (5,6) ppcm 30 : K4 COMPATIBLE ; témoins 8/10 (non tranchés 1) 5.5s
+  VARB (5,11) ppcm 55 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 7.6s
+  VARB (5,12) ppcm 60 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.0s
+  VARB (5,13) ppcm 65 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 6.6s
+  VARB (5,14) : non tranché (limite)
+  VARB (6,7) : non tranché (limite)
+  VARB (6,9) : non tranché (limite)
+  VARB (6,10) ppcm 60 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 3) 7.8s
+  VARB (6,11) ppcm 66 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 9.0s
+  VARB (6,13) ppcm 78 : K4 COMPATIBLE ; témoins 6/10 (non tranchés 4) 7.0s
+  VARB (6,14) : non tranché (limite)
+  VARB (7,8) ppcm 56 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 3) 6.1s
+  VARB (7,9) ppcm 63 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 3) 4.8s
+  VARB (7,10) ppcm 70 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 2.1s
+  VARB (7,11) ppcm 77 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 3) 3.9s
+  VARB (7,12) ppcm 84 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.4s
+  VARB (7,13) ppcm 91 : K4 COMPATIBLE ; témoins 7/10 (non tranchés 3) 3.7s
+  VARB (8,9) ppcm 72 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 3.6s
+  VARB (8,11) ppcm 88 : K4 COMPATIBLE ; témoins 10/10 (non tranchés 0) 0.7s
+  VARB (9,10) ppcm 90 : K4 COMPATIBLE ; témoins 9/10 (non tranchés 1) 1.8s
+  VARB (9,11) ppcm 99 : K4 COMPATIBLE ; témoins 5/10 (non tranchés 5) 4.6s
+VARB : couples compatibles pour K4 = 19 ; sévères (témoin ≤ 1/10) = 0 ; non tranchés = 7
