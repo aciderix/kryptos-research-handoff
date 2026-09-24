@@ -1,0 +1,18 @@
+S1 directive Truman 1946     endroit  (3366 lettres) : 3366 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 7/24
+S1 directive Truman 1946     envers   (3366 lettres) : 3366 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+S2 principes CIA 1988        endroit  (582 lettres) : 582 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 8/24
+S2 principes CIA 1988        envers   (582 lettres) : 582 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+S3 lettre Sanborn 1989       endroit  (930 lettres) : 930 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+S3 lettre Sanborn 1989       envers   (930 lettres) : 930 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+S4 S1+S2+S3                  endroit  (4878 lettres) : 4878 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 8/24
+S4 S1+S2+S3                  envers   (4878 lettres) : 4878 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+témoin 0 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 1 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 2 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 8/24
+témoin 3 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 4 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 8/24
+témoin 5 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 8/24
+témoin 6 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 7 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 6/24
+témoin 8 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 9 (S1, endroit) : L3 0 | NA 0 | NK 0 | fixés max 7/24

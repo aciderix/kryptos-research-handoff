@@ -209,7 +209,7 @@ Source : https://www.thekryptosproject.com/kryptos/cia/thecryptogram/pdfs/Binder
 ## 4 quater. Autres déclarations primaires (sources publiques, lues le 23/09)
 
 ### Sanborn interviewé par A.J. Jacobs (2020)
-Source : https://scienceblogs.de/klausis-krypto-kolumne/files/2020/10/KRYPTOS-Interview-Jacobs.pdf. **Niveau P** (notes d'entretien de Jacobs). À ne pas confondre avec la transcription **Scheidt**/Jacobs de groups.io (non accessible), d'où vient la phrase sur la « base du langage » citée par Bean.
+Source : https://scienceblogs.de/klausis-krypto-kolumne/files/2020/10/KRYPTOS-Interview-Jacobs.pdf. **Niveau P** (notes d'entretien de Jacobs). À ne pas confondre avec la transcription **Scheidt**/Jacobs de groups.io (**lue le 24/09**, voir base 7, §2.11), d'où vient la phrase sur la « base du langage » citée par Bean.
 
 - **Création du code** : *« I came up with a system based on the materials that he [Scheidt] had given me and suggestions from him… **There are codes that depend entirely on patterns. There are pattern codes that are woven into blankets in some countries in Africa** in particular. I mean, so codes can come in many different shapes and sizes. »* Pour la dernière section : *« he gave me a few suggestions, all of which I could then modify myself… he still doesn't know what it says. »*
 - **Faisabilité** : *« it could be done with **pencil and paper** »* ; un ordinateur puissant peut aussi y arriver.
@@ -340,6 +340,21 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 - Si IMG_1340 se lit bien, Sanborn traite le « L » en trop et les « ? » comme des **particularités expliquées**, pas comme des clés. Les pistes communautaires fondées sur ces anomalies (HILL, « ? » + 97 = 98 = 14 × 7) reposeraient alors sur une **lecture erronée**.
 - IMG_1555 donne une **forme concrète** à ses « systèmes visuels d'encodage, individuels » (2005), au « pull up one layer » (1990) et à la naissance des projections (deux plaques de Kryptos superposées devant une lumière, AAA 2009). L'idée : **un gabarit physique posé sur le texte chiffré**. Si K4 fonctionne ainsi, l'élément manquant est **un objet**, qu'aucune analyse des 97 lettres ne peut reconstituer. Cela expliquerait aussi « qui dit que c'est même une solution mathématique ? » (2025). *Hypothèse, non démontrée.*
 
+## 4 septies. Fichiers du groupe kryptos.groups.io (lus le 24/09)
+
+Lecture complète dans [`07_groupsio_2026_09_24.md`](07_groupsio_2026_09_24.md). Apports qui touchent cette base :
+- **Fichier NYT 2010 de Sanborn** : le « ? » n'est pas numéroté, O = 1 … R = 97 (base 7, apport 1).
+- **Scheidt 2020** (transcription intégrale) : le masque « change la base de langue… **pas vers une autre langue, vers autre chose** » ; masque jetable « au sens du résultat » (apport 5).
+- **Scheidt 2015**, version longue : il a « fait » son procédé ; Sanborn a « fait autre chose par-dessus » (apport 6).
+- **Comptes rendus de dîners** (2004, 2009, 2011, 2013, 2019, niveau S) :
+  - « un peu de stéganographie » (2004) ;
+  - « fonction régénérative », « lignes de 21 », « résoluble par un humain » (2011) ;
+  - N=B, Y=E… « déchiffre », repère USGS enterré « important », « K5 ne se résout pas sans K4 » (2013) ;
+  - grilles « tournées et retournées », « machine à laver », « deux matrices » (2019).
+- **Wired 2005** (compilation kryptools) : « J'ai laissé dans le texte antérieur des **instructions qui renvoient au texte postérieur**. »
+- **NPR 2010** : le dernier passage mènera « **dans plusieurs directions** », mot employé « intentionnellement ».
+- **CIA** : cahier des charges artistique de 1988 (« racines américaines… dans les **matériaux** ») ; « l'aiguille pointe vers la magnétite, pas vers le nord magnétique » (Intellipedia).
+
 ## 5. Indices officiels sur K4
 
 | Date | Indice | Positions (1-indexées) | Niveau |
@@ -434,7 +449,7 @@ Page de vulgarisation **tertiaire**, qui cite Wikipédia, Dunin, Stein, le NYT e
 - Relevé métrique de l'écran K4 : lignes, retraits, « ? », lettres surélevées « YAR ».
 - Différences **Antipodes / Kryptos** lettre à lettre (Antipodes contient K4 ?).
 - Interviews vidéo : NOVA 2013 (feuille K3 avec « P/C »), Big Techday 2013, LEMMiNO.
-- ~~Article de Bean~~ et ~~entretien AAA 2009~~ : intégrés le 23/09. ~~Lettre ouverte d'août 2025~~ : texte intégral reçu (voir ci-dessous). Reste : la **transcription Scheidt 2020 (A.J. Jacobs)** ; les comptes rendus du **dîner de 2011** (Hannon).
+- ~~Article de Bean~~ et ~~entretien AAA 2009~~ : intégrés le 23/09. ~~Lettre ouverte d'août 2025~~ : texte intégral reçu (voir ci-dessous). ~~Transcription Scheidt 2020 (A.J. Jacobs)~~ et ~~comptes rendus du dîner de 2011~~ : lus le 24/09 sur le groupe (base 7, §2.11 et §2.13), avec ceux des dîners de 2004, 2009, 2013 et de la visite au studio de 2019.
 
 ## Sources
 

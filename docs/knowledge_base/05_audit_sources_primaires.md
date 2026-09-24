@@ -282,3 +282,21 @@ Archive de 31 fichiers (NSA 1991–1992 et 2014, rushes ABC 1991 de Scheidt et S
 - **Qui a exécuté K4** (question « non tranchée » ci-dessus, *Museum & Arts* 1990 contre WaPo 1999) : **tranché en faveur de Sanborn**. Scheidt, ABC 1991 : « I gave Jim "this is how you do it", and that was it » ; réunion 2015 : il n'a jamais déchiffré K4 et ne connaîtrait pas les erreurs de Jim.
 - **Plan orienté de la cour** (NSA, 14/11/1991) : premier plan d'époque avec flèche du nord, position de l'écran, du tableau (« read V square on this side ») et du cryptogramme, encart de l'entrée ouest avec la rose et la magnétite. Schéma non coté.
 - La cassette de la dédicace (1990) et le dossier « Stencil Patterns » restent introuvables.
+
+### Complément du 24/09 (2) : fichiers du groupe kryptos.groups.io
+Lecture complète dans [`07_groupsio_2026_09_24.md`](07_groupsio_2026_09_24.md). Ce que cela change pour cet audit :
+- **Pièces NSA/CIA nouvelles pour le dépôt**, toutes publiques par ailleurs :
+  - DOCID 4050988 (mémo 1993, description de K3 « 4 × 86, KRYPTOS répété 13 fois ») ;
+  - 4050989 (formulaire 1998 : « **given the suspected cryptography** ») ;
+  - 4050994 (notes « #1–#4 ») ;
+  - 4050995 (groupe d'étude CIA, déc. 1991) ;
+  - 4117575 (note sur les stagiaires) ;
+  - *Tales of the Krypt* 1999 (FOIA 61704, 2023), dont la section **« The Fourth Breakthrough? » reste caviardée (b)(1)** ;
+  - boîte de la pierre angulaire (CREST, 1960) ;
+  - page Intellipedia (C06498615, 2017).
+- **Lacunes de la base 1 comblées** : transcription Scheidt/Jacobs 2020 ; comptes rendus des dîners de 2004, 2009, 2011 (Zola) et 2013 (ACA) ; visite au studio en 2019.
+- **Reste inaccessible ou non lu** :
+  - l'archive des messages du groupe 2003–2018 (mbox, données personnelles ; non téléchargée) ;
+  - l'audio CBC *As It Happens* du 24/11/2014 (6 Mo, non transcrit) ;
+  - les vidéos du groupe ;
+  - le contenu classifié de l'analyse NSA de K4 (1998–1999).
