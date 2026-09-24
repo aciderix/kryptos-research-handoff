@@ -1,0 +1,164 @@
+
+Binary Theory update:
+Jason DeSeve
+1/4/08
+
+All:
+
+This what I have been playing around with. Basically 3 types of binary ciphers (illustrated at the end) that do a good job of masking English, and the rational behind it. Read at your own peril.
+
+(a lot of this will be boring for those who know this stuff cold (unlike me), but I haven’t seen something like this posted so I will do it)
+
+Since on the last DC meeting I have been trying to “Reinvent” the encryption technique used in K4 (since it is “unique”). I am doing this under the following assumptions
+
+5 bit binary was used
+The goal of the encryption system was to mask English
+It can be done with pencil and Paper in a short period of time
+
+
+First, I believe the “even out the 1’s and Zero’s” is an encryption clue not a decryption clue (although I was not there so who knows)
+
+The reason for this is simple based on a few basic principles. We can assume that the goal of a well masked cipher text is that it resembles a randomly generated text, i.e. there will be no reoccurring patterns that can lead back to the encryption process. Therefore, if we understand what properties a randomly generated text will have, we can then try and invent a process that will take a plain text and quickly encrypt it (by hand) so it looks like random text.
+
+To generate a random text, we can simply randomly generate letters.  Each letter will have a probability of being generated of 1/26 since the alphabet in question has 26 letters.  If we take a step back, however, and lets assume our alphabet has 32 letters. If we use 5 bits to encrypt this alphabet, each of the 32 binary numbers will correspond to one of the 32 letters.  Therefore if we want to generate a random alphabet of 32 letters, instead of randomly picking letters, we can randomly generate bits. As long as each bit has a 50/50 chance of being a 1 or 0, then the resultant text will be random.
+
+The easiest way to convert a plaintext to a cipher text with an unequal # of 1’s and 0’s is to use an X/Or function where the key has an equal # of 1’s and 0’s.  As long as your key is long enough, or you properly scramble (transpose) the bits prior to or after the X/Or function, the resultant cipher text should be pretty random and very difficult to attack using frequency analysis.
+
+This is what I think Ed means by evening out the 1’s and 0’s
+
+However, we have two problems. We are only using 26 letters, not 32.  Therefore we have 6 numbers that cannot be formed as a result of the encryption process.  Also, since we have only 26 letters, we will not have a ratio of 50% 1’s and 50% 0’s in a randomly generated text. As it turns out a randomly generate text on average will have 43.85% 1’s and 56.15% 0’s. It is crucial we break this down further to the bit position level, Bits 1 and 2 (16X and 8X) will have a bit frequency of 38.46% 1’s, Bits 3 and 4 (4X and 2X) will have a bit frequency of 46.15%, and Bit 5 (1X) will have 50% 1’s.  Therefore, what every encryption process we develop should result in roughly these bit frequencies in the cipher text. Assuming it is sufficiently scrambled, it should appear like a random text.
+
+So for our case, Even out the 1’s and 0’s does not mean 50/50 it means the proper proportion for a random text or 26 letters.
+
+To create a method, we need to know what we are going from, i.e. English.  To find out the bit frequencies for English I pulled the Letter frequency chart from Wikipedia and multiplied them through each bit and then summed them.  For instance:  E occurs roughly 12.27 % of the time in English, we can multiply this through its binary representation 00100, to get the frequency of a 0 or 1 appearing in each spot.  When you sum them across all letters you get:
+(each is the % of 1’s)
+		    English   Random    K4
+Bit 1 (16X)  29.76%    38.46%    41.2%
+Bit 2  (8x)  32.56%	  38.46%    37.1%
+Bit 3  (4x)  47.88%    46.15%    40.2%
+Bit 4  (2X)  47.27%    46.15%    51.5%
+Bit 5  (1X)  43.17%    50%       46.4%
+
+Overall      40.13%    43.85%    43.3%
+
+Bottom line:  We need to do some sort of substitution or other mathematical manipulation to increase the frequency of 1’s, and some sort of transposition to scramble the message enough so the original plaintext is not readily apparent. (Also note that K4 is only 2 1 bits away from mirroring the Random text from overall total)
+
+Potential methods I have been working on:
+
+Masking layer with selective substitution:
+This is my favorite candidate thus far because: 
+
+The substitution is minimal and can still be read as English,
+It is very easy to approximate a random text.
+It provides the mechanism for double letters at 6% chance (like K4) and provides an opportunity for a small amount of engineering the cipher text.
+The only downside is it requires ~20% more cipher text than plaintext.
+
+How it works:
+From above English has a bit frequency around 40.13%. To create the cipher text we are simply going to divide the plain text into 4 parts. Each part goes through a partial substitution and then becomes a bit layer.
+
+Part 1 40.13% -> Bit line 2  (8x) 38.46%   
+Part 2 40.13% -> Bit line 3  (4x) 46.15%   
+Part 3 40.13% -> Bit line 4  (2X) 46.15%
+Part 4 40.13% - >Bit line 5  (1X)  50%
+
+To achieve the necessary increase in 1’s for bit lines 3, 4 and 5, we are going to partially substitute letters 26 through 32 for A, B C,D E F respectively:
+
+For examples
+A= 00000  with a=11010  3 additional 1 bits
+B= 00001  with b=11011  3 additional 1 bits
+C= 00010  with c=11100  2 additional 1 bits
+D= 00011  with d=11101  2 additional 1 bits
+E= 00100  with e=11110  3 additional 1 bits
+F= 00101  with f=11111  3 additional 1 bits
+
+For parts 2 and 3 we only need to substitute 2-3 letters (6 1 bits) per 20 letters to get to the correct frequency, For part 4 we only need 3-4 letters (9-10 1 bits) per 20 letters to get to the correct frequency.
+
+For Part 1: No substitution as we are only 1.5 bits per hundred off.  For a very long message we could periodically swap the masking line (16X bits) with the 8X line to get the desired frequency.
+
+Example: PT  THEREISNOCRYINGINBASEBALL
+
+Count the total PT length: 25 letters. 
+
+Therefore our cipher text will have 32 letters since we are using only 4 of the 5 bits.  (25x5= 125 bits/ 4bits =31.25).  We will have 3 extra bits. Draw a 32 x 5 grid.  This will be for our CT
+
+
+
+
+As you can see we need 32 bits for Parts 1-3 and 29 bits for Part 4. Therefore we will have to separate each part mid letter.
+			
+Part 1  Part2  Part 3  Part 4
+THEREI S NOCRY I NGINBA S EBALL
+
+Since I have got ~ 32 bits per section we need to change ~2 bits in parts 2 and 3 and ~ 3 bits in part 4. So we will change the C to c in part 2, the B to b in part 3, and the E to e in part 4, and write in Binary:
+
+
+
+
+Now we can transpose each part to our CT grid out by rows in by rows per each part (color coded):
+
+
+Now we just need to fill in the masking layer with 1’s and 0’s to achieve the desired bit frequency and prevent letters higher than Z (11001) from being formed in columns
+
+
+
+Our CT is JQUMW QXGET HGJWW MKBZE KNBCQ YKNBL XY
+
+Obviously there are multiple variations on this theme.  To truly make this secure, each part should be put through an additional transposition step before being transposed to the CT grid or spin each line a given distance once in the CT Grid. These transpositions or spins become the Key (4 numbers).
+
+Since we are only constrained by 4 bits, There would be roughly a 1/16 chance (~6%) of possible repeats
+The decipherment can be done  in 1 or 2 steps depending on the transposition step
+
+I have an example (PT = ~700 letters if someone wants to try and crack it)
+
+Embedded One Time Pad  
+The thought here is that you can pull a one time pad from the earlier texts and use it for K4. Since the Pad is not English and is hidden, it would not be intuitive for the code breaker to look for.
+For example let’s assume I wanted to Use K1 to generate my Key, and I was going to use only the first bit (16X) to generate the key. I would write out the First bit of each letter
+
+
+BETWE ENSUB TLESH ADING ANDTH  etc
+00110 00110 10010 00000 00010
+
+My key is thus G G S A C ……. And can be used with the Tableau.
+
+To see if the final letter distribution would be flat, I calculated the final distribution using the Tableau with the outer alphabet, for an English PT, and a key generated randomly by a text with English letter Frequencies for each bit line.
+
+Here are the Results:
+
+
+
+
+
+
+Bit line 3 and 4 ( 4X and 2X) give fairly tight expect distributions and would be good candidates to create a well masked CT.
+
+Binary Mask (Concealment)
+I haven’t played with this one much. It is very simple and requires a secondary text (K1-K3). Either the secondary text or the CT can be the mask and the other can be the pad.  To create the CT first generate you PT:
+
+PT: MEETATFOUR
+
+This has 10 letters.  Ideally we will want a pad and CT that is 10/44%= 23 letters.  In this case I will use 25 letters
+
+My Pad in this example will be the start of K1:
+
+
+
+
+
+To encipher simple start highlight cells going down in columns left to Right such that the highlighted cells spell your letter in Binary, The highlighted cells will become 1’s in the CT so we must avoid forming # 11010 and higher.
+
+M= 01100
+
+
+
+Continue and you get:
+
+ 
+
+
+Now Remove the mask and all the Highlighted squares become 1’s:
+
+
+Fill in the 0’s and Read off your CT:
+
+
+Of course the disadvantage of this cipher is that your CT will be at a minimum 2.3X your PT, and when creating the mask you have to be care full to get the right 1 and 0 distribution.  Using the known text as the mask makes this a bit easier. 

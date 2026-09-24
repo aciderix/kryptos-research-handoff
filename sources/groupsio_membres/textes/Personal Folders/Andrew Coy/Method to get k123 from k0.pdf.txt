@@ -1,0 +1,172 @@
+[[page 1]]
+Possible Method to get k1,2,3 keywords in kryptos using the extra E’s/dots in 
+the k0 morse code 
+ 
+I have found a method to get the k1 and k2 keywords directly from the k0 morse 
+sections using the extra dots or ‘e’s around the morse code words. The approach 
+might also give the matrix sizes for k3. It is quite simple such that I initially thought it 
+could not be new however after searching for quite a while I cannot find this method 
+written down anywhere.  It would be great to get this method cross checked for errors 
+and to know if it has previously been documented hence posting it around to get some 
+feedback. 
+ 
+ 
+Method to get k1 keyword from k0 
+ 
+Note I am referring here to words as top / bottom for each morse code part.  E.g. in 
+“Virtually Invisible” the top word is “virtually” and the bottom word is “invisible”.  
+ 
+1. count the extra dots either side of each word in k0 and get a number for that 
+word. If there are dots on both sides of the word add them together. 
+2. Use that number to count a letter inside that word. 
+a. for the top word count from the end / right of the word. 
+b. for the bottom word count from the start / left of the word. 
+3. If there are no dots then take the letter to the left of the very middle letter of the 
+word or phrase ( put all the words together for  “tisyour”) 
+4. Ignore words of length 2 or 3 (i.e. RQ and SOS) 
+ 
+Below is each word with the number next to each word being the number of E's/dots 
+on the morse code (before and after) . Then the total if the dots are before and after, 
+and the "letter" that this number selects from the word. 
+ 
+2 VIRTUALLY 1   /   2+1 = 3  /  3 from right is "L" 
+6 INVISIBLE   /  6 from the left is "I" 
+2 SHADOW 2 / 2 + 2 = 4  / 4 from the right is "A" 
+FORCES 5 /  5 from the left is "E" 
+LUCID 3 / 3 from the right is "C"  
+MEMORY 1 / 1 from the left is "M" 
+DIGETAL 3 /  3 from the right is "T" 
+INTERPRETATI  / no dots  / the left of middle of the word (between P and R) is "P" 
+T IS YOUR / no dots / left of the middle letter of the phrase (Y) is "S" 
+POSITION 1 /  1 from the left is "P" 
+ 
+so we get L I A E C M T P S P .... which anagrams to PALIMPCEST the k1 keyword 
+albeit the “incorrect” keyword we find at the end used to encode Iqlusion.  
+ 
+When you combine this with the photos of the k1 crib sheet that Jim revealed I think 
+he might be telling a story about how the “cryptographer” initially encoded the k1 PT 
+with the “PALIMPCEST” keyword (with a spelling mistake) , then made their “stego” 
+code in k0 to record that keyword.  Then they realised their spelling mistake and 
+erased all the “Cs” and made them “Ss” and redid the k1 encoding, except they missed 
+the very last C and they didn’t fix the stego in k0. You can even stretch to think of this 
+
+[[page 2]]
+as an old code “peeking through” from underneath the new code – like a “Palimpsest” 
+.  
+ 
+There are two questions about the exact morse transcription that would be great to 
+check and confirm.  
+i. 
+Is there a dot before DIGETAL ? Online I have found both yes and no. 
+Zooming into the photo there is some sort of mark there but is it really an 
+“E”, or is it a bolt or screw head  or other kind of mark ? For the method 
+above to work there has to be no dot there. DIGETAL needs 3 dots to get 
+the T counting from the right and there are clearly 3 dots after the end of the 
+word. 
+ii. 
+Is there a dot at the end of POSITION ? Online most places say yes although 
+it is very hard to see in the photos. However one of the online pages says 
+the E at the end is trimmed so it is often overlooked which seems pretty 
+definitive. For this method we need the dot to be there to get the letter P one 
+from the front. 
+ 
+I have to say also I am not in love with rule 3. It’s not that intuitive in the way the other 
+rules seem at least to me.  
+ 
+ 
+Method to get k2 keyword from k1 
+ 
+If you write down k1 – but using rule 4 to ignore all the 2 and 3 letter words – you get 
+a sentence with just 8 words. Take the 8 numbers found from k0 - 3,6,4,5,3,1,3,1 – 
+And then using these we extract a letter from each of these 8 words in k1 counting 
+from the start of the word. 
+ 
+Between – 1 - B 
+Subtle – 1 - S 
+Shading – 3 - A 
+Absence -  6 - C 
+Light – 3 - G 
+Lies – 4 - S 
+Nuance - 3  - A 
+Iqlusion – 5 - S 
+ 
+You get ABSCGSSA. However the word LIGHT giving the G would give I if we change 
+the 3 to a 2. So 1,1,3,6,2,4,3,5  
+ 
+Between – 1 - B 
+Subtle – 1 - S 
+Shading – 3 - A 
+Absence -  6 - C 
+Light – 2 - I 
+Lies – 4 - S 
+Nuance - 3  - A 
+Iqlusion – 5 - S 
+ 
+
+[[page 3]]
+And you get “Abscissa” the keyword for k2.  However we had to make that change 
+which is suspect and I could not find a way to give the order for these numbers to be 
+applied to the words so it could quite likely just be an accidental pattern found knowing 
+what the answer is.  
+ 
+ 
+Method to get k3 matrix sizes from k2 
+ 
+Finally is a way to find the “keys” to k3 from k2.  In the case of k3 the keys to the 
+transposition would be 8 and 24 being the matrix size Jim used for the two rotations.  
+ 
+Given we want to count characters following our methods above, and also that the 
+keyword is “abscissa” (meaning the “x-axis” value of point on a graph) you can count 
+the horizontal (x-axis) position of the 4 possible “markers” in k2 – one is the “mistake” 
+character  U in “undergruund” plus the three “?” in k2.  
+ 
+1. The “U” mistake is the “R” in ..”QCRTB..”  and is 24 letters from the left and 9 
+from the right. (does the “R” mean “Rotate”? ) 
+2. The first ? is 7 from the left and 24 from the right 
+3. The second ? is 9 from the left and 23 from the right 
+4. The third ? is 8 from the left and 24 from the right 
+ 
+It could be the third ? give the rotation keys to k3 of 8 and 24.  Its quite nice how the 
+“from the left and from the right” idea used in k0 comes back again. Or maybe it is the 
+“R” (24/9) but he made another small “mistake” ? If that line was one character shorter 
+it would work. The “R” would also be nice given the comment Jim made “… it’s the 
+position or orientation of these mistakes that is important” ?  Either way the main 
+appeal of a method like this is that it aligns conceptually with “counting characters left 
+and right”.  It is however less clear here if any of this is intentional. 
+ 
+Possible Implications for k4 ?  
+ 
+All this suggests that counting a particular number of letters into words or phrases to 
+get a character could be important for solving k4.  Maybe there is a long non-english 
+key (Vigenère or OTP) for k4 that could be extracted from the k321 text using these 
+sorts of methods ?  Is the number sequence 1,1,3,6,2,4,3,5. (or 1,1,3,6,3,4,3,5) 
+relevant to help pick out particular letters to make a key. ?  The position of the 4th ? in 
+the sculpture – is 27 from the left and 5 from the right – does this suggest a 
+transposition being involved somewhere in k4 ?    I even get the sense “making little 
+mistakes that have some further meaning” is part of story being told in kryptos so there 
+might be a small mistake to correct in getting to solve k4. 
+ 
+There are a few comments I’ve read from Jim (or Ed?) that seem relevant to all this. 
+In particular. “k1 and k2 were not solved how I intended” and “in an analog system like 
+kryptos the algorithm is the key”.  I take both of these to imply that there are some 
+rules that need to be discovered in order to tackle k4.  There was also a comment 
+about  “clues that are hidden in plain sight” which appears relevant if in particular the 
+k0 to k1 method above turns out to be intentionally there.  
+ 
+
+[[page 4]]
+I did pay and check with Jim the k0 to k1 part with Jim but quite reasonably got the 
+response … “i am not in the habit of commenting on methods, that is giving clues, i 
+have given all the clues i will give.” 
+ 
+If you have made it this far then thanks heaps for reading all the way through. I would 
+love to hear any feedback positive or negative. If there mistakes in the initial 
+transcription, or you see holes or errors in the method or arguments please let me 
+know.  
+ 
+Cheers 
+Andrew Coy 
+4 May 2025 
+ 
+ 
+ 

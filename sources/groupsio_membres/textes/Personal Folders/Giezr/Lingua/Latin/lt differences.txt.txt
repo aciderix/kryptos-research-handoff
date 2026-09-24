@@ -1,0 +1,44 @@
+Comparason of modified "source document" provided by Jambone located at 
+http://www.perseus.tufts.edu/cgi-bin/ptext?doc=Perseus:text:1999.02.0077:book=12:chapter=56
+
+
+
+
+---Line 4
+
+navale proelium adornatur, ut quondam Augustus  J
+
+NAVALE PROELIUM ADIRNATUR, UT QUONDAM AUGUSTUS  G
+
+Correct:
+
+navale proelium adornatur, ut quondam Augustus  J
+
+\
+/
+
+---Line 12
+
+maeque adstiterant, antepositis propugnaculis  J
+
+MAEQUE ADSTITERANT, ANTEPOSITIS PROPUGNACULIS, G
+
+Correct:
+
+MAEQUE ADSTITERANT, ANTEPOSITIS PROPUGNACULIS, G 
+
+\
+/
+
+---Line 15
+
+ripas et collis montiumque edita in modum t ...  J
+
+RIPAS ET COLLES MONTIUMQUE EDITA IN MODUM T ...  G
+
+Correct:
+
+RIPAS ET COLLES MONTIUMQUE EDITA IN MODUM T ...  G
+
+
+*Giezr 12/23/03 04:30

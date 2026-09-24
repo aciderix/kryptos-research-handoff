@@ -1,0 +1,418 @@
+Empfang                                                                                                      B
+20% - Akzent1
+20% - Akzent2
+20% - Akzent3
+20% - Akzent4
+20% - Akzent5
+20% - Akzent6
+40% - Akzent1
+40% - Akzent2
+40% - Akzent3
+40% - Akzent4
+40% - Akzent5
+40% - Akzent6
+60% - Akzent1
+60% - Akzent2
+60% - Akzent3
+60% - Akzent4
+60% - Akzent5
+60% - Akzent6
+Akzent1
+Akzent2
+Akzent3
+Akzent4
+Akzent5
+Akzent6
+Ausgabe
+Berechnung
+Eingabe
+Ergebnis
+Erkl
+render Text
+Neutral
+Notiz
+Schlecht
+berschrift
+berschrift 1
+berschrift 2
+berschrift 3
+berschrift 4
+Verkn
+pfte Zelle
+Warnender Text
+Zelle 
+berpr
+Tabelle1
+Tabelle2
+Tabelle3
+MbP?_
+ffffff
+ffffff
+SPLX
+AMUR_2
+PCLXL
+InTray1
+InTray2
+InTray3
+InTray4
+InTrayLCT
+InTrayManual
+WM_101
+Arial
+Courier New
+Times New Roman
+Symbol
+Wingdings
+Arial
+Courier
+Times New Roman
+Symbol
+Wingdings
+333333
+?333333
+[Content_Types].xml
+_rels/.rels
+[ILc
+0XFo;
+drs/shapexml.xml
+d*lU
+is#EdGR
+*6:-
+~c{N~
+c~,UD[
+o,`!
+R?Z,bB
+|3~gl
+gqx*
+@-Jp
+HQ('
+IT!7
+|UcN7(
+6NfQ
+2Qo|I
+z.Xm
+g)ld0
+~@[o+
+j5N3
+T8;A
+S}M9
+}r88
+E-$Cyp6
+JY)D
+Z+?!qhn
+#pg1
+k$vv
+e ,*
+|H +
+ex7x8>
+Yl2-
+qj;J
+Waza
+"V)l
+drs/downrev.xmlL
+,D#hb
+ulamI[a
+LTFK
+83;=
+obJ]ZH%\
+F/7V
+s8Y/
+[Content_Types].xmlPK
+_rels/.relsPK
+drs/shapexml.xmlPK
+drs/downrev.xmlPK
+Mr. Sanborn once said, the position of the "Q" in the misspelled word iqlusion is importend. I think, there much more positions importend than only the "Q" in K1. He also said, that he has left instructions in earlier text, that refer to later text and that he likes spatial systems of encoding. 
+I also did all that with K4 starting the way shown on the copper plate (OBKR...), but I believe, writing the letters backwards is the only way it really makes sense, because it is producing more interesting  results. 
+It is interessting to see, that every misspelled or missing letter, every "X" in K2 and K3 and all the questionmarks in K2 point to very special letters or positions in K4. 
+1) All misspelled or missing letters point to the double letters in K4, except of the "SS" in row 27, column 18,19. By the way, 4 of 6 of those        double letters, in fact they are tripples: TTV, QQV, WZZ, WBB.
+These letters cut the text in the following parts:
+RACKEUAUHUKGIDCJTXZKDGWKPFZM  ( 28 characters)
+TTVPYNBFNIWAIDULKJTAW                      ( 21 characters)
+ZZKESSQJSQTWTO                                       ( 14 characters)  
+SSKGNRP                                                       ( 7 characters)
+QQVRLFW                                                     ( 7 characters)
+BBFILOSBLUHGOXOURKOB?                     ( 21 characters (20 letters and 1 questionmark)
+2) They also point to these other obscure triples (acronyms and palindroms as well) of UAU, TWT and OXO. All of them are at very interesting  positions: The "A" of UAU is at the seventh position when starting at RACKE. The "X" of OXO is at the seventh position when starting at OBKR. And "W" of TWT is the thirtieth letter after the "X" of OXO. 
+By the way, UAU is the Underwater Archaeology Unit. TWT could refer to TUT, because in ancient egypt U and W is the same. But TWT is also the acronym for "traveling wave tube" and maybe refers to the wirlpool and its standing waves. OXO is a computer game written for the EDSAC computer in 1952, an implementation of the game known as Noughts and Crosses in the UK, or tic-tac-toe in the United States. (Does Sanborn wants us to play tic-tac-toe with K4?) 
+3) The first questionmark in K2 is pointing to the last position of K4, which is also a questionmark, when K4 is written backwards.
+The second questionmark is pointing to the "Q" at the end of K3. This might be a clue, that this "Q" is not a letter, but a metaphor for an questionmark. 
+The third questionmark (the end of "who knows the exact location?") is pointing to the letters "TT" which are part of the TTVPYN / NYPVTT letters, "known" as BERLIN. So perhaps, this is the beginning of K4?
+4) It is also interesting to see, that the "X" in K3 (row 25/column 8) which has been a "F" in the CT now creates the word "FILL". This could mean, that those letters there or perhaps all double letters have to be deleted. Or  this is telling us, text has to be filled in there...!?
+5) The whole thing could also be seen as a map, a coordinate system, which is maybe showing the place, where something is burried out there...!?<
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+Empfang
+Empfang
+Microsoft Excel
+Tabelle1
+Tabelle2
+Tabelle3
+Arbeitsbl
+tter
+Microsoft Office Excel 2003-Arbeitsbl.
+Biff8
+Excel.Sheet.8
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Cambria1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri
+#,##0\ "
+";\-#,##0\ "
+#,##0\ "
+";[Red]\-#,##0\ "
+#,##0.00\ "
+";\-#,##0.00\ "
+#,##0.00\ "
+";[Red]\-#,##0.00\ "
+_-* #,##0\ "
+"_-;\-* #,##0\ "
+"_-;_-* "-"\ "
+"_-;_-@_-
+_-* #,##0\ _
+_-;\-* #,##0\ _
+_-;_-* "-"\ _
+_-;_-@_-
+_-* #,##0.00\ "
+"_-;\-* #,##0.00\ "
+"_-;_-* "-"??\ "
+"_-;_-@_-
+_-* #,##0.00\ _
+_-;\-* #,##0.00\ _
+_-;_-* "-"??\ _
+_-;_-@_-
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+-;_-
+#0.0
+#0.0
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+20% - Akzent1
+20% - Akzent2
+20% - Akzent3
+20% - Akzent4
+20% - Akzent5
+20% - Akzent6
+40% - Akzent1
+40% - Akzent2
+40% - Akzent3
+40% - Akzent4
+40% - Akzent5
+40% - Akzent6
+60% - Akzent1
+60% - Akzent2
+60% - Akzent3
+60% - Akzent4
+60% - Akzent5
+60% - Akzent6
+Akzent1
+Akzent2
+Akzent3
+Akzent4
+Akzent5
+Akzent6
+Ausgabe
+Berechnung
+Dezimal
+Dezimal [0]
+Eingabe
+Ergebnis
+Erkl
+render Text
+Neutral
+Notiz
+Prozent
+Schlecht
+Standard
+berschrift
+berschrift 1
+berschrift 2
+berschrift 3
+berschrift 4
+Verkn
+pfte Zelle
+hrung
+hrung [0]
+Warnender Text
+Zelle 
+berpr
+TableStyleMedium9PivotStyleLight16
+\\Pbhpdc\25_KM
+DEVMODE,DrvConve
+++++
+DRINGEND
+DRINGEND
+Arial
+admin
+Graustufen
+EXCEL.EXE
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>?
+>>>>>>>>>>>>>%
+>>>>>>
+>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>%
+>>>>>>>
+>>>>>>>>>>>>?
+>>>>>>>>>>>>>%
+>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>>>>>%
+>>>>>>>
+>>>>
+>>??
+>>>>>>>>>>>>>%
+>>>>>>>
+>>>>>>>>>>>>>%
+>>>>>>>
+>>>>>>>>>>>>>%
+>>>>>>>
+>>>>>?>>>>>>>%
+>>>>
+??>>
+>>>>>K>>>>>>>%
+>>>>
+>>>>>
+>>>>>F>>>>>>>%
+>>>>
+>>>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>>>
+>>>>>>>>>>>>>%
+>>>?
+>>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>>>>>>>>>>%
+>>>>
+>>>>>>>>>>>>>%
+>>>>>>>>>>>>%
+>>>>
+>>>>>>>>>>>%
+>>>>>
+>>>>>>>%
+>>>>>>>%
+>>>>>>>%
+>>>>>>>%
+!>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>%
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>%
+Textfeld 2
+CompObj

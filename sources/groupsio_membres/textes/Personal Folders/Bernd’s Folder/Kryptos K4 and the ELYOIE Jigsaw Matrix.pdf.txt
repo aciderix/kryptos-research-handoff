@@ -1,0 +1,341 @@
+[[page 1]]
+Kryptos K4 and the ELYOIE Jigsaw Matrix 
+ 
+By Bernd Adameit, Software Engineer, Munich, Germany – version 1.4.0 
+Yet another speculative idea for Kryptos K4 
+In the present document, I’m exploring the idea that Kryptos K4 uses a Quagmire III 
+cipher with primary key word KRYPTOS and a running secondary key that’s 
+assembled, in JIGSAW puzzle fashion, from a unique matrix of 98 characters. The 
+latter is derived from Kryptos K3 plaintext via simple steps, including transposition 
+and substitution with key (surprise!) KRYPTOS. 
+This matrix, which I’d like to call the ELYOIE Jigsaw Matrix, has a perfectly positioned 
+match of key ELYOIE with cipher text NYPVTT, yielding the known plaintext of 
+BERLIN. From the matrix, we’re also able to recover the key to the known plaintext of 
+CLOCK, EAST and NORTHEAST. 
+Finally, there are indications of K4 plaintext starting with the word JIGSAW, possibly 
+continuing with the words HIDDEN ON CIA YARD and ending with the word SKILLS, as 
+emphasized by color and demonstrated in the table below. 
+Kryptos K4 cipher text 
+                          ?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+Super-imposed plaintext, 
+both known plaintext and 
+proposed plaintext 
+                          ?JIGS
+AWHIDDENONCIAYARDEASTNORTHEASTO
+TWTQSJQSSEKZZWATJKLUDIAWINFBBER
+LINCLOCKWGDKZXTJCDIGKUHUASKILLS
+Target Matrix: Required 
+Quagmire III secondary 
+key, with respect to 
+primary key KRYPTOS 
+                          ?INGU
+HBDJPTDXPGVYBDRAGRDUMRIYWOYNKYO
+TWTQSJQSSEKZZWATJKLUDIAWINFBELY
+OIECBAQKWGDKZXTJCDIGKUHUAIEEMJU
+ 
+ 
+ELYOIE Jigsaw Matrix 
+                          INGUH
+WBMWIIKVYBGTPSXMSRJDMAWIEEMYEYH
+OHRDVCYVRDGACLBGELEGRHSASNDEELY
+OIEKGMADJPTCBAQSUQCTTBMJXTEFCMU
+ 
+Interestingly, the private K1 work sheet that Jim Sanborn released in 2010 [1] already 
+contains a check-marked hint that K4 plaintext might start with the very word 
+JIGSAW, but more on that later. Presently, you’ll see a step-by-step description of 
+how to derive the ELYOIE Jigsaw Matrix. 
+
+[[page 2]]
+Deriving the ELYOIE Jigsaw Matrix 
+This is how to build the ELYOIE Jigsaw Matrix. 
+Initial input 
+Take K3’s plaintext. Three things stick out: The misspelled word DESPARATLY 
+and the solitary characters X and Q. 
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT 
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED WITH 
+TREMBLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND 
+CORNER AND THEN WIDENING THE HOLE A LITTLE I INSERTED THE 
+CANDLE AND PEERED IN THE HOT AIR ESCAPING FROM THE CHAMBER 
+CAUSED THE FLAME TO FLICKER BUT PRESENTLY DETAILS OF THE ROOM 
+WITHIN EMERGED FROM THE MIST X CAN YOU SEE ANYTHING Q  
+Resolve anomalies 
+Let’s resolve the anomalies of K3 plaintext. First, we correct the misspelled 
+word DESPARATLY. Then, we discard the extraneous X after the word MIST, and 
+finally, we elide the solitary Q at the end. Thus, we arrive at the following text 
+of 335 characters: 
+SLOWLY DESPERATELY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT 
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED WITH 
+TREMBLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND 
+CORNER AND THEN WIDENING THE HOLE A LITTLE I INSERTED THE 
+CANDLE AND PEERED IN THE HOT AIR ESCAPING FROM THE CHAMBER 
+CAUSED THE FLAME TO FLICKER BUT PRESENTLY DETAILS OF THE ROOM 
+WITHIN EMERGED FROM THE MIST X CAN YOU SEE ANYTHING Q 
+Arrange into 8x42 matrix 
+We now arrange the text into a matrix of 8 lines and 42 columns. The matrix is 
+one character short from being filled completely, but this is no cause for 
+concern. 
+SLOWLYD ESPERAT ELYSLOW LYTHERE MAINSOF PASSAGE 
+DEBRIST HATENCU MBEREDT HELOWER PARTOFT HEDOORW 
+AYWASRE MOVEDWI THTREMB LINGHAN DSIMADE ATINYBR 
+EACHINT HEUPPER LEFTHAN DCORNER ANDTHEN WIDENIN 
+GTHEHOL EALITTL EIINSER TEDTHEC ANDLEAN DPEERED 
+INTHEHO TAIRESC APINGFR OMTHECH AMBERCA USEDTHE 
+FLAMETO FLICKER BUTPRES ENTLYDE TAILSOF THEROOM 
+WITHINE MERGEDF ROMTHEM ISTCANY OUSEEAN YTHING 
+Next, it’s time for transposition and substitution steps with key word KRYPTOS, 
+as explained in the following. 
+
+[[page 3]]
+Block transposition with key word KRYPTOS 
+Let’s now apply a block transposition with key word KRYPTOS: 
+SYWLDLO EAESTRP EOSLWLY LRHYEET MONAFSI PGSAEAS 
+DSRETIB HCEAUNT MDRBTEE HEOERWL PFTATOR HROEWOD 
+ARAYESW MWEOIDV TMRHBET LAGINHN DDMSEAI ABNTRYI 
+ENHATIC HEPERPU LATENHF DERCRNO AETNNHD WIEINND 
+GOETLHH ETIALTL EENIRSI TETECHD AALNNED DEEPDRE 
+IHHNOET TSRACEI AFNPRGI OCHMHET ACEMARB UHDSETE 
+FTMLOEA FECLRKI BEPUSRT EDLNEYT TOLAFSI TORHMOE 
+WNHIEIT MDGEFER RETOMHM INCSYAT OAEUNES YGITNH 
+Line-based substitution with key word KRYPTOS 
+Line by line, we do alternating encryption/decryption steps as per the table 
+below. All substitutions are done with the Quagmire III cipher, primary key 
+word KRYPTOS. 
+The secondary key, which in this step is only 1 character long, changes with 
+each line as per the following table: 
+line # 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+operation 
+encrypt decrypt encrypt decrypt encrypt decrypt encrypt
+decrypt
+secondary 
+key 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+K 
+ 
+Please note that the first and the last lines remain unchanged. This is because 
+the character ‘K’ happens to be the initial character of our Quagmire III primary 
+key, KRYPTOS. 
+SYWLDLO EAESTRP EOSLWLY LRHYEET MONAFSI PGSAEAS 
+COKDPHA GBDSQMP LCKAPDD GDTDKVJ YEPSPTK GKTDVTC 
+CPCTGBZ QZGALFX SQPJDGS NCILUJU FFQBGCL CDUSPTL 
+BJETRFS EBKBXKM HTRBJEC ABXSXJY TBRJJEA QFBFJJA 
+LCIBUMM IBNEUBU IIWNODN BIBIGMH EEUWWIH HIIAHOI 
+DCCHKSZ ZRVYTSD YAHXVBD KTCGCSZ YTSGYVP JCORSZS 
+MDXWELG MLIWASU HLCRFAD LJWZLBD DEWGMFU DEAQXEL 
+WNHIEIT MDGEFER RETOMHM INCSYAT OAEUNES YGITNH 
+Note: The Crypto Crap blog [3] features a very noteworthy screenshot of, and a 
+very shrewd comment on, the K3 matrix worksheet that Jim Sanborn showed 
+on NOVA, which was marked with alternating P and C characters in front of the 
+rows. The line-based alternating substitution step is inspired by that valuable 
+content. 
+
+[[page 4]]
+Arrange into 67x5 matrix 
+Re-arrange the text into a matrix of 67 lines and 5 columns. The key ELYOIE is 
+already crawling down the last column. 
+SYWLD 
+LOEAE 
+STRPE 
+OSLWL 
+YLRHY 
+EETMO 
+NAFSI 
+PGSAE 
+… 
+UNESY 
+GITNH 
+Transpose into 5x67 matrix 
+Transpose the 67x5 matrix into a 5x67 matrix. 
+SLSOYENPADBPPTYTDPZLPNJBDLRKHESBAJIIBNIHWIDSYADCSJZWLUFWDFQNTFTIAUG 
+YOTSLEAGSPDLDDEKVCQFJCUGUBFBTCXRQJBBUOBEIACZTHKSGCSEIHAZEUXHMEONTNI 
+WERLRTFSCHSCDKPGTTZXDIFCSJSXRAJJFAUNIDIEHHCZSXTZYOMLWLDLWDEIDRMCOET 
+LAPWHMSAOAQKGVSKCGGSGLFLPEEKBBYJBLMEINGUHOHRDVCYVRDGACLBGELEGRHSASN 
+DEELYOIEKGMADJPTCBAQSUQCTTBMJXTEFCMUWBMWIIKVYBGTPSXMSRJDMAWIEEMYEYH 
+Cut off last 98 characters 
+Kryptos K4 consists of a question mark that’s followed by 97 Latin characters, 
+for a total of 98 characters. Let’s reduce the 5x67 matrix by keeping only the 
+last 98 characters, matching the length of Kryptos K4. 
+INGUHOHRDVCYVRDGACLBGELEGRHSASNDEELYOIEKGMADJPTCBAQSUQCTTBMJXTEFCMU 
+WBMWIIKVYBGTPSXMSRJDMAWIEEMYEYH 
+Lay out same as Kryptos K4, then apply finishing touch 
+Arrange the remaining 98 characters in the same way as the unique grid of 
+Kryptos K4. Then, as a finishing touch, push the last line to a position just after 
+the first line. This happens to settle the key ELYOIE at the exact position where 
+Kryptos K4 has got the fitting cipher text NYPVTT to the plaintext of BERLIN. 
+                          INGUH 
+OHRDVCYVRDGACLBGELEGRHSASNDEELY 
+OIEKGMADJPTCBAQSUQCTTBMJXTEFCMU 
+WBMWIIKVYBGTPSXMSRJDMAWIEEMYEYH 
+We’re done. The result is the ELYOIE Jigsaw Matrix: 
+                          INGUH 
+WBMWIIKVYBGTPSXMSRJDMAWIEEMYEYH 
+OHRDVCYVRDGACLBGELEGRHSASNDEELY 
+OIEKGMADJPTCBAQSUQCTTBMJXTEFCMU 
+, 
+ 
+
+[[page 5]]
+Starting the Jigsaw Puzzle 
+In November of 2010, when Jim Sanborn announced the BERLIN clue [2], 
+Sanborn also released his own private work sheet [1] of K1 showing a check 
+mark that he himself had made under the artefact KE-ING. I interpret this mark 
+as a hint that the key (KEI) to K4 starts with the three characters ING: 
+…DINGA… 
+…SESTP… 
+…JKZLD… 
+   
+Taking the check-marked key (KEI) of ING and feeding it into a Quagmire III 
+cipher with primary key KRYPTOS, the first three characters OBK of K4 decrypt 
+to JIG. There are not many reasonable ways in which to continue this trigram, 
+the most obvious being the word JIGSAW. 
+The ELYOIE Jigsaw Matrix presented herein, which has the same length as K4, 
+starts off with the very KEI characters ING that are check-marked in Jim 
+Sanborn’s private decryption chart, and the plaintext proposed in the present 
+document indeed starts with the word JIGSAW. 
+Jim Sanborn’s K1 chart also contains, as various people have noted, a cleverly 
+hidden - and similarly check-marked - hint to the key ELYOIE to BERLIN. 
+Disclaimer 
+The present document is a decryption attempt only. Besides, it’s also a work in 
+progress. Please note that anything, absolutely everything that’s presented 
+here may be attributed to chance and happenstance alone. Like so many other 
+decryption attempts, the one presented here is likely to come to a dead end 
+while filling the remaining gaps. It’s all about trial and error, you know… 
+Note 
+An earlier version of the present document was called “Kryptos K4 and the 
+ELYOIE Match Matrix”. The matrix specified herein is 100% identical to the one 
+shown in the earlier document. 
+Final note 
+Dear fellow Kryptos fans, I’d like to thank you for reading this document! 
+ 
+[1] https://www.nytimes.com/2010/11/21/us/21codecharts.html 
+[2] https://www.nytimes.com/2010/11/21/us/21code.html 
+[3] http://cryptocrap.blogspot.com/2011/07/kryptos.html 
+
+[[page 6]]
+Annex: Characteristics of ELYOIE Jigsaw Matrix 
+ 
+Kryptos K4 cipher text 
+                          ?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+Super-imposed plaintext, 
+both known plaintext and 
+proposed plaintext 
+                          ?JIGS
+AWHIDDENONCIAYARDEASTNORTHEASTO
+TWTQSJQSSEKZZWATJKLUDIAWINFBBER
+LINCLOCKWGDKZXTJCDIGKUHUASKILLS
+Target Matrix: Required 
+Quagmire III secondary 
+key, with respect to 
+primary key KRYPTOS 
+                          ?INGU
+HBDJPTDXPGVYBDRAGRDUMRIYWOYNKYO
+TWTQSJQSSEKZZWATJKLUDIAWINFBELY
+OIECBAQKWGDKZXTJCDIGKUHUAIEEMJU
+ELYOIE Jigsaw Matrix 
+ 
+Exact-position matches are 
+shown with grey 
+background 
+                          INGUH
+WBMWIIKVYBGTPSXMSRJDMAWIEEMYEYH
+OHRDVCYVRDGACLBGELEGRHSASNDEELY
+OIEKGMADJPTCBAQSUQCTTBMJXTEFCMU
+ 
+Characteristics of key matches: 
+Known 
+Plaintext 
+Cipher text 
+Key 
+Contiguous 
+key length 
+Location of key vs. 
+location of cipher text 
+BERLIN 
+NYPVTT 
+ELYOIE 
+complete – 
+6 out of 6 
+perfect match – ELYOIE 
+key exactly aligned with 
+NYPVTT 
+CLOCK 
+MZFPK 
+CBAQK 
+4 + 1 out of 5 
+same line 
+EAST 
+FLRV 
+RDUM 
+jigsaw puzzle 
+exact-position match of 
+R, M and final Y 
+NORTHEAST 
+QQPRNGKSS 
+RIYWOYNKY 
+ 
+ 
+ 
+ 
+ 
+Proposed 
+plaintext 
+Cipher text 
+Key 
+Contiguous 
+key length 
+Location of key vs. 
+location of cipher text 
+JIGSAW 
+OBKRUO 
+INGUHB 
+5 + 1 out of 6 
+off by one: just skipping 
+the ‘?’ 
+HIDDEN 
+XOGHUL 
+DJPTDX 
+4 + 1 + 1 
+out of 6 
+hidden 
+ON 
+BS 
+PG 
+N/A 
+same line 
+CIA 
+OLI 
+VYB 
+3 out of 3 
+same line, off by three 
+YARD 
+FBBW 
+DRAG 
+scrambled 
+next line 
+SKILLS 
+UEKCAR 
+IEEMJU 
+4 + 1 + 1 
+out of 6 
+exact-position match of 
+last key character U 
+ 

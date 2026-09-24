@@ -1,0 +1,30 @@
+[[page 1]]
+Kryptos K4
+The first three Enigma-like messages
+
+[[page 2]]
+Message 1 + 2
+LOBKRUOOGHU LBSOLIFBBWF Cipher text
+YLKYLKYLKYL YLKYLKYLKYL Key layer 2
+XXXXDUPHGFT XXXPKIDLBUU
+KEYIPSIPSIP KEYISTISTIS Key layer 1
+IPSCAIHEAWR ISTHQEUETSI Plain text 
+                      E Complemantary letters
+KEY ist the day key and the plain text letters are 
+used as message key. The second key layer may
+represent the additional shift to the key letters 
+caused by the ring settings of the wheels (they 
+were part of the day key and did not change)
+Message 3
+LRVQQPRNGKSS Cipher text
+YLKYLKYLKYLK Key layer 2
+IDVMPPZYGXIS 
+???QVYQVYQVY Key layer 1
+QVYXAROSETNT Plain text 
+STX          Complemantary letters
+The complemantary letters seems to play a role 
+now. At this point the end of K2 might be 
+important (because of X and ID). Still not shure 
+how this works. The wheel settings of the day 
+key are different but the ring settings are the 
+same?

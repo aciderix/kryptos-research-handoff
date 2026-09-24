@@ -1,0 +1,14 @@
+    (...)certutil -hashfile 2017-05-25_01.txt
+    SHA1 hash of file 2017-05-25_01.txt:
+    7b ae a8 8a e0 a2 d8 b3 0a 2d d9 f9 e3 7e 49 6f 48 72 cf da
+    CertUtil: -hashfile command completed successfully.
+
+    (...)certutil -hashfile 2017-05-25_02.txt
+    SHA1 hash of file 2017-05-25_02.txt:
+    7b ae a8 8a e0 a2 d8 b3 0a 2d d9 f9 e3 7e 49 6f 48 72 cf da
+    CertUtil: -hashfile command completed successfully.
+
+    (...)certutil -hashfile 2017-05-25_03.txt
+    SHA1 hash of file 2017-05-25_03.txt:
+    7b ae a8 8a e0 a2 d8 b3 0a 2d d9 f9 e3 7e 49 6f 48 72 cf da
+    CertUtil: -hashfile command completed successfully.

@@ -1,0 +1,452 @@
+[[page 1]]
+Description:
+I wanted to look and observe for anything strange that could've been done to K4. There are 63 Steps to 
+produce the final text. It's written out to
+show the process clearly.
+The resulting text should be:
+XSWPOQWDBMDDA
+OLRKSZIYPTHRG
+FQWKUPWIKHBGS
+KNGKULTANKULQ
+JAZGBNZVJOSLK
+CIQFUBEFFJCVI
+ARTSXTESTWTZU
+The curious part of the resulting text is:
+ A
+CI
+ARTSXTEST 
+(CIARTSXTEST)
+**See process below to reproduce** 
+Process:
+Step 1:
+Place k4 into sets of 7 characters:
+OBKRUOX
+OGHULBS
+OLIFBBW
+FLRVQQP
+RNGKSSO
+TWTQSJQ
+SSEKZZW
+ATJKLUD
+IAWINFB
+NYPVTTM
+ZFPKWGD
+KZXTJCD
+IGKUHUA
+UEKCAR
+Step 2:
+Write out all 7th letters from top to bottom:
+
+[[page 2]]
+XSWPOQWDBMDDA
+Step 3: 
+Remove all 7th letters:
+OBKRUO
+OGHULB
+OLIFBB
+FLRVQQ
+RNGKSS
+TWTQSJ
+SSEKZZ
+ATJKLU
+IAWINF
+NYPVTT
+ZFPKWG
+KZXTJC
+IGKUHU
+UEKCAR
+Step 4: 
+Place k4 into sets of 7 characters:
+OBKRUOO
+GHULBOL
+IFBBFLR
+VQQRNGK
+SSTWTQS
+JSSEKZZ
+ATJKLUI
+AWINFNY
+PVTTZFP
+KWGKZXT
+JCIGKUH
+UUEKCAR
+Step 5:
+Write out all 7th letters from top to bottom
+OLRKSZIYPTHR
+Step 6:
+Remove all 7th letters:
+OBKRUO
+GHULBO
+IFBBFL
+VQQRNG
+SSTWTQ
+JSSEKZ
+ATJKLU
+AWINFN
+
+[[page 3]]
+PVTTZF
+KWGKZX
+JCIGKU
+UUEKCA
+Step 7:
+Place k4 into sets of 7 characters:
+OBKRUOG
+HULBOIF
+BBFLVQQ
+RNGSSTW
+TQJSSEK
+ZATJKLU
+AWINFNP
+VTTZFKW
+GKZXJCI
+GKUUUEK
+CA
+Step 8:
+Write out all 7th letters from top to bottom
+GFQWKUPWIK
+Step 9:
+Remove all 7th letters:
+OBKRUO
+HULBOI
+BBFLVQ
+RNGSST
+TQJSSE
+ZATJKL
+AWINFN
+VTTZFK
+GKZXJC
+GKUUUE
+CA
+Step 10:
+Place k4 into sets of 7 characters:
+OBKRUOH
+ULBOIBB
+FLVQRNG
+SSTTQJS
+SEZATJK
+LAWINFN
+VTTZFKG
+KZXJCGK
+
+[[page 4]]
+UUUECA
+Step 11:
+Write out all 7th letters from top to bottom:
+HBGSKNGK
+Step 12:
+Remove all 7th letters:
+OBKRUO
+ULBOIB
+FLVQRN
+SSTTQJ
+SEZATJ
+LAWINF
+VTTZFK
+KZXJCG
+UUUECA
+Step 13:
+Place k4 into sets of 7:
+OBKRUOU
+LBOIBFL
+VQRNSST
+TQJSEZA
+TJLAWIN
+FVTTZFK
+KZXJCGU
+UUECA
+Step 14:
+Write out all 7th letters from top to bottom:
+ULTANKU
+Step 15:
+Remove all 7th letters
+OBKRUO
+LBOIBF
+VQRNSS
+TQJSEZ
+TJLAWI
+FVTTZF
+KZXJCG
+UUECA
+Step 16:
+
+[[page 5]]
+Place k4 into sets of 7:
+OBKRUOL
+BOIBFVQ
+RNSSTQJ
+SEZTJLA
+WIFVTTZ
+FKZXJCG
+UUECA
+Step 17:
+Write down all 7th letters from top to bottom:
+LQJAZG
+Step 18:
+Remove all 7th letters:
+OBKRUO
+BOIBFV
+RNSSTQ
+SEZTJL
+WIFVTT
+FKZXJC
+UUECA
+Step 19:
+Place into sets of 7 letters:
+OBKRUOB
+OIBFVRN
+SSTQSEZ
+TJLWIFV
+TTFKZXJ
+CUUECA
+Step 20:
+Write down all 7th letters from top to bottom:
+BNZVJ
+Step 21:
+Remove all 7th letters:
+OBKRUO
+OIBFVR
+SSTQSE
+TJLWIF
+TTFKZX
+CUUECA
+
+[[page 6]]
+Step 22:
+Place k4 into sets of 7 letters:
+OBKRUOO
+IBFVRSS
+TQSETJL
+WIFTTFK
+ZXCUUEC
+A
+Step 23:
+Write down all 7th letters from top to bottom
+OSLKC
+Step 24:
+Remove all 7th letters
+OBKRUO
+IBFVRS
+TQSETJ
+WIFTTF
+ZXCUUE
+A
+Step 25:
+Place k4 into sets of 7:
+OBKRUOI
+BFVRSTQ
+SETJWIF
+TTFZXCU
+UEA
+Step 26:
+Write down all 7th letters from top to bottom
+IQFU
+Step 27:
+Remove all 7th letters:
+OBKRUO
+BFVRST
+SETJWI
+TTFZXC
+UEA
+Step 28:
+
+[[page 7]]
+Place k4 into sets of 7:
+OBKRUOB
+FVRSTSE
+TJWITTF
+ZXCUEA
+Step 29:
+Write down all 7th letters from top to bottom
+BEF
+Step 30:
+Remove all 7th letters:
+OBKRUO
+FVRSTS
+TJWITT
+ZXCUEA
+Step 31:
+Place k4 into sets of 7
+OBKRUOF
+VRSTSTJ
+WITTZXC
+UEA
+Step 32:
+Write down all 7th letters
+FJC
+Step 33:
+Remove all 7th letters
+OBKRUO
+VRSTST
+WITTZX
+UEA
+Step 34:
+Place k4 into sets of 7
+OBKRUOV
+RSTSTWI
+TTZXUEA
+
+[[page 8]]
+Step 35:
+Write down all 7th letters from top to bottom
+VIA
+Step 36:
+Remove all 7th letters
+OBKRUO
+RSTSTW
+TTZXUE
+Step 37:
+Place k4 into sets of 7
+OBKRUOR
+STSTWTT
+ZXUE
+Step 38:
+Write down all 7th letters
+RT
+Step 39:
+Remove all 7th letters
+OBKRUO
+STSTWT
+ZXUE
+Step 40:
+Place k4 into sets of 7
+OBKRUOS
+TSTWTZX
+UE
+Step 41: 
+Write down all 7th letters from top to bottom
+SX
+Step 42:
+Remove all 7th letters
+OBKRUO
+TSTWTZ
+UE
+
+[[page 9]]
+Step 43:
+Place k4 into sets of 7
+OBKRUOT
+STWTZUE
+Step 44:
+Write down all 7th letters from top to bottom
+TE
+Step 45:
+Remove all 7th letters
+OBKRUO
+STWTZU
+Step 46:
+Place k4 into sets of 7
+OBKRUOS
+TWTZU
+Step 47:
+Write down all 7th letters
+S
+Step 48:
+Remove all 7th letters
+OBKRUO
+TWTZU
+Step 49:
+Place k4 into sets of 7
+OBKRUOT
+WTZU
+Step 50:
+Write down 7th letter
+T
+Step 51:
+Remove 7th letter
+
+[[page 10]]
+OBKRUO
+WTZU
+Step 52:
+Place k4 into sets of 7
+OBKRUOW
+TZU
+Step 53:
+Write down 7th letter
+W
+Step 54:
+Remove 7th letter
+OBKRUO
+TZU
+Step 55:
+Place k4 into sets of 7
+OBKRUOT
+ZU
+Step 56:
+Write down 7th letter
+T
+Step 57:
+Remove 7th letter
+OBKRUO
+ZU
+Step 58:
+Place k4 into sets of 7
+OBKRUOZ
+U
+Step 59:
+Write down 7th letter
+Z
+
+[[page 11]]
+Step 60:
+Remove 7th letter
+OBKRUO
+U
+Step 61:
+Place k4 into set of 7
+OBKRUOU
+Step 62:
+Write down 7th letter
+U
+Step 63:
+Remove the 7th letter
+OBKRUO
+Result of written letters should be:
+XSWPOQWDBMDDA
+OLRKSZIYPTHR
+GFQWKUPWIK
+HBGSKNGK
+ULTANKU
+LQJAZG
+BNZVJ
+OSLKC
+IQFU
+BEF
+FJC
+VIA
+RT
+SX
+TE
+S
+T
+W
+T
+Z
+U
+Results placed to an even length:
+XSWPOQWDBMDDA
+OLRKSZIYPTHRG
+FQWKUPWIKHBGS
+KNGKULTANKULQ
+
+[[page 12]]
+JAZGBNZVJOSLK
+CIQFUBEFFJCVI
+ARTSXTESTWTZU
+Observation:   CI
+               ARTSXTEST
+My curiosity/fun part:
+Head over to: https://rumkin.com/reference/kryptos/elonka.html
+Remove original k4 "Message" and replace with:
+XSWPOQWDBMDDA
+OLRKSZIYPTHRG
+FQWKUPWIKHBGS
+KNGKULTANKULQ
+JAZGBNZVJOSLK
+CIQFUBEFFJCVI
+ARTSXTESTWTZU
+Change the Cipher Key, Alphabet Key, and Plaintext Key to: CRYPTOS
+Insert Passphrase: JOY JS LIRN
+                    
+        ...... "II EAST NORTH" ........
+                   JOYJ SLIRN

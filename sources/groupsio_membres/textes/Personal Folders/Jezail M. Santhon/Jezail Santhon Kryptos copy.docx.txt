@@ -1,0 +1,26 @@
+## word/document.xml
+ 
+ 
+ Jezail M. Santhon 
+ My thorough explanation of how I found the key to decrypt K4 of Kryptos Sculpture. Jim Sanborn tells the story on how he deliberately made errors from section 1 or K1, iqlusion instead of iLlusion. And then he added more errors intentionally on Section 2 or K2, undergruund instead of undergrOund. The i. D. by rows I changed with xlayertwo but X means D and on section 3 or k3, desparatly instead of desparatEly . The hidden letters emerged. Can you see anything Q?(Q can be from the word IQlusion or Queue or a line of Letters) L , O , X or D , E Refers to LODE The International Morse codes has letter S in S. O. S T is your position = T digEtal Interpretatu means digital interpretati ON To sum up: LODE STONE For several days I was brainstorming very heavily. I convinced myself I was right with my interpretation of K3. I tried to go back to the decrypted messages from K1&2 and I figured out, K1&2 are all about the LODESTONE. So, the coordinates 38° 57' 6.5"N, 77° 8' 44"W are referring to the lodestone, a navigational compass. And the Compass Rose was etched pointing to the lodestone. Aha! So X layer Two means mark on the second layer of the stone. The compass rose needle was pointing Southwest. I happened to read online about the Berlin Wall Monument inside CIA headquarters so I checked it again and for sure, the monument is near the southwest entrance of OHB of CIA headquarters. I kept reading what’s written on the wall. I kept researching about East and West and the story about the Berlin wall. I did read that the other name of Berlin wall was “Iron curtain” from speech of Sir Winston Churchill. I tried using the words written on the Berlin wall as keywords. But I could not come up or show the NorthEast and Berlinclock clues when I used Vigenere and other techniques I found from rumin.com and dcode.fr. I did not solve still. I went back the deciphered messages from K1-3 trying to find a clue. The raised 7 letters from encoded K3 ENDYAHR caught my eyes. I read Endyear or yearend. Ohhh so Berlin wall fell November, 1989. 1989 is the year!!! 1989 is the key!!!!! I tried to find techniques using a number. I started transposing using 1989 but the outcome was not readable. I used rotation 90 degrees to the left. Part of the ciphertext came out. I was so nervous. I tried it the other way. I rotated to 90 degrees right then transpose. I can see the ciphertext but they were scrambled. I rotated 90 degrees again and transpose. Alas! It came back to the ciphertext and they were in order. So the solution from the last transposition still not in plaintext so I used substitution using NORTHEAST a word from the plaintext then NORTHEAST came out in the exact position letter 26-34. But the other letters I could not read. I decrypted automatically and the words are still scrambled. I can clearly read other words. 
+ 
+ Solution of K4 
+ Rotate 90 degrees right (Box width 4) OBKR UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO TWTQSJQSSEKZZWATJKLUDIAWINFBNYP VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR = 
+ 
+ REHI TDPTYNIKWEJWSRVWIBGUOXKUGJKKMPF ALAKQTSNQFFSHOBXCAKCZWZVBWUTZSQ OGQLBOUXKXAUUDXGFTNIDJZSSTKPRBLLOR 
+ Transpose using key 1989 = 
+ 
+ RXXX ECKAHAUUIKGUTCJDDZKXPWKGTZMFYVP TNBFNIWAIKULDWTAJEZKZJSQSWQTSSO STRGNKVQQPWLFRIBFBBOSLGUHLUXOOOKBR 
+ Rotate 90 degrees right (Box width4) = 
+ 
+ OUGB IWVRSWJEWKINYTPDTIHERKXUOBLQGOQ SZTUWBVZWZCKACXBOHSFFQNSTQKALAF PMKKJGUKXROLLBRPKTSSZJDINTFGXDUUAX 
+ Transpose using key 1989 = 
+ OBKR UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO TWTQSJQSSEKZZWATJKLUDIAWINFBNYP VTTMZFPKWGDKZXTJCDIGKUHUAUEKCARXXX 
+ It came back to the cipher text so: 
+ OUGB IWVRSWJEWKINYTPDTIHERKXUOBLQGOQ SZTUWBVZWZCKACXBOHSFFQNSTQKALAF PMKKJGUKXROLLBRPKTSSZJDINTFGXDUUAX 
+ ( I used substitution with automatic decryption)= 
+ ISUN BOWVTOFGOEBYJAZKABXGVERSINCLUIL THASONWHOHMEDMRNIXTPPLYTALEDCDP ZQEEFUSERVICCNVZEATTHFKBYAPURKSSDR 
+ 
+ Th ese should be unscramble d to come up with a phrase , the plaintext 
+ 
+ 

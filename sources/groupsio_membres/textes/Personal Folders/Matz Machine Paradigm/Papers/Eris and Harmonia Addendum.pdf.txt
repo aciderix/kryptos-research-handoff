@@ -1,0 +1,248 @@
+[[page 1]]
+Addendum to the original paper 
+As an addition to this revised paper, new evidence is provided for the first time that shows a concrete 
+rationale for the rail system previously put forward.  These observations also expose the order in 
+which the 6 rails should be processed.  It should be noted that this new information on processing 
+order and constraints negates the text provided for rails 3, 4  and 6 given in the original Eris & 
+Harmonia paper.  Most importantly, this new evidence also gives a firm foundation to the idea that 
+both the plain and cipher text must be viewed simultaneously in order to make sense of how K4 
+should be processed. 
+The US Dollar and K3 
+ 
+Before examining the new evidence, we should first reacquaint ourselves with the design and detail of 
+the US Dollar.  The Great Seal of the United States has on its reverse side a 13 stepped pyramid 
+topped by a shining eye of providence along with the Latin phrase, ‘ANNUIT COEPTIS’, which is 
+commonly taken to translate as ‘He has favoured our undertakings’.  If we examine the plain text and 
+cipher text of Kryptos for K3 simultaneously we can make the following observation. 
+ 
+In the plain text we have an anagram of the word AN(N)UIT that is deficient in one N and in the 
+cipher text we have an anagram of COEPTI(S) that is deficient in one S.  The letters that take the 
+place of the required S and N respectively are B and Y.  If we now superimpose the positions at which 
+these two anagrams appear to make up a square in both the plain and cipher text then we note the 
+emergence of new information that relates directly to the final sentence of the unaltered K2 plain text. 
+ 
+The centre of the square produced in the plain text has at its centre 6 letters that are themselves an 
+anagram of ID ROWS.  Given that the excess letters of the previous Annuit Coeptis anagram are BY, 
+we end up with a concrete relationship to the final words in K2, which are ID BY ROWS. 
+
+[[page 2]]
+ 
+Exposure of the Rail System as a palimpsest 
+Given that this information relates to the last line of K2 and comes from a relationship that begins in 
+the first line of K3, a symmetry relationship is implied as the sculpture has 28 rows.  Therefore the 
+last line of K2 is symmetrically mirrored by the first row of K3.  On that basis the squares for the 
+plain and cipher text in K3 can be reflected symmetrically to give the following results in K2. 
+   
+This result is of interest as it points to a relationship in the cipher text that exposes the rail system put 
+forward in the previous paper.  If we examine the cipher text again in light of the letters GRE and FIV 
+that are shown in the centre of the reflected plain text square then we find them directly over one 
+another (this will be shown in the second diagram below).  The existence of the first two rails that 
+were comprised of repeating letter groupings of F, RE and V were pointed out to me by James 
+Churchill, a member of the Kryptos Facebook site back in late 2020.  These are shown below on the 
+right hand side of the cipher text.  
+ 
+This led to an extensive hunt that yielded the 6 distinct rail positions shown in the last paper, but most 
+importantly the F that completes the first rail when left shifted 13 places is the F of the (F)IV that sits 
+directly above GRE in the ciphertext. 
+  
+ 
+
+[[page 3]]
+For those that haven’t read the original paper, the 3 horizontal and 3 vertical rail positions are defined 
+by a distinct grouping of the letters F, RE and V in a signature that only occurs in the cipher text 6 
+times as shown below.  The location of the letters I and G have also been highlighted (in green) in 
+order to show that this is the relationship we are being directed to observe via the GRE/FIV clue.  
+(The first line of the cipher text has been left shifted 13 characters in the following diagram). 
+Horizontal rails 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R 
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X 
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+Vertical rails 
+The vertical rails have RE in the vertical plane across rows and a consistent separation of 6 characters 
+between the F and V. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+V F 
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R 
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X 
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+D X V K P  
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P 
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I A 
+C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E  
+ 
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E  
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E  
+ 
+T F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R 
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B  
+ 
+T E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I 
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B  
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R I 
+P N E O H M G F M F E U H E  
+ 
+ 
+R K L M L E H A G T D H A R D 
+S S T T R T V D O H W ? O B K R  
+E C D M R I P F E I M E H N L 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+
+[[page 4]]
+The previous paper exposed the underlying rail system shown above correctly, but did not show any 
+evidence for the order in which the rails themselves should be processed.  The solution to this 
+problem was eventually resolved in August 2022 using software to examine letter frequencies in the 
+rows where the rails occurred.  The resulting common string that appeared to be present in the regions 
+of interest was found to be, YES ITS.   
+YES ITS 
+The ‘YES ITS’ result is of interest for two reasons.  The first was that it would appear to relate directly 
+to the sentence in the diaries of Howard Carter that read, ‘yes, it is wonderful’, which proceeds the 
+phrase, ‘can you seen anything?’.  The second reason is that it was also visible within the plain text as 
+an anagram in a position that appeared to mirror the previous two plain text clues. 
+    
+Frequency Analysis 
+The statistical relationship of rows that contain the letters YES ITS in relation to the rail rows is now 
+shown (Rows 10 in K2 and 27 in K4 also contain the letters for YES ITS, but are excluded in blue as 
+neither fall across a known rail position). 
+ 
+It is conjectured that the order in which the rails should be processed is given by the distribution of the 
+letter E in in the rows of the plaintext shown above.  This observation was informed to a large degree 
+by the extraneous letter e’s that litter the morse code installations as part of the wider piece in 
+combination with the obvious changes made to the spelling of the word DESPARATLY in the K3 
+
+[[page 5]]
+plain text.  To a certain degree, this part of the puzzle is something of a self-contained challenge that 
+directly unlocks the ordering of the rail scheme that had been given in the adjacent clue.     
+Examining the plain text rows above in more detail we can see that two rows fall across the rail in 
+rows 11-13, so in this instance the distribution of E’s in the row between them is used.   
+In row 15 the distribution of E’s in the plain text has been deliberately masked, so the positions of 
+these have been re-instated in order to show the distribution prior to manipulation.  These positions 
+are shown in purple in the following diagram.   
+Rail Ordering given by distribution and frequency of E’s in the known rail positions 
+ 
+If these assumptions are correct then it means that the order in which the rails should be processed are 
+now: 
+Rail 1 
+Rows 1-3 
+Rail 2 
+Rows 7-9 
+Rail 3 
+Rows 24-26 
+Rail 4 
+Rows 11-13 
+Rail 5 
+Rows 13-15 
+Rail 6 
+Rows 3-5 
+ 
+ 
+ 
+
+[[page 6]]
+The Apex of Kryptos 
+There is one final clue that remains to be discussed that is well in excess of the information provided 
+within the scope of the previous paper.  If we complete the symmetrical scheme given to us by the 
+previous 3 clues then we can logically derive a fourth, which is shown here for the anagram TOMB 
+LR. 
+ 
+Scanning for the letters TOMB in both the plaintext and the cipher text leads to the following result. 
+ 
+There are two regions in the plaintext that give a contiguous correlation between all 4 letters and one 
+in the cipher text.  If we take the clue from the 4th anagram literally then LR may be an indication that 
+we should look for the word TOMB in the lower right, which is exactly where this second example is 
+located.  
+  
+
+[[page 7]]
+These two regions in the plaintext share a remarkable geometrical relationship in that their diagonal 
+components can be extended upon and joined in order to form a triangle comprised of 13 rows that is 
+capped by an I.   
+ 
+We now appear to have come full circle in relation to the Great Seal of the United States as we started 
+with the relationship ANNUIT COEPTIS and have now been guided towards the rendition of a 13 
+stepped pyramid topped by an I.   
+The centre line of the triangle in the cipher text rendition terminates on the D of USD in the first row.  
+The plain text also has DUS in the vertical plane just to the right of this position, which is almost 
+analogous to the original ANNUIT COEPTIS clue (shown in the next diagram).  The previous papers 
+in this series have always taken USD as the logical starting point of the K4 decrypt, so it is somewhat 
+remarkable to find these additional observations that would also point to the significance of the USD 
+string.   
+Another striking occurrence along the centre line in both the plain and cipher texts are the letters 
+ANIT along the central axis of the triangle facing in different directions.  The author cannot help but 
+wonder if this is in some way linked to the choice of name for Antipodes, which is the sister sculpture 
+to Kryptos, currently on display at the Hirshhorn Museum in Washington DC. 
+  
+ 
+
+[[page 8]]
+Readers with a keen eye for such things will see that the I atop the plain text pyramid occurs within 
+the word ‘POINT’ and the third row of the cipher text pyramid has an anagram of ‘CHEOP’.  The 
+letters ATE and AET are also found at the centre of both the plain and cipher text pyramids.   
+There is most likely still much to discover about the intentional placement of these designs within the 
+puzzle and there is without doubt crossover with the Antikythera scheme put forward in the authors 
+previous papers on the workings of ‘The Machine’.  One of the more interesting links is a fifth Key 
+that sits between the four new keys already given above, which is LYCO.  The relevance of that 
+particular key will discussed along with some additional crossovers with the Antikythera scheme in 
+the revised conclusion at the end of this updated paper. 
+ 

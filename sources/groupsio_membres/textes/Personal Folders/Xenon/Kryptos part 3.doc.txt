@@ -1,0 +1,104 @@
+Ok, here's my version of a new solution to part 3.
+Thanks to "dc_otter111a_dc" for the motivation to get this cleaned up and sent in!
+
+I started by reverse engineering from Elonka's solution until I developed what you find below.
+
+First of all, as dc_otter111a_dc noted, the magic number is 47 (a prime number). So we fit the message into a 47 x 8 grid.
+
+ 00000000011111111112222222222333333333344444444
+ 12345678901234567890123456789012345678901234567
+1?ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLS
+2LLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAE
+3WMTWNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIO
+4YTEYQHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTE
+5EFOASFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEW
+6PIEROAGRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+7RKLMLEHAGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSST
+8TRTVDOHW
+
+Don't worry about the short last line, it will all work out in the end.
+We "break" the message at the correct start point (the red "S" above) this is the 193rd letter, another prime.
+Is this the "abscissus" hinted at in the second message.
+ 
+00000000011111111112222222222333333333344444444
+12345678901234567890123456789012345678901234567
+?ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLS
+LLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIO
+YTEYQHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTE
+EFOA
+SFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIER
+OAGRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLM
+LEHAGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTV
+DOHW
+
+Here's the important new step! We then interweave the two parts of the message together; notice that the second section (the part in red) fits "inside" the first part.
+
+00000000011111111112222222222333333333344444444
+12345678901234567890123456789012345678901234567
+?ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLS
+SFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIER
+LLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAE
+OAGRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLM
+WMTWNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIO
+LEHAGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTV
+YTEYQHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTE
+DOHW
+EFOA
+
+I like the fact that this step feels like what an "agent in the field" would do. I envision cutting and splicing strips of paper to make the cyphertext.
+
+Finally, we read "down the columns, starting below the "?", moving backwards by 4 columns to continue.
+
+   1   1   1                                  1
+1  2   1   0   9   8   7   6   5   4   3   2  3
+00000000011111111112222222222333333333344444444
+12345678901234567890123456789012345678901234567
+?ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLS
+SFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIER
+LLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAE
+OAGRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLM
+WMTWNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIO
+LEHAGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTV
+YTEYQHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTE
+DOHW
+EFOA
+
+Notes:
+
+My first question is, "how would we know to use the number 47?"
+
+The message is 337 characters long, a prime number (with the "?"). So I was sensitive to primes.
+
+Most of the lines of the sculpture have 30, 31 or 32 characters in them. The exceptions are lines 23 and 24 which have 33 and 29 character (see lines 9 and 10, then add 14 for the previous lines in the sculpture)
+
+  0000000001111111111222222222233333
+  1234567890123456789012345678901234
+ 1ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA   (32)
+ 2CHTNREYULDSLLSLLNOHSNOSMRWXMNE     (30)
+ 3TPRNGATIHNRARPESLNNELEBLPIIACAE    (31)
+ 4WMTWNDITEENRAHCTENEUDRETNHAEOE     (30)
+ 5TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR   (32)
+ 6EIFTBRSPAMHHEWENATAMATEGYEERLB     (30)
+ 7TEEFOASFIOTUETUAEOTOARMAEERTNRTI   (32)
+ 8BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB    (31)
+ 9AECTDDHILCEIHSITEGOEAOSDDRYDLORIT  (33)
+10RKLMLEHAGTDHARDPNEOHMGFMFEUHE      (29)
+11ECDMRIPFEIMEHNLSSTTRTVDOHW         (26) (31 including part of K4)
+
+So, 23 + 24 = 47!!
+
+A bit of a reinterpretation of "ID by Rows" (not Row S), which is kinda cool, a pun in the hint. Both interpretations work!
+
+Also, the R of YA_R, as shown above in green and red, points to the "S". It is interesting to note that it is at position 7,7 as measured from the 'seam' in the sculpture. Or, at position 5,5 in the 47 x 8 grid. So many prime numbers!!!
+
+More questions:
+
+How would we know to put the "?" spacer at the beginning of the message to decode?!? I haven't found a justification for this, except that "it works".
+
+How do we know to break the message at the 193rd character? or does the YA_R take care of that for us? The fact that 193 is also prime makes me suspect that it is important. 193 is the 44th prime, but then so what?
+
+Line length: can anyone do anything with "32, 31, 31, 30, 31, 32, 31, 31, 32, 31, 30, 31, 31, 31, 32, 30, 31, 30, 32, 30, 32, 31". The first 22 lines have this many letters. It might help to remove the "3"s and just use the end number, producing "2110121121011120102021". I've looked at some morse code applications, but didn't come up with anything... possibly a trinary code?
+
+Thanks for listening,
+Carl Nickerson

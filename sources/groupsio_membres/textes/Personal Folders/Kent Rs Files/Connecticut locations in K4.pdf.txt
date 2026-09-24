@@ -1,0 +1,45 @@
+[[page 1]]
+Note in response to questions about possible Connecticut meetings in K4. Interested parties are also 
+referred to the group discussion about this approach from November 2012, etc. 
+ 
+Premise 
+(This is what I was told when I joined the group and the reason for the theory in question.) 
+The fourth part of Kryptos, K4 (and some say all of the Kryptos screen), is set in a situation where a 
+sleeper agent is to be activated after a  lengthy period of dormancy. It is thought likely that the sleeper 
+does not remember much about any codes or cipher systems used and therefore needs to be 
+"reminded" in such a way that he/she can read the activation instructions, and remember what they 
+mean. At the same time the message needs to be reasonably secure vis-a-vis the opposition. It is 
+possible that the message includes a methodology used by the KGB during the cold war. 
+In such a situation, the activation instruction to the sleeper is nearly always to go to a meeting or 
+training session to meet the controller, and be brought up to speed on objectives, current tradecraft and 
+communication systems to be used, ciphers, etc. For this, only location(s), date(s) and time(s) are 
+needed. So we need to look for things that may mean one or  more coherent locations, dates and times 
+in particular, and a possible Russian angle. 
+One analysis of K4 then needs to be whether there is any kind of mnemonic link that can accomplish the 
+above. It seems clear that the first three messages have no direct bearing on the purpose of activating a 
+sleeper agent.  
+Out of some possible approaches the following was selected.  
+1. The fourth message gives the appearance of being a fragmented conversation between two ham 
+radio operators, particularly in the beginning, the end and with some Q-codes in the middle. 
+2. On the assumption that this could be a mnemonic approach to jog the operatives memory, further 
+investigations into the Ham Radio lingo shows that the Q-code QSS is part of a set of repeating doublets 
+BB QQ SS SS ZZ TT which appear with a very regular separation pattern 7 7 10 4 (14) 21. These are also 
+both noteworthy mnemonic tools. This series and its singular version B Q SS Z T is looked into. It 
+becomes apparent fairly quickly that two parts of the series (SS, and Z) have clear location inferences to 
+places in Connecticut by using the same Ham Radio understandings.  The locations work pretty well for 
+Soviet spy handlers based at the UN in New York, for example (approx 75-100 personnel). 
+SS=Sweepstakes=radio relays run by the ARRL. ARRL is located in Newington, CT.  
+Z=Zulu=Greenwich Mean Time. Greenwich is also a city in Connecticut.   
+Stringing the separation numbers together in a few different ways also soon shows a potential for being 
+dates and times (for example 7/7 @ 14.21, 7/10 @17.31). This is a simple and effective way to activate 
+
+[[page 2]]
+the sleeper, who will likely well remember the specific locations to be used in Newington and 
+Greenwich. 
+This then raises the question of what all the rest is for. Well it is for our challenge and enjoyment, of 
+course, but it also works very well as a deception because having been conditioned on Quagmires and 
+keyed transposition, the opposition (sigint and CI) continues to think in those terms, and in ever greater 
+complexity and never focuses on a very simple mnemonic message which is all that is needed from an 
+agent running perspective. I think that is all very nice, but of course I don't know to what extent if any it 
+played a part in Kryptos, any more than any other theory. 
+  

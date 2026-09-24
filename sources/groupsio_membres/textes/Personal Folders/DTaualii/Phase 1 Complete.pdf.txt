@@ -1,0 +1,63 @@
+[[page 1]]
+I parsed the text into groups of 5 and then used the morse code characters for "atrue", but anagrammed them 
+first as "eatru" or ". .­ ­ .­. ..­" and the dashes represent which letter is replaced.  The method for changing the 
+letters is to count forward with the pattern "4 11 4 4" (which are the counts of relevant boxes in the Berlin Clock), 
+but again they are not always in the same order.  I first used "11 4 4 4" on the cipher text "UAUHU" and the 
+pattern of "..­­." (Indicating the second "U" and the "H" change) which resulted in "UAZIU".  Using the bifid cipher
+encryption method to decrypt this text (yes, it's done backwards) and the Polybius square:
+  12345
+1 NUVWX
+2 CDEFZ
+3 BLMGK
+4 AJIHR (R/Q)
+5 SOTPY
+I get "XFIND".  So the first 10 characters decrypt to "ATRUEXFIND"! and it truly was.  I was bolstered and felt 
+confident this was a path worth pursuing.  Here is the process of how I decrypted the first phase of K4:
+KGIDC + ­...­ + 4 4 = CGIDC =>  EULJR => JRULE
+This doesn't seem like a sentence, but it does anagram to a single letter and a 4 letter word like the previous 2 
+sections. 
+The “endYAhR” with the superscript letters in Kryptos have this pattern: "...­­.­"  which I thought were a reversed 
+Fibonacci set, but given what I have found, I believe it is ". ..­ ­ .­" or ". ..­ ­ .­."  which is euta, or eutr in morse 
+code.  If I were to extend this theory, the last letter ("r" in the first instance and "a" in the second) does not have a
+raised letter, which may indicate the removal of a letter in addition to changing it in the "11 4 4 4" fashion.  If this 
+were the case and with trial and error I get:
+KGIDC + ­...­ + X 4 4 = CGIDK => EULIR => IRULE
+I have tried to further this idea, but I didn't get where I wanted to go so I stopped.  I'm not saying this is wrong, 
+I'm saying I didn't pursue this fully.  Here is a full list of what I did try and the results all anagram out to a single 
+letter followed by a 4 letter word with none of the letters in the 5 character section repeating.
+
+[[page 2]]
+RACKE => ATRUE
+eatru => ..­­.­...­ 
+UAUHU + ..­­. + 11 4 = UAZIU => XFIND
+KGIDC + ­...­ + 4 4 = CGIDZ => EULJR => JRULE
+taure => ­.­..­.­..
+JTXZK + ­.­.. + 11 4 = ZTGZK => FOYKE => FYOKE
+DGWKP + ­.­.. + 4 4 = PGNKP => SIKRW => WRISK
+rateu => .­..­­...­
+FZMTT + ..­.­ + 4 11 = FZPTI => FREPT => PFRET
+VPYNB + ­...­ + 4 4 = VPNNW => NBSAW => BSWAN
+teuar => ­...­.­.­.
+FNIWA + ­...­ + 4 11 = ANIWZ => INWUR => WRUIN
+IDULK + .­.­. + 4 4 = IJUSK => JKAEX => XJAKE
+rteau => .­.­..­..­
+JTAWZ + .­.­. + 4 11 = JZATZ => AZEOR => AZERO
+ZKESS + .­..­ + 4 4 = ZQESQ => EYARZ => ZYEAR
+eutra => ...­­.­..­
+QJSQT + ...­­ + 4 4 = QJSOS => AYJZS => ZJAYS
+WTOSS + .­..­ + 4 11 = WKOSF => URCOP => CPOUR
+terau => ­..­..­..­
+KGNRP + ­..­. + 4 4 = PGNVP => SAMRW => WRAMS
+QQVRL + .­..­ + 11 4 = QOVRB => IPYEN => YPINE
+uaret => ..­.­.­..­
+FWBBF + ..­.­ + 4 4 = FWLBS => DINRB => BRIND
+ILOSB + .­..­ + 11 4 = IUUSG => JKNEW
+truea => ­.­...­..­
+LUHGO + ­.­.. + 11 4 = OUWGO => PEWRU => WPERU
+XOURK + .­..­ + 4 4 = XBURW => UPKNW => WPUNK
+I'm not saying this is how to decrypt Kryptos, I'm saying I have found a pattern of decryption that seems plausible
+(except for the fact that there's no way to rearrange the resultant word list to create "BERLINCLOCK", but that's 
+minor, right? :) ).
+I'm sorry if this is confusing, it was hard to keep all this information in my head and I got some things wrong 
+because of the complexity and my sporadic and constrained time spent on the effort.  After finding "XTRUE" it 
+took me 2 weeks off and on to finish this.  If I were dedicated to this it would have taken me less time. 

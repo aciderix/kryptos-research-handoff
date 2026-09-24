@@ -1,0 +1,554 @@
+[[page 1]]
+January, 4, 2014
+Beta 1.0
+K4 Spies Solution and Procedure
+From Ibn Şifre to Yahoo Kryptos Group:
+Bismillah, Let us begin:
+Part 1: K4-H
+Carryout Transpositions Step:
+Start with K3 and arrange it in 7 rows by 48 columns as shown in Fig 1-1.
+           1         2         3         4
+  123456789012345678901234567890123456789012345678
+1 ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+2 NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+3 WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+4 QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+5 FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+6 GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+7 AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW
+Fig. 1-1, K3
+Flip K3 about the columns so that column 48 is ﬁrst and column 1 is last, as shown in 
+Fig 1-2.  This is done only to make the techniques easier to visualize. Call it K3'.
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+1 LLSLLSDLUYERNTHCAIANHSYDIBIOETPCOEHRSLNHORHAYDNE
+2 TMWEACAIIPLBELENNLSEPRARNHITAGNRPTENMXWRMSONSHON
+3 YETYOIEAHNEWITDESLOFTEOEAHNTERDUENETCHARNEETIDNW
+4 SAOFEETBLREEYGETAMATANEWEHHMAPSRBTFIERCYATCNEEHQ
+5 AOREIPWETSMTTHAAINDDESBITRNTREEAMRAOTOEAUTEUTOIF
+6 HELMLKRTIROLDYRDDSOAEOGETISHIECLIHDDTCEABEFWEIRG
+7 WHODVTRTTSSLNHEMIEFPIRMDCEEHUEFMFGMHOENPDRAHDTGA
+Fig. 1-2, K3'
+Using the END - YAR (RAY) clue, place K3' in the form of a transverse EM wave with a 
+period of 16 characters and an amplitude of 11 characters, as shown in Fig 1-3. 
+
+[[page 2]]
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+4    LLSD    RNTH    NHSY    OETP    RSLN    AYDN
+5    EACA    BELE    EPRA    TAGN    NMXW    NSHO
+6    YOIE    WITD    FTEO    TERD    TCHA    TIDN
+7    FEET    EYGE    TANE    MAPS    IERC    NEEH
+1 LLSEIPWLUYETTHACAIADESBDIBITREECOEHOTOEHORHUTOIE
+2 TMWMLKRIIPLLDYRNNLSAEOGRNHIHIECRPTEDTCERMSOWEIRN
+3 YETDVTRAHNELNHEESLOPIRMEAHNHUEFUENEHOENRNEEHDTGW
+4 SAO    BLRE    TAMA    WEHH    RBTF    YATC    Q
+5 AOR    ETSM    AIND    ITRN    AMRA    AUTE    F
+6 HEL    TIRO    DDSO    ETIS    LIHD    ABEF    G
+7 WHO    TTSS    MIEF    DCEE    MFGM    PDRA    A 
+Fig. 1-3a,
+Collapse the wave so that all the columns are ﬁlled as shown in Fig 1-3b.  
+           1         2         3         4
+  123456789012345678901234567890123456789012345678
+1 LLSEIPWLUYETTHACAIADESBDIBITREECOEHOTOEHORHUTOIE
+2 TMWMLKRIIPLLDYRNNLSAEOGRNHIHIECRPTEDTCERMSOWEIRN
+3 YETDVTRAHNELNHEESLOPIRMEAHNHUEFUENEHOENRNEEHDTGW
+4 SAOLLSDBLRERNTHTAMANHSYWEHHOETPRBTFRSLNYATCAYDNQ
+5 AOREACAETSMBELEAINDEPRAITRNTAGNAMRANMXWAUTENSHOF
+6 HELYOIETIROWITDDDSOFTEOETISTERDLIHDTCHAABEFTIDNG
+7 WHOFEETTTSSEYGEMIEFTANEDCEEMAPSMFGMIERCPDRANEEHA
+Fig. 1-3b
+For brevity sake, display only rows 25 through 48 of Fig 1-3b as 'W', shown in Fig 1-4.  
+ 
+           1         2
+  123456789012345678901234
+1 LLSEIPWLUYETTHACAIADESBD
+2 TMWMLKRIIPLLDYRNNLSAEOGR
+3 YETDVTRAHNELNHEESLOPIRME
+4 SAOLLSDBLRERNTHTAMANHSYW
+5 AOREACAETSMBELEAINDEPRAI
+6 HELYOIETIROWITDDDSOFTEOE
+7 WHOFEETTTSSEYGEMIEFTANED
+Fig. 1-4, W
+
+[[page 3]]
+Take the rows of W and arrange them as follows:
+R5:R1
+R6:R2
+R7:R3
+and as shown below in W1, Fig 1-5:
+         1         2             1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-5, W1
+Notice in Row 1, Columns 1 to 8 of W1, as shown in Fig. 1-5, spell out 'L WPIES LL'.  
+Maybe it means 'L SPIES LL'; spies surrounded by L's.   Also notice the last column of 
+R5-R7 and the ﬁrst column of R1-R3 spell out 'Y T LIED'.  Last, notice that the ﬁrst 
+columns of R1-R3 and R5-R7 spell out 'DREW H' - so draw an H!
+        1         2             1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-5b, W1 with H drawn on it
+OTP, One Time Pad, Decryption Step:
+The next step involves treating W1 as a pad and K4 as a ciphertext as part of a OTP, 
+one time pad, encryption scheme.  In this scheme, one uses the pad as a 'key' and K4 
+as the ciphertext to recover the plaintext using the Kryptos Vigenère cipher, as was 
+used in K1 and K2.  Use the following notation:
+For encryption: ENC(key, plaintext) = ciphertext
+For decryption: DEC(key, ciphertext) = plaintext
+Examples:
+key = ELYOIE, plaintext = BERLIN, ciphertext = NYPVTT
+ENC(ELYOIE, BERLIN) = NYPVTT
+DEC(ELYOIE, NYPVTT) = BERLIN
+
+[[page 4]]
+For ease, I have provided a python script that automates this in my folder in the Yahoo 
+Kryptos Group Files under personal folders, or one could use one of the interactive 
+keyed Vigenère solvers on the web like Rumkin's Keyed Vigenère Cipher at 
+http://rumkin.com/tools/cipher/vigenere-keyed.php
+Continuing: Arrange K4 in 6 rows so that they look like small "pyramids" or perhaps 
+"A's" on their sides as shown in K4-H Fig 1-6.  Also shown in Fig 1-6a is K4 arranged in 
+it's pad conﬁguration.
+1      OBKRUOXOGHULBSO
+2 LIFBBWFLRVQQPRNGKSSO
+3       TWTQSJQSSEKZZW
+4 ATJKLUDIAWINFB
+5 NYPVTTMZFPKWGDKZXTJC
+6 DIGKUHUAUEKCAR
+Fig. 1-6, K4-H
+           1         2    0        1         2
+  123456789012345678901234123456789012345678901234
+   ATJKLUDIAWINFB                 OBKRUOXOGHULBSO
+   NYPVTTMZFPKWGDKZXTJC      LIFBBWFLRVQQPRNGKSSO
+   DIGKUHUAUEKCAR                  TWTQSJQSSEKZZW
+Fig. 1-6a, K4-H
+And apply K4 in Fig 1-6a over the negative space of the H in W1, Fig 1-5b, as shown in 
+Fig 1-6b in an OTP decrypt.
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-6b
+In other words:
+DEC(UYETTHACAIADESB,OBKRUOXOGHULBSO)= DSIWLLLVSZHAWKW
+
+[[page 5]]
+DEC(MLKRIIPLLDYRNNLSAEOG,LIFBBWFLRVQQPRNGKSSO)= 
+    ZXFANBCKDFMNDBYANURM
+DEC(NELNHEESLOPIRM,TWTQSJQSSEKZZW)= EFGRMOCKISWDXO
+DEC(OREACAETSMBELE,ATJKLUDIAWINFB)= YPONBHZEROABUW
+DEC(ELYOIETIROWITDDDSOFT,NYPVTTMZFPKWGDKZXTJC)=
+    BERLINHDEXPBCKJIMZTO
+DEC(HOFEETTTSSEYGE,DIGKUHUAUEKCAR)= VDRIDDLPIOIAQJ
+One should get the following for the resulting plain text:
+           1         2    0        1         2
+  123456789012345678901234123456789012345678901234
+   YPONBHZEROABUW                 DSIWLLLVSZHAWKW
+   BERLINHDEXPBCKJIMZTO      ZXFANBCKDFMNDBYANURM
+   VDRIDDLPIOIAQJ                  EFGRMOCKISWDXO
+Fig. 1-7
+Now re-arrange by ﬂipping the rows, (or 'pyramids' base to base) and get P1 as shown 
+in Fig. 1-8, 
+1      DSIWLLLVSZHAWKW YPONBHZEROABUW
+2 ZXFANBCKDFMNDBYANURM BERLINHDEXPBCKJIMZTO
+3       EFGRMOCKISWDXO VDRIDDLPIOIAQJ
+ 
+  
+Fig. 1-8, P1
+Misspellings Step:
+Guess the misspellings as follows in Fig. 1-9.  
+Don't worry, there are ways to tell if you have the right ones.  The rows labeled with 
+P1M are the rows of the correct letters where a misspelling occurs in the plaintext, as 
+best I can guess.  The rows labeled with P1 are  the plaintext row from the OTP step.  
+The rows labeled with W1 are the rows from the pad text and show the corresponding 
+pad letter where the misspelling occurred in the plaintext.
+
+[[page 6]]
+                       1         2              1         2
+      123456789012345678901234  123456789012345678901234
+P1M 1            S     O          E           Z
+P1 R1         DSIWLLLVSZHAWKW    YPONBHZEROABUW
+W1-14         UYETTHACAIADESB    OREACAETSMBELE
+P1M 2           Q  I      O                       S R  
+P1 R2    ZXFANBCKDFMNDBYANURM    BERLINHDEXPBCKJIMZTO
+W1-25    MLKRIIPLLDYRNNLSAEOG    ELYOIETIROWITDDDSOFT
+P1M 3             S AR           D      E   S
+P1-R3          EFGRMOCKISWDXO    VDRIDDLPIOIAQJ
+W1-36          NELNHEESLOPIRM    HOFEETTTSSEYGE         
+Fig. 1-9
+Which gives us PT-H, our K4-H solution to the 97 charters as shown in Fig. 1-10
+1      DSISLLLVSOHAWKW YEONBHZEROABUZ
+2 ZXFANBCQDFINDBYANORM BERLINHDEXPBCKJIMSTR
+3       EFGSMARKISWDXO DDRIDDLEIOISQJ
+Fig. 1-10, PT-H
+Examining the misspellings, Fig. 1-11, we can ﬁnd further messages.  Read the 
+misspelled letters across, left to right, by rows going down in such a way to get the 
+following, PT-H:M1, as shown in Fig. 1-11.
+SO EZ Q IOS RSA R DES
+Fig. 1-11, PT-H:M1
+Additionally if we use all three letters (the misspelling, plaintext, and pad letters) at each 
+misspelling point we (maybe ???) can ﬁnd another message:
+SWT OZI EPR ZWE QKL IMY OUE SZO ROT SRN AOE RCE DVH EPT SAY
+Fig. 1-12, PT-H:M2
+
+[[page 7]]
+Part 2: K4-O
+Bismillahi Al Haqq il Ala, let us continue.
+Carryout Transpositions Step:
+"
+As in part 1, start with W in Fig 1-4, but this time re-arrange the rows as follows: 
+R4:R3
+R1:R6
+R5:R7
+shown below in W2, Fig 2-1, and draw the letter 'O' on it in the following way:
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234  
+R5:R3 AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME
+R1:R6 LLSEIPWLUYETTHACAIADESBDHELYOIETIROWITDDDSOFTEOE
+R4:R7 SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED
+Fig. 2-1, W2
+Continuing: Arrange K4 in as shown in K4-O, Fig 2-2a.  Note that 'NYPVTTMZFPKWG' is 
+repeated.  Also shown in Fig 2-2b is K4 arranged in it's pad conﬁguration.
+O1  OBKRUOXOGHULBSOLIFBBW
+O2  FLRVQQPRNGKSSOTWTQSJQ
+O3  SSEKZZWATJKLUDIAWINFBN
+O4a YPVTTMZFPKWGD
+O5  KZXTJCDIGKUHUAUEKCAR
+O4b NYPVTTMZFPKWG
+Fig. 2-2a, K4-O
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+O1:O2    OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQ
+O4a:b  YPVTTMZFPKWGD                     NYPVTTMZFPKWG
+O3:O5   SSEKZZWATJKLUDIAWINFBNKZXTJCDIGKUHUAUEKCAR
+Fig. 2-2b, K4-O
+
+[[page 8]]
+OTP, One Time Pad, Decryption Step:
+As before in part 1, do the OTP decryption as follows.  Note that the last two are 
+actually 'Encryptions':
+DEC(EACAETSMBELEAINDEPRAI,OBKRUOXOGHULBSOLIFBBW)= 
+    QRLQDRMGOPTSRLFATCARB
+DEC(LSEIPWLUYETTH,YPVTTMZFPKWGD)= EWEIRUBLRINCV
+DEC(OLLSDBLRERNTHTAMANHSYW,SSEKZZWATJKLUDIAWINFBN)=
+    RIQQILSSNIAGASBIJVOSSV
+DEC(WHOFEETTTSSEYGEMIEFT,KZXTJCDIGKUHUAUEKCAR)= 
+    PENMOXSECQIPNQDNEXUW
+ENC(YETDVTRAHNELNHEESLOPI,FLRVQQPRNGKSSOTWTQSJQ)=
+    HYOSJXTBASEWZNIBDEENC
+ENC(WITDDDSOFTEOE,NYPVTTMZFPKWG)= JLASHHXTXAEYX
+ 
+The plain text is backwards, so arrange them as in P2 shown in Fig. 2-3.
+1a    BRACTAFLRSTPOGMRDQLRQ 
+2a  VCNIRLBURIEWEY
+3a   VSSOVJIBSAGAINSSLIQQIRWUXENDQNPIQCESXOMNEP
+1b                         CNEEDBINZWESABTXJSOYH
+2b                                    JLASHHXTXAEYX
+Fig. 2-3, P2
+Misspellings Step:
+Guess the misspellings as follows in Fig 2-4.  The rows labeled with P2M are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with P2 are the plaintext row from the OTP step.  The rows labeled 
+with W are the row from the pad text and shows the corresponding pad letter where the 
+misspelling occurred in the plaintext.
+           
+
+[[page 9]]
+                    1         2             1         2
+           123456789012345678901234123456789012345678901234
+P2M 1               A  L  O  O             T   S       I
+P2 R1         QRLQDRMGOPTSRLFATCARBHYOSJXTBASEWZNIBDEENC   
+W  R5:R3   AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME       
+ 
+ 
+ 
+P2M 2        D       C E                          T P  K
+P2 R2       EWEIRUBLRINCV                     JLASHHXTXAEYX
+W  R1:R6   LLSEIPWLUYETTHACAIADESBDHELYOIETIROWITDDDSOFTEOE   
+P2M 3            R  I      M          O     E  HY     Q 
+ 
+P2 R3        RIQQILSSNIAGASBIJVOSSVPENMOXSECQIPNQDNEXUW
+W  R4:R7   SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED       
+Fig. 2-4
+Which gives us PT-O, our K4-O solutions as shown in Fig 2-5.
+      BRACTOFLOSTLOGARDQLRQ    
+                VENCRLBURIEDE
+      VSSOVJIMSAGAINISLRQQIR   QUXENDQHPIECESXOONEP
+Fig. 2-5a, PT-Oa
+                               INEEDBINSWESTBTXJSOYH
+Fig. 2-5b, PT-Ob
+                                           JLASTHPTXKEY
+Fig. 2-5c, PT-Oc
+Examining the misspellings we can ﬁnd further messages. Read off the misspelled 
+letters of Fig 2-4 starting by going up on odd rows, down on even, right to left for the 
+right set of 24 columns and continuing then to the left set of 24 columns by going down 
+on odd rows, up on even, to get the following,  PT-O:M, as shown in Fig 2-6.
+KIQ P TY H SET O - O MOLE CIA RD
+Fig. 2-6, PT-O:M
+Perhaps one can ﬁnd, using the misspelling, plaintext, and pad letters at each 
+misspelling point, other messages as in part one or as in other solutions.  Maybe.
+
+[[page 10]]
+Part 3: Y
+Bismillahi Ar Rahmani Raheem, let us continue.
+Carryout Transpositions Step:
+"
+As in part 1, start with W in Fig 1-4, but this time re-arrange the rows as shown 
+below in W3, Fig 3-1, and draw an 'Awkward' Y on it in the following way:
+            1         2          
+   123456789012345678901234
+  
+R5 AOREACAETSMBELEAINDEPRAI
+R2 TMWMLKRIIPLLDYRNNLSAEOGR
+R4 SAOLLSDBLRERNTHTAMANHSYW
+R3 YETDVTRAHNELNHEESLOPIRME
+R7 WHOFEETTTSSEYGEMIEFTANED
+R1 LLSEIPWLUYETTHACAIADESBD
+Fig. 3-1, W3
+Continuing: Arrange K4 in as shown in K4-Y, Fig 3-2.  Note that 'NYPVTTMZFPKWG' is 
+not used.  It was already used in K4-O.  Note also that row Y3 is made up of two parts, 
+RNGKSSO and UEKCAR.  As an aside, see that when reversed and put together they form 
+OSSKGNRRACKEU - if we replace the NR and U with a BC and a D we get 
+OSSKGBCRACKED or OSS KGB CRACKED. In K4-Y and W3 there seems there might be 
+some interesting stenography. Also shown in Fig 3-2b is K4 arranged in it's pad 
+conﬁguration.
+Y1  OBKRUOXOGHULBS
+Y2  OLIFBBWFLRVQQP
+Y3a RNGKSSO
+Y4  TWTQSJQSSEKZZW
+Y5  ATJKLUDIAWINFB
+Y6  NYPVTTMZFPKWGD
+Y7  KZXTJCDIGKUHUA
+Y3b UEKCAR
+Row Y3: RNGKSSOUEKCAR
+Fig. 3-2a, K4-Y
+
+[[page 11]]
+Y5  TJKLUDIAWINFB
+Y1      OBKRUOXOGHULB
+Y3        RNGKSSOUEKCAR
+Y4            WTQSJQSSEKZZW
+Y7    ZXTJCDIGKUHUA
+Y2  OLIFBBWFLRVQQ
+Fig. 3-2b, K4-Y
+OTP, One Time Pad Step:
+As Before do the OTP decrypt step on each of the parts:
+ENC(OREACAETSMBEL,TJKLUDIAWINFB)= CLEXTLKEPARWZ
+ENC(KRIIPLLDYRNNL,OBKRUOXOGHULB)= OCIJXVIIIIHDZ
+ENC(BLRERNTHTAMAN,UEKCARRNGKSSO)= CDHEAZCCIARHQ
+DEC(LNHEESLOPIRME,WTQSJQSSEKZZW)= SESUOHIRBEXAF
+DEC(FEETTTSSEYGEM,ZXTJCDIGKUHUA)= GGNFOSCAINRDI
+DEC(LSEIPWLUYETTH,OLIFBBWFLRVQQ)= HETWOESLIJMJS
+Misspellings Step:
+Guess the misspellings as follows in Fig 3-4.  The rows labeled with P3M are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with P3 are the plaintext row from the OTP step.  The rows labeled 
+with W are the row from the pad text and shows the corresponding pad letter where the 
+misspelling occurred in the plaintext.
+              1         2   
+     123456789012345678901234
+     
+P3 R1  CLEXTLKEPARWZ           
+W R5   OREACAETSMBEL                              
+ 
+     
+P3 R2      OCIJXVIIIIHDZ
+W R2       KRIIPLLDYRNNL
+      
+P3 R2        CDHEAZCCIARHQ
+W R4         BLRERNTHTAMAN
+Fig. 3-4a
+
+[[page 12]]
+               1         2          
+      123456789012345678901234
+P3M 3             O    B     C   
+P3 R4            SESUOHIRBEXAF           
+W R3             LNHEESLOPIRME                            
+ 
+ 
+ 
+P3M 4    T  P   T     
+P3 R5    GGNFOSCAINRDI
+W R7     FEETTTSSEYGEM               
+P3M 5   V   I   O     
+P3 R6  HETWOESLIJMJS      
+W R1   OLIFBBWFLRVQQ
+Fig. 3-4b
+As far as the ﬁrst part of the 'Y', Fig 3-4a, I am uncertain of the misspellings.  I believe 
+that there is more than one solution.  Please ﬁnd your own.  I will give one possible 
+plaintext, PT-Ya:
+C TEXT IKE PART TO CIA X V IIIIH D AWD HEAD DCIA R HQ 
+Fig. 3-5a, PT-Ya
+Which gives us PT-Yb 3.1, our K4 part 3.1 solution as shown in Fig 3-5.
+SOS U OHB R B EXACT GN POS CT IN RD I H V TWO IS LIOM JS
+Fig. 3-5b, PT-Yb
+There might be further messages in the misspellings, as in the other solutions.  I have 
+not found any that I am well pleased with.
+
+[[page 13]]
+Interpretations:
+What follows are my best guesses to date - certainly not everything will be correct.  
+CQD! SOS!
+Plaintexts and others:
+PT-H:
+D SIS LLL VS O-H-AWK WYE ON BH ZERO ABUZZ X 
+FAN B CQD FIND BY ANORM BERLIN HD EXP BCK JIM S 
+T REF, GS MARK IS WD X ODD RIDDLE IO IS Q J
+PT-Oa:
+BR ACT OF LOST LOG A RD Q 
+LRQ V ENCR L BURIED E VS SOV
+JIM S AGAIN IS LRQ Q 
+I RQ U, X, ENDY, H PIECES X 
+O ONE P
+PT-Ob:
+I NEED BINS WEST B TX JS O,Y,H
+PT-Oc:
+J LAST H PT X KEY X
+PT-Ya:
+C TEXT IKE PART TO CIA X, V IIIIH, D AWD HEAD DCIA R HQ
+PT-Yb:
+SOS U, OHB R B, EXACT GN POS CT IN RD I, 
+H V TWO IS LIOM, JS
+PT-H:M1
+SO EZ Q IOS RSA R DES
+PT-H:M2
+S W TO ZIE PRZ WEQK L IM YOUES Z O ROTS R NAOE RCED V HEP T SAY
+PT-O:M
+KIQ P TY H SET O - O MOLE CIA RD
+PT-H
+D1 SIS2 LLL VS O-H-AWKward WYE3 ON BH ZERO4 ABUZZ5 X
+FAN of B CQD6 - FIND BY AbNORMal BERLIN HeaD,EXPect BaCK - Jim S. 
+T is REFerence7
+GS MARK IS WD8 X
+
+[[page 14]]
+ODD RIDDLE - 10 IS?9 Jim
+1. D is for Dulles, the DCI at the time, and in general the CIA.
+2. SIS: www.sis.gov.uk , The British Secret Intelligence Service, aka MI6
+3. LLL vs O-H-WYE: a riddle of some sort.  LLL (maybe Lies) from the CIA and MI6 verses OH-WYE.  OH 
+might be a code for Kim Philby and the Cambridge 5 (V - ﬁve).  Or it might be "OHW-YE" as in 'Who Ye' 
+as part of John 8:32 'And Ye Shall Know ...' which is carved into a wall on the OHB (Old Headquarters 
+Building) in Langley. Or both.  Also it could read 'Trial' or 'Try L'.  Therefore:
+ENC(L, OHWYE) = V OHNY 
+Maybe that means to 'V' 'OHNY' so (remember 'Level Two'):
+ENC(V, OHNY) = RD I X
+Maybe that means that we should 'X Riddle One' i.e. encrypt K4-H with an X.  
+Also, WYE, this the word for the letter 'Y' - which could also mean 'Why'.  Or it could mean 'W Ye' as in 
+'W's Ye' - Allen Welsh Dulles's Ye - again a reference to John 8:32.
+4. On BH Zero: OHB written backwards (Old Headquarters Building, Langley).  Or BH as in 'Berlin Head 
+Zero' (might be a bug - and should read 'Hero' ??? depending on one's point of view?).  Berlin Head 
+would be a reference to Allen Dulles, again, who was head of the OSS in Berlin just after WWII.
+5. ABUZZ - 'A BUG Z'? See the misspelling for K4-H.
+6. FAN B CDQ: A Fan of 'B', maybe 'B' stands for the OHB? CQD is an old form of SOS.  It could also be 
+meant to be read 'Seek D'.
+7. T (for Truth) is our reference point referring to 'T IS YOUR POSITION' in Morse code next to the 
+loadstone. The compass is pointing SW - (maybe SW is short for the SIS and W (Allen Dulles)???)
+8. GS MARK IS WD X - on the USGS Marker that was in front of the NHB, New Headquarters Building.  
+On it is written the word (letter) 'X' (or a cross, depending on your point of view)
+9. Odd riddle: yes this is.  Ten is?
+ENC(V, ENDY) = AISX
+Ten is A!
+PT-H:M1
+SO Easy? aS RSA oR DES
+Remember A is IO (that also might mean that A is 2, as IO is 2 in binary).   And since we have 'Level Two'
+ENC(AISX, SOEZQIOSRSARDES) = GQLWRTETBUGZLKF - GQ L, WRTE T, BUG Z, LKF
+Perhaps: Go to L and Write T;  there is a Bug Z; LKF ??? 
+
+[[page 15]]
+PT-H:M2
+S W TO ZIE PRZ WEQK L IM YOUES Z O ROTS R NAOE RCED V HEP T SAY
+Maybe something:
+SIS, Allen W Dulles to Lie (or SW compass heading -  referring to T to Die) , Mr President (it's) a weak lie.  
+I'm Yours, O Rots our name, Received V Help Say the Truth ???  - really I don't know.
+PT-Oa:
+BRother1 ACT OF LOST LOG A Riddle? Location Request:
+V ENCRypted L BURIED E VS SOViets 
+JIM S. AGAIN IS (this) a Location Request? I require you, a X,
+the ENDY, and H PIECES 2 X O one piece.3
+1. Brother meaning the British, or just 'British'
+2. 'ENDY' is the ENDYAHROHN piece, 'H' meaning our PT-H
+3. A hint that the mask for this part forms an O, or perhaps 'O is a one Philby'?
+PT-Ob:
+I NEED BIN'S1 WEST Berlin Text, Jim S. O-Y-H2
+1. Binary or it might refer to JKF's "Ich bin Ein Berliner" speech.
+2. O-Y-H a clue to there being 3 plaintexts
+PT-Oc:
+Jim - LAST H Plaintext X KEY X
+The last part of PT-H is key meaning the riddle of IO is ? A is X! And that is a Key.
+Also a hint as what to do with the PT-H plaintext.
+PT-O:M
+KIQ P TY H SET O - O MOLE CIA RD
+Kim Philby TY H SET(the Cambridge V) O, O MOLE CIA Riddle (or CIA is our D)
+PT-Ya:
+I'm really guessing here, multiple interpretations may exist:
+C TEXT IKE PART TO CIA X, V IIIIH, D AWD HEAD DCIA R HQ
+See text from Ike - the part to the CIA X
+V is IIIIH1, D2 is AWD, Allen W. Dulles, 
+HEAD DCI, CIA3 is our Headquarters 
+1. the Cambridge 5 spies, H is Philby?
+
+[[page 16]]
+2. or HD - repeating the H from the last part.
+3. DCI - CIA, repeating the letters CI 
+PT-Yb:
+SOS from you - OHB is our 'B'
+the EXACT ground POSition in ciphertext in Riddle One, H X1, is L-IO-M2,
+Jim Sanborn
+1. Two V's is a X (5 + 5 = 10, V + V = X)
+2. This is almost the same as LOOMIS, which was reported to be written on the USGS marker.
+Other points:
+Whom is K4-H from and to who is it addressed?
+Consider, from W1, Fig 1-5, take the 'LWPIESLL' and reverse it to get
+'LLSEIPWL'.  Take the last 8 letters of K4, 'UAUEKCAR'
+and use 'LLSEIPWL' as the key to decrypt 'UAUEKCAR'
+DEC(LLSEIPWL, UAUEKCAR) = TJIKESDD
+Or 'TO IKES DD'; i.e. "To Ike's Deputy Director" with the J for Jim as a misspelling and a 
+signature.  Now when Eisenhower (Ike) became president, Allen Welsh Dulles was the 
+DD, Deputy Director, of the CIA.  Shortly after, Ike promoted him to DCI, Director of 
+Central Intelligence, the head of the CIA.  
+Also, note from W1, on the other side of the H - it goes "AIN".  Putting the two together 
+we get 'LLSEIPWL-AIN. If the 'W' is replaced by a 'S' it becomes LLSEIPSLAIN. So one 
+way, from the 'S' covered up by 'W' it reads 'SPIES LL', the other direction from the 'S" it 
+reads 'SLAIN'.  Maybe it should read 'Slain Spies'.  Maybe 'W' is for Allen W. Dulles
+ 
+So maybe K4 is from SPIES (possibly Slain Spies) to Allen W. Dulles.
+In addition, Allen Dulles was head of the OSS Berlin station in the days just after WWII 
+and he oversaw the building of the OHB, the Original Headquarters Building, of the CIA 
+at Langley. (The CIA refers to it as the OHB - just see their website.  Kryptos was 
+commissioned as part of the NHB, the New Headquarters Building)
+More:
+One might be able to turn the 'Y' mask, K4-Y, into an upside down 'e' by using a piece 
+found next to the 'WYE' at the left edge of W3, R3 and R7 with the ﬁrst 7 letters of Y4 
+from K4-Y.
+
+[[page 17]]
+DEC(TDVTRAH,TWTQSJQ) = KGBJOCS
+Or 'KGB DOCS' - KGB documents,  with the J for Jim as a misspelling and a signature.
+"
+"
+"
+"
+"
+"
+Salam and Happy Discoveries and Adventures,
+"
+"
+"
+"
+"
+"
+"
+"
+"
+"
+              Ibn Şifre
+SUMHGGJKKIPETCTWGTGGPIBZJEJNJKKQRXWCCYXFSBWMJAZUMC

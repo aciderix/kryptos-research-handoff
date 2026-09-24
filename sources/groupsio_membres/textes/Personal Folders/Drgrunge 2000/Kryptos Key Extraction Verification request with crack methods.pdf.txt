@@ -1,0 +1,111 @@
+[[page 1]]
+Floyd Yancey <floydyancey@gmail.com>
+How to extract keys to Kryptos with Crib and Matrix Rotate methods
+1 message
+Floyd Yancey <floydyancey@gmail.com>
+Fri, Apr 10, 2026 at 9:10 PM
+To: Floyd Yancey <floydyancey@gmail.com>
+I would like verification of this as a viable method to extract keys
+from morse up to the point up to k4, giving us an odd unknown.
+The method. Visual clues.
+The extraction key is kryptos. Literally carved out. The method is one
+time pad. This assumes no knowledge of the method, is not a solution,
+and runs on the basis of an op in the field with cryptographic
+knowledge to extract a key.
+This is a summary.
+Step 1. Decode morse. That becomes the one time pad. We are only
+concerned with whats "Inbetween" shadow forces “adowf” (side note, as
+vig, ally invi works with k1, invi will reveal small bits of keys in
+both)
+Step 2. Recreate the enciphered grid. Put in a monospaced font. Like
+courier. Look at the bottom for the example. Typewriter text.
+Step 3. Extract the clue xueen. How do we find this? In the grid below.
+At the top next to xueen, in k2. You
+will see the word "CLUE" written right before the X in xueen. Vertically.
+Step 4. Adowf in morse as pad + xueen in cipher = lesha, which is
+plaintext of k1.
+step 5. Use lesha to get 5 characters of the key.
+skim fill crib method:
+(rumkin, kryptos keyword, vig, lesha as cipherkey, decrypt, start
+deleting the chars at the beginning of k1, watch the solution at the
+bottom, you will see alimp start repeating) place those points in a
+sanborn style chart then convert the other areas of text to plain.
+you’ll gain a lot of plain text, now you can fill in the blanks, then
+reverse with assembled plaintext, assemble the key. Do this with other
+sections. a one time pad version can be replicated as well and you can
+see it all at once. That would be another story.
+All three 5 character segments of each other will flip and give each
+other as a result.
+Step 6. Crib drag the now solved k1 as a pad vs k2, you will find one
+of those 3 keys pop up. Proves a "Rotation" They flip each other.
+Step 7a. Rotate solve k3. Delineator to k4 is the ? mark. This is
+actually easy as there are a limited number of options that will give
+a rectangle filled grid. A quick way is to plop the text in a
+resizable text field with no carriage returns, such as on rumkin. Make
+a filled rectangle. rotate in any direction. Cut/copy text, Change the
+size to another filled rectangle. paste, rotate again. keep doing this
+alternating between the two rectangles and you will eventually see
+Gmail - How to extract keys to Kryptos with Crib and Matrix Rotate m...
+https://mail.google.com/mail/u/0/?ik=32169e15f7&view=pt&search=a...
+1 of 3
+4/10/2026, 9:10 PM
+
+[[page 2]]
+plaintext reveal in a pattern, or completely reveal. cut paste over
+and over, this method doesnt need known dimensions, just alternate.
+the drawback is the spin cycle number of rotations increases. try it
+with k3 in different dimensions and loop, you’ll go from cipher, to
+vertical plain, diagonal plain, to regular plain and then move back to
+cipher. fun to watch.
+Step 7b. Continuation of clue extraction isn't dependent on known
+ciphertext at this point for k3. But a trap was put in.
+Step 8. The puzzle is literally split in two on copper plates. We have
+the top half solved if the clues were followed.. If not we keep otp
+dragging as the path was made. We now focus on the bottom half. Place
+k4 AS A PAD against k3. I think k4 is not the ciphertext but the pad.
+Or elements. This doesn't stop extraction.
+Step 9. We fail. We hit the trap. If we start at the beginning of k3
+and use it vs k4, there is a keyword offset. We start skimming and
+give up. I did. Until I realized the trap.
+Step 10. The trap is k4 or part of it is a pad. Or treated like one.
+(Yes i've segmentally inverted it no luck) Go to rumkin cipher page,
+use k4 as a pad. Plop k3 as ciphertext. Go to the beginning and hit
+delete over and over on k3.
+The solution changes. Use this to drag. You will hit tutddddd which is
+eye catching. Flips with CPTEOIBI as k3 ciphertext.
+step 10a. The trap. If you look at sanborns decoding charts you see he
+likes to have the plaintext, the key, then ciphertext written out on a
+grid. Normally starting with k3 and skimming will throw you. He
+restarts with kryptos at CPTEOIBI which reveals itself as tutddddd of
+vovjjjjj which is a 1 in 580000 chance per refs. Backtracking you
+would have yptoskr. He skipped two letters to throw off the trail. I
+will paste the results at the bottom. Monospace it. Courier
+Leftovers
+"nceof" is repeated twice up top and he includes it with his clue
+pointer between subt "lesha" ding and the abse "nceof" light lie the
+nua "nceof" of iqlusion
+I havn't found a rotator for this yet.
+in the grid below you will notice dyahr surrounding a Q.
+(Top Matrix) Originally we saw a poor quality version of this
+document. a 14 x 24 grid. It had end.. written on it. I thought that
+was the "End" but maybe not. Could be the end in k3 restarting... or
+the rotation.. but....
+In the new version. We have a number 15 at the very bottom and xue in
+one square. xue is part of another side of a puzzle. A matrix. Like
+they mate somehow.
+pcpcpc..... there is a "-->/" with the / under the "x can you see.."
+text. Unknown reason. You can only see this in the raw nova video with
+premiere pro. 1 frame.
+-Floyd Yancey
+Crosspost to more communities
+1
+Gmail - How to extract keys to Kryptos with Crib and Matrix Rotate m...
+https://mail.google.com/mail/u/0/?ik=32169e15f7&view=pt&search=a...
+2 of 3
+4/10/2026, 9:10 PM
+
+[[page 3]]
+Gmail - How to extract keys to Kryptos with Crib and Matrix Rotate m...
+https://mail.google.com/mail/u/0/?ik=32169e15f7&view=pt&search=a...
+3 of 3
+4/10/2026, 9:10 PM

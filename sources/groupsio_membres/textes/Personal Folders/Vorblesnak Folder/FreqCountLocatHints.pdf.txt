@@ -1,0 +1,328 @@
+[[page 1]]
+1
+2
+3
+4
+5
+6
+7
+8
+9 10 1
+2
+3
+4
+5
+6
+7
+8
+9 20 1
+2
+3
+4
+5
+6
+7
+8
+9 30
+k
+R
+D
+U
+M
+R
+I
+Y
+W
+O
+c
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+p
+e
+a
+s
+t
+n
+o
+r
+t
+h
+1
+2
+3
+4
+5
+6
+7
+8
+9 40 1
+2
+3
+4
+5
+6
+7
+8
+9 50 1
+2
+3
+4
+5
+6
+7
+8
+9 60
+k
+Y
+N
+-
+Y
+c
+G
+K
+S
+S
+O
+T
+W
+T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+W
+A
+T
+J
+K
+L
+U
+D
+I
+A
+W
+I
+p
+e
+a
+s
+t
+1
+2
+3
+4
+5
+6
+7
+8
+9 70 1
+2
+3
+4
+5
+6
+7
+8
+9 80 1
+2
+3
+4
+5
+6
+7
+8
+9 90
+k
+E
+L
+Y
+O
+I
+E
+C
+B
+A
+Q
+-
+c
+N
+F
+B
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+W
+G
+D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U
+H
+U
+p
+b
+e
+r
+l
+i
+n
+c
+l
+o
+c
+k
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+k
+c
+A
+U
+E
+K
+C
+A
+R
+p
+A=4    50, 58, 91, 96  
+0.04123 - 4%
+1     2     3     4      5     6      7     8   9
+B=5  2,13,19,20,63 
+0.0515 - 5% 
+M  C  D  A  B  N     K 
+C=2  83,95
+0.0206 - 2%
+Y  E  J  F  O  S
+D=3  56,77,84
+0.0309 - 3%
+   H  P  G  W  T  
+E=2  45,93
+0.0206 - 2%
+   V     I     U
+F=4  18,22,62,72
+0.04123 - 4%
+   X     L
+G=4  9,31,76,86
+0.04123 - 4%
+   Q
+H=2  10,89
+0.0206 - 2%
+   R
+I=4  17,57,60,85
+0.04123 - 4%
+   Z
+J=3  41,52,82
+0.0309 - 3%
+K=8  3,32,46,53,74,78,87,94
+0.0824 - 8%
+L=4  12,16,23,54
+0.04123 - 4%
+M=1  70
+0.0103 - 1%
+N=3  30,61,64
+0.0309 - 3%
+O=5  1,6,8,15,35
+0.0515 - 5%
+P=3  28,66,73
+0.0309 - 3%
+Q=4  26,27,39,42
+0.04123 - 4%
+R=4  4,24,29,97
+0.04123 - 4%
+S=6  14,33,34,40,43,44
+0.0618 - 6%
+T=6  36,38,51,68,69,81
+0.0618 - 6%
+U=6  5,11,55,88,90,92
+0.0618 - 6%
+V=2  25,67
+0.0206 - 2%
+W=5  21,37,49,59,75
+0.0515 - 5%
+X=2  7,80
+0.0206 - 2%
+Y=1  65
+0.0103 - 1%
+Z=4      47,48,71,79
+0.04123  -  4%
+If the hints are actual clear text then using the Vigenere Tableau on the sculpture I should be able to 
+reverse the encryption routine and get a Key for the encryption.  This does not work.  I could accept 
+just a random group of letters but in positions 33 and 74 this is not possible.  Both of these positions 
+represent letters encrypted by the same letter.  i.e. S - s  and K - k.

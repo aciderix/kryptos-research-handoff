@@ -1,0 +1,222 @@
+ 
+ 
+   
+     3Quarks - Set Theory Clock 
+  
+    
+     
+     
+     
+    
+      
+     
+     
+       
+     
+
+    
+    
+    
+    
+
+   
+  
+   
+    
+     
+      
+       
+      	
+	       
+	         
+	        	 
+	             3Quarks  
+						 
+	          » Set Theory Clock
+	           
+	             deutsch 
+	           
+	         
+	       
+          
+         
+           How it functions 
+           
+             
+              The Set Theory Clock, also known as the Berlin Clock, 
+              makes use of the principle of set theory to depict the time. 
+              The time of day is displayed in a 24-hour format and can be determined 
+              by simply adding and multiplying the glowing lights.
+             
+             
+              The first, uppermost row consists of 4 red lights, whereby each of these lights stands for 5 full hours. 
+              The 4 red lights in the second row display one full hour apiece. 
+              For example, if the first 2 lights in the uppermost row and all 4 lights in the second row are lit up, 
+              that represents 1400 hours, or 2 p.m. (2 × 5 + 4 hours). 
+              The third row is composed of 11 lights: 3 red and 8 yellow. 
+              Each light in this row stands for 5 elapsed minutes. 
+              The 3 red lights have been assigned to mark the quarters of an hour and are intended to make reading the clock easier. 
+              Last of all, the yellow row at the very bottom displays units of single minutes.
+             
+             
+              The current time ─ it is now  1:41  hours ─ results from:
+             
+             
+                = 5 hours × 0 = 0 hours    
+                = 1 hour    
+                =  5 minutes × 8 = 40 minutes    
+                = 1 minute    
+                = 0 + 1 hour and 40 + 1 minute = 1:41 hours    
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+             
+             
+              The round yellow light crowning the clock at the top is of minor significance for telling the time: It blinks every second.
+              
+           
+         
+        
+         
+           History 
+           
+             
+              Dieter Binninger, an inventor and tinkerer from Berlin who is also a trained clockmaker, 
+              designed the Set Theory Clock on behalf of the Berlin Senate in 1975. 
+              The clock was installed on Kurfürstendamm in the Berlin-Charlottenburg district 
+              and rapidly evolved into a tourist attraction, though it turned out to have one serious disadvantage: 
+              its inner workings consisted of hundreds of light bulbs, some of which constantly burned out. 
+              BZ, a local Berlin newspaper, sported the headline back then: 
+              “Ku-Damm clock can do a lot, except run”, 
+              which meant the clock had to be inspected and repaired on an ongoing basis. 
+              In the end, the costs for operation and upkeep were running EUR 5000 a year, 
+              and neither the city of Berlin nor the district of Charlottenburg wanted to bear the costs. 
+              For many a year the clock dozed on, more out of order than functioning, 
+              until 1995, 20 years after it had been installed, when it was shut off. 
+              The only reason the clock still exists to this day and has found a new location 
+              in front of the Europa Center complex is thanks to an initiative sponsored 
+              by businessmen at the center in Berlin. 
+             
+              Dieter Binninger tried to rectify the weak points in the construction design of his Set Theory Clock 
+              by developing a long-lasting light bulb, a so-called “perpetual light bulb”. 
+              His idea was to intensely reduce the power input of a standard commercial light bulb in order 
+              to drastically prolong its product life. 
+              Between 1980 and 1982 Binninger registered 3 patents for 
+              “Prolongation of the product life for all-round-usage light bulbs”, 
+              which basically came down to running the light bulb on undervoltage. 
+              Though a longer product life is achieved this way, 
+              the light bulb’s already low efficiency sinks even further at the same time; 
+              the prolonged product life has to be paid with increased costs for electricity. 
+              
+             
+              Binninger indicates a mean product life of 150,000 hours for his long-lasting light bulb, 
+              whereby a standard commercial light bulb lasts merely 1000 to 2000 hours, 
+              along with an additional 50% higher power consumption. For a 100 watt light bulb, 
+              this means that additional power costs of around EUR 10 arise during the first 1000 hours in operation 
+              (at an electricity price of EUR 0.20 per kilowatt-hour), 
+              a sum much greater than the purchase price for a normal light bulb. 
+              Which is why Binninger’s method didn’t meet with much success, 
+              but it does continue to provide material for the wildest conspiracy theories to this day. 
+             
+           
+         
+        
+         
+           For More Information 
+           
+             The Wikipedia articles on the subject: 
+               “Set Theory Clock” , 
+               “Dieter Binninger” , 
+               “Perpetual light bulb”  and 
+               “Incandescent light bulb”  
+             
+             Binninger’s patents (DE 2921864, DE 3001755 and DE 3213333) can be researched on 
+                DEPATISnet  
+               at DPMA, the German Patent and Trademark Office. 
+             A fan of the Set Theory Clock tells of his encounter with Binninger: 
+                “Die Berlin-Uhr - Die Stunde schlägt nicht, sondern leuchtet!” 
+               (‘The Berlin Clock: The hour doesn’t toll, it lights up!’)  
+             Models of the Berlin Clock produced by Binninger and a successor company turn up now
+             and then at flea markets in Berlin and at 
+                ebay .
+             
+             A tabletop version of the Set Theory Clock is currently being manufactured by the firm 
+                ASMETEC .
+                (It’s a sure thing that the author of the Flash conversion would be happy to have their name mentioned)  
+              “Fragen und Antworten”  
+               (‘Questions and Answers’) about the Berlin Clock. 
+             
+               
+	              My work is published under the terms of the 
+	               Creative Commons 3.0 Lizenz .
+	              The Berlin Clock may be used freely for private and commercial purposes
+	              when indication of the author or a link to this website is made.
+               
+             
+            
+         
+          
+	       
+	         3Quarks » Set Theory Clock, Rüdiger Appel, September 2010 
+	       
+			
+         
+        
+       
+         
+           
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+           
+         
+         
+              
+       
+    
+  
+
+
+  

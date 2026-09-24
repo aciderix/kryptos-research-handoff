@@ -1,0 +1,110 @@
+Hey all! Here’s my file. Hope it helps…
+
+Firstly, let us examine what exactly K4 is:
+
+                           OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Now as many before me have noticed, the letters KRSOYP are plainly seen on the right hand side of the text while a T does occur on the other side. This led me to thinking that maybe after some shifting around a T will come out and all 7 letters of KRYPTOS will be seen on the same side. (But as it turns out, it may not be that T…)
+
+Now if you recall the “pen and paper” solution for K3, columns were aligned in a 1642753 or “KOPRSTY” and had to be rearranged into the proper 1234567 or “KRYPTOS” before the plaintext could be seen… 
+
+**SIDE NOTE: The transformation from KRYPTOS to KOPRSTY or KOPRSTY to KRYPTOS (Depending on what order the decoder used the numbers against the text) was interesting to me. Since 1234567 to 1642753 doesn’t coincide with anything that I could actualize, when I was solving the piece having read solution sets, I couldn’t remember for the life of me what the unarranged text was supposed to be rearranged into. I then realized a cute little play on letters if you will that helped me remember each and every time: KRYPTOS to KOPR STY (or Copper City) I’m not sure if the fact that Kryptos is punched out on copper and KOPR is supposed to tie the two together but I figured it was worth mentioning…**
+
+I found it odd that I was seeing KRSOYP and a possible T in combination with the other letters which may result in lines of text aligning with each of the 7 letters of KRYPTOS, bringing us that much closer, if not to an actual plaintext. 
+
+Well that was all nice and theoretical but I realized that this may be contrived coincidence and that I should probably look at what was given to me before I tried to sort it all out in a method that wouldn’t necessarily leave me with a reverse engineered model of K4 (which is what we are trying to do; there is a plaintext under this all, we have to figure out how what was written was manufactured from the plaintext). **Interestingly enough, if you do just happen to mess around with left and right shifts, patterns of adjoining doubles do appear. Although the parts may not be aligned properly, the patterns were too noticeable for me to not think that they were due to what is referred to over and over again as “The original matrix”-leading me to believe that I am on the correct tract but maybe a few steps off. 
+
+
+
+
+
+
+
+
+
+::Breath::
+
+Okay, well lets look at that K4 again
+                           OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+I mentioned previously that left and right shifts in the text revealed some weird coincidences. I was intrigued by these so I kept playing around with them in my head while looking for any repeats or anything that would lead me to believe that this was the right start. In this mindset, I noticed something in line 2, there are two occurrences of “SO” in the line. What if the SO that I took for granted as being the SO of kryptOS actually was a red herring? Well I have more time than life so I decided to try it (worst case scenario, nothing happens)
+                           OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+                           OBKR 
+LIFBBWFLRVQQPRNGKSSOUOXOGHULBSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+I took two nights on two possible findings assuming that this shift was a start.
+
+First night, I examined the series of double letter sequences that popped out to me (especially since plaintext English does not contain that many double letters.) Assuming that my original SO shift is correct, look at the six double letter occurrences
+                           OBKR 
+LIFBBWFLRVQQPRNGKSSOUOXOGHULBSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+If you take a line of text and cut it 6 times (one for each double) you get 7 parts- Like the 7 letters of KRYPTOS. Also, K4 is 97 characters long… 97 - 7 = 90 (7 letters in KRYPTOS) Now if you’re working with 90 letters, it would be easy to fit them into 9 rows by 10 lines or 10 rows by 9 lines. 
+ 
+Hmmm…
+
+
+
+
+
+
+
+
+
+
+The second night I admit I went a little haywire with the shifting but it was in good fun and I did come across a few more idiosyncrasies. 
+
+
+                           OBKR 
+LIFBBWFLRVQQPRNGKSSOUOXOGHULBSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+
+Has anyone noticed these patterns of intermingled palindromes in these lines? The OUOXO only is visible after a shift (as the first O in OUOXO is the O that I originally took to be the KRYP_OS on the right side.) Well I saw that if the last line was moved left 2 spaces, the letter sequences would line up like so: 	OUOXO
+UHUAU
+Let’s take a look:
+                           OBKR 
+LIFBBWFLRVQQPRNGKSSOUOXOGHULBSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+TMZFPKWGDKZXTJCDIGKUHUAUEKCARVT   ( look! The T “appeared” maybe we are							 that much closer
+
+But that still leaves us with SO instead of OS… (Not to mention that this would separate the TT double that I found the first night…) So I went back to before the shift and wrote it out backwards then shifted the OS to the right side
+                           OBKR 
+LIFBBWFLRVQQPRNGKSSOUOXOGHULBSO osbluhgoxouosskgnrpqqvrlfwbbfil
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+
+                           OBKR 
+bluhgoxouosskgnrpqqvrlfwbbfilOS
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+
+But I wanted the OXOUO and UHUAU to line up… so I made it line up through another shift:
+
+                           OBKR 
+bluhgoxouosskgnrpqqvrlfwbbfilOS
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+cdigkuhuauekcarvttmzfpkwgdkzxTJ  ( look! A different T “appeared”
+
+
+
+Here’s where I started to get sketchy… I arranged the KR,SO,YP and T to put the letters of KRYPTOS in their proper place:
+
+                           OBKR 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+cdigkuhuauekcarvttmzfpkwgdkzxTJ
+bluhgoxouosskgnrpqqvrlfwbbfilOS  Well now not only to the sequences							line up, they’re right on top of							one another 

@@ -1,0 +1,54 @@
+Edward SCheidt : I used a MASC...
+
+Mono Alphabetic Substitution Cipher
+
+
+This could point to the Ceasar encryption method in which the alphabet is shifted a number of positions.
+
+
+The numbers of K2 could be used as an indicator as in what to shift and by how many positions.
+
+Those numbers are :
+
+38 57 65 77 84 4
+
+Jim Sanborn has admitted he made an "error" in K2, the end should read XLAYERTWO.
+
+That means that XLAYERTWO is the original text that was supposed to be decoded first.
+
+In our humble opinion this was done purposely to make decoding Kryptos more difficult.
+
+In reality the numbers are : 38 57 65 77 84 42
+
+
+Take the number 38
+
+Take the first 3 letters and shift then by 8
+
+
+(x)OBK
+
+(f)WJS 8
+(e)VIR 17
+
+Take the first 8 letters and shift them by 3
+
+(x)OBKRUOX
+(a)RENUXRA 3
+(t)KXGNQKT 22
+
+
+It is clear this can be even further masked by alternating what indicates how many positions and how many times to shift them and the direction to shift them.
+
+It is our belief that some kind of repeating mechanism is used.
+
+Maybe the numbers are used sequentially from left to right and then in reverse direction or something similar.
+
+The highest number to which you can add is 39, the lowest number is 26.
+
+
+regards,
+
+01:13 21-08-2017
+
+TWO

@@ -1,0 +1,1674 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "ceramic-wesley",
+   "metadata": {},
+   "source": [
+    "# Kryptos"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "median-marsh",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P1L01='EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ'\n",
+    "P1L02='YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD'\n",
+    "P1L03='VFPJUDEEHZWETZYVGWHKKQETGFQJNCE'\n",
+    "P1L04='GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG'\n",
+    "P1L05='TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA'\n",
+    "P1L06='QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR'\n",
+    "P1L07='YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI'\n",
+    "P1L08='HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE'\n",
+    "P1L09='EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX'\n",
+    "P1L10='FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF'\n",
+    "P1L11='FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ'\n",
+    "P1L12='ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE'\n",
+    "P1L13='DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP'\n",
+    "P1L14='DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "selected-carol",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P2L01='ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA'\n",
+    "P2L02='CHTNREYULDSLLSLLNOHSNOSMRWXMNE'\n",
+    "P2L03='TPRNGATIHNRARPESLNNELEBLPIIACAE'\n",
+    "P2L04='WMTWNDITEENRAHCTENEUDRETNHAEOE'\n",
+    "P2L05='TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR'\n",
+    "P2L06='EIFTBRSPAMHHEWENATAMATEGYEERLB'\n",
+    "P2L07='TEEFOASFIOTUETUAEOTOARMAEERTNRTI'\n",
+    "P2L08='BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB'\n",
+    "P2L09='AECTDDHILCEIHSITEGOEAOSDDRYDLORIT'\n",
+    "P2L10='RKLMLEHAGTDHARDPNEOHMGFMFEUHE'\n",
+    "P2L11='ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR'\n",
+    "P2L12='UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO'\n",
+    "P2L13='TWTQSJQSSEKZZWATJKLUDIAWINFBNYP'\n",
+    "P2L14='VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "casual-status",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P3L01=' ABCDEFGHIJKLMNOPQRSTUVWXYZABCD'\n",
+    "P3L02='AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP'\n",
+    "P3L03='BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT'\n",
+    "P3L04='CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO'\n",
+    "P3L05='DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS'\n",
+    "P3L06='ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA'\n",
+    "P3L07='FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB'\n",
+    "P3L08='GSABCDEFGHIJLMNQUVWXZKRYPTOSABC'\n",
+    "P3L09='HABCDEFGHIJLMNQUVWXZKRYPTOSABCD'\n",
+    "P3L10='IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE'\n",
+    "P3L11='JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF'\n",
+    "P3L12='KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG'\n",
+    "P3L13='LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH'\n",
+    "P3L14='MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "monetary-taste",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P4L01='NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJ' # The extra L is to be interpreted a an indicator of clock hands and is an artistic element\n",
+    "P4L02='OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL'\n",
+    "P4L03='PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM'\n",
+    "P4L04='QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN'\n",
+    "P4L05='RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ'\n",
+    "P4L06='SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU'\n",
+    "P4L07='TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV'\n",
+    "P4L08='UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW'\n",
+    "P4L09='VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX'\n",
+    "P4L10='WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ'\n",
+    "P4L11='XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK'\n",
+    "P4L12='YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR'\n",
+    "P4L13='ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY'\n",
+    "P4L14=' ABCDEFGHIJKLMNOPQRSTUVWXYZABCD'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ancient-tablet",
+   "metadata": {},
+   "source": [
+    "## Solving Section I\n",
+    "The first section was solved using Vigenere with the keywords PALIMPSEST and KRYPTOS."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "thermal-staff",
+   "metadata": {},
+   "source": [
+    "\tK\tR\tY\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\n",
+    "1\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\n",
+    "2\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\n",
+    "3\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\n",
+    "4\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\n",
+    "5\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\n",
+    "6\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\n",
+    "7\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\n",
+    "8\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\tA\tB\tC\tD\n",
+    "9\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\n",
+    "10\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "assigned-export",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ\n"
+     ]
+    }
+   ],
+   "source": [
+    "keyword1=\"KRYPTOS\"\n",
+    "reference_alphabet=\"\"\n",
+    "\n",
+    "keyword2=\"PALIMPSEST\"\n",
+    "vigenere=[]\n",
+    "\n",
+    "# Populate the keyword into the alphabet\n",
+    "for i in range(0,len(keyword1)):\n",
+    "    reference_alphabet=reference_alphabet+keyword1[i]\n",
+    "for i in range(0,26):\n",
+    "    thisLetter=chr(65+i)\n",
+    "    if not thisLetter in keyword1:\n",
+    "        reference_alphabet=reference_alphabet+thisLetter\n",
+    "        \n",
+    "print(reference_alphabet)\n",
+    "        \n",
+    "# Populate the vigenere table\n",
+    "for i in range(0,len(keyword2)):\n",
+    "    thisLine=\"\"\n",
+    "    indexOfLetter=reference_alphabet.index(keyword2[i])\n",
+    "    #print(reference_alphabet[indexOfLetter])\n",
+    "    for j in range(0,26):\n",
+    "        \n",
+    "        vigIdx=(j+indexOfLetter+1)%26-1\n",
+    "        vigLetter=reference_alphabet[vigIdx]\n",
+    "        thisLine=thisLine+vigLetter\n",
+    "\n",
+    "    vigenere=vigenere+[thisLine]\n",
+    "    \n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "expanded-forge",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'TOSABCDEFGHIJLMNQUVWXZKRYP'"
+      ]
+     },
+     "execution_count": 74,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "thisLine"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "distinguished-suspension",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['PTOSABCDEFGHIJLMNQUVWXZKRY',\n",
+       " 'ABCDEFGHIJLMNQUVWXZKRYPTOS',\n",
+       " 'LMNQUVWXZKRYPTOSABCDEFGHIJ',\n",
+       " 'IJLMNQUVWXZKRYPTOSABCDEFGH',\n",
+       " 'MNQUVWXZKRYPTOSABCDEFGHIJL',\n",
+       " 'PTOSABCDEFGHIJLMNQUVWXZKRY',\n",
+       " 'SABCDEFGHIJLMNQUVWXZKRYPTO',\n",
+       " 'EFGHIJLMNQUVWXZKRYPTOSABCD',\n",
+       " 'SABCDEFGHIJLMNQUVWXZKRYPTO',\n",
+       " 'TOSABCDEFGHIJLMNQUVWXZKRYP']"
+      ]
+     },
+     "execution_count": 75,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "vigenere"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "raising-colorado",
+   "metadata": {},
+   "source": [
+    "### The table is now created so work through a decryption"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "detailed-afghanistan",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K1=P1L01 + P1L02"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "approved-netscape",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD'"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "passive-brighton",
+   "metadata": {},
+   "source": [
+    "#### Method\n",
+    "\n",
+    "The decryption starts by working through each character of the code and using the corresponfing line to find the position of the coded character.\n",
+    "\n",
+    "Cycle through the line as you go...\n",
+    "\n",
+    "Once that position is know, just look at the top line (reference_alpahbet) to find the clear text character\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "decent-brunei",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K1_cleartext=\"\"\n",
+    "for i in range(0,len(K1)):\n",
+    "    theLineInTheVigTableToUse=i%len(keyword2)\n",
+    "    vigAlphabetToUse=vigenere[theLineInTheVigTableToUse]\n",
+    "    position=vigAlphabetToUse.index(K1[i])\n",
+    "    K1_cleartext=K1_cleartext+reference_alphabet[position]\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "sacred-blowing",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION'"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K1_cleartext"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "imperial-evans",
+   "metadata": {},
+   "source": [
+    "## Solving Section 2 (orignal)\n",
+    "The second section was solved using Vigenere with the keywords ABSCISSA and KRYPTOS."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "bored-desire",
+   "metadata": {},
+   "source": [
+    "\tK\tR\tY\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\n",
+    "1\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\n",
+    "2\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\tA\n",
+    "3\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\n",
+    "4\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\tA\tB\n",
+    "5\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS\tA\tB\tC\tD\tE\tF\tG\tH\n",
+    "6\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\n",
+    "7\tS\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\n",
+    "8\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tL\tM\tN\tQ\tU\tV\tW\tX\tZ\tK\tR\tY\tP\tT\tO\tS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "interim-yorkshire",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "KRYPTOSABCDEFGHIJLMNQUVWXZ\n"
+     ]
+    }
+   ],
+   "source": [
+    "keyword1=\"KRYPTOS\"\n",
+    "reference_alphabet=\"\"\n",
+    "\n",
+    "keyword2=\"ABSCISSA\"\n",
+    "vigenere=[]\n",
+    "\n",
+    "# Populate the keyword into the alphabet\n",
+    "for i in range(0,len(keyword1)):\n",
+    "    reference_alphabet=reference_alphabet+keyword1[i]\n",
+    "for i in range(0,26):\n",
+    "    thisLetter=chr(65+i)\n",
+    "    if not thisLetter in keyword1:\n",
+    "        reference_alphabet=reference_alphabet+thisLetter\n",
+    "        \n",
+    "print(reference_alphabet)\n",
+    "        \n",
+    "# Populate the vigenere table\n",
+    "for i in range(0,len(keyword2)):\n",
+    "    thisLine=\"\"\n",
+    "    indexOfLetter=reference_alphabet.index(keyword2[i])\n",
+    "    #print(reference_alphabet[indexOfLetter])\n",
+    "    for j in range(0,26):\n",
+    "        \n",
+    "        vigIdx=(j+indexOfLetter+1)%26-1\n",
+    "        vigLetter=reference_alphabet[vigIdx]\n",
+    "        thisLine=thisLine+vigLetter\n",
+    "\n",
+    "    vigenere=vigenere+[thisLine]\n",
+    "    \n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "bright-europe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['ABCDEFGHIJLMNQUVWXZKRYPTOS',\n",
+       " 'BCDEFGHIJLMNQUVWXZKRYPTOSA',\n",
+       " 'SABCDEFGHIJLMNQUVWXZKRYPTO',\n",
+       " 'CDEFGHIJLMNQUVWXZKRYPTOSAB',\n",
+       " 'IJLMNQUVWXZKRYPTOSABCDEFGH',\n",
+       " 'SABCDEFGHIJLMNQUVWXZKRYPTO',\n",
+       " 'SABCDEFGHIJLMNQUVWXZKRYPTO',\n",
+       " 'ABCDEFGHIJLMNQUVWXZKRYPTOS']"
+      ]
+     },
+     "execution_count": 81,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "vigenere"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "reliable-pride",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K2 = P1L03 + P1L04 + P1L05 + P1L06 + P1L07 + P1L08 + P1L09 + P1L10 + P1L11 + P1L12 + P1L13 + P1L14"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "reduced-conviction",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKK?DQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVH?DWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGEWJLLAETG'"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "worldwide-current",
+   "metadata": {},
+   "source": [
+    "We need to modify the method above as there are \"?\" characters within the code - we'll just transpose them as-is"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "affiliated-physiology",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K2_cleartext=\"\"\n",
+    "dodgyOffset=0\n",
+    "for i in range(0,len(K2)):\n",
+    "    theLineInTheVigTableToUse=(i-dodgyOffset)%len(keyword2)\n",
+    "    vigAlphabetToUse=vigenere[theLineInTheVigTableToUse]\n",
+    "\n",
+    "    if K2[i] in vigAlphabetToUse:\n",
+    "        position=vigAlphabetToUse.index(K2[i])\n",
+    "        K2_cleartext = K2_cleartext + reference_alphabet[position]\n",
+    "        \n",
+    "    else:\n",
+    "        K2_cleartext = K2_cleartext + K2[i]\n",
+    "        dodgyOffset=dodgyOffset+1\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "continuing-waters",
+   "metadata": {},
+   "source": [
+    "### Solving Section 2 (Sanborn correction)\n",
+    "The second section was solved using Vigenere with the keywords ABSCISSA and KRYPTOS."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "informative-wildlife",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K2 = P1L03 + P1L04 + P1L05 + P1L06 + P1L07 + P1L08 + P1L09 + P1L10 + P1L11 + P1L12 + P1L13 + P1L14"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "according-browser",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKK?DQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVH?DWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGEWJLLAETG'"
+      ]
+     },
+     "execution_count": 86,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "painful-eight",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K2 = K2[0:len(K2)-8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "younger-teens",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKK?DQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVH?DWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGE'"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "missing-farmer",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K2 = K2 + \"Z\"+ \"WJLLAETG\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "greek-scenario",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKK?DQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVH?DWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGEZWJLLAETG'"
+      ]
+     },
+     "execution_count": 90,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "warming-horizontal",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "L SABCDEFGHIJLMNQUVWXZKRYPTO E\n",
+      "G ABCDEFGHIJLMNQUVWXZKRYPTOS S\n",
+      "E ABCDEFGHIJLMNQUVWXZKRYPTOS T\n",
+      "Z BCDEFGHIJLMNQUVWXZKRYPTOSA L\n",
+      "W SABCDEFGHIJLMNQUVWXZKRYPTO L\n",
+      "J CDEFGHIJLMNQUVWXZKRYPTOSAB A\n",
+      "L IJLMNQUVWXZKRYPTOSABCDEFGH Y\n",
+      "L SABCDEFGHIJLMNQUVWXZKRYPTO E\n",
+      "A SABCDEFGHIJLMNQUVWXZKRYPTO R\n",
+      "E ABCDEFGHIJLMNQUVWXZKRYPTOS T\n",
+      "T ABCDEFGHIJLMNQUVWXZKRYPTOS W\n",
+      "G BCDEFGHIJLMNQUVWXZKRYPTOSA O\n"
+     ]
+    }
+   ],
+   "source": [
+    "K2_cleartext=\"\"\n",
+    "dodgyOffset=0\n",
+    "for i in range(0,len(K2)):\n",
+    "    theLineInTheVigTableToUse=(i-dodgyOffset)%len(keyword2)\n",
+    "    vigAlphabetToUse=vigenere[theLineInTheVigTableToUse]\n",
+    "\n",
+    "    if K2[i] in vigAlphabetToUse:\n",
+    "        position=vigAlphabetToUse.index(K2[i])\n",
+    "        K2_cleartext = K2_cleartext + reference_alphabet[position]\n",
+    "        if i>360:\n",
+    "            print(K2[i],vigAlphabetToUse,reference_alphabet[position])\n",
+    "    else:\n",
+    "        K2_cleartext = K2_cleartext + K2[i]\n",
+    "        dodgyOffset=dodgyOffset+1\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "passing-omaha",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLE?THEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGRUUNDTOANUNKNOWNLOCATIONXDOESLANGLEYKNOWABOUTTHIS?THEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATION?ONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWESTLLAYERTWO'"
+      ]
+     },
+     "execution_count": 92,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K2_cleartext"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "killing-cricket",
+   "metadata": {},
+   "source": [
+    "## Solving Section 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "worst-cheese",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K3 = P2L01 + P2L02 + P2L03 + P2L04 + P2L05 + P2L06 + P2L07 + P2L08 + P2L09 + P2L10 + P2L11"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "acting-communication",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMTWNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEYQHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOASFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROAGRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEHAGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR'"
+      ]
+     },
+     "execution_count": 94,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "billion-cosmetic",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "48.714285714285715\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(len(K3)/7)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "id": "institutional-honey",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "336\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(48*7)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 97,
+   "id": "dimensional-reconstruction",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMTWNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEYQHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOASFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROAGRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEHAGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(K3[0:336])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "knowing-crisis",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K3=K3[0:336]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "affected-manufacturer",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMTWNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEYQHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOASFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROAGRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEHAGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW'"
+      ]
+     },
+     "execution_count": 99,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K3"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "perfect-symbol",
+   "metadata": {},
+   "source": [
+    "### Rotating Method"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "collected-garlic",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "thisTransform=[]\n",
+    "for i in range(0,336,24):\n",
+    "    thisTransform=thisTransform+[K3[i:i+24]]\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "detected-candle",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['ENDYAHROHNLSRHEOCPTEOIBI',\n",
+       " 'DYSHNAIACHTNREYULDSLLSLL',\n",
+       " 'NOHSNOSMRWXMNETPRNGATIHN',\n",
+       " 'RARPESLNNELEBLPIIACAEWMT',\n",
+       " 'WNDITEENRAHCTENEUDRETNHA',\n",
+       " 'EOETFOLSEDTIWENHAEIOYTEY',\n",
+       " 'QHEENCTAYCREIFTBRSPAMHHE',\n",
+       " 'WENATAMATEGYEERLBTEEFOAS',\n",
+       " 'FIOTUETUAEOTOARMAEERTNRT',\n",
+       " 'IBSEDDNIAAHTTMSTEWPIEROA',\n",
+       " 'GRIEWFEBAECTDDHILCEIHSIT',\n",
+       " 'EGOEAOSDDRYDLORITRKLMLEH',\n",
+       " 'AGTDHARDPNEOHMGFMFEUHEEC',\n",
+       " 'DMRIPFEIMEHNLSSTTRTVDOHW']"
+      ]
+     },
+     "execution_count": 101,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "thisTransform"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "mediterranean-verification",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "24"
+      ]
+     },
+     "execution_count": 102,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(thisTransform[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "usual-update",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ENDYAHROHNLSRHEOCPTEOIBI'"
+      ]
+     },
+     "execution_count": 103,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "thisTransform[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "swiss-suicide",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ninetyDegreeTransform=[]\n",
+    "for l in range(0,len(thisTransform[0])):\n",
+    "    thisLine=\"\"\n",
+    "    for i in range(13,-1,-1):\n",
+    "        thisLine=thisLine+thisTransform[i][l]\n",
+    "        \n",
+    "    ninetyDegreeTransform=ninetyDegreeTransform+[thisLine]\n",
+    "       "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "id": "nominated-square",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['DAEGIFWQEWRNDE',\n",
+       " 'MGGRBIEHONAOYN',\n",
+       " 'RTOISONEEDRHSD',\n",
+       " 'IDEEETAETIPSHY',\n",
+       " 'PHAWDUTNFTENNA',\n",
+       " 'FAOFDEACOESOAH',\n",
+       " 'ERSENTMTLELSIR',\n",
+       " 'IDDBIUAASNNMAO',\n",
+       " 'MPDAAATYERNRCH',\n",
+       " 'ENREAEECDAEWHN',\n",
+       " 'HEYCHOGRTHLXTL',\n",
+       " 'NODTTTYEICEMNS',\n",
+       " 'LHLDTOEIWTBNRR',\n",
+       " 'SMODMAEFEELEEH',\n",
+       " 'SGRHSRRTNNPTYE',\n",
+       " 'TFIITMLBHEIPUO',\n",
+       " 'TMTLEABRAUIRLC',\n",
+       " 'RFRCWETSEDANDP',\n",
+       " 'TEKEPEEPIRCGST',\n",
+       " 'VULIIREAOEAALE',\n",
+       " 'DHMHETFMYTETLO',\n",
+       " 'OELSRNOHTNWISI',\n",
+       " 'HEEIORAHEHMHLB',\n",
+       " 'WCHTATSEYATNLI']"
+      ]
+     },
+     "execution_count": 105,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ninetyDegreeTransform"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "residential-headline",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "reCastToLongString=\"\"\n",
+    "for l in range(0,len(ninetyDegreeTransform)):\n",
+    "    reCastToLongString=reCastToLongString+ninetyDegreeTransform[l]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "id": "armed-ground",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'DAEGIFWQEWRNDEMGGRBIEHONAOYNRTOISONEEDRHSDIDEEETAETIPSHYPHAWDUTNFTENNAFAOFDEACOESOAHERSENTMTLELSIRIDDBIUAASNNMAOMPDAAATYERNRCHENREAEECDAEWHNHEYCHOGRTHLXTLNODTTTYEICEMNSLHLDTOEIWTBNRRSMODMAEFEELEEHSGRHSRRTNNPTYETFIITMLBHEIPUOTMTLEABRAUIRLCRFRCWETSEDANDPTEKEPEEPIRCGSTVULIIREAOEAALEDHMHETFMYTETLOOELSRNOHTNWISIHEEIORAHEHMHLBWCHTATSEYATNLI'"
+      ]
+     },
+     "execution_count": 107,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reCastToLongString"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "utility-subcommittee",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "336"
+      ]
+     },
+     "execution_count": 108,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(reCastToLongString)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "id": "cutting-sheffield",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "reCastToWidthEight=[]\n",
+    "for i in range(0,336,8):\n",
+    "    reCastToWidthEight=reCastToWidthEight+[reCastToLongString[i:i+8]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "ethical-commons",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['DAEGIFWQ',\n",
+       " 'EWRNDEMG',\n",
+       " 'GRBIEHON',\n",
+       " 'AOYNRTOI',\n",
+       " 'SONEEDRH',\n",
+       " 'SDIDEEET',\n",
+       " 'AETIPSHY',\n",
+       " 'PHAWDUTN',\n",
+       " 'FTENNAFA',\n",
+       " 'OFDEACOE',\n",
+       " 'SOAHERSE',\n",
+       " 'NTMTLELS',\n",
+       " 'IRIDDBIU',\n",
+       " 'AASNNMAO',\n",
+       " 'MPDAAATY',\n",
+       " 'ERNRCHEN',\n",
+       " 'REAEECDA',\n",
+       " 'EWHNHEYC',\n",
+       " 'HOGRTHLX',\n",
+       " 'TLNODTTT',\n",
+       " 'YEICEMNS',\n",
+       " 'LHLDTOEI',\n",
+       " 'WTBNRRSM',\n",
+       " 'ODMAEFEE',\n",
+       " 'LEEHSGRH',\n",
+       " 'SRRTNNPT',\n",
+       " 'YETFIITM',\n",
+       " 'LBHEIPUO',\n",
+       " 'TMTLEABR',\n",
+       " 'AUIRLCRF',\n",
+       " 'RCWETSED',\n",
+       " 'ANDPTEKE',\n",
+       " 'PEEPIRCG',\n",
+       " 'STVULIIR',\n",
+       " 'EAOEAALE',\n",
+       " 'DHMHETFM',\n",
+       " 'YTETLOOE',\n",
+       " 'LSRNOHTN',\n",
+       " 'WISIHEEI',\n",
+       " 'ORAHEHMH',\n",
+       " 'LBWCHTAT',\n",
+       " 'SEYATNLI']"
+      ]
+     },
+     "execution_count": 110,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reCastToWidthEight"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "atmospheric-journal",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ninetyDegreeTransform=[]\n",
+    "for l in range(0,len(reCastToWidthEight[0])):\n",
+    "    thisLine=\"\"\n",
+    "    for i in range(41,-1,-1):\n",
+    "        thisLine=thisLine+reCastToWidthEight[i][l]\n",
+    "        \n",
+    "    ninetyDegreeTransform=ninetyDegreeTransform+[thisLine]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "typical-trouble",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPASSAGED',\n",
+       " 'EBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWA',\n",
+       " 'YWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBRE',\n",
+       " 'ACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENING',\n",
+       " 'THEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDI',\n",
+       " 'NTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEF',\n",
+       " 'LAMETOFLICKERBUTPRESENTLYDETAILSOFTHEROOMW',\n",
+       " 'ITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ']"
+      ]
+     },
+     "execution_count": 112,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ninetyDegreeTransform"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "precious-variance",
+   "metadata": {},
+   "source": [
+    "# Choacipher Primer"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "popular-forty",
+   "metadata": {},
+   "source": [
+    "\n",
+    "\n",
+    "In the figure above is a colour-coded version of the Chaocipher rings with shuffled plain-text and cipher-text alphabets. The alphabets are initially in a random order. The figure shows the steps involved in enciphering the symbol P.\n",
+    "\n",
+    "Find the plain-text symbol, P, on the inner ring and encipher it to the corresponding cipher-text symbol on the outer ring, C.\n",
+    "\n",
+    "Rotate the rings simultaneously so that P and C are at the zenith—the top of the rings indicated by ▲.\n",
+    "\n",
+    "Permute the rings according to the pattern indicated by the colours. Note that\n",
+    "one entry from each of the alphabets is moved to the bottom of the rings, which is known as the nadir (▼);\n",
+    "\n",
+    "the yellow and green sections remain stationary relative to one another; and\n",
+    "the red and pink sections are each offset by 1 relative to the yellow and green sections, but in opposite directions.\n",
+    "\n",
+    "All subsequent symbols are enciphered in the same way, but now starting from the permuted alphabets. Deciphering a text follows exactly the same pattern—starting from the same initial alphabet, locate the cipher-text symbol on the outer ring, decode it to the plain-text symbol on the inner ring, and permute the rings in the same manner as above."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "naked-canada",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def nonMutableClearLookup(ct, pt, pt_char):\n",
+    "    ct_char=None\n",
+    "    for i in range(0,len(pt)):\n",
+    "        pos=-1\n",
+    "        if pt_char==pt[i]:\n",
+    "            pos=i\n",
+    "            ct_char=ct[i]\n",
+    "            break\n",
+    "    if not pos==-1:\n",
+    "        rotated_ct=ct[pos:] + ct[:pos]\n",
+    "        rotated_pt=pt[pos:] + pt[:pos]\n",
+    "    else:\n",
+    "        rotated_ct=ct\n",
+    "        rotated_pt=pt\n",
+    "    return rotated_ct,rotated_pt,ct_char"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "brief-harris",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def nonMutableCodeLookup(ct, pt, ct_char):\n",
+    "    pt_char=None\n",
+    "    for i in range(0,len(ct)):\n",
+    "        pos=-1\n",
+    "        if ct_char==ct[i]:\n",
+    "            pos=i\n",
+    "            pt_char=pt[i]\n",
+    "            break\n",
+    "    if not pos==-1:\n",
+    "        rotated_ct=ct[pos:] + ct[:pos]\n",
+    "        rotated_pt=pt[pos:] + pt[:pos]\n",
+    "    else:\n",
+    "        rotated_ct=ct\n",
+    "        rotated_pt=pt\n",
+    "    return rotated_ct,rotated_pt,pt_char"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "incident-copper",
+   "metadata": {},
+   "source": [
+    "## Start here for PDF walk through"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "adapted-acquisition",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "OUTER_CIPHER_WHEEL='HXUCZVAMDSLKPEFJRIGTWOBNYQ'\n",
+    "INNER_CLEAR_WHEEL= 'PTLNBQDEOYSFAVZKGJRIHWXUMC'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "interracial-wealth",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ct=[]\n",
+    "pt=[]\n",
+    "for i in range(0,len(OUTER_CIPHER_WHEEL)):\n",
+    "    ct=ct+[OUTER_CIPHER_WHEEL[i]]\n",
+    "    pt=pt+[INNER_CLEAR_WHEEL[i]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "russian-treatment",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'P'"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "[ct,pt,ct_char]=nonMutableClearLookup(ct, pt, 'A')\n",
+    "ct_char"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "romantic-lesson",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['P', 'E', 'F', 'J', 'R', 'I', 'G', 'T', 'W', 'O', 'B', 'N', 'Y', 'Q', 'H', 'X', 'U', 'C', 'Z', 'V', 'A', 'M', 'D', 'S', 'L', 'K']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(ct)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "earlier-arrangement",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['A', 'V', 'Z', 'K', 'G', 'J', 'R', 'I', 'H', 'W', 'X', 'U', 'M', 'C', 'P', 'T', 'L', 'N', 'B', 'Q', 'D', 'E', 'O', 'Y', 'S', 'F']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(pt)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "apparent-roulette",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def mutableForward(ct, pt):\n",
+    "    \n",
+    "    # The nonMutableLookup precoceeding this must have found no entries and the wheels are unchanged - current pos is always zero/zenith.\n",
+    "    mutated_ct=[]\n",
+    "    mutated_pt=[]\n",
+    "    \n",
+    "    # Mutate my mate\n",
+    "    mutated_ct=[ct[0]]+ct[2:14]+[ct[1]]+ct[14:] \n",
+    "    \n",
+    "    # Now shift the entire alphabet one more position to the left (i.e., the leftmost letter moves cyclically to the far right), moving a new letter into the zenith position.\n",
+    "    mutated_pt=pt[1:]+[pt[0]]\n",
+    "    \n",
+    "    # Extract the letter at position zenith+2, taking it out of the alphabet, temporarily leaving an unfilled ‘hole’.\n",
+    "    # Shift all letters beginning with zenith+3 up to, and including, the nadir (zenith+13), moving them one position to the left.\n",
+    "    # Insert the just-extracted letter into the nadir position (zenith+13).\n",
+    "    mutated_pt=mutated_pt[0:2]+mutated_pt[3:14]+[mutated_pt[2]]+mutated_pt[14:]\n",
+    "    \n",
+    "    \n",
+    "    return mutated_ct,mutated_pt"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "atlantic-merchandise",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "[ct,pt]=mutableForward(ct, pt)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "coordinated-sierra",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['P', 'F', 'J', 'R', 'I', 'G', 'T', 'W', 'O', 'B', 'N', 'Y', 'Q', 'E', 'H', 'X', 'U', 'C', 'Z', 'V', 'A', 'M', 'D', 'S', 'L', 'K']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(ct)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "surprising-irrigation",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['V', 'Z', 'G', 'J', 'R', 'I', 'H', 'W', 'X', 'U', 'M', 'C', 'P', 'K', 'T', 'L', 'N', 'B', 'Q', 'D', 'E', 'O', 'Y', 'S', 'F', 'A']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(pt)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "detailed-publication",
+   "metadata": {},
+   "source": [
+    "At this point we have two newly permuted left and right alphabets:\n",
+    "+*\n",
+    "LEFT (ct): PFJRIGTWOBNYQEHXUCZVAMDSLK\n",
+    "RIGHT (pt): VZGJRIHWXUMCPKTLNBQDEOYSFA"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "intellectual-dublin",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'PFJRIGTWOBNYQEHXUCZVAMDSLK'=='PFJRIGTWOBNYQEHXUCZVAMDSLK'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "shaped-seeking",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'VZGJRIHWXUMCPKTLNBQDEOYSFA'=='VZGJRIHWXUMCPKTLNBQDEOYSFA'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "minimal-working",
+   "metadata": {},
+   "source": [
+    "### Just a Straight Encrypt an Decrypt"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "ready-nation",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "HDJHISUHBK\n"
+     ]
+    }
+   ],
+   "source": [
+    "OUTER_CIPHER_WHEEL='ABCDEFGHIJKLMNOPQRSTUVWXYZ'\n",
+    "INNER_CLEAR_WHEEL= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\n",
+    "\n",
+    "ct=[]\n",
+    "pt=[]\n",
+    "for i in range(0,len(OUTER_CIPHER_WHEEL)):\n",
+    "    ct=ct+[OUTER_CIPHER_WHEEL[i]]\n",
+    "    pt=pt+[INNER_CLEAR_WHEEL[i]]\n",
+    "    \n",
+    "clearText=\"HELLOWORLD\"\n",
+    "codeText=\"\"\n",
+    "for i in range(0,len(clearText)):\n",
+    "    [ct,pt,ct_char]=nonMutableClearLookup(ct, pt, clearText[i])\n",
+    "    [ct,pt]=mutableForward(ct, pt)\n",
+    "    codeText=codeText+ct_char\n",
+    "    \n",
+    "print(codeText)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "spanish-serum",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "HELLOWORLD\n"
+     ]
+    }
+   ],
+   "source": [
+    "OUTER_CIPHER_WHEEL='ABCDEFGHIJKLMNOPQRSTUVWXYZ'\n",
+    "INNER_CLEAR_WHEEL= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\n",
+    "\n",
+    "ct=[]\n",
+    "pt=[]\n",
+    "for i in range(0,len(OUTER_CIPHER_WHEEL)):\n",
+    "    ct=ct+[OUTER_CIPHER_WHEEL[i]]\n",
+    "    pt=pt+[INNER_CLEAR_WHEEL[i]]\n",
+    "    \n",
+    "clearText=\"\"\n",
+    "codeText=\"HDJHISUHBK\"\n",
+    "for i in range(0,len(codeText)):\n",
+    "    [ct,pt,pt_char]=nonMutableCodeLookup(ct, pt, codeText[i])\n",
+    "    [ct,pt]=mutableForward(ct, pt)\n",
+    "    clearText=clearText+pt_char\n",
+    "    \n",
+    "print(clearText)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "advanced-proxy",
+   "metadata": {},
+   "source": [
+    "### KRYPTOS GUESS ALPHABETS AND KEY"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "charged-approval",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4_CODED='OBKRUOXOGHULBSOLIFBBW'+'FLRV'+'QQPRNGKSS'+'OTWTQSJQSSEKZZWATJKLUDIAWINFB'+'NYPVTT'+'MZFPK'+'WGDKZXTJCDIGKUHUAUEKCAR'\n",
+    "K4_CLEAR='.....................'+'EAST'+'NORTHEAST'+'.............................'+'BERLIN'+'CLOCK'+'.......................'\n",
+    "K4_SOLVED='.....................'+'EAST'+'NORTHEAST'+'.............................'+'BERLIN'+'CLOCK'+'.......................'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 152,
+   "id": "located-english",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['K', 'R', 'Y', 'P', 'T', 'O', 'S', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'Q', 'U', 'V', 'W', 'X', 'Z']\n",
+      "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'Q', 'U', 'V', 'W', 'X', 'Z', 'K', 'R', 'Y', 'P', 'T', 'O', 'S']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Setup initial CT/PT alphabets\n",
+    "\n",
+    "# KA - Egyption Soul\n",
+    "# K4 index of coincidence suggested only 2 alphabets and a 5 or 7 letter keyword\n",
+    "\n",
+    "OUTER_CIPHER_WHEEL='KRYPTOSABCDEFGHIJLMNQUVWXZ'\n",
+    "\n",
+    "INNER_CLEAR_WHEEL= 'ABCDEFGHIJLMNQUVWXZKRYPTOS'\n",
+    "\n",
+    "ct=[]\n",
+    "pt=[]\n",
+    "for i in range(0,len(OUTER_CIPHER_WHEEL)):\n",
+    "    ct=ct+[OUTER_CIPHER_WHEEL[i]]\n",
+    "    #pt=pt+[OUTER_CIPHER_WHEEL[len(OUTER_CIPHER_WHEEL)-i-1]]\n",
+    "    pt=pt+[INNER_CLEAR_WHEEL[i]]\n",
+    "    \n",
+    "print(ct)\n",
+    "print(pt)\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 149,
+   "id": "oriented-photography",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['L', 'W', 'X', 'Z', 'K', 'R', 'Y', 'P', 'T', 'O', 'U', 'V', 'N', 'M', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'Q', 'S', 'J']\n",
+      "['B', 'D', 'F', 'G', 'H', 'P', 'I', 'O', 'A', 'L', 'C', 'N', 'Q', 'E', 'U', 'V', 'W', 'X', 'Z', 'K', 'J', 'R', 'M', 'Y', 'T', 'S']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Initiate with keyword - Optional\n",
+    "\n",
+    "text='TWODONKEYS' # The majority of Howard Carters diary entries, including Sanborn's birthday\n",
+    "text='DONDON'\n",
+    "text='KRYPTOS'\n",
+    "#text=\"WONDERFULTHINGS\"\n",
+    "#text=\"LORDCARNARVON\"\n",
+    "#text=\"HOWARDCARTER\"\n",
+    "#text=\"TUTANKHAMUN\"\n",
+    "\n",
+    "newText=\"\"\n",
+    "for i in range(0,len(text)):\n",
+    "    [ct,pt,pt_char]=nonMutableClearLookup(ct, pt, text[i])\n",
+    "    [ct,pt]=mutableForward(ct, pt)\n",
+    "    newText=newText+pt_char\n",
+    "    \n",
+    "print(ct)\n",
+    "print(pt)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 153,
+   "id": "outdoor-psychology",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "text=K4_CODED\n",
+    "K4_SOLVED=\"\"\n",
+    "\n",
+    "for i in range(0,len(text)):\n",
+    "    [ct,pt,pt_char]=nonMutableCodeLookup(ct, pt, text[i])\n",
+    "    [ct,pt]=mutableForward(ct, pt)\n",
+    "    K4_SOLVED=K4_SOLVED+pt_char"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 154,
+   "id": "cordless-divorce",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'FJCFSMEUHYPXDDIEBAVYPMOOLZPLGESXCFHFSGZTYIDLGEXNIFKVSHTDPOGEWOKZZGNYQTMOLIUYUBLIQLXZHGQCIBKPBZQWQ'"
+      ]
+     },
+     "execution_count": 154,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "K4_SOLVED"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 155,
+   "id": "obvious-confusion",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def k4_score(k4):\n",
+    "    score=0\n",
+    "    for i in range(0,len(K4_CLEAR)):\n",
+    "        if k4[i]==K4_CLEAR[i]:\n",
+    "            score += 1\n",
+    "    return score/24"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 156,
+   "id": "peaceful-dairy",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.041666666666666664\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(k4_score(K4_SOLVED))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "surprised-liechtenstein",
+   "metadata": {},
+   "source": [
+    "### End of this Workbook - Mike O'Neill 2021"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "labeled-peninsula",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

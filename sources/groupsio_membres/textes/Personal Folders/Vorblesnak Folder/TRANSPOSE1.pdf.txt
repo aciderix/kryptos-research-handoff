@@ -1,0 +1,187 @@
+[[page 1]]
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+O
+T
+W
+T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+W
+A
+T
+J
+K
+L
+U
+D
+I
+A
+W
+I
+N
+F
+B
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+W
+G
+D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U
+H
+U
+A
+U
+E
+K
+C
+A
+R
+0
+B
+S
+Q
+T
+A
+F
+K G
+K O Q Q
+T
+B W K
+R
+L
+P
+S
+J
+N G U
+U
+I
+R
+J
+K Y D H
+O
+F
+N Q
+L
+P
+K U
+X
+B
+G
+S
+U V
+Z
+A
+O
+B
+K
+S
+D
+T
+X U
+G W S
+E
+I
+T
+T
+E
+H
+F
+S
+K A M
+J
+K
+U
+L
+O
+Z W Z
+C
+C
+L
+R
+T
+Z
+I
+F
+D A
+B
+V W W N
+P
+I
+R
+0
+Playing with a transpose idea.  97 is a prime number as is 31, (the length of the last three rows), but that
+could be for aesthetic purposes.  It is a piece of art.  96 however has a number of factors and only 
+requires a null to give 97 characters.  I chose an 8 by 12 table.  Now how to build it.  I suspect the 
+finished cipher was taken off in columns.  The Berlin Clock clue suggests the table be built from the 
+bottom, last cipher letter in the bottom right hand corner.  Now this a transposed table as I have no idea 
+which column should be where to show the keyword but this is how I think they were taken off.
+Some interesting things to notice here.  Common letters, as an example Q, or B, maybe U, have 8 
+characters or multiples of 8 between them in the same column.  This could be coincidence but suggests 
+to me that the key has 8 letters.  That means the Q in line 1 and the Q in line 2 are the same letter, same 
+alphabet.  The pair of Qs in line 2 are probably a common 2 letter sequence, like ed or st.  Notice the 
+first 4 letters, OBKR, start the first column.  But look at row 7.  I see OBK are the first 3 letters and the 
+4th letter is one letter further; OBKR  OBKS.  I don't know what that means.
+LAID OUT AS A BLOCK OF TEXT
+BSQTAFKGKOQQTBWKRLPSJNGUUIRJKYDHOFNQLPKUXB
+GSUVZAOBKSDTXUGWSEITTEHFSKAMJKULOZWZCCLRTZ
+IFDABVWWNPIR

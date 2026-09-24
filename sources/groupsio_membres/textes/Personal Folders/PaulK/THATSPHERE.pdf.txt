@@ -1,0 +1,104 @@
+[[page 1]]
+NYPVTT
+O B K R U O X 
+O G H U L B S 
+O L I F B B W 
+F L R V Q Q P 
+R N G K S S O 
+T W T Q S J Q 
+S S E K Z Z W 
+A T J K L U D 
+I A W I N F B 
+N Y P V T T M 
+Z F P K W G D 
+K Z X T J C D 
+I G K U H U A 
+U E K C A R  
+? O B K R U O
+X O G H U L B 
+S O L I F B B 
+W F L R V Q Q 
+P R N G K S S 
+O T W T Q S J 
+Q S S E K Z Z 
+W A T J K L U 
+D I A W I N F 
+B N Y P V T T 
+M Z F P K W G 
+D K Z X T J C 
+D I G K U H U 
+A U E K C A R
+Part of Reagan’s speech in West Berlin:
+EVEN TODAY WHEN THE SUN STRIKES THAT SPHERE THAT SPHERE THAT TOWERS OVER ALL BERLIN THE LIGHT MAKES THE SIGN OF THE CROSS
+If you run the letters together, 
+EVENTODAYWHENTHESUNSTRIKESTHATSPHERETHATSPHERETHATTOWERSOVERALLBERLINTHELIGHTMAKESTHESIGNOFTHECROSS.
+there are some striking similarities to the K4 CT, which (after changing NYPVTT to BERLIN)is
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINMZFPKWGDKZXTJCDIGKUHUAUEKCAR.
+Lined up together, they appear as
+EVENTODAYWHENTHESUNSTRIKESTHATSPHERETHATSPHERETHATTOWERSOVERALLBERLINTHELIGHTMAKESTHESIGNOFTHECROSS
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINMZFPKWGDKZXTJCDIGKUHUAUEKCAR.
+Before doing anything else, something must be done to the Reagan quote. The word THE which follows MAKE is changed to A. 
+The reason for this is that the expression should be MAKES A SIGN, not MAKES THE SIGN, as in Christian traditions such as 
+the Catholic one. Making that change gives
+EVENTODAYWHENTHESUNSTRIKESTHATSPHERETHATSPHERETHATTOWERSOVERALLBERLINTHELIGHTMAKESASIGNOFTHECROSS
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBBERLINMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+Quickly, we see that BERLIN lines up with BERLIN. We also see other matches. The ones standing out the most are HE in both
+SPHEREs lining up with SSes, the IGs that line up 13th and 12th from the ends and the Os and Ts. The other colored boxes 
+show two or more match-ups. Notice in the Reagan quote: ...DAY WHEN THE SUN... seems to correspond with ...SUNSHINY DAY in 
+the song lyrics. Also (and, without going into the details as to why), SOV (which is a version of SOL), lies over DIA 
+(DAY). Also, THE SUN lies over SOL 14 letters from the beginning. Notice Sanborn’s initials merge at position 41.
+Paul Kiesel
+11/16/2020
+THATSPHERE.PDF
+Though Sanborn did not assign
+a number to it, he did indicate
+more than once that the question
+mark is part of K4, so we need
+to keep that in mind.
+JS: It brings attention. It has a very wide audience. I wear several hats. I do museum and gallery installations, and I also do these 
+public art projects. And so it's somewhat rare that things overlap, and this piece has gone into the public mind and become more of 
+a public issue than perhaps a high art issue, and I think that increasing that audience is a good thing for art in general. 
+ 
+THATSPHERE
+THATSPHERE
+THATTOWERS
+
+[[page 2]]
+EVENTODAYWHENTHESUNSTRIKESTHATSPHERETHATSPHERETHATTOWERSOVERALLBERLINTHELIGHTMAKESASIGNOFTHECROSS
+Notice that THATSPHERETHATSPHERETHAT repeats in the Reagan quote. This suggests that THATSPHERE is
+a keyword. Lining the string up with the proposed keyword we get
+EVENTODAYWHENTHESUNSTRIKESTHATSPHERETHATSPHERETHATTOWERSOVERALLBERLINTHELIGHTMAKESASIGNOFTHECROSS
+SPHERETHATSPHERETHATSPHERETHATSPHERETHATSPHERETHATSPHERETHATSPHERETHATSPHERETHATSPHERETHATSPHERET
+A quick look gets us some vertical line-ups and some diagonal line-ups, as well. We sense that there
+is a deﬁnite relationship here. 
+We notice that THATSPHERE has 10 characters. We know that there is a known keyword that also has 10
+characters. It’s PALIMPSEST. We also notice that they share AEHPST and don’t share ILMR. We also 
+note that THATSPHERE has H and H with a separation of 5, T and T with a separation of 3, E and E 
+with a separation of 2. PALIMPSEST has P and P with a separation of 5, S and S with a separation of
+2. We place them over each other
+THATSPHERE
+ PALIMPSEST
+We see that the Hes in THATSPHERE lie over the Ps in PALIMPSEST and the Es in THATSPHERE lie over the 
+Ses in PALIMPSEST. The As lie one over the other. This is a strong indicator that PALIMPSEST is a related 
+keyword. Notice, also, that T begins THATSPHERE and T ends PALIMPSEST, which means Ts would line up 
+vertically should we string both keywords out, so PALIMPSEST is a prime candidate.
+THATSPHERETHATSPHERETHATSPHERET
+TPALIMPSESTPALIMPSESTPALIMPSEST
+Now, let’s compare PALIMPSEST with K4 CT. We notice immediately that the ﬁrst and second Ps in
+PALIMPSEST align with Os in the K4 CT.
+TPALIMPSESTPALIMPSESTPALIMPSESTPALIMPSESTPALIMPSESTPALIMPSESTPALIMPSESTPALIMPSESTPALIMPSESTPALIMPS
+?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+Studying this further, we look at the match-ups for all letters in PALIMPSEST. Note, letters in boxes
+are repeats of matchups. Also note, there are no repeat matches for PALIMPSEST letter T:
+The above contributes strongly to the argument that K4 CT is related to the Berlin speech and that both
+are related to PALIMPSEST. This indicates that K4 CT can be manipulated using keywords.
+P    O O U L W Q G T J K T D N P Z G T G A A (Interval = 5)
+S1   X   I   Q   W   Z   I   V   D   K   R   (Interval = 10)
+S2     G   B   R   Q   W   W   T   Z   H     (Interval = 10)
+S*   X G I B Q R W Q Z W I W V T D Z K H R   (Interval 2-8-2-8...)
+A    B   L   F   K   Q   J   F   F   J   U   (Interval = 10)
+L    K  B  L  S  S  K  B  P  C  E  (Interval = 10)
+I    R  S  R  S  S  L  N  K  D  K  (Interval = 10)
+M    U  O  V  O  E  U  Y  W  I  C  (Interval = 10)
+E    O  F  P  T  Z  A  T  K  U     (Interval = 10)
+T    ?  H  B  N  S  A  I  M  X  U  (Interval = 10)

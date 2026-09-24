@@ -1,0 +1,114 @@
+[[page 1]]
+generalized_hill_cipher (w/ nice playfair, w/ nice binary)  
+S1 derive structure of non-square matrix from berlin clock
+1 = uO                                   O = circle          u = yellow
+2 = nW nW nW nW                          W = square          n = red
+3 = nW nW nW nW                          V = rectangle           
+4 = uV uV nV uV uV nV uV uV nV uV uV
+5 = uW uW uW uW
+-------------------------------------------------------------------------------
+step 1 {substitute uO -> nV}            |step 3 {transpose 3 <-> 4}&
+                                        |       {wrap 4 to width 3}           
+  1 nV                                  |
+  2 nW nW nW nW                         |  1 nW nW nW nW    4 uV uV nV
+  3 nW nW nW nW                         |  2 nW nW nW nW    5 uV uV nV          
+  4 uV uV nV uV uV nV uV uV nV uV uV    |  3 uW uW uW uW    6 uV uV nV
+  5 uW uW uW uW                         |                   7 uV uV nV
+-------------------------------------------------------------------------------
+step 2 {concatinate 4 -> 4 1}           |step 4 {partition 123 into matrix B}&
+                                        |       {partition 4567 into matrix E}
+  1 nW nW nW nW                         |                                       
+  2 nW nW nW nW                         |     B                E
+  3 uV uV nV uV uV nV uV uV nV uV uV nV |     | nW nW nW nW |  | uV uV nV |     
+  4 uW uW uW uW                         |     | nW nW nW nW |  | uV uV nV |     
+                                        |     | uW uW uW uW |  | uV uV nV |
+                                        |                      | uV uV nV |
+-------------------------------------------------------------------------------
+B=Substitute(E^T,{u->n, V->W})           ^T is MatrixTranspose
+E=Substitute(B^T,{n->u, W->V})
+S2 derive the structure of the functions
+nW*x = (noW)(x) = W(n(x))    n = u^-1    n,u,W,V are functions
+uW*x = (uoW)(x) = W(u(x))    u = n^-1    ^-1 is function inverse
+nV*x = (noV)(x) = V(n(x))    W = V^-1    o is function composition
+uV*x = (uoV)(x) = V(u(x))    V = W^-1    x is any string
+S3 derive the structure of the input and output of the functions
+plaintext    P3 = | P31 P32 P33 |               P4 = | P41 P42 P43 P44 |
+ciphertext   C3 = | C31 C32 C33 |               C4 = | C41 C42 C43 c44 |
+             3 strings of 32 characters each    4 strings of 24 characters each
+for example, we can define these c3 and c4 explicitly by partitioning k4 into
+12 equal pieces of 8 characters each in four ways by removing singleton
+characters M or Y or both. For "Y" there are 64 characters to the left and
+32 characters to the right. For "M" the divisions are different. see *page2
+there are two characters whose count is 1 in k4: Y and M, if Y or M is removed,
+the ct has 96 characters and 25 different characters like 1-1 perfect playfair 
+if both y and m are removed there are 24 different characters in k4, so it can
+be converted into 5bit perfect binary 1-1 mirror 1-1 complement see *page2
+S4 define the structure of the relation from the ct to pt
+                                                                                
+the relation is only one of the four maps:                                      
+                                                                                
+1 B.C4^T=>P3^T   3 B.P4^T=>C3^T     . is Matrix*    A must havegeneralized ^-1  
+2 E.C3^T=>P4^T   4 E.P3^T=>C4^T     A is (B or E)   A^-1 (Ax=b=>AA^-1b=b)       
+
+[[page 2]]
+*ex
+------------------------------------------------------------
+              grid y                    c31 = OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGK
+                                        c32 = SSOTWTQSJQSSEKZZWATJKLUDIAWINFBN
+OBKRUOXO GHULBSOL IFBBWFLR VQQPRNGK     c33 = PVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+                                                                              
+SSOTWTQS JQSSEKZZ WATJKLUD IAWINFBN [Y] C41 = OBKRUOXOSSOTWTQSPVTTMZFP        
+                                        C42 = GHULBSOLJQSSEKZZKWGDKZXT        
+PVTTMZFP KWGDKZXT JCDIGKUH UAUEKCAR     C43 = IFBBWFLRWATJKLUDJCDIGKUH
+                                        c44 = VQQPRNGKIAWINFBNUAUEKCAR
+            grid m
+                
+       O B K      W A T                 c31 = ORXHBLBFVPGSWSSKWJUANNVZKDXCGHUC
+       R U O      J K L                 c32 = BUOUSIBLQRKOTJSZAKDWFYTFWKTDKUEA
+       X O G      U D I                 c33 = KOGLOFWRQNSTQQEZTLIIBPTPGZJIUAKR
+       H U L      A W I                                                       
+       B S O      N F B                 c41 = OBKRUOXOGHULBSOLIFBBWFLR
+       L I F      N Y P                 c42 = VQQPRNGKSSOTWTQSJQSSEKZZ        
+       B B W      V T T [M]             c43 = WATJKLUDIAWINFBNYPVTTZFP        
+       F L R      Z F P                 c44 = KWGDKZXTJCDIGKUHUAUEKCAR
+               
+       V Q Q      K W G          there are many other possiblities within
+       P R N      D K Z          these grids, such as rotations, here is one:
+       G K S      X T J                              
+       S O T      C D I                 c41 = ORXHBLBFBUOUSIBLKOGLOFWR
+       W T Q      G K U                 c42 = VPGSWSSKQRKOTJSZQNSTQQEZ 
+       S J Q      H U A                 c43 = WJUANNVZAKDWFYTFTLIIBPTP 
+       S S E      U E K                 c44 = KDXCGHUCWKTDKUEAGZJIUAKR 
+       K Z Z      C A R
+                                                            1-1 playfair
+grid m y                                                  no y         no m
+                                                        K R P T O    K R Y P T
+OBKRUOXOGHULBSOLIFB                                     S A B C D    O S A B C
+BWFLRVQQPRNGKSSOTWT                                     E F G H I    D E F G H
+QSJQSSEKZZWATJKLUDI                                     J L M N Q    I J L N Q
+AWINFBNPVTTZFPKWGDK                                     U V W X Z    U V W X Z
+ZXTJCDIGKUHUAUEKCAR
+   24->2^5 perfect binary 1-1 distinct mirror 1-1 distinct complement
+bit     |                                               shift from center
+ # bit  |        2              0            1
+AB t AB |     +                           +             direction
+        |            -                           -
+                                                       ------------------
+     01   K 00011--11000 A    01110   G 00110--01100 Q |
+   1          |      |          |         |      |     |
+     10   R 11100--00111 B    10001   H 11001--10011 U |
+32                                                     |
+     01   P 00101--10100 C    01010   I 01001--10010 V |    |  complement
+   2          |      |          |         |      |     |
+     10   T 11010--01011 D    10101   J 10110--01101 W |   --  mirror
+                                                       |
+     01   O 00001--10000 E    00100   L 00010--01000 X |
+41 1          |      |          |         |      |     |
+     10   S 11110--01111 F    11011   N 11101--10111 Z |
+                                                       |
+     01                       00000                    |
+50 1                            |                      |
+     10                       11111                    |
+            
+ * center not used, for shifts 2+ is inverse with 1+
+                           and 2- is inverse with 1-                        

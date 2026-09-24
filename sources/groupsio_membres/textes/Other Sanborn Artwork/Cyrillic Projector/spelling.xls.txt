@@ -1,0 +1,115 @@
+Elonka Dunin                                                                                                 B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+"L."\ #,##0;\-"L."\ #,##0
+"L."\ #,##0;[Red]\-"L."\ #,##0
+"L."\ #,##0.00;\-"L."\ #,##0.00
+"L."\ #,##0.00;[Red]\-"L."\ #,##0.00
+_-"L."\ * #,##0_-;\-"L."\ * #,##0_-;_-"L."\ * "-"_-;_-@_-
+_-* #,##0_-;\-* #,##0_-;_-* "-"_-;_-@_-
+_-"L."\ * #,##0.00_-;\-"L."\ * #,##0.00_-;_-"L."\ * "-"??_-;_-@_-
+_-* #,##0.00_-;\-* #,##0.00_-;_-* "-"??_-;_-@_-
+Foglio1
+ciphertext
+plaintext
+table:
+Orange letters on the right are current decrypted plaintext, and on the left are what we (Elonka & Anatoly) think that the plaintext *should* be to be spelled correctly.
+This set indicates the result of decrypting with the keyword shifted by three characters (this same result could be accomplished by inserting three null characters).
+MEDUSA line greyed outJ
+The extra colors here are for clarity, since line 84 had two errors on it.
+Yellow letters are transcribed ciphertext as of 6/18/2003, and then what I (Elonka) think that the ciphertext *should* be to get rid of a spelling error 
+Beginning of ciphertext panel #2
+MbP?_
+&CCyrillic Projector
+Page &P of &N
+The Cyrillic Projector - Elonka Dunin's Transcript
+Ferdinando Stehle
+Original spreadsheet created by Ferdinando Stehle.  Modifications made by Elonka Dunin, 9/2003
+Elonka Dunin
+Microsoft Excel
+Foglio1
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial
+hp deskjet 3320 series
+Arial
+\\ELONKA1\hp deskjet 3320 series,LocalOnly,DrvConvert
+)))))
+')))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+&))))))+
+))))))
+ &))))))+
+&&&&&&&&#
+''''' 
+'''''' 
+'''''' 
+'''''' 
+11111 
+111111 
+111111 
+111111 
+ &&&&'''''')
+''''''''''')
+''''''''''')
+''''''''''')
+''''''''''')
+col 1
+col.2
+col.3
+col.4
+col.5
+col.6
+ &+\_
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

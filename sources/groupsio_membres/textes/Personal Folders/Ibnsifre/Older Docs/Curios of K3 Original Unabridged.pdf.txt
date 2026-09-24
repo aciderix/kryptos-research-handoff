@@ -1,0 +1,442 @@
+[[page 1]]
+A Note: The first posted version of this file was an abridged version - this is the original, to have been posted as 7 
+messages, with some corrections made for grammar and typeface.
+June, 26, 2013
+Bismillahi Ar-Rahmani Ar-Raheem
+"The reward of deeds depends upon the intentions and every person will get the reward according to what he has 
+intended.",
+- Muhammad (S), the Messenger of Allah,
+From the first Hadith of Sahih Bukhari
+ 
+To The Kryptos Yahoo Users Group, 
+     I'm aware that many have been searching for a solution to the K4 section.  However, have you ever wondered 
+about K3.   What is it about?  How does it relate to the first two sections?  It's about finding a long lost tomb. 
+ What does that have to do with Intelligence, Communications, Information Gathering, or any other discipline of 
+spycraft? 
+Maybe Nothing.
+    In the first two sections, K1 and K2, Jim Sanborn, Kyptos' creator, used a Vigenère cipher to encrypt their 
+messages.  Those required some amount of skill to decipher.  However, the third section, K3, was encoded using 
+letter transposition.  Although they can be a bit maddening to work out, it was a much simpler technique.
+    A Vigenère cipher's weakness is correlated to the length and predictability of its key word.  The longer and less 
+predictable the key word, the harder it is to break the cipher.  What would make the best key?  It would be a key at 
+least the same length as the message it encodes, and it would be chosen to be no more predicable than any other 
+key its length - that is, chosen in a completely random way.
+    When using a key of this type, the cipher is known as a "one-time pad".  As long as the key is kept secret by its 
+users and only used to encrypt a single message, the ciphertext cannot be cracked.
+    What if K4 is encrypted using a one-time pad?  As I remember, the builders of the pyramids of Ancient Egypt 
+would build two chambers.  One path, the direct one, would lead to a false chamber containing nothing of value as 
+to deceive the tomb raiders.  The other, off to the side from the direct one, would lead to the pharaoh's resting place 
+- and to his treasure.
+   What if the decipherment of K3 is really a false chamber - and the key to K4 is hidden in the ciphertext of K3?
+ 
+- Ibn Şifre 
+SUMHGGJ
+part 1 of  7
+--------------------------------------------
+Bismillahi Al Bari 
+"I think we've got something, sir.  
+The report is only a fragment, from a probe droid in the Hoth System, 
+but it's the best lead we've had."
+...
+"You've found something?"
+- "Yes M'Lord!"
+Darth Vader, Capitan Peitt and Admiral Ozzel
+The Empire Strikes Back   
+    To start, let’s try and find BERLIN.  BERLIN would imply a pad text of ELYOIE.  Searching in the 
+ciphertext of K3, Fig 1, we do not find it.
+1 ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+2 NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+3 WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+4 QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+5 FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+
+[[page 2]]
+6 GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+7 AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW
+Fig. 1
+However, we do have something: EIOY backwards, as shown in Fig. 2, which is an interesting coincidence. 
+1 ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+2 NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+3 WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+4 QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+5 FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+6 GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+7 AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW
+Fig. 2
+And we do find, on row 6, LE, the two beginning letters.  Also, let us assume that "level two" means two levels 
+of encryption.  The first being by a mask of some sort to find reveal the pad and the second the pad itself. Perhaps 
+the mask goes something like shown in Fig. 3.
+1 ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+2 NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+3 WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+4 QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+5 FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+6 GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+7 AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW
+Fig. 3
+That would give us: HELYOIETIROWITDDDSOFT...  Using this as the pad and the proper letters of K4 as 
+ciphertext, we work backwards to find the plain text, Fig. 4.
+O B K R U O X O G H U L B S O L I F B B W F L R
+V Q Q P R N G K S S O T W T Q S J Q S S E K Z Z
+W A T J K L U D I A W I N F B N Y P V T T M Z F
+P K W G D K Z X T J C D I G K U H U A U E K C A
+R
+Fig. 4
+HELYOIETIROWITDDDS
+BNYPVTTMZFPKWGDKZX
+------------------
+QBERLINHDEXPBCKJIM
+Which in a less abbreviated English might mean:
+? Berlin Head, expect back Jim
+ 
+I believe this is interesting.
+- Ibn Şifre 
+Note: I, hopefully, have posted or included a python script that describes the exact way that one calculates the 
+plaintext from the pad and ciphertext.
+KKIPETC
+part 2 of  7
+-----------------------------------
+Bismillahi Al Muhsi
+"Turning the accomplishment of many years. Into an hour-glass:"
+     Prologue, Henry V, Shakespeare
+Or, in this case, even less than that.  Continuing along the same path, come to a message in such a way:
+There are only 97 letters of K4.  If K3 is a pad, all the the letters will not be used.  First let us take the last twenty 
+
+[[page 3]]
+four columns of the K3 ciphertext and then reverse their order such as in Fig. 5.
+   K R Y P T O S A B C D E F G H I J L M N Q U V W
+1  L L S L L S D L U Y E R N T H C A I A N H S Y D
+2  T M W E A C A I I P L B E L E N N L S E P R A R
+3  Y E T Y O I E A H N E W I T D E S L O F T E O E
+4  S A O F E E T B L R E E Y G E T A M A T A N E W
+5  A O R E I P W E T S M T T H A A I N D D E S B I
+6  H E L M L K R T I R O L D Y R D D S O A E O G E
+7  W H O D V T R T T S S L N H E M I E F P I R M D
+Fig. 5
+Then adjust the rows as shown in Fig. 6a and then 6b
+   K R Y P T O S A B C D E F G H I J L M N Q U V W
+1  L L S         L U Y E         C A I A         D
+2  T M W         I I P L         N N L S         R
+3  Y E T         A H N E         E S L O         E
+4  S A O L L S D B L R E R N T H T A M A N H S Y W
+5  A O R E A C A E T S M B E L E A I N D E P R A I
+6  H E L Y O I E T I R O W I T D D D S O F T E O E
+7  W H O F E E T T T S S E Y G E M I E F T A N E D
+1        E I P W         T T H A         D E S B
+2        M L K R         L D Y R         A E O G
+3        D V T R         L N H E         P I R M
+Fig. 6a
+   K R Y P T O S A B C D E F G H I J L M N Q U V W
+1  L L S E I P W L U Y E T T H A C A I A D E S B D
+2  T M W M L K R I I P L L D Y R N N L S A E O G R
+3  Y E T D V T R A H N E L N H E E S L O P I R M E
+4  S A O L L S D B L R E R N T H T A M A N H S Y W
+5  A O R E A C A E T S M B E L E A I N D E P R A I
+6  H E L Y O I E T I R O W I T D D D S O F T E O E
+7  W H O F E E T T T S S E Y G E M I E F T A N E D
+Fig. 6b
+Now if we match the K4 ciphertext with the modified K3, used as a pad, as shown in Fig. 7a, 7b.
+   1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4
+   K R Y P T O S A B C D E F G H I J L M N Q U V W
+1  L L S E I P W L U Y E T T H A C A I A D E S B D
+2  T M W M L K R I I P L L D Y R N N L S A E O G R
+3  Y E T D V T R A H N E L N H E E S L O P I R M E
+4  S A O L L S D B L R E R N T H T A M A N H S Y W
+5  A O R E A C A E T S M B E L E A I N D E P R A I
+6  H E L Y O I E T I R O W I T D D D S O F T E O E
+7  W H O F E E T T T S S E Y G E M I E F T A N E D
+Fig. 7a
+   1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+1  O B K R U O X O G H U L B S
+2  O L I F B B W F L R V Q Q P R N G K S S O
+3  T W T Q S J Q S S E K Z Z W
+5  A T J K L U D I A W I N F B
+6  N Y P V T T M Z F P K W G D K Z X T J C D
+7  I G K U H U A U E K C A R
+
+[[page 4]]
+Fig. 7b
+We get the following plaintexts:
+Row 1:
+OBKRUOXOGHULBS
+UYETTHACAIADES
+--------------
+DSIWLLLVSZHAWK
+Row 2:
+OLIFBBWFLRVQQPRNGKSSO
+WMLKRIIPLLDYRNNLSAEOG
+---------------------
+BZXFANBCKDFMNDBYANURM
+Row 3:
+TWTQSJQSSEKZZW
+ELNHEESLOPIRME
+--------------
+NSESUOHIRBEXAF
+Row 5:
+ATJKLUDIAWINFB
+CAETSMBELEAIND
+--------------
+XWOVEPYTJFBTNX
+Row 6:
+NYPVTTMZFPKWGDKZXTJCD
+ELYOIETIROWITDDDSOFTE
+---------------------
+BERLINHDEXPBCKJIMZTOZ
+Row 7:
+IGKUHUAUEKCAR
+TTSSEYGEMIEFT
+-------------
+ECQIPNQDNEXUW
+Consider that the plaintext of rows 3 and 7 are reversed and we get the following message:
+DSIWLLLVSZHAWK
+BZXFANBCKDFMNDBYANURM
+FAXEBRIHOUSESN
+XWOVEPYTJFBTNX
+BERLINHDEXPBCKJIMZTOZ
+WUXENDQNPIQCE
+       
+- Ibn Şifre 
+TWGTGGP
+part 3 of  7
+------------
+Bismillahi  Al Latif
+"For it is better for a scribe to be thought ignorant than to pay the penalty for the detection of plans",
+De Furtivis Literarum Notis,
+Giovanni Battista Porta
+A quote on Porta's "suggesting the deliberate misspellings of plaintext words", taken from
+The Codebreakers,
+David Khan
+
+[[page 5]]
+Each plaintext of K1, K2 and K3 contained a misspelling for a total of three misspellings.  However, if we are 
+working on the assumption that the plaintext of K3 was misleading then we have only two real misspellings.  If let 
+us assume that each row contains three - or maybe two - misspellings.
+We could construct the following message in Fig. 9:
+ S  L    Z
+DCIWILLVSAHAWK
+ Z        F       U
+BRXFANBCKDEMNDBYANORM
+  X   I  U
+FAKEBRCHOOSESN
+ 
+ W  E   J   
+XSOVSPYTOFBTNX
+                 Z  Z
+BERLINHDEXPBCKJIMSTOP
+ U    Q   Q
+WNXENDINPIECE
+Fig. 9
+Which would give:
+1  DCI WILL VS A HAWK
+2  BR X FAN BACK DEMND BY ANORM
+3  FAKE BR CHOOSE SN
+4
+5  X SOV SPY TO FB TNX
+6  BERLIN HD EXP BCK JIM STOP
+7  WN X END IN PIECE
+Or perhaps, in a little better English, something like the following
+DCI Will [Director of Central Intelligence William (Webster)] vs a hawk brother.
+Fan back: demand by abnormal fake brother, choose soon.  Soviet spy to fake brother: thanks Berlin head, expect 
+back - Jim stop win. End in Piece.
+Now, one can have a lot of fun coming up with messages by using these techniques, but this possible solution is 
+interesting for the misspellings.
+Observe, and note L and O are the correct letters for the misspellings of K1 and K2 plaintexts respectively:
+Put the misspelled letters in order of appearance as seen in Fig. 10 (for rows 3 and 7 that means reversed from 
+before)
+K1 K2  1   2   3   5   6  7
+L  O   CIA REO OCK SSO SP EIN
+LOCI ARE OOCKS SO SPE IN
+         O          E
+LOCI ARE ROCKS SO SPY IN
+Fig. 10
+Loci are rocks so spy in …
+Now this might refer to the plaintext of K2 and the rocks in Kryptos' sculpture.  There is one more curious 
+observation about this particular message. If we swap the rows we get a somewhat different message.
+Observe Fig. 11:
+4
+
+[[page 6]]
+1  DCI WILL VS A HAWK
+5  X SOV SPY TO FB TNX
+2  BR X FAN BACK DEMND BY ANORM
+6  BERLIN HD EXP BCK JIM STOP
+3  FAKE BR CHOOSE SN
+7  WN X END IN PIECE
+Fig. 11
+Or perhaps, again, in a little better English:
+DCI Will [Director of Central Intelligence William (Webster)] vs a hawk.
+Soviet spy to fake brother: thanks brother. Fan back: demand by a normal Berlin head, expect back - Jim stop fake 
+brother - choose soon - win! End in Piece.
+In this scenario, the misspellings become as shown in Fig. 12:
+K1,Q K2,U  1   5   2   6  3   7
+L    O     CIA SSO REO SP OCK EIN
+LO CIA SSORE 0 SPOCK EIN
+        S         C  E
+LO CIA SCORE 0 SPOOK WIN
+Fig. 12
+Lo, CIA score 0, Spook win.
+Which is ominous (assuming you’re not the spy)!  It appears that the plaintext read one way might mean that the 
+spy is caught, or in another way the spy wins.
+- Ibn Şifre 
+IBZJEJN
+part 4 of  7
+------------------------------
+Bismillahi  Al Musawwir
+“Once is happenstance. Twice is coincidence. Three times, it's enemy action.”
+ Auric Goldfinger
+You Only Live Twice
+    It would be a shame to waste those letters from the misspellings.  And notice too that there is a gaping hole in 
+this guess.  Namely row four of the part of the rearranged K3 we have been using:
+The misspellings:
+SLZ ZFU UIX WEJ ZZ QQU
+Row 4 of Fig 7a
+SAOLLSDBLRERNTHTAMANHSYW 
+SLZZFUUIXWEJZZQQU
+LSDBLRERNTHTAMANH
+-------------------
+ITIEILUQDHONWFMAGRA
+or reversed:
+ARGAMFWNOHDQULIEI
+AR GAMF WN O HD Q U LIE I
+A     E  N
+
+[[page 7]]
+BR GAME WW O HD Q U LIE I
+Again perhaps, in a little better English, something like the following:
+Brothers Game.  William Webster - 0, Head? You Lie!
+And these new misspellings: WEB (remember BEW is in reverse order), so that might end the misspelled message 
+as:
+LOCI ARE ROCKS SO SPY IN WEB
+Spy's caught! - Well maybe.
+    Oh, I almost forgot, about the alignment of K3' and K4.  If you use the Kryptos alphabet to label the columns as 
+in Fig. 7 one gets at the start of each mapping:
+R1:  b
+R2:  y
+R3:  d (left side of mapping start)
+R5:  o
+R6:  r
+R7:  a (left side of mapping start)
+Perhaps:
+BY D OR A (down or across)?
+Or perhaps:
+BY DORA?
+Maybe it's in reference to the Morse code at the edge of one of the rocks?
+If you want to look at the lettering of the next column over for each mapping, using the other row order:
+R1:  c
+R5:  s
+R2:  p
+R6:  y
+R3:  w (right side of mapping end)
+R7:  n (right side of mapping end)
+Perhaps:
+C SPY WN (See spy win)
+   What has come before this is the best solution that I have found, but consider …
+- Ibn Şifre 
+JKKQRXW
+part 5 of  7
+----------------------------
+Bismillahi  Al Alim
+"But they were all of them deceived, for another ring was made.",
+Galadriel,
+Opening narration of The Lord of the Rings: The Fellowship of the Ring (film)
+   One thing about using a one-time pad; once you've used it - never, never, never,  NEVER EVER use it again.
+    Did Jim use it again?  The way that the rearranged K3, which I'll call K3', and K4 line up in Fig.7 seems a bit 
+arbitrary.  There is more that can be found using these techniques and different alignments of K3' and K4.  
+Whether or not it is coincidence, I'm not sure.
+For instance Fig. 13a with figure 13b
+
+[[page 8]]
+   K R Y P T O S A B C D E F G H I J L M N Q U V W
+1  L L S E I P W L U Y E T T H A C A I A D E S B D
+2  T M W M L K R I I P L L D Y R N N L S A E O G R
+3  Y E T D V T R A H N E L N H E E S L O P I R M E
+4  S A O L L S D B L R E R N T H T A M A N H S Y W
+5  A O R E A C A E T S M B E L E A I N D E P R A I
+6  H E L Y O I E T I R O W I T D D D S O F T E O E
+7  W H O F E E T T T S S E Y G E M I E F T A N E D
+Fig. 13a
+   1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+1  O B K R U O X
+2  O G H U L B S O L I F B B W
+3  F L R V Q Q P R N G K S S O
+4  T W T Q S J Q S S E K Z Z W
+5  A T J K L U D I A W I N F B
+6  N Y P V T T M Z F P K W G D
+7  K Z X T J C D I G K U H U A
+8  U E K C A R
+Fig. 13b:
+So briefly perhaps:
+OFEETTTSSEYGEM
+KZXTJCDIGKUHUA
+--------------
+UGGNFOSCAINRDI
+Or: UG IN POS MAIN RD I
+LLSEIPWLUYETTH
+NYPVTTMZFPKWGD
+--------------
+YEWEIRUBLRINCV
+Or: N CNTR L BURIED EY
+RERNTHTAMANHSY
+ATJKLUDIAWINFB
+--------------
+SNIAGASBIJVOSS
+Or: ES ON JIM S AGAIN S
+MBELEAINDEPRAI
+OGHULBSOLIFBBW
+--------------
+GOPTSRLFATCARB
+Or: BR ACTS FIRST POI
+OIETIRO
+OBKRUOX
+-------
+KNIWSTN
+Or: NTS WINS
+Perhaps - LAST PIG, ITS OINK!
+   Are these part of the first solution presented, is it a mix of the two, or is all of this completely wrong - or just 
+partly right? 
+- Ibn Şifre 
+CCYXFSB
+part 6 of  7
+
+[[page 9]]
+----------------------------
+Bismillahi  Al Haqq il Ala
+"Waterhouse opens his mouth and says 'Gxnn bhldh sqrd m!' " in Outer Qwghlm to Mary
+… Waterhouse is then punched in the face by Mary's date …
+"With us [from Inner Qwghlm]… what you just said isn't a polite greeting" to Waterhouse from the RAAF chap
+" Oh … what did I say, then?"
+"You said that while you were down at the mill to lodge a complaint about a sack with a weak seam that sprung 
+loose on Thursday, you were led to understand, by the tone of the proprietor's voice, that Mary's great-aunt, a 
+spinster who had a loose reputation as a younger woman, had contracted a fungal infection in her toenails."
+ - RAAF chap
+"No, no! … I understood him to say that it was at the pub, and that it was my neighbor's dog that had come down 
+with rabies" - Mary
+"He was at the basilica for confession--the priest--angina--" - someone else
+"The dockside--Mary's half-sister--leprosy--Wednesday--complaining about a loud party" - everyone else at once
+"I was trying to say that she looked beautiful"
+- Waterhouse
+"Ah! … Then you should have said 'Gxnn bhldh sqrd m' "
+- Rod speaking in Inner Qwghlm
+Dialog from the
+Cryptonomicon,
+Neal Stephenson
+   After a while, or perhaps much sooner than that, one can't help but question this solution - is it right?  To quote a 
+great Sage, "I may be as woefully wrong as Humphrey Belcher, who believed the time was ripe for a cheese 
+cauldron", but it's the best that I have found to date – and I’m not sure that I like it.  I've written this in hopes that 
+this might help someone from this group, or someone else, to find the solution.  If you follow the idea that the 
+encryption of K4 is a pad revealed by a mask of K3, this still leaves a lot of play to be had, as seen.  But before 
+you go to Jim and ask - wait, just wait.  And Think.  Think about it.  Write your idea down and put it away 
+somewhere for a week, or a month, or a year – maybe more.  Then, dust it off and look at it again.  I’ve been 
+prejudiced by this type solution, and hope someone this group can help take it further, or debunk it with something 
+better.
+    One thing about the misspellings - my, my the misspellings; one can go on almost forever constructing new 
+messages with misspellings.  I recommend to anyone who wants to ‘play’ in this way, to become both a believer 
+and a disbeliever in coincidence. Which leaves me thinking; using them in this way with broken, condensed 
+English, seems to allow one to be able to hide a message in a set of believable, valid, but different messages.  
+That's not a bad idea as far as cryptography goes - if you can pull it off. 
+    So let’s solve this, and figure out what that solution means.
+Selam and happy hunting,       
+Ibn Şifre         
+         
+WMJAZUMC
+part 7 of  7

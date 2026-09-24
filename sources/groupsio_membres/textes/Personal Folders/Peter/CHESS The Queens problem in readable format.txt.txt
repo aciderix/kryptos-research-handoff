@@ -1,0 +1,114 @@
+If we line up K1 in rows of 7
+
+B E T W E E N
+S U B T L E S
+H A D I N G A
+N D T H E A B
+S E N C E O F
+L I G H T L I
+E S T H E N U
+A N C E O F I
+Q L U S I O N
+
+You can read WTIHCHHES (column 4) crossed by SENCEOF (row 5)
+
+With Ches h perhaps
+
+If we replace the question marks (4) in the corrected K2 with X they decode to MIJC (SCBI).
+
+Question mark #4 ended up at the start of K4.
+
+Was this the clue offered by PALIMPCEST?
+An S that changes to a C and moved near the end of K4?
+
+K4 and chess?
+
+Do we have to arrange K4 as a chess board i.e. a square of 8 by 8?
+
+c O B K R U O X 
+O G H U L B S O
+L I F B B W F L
+R V Q Q P R N G
+K S S O T W T Q
+S J Q S S E K Z
+Z W A T J K L U
+D I A W I N F B
+
+We have used 63 of the 97 characters of K4 and assume that the question marks stand for c.
+
+(What if it is a 10 by 10 sqaure?)
+
+Interesting, COBOL (tabulated syntax), LOGO twice (pen up/down) and C OBRA C can be seen.
+In the corners BCDX as in Binary Coded Decimal 10?
+
+In chess there is a puzzle in which you place a KNIGHT on the board which has to visit every square
+of the board -only one time while using only valid moves.
+
+In modern times the notation for the knight is N, sometimes S for Springer (Jumper) or ? is used.
+If we follow the chess rules and start at the c we can retrieve : cISSA.
+
+In the top right corner we can see BLOW UP (enlarge?).
+
+Could you crib drag this?
+What would be the result of a frequency analysis?
+Is there perhaps more information hidden?
+
+Wired (Kim Zetter) Jan 21, 2005 :
+
+Scheidt : There are four different processes.
+Two of them are similar and the other two are different things.
+The first three processes were designed so that a person could, through cryptographic analysis,
+have access to the English language.
+
+This could imply K1. K2 and K3 as the three processes in which the English language is visible.
+
+Does this mean that K4 uses a different method than Vigénere (K1/K2) and Transposition (K3}?
+
+
+If necessary we can deny, during an interrogation. that we did this by claiming we hid a chess problem in K4.
+Deniability is the cornerstone of duress codes.
+
+c . B K R . . .
+. . . . . B . .
+. . . B B . . .
+R . Q Q P R N .
+K . . . . . . Q
+. . Q . . . K . 
+. . . . . K . . 
+. . . . . N . B
+
+5 Bishops
+4 Kings
+2 kNights (optional 3)
+1 Pawn
+3 Rooks
+4 Queens
+
+Print this out, cut the chess pieces out and you have something
+that could be used for the GRILLE encryption technique
+
+
+Scheidt :  So ... you need to solve the technique first and then go for the puzzle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+? . B K R . . X 
+. . . . . B . . 
+. . . B B . . . 
+R . Q Q P R . . 
+K . . . T . T Q 
+. . Q . . . K . 
+. . . T . K . . 
+. . . . . . . B
+
+TWO

@@ -1,0 +1,545 @@
+[[page 1]]
+ 
+ 
+Jason DeSeve 
+July 14, 2006 
+ 
+Proposed English Masking Technique: 
+ 
+ 
+K4 English masking technique is very straight forward. It uses a five digit binary # with a 
+simple transposition (5 rows by 97 columns).  Since the 5 digit binary has 32 possible 
+combinations and English has 26 letters we are left with 6 additional characters.  For now 
+let us assume the letters repeat and we will use the lower case for these:  
+ 
+A B C D E
+F G H
+I
+J
+K L M N O P Q R S
+T U V W X Y
+Z
+a
+b
+c
+d
+e
+f
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+1
+1
+1
+0
+0
+0
+0
+1
+1
+1
+1
+0
+0
+0
+0
+1
+1
+1
+1
+0
+0
+0
+0
+1
+1
+1
+1
+0
+0
+0
+0
+1
+1
+1
+1
+0
+0
+1
+1
+0
+0
+1
+1
+0
+0
+1
+1
+0
+0
+1
+1
+0
+0
+1
+1
+0
+0
+1
+1
+0
+0
+1
+1
+0
+0
+1
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1
+0
+1 
+ 
+The binary # for each letter is given vertically.  For example the letter O is 0 1 1 1 0.  
+Now we replace the K4 plain text with the binary number vertically by columns and read 
+off the original letter horizontally. 
+ 
+ 
+O B K R U O X O G H U L B S O L
+I
+F B B W F
+L R V Q Q P R N G K
+0
+0
+0
+1
+1
+0
+1
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+1
+1
+1
+0
+1
+0
+0
+0
+1
+0
+1
+0
+0
+1
+0
+1
+0
+0
+0
+1
+0
+0
+1
+1
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+1
+0
+1
+1
+0
+0
+0
+1
+1
+1
+1
+1
+1
+1
+0
+0
+0
+1
+0
+0
+1
+0
+0
+1
+1
+0
+0
+1
+0
+0
+1
+0
+1
+1
+0
+1
+0
+1
+0
+0
+1
+1
+1
+1
+1
+0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+0
+1
+0
+0
+0
+0
+1
+0
+0
+1
+1
+0
+1
+0
+1
+0
+0
+1
+0
+0
+1
+0
+1
+1
+0
+0
+1
+0
+1
+1
+1
+0
+1
+1
+1
+1
+0
+0
+1
+1
+1
+0
+0 
+etc………….. 
+ 
+Do you notice anything? ……Look Below ….We have our key!     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 2]]
+ 
+E 
+N D 
+y 
+a 
+H 
+r 
+O 
+H
+N
+0 
+0 
+0 
+1 
+1 
+0 
+1 
+0 
+0 
+0 
+O B K R U O X 
+O G
+H
+0 
+0 
+0 
+1 
+1 
+0 
+1 
+0 
+0 
+0 
+ 
+If we read off left to right we get: 
+ 
+D I
+S A T
+a
+G f
+O O
+R C B O R D Q F
+I
+N
+F
+C O B B K I
+E H D
+S M c
+N R S K A R D
+f
+C J
+S L
+C Q C E C
+F
+V S b
+C C e
+Y K P
+V Y K C P e
+T
+J
+L
+J
+A L
+D e
+a
+V B R J
+F
+S d
+c
+c
+C S B T
+K D
+b
+b
+R P F
+I
+B
+ 
+ 
+If we do frequency analysis we get:  (Top as written, 
+bottom assume lower case are same as upper case) 
+ 
+3
+6 10
+6
+2
+5
+1
+1
+4
+4
+5
+3
+1
+2
+4
+3
+2
+6
+7
+3
+0
+3
+0
+0
+2
+0
+2
+3
+3
+1
+3
+2
+A B
+C
+D E
+F G H
+I
+J K L M N O P Q R S
+T U V W X Y
+Z
+a
+b
+c
+d
+e
+f
+5
+9 13
+7
+5
+7
+1
+1
+4
+4
+5
+3
+1
+2
+4
+3
+2
+6
+7
+3
+0
+3
+0
+0
+2
+0
+ 
+ 
+The distribution looks like it could be English after Maybe 
+a simple substitution and possibly transposition. 
+ 
+ 
+Maybe someone with a computer program can finish it off. 
+ 
+ 
+ 
+DISAT AGFOO RCBOR DQFIN FCOBB KIEHD 
+SMCNR SKARD FCJSL CQCEC FVSBC CEYKP 
+VYKCP ETJLJ ALDEA VBRJF SDCCC SBTKD 
+BBRPF IB 
+ 
+ 
+ 

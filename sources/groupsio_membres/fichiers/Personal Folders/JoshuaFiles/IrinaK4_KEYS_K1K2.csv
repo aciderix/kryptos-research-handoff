@@ -1,0 +1,109 @@
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"B","E","T","W","E","E","N","S","U","B","T","L","E","S","H","A","D","I","N","G","A","N","D","T","H","E","A","B","S","E","N","O","I","S","U","L","Q","I","F","O","E","C","N","A","U","N","E","H","T","S","E","I","L","T","H","G","I","L","F","O","E","C",,,,,,,,,,,,,,,,,,,,,,,
+"O","B","K","R","U","O","X","O","G","H","U","L","B","S","O","L","I","F","B","B","W","F","L","R","V","Q","Q","P","R","N","G","K","S","S","O","T","W",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"N","T","W","E","A","L","O","S","D","H","I","E","N","A","A","S","I","N","B","S","U","U","E","E","H","E","H","O","N","S","U","I","O","E","E","E","E",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"E","E","H","T","D","E","S","U","Y","E","H","T","E","L","B","I","S","S","C","F","I","E","L","D","X","T","H","E","I","N","F","O","R","M","A","T","I","O","N","W","A","S","G","A","T","H","E","R","E","D","N","U","N","A","O","T","D","N","U","U","R","G","R","E","D","N","U","D","E","T","T","I","M","S","N","A","R","T","D","N","A","K","N","O","W"
+"T","Q","S","J","Q","S","S","E","K","Z","Z","W","A","T","J","K","L","U","D","I","A","W","I","N","F","B","N","Y","P","V","T","T","M","Z","F","P","K","W","G","D","K","Z","X","T","J","C","D","I","G","K","U","H","U","A","U","E","K","C","A","R",,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"E","L","E","I","T","E","L","F","E","T","I","L","I","C","O","S","A","W","N","T","I","H","N","A","O","A","E","F","R","N","T","I","U","O","R","W","O","G","N","N","S","D","D","E","G","T","N","E","R","N","M","U","N","G","R","D","N","D","U","G",,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"N","T","W","E","A","L","O","S","D","H","I","E","N","A","A","S","I","N","B","S","U","U","E","E","H","E","H","O","N","S","U","I","O","E","E","E","E",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"E","L","E","I","T","E","L","F","E","T","I","L","I","C","O","S","A","W","N","T","I","H","N","A","O","A","E","F","R","N","T","I","U","O","R","W","O","G","N","N","S","D","D","E","G","T","N","E","R","N","M","U","N","G","R","D","N","D","U","G",,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","A","B","C","D",,,,,,"> I'd like to share with the group how to get to the right letter frequency:
+what the algorithm is, and what the resulting string looks like. The result
+looks promising, so *I think* I guessed it right. I would appreciate if fellow
+members read this carefully. I'd be very interested what you think.
+>
+> To start with, k4 has two layers. This is probably what has been in plain
+sight and nobody noticed. The first layer ends in OTW (which is ""two""
+backwards). The second layer starts with the letter T (""is your position"") in
+the 38th position.
+>
+> So, k4 is a sequence of letters with non-English, pretty even distribution.
+If, say, k1 (or k2, k3, or an English sentence) was used as a KEY, what can a
+method be like to create a string with normal letters distribution? Here is my
+answer; I'll get to the details on how to get the correct KEY further down.
+>
+> Let's interpret the letters of k4 as letter's *sequential numbers* - in this
+case, in the Kryptos alphabet. Thus, we have a total of 97 numbers (in two
+layers). To start the decryption, ""get"" on the first position in the KEY and
+count forward, to the position in the KEY corresponding to our first number (the
+number defined by the first letter of k4). The letter of the KEY in that
+position is what we take as the first letter in the decrypted string. Next, go
+to the second letter in the KEY and go forward as many letters as the number
+defined by the second letter in k4 tells us. The resulting letter is the second
+decrypted letter. Continue until finished.
+> The KEY has ""good"" English letters distribution (being formed by k1-k2), so
+the resulting string will, too.
+>
+> How do we form the KEY? There are two KEY's, one for each of the layers. They
+are formed by combining pieces of k1 and k2 respectively.
+>
+> The key for the layer one (which is ""OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTW"")
+> is
+> KEY1 = ""BETWEENSUBTLESHADINGANDTHEABSENOISULQIFOECNAUNEHTSEILTHGILFOEC""
+>
+> - it's formed using k1, where the second line is included backwards.
+>
+> The key is, naturally, longer than the layer one, due to the method used. If
+you align the KEY1 with the layer one, you will see that the misspelled letter Q
+aligns with the end of the layer one.
+>
+> The key for the layer two (which is
+""TQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"") is
+>
+> KEY2 =
+""EEHTDESUYEHTELBISSCFIELDXTHEINFORMATIONWASGATHEREDNUNAOTDNUURGREDNUDETTIMSNARTD\
+NAKNOW""
+>
+> It is formed similarly, using the lines of k2, some backwards, and also aligns
+with the layer two at the misspelled letter, which is U.
+>
+> Here is the result of the decryption step, using my technique, that brings k4
+to normal English letters frequency:
+>
+>
+NTWEALOSDHIENAASINBSUUEEHEHONSUIOEEEEELEITELFETILICOSAWNTIHNAOAEFRNTIUORWOGNNSDD\
+EGTNERNMUNGRDNDUG
+>
+> See ""Underground dug"" at the end? ""UNGRDNDUG"". There are some other elements
+of the string that seem to point to this being right. The familiar ...EEEE... is
+there. The string begins with NTWE, sort-of North-West.
+>
+> Sure, I might be wrong, but the result seems to make sense to me.
+>
+> Having this, we can start on the transposition step.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"A","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"B","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"C","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"D","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"E","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"F","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"G","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"H","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"I","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"J","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"L","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"M","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"N","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"O","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"P","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Q","J","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"R","L","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"S","M","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"T","N","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"U","Q","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"V","U","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"W","V","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"X","W","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Y","X","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Z","Z","K","R","Y","P","T","O","S","A","B","C","D","E","F","G","H","I","J","L","M","N","Q","U","V","W","X","Z","K","R","Y",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+" A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","A","B","C","D",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

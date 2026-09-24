@@ -1,0 +1,112 @@
+[[page 1]]
+ 
+DeKRYPTOS 
+K4R2A 
+Draft 
+By: Joshua.tully@gmail.com 
+
+[[page 2]]
+ 
+Method: Steganography / Riddles 
+Carrier Text: Using K1 (PT and CT) 
+Storyline: When Howard Carter breached 
+the entrance to Tut’s tomb ‘Wonderful 
+Things moment.’ 
+ 
+Hint: The start of K1 cipher text is EMUF; backwards its FUME. 
+Markings: 
+ 
+    
+The first e in keyword PALIMPSeST is lowercase. Possibly 
+signaling that SUBTLE(PT) is important or draw attention to 
+the L in CT directly below. 
+Row labeled 2, arrow seems to indicate direction of 
+decoding, the below method only uses this direction. 
+May represents flames of the candles
+Rule of 4
+Patterns of 4 are sprinkled through the Kryptos sculpture.
+ x4
+
+[[page 3]]
+STEGO TYPE - 1 
+• Locate your starting position(A) within the mask layer. 
+• Find the next instance of the K4 character (B). 
+• The decoded letter (C) is that position, but in the (PT) 
+ 
+ 
+STEGO TYPE - 2 
+•  Locate your starting position (A) within the mask layer. 
+• Move over by K4 alphabet value (B) 
+• The position you land on is your decoded character (C) 
+ 
+ 
+
+[[page 4]]
+STEP 1: Using K1; format the CT and PT with the black cipher text layer on top the red 
+plain text on the bottom. 
+STEP 2: Remove the 4 Q’s in cipher text right above ”ABSENCE OF LIGHT.”  
+Story wise I believe the Qs represent candle flames that are blown out, likewise the first 
+4 letters of the cipher text is EMUF, or FUME read backwards. 
+STEP 3: From your insertion point (Q in ILLUSION) perform a type-1 STEGO method to 
+retrieve your first two decoded letters CN. 
+NOTE!  It’s important to record the K4 Plain Text as you decode for the masking 
+layer will shift around. 
+Delete the 4 Q's
+First  M / C
+Second  T / N
+
+[[page 5]]
+Step 4: Delete the two CT Ls above red text “LIES” 
+STEP 5: Continue with STEGO type-1 method to complete this block revealing VT = LI. 
+STEP 6: Continue with the STEGO type-1 for YNB but read backwards so that you are 
+decoding B,N, and Y 
+Delete the 4 Q's
+Third  T / I
+Fourth          V / L
+Delete the L
+Delete the L
+fifth   B / I
+sixth   N / B
+Seventh  Y / E
+
+[[page 6]]
+STEP 7: Delete the X at index 12 of your masking layer, this will be your new position due to 
+the shifting of text. 
+STEP  8: Perform a type-2 STEGO method to land on R which is P distance away. 
+First Delete the X
+STEP eight 
+(Landing)
+
+[[page 7]]
+STEP 1: Load the K1 chart by clicking 
+in the top-left of the tool bar.  
+STEP 2: Press the STEG button in the top-right to load your STEGO tool. 
+STEP 3: Select the Cipher Text (BLACK) Layer. 
+STEP 4: Load VTTM from the STEG Field by clicking on the block shown below. 
+If you are using DeKryptos.com you can use the following:
+
+[[page 8]]
+STEP 5: Press the reverse button in the STEG tool. 
+STEP 6: On the chart, Delete the 4 Q’s marks above the words ABSENCE OF LIGHT 
+by clicking the on the Qs and pressing delete button, in the toolbar. 
+STEP 7: Click on your insertion point in the misspelled word illusion. 
+STEP  8: Press the STEGO type-1 button twice to recover CN. 
+ 
+STEP 9: Delete the two L s in the cipher text above the word LIES 
+
+[[page 9]]
+STEP 10: Press the STEGO type-1 button twice to recover IL. 
+STEP 11: Press reverse in the STEG tool to orient the decoded block 
+STEP  12: Click the scribe icon to apply. 
+STEP  13: Load your next block by clicking on the BNY field. 
+STEP  14: Press the STEG type-1 button three times to recover I B E. 
+STEP  15: Delete the X at index 12 
+First Delete the X
+STEP eight 
+(Landing)
+
+[[page 10]]
+ 
+STEP 16: click the STEG field P to load the value. 
+STEP 17: Press the type-2 STEGO method to complete this block. 
+STEP 18: Press the scribe button to apply.

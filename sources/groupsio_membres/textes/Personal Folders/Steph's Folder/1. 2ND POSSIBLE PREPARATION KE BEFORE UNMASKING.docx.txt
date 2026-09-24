@@ -1,0 +1,2075 @@
+## word/document.xml
+ 
+ 2 ND POSSIBILITY - PREPARATION OF K4 BEFORE UNMASKING …… 
+ 
+ 
+ 
+ NUMBERED POSITION OF CELLS USED IN K4 …. NOTICE POSITION (11,27) IS 0… 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 12 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 13 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ 43 
+ 44 
+ 45 
+ 46 
+ 47 
+ 48 
+ 49 
+ 50 
+ 51 
+ 52 
+ 53 
+ 54 
+ 55 
+ 56 
+ 57 
+ 58 
+ .59 
+ 60 
+ 61 
+ 62 
+ 63 
+ 64 
+ 65 
+ 66 
+ 14 
+ 67 
+ 68 
+ 69 
+ 70 
+ 71 
+ 72 
+ 73 
+ 74 
+ 75 
+ 76 
+ 77 
+ 78 
+ 79 
+ 80 
+ 81 
+ 82 
+ 83 
+ 84 
+ 85 
+ 86 
+ 87 
+ 88 
+ 89 
+ 90 
+ 91 
+ 92 
+ 93 
+ 94 
+ 95 
+ 96 
+ 97 
+ 
+ MASKED CODE TO K4 IN A 31 COLUMN MATRIX 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ? 
+ O 
+ B 
+ K 
+ R 
+ 12 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ 13 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ L 
+ Q 
+ S 
+ S 
+ 3113405 5614035 0 0 E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ 14 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ An Explanation Of the Number Position and its significance Will Be Included At the End of this preparation…and following the unmasking process – it will 
+ show the links between positions, of known letters. 
+ 
+ A ll the let t ers in k4 solution are equal to 97 cells , to fit into a symmetrical 31 column matrix... upon completion . 
+ 
+ There will be other rules to follow but these are the basic ones to start the process of the k4 solution 
+ 
+ 715010 101601 0 0 
+ 
+ 
+ REARRANGE K4 ORIGINAL CODE ( ABOVE) IN A 31 COLUMN MATRIX 
+ INTO A 42 COLUMN MATRIX BEGINNING FROM THE LEFT HAND SIDE AS 
+ original code 42 column matrix 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ O 
+ B 
+ K 
+ R 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ LOOK AT K4 NOW…….IT WILL NOT BE A SOLID MATRIX .. THERE ARE 29 LETTERS MISSING …….HOW DO WE FILL THIS GAP…. 
+ for a matrix to work it has to have a letter in each cell…no letters too many …nor too short …. SYM M E TRICAL 
+ TO FILL THE GAP OF 29 MISSING LETTERS…….BY USING THE 42 COLUMN MATRIX HERE IN THE CODE …..TAKE THE 8 TH ROW ( COLOURED ORANGE )AND PLACE ABOVE THE FIRST ROW OF THE K4 CODE..IN THE 42 COLUMN UNFINISHED MATRIX.. 
+ 
+ K3 CODE – 42 COLUMN MATRIX – k4 MASKED 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ 1 
+ E 
+ N 
+ D 
+ Y 
+ A 
+ H 
+ R 
+ O 
+ H 
+ N 
+ L 
+ S 
+ R 
+ H 
+ E 
+ O 
+ C 
+ P 
+ T 
+ E 
+ O 
+ I 
+ B 
+ I 
+ D 
+ Y 
+ S 
+ H 
+ N 
+ A 
+ I 
+ A 
+ C 
+ H 
+ T 
+ N 
+ R 
+ E 
+ Y 
+ U 
+ L 
+ D 
+ 2 
+ S 
+ L 
+ L 
+ S 
+ L 
+ L 
+ N 
+ O 
+ H 
+ S 
+ N 
+ O 
+ S 
+ M 
+ R 
+ W 
+ X 
+ M 
+ N 
+ E 
+ T 
+ P 
+ R 
+ N 
+ G 
+ A 
+ T 
+ I 
+ H 
+ N 
+ R 
+ A 
+ R 
+ P 
+ E 
+ S 
+ L 
+ N 
+ N 
+ E 
+ L 
+ E 
+ 3 
+ B 
+ L 
+ P 
+ I 
+ I 
+ A 
+ C 
+ A 
+ E 
+ W 
+ M 
+ T 
+ W 
+ N 
+ D 
+ I 
+ T 
+ E 
+ E 
+ N 
+ R 
+ A 
+ H 
+ C 
+ T 
+ E 
+ N 
+ E 
+ U 
+ D 
+ R 
+ E 
+ T 
+ N 
+ H 
+ A 
+ E 
+ O 
+ E 
+ T 
+ F 
+ O 
+ 4 
+ L 
+ S 
+ E 
+ D 
+ T 
+ I 
+ W 
+ E 
+ N 
+ H 
+ A 
+ E 
+ I 
+ O 
+ Y 
+ T 
+ E 
+ Y 
+ Q 
+ H 
+ E 
+ E 
+ N 
+ C 
+ T 
+ A 
+ Y 
+ C 
+ R 
+ E 
+ I 
+ F 
+ T 
+ B 
+ R 
+ S 
+ P 
+ A 
+ M 
+ H 
+ H 
+ E 
+ 5 
+ W 
+ E 
+ N 
+ A 
+ T 
+ A 
+ M 
+ A 
+ T 
+ E 
+ G 
+ Y 
+ E 
+ E 
+ R 
+ L 
+ B 
+ T 
+ E 
+ E 
+ F 
+ O 
+ A 
+ S 
+ F 
+ I 
+ O 
+ T 
+ U 
+ E 
+ T 
+ U 
+ A 
+ E 
+ O 
+ T 
+ O 
+ A 
+ R 
+ M 
+ A 
+ E 
+ 6 
+ E 
+ R 
+ T 
+ N 
+ R 
+ T 
+ I 
+ B 
+ S 
+ E 
+ D 
+ D 
+ N 
+ I 
+ A 
+ A 
+ H 
+ T 
+ T 
+ M 
+ S 
+ T 
+ E 
+ W 
+ P 
+ I 
+ E 
+ R 
+ O 
+ A 
+ G 
+ R 
+ I 
+ E 
+ W 
+ F 
+ E 
+ B 
+ A 
+ E 
+ C 
+ T 
+ 7 
+ D 
+ D 
+ H 
+ I 
+ L 
+ C 
+ E 
+ I 
+ H 
+ S 
+ I 
+ T 
+ E 
+ G 
+ O 
+ E 
+ A 
+ O 
+ S 
+ D 
+ D 
+ R 
+ Y 
+ D 
+ L 
+ O 
+ R 
+ I 
+ T 
+ R 
+ K 
+ L 
+ M 
+ L 
+ E 
+ H 
+ A 
+ G 
+ T 
+ D 
+ H 
+ A 
+ 8 
+ R 
+ D 
+ P 
+ N 
+ E 
+ O 
+ H 
+ M 
+ G 
+ F 
+ M 
+ F 
+ E 
+ U 
+ H 
+ E 
+ E 
+ C 
+ D 
+ M 
+ R 
+ I 
+ P 
+ F 
+ E 
+ I 
+ M 
+ E 
+ H 
+ N 
+ L 
+ S 
+ S 
+ T 
+ T 
+ R 
+ T 
+ V 
+ D 
+ O 
+ H 
+ W 
+ 9 
+ ? 
+ N 
+ A 
+ R 
+ K 
+ H 
+ N 
+ E 
+ N 
+ V 
+ U 
+ H 
+ Q 
+ A 
+ Q 
+ U 
+ X 
+ A 
+ D 
+ H 
+ H 
+ M 
+ D 
+ P 
+ R 
+ N 
+ S 
+ S 
+ T 
+ K 
+ V 
+ C 
+ Y 
+ Q 
+ Q 
+ U 
+ P 
+ M 
+ P 
+ S 
+ Q 
+ X 
+ 10 
+ S 
+ Q 
+ Q 
+ E 
+ Y 
+ J 
+ J 
+ M 
+ I 
+ P 
+ Z 
+ Y 
+ X 
+ O 
+ B 
+ W 
+ E 
+ I 
+ W 
+ R 
+ Z 
+ D 
+ R 
+ G 
+ P 
+ J 
+ L 
+ L 
+ S 
+ J 
+ D 
+ P 
+ U 
+ I 
+ Y 
+ B 
+ U 
+ F 
+ H 
+ L 
+ V 
+ C 
+ 11 
+ B 
+ W 
+ Y 
+ U 
+ K 
+ X 
+ K 
+ E 
+ K 
+ A 
+ U 
+ C 
+ E 
+ N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Note: You May Have Noticed That My 42 Column Matrix Of Masked K4 Does Not Contain The Question Mark.That Is Because It Is A Cell Marked With A Position Of 0 ….. Meaning It Is Not Included In The Matrix To Find The Solution To K4 Unmasking Process Or In The Solution To K4..It Is A Part Of K3 Plaintext. 
+ By Doing This Step Though.. It Does Change The Position Of Drop Point That We Use In The Next Few Steps..I nstead Of Being In Column 
+ 
+ Now Becomes Column 13…I Can Explain This A Bit Better If Someone Does Not Understand 
+ 
+ Also something to note …in the solution to k3 the word ”Who “ was used in it……possibly reffering to WW as an individual person……or may be not….. every thing seems to have double meanings………so to have it mentioned and then included in the unmasking of k4 might be something to keep in mind……. 
+ 
+ R 
+ D 
+ P 
+ N 
+ E 
+ O 
+ H 
+ M 
+ G 
+ F 
+ M 
+ F 
+ E 
+ U 
+ H 
+ E 
+ E 
+ C 
+ D 
+ M 
+ R 
+ I 
+ P 
+ F 
+ E 
+ I 
+ M 
+ E 
+ H 
+ N 
+ L 
+ S 
+ S 
+ T 
+ T 
+ R 
+ T 
+ V 
+ D 
+ O 
+ H 
+ W 
+ 
+ 
+ 
+ Is What The Matrix Looks Like Now (Extra Row 8 Is Coloured Orange) Also The 29 Missing Letters 
+ 
+ 42 column matrix - with k4 code & 29 missing letters and the 8 th row of k3 plaintext 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ R 
+ D 
+ P 
+ N 
+ E 
+ O 
+ H 
+ M 
+ G 
+ F 
+ M 
+ F 
+ E 
+ U 
+ H 
+ E 
+ E 
+ C 
+ D 
+ M 
+ R 
+ I 
+ P 
+ F 
+ E 
+ I 
+ M 
+ E 
+ H 
+ N 
+ L 
+ S 
+ S 
+ T 
+ T 
+ R 
+ T 
+ V 
+ D 
+ O 
+ H 
+ W 
+ O 
+ B 
+ K 
+ R 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ original K4 MASKED code – ROW 8 IN A 42 column matrix 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ R 
+ D 
+ P 
+ N 
+ E 
+ O 
+ H 
+ M 
+ G 
+ F 
+ M 
+ F 
+ E 
+ U 
+ H 
+ E 
+ E 
+ C 
+ D 
+ M 
+ R 
+ I 
+ P 
+ F 
+ E 
+ I 
+ M 
+ E 
+ H 
+ N 
+ L 
+ S 
+ S 
+ T 
+ T 
+ R 
+ T 
+ V 
+ D 
+ O 
+ H 
+ W 
+ O 
+ B 
+ K 
+ R 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ Firstly Drop The K4 Masked Code Down One Full Row To Fill The Gaps Of The 29 Missing Letters As Shown In The Following 42 Column Matrix…. Notice The Orange Missing Letters Are Now Above K4 Masked Code. 
+ 
+ original K4 MASKED code – ROW 8 IN A 42 column matrix 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ R 
+ D 
+ P 
+ N 
+ E 
+ O 
+ H 
+ M 
+ G 
+ F 
+ M 
+ F 
+ E 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ K 
+ R 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ U 
+ H 
+ E 
+ E 
+ C 
+ D 
+ M 
+ R 
+ I 
+ P 
+ F 
+ E 
+ I 
+ M 
+ E 
+ H 
+ N 
+ L 
+ S 
+ S 
+ T 
+ T 
+ R 
+ T 
+ V 
+ D 
+ O 
+ H 
+ W 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ NOW YOU MUST DROP THE LETTERS FROM ROW 8 INTO THE CELLS THAT ARE MISSING THE LETTERS … .. WHICH MEANS THAT THE 29 MISSING LETTERS ARE NOW IN THE TOP ROW PLUS THE 13 EXTRA LETTERS FROM ROW 8 
+ 
+ CLEAN UP THE MATRIX AS WE HAVE FILLED THE 28 LETTER GAPS THAT WE HAD FROM K4 MASKED CODE FITTING INTO THE 42 COLUMN MATRIX 
+ original K4 MASKED code 42 column matrix 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ THIS ROW IS NO LONGER NEEDED REMOVE IT 
+ O 
+ B 
+ K 
+ R 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ U 
+ H 
+ E 
+ E 
+ C 
+ D 
+ M 
+ R 
+ I 
+ P 
+ F 
+ E 
+ I 
+ M 
+ E 
+ H 
+ N 
+ L 
+ S 
+ S 
+ T 
+ T 
+ R 
+ T 
+ V 
+ D 
+ O 
+ H 
+ W 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ THE 42 COLUMN MATRIX OF K4 CODE … ….. IS NOW READY TO BE UNMASKED 
+ 2 nd possibility for K4 MASKED code - 42 column matrix 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ O 
+ B 
+ K 
+ R 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ U 
+ H 
+ E 
+ E 
+ C 
+ D 
+ M 
+ R 
+ I 
+ P 
+ F 
+ E 
+ I 
+ M 
+ E 
+ H 
+ N 
+ L 
+ S 
+ S 
+ T 
+ T 
+ R 
+ T 
+ V 
+ D 
+ O 
+ H 
+ W 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ BY STEPH TARR 
+ HAVE FUN 
+ 
+## word/footnotes.xml
+ 
+ 
+ 
+ 

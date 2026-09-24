@@ -1,0 +1,15 @@
+## word/document.xml
+ 
+ I see a few steps ahead : 1. Look for ' 777 William Friedman ' (for example,  viaGoogle search): You'LL find a few pages including 
+ [PDF ]introduction to cryptology by william f. friedman , 1st draft ... - NSA.gov 
+ 2. Read a full name of WILLIAM SHAKESPEARE as one long word (using two characters VV instead of W) : VVILLIAMSHAKESPEARE 
+ 3. Read the long word  VVILLIAMSHAKESPEARE  as a large number written in  base 36,  where A=10, B=11, C=12, etc.  4.  C onvert the NUMBER in base 36  VVILLIAMSHALESPEARE  into number in our usual base 10: 
+ BaseForm [ FromDigits [" vvilliamshalespeare ", 36], 10] = 
+ 328 777 065084841186562204153594 
+ Note the triple 777 in this digital sequence. It is a good sign. Recall that decimal number 777 in base 36 is LL. 5. This very large number has 30 decimal digits. 
+ 328777065084841186562204153594 ~ 328 octillions, 
+ where OCTILLION = BILLION BILLION BILLION = 10^27. 6. Recall the poet who used the OCTILLIONS in his poetry. His name is WALT WHITMAN (see WW, 'Who knows'). 7. Search Google for ' walt whitman octillions' : See Superb and infinitely manifold (Manuscript) - The Walt Whitman Archive //whitmanarchive.org/manuscripts/transcriptions/nyp.00063.html  The manuscript includes the phrase "countless octillions of the cubic leagues of space," while a phrase from the version of the poem in the 1855 edition of Leaves of Grass reads "a few octillions of cubic leagues, do not hazard the span" See the COUNTLESS OCTILLIONS in handwriting of Walt Whitman. ([begin leaf 1 recto] GIF) Find the TRUE value of COUNTLESS OCTILLIONS = NUMBERLESS OCTILLIONS. 
+ See the back of the page [begin leaf 1 verso] for x NYPL. Here NYPL means the New York Public Library abbreviation. Recall three letters NYP at the end of the second from the bottom line of Kryptos (Part 4). NYP - it is a good sign that we are on the right way. The missing last letter L from the tetragrammaton NYPL could be found elsewhere in Kryptos, as an extra letter L in on the edge, for example, or as a last letter on the second line from the top on the other side of Kryptos (if the Kryptos is written on a Möbius list). 8. NUMBERLESS OCTILLIONS or UMBERLESS OCTILLIONS could be the key for Kryptos, as I see it now. 
+ Recall the word UMBRA = FULL SHADOW. I see almost full word BERLIN (the hint for Part 4 Kryptos) in the medium of NUMBERLESS. 
+ It is a good sign for one seer. AA 
+ 

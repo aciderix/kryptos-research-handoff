@@ -1,0 +1,896 @@
+## word/document.xml
+ 
+ Kryptos 
+ 
+ 
+ A bcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz 
+ KRYPTOSABCDEFGHIJLMNQ U VW XZ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ All Known Characters 
+ POSITION-() 
+ CIPHERTEXT- () 
+ ATBASH- () 
+ PLAINTEXT- () 
+ CT TO PT- () 
+ CT TO PT REVERSE - () 
+ ATBASH TO PT - () 
+ ATBASH TO PT REVERSE - () 
+ 
+ ( 22, 23, 24, 25 ) 
+ ( F, L, R, V ) 
+ ( U, O, I, E) 
+ ( E, A, S, T ) 
+ ( 25, 15, 1, 24 ) 
+ ( -1,-11,-25, -2) 
+ ( 10, 12, 10, 15) 
+ ( -16,-14,-16,-11 ) 
+ 
+ ( 26, 27, 28, 29,30 ) 
+ ( Q, Q, P, R, N ) 
+ ( J, J, K, I, M) 
+ ( N, O, R, T, H ) 
+ ( 23, 24, 2, 2,20 ) 
+ ( -3, -2, - 24,-24,-6) 
+ ( 4, 5, 7, 11,21) 
+ (-22,-21,-19,-15,-5) 
+ 
+ ( 31, 32, 33, 34 ) 
+ ( G, K, S , S) 
+ ( T, P, H, H) 
+ ( E, A, S, T) 
+ ( 24, 16, 0/26, 1) 
+ ( -2,-10,-0/-26,-25) 
+ ( 11, 11, 11, 12) 
+ ( -15,-15, -15,-14 ) 
+ 
+ 
+ ( 64, 65, 66, 67, 68,69 ) 
+ ( N, Y, P, V , T, T) 
+ ( M, B, K, E, G , G) 
+ ( B, E, R, L, I, N) 
+ ( 14, 6, 2, 16, 15,20 ) 
+ ( -12,-20,-24,-10, -11,-6 ) 
+ ( 15, 3, 7, 7, 2, 7 ) 
+ ( -11,-23, -19,-19,-24,-19 ) 
+ 
+ ( 70, 71, 72, 73, 74 ) 
+ ( M, Z, F, P, K) 
+ ( N, A, U, K, P) 
+ ( C, L, O, C, K) 
+ ( 16, 12, 9, 13, 0/26 ) 
+ ( -10,-14,-17,-13,-0/-26 ) 
+ ( 15, 11, 20, 18, 13 ) 
+ ( -11 ,-15, -6, -8, -13 ) 
+ 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ K 
+ L 
+ M 
+ N 
+ O 
+ P 
+ Q 
+ R 
+ S 
+ T 
+ U 
+ V 
+ W 
+ X 
+ Y 
+ Z 
+ A 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ B 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ C 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ D 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ E 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ F 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ G 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ H 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ I 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ J 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ K 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ L 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ M 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ N 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ O 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ P 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ Q 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ R 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ S 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ T 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ U 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ V 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ W 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ X 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ Y 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ Z 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ 
+ Mengenlehreuhr 
+ OBKRUOXOGHULBS 
+ OLIFBBWFLRVQQP 
+ RNGKSSOTWTQSJQ 
+ SSEKZZWATJKLUD 
+ IAWINFBNYPVTTM 
+ ZFPKWGDKZXTJCD 
+ IGKUHUAUEKCAR 
+ UTV 
+ TWO 
+ XTT 
+ MQO 
+ G S Z 
+ FJH 
+ UQP 
+ KSL 
+ BSW 
+ GES 
+ OKD 
+ KZL 
+ IZZ 
+ XWF 
+ BAT 
+ JTB 
+ WJC 
+ DKF 
+ LLI 
+ GUR 
+ VDK 
+ UIQ 
+ QAH 
+ UWP 
+ RIA 
+ UNN 
+ GFE 
+ KBKO 
+ BSNC 
+ AYSK 
+ ROPR 
+ UTVT 
+ WOXTTMQOG S ZFJHUQPKSLBSWGESOKD K Z 
+ L IZZXWFBATJTBWJCDKFLLIGURVDKU IQ 
+ QA HUWPRIAUNNGFEKBKO B SNCAYS K ROPR 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CT 
+ OBKR UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO TWTQSJQSSEKZZWATJKLUDIAWINFBNYP VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ Atbash 
+ LYPI FLCLTSFOYHLORUYYDUOIEJJKI MTPHHL GDGJHQJHHVPAADZGQPOFWRZDRMUYMBK EGGNAUKPDTWPACGQXWRTPFSFZFVPXZI 
+ PT 
+ ---- 
+ -----------------EASTNORTHEAST- 
+ ----------------------------BER 
+ LINCLOCK----------------------- 
+ 

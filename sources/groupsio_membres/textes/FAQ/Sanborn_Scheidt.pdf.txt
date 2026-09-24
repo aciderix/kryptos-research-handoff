@@ -1,0 +1,713 @@
+[[page 1]]
+[home]
+Kryptos Hints and Clues
+from Jim Sanborn and Ed Scheidt
+I have included here quotes from Jim Sanborn and Ed Scheidt, that I believe could potentially be clues (or
+provide important insight). All are direct quotes from them, unless mentioned otherwise (e.g. "(via reporter)").
+If time permits at some point, I want to look for more quotes, add keywords (such as "masking"), and make it
+more "web 2.0" (show/unshow based on the person, source, etc.). And perhaps order them by date or other
+logical structure.
+Jim
+Sanborn
+NPR
+09 Jun 2005
+And I'm finding that it's increasingly difficult to keep that kind of information secret
+because the closer people get to cracking the last 97 characters, the more difficult it
+is to say absolutely nothing about what it does or does not say, and so it's tough.
+Jim
+Sanborn
+NPR
+09 Jun 2005
+I don't really believe I gave them the entire code. So, you know, if it was a deception
+on my part, hey, so be it. You have to play the game the way everyone else, you
+know, at the agency plays the game.
+Ed
+Scheidt
+NPR
+09 Jun 2005
+For instance, if you could determine that--the number of E's vs. the number of Z's in
+the English language, then you would have some insight into the potential words
+that they made up, because there are more E's in the English language than there are
+Z's.
+Ed
+Scheidt
+(via
+reporter)
+NPR
+09 Jun 2005
+Scheidt says in part four he deliberately masked that advantage. "Kryptos" sleuths
+speculate that could mean anything from random Q's and X's being thrown in to
+phonetic spellings such as writing the number four, P-H-O-A-R.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+The work that happened before the CIA, and (was) the reason I was chosen (to do
+the CIA piece), dealt with invisible forces -- albeit natural invisible forces. I built
+pieces about the Coriolis force that makes whirlpools in the Northern and Southern
+hemispheres turn in opposite directions. I also worked with the Earth's magnetic
+field and worked with lodestones ... from which we derived our knowledge of
+electricity. It was all involved in the secrets of nature before the agency chose my
+work to deal with the secrecy of man.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: Is it important to look at your other works, before and after Kryptos, to
+understand Kryptos?
+Sanborn: For the student of cryptography it's always helpful to gather as much
+information as possible when zeroing in on and encoding a system.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: You also have two other sculptures on the CIA grounds that are near the
+Kryptos sculpture. Are they related to Kryptos in some way?
+Sanborn: Well, all I'll say is basically I designed the piece(s) to act (such that) this
+part is easy, the next part is less easy, the next part is the most difficult. So if you
+consider the entrance to the new CIA building (to be) the entrance to the agency, the
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+1 of 10
+7/1/2015 9:56 AM
+
+[[page 2]]
+piece that's out front is the most simplistic, basic code that there is. Then they get
+more sophisticated the further you (go onto the campus).
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: Do you have to be on the CIA grounds in order to solve Kryptos?
+Sanborn: No.
+WN: So just by reading the text taken from Kryptos and posted online, you can
+solve the puzzle?
+Sanborn: Well, yeah. That doesn't mean that what I've said in the piece doesn't do
+something physically there at the agency. So the effect of the piece might affect
+something at the agency so that you'd have to see what I did at the agency.
+WN: What do you mean?
+Sanborn: In part of the code that's been deciphered, I refer to an act that took place
+when I was at the agency and a location that's on the grounds of the agency. So ...
+you have to decipher the piece and then go to the agency and find that place. There
+are, for example, longitude and latitude coordinates on the piece, which refer to
+locations of the agency.
+WN: When you say act do you mean an act that you did or that happened while you
+were there?
+Sanborn: An act that I could have carried out. I refer to something I'd done out there.
+WN: Something that you did do?
+Sanborn: I made reference in the encoded text to something I could have done there.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: How many (cryptographic) techniques did you use (in Kryptos)?
+Sanborn: I would think five or six.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: Are the coded systems you used the same systems that (CIA cryptographer) Ed
+Scheidt gave you or have they been altered?
+Sanborn: Mr. Scheidt basically gave me an outline of historic and contemporary ...
+encoding systems that have been formally used by the agency and were still used by
+the agency and other people (in 1990). He gave me a whole variety of possible
+systems to use and ways to modify all of those systems. But as a visual artist, I like
+to rely on systems that include visual (material) as well as digital material that can
+be deciphered by machines. It's also well-known that I did use some matrix codes
+Ed gave me, and I have also designed visual systems for encoding, which are much
+harder for cryptographers to crack because they're individualistic.
+WN: But it's still basically code systems that Scheidt gave you, right? I mean he
+could decipher Kryptos if he wanted to, correct?
+Sanborn: No, he doesn't know the solution. I made that very clear that I didn't want
+him to be able to decipher what's going on ... that I'd be modifying systems and
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+2 of 10
+7/1/2015 9:56 AM
+
+[[page 3]]
+developing my own, which would make it virtually impossible for him to decipher
+all of it. I intended the 80 percent (of the text) that's been deciphered to be
+deciphered and to be deciphered in stages and relatively quickly. The final part is
+obviously the, you know, the apex of the pyramid there.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: The Cyrillic Projector, when decrypted, turned out to be text from a classified
+KGB document instructing agents on how to gather and work with sources. The
+projector essentially dealt with covert obsolescence, that is, covert activities that
+became obsolete with the end of the Cold War. Does Kryptos also deal with covert
+obsolescence?
+Sanborn: No. Not that it doesn't say something about clandestine trade craft. A lot of
+the work (I do) deals with secrecy and ... the modus operandi of spies -- how they
+operate, how they turn sources and things like that. Even the (other) pieces at the
+agency that are in the courtyard -- stone layers that have encoded text on them -- sort
+of dealt with secrecy as an entity, which has existed through time for eons and
+generations. Cave people (for example) keeping secret their methods of killing a
+mammoth or something like that.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: If Kryptos is solved, will the answer be something like the Cyrillic Projector's
+solution -- text from a formerly classified document -- or will it have a larger
+meaning?
+Sanborn:: It's a very different animal (from the Cyrillic Projector). The answer will
+be far more ambiguous. Of the part that's been decoded already there is certain
+ambiguity in the last few sentences and it's been open to interpretation, as has the
+whole piece.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: The Cyrillic Projector has some of the same code that's on the CIA piece, but it
+does have some alterations. It's not completely identical. Why is that?
+Sanborn: If you make a body of work over many years so that anyone will know that
+it's your art, you have a common denominator, which means you leave clues. You
+don't just sign every artwork. There's something about that particular artwork that
+you say, "Oh, that's a Sanborn." And (the coding) was one of the common
+denominators that I chose to leave in. Just like my lodestones. I brought my
+lodestones forward 10 years and used them at the agency. Then I brought Kryptos
+forward five years and used them after that. And I will continue to bring work back
+and carry ideas forward in order to get a continuum for the body of work.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: Well, you've mentioned before that each night after construction would finish
+for the day people from the CIA would come out to measure the materials.
+Sanborn: Well the new (CIA) building was being built while I was there and at night
+there were teams that used, I believe, a neutron scan (on) everything that went into
+the agency so that they could find any bugs or anything that had been planted.
+(They) used ground-penetrating radar and various other means to see and find
+everything that was there. And I would suppose they did that with my piece as well,
+which makes it difficult to do whatever you'd like to do -- not in an espionage way,
+but whatever you want to do.
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+3 of 10
+7/1/2015 9:56 AM
+
+[[page 4]]
+WN: What do you mean? Were there things that you wanted to do with the sculpture
+that you were unable to do?
+Sanborn: I didn't say I was unable to do it, I just said it makes things difficult. When
+somebody comes in and X-rays everything you do every night, it makes it tough
+doesn't it? (Laughs)
+WN: So you did something, but they knew about it?
+Sanborn:: No, I didn't say that, either.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: There is someone who says he thinks he knows how the last section should be
+decrypted. John Wilson says that section three from Howard Carter's diary is giving
+instructions to the reader for what they should do with the text in the last section in
+order to decipher it. For example, when it describes Carter putting the candle
+through the hole, Wilson says it's an instruction for what to do with the text. So
+Wilson placed the word candle into the text. Is he on to something or off track?
+Sanborn: I'm inclined to not comment. If a person deciphers and sends me the exact
+decipherment -- if it can be deciphered exactly, considering most of my things are
+rife with mistakes on purpose -- I'd probably let them know that they got it if they
+did. I will say that I have left instructions in the earlier text that refer to later
+text. (But) that's as far as I'll go.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: Do you want the puzzle of Kryptos to be solved?
+Sanborn: Uhhh ... I certainly want it to be considered. I had figured that the parts
+that have been solved already would have been done a lot quicker than they were.
+But that might just have been a question of focus of the cryptography community.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: One decoded section refers to a "WW." It says specifically, "Who knows the
+exact location? Only WW." Who is WW?
+Sanborn: (Former CIA Director) William Webster.
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: The CIA required you to write down the solution to the sculpture and give it to
+Webster. Webster has said that he forgot the solution. Did he ever actually know the
+answer?
+Sanborn: Well, you know, I wasn't completely truthful with the man. And I'm sure
+he realizes that. I mean that's part of tradecraft, isn't it? Deception is everywhere. I
+had to leave an envelope at the agency saying what was on the (sculpture). I gave it
+to William Webster at the dedication ceremony with a wax seal on it, but in fact I
+really didn't tell him the whole story. I definitely didn't give him the last section,
+which has never been deciphered.
+WN: But he thinks you did give him the solution.
+Sanborn: That's his problem! (laughs)
+Jim
+Sanborn
+Wired
+News
+20 Jan 2005
+WN: Do you remember what the solution is?
+Sanborn: No.
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+4 of 10
+7/1/2015 9:56 AM
+
+[[page 5]]
+[NOTE: This later changed, by the time he released the "BERLIN" clue -RSP]
+WN: You don't remember the solution to your own sculpture?
+Sanborn: No. I've got it hidden someplace but I'm not going to read it. I have done
+everything I can to forget (it). Because I don't want to slip and give somebody
+information about it. I mean, you read the piece of paper, you burn it, and you forget
+it. That's the only way information is kept secret. (Otherwise) it's very difficult not
+to give clues. In the early days, anything I said was a clue. Now things are getting
+more and more refined the more people (are looking into) this. They are looking for
+shreds, tiny little slivers of information. So I have to be very careful not to go any
+further.
+WN: So if you don't know the answer how will you know if anyone has solved it?
+Sanborn: I have the solution hidden someplace. So if somebody cracks it I can
+cross-check it.
+WN: What if something happens to you?
+Sanborn: The secret will probably pass away.
+WN: You haven't left it in your will?
+Sanborn:: Well, actually I have. I think it's important that whoever says that they
+cracked it will in fact find out whether they actually did. So from that standpoint,
+there does have to be some sort of historic record of what it says.
+Jim
+Sanborn
+ABC
+1991
+What's the title of this piece, and what does it mean?
+The title is Kryptos, and it's significant in a couple of ways. It's the Greek term for
+"hidden". And I've always worked with invisible forces, or making forces visible
+that are invisible, or visa-versa, and make visible things invisible. And so I chose
+that word as my keyword for the code also. I did it in large text that's cut through a
+copperplate out at the Agency. And that -- the keyword for some of that text is
+Kryptos.
+Jim
+Sanborn
+ABC
+1991
+Does that for you symbolize the CIA?
+Well, to tell you the truth, when I was first commissioned, my ideas of what the
+Agency did and what the Agency was were quite different...
+What did you think it was?
+Um, it was spies and spying.
+And it's something different?
+It's really information gathering. It gathers information, processes it, and then
+transfers that information, and people use the information. That's it's primary, that's
+what I understand now, is its primary mission. Obviously there are other layers, but
+those are the ones that I worked with, and those are the ones that I understand now.
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+5 of 10
+7/1/2015 9:56 AM
+
+[[page 6]]
+That information is what I – see all the information comes in, encoded generally in
+some form, and then it's processed and then sent out, encoded, in secret.
+Jim
+Sanborn
+ABC
+1991
+Well did you say to yourself, "Hmm, let me see if I can fool them with this?"
+Sure. Yes. I mean, I ... The levels of complexity developed while I was building the
+piece. But I always thought that I wanted to fool them. Y'know that was always the
+plan from the very beginning. I don't know – fool them or make everybody out there
+think a little harder about maybe it isn't just things military which can be secret, or
+things like that. I mean it's a more general statement about secrecy that I make.
+Jim
+Sanborn
+ABC
+1991
+How did you decide what message to encode?
+Well that changed during the course of the project as well. And that developed
+largely from the reading that I did about the Agency. And also while I was cutting
+out, physically cutting out the copperplates, things in my own mind changed. I
+wanted to put something on there which would -- Let's just say, that once the plate
+is deciphered, I'm not convinced the true meaning will be clear even then. I've
+made a statement which is straightforward, but that leads to something else.
+There's another deeper mystery. As you peel off a layer of an onion, the myst-- you
+get closer to the heart of what it is. And so y'know I just wanted to make it even
+after it was deciphered, you had to go deeper and decipher something else. It's in
+English, it's in plain English, it's in text, and you can read it, but that isn't
+necessarily the whole story.
+Jim
+Sanborn
+ABC
+1991
+How about a little? How about a little? Without, without... Just a context, I mean, so
+that somebody sitting at home would say, "Well, what are they talking about?" Is
+there.... Is this a famous quotation, for example?
+I can't say whether it's a quotation. It is either a quotation or it's something I've
+written, or it's something somebody else has written. But let's just say, that it has a
+lot to do with secrecy. It has a lot to do with finding something, or opening
+something, or discovering something that's secret.
+Jim
+Sanborn
+ABC
+1991
+What have you heard from people out there about this?
+Of course, it's indirect information, I don't necessarily have an inside person. I hear
+it by the grapevine or friends of friends. It's my understanding that the simpler parts
+of the encoded texts have been deciphered, as they had planned to be. Part of it was
+designed to be deciphered within a couple of weeks. Part of it was designed to
+be deciphered within a couple of months. And part of it within years, or never.
+Jim
+Sanborn
+Letter to
+CIA
+Employees
+15 Dec
+1989
+Second, the tilted strata tell a story like pages of a document. Over the next several
+months, a flat copper sheet through which letters and symbols are cut will be
+inserted between these stone "pages". This code, which includes certain ancient
+ciphers, begins as International Morse and increases in complexity as you move
+through the piece at the entrance and into the courtyard.
+Jim
+Sanborn
+Letter to
+CIA
+Employees
+15 Dec
+1989
+The right side is a text that can be partly deciphered by using the table and partly by
+using a potentially challenging encoding system. The text, written in collaboration
+with a prominent fiction writer, is revealed only after the code is deciphered.
+NOTE: I believe it was later stated that the fiction writer was not used.
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+6 of 10
+7/1/2015 9:56 AM
+
+[[page 7]]
+Jim
+Sanborn
+Letter to
+CIA
+Employees
+15 Dec
+1989
+My choice of materials, like code, conveys meaning. At the entrance, a lodestone (a
+rock naturally magnetized by lighting [sic]) refers to ancient navigational
+compasses. The petrified tree recalls the trees that once stood on this site and that
+were the source of materials on which written language has been recorded. The
+copper, perforated by text, represents this 'paper".
+Jim
+Sanborn
+New York
+Times
+21 Nov
+2010
+“I assumed the code would be cracked in a fairly short time”
+Jim
+Sanborn
+(via
+reporter)
+New York
+Times
+21 Nov
+2010
+Mr. Sanborn admitted to introducing misspellings to add a degree of difficulty.
+Jim
+Sanborn
+(via
+reporter)
+New York
+Times
+21 Nov
+2010
+Mr. Sanborn has said the passage [King Tut quote in K3] has inspired him since
+childhood.
+Jim
+Sanborn
+New York
+Times
+21 Nov
+2010
+Anybody holding a secret has a position of power, even if it’s a trivial secret.
+Jim
+Sanborn
+(via
+reporter)
+New York
+Times
+21 Nov
+2010
+He has asked a friend — Mr. Sanborn has given him some of the answers, but not all
+— to handle inquiries from those who say they have solved the puzzle.
+“My friend says, ‘What do you have in letter-position 27?’ ” Mr. Sanborn explained.
+“If that’s not the same letter, ‘Game over, and you didn’t crack the code.’”
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+The whole thing is about the power of secrecy.
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+The text was scrambled by "a coding system that would unravel itself slowly over a
+period of time."
+Ed
+Scheidt
+Wired
+20 Apr
+2009
+I was reminded of my need to preserve the agency's secrets... You know, don't tell
+him the current way of doing business. And don't create something that you cannot
+break—but at the same time, make it something that will last a while.
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+I assumed the first three sections would be deciphered in a matter of weeks, perhaps
+months.
+Ed
+Scheidt
+(via
+reporter)
+Wired
+20 Apr
+2009
+Scheidt figured the whole puzzle would be solved in less than seven years.
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+I tried to make [K1] sound good and be inscrutable enough to be interesting,
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+7 of 10
+7/1/2015 9:56 AM
+
+[[page 8]]
+Jim
+Sanborn
+and Ed
+Scheidt
+(via
+reporter)
+Wired
+20 Apr
+2009
+Both Scheidt and Sanborn confirm that they intended the final segment to be the
+biggest challenge.
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+It's not my intent to put out disinformation... I'm a benevolent cryptographer.
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+[regarding the plaintext, and whether William Webster has it] Nobody has it all, I
+tricked them.
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+If somebody tried to torture me, I couldn't tell them... I haven't looked at the
+plaintext of K4 in a long time, and I don't have a very good memory, so I don't really
+know what it says.
+Ed
+Scheidt
+Wired
+20 Apr
+2009
+There may be more to the puzzle than what you see... Just because you broke it
+doesn't mean you have the answer.
+Jim
+Sanborn
+Wired
+20 Apr
+2009
+In some ways, I'd rather die knowing it wasn't cracked... Once an artwork loses its
+mystery, it's lost a lot
+Jim
+Sanborn
+(via
+reporter)
+New York
+Times
+16 Jun 1999
+Mr. Sanborn said this week that the sculpture contains a riddle within a riddle -- one
+that will be solvable only after the four encrypted passages are known.
+William
+Webster
+New York
+Times
+16 Jun 1999
+I have zero memory of this [answer to Kryptos]... It was philosophical and obscure.
+Jim
+Sanborn
+(via
+reporter)
+New York
+Times
+16 Jun 1999
+Mr. Sanborn... has said he believed that the ultimate secret hidden in the text of
+'Kryptos' will never be deciphered.
+Ed
+Scheidt
+Wired
+21 Jan 2005
+I provided the cryptographic process as well as worked with him with what he was
+looking to do as far as the story (the sculpture would tell). We came up with a
+methodology using some of the known cryptographic solutions (at the time).
+Ed
+Scheidt
+Wired
+21 Jan 2005
+Wired: How many cryptographic processes are used on the sculpture?
+Scheidt: There are four different processes. Two of them are similar and the other
+two are different things. The first three processes were designed so that a person
+could, through cryptographic analysis, have access to the English language (on the
+sculpture). And the last process, I masked the English language so it's more of a
+challenge now. It's progressively harder in the challenges.
+[Note: when Scheidt refers to 4 'processes', I believe he is referring to K1, K2, K3,
+and K4, not cryptographic techniques]
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+8 of 10
+7/1/2015 9:56 AM
+
+[[page 9]]
+Ed
+Scheidt
+Wired
+21 Jan 2005
+All four (sections) are done in the English language. The message could have been
+in another language. (But) this particular puzzle is in the English language.... The
+techniques of the first three parts, which some people have broken, (used) frequency
+counting and other techniques that are similar to that. You can get insight into the
+sculpture through that technique because the English language is still visible through
+the code. (But with) this other technique (in the fourth part), I disguise that. So ...
+you need to solve the technique first and then go for the puzzle.
+Ed
+Scheidt
+Wired
+21 Jan 2005
+Wired: Are all four of the processes known processes? There aren't any that aren't
+known, right?
+Sheidt: The masking technique may not be known.
+Ed
+Scheidt
+Wired
+21 Jan 2005
+Wired: Jim said that he took your techniques and then he deliberately masked them
+even more so that even you wouldn't know what was in the puzzle.
+Scheidt: Ah hah. I can't respond to that one. I haven't heard him say that before. It's
+possible I guess. I haven't talked to Jim on what he did, but I do know ... there was
+some masking techniques that were used and that's about it.
+Ed
+Scheidt
+Wired
+21 Jan 2005
+Wired: So you may not know what the message says.
+Scheidt: Obviously there could be a possibility. I know what the message was to be.
+(But) since he's the one who had the chisel in his hands, there could be some
+changes.
+Ed
+Scheidt
+Wired
+21 Jan 2005
+Wired: But within the text that's already been translated it does mention something
+being buried on the grounds of the CIA.
+Scheidt: Well, the idea of encoding a message is not only to encode the externals of
+a message (the English language), but the message itself. Once it is readable, it may
+have other encoding that's involved in it. That's something that would show up in
+secret messages. If I wanted to, for instance, say (that) you and I are going to meet at
+1 o'clock on Friday. We may establish a code that 1 o'clock on Friday is equal to
+"cake." So in my message I would say how about you and I meeting at a convenient
+place for cake? Then you and I really know that cake means the time.
+[This suggests that nothing is physically buried, and that K2 may be readable but
+with more encoding...]
+Ed
+Scheidt
+Wired
+21 Jan 2005
+Wired: So someone could translate the actual message but not know what the
+message means.
+Scheidt: That's right. And that's where the masking and all these other kinds of
+techniques can come into play.
+Ed
+Scheidt
+Wired
+21 Jan 2005
+It's a question of how would you approach it? Would you approach it
+mathematically? Would you approach it in the context of secret writings or symbols?
+There's a whole array of things which offer a challenge.
+Ed
+Scheidt
+Wired
+21 Jan 2005
+Another way of saying it is that as one peels the onion away, or the various cloaks,
+you come closer to the truth from a philosophical sense. And then where does it take
+you down that path? Well I would assume that the path will lead you down different
+ways, depending on your philosophical perspective. So it's again back to is it a
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+9 of 10
+7/1/2015 9:56 AM
+
+[[page 10]]
+black-and-white answer or is it an answer that has a lot of gray areas?
+Sources:
+NPR
+09 Jun 2005 NPR "All Things Considered".
+Wired.
+20 Jan 2005 Partial transcript of a Wired News interview by Kim Zetter. No longer online. It
+was edited "for length and organization."
+1991a.pdf
+Transcript of B-roll interview between ABC's John Martin and Jim Sanborn, 1991. [Video at
+http://www.youtube.com/watch?v=TT_MamKYits]
+(page 8)
+Letter from Jim Sanborn to CIA employees.
+New York
+Times
+20 Nov 2010 "Clues to Stubborn Secret in C.I.A.'s Backyard"
+Wired
+20 Apr 2009
+New York
+Times
+16 Jun 1999
+Wired
+21 Jan 2005 Ed Scheidt interview
+TIMELINE:
+November 1988 - Sanborn chosen to create Kryptos sculpture
+November 1990 - Kryptos dedication cermony
+November 1992 - NSA decoded K1-K3 within 2 days.
+February 1998 - David Stein revealed his partial solution at Langley, but kept secret
+June 1999 - Jim Gillogly cracked K1-K3.
+April 2006 - Sanborn states that "IDBYROWS" was incorrect (it should have been "XLAYERTWO")
+21 Nov 2010 - Berlin clue released
+2010 - Sanborn released the Kryptos replica
+Kryptools.com - Kryptos Hints and Clues from Jim Sanborn and Ed Scheidt
+http://www.kryptools.com/hints.htm
+10 of 10
+7/1/2015 9:56 AM

@@ -1,0 +1,209 @@
+Evaluation of K3CT as a Running Key for K4
+Jason DeSeve
+9/12/09
+
+
+
+Executive Summary:
+One possible encryption method suggested by the binary clues present in the artwork is to use the K3 cipher text as a running key for K4. A fractional IC calculation mapping each K4 letter to its corresponding Key letter yields an IC of 6%, but this is inconclusive due the length of the CT. Using K3 CT as a key for K4 using standard ABC vigenere tableau, in variant mode (PT=K+C) yields a text with an I.C. of 5.2%.  While this I.C. is too low to represent an English text, An IC of 5.2% is consistent with text that was encrypted with the K3 CT as a running key using a double or triple keyed alphabet tableau, and decrypted using a standard ABC Tableau.
+
+Theory basis:
+The 5 bit zero-index theory is one that assumes artistic and other types of clues where left in the piece to help the solver or impaired operative remember or figure out the encryption technique used and/or the key(s). In other words, we need to take Mr. Scheidt at his word and that is encryption method “masks” any underlying English statistics and that we need a clue before using statistics to solve the puzzle. The basis for this theory comes from several of the interviews and conversations with Sanborn and Scheidt, in particularly message 728, 732, 753, and 808:
+
+Quote from Message 728: Elonka
+According to Ed:
+He made a point of saying that he used to be an op, that part 4 isdesigned to be solved in a straightforward manner with pencil and paper, andthat he did things to "disguise the English" in part 4, so that it couldn't besolved in the frequency analysis ways that were used for parts 1-3.
+He talked about how the code was designed so that someone could comealong 15 years later, without remembering what the key was, and still be ableto figure it out because of clues that were there.
+
+Message 732 from Gary Warzin contains his interpretation of what was said along with his speculation from his meeting with Mr. Scheidt.
+
+Imagine that you have an operative in place that you will need to get a message to in the future.  It could be 15 years down the road - you won't have any contact with them in the meantime.  You have to assume that they will not remember the "key".   How to you deliver the message in such a way that it conveys not only the encrypted data, but also the key?
+ 
+It is important to note that he made a specific point that the "key" is not necessarily the key word.  He put it something like this:
+ 
+In a modern digital system the "key" is the key word or number that you need to decrypt the message.  Everyone knows the algorithm.  It just a black box into which you insert the key and the encrypted text and the answer comes out the other end.  In analog systems (as used in Kryptos) the "key" IS THE ALGORITHM.
+ 
+So, how do you give the intended recipient of the message enough information to figure out the algorithm and give it to them in such a manner that it will be of little help to others?  His implication was that there were a number of intentional dead ends that would throw others off the track.
+ 
+He implied that even though people may have discovered the text of the first three parts, they still don't understand how the message was constructed and how his fictitious "operative in the field" would have solved the problem.
+ 
+His most significant comment about Part 4 was that it was designed so that encrypted text wouldn't "look like English."  But the evening before, he also said that at one point they (he and Sanborn) debated over the use of obscure languages and decided against that option on the grounds that it wouldn't be fair to those trying to solve the puzzle.  So, the way I read things, the implication is that Part 4 is in English, it's just that the frequency distribution was deliberately altered so it wouldn't look like English.
+
+If we assume that the algorithm for K4 is communicated to the Impaired Operative in the future through some form of hidden communication, then it makes logical sense to start with nuances of the piece that we are confident are intentional. Here are the assumptions: 
+
+Message 753 Elonka:When I showed the pictures of the out of alignment letters, Sanborn madea point of pointing to them and specifically asking if anything else has beenfigured out about them. He said, "They're important."- When I asked about the misspellings and asked if they were accidental ordeliberate, Sanborn said that they were deliberate, but it was less important*what* they were. He said, and I quote: "it's more the orientation of thoseletters that's useful there." Later on in the evening he repeated that point,saying it was the "positioning" that was important.
+
+Part 1: Artistic (Impaired Operative Clues):
+Assumption 1:  Iqlusion, Gruund, and Desparatly are miss-spelled versions of Illusion, Ground, and desperately.
+
+Assumption 2: These mis-spellings are intentional and are the clues mentioned above for the operative to recover the key for K4.
+
+Assumption 3: The raising of the letters YA_R at the section of K3 is intentional. The pattern created by e n d Y A h R can be interpreted with the raised letters as 1 and the lower letters as 0 (message 748).  If done it becomes 0 0 0 1 1 0 1. This is also intentional and is a clue to solve K4.
+
+Assumption 4: In the Morse section DIGETAL Interpretatu, DIGETAL is a deliberate miss-spelling of DIGITAL, (Also possible additional supporting evidence is the way it was misspelled with space for the missing dit messages 5565, 5820)
+
+Quoting Message 808(Elonka): Something else I just remembered about when I gave the talk to Sanborn, is from when I mentioned the Morse code messages.  Both he and Scheidt seemed to already know that "INVISIBLE" was a Morse palindrome.  When I brought up about "DIGETAL INTERPRETATU", and how DIGETAL might be a typo for DIGITAL (since it used only one dot for an "E" instead of two for an "I") and that we weren't sure whether it was human error or a clue, well, Sanborn didn't specifically say anything, but the impression that I got was that he already knew about that difference, and that it was deliberate. 
+
+Part II Speculation:
+This is my personal speculation on how clues “were meant” to be recovered by the Impaired Op. (Not the way it was stumbled on to)
+
+DIGETAL INTERPRETATU:  Interpret the Miss-spelled words digitally, or by association with a binary alphabet (First proposed by Elonka in message 808 I believe)
+Spell out each of the miss-spelled words in various binary alphabets. The correct alphabet is signaled by the recovery of the corrected letter as spelled by the first bit of each of the first five letters. For example:
+(Recovered by Randy Thompson message: 5318)
+The zero-Indexed alphabet:
+
+
+Yields: (Writing the letter down vertically, reading off horizontally,)
+
+01011 =L
+
+GRUUND01110000001010111010000101001101110 = O
+
+DESPARATLY0010010101000100001101010000001011000110100101011000100=E
+In each case the corrected letter is represent by the first 5 bits of the first 5 letters.  In other words the correct letter when written in A=0 Binary is “oriented” 90 degrees from the misspelled letter.
+
+Write K4 in the same manner, and recognize the bit pattern for the first letters of K4 match those indicated by e n d Y A h R. with the Raised letter (capitalized here) as 1 and others as 0:
+
+0 0 0 1 1 0 1
+e n d Y A h R 
+O B K R U O X
+0 0 0 1 1 0 1
+1 0 1 0 0 1 0
+1 0 0 0 1 1 1
+1 0 1 0 0 1 1
+0 1 0 1 0 0 1
+
+Given a random selection of letters, there is a 1/123 chance that the first 7 letters of K4 would form the same pattern as formed by the raised YA_R in the first seven letters of K3(message;5288,5280).  This confirms that the binary is used in some way for K4 to the operative.
+
+
+
+Application:
+There are a couple points to make at this point.  The first is even with the binary clues there is no “slam dunk” pathway to proceed. As a matter of course, I assumed, probably incorrectly, that someone along the line would have done a preliminary screening of the K3 CT as a pseudo running key for K4, simply because of the raised YA_R. Hence, I focused on direct binary encryption techniques. This was probably a mistake, and I have recently returned and done some evaluation of this and found some very interesting anomalies.
+
+
+
+
+K3 CT as a Running Key for K4:
+One of the possible encryption scenario’s indicate by the binary clues is the use of K3 CT as a pseudo-running key.  If this is the case, then to decrypt K4, the determination of the encryption method and other keywords become the obstacle. Before attacking these areas, it makes sense to evaluate K3 CT as a key statistically to evaluate the likelihood that this indeed possible.  A pseudo running key is attractive because:
+
+For texts of this length the expect statistics are very close to that of random English ( i.e. well masked)
+This is done in only 1 encryption step.
+Without recovery of one or more of the keys, this would be virtually impossible to crack
+
+The weakness of a pseudo running key vs. a standard running key is communications of the keyword(s).  In a standard running key, the intended recipient can remember the book, speech, etc that was used as the key, for example Four score and.....can remembered as Gettysburg Address.  Scramble text cannot be remembered, and in this regard is similar to a one time pad. It is quite possible the binary clues were meant to overcome this issue by communicating the key to the operative.
+
+Here is the K3 CT matched with the K4 CT.
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	Note:
+-As seen from the grid above there are 12 letter pairs that repeat, with two, ZL, and UA, repeat twice for a total of 16 Pairs.
+		-There is a repeating Digraph, KS and  ZL at position 46 and 78
+		-There is a double letter Z/L Z/L and position 47/48.
+
+We can calculate an overall IC by calculating an IC for each key letter with its corresponding CT letters and then weighing it by the # of times the letter appears in the key string.  This would be similar to calculating a periodic IC, except that instead of calculating it a certain period and taking the average, we are assuming the key and taking a weighted average.  
+
+For instance for the Key letter A: has corresponding CT letters U (at 5, 90, 92) N( At 30), K (at 32, 74), T (at 68).  The IC for Key letter A is ((3*2) + (2*1))/ (7*6)  = 19%.  The overall IC is thus the weighted average for all key letters.  I am not sure what to call this so I will call it a fractional IC.
+
+The overall fractional IC is ~6%.  Since K4 is short at 97 letters, on average there are ~ 4-5 letters per key letter. There is a wide spread in what we would expect for the K3 CT Key with English, a Scrambled English key vs. the K4 CT, and the K3 CT versus 97 randomly generated letters.
+
+
+K3 CT paired with K4 falls within the expect distribution for all of these.  See chart and table below:
+
+
+
+Variant Mode:
+Since both statistical tests performed could not discern whether or not the K3 CT was used as a key for K4. I decided to run a couple more experiments to see if anything of interest should appear, and it looks as if I just might have caught a break.  I performed the decryptions using Vigenere, Beaufort, and Variant mode with a straight VIG Tableau (ABCD...) and a Quag 3 Kryptos tableau, to see if anything would “pop out”.
+
+Here is the finding that provides the glimmer of hope.  If you perform a regular Variant operation ( PT= CT +K)  using K3 CT as the key and K4 as the CT, and  using the standard ABC Vig tableau, you get a PT with an IC of 5.2%.  Now this is less than would be expected for English; however it is much higher than we would expect to occur randomly.  The chart below shows the IC for K4 Decrypted variant mode with a scrambled English key. (K1-K3 put through an 8 column keyed transposition) for 680 shifts, and the IC for 97 randomly generated letters decrypted in variant mode with the K3 CT as the key, 680 trials.
+
+
+
+
+
+
+Only 3 of the 1360 trials had an IC greater than or equal to the one seen with K3 CT as a key in variant mode with an ABCD Tableau.  Therefore the chance that this could occur randomly is somewhere in 1 in a few hundred range.  
+
+Possible meaning:
+Obviously an IC of 5.2 % does not signify the final solution, but as I see it there are a couple of different possibilities. 
+
+First, this is an intermediate CT.  I don’t think this is the case because a pseudo running should provide sufficient scrambling to mask any English, and a 2 step encryption process should not be needed.
+
+The second and my hope is that this is an artifact of the actual encipherment. The scenario that popped into my head was the unused ABC alphabets on the Tableau side of the sculpture.  Variant mode is equivalent to using the outer Alphabets as an XY lookup table with the PT in the middle.  In other words, if the K3 CT letter is your X coordinate, and the K4 CT letter is your Y coordinate.  The resulting PT letter is pulled from the middle Kryptos Alphabet where the two intersect.  This produces and equivalent PT with an IC of 5.2% that is a simple substitution as the example given above, since the inner keyed alphabet is provides for a simple substitution.
+
+This also means that the 5.2% IC could be an artifact of the actual encryption tableau.  In other words, to properly decrypt K4 using the K3 CT as a key, we need to replace the outer ABCD alphabets with a Keyed Alphabet for each.  
+
+Theory test:
+
+To test this theory I created 5 test PT’s.
+
+Each PT was encrypted in variant mode using:
+	PT Alphabet was KRYPTOSABCD.....
+	Key Alphabet was keyed with one of 1 of 10 words (in this case peach)
+	CT Alphabet was keyed with 1 of 10 words (in this case carrot)
+	The CT IC was measured
+
+	Each CT, was then Decrypted using the following
+	PT Alphabet was KRYPTOSABCD.....
+	Key Alphabet was ABCD....
+	CT Alphabet was ABCD........
+	This was done for BOTH Variant and VIG mode
+	The IC for each was recorded
+	This was repeat through all 10 keyword sets, so there where 50 trials in total.
+
+Example:
+Encryption:
+
+
+
+
+Decryption:
+
+
+
+
+Test and Results:
+
+Test PT:
+entrepreneursandtheirsmallenterprisesareresponsibleforalmostalltheeconomicgrowthintheunitedstates
+SentimentedgedupinMarchaccordingtoreportsonTuesdaythatbackedviewsthattheworstoftherecessionisover
+GovernmentislikeababyAnalimentarycanalwithabigapetiteatoneendandnosenseofresponsibilityattheother
+PoliticsisnotabadprofessionIfyousucceedtherearemanyrewardsifyoudisgraceyourselfyoucanalwayswriteX
+Wearetoadmitnomorecausesofnaturalthingsthansuchasarebothtrueandsufficienttoexplaintheirappearance
+
+Keywords
+
+Results –Summary (Details given in back):
+
+
+
+The keywords were chosen arbitrarily, and are probably on average too short, so I would not call this data statistically significant.  However, I think it does illustrate that the IC of 5.2% could be caused as an artifact of encryption in this process, particularly if shorter keywords were used. I repeated this test using only keywords with 10 letters:  Here are the results:
+
+
+
+
+Even when using only longer Keywords, we see an increase in the IC and a broadening of the distribution such that an IC of 5.2% falls within the expected range. We can also conclude that if the K3 CT was used as a running key for K4, then it was probably encrypted in Variant mode and not Vig or Beaufort.
+
+Solution Attack thus Far:
+
+The main issue in finding a solution is that one needs to find 2 keywords to reduce the problem to a simple substitution.  The method outlined by BION for a Quag 4 will not work because of the shortness of K4.  I have begun a dictionary attack, however since my file of words length 2-9 letters is 110,000 words or so, there are 1.2E10 word combinations.  My very crude dictionary attack program will process about 30,000 trials a minute on the old Dell laptop I am using.
+
+I have prioritized my search based on likely words that I have screened ( Fix Key key word as ABC, screen CT keywords for highest IC , etc).  I am about ~2% through the space with not end in site.  And this is no guarantee that the keywords used are in my file, or there is not an offset, or Kryptos is not used as the PT key.
+
+I would imagine some other type of attack would be appropriate given that we have a know doublet, but hill climbing is beyond my abilities.   Any suggestions and critique are welcome.
+
+
+Stats for Running Key Test:
+
+
+

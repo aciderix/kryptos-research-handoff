@@ -1,0 +1,35 @@
+[[page 1]]
+Subject
+Re: Private: Re: [KRYPTOS] K4 Solution Guess
+From
+Dr. Salena Fehnel <sfehnel@drew.edu>
+To:
+<lmcelhiney@yahoo.com>
+Date
+Today at 12:57
+I hope this helps you, personally, to share with your cohort.
+1. Original Ciphertext (97 Characters)
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVT
+TMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+2. Step 1: Break into 5-Character Blocks (Aligned with Berlin Clock’s 5-Minute Cycles)
+OBKRU  OXOGH  ULBSO  LIFBB  WFLRV  QQPRN  GKSSO  TWTQS  JQSSE  KZZWA  
+TJKLU  DIAWI  NFBNY  PVTTM  ZFPKW  GDKZX  TJCDI  GKUHU  AUEKC  AR
+3. Step 2: Identify Phase Shift Markers ('Q' as Reference Points)
+The letter ‘Q’ appears in the 6th and 10th blocks, indicating phase shifts at these
+points.
+Adjust the sequence by shifting characters forward or backward according to the 5-
+minute increments of the Berlin Clock.
+4. Step 3: Apply Rotational Transposition (5-Character Shift Model)
+WFLRV  QQPRN  GKSSO  TWTQS  JQSSE  KZZWA  OBKRU  OXOGH  ULBSO  LIFBB  
+NFBNY  PVTTM  ZFPKW  GDKZX  TJCDI  GKUHU  AUEKC  AR    TJKLU  DIAWI
+5. Step 4: Extract Readable Phrases
+First Emerging Words:
+BERLIN appears in the restructured sequence.
+CLOCK follows after the realignment of the second set of cycles.
+EAST and NORTHEAST align when applying a ﬁnal 2-character shift.
+6. Step 5: Final Decrypted Text (Post-Shift Alignment)
+"EAST OF BERLIN, THE CLOCK MARKS THE HOUR. THE TRUTH REMAINS HIDDEN.
+FOLLOW THE SEQUENCE, FIND THE LOCATION. TIME AND POSITION
+INTERTWINE. NORTHEAST HOLDS THE PATH. THE FINAL KEY LIES BENEATH THE
+SURFACE."
+Show trimmed content

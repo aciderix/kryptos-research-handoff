@@ -1,0 +1,32 @@
+## word/document.xml
+ 
+ Looking at Kryptos as a sequential and linear or unfolding brochure starting from K1 to K4. 
+ Having solved the Morse, the quester begins at the first door, the Kryptos sculpture. Needed are two keywords and the crypto code in order to solve what is seen. The quester is given a very obvious visual reference to code in the form of a Vigenere table. They also have one keyword in the form of the sculpture name, and some clues to search for the other. They might find it through the Morse or perhaps an inference from the sculpture’s palimpsest nature, which effectively describes what is visible and what is coded. To avoid easy application of the Kasiski Method and plug & play, JS adds spelling errors. 
+ Doorway #1: K1 locking mechanism. 
+ Keyword1: Sculpture name 
+ Keyword2: Deductive process, described above 
+ Code & Decryption: Vigenere , Kasiski Method . 
+ De-code block: Spelling errors , iqlusion 
+ With all el ements, doorway K 1 is unlocked. Text provides clue to next mechanism. 
+ Door way #2 : K2 locking mechanism. 
+ Keyword1: Sculpture name 
+ Keyword2: Abscissa , deductive process - The deciphered text is a literal description (in art terms) or a more vague clue in layman’s speech to this. In art, this is a reference to leading lines, and the sculpture has two very obvious leading lines similar to a Cartesian coordinate system. 
+ Code & Decryption: Vigenere , Kasiski Method. Same as #1. 
+ De-code block: Spelling errors, undergruund 
+ With all elements, doorway K2 is unlocked. Text provides clue to next mechanism. 
+ Doorway #3: K3 locking mechanism. 
+ Keyword1: Kryptos 
+ Keyword2: 0362514. Visual hints and cartesian coordinate allusions. Deductive process – latitude and longitude are used with cartesian coordinates in a geodetic coordinate system. To further send home the point, there apparently *used to be* a geodetic marker where the coordinates led to. Unfortunately, these can be moved/destroyed. JS did not know this. 
+ Code & Decryption: Columnar Transposition, Permutation blocking . Visually suggested in Vigenere table as an alternative possibility. 
+ De-code block: Spelling error , . 
+ With all elements K3 is unlocked. Text provides clue to next mechanism? Speculation: Enigma 
+ Doorway #4: K4 locking mechanism. 
+ Keywords: Enigma does not use standard keywords as such: one needs to know the 3-rotors used and cribbing guesses to begin an analysis attack. 
+ Enigma is heavily suggested not only visually in the sculpture, but within the text deciphered so far. JS himself states that he used a method based on patterns of light and shadow, which refers to an archaic method of decryption that involved Zygalski sheets (see also: Kryptos ) and 25 key documents designed to isolate the rotors. This method involved cutting holes, similar to what is on Kryptos , and gradually blotting out the light in those holes until only one remained. It gradually evolved to use of specialized machines ste ckerboards , plugs and lighting but current methods still exist online to create one’s own enigma machine with only pencil and paper. The information was sent by Morse code. Physical documents were sent by pneumatic tubes. 
+ We are given a bonus clue in the form of Berlin Clock, which has been repeatedly speculated at, but most often leads people to Mengenlehreur the Set Theory Clock. Of note – set theory is the mathematical method Polish cryptologists used to cryptanalyze the process that would lead to decrypting Enigma. As a clock, whose face is read by intervals in light and shadow, “Berlin Clock” could very easily refer to Kryptos itself. 
+ In more blatant terms, Enigma is an English variant of the word Kryptos . 
+ Code & Decryption: Enigma, 3-rotor identification, cribbing 
+ Cribbing is a technique of using known or guessed words to make an attack on certain text. Because Germans made some critical mistakes, they were able to crib easily. 
+ Code-block: Probable spelling errors. K3 hints that we may need to clear rubble to see what lies behind the surface. One of the biggest blocks is K=K which cannot happen in Enigma. This could be a big clue that indicates that K- ciphertext is actually “covering” the letter that should decrypt to the K-plaintext. 
+ ~ End Analysis 1 ~ 
+ 

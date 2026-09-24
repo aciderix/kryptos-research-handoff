@@ -1,0 +1,950 @@
+Calc                                                                                                         B
+GENERAL
+GENERAL
+# ?/?
+Excel Built-in Normal
+Sheet1
+Sheet2
+Sheet3
+PANEL 4 - original matrix
+Matrix 4-A
+<-----
+Matrix 4-BP
+Left most column is part of KEY - it is telling us to use panels 3 & 4 together!
+I deduced this since the alphabet on the left goes continuous from A to Z on both panels.>
+Laying PANEL 3 upside down over PANEL 4 to reveal KEY letters 2
+B,C,D,E,H,I,K,O,X = KEYSJ
+These letters are the same when viewed upside down and through each other!
+Row 26 on this spreadsheet represents Top Row of PANEL 3 - Again, part of KEY and, deduced again that since the bottom of panel 4 matches the top of panel 3 (exactly), I could use the alphabet as an overlay to panel 4
+Moving (Matrix 4-A) over to align under Column A8
+*Folding over PANEL 4 onto PANEL 3 to reveal KEY letters"
+KEY letters are: B,C,D,E,H,I,K,O,X
+This is an unfinished matrixO
+H,I,b,o,X appear to be KEY letters and seem to be retained as position holders.
+Going Southeast from corner to corner G aligns with E, Hence G is replaced by E.P
+Arrived at this due to lack of congruity between only those 2 letters in matrix.
+--->
+IE: Counting over to J = 4 spaces, counting over from E = 4 spaces, therefore, B.
+---->/
+H,I are KEY letters and therefore don't change.J
+IE: Counting over to N = 7, counting over from E = 7 spaces, therefore, O.
+----->
+Constants and why no changes
+Constants only apply in NW section
+H,I are KEYS
+X is a KEYR
+NW side of cryptogram - Constants apply. Therefore, H,I, X remain Constants (KEYS);
+These are just practice areas to think out loud. Repeats #11
+Now changes are made to NW side based upon (KEYS)/
+L=A, M=S,N=O,Q=T, U=P,V=Y,W=R,X=KEY,Z=unchanged(
+This is Matrix 4A (See original Panel 4)
+example to illustrate$
+Diagonal Z ends the series reversal.
+#2 is a partial transposition+
+However, KEY letters need to stay the same!
+<---
+3 finishes the #2  
+Transposition matrix\
+Z is the dividing line between an even number of rows vs columns, and is therefore dropped. $
+SE portion of matrix is also dropped=
+Now we prepare to transpose Matrix 4B (from original Panel 4)
+Matrix 4-B-t (start)Y
+Matrix 4-B is from the original PANEL 4 matrix second part. (right half - 13 x 13 matrix)6
+Here the KEY letters C,D,E,K were made a lighter shadef
+and maintained only for the left part of this rt sided part, (just to test dbl matrix solution theory)'
+F is the Center Diagonal in this matrix
+13 x 13 matrix
+same rules apply
+but in mirror format
+NW is kept, SE is discarded
+With 'O' as KEY
+With 'O=N'.
+Start transposition after dropping mirror half
+With 'B' as KEY
+With 'B=J'
+Matrix 4-B(t)
+78 CHARACTERS
+See cell (HH,112) --> 
+for transposition process&
+HORIZONTAL TRANSPOSITION OF MATRIX 4-B&
+HORIZONTAL TRANSPOSITION OF MATRIX 4-A@
+DROP THE 'Z' ,SINCE IT IS THE DIVIDING LINE BETWEEN TH NW AND SE
+Matrix 4-A(t)3
+See Matrix 4-B(t) above for transposition sequence.
+M4-B(t)
+M4-A(t)
+10.0+
+10.0++T
+Transposing the Original Panel 4 --> Matrix 4A WITHOUT MAINTAINING LOCKED KEY CELLS!
+Original Panel 4 --> Matrix 4-A
+With the X's dropped!]
+Dropping the SE side of the Matrix at the 'Z' crossover, just like in previous transpositions,
+Based upon prior KRYPTOS solvers, it appears0
+that the 'X' is a placeholder, and is the reason
+I am dropping them here.
+X' placeholders removed2
+Transposed matrix of MATRIX 4-B used on Matrix 4-A
+M4-B(t) used on M4-A2
+Transposed matrix of MATRIX 4-A used on Matrix 4-A
+M4-A(t) used on M4-A]
+At this point, I am noticing striking similarities between these three matrices. (11, 7, & 9)_
+I am realizing that by somehow overlaying 7 and 9 onto 11, I could come up with possible words V
+in columns 1 and 2. So I eventually came up with the logic to arrive at 'POWERS RELY' :
+from columns 1 and 2, based upon the CIA theme of KRYPTOS.a
+I dropped cells (1,7) and (2,7), since I thought they may have been redundant, or put in place on
+Locked KEYS2
+purpose to confuse those trying to break the code.
+See Note 3
+LOGICe
+Where ever there is letter that matches a transposed matrix cell, it will default to the other matrixZ
+If cell on Matrix 4-A [11] matches cell on M4-A(t) [9], then revert to cell on M4B(t) [7].B
+Starting with M4-A(t) [9] and proceeding to M4-B(t) [7] as needed.X
+Noticing the similarities between [9] and [11], I felt [7] was more of a back up matrix.
+based on
+B or P
+J=B or P
+U=P(
+We now have a completely random pattern +
+We can now proceed to solve the cryptogram.B
+Since we already have a 'P' generated, the 'B or P' will be a 'B'.8
+Cell (1,7) and (2,7) are redundant, and will be dropped.V
+*Note that Cell (1,5) is an 'R', But it is not a LOCKED KEY, therefore can be changed.$
+This was used for my reference only:b
+Single characters in the english language can be 'A', 'B', 'C', 'I', 'K', 'N', 'O', 'S', 'T', 'U'.i
+Taking some liberties based upon prior guesses, not documented.
+Cell (1,3) = 'P' instead of B
+Cell (1,5) = 'W' instead of R6
+Under the assumption that 'POWERS' might be Column 1. 
+Cell (1,6) = 'S' instead of Y@
+Even though some KEYS are locked, see the LOGIC about reversion.
+Guessed that non-locked R = I<
+Cell (1,7) and (2,7) were not redundant, and are added back.
+FROM 14
+WRONG!!!!!
+Based upon POWERS RELY
+Locked R=R
+Non Locked R=W
+P=I or A
+Matrix 3-A
+POWERSxRELYxIEMMAPxxPOLISYONLYIYAxMOAxASxOYSLSIxYAIMIxASxOxAxSIPYOSxIxLAYIxxIMSA
+hASTYY
+POWERSxRELYxIE MMAPxxPOLISY ONLY YY AIxMOAxASxOILY SSxMAY IIxASxOxAxSPY OSIxIxI LAYxxSAME
+nASTYo
+POWERS RELY IE MMAP POLISY WHY ADDITIONAL INFORMATION MEMORANDUM AS OILY SS MAY AGREE AS O A SPY OSI 2 LAY SAME
+tASTY
+STAY
+PROWESS RELY WW PATTY
+help!!!Q
+LOW POSE WE TALE TAO AS H(E) SLOWS WE WAIT AS O(N) A SW POSE W(ITH) AL(L) WE STAY=
+PLEASE IGNORE MATRIX 15, AS IT IS OBVIOUS IT LEADS NOWHERE!!!S
+HOWEVER, APPLYING THE LOGIC, I DID COME UP WITH A RATHER PECULIAR PASSAGE FOR [16]!O
+MY SUBSTITUTIONS LEAVE A LOT TO BE DESIRED, BUT I AM HUMBLED BY THE EXPERIENCE.^
+ANY HELP IN DETERMINING IF I WAS HEADED IN THE RIGHT DIRECTION PRIOR TO GOING OFF ON A TANGENT
+WOULD BE GREATLY APPRECIATED!!\
+LETTERS IN BRACKETS INDICATE LETTERS FOR WHICH I BELIEVE SANBORN LEFT OUT TO CONFUSE PEOPLE.
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+Microsoft Excel 97-Tabelle
+Biff8
+ccc@@@???ddd
+ccc@@@???ddd
+RRRBBB
+RRRBBB
+RRRBBB
+RRRBBB
+RRRBBB
+RRRBBB
+RRRBBB
+RRRBBB
+000|||111
+RRRBBB   
+RRRBBB
+RRRBBB
+nnnggg
+IIIIII
+IIIIII
+IIIIII
+ccc@@@???ddd
+&&&000RRRHHH
+RRRBBB
+KKKKKK   
+KKKKKK
+000|||111RRRBBB
+KKKKKK
+RRRBBB000|||111
+IIIIII
+IIIIII
+RRRBBB
+RRRBBB
+RRRBBB
+RRRBBB
+RRRBBB
+KKKKKK
+RRRBBB
+RRRBBB
+KKKKKK
+RRRBBB
+IIIIII
+IIIIII
+IIIIII
+IIIIII
+RRRBBB
+KKKKKK
+KKKKKK
+KKKKKK
+RRRBBB
+KKKKKK
+ttt[[[
+ttt[[[
+:::FFF:::
+ttt[[[
+<<<QQQ===
+:::<<<;;;
+:::FFF:::
+:::FFF:::
+ttt[[[
+:::<<<;;;
+:::<<<;;;
+:::FFF:::
+ttt[[[
+:::<<<;;;
+:::FFF:::
+:::<<<;;;
+---666
+IIIIII
+KKKKKK
+Root Entry
+Arial1
+Arial1
+Arial1
+Arial1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri
+Therefore, so far
+G=E, J=B, N=OQ
+Double letter words can be for ex: 'AD', 'AH', 'AM', 'AN', 'AS', 'AT', 'IE', 'IF', 'IN', 'ON', 'TO', etc
+,,,,,,,---.
+  00      1
+33443333335
+::::
+::::
+****
+*****
+******
+*******
+*******
+*******
+*******
+*******
+*******
+o Oa
+o!N*
+o#* 
+o-Oa
+o.N*
+o0* 
+o:Oa
+o;N*
+o=* 
+oGOa
+oHN*
+oJ* 
+oTOa
+oUN*
+oW* 
+oaOa
+obN*
+od* 
+onOa
+ooN*
+oq* 
+o{Oa
+o|N*
+o~* 
+p"* 
+p,* 
+p/* 
+p9* 
+p<* 
+pF* 
+pI* 
+pS* 
+pV* 
+p`* 
+pc* 
+pm* 
+pp* 
+pz* 
+p}* 
+q+99,
+q8999
+999999
+t(99999,
+t5999999
+tB99999F
+tO99999S
+t\99999`
+ti99999m
+tv99999z
+99999
+99999
+9999
+S99999
+S9999,
+S99999
+S9999F
+S9999S
+S9999`
+S9999m
+S9999z
+S9999
+S9999
+S9999
+S9999
+S9999
+S9999
+S9999
+&&&&&'
+*999999
+*99999,
+*999999
+*99999F
+*99999S
+*99999`
+*99999m
+*99999z
+*99999
+*99999
+*99999
+*99999
+*99999
+*99999
+*99999
+w%***
+w2***
+w?***
+wL***
+wY***
+wf***
+ws***
+999,
+9999
+999F
+999S
+999`
+999m
+999z
+y*999
+y7999
+yD999
+yQ999
+y^999
+yk999
+yx999
+z*999
+z7999
+zD999
+zQ999
+z^999
+zk999
+zx999
+&&&&&'
+VVVVVV
+VVVVVV
+S9999
+&&&&&'
+9999999^9999
+______000000
+9999999^9999
+______000000
+9999999^9999
+______000000
+9999999^9999
+______000000
+9999999^9999
+______000000
+9999999^9999
+______000000
+9999999^9999
+______000000
+999^9999
+______000000
+****
+*****
+******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+9999999^9999
+999a999^9999
+****
+*****
+******
+&(((()
+*******
+******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+i#######    
+j  00       
+i  00       
+  00       
+!lmmmmmmmmmmmnmlmmmmmmmmmmmn;
+              mmmmmmmmmmmmmmnmmmmmmmmmmmmmn;
+ o            mmmmmmmmmmmmmmnmmmmmmmmmmmmmn;
+              mmmmmmmmmmmmmmpmmmmmmmmmmmmmp;
+  D######  DDDmmmD######  DDDmmD######  DDD;
+  ######  DDD#mmm######  DDD#mm######  DDD#;
+  ####  DDD###mom####  DDD###mm####  DDD###;
+  #  DDD###  Dmmm#  DDD###  Dmm#  DDD###  D;
+  DD##  DDD#  mmmDD##  DDD#  mmDD##  DDD#  ;
+  DDD  DDD DDDmmmDDD  DDD DDDmmDDD  DDD DDD;
+&&&&&'
+.mmDDDDDD      ;
+DDDDDD      
+.mmDDDDDD      ;
+DDDDDD      
+.mmDDDDDD      ;
+ qqqqqqqqqqqqrqsqqqqqqqqqqqqqqqqqqqqqqqqqqq;
+ q_000qqqqqqqrqq_000qqqqqqqrqqqqqqqqqqqqqqq;
+ q00000qqqqqqrqq00000qqqqqqrqqqqqqqqqqqqqqq;
+ qqqqqqqqqqqqrqtqqqqqqqqqqqrqqqqqqqqqqqqqqq;
+ qqqqqq0qqqqq0qqqqqqq0qqqqq0qqqqqqqqqqqqqqq;
+ q000000000000qq000000000000qqqqqqqqqqqqqqq;
+ q000000000000qq000000000000qqqqqqqqqqqqqqq;
+ q000000000000qq000000000000qqqqqqqqqqqqqqq;
+ q000000000000vq000000000000qqqqqqqqqqqqqqq;
+ q000000000000qq000000000000qqqqqqqqqqqqqqq;
+ q000000000000qq000000000000qqqqqqqqqqqqqqq;
+&(((()
+ q0000000wwwwwqq0000000wwwwwqqqqqqqqqqqqqqq;
+qqqqqqqqqqqqrqqqqqqqqqqqqqqqqsqqqqqqqqqqqq;
+m DDD DD      mmmmmmmmmmmmmmm
+qqqqqqqqqqqqrqqqqqqqqqqqqqqqqq_000qqqqqqqr;
+m DDDDDD      mmmmmmmmmmmmmmm
+qqqxqqqtqqqqrqqqqqqqqqqqqqqqqq00000qqqqqqr;
+my            mmmmmmmmmmmmmmm
+0000000000000qqqqqqqqqqqqqqrqtqqqqqqqqqqqr;
+moi           mmmmmmmmmmmmmmm
+0000000000000qqqqqqqqqqqqqqrqqqqqqq0qqqqq0;
+m             mmmmmmmmmmmmmmm
+0wwzw0000w0w_qqq000000000000qq000000000000;
+m ##{#    # #Dmmmmmmmmmmmmmmm
+0ww0w0000w0_wqqq000000000000qq000000000000;
+m ## #    # D#mmmmmmmmmmmmmmm
+0ww0w0000_0wwqqq000000000000qq000000000000;
+m ## #    D ##mmmmmmmmmmmmmmm
+0ww0w0_0000wwqqq000000000000vq000000000000;
+m ## # D    ##mmmmmmmmmmmmmmm
+0w_0w0w00_0wwqqq000000000000qq000000000000;
+m #D # #  D ##mmmmmmmmmmmmmmm
+0ww_w0w0_000_qqq000000000000qq000000000000;
+m ##D# # D   Dmmmmmmmmmmmmmmm
+000_w__0wwwwwqqq0000000wwwwwqq0000000wwwww;
+m   D#DD #####mmmmmmmmmmmmmmm
+000_w__0wwwwwqqqqqqqqqqqqqqrqqqqqqqqqqqqqq;
+m   D#DD #####mmmmmmmmmmmmmmm
+*****
+00000000000000qq!
+#|}qqqqqqqqrqqqqq2
+4qqqqqqqq;
+m              mmmmmmmmmmmmmm
+*****
+00000000000000qqqqxqqqtqqqqrqqqqqqqqqqqqqq;
+m i            mmmmmmmmmmmmmm
+m              mmmmmmmmmmmmmm
+m              mmmmmmmmmmmmmm
+ !   
+m              mmmmmmmmmmmmmm
+ #!   
+m              mmmmmmmmmmmmmm
+ ##!   
+m              mmmmmmmmmmmmmm
+ ###!{ m
+m           { mmmmmmmmmmmmmmm
+ ####! {
+> !?
+m  {         {mmmmmmmmmmmmmmm
+ #####! {m
+( #####!
+7   #####!?
+m  {         {mmmmmmmmmmmmmmm
+ ######! {m
+     ######!
+     ######!?
+m            {mmmmmmmmmmmmmmm
+ #######$ {m
+    #######$
+    #######$?
+m            {mmmmmmmmmmmmmmm
+ ####### $   
+   ####### $
+   ####### $?
+m      {       mmmmmmmmmmmmmm
+ #######  $   
+  #######  $
+  #######  $?
+m      {       mmmmmmmmmmmmmm
+ #######   $   
+ #######   $
+ #######   $?
+m              mmmmmmmmmmmmmm
+%(((((((&&&&'   
+"%(((((((&&&&'
+3%(((((((&&&&'?
+m              mmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+              
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+              
+mo             mmmmmmmmmmmmmm
+              
+m              mmmmmmmmmmmmmm
+              
+m  {{        D mmmmmmmmmmmmmm
+              
+m {{        DD mmmmmmmmmmmmmm
+              
+m         D    mmmmmmmmmmmmmm
+              
+m {{        DD mmmmmmmmmmmmmm
+j      
+j       
+m         D    mmmmmmmmmmmmmm
+              
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+              
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+              
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+              
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+              
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+     
+       
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+####!
+&&&&&'   
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  ~  ######!
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  ~ #######$
+     
+       
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  ~####### $
+              
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+######  $
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+#####   $
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+((((&&&&'
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+     ######!
+  0 00 #####
+    #######$
+  0 00 #####
+   ####### $
+  0 00 #####
+  #######  $
+  0 00 #####
+ #######   $
+ 0 00 #####
+%(((((((&&&&'
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+     ######!
+  0 00 #####
+    #######$
+  0 00 #####
+   ####### $
+  0 00 #####
+  #######  $
+  0 00 #####
+ #######   $
+  0 00 #####
+%(((((((&&&&'
+  0 00 #####
+  0 00 #####
+  0 00 #####
+i  0 00 #####
+  0 00 #####
+  0 00 #####
+&&&&&&&&&&&&'
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+ 00 #####
+&'x 00 #####
+  0 00 #####
+ 0 00 #####
+  0 00 #####
+     ######!
+  0 00 #####
+    #######$
+  0 00 #####
+   ####### $
+  0 00 #####
+  #######  $
+  0 00 
+ #######   $
+  0 00 
+%(((((((&&&&'
+  0 00 
+  0 00 
+  0 00 
+  0 00 
+#$!$
+   #####!
+     ######!
+     ######!$
+    #######$
+    #######$$
+   ####### $
+   ####### $$
+  #######  $
+  #######  $$
+ #######   $
+ #######   $$
+%(((((((&&&&'
+%(((((((&&&&'$
+#####
+#####
+#####
+#####
+#####
+mmmmmmmmmmmm#
+mmmmmmmmmmmm#
+,,,---
+mmmmmmmmmmmm#
+###   mmmmmmmmmmmmmn
+mmmmmmmmmmmm#
+###   mmmmmmmmmmmmmn
+mmmmmmmmmmmmm#
+           m  m  0 0
+     #   mmmm#
+           m  m  0 0
+ ###m#   mmmm#
+3333
+33434
+#   mmmm#
+# #    # D#m im  0 00 
+##m#   mmmm#
+# #    D ##m im  0 00 
+##m#   mmmm#
+# # D    ##m im  0 00 
+####   mmmm#
+D # #  D ##m im  0 00 #####   mmmm#
+#D# # D   Dm im  0 00 #####   mmmm#
+ D#DD #####m im  0 00 #####
+ D#DD #####m im  0 00 #####
+             im  0 00 #####
+             im  0 00 #####
+             im  0 00 #####
+             im  0 00 #####
+             im  0 00 #####
+               im  0 00 #####
+               im  0 00 #####
+           { m im  0 00 #####
+  {         {m i
+  0 00 #####
+  {         {m i
+  0 00 #####
+            {m i
+  0 00 #####
+            {m i
+  0 00 #####
+      {        i
+  0 00 #####
+      {         
+  0 00 #####
+                
+  0 00 #####
+                
+  0 00 #####
+                
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+##{#    # #R
+  0 00 #####
+## #    # D!
+  0 00 #####
+## #    D #!
+  0 00 #####
+## # D    #!
+  0 00 #####
+#D # #  D #!
+  0 00 #####
+##D# # D   R
+  0 00 #####
+%&&U(UU&(((()
+  0 00 #####
+   D#DD #####
+  0 00 #####
+  0 00 #####
+            $
+  0 00 #####
+            $
+  0 00 #####
+            $
+  0 00 #####
+            $
+  0 00 #####
+            $
+  0 00 #####
+            $
+  0 00 #####
+          { 
+  0 00 #####
+ {         {
+  0 00 #####
+ {         {
+  0 00 #####
+           {
+  0 00 #####
+           {
+  0 00 #####
+     {      $
+  0 00 #####
+     {      $
+  0 00 #####
+            $
+  0 00 #####
+%&&&&&&&&&&&&'
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+  0 00 #####
+*****
+"#####      $
+"####       $
+"###        $
+"##         $
+"#          $
+"           $
+           $
+           $
+           $
+           $
+           $
+%&&&&&&&&&&&'
+%&&&&&&&&&&&&(((((((&&&&&'
+*******
+*******
+*******
+*******
+***+
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+)***
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+***(
+*******
+*******
+*******
+*******
+*******
+***!
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+***(
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmm
+mmmmmm
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm`
+Root Entry
+Workbook
+CompObj
+SummaryInformation
+DocumentSummaryInformation

@@ -1,0 +1,1127 @@
+[[page 1]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 1 
+State of the Kryptos Solution 
+ 
+Gary Warzin, garyw@aslgroup.com 
+November 18, 2003 • Version 1.03 
+ 
+ 
+ 
+This is the current state of the solution of 
+Kryptos as of November 18, 2003.  The 
+opinions expressed are mine. Others in this 
+group might disagree, so use this 
+information at your own risk.   
+ 
+This document assumes some 
+understanding of earlier work on Kryptos 
+solutions.  If you are unfamiliar with 
+Kryptos, additional information may be 
+found in the Yahoo Kryptos Group’s Files 
+and/or Links sections.  The 
+KryptosBackground.pdf file in the Gary’s 
+PDFs folder will provide you with 
+transcripts of the complete text and the 
+initial solutions for the first 3 parts.  
+ 
+Note that the information is this document supercedes that in my earlier PDFs.  For example, my 
+pet theory about the “errors” being parts of an underlying document showing through, while 
+interesting, now no longer appear as likely.  Also the transcripts of the table portion of Kryptos in 
+the earlier PDFs do not include the extra L in the GHI… alphabet that was recently brought to the 
+attention of the group by Richard Anderson. 
+ 
+Another excellent resource is www.elonka.com/kryptos/.  Here you will find a very extensive 
+compilation of material on Kryptos and Sanborn’s work in general.  
+ 
+ 
+A Change in Perspective 
+ 
+Until now all previous solutions to the first 3 parts of Kryptos have been the result of “cracking” 
+the code.  They may have been either pencil-and-paper solutions, or computer-aided, but they all 
+relied on extracting the plain text from the cipher text through the use of clever techniques and 
+plain old hard work. 
+ 
+In late October 2003 something happened to change my perspective.  Elonka Dunin (co-
+moderator of the Yahoo Kryptos Group) and I had an opportunity to spend some time with both 
+Jim Sanborn (creator of Kryptos) and Ed Scheidt (former head of cypto for the CIA, as well as 
+Sanborn’s advisor on Kryptos).     
+ 
+Both were, as expected, very tight-lipped on the subject of Kryptos.  But, during conversations 
+that spanned several days, a few things were mentioned, almost in passing, that changed the 
+way I thought about Kryptos. 
+ 
+Ed Scheidt talked about the differences between the older codes used in Kryptos and modern 
+codes.  He focused on the problem of delivering the “key” to an operative in the field.  He pointed 
+out that in modern “digital” codes the algorithm is known to everyone.  The “key” is simply a long 
+number.  In older “analog” codes the “key is the algorithm.”  The question he posed:  “So how do 
+
+[[page 2]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 2 
+you deliver the key in a way that your operative can recover it, and still keep the secret from 
+falling into the wrong hands?”  The implication was that the latter condition could be met through 
+the use of intentional dead ends, but he provided no hints regarding the actual delivery of the 
+algorithm. 
+ 
+This prompted me to look at Kryptos from a slightly different perspective – not as simply an 
+encrypted message, but also as a vehicle with which to deliver the key.  This changes the task 
+from one of “cracking” a code to one much more like “solving” a puzzle. 
+ 
+Jim Sanborn, talking to Elonka over dinner, pointed out that no one had solved Part 3 using the 
+same matrix he had used to encrypt it. 
+ 
+This was particularly interesting because the Kryptos Group had discovered multiple techniques 
+for solving the transposition.  If a clue could be found in Kryptos that would point to one method 
+as being the single correct solution, it could provide valuable information regarding the very 
+nature of Kryptos; i.e., was it an encrypted message to be “cracked,” or a puzzle to be “solved?”   
+As Part 3 also appeared to be the simplest section, it seemed to be the logical place to begin 
+looking for hidden clues. 
+ 
+ 
+ 
+Recovering the Key and Solving Part 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Photo Copyright © 1999 by Jim Gillogly, All rights reserved. 
+ 
+The raised Y, A, and R shown in the above photo were first brought to my attention by Elonka 
+Dunin in April or May of this year.  She had noticed them during a visit to the CIA to present a talk 
+on steganography.  The CIA allowed her to do rubbings, which she later posted to her Kryptos 
+web site.  Since this anomaly occurs at the beginning of Part 3, it seemed likely that it was related 
+to that section.  The task was to work backwards from the known solution and find information 
+hidden in this clue that could provide an operative in the field with the “key” – keeping in mind that 
+intentional dead ends are also required to confuse others.       
+ 
+After a bit of trial and error, I was able to construct the following binary-number based solution:   
+ 
+Part 3 begins with ENDYAHROHN.  The 5 letter DYAHR grouping defined by the extra spacing 
+before D and after R indicates that each binary number is 5 digits long.  The raised letters Y, A, & 
+R represent 1.  The other letters are 0.  (Note that the first number reads left to right while the 
+second reads right to left.  This “mirroring” could result in the recovery of the wrong number and 
+thus could be one of the intentional dead ends.)    
+ 
+E N D
+Y
+A 
+H R
+O
+H
+H
+0 0 0
+1
+1 
+0 1
+0
+0
+0
+1 
+2 
+4
+8
+1 6
+1 6
+8
+4
+2
+1
+24 
+8 
+ 
+
+[[page 3]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 3 
+ 
+ 
+Write Part 3 into in to a grid of 24 rows by 14 columns, starting in the upper right corner and 
+writing down the column: 
+ 
+ 1 D AE GI FW QE WR NDE 
+ 2 M GG RB IE HO NA OYN 
+ 3 R TO IS ON EE DR HSD 
+ 4 I DE EE TA ET IP SHY 
+ 5 P HA WD UT NF TE NNA 
+ 6 F AO FD EA CO ES OAH 
+ 7 E RS EN TM TL EL SIR 
+ 8 I DD BI UA AS NN MAO 
+ 9 M PD AA AT YE RN RCH 
+1 0 E NR EA EE CD AE WHN 
+1 1 H EY CH OG DT HL XTL 
+1 2 N OD TT TY EI CE MNS 
+1 3 L HL DT OE IW TB NRR 
+1 4 S MO DM AE FE EL EEH 
+1 5 S GR HS RR TN NP TYE 
+1 6 T FI IT ML BH EI PUO 
+1 7 T MT LE AB RA UI RLC 
+1 8 R FR CW ET WE DA NDP 
+1 9 T EK EP EE PI RC GST 
+2 0 V UL II RE AO EA ALE 
+2 1 D HM HE TF MY TE TLO 
+2 2 O EL SR NO HT NW ISI 
+2 3 H EE IO RA HE HM HLB 
+2 4 W CH TA TS EY AT NLI 
+ 
+ 
+Take the text out of the above grid by rows, from left to right.  Transfer it to a grid of 8 rows by 42 
+columns, again starting at the upper right corner and writing down the column.   
+ 
+1 SL OW LY DE SP AR ATL Y SL OW LY TH ER EM AIN S OF PA SS AG ED 
+2 EB RI ST HA TE NC UMB E RE DT HE LO WE RP ART O FT HE DO OR WA 
+3 YW AS RE MO VE DW ITH T RE MB LI NG HA ND SIM A DE AT IN YB RE  
+4 AC HI NT HE UP PE RLE F TH AN DC OR NE RA NDT H EN WI DE NI NG 
+5 TH EH OL EA LI TT LEI I NS ER TE DT HE CA NDL E AN DP EE RE DI 
+6 NT HE HO TA IR ES CAP I NG FR OM TH EC HA MBE R CA US ED TH EF 
+7 LA ME TO FL IC KE RBU T PR ES EN TL YD ET AIL S OF TH ER OO MW 
+8 IT HI NE ME RG ED FRO M TH EM IS TX CA NY OUS E EA NY TH IN GQ  
+ 
+ 
+The decrypted text can now be read across the rows. 
+ 
+It should be pointed out that originally the idea that the binary numbers were 5 digits long was 
+arrived at via trial and error.  It wasn’t until Elonka reminded me that John Wilson had drawn our 
+attention to the fact that that altered horizontal spacing defined a group of 5 letters.  While we had 
+no appreciation of the significance of that at the time, in hindsight, it becomes a likely indicator of 
+the length of the binaries.  
+ 
+ 
+This relatively simple solution for Part 3 made previous solutions of Part 1 and 2 look much too 
+difficult in comparison.   This inspired me to revisit those solutions. 
+
+[[page 4]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 4 
+Recovering the Key Words for Parts 1 & 2 
+ 
+ 
+The table is clearly a broad hint as to the method used to encrypt Parts 1 & 2 (with the ABCD… 
+index across the top and side a possible dead end, as they are not used in the decryption 
+process).  But, to put these sections at a level of difficulty (level of simplicity?) similar to that of 
+Part 3, Kryptos must contain some mechanism for conveying the key words PALIMPSEST and 
+ABSCISSA to the operative in the field.  
+ 
+A likely place to hide those key words was in the table itself, possible by making a slight alteration 
+to one letter in each line.  Unfortunately, due to resolution limitations and jpeg artifacts, the photos 
+currently available are not sufficient to make a definitive determination.  However, they do provide 
+some evidence that the serifs on letters corresponding to the key words have been shortened.  
+Compare the P on line A (where the first letter of PALIMPSEST would be expected to be located) 
+with the P on row B.  The portion of the serif extending to the left appears to be slightly shorter. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                        Photo Copyright © 1999 by Jim Gillogly, All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+
+[[page 5]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 5 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Because most photos of Kryptos were taken from a distance, and anyone taking close up shots 
+tended to focus on the “message” side of Kryptos, there are very few good photos of the table 
+side to work with.   A photo in “Atomic Time” (the companion book to Jim Sanborn’s new 
+installation that opened at the Corcoran Gallery of Art in late October 2003) shows several letters 
+that appear to be consistent with this theory.1  The blow up above shows the last T in 
+PALIMPSEST.  (Note that the shortened serif on the right of the T is actually on the left, as this 
+photo is a front view of Kryptos in which the message side reads correctly, but the table is seen 
+from the rear.) 
+ 
+Because of the shadows, curvature of the panel, and limited resolution of the photos, it is not 
+possible to state as an absolute fact that this theory is correct.  The best that can be said at this 
+time is that the photos are consistent with this theory.  It may take an actual inspection of the 
+sculpture to confirm this speculation. 
+ 
+                                                           
+1 Atomic Time, Jonathan P. Binstock – ISBN 0-88765-072-5.  This book retails for $29.95 and is available 
+at the Corcoran’s gift shop.  Corcoran Gallery of Art, 500 17th Street NW, Washington, DC 20006    
+
+[[page 6]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 6 
+Speculation on Part 4 
+ 
+ 
+In light of the apparent simplicity of Parts 1, 2, and 3, it was time for a fresh look at Part 4.  It has 
+been widely speculated that Part 4 was a combination of a substitution and a transposition.  
+ 
+Some time ago I found a simple transposition for Part 4 that provided an interesting frequency 
+match using the following alphabets: 
+ 
+ABCDEFGHIJLMNQUKRYPTOSVWXZ 
+GHIJKLMNOPQRSTUVWXYZABCDEF 
+ 
+This match up was derived by trial and error using strips of paper containing various alphabets, 
+with and without the letters KRYPTOS, combined with each letter’s corresponding frequency 
+distribution in English and in the Kryptos text.  The best match, after the strips were reassembled, 
+is shown below.  
+ 
+Distribution Expected in 100 letters of English Text 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+ 
+ 
+X 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+X 
+X 
+ 
+ 
+X 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+ 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+ 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M 
+N 
+Q 
+U 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+V 
+W 
+X 
+Z 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Distribution of 90 Letters of Kryptos Part 4 Text 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+X 
+ 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+X 
+X 
+ 
+ 
+X 
+ 
+X 
+ 
+X 
+X 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+G 
+H 
+I 
+J 
+K 
+L 
+M 
+N 
+O 
+P 
+Q 
+R 
+S 
+T 
+U 
+V 
+W
+X 
+Y 
+Z 
+A 
+B 
+C 
+D 
+E 
+F 
+ 
+ 
+The frequency match is absolutely stunning. And the fact that one of the alphabets contained the 
+word KRYPTOS provided added evidence that this was the correct substitution.  My speculation 
+was that the few anomalies, the higher than expect number of Qs and Zs, could be a deliberate 
+attempt to hide the frequency distribution from the casual observer – another dead end.  Any 
+measurement of the IC (Index of Coincidence) would indicate that a simple mono-alphabetic 
+substitution was not used, preventing anyone from even attempting to look for a match of 
+frequency distributions. 
+ 
+This Q & Z theory was give some credibility by a comment Scheidt made when asked if obscure 
+languages were used in Kryptos.  As usual, he did not give a direct answer.  But the implication 
+was clearly that foreign languages were considered, but ruled out.  Almost as an afterthought he 
+added that it was possible to use text that “didn’t look like English.” 
+
+[[page 7]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 7 
+ 
+The question now becomes – is there any set of possible hidden clues that support the selection 
+of these alphabets for the substitution? 
+ 
+The GHI… alphabet immediately brought to mind Roger Anderson’s recent observation that the 
+GHI line on the table contained an extra character at the end.2  Roger had already been doing 
+some investigation regarding the significance of the alphabet on this line. 
+ 
+Maybe that extra L is an indication to the operative that this is one of the alphabets to be used in 
+the substitution.  However, my GHI… alphabet did not contain KRYPTOS.  Are we dealing with 
+another misleading dead end?  Was the operative to use the L to find, not the alphabet, but as an 
+indicator the alphabet should be shifted enough so that it starts with GHI…?   
+ 
+This only made sense if there was some other set of instructions that would allow the operative to 
+construct the ABC… alphabet as well, including the position of the letters KRYPTOS. 
+ 
+Looking at that alphabet,  
+ 
+ABCDEFGHIJLMNQUKRYPTOSVWXZ 
+ 
+I noticed the QU and immediately thought of the “errors” in Parts 1 & 2.  I had always thought of 
+these errors as the K & R errors, because those are the letters that show up in Kryptos.  
+However, the errors in the plain text are Q and U.  Could these errors be the markers that locate 
+KRYPTOS within the ABC… alphabet? 
+ 
+While this does seem possible, unfortunately, that question can’t be answered for certain until a 
+complete solution is found for Part 4. 
+ 
+However, there is some additional (and quite circumstantial) evidence that the suggested 
+substitution is indeed correct.  But, before I get to that, you may have noticed that my frequency 
+distribution charts used only 90 of the 97 characters from Part 4.  That’s because, in the search 
+for other possible clues, I noticed the KR TOS YP in the cipher text. 
+ 
+?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+It is possible (I’d argue, likely) that these letters provide a clue applicable to the transposition 
+phase of Part 4. They could be a key word in a columnar transposition or some indication of the 
+way text is to be written in to, or taken out of, a grid. 
+ 
+With these letters removed the letter count becomes 90.  Add back the leading ? that was once 
+thought to belong to Part 3 and the count becomes 91 – a very attractive number, as it limits any 
+full rectangle to being either 13 x 7 or 7 x 13.  (An alternative would be to look at the KR SO YP 
+as a solid block to be removed.  Assume the T at the beginning of the 3rd line was a random 
+occurrence and really does belong in the cipher text.  The ? becomes either a divider between 
+sections or the question mark at the end of Can you see anything Q?  The count remains at 91.)  
+ 
+ 
+                                                           
+2 Note that this extra character is not shown in most transcriptions of the Kryptos sculpture (include those 
+in the group’s files or links sections).  To correct any existing documents, add an L to the end of the line on 
+the table side beginning with “N GHI…”  That line will now end with “…HIJL”   
+
+[[page 8]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 8 
+ 
+One of the reasons a 13 x 7 grid is interesting concerns the cipher text after the completion of the 
+substitution.  It becomes either: 
+ 
+?ISUIYI ABUFSNI FCZSSRZ FMKLLJM HAENRQL NDLNNXE TTROQDE 
+FUWCORC HZSHKQQ GTZJERA WETYQDV WCAEUBU OUXEVOM 
+ 
+or 
+ 
+ISUIYIA BUFSNIF CZSSRZF MKLLJMH AENQRQL NDLNNXE TTROQDE 
+FUWCORC HZSHKQQ GTZJERA WETYQDV WCAEUBU OUXEVOM 
+ 
+In either case, there are two pairs of Qs that are separated by exactly 13 letters.  Thus, if the text 
+is written into a 13 x 7 grid, across the 13 columns and taken out by rows, those Qs end up 
+paired. 
+ 
+If, going back to an earlier assumption, Qs are used as nulls to hide the English frequency 
+distribution, we might hope to find 4 or 5 Qs grouped together at the end of the text.  Getting them 
+into pairs is at least a start. 
+ 
+Now consider that the KR SO YP might indicate that letters are written in to, our taken out of, our 
+grid two at a time, and an interesting possibility develops: 
+ 
+A string of 5 Qs, taken 2 at a time would result in a lone Q and 2 pairs of Qs, which is exactly 
+what shows up in the text. 
+ 
+ 
+Testing Part 4 Speculations 
+ 
+Is there any way to test the proposition that we have the correct substitution AND that a 13 x 7 
+grid is a good starting point for the transposition. 
+ 
+I propose that a suitable test would be to look at the unigram, bigram and trigram error statistics 
+for the cipher text, substituted text prior to a 13 x 7 transposition, and substituted text after 
+a 13 x 7 transposition. 
+ 
+The cipher text should bare no relationship to real English.  Unigram error rates should be poor.  
+Bigram and trigram stats should not change substantially when subjected to the 13 x 7 
+transposition, as it would be random text in and random text out. 
+ 
+The substituted text should show an improved Unigram stat, indicating text that more closely 
+resembles English.  Since it is still in the incorrect order, bigram and trigram error rates should 
+show little or no improvement. 
+ 
+In the substituted text after a 13 x 7 transposition, the unigram stat would, be definition, 
+remain unchanged.  However, we would predict that some of the letters are now paired up with 
+their partners.  Thus bigram stats should improve.  If the write-in (or out) pattern involves 2 letters 
+at a time (as with KR SO YP), we would expect to see no improvement in the trigram stats, as no 
+trigram would have remained intact.  On the other hand, if KR SOT YP was used we should see 
+some small improvement in the trigram because at least some of the letters were handled in 
+groups of three.  
+ 
+It should be pointed out that these tests were designed prior to running the statistics to avoid any 
+subconscious attempt to make the proposed test fit the data.  Crank, Version 0.1.3 was used to 
+carry out the transpositions and calculate that statistics listed in the following table: 
+
+[[page 9]]
+ 
+ 
+State of the Kryptos Solution,  November 10, 2003  - Gary Warzin  
+Page 9 
+? CIPHER TEXT 
+Unigram 
+Bigram 
+Trigram 
+Cipher Text 
+0.033201 
+0.016420 
+0.012432 
+Substituted 
+0.016055 
+0.015261 
+0.012372 
+Substituted and 13 x 7 Grid 
+0.016055 
+0.013109 
+0.012053 
+Substituted and 7 x 13 Grid 
+0.016055 
+0.016491 
+0.012370 
+ 
+As can be seen, the Unigram stats improved as predicted.  In addition the bigram showed 
+improvement in only the 13 X 7 grid – again, all as predicted.  The trigram showed a very minor 
+improvement. 
+ 
+An additional control test was done by placing the substituted text into a 7 x 13 grid.  As would be 
+expected there was no improvement in either bigram or trigram figures, clearing indicating that it 
+that the cipher text should be written in across the 13 dimension rather than the 7.   
+ 
+The tests were then repeated with the T text (question mark removed, T inserted).  
+ 
+T CIPHER TEXT 
+Unigram 
+Bigram 
+Trigram 
+Cipher Text 
+0.032327 
+0.016036 
+0.012302 
+Substituted 
+0.017381 
+0.015148 
+0.012248 
+Substituted and 13 x 7 Grid 
+0.017381 
+0.013728 
+0.012054 
+Substituted and 7 x 13 Grid 
+0.017381 
+0.015650 
+0.012196 
+ 
+Which text, the ? or the T is correct?  Although the results are too close to provide a definitive 
+answer, several aspects point to the ? text being the correct version.  The stats are slightly better.  
+But more importantly, the very small improvement in the trigram error is consistent with use of KR 
+SOT YP, which would have moved at least a small number of the letters as groups of three. 
+ 
+ 
+A Final Speculation 
+ 
+One last bit of off-the-wall speculation:  A 13 x 7 grid implies that we might still be looking for an 
+additional clue, a 13-letter key to be used in a columnar transposition.   Elonka Dunin, after her 
+dinner with Sanborn, remembered him saying that he put a great deal of effort into working on the 
+right words for Part 1.  Part 1 is 13 words long, making BSSATAOFLTNOI (the first letter of each 
+word) an attractive candidate for a 13-letter key. 
+ 
+ 
+Summary 
+ 
+At this point we have: 
+ 
+1. Two candidates for the cipher text after substitution, with the ? version appearing 
+somewhat more likely. 
+2. A high probability that a 13 x 7 grid is involved in the transposition. 
+3. Evidence that KR SOT YP provides some type of pattern for that transposition. 
+4. Speculation that the words in Part 1 supply a 13-letter key word for the transposition. 
+ 
+ 
+A Postscript 
+ 
+As I was writing this, a new member to the group, Patrick Foster, came up with an anagram using 
+PALIMPSEST and ABSCISSA that could be Sanborn’s final, somewhat sarcastic, message to us 
+after it is all solved: 
+P.S.  IT’S AS SIMPLE AS ABC. 

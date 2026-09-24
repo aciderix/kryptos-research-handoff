@@ -1,0 +1,104 @@
+[[page 1]]
+Position:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+K4 Plaintext - corrected:
+I
+S
+O
+V
+E
+R
+S
+C
+R
+E
+A
+M
+L
+O
+U
+D
+K4 Plaintext - with misspellings and error:
+A
+S
+O
+U
+E
+Q
+S
+D
+R
+E
+A
+M
+L
+O
+N
+D
+Key:
+X
+Y
+U
+S
+D
+E
+M
+U
+F
+P
+H
+Z
+L
+R
+F
+A
+K4 Ciphertext:
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+Corrected Plaintext of the first 16 letters in K4:  ISOVERSCREAMLOUD
+Plaintext with Correct Word Placement
+"Loud Scream Is Over"
+Possible solution to the first 16 letters in K4
+Nicholas LaMey 2.22.2018
+nicholaslamey@yahoo.com
+1st word
+2nd word
+3rd word
+4th word
+all letter O's in K4 ciphertext are  misspellings. 
+(positions: 1, 6, 8, and 15) 
+ 
+The letter R in position 4 seems to be an 
+unintentional encoding mistake (U/V) 
+The key is taken directly from the first 16 
+letters of K1 Ciphertext beginning with X and 
+then wrapping around:  XYUSDEMUFPHZLRFA 

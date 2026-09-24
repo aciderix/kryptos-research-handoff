@@ -1,0 +1,494 @@
+## word/document.xml
+ 
+ This is the other half of the Golden Bough Puzzle as relates to K4. 
+ I’ve speculated that there is a concealment process in place that draws on the previous puzzles in the context of Wondrous Patterns to establish the proper way to “decipher” it. I use the quotes, because a simplistic set of processes like this where someone is expecting an advanced cipher are a great way to use their expectations against them. My speculation is that K4 breaks down in to pieces, by lines of 24. 
+ I saw “BOUGH’ immediately as an anagram and played with the line to get the following results. Note that I treated each row attached to the letter as a column and moved them all rather than a simple line. 
+ That may be a mistake, but Jim Sanborn doesn’t seem clear on his own quotes about NPVTT and I’m still playing with this. It may be that I should simply treat those 24 characters as an independent line. There’s a lot of room for work, because the “rows” set the alignment of the letters beneath them if I use that method. 
+ The result is BOUGH BROOK SWILL X RUBBL(F) 
+ This answers the “Can you see anything?” question with a direct and pertinent answer regarding the stones. This is a reference to the Memorial Garden as I see it – there’s a very nice photo on Flickr showing a view of the east Bough (branch) of the OHQ reflected in the brook at the Garden, rippled by water from the swill (waterfall over stones) and the reflected view of the building looks very similar to the Mengenlehreur Set Theory Clock. I would speculate this was the original intent of the clock and that he later added “both clocks” when some things about another occurred to him. 
+ I’m thinking the F is the start of a rot-1/+1 patterns for the next line, but may require some play. 
+ Conclusion: Step 1 in a 4 part process. 
+ Illustration below. 
+ O 
+ B 
+ K 
+ R 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ B 
+ O 
+ U 
+ G 
+ H 
+ O 
+ F 
+ B 
+ R 
+ O 
+ O 
+ K 
+ S 
+ W 
+ I 
+ L 
+ L 
+ X 
+ R 
+ U 
+ B 
+ B 
+ L 
+ F 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Q 
+ Q 
+ R 
+ S 
+ S 
+ V 
+ Q 
+ W 
+ Z 
+ K 
+ N 
+ Q 
+ T 
+ E 
+ J 
+ S 
+ Z 
+ G 
+ P 
+ O 
+ S 
+ S 
+ T 
+ K 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A 
+ B 
+ K 
+ I 
+ A 
+ W 
+ P 
+ N 
+ F 
+ D 
+ L 
+ T 
+ F 
+ T 
+ Y 
+ N 
+ Z 
+ U 
+ J 
+ W 
+ V 
+ T 
+ I 
+ M 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ K 
+ K 
+ D 
+ T 
+ J 
+ P 
+ U 
+ I 
+ A 
+ X 
+ K 
+ W 
+ G 
+ E 
+ H 
+ U 
+ C 
+ Z 
+ G 
+ C 
+ A 
+ U 
+ D 
+ K 
+ 

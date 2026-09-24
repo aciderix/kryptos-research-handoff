@@ -1,0 +1,10 @@
+## word/document.xml
+ 
+ Alberti Disk 4 extra letters and Nomenclator 336 
+ I think it may be worth it to investigate the Alberti Cipher Disk and Nomenclator System for K4, or parts of it at any rate. 
+ Here is a link to the wiki on Alberti http://en.wikipedia.org/wiki/Alberti_cipher_disk 
+ A few things stood out when I saw this. First, the nomenclator (a small code book with words and phrases common to two correspondents delivered with the disk) had 336 numbered words and phrases, the number 336 being an obvious link to K3 and its 336 characters. Second, the four extra numbers next to the outer, standard in this case, alphabet on the disk is awfully reminiscent of the four extra letters added to each row on the Kryptos Vigenere tableau, and this system would be a good potential explanation for those strange sequential (except the last one) doublets in K4 BB=2, QQ=32, SS=36, SS=36 ZZ=50 as the alphabet selection, alignment and location for the switch. For ex in position 32 align Q in alphabet 16 with Q in the base alphabet. 
+ Now if K3 is really a numbering scheme for a nomenclator we do have our work cut out for us, though I did find a book (Colin Dexter's Service of All the Dead) which has a number of really close matches with Kryptos . I put a paper on that topic in my personal files. But perhaps this points to a technique for using K3 as a superencipherement of K4 or parts thereof in some way. Maybe based on the 8x42 "original matrix". 
+ K4 text could be linked to K3 in a number of ways. By sequential number, perhaps with an offset. By the numeric value of an underlying system that may use numbers pointing to a row-column coordinate in the K3 matrix, etc. 
+ Anyway, I thought it worth sharing as food for thought. 
+ 

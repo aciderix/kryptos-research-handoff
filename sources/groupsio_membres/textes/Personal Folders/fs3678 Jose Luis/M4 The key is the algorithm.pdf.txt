@@ -1,0 +1,138 @@
+[[page 1]]
+ 
+M4  The key is the algorithm 
+ 
+Canadian member diconaxes@yahoogroups found a pattern linking NYP to ELY and VTT to OIE. 
+His messages, signed as Todd, are #11858 and #11862 in Groups.io. This was his last message 
+(as WW) in April 2011. I couldn't find the excel file that Todd shared. If anyone can reach Todd 
+or has his file and can share it, would be great. Todd found a pattern to obtain from NYP the 
+key ELY and from VTT the key OIE (the keys of BER LIN), using the normal alphabet ABC… Z. If 
+we number A(1), B(2), C(3)… Z(26), the simple algorithm in modulo 26, which we call the Todd 
+or T algorithm, is the following: 
+ 
+For NYP, initial position = 17 
+17 + N(14) = 5(E)    17 - 4 + Y(25) = 12(L)    17 - 4 - 4 + P(16) = 25(Y) 
+ 
+For VTT, initial position = 19 
+19 + V(22) = 15(O)    19 - 4 + T(20) = 9(I)    19 - 4 - 4 + T(20) = 5(E) 
+ 
+So, if this could be applied to K4, starting from a pointer or initial position, subtracting with 
+jumps from 4 to 4, we obtain the position for each character of the ciphertext, then we add 
+the code character and obtain the key, always with the alphabet ABC… Z. Then, using the 
+alphabet KRYPTOS, with the key and the code we obtain the plaintext. That this algorithm does 
+not work between P and V is not surprising, since as we saw in message M1 the rows slide to 
+form BLUE, so the V is not encoded after P. In principle, the algorithm it is encouraging: it is 
+simple and uses both alphabets (the alphabet ABC… Z is in the panel for something, right?). But 
+the algorithm does not work with CLOCK. 
+ 
+Let's not get discouraged and keep investigating. I have built tables applying the T algorithm on 
+all the ciphertext of K4, with the 26 possible initial positions and not only subtracting from 4 to 
+4, but also adding from 4 to 4, since as we saw in the M1 message, it may be that in any row 
+the order must be reversed. The table, in three parts, is as follows: 
+ 
+
+[[page 2]]
+ 
+ 
+
+[[page 3]]
+ 
+ 
+
+[[page 4]]
+ 
+ 
+As was logical and confirming that the table works, in row 9 we see that BER is obtained 
+started at place #64 and in row 23 LIN is obtained started at place #67. You also get BIND place 
+
+[[page 5]]
+#1, another LIN place #5, NORW (Norway?) Place #8, BOSSY place #10, BAIT place #20, DO IT 
+place #33, DATE place #47 and WEEK place #75 (a continuation of CLOCK). I found no other 
+significant words formed with two initial positions in the style of BER + LIN. 
+ 
+Member Ferdinando Stehle from Italy, found a pattern in K4's DIAWINFBN sequence. I have 
+been able to locate messages #33, #71 and #230 about it. Ferdinando's last message was in 
+May 2015. He shows the pattern in two ways, always using the normal alphabet ABC… Z and 
+modulo 26. The first way, if we subtract for each character the previous one, repeats the same 
+pattern of 4 numbers: I(9) - D(4) = 5, A(1) - I(9) = 18, W(23) - A(1) = 22, I(9) - W(23) = 12 , N(14) 
+- I(9) = 5, F(6) - N(14) = 18, B(2) - F(6) = 22 and N(14) - B(2) = 12. The pattern is 5, 18, 22, 12, 5, 
+18, 22, 12. The second way, if we subtract from each character, the character four places back, 
+you get the constant jump of 5: I(9) - D( 4) = N(14) - I(9) = F(6) - A(1) = B(2) - W(23) = N(14) - I(9) 
+= 5. Both the Ferdinando pattern like Todd's they use the common alphabet and modulo 26. 
+While Todd's has jumps of 4 between consecutive characters, Ferdinando's has jumps of 5 
+between characters separated by 4 places. So let's try different jumps. We will call this first 
+expansion of the algorithm the Todd Ferdinando or TF algorithm. 
+ 
+For the TF algorithm I have built other tables with other possible jumps. Since in modulo 26 
+subtracting 4 is the same as adding 22, it is not necessary to build the tables with jumps from 
+14 to 25. I still lack the tables with jumps -+0, -+2, -+3 and -+10, so if someone can build and 
+review them that would be great. Also remember that my mother language is Spanish, so I 
+have surely overlooked many words or parts of words that may be significant. It would also be 
+nice if other members check the tables with the jumps that I have built. As we have seen, the 
+tables for each jump are large. For this reason I have only included in this pdf, two other tables 
+with jumps 9 and 11 that show the most promising results. 
+ 
+Jump 1  AGED started at place #17, GRAIN place #28 or RAIN place #29 (remember the 
+RAINBOW), KRYPTO place # 81 (this can be important, 6 characters and nothing less than 
+those). 
+Jump 5  Another LIN place #21, REAL #42 and LIAR #51. 
+Jump 6  GITAL #16 (DIGITAL?), NAD #20 + IR #23 (NADIR we will see that it is related to one of 
+the portals), QQEEN #84 (another queen with mistake) and PLUTO #91. 
+Jump 7  CART #11, WEAR #24, MARS #29 (another planet), SOS #32 + PALIMYS #35 (SOS + 60% 
+of PALIMPSEST?), TALL #73, FLEA #75 (TIE A FLEA?) and WERE #76. 
+Jump 8  DOG #1 + TAILS #4, QUEEC #36 (another queen with mistake), ELTA #37 (we'll see 
+what DELTA appears later), SECR #41 after the QUEEC (SECRET is one of the special words 
+discovered by another member of the Group that we will also see later) and USA #75 after 
+CLOCK. 
+ 
+
+[[page 6]]
+ 
+ 
+
+[[page 7]]
+ 
+ 
+
+[[page 8]]
+ 
+ 
+Jump 9  POU #18 + ITIOY #21 (75% of POSITION?). SAN #52 + FRGN #55 + CISC #59 (SAN 
+FRANCISCO! This does not seem just random. Also, the O is in the sequence with the same 
+
+[[page 9]]
+initial position as FRGN, that is, we have found 92% of the name of a city, that like BERLIN it is 
+in the Word Time Clock, with the TF algorithm. Besides, SANFRANCISCO would be just before 
+BERLIN). And HO #86 + TEL #88 (we will see that as DELTA, HOTEL appears later). 
+ 
+ 
+ 
+
+[[page 10]]
+ 
+ 
+
+[[page 11]]
+ 
+ 
+Jump 11  TAIL #2, FATE #6, BAND #9, SERPEN #10 + TCROW #16 (SERPENT CROW! Doesn't 
+seem just random, it's a fable by Aesop, Greek like Kryptos. And it's after FATE, “FATE SERPENT 
+
+[[page 12]]
+CROW" Is this why WW said it was something philosophical and obscure? Or is it SERPENT 
+CROWN? Let's remember that we have SUPERMEN in the original matrix), WORD #18, TONE 
+#24 (or STONE #23?), ZERO #25, CAMP #40, MEAL #45, ISHOUR #57, DREW #59, HOLD #75 
+(after CLOCK) and COST #85. 
+ 
+Jump 12  DOGS #9, HONG #17, JUST #31, HAIR #32 and RAIL #90. 
+Jump 13  GONE #16 and ABLE #24. 
+ 
+Summarizing the most important thing, we have found KRYPTO, NADIR, ”SAN FRANCISCO”, 
+DELTA, HOTEL and “FATE SERPENT CROW”. Some will be part of the plain text of K4? Others 
+like QUEEN, SECRET and RAINBOW, which we have partially found, will they be part of the 
+plain text of K4? KRYPTO there is no doubt that it is linked to the puzzle. NADIR, DELTA, and 
+HOTEL appear in the sequence of portals Jim mentioned. Expanding on this TF algorithm, in the 
+next M5 message, we will see how "NORTH E" and "BERLIN" are obtained in their correct 
+places. There is much, much more! 
+ 
+Jose Luis 

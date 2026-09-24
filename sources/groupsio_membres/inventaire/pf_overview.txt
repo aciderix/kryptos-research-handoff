@@ -1,0 +1,1211 @@
+## 12pm [6 f; 2013-2013] "Paul's"
+   KRYPTOS CAESAR.V1.docx
+   NEARINGBERLIN.docx
+   nearingberlin.v2.docx — 31 strings, running kryptos key, columnar pt
+   nearingberlin.v3.docx — no K4 used, 31-grid, NYPVTT&BERLIN readouts
+   nearingberlin.v4.docx — 31-string, using K4 CT as interrupted running key
+   polybius extraction k4 v1
+## 31Dan [2 f; 2018-2025] 'misc'
+   k4-part-4.pdf — for the record since the auction is coming up.
+   Kryptos Tables and Solutions_K3.pdf
+## AAdamchuk Files [11 f; 2018-2018] ''
+   0326_Here is the next layer of Part 1 Kryptos.docx
+   0326_OZ.docx
+   0329_ASCII.docx
+   0331_.Exact_Location.docx
+   0403_Friedman.docx
+   0406_Gold Bug.docx
+   0406_I see a few steps ahead.docx
+   0407_Part 4 Kryptos-Old Russian 35 letters alphabet.docx
+   0412_I see a few steps ahead.docx
+   0414_Next stops.docx
+   37.77.153 FIRST FOLIO BERLIN CLOCK.docx — Re: DEUS MAGNET. KRYPTOS Part 4 original text from the line 37 pg 39 of First Folio - The 
+## Aapjansen [1 f; 2021-2021] ''
+   Dictionary.txt
+## Aaron Files [2 f; 2014-2014] ''
+   Screenshot 2014-11-17 at 09.36.27.png — Palimpsest
+   Screenshot 2014-11-17 at 09.37.04.png — Palimpsest
+## Abban Folder [8 f; 2009-2009] ''
+   kryptos-art.JPG — kryptos-art
+   kryptos-code-key-sphinx.JPG — kryptos-code-key-sphinx
+   kryptos-covert-ops.JPG — kryptos-covert-ops
+   kryptos-lion.JPG — kryptos-lion
+   kryptos-new-page.JPG — kryptos-new-page
+   kryptos-original-level.JPG — kryptos-original-level
+   kryptos - Possible Solutions.docx — Kryptos - Possible Solutions
+   kryptos-sphinx.JPG — kryptos-sphinx
+## Abdix Folder [22 f; 2017-2019] ''
+   ART SOLD SEPARATLY — QUIWURDS K4
+   BETWEEN OLD AND THE BUBBLE — EYE CAN SEA IT
+   C1BA0550-3DA3-448A-92C9-DF045D0783BE.jpeg — K4 Kryptos solution
+   DE MORGAN — Playus rex mockina
+   E91DA3E4-0F85-44D8-A05A-2E13F7D217C2.jpeg — Wave-particle primality art
+   ELECT SICKO GRAPHIC.pdf — IT'S AS EASY AS ABC
+   FOUND THE HOLE — IT’S VERY OBVIOUS
+   FROM THE RENAISSANCE TO THE BAROQUE — Okay so the above was Googled. Sue me.
+   HOW EASY IT IS TO MAKE SOMETHING DIFFICULT — CAN YOU SOLVE IT?
+   IDEAS
+   IMG_0467.MOV — New technique snippet
+   JIM DIDN'T SAY TO DECRYPT THE LAST 97 LETTERS — SO I UNSCRAMBLED 97 LETTERS OF K0 AND K1
+   K4 Solution — 12/14/2018 05:44 GMT
+   KEYWORDS — K4 KEYWORDS
+   Kryptos exactly as presented at CIA HW (with S).png — The way is looks without the 'S' shape of course, but including the missing 'S'.
+   MAXIMAL STATELY (BUCK MULLIGAN) — Big of Ted Boat Air Route of THE DRESDEN CLOCK
+   PRIME RIBBING — YOU’RE NOT SMART, JUST HIGHLY SUGGESTIBLE
+   REX FORD'S PATENTED PADLOCKED HOUSES — WAIT FOR PERFECT VISION.
+   Screen Shot 2018-06-17 at 11.26.26 PM.png
+   Screen Shot 2018-06-17 at 11.26.33 PM.png
+   SerbCyrRus.pdf
+   With All Due Respect....pdf — I'm no handwriting expert but the similarities are uncanny... ;)
+## AClockworkOrangutan [1 f; 2011-2011] "Michelle's Stuff"
+   kryptos-excel-2003.xls — Microsoft Excel (2003) File For Kryptos
+## Adam [4 f; 2009-2020] 'folder to keep info'
+   Titanic clues — clues
+   Titanic Clues to check — Clues
+   titaniclasttransmission — K4 as last transmission of Titanic
+   What Kryptos Means.A.addendum.xls — Here are 2 new potential Keys which may be necessary to solve K4! One uses the sunlight co
+## Adam Gallina Folder [2 f; 2023-2024] ''
+   Kryptos NC Theory.doc
+   Zola.doc — Combining Sanborn Worksheet and K4, like Zola?
+## AJ Jacobs [2 f; 2020-2020] ''
+   EdScheidtKryptosTranscript.pdf
+   KRYPTOS Interview.pdf — Excerpts from my interview with Jim Sanborn
+## AKA TreeFinder [2 f; 2007-2008] 'K4 Solution Iran Hostage Rescue, JOAN, WTOP'
+   K4SolutionSpoiler.rtf — Methodology steps to reproduce palimpsest
+   Snapshot 2008-01-29 15-03-25.gif — Eye in the Pyramid
+## Albostoni Folder [1 f; 2012-2012] 'K4 Project Data'
+   K4 PROJECT_Results.txt — Raw data from K4 decipherment attempts (needs analysis)
+## Alex [8 f; 2003-2003] "Alex Green's files"
+   K4Alpha-Morse-.txt — Section 4 Alpha backwards Morse backwards
+   K4Alpha-Morse+.txt — Section 4 Alpha backwards Morse forwards
+   K4Alpha+Morse-.txt — Section 4 Alpha forwards Morse backwards
+   K4Alpha+Morse+.txt — Section 4 Alpha forwards Morse forwards
+   K4TextAlpha-Morse-.txt — Morse Text Alpha backwards Morse backwards
+   K4TextAlpha-Morse+.txt — Morse Text Alpha backwards Morse forwards
+   K4TextAlpha+Morse-.txt — Morse Text Alpha forwards Morse backwards
+   K4TextAlpha+Morse+.txt — Morse Text Alpha forwards Morse forwards
+## AlexB Files [1 f; 2013-2013] ''
+   Enigma brute-force results.txt — Some brute-force results playing with Enigma
+## Alister [1 f; 2021-2021] ''
+   Shadow.pdf
+## AndersH [2 f; 2020-2021] 'Files from Anders Hallstroem'
+   Kryptos_rearrange.txt — Reasoning towards a partial keystream for K4 consisting of the last 7 cols of K3+K4 arrang
+   Geoffrey's digraphic challenge/Solution_worklog.txt — On request, here is my detailed worklog leading to the solution of Geoffrey's challenge.
+## Andrew Coy [1 f; 2025-2025] ''
+   Method to get k123 from k0.pdf — Method to get k123 from k0 using the extra E's/dots in the morse code
+## Andy J [1 f; 2022-2022] ''
+   LeMinhDuong algorithm 20220714.xlsx — My attempt at validating LeMinh Duong's algorithm and making a quicker way to run tests on
+## Armitage Folder [1 f; 2012-2012] 'Solutions to Enigma Code Challenge in the book by Richard Belfield'
+   Enigma Codebook Solutions to Puzzles.doc — Solutions to Enigma Code Challenge in the book by Richard Belfield
+## Avi's Folder [26 f; 2025-2025] 'Files that provide context about my proposed K4 methods.'
+   case3_fresh_slate_baseline.zip
+   K4_by_hand_walkthrough.pdf
+   K4_By_Hand_Walkthrough_Visual.pdf
+   K4_By_Hand_Walkthrough_visual_v2.pdf
+   K4_cheat_sheet.txt
+   Scott's Experiments/Forward_Encode_Proof.zip
+   Ralph's Experiments/Fresh Slate/fresh_slate_baseline_four_anchors.zip
+   Ralph's Experiments/Fresh Slate/fresh_slate_baseline_three_no_berlin.z
+   Ralph's Experiments/Fresh Slate/fresh_slate_baseline_three_no_clock.zi
+   Ralph's Experiments/Fresh Slate/fresh_slate_baseline_two_east_ne.zip
+   Ralph's Experiments/Fresh Slate/fresh_slate_README.pdf
+   Ralph's Experiments/Track A/case1_fresh_slate_baseline.zip
+   Ralph's Experiments/Track A/case2_fresh_slate_baseline.zip
+   Ralph's Experiments/Track A/case3_fresh_slate_baseline.zip
+   Ralph's Experiments/Track B/anchors_case1.json
+   Ralph's Experiments/Track B/anchors_case2.json
+   Ralph's Experiments/Track B/anchors_case3.json
+   Ralph's Experiments/Track B/case1_derived_pt.txt
+   Ralph's Experiments/Track B/case1_RESULT.json
+   Ralph's Experiments/Track B/case2_derived_pt.txt
+   Ralph's Experiments/Track B/case2_RESULT.json
+   Ralph's Experiments/Track B/case3_derived_pt.txt
+   Ralph's Experiments/Track B/case3_RESULT.json
+   Ralph's Experiments/Track B/ciphertext.txt
+   Ralph's Experiments/Track B/execution_transcript.txt
+   Ralph's Experiments/Track B/reconstruct_wheels.py
+## Barry Stregevsky's Stuff [2 f; 2012-2013] 'My Solution To K4'
+   KryptosMySuggestedSolutionToK403012013.docx — Updated Solution To K4
+   KryptosMySuggestedSolutionToK409072012Amended.docx — Subject Matter: Interception of German Messages During WW2
+## Bayarearacer [3 f; 2016-2016] ''
+   Masking Revealed/dataneeded to solve k4.pdf — I believe this is the information needed to solve K4. The data is here, now to see how to 
+   Masking Revealed/Does the correction in K2 change the masking steno.pd — Does the corrected K2 change the steno? I dont think so, I go with the original steno, NOT
+   Masking Revealed/Masking reviled.pdf — This is the mask extraction using spatial steno. It has two parts in binary one is a contr
+## Bernd’s Folder [1 f; 2022-2022] ''
+   Kryptos K4 and the ELYOIE Jigsaw Matrix.pdf — For those of you who are into running key Vigenère, here's a document summarizing my runni
+## Brandon's Files [1 f; 2013-2013] ''
+   K3K4 Video Stills.pdf — My observations on the Nova Video Stills. These were inspired by Jew-Lee's work. I think I
+## BranmiDyear [1 f; 2011-2011] 'intentionally left blank'
+   primalinstinct.txt — Primary Finary ;-)
+## Butch's files [5 f; 2003-2003] 'Cypher and Vigenere overlay images'
+   Cypher_evenRows.jpg — Cypher side arranged into even rows to match vigenere side
+   FlippedVigenere.jpg — Vigenere flipped vertically to simulate reflection in pond
+   Kryptos_CommonLetters.jpg — Common letters between Cypher and Vigenere sides overlayed
+   OverlapFlipped_Common.jpg — Common letters between Cypher and flipped Vigenere
+   OverlapFlipped.jpg — Overlap of Cypher and flipped Vigenere
+## CADILLAKTRACKZ [1 f; 2024-2024] ''
+   3Quarks - Set Theory Clock.html
+## Calif_puzzler [1 f; 2009-2009] ''
+   42 ROW MATRIX K1-K3.xls — 42 Row Matrix K1-K3 (Calif_Puzzler)
+## Calstock [1 f; 2022-2022] ''
+   K4 Eureka Ciphertext Layout.pdf — Recovered file.
+## Cardano [1 f; 2026-2026] ''
+   K4_Symmetries_gpg.pdf — Symmetries in K4 and a proposed method.
+## Carl Ellis [16 f; 2011-2023] 'Various Stuff'
+   K4_PROGRESS_4_2ND_STRING.xlsx — QUOTIENTS OF DIVISION OF INTEGERS BY 563
+   LAUNCHPAD.3S.xlsx — MORE ISOSCELES HYPOTENUSES
+   LAUNCHPAD.4V.xlsx — THEORY ON SCHEIDT'S SOLUTION METHOD
+   LAUNCHPAD.B2.xlsx — ORIGINAL MATRIX FULL EXPLANATION
+   LAUNCHPAD_CRY.1.xlsx — A small challenge...
+   LAUNCHPAD.DANKU.xlsx — MUSINGS ON DAN ANKUDA'S RAY
+   LAUNCHPAD_FOR_COMNAV.xlsx — A little gentle ribbing ...
+   LAUNCHPAD_GRAY.xlsx — Gray Code
+   LAUNCHPAD_K5.xlsx — My candidate for (a) "K5"
+   LAUNCHPAD_KRY.1.xlsx — Interlocking Algorhythms
+   LAUNCHPAD_KRY.3.xlsx — T130/50 DDR Chiffrierungsmaschine
+   LAUNCHPAD.KRY.xlsx — EXPANSION ON J.FOULK'S OBSERVATIONS
+   LAUNCHPAD_MENGENLEHRENUHR.xlsx — Please don't tell me I need to say I'm just kidding . . .
+   LAUNCHPAD_NEW_GRAY.xlsx — THEORY OF THE SECOND (OUTER, MASKING) LAYER OF K4
+   LAUNCHPAD.P5.xlsx — QUOTIENT PRODUCING UTILITY
+   RADO.xls — Plane Tiling
+## Carlo’s Folder [1 f; 2021-2021] ''
+   K4-summary-sorted.txt — Some Chaocipher la/ra combinations that both results in EASTNORTHEAST and BERLINCLOCK
+## Castorpman [12 f; 2010-2010] "chris' comments and figures"
+   KRYPTOS - part3, not Carter.pdf — eliding the encryption of K3, hat tip to Randy @ mssg #10056
+   KRYPTOS - Q.pdf — "Can you see anything Q?" - a clue
+   KRYPTOS - resolved equal layers.pdf — tracking letter shifts to equal rows arrangement
+   KRYPTOS - reverse Tableau key, not Carter.pdf — A" lock and key" arrangement of KRYPTOS and the Tableau, hat tip to Randy @ mssg #10056
+   KRYPTOS - reverse Tableau key, two strands.pdf — In the "lock and key" arrangement, two anti-parallel E motifes in K3.
+   KRYPTOS Undergruund.pdf — "Tableau - Reverse KRYPTOS" text rotated 90 degrees, a RAY from above
+   KRYPTOS Undergruund - UU3.pdf — In YA and R arrangement there are 3 incidences of UU when the text is rotated 90 degrees.
+   KRYPTOS Undergruund WW.pdf — In YA and R arrangement, there is "only" one WW incidence when the text is rotated 90 degr
+   KRYPTOS - YA R2.pdf — two YARs, in KRYPTOS and tableau, an alternate character arrangement
+   Tableau - Reverse KRYPTOS corrections.pdf — Two corrections to the "Reverse KRYPTOS" text in my figures.
+   Tableau - Reverse KRYPTOS not-Carter.pdf — Talbleau on the left, Carter edits - hat tip to Randy @ mssg #10056
+   Tableau - Reverse KRYPTOS, YA R.pdf — Sanborn says the tableau is the left half of the sculpture, YA and R split
+## ChefsFiles [2 f; 2022-2025] 'Techniques'
+   24_Coordinates - Sheet1.pdf — Found this interesting through my exploration with '24'. I like how numbers cleanly line u
+   24.pdf — Arguments for 24 columns being the likely first step to solving K4...considering the most 
+## Chosen1 [3 f; 2004-2004] "Chosen1's Working documents"
+   kryptos_sc4_char_freq.xls — Character frequency section 4
+   Kryptos_working2.doc — Second Kryptos working document
+   Kryptos_working.doc — First kryptos Working document
+## Chreteau [1 f; 2004-2004] ''
+   K2 Coords - USGS Sat Map.jpg — USGS Satellite Image - Part 2 Coordinates
+## Chris Feige [2 f; 2017-2017] "PDF's and Data sets"
+   An Argument From Difference Arrays.docx
+   K4_Frequency_Distribution_Map.docx
+## Cj's Krypto Resources [1 f; 2023-2023] "Just stuff I've been working on over the years"
+   CRYPTANALYSIS_SUPPORT_PROGRAM.TXT — Copied from FM34-20 Cryptanalysis, A program written in basic that would have likely been 
+## Clarke Folder [1 f; 2026-2026] ''
+   Kryptos_K4_Full_Clarke Summary_v3.1.pdf — is possibly a GeoSpatial coded CIA/Berlin Historical Map
+## Cokadoodledue [7 f; 2009-2018] 'Personal Files'
+   Add'l 9 Letters Solved.pdf — 11 + 9 = 20 Letters Solved for on K4!!
+   Kryptos Master Solution — Riddle within Riddle path to solving!!
+   KRYPTOS - PANEL 4.xls — Spreadsheet with methodology (.XLS version)
+   KRYPTOS - PANEL 4.xlsx — Spreadsheet with methodology
+   Kryptos worksheet 73018.pdf — K4 - almost solved! Incl. OTP Key & Initial TRANSPOSITION from Morse Code!!!
+   RQ TO KNO NEW GROUPS.xlsx — RQ in Morse Code is "repeat message"
+   Validation of Key & Deconstruction of Cipher Text — Key Validation & Cipher Deconstruct
+## Crash's Files [22 f; 2011-2024] 'Morse-Digital-XOR-Morse'
+   cities.txt — English-Morse All World Cities for Scorer.BAS
+   councity.txt — English-Morse Countries and City for Scorer.bas
+   FullDict.txt — Partial English-Morse Dictionary for Scorer.bas
+   K2K4bigram.ipynb — Proposed internal variant attack using K2/K4 - mostly manual effort with this assisting in
+   KRYPTOS_ORIGINALS.xlsx — Initial analysis of K1-K3 "remains of passage" last letter analysis, K4 correlation and mi
+   KryptosSculpture3DPrintable.Public.stl — Kryptos STL model from youtube creator --> "k4hasgotme" Model converted from author's Blen
+   kryptos.txt — Full Kryptos K4 Decode Attempt for Scorer.bas
+   Kryptos Workbook Updated.xlsm — The Most Up-To-Date
+   Kryptos Workbook.xlsm — Initial Progress and Main Workbook
+   kryptraw.txt — First part of Kryptos 28bits for Analysis Scoring
+   ModOffsetAnalysis.xlsx — K4[0:50] to K4[51:97] tight correlation using the letter "T" and a 1 thru 17 saw-tooth!!! 
+   Roman Inflections Latest.xlsb — Initial K4[0:25] and K4[50:75] moving average 24 window showing mirrored patterns about co
+   SCORER.BAS — Q-Basic Program for Analysis Scoring
+   TheHollowMen.xlsx — K1-esque similarity, famous quotes, potential 98 char OTP, TS Elliot
+   WhiteRockFilteredWithGIMP.jpg — White Rock Digitally Enhanced
+   Anaconda JupyterLab Notebooks (Python3)/Kryptos K1-K3.ipynb — Python 3 implementation of the K1, K2 and one of the K3 solutions. I've also included a Ch
+   Anaconda JupyterLab Notebooks (Python3)/KryptosVigenere.ipynb — Python 3 notebook for K4, demonstrating a technique to recreate keys from cribs for single
+   Cipher Wheel Turns and Flips/cipher_wheel_solutions.txt — Results of cipher wheels manipulations/transforms to get from one K4 ct/pt pair to the nex
+   Cipher Wheel Turns and Flips/flipper.ipynb — Anaconda/Jupyter notebook to explore cipher wheel transforms from one K4 CT/PT pair to the
+   K2K4 based Internal Variant System/K2K4bigram.ipynb — K2/K4 Internal Variant Notebook in both Jupyter and PDF formats
+   K2K4 based Internal Variant System/K2K4bigram.pdf — K2/K4 Internal Variant Notebook in both Jupyter and PDF formats
+   K2K4 based Internal Variant System/Kryptos K2:K4 Internal Variant Syst — K2/K4 internal variant explanation
+## CSDuke [4 f; 2015-2015] ''
+   KRYPTOS15th.pdf
+   KRYPTOS2nd.pdf
+   KRYPTOSSTARCHART.pdf
+   KRYPTOSsubesadnnu.pdf
+## Dan Ankuda [1 f; 2022-2022] 'Compass Rose'
+   K1 as Source of Key.pdf
+## DC_Otter contributions [4 f; 2006-2008] ''
+   binary window.xls — Convert two texts to binary and use them as windows
+   d-agapeyeff.xls — Progress in d-agapeyeff code
+   kryptos 2.jpg — Bird's eye view of kryptos with labels
+   rotate.xls — Excel text rotation example
+## Dex1879 [3 f; 2010-2010] 'Notes'
+   43X18 MATRIX.pdf — Observations in applying 43x18 matrix to K1-K3
+   Interesting K4 Solution.pdf — It's not THE answer, but it's interesting
+   THE K3 ENCRYPTION MATRIX.pdf — Matrix Used to Encrypt K3
+## dnb [1 f; 2011-2011] 'Tour Guide Plaza'
+   Ulli.txt — Ulli's Technique
+## Donahue [7 f; 2017-2017] ''
+   IMG_2330.PNG
+   IZUCAY.PNG
+   metaphor.png
+   MUKLKONA.PNG
+   sly kit wiz.PNG
+   viginere1.PNG
+   viginere2.PNG
+## Donna Byczkiewicz [43 f; 2007-2021] 'NEW - teenyKRYPTOS photo - near bottom'
+   Antikythera.pdf — Antikythera from Archaeology Magazine; Password = KRYPTOS
+   AntipodesCT.doc — Antipodes Cipher Text Transcription including significant characters
+   BaconsClaimAndShakepearesAye.pdf — Bacon's Claim/Shakespeare Epithet
+   Bacons-Claim.gif — Hugh Black article on page 429
+   CIA_Clue_analysis.doc — CIA Clue Analysis
+   FRA-BA-WRT-EAR-AY.gif — Hugh Black's 1887 article
+   Gillogly.doc — Screenshot from National Treasure DVD Bonus Featurette on Ciphers, Codes & Codebreakers
+   KRYPTOS_and_BSSATAOLLTNOI_2003version.doc — KRYPTOS and BSSATAOLLTNOI
+   KRYPTOS_antipode.jpg — KRYPTOS Antipode - Google Earth
+   potato_label.jpg — What Too Much Thinking About KRYPTOS Will Do To You
+   Q_30_MATRIX_noKEYnoPT.doc — Q 30 matrix no key no PT
+   Q.doc — CANYOUSEEANYTHINGQ?
+   remove_QXZ__TWO_Qs.doc — Ideas on the Pyramid Steps - removals, and appearance of "TWO"s
+   seal&compassOVERLAY.jpg — CIA seal and Compass Rose Overlay directions for LAYERTWO and K3
+   SlowlyDesparatlySlowlyMAP.doc — K3 PT mapped out COLORFULLY on the CT
+   teenyKRYPTOS.jpg — Tiny replica of KRYPTOS put out by Sanborn for the 20th Anniversary
+   THE.xls — T-H-E alignments on Diconaxes Pyramid Matrix 2 to 1 ratio
+   white_dot_on_courtyard.JPG — The White Dot on Sanborn's Model - WHY is it there?
+   Kennedy/Evolution of a President_ John F. Kennedy and Berlin.pdf
+   King Tut Scans/tut1pg58.JPG — Carter Volume One pg. 58
+   King Tut Scans/tut2pg58.JPG — Carter Volume Two pg. 58
+   King Tut Scans/tut3pg58.JPG — Carter Volume Three pg. 58
+   OVERLAY/Additional Notes.doc — Interesting NOTES and OBSERVATIONS on this pyramid overlay concept
+   OVERLAY/overlay_rightsideup.jpg
+   OVERLAY/pyramid_steps_revised.doc — K4 steganographic approach with 3:4:5 pyramid ratio - revised
+   OVERLAY/Q - K4 with K1K2K3 PT.doc — 192 letters! K4 + letters from K1-K3 overlays
+   SHADOW FORCES/cia_overhead.jpg — Overhead shot of CIA and KRYPTOS elements
+   SHADOW FORCES/cyrillic.jpg — Cyrillic Projector Vigenere Tableau - 1997
+   SHADOW FORCES/entrance_pyramids_courtyard.jpg — Overhead shot of entrance to building and KRYPTOS courtyard
+   SHADOW FORCES/entrance_pyramids.jpg — Overhead close-up of brown pyramids
+   SHADOW FORCES/grille.bmp — KRYPTOS pyramid-like grille
+   SHADOW FORCES/model.jpg — KRYPTOS model showing two light sources
+   SHADOW FORCES/mona_lisa_shadow.jpg — Richard Gay's shadowy photo that gave me the "Ah, ha!" moment
+   SHADOW FORCES/pyramid_outline.jpg — Brown pyramids outline showing patterns at ends
+   SHADOW FORCES/shadow_1.jpg — KRYPTOS shadow
+   SHADOW FORCES/shadow_3_elonka.jpg — KRYPTOS shadow - Elonka
+   SHADOW FORCES/shadow_4_gillogly.jpg — KRYPTOS shadow - Gillogly
+   SHADOW FORCES/shadow_compass_rose.jpg — Compass rose superimposed over shadowy KRYPTOS sculpture indicating the SAME angle
+   SHADOW FORCES/SHADOW FORCES.doc — SHADOW FORCES Word Document - same as post, but without all those pesky links!
+   SHADOW FORCES/tableau_elonka_highlighted.jpg — KRYPTOS Vigenere Tableau with highlights
+   SHADOW FORCES/tableau_pink_all.jpg — Replica tableau showing all highlighted KRYPTOS letters
+   SHADOW FORCES/tableau_pink.jpg — Different tableau that resembles the same shape as the brown pyramid area
+   SHADOW FORCES/tableau_superimposition.jpg — Recreation of tableau superimposed over sculpture showing similar 45 degree angle
+## Doug Price [1 f; 2025-2025] 'Working Notes'
+   ProgressReport.pdf — WHEATSTONE analysis 10 May 2025
+## Drgrunge 2000 [7 f; 2011-2026] ''
+   IMG_9663.mov — K4 tips, spiral double transposition, look at the nova vid 8x42 grid, at the folds on the 
+   k4--Major find.docx — Major k4 find! Huge pattern found!-Floyd Yancey
+   Kryptos k4 solved.docx — k4 solution by Floyd Z. Yancey Dec 5 2011
+   Kryptos Key Extraction Verification request with crack methods.pdf — This is a reupload pdf of the key extraction method, rewritten, Including the cracking met
+   LINGO.jpg — k4 decode using shadow and light.. i do not understand part of it -Floyd Z. Yancey
+   VER 3 Kryptos key extraction and cracks Floyd Yancey.PDF — I rewrote the kryptos key extraction technique and the k3 no key rotate crack. Too hard to
+   verification.pdf — I am requesting public verification on the extraction of kryptos keys via one time pad and
+## DSander [1 f; 2023-2023] ''
+   ABSCISSA_Was_The_Clue_For_K3.pdf
+## DTaualii [2 f; 2016-2017] 'Personal files documenting my decryption process of K4.'
+   K4 Simplified Solution - Incorrect.pdf — Jim said this is not correct, but if I can get 54 characters to come out, with a defined m
+   Phase 1 Complete.pdf — Here is my proposed method to decrypt the first phase of K4.
+## DU Folder [1 f; 2026-2026] ''
+   k4_xor399_architecture.pdf — Draft paper
+## E-Joe's File [1 f; 2003-2003] 'Morse code'
+   kryptos morse code.doc
+## Eamon Mulhaney [1 f; 2010-2010] 'Files'
+   EM001.xls — Numerical Data
+## EBNK [8 f; 2022-2022] ''
+   (1) JS Interview - Logic revealed.pdf — Introduction to Discovered Logic
+   (2) Logic used on Morse Code reveals hidden message.pdf — Logic applied to the Morse Code
+   (3) More messages in the Morse Code.pdf — The Logic reveals more within the Morse Code.
+   (4) Bullseye with Arrow.pdf — What I use to confirm Layer 2.
+   (5) K4 Confirm Layer 2.pdf — From BIG Bullseye w/arrow at start of K4 (Layer 1) to small Bullseye w/arrow, confirming s
+   (6) Kryptos Layer 2.pdf — Almost done. Just have to undo the washing machine!! It's been real!!
+   A sol not THE SOL.pdf — Started one way and got this (nothing). Will go the other way next. Also, I figured out th
+   Is the Part of K5.pdf — Is this part of the infamous K5??
+## Eduardo Cruz [1 f; 2022-2022] 'Possible K4 solution'
+   Partial solution to K4.pdf — Cipher solution to the K4 passage EASTNORTHEAST
+## erexere [4 f; 2015-2017] ''
+   KRYPTOS PALs.pdf — I suspected it might be possible to generate enough palindromic cases in K1-K3 necessary t
+   Kryptos.pdf — I'm exploring some really cool masking ideas. 1) Using the approximation of Pi, hinted by 
+   MorseLoadLines.png — It's possible that two specific lines on the needle of the compass are pointing exactly at
+   PalindromeStudy.pdf — Some improvements superseding the Kryptos PALs.pdf
+## Ethan Marcum's Files [2 f; 2016-2016] ''
+   kryptostables.xlsx — Kryptos tables with "heterosemy" as the keyword.
+   wordlist.docx — Possible plaintext words with "heterosemy" as the keyword.
+## Evan Wilkinson's Folder [1 f; 2015-2015] ''
+   OBKR_2 to use.docx — K4 solution = k1 + k4
+## Ferhat [2 f; 2011-2011] "Ferhat's Files"
+   DM_INSCRIPTION.pdf — DM Inscription (Visual Clues on the Kryptos)
+   Quatrain_866.jpg
+## fillzees_folly.pdf [1 f; 2006-2006] ''
+    — Fill-Zee's Folly = keyword length results from factorization of pattern repetitions. MSG#5
+## Fitnezz Jim [2 f; 2006-2016] ''
+   Kryptos Summary.doc — Overview of attempts to solve Kryptos
+   OnlyWWknows_DraftOf2016_08_27.pdf — Only WW Knows Analysis
+## fs3678 Jose Luis [10 f; 2020-2021] ''
+   M10 Starting to solve K5 with the instructions of WW.pdf — M10 Starting to solve K5 with the instructions that Williams Webster gave in his last mess
+   M1 A big clue is in plain sight.pdf — M1 A big clue is in plain sight. Shown as the big clue BLUE is in plain sight in the K3 ci
+   M2 Recovering the Original Matrix.pdf — M2 Recovering the Original Matrix as Jim guided us
+   M3 The second matrix of the Matrix System.pdf — M3 The second matrix of the Matrix System, as important as the first in building the Matri
+   M4 The key is the algorithm.pdf — M4 The key is the algorithm Starting from patterns discovered by two members of the Group,
+   M5 How to reinterpret the clue key ID BY ROWS.pdf — M5 How to reinterpret the clue key ID BY ROWS So we get NORTH E in the right place, a clea
+   M6 Expanding the Matrix System.pdf — M6 Expanding the Matrix System We can see how the new matrices are built, their charts, th
+   M7 The weird DELTA HOTEL duo.pdf — M7 The weird DELTA HOTEL duo We will see how the duo begins to appear. We will discover th
+   M8 Folding and unfolding Kryptos.pdf — M8 Folding and unfolding Kryptos just as Jim guided us with his charts #1 and #3. A logica
+   M9 Following Chief Williams Webster's instructions.pdf — M9 Following Chief Williams Webster's instructions In the last message of WW are the instr
+## fulmers_waiter [1 f; 2011-2011] 'fulmers_waiters_files'
+   K1 - K3 sol'n to K4.xlsx
+## Geoffrey Caveney's Folder [4 f; 2017-2020] ''
+   K4 decrypted as period-49 Playfair with DYAHR-keyed square and arrange
+   K4 decrypt per-49 Playfair DYAHR-key positions 29-70 letter freq distr
+   K4 decrypt worksheet as period-49 Playfair with DYAHR-keyed square.xls
+   Stein Kryptos 3 transposition symmetric a.PNG — Logical layout of Stein's Table.
+## Giezr [9 f; 2003-2003] "Giezr's Stuff"
+   Lingua/French/fr differences.txt
+   Lingua/French/fr Giezr.txt
+   Lingua/French/fr transcription.txt
+   Lingua/Latin/lt differences.txt
+   Lingua/Latin/lt giezr.txt
+   Lingua/Latin/lt transcript.txt
+   Lingua/Spanish/sp differences.txt
+   Lingua/Spanish/sp Giezr.txt
+   Lingua/Spanish/sp transcript.txt
+## Gillogly [2 f; 2010-2010] "Jim Gillogly's files"
+   KryptosTable2.pdf — BERLIN crib file sent by Sanborn to the New York Times (Sanborn's filename)
+   npr-2010-11-22.txt — NPR Sanborn interview, 22 Nov 2010 - transcript by Gillogly
+## gotchainthemix [11 f; 2011-2011] ''
+   arialshadingNWandSE2.pdf — arial photos are shaded from NW or SE to clarify hills from valleys.
+   E.S.P._cover.jpg — k4 = jazz
+   first_last.jpg — possible K4. Focus on Andy Warhol and K3
+   keyboardlayoutSOLVEk4 WITH MUSIC.xlsx — use on Miles Davis Pharaos dance coordinates point to riff.start on left of keyboard all w
+   kryptosYAKsharp.mp3 — mp3 not right timing or space for QUAd
+   lodestonecompass.pdf — lodestone used in ancient china valley of the devil
+   Miles_Davis_Live-Evil-Backtocovertransition-4of4.jpg — ive evil transition 4 of 4
+   mobiuscontinuum.pdf — possible inspiration from this mobius continuum sculpture on DC neat interlacing
+   pharoahsdance.jpg — pharoes dance is song of k4
+   tp.jpg
+   vu.pdf — velvetunderground
+## Graham [2 f; 2024-2024] ''
+   graham_2024_03.pdf
+   graham_2024_05.pdf
+## GREERAN [3 f; 2017-2017] 'MISC'
+   CI70Back.jpeg — Back Of 70th Anniversary Challenge Coin From Langley
+   CI70Front.jpeg — Front Of 70th Anniversary Challenge Coin From Langley
+   VectorCIA70Front.jpg — Front JPG Vector For 70th Anniversary
+## greg.materna [2 f; 2022-2022] ''
+   hash.txt
+   Muko and the Observation-proofreading.txt
+## Hannon [3 f; 2010-2017] 'Edward Hannon Personal Folder'
+   Analysis of K4.doc
+   Analysis of K4.docx
+   K3 CRYPTOGRAPHY.pdf — Analysis of K3 Encryption/Decryption and relationship to K4
+## Ibnsifre [15 f; 2013-2014] ''
+   kryptosCipherPadToPlainV1_1.py
+   Kryptos K4 Solution V5_5.pdf — Kryptos K4 Solution 5.5
+   Older Docs/Curios of K3 Original Unabridged.pdf — A One Time Pad Schema Solution in pdf format
+   Older Docs/Curios of K3.pdf — Curios of K3 by Ibn Sifre
+   Older Docs/END-YAR Clue.pdf — What I think the END - YAR means
+   Older Docs/K4 Echelon EEEid Solution Beta 1.pdf — K4 Big H-O-Y Solution
+   Older Docs/K4 EEEid Solution and Proceedure v0.9.pdf — My K4 EEEid Solution and Proceedure, Enjoy!
+   Older Docs/K4 EEEID solution part 2 draft.txt — part 2 of solution draft
+   Older Docs/K4 EEEID solution procedure.txt — K4 Solution and Procedure part 1 v0.5
+   Older Docs/K4 Spies To Ike's DD Alpha.pdf — A working document organizing what I've found about Kryptos
+   Older Docs/K4 Spies To Ike's DD Solution Beta 1.0.pdf — Spies to Allen Dulles - the OHY plaintexts and Kim Philby and the Cambridge V
+   Older Docs/Kryptos K4 Solution EEEID.txt — EEEID Solution to K4
+   Older Docs/Kryptos K4 Solution V5_3.pdf
+   Older Docs/More on K4, Allen Dulles, and the Cambridge V.txt — A couple of observations :) and an update to my last solution
+   Older Docs/Steganography of Kryptos - Alpha.pdf — Bits of Steganography of Kryptos K1, K2, K3, and K4 - and further discoveries from encrypt
+## Improvidus Folder [4 f; 2025-2025] ''
+   5th letter transpose.pdf
+   aNALYSIS.pdf
+   kRYPTOS 4.pdf
+   RENUM.pdf
+## Ivan Bolzoni [1 f; 2020-2020] 'LAYERONE and MASKING'
+   LAYERONE.docx — LAYERONE discovery(?)
+## Iwest Folder [1 f; 2022-2022] ''
+   iwest/one-time-pad.txt — I've been recently considering the complexity of other peoples approaches, and considering
+## J.Schoeffler Files [4 f; 2011-2011] 'Kryptos Model Results'
+   K4_Lineup_Letters.xlsx — Letters that Line Up Overlapping Kryptos
+   K4 Second Half Patterns.jpg
+   Kryptos Pattern.jpg
+   Unmasking Proposal.xlsx — Simple Substitution Used to Unmask K4
+## j_staff77 [7 f; 2010-2010] 'KRYPTOS - ÊÑÕÌÌÅÍÏ'
+   PICTURE 1.JPG — PICTURE 1
+   PICTURE 2 KRYPTOS.jpg — PICTURE 2
+   PICTURE 3 SYMMETRY.jpg — PICTURE 3
+   PICTURE 4 VITRUVIAN MAN.jpg — PICTURE 4
+   PICTURE 5.jpg — PICTURE 5
+   PICTURE 6.JPG — PICTURE 6
+   PICTURE 7.jpg — PICTURE 7
+## James Foulk [1 f; 2012-2012] 'Observations'
+   Kryptos K4 Key.docx — Possible Key for K4
+## James Gaquin [1 f; 2005-2005] 'K4 Theory'
+   Kryptos Solved James Gaquin 06.30.2005.doc — Kryptos Solved James Gaquin 06.30.2005
+## Japhet [2 f; 2025-2025] ''
+   KRYPTOS k4 SOLUTION FINAL.xlsx — SOLUTION FINAL K4 JAPHET
+   DOSSIER JAPHET/KRYPTOS k4 SOLUTION FINAL.xlsx — SOLUTION FINAL K4
+## Jason D [11 f; 2006-2014] 'Autokey Crib'
+   Corrected Binary transposition.xls — Use this file not the PDF
+   impaired opp clues.doc — Impared Opp clues
+   Proposed K4 Masking technique Jason DeSeve 71406.pdf — K4 masking technique
+   Proposed K4 Masking technique J Deseve Correct.doc — Use this the PDF has a couple mistakes
+   5 Bit Binary Theory/5 Bit Binary Theory3 21 07.doc — Updated to revise flow and references
+   5 Bit Binary Theory/Basic stats for Binary.xls — Bit Frequency for English
+   5 Bit Binary Theory/Binary Theory update 1 4 08.doc
+   5 Bit Binary Theory/Evaluation of K3 CT as running Key.doc — The latest idea
+   5 Bit Binary Theory/help given.xls — This is what you wanted
+   5 Bit Binary Theory/IC calc for K4 K4 prime vs K3 CT.xlsx — evidence for binary basking using K3 CT as a running key
+   5 Bit Binary Theory/kRYPTOS ALL BINARY post.xls — Cipher text converted to Binary
+## Jason_Faraone [1 f; 2003-2003] ''
+   engraver.zip — Engraver font - close match to kryptos
+## Jassim [4 f; 2013-2015] ''
+   K3 - Solution.xls
+   K5 - Revised.xls — K5 - Revised - Detailed Process
+   K6 - Updated.xlsx — K6 Solution - Read this one
+   Weltzeituhr/Weltzeituhr.xls — Weltzeituhr Text
+## Jay Baker [2 f; 2013-2014] 'Misc files'
+   K4 Vigenere Proof.xlsx — explains reason for doublets in clock hint
+   KRYPTOS SKIP COMPARISON.xlsx — compares distance between any two letters in K1-3
+## JBONSALL [3 f; 2022-2023] 'Jamie Bonsall Files'
+   ascii flip.pdf
+   nefertiti1.pdf — Kryptos ties to Nefertiti?
+   OOO and OU.pdf — Interesting mirror-symmetry between K4 padded to 7 characters, and a rectangle in K2+K3. N
+## Jean-Pierre M Folder [1 f; 2023-2023] ''
+   K1-K2transform.pdf — In case someone wants to dive into K1 and K2 and a potential meaning behind the meaning of
+## JeCarWFTX [1 f; 2009-2009] 'Misc. Kryptos Stuff'
+   krytosrocks.doc — White Rock vs Flat Rock
+## Jenben822 [1 f; 2005-2005] ''
+   KRYPTOS SPREAD ALPHA.xlr — Jen's Table
+## Jew-Lee's findings [2 f; 2006-2007] 'Reseach'
+   allineedforkyptos.doc — field worksheets
+   TEMP_RIGHT3.doc — template to help solve K4
+## Jezail M. Santhon [5 f; 2020-2020] 'K4 key and Solution'
+   Document (15).docx — K3 Plaintext Theory
+   Jezail Santhon Kryptos copy.docx — K4 key and Solution
+   K4.docx
+   text.txt — Theory on how to remove the mask on K4
+   ZigZag Scanning.pdf
+## jfollas [1 f; 2023-2023] ''
+   K4 - Considering what reversed text may offer.pdf — A coincidence found while exploring the idea of autokeying from reversed plaintext
+## JGirard [1 f; 2017-2017] 'My thoughts'
+   kr copy.docx.pdf — Possible matrix for solving K4
+## Jim M [3 f; 2013-2017] 'Files'
+   dyahr spacing.jpg — Out of alignment letters
+   ENDYAHROH.gif — GIF trying to imagine where the letters moved from and to
+   K3 as some kind of running key or pseudo-OTP for K4.xlsx
+## JN's Folder [52 f; 2015-2021] 'Repository for various approaches to Kryptos. Currently examining the deep purple roots of Kryptos and various Greek titans, giants, and gods, as well'
+   2 Pic Tos 2.jpg — A more effective version of the PRNG recognition, using KRYPTOS letter heads in row-1 as t
+   35-24 032119.xlsx — Companion viewing spreadsheet for 3/21/19 post in Wondrous Patterns.
+   Absdiag.docx — Abscissa-Diagonal - Illustrating a recurring concept in Kryptos,
+   AcroAenV2.xlsx — Enhanced version of the improved copy. This version of the 24-row Acrostic includes a colo
+   AcroAen.xlsx — Sibyl Acrostic, 24 column plaintext grid, improved version. Breakdown by part of the anagr
+   Align2.xlsx — X24 Array - The Simplest Approach, alignments. BER - LIN - NOR - THE - AST Note the trigra
+   Align3.xlsx — Making sense of the "mispellings" of IQLUSION, UNDERGRUUND and DESPARATLY via x24 Alignmen
+   Align.xlsx — x24 Array of K1-K3 coupled with MEMO Array in K4 K4 as a cryptogram - A depiction of align
+   Atomic Balloon.xlsx
+   Auto2.xlsx — Breaking K4: Apex - By adjusting the row lengths of K4, Markers begin to emerge relating t
+   Auto3.xlsx — Tab 2 "Breaks" shows some surprising hidden Caesar shifts in the K4 grid that you may find
+   Auto4.xlsx — K1 and The Apex of the Pyramid - BENBEN Visual explanation of some eureka-type items found
+   Auto.xlsx — Analysis of K4 utilizing the Running Alphabet, and applying TBJ/UND from the mispelling to
+   bough2.docx — Second half of the Golden Bough Puzzle - Putting theory into practice to attempt a 4 part 
+   Doorways Unfolding.docx — Self-analysis on the current Enigma exploration for integrity of method.
+   GoldenBough.docx — Wondrous Patterns - The Golden Bough Puzzle Illustrated spreadsheet that goes with the rec
+   Gruund2.docx — Version 2. Trying pieces of theory against each other. Enigma & "ABC123" anagramming to ge
+   Gruund.docx — Overview in progress of Enigma as a potential means of deciphering K4.
+   July.docx — Morse & K4 Decryption, study and application Using the -6/+6 K/E/Y and 0362514 principles 
+   Keyword Generation Visualization.xlsx — A visual aid for visualizing and generating keywords K1-K3
+   Kryptos - Aerostat-Hourglass-Satellite.xlsx — A visual display of the shifting progression of K4 - first employing the Visual Markers to
+   Kryptos - All The Shifts.docx — Concept: Raking Light/Ray King’s Light & Palimpsest/Pentimenti Tying things together to ma
+   KryptosCartesian Trex.xlsx — Attempting to understand encrypted vs decrypted text correspondence in K3 and possible rel
+   Kryptos -Details Emerge from THEMIS.docx — Third part of a set, making sense of the misspellings in context of Balloon/Hourglass/Sate
+   Kryptos - Four Key Civilations Overview.docx — An overview of the A-Z process for understanding my research 3 keys (PURPLE, CAESAREAN & R
+   Kryptos Keys - Caesarean Ray and Purple.docx — Exploring the relationships of these "keys" to Jim's meeting story as well as the possible
+   Kryptos Kypris - Hidden Affairs and Aphrodite Urania.docx — Digging into Purple at the source and finding even closer ties. A look at the goddess Aphr
+   Kryptos Overview.docx — An discussion/application of the decrypted keywords from the morse stones and sculpture to
+   Kryptos Overview Theory II.docx — Completed theory using the Brady keywords, but unfortunately unverifiable without access t
+   Kryptos the Enigma Machine.docx — Self-analysis on Kryptos as a metaphor for the Enigma Machine. Side note to self to follow
+   Kryptos - The Keys and the Campus OHB.docx — Linking the PURPLE, etc Keys to a specific location at the OHB entrance on campus and layi
+   Kryptos - The Keys and the SIgn of Tanit.docx — Unifying the "keys" - Caesaraean, Purple and Ray with Palimpsest, Abscissa and 0362514 to 
+   Kryptos Theme - Gospel of Transformation and Rebirth.docx — Encapsulating the themes of RAY, PURPLE and phoenix in a singular theme of transformation 
+   Kryptos - Themis II.docx — Typing PURPLE and Helios together as well as the USA and the USSR.
+   Kryptos - Transliteration.docx — New fourth image - The Scale, also transliteration from English to Russian and Phi-Nyx.
+   Morse Stones and the K4 Balloon.docx — Utilizing the Morse Stones as a visual marker to determine the proper "shift" of the K4 ci
+   Morse Story.docx — Self-analysis on the Morse Stones as a sort of coded "introductory" plaque or series of cl
+   Notes.docx — Kryptos: Null Ciphers, Balloons and LOWE A short explanation of the current path involving
+   OnlineVSculpt.xlsx — Excel display of Common Online Tableaux quadrants vs what is actually on the Kryptos Sculp
+   Outline.xlsx — Companion spreadsheet for WP: +6 Breaking K4? post. Applying a systematic and regular rota
+   PatAn.xlsx — Wondrous Patterns Series. Direct pattern analysis of the -6/+6 method as applied to the fi
+   Phonny.xlsx — 24x14 Plaintext Version of K3, mimicking JS's chart from the handwritten notes. Studying d
+   Pic Tos.jpg — A visual representation of organizational rays that shows the PRNG arrangement under the r
+   Purple Linked Keywords.docx — Examining some interesting Purple-based links between the keywords that have more to do wi
+   Reversal Theory.docx — A working K4 theory that attaches K4 to the Morse Stones.
+   Source2.docx — Wondrous Patterns - Line 2 of K4 application. Looks like +6/-6 is the KEY, literally. Appl
+   Stegano UV.pdf — The ugly version of the steganographic theory.
+   The Purple Kryptos Uncial.docx — Exploring a theory and application of the Purple cipher process on K4. Part 1 of what will
+   Toffe Upgrade.xlsx — Combining the shifts in a Two-Layer Cake with Candles theory from Jim's Handwritte Notes a
+   Toffe.xlsx — K3 Plaintext/Ciphertext pairing using the 24x(n) scale. Not a complete grid, but contains 
+   WWII and Enigma Theory - Kryptos Exhibit.docx — This section explores the geographical components of the Kryptos Exhibit and their paralle
+   WWII and Enigma Theory- Kryptos Numerology.docx — This theory explores an aspect of the apparent parallels to the Enigma Machine that are ra
+## Joe [2 f; 2025-2025] ''
+   AviSolution-Joe-pencilpaper_worksheet.pdf
+   FULL-Avi-Solution-Joe-pencil_paper_worksheet.pdf — includes bottom section A=0, B=-1, C=-2......
+## John Willemse [36 f; 2007-2008] "John Willemse's files"
+   BinTransSetup_ReadMe.txt — Some short instructions for Binary Transposition K4 application
+   longmorseDigetalInterpretatio_r.txt — Long Morse codes appearing in Digetal Interpretatio piece when reversed
+   longmorseDigetalInterpretatio.txt — Long Morse codes appearing in Digetal Interpretatio piece
+   longmorseLucidMemory_r.txt — Long Morse codes appearing in Lucid Memory piece when reversed
+   longmorseLucidMemory.txt — Long Morse codes appearing in Lucid Memory piece
+   longmorseShadowForces_r.txt — Long Morse codes appearing in Shadow Forces piece when reversed
+   longmorseShadowForces.txt — Long Morse codes appearing in Shadow Forces piece
+   longmorseTIsYourPosition_r.txt — Long Morse codes appearing in T Is Your Position piece when reversed
+   longmorseTIsYourPosition.txt — Long Morse codes appearing in T Is Your Position piece
+   longmorseVirtuallyInvisible_r.txt — Long Morse codes appearing in Virtually Invisible piece when reversed
+   longmorseVirtuallyInvisible.txt — Long Morse codes appearing in Virtually Invisible piece
+   longwordsDigetalInterpretatio_r.txt — Long Words appearing in Digetal Interpretatio piece when reversed
+   longwordsDigetalInterpretatio.txt — Long Words appearing in Digetal Interpretatio piece
+   longwordsLucidMemory_r.txt — Long Words appearing in Lucid Memory piece when reversed
+   longwordsLucidMemory.txt — Long Words appearing in Lucid Memory piece
+   longwordsShadowForces_r.txt — Long Words appearing in Shadow Forces piece when reversed
+   longwordsShadowForces.txt — Long Words appearing in Shadow Forces piece
+   longwordsTIsYourPosition_r.txt — Long Words appearing in T Is Your Position piece when reversed
+   longwordsTIsYourPosition.txt — Long Words appearing in T Is Your Position piece
+   longwordsVirtuallyInvisible_r.txt — Long Words appearing in Virtually Invisible piece when reversed
+   longwordsVirtuallyInvisible.txt — Long Words appearing in Virtually Invisible piece
+   __Readme.txt — Read this for a simple explanation
+   resultsDigetalInterpretatio_r.txt — All words appearing in Digetal Interpretatio piece when reversed
+   resultsDigetalInterpretatio.txt — All words appearing in Digetal Interpretatio piece
+   resultsLucidMemory_r.txt — All words appearing in Lucid Memory piece when reversed
+   resultsLucidMemory.txt — All words appearing in Lucid Memory piece
+   resultsRQ_r.txt — All words appearing in RQ piece when reversed
+   resultsRQ.txt — All words appearing in RQ piece
+   resultsShadowForces_r.txt — All words appearing in Shadow Forces piece when reversed
+   resultsShadowForces.txt — All words appearing in Shadow Forces piece
+   resultsSOS.txt — All words appearing in SOS piece
+   resultsTIsYourPosition_r.txt — All words appearing in T Is Your Position piece when reversed
+   resultsTIsYourPosition.txt — All words appearing in T Is Your Position piece
+   resultsVirtuallyInvisible_r.txt — All words appearing in Virtually Invisible piece when reversed
+   resultsVirtuallyInvisible.txt — All words appearing in Virtually Invisible piece
+   Blockbuster/Blockbuster.zip — Unzip the package and run "setup.exe" to install. You can uninstall from the control panel
+## John Zygilewicz [2 f; 2011-2011] "John's Folder"
+   K4-Long-Kasiski-Period-Method.xls — Kasiski method of solving Kryptos K4 Keyword Length
+   KRYPTOS Hill cipher.xlsx — Kryptos Hill Cipher
+## Jon [1 f; 2005-2005] 'Jon Thornbers files'
+   part3 matrix.xls — Single matrix for part 3
+## Jonah's Folder [7 f; 2014-2020] ''
+   berlin clock northeast alexanderplatz.pdf — Collage explaining why NORTHEAST clue fits well with the Alexanderplatz clock.
+   Berlin Peace Clock PDF Transcript.doc — Jens Lorenz Berlin Peace Clock Dedication TRANSCRIPT document
+   Jens Lorenz Berlin Peace Clock Dedication.pdf — Jens Lorenz Berlin Peace Clock Dedication (History of Clock)
+   K1 Poem - Dwipadaviraja (Sanskrit)
+   K1 Poem - Hemistich 50, Nabati — Links to sources on the Hemistich 50 lead
+   Weltzeituhr WORLD CLOCK TIME ZONES COLORS.docx — Colorized text of NYPVTTMZFPK
+   Weltzeituhr WORLD CLOCK TIME ZONES.xlsx — Spreadsheet of 148 cities on 24 time zones for Berlin Clock
+## Jonny [1 f; 2003-2003] "Jonny Taylor's files"
+   Morse.txt — My thoughts on morse code encoding schemes
+## Josh LeVeque [2 f; 2023-2025] "Josh LeVeque's Kryptos Stuff - interviews, charts, spreadsheets"
+   All_interviews_and_articles.docx — My 375+ page monster file of any interviews or articles I could find that include quotes f
+   basic_kryptos.xlsm — Excel sheet with macros to solve K1-K3, includes charts released on various media (recreat
+## JoshL [2 f; 2013-2013] ''
+   JEWLEE.xlsm — Charted results post 14324
+   k1_k2_k3_solver.xlsm — Macro enabled Excel file that solves K1 - K3
+## JoshuaFiles [7 f; 2010-2011] "utsuprainfra@gmail's files"
+   IrinaK4_KEYS_K1K2.csv — Irina's K4 Keys (in application)
+   Kryptos CT SSheet.csv — CSV version of my Main Working Sheets
+   Kryptos CT SSheet.ods — My Main Working Sheets
+   KryptosPlainText.odt — K1-3 Plaintext
+   KryptosWorkingDoc11.29.10.1358.odt — current lack of progress
+   KS.ttf — Monospace Kryptos Sculpture Font
+   sanbornencode.pdf — Sanborn's Encoding Chart
+## jovian [1 f; 2010-2010] 'K4'
+   scan 5.jpg — B=X worksheet
+## jtechtache [2 f; 2025-2025] ''
+   K1_K2_Mirror.pdf
+   KEA_Position.pdf
+## k4sisk1 [1 f; 2025-2025] "k4sisk1's files"
+   Kryptos.pdf
+## Keith [3 f; 2003-2003] 'Keith Edkins Files'
+   IRP.htm — Indian Run Park text, Lingua link
+   linguagrk.gif — Greek Text of Lingua
+   Zola_plaques.rtf — Zola Restaurant Russian Plaques translation
+## Ken's Stuff [10 f; 2004-2020] 'Site Plan, Details of Front Entrance Strata, K4 Musings'
+   Abandoned KRYPTOS Part 4 Solution — K4 solution draft Oct 2007 - method was ultimately abandoned
+   DYAHR In K2 coordinates.pdf — A possible OTP for K4. Manipulation of K2 coordinate cipher text reveals DYAHR
+   Kryptos Aerial Enhanced.jpg — Enhanced Aerial view of KRYPTOS elements
+   Kryptos Excel.xlsx — Kryptos ciphertext and tableau in Microsoft Excel spreadsheet
+   Kryptos Numbers.numbers — Kryptos ciphertext and tableau in Apple Numbers spreadsheet
+   morseStrataNorth rotated180.jpg — Morse Strata North Rotated180
+   North Out Cropping.JPG — North Outcropping Schematic - Morse
+   South Out Cropping.JPG — South Outcropping Schematic - Morse, Compass and Loadstone
+   Subtle Shadings and the absence of a site plan 1 — Comments on Aerial Enhanced, North, and South Outcropping files
+   Subtle Shadings and the absence of a site plan 2 — Additional Comments on locating the Morse Elements
+## Kent Rs Files [24 f; 2012-2015] 'Miscellaneous'
+   1 6 7 13 LUCK.pdf — K1-2 Cipher rows used: numbers and plain alphabet key word
+   28nov_k_forces (1).pdf — The Stockholm GRU message of 28 Nov 1941
+   Alberti Cipher Disk and Nomenclator System for K4.docx
+   Connecticut locations in K4.pdf — An approach to mnemonic analysis of K4 sleeper activation instructions
+   Finding the Amagiri.pdf — Some thoughts on stuff in the courtyard and out front
+   Horizontal Assembly 6.5.pdf — A look at Polar Coordinates and a different K3 plus K4 Assembly
+   K3 Transposition Matrix Solution 3.pdf — 86 x 4 Right to Left Plain Matrix and Final Product with highlights
+   k4 Chart 1 w stego.xlsx
+   K4 Tradecraft etc.pdf — Explains messages in the 7x14 array, OSS Spearhead, VIC Cipher Cut instructions, etc.
+   Kryptos DYAHR Hydra Encrypted Horizontal Assembly 134.pdf — Messages on rifle assembly model. Text in 11 by 11 box is the combined K4 and K3 (to colum
+   Kryptos DYAHR Hydra Encrypted Horizontal Assembly.pdf — Encrypted K3 on incomplete 86 by 4 with K4 horizontally attached.
+   KRYPTOS Famous Fiction Writer and Book.docx
+   Kryptos K4 berlinclock crib recovery process etc.pdf — A-Z on how to recover the key for berlinclock
+   Kryptos OSS 117 Assembly.pdf — Caliber as yet undetermined.
+   Kryptos VIK CUT and Double Transposition.pdf — Tests putting K4 through a VIK CUT procedure followed by a double columnar transpositions 
+   Lost In Langley.pdf — The OSS 117 angle on the horizontal assembly
+   Medusa and Forkys in Kryptos and Cyrillic Projector 2.pdf
+   Qinsert at 1 QOBKRUOX YOUR.pdf — A way to look at a Hill Cipher-Jack Levine Clue Set by inserting Q in position number one.
+   RPORKYSABNSCOBKK Pyramids.pdf
+   RUX FILOS PYRAMID 2.pdf
+   Sanborn worksheet thoughts recap from 2010.pdf — Some thoughts on decoding to intermediate cipher text.
+   The K4 System.pdf — Some thoughts in compatibility requirements in K4
+   Trifid Analysis of Berlin and RUX FILOS Dec 28.docx
+   Venona Stockholm GRU AKASTO T1463.pdf — The Fifty-five Year Journey of a Venona Decrypt
+## Kevin L. Brown [2 f; 2026-2026] ''
+   Kryptos K4 Solution_CreationUnified.pdf — Sun stencil solve for K4
+   The_K4_Solution3.mp4 — Sun stencil solve for K4
+## Kryptos Geocache [4 f; 2015-2015] ''
+   Geocache_CT.jpg — Encrypted text of the "Kryptos" geocache (GC21VQV), from geocaching.com
+   Geocache_tableau_errors.jpg — Geocache puzzle tableau with "errors" marked
+   Geocache_tableau.jpg — Tableau, or tabula recta, of the "Kryptos" geocache (GC21VQV), from geocaching.com
+   Kryptos-Related Geocaching Sites — Links
+## kryptosgeek [6 f; 2017-2017] ''
+   2016-04-08_hash.txt
+   2016-12-15_hash.txt
+   2017-01-26_hash.txt
+   2017-05-25_hash.txt
+   2017-08-02_hash.txt
+   2017-10-10_hash.txt
+## Kurt's Stuff [2 f; 2003-2003] 'Notes and Programs addressing Kryptos'
+   Vignerre.zip — Program and support files for decryption
+   Vigsource.zip — Source files for the vig program
+## Larry Marsala Files [2 f; 2016-2016] ''
+   GALLERIES - The Washington Post.pdf — Clue to K4 from TUT decode. In "Filter Media," Jim Sanborn's show at Nancy Drysdale Galler
+   The+History+of+the+Berlin+Peace+Clock.pdf — The berlin peace clock was activated at the same time the berlin wall came down. at 6:57. 
+## leahcim [6 f; 2010-2014] 'linking k4 to k1-3'
+   5 BIT XOR table.xls — 5bit xor table
+   abscissa.jpg — Abscissa
+   DECODED TEXTS.xls — findingk4
+   Expanded VIGENERE TABLE.xls — Expanded Vigenere Table
+   K4_GEOMETRY.xls — K4Geometry
+   k4 rewritten using YAR clue.xlsx — k4 rewritten using YAR clue
+## LMDAVE Folder [13 f; 2014-2020] 'LMDAVEs K4 folder'
+   binary_operations.jpg — Showing a possible pattern with mirroring, negating and shifting of PT to CT in K4
+   cyrillic.jpg
+   JF0629(Key_rd)_HV4867(CIA).pdf
+   K4_analysis_David_McCrary.pdf — My K4 method which is ending in very close results.
+   K4_layertwo.jpg — Proposed area for possible layering
+   LAYERTWO_ONE.jpg — K4 LAYERING WORD TWO OVER ONE IN K3
+   LeCarre.jpg
+   P_C_K3_K4_method.pdf — Interesting method of using the P's (plaintext) from the P-C K3 encoding charts. This remi
+   ray.jpg — Angle formed by R.A.Y. light ray
+   Semicircle_Kryptos.jpg — Interesting connection between K2 coordinates and Kryptos in courtyard
+   SHADOW.jpg — Limestone shadow on K4
+   snake.jpg — Snake figure in grass from Present left, and from 1965, at Key Rd Coordinates
+   underground1.jpg — PIcture of underground sign on Key road in Kansas. Extra writing on post
+## Maegical's Correspondences [30 f; 2006-2011] "A 1:1 correspondence of KRYPTOS' Vigenere, Cipher and Solutions for K1,K2 & K3"
+   cfciacluetokryptos.xls — Comparison of CIA Clue to Kryptos text and solution.
+   Copy of kryptos_Vig179-9updatedtext.xls — Ferdinando Stehle's kryptos_Vig supersized to accomodate my new text.
+   dv3b.doc — Correspondences of Solutions
+   K5-decipher-trigram-twist.xls — An Excel file testing probable words and an attempt at decoded K4 by 'palimpsesting' the V
+   K5-minusplus.xls — K5-minusplus.xls that deciphers K4.
+   K5-pb2a-Instructions.txt — Instructions for K5-pb2a.xls
+   K5-pb2a.xls — Multi-faceted Excel worksheets for attempts to decrypt texts with Vigenere, Caesar, KRYPTO
+   K5-Vigenere-trigram-PLAY-THE.xls — Excel file uses Vigenere to decrypt entered text. Shows use of "the" as keyword.
+   KABC....xls — This file shows the next steps I took after the 1922-letter Diamond (Blade & Chalice) Text
+   K Chaos Mask.xls — Excel spreadsheet showing method for acquiring 3/6 letters of BERLIN
+   Kryptos Cryptogram.xls — Excel file that shows statistics of Cipher and Kryptos Solutions K1-K3.
+   K-Vigcube.xls — Single, Double, and Triple Vigenere decoding Excel worksheet
+   NOTES FOR DECRYPTING MORSE+K4.doc — These notes only cover my attempts at cracking 179- and 180-letter Morse Code + K4
+   the.xls — Excel file shows results of decrypting K1 & K2 with "t", "h" & "e".
+   kryptos_Vig files/Copy of kryptos_Vig179-10.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-1.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-2.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-3.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-4.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-5.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-6.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-7b.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-7c.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-7.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-8b.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-8c.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-8GSA.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-8.xls
+   kryptos_Vig files/Copy of kryptos_Vig179-9updatedtext.xls
+   kryptos_Vig files/Copy of kryptos_Vig.xls
+## Magnificent Robe [1 f; 2025-2025] ''
+   Kryptos K4 - The Wonderful Painted Chest & Carter’s Magnificent Robe 2 — I am sharing the cipher process for K4. You will easily verify it if you simply read page 
+## Marc files [9 f; 2005-2011] ''
+   dorabella — dorabella cipher stuff
+   dorabella alphabet.psd — dorabella alphabet wheel
+   dorabella cipher.jpg — dorabella CT
+   key_to_abscissa.jpg
+   kryptos.txt — Ramblings ...
+   randy thompson mails.txt — useful snippets from thompson_97 msgs
+   Berlin Quag III attack/huge_wordlist.xlsx
+   Berlin Quag III attack/knuth_words.xlsx
+   Berlin Quag III attack/unabr.dict.xlsx
+## marc-gutgesell [5 f; 2022-2024] ''
+   enigma.pdf
+   k1instruction.pdf
+   k4_messages.pdf
+   k4.pdf
+   kryptosenigma.pdf
+## Mark Brady [1 f; 2017-2017] ''
+   Brady_Image.jpg — Worksheet - 8 of 11
+## Mark's Stuff [1 f; 2006-2006] ''
+   i-moved-the-excel-files.txt
+## Martin Proffitts Findings [9 f; 2015-2023] ''
+   deciphering-k1-k3-2023-05-15.pdf — This is all my notes from the two threads "Trying to find a map" https://kryptos.groups.io
+   HackMD - K4.pdf — My thoughts around the PLAINTEXT
+   HackMD - Perpetual Motion Machine.pdf — Finding the perpetual motion machine in passage 3
+   k1-k3-condensed-2023-05-17.pdf — This is a highly condensed version of my previous document containing new discoveries from
+   k2-undergruund-2023-05-22.pdf — Quick explanation of UNDER GRUUND in K4 and finding KRYPTOS in K4
+   k4.ipynb — This is a work in progress K4 solution
+   KryptosK4Partial.pdf — Some calculations and thoughts based on my findings over the last 120 -150 hours examining
+   squares.pdf
+   ssnial.py — This file shows via code, how to get SS NI AL from the addition of two sets of 97 chars en
+## Mary_Doucet [1 f; 2011-2011] ''
+   sharing.doc — My Idea
+## Matson [5 f; 2010-2016] 'Various crypto support files'
+   Binary_Systems_Plaza.bmp — Google Map overhead image of Sanborn's "Binary Systems" sculpture at the IRS Central Proce
+   dictionary1.txt — 109,564-word dictionary
+   fastquag.zip — Fast, brute-force dictionary attack Quagmire I, II or III cipher solver.
+   K1P.zip — Matson List + Van Ryswyk List = 550K words
+   Test — test
+## Mattylw's Folder [2 f; 2010-2010] ''
+   AmICrazy.xls
+   Lovecraft.xls
+## Matz K4 Decryption Candidate [4 f; 2010-2020] 'PDF Documents'
+   KryptosK4.pdf — Matz K4 Decryption Candidate
+   Proposed Outline Decryption Method.pdf — Overview of a new decryption model for K4
+   The Machine.pdf — The Machine
+   Valkyrie.pdf — Valkyrie
+## Matz Machine Paradigm [27 f; 2017-2025] 'Paradigm shift proposing that the sculpture viewed as a whole is a machine that is essentially an analogue of the Antikythera mechanism'
+   14th August 2019/InterleavingNorth.png — Expansion of the LINCLO position work showed a unique correlation between the cipher and p
+   14th August 2019/K1K2Upwards.png — Proposed solver for BERLIN CLOCK using the second westerly mode
+   14th August 2019/KRYPLYKA.png — Interleaving scheme in K4
+   14th August 2019/LINCLO In Correct Position.png — Idea about sequencing of interleaved rows. Position of LINCLO is reasoned and then a candi
+   Acrostich Telestich/AcrostichTelestich.png
+   Acrostich Telestich/Mayan.png
+   General Photos/AdditionalObservations.zip — Shift relationships for periods 11, 17, 18, 19 and 20 shown simultaneously. I've also gone
+   General Photos/CanYou SeeAnything Q.jpg — ?
+   General Photos/KRYPTOSAlphabeyShifts.zip — Positional relationship between CT and PT letters at different shift positions in the KRYP
+   General Photos/Tommy Flowers.JPG — Perk of the job! Got to see this bronze bust of the legendary Tommy Flowers today!
+   K4 Related Material/The Apex Bottom 1.png — Initial KRYPTOS key pattern in symmetric opposition
+   K4 Related Material/The Apex Bottom 2.png — Second Key currently without reciprocation in right of top left panel
+   K4 Related Material/The Apex.png — First 3 rows of K1 + K2 showing the left and right shifts of 13 in rows 1 and 3 respective
+   K4 Related Material/The Apex Top.png — Explicit row shifts
+   Machine Code/KryptosMatrixzSolutionsV6.zip — Tool for complete decryption of K4 from start to finish and beyond. Instructions to follow
+   Machine Code/KryptosMatrixzSolutionsV7.zip — New save and load feature added to allow group members to share results via message posts 
+   Machine Code/SeparatingConcernsInKryptos_second_draft.pdf — Recent write up of my previous Kryptos papers and posts for submission to an conference th
+   Machine Code/Vigenere.htm — An interactive html5 page that should run on most platforms without issue. Best viewed in 
+   Machine Schematics/Coordinates Stego.png — Stego System for All Coordinates
+   Machine Schematics/Metonic Dial With 365 Day Calendar.png — Metonic Dial Stego
+   Machine Schematics/Planetary Dial.png — Antikythera Planetary Dial Analogue
+   Machine Schematics/Saros Dial for 365 Day Year.png — Saros Dial Stego
+   Papers/32768.pdf — 3 x 32 matrix given as an explicit example in K2 plain text over rows 12, 13 and 14. The w
+   Papers/Eris and Harmonia Addendum.pdf — Its going to take a while to do a clean job of completing the write up, so have lifted the
+   Papers/Eris and Harmonia v1.1.pdf
+   Papers/The Machine r1.pdf — New machine base paradigm based on the mechanics of the Antikythera mechanism
+   Primer/K4 Primer.pdf — Primer for Cryptograms 1 and 2 as originally detailed in the 'Eris and Harmonia' paper pub
+## mcmptr [3 f; 2009-2009] ''
+   38_57_6_5N_77_8_44W_yahoomaps_3_enlarged.jpg — Enlarged Image
+   38_57_6_5N_77_8_44W_yahoomaps_4_enlarged.jpg — Enlarged with outline traced
+   38_57_6_5N_77_8_44W_yahoomaps.jpg — Untouched Map Clipping
+## Meissner [3 f; 2010-2011] ''
+   K4.OTP.xls
+   kryptos.map.xls
+   tiny.toons.jpg
+## Mereau Folder [1 f; 2020-2020] ''
+   Kryptos Hill Cipher/Kryptos - Hidden Hill Cipher.pdf — his paper is intended to provide support for those working to solve Kryptos. The hope is t
+## Michael Groom [1 f; 2014-2014] ''
+   Kryptos Letter.rtf — PRNG and DRYAD, vowels and Purple Code
+## Michelle [1 f; 2009-2009] ''
+   A New Way Of Looking.txt — A new k3 solution
+## Michelle B. Folder [2 f; 2007-2021] ''
+   MICHELLE Semaphore.docx — Semaphore
+   Michelles File — cipher
+## Mike Bartlett [2 f; 2006-2006] ''
+   MirrorWriting-Part4.doc — From Mike Bartlett: Is there a Mirror Writing clue with Part 4?
+   Names.doc — From Mike Bartlett: Hidden Names? Part 3
+## Mike's stuff [4 f; 2012-2024] 'Repository for stuff I have looked at'
+   4X4CIPHERS.TXT — Amended 4x4 ciphers
+   7X7CIPHERS.TXT — 7x7 Ciphers
+   K2 Hidden phrase.pdf — K2 Hidden Phrase with Misspelling? 'Slowly desparatly into the woods they had to shelter t
+   #K4-stuff.txt — Other stuff re: K4 7x7 and 4x4 blocks
+## Mitchell Folder [1 f; 2014-2014] ''
+   Kryptos solution2.pdf — Possible solution Kryptos
+## Modwind [2 f; 2011-2011] "modwind's files"
+   decoding_charts_k1_k3.xls — Restored Sanborn's decoding charts (K1-K3)
+   extracted.txt — Information from articles and interviews with Sanborn and Scheidt.
+## Monet Friedrich [17 f; 2005-2014] 'On Engendering an Understanding of Illusion'
+   From Hydra to the Flickering Flame, a summary.pdf — a K3 PT recipe
+   From Hydra to the Flickering Flame, rev hcb.pdf — From the beginning..
+   K1 K2 - The Nuance of Iqlusion and the Illusion of Nuance.pdf — an early attempt to understand the K2 PT
+   K3 and the Op, rev bc.pdf — An attempt to explain how an op might solve K3 with simple clues
+   Kryptos - the Tomb Entrance, KVQS.pdf — The Tomb Entrance : KV 62
+   Location location location.pdf — moving from the literal to metaphor
+   OffsetsInThe3rdQuagmire-aNumericalPerspective.pdf — Offsets in the 3rd Quagmire - a numerical perspective
+   OnTheOriginOfPalimpsest.pdf — An easy way to find the K1 keyword PALIMPSEST
+   Periodic_Table_rev_2014_02_06.pdf
+   Primes26-97toMakeNewAlphabetsFromK4.pdf — Using the 26 primes between 0 - 97 to make new alphabets from K4
+   The Misspellings.pdf — A look at the misspellings
+   the password is kryptos — use it to open the pdf files
+   Those pesky LY digraphs, and what’s with that extra L.pdf — A theory on the significance of the LY digraphs
+   ViabilityAcquiringTheK12KeywordsViaMorseCribbing.htm — barking up the wrong tree
+   5 bit Binary Theory, a critique/5 Bit Binary Theory, a critique.doc — a quick critique of Jason's paper
+   OutcroppingStrataGraphics/CompassStrataGraphicFacingNorth.gif — A graphic of the Compass Strata as facing North
+   OutcroppingStrataGraphics/morseStrataNorthWithCorrectedMorse.jpg — Ken's graphic of the North Outcropping but with the morse flipped and mirrored
+## Muko [8 f; 2025-2025] 'Muko from Aivirai'
+   hash-2.out — hashes - 2
+   hashes-20251126.txt
+   hash.out — hashes
+   Kryptos-4-part-02.pdf — Yet Another Revelation, T is your POSITION what matrix was used for k4, what does T is you
+   Kryptos-4-part-03.pdf — BERLIN CLOCK, T NORTH EAST, washing machine and A DOOR
+   Kryptos-4-part-04.pdf — EAS(T), (BE)RLIN and large matrix transformations - washing machines?
+   Kryptos-4-part-05.pdf — Washing AGENCY, BERLIN CLOCK, GRIMLY and WARN.
+   miro-diagram.txt
+## Nicholas LaMey [7 f; 2013-2018] 'Possible Solution to the first 16 letters in K4'
+   K4_PALIMPSEST.pdf — Proposed K4 matrix and partial decryption method
+   Loud_Scream_Is_Over.pdf — possible solution to the first 16 letters in K4
+   masking_morse_code.pdf — possible masking technique for K4
+   masking_morse_code.xlsx — possible masking technique for K4
+   P_C_POSITIONS_nlamey.pdf — (P)rime and (C)omposite positions within K3. (pdf)
+   P_C_POSITIONS_nlamey.xlsx — (P)rime and (C)omposite positions within K3. (excel)
+   TheClocksInBerlin.pdf — Proposed K4 matrix - The Clocks In Berlin
+## Nikulcha Files [1 f; 2025-2025] ''
+   r_files_/JUSTORIGMATRXI (1).xlsx
+## Niorflan [2 f; 2015-2015] 'K4 One Time Pad thesis'
+   K4OneTimePad.xlsx — Excel for OTP K4 solution (no explanation)
+   OneTimePadK4pdf.pdf — One Time Pad theory and solution for K4
+## Nordhaus Folder [1 f; 2025-2025] ''
+   K4_Nordhaus.pdf — K4 Method
+## OBKR Kryptos [2 f; 2017-2017] ''
+   cascade2.png — cascading alphabets using K4
+   T IS YOUR POSITION.png — Found KRYPTOS and BERLIN in K4 digraph?
+## Olivier's Folder [1 f; 2024-2024] ''
+   20240706 - KRYPTOS K4.pdf
+## ony25rulez [10 f; 2019-2019] ''
+   C2 K4 Double-Mask-OTP Decode/2019-10-18 The Kryptos Moscow Billboard P — The Kryptos Moscow Billboard Problem - 2019-10-18 Using Ed Scheidt's cryptic hint to deter
+   C2 K4 Double-Mask-OTP Decode/2019-10-20 Supporting a Two-Step Decrypti — Running the proposed Moscow Billboard approach through the wringer by comparing the approa
+   C2 K4 Double-Mask-OTP Decode/Decoding Kryptos K2 the Analog Visual Way — Kryptos K2: A visual analog paper and pencil method
+   C2 K4 Double-Mask-OTP Decode/ff_kryptos3_f.jpg — https://www.wired.com/2009/04/ff-kryptos/ Possible template for Mini-Kryptos provided to W
+   C2 K4 Double-Mask-OTP Decode/Incorporating AAAAAAA Masking - 2019-08-0 — Adjustments to the BERLINCLOCK crib to reveal a 7 column set of AAAAAAA on decode of K4.
+   C2 K4 Double-Mask-OTP Decode/K4 Decoded using C2 K4DMH - 2019-07-22.pd — 2019-07-22: K4 Decoded using hypothesis and BERLINCLOCK crib.
+   C2 K4 Double-Mask-OTP Decode/K4 Double Mask Hypothesis - 2019-07-15.pd — 2019-07-15: Hypothesis on K4 being double masked (K4 decode on July 22, 2019 using the hyp
+   C2 K4 Double-Mask-OTP Decode/k.jpg — Mini Kryptos Picture thekryptosproject.com/links/order.php
+   C2 K4 Double-Mask-OTP Decode/Mini Kryptos - P Steno.pdf — Visual analysis of mini-kryptos "QQ PRNGSSO" section of K4 to see if there are any subtle 
+   C2 K4 Double-Mask-OTP Decode/Solving Kryptos K1 No math.pdf — K1 "Pencil & Paper no math(s), no auto-key, no brute-force" decryption
+## Papke Folder [1 f; 2025-2025] 'Files from William Papke'
+   Papke-Kryptos.pdf.pdf — Post on 02-14-2024
+## Paraic's Folder [4 f; 2005-2015] "Paraic McDonagh's Folder"
+   Berlin crib.txt — Output from Kryptos Solver. BERLIN used as crib.
+   K4-ASCII-Binary.txt
+   Kryptos Solver Application Installer.zip — Kryptos Solver application installer files. Extract and click setup to install.
+   Kryptos Solver Source.zip — Kryptos Solver Source code.
+## Patrick Kellogg's Folder [6 f; 2019-2019] 'A folder for some work by Patrick Kellogg'
+   crypto_intro.pdf — PDF Introduction to Cryptography by Patrick Kellogg
+   crypto_intro.pptx — PowerPoint Introduction to Cryptography by Patrick Kellogg
+   k4.py.txt — Python code for solving K4
+   kryptos.pdf — PDF Kryptos Discussion by Patrick Kellogg
+   kryptos.pptx — PowerPoint Kryptos Discussion by Patrick Kellogg
+   PatrickKellogg_Keyword20190320.txt — Keyword list and methods by Patrick Kellogg as of March 20, 2019
+## PaulK [18 f; 2014-2026] "...for what it's worth..."
+   A Little Movement.pdf — A little Movement Revised. Some enhancement re relationships among keywords and pertinent 
+   ANKH PROJECT.pdf — Smoke and Mirrors.
+   BerlinClock-TheRealOne.pdf — Expanded Explanation of Berlin Clock being Mengenlehreuhr
+   BillboardInMoscow.pdf — Step two for entering K4. First manipulation - a substitution. Finding the missing letters
+   CBETDEVELOPMENTINK1.pdf — Absence of Light rectified.
+   CLUESandSTUFF.pdf — Get into the analysis resulting from the opening of the K4 doorway and interpretation usin
+   GIRASOL MINI REBUILD.pdf — Jason Mulrenin and I worked out that the GIRASOL tableau shows GIRASOL twice in each row. 
+   HYDRAvsDYAHRvsWIDIAvsDIAWIvsDWAII.pdf — Relationships HYDRA to NSKGS.
+   IDBYROWS to LAYERTWO.pdf — IDBYROWS refers to Row S in K2 12-column pad.
+   Jag Find Analysis.pdf — Jag's find of a match results in a revelation (or more).
+   k4shiftsVSresequencing.pdf — Working With Clue Words and K4 Shifts.
+   K_Clue.pdf — The Berlin Clock derivation plus Digital Clock clue.
+   KEYWORDS-K1-to-Scytale-Clusters.pdf — Keywords found in clusters in Kryptos CTs
+   NYT-crossword-puzzles-all-four.pdf — The four Kryptos-related New York Times Crossword Puzzles
+   Side-by-Side-up-to-double-box.pdf — Layer two to beginning of layer three. All steps and explanations. All work except for dis
+   THATSPHERE.pdf — Reagan's Berlin quote revisited. Indications that K4 is modified using keywords.
+   TheDoorwayandWhatItsAbout.pdf — The Doorway and ZOBKR
+   The Ubiquitous Doorway.pdf — A renewed look at the DOORWAY into K4
+## Phoenax Folder [2 f; 2023-2023] ''
+   Kryptos081523.docx — My new Kryptos K4 working and schematics for anyone looking for a starting point. Also for
+   Kryptos.docx — An attempt at cracking the "SS", and "QQ" pattern.
+## pi [18 f; 2014-2017] 'mikne'
+   42.jpg — playing with rows of 42
+   anipodes.jpg — Document I found on LOC website, interesting
+   ArteryColumnDetail.jpg — sanborn work of interest
+   Coded Text.gif — ct
+   DT.jpg — pattern emerging
+   editingmarks.png — lower case
+   image.jpg — Line things up
+   k3 chart1.jpg — k3 chart used by jim
+   K4 NOVA.jpg — I circled the point of interest
+   logic.jpg
+   number 2.jpg — Jims K3 notes
+   number 3.jpg — Jims K4 notes from NOVA
+   observation 337.jpg — logic
+   project.png — playing with light
+   rotate.jpg — QT?
+   SandstoneGraniteSlate.jpg — okay I see the candle now what
+   UPDATED.jpg — saving for later
+   vowel.pdf — vowel key cipher how to
+## Pieter De Weerdt Folder [2 f; 2020-2020] ''
+   LP-01 Observations and step 1.pdf — Observations and first step in the decryption of K4
+   LP-02 Step 2.pdf — Step 2. Layer two to be discovered for decrypting the last part of Kryptos.
+## PJ_Maloney [2 f; 2005-2005] ''
+   Cut Ting.pdf — A complete solution to KRYPTOS Part 4
+   KRYPTOS Public.xls — Proposed partial solution to Part 4
+## psizx29 [1 f; 2025-2025] 'Personal Files'
+   KRYPTOS-Statue-NSA.pdf — NSA description of Kryptos and how they solved k0, k1, k2, and k3.
+## Raghavan [1 f; 2008-2008] 'Raghavan'
+   kryptos_raghavan.xls
+## Raghavan V Parthasarathy [3 f; 2023-2023] 'Files uploaded by Raghavan V Parthasarathy'
+   2scott.xlsx
+   order.xlsx — Specific order and pattern to decode
+   Sol2468.xlsx — An attempt with paper and pencil
+## Rainer [4 f; 2016-2025] ''
+   K3cipher-k3plain.pdf — Frequency analysis of k3 and k4
+   k4-cba.txt — Berlinclock is nonflanky
+   k4-pattern.pdf — Ideas of pattern in k4
+   K4plainshortandk4ciphershortandk4cipher.pdf — Frequency analysis of k3 and k4
+## Reuben’s Folder [1 f; 2026-2026] ''
+   Kryptos K4 Solution.pdf — My methodology - all feedback is welcome
+## Richard Bean [9 f; 2018-2022] 'Richard Bean website files'
+   2015-10-25-Kryptos Workshop-edited.txt
+   79FF21E9-8942-4DE4-A740-260451D405D4.jpeg — Fair use - W Hotel Washington DC photo from Marriott website, cropped
+   gromarks.pdf — Gromark analysis, examining what recurrence relations could lead to a period of 50
+   kryptos-in-2018.pdf — Summary of recent information, analysis of other's webpage, Bauer et al paper
+   press1959.pdf — A hint given by Scheidt for K4 is "pre-whitening". This is an invention of Tukey (1949 and
+   trifid3s.pdf — Trifid analysis
+   Message Archive May 2003 to November 2018/MessageArchive-May2003-to-No
+   Message Archive May 2003 to November 2018/MessageArchive-May2003-to-No
+   Message Archive May 2003 to November 2018/MessageArchive-May2003-to-No
+## Ron Novy's stuff [4 f; 2009-2010] "Some of Ron Novy's notes and program source code."
+   0Sanborn's notes.xls — Spreadsheet of Sanborn's notes... And two versions of K3 for PT to CT transposition.
+   K3&K4 Notes.txt — Great description of K3 matrix transposition ;)
+   Krytpos_K1-K3.c — Source code to my console app that decodes K1 to K3.
+   Krytpos_K1-K3 (Output).txt — Output of the console app so you don't need to compile and run it yourself...
+## Roy's Thoughts [2 f; 2006-2006] ''
+   layertwohalfone.xls — Overlaying K1&K2 on top of K3&K4 (playing with layers)
+   layertwowhole.xls — Overlaying K1&K2&K3&K4 with the other tablet (KRYPTOSABC etc)
+## Ryan Bonifacino Folder [11 f; 2025-2025] 'K4 Solution'
+   BWC_alamy_archive.pdf — Weltzeituhr Photo Archive (alamy) detailing later eras (late 90s/modern day)
+   BWC_dpa_archive.pdf — Weltzeituhr Photo Archive (dpa Picture Alliance) detailing early eras (late 1960s through 
+   K4_Weltzeituhr_Full_Derivation.pdf — Abstract and full Derivation for K4, along with vector-based geometry of Weltzeithur post 
+   K4_Weltzeituhr_Solution_Abstract.pdf — Abstract and full Derivation for K4, along with vector-based geometry of Weltzeithur post 
+   kryptos sculpture[15267759].pdf — "IT SHOULD BE WORLDLY YET HAVE IDENTIFIABLE AMERICAN ROOTS IN CONCEPT, MATERIALS, REPRESEN
+   PPN172462833X.pdf — Full GDR 1969 Time-Zone Atlas (VEB Hermann Haack, Gotha/Leipzig). Source: Taschenatlas der
+   RB_whiteboard_tabularasa_IMG_9835.HEIC.pdf — [For JMulliss] v0 whiteboard, ONO/ENE at top wedge A, face panels 0 and 1
+   Screenshot 2025-11-16 at 8.31.24 PM.png.pdf — For dsander: USSR's Gorki (alt. Gorky) above 1300 hours, known as "Russian Detroit". Later
+   soviet-decree-time.jpg.pdf — Signature of Soviet Decree Time in Atlas form, Soviet and Warsaw Pact cartography in the 1
+   Weltzeituhr_RBPhotoArchive_wk1.pdf — [For JMulliss + all] sample Weltzeituhr photo archive, notice ENE/ONO circle marker on pag
+   wzu-staedte.pdf — Abstract and full Derivation for K4, along with vector-based geometry of Weltzeithur post 
+## Samak [4 f; 2018-2019] "Hamid Samak's files"
+   draft-01.pdf — Partial Solution
+   Kryptos-Letter-Frequency-Analysis.pdf
+   Misspelling_rows_and_PALIMPSEST.png
+   Proposed-Solution-to-K4.pdf
+## Schwalenberg Folder [1 f; 2022-2022] ''
+   KryptosSculpture3D.xhtml — 3d version of statue you can view in the browser and rotate around. I didn't add lights an
+## SciRealm [2 f; 2004-2004] "SciRealm - John's Stuff"
+   Kryptos.html — John's Kryptos Info - basically a copy from my real website, but it has the links
+   kryptos.jpg — Kryptos pic
+## scott [1 f; 2023-2023] ''
+   Rh.cpp — A C program to display the possible characters for each K4 position, given the constraints
+## Scott's K4 Breakthrough [2 f; 2013-2013] 'Thoughts on the next step(s) for decoding K4'
+   K4BreakthroughConcerns.pdf — Compiles and addresses concerns from group members about the K4 breakthrough
+   ScottsK4Thoughts.pdf — Scott's thoughts on the next steps for decoding K4
+## Se7en Folder [1 f; 2020-2020] ''
+   Se7en/andisemantic.txt
+## Sean's Notes [2 f; 2025-2025] ''
+   Sean K4 Solution.xlsx — Result of a 2-step encryption/decryption process. Sent to Mr. Sanborn 4/29/25. Details to 
+   Sean P. - K4 Method Explanation 5.4.2025.xlsx
+## Seb & Rohan's Folder [2 f; 2005-2005] 'Contains excel sheet of tried things.'
+   OLDTABLE.jpg — Table of dictionary-attacks, marked word-positions and resubstituted them into the space o
+   SebP-RohanM-KRYPTOS2005.xls
+## Selena Folder [1 f; 2025-2025] 'Methodology'
+   Methodology.pdf — Step by Step
+## shannon's thoughts [1 f; 2004-2004] 'is part 4 not complex?'
+   Fellow members.doc — 7x7 and more
+## Shaun Spalding - K4 Solution - One Time Pad Theory [1 f; 2023-2023] 'OTP are secure if the Key is non-repeating ... but I believe that K4 uses OTP method and that it does partially repeat ...'
+   Shaun Spalding - K4 Proposed Approach - OTP.xlsx — OTP method ... using Prime Number 53 as the Key length ... assumption is that the Key does
+## Shelley's Docs [3 f; 2005-2005] "Shelley's working documents."
+   IC_Matthew.xls — An index of coincidence for 2-15 alphabets using the cyphertext as provided by Matthew in 
+   IC_Mirroredtext&CANDLE.xls — An Index of Coincidence Study for Part 4, with the text mirrored and the characters CA ND 
+   krypt.xls — Substituting letters from mispellings leads to closer match of Part 4 to English language 
+## Simon [1 f; 2011-2011] 'Files from Simon'
+   Algorithm.pdf — A first quick try but its an encoding...
+## Spawrks [1 f; 2009-2009] 'derived from scratch info only.'
+   wordsearchondecrypt.txt — word search program ran on decrypted 42/21 grid
+## SPWILD [3 f; 2017-2019] "James Nowacki's Files"
+   Books.xlsx — Breaking K4 - Found a ray-pattern and a better understanding of the "Eye" clues from the m
+   Kept.xlsx — Wondrous Patterns: Rotation & Reflection - Cracking? This process, based on a series of se
+   Kryptos Overview Theory II.docx — Completed theory using the Brady keywords, but unfortunately unverifiable without access t
+## Steph's Folder [32 f; 2017-2020] 'Stephanie Tarr'
+   1. 2ND POSSIBLE PREPARATION KE BEFORE UNMASKING.docx
+   1. ORIGINAL SECTIONS OF MATRIX.docx — original sections clues
+   1ST POSSIBLE PLAINTEXT UNMASKING FOR K4.docx
+   1ST POSSIBLE PREPARATION K4 BEFORE UNMASKING.docx
+   2. 2ND POSSIBLE CODE UNMASKING OF K4.docx
+   3. DIAGRAM OF COMPASS ROSE.docx — moorse code and compass rose
+   4. ADDED INFO PHOTO OF K1 & K2.docx — FILE CONTAINS A SMALL BIT OF ADDED CLUES I HAVE FOUND STEPH
+   4. PHOTO SOLUTION OF K1 & K2.docx — a few files that might interest kryptos solvers
+   6. -MATRIX UNMASKING PROCESS.docx — my unmasking technique
+   comments about letter to cia.pdf
+   EVEN COLUMNS CODE MATRIX.docx — USING EVEN COLUMNS FOR FINDING THE SECOND STEP FOR LETTER OSSASSION FRO LAYER ONE. STEPH
+   help with substitution of k4.docx
+   k4 -number positions.pdf
+   LOOKING FOR CONNECTIONS BETWEEN LETTER COLUMNS FOR LAYER 1.docx — THE LETTERS IN THE CODE TO COMPLETE LAYER ONE MUST HAVE A CONNECTION...TO BE FOUND OR WE W
+   ODD COLUMNS PLAIN MATRIX.docx — COMPARING ODD COLUMNS IN CODE TO TRY AND FIND BEST CASE SENARIO FOR FINDING LAYER ONE STEP
+   p1. Coordinates and notes.pdf
+   p1. photo k3 solution 42 col. pcpc.pdf
+   p1. Photo k4 solution with bends in paper.pdf
+   p1. Photo solution of k1 & k2..plus notes.pdf
+   p2. Coordinates and notes.pdf
+   p2. Photo k3 solution 42 col. pcpc.pdf
+   p2. Photo k4 with bends in paper.pdf
+   p2. Photo solution k1 & k2 with notes.pdf
+   p3. Photo solution k1 & k2 with notes.pdf
+   photo k3 code possibly.pdf
+   possible layer one attempted solution.docx — Hi, this is one of my attempts to complete layer one.... the ending is missing at moment .
+   STEPS TO HELP SOLVE K4 - POSSIBLY.docx — steps to help solve k4 i hope everyone can understand my thought process here. steph
+   Sue_Grafton.pdf — this is the person i thought that Jim might be relating to ..as the prominate fiction writ
+   THINGS TO REMEMBER BEFORE SOLUTION TO K4.docx
+   BERLIN CLOCK AS A KEY/STEP 1.docx
+   BERLIN CLOCK AS A KEY/STEP 2.docx
+   BERLIN CLOCK AS A KEY/STEP 3.docx
+## Sterling_Aug data [2 f; 2009-2009] 'Kryptos ideas'
+   Kryptos.doc
+   Panel 4 above Panel 3.JPG
+## Steve_H [2 f; 2014-2014] ''
+   A Photo Introduction to Kryptos.pdf — A beginners guide to Kryptos using information I have found recently.
+   kryptos truetype fonts.zip — 4 Kryptos fonts including Sculpture, Copperplate, Document and Morse. Includes a readme wi
+## Steven Folder [4 f; 2026-2026] ''
+   145_BERLIN_CLOCK_2-layers_ver2.psp — Second version of tableau made from BERLIN CLOCK
+   Gemini_Spill_And_Spell_132c_SUBTLE-SHADING_layers_v2b.psp — Paint Shop Pro 7 file with SUBTLE and SHADING on two layers. Tableau's are from Spill and 
+   Gemini_Spill_And_Spell_145_BERLIN_CLOCK_2-layers.psp — Tableau for BERLIN CLOCK in two layers. Made with Paint Shop Pro 7. Move or rotate layers 
+   Gemini_Spill_And_Spell_145_LUCID_MEMORY_2-layers.psp — Paint Shop Pro 7 file with LUICD and MEMORY tableau layers. Open in PSP and move or rotate
+## Sukhwant Singh Folder [4 f; 2020-2022] ''
+   Example_Sheet.xlsx — Example Sheet
+   Sukhwants_Chicken_Wire_method.docx — All 97 characters in fixed place Sukhwant's Chicken Wire method
+   Sukhwants_working_matrix.xlsx — Matrix
+   Third Clue.pdf — Clues Layout
+## Ted Rittersdorf [2 f; 2008-2008] 'Ted Rittersdorf personal folder'
+   KRYPTOS Compass Rose Matrix.xls — KRYPTOS Compass Rose Matrix
+   QUAD matrix 78 columns 12 rows.xlsx — characters QUAD marking compass points NWSE
+## Thompson [2 f; 2010-2015] "Randy Thompson's Stuff"
+   Berlin Families.pdf — The charts that Randy Thompson attempted to present at the Kryptos Workshop, October 2015
+   TompkinsKryptos_v2.pdf — Connection Between Tompkins & Kryptos
+## Thorne_Kontos [1 f; 2007-2007] ''
+   file_kryptos — Kasiski Test on K4
+## thylacine222 [1 f; 2010-2010] ''
+   K4 Quagmire III.txt
+## Tiago Rodrigues [1 f; 2014-2014] "Tiago's files"
+   On Kryptos and _EN DYAHR_.pdf
+## Tim's Thoguhts [1 f; 2003-2003] "Tim MacDonald's Random Bits of Info"
+   morselist.txt — List of words whose morse code representations appear in part 4 morse code
+## Todd [3 f; 2008-2008] 'Tools / Data / Etc.'
+   vcbq3_sample_report.log — Vigenere Cipher Breaker (Quagmire III) - Sample Report
+   vcbq3_sample_screen.JPG — Vigenere Cipher Breaker (Quagmire III) - Sample Screen
+   Vigenere Cipher Breaker (Quagmire III) - Read Me.txt — Vigenere Cipher Breaker (Quagmire III) - Read Me
+## Tracy Cobbs [8 f; 2012-2015] "WW's DOORWAY into LAYER TWO; Candle AY; YARs' Revenge"
+   Candle AY.docx — Formatting of K3 CT + K4 CT (development of a post by N.L. from May 2012)
+   K1CANDLe.pdf — Candle B (BE), formed from K1 PT.
+   Kplus25_announce.pdf — Announcement of "virtual" sculpture w/ 4 ciphers to be released March 18, 2015 to honor th
+   kryptos.jpg — Note how the plates are not flush, not aligned like coordinate axes, but are offset and le
+   Shadow Morse.pdf — Explanation of Shadow Morse and interpretation of morse segments.
+   Shadow_Morse_wksht.PDF — My handwritten worksheet translating K0 morse segments into Shadow Morse.
+   WW's DOORWAY into LAYER TWO.docx — Observation/theory linking DOORWAY, dYAhR, WW and LAYER TWO
+   YARs' Revenge.pdf — The raised letters YAR as a clue to K4 transposition matrices
+## ttfh3500 Folder [1 f; 2026-2026] ''
+   kryptos.cpp — This code decodes K1, K2, K3, the Cyrillic Projector and it's continuation from Antipodes.
+## Tully [10 f; 2013-2025] 'Observations'
+   Dinner.docx — Off the record questions
+   Krypto_Glyphs.pdf — Krypto Glyphs
+   KRYPTOS alignment.txt — K3 PT and CT have letters in the first half that align to decode K4, in no order. I mixed 
+   Kryptos - King Tuts tomb.docx — Kryptos and the Howard Carter excavation.
+   Scriptos.docx — KRYPTOS Script
+   Drafts/K4R1.pdf — [A MUD TR KONI AIRITE]
+   Drafts/K4R2A.pdf — [IBER LINC] - decode instructions
+   Drafts/K4R2B.pdf — [LOCK TERS]- decode instructions
+   Drafts/K4R4A.pdf — [EAST]
+   Drafts/KRYPTOS Overview.pdf — Kryptos introduction.
+## Valencia Folder [4 f; 2022-2026] ''
+   CIA ARTS X TEST.pdf — My curiosity/fun part: Head over to: https://rumkin.com/reference/kryptos/elonka.html Remo
+   Kryptos Observations.txt — Details about finding “NGOBURYBOTH” with details, method.
+   KRYPTOS-TETRA.pdf — ARTS X TEST matrix, reversed line by line for matrix observations. Unusual grouping of "KR
+   WE.pdf — IW ON FB BW WE PT
+## Valoy [1 f; 2007-2007] 'Notes'
+   kryptos notes.xls
+## Voidsolid [24 f; 2014-2015] ''
+   ahammer.txt — square grid with diagonals path using like letters of distance 1 or 2 apart
+   alphabetshape_1d_2d_3d.pdf — squ sym stencil equar/char equpr/char w/ or w/o guide for equcorner
+   analysis_of_footballtips_function.pdf — 1p, draft
+   astaple.txt — square grid path using like letters of distance 1 or 2 apart
+   berlinclock_to_scale.pdf — smallest possible grid is 44x44 = 1936
+   CBKNDRCLDQK.pdf — slightly different format (1 page)
+   complexsimple.pdf — formatted
+   cursif.pdf — font showing loops and distribution of vertical heights of lowercase
+   fontbmp.zip — 5x5 each
+   font.sfd — 7x7 baseline 2 so 5x5 letters,
+   generalized_hill_cipher_draft.pdf — with nice playfair and nice binary
+   isthistheway.pdf — closer than ever before
+   k4_35x24_grid.pdf — 9/9 bg repeats, 17/26, 51/97, nonrandom structure.
+   k4affine.pdf — formatted reply
+   k4_ry_grid.pdf — k4 is row 3 on Berlin clock
+   kryptos_ct_grid_draft.pdf — way out side the box
+   maskbeforeafterbothother.pdf — mask: before/after/both/other (1 page)
+   mask encipher.pdf — 1 page, very short, formatted correctly
+   masktext_26to32_(16x32).pdf — most simple perfect binary, 1 page, no words, table only
+   masktext_26to3x3x3_then_3x3to9.pdf — 1 page, no words, self-explanatory
+   smallest-square-bitmap-stencil-rounded.zip — TTF ROUND EDGES
+   smallest-square-bitmap-stencil.zip — TTF SQUARE EDGES
+   symmetric mask symmetric binary cipher symmetric mask.pdf — NYPVTT MZFPK -> CBKNDR CLDQK
+   voidsolid.txt.pdf — ideas inspired by challenge
+## Vorblesnak Folder [6 f; 2022-2022] ''
+   Double cipher with a twist 1.pdf
+   FreqCountLocatHints.pdf — Some basic work on using the hints as clear text. Fail note at the bottom in red.
+   Statistical analysis of the letters.pdf — Basic statistical work with the letters
+   Table key analysis.pdf
+   TRANSPOSE1.pdf
+   TRANSPOSE Exercise.pdf — Triple transposition of a known clear text
+## Walker Williamson [1 f; 2025-2025] ''
+   Kryptos K4 Analysis.pdf — Sharing some initial observations of K4 that I observed working with the 21 column format.
+## Warren's Observation [2 f; 2012-2012] 'As promised.. here are my observations for K4'
+   Warren's Kryptos K4 Observations.docx
+   Warren's Kryptos K4 Observations.pdf
+## Wesley [1 f; 2009-2009] ''
+   K3 Grille.doc — Shifting Grille Encryption of K3
+## Will's Folder [1 f; 2015-2015] 'Submission to Mr. Sanborn and Response.'
+   Writeup.docx — Submission sent to Sanborn
+## William Papke [1 f; 2019-2019] ''
+   IN TIME OF DNA.pdf — Artwork
+## Xenon [8 f; 2003-2016] ''
+   3 compass rose.pdf — plots the Sanborn Compass Rose directions of the needles
+   Circulate Capital 7-bit ASCII.xls — Photo Plot of "Circulating Capital" & 7-bit ASCII decipher of Stone Ring inscription
+   DISTRIBS.PNG — Frequency distributions comparison
+   KryptosK2.html — The meaning of Palimpsest
+   Kryptos part 3.doc — A new method for reading Part 3.
+   Possible error in Berlin Clock wiki page.pdf
+   Skyrocket's contribution.doc — I hope these little things help
+   Transposition Matrix Solution.doc — Since Sanborn thought the correct matrix was important, I've uploaded what I believe is th
+## Zac S [2 f; 2013-2013] "Zac's Kryptos Stuff"
+   K4 ENCRYPTED.docx
+   KRYPTOS Beaufort.xlsx
+## ZF Folder [1 f; 2023-2023] ''
+   Kryptos - Possible Decryption Method - Transpose, Substitute or Vigene
+## ZRainer [1 f; 2017-2017] ''
+   k4abccba.txt — Had a idea of solving k4.

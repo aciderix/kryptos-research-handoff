@@ -1,0 +1,663 @@
+## xl/sharedStrings.xml
+ 
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z k r y p t o s e b n j = a x PANEL 4 - original matrix ----> These are just practice areas to think out loud. Repeats #1 H,I,b,o,X appear to be KEY letters and seem to be retained as position holders. Going Southeast from corner to corner G aligns with E, Hence G is replaced by E. -----> ---> Therefore, so far…G=E, J=B, N=O Diagonal Z ends the series reversal. However, KEY letters need to stay the same! 13 x 13 matrix same rules apply but in mirror format F is the Center Diagonal in this matrix <----- H,I are KEYS X is a KEY Constants and why no changes Constants only apply in NW section NW side of cryptogram - Constants apply. Therefore, H,I, X remain Constants (KEYS) Now changes are made to NW side based upon (KEYS) H,I are KEY letters and therefore don't change. L=A, M=S,N=O,Q=T, U=P,V=Y,W=R,X=KEY,Z=unchanged 3 finishes the #2 Transposition matrix <--- Matrix 3-A *Folding over PANEL 4 onto PANEL 3 to reveal KEY letters KEY letters are: B,C,D,E,H,I,K,O,X This is an unfinished matrix NW is kept, SE is discarded SE portion of matrix is also dropped 78 CHARACTERS With 'O' as KEY With 'O=N' With 'B=J' With 'B' as KEY --> DROP THE 'Z' ,SINCE IT IS THE DIVIDING LINE BETWEEN TH NW AND SE X' placeholders removed G=E H=R I=Y B or P J=B or P N=O W=R Y=V L=A Q=T M=S U=P We now have a completely random pattern Since we already have a 'P' generated, the 'B or P' will be a 'B'. We can now proceed to solve the cryptogram. Single characters in the english language can be 'A', 'B', 'C', 'I', 'K', 'N', 'O', 'S', 'T', 'U'. Double letter words can be for ex: 'AD', 'AH', 'AM', 'AN', 'AS', 'AT', 'IE', 'IF', 'IN', 'ON', 'TO', etc… Cell (1,7) and (2,7) are redundant, and will be dropped. Taking some liberties based upon prior guesses, not documented. Cell (1,3) = 'P' instead of B Cell (1,5) = 'W' instead of R Cell (1,6) = 'S' instead of Y POWERS x RELY x IEMMAP xx POLISYONLYIYA x MOA x AS x OYSLSI x YAIMI x AS x O x A x SIPYOS x I x LAYI xx IMSA POWERS x RELY x IE MMAP xx POLISY ONLY YY AI x MOA x AS x OILY SS x MAY II x AS x O x A x SPY OSI x I x I LAY xx SAME POWERS RELY IE MMAP POLISY WHY ADDITIONAL INFORMATION MEMORANDUM AS OILY SS MAY AGREE AS O A SPY OSI 2 LAY SAME Arrived at this due to lack of congruity between only those 2 letters in matrix. IE: Counting over to J = 4 spaces, counting over from E = 4 spaces, therefore, B. IE: Counting over to N = 7, counting over from E = 7 spaces, therefore, O. Here the KEY letters C,D,E,K were made a lighter shade and maintained only for the left part of this rt sided part, (just to test dbl matrix solution theory) Where ever there is letter that matches a transposed matrix cell, it will default to the other matrix Matrix 4-A Matrix 4-B Moving (Matrix 4-A) over to align under Column A HORIZONTAL TRANSPOSITION OF MATRIX 4-B HORIZONTAL TRANSPOSITION OF MATRIX 4-A Transposed matrix of MATRIX 4-B used on Matrix 4-A M4-B(t) used on M4-A Transposed matrix of MATRIX 4-A used on Matrix 4-A M4-A(t) used on M4-A See Note 3 Locked KEYS Guessed that non-locked R = I #2 #2 is a partial transposition See cell (HH,112) --> Start transposition after dropping mirror half Matrix 4-B(t) for transposition process Matrix 4-B-t (start) Matrix 4-A(t) See Matrix 4-B(t) above for transposition sequence. B,C,D,E,H,I,K,O,X = KEYS These letters are the same when viewed upside down and through each other! Laying PANEL 3 upside down over PANEL 4 to reveal KEY letters I deduced this since the alphabet on the left goes continuous from A to Z on both panels. Left most column is part of KEY - it is telling us to use panels 3 & 4 together! Row 26 on this spreadsheet represents Top Row of PANEL 3 - Again, part of KEY and, deduced again that since the bottom of panel 4 matches the top of panel 3 (exactly), I could use the alphabet as an overlay to panel 4 example to illustrate Z is the dividing line between an even number of rows vs columns, and is therefore dropped. This is Matrix 4A (See original Panel 4) Now we prepare to transpose Matrix 4B (from original Panel 4) Matrix 4-B is from the original PANEL 4 matrix second part. (right half - 13 x 13 matrix) M4-B(t) M4-A(t) Original Panel 4 --> Matrix 4-A Transposing the Original Panel 4 --> Matrix 4A WITHOUT MAINTAINING LOCKED KEY CELLS! Dropping the SE side of the Matrix at the 'Z' crossover, just like in previous transpositions Based upon prior KRYPTOS solvers, it appears that the 'X' is a placeholder, and is the reason I am dropping them here. With the X's dropped! 6.5 KEY 10.0+ 10.0++ At this point, I am noticing striking similarities between these three matrices. (11, 7, & 9) I am realizing that by somehow overlaying 7 and 9 onto 11, I could come up with possible words in columns 1 and 2. So I eventually came up with the logic to arrive at 'POWERS RELY' from columns 1 and 2, based upon the CIA theme of KRYPTOS. purpose to confuse those trying to break the code. I dropped cells (1,7) and (2,7), since I thought they may have been redundant, or put in place on LOGIC If cell on Matrix 4-A [11] matches cell on M4-A(t) [9], then revert to cell on M4B(t) [7]. Starting with M4-A(t) [9] and proceeding to M4-B(t) [7] as needed. Noticing the similarities between [9] and [11], I felt [7] was more of a back up matrix. This was used for my reference only: *Note that Cell (1,5) is an 'R', But it is not a LOCKED KEY, therefore can be changed. Under the assumption that 'POWERS' might be Column 1. Even though some KEYS are locked, see the LOGIC about reversion. based on Based upon POWERS RELY E=E Locked R=R B=P O=O Non Locked R=W Y=S w P=I or A A=L T=E S=T h Ai On Ll W/ PROWESS RELY WW PATTY tASTY hASTY nASTY STAY LOW POSE WE TALE TAO AS H(E) SLOWS WE WAIT AS O(N) A SW POSE W(ITH) AL(L) WE STAY WRONG!!!!! FROM 14 HOWEVER, APPLYING THE LOGIC, I DID COME UP WITH A RATHER PECULIAR PASSAGE FOR [16]! MY SUBSTITUTIONS LEAVE A LOT TO BE DESIRED, BUT I AM HUMBLED BY THE EXPERIENCE. ANY HELP IN DETERMINING IF I WAS HEADED IN THE RIGHT DIRECTION PRIOR TO GOING OFF ON A TANGENT WOULD BE GREATLY APPRECIATED!! PLEASE IGNORE MATRIX 15, AS IT IS OBVIOUS IT LEADS NOWHERE!!! LETTERS IN BRACKETS INDICATE LETTERS FOR WHICH I BELIEVE SANBORN LEFT OUT TO CONFUSE PEOPLE. help!!! Cell (1,7) and (2,7) were not redundant, and are added back. 
+## xl/worksheets/sheet1.xml
+ 
+ 40 
+ 13 6 7 8 9 11 12 13 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 
+ 14 7 8 9 11 12 13 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 
+ 15 8 9 11 12 13 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 
+ 16 9 11 12 13 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 
+ 17 11 12 13 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 
+ 18 12 13 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 
+ 19 13 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 21 
+ 20 16 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 21 22 
+ 21 20 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 21 22 23 
+ 22 21 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 21 22 23 25 
+ 23 22 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 21 22 23 25 26 
+ 24 23 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 21 22 23 25 26 27 
+ 25 25 26 27 28 29 30 31 32 0 1 2 3 4 5 6 7 8 9 11 12 13 16 20 21 22 23 25 26 27 28 
+ 111 54 112 
+ 136 
+ 135 
+ 134 
+ 132 
+ 133 
+ 
+ 137 
+ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 0 1 2 3 
+ 
+ 113 
+ 6 7 8 9 11 12 13 16 20 21 22 23 25 
+ 7 8 9 11 12 13 16 20 21 22 23 25 26 
+ 8 9 11 12 13 16 20 21 22 23 25 26 27 
+ 9 11 12 13 16 20 21 22 23 25 26 27 28 
+ 11 12 13 16 20 21 22 23 25 26 27 28 29 
+ 12 13 16 20 21 22 23 25 26 27 28 29 30 
+ 13 16 20 21 22 23 25 26 27 28 29 30 31 
+ 16 20 21 22 23 25 26 27 28 29 30 31 32 
+ 20 21 22 23 25 26 27 28 29 30 31 32 0 
+ 21 22 23 25 26 27 28 29 30 31 32 0 1 
+ 22 23 25 26 27 28 29 30 31 32 0 1 2 
+ 23 25 26 27 28 29 30 31 32 0 1 2 3 
+ 25 26 27 28 29 30 31 32 0 1 2 3 4 
+ 67 
+ 68 
+ 69 
+ 43 
+ 1 123 
+ 44 
+ 105 46 47 
+ 106 41 61 
+ 107 45 
+ 6 7 8 9 11 12 13 16 20 21 22 23 25 57 33 7 8 34 11 12 31 16 20 21 22 23 25 
+ 7 8 9 11 12 13 16 20 21 22 23 25 10 58 7 8 34 11 12 31 16 20 21 22 23 25 10 
+ 8 9 11 12 13 16 20 21 22 23 25 10 17 8 34 11 12 31 16 20 21 22 23 25 10 17 
+ 9 11 12 13 16 20 21 22 23 25 10 17 24 34 11 12 31 16 20 21 22 23 25 10 17 24 
+ 11 12 13 16 20 21 22 23 25 10 17 24 15 55 11 12 31 16 20 21 22 23 25 10 17 24 15 
+ 12 13 16 20 21 22 23 25 10 17 24 15 19 56 12 31 16 20 21 22 23 25 10 17 24 15 19 
+ 13 16 20 21 22 23 25 10 17 24 15 19 14 31 16 20 21 22 23 25 10 17 24 15 19 14 
+ 16 20 21 22 23 25 10 17 24 15 19 14 18 16 20 21 22 23 25 10 17 24 15 19 14 18 
+ 20 21 22 23 25 10 17 24 15 19 14 18 0 20 21 22 23 25 10 17 24 15 19 14 18 0 
+ 21 22 23 25 10 17 24 15 19 14 18 0 1 21 22 23 25 10 17 24 15 19 14 18 0 1 
+ 22 23 25 10 17 24 15 19 14 18 0 1 2 22 23 25 10 17 24 15 19 14 18 0 1 2 
+ 23 25 10 17 24 15 19 14 18 0 1 2 3 23 25 10 17 24 15 19 14 18 0 1 2 3 
+ 25 10 17 24 15 19 14 18 0 1 2 3 4 25 10 17 24 15 19 14 18 0 1 2 3 4 
+ 59 
+ 42 60 
+ 62 
+ 3 140 8 9 10 11 12 37 138 
+ 48 124 
+ 49 
+ 4 7 8 34 38 32 31 30 29 28 27 39 25 
+ 7 8 34 38 32 31 30 29 28 27 39 25 10 65 63 
+ 8 34 38 32 31 30 29 28 27 39 25 10 17 64 
+ 34 38 32 31 30 29 28 27 39 25 10 17 24 
+ 38 32 31 30 29 28 27 39 25 10 17 24 15 139 
+ 32 31 30 29 28 27 39 25 10 17 24 15 19 71 
+ 31 30 29 28 27 39 25 10 17 24 15 19 14 
+ 30 29 28 27 39 25 10 17 24 15 19 14 18 
+ 29 28 27 39 25 10 17 24 15 19 14 18 0 
+ 28 27 39 25 10 17 24 15 19 14 18 0 1 
+ 27 39 25 10 17 24 15 19 14 18 0 1 2 
+ 39 25 10 17 24 15 19 14 18 0 1 2 3 
+ 25 10 17 24 15 19 14 18 0 1 2 3 4 
+ 12 11 10 9 8 
+ 141 129 
+ 142 108 
+ 109 
+ 4 5 
+ 112 53 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 46 1 2 3 4 5 6 7 8 9 10 11 12 13 
+ 26 27 28 29 30 31 32 0 1 2 3 4 5 10 27 28 29 30 14 32 0 1 2 3 4 5 
+ 27 28 29 30 31 32 0 1 2 3 4 5 6 27 28 29 30 14 32 0 1 2 3 4 5 33 
+ 28 29 30 31 32 0 1 2 3 4 5 6 7 28 29 30 14 32 0 1 2 3 4 5 33 7 
+ 29 30 31 32 0 1 2 3 4 5 6 7 8 29 30 14 32 0 1 2 3 4 5 33 7 8 
+ 30 31 32 0 1 2 3 4 5 6 7 8 9 50 30 14 32 0 1 2 3 4 5 33 7 8 9 
+ 31 32 0 1 2 3 4 5 6 7 8 9 11 51 14 32 0 1 2 3 4 5 33 7 8 9 11 
+ 32 0 1 2 3 4 5 6 7 8 9 11 12 52 32 0 1 2 3 4 5 33 7 8 9 11 12 
+ 0 1 2 3 4 5 6 7 8 9 11 12 13 0 1 2 3 4 5 33 7 8 9 11 12 13 
+ 1 2 3 4 5 6 7 8 9 11 12 13 16 1 2 3 4 5 33 7 8 9 11 12 13 16 
+ 2 3 4 5 6 7 8 9 11 12 13 16 20 2 3 4 5 33 7 8 9 11 12 13 16 20 
+ 3 4 5 6 7 8 9 11 12 13 16 20 21 3 4 5 33 7 8 9 11 12 13 16 20 21 
+ 4 5 6 7 8 9 11 12 13 16 20 21 22 4 5 33 7 8 9 11 12 13 16 20 21 22 
+ 5 6 7 8 9 11 12 13 16 20 21 22 23 5 33 7 8 9 11 12 13 16 20 21 22 39 
+ 13 12 11 10 9 8 7 6 5 4 3 2 1 13 12 11 10 9 8 7 6 5 4 3 2 1 
+ 
+ 70 
+ 62 152 7 
+ 6 73 74 
+ 129 126 76 75 
+ 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 77 10 17 24 15 19 14 18 0 1 2 3 4 26 27 28 29 30 35 32 0 36 2 3 4 
+ 17 24 15 19 14 18 0 1 2 3 4 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 17 24 15 19 14 18 0 1 2 3 4 24 27 28 29 30 35 32 0 36 2 3 4 28 
+ 24 15 19 14 18 0 1 2 3 4 15 19 14 18 0 1 2 3 4 15 19 14 18 0 1 2 3 4 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 15 19 14 18 0 1 2 3 4 15 19 14 37 29 30 35 32 0 36 2 3 4 29 30 35 
+ 15 19 14 18 0 1 2 3 4 15 19 14 18 0 1 2 3 4 15 19 14 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 18 0 1 2 3 4 19 14 18 0 1 2 32 0 36 2 3 4 30 35 32 0 36 2 
+ 7 19 14 18 0 1 2 3 4 19 14 18 0 1 2 3 4 19 14 18 0 1 2 3 4 19 14 18 0 1 2 3 4 19 14 18 0 1 2 3 4 3 4 3 4 3 4 14 18 0 1 2 3 4 3 4 14 18 0 1 2 3 4 18 0 1 3 4 14 18 0 1 2 3 4 18 0 1 3 4 14 18 0 1 2 3 4 18 0 1 3 4 14 18 0 1 2 3 4 18 0 1 3 4 14 18 0 1 2 3 4 18 0 1 3 4 14 18 0 1 2 3 4 18 0 1 3 4 14 18 0 1 2 3 4 18 0 1 3 4 35 32 0 36 2 3 4 32 0 36 
+ 127 14 18 0 1 2 3 4 14 18 0 1 2 3 4 14 18 0 1 2 3 4 14 18 0 1 2 3 4 14 18 0 1 2 3 4 14 18 0 1 2 3 4 14 18 0 1 2 3 4 2 3 4 2 3 4 0 1 2 3 4 2 3 4 0 1 2 3 4 1 2 3 4 2 3 4 0 1 2 3 4 1 2 3 4 2 3 4 0 1 2 3 4 1 2 3 4 2 3 4 0 1 2 3 4 1 2 3 4 2 3 4 0 36 2 3 4 36 2 3 4 
+ 26 27 28 29 30 35 32 0 36 2 3 4 72 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 18 0 1 2 3 4 2 3 4 2 3 4 2 3 4 3 4 2 3 4 3 4 4 2 3 4 3 4 4 
+ 27 28 29 30 35 32 0 36 2 3 4 28 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4 
+ 29 30 35 32 0 36 2 3 4 29 30 35 1 2 3 4 5 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 
+ 32 0 36 2 3 4 30 35 32 0 36 2 2 3 4 5 33 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 2 3 4 
+ 3 4 35 32 0 36 2 3 4 32 0 36 3 4 5 33 7 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 3 4 
+ 2 3 4 0 36 2 3 4 36 2 3 4 4 5 33 7 8 4 4 4 4 4 4 4 4 4 4 4 4 4 
+ 2 3 4 3 4 4 5 33 7 8 9 
+ 5 33 7 8 9 11 
+ 125 128 5 33 7 8 9 11 12 
+ 5 33 7 8 9 11 12 13 
+ 5 33 7 8 9 11 12 13 16 
+ 5 33 7 8 9 11 12 13 16 20 
+ 5 33 7 8 9 11 12 13 16 20 21 
+ 5 33 7 8 9 11 12 13 16 20 21 22 
+ 152 5 33 7 8 9 11 12 13 16 20 21 22 39 
+ 114 7 
+ 73 74 
+ 76 75 
+ 77 10 17 24 15 19 14 18 0 1 2 3 4 26 27 28 29 30 35 32 0 36 2 3 4 
+ 17 24 15 19 14 18 0 1 2 3 4 24 27 28 29 30 35 32 0 36 2 3 4 28 
+ 15 19 14 18 0 1 2 3 4 15 19 14 37 29 30 35 32 0 36 2 3 4 29 30 35 
+ 18 0 1 2 3 4 19 14 18 0 1 2 32 0 36 2 3 4 30 35 32 0 36 2 
+ 3 4 14 18 0 1 2 3 4 18 0 1 3 4 35 32 0 36 2 3 4 32 0 36 
+ 2 3 4 0 1 2 3 4 1 2 3 4 2 3 4 0 36 2 3 4 36 2 3 4 
+ 2 3 4 3 4 4 2 3 4 3 4 4 
+ 
+ 
+ 
+ 
+ 
+ 8 
+ 115 
+ 73 78 
+ 76 
+ 4 7 8 1 38 32 14 30 29 28 27 39 25 
+ 7 8 1 38 32 14 30 29 28 27 39 25 
+ 8 1 38 32 14 30 29 28 27 39 25 
+ 1 38 32 14 30 29 28 27 39 25 
+ 38 32 14 30 29 28 27 39 25 
+ 32 14 30 29 28 27 39 25 
+ 14 30 29 28 27 39 25 
+ 30 29 28 27 39 25 
+ 29 28 27 39 25 
+ 28 27 39 25 
+ 27 39 25 
+ 39 25 
+ 25 
+ 
+ 
+ 8.5 9 
+ 115 130 131 
+ 73 73 
+ 76 76 
+ 4 7 8 1 38 32 14 30 29 28 27 39 77 4 7 8 1 38 32 14 30 29 28 27 39 
+ 7 8 1 38 32 14 30 29 28 27 39 7 8 1 38 32 14 30 29 28 27 39 8 
+ 8 1 38 32 14 30 29 28 27 39 1 38 32 14 30 29 28 27 39 1 38 32 
+ 1 38 32 14 30 29 28 27 39 14 30 29 28 27 39 38 32 14 30 29 28 
+ 38 32 14 30 29 28 27 39 27 39 32 14 30 29 28 27 39 14 30 29 
+ 32 14 30 29 28 27 39 28 27 39 30 29 28 27 39 29 28 27 39 
+ 14 30 29 28 27 39 28 27 39 27 39 39 
+ 30 29 28 27 39 
+ 29 28 27 39 
+ 28 27 39 
+ 27 39 
+ 39 
+ 
+ 
+ 
+ 
+ 7 
+ 143 
+ 114 
+ 74 
+ 75 
+ 26 27 28 29 30 35 32 0 36 2 3 4 
+ 27 28 29 30 35 32 0 36 2 3 4 28 
+ 29 30 35 32 0 36 2 3 4 29 30 35 
+ 32 0 36 2 3 4 30 35 32 0 36 2 
+ 3 4 35 32 0 36 2 3 4 32 0 36 
+ 2 3 4 0 36 2 3 4 36 2 3 4 
+ 2 3 4 3 4 4 
+ 
+ 
+ 9 
+ 144 
+ 115 
+ 73 37 153 
+ 76 
+ 4 7 8 1 38 32 14 30 29 28 27 39 
+ 7 8 1 38 32 14 30 29 28 27 39 8 
+ 1 38 32 14 30 29 28 27 39 1 38 32 
+ 14 30 29 28 27 39 38 32 14 30 29 28 
+ 27 39 32 14 30 29 28 27 39 14 30 29 
+ 28 27 39 30 29 28 27 39 29 28 27 39 
+ 28 27 39 27 39 39 
+ 
+ 62 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 10 154 155 11 
+ 146 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 1 2 3 4 5 6 7 8 9 10 11 12 13 1 2 3 4 5 6 7 8 9 10 11 12 13 1 2 3 4 5 6 7 8 9 10 11 12 13 
+ 1 6 7 8 9 11 12 13 16 20 21 22 23 25 1 6 7 8 9 11 12 13 16 20 21 22 23 1 6 7 8 9 11 12 13 16 20 21 22 23 1 6 7 8 9 11 12 13 16 20 21 22 
+ 2 7 8 9 11 12 13 16 20 21 22 23 25 26 2 7 8 9 11 12 13 16 20 21 22 23 2 7 8 9 11 12 13 16 20 21 22 23 8 2 7 8 9 11 12 13 16 20 21 22 8 
+ 3 8 9 11 12 13 16 20 21 22 23 25 26 27 3 8 9 11 12 13 16 20 21 22 23 3 9 11 12 13 16 20 21 22 23 9 11 12 3 9 11 12 13 16 20 21 22 9 11 12 
+ 4 9 11 12 13 16 20 21 22 23 25 26 27 28 4 9 11 12 13 16 20 21 22 23 4 13 16 20 21 22 23 11 12 13 16 20 21 4 13 16 20 21 22 11 12 13 16 20 21 
+ 5 11 12 13 16 20 21 22 23 25 26 27 28 29 5 11 12 13 16 20 21 22 23 5 22 23 12 13 16 20 21 22 23 13 16 20 5 22 12 13 16 20 21 22 13 16 20 
+ 6 12 13 16 20 21 22 23 25 26 27 28 29 30 6 12 13 16 20 21 22 23 37 6 21 22 23 16 20 21 22 23 20 21 22 23 37 6 21 22 16 20 21 22 20 21 22 
+ 7 13 16 20 21 22 23 25 26 27 28 29 30 31 7 13 16 20 21 22 23 7 21 22 23 22 23 23 7 21 22 22 
+ 8 16 20 21 22 23 25 26 27 28 29 30 31 32 8 16 20 21 22 23 8 8 
+ 9 20 21 22 23 25 26 27 28 29 30 31 32 0 9 20 21 22 23 9 9 
+ 10 21 22 23 25 26 27 28 29 30 31 32 0 1 10 21 22 23 10 10 
+ 11 22 23 25 26 27 28 29 30 31 32 0 1 2 11 22 23 11 11 
+ 12 23 25 26 27 28 29 30 31 32 0 1 2 3 12 23 12 12 
+ 13 25 26 27 28 29 30 31 32 0 1 2 3 4 13 13 13 
+ 145 111 111 111 
+ 151 
+ 147 148 
+ 149 
+ 150 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 11 7 
+ 79 116 77 117 
+ 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 1 2 3 4 5 6 7 8 9 10 11 12 
+ 1 6 7 8 9 11 12 13 16 20 21 22 1 26 27 28 29 30 35 32 0 36 2 3 4 
+ 2 7 8 9 11 12 13 16 20 21 22 8 2 27 28 29 30 35 32 0 36 2 3 4 28 
+ 3 9 11 12 13 16 20 21 22 9 11 12 3 29 30 35 32 0 36 2 3 4 29 30 35 
+ 4 13 16 20 21 22 11 12 13 16 20 21 4 32 0 36 2 3 4 30 35 32 0 36 2 
+ 5 22 12 13 16 20 21 22 13 16 20 5 3 4 35 32 0 36 2 3 4 32 0 36 
+ 6 21 22 16 20 21 22 20 21 22 6 2 3 4 0 36 2 3 4 36 2 3 4 
+ 7 21 22 22 7 2 3 4 3 4 4 
+ 8 
+ 9 118 77 119 
+ 10 9 
+ 11 1 2 3 4 5 6 7 8 9 10 11 12 
+ 12 1 4 7 8 1 38 32 14 30 29 28 27 
+ 13 2 7 8 1 38 32 14 30 29 28 27 8 
+ 111 3 1 38 32 14 30 29 28 27 1 38 32 
+ 4 14 30 29 28 27 38 32 14 30 29 28 
+ 156 5 27 32 14 30 29 28 27 14 30 29 
+ 157 6 28 27 30 29 28 27 29 28 27 
+ 158 7 28 27 27 
+ 159 
+ 161 37 121 
+ 160 
+ 
+ 1 33 27 28 34 38 32 31 30 29 28 27 
+ 27 28 34 38 32 31 30 29 28 27 28 
+ 34 38 32 31 30 29 28 27 34 38 32 
+ 31 30 29 28 27 38 32 31 30 29 28 
+ 12 5 27 32 31 30 29 28 27 31 30 29 
+ 120 6 28 27 30 29 28 27 29 28 27 
+ 162 110 28 27 27 
+ 163 
+ 164 
+ 165 
+ 
+ 
+ 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 170 
+ 1 4 17 24 83 0 18 14 19 15 24 17 80 
+ 2 17 24 83 0 18 14 19 15 24 17 24 81 
+ 3 83 0 18 14 19 15 24 17 83 0 18 82 
+ 4 14 19 15 24 17 0 18 14 19 15 24 84 
+ 5 17 18 14 19 15 24 17 14 19 15 85 
+ 6 24 17 19 15 24 17 15 24 17 86 
+ 7 24 17 17 87 
+ 8 88 
+ 9 89 
+ 10 90 
+ 11 91 
+ 12 
+ 13 
+ 111 
+ 
+ 
+ 13 
+ 92 
+ 94 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 170 
+ 1 4 17 24 1 0 18 14 19 15 24 17 80 
+ 2 17 24 1 0 18 14 19 15 24 17 24 81 
+ 3 1 0 18 14 19 15 24 17 1 0 18 82 
+ 4 14 19 15 24 17 0 18 14 19 15 24 84 
+ 5 17 18 14 19 15 24 17 14 19 15 85 
+ 6 24 17 19 15 24 17 15 24 17 86 
+ 7 17 87 
+ 8 88 
+ 9 89 
+ 10 90 
+ 11 91 
+ 12 
+ 13 93 
+ 111 97 
+ 167 
+ 
+ 166 
+ 95 
+ 96 
+ 
+ 14 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 
+ 1 4 17 24 1 0 18 14 19 15 24 17 98 
+ 2 17 24 1 0 18 14 19 15 24 17 24 99 
+ 3 15 0 18 14 19 15 24 17 1 0 18 100 168 
+ 4 14 19 15 24 17 0 18 14 19 15 24 101 
+ 5 22 18 14 19 15 24 17 14 19 15 
+ 6 18 17 19 15 24 17 15 24 17 37 121 
+ 7 17 169 
+ 8 167 
+ 9 122 
+ 10 
+ 11 
+ 12 204 
+ 13 
+ 111 
+ 196 16 
+ 15 195 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 1 2 3 4 5 6 7 8 9 10 11 12 13 
+ 1 4 17 28 15 11 12 14 24 0 18 8 171 1 4 27 28 29 11 30 31 33 38 32 178 
+ 2 17 4 15 11 13 14 24 0 18 8 8 172 2 27 28 29 11 30 31 33 38 32 178 28 
+ 3 15 11 12 14 24 0 18 8 15 11 12 173 3 29 11 30 31 33 38 32 178 29 11 30 
+ 4 14 24 0 18 8 11 12 14 24 0 18 174 46 4 31 33 38 32 178 11 30 31 33 38 32 
+ 5 22 12 14 24 0 18 8 14 24 0 175 5 178 30 31 33 38 32 178 31 33 38 
+ 6 18 8 24 0 18 8 0 18 8 176 6 32 178 33 38 32 178 38 32 178 
+ 7 8 177 7 32 178 178 
+ 8 179 8 
+ 9 182 9 
+ 10 180 10 
+ 11 181 11 
+ 12 12 
+ 13 13 
+ 66 184 
+ 1 15 17 15 11 22 19 4 22 0 18 188 
+ 102 2 17 4 0 14 4 0 18 4 18 22 38 191 
+ 103 3 14 11 19 22 19 14 11 22 183 15 0 32 192 
+ 104 4 22 24 19 15 0 14 185 186 14 187 30 190 
+ 5 4 24 14 11 0 22 19 18 22 28 193 
+ 6 18 22 18 4 18 18 0 4 4 
+ 7 18 22 4 
+ 
+ 189 
+ 203 194 
+ 201 
+ 197 
+ 198 
+ 199 
+ 200 
+ 202 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+## xl/worksheets/sheet2.xml
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+## xl/worksheets/sheet3.xml
+ 
+ 

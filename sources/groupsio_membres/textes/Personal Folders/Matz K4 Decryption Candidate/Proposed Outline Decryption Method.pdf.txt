@@ -1,0 +1,896 @@
+[[page 1]]
+ 
+Proposed Outline Method For 
+Decryption Of Kryptos K4 
+ 
+ 
+ 
+ 
+By Matt Reid 
+May 2020 
+ 
+ 
+
+[[page 2]]
+Overview 
+This paper puts forward what is believed to be the underlying method necessary for deciphering the 
+Kryptos K4 cipher.  It is at the time of publishing believed to be an original piece of work that draws 
+upon and extends the discoveries already put into the public domain by the author’s previous 
+papers, ‘Valkyrie’ in 2013 and ‘The Machine’ series of long and short form papers submitted to the 
+Kryptos Yahoo group in 2017.  The paper does make some attempts at the necessary puzzle steps 
+themselves, but at its core there is some essential cryptanalysis that the more mathematically 
+inclined may find useful in order to rule this in or out as viable framework within which the entire K4 
+section of Kryptos will eventually play out.  Most importantly this method would appear to set 
+parameters on what can be valid solutions.  It will also show that a final contiguous 97 letter answer 
+must be protected to some degree by 4 distinct puzzle steps that would appear to pivot around the 
+underlying methodology outlined in this paper.    
+The overall premise is that K4 is segmented into 7 distinct X shaped layers that comprise 16 
+characters, broken down into 2 distinct groupings of 8 each representing one arm of a composite X 
+shape.  The 8 character groups have a distinct pattern that is built up 2 characters at a time.  Each of 
+the 2 characters are a palimpsest taken directly from the cipher text itself.  The 2 characters are read 
+by encrypting them against the relevant characters in the K4 cipher using the standard Quagmire III 
+method and Kryptos alphabet.  Two further methods are used to obfuscate this process.  The first is 
+a simple keyed Caesar shift that is applied after each successive block of 8 has been encrypted.  The 
+second method of obfuscation is an alignment process that makes use of the plaintext to indicate 
+the parameters that determine the shape and form for the 8 block character groupings in the cipher 
+text.  Whilst this process sounds daunting, it is hoped that the visual breakdown given herein, will 
+show that it is actually more consistent than it sounds from the description above. 
+Limitations 
+At the time of writing, the complete alignment process is still a work in progress as it will be seen 
+that this part of the decryption scheme represents the actual ‘sluething’ required to find a route 
+through to the final decrypt.  The proposed underlying method however generates all known 
+solutions in their correct positions when combined with a brute force approach to fixing the 
+positions, which then allows the alignment method to be conjectured retrospectively for each case.     
+Prerequisites 
+In order to successfully use the method described herein it is probably easiest to use a software tool 
+that is capable of applying the following transforms to the Kryptos Cipher Text. 
+ 
+A method of shifting individual rows to the right or left over a field of 32 characters, 
+whereby a right shift will make the current 32nd character the 1st character and shift all 
+subsequent character positions right by 1 position and so on. 
+ 
+A method of transforming the cipher text in bulk by use of a keyed Caesar cipher where the 
+key is KRYPTOS.  This can in fact be done in by using the decryption tableau on the sculpture 
+itself, but software is recommended for expediency. 
+ 
+A method of showing the plaintext and cipher text side by side that allows transforms such 
+as row shifts to be applied and shown simultaneously. 
+
+[[page 3]]
+The discoveries shared in this paper make use of bespoke software written by the author in order to 
+achieve these functional requirements, but written tables are provided in order to allow access to 
+the same outputs as the software. 
+As can be seen here, the software gives a simultaneous view of both the plaintext and the cipher 
+text.  Any positional shifts applied to a given row are made in both views. 
+ 
+Additional features of the software also allow for easy pattern matching and the running of 
+algorithms that can perform large scale scans of the PT and CT once compelling patterns have been 
+identified.  The most important recent addition has been the addition of a button that can cycle the 
+entire PT and CT through a keyed Caesar shift one letter to the right each time. 
+Method 
+It can be seen from the author’s previous papers starting with ‘Valkyrie’ in 2013 that there is an 
+interesting pattern formed in K1 when the first row is ‘left shifted’ 13 characters.  The result of this 
+transformation is shown here for the cipher text. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y  
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+ 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+ 
+Our initial clue of interest in the previous papers was that the characters UNYY when ‘encrypted’ 
+using the Kryptos Quagmire III scheme with a keyword of OBKR gave a resulting string of KRYP.  The 
+most intriguing part of this transformation was what happened to the corresponding plaintext under 
+the same conditions when a left shift of 13 was applied to the first row. 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E  
+E O F L I G H T L I E S T H E N U A N C E O F I Q L U S I O N  
+ 
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+ 
+It was also noted that a ‘right shift’ of 13 when applied to the third row in the above arrangement 
+results in the following pattern of note. 
+
+[[page 4]]
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y  
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+ 
+K K Q E T G F Q J N C E  
+V F P J U D E H Z W E T Z Y V B W H  
+ 
+ 
+The string UNYYCK when ‘encrypted’ against OBKRUO as the key gives KRYPTO.  In the 
+previous papers the reversal of direction for the characters K and C was explained away as 
+an artefact of the embedded steganography that hides the coordinates (retained here as the 
+blue and grey box shading), but more recent discoveries have allowed for a distinct 
+separation of these two schemes, which most likely means that the machine aspect of the 
+whole piece was something that should have only become apparent after K4 was broken.  
+In early 2020 an intriguing property of row 2 was found that had been continually 
+overlooked, but now appeared to make sense of the above picture.  The YY configuration in 
+the second row is actually repeated consecutively meaning that a ‘left shift’ of 10 characters 
+will still result in the same YY configuration needed to form UNYY in the left hand 
+arrangement.  If we leave the third row in its original state under this transformation then a 
+new pattern becomes apparent. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y  
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+ 
+If the right hand side is read upside down then we have a new string UNYY CKBF which when 
+‘encrypted’ with OBKR UOXO becomes KRYPTOS L although this result will be revisited again later. 
+Row alignment scheme 
+When looking at the necessary row shifts required for the above result it quickly becomes apparent 
+that a sophisticated row alignment scheme is in play.  After some initial experimentation it was 
+reasoned that we might be expected to do something symmetrical in K4 corresponding to any row 
+movements carried out in K1/K2.  Doing the shift of 13 left in row 1 and 10 left in row 2 leads to the 
+following set of results for the cipher text as we have already seen previously. (It has not passed the authors 
+attention that what appears to be a null cipher of ABC exists in the right hand column in partial highlight.  This lead was followed up, but 
+dismissed in favour of the following results).  
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y  
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+ 
+If we place the first 3 rows of K1 above the 3 full rows of K4 and shift rows symmetrically so that a 
+left shift in row one equates to a right shift in row twenty eight and a right shift in row twenty seven 
+equates to a left shift in row two etc, then we see the following pattern for the 13 and 10 left shift 
+applied above.  
+Symmetrically applying a right shift of 13 to row 28 and a right shift of 10 to row 27in K4 yields the 
+following result. 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O * 
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+   
+
+[[page 5]]
+The plain text in rows 1-3 under the same shift transformation gives. 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E  
+E S T H E N U A N C E O F I Q L U S I O N  
+E O F L I G H T L I  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+ 
+Many parts of what appears to be the cipher are actually hints rather than explicit end results, so 
+separating the hints from meaningful actionable results can sometimes be a tortuous process, but it 
+is suspected that the puzzle setter is purposely drawing us through a defined route in order to create 
+a crib in order to solve the remainder of the puzzle.  The above hint is no exception as it appears to 
+correlate perfectly with the clue ID BY ROWS.  Looking for further interesting properties of this 
+arrangement led to a range of additional observations. 
+The Mist X 
+A new algorithm was trialled in order to spot any symmetrical correlations between the first three 
+rows of Kryptos in K1/K2 and the bottom three rows in K4.  The general goal of the algorithm was to 
+identify groupings of 3 letters that shared similar spatial arrangements in the first 3 rows of K1/2 and 
+the full three rows of K4.  The yield from such an algorithm was expected to be low given that visual 
+inspection had not provided any other example other than IAC that was initially found intriguing due 
+to both the specific letters involved as well as the output string that was being derived.  It was 
+therefore surprising when the algorithm turned up over 2000 correlations, so it was reasoned that 
+the alignment scheme must be being driven by a more restrictive process.  This led to a tightening of 
+the algorithm to find only pairs that made a corresponding X pattern when overlaid.  This reduced 
+the yield to about 60 candidates and some of these were explored.  Amazingly one such pair had 
+been present all along in the alignment scheme already detailed and was simply overlooked due to 
+cognitive bias based on the belief that the 3 letter marker would likely be CIA.  
+The most obvious feature of this arrangement as highlighted previously is the double DI block at the 
+right hand end of K4.  Looking closer it would appear that something was missed previously, which is 
+a symmetric correlation in K1/2 and K4 as shown below. 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E  
+E S T H E N U A N C E O F I Q L U S I O N * E O F L I G H T L I  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O *  
+S S I B L E ? T H E Y U S E D T H E E A R T H S M A G N E T * *  
+I C F I E L D X T H E I N F O R M A T I O N W A S G A T H E R *  
+E D A N D T R A N S M I T T E D U N D E R G R U U N D T O A N U  
+N K N O W N L O C A T I O N X D O E S L A N G L E Y K N O W A *  
+B O U T T H I S ? T H E Y S H O U L D I T S B U R I E D O U T *  
+T H E R E S O M E W H E R E X W H O K N O W S T H E E X A C T L  
+O C A T I O N ? O N L Y W W T H I S W A S H I S L A S T M E S *  
+S A G E X T H I R T Y E I G H T D E G R E E S F I F T Y S E * *  
+V E N M I N U T E S S I X P O I N T F I V E S E C O N D S N O *  
+R T H S E V E N T Y S E V E N D E G R E E S E I G H T M I N U *  
+T E S F O R T Y F O U R S E C O N D S W E S T I D B Y R O W S *  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+S L O W L Y D E S P A R A T L Y S L O W L Y T H E R E M A I N S  
+O F P A S S A G E D E B R I S T H A T E N C U M B E R E D T * *  
+H E L O W E R P A R T O F T H E D O O R W A Y W A S R E M O V *  
+E D W I T H T R E M B L I N G H A N D S I M A D E A T I N Y * *  
+B R E A C H I N T H E U P P E R L E F T H A N D C O R N E R A N  
+D T H E N W I D E N I N G T H E H O L E A L I T T L E I I N * *  
+S E R T E D T H E C A N D L E A N D P E E R E D I N T H E H O T  
+A I R E S C A P I N G F R O M T H E C H A M B E R C A U S E D *  
+T H E F L A M E T O F L I C K E R B U T P R E S E N T L Y D E T A 
+I L S O F T H E R O O M W I T H I N E M E R G E D F R O M * * *  
+
+[[page 6]]
+T H E M I S T X C A N Y O U S E E A N Y T H I N G Q ? O B K R *  
+U O X O G H U L B S O L I F B B W F L R V N O R T H E A S T O *  
+A W I N F B N Y P * T W T Q S J Q S S E K Z Z W A T J K L U D I  
+G K U H U A U E K C A R * V T T M Z F P K W G D K Z X T J C D I  
+ 
+This was the exact symmetry that the algorithm had been designed to spot, so it was pleasing to find 
+that it had been initially overlooked in the initial results for the KRYPTOS L alignment. 
+A number of discoveries then appeared to cascade from this simple rearrangement. 
+The first was that the double DI block is in actual diametric opposition to the string DI in the 
+rearranged K1 when the blocks are connected diagonally.  It was whilst examining this relationship 
+that it became apparent another clue had inadvertently been stumbled across. 
+If we continue the diagonal climb of ANL to the twenty fifth row then we are presented with the 
+following letters of note in the rows for K4. 
+T H E M I S T X C A N Y O U S E E A N Y T H I N G Q ? O B K R *  
+U O X O G H U L B S O L I F B B W F L R V N O R T H E A S T O *  
+A W I N F B N Y P * T W T Q S J Q S S E K Z Z W A T J K L U D I  
+G K U H U A U E K C A R * V T T M Z F P K W G D K Z X T J C D I  
+ 
+ It’s reasoned that this is the fabled ‘CANDLE’ clue that many have conjectured to be significant in 
+any potential decrypt, although it can be seen that this is an anagrammed homonym of CANDIL.  The 
+relationships that now start to fall out of these observations are profound.  The first is that if we 
+continue the diagonal climb upwards whilst simultaneously climbing down for K1/2 then the two 
+lines make the intersection shown below. 
+ 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E  
+E S T H E N U A N C E O F I Q L U S I O N * E O F L I G H T L I  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O *  
+S S I B L E ? T H E Y U S E D T H E E A R T H S M A G N E T * *  
+I C F I E L D X T H E I N F O R M A T I O N W A S G A T H E R *  
+E D A N D T R A N S M I T T E D U N D E R G R U U N D T O A N U  
+N K N O W N L O C A T I O N X D O E S L A N G L E Y K N O W A *  
+B O U T T H I S ? T H E Y S H O U L D I T S B U R I E D O U T *  
+T H E R E S O M E W H E R E X W H O K N O W S T H E E X A C T L  
+O C A T I O N ? O N L Y W W T H I S W A S H I S L A S T M E S *  
+S A G E X T H I R T Y E I G H T D E G R E E S F I F T Y S E * *  
+V E N M I N U T E S S I X P O I N T F I V E S E C O N D S N O *  
+R T H S E V E N T Y S E V E N D E G R E E S E I G H T M I N U *  
+T E S F O R T Y F O U R S E C O N D S W E S T I D B Y R O W S *  
+S L O W L Y D E S P A R A T L Y S L O W L Y T H E R E M A I N S  
+O F P A S S A G E D E B R I S T H A T E N C U M B E R E D T * *  
+H E L O W E R P A R T O F T H E D O O R W A Y W A S R E M O V *  
+E D W I T H T R E M B L I N G H A N D S I M A D E A T I N Y * *  
+B R E A C H I N T H E U P P E R L E F T H A N D C O R N E R A N  
+D T H E N W I D E N I N G T H E H O L E A L I T T L E I I N * *  
+S E R T E D T H E C A N D L E A N D P E E R E D I N T H E H O T  
+A I R E S C A P I N G F R O M T H E C H A M B E R C A U S E D *  
+T H E F L A M E T O F L I C K E R B U T P R E S E N T L Y D E T A 
+I L S O F T H E R O O M W I T H I N E M E R G E D F R O M * * *  
+T H E M I S T X C A N Y O U S E E A N Y T H I N G Q ? O B K R *  
+U O X O G H U L B S O L I F B B W F L R V N O R T H E A S T O *  
+A W I N F B N Y P * T W T Q S J Q S S E K Z Z W A T J K L U D I  
+G K U H U A U E K C A R * V T T M Z F P K W G D K Z X T J C D I  
+ 
+
+[[page 7]]
+Before we pursue this line of inquiry further it is important to make another observation, which is 
+that there appears to be a direct correlation between this scheme and key target letters within the 
+cipher text as shown by the following relationship.  Remember the rows of the cipher text are in the 
+same shift configuration as the plain text. 
+  
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E  
+E S T H E N U A N C E O F I Q L U S I O N * E O F L I G H T L I  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O *  
+ 
+U O X O G H U L B S O L I F B B W F L R V N O R T H E A S T O *  
+A W I N F B N Y P * T W T Q S J Q S S E K Z Z W A T J K L U D I  
+G K U H U A U E K C A R * V T T M Z F P K W G D K Z X T J C D I  
+ 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y  
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+ 
+Encrypting UNYY CKBD against OBRKR UOXO gives KRYP TOSI.  It is reasoned that KRYPTOS is a 
+sensible first word of the decrypt in order to give the solver feedback that they are on the right 
+decryption path, so I shall refer to this solve as crib number one as it is reasoned that it is trying to 
+gently educate us as to what we might be expected to do as the puzzle progresses.   
+It should be pointed out at this stage that the evidence is effectively being presented in reverse 
+order due to the manner in which the biggest break was acquired, so these initial puzzle solving 
+steps actually came out of the cryptanalysis that centred round the known clues.  I make this point 
+as the second crib offers a more logical path to the next method of concealment than the lucky 
+break that was initially utilised based on a hunch about the extraneous L in the decryption tableau.  
+Once we see the method of concealment that drops out of the cryptanalysis then we are finally at 
+liberty to start uncovering the row alignments needed for the plain text clues given out since 2010.   
+Before coming back to what is thought to be the second crib it will be useful to appraise the results 
+of the cryptanalysis first, so that we have all parts of the decryption process to hand before 
+proceeding further.  
+Cryptanalysis of the known plain text 
+The results from the first crib were deemed intriguing enough to take seriously as a potential break, 
+but this led to something of an impasse that persisted for a considerable period of time.  Inspiration 
+struck however when the tableau portion of the sculpture was considered.  If the tableau is 
+considered on a line by line basis then it effectively becomes the lookup table necessary for a keyed 
+Caesar cipher.  The key used of course is KRYPTOS and the extraneous L on the right of the tableau 
+hints that we should consider a single ‘right shift’.  As a result of this idea the bespoke software in 
+use was amended to shift all cipher and plain text right one character within the keyed Caesar 
+scheme.  
+The result of this transformation on the first three (non-shifted) rows of the cipher text is as follows. 
+F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J W L  
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G E  
+ 
+W G T L V E F F I K X F O K P W H X I R R U F O H G U L Q D F  
+ 
+ 
+
+[[page 8]]
+After some guessing at what the next word might be following the letter L, the following 
+arrangement was settled upon.  This particular arrangement is now suspected to be incorrect as it 
+was in use before the row alignment scheme was discovered, but rather usefully it did offer 
+something of a boot strapping framework within which to explore letter ordering schemes, so 
+these next 8 letters should be considered simply as a scaffolding framework as it will correspond to 
+the later sense checks made against the known clues. 
+From the standard position the row shifts applied here are a ‘right shift’ of one in row one, a ‘left 
+shift’ of eight in row two and finally a ‘left shift’ of one in row three.  
+The result of this transformation is as follows: 
+L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J W  
+U W P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C  
+G T L V E F F I K X F O K P W H X I R R U F O H G U L Q D F  
+W  
+ 
+The overall results from both this example and the known plaintext for K4 would imply that this 
+configuration should be read off as MUFG and PKUE, which would imply something of a reversal of 
+the previous method for reading off the intended letters.  ‘Encrypted’ against the K4 string of GHUL 
+BSOL this give OCATE SKY.  This gives a combined decrypt for the first three rows as ‘KRYPTOS 
+LOCATE SKY’.  Reviewing this paper prior to publishing into the forums it is somewhat obvious that 
+my own personal bias was in play here due to my previous work on ‘The machine’ papers that argue 
+the case for Kryptos as a whole being an analogue astronomical calculator.  The letter selections will 
+be amended later as the evidence base changes.  
+Something that immediately stands out is that the general format of the pattern when 
+superimposed on the previous one forms something akin to an ‘X’ shape.  Given that the pattern is 
+built up two characters at a time it would appear to make sense of the statement ‘X Layer Two’.   
+Pursuing this pattern further it was found that extending this method across consecutive rows of 
+three moving downwards through the sculpture that it was capable of generating all known plaintext 
+in the correct letter positions (apart from the I of BERLIN, more of which will be mentioned later). 
+In order to make sense of the method I shall refer to the X layer as a combination of the ‘left hand’ \ 
+configuration and the ‘right hand’ configuration /.  The results above give KRYPTOS L for the \ result 
+and OCATE SKY for the / result. 
+A quick look up chart is now provided to show how such a scheme overlays onto K4 so that we can 
+discern how to check this method against the known plain text.  The \ configuration will be coloured 
+in red and the / configuration blue.  The colour convention is chosen as being red and blue in order 
+to reflect the idea of North and South magnetic poles. 
+ 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R   
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O   
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P   
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R   
+ 
+Remember that each time there is a change from the \ to the / configuration or move layer that we 
+need to transform all cipher text under analysis by a right shift of one within the keyed Caesar 
+scheme.  I shall show this in more detail so that this step is explicit before proceeding. 
+
+[[page 9]]
+Keyed Caesar alphabet: KRYPTOSABCDEFGHIJLMNQUVWXZ 
+Example text: CIPHER TEXT 
+Output from a ‘right shift’ of one: DJTIY OFZO. 
+It can be seen that the overall scheme is a palimpsest that reads characters directly off of the cipher 
+8 characters at a time in a composite X configuration.  Each X layer exists within its own discrete set 
+of three rows proceeding downwards through K1, K2 and K3.  There are 7 full X layers and a final 
+single letter to complete the full 97 run of K4. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 1 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+ 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+2 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+ 
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R  
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+3 
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+ 
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X  
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+4 
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+ 
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+5 
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I A  
+C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E  
+ 
+6 
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E  
+ 
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E  
+ 
+ 
+T F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R 7 
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B  
+ 
+ 
+T E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I  
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B  
+ 
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R I T 
+R K L M L E H A G T D H A R D P N E O H M G F M F E U H E  
+ 
+ 
+ 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+ 
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+ 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+ 
+Therefore the right shifts that will be applied to each X layer for our verification run are as follows. 
+X Layer 
+\ Shift 
+/ Shift 
+Layer contains 
+1 
+0 
+1 
+KRYPTOSL OCATESKY 
+2 
+2 
+3 
+XXXXXXXX XNORTHEA 
+3 
+4 
+5 
+STXXXXXX XXXXXXXX 
+4 
+6 
+7 
+XXXXXXXX XXXXXXXB 
+5 
+8 
+9 
+ERLENCLO CKXXXXXX 
+6 
+10 
+11 
+XXXXXXXX XXXXXXXX 
+7 
+12 
+13 
+XXXXXXXX XXXXXXXX 
+There is one interesting anomaly that is found during the initial verification run.  This is that BERLIN 
+actually resolves to BERLEN in positions 64-69.  All other known plaintext is reproduced consistently 
+in the correct positions using a defined method.  As a result of this it is reasoned that the act of 
+giving BERLIN as a public clue was actually an example of a duress code, whereby the information is 
+seemingly equivalent to the real answer, but actually protects the underlying scheme from being 
+reverse engineered. 
+
+[[page 10]]
+For those who don’t have the computational resources or time to compute the relevant shifts for 
+each layer these are now provided in the following table. 
+X Layer | Shift 
+Keyed Caesar Shifted Cipher Text 
+1 \0 
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ 
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE 
+1 /1 
+FNVGTIKMYGBZPVAELRKMERYQAIHQGJWL 
+PUOUVZUCUWPVWMMOYFWLPUONRPYENGE 
+WGTLVEFFIKXFOKPWHXIRRUFOHGULQDF 
+2 \2 
+IIZJYY?FVQEOHVRFVQQLCIOHKJVPNI 
+SLQXQRMCUVNXYVGFCIFXHPOMWUIGWUC 
+VRIRNGEITWKWGGUMSDMNDVEPSDMFHJPP 
+2 /3 
+JJKLPP?GWUFSIWYGWUUMDJSIRLWTQJ 
+AMUZUYNDVWQZPWHGDJGZITSNXVJHXVD 
+WYJYQHFJOXRXHHVNAENQEWFTAENGILTT 
+3 \4 
+SNPIBTPIVKHZJTDQMTJRMTZRXUDPJBN 
+MMHHHZKM?HRTFJZJARWBHJNSGZXPIOI 
+IKUHTJIPVCXXQUBBZLDSXAJIZWUEKNHY 
+3 /5 
+AQTJCOTJWRIKLOEUNOLYNOKYZVETLCQ 
+NNIIIKRN?IYOGLKLBYXCILQAHKZTJSJ 
+JRVIOLJTWDZZUVCCKMEAZBLJKXVFRQIP 
+4 \6 
+MWNNDLO?MSOHFMJKYNENUCRMTQQJASM 
+MQKZDNCRGLIZRYCJVXKIWKRXRZLJMK 
+LWOOYAANSMMYELLTHJXYCZMKTLOWNAL 
+4 /7 
+NXQQEMS?NASIGNLRPQFQVDYNOUULBAN 
+NURKEQDYHMJKYPDLWZRJXRYZYKMLNR 
+MXSSPBBQANNPFMMOILZPDKNROMSXQBM 
+5 \8 
+MRYQKERAUZQZEKCXYDIZKURPTEMSTBE 
+MYPKNJNMKVMIQKXUARPEZUNHOXZZINFU 
+NRMDIVCGVRZHCVNGLEFNGWJWMDHVRIWI 
+5 /9 
+NYPURFYBVKUKFRDZPEJKRVYTOFNAOCF 
+NPTRQLQNRWNJURZVBYTFKVQISZKKJQGV 
+QYNEJWDHWYKIDWQHMFGQHXLXNEIWYJXJ 
+6 \10 
+NXHPEUFORQJRRJRRPIXJPIJYEABYPU 
+HGEPWLHZXPELEGUJRPPURUMRGZZLNLU 
+AYHAPQZHUUPELXNHUPUOQEUHPXLUIU 
+6 /11 
+QZITFVGSYULYYLYYTJZLTJLPFBCPTV 
+IHFTXMIKZTFMFHVLYTTVYVNYHKKMQMV 
+BPIBTUKIVVTFMZQIVTVSUFVITZMVJV 
+7 \12 
+JXLPMWVJRCWOKNWRLHJWHSKWWOUJNHUG 
+WRXJQGMINTKKWCWONJNTNJWZHWWGPQ 
+JWWXLNMXRLJAWJANWLJLNGTNWWGJOGJR 
+7 /13 
+LZMTNXWLYDXSRQXYMILXIARXXSVLQIVH 
+XYZLUHNJQORRXDXSQLQOQLXKIXXHTU 
+LXXZMQNZYMLBXLBQXMLMQHOQXXHLSHLY 
+ 
+So using the shift information from the tables above lets verify our first piece of known plain text at 
+position 26.  According to our lookup table we expect to find _NORTHEA in the / configuration within 
+the second row.  The corresponding keyed Caesar shift for this block will be 3.  
+As we are dealing with 8 letters at a time we would expect to have a resulting string of _ZEXPUXA 
+that would encrypt with _QQPRNGK to give _NORTHEA. 
+
+[[page 11]]
+Remember that we have a prototype form for the / configuration given by the previous example in 
+the first X Layer: 
+L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J W  
+U W P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C  
+G T L V E F F I K X F O K P W H X I R R U F O H G U L Q D F  
+W  
+ 
+Let’s examine the rows without any shifts applied to see if the requisite letters can be found in the 
+expected rows.  We would expect the Z to be in row 2 and the EX to be in row 3.  We would expect 
+them to present as Z_ and XE, so that they can be read according to the previously discovered 
+configuration rules as _ZEX.  Similarly we would expect to find PU in row 1 and XA in row 2, read in 
+the order PUXA. 
+J J K L P P ? G W U F S I W Y G W U U M D J S I R L W T Q J  
+ 
+ 
+A M U Z U Y N D V W Q Z P W H G D J G Z I T S N X V J H X V D  
+ 
+W Y J Y Q H F J O X R X H H V N A E N Q E W F T A E N G I L T T  
+ 
+This block is found to pass muster in terms of the requirements, so let’s now try and arrange it as 
+closely as possible to the previously found / configuration.  Remember that this is a first pass 
+verification step to make sure the requisite letters are present, so the distance between the two 
+sides and their relative separation distance remains arbitrary at this point until the last part of the 
+deciphering scheme is discussed.   
+U M D J S I R L W T Q J  
+ 
+J J K L P P J J K L P P ? G W U F S  
+Z U Y N D V W Q Z P W H G D J G Z I T S N X V J H X V D  
+A M U  
+X R X H H V N A E N Q E W F T A E N G I L T T W Y J Y Q H F J O  
+ 
+The next two letters of known plaintext come from the third X layer and correspond to the case in 
+which the keyed Caesar shift is 4.  We will therefore expect the \ configuration to give us KX in the 
+first row in order to be encrypted with SS to give ST. 
+S N P I B T P I V K H Z J T D Q M T J R M T Z R X U D P J B N  
+ 
+M M H H H Z K M ? H R T F J Z J A R W B H J N S G Z X P I O I  
+ 
+I K U H T J I P V C X X Q U B B Z L D S X A J I Z W U E K N H Y  
+ 
+The next region of interest will be positions 65-72 as this will form another complete block of the \ 
+configuration for the already disclosed ERLINCLO plaintext. 
+Using our lookup table we can see that this will correspond to a right shift of 8 on the underlying 
+cipher text.  So in this instance we will be looking for CXUEILMN  
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+ 
+M Y P K N J N M K V M I Q K X U A R P E Z U N H O X Z Z I N F U  
+N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W I  
+ 
+Rearranging by row shifts to the standard form for the \ configuration gives. 
+C X Y D I Z K U R P T E M S T B E M R Y Q K E R A U Z Q Z E K  
+ 
+U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M I Q K X  
+M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W I N R  
+ 
+
+[[page 12]]
+As noted at the outset of this paper there is an anomaly here.  The expected string for BERLIN would 
+be CXUEILMN, but here we see CXUAILMN instead, which gives us BERLEN rather than BERLIN.  The 
+idea that we may have stumbled across an instance of a duress code was mooted earlier, but the 
+author fully takes on board the idea that it may simply mean that this method is incorrect.   
+Looking for the CK decrypt in the same block but with a keyed Caesar shift of 9 for the / 
+configuration means that we are looking for SK in the order KS, which is duly found as follows:  
+N Y P U R F Y B V K U K F R D Z P E J K R V Y T O F N A O C F  
+ 
+N P T R Q L Q N R W N J U R Z V B Y T F K V Q I S Z K K J Q G V  
+Q Y N E J W D H W Y K I D W Q H M F G Q H X L X N E I W Y J X J  
+ 
+X Layer pattern alternation every 32 characters 
+It will be noticed that we have skipped the B of BERL(I)N in a known section of plaintext.  It is 
+reasoned that there is a change of pattern in the order in which the X pattern is read off every 32 
+characters.  The plain text revealed thus far barely touches on this middle section of 32 characters, 
+which is believed to be intentional as it leaves additional hurdles to overcome in the decryption 
+process and further limits the potential attack surface for any algorithmic attempts at brute forcing 
+the result.  It would also mean that a three row block similar to those that we have been using as X 
+layers may be involved in some kind of higher level control process as each row has the potential to 
+contain 32 characters.  Alternatively this may also have a basis in the 5 bit binary scheme that 
+appears to be hinted at in the layout of K4 whereby rows of 26 are augmented with a 5 character 
+remainder.  
+Whilst investigating this middle block of 32 characters two alternate schemes were ruled out.  First 
+the use of Vigenère decryption as opposed to encryption was attempted as well as an alternate 
+scheme that used left shifts instead of right shifts.  Both of these gave inconsistent results.  The 
+pattern that satisfies the known plain text and would make sense aesthetically is that the middle 
+block of 32 characters is read as a mirror image of our existing scheme.  This means that the rules for 
+the generation of the X layer are the same, but that we are purely changing the order in which the 
+two characters are read off.  If we take our original scheme for both configurations as a comparison 
+then we can write out the mirror image for each case.  
+For the \ configuration. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y  
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+ 
+First 32 is read off as: 
+  
+UNYY CKBF. 
+Alternate 32 is read off as: 
+YYNU FBKC. 
+Further evidence to back this assertion of a change in the intermediate process to arrive at the 
+correct row alignment is provided further down when re-appraising this scheme in light of the 
+second crib. 
+The Second Crib 
+The rationale for the second crib is based on a fundamental observation about the K3 plain text 
+layout of row 15.  I have taken the row that we coloured above to show where the X pattern crosses.  
+The raised letters on the sculpture are shown in a smaller font. 
+
+[[page 13]]
+S L O W L Y D E S P A R A T L Y S L O W L Y T H E R E M A I N S  
+ 
+The various symmetries that had exposed themselves up to this point made it apparent that a row 
+shift of 16 actually equated to a half rotation over a field of 32.  The only exception to the 32 
+character limit is row 23, so this was thought to be significant.  Doing a left or right shift of 16 on this 
+row gives the following result.  I shall retain the original configuration directly above. 
+S L O W L Y D E S P A R A T L Y S L O W L Y T H E R E M A I N S  
+S L O W L Y T H E R E M A I N S S L O W L Y D E S P E R A T L Y  
+ 
+It was reasoned from this that the ability to swap these two areas of interest represented something 
+of a kinetic element to the sculpture (with thanks to James Churchill for an explanation of the 
+terminology) that had been hidden using steganography.  Whether the metaphor is that of light rays 
+being focused or polarized light being filtered remains to be seen, but further progress was achieved 
+by deciding that this pattern was metaphorical of left and right polarizing filters.  Even if the original 
+ANL discovery was only meant to be metaphorical of reflection then it is important to realise that 
+reflections are themselves polarized.  I mention this as the next step would appear not to have a 
+basis unless one is working from that principle. 
+Two points of immediate interest fall out of this proposed piece of steganography that are worth 
+noting.  The first is the position of the anomalously raised letters with respect to this virtual overlay 
+as it would seem to indicate that we’re on the right track by considering something optical and it 
+may be no coincidence that the corresponding letters in each of the two proposed filters are WL, 
+which may be an intended nod to the words ‘wave length’, which is of course a major determinant in 
+optical phenomena. 
+Highlighting the path of the proposed second filter/lens gives this second arrangement. 
+ 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E  
+E S T H E N U A N C E O F I Q L U S I O N * E O F L I G H T L I  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O *  
+S S I B L E ? T H E Y U S E D T H E E A R T H S M A G N E T * *  
+I C F I E L D X T H E I N F O R M A T I O N W A S G A T H E R *  
+E D A N D T R A N S M I T T E D U N D E R G R U U N D T O A N U  
+N K N O W N L O C A T I O N X D O E S L A N G L E Y K N O W A *  
+B O U T T H I S ? T H E Y S H O U L D I T S B U R I E D O U T *  
+T H E R E S O M E W H E R E X W H O K N O W S T H E E X A C T L  
+O C A T I O N ? O N L Y W W T H I S W A S H I S L A S T M E S *  
+S A G E X T H I R T Y E I G H T D E G R E E S F I F T Y S E * *  
+V E N M I N U T E S S I X P O I N T F I V E S E C O N D S N O *  
+R T H S E V E N T Y S E V E N D E G R E E S E I G H T M I N U *  
+T E S F O R T Y F O U R S E C O N D S W E S T I D B Y R O W S *  
+S L O W L Y D E S P A R A T L Y S L O W L Y T H E R E M A I N S  
+O F P A S S A G E D E B R I S T H A T E N C U M B E R E D T * *  
+H E L O W E R P A R T O F T H E D O O R W A Y W A S R E M O V *  
+E D W I T H T R E M B L I N G H A N D S I M A D E A T I N Y * *  
+B R E A C H I N T H E U P P E R L E F T H A N D C O R N E R A N  
+D T H E N W I D E N I N G T H E H O L E A L I T T L E I I N * *  
+S E R T E D T H E C A N D L E A N D P E E R E D I N T H E H O T  
+A I R E S C A P I N G F R O M T H E C H A M B E R C A U S E D *  
+T H E F L A M E T O F L I C K E R B U T P R E S E N T L Y D E T A 
+I L S O F T H E R O O M W I T H I N E M E R G E D F R O M * * *  
+T H E M I S T X C A N Y O U S E E A N Y T H I N G Q ? O B K R *  
+U O X O G H U L B S O L I F B B W F L R V N O R T H E A S T O *  
+A W I N F B N Y P * T W T Q S J Q S S E K Z Z W A T J K L U D I  
+G K U H U A U E K C A R * V T T M Z F P K W G D K Z X T J C D I  
+ 
+
+[[page 14]]
+The second item worthy of note in this arrangement are the two blocks of four characters above and 
+below the WL on the left hand side. Once this region had been highlighted it became obvious that 
+the blocks were respectively two letters short each of the two words SHADOW FORCES.  The two 
+relevant blocks are shown below.  The relevance of this clue will be discussed later when the results 
+of the cryptanalysis are reappraised from this new standpoint. 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E  
+E S T H E N U A N C E O F I Q L U S I O N * E O F L I G H T L I  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O *  
+S S I B L E ? T H E Y U S E D T H E E A R T H S M A G N E T * *  
+I C F I E L D X T H E I N F O R M A T I O N W A S G A T H E R *  
+E D A N D T R A N S M I T T E D U N D E R G R U U N D T O A N U  
+N K N O W N L O C A T I O N X D O E S L A N G L E Y K N O W A *  
+B O U T T H I S ? T H E Y S H O U L D I T S B U R I E D O U T *  
+T H E R E S O M E W H E R E X W H O K N O W S T H E E X A C T L  
+O C A T I O N ? O N L Y W W T H I S W A S H I S L A S T M E S *  
+S A G E X T H I R T Y E I G H T D E G R E E S F I F T Y S E * *  
+V E N M I N U T E S S I X P O I N T F I V E S E C O N D S N O *  
+R T H S E V E N T Y S E V E N D E G R E E S E I G H T M I N U *  
+T E S F O R T Y F O U R S E C O N D S W E S T I D B Y R O W S *  
+S L O W L Y D E S P A R A T L Y S L O W L Y T H E R E M A I N S  
+O F P A S S A G E D E B R I S T H A T E N C U M B E R E D T * *  
+H E L O W E R P A R T O F T H E D O O R W A Y W A S R E M O V *  
+E D W I T H T R E M B L I N G H A N D S I M A D E A T I N Y * *  
+B R E A C H I N T H E U P P E R L E F T H A N D C O R N E R A N  
+D T H E N W I D E N I N G T H E H O L E A L I T T L E I I N * *  
+S E R T E D T H E C A N D L E A N D P E E R E D I N T H E H O T  
+A I R E S C A P I N G F R O M T H E C H A M B E R C A U S E D *  
+T H E F L A M E T O F L I C K E R B U T P R E S E N T L Y D E T A 
+I L S O F T H E R O O M W I T H I N E M E R G E D F R O M * * *  
+T H E M I S T X C A N Y O U S E E A N Y T H I N G Q ? O B K R *  
+U O X O G H U L B S O L I F B B W F L R V N O R T H E A S T O *  
+A W I N F B N Y P * T W T Q S J Q S S E K Z Z W A T J K L U D I  
+G K U H U A U E K C A R * V T T M Z F P K W G D K Z X T J C D I  
+ 
+Before arriving at what is deemed to be the second crib arrangement, it is worth highlighting a 
+potential hint already given to us in the last line of K4.  The standard arrangement for the first crib 
+puts the double letter block at the right hand side of the last line of K4.  If we apply a row shift of 16 
+to the last row of K4 in standard position then we see CDI is isolated on the left hand side. 
+C D I G K U H U A U E K C A R * V T T M Z F P K W G D K Z X T J  
+ 
+If the ANL component of the CANDIL light is transmitting through the first filter then it seems to be a 
+reasonable assumption that we are expecting the CDI component to be transmitted through the 
+other.  Finding a row arrangement scheme capable of representing this was possible under zero 
+shifting of the underlying cipher and plaintext, but a much more aesthetically pleasing result is 
+achieved under a keyed Caesar shift of one, which is what we would naturally expect for the next 8 
+letters under the proposed deciphering scheme. 
+
+[[page 15]]
+ 
+ 
+There are a few observations that we can initially make, the first is that where we initially had ANL in 
+the light path of the first filter we have retained an equivalent NLA.  We have used the same row 
+shift rules as applied previously in that K4 and K1/2 rows are being moved in opposition to each 
+other.  As a result we can see that the light path for DCI is not DCI but OHQ.  Usage of the term OHB 
+(old headquarters building) appears to be occasionally interchangeable with OHQ, so this was 
+deemed to be significant given that the ground breaking ceremony of the OHQ and Kryptos both 
+occurred on the same day separated by some 31 years.   
+Prior to the discovery of the row alignment process one of the most intriguing strings to drop out of 
+the allowed form for the / configuration under a shift of 1 was GWDI PLZW as shown in this zoomed 
+screenshot of the software.  
+ 
+ 
+This string encrypts with GHULBSOL to give KEDREWTH.  Such a string in isolation looks odd, but 
+under the decryption of the first 8 letters found in the first crib this would have given us: 
+KRYPTOS IKE DREW TH  
+I draw on this as an example as this a case of an allowable string that is generated by the rules that 
+our previous cryptanalysis has sketched out based on the known plaintext, but has no other 
+supporting keys or underlying rationale other than the coincidence that it occurs under a keyed 
+Caesar shift of 1 and is of the correct form for the / configuration.  Despite these tighter constraints 
+there are still over 20, 000 potential solutions for each shift setting when trying to arrive at the next 
+
+[[page 16]]
+block of 8, so we obviously need to apply other constraints.  The first of these was found in the first 
+crib when we found that the UY and CD of our target blocks were found embedded in our row 
+alignment scheme.  Applying this principle then it should be possible to work backwards to see if we 
+can find pointers towards any tighter constraints when re-appraising the known plain text in the 
+light of our current decryption model. 
+Revisiting the plain text 
+Let’s examine the NORTH WEST clue again first.  We know according to our rules that this is the / 
+configuration and that the bottom row can only be in a position where there is a Z directly above an 
+X.  This immediately limits the potential positions of our proposed row alignment.  Arranging for this 
+position with the double filter highlighting on shows the following relationship.  Notice that we are 
+also using the symmetrically opposed 3 bottom rows within the alignment process as well as was 
+done with the first crib.   
+ 
+In the plaintext (under a right shift of 3 in the keyed Caesar scheme) the left hand filter can be seen 
+to have CIA running the course of the 3 rows in the ‘beam’ position.  If the block XC (highlighted on 
+the left) was above IB then this would be a perfect mirroring of the example in crib 1, where XV 
+would form a diagonal against the CIA string that falls along the ‘beam’. 
+But something else appears to be in play here and it’s presently not clear what is being missed.  In 
+the first crib we saw that double Y position was interchangeable, due to 3 Y’s being in the 2nd row 
+each separated by 9 letters, which of course led to our initial break.  In this case the C’s in the first 
+row have a similar relationship, although in this instance they are separated by 10 characters.  If the 
+first row was right shifted 10 characters then the correct diagonal VX marker would be formed to 
+complete the NORTH EAST clue, but this would actually destroy the very pattern we are looking for 
+as the corresponding cipher text row would also be shifted by 10 characters.  So here is a case in 
+point of running into a situation through reverse engineering where we have not done the initial 
+work required in the previous steps in order to make sense of the situation which we are observing. 
+It was mentioned during the cryptanalysis section that it is believed that this method of determining 
+the row alignments changes every 32 characters, but that the guiding form of the proposed 
+decryption scheme remains unaltered.  To illustrate this point we now revisit the BERL(I)N clue 
+
+[[page 17]]
+armed with our knowledge of the first crib and our previous treatment of the NORTH EAST example.  
+The position of the BERL(I)N clue is incredibly interesting as it occurs at the point of cross over 
+between the top and bottom panels of the sculpture.  Remember that the marker scheme needs to 
+identify both the left and right participating blocks.  Here we see direct evidence that there is a 
+change of scheme in how the markers are placed as we actually find them embedded this time 
+round in the cipher text itself, but in the correct positions despite the rather cramped circumstances.  
+Remember that the scheme would usually expect to be 3 lines for both the top and bottom sections, 
+but due to the crossover it will be seen that this is compressed into a space of four rows, giving this 
+rather elegant relationship.  It was also be obvious once again that both the filter position and the 
+letters CIA are significant in the row alignment scheme.  Remember that this arrangement assumes 
+that gives a decryption of BERLEN rather than BERLIN as previously discussed in the cryptanalysis 
+section above.  Remember that we are dealing with the \ configuration with a shift of 8 for this block 
+of 8. 
+ 
+We can see that for the next block selection we will actually be completely within the bottom left 
+hand panel of the sculpture for our letter selection process.  It is reasoned that this is the purpose of 
+the SHADOW FORCES clue.  By specifying the positions of these two blocks it reinforces the idea the 
+letters WL represent either a focal point or filter boundary.  Therefore as we make the crossover 
+from the top to the bottom panel it is reasoned that we need to redraw our two filters as follows. 
+
+[[page 18]]
+ 
+ 
+Further Research 
+Further research is now focused on refinement of the first and second crib examples as many more 
+phenomena not published in this paper show different results can be obtained by shifting the 
+bottom rows left or right with respect to row movements in the top half.  By further 
+experimentation with these patterns it is reasoned that breaking the second crib for the / 
+configuration will finally show the logical step we are missing in our decryption of the NORTH EAST 
+clue as NORTHEA occurs within the same block of 32 characters.  It is believed that further progress 
+will only be made by understanding and following the specific path laid out by the puzzles creator in 
+order, but it is hoped that this paper inches us closer to understanding the cryptic, but logical 
+language that has been used in its construction. 

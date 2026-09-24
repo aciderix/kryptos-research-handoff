@@ -1,0 +1,14 @@
+    (....)certutil -hashfile 2017-01-26_01.txt MD5
+    MD5 hash of file 2017-01-26_01.txt:
+    33 c3 fc 1b 80 d4 05 82 4a e3 37 9f 1a 1e ac bd
+    CertUtil: -hashfile command completed successfully.
+
+    (....)certutil -hashfile 2017-01-26_02.txt MD5
+    MD5 hash of file 2017-01-26_02.txt:
+    33 c3 fc 1b 80 d4 05 82 4a e3 37 9f 1a 1e ac bd
+    CertUtil: -hashfile command completed successfully.
+
+    (....)certutil -hashfile 2017-01-26_03.txt MD5
+    MD5 hash of file 2017-01-26_03.txt:
+    33 c3 fc 1b 80 d4 05 82 4a e3 37 9f 1a 1e ac bd
+    CertUtil: -hashfile command completed successfully.

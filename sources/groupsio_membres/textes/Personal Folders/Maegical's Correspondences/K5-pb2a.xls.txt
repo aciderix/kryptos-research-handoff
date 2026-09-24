@@ -1,0 +1,702 @@
+Administrator                                                                                                B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+"Yes";"Yes";"No"
+"True";"True";"False"
+"On";"On";"Off"
+8""@ @ 
+8" @ 
+!@ @ 
+Instructions
+input
+i-o play
+Caesar
+KRYPTOS-Caesar
+Vig-tableau
+Log-Values
+OLE_LINK1:
+  A(
+Sources of Standard Distributions$
+for sources of std. dist, see below.
+cons/vowels
+vowels: aeiou 
+LJIHGFEDCBASOTPYRKZXWVUQNMLJIHGN
+from
+table
+pt-k
+pt-1(
+"autokey" ROLLING left-in-top (Vigen
+# OF LETTERS IN TABLEAU
+Vigen
+side -
+L..N &
+N..L
+#1: Letters ETNROAIS & JKQXZ:
+others letters see source #2.
+http://www.umich.edu/~umich/fm-34-40-2/ch2.pdf8
+#2: Janeczko, Paul B. Loads of Codes and Secret Ciphers.
+New York: Macmillan Publishing Company, 1984. Page 81.9
+#3: Singh, Simon. The Code Book: The Evolution of Secrecy
+from Mary, Queen of Scots to Quantum Cryptography.#
+New York: Doubleday, 1999. Page 19.0
+Originally compiled by H. Beker and F. Piper and.
+published in Cipher Systems: The Protection of
+Communication.
+Std.
+Dist.
+#1,2,3
+f*(f-1)
+freq. (f)
+freq.-1 (f-1)
+letter
+pb l.n
+pb n.l
+Kryptos
+alpha output:
+Std. Dist. 1
+beta output:
+Std. Dist. 2
+Std. Dist. 3
+gamma output:
+delta output:
+Vigen
+re table
+side - L..N
+side - N..L
+Sorted Morse
+epsilon output:
+zeta output:
+eta output:
+theta output:
+iota output:
+alpha input:
+beta input:
+gamma input:
+delta input:
+epsilon input:
+zeta input:
+delta output
+eta input:
+zeta input
+theta input:
+iota input:
+input
+delta input
+DISATaGfOO..IBa
+RACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTAWZZKESSQJSQTWTOSSKGNRPQQVRLFWBBFILOSBLUHGOXOURKBO
+K4 rev
+Vigen
+re of OBKR..KCAR by same
+Atbash
+Atbash table#
+"autokey" left-top-in (coordinates)
+K4-^R-A&
+left-in-top (Vigen
+re) and top-in-left
+vowels: aeiouy
+consonants-y
+consonants+y
+o-b,b-k,k-r with a=0,z=25
+n-r,r-t,t-x with a=0,z=25
+orange
+letters are
+either 
+pi's-digits
+ahead
+or behind
+kappa input:
+lambda input:
+kappa output:
+lambda output:f
+(96#,508,1.4482)
+w-y, y-w, w-r with a=0, z=25
+(95#, 342, 0.9957)
+2r1,
+[97#, 472, 1.3179]
+[97#, 478, 1.3346]
+[96#/1?, 514, 1.4654]
+[97, 288, 0.9897]
+[97, 314, 1.079]
+[97, 406, 1.1336]
+[97, 418, 1.1671]
+K4 reversed'
+If using 1-6 use far right Delta I.C.
+[97, 436, 1.2174]
+   > Use 1 to 6 for characters beyond Z (such as is needed:
+     with 32-character binary alphabet A=00000 to Z=11001,:
+     1=11010 to 6=11111) or repeats (such as if decrypting/
+     NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL or
+   outputs.'
+     LJIHGFEDCBASOTPYRKZXWVUQNMLJIHGN).)
+   "i-o" D1:G32 and/or "i-o play" D1:G32.
+EXAMPLES2
+1. In "input", type or paste text into red blocks.
+Line 15 - Vigen
+re side&
+DO NOT CHANGE DISTANCE BETWEEN COLUMNS'
+WORKSHEETS "input", "i-o", & "i-o play"&
+1. Type or paste text into red blocks.1
+2. Read across rows to find Caesar-shifted texts.
+WORKSHEET "Vig-tableau"
+   >AJ8:EB8 & AJ9:EB98
+   >AJ16 (and/or following cells in row 16 if keyword is)
+    longer than one letter) and AJ17:EB17
+   >AJ27:EB277
+1. Type/paste text into red blocks in any/all of these:
+Bryan D. Levenson+
+K5-pb.xls originally created July 20, 2006. 
+K5-pb2.xls created Feb. 8, 2007.
+   >AJ22:EB22 & AJ23:EB23
+line 0.
+Dist #4;
+#4: Gaines, Helen Fouch
+. Cryptanalysis: A Study of Ciphers
+and Their Solution. New York: Dover Publications, Inc, 1956. Page 218.
+WORKSHEET "Caesar" and "KRYPTOS-Caesar"!
+K5-pb2.xls updated Mar. 11, 2007.
+mu input:
+mu output:
+Std. Dist. 4
+Std. Dist #4 and freq's
+Logarithmic Sum<
+3. In "in<
+put", copy M3:P34 & Paste Special/Values to R3:U34.<
+4. In "input", copy U3:U34 & Paste Special/Values to Q3:Q34.2
+5. In "input", highlight Q3:T34 & Sort Descending.4
+6. In "input", copy Q3:T34 & Paste Special/Values to7
+7. In "i-o" and/or "i-o play", read transformed text in)
+2. Read Logarithmic Sum in "input"'s A24.(
+INSTRUCTIONS FOR SPREADSHEET K5-pb2a.xls"
+K5-pb2a.xls created Mar. 13, 2007.
+MbP?_
+MbP?_
+SDDM
+hp LaserJet 1012
+Column Q
+aQxr
+aQxr
+I[/O4
+I[/O4
+I[/O4
+I[/O4
+I[/O4
+I[/O4
+aQxr
+aQxr
+aQxr
+aQxr
+XF@@ 
+@X@`
+@X@`
+MbP?_
+SDDM
+hp LaserJet 1012
+Column D
+MbP?_
+MbP?_
+SDDM
+hp LaserJet 1012
+MbP?_
+MbP?_
+SDDM
+hp LaserJet 1012
+MbP?_
+I[/O4
+aQxr
+Administrator
+Microsoft Excel
+>{nT
+Instructions
+input
+i-o play
+Caesar
+KRYPTOS-Caesar
+Vig-tableau
+Log-Values
+'Vig-tableau'!OLE_LINK1
+Worksheets
+Named Ranges
+_PID_HLINKS
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1
+Arial1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1
+Arial1,
+Lucida Console1
+Arial1
+Arial1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1
+Arial1,
+Lucida Console1,
+Lucida Console1
+Arial1,
+Lucida Console
+-2]\ #,##0.00_);[Red]\([$
+-2]\ #,##0.00\)
+Sorted Morse (
+=0 , 
+Sorted Morse (
+=0 , 
+=0 , 
+=0 , 
+CRF: O+B,B+K,
+,C+A,A+R
+o-b,b-k,k-r with a=0,z=25 to binary, then 5-bit l-to-r transposition using L=0
+N=31 (line 15) decodingV
+OBKR
+KCAR to binary, then 5-bit r-to-l transposition using L=0
+N=31 (line 15) decoding
+RZLTQ
+OSIWQDY ordered by stats in decr. order and decoded with Std. Dist. #2 (notice "KRYPTOS", "TUT", and "TWO PI" out of order near end and "NORMAL" in column 7) AND rearranged version acc. to "KRYPTOS" in columns AND rearranged version to line up "KRYPTOS" (rolled up column 2), "TUT", and "ABCDE"
+o-b,b-k,k-r with KRYPTOS-keyed alphabet (k=0,
+z=25) [96#, 342, 0.975]
+w-b,b-z,z-s with KRYPTOS-keyed alphabet (k=0,
+z=25) [95#, 374, 1.0889]
+i-c,c-n,n-j with KRYPTOS-keyed alphabet (k=0,
+z=25) [94#, 303, 0.916]
+s-j,j-p,p-a with KRYPTOS-keyed alphabet (k=0,
+z=25) [93#, 334, 1.015]
+j-g,g-v,v-f with KRYPTOS-keyed alphabet (k=0,
+z=25) [92#, 312, 0.9689]_
+OBKR
+KCAR into binary, 2 layered x-traded and transposed by 5-bit decoded by Line 15 (L=0
+N=31)
+OBKR
+KCAR into binary, 2 layered x-traded and transposed by 5-bit decoded by Line 15 (L=0
+N=31) and then replaced by Std. Dist. 1 according to decreasing statistics (correcting the last 5 to 'FUDQW'). (N.B.: Trading 'B' and 'L' gives PT: "ISAIDI
+From k5-decoded.xls: CQEMYNOTEO
+ decoded with Fixed Alphabet Search - Vigen
+re style, then starting after "?" took white letters, then gray letters.
+From k5-decoded.xls: CQEMYNOTEO
+ decoded with Fixed Alphabet Search - Vigen
+re style, then starting after "?" took white letters, then gray letters, then decoded by n..l (15th line)
+R-A,A-C,C-K,
+ (A=0,Z=25)b
+RYSGKUGNNKEY
+JUDHJNX into 5-bit binary using Vig. Side line 15 (L=00000,
+,N=11111) (left to right)`
+3RB3ZFBXL1
+JFHDSU6 into 5-bit binary using Vig. Side line 15 (L=00000,
+,N=11111) (left to right)
+R-A,A-C,C-K
+R-K,K-B,B-O with A=0,
+,Z=25
+R-A,A-C,C-K,
+R-K,K-B,B-O decoded with KRYPTOS-keyed alphabet into 5-bit binary using Vig. Side line 15 (L=00000,
+, N=11111) (left to right) twice
+R-A,A-C,C-K,
+R-K,K-B,B-O decoded with KRYPTOS-keyed alphabet into 5-bit binary using Vig. Side line 15 (L=00000,
+, N=11111) (left to right) once%
+Sorted Morse (
+=0 , 
+     with Line 15 from Kryptos
+ Vigen
+re side -(
+JJJ4J4JJJJ>J>J0000000$&&
+hp LaserJet 1012
+ !!!"
+hp LaserJet 1012
+)+++++++++++++++++++;
+)+++++++++++++++++,+;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+dde!!
+$(((&'
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+)+++++++++++++++++++;
+dde!!
+$(((&'
+)+++++++++++++++++++;
+),-,,-
+--,++++++++;
+),,,-,,-,--,++++++++;
+),,-,,--,,,,++++++++;
+-,,-,,,,++++++++;
+,-,^,-,,,,++++++++;
+),-,
+,,,---,++++++++;
+)-,-,-
+--,-,++++++++;
+),-,
+-,,,,,++++++++;
+,,,,,,,++++++++;
+dde!!
+$((o('
+,-,-,,,,,++++++++;
+)+++++++++++++++++++;
+ggm%!
+'$((o('
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+0=0000000000000
+0000000000000s
+ggm%!
+1$**q*'
+0L0000000000000
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+ggm%!
+;$((o!'
+ggm%!
+E$((o!'
+dde!!
+O$((o('
+Y$((o('
+ddd!!
+http://www.umich.edu/~umich/fm-34-40-2/ch2.pdf
+http://www.umich.edu/~umich/fm-34-40-2/ch2.pdf
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+dde!!
+$(((&'
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+)++++++++++++++6
+dde!!
+$(((&'
+)++++++++++++++6
+),-,,-
+--,+++6
+),,,-,,-,--,+++6
+),,-,,--,,,,+++6
+-,,-,,,,+++6
+,-,^,-,,,,+++6
+),-,
+,,,---,+++6
+)-,-,-
+--,-,+++6
+),-,
+-,,,,,+++6
+,,,,,,,+++6
+dde!!
+$((o('
+,-,-,,,,,+++6
+)++++++++++++++6
+ggm%!
+'$((o('
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+0000000000000s
+ggm%!
+1$**q*'
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+0000000000000
+ggm%!
+;$((o!'
+ggm%!
+E$((o!'
+dde!!
+O$((o('
+Y$((o('
+http://www.umich.edu/~umich/fm-34-40-2/ch2.pdf
+http://www.umich.edu/~umich/fm-34-40-2/ch2.pdf
+hp LaserJet 1012
+fKKKh
+c$$d
+fKKKh
+ "4*
+ *4,
+ 741
+ C5 
+ K4 
+ L81
+ S4)
+ T4*
+ U4*
+ \41
+ ]41
+ fKKKh
+! 4$
+!!4"
+!"4'
+!#4&
+!$5-
+!%4$
+!&43
+!(4-
+!*4(
+!+4'
+!,4+
+!-4$
+!.8/
+!/4'
+!040
+!14'
+!24#
+!38'
+!44(
+!64$
+!742
+!88'
+!942
+!;4)
+!<43
+!=8%
+!?4)
+!@43
+!A4'
+!B8%
+!C5#
+!E4+
+!F4/
+!G8+
+!I4/
+!K4#
+!L82
+!M4&
+!N42
+!O4-
+!P4+
+!Q8(
+!R4$
+!T4'
+!U4'
+!V8'
+!W4$
+!X42
+!Z43
+!\42
+!]42
+!^4-
+!_4%
+!b<2
+!fKKKh
+"fKKKh
+#fKKKh
+$fKKKh
+%fKKKh
+&fKKKh
+'fKKKh
+(fKKKh
+)fKKKh
+*fKKKh
++fKKKh
+,fKKKh
+-fKKKh
+.fKKKh
+/fKKKh
+0fKKKh
+1fKKKh
+2fKKKh
+3fKKKh
+4fKKKh
+5fKKKh
+,,,,,,,,,,,,,,,,,,
+fKKKh
+fKKKh
+ "4*
+ *4,
+ 741
+ C5 
+ K4 
+ L81
+ S4)
+ T4*
+ U4*
+ \41
+ ]41
+ fKKKh
+! 4$
+!!4"
+!"4'
+!#4&
+!$5-
+!%4$
+!&43
+!(4-
+!*4(
+!+4'
+!,4+
+!-4$
+!.8/
+!/4'
+!040
+!14'
+!24#
+!38'
+!44(
+!64$
+!742
+!88'
+!942
+!;4)
+!<43
+!=8%
+!?4)
+!@43
+!A4'
+!B8%
+!C5#
+!E4+
+!F4/
+!G8+
+!I4/
+!K4#
+!L82
+!M4&
+!N42
+!O4-
+!P4+
+!Q8(
+!R4$
+!T4'
+!U4'
+!V8'
+!W4$
+!X42
+!Z43
+!\42
+!]42
+!^4-
+!_4%
+!b<2
+!fKKKh
+"fKKKh
+#fKKKh
+$fKKKh
+%fKKKh
+&fKKKh
+'fKKKh
+(fKKKh
+)fKKKh
+*fKKKh
++fKKKh
+,fKKKh
+-fKKKh
+.fKKKh
+/fKKKh
+0fKKKh
+1fKKKh
+2fKKKh
+3fKKKh
+4fKKKh
+5fKKKh
+,,,,,,,,,,,,,,,,,,
+hp LaserJet 1012
+!=="
+$LLL&
+$LLLLLL)
+===========
+9999999
+!"#<
+!"#<
+!"#<
+!=="
+!"#<
+!"#<
+!"#<
+!"#<
+99999=="
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+MMMMM 
+R;;;;;;;;;;;;;;;;;;;;;;;;
+http://www.umich.edu/~umich/fm-34-40-2/ch2.pdf
+http://www.umich.edu/~umich/fm-34-40-2/ch2.pdf
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

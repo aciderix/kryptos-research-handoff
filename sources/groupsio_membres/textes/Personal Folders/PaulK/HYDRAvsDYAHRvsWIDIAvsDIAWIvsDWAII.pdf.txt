@@ -1,0 +1,83 @@
+[[page 1]]
+Coupla things.
+1. I remember when that member ﬁrst mentioned the word HEADER that 
+shows vertically in K3 CT. I didn't ﬁnd anything when I ﬁrst looked at 
+it, mostly because of the word's orientation and nothing obvious nearby 
+that would indicate a rotation or something. When he brought it up the 
+second time, I looked again and didn't see anything again, but he 
+mentioned that the H was the same H between YA and R in DYAHR. That 
+made me look harder and I found that the HEADER string does describe 
+the left fold in Sanborn's note sheet number 3. Funny how one's mind 
+can settle on an idea and not see the obvious.
+2. I responded to the recent posting about DYAHR. The reason I did this 
+was to show the group the relationship between DIAWI and DYAHR via the 
+obvious relationship with HYDRA. I showed the relationships as:
+HYDRA = 12345 - DYAHR 32514
+WIDIA = 12345 - DIAWI 32514.
+As I proofread my response, I noticed also that:
+DIAWI = 12345 - DWAII 14325 (14325 is KRYPTOS without Y=7 and T=6, the 
+two letters adjacent to the center letter, P).
+DWAII is the "nuance" version of DIAWI that shows up in positions 31 to 
+35 in the 16 shift version of K4 (+Z) CT. Now, I already recognized 
+that the nuance versions of DIAWI, INFBN and NSKGS all had the 
+positions of their second and fourth letters reversed. But, this second 
+method of generating the nuance versions is new to me. This means that 
+the NUANCE OF IQLUSION is related to DYAHR and, ultimately, HYDRA!! Am 
+I stretching the limits of association? Maybe.
+This deﬁnitely deserves a deeper look.
+Before going too deeply into this, we take note of the seemingly 
+related facts that:
+1. The nuance versions of DIAWI, INFBN and NSKGS all have the letters 
+adjacent to the middle letter reversed, generating DWAII, IBFNN and 
+NGKSS as the nuanced versions.
+2. The relationship of DIAWI = 12345 with DWAII = 14325 shows that the 
+nuance version DWAII has the order 14325, which is the same order as 
+KRYPTOS = 1473625, but with the numbers adjacent to the middle number, 
+3, missing. 
+HYDRAvsDYAHRvsWIDIAvsDIAWIvsDWAII
+Paul Kiesel
+11/22/2023
+Page 1
+
+[[page 2]]
+This combination of facts implies that there is a relationship involving 
+the two letters adjacent to the center letter of subject strings.
+Several things to check in chasing this down occur to me. The most 
+obvious are to try changing the keyword KRYPTOS to:
+1. KRPOS
+2. KRTPYOS
+and modifying the tableau to have those options replace KRYPTOS as the 
+alphabet keyword, then run known matrices using those modiﬁed tableaux.
+I tried running the above strings as alphabet keys using K4 CT as 
+ciphertext (because JS has been pushing lately that the solution has 97 
+letters). I came across nothing that really stood out, though I have to 
+admit that there were more options to try. But...
+I came to the conclusion that the probability exists that the 
+relationships described regarding the strings I mentioned on page 1 lead 
+the solver to recognize the form arrived at (DWAII) by modifying the 
+DIAWI that appears after the word KLU in K4 CT, the conclusion being 
+that the position occupied by DWAII in the 16-shift version of K4 CT and 
+it’s modiﬁed appearance with the double letters at the end, points to 
+the similarly constructed NGKSS that lies in that same position in K4 
+CT. Analysis involving the three strings mentioned on page 1 shows that 
+all three of the strings, whether in original form or in modiﬁed form, 
+occupy only the same three positions in the texts, regardless of the 
+caesar shifts involved. The version of NGKSS that appears in K4 CT 
+amounts to the NUANCED version of the original version which appears in 
+the 10-shift version of K4 in the same position as DIAWI does in the 
+zero-shift version. This 10-shift version is the one we use in moving 
+forward in K4 after we insert the Z in front.
+So, the DWAII form is another clue to get to the 10-shift version of K4. 
+In my work, I used the fact that DIAWI, besides being in the original 
+form of K4, also exists in the same form in the 21-shift version. After 
+studying the three strings found in two versions of the shifted text, I 
+looked harder and found DWAII, which lead to ﬁnding IBFNN and NGKSS. I 
+ﬁnally deduced that the version of NSKGS I needed was the one where 
+NSKGS appears in the same positions as DIAWI does in the zero-shift 
+version of K4.
+So, there are two ways at least leading to the 10-shift version of K4. 
+Kryptos has numerous instances of multiple clues to reach conclusions 
+about things.
+That is the long way of explaining my conclusion re DIAWI and DWAII via 
+WIDIA and DYAHR.
+Page 2

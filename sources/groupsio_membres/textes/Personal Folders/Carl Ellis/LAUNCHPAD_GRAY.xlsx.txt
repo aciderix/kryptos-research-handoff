@@ -1,0 +1,153 @@
+## xl/sharedStrings.xml
+ 
+ I was reading Martin Gardner 1 in an attempt to find visual, geometric enciphering possibilities when I encountered his article on the Gray Code. The name is reminiscent of K1's message, and it is a form of binary, and the basic version is formed reflectively. That is the one that Gardner says is usually considered ~The~ Gray Code by mathematicians. (There are many variations; in fact, as the number of numeric bases is infinite, so is the number of Gray Codes) I wrote out the 6-bit part of it with the idea of finding something that might relate to the much- discussed Morse, and found numerical parameters which have convinced me that it is Sanborn's "Original Matrix" and that our attention is directed to it by K1. 6 -bit binary numbers begin at decimal 32 , and if the alphabet is mapped to them , it ends neatly with Z at 57 . The last 6-bit number would correspond to decimal 63 . These numbers are all "mentioned" by K1. The full array of ones & zeroes from 32 thru 63 contains 192 of them, the period of K3. The first section of the array, from 32 to 57 ('upper part of the door'?) contains 6x26 characters, i.e. 156, for which read 1-56, there being 56 characters in K 1 before the "error" (though this fails to count #57, the "error" itself); and the second section (The "remaining debris encumbering the lower part of the door"?), the 6 rows after row 57. Also, starting at the third K2 query, if the 'erroneously' omitted S/x remains omitted, there are 156 characters to the L/a 'error' in "desparatly". There is also possible confirmation, or maybe an independent method for recognizing this array, in the coordinates: 38° 57' 6.5" N might be a reminder to Sanborn of an array 6 wide, 32 to 57, 6 lines at the bottom to be disregarded, point between 6 & 5 in the seconds to be understood as a period. However, I believe the primary, and tell-tale, method for the intended recipient to be reminded of the Gray Code to be as follows: The last letter of K2 Ciphertext is G. It is followed by K3 Ciphertext END and then YA (raised) H (normal) R (raised), all Ciphertext. The G is to be put at the END of the raised letters, thusly: YARG. Cyrillic Jim being reminded by the "YA" and the "R" of the concept of "backwardsness" then reverses this to GRAY (which is probably enough by itself), and if still at a loss to remember details, considers the numbers suggested by G-END-YA until he recalls that K 1 refers to a 32 - row array containing 6 columns. The "extra" "L" on the tableau occurs on the same level as YAR, and is probably there to remind J. S. that YAR requires an "extra" letter, viz., K2#370, "G". Of the standard & Gray binary 26-number sequences between 32 & 63, the Gray Code from 32 to 57 contains 97 ones and 59 zeroes, which is approximately the ratio of dits to dahs in English Morse, and the only one of the said samples that comes so close. 97 & 59 can both be derived from YA_R, as can the word "array". Of the other 6 consecutive-number 26-long positions available from the array without cycling end-to-beginning, two are as close, and four are nearly so, but I don't see a K1 indicator for beginning elsewhere. Though the first two lines of K 2 do contain a possible marker (?) just after K2#37 (and 38 is mentioned in the coordinates, and 38 is the percentage of zeroes in the 6 x 26 array), they have a total of 61 characters, and thus don't quite describe either the 32-line or the 26-line array. The first thing that occurs to the Kryptanalyst on finding a set of 97 somethings mixed irregularly with 59 something-elses is that the 97 somethings are to be used to indicate the letters to be pulled from a text to form an OTP, the system thus frustrating attempts to find such an OTP by brute- forcing all the possible regular intervals. I suppose that to be the case, though it seems to me that using it so, without any further complications, against any of our text just as given would be a bit too obvious. To be sure, the information given here does not tell us what text to pull from, nor how/whether to manipulate that text (or this Gray array, for that matter), so it is hardly a give- away of the whole show if it is to be so used. But K4 was supposed to be the difficult section, and the discovery of the Gray Code matrix is hardly difficult, but mostly a matter of pure luck, so that I would assume that the difficult part comes after identifying the Original Matrix. If anybody wants to "try all the shifts" as J. S. put it, in hopes that The Original Matrix is the hard part and that the rest is routine drudge work, my recommendation would be to use the 457 letters from Carter's text omitted from J. S.' quote - YAR is is a very versatile key. But I'm betting that the K4 solution is not that near at hand, and hereafter is where it gets convoluted. For example, returning to the coordinates beyond the period, 5 x 77 = 385 = all of K2 plus the 15 letters to the omitted "e" in K3, if you count the place of omission. This divides into two 192-long sections separated by a midpoint at K2#193, or two 192-long sections without midpoint if you don't count the K3#15 spot where the omission is. These could be used as a "double OTP"; i.e. convert both strings to numerals and add them, then use the 192-character Gray Code array to pick out the ones to use against K4. Speaking of which, note the remaining 3 digits of the coordinates, 8-4-4: 84 x 4 = 336, in reverse, 4 x 48 = 192. And 19^2 (read 192) plus 3^2 (read 32) = 370, K2 letter count. As the 1:0 ratio is so close to the dit/dah ratio, it seems possible that some Morse-related/based system is involved. (The total Morse characters of K4 amount to 299, or 13 x 23, and 156 = 13 x 12.) But if we believe J. S., then from K4#64 to K4#69 N=B, Y=E, P=R, V=L, T=I & T=N; and I don't see much point in involving Morse if there is to be no fractionizing & recombining. As the 97 ones are a bit obvious, and may serve only to help confirm one's arrival at the Original Matrix, the actual indicators might well be the zeroes ("tiny breach[es]?), which are better and more thinly scattered than the ones and less regular in occurence; and the point of using this matrix seems to be to create a system of irregularity that is unlikely to be duplicated or stumbled on by chance, but whose construction is easily committed to memory. Sloane's List of Integer Series (OEIS on the net) is full of fine "randomizers", but most are hideously complex to derive or memorize. There are 5 starting point letters which give 97 zeroes if the array is the 192-digit one from 32 to 63 (mapped to standard alphabet from 32 to 57) with an additional 7 rows repeated (candle in the upper left corner?), for 234 bits: A, M, Q, S & U. MASQU if you prefer. :) 234 = 3/2 x 156, as well as 370-136 (my old Point 3, figured from Error 2). If we think of the K2 final G as #1 in the Original Matrix Reminder, END are 2-3-4, and 234 is thus what is contained within GRAY, so to speak. But if the zeroes are to be the focus, I prefer this: The 59 zeroes in rows 32 through 57 tell you to expand the used array through row 59 (Where the standard binary value of the Gray Code equals 38). This yields a total of 64 zeroes in the enlarged part of the array to be used; 64 is "mentioned" in K2 by the first letter, and by the sum of the digits of the coordinates. This proceeding also re-emphasizes the 192, in that line 32 has a standard binary value of 48, and this times the 4 remaining lines of "debris" would give 192 again. As the skip intervals of the series of zeroes are overall non-repetitive and non-translating, this would put paid to any attempt to extract an OTP string from anything by using just the first 26 lines, however ordered. Of course the array could be rearranged in any sequence, e.g. by KRYPTOS used as a key as it was in the Vigenaire tableau; or the pattern could be further disrupted by rearranging the Gray numerals internally, such as by use of KRYPTOS progressively anagrammed; or by the 6-place decimals for sevenths; or by double rotation, or YAR, or, or, or. Nor do we know at what point to begin on the matrix when once it is adjusted, if that be necessary, nor to what text to apply it. (Wouldn't it be a nice touch to require the omitted part of K3 to be reinserted, the whole then re-enciphered, and the new CT used for the text to pull an OTP from?) So, tho I am convinced that the subject chunk of Gray Code is indeed Sanborn's Original Matrix, or that from which it is to be developed, I doubt it gets us very close to the "wonderful things". Surely it must be the [first] door, but my bet is it's going to take a lot of opening. The O n-line E ncyclopedia of I nteger S equences gives a version of the code, #A163233, which recites in its notes & explanations " By taking the top left 2x2 corner, 2x4 rectangle ((0,1,5,4), (2,3,7,6)) or 4x4 corner one obtains Karnaugh map templates for 2, 3 or 4 variables respectively (although not the standard ones usually given in the textbooks)." If it has no particular relevance to our work here, it has at least some very handsome, glorious technicolor illustrations of K-maps drawn on toroids, and Karnaugh maps on flat surfaces. Those who are big on word-association, (I must admit to being bigger on it now than heretofore) can convert Karnaugh to Karnak , and go study advanced mathematics. If Ed Scheidt advised Jim Sanborn to study the OEIS notes on Gray Codes I can understand why he feels like an anamath. The one I believe is the simplest is #A014550, Binary Reflected Gray Code , though the OEIS only gives the numerals through Gray 36. I recommend Gardner for a sufficient & non-technical explanation. My apologies to anyone whose work I may have infringed unwittingly. I don't believe I have seen the essentials of these observations on our Yahoo site, though being computer-unfriendly I still cannot locate the archives to check. I am rather astonished that, considering the number of engineers, infotech, communications, & computer kinds people we have here, that "Gray Code" apparently never rang a bell with someone. Not to mention our intelligence contingent - surely a proper spook is humdrum, unobtrusive, alltäglich, downright quintessentially gray ? ;) Carl Ellis 1 The Knotted Doughnut And Other Mathematical Entertainments , Martin Gardner, 1986, at Chapter 2 (pp 11-27) W. H. Freeman & Co., New York, pbk. ISBN 0-7167-1799-9 Chapter 1, on coincidence, might also be apropos for us, and plenty of good stuff in the rest of it as well. I only hope that K5, when we get there, is not going to involve the Hamiltonian paths and hypercubes he mentions. (He opens the chapter with his version of a limerick on Gray Code, and I can't resist parody. When K4 goes down you will all be treated to The Break of The Old 97 , but I daresay no one need worry about that for a bit.) The binary Gray Code is fun. So with pencil and paper, old son (And sufficient cold brew), from KV62, Let us ferret out Tutankhamun. Hm, beginning of K2 to 2nd query is 1 62 , and 3rd query to the omitted "e" is another 1 62 , KV=K5 ? ... In Gray Code Order In Standard Binary Value Order Sorted by Standard-alphabetizing a Kryptos-alphabet mapping GRAY STANDARD VALUE K A H R B I 512+32+16+2+1 Y C J 9'+6'+5'+2'+1' P D T E L O F M S G N Q U V W X Z Y - STD. A - STD. R - STD. Y - GRY. A - GRY. R - GRY. 
+## xl/worksheets/sheet1.xml
+ 
+ 
+ 1 0 125 126 127 
+ 1 
+ 2 128 129 128 129 128 129 129 
+ 3 130 32 16 8 4 2 1 130 130 32 16 8 4 2 1 130 130 32 16 8 4 2 1 130 
+ 4 131 132 32 1 1 0 0 0 0 48 131 132 63 1 0 0 0 0 0 32 132 133 39 1 1 0 1 0 0 52 512+32+16+2+1 563 
+ 5 134 135 33 1 1 0 0 0 1 49 134 135 62 1 0 0 0 0 1 33 135 136 40 1 1 1 1 0 0 60 137 
+ 6 138 139 34 1 1 0 0 1 1 51 138 139 60 1 0 0 0 1 0 34 139 140 41 1 1 1 1 0 1 61 141 
+ 7 142 143 35 1 1 0 0 1 0 50 142 143 61 1 0 0 0 1 1 35 143 131 42 1 1 1 1 1 1 63 100110011 
+ 144 145 36 1 1 0 1 1 0 54 144 145 56 1 0 0 1 0 0 36 145 146 43 1 1 1 1 1 0 62 
+ 2 8 147 148 37 1 1 0 1 1 1 55 147 148 57 1 0 0 1 0 1 37 148 149 44 1 1 1 0 1 0 58 
+ 9 150 151 38 1 1 0 1 0 1 53 150 151 59 1 0 0 1 1 0 38 151 152 45 1 1 1 0 1 1 59 128 
+ 10 132 133 39 1 1 0 1 0 0 52 132 133 58 1 0 0 1 1 1 39 133 147 46 1 1 1 0 0 1 57 
+ 11 135 136 40 1 1 1 1 0 0 60 135 136 48 1 0 1 0 0 0 40 136 142 47 1 1 1 0 0 0 56 512+32+16+2+1 563 
+ 12 139 140 41 1 1 1 1 0 1 61 139 140 49 1 0 1 0 0 1 41 140 153 48 1 0 1 0 0 0 40 137 
+ 13 143 131 42 1 1 1 1 1 1 63 143 131 51 1 0 1 0 1 0 42 131 132 32 1 1 0 0 0 0 48 141 
+ 14 145 146 43 1 1 1 1 1 0 62 145 146 50 1 0 1 0 1 1 43 146 134 49 1 0 1 0 0 1 41 100110011 
+ 15 148 149 44 1 1 1 0 1 0 58 148 149 55 1 0 1 1 0 0 44 149 150 50 1 0 1 0 1 1 43 
+ 16 151 152 45 1 1 1 0 1 1 59 151 152 54 1 0 1 1 0 1 45 152 144 51 1 0 1 0 1 0 42 
+ 17 133 147 46 1 1 1 0 0 1 57 133 147 52 1 0 1 1 1 0 46 147 148 37 1 1 0 1 1 1 55 
+ 18 136 142 47 1 1 1 0 0 0 56 136 142 53 1 0 1 1 1 1 47 142 143 35 1 1 0 0 1 0 50 
+ 19 140 153 48 1 0 1 0 0 0 40 140 153 32 1 1 0 0 0 0 48 153 154 52 1 0 1 1 1 0 46 
+ 20 146 134 49 1 0 1 0 0 1 41 146 134 33 1 1 0 0 0 1 49 134 135 33 1 1 0 0 0 1 49 
+ 21 149 150 50 1 0 1 0 1 1 43 149 150 35 1 1 0 0 1 0 50 150 151 38 1 1 0 1 0 1 53 
+ 152 144 51 1 0 1 0 1 0 42 152 144 34 1 1 0 0 1 1 51 144 145 36 1 1 0 1 1 0 54 
+ 3 22 153 154 52 1 0 1 1 1 0 46 153 154 39 1 1 0 1 0 0 52 154 155 53 1 0 1 1 1 1 47 
+ 23 154 155 53 1 0 1 1 1 1 47 154 155 38 1 1 0 1 0 1 53 155 156 54 1 0 1 1 0 1 45 
+ 24 155 156 54 1 0 1 1 0 1 45 155 156 36 1 1 0 1 1 0 54 156 157 55 1 0 1 1 0 0 44 
+ 25 156 157 55 1 0 1 1 0 0 44 156 157 37 1 1 0 1 1 1 55 157 138 56 1 0 0 1 0 0 36 
+ 26 157 138 56 1 0 0 1 0 0 36 157 138 47 1 1 1 0 0 0 56 138 139 34 1 1 0 0 1 1 51 
+ 27 158 158 57 1 0 0 1 0 1 37 158 158 46 1 1 1 0 0 1 57 158 158 57 1 0 0 1 0 1 37 
+ 28 58 1 0 0 1 1 1 39 44 1 1 1 0 1 0 58 58 1 0 0 1 1 1 39 
+ 59 1 0 0 1 1 0 38 45 1 1 1 0 1 1 59 59 1 0 0 1 1 0 38 
+ 4 29 60 1 0 0 0 1 0 34 40 1 1 1 1 0 0 60 60 1 0 0 0 1 0 34 
+ 30 61 1 0 0 0 1 1 35 41 1 1 1 1 0 1 61 61 1 0 0 0 1 1 35 
+ 31 62 1 0 0 0 0 1 33 43 1 1 1 1 1 0 62 62 1 0 0 0 0 1 33 
+ 32 63 1 0 0 0 0 0 32 42 1 1 1 1 1 1 63 63 1 0 0 0 0 0 32 
+ 33 
+ 34 1 COUNTIF(AE6:AJ31,"1") 97 COUNTIF(AE32:AJ37,"1") 15 SUM(AE39,AG39) 112 1 COUNTIF(AS6:AX31,"1") 83 COUNTIF(AS32:AX37,"1") 29 SUM(AS39,AU39) 112 1 COUNTIF(BG6:BL31,"1") 97 COUNTIF(BG32:BL37,"1") 15 SUM(BG39,BI39) 112 
+ 35 0 COUNTIF(AE6:AJ31,"0") 59 COUNTIF(AE32:AJ37,"0") 21 SUM(AE40,AG40) 80 0 COUNTIF(AS6:AX31,"0") 73 COUNTIF(AS32:AX37,"0") 7 SUM(AS40,AU40) 80 0 COUNTIF(BG6:BL31,"0") 59 COUNTIF(BG32:BL37,"0") 21 SUM(BG40,BI40) 80 
+ 36 SUM(AE39:AE40) 156 SUM(AG39:AG40) 36 SUM(AI39:AI40) 192 SUM(AS39:AS40) 156 SUM(AU39:AU40) 36 SUM(AW39:AW40) 192 SUM(BG39:BG40) 156 SUM(BI39:BI40) 36 SUM(BK39:BK40) 192 
+ 37 
+ 
+ 5 38 
+ 39 
+ 40 
+ 41 
+ 42 
+ 43 159 160 161 
+ 44 1 1 1 0 0 0 1 0 0 0 0 0 1 1 0 0 0 1 
+ 45 
+ 46 125 162 163 164 
+ 47 1 0 0 1 0 0 1 1 0 0 0 0 1 0 1 0 0 1 
+ 48 128 129 SUM(AS50,AS53) 2 SUM(AT50,AT53) 1 1 1 0 0 2 1 0 0 0 0 2 1 1 0 0 2 
+ 49 130 32 16 8 4 2 1 130 
+ 50 131 132 32 1 1 0 0 0 0 48 
+ 51 134 135 33 1 1 0 0 0 1 49 
+ 138 139 34 1 1 0 0 1 1 51 
+ 6 52 142 143 35 1 1 0 0 1 0 50 
+ 53 144 145 36 1 1 0 1 1 0 54 
+ 54 147 148 37 1 1 0 1 1 1 55 
+ 55 150 151 38 1 1 0 1 0 1 53 
+ 56 132 133 39 1 1 0 1 0 0 52 
+ 57 135 136 40 1 1 1 1 0 0 60 
+ 58 139 140 41 1 1 1 1 0 1 61 
+ 143 131 42 1 1 1 1 1 1 63 
+ 7 59 145 146 43 1 1 1 1 1 0 62 
+ 60 148 149 44 1 1 1 0 1 0 58 
+ 61 151 152 45 1 1 1 0 1 1 59 
+ 62 133 147 46 1 1 1 0 0 1 57 
+ 136 142 47 1 1 1 0 0 0 56 
+ 8 63 140 153 48 1 0 1 0 0 0 40 
+ 64 146 134 49 1 0 1 0 0 1 41 
+ 65 149 150 50 1 0 1 0 1 1 43 
+ 66 152 144 51 1 0 1 0 1 0 42 
+ 67 153 154 52 1 0 1 1 1 0 46 
+ 68 154 155 53 1 0 1 1 1 1 47 
+ 69 155 156 54 1 0 1 1 0 1 45 
+ 70 156 157 55 1 0 1 1 0 0 44 
+ 71 157 138 56 1 0 0 1 0 0 36 
+ 72 158 158 57 1 0 0 1 0 1 37 
+ 73 58 1 0 0 1 1 1 39 
+ 74 59 1 0 0 1 1 0 38 
+ 75 60 1 0 0 0 1 0 34 
+ 76 61 1 0 0 0 1 1 35 
+ 77 62 1 0 0 0 0 1 33 
+ 78 63 1 0 0 0 0 0 32 
+ 79 
+ 80 1 COUNTIF(AE56:AJ81,"1") 97 COUNTIF(AE82:AJ87,"1") 15 SUM(AE89,AG89) 112 
+ 81 0 COUNTIF(AE56:AJ81,"0") 59 COUNTIF(AE82:AJ87,"0") 21 SUM(AE90,AG90) 80 
+ 82 SUM(AE89:AE90) 156 SUM(AG89:AG90) 36 SUM(AI89:AI90) 192 
+ 
+ 9 83 
+ 84 
+ 85 
+ 86 
+ 87 
+ 88 
+ 89 
+ 90 
+ 91 
+ 92 
+ 
+ 10 93 
+ 94 
+ 95 
+ 96 
+ 97 
+ 98 
+ 99 
+ 100 
+ 101 
+ 102 
+ 103 
+ 
+ 11 104 
+ 105 
+ 106 
+ 107 
+ 108 
+ 109 
+ 
+ 110 
+ 111 
+ 
+ 12 112 
+ 113 
+ 114 
+ 
+ 115 
+ 116 
+ 117 
+ 118 
+ 119 
+ 
+ 120 
+ 121 
+ 122 
+ 123 
+ 
+ 124 
+ 0 0 0 0 0 0 0 0 0 
+## xl/worksheets/sheet2.xml
+ 
+ 
+## xl/worksheets/sheet3.xml
+ 
+ 

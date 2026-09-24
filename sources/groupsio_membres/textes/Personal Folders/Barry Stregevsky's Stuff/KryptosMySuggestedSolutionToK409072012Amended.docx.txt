@@ -1,0 +1,231 @@
+## word/document.xml
+ 
+ 
+ My Suggested Solution To K4 
+ 
+ Barry Stregevsky 
+ September 7 , 2012 
+ 
+ Part 1: The Solution 
+ 
+ The solution consists of two parts. The last 65 letters is the plaintext. The first 32 letters gives information to the field operative that is useful in confirming the plaintext. 
+ 
+ The solution to the second part of K4 has intentional misspelling s and a masking of certain characters and substrings. The numbers above each character show the character position. There are 2 4 two-character, three-character, and four -character substrings. In addition there are eight spaces I think of as one-character strings . This gives us a total of 32 substrings. Each of the encoded characters in the first 32 letters corresponds to the 32 substrings in the final 65 letters. 
+ 
+ I am making a distinction between a misspelling and a masking. If only one character in a substring has to be changed to reveal the true spelling, a misspelling occurs. If all characters in a substring need to be changed, a masking occurs. 
+ 
+ Solution A has all misspellings and masking still present . I believe that this is what Sanborn had in mind. Solution B unmasks the masked letters but leaves the misspellings in the solution. S olution C has all misspellings and masking removed so that the reader can see what the true message is. 
+ 
+ Solution A: 
+ 1 2 3 4 5 6 7 8 9 1 1 1 1 1 
+ 0 1 2 3 4 
+ s p y t h q i s e t 
+ 
+ 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 
+ 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 
+ a n r e e k e y x x a s o t l e c o i n n d t h e 
+ 
+ 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 
+ 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 
+ h t r r n h a e m o v f t e m b e r l i n c h 
+ 
+ 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 
+ 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 
+ d e n d e a p e r s i m i t a t e d g h a n y 
+ 
+ 
+ Solution B : 
+ 1 2 3 4 5 6 7 8 9 1 1 1 1 1 
+ 0 1 2 3 4 
+ s p y t h q i s e t 
+ 
+ 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 
+ 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 
+ a n r e e k e y x x a s o t l e c o d i n d t h e 
+ 
+ 
+ 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 
+ 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 
+ s e c r n t m e m o v f t e m b e r l i n c h 
+ 
+ 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 
+ 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 
+ d e b r e a p e r s i m i t a t e d t u n n y 
+ 
+ Solution C: 
+ 1 2 3 4 5 6 7 8 9 1 1 1 1 1 
+ 0 1 2 3 4 
+ s p y t h q i s e t 
+ 
+ 
+ 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 
+ 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 
+ a n r e e k e y x x a s o t d e c o d i n g t h e 
+ 
+ 
+ 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 7 7 7 
+ 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 
+ s e c r e t m e m o s f r o m b e r l i n , c o 
+ 
+ 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 
+ 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 
+ d e b r e a k e r s i m i t a t e d t u n n y 
+ 
+ 
+ “ Tunny ” is a nickname that WW2 cryptographers in England used to describe the German machine and its traffic. See http://en.wikipedia.org/wiki/Lorenz_ cipher . The British codebreakers used a machine that imitated the Tunny to interpret German messages . Notice that Solution C put a comma after the word “ berlin ” in order to grammatically correct the sentence. 
+ 
+ I used three clues that have been given elsewhere on the Internet to arrive at my conclusion: 
+ Kryptos is in layers. K4 is dependent upon K3, and K3 is dependent upon K2. 
+ We should look at the directions. This is based on an interview with Sanborn on NPR radio a few years ago. I took this to mean the latitude/longitude directions in K2. 
+ We should be able to solve K4 even if the operative lost the key but wanted to solve the puzzle years later. 
+ 
+ The three clues taken together mean that in order to solve K4, we need to look at the decoded text in K3. To understand how to look at this text (i.e. what section of K3 to focus on) , we need to look at the directions in K2. 
+ The directions are: 
+ 38 
+ 57 
+ 6.5 
+ 
+ 77 
+ 8 
+ 44 
+ Most of m y remarks will be confined to the first set of directions. 
+ If we lay out decoded letters in K3 in the manner shown in Sanborn’s Tableau , we see: 
+ K3 PT (plaintext) 
+ SLOWLYDESPARATLYSLOWLYTHEREMAINS 
+ OFPASSAGEDEBRISTHATENCUMBEREDT 
+ HELOWERPARTOFTHEDOORWAYWASREMOV 
+ EDWITHTREMBLINGHANDSIMADEATINY 
+ BREACHINTHEUPPERLEFTHANDCORNERAN 
+ DTHENWIDENINGTHEHOLEALITTLEIIN 
+ SERTEDTHECANDLEANDPEEREDINTHEHOT 
+ AIRESCAPINGFROMTHECHAMBERCAUSED 
+ THEFLAMETOFLICKERBUTPRESENTLYDETA 
+ ILSOFTHEROOMWITHINEMERGEDFROM 
+ THEMISTXCANYOUSEEANYTHINGQ 
+ 
+ I found the above at the top portion of the following document: 
+ 
+ http://www.sfu.ca/~nicolea/kryptos/K3andtheOp.pdf 
+ If we treat a partial word as a word, the string we want begins at the third line the eighth word (or 3 8 ) and ends at the fifth line the seventh word (or 57) . This gives us the following 65 character string (which is what the directions say when we ignore the decimal point): 
+ 
+ R E M O V 
+ 
+ E D W I T H T R E M B L I N G H A N D S I M A D E A T I N Y 
+ 
+ B R E A C H I N T H E U P P E R L E F T H A N D C O R N E R 
+ 
+ I would classify the method as something similar to a book cipher, except that we know that the “book” and the “page” are the tableau. We are just specifying the beginning and ending line number and word number. 
+ 
+ In order for the word “corner” to be the seventh word on line 5, I have to treat “ lefthand ” as two words “left” and “hand”. Many would disagree by saying that “ lefthand ” is on e compound word. 
+ 
+ The solution that I give at the top of this document is found by taking two- , three-, and four- character substrings within this 65 character string and placing them together. I had no real pattern in mind for my solution. I just took various substrings and threw them together until I had a solution that was consistent with Jim Sanborn’s and Ed Scheidt’s hints. 
+ 
+ The two-character substrings that are used in my solution are “ e d ”, “it”, “ nd ”, “ de ”, “ at ”, “ ny ”, “ea”, “ ch ”, “in”, “le”, “ ft ”, “ ha ”, “ nd ” (for the second time) , “co”, “ rn ”, and “ er ”. The three-character substrings are “ htr ”, “ emb ”, “ lin ”, “ gha ”, “ sim ”, “the”, and “per . The string “ emov ” is the only four character substring. Unused characters ( which I view as one-character substrings) are r from “ rem ”, “w from “with”, “a” from “made”, “ i ” from “tiny”, “b” and “r” from “breach”, and “u ” and “ p” from “upper”. Note that there are 8 unused characters which is what the number 8 refers to in the second set of directions in K2. T he substrings that are not used will translate into spaces when I get to that part of the solution. 
+ 
+ I had to make judgment calls in order to have 32 and exactly 32 substrings . For example, I use “co” near the beginning of the solution and “ ch ” closer to the end of the solution. I could have done this in reverse, but then I would have “ ch ” followed by “in” at the beginning. If I treated this as two substrings, I would have to treat “ emov ” as two substrings as well. In other words, the number of substrings would no longer be 32. Similarly, the masked portion of “ chdebreapers ” is “ chdendeapers ”. If I kept the “ br ”, “ brea ” would have to be treated in the same way as other sets of two adjacent substrings. 
+ 
+ If we look at the solution, t he intentional misspelling s are the “l” in “le” , the “ d ” in “ nd “ , the “n” in “ rn ”, the “v” in “ em ov ”, the “t” in “ft”, the “e” in “ em b”, the “h” an the “p” in “ chdendeaper ”. The “ l ” should be “ d ”, the “ d ” should be “ g”, the “n ” should be “ e ”, the “ v ” should be “ s ”, the “ t ” should be r ”, the “ e ” should be “ o ”, the “ h ” should be “ o ”, and the “p” should be “k” , respectively . I believe that th ese character s are placed randomly, just as the misspelled characters were in K1, K2, and K3. 
+ 
+ The letters “in”, “ htr ”, “ h a ”, “ nd ” (the one used near the end) , and “ gha ” require more explanation. Basically, they use a Caesar shift. A Caesar shift takes the value of a character and adds something to it to get another character. So if a word like “man” uses a Caesar shift of 2, we would get “ ocp ”. “M” has a value of 13, and by adding two we get “o” with a value of 15 . 
+ 
+ Let us look at each of the substrings that use a Caesar shift. 
+ “ in ” = “ di ” + a shift of 5, 
+ “ htr ” = “sec” + a shift of 15, 
+ “ h a” = “t m” + a shift of 14 , 
+ “ nd ” = “ br ” + a shift of 12, and 
+ “ gha ” = “ tun ” + a shift of 13. 
+ 
+ Let us now l ook again at the second set of numbers in the directions in K2 (77, 8, 44 ) . I figured out that Sanborn does not mean for us to take these numbers literally. He means that 77 should be interpreted as 7*7 or 49 and 44 should be interpreted as 4*4 or 16. If we take 49 – 16, we get 33 (the position of the first character of the plaintext). If we take 49 + 16, we get 65 (the length of the plaintext string). As previously mentioned, 8 characters in the 65-character string do not directly appear in the solution ; instead, they appear as spaces. 
+ 
+ There was a hint in the Morse Code that also helped me: the phrase “lucid memory”. “Lucid” means “clear” or “transparent” , and “secret” means the opposite. The word “memory” is linguistically similar to “memo”. So I came up with “secret memos”. It was at this point that I also noticed that “ htr ”, a substring in the original 65 character string, is equivalent to “sec” using a Caesar shift of 15 . 
+ 
+ Part 2: Confirmation of My Solution 
+ 
+ Many people might look at what I have done so far and think that I have not really proven anything. After all, it is possible to put together substrings in a different way and come up with some other plausible solution. I spent over a year thinking that the solution was related to the Lincoln Memorial. I found the phrase “ rememberlincornsimperative ” in the initial 65 character string. Fortunately, I abandoned that attempt. 
+ 
+ A question that most readers have by now is: “What about the encoded letters in K4? Are you saying that they don’t play a role in the solution?” For characters 33 through 97, that is exactly what I am saying. If Sanborn had used a string of 65 “ a’s ” or a string of 65 “ b’s ” for these characters, the answer would be the same. If you don’t buy this, see if you can find a relationship between the encoded letters for characters 33 through 97 and Solution A. 
+ 
+ Let us rearrange the encoded letters to fit the solution that I basically guessed at for the 65 character plaintext message. The following shows Solution A on the first line followed by the corresponding encoded value of each sub string on the second line. Appendix A might help explain how I arrived at the encoded value. A Caesar shift is used to reveal something that makes sense to a reader. 
+ 
+ l e coinnd the htrrnh aemov ftem berlin chdendeapers imit ated ghany 
+ Q N W R F O G P B Q X K O B B H B V U U S K G L 
+ 
+ R O X S G P H Q C R Y L P C C I C W V V T L H M 
+ S P Y T H Q I R D S Z M Q D D J D X W W U M I N 
+ T Q Z U I R J S E T A N R E E K E Y X X V N J O 
+ U R A V J S K T F U B O S F F L F Z Y Y W O K P 
+ V S B W K T L U G V C P T G G M G A Z Z X P L Q 
+ W T C X L U M V H W D Q U H H N H B A A Y Q M R 
+ X U D Y M V N W I X E R V I I O I C B B Z R N S 
+ Y V E Z N W O X J Y F S W J J P J D C C A S O T 
+ Z W F A O X P Y K Z G T X K K Q K E D D B T P U 
+ A X G B P Y Q Z L A H U Y L L R L F E E C U Q V 
+ B Y H C Q Z R A M B I V Z M M S M G F F D V R W 
+ C Z I D R A S B N C J W A N N T N H G G E W S X 
+ D A J E S B T C O D K X B O O U O I H H F X T Y 
+ E B K F T C U D P E L Y C P P V P J I I G Y U Z 
+ F C L G U D V E Q F M Z D Q Q W Q K J J H Z V A 
+ G D M H V E W F R G N A E R R X R L K K I A W B 
+ H E N I W F X G S H O B F S S Y S M L L J B X C 
+ I F O J X G Y H T I P C G T T Z T N M M K C Y D 
+ J G P K Y H Z I U J Q D H U U A U O N N L D Z E 
+ K H Q L Z I A J V K R E I V V B V P O O M E A F 
+ L I R M A J B K W L S F J W W C W Q P P N F B G 
+ M J S N B K C L X M T G K X X D X R Q Q O G C H 
+ N K T O C L D M Y N U H L Y Y E Y S R R P H D I 
+ O L U P D M E N Z O V I M A A F Z T S S Q I E J 
+ P M V Q E N F O A P W J N B B G A U T T R J F K 
+ 
+ Because Sanborn is a visual artist, we should look for something tha t sticks out. If we put the statement in plain English, it would say something like: “spy to hq : I set a n on r epeating key ; automatic signoff time ”. Just as Sanborn uses “‘tis your position” instead of “ what’s your position ” in the Morse Code portion of Kryptos , so too he is using “t” instead of “to”. The Morse Code also has “RQ” near the end of the Morse Code which could be a misspelling of “HQ”. I assume that “ nr key ” means nonrepeating key. The characters “ ee ” and “ xx ” are sets of padding characters. Finally, “ asot ” specifies the automatic signoff time in minutes. It is possible that the SOS in the Morse Code is a misspelling of “sot”. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Appendix A 
+ 
+ Substring Substring Corresponding Encoded Value 
+ Number In First Part of K4 
+ 
+ R 1 O 
+ EMOV 2 B 
+ ED 3 K 
+ W 4 R 
+ IT 5 U 
+ HTR 6 O 
+ EMB 7 X 
+ LIN 8 O 
+ GHA 9 G 
+ ND 10 H 
+ SIM 11 U 
+ A 12 L 
+ DE 13 B 
+ AT 14 S 
+ I 15 O 
+ NY 16 L 
+ B 17 I 
+ R 18 F 
+ EA 19 B 
+ CH 20 B 
+ IN 21 W 
+ THE 22 F 
+ U 23 L 
+ P 24 R 
+ PER 25 V 
+ LE 26 Q 
+ FT 27 Q 
+ HA 28 P 
+ ND 29 R 
+ CO 30 N 
+ RN 31 G 
+ ER 32 K 
+ 
+ 

@@ -1,0 +1,247 @@
+[[page 1]]
+Kryptos K4
+An approach
+
+[[page 2]]
+1. Definition of terms
+Complementary letters
+(regarding to the Vigenère encryption)
+Two letters whose shift values sum up to 26, e.g.:
+– T (19) and H (7) in the standard alphabet
+– U (20) and G (6) in the standard alphabet
+– Q (20) and S (6) in the Kryptos alphabet
+– U (21) and O (5) in the Kryptos alphabet
+The Model
+This term refers to the Kryptos model, which was 
+presented by Ed Scheidt in 2015.
+
+[[page 3]]
+2. Double letters
+Double letters seem to play an important role in 
+Kryptos:
+– The mispellings in K1 and K2 mark the first 
+letter of a double letter (LL, UU).
+– There are noticeably many double letters 
+in K4 and some of them have the same 
+distance to each other.
+– The missing ciphertext letter in the model (N) 
+marks a double letter too (IAKNNVEK).
+First, let's take a closer look at the structure of 
+double letters in K4:
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZ
+WATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCA
+R
+(Double letters in K4)
+As already known, there are three raised letters 
+on the sculpture (ENDyaHr). 
+If you follow the easiest interpretation of this hint 
+by changing the position of 3 ciphertext letters 
+in K4, you get the following ciphertext:
+
+[[page 4]]
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZ
+WATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCA
+R
+OBKRUOOGHULBSOLIFBBWFLRVQQPRNGKSSOTWWTQSJQSSEKZZ
+WATJKLUDIAAWINFBNYPVTTMZFPKGDKZXXTJCDIGKUHUUEKCA
+R
+(Changing the position of three K4 ciphertext letters)
+The double letters QQ, WW, ZZ, AA, TT, XX and 
+UU now have exactly the same distance to each 
+other. The appearance of these double letters 
+could therefore be a property of the encryption 
+system.
+There is something remarkable about the double 
+letter NN in the model too. 
+The very short Vigenère key RUG is not a 
+meaningful word like PALIMPSEST or 
+ABSCISSA in Kryptos. So I was wondering if 
+RUG is really the right key or maybe just a 
+„shifted version“ of the right key, which would 
+point to a second layer of encryption with a 
+monoalphabetic key.
+
+[[page 5]]
+Among all 25 shifted versions of the key RUG, 
+there is also the reversal of the plaintext word 
+THE (RUG – NNN = EHT), with the key letter N 
+(ROT13) beeing the same as the double letter 
+NN in the ciphertext. Furthermore, the plaintext 
+word THE is located at the same position as the 
+first missing N in the ciphertext.
+So, assuming that the correct key is actually 
+EHT, the two-layer encryption process of the last 
+plaintext line would look like this:
+WHTHOUTTHEKEY Plaintext
+EHTEHTEHTEHTE Layer 1 (polyalphabetic)
+AOMLVNXAAIRXC Intermediate plaintext
+NNNNNNNNNNNNN Layer 2 (monoalphabetic)
+NBZYIAKNNVEKP Ciphertext
+(A two-layer encryption in the model?)
+If this is correct, the plaintext bigram TH was  
+encrypted with its reverse version on the first 
+layer, which always results in a double letter.
+But there is something more to it. Since T and H 
+are complementary letters, the resulting double 
+letter is the first letter of the alphabet (A). That is 
+why the key letter on the second layer is the 
+same as the double letter in the ciphertext.
+
+[[page 6]]
+Interestingly, there is the string XAAIRX at this 
+position in the intermediate plaintext, but I'm not 
+sure if this all has anything to do with the 
+encryption system.
+
+[[page 7]]
+3. K4 - A potential start of the plaintext
+There is some evidence that a letter is perhaps 
+missing at the beginning of K4. In this approach, 
+the ciphertext starts with an L and the X from 
+OXO is missing due to the change in the position 
+of 3 ciphertext letters as described in the last 
+chapter: 
+LOB KRUOOGHU LBS OLIFBBWF
+(The start of K4)
+If you decrypt the first 3 letters LOB with KEY, 
+you get LQS as result, which is the key to decrypt
+the following 8 letters KRUOOGHU. The same 
+system works for LBS and OLIFBBWF:
+LOB KRUOOGHU LBS OLIFBBWF
+KEY LQSLQSLQ KEY LWTLWTLW
+LQS CAIHEAWR LWT HQEUETSI
+(A readable plaintext emerges from the mist)
+At this point it should be briefly mentioned that 
+the key LQS is just a monoalphabetically 
+substituted version of the key RUG, with the 
+Kryptos alphabet used as the key:
+
+[[page 8]]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ Plaintext alphabet
+KRYPTOSABCDEFGHIJLMNQUVWXZ Ciphertext alphabet
+RUG → LQS
+(RUG becomes LQS)
+However, the two blocks LOB and LBS also 
+produce a readable plaintext when decrypted 
+with the key XYY:
+L OB KRUOOGHU LBS OLIFBBWF
+X YY LQSLQSLQ XYY LWTLWTLW
+N PS CAIHEAWR NST HQEUETSI
+(A readable plaintext emerges from the mist)
+The plaintext bigrams AI, QE and TS seem to be 
+reversed:
+N PS CAIHEAWR NST HQEUETSI
+N PS CIAHEAWR NST HEQUESTI
+N PS CIA H EAWRNS THE QUESTI
+(A readable plaintext emerges from the mist)
+It took me a while to figure out that the letters 
+EAWRNS are probably supposed to be the word 
+ANSWER:
+
+[[page 9]]
+N PS CIA H E AWRNS THE QUESTI
+             14523
+N PS CIA H E ANSWR THE QUESTI
+A +3 = N
+N +1 = S
+S -3 = W
+W +1 = R
+(Transposition of the word answer)
+It looks like the fifth letter of answ(e)r was taken 
+out and put in front of the word before the 
+transposition was performed. 
+So it can be assumed that the last three letters 
+are either ONS or ONX. 
+Unfortunately, the system does not work for the
+next eleven letters LRV QQPRNGKS and the 
+meaning of the first letter N and the letter H 
+(CIAH) remains unclear.
+But there is hope because I also found a key to 
+decrypt QQPRNGKS.
+
+[[page 10]]
+4. K4 - QQPRNGKS = NORT(H)EAST
+A key consisting of three letters is also needed to
+decrypt QQPRNGKS, but this time I had to 
+recover this key by performing a brute force 
+attack because the letters LRV don't seem to 
+contain any key information. So the key is most 
+likely VGY:
+QQPRNGKS S  
+VGYVGYVG Y
+XAROSETN T
+(Key VGY - Three letters again)
+The second step is a transposition that is very 
+similar to the transposition of the word ANSWER:
+XAROSETN T
+76328541
+NORTEAXS T
+N -4 = O
+O -1 = R
+R +4 = T
+T -1 = E
+E -4 = A
+A -1 = X 
+X +4 = S
+(Transposition of the word northeast)
+
+[[page 11]]
+In contrast to the transposition of the word 
+ANSWER, this transposition works from right 
+to left. So is it possible that this part of the 
+plaintext is just upside down? 
+The position of the missing letter is also the same
+as in answer: 
+ANSW(E)R
+NORT(H)EAXST
+(Missing letters)
+However, a lot of improtant questions remain 
+unanswered:
+- Why does the system „interrupt“
+- What's about the letter X?
+- Where is the missing letter H?
+- Is there a second layer as the model    
+ 
+  suggests?
+ 
+- What's about the double letters?
+
+[[page 12]]
+5. K4 - Complementary letters
+The previous chapters indicate that a 
+transpositional cipher was used in some way. 
+But so far we have encountered two different 
+systems:
+- Reversed bigrams (THQEU)
+- More complex transposition      
+   
+        (ANSWER, NORTHEAST)
+It is very unlikely that two different systems were 
+used. So the reversed bigrams are possibly more
+a hint than a transposition cipher. 
+Then I found a kind of system which has 
+something to do with complementary letters and 
+reversed bigrams. The first reversed plaintext 
+bigram AI is encrypted with the complementary 
+key letters Q and S: 
+KRUOOGHU
+LQSLQSLQ
+CAIHEAWR
+(AI + QS = RU)
+
+[[page 13]]
+But there is a little secret. You don't have to know
+the key letters QS to decrypt this ciphertext 
+bigram. Just decrypt this bigram with its reversed
+version and use the reversed version of the 
+result as a key:
+RU – UR = SQ
+RU – QS = AI
+(Decryption without knowing the key)
+Unfortunately, this system only works if one of 
+the two distances between the two plaintext 
+letters in the alphabet is divisible by 3. But I don't 
+think that's a coincidence because there is a hint 
+to that in K1:
+YQTQUXQBQVYUVLLTREVJYQTM KYR DMFD
+(K1 hints to a reversed bigram after an K)

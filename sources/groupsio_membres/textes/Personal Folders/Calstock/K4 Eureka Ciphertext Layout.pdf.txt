@@ -1,0 +1,463 @@
+[[page 1]]
+I haven't found this K4 variation anywhere online or in the forum, but I may 
+ORIGINAL K4 CIPHERTEXT
+have missed it.
+?
+O B
+K
+R
+I think the Eureka anagram, (although not perfect - get used to "eye speak" 
+U O X O G H U
+L
+B
+S
+O
+L
+I
+F
+B
+B W F
+L
+R
+V Q Q P
+R N G
+K
+S
+S
+O
+in K4 I suggest), is a good indicator of a reorder being required.
+T W T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z W A
+T
+J
+K
+L
+U D
+I
+A W
+I
+N
+F
+B N
+Y
+P
+V
+T
+T M Z
+F
+P
+K W G D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U H U A U
+E
+K
+C
+A
+R
+Once reordered, the word CUT is a very clear indication I propose, to remove
+the "?" and retain the 97 count of K4. This count is crucial for any 24hr. Clock theorists.
+Step 1. (7 x 14 grid)
+Boo ! (I can see you)
+1
+2
+3
+4
+5
+6
+7
+1
+?
+O B
+K
+R U O
+B O O
+?
+R
+K
+U
+E
+G Z
+F
+Y
+A
+T
+S
+W N L
+L
+G B
+2
+X O G H U
+L
+B
+G O B
+X
+U H
+L
+U I
+K
+Z
+N I
+A
+S
+T
+R
+F
+O O O
+3
+S
+O
+L
+I
+F
+B
+B
+L
+O B
+S
+F
+I
+B
+R
+U C
+G T
+F
+U Z
+J
+S
+Q B
+B
+O
+4
+W F
+L
+R
+V Q Q
+L
+F
+Q W V
+R Q
+Step 3 (Rotate 90 deg.)
+A
+D D M B
+D W Q O P
+W S
+X
+?
+5
+P
+R N G
+K
+S
+S
+N R
+S
+P
+K
+G
+S
+C
+U T
+K
+V
+I
+K
+K
+Q K
+V
+F
+U R
+6
+O
+T W T
+Q
+S
+J
+W T
+J
+O Q
+T
+S
+K
+K
+X
+P
+P
+W J
+E
+T
+G R
+I
+H K
+7
+Q
+S
+S
+E
+K
+Z
+Z
+Step 2 (Rearrange rows to
+S
+S
+Z
+Q K
+E
+Z
+A
+H J
+W T
+N L
+Z
+S
+S
+Q B
+L
+U
+8
+W A
+T
+J
+K
+L
+U
+form Euracka)
+T
+A U W K
+J
+L
+9
+D
+I
+A W
+I
+N
+F
+A
+I
+F
+D
+I
+W N
+10
+B N
+Y
+P
+V
+T
+T
+Y
+N
+T
+B
+V
+P
+T
+11 M Z
+F
+P
+K W G
+F
+Z
+G M K
+P W
+12
+D
+K
+Z
+X
+T
+J
+C
+Z
+K
+C
+D
+T
+X
+J
+13
+D
+I
+G
+K
+U H U
+G
+I
+U D U
+K
+H
+Step 4.  (Write K4 back into original layout)
+14
+A U
+E
+K
+C
+A
+R
+E
+U R
+A
+C
+K
+A
+NOTE: I don't think this layout has any significance
+a 97 character long string would do as well.
+Eureka !
+Eureka !
+Cut !
+E
+G
+Z
+F
+Y
+A
+T
+S W N
+L
+L
+G
+B U
+I
+K
+Z
+N
+I
+A
+S
+T
+R
+F
+O O O R U C
+G
+T
+F
+U
+Z
+J
+S
+Q B
+B O A D D M B
+D W Q O P W S
+X
+?
+C
+U
+T
+K
+V
+I
+K
+K Q K
+V
+F
+U R
+K
+K
+X
+P
+P W J
+E
+T
+G
+R
+I
+H
+K
+A H
+J W T
+N
+L
+Z
+S
+S
+Q B
+L
+U
+Step 5 (Remove the "?").
+E
+G
+Z
+F
+Y
+A
+T
+S W N
+L
+L
+G
+B U
+I
+K
+Z
+N
+I
+A
+S
+T
+R
+F
+O O O R U C
+G
+T
+F
+U
+Z
+J
+S
+Q B
+B O A D D M B
+D W Q O P W S
+X
+C
+U
+T
+K
+V
+I
+K
+K Q K
+V
+F
+U R
+K
+K
+X
+P
+P W J
+E
+T
+G
+R
+I
+H
+K
+A H
+J W T
+N
+L
+Z
+S
+S
+Q B
+L
+U
+A new K4 ciphertext to play with !
+? Removed

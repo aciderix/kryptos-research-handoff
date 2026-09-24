@@ -1,0 +1,123 @@
+Blaise side of the ensemble :
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+
+.. or -- or .- or -.
+
+.  E
+.. I
+.- M
+-- A
+-. N
+.  E 
+
+e i m a n e
+
+e n i g m a          G                      E
+
+g e r m a n i e      G R E                  A
+
+g e r m a n i u m    G R E U M              E
+
+u r a n i u m        G R E U M U            G E M
+
+u r e u m            G R E U M U E          A N I
+
+e u r e k a          G R E U M U E E K A    M
+
+G R E U M U E E K A E A E G E M A N I M
+
+G R U M U E E K A A E G E M A N I M <-- (so are us).
+
+G E R A N I U M
+
+k o r e a            G R E U M U E E K A O  U E 
+
+o k                  G R E U M U E E K A O  U E R E A              
+
+
+
+
+k o r e a            G R E U M U E E K A O  U E 
+
+j a e k o            G R E U M U E E K A O  J R park
+
+
+G R E U M U E E K A O  S Q  U E R E A
+
+
+Can you see any signal?
+
+-.-- .-.
+ Y    R
+ Q    R
+
+
+.-. --
+010 11
+
+
+01011 = 11 or 26.
+
+
+ITA-2 (Baudot - Murray) example : 
+
+11010  01011
+    G      &
+
+
+01011 decimal decodes to J.
+
+
+KRYPTOS from the Greek word : hidden
+ENIGMA  from the Latin word : riddle
+
+The Army Enigma machine used only the 26 alphabet characters.
+Signs were replaced with rare character combinations.
+A space was omitted or replaced with an X.
+The X was generally used as point or full-stop.
+
+Some signs were different in other parts of the armed forces.
+The Wehrmacht replaced a comma with ZZ and the question sign with FRAGE or FRAQ.
+
+The Kriegsmarine replaced the comma with Y and the question sign with UD.
+The combination CH, as in "Acht" (eight) or "Richtung" (direction),
+was replaced with Q (AQT, RIQTUNG).
+Two, three and four zeros were replaced with CENTA, MILLE and MYRIA.
+
+The Wehrmacht and the Luftwaffe transmitted messages in groups of five characters.
+
+The Kriegsmarine, using the four rotor Enigma, had four-character groups.
+Frequently used names or words were varied as much as possible.
+Words like Minensuchboot (minesweeper) could be written as MINENSUCHBOOT, MINBOOT, MMMBOOT or MMM354.
+To make cryptanalysis harder, messages were limited to 250 characters.
+Longer messages were divided into several parts, each using a different message key.
+
+
+20:42 11-08-2015
+
+
+TWO
+
+Another mathematician, Carl Friedrich Gauss, echoed Archimedes when in 1796 he wrote in his diary,
+
+"EYPKHA! num = t + t + t",
+
+referring to his discovery that any positive integer could be expressed as 
+the sum of at most three triangular numbers.
+This result is now known as Gauss' Eureka theorem and is a special case of what later became known
+as the Fermat polygonal number theorem.
+
+
+The gauss, abbreviated as G or Gs, is the cgs unit of measurement of a magnetic field B,
+which is also known as the "magnetic flux density" or the "magnetic induction".
+
+It is named after German mathematician and physicist Carl Friedrich Gauss.
+One gauss is defined as one maxwell per square centimeter.
+The cgs system has been formally superseded by the SI system,
+which uses the tesla (T) as the unit for B.
+One gauss equals 1 x 10 -4 tesla (100 uT)
+1 T = 10000 G.

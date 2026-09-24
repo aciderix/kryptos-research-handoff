@@ -1,0 +1,22 @@
+## word/document.xml
+ 
+ Numbers and character counts are one of the easier ways to present ideas when dealing with manipulation of cryptographic information, simply because the it ’s dependent only on the size of the message you want to encrypt or the meaning you want to assign. 
+ Character Counts 
+ K1 – 63 
+ K2 – 373 
+ K3 – 336 
+ K4 – 97 
+ K1> HX-63 – A secure French rotor machine designed in 1952 in the vein of many existing cryptographic machines such as Enigma during WWII. 
+ K2> M373 Shift Cipher – No appreciable chronological or contextual relevance. 
+ K3> 336 – The # of character combinations on the 8-rotor Enigma Machine (8x7x6) 
+ K4> Purple aka Typewriter-97 – A Japanese equivalent to Kryha and Enigma Machine during WWII. 
+ Pre-K 
+ The USS Girasol PY-27 was a commissioned private yacht stationed for patrol in Hawaiin waters during WWII. If one wants to stretch a metaphor beyond the obvious connotations, that’s a 26-letter alphabet with a null, a component of Enigma. 
+ WW KNOWS/WW NOHS NOS 
+ There are actually TWO instances of "WW Knows/Nos" in Kryptos , because one is the plaintext that was under K2, while the other is hidden in plain sight. The latter is found on line 2 of K3 – specifically LLSLLS – Morse for WW, followed by the ciphertext "NOHS NOS" If one were to grant that phonemic meaning, it would suggest that WW knows the numbers. Importance of dual interpretation and Enigma link? WW is the prefix to radio messages in the Wermacht weather short signal book that is used as a companion to the Enigma machine… and in part the reason why at least one of the Enigma codes was cracked. 
+ Takeaways: 
+ ~ Purple Cipher 
+ ~ Kryha Cipher 
+ ~ Possible dual interpretation of the directional degrees used in the courtyard exhibit that can be assigned to the Wermacht . 
+ 
+ 

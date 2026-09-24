@@ -1,0 +1,828 @@
+[[page 1]]
+ 
+ 
+Thoughts on Part 4, July 13, 2004 
+Gary Warzin  
+Page 1 
+Thoughts on Part 4 as of July 13, 2004 
+Gary Warzin,  garyw@aslgroup.com 
+ 
+ 
+The Clue Hidden in Part 3 
+ 
+Ed Scheidt made it quite clear that part of the problem to be explored in Kryptos was the delivery 
+of the “key” to an operative in the field.  Looking back at Part 3 it seems extremely likely that the 
+raised Y, A, and R, along with the horizontal grouping of the five letters DYAHR were intended 
+to deliver the key for Part 3.  For details on how that information provides the dimensions of the 
+matrix required to solve Part 3, see KryptosCurrentState2003118.pdf in the Gary’s PDFs 
+section of our Kryptos groups file section. 
+ 
+ 
+Is there similar information hidden in Part 4?   
+ 
+The top nominee for that honor goes to the KR, SO, and YP located in the upper right corner 
+(shown in red below).   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+It is unlikely that six letters from the word KRYPTOS would: 
+ 
+1. End up grouped together in such a prominent location.  (These are in the upper right 
+corner, while the clue for Part 3 was in the upper left corner). 
+ 
+2. Each be paired with a letter that is adjacent in the word KRYPTOS.  (KR, SO, YP) 
+ 
+3. Survive more or less intact after a substitution and/or transposition. 
+ 
+For these reasons it appears that these letters are a clue that was added AFTER the original 
+encryption of Part 4. 
+ 
+Please note that the “T” at the beginning of the 3rd line may or may not be part of this clue.  This 
+is tempting because we are only a single T short of being able to spell KRYPTOS.  And SOT are 
+adjacent letters in KRYPTOS.  For now we will assume that it is there by chance and thus 
+remains part of the message rather than part of the clue.  This may need to be rethought latter. 
+ 
+ 
+What does the clue mean? 
+ 
+There are many possibilities.  We likely won’t know until a solution is found and we can then 
+work backwards.  But here are a few possibilities for your consideration: 
+?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+[[page 2]]
+ 
+ 
+Thoughts on Part 4, July 13, 2004 
+Gary Warzin  
+Page 2 
+ 
+1. Looking at the letters in the order in which they appear in KRYPTOS, the KR and YP 
+read left to right, while SO reads right to left.  Maybe they indicate the direction that text 
+should be put in to (or taken out of) a matrix.  First row – left to right, second row – right 
+to left, third row left to right. 
+ 
+2. KRSOYP (or KRSOTYP) could be a key indicating the order in which columns need to 
+be rearranged, either moving them into KRYPTOS order or, more likely, alphabetical 
+order. 
+ 
+3. Or, just as the raised letters and the grouping in Part 3 provided two clues, maybe the KR 
+SO YP provides both the direction of the text and the order for manipulating the rows. 
+ 
+ 
+The Cipher Text, at this point. 
+ 
+Regardless of the meaning of the clue, the letters KR, SO, and YP are not part of the message.  So 
+the text now reads: 
+ 
+?OBUO XOGHU LBSOL IFBBW FLRVQ QPRNG 
+KSTWT QSJQS SEKZZ WATJK LUDIA WINFB 
+NVTTM ZFPKW GDKZX TJCDI GKUHU AUEKC AR 
+ 
+Again, note that T (shown in red) may or may not be part of the message.   
+ 
+ 
+The Substitution 
+ 
+The substitution seems surprisingly straightforward.  While the IC (Index of Coincidence) 
+produced by the text would seem to rule out a simple substitution in the English language, it 
+should be kept in mind that Scheidt clearly said the message was in English and implied that 
+something might have been done to hide that fact. 
+ 
+There is a very simple technique that is used to solve Caesar ciphers – messages encrypted by 
+simply shifting one alphabet relative to another.  You graph the frequency distribution of English 
+on one piece of paper and the frequency distribution of the message on another and simply slide 
+them relative to each other until you find a good match.  The match, when found, is usually quite 
+obvious. 
+ 
+Through a process of trial and error, using a number of obvious alphabets (straight, reversed, 
+KRYPTOS in one or both, etc.), I eventually found a match that seemed just too good to be true.  
+Given the small size of the sample, the match was absolutely stunning – certainly as good as you 
+would expect to find in a simple Caesar of similar length. 
+ 
+The match is shown in the graph below.  Ignore the RED bars for now; they will be explained 
+shortly. 
+
+[[page 3]]
+ 
+ 
+Thoughts on Part 4, July 13, 2004 
+Gary Warzin  
+Page 3 
+ 
+Distribution Expected in 100 letters of English Text 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+ 
+ 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+ 
+X 
+X 
+ 
+ 
+X 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+X 
+X 
+ 
+ 
+X 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+ 
+ 
+ 
+ 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+ 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+ 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+ 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+X 
+ 
+ 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M
+N 
+Q 
+U 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+V 
+W 
+X 
+Z 
+G 
+H 
+I 
+J 
+K 
+L 
+M 
+N 
+O 
+P 
+Q 
+R 
+S 
+T 
+U 
+V 
+W
+X 
+Y 
+Z 
+A 
+B 
+C 
+D 
+E 
+F 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Distribution of 91 Letters of Kryptos Part 4 Text 
+ 
+ 
+The evidence that this is the correct substitution is, in my opinion, overwhelming: 
+ 
+1. The matches in the peaks and valleys are quite dramatic – especially considering the 
+small size of the sample. 
+ 
+2. The alphabets seem quite appropriate for this puzzle and not in the least bit contrived.  
+The first is simply an alphabet with the word KRYPTOS inserted right after the QU.  
+While the other is a straight alphabet, slightly shifted. 
+ 
+3. Even three of the anomalies, the QT, XE and ZF pairings add credibility to the match.  
+One technique to make the text “look less like English” would be the addition of low 
+frequency letters.  Q was already used as a null at the end of Part 3.  X has been used in 
+previous sections as a paragraph break.  If the goal was to lower the IC, then it would 
+make sense to spread the nulls among several low frequency letters.  Z would be a natural 
+choice.  
+ 
+ 
+Other Evidence? 
+ 
+This is a bit more speculative, but if we were to look back at earlier sections for clues that might 
+provide an operative with the information necessary to construct these alphabets we find: 
+ 
+1. The K and R spelling errors in Parts 1 & 2.  These correspond to Q and U in the plain 
+text.  In our first alphabet, KRYPTOS is inserted right after the QU. 
+ 
+
+[[page 4]]
+ 
+ 
+Thoughts on Part 4, July 13, 2004 
+Gary Warzin  
+Page 4 
+2. The one alphabet in the table side of KRYPTOS that contains an extra letter at the end is 
+the line starting GHI…  that starting point for our shifted alphabet. 
+ 
+ 
+The Text After the Substitution 
+ 
+   
+After making the substitution the text becomes: 
+ 
+?ISUI YIABU FSNIF CZSSR ZFMKL LJMHA 
+ENQRQ LNDLN NXETT ROQDE FUWCO RCHZS 
+HKQQG TZJER AWETY QDVWC AEUBU OUXEV OM 
+ 
+Keep in mind that the Q (shown in red) corresponds to the T that may or may not be part of the 
+message. 
+ 
+ 
+Are the Q and Z nulls deliberately paired with KRYPTOS letters? 
+ 
+I spent a great deal of time working with transpositions that would result in the nulls all falling at 
+the end of the message (with little luck, I might add). 
+ 
+But, what would happen if the nulls had been randomly placed within the text?  The first problem 
+is that the operative would have to have some tool that would let him or her determine which Q 
+and/or Z was a null and which was part of the message. 
+ 
+This is where another amazing “coincidence” occurs. 
+ 
+ 
+?ISUI YIABU FSNIF CZSSR ZFMKL LJMHA 
+ENQRQ LNDLN NXETT ROQDE FUWCO RCHZS 
+HKQQG TZJER AWETY QDVWC AEUBU OUXEV OM 
+ 
+ 
+Eight of the ten “nulls” are directly paired with letters in the word KRYPTOS.  And even the 
+remaining two are adjacent to such pairs.  
+ 
+I can imagine a “rule” for placing the nulls that goes something like this: 
+ 
+Place each null directly adjacent to a KRYPTOS letter.  This will allow the 
+operative to identify the nulls and drop them from the message.  
+ 
+ 
+Following that rule, we can now drop any single null that is paired with a KRYPTOS letter.  This 
+still leaves two ambiguous areas: 
+ 
+
+[[page 5]]
+ 
+ 
+Thoughts on Part 4, July 13, 2004 
+Gary Warzin  
+Page 5 
+?ISUI YIABU FSNIF C SSR  FMKL LJMHA 
+ENQRQ LNDLN NXETT RO DE FUWCO RCH S 
+HKQQG T JER AWETY  DVWC AEUBU OUXEV OM 
+ 
+ 
+The first problem area – QRQ.   
+ 
+If you dropped only one Q, which one would it be?  Should you drop both Qs?  That just doesn’t 
+seem consistent.  If both were to be dropped, why not just pair up the second Q with a different 
+KRYPTOS letter? 
+ 
+There is yet another possibility.  The first Q corresponds to our mystery “T” that may or may not 
+be part of the text.  If that Q wasn’t there, then there is no ambiguity in this situation.   
+ 
+So, rethinking the original clue, let’s include the T, making the clue KR SOT YP and 
+simultaneously eliminating our current problem. 
+ 
+ 
+The second problem – KQQ.   
+ 
+Well, if our rule for the placement of the nulls is correct, there does have to be a method of 
+handling a natural Q or Z that appears in the text and just happens to be next to a KRYPTOS 
+letter.  (Not an unlikely event considering that many of the letters in KRYPTOS have a 
+reasonably high frequency). 
+ 
+The most straightforward technique would seem to be simply placing one of the nulls next to the 
+natural pair.  This way the null Q would be dropped, while the real Q remains. 
+ 
+Note that this would require that the null Q be placed adjacent to the natural Q (as in KQQ), not 
+adjacent to the KRYPTOS letter (as in QKQ).  The latter would leave an ambiguity that could 
+result in either KQ or QK remaining.     
+ 
+ 
+The final text – prior to the transposition. 
+ 
+Applying these guesses to the two problem areas we are left with the following message: 
+ 
+?ISUI YIABU FSNIF CSSRF MKLLJ MHAEN 
+RLNDL NNXET TRODE FUWCO RCHSH KQGTJ 
+ERAWE TYDVW CAEUB UOUXE VOM 
+ 
+And a “key” to work with of: 
+ 
+KR SOT YP 
+ 
+Of course I could be wrong. ☺  

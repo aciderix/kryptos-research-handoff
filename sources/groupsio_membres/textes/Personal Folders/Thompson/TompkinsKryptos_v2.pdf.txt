@@ -1,0 +1,563 @@
+[[page 1]]
+PETER TOMPKINS 
+AND KRYPTOS
+Photo © Loren Coleman, Cryptomundo, Jan 2007
+A study of shared secrets
+Dr Randy Thompson
+Version 2.0, May 2010
+An APEX Theory Supplemental Report 
+1
+
+[[page 2]]
+PETER TOMPKINS AND KRYPTOS
+A study of shared secrets
+Dr Randy Thompson
+Version 2.0, May 2010
+Introduction
+Peter Tompkins passed away in January 2007, about a year and a half after I had ﬁrst learned 
+about Kryptos.  That would have been just about the time that I was entertaining the no-
+tion that Kryptos was a giant enigma machine, with rotors somehow deﬁned by the plain-
+text of the previously solved sections.  Of course that notion led precisely to nowhere, but I 
+was determined to never give up trying until Kryptos was solved (most likely not be me, I 
+realized).  I was captivated by the Kryptos mystery, enthralled by the sense of secrets and 
+challenges, and compelled to “play spy” even if only in the context of a harmless puzzle.
+Until the fall of 2009, I was oblivious to Peter Tompkins, and even then I only knew him as 
+the author of Secrets of the Great Pyramid,1 a book that I had identiﬁed as having possible 
+relevance to Kryptos.2  I purchased the book on Amazon.  It was several months later that I 
+decided to look as closely at the author as I did the book, and I was absolutely ﬂoored. 
+What I discovered - when I ﬁnally bothered to look - is that Peter Tompkins was a spy.  
+And when I say that he was a spy, I’m not talking about some rogue employee in a com-
+partmentalized program who decided to become a traitor, a la “Falcon and the Snowman”.  
+This man was an honest-to-goodness ﬁeld agent hand-selected by General “Wild Bill” 
+Donovan himself to direct the OSS eﬀorts as an undercover agent behind enemy lines in 
+Rome during World War II.  Tompkins thereby contributed to the success and future of the 
+OSS, which later became the CIA.  (General Donovan has been referred to by some as the 
+“father of the CIA”, and his men were known as his “shadow forces”.)
+Fascinated by this discovery, I obtained a copy of Tompkins’ book, A Spy in Rome,3 which is 
+basically the diary of his espionage operations in Rome.  Picture a James Bond novel, com-
+plete with nerve-wracking scenes where Bond is in the company of dangerous enemies who 
+don’t know who he is.  Now imagine that the story is written in ﬁrst person, from Bond’s 
+point of view.  Next, imagine that Bond does not present himself as superhuman, unafraid, 
+and without ﬂaw.  Rather, you feel his emotions, his fears, his insecurities, his losses, and his 
+triumphs.  Finally, imagine that it is a true story.   That’s A Spy in Rome.   It is an absolutely 
+riveting cloak-and-dagger story, and you should run (don’t walk!) to your computer to order 
+this out-of-print book from Amazon, Alibris, or eBay.  
+An APEX Theory Supplemental Report 
+2
+
+[[page 3]]
+This book was published in 1962, around the time that a young Ed Scheidt began working at 
+the CIA primarily in operations and ultimately as head of the CIA Cryptographic Center.  
+I’d say the odds are fairly good that Scheidt has read Tompkins’ book, although I can’t be 
+certain.  Regardless, it is inconceivable to me that Scheidt could possibly have been unaware 
+of Tompkins’ exploits as a gatherer, exploiter, and clandestine disseminator of information.
+Peter Tompkins was a brave patriot, an accomplished author, a gatherer of information, a 
+keeper of secrets, and a master of clandestine operations and communications.  He was the 
+very deﬁnition of a “spy”, at a time and place when being caught meant a quick death if you 
+were lucky.  By contrast, Kryptos is a game that some people are playing; a kind of brain 
+teaser on super steroids.  I am humbled by the comparison between Peter’s sacriﬁces for the 
+sake of his country and my sacriﬁces for the sake of entertainment and (perhaps) notoriety.  
+I do need to state for the record, however, that around 1972 the works of Peter Tompkins 
+seemed to undergo a signiﬁcant transformation from the factual (A Spy in Rome, 1962) and 
+the speculative but still balanced (Secrets of the Great Pyramid, 1971) to the philosophical, bi-
+zarre, and occult (Secret Life of Plants,4 1973).  Perhaps the immense popularity of the pyramid 
+book - combined with other popular 1970’s distractions -  got the better of him.  (I am try-
+ing to be diplomatic.)  Regardless of how one feels about the life and works of Peter Tomp-
+kins after that transformation, I don’t think it detracts from the hero he was.  Furthermore, 
+it doesn’t preclude the possibility that one or more of his books were referenced in the de-
+sign of Kryptos.
+An APEX Theory Supplemental Report 
+3
+
+[[page 4]]
+I wish that I had met Peter Tompkins and had a chance to get to know him.  I suppose that 
+by reading some of his books, I have at least come into contact with his legacy; I have 
+known a shadow of who he was.  I guess that I have Kryptos to thank for that.   
+“Secrets” of Peter Tompkins
+The following biography, including the image, was extracted from a post by Loren Coleman 
+on Cryptomundo, January 24, 2007:5
+“Peter Tompkins was born April 19, 1919, in Athens, Georgia, but 
+spent much of his childhood in Rome a%er his parents moved there to 
+study art. His father was a sculptor; his mother, a painter. Schooled in 
+France, Italy and Switzerland, Tompkins returned to the United States 
+to attend Harvard Co'ege, but le% early to become a war correspon-
+dent for the New York Herald Tribune and NBC.
+“In 1941, Tompkins was recruited by “Wild Bi'” Donovan to join the 
+U.S. Oﬃce of Strategic Services, the precursor to the CIA. He served 
+as deputy to the chief of psychological warfare during the British-
+American invasion of north Africa in November 1942, as part of Op-
+eration Torch...
+“One of the ﬁrst missions of Donovan’s spy organization was Operation Torch, the invasion of North Af-
+rica, and Coon worked with Peter Tompkins. Carleton Coon was in charge of Torch and the aﬀair was 
+such a success that it insured the future of the OSS. OSS’s leadership, who were later connected to the 
+Central Inte'igence Group, then the Central Inte'igence Agency, would never forget Coon for his con-
+tributions to the budding American inte'igence community. Tompkins too became linked to spy work for 
+several years and was thought of very highly within the OSS... 
+“With paramilitary, parachute and secret radio training, Tompkins was sent to Salerno in southwestern 
+Italy in 1943 to inﬁltrate agents into enemy territory.  Tompkins spent ﬁve months ﬁling inte'igence by 
+secret radio and promoting partisan activities before being transferred to Berlin to spearhead OSS ac-
+tivities there. He was OSS Oﬃcer in Charge, Rome Area, and a%er the liberation of Italy moved on to 
+spy in France and Germany...
+“Tompkins later wrote mainstream magazine articles and numerous books, including The Secret Life of 
+Plants, (written with another shadowy ﬁgure, Christopher Bird, with whom he wrote other works), 
+Secrets of the Great Pyramid, Mysteries of the Mexican Pyramids, The Magic of Obelisks, A Spy in 
+Rome and Italy Betrayed.”
+An APEX Theory Supplemental Report 
+4
+
+[[page 5]]
+Note the list of books at the end of the biography.  Peter Tompkins was a man obsessed with 
+secrets, mysteries, and (in later years) hidden forces of nature and other occult and/or new 
+age stuﬀ.  (No value judgments here.)  Actually, an important book, Secrets of the Soil,6 is miss-
+ing from the above list.  I’ll be mentioning that book again in a later section.  
+Meanwhile, let’s consider the book that opened this door of study to me: Secrets of the Great 
+Pyramid.  Published in 1971, this book was a huge hit.  In it, Tompkins does a fantastic job of 
+providing a comprehensive view of research performed across the centuries regarding the 
+Great Pyramid of Cheops.   Detailed facts, measurements, and numerous theories (many of 
+them competing) are presented in a way that even a layman can appreciate.  While Tomp-
+kins does present some of the more unlikely and arcane beliefs held by others he does not 
+strongly endorse them in this book.
+An APEX Theory Supplemental Report 
+5
+
+[[page 6]]
+If the content of this book doesn’t clearly reveal how much research went into it, a brief pe-
+rusal of its lengthy bibliography will.  Peter Tompkins went to great lengths to gather infor-
+mation for this book.  In 1971, the internet was called “the library”, and it is no mystery 
+which library Tompkins preferred for the purpose.  The ﬁrst paragraph of the “Acknow-
+ledgements” section of Secrets of the Great Pyramid reads as follows:
+“My ﬁrst debt is to the courteous and eﬃcient staﬀ of the Library of Congress, whose in-
+stitution - along with those of other helpful librarians around the world - made the re-
+search for this book a delight instead of an ordeal;  they are a better and cheaper invest-
+ment for our future than more weapons of destruction.”
+The “Acknowledgements” section then proceeds to mention numerous individuals that con-
+tributed a great deal to Tompkins’ eﬀorts.  So apparently, in the years leading up to 1971, Pe-
+ter Tompkins spent a great deal of time at the Library of Congress.  Indeed, it is easy to 
+conﬁrm this by Googling the term “Peter Tompkins” “Library of Congress”  with the quotation 
+marks included.  Of note, there are these quotes obtained:
+“Unlimited access to the stacks of the Library of Congress a'owed me to rewrite, -om 
+sources more rational and better informed, a' manner of history, both recent and an-
+cient, deliberately distorted by establishmental hacks.”
+-Peter Tompkins’ own website at http://www.odeion.org/petertompkins/
+“Peter Tompkins' search into this secret world was mostly conducted in the bowels of the 
+Library of Congress, where little Ptolemy [Peter’s son] o%en accompanied him. Together 
+they trod the underground corridors of power, dividing their time between Capitol Hi' 
+and the suburb of Maclean, near the Langley HQ of the CIA, then fu'y engaged in its 
+own subterranean activities. Behind those neat lawns and prim letterboxes, secrets 
+seethed.”
+-Ruth Braden book review of “Secret Life of Parents” by Ptolemy Tompkins 
+So in the late 1960’s to early 1970’s, at least, Peter Tompkins enjoyed unlimited access to the 
+stacks of the Library of Congress and spent a great deal of time there (otherwise, he was 
+near Langley).  Given that he had been granted such privileges, used them extensively, and 
+made it his ﬁrst debt to acknowledge the staﬀ, I ﬁnd it most probable that Peter Tompkins 
+had at some point made the acquaintance of Herbert J Sanborn Sr, Chief of the Exhibits 
+Oﬃce at the Library of Congress, and father of Jim Sanborn.  Perhaps the two were even 
+friends at one time, but that is pure speculation.  
+An APEX Theory Supplemental Report 
+6
+
+[[page 7]]
+As I described earlier, Tompkins’ work took a signiﬁcant turn towards the fringe with the 
+publication of The Secret Life of Plants in 1973 (with Christopher Bird).  In 1989, Tompkins 
+and Bird teamed up again to produce Secrets of the Soil,  a New Age version of organic farming 
+(to put it mildly).  Later we’ll delve more deeply into this latter book, but for now I’ll make a 
+high level observation:  if you strip away some of the more esoteric layers of these publica-
+tions, what remains is an indictment of modern biotech and a philosophical treatment of 
+how we can harness nature’s hidden forces to do a better job using our land.  (The speciﬁc 
+proposals of how to do so are the controversial aspects.)   That sounds a bit like Jim San-
+born’s modus operandi, minus the fringe science, of course.  Here is an interesting quote 
+that suggests that Sanborn shares Tompkins’ low opinion of biotech:
+“[Adam Lerner, director of the Museum of Contemporary Art] sees a connection be-
+tween Sanborn and some of today's artistic activists, who incorporate real science into 
+their art to drive home a political point -- about the failings of biotech, maybe, or the 
+way we use our land. Yet there's a diﬀerence: Sanborn's work never preaches, it just 
+shows.
+"What is the comment? You don't know," Lerner says. "That is what makes it so good."”
+-Blake Gopnik, Sparking Interest Within the Sphere of Art, Washington Post , Aug 25, 2009
+And so we have established potential connections between Peter Tompkins, Ed Scheidt, 
+Herbert J Sanborn Sr, and Jim Sanborn himself.  If that’s all I had turned up at this point, I 
+wouldn’t have bothered with this report.  But that is not all.  Not nearly.
+We are now going to dive into Kryptos itself to see whether there are any connections to 
+the works of Peter Tompkins.
+“Secrets” of Kryptos
+There is an old joke, usually told by aging Physics professors to young Physics students, that 
+goes something like this:  
+A farmer thinks that his chickens may be i', and he ca's a biologist, a chemist, and a 
+physicist to help him get to the bottom of it.  A%er some observation, the biologist says “I 
+can te' you for sure that there’s something wrong with the chickens, but I don’t know 
+what it is.”   The chemist did some blood work and announced, “I can te' you what in-
+fection your chickens have, but I don’t know how they contracted it.”  Meanwhile, the 
+Physicist had just been sitting there writing furiously in his notebook.  Suddenly, he 
+An APEX Theory Supplemental Report 
+7
+
+[[page 8]]
+jumped up and shouted, “I have the answer, but it only works for spherical chickens in a 
+vacuum!”
+Well, I do remember that I thought it was funny when I was the young physics student, but 
+I don’t really think it’s that funny now.  The moral of the story is that sometimes, when a 
+problem is very complicated, it can help to ignore some of the ﬁner detail and focus on the 
+big picture.  The key is knowing what you can ignore and when.  Kryptos is no diﬀerent.  
+Considering the sheer number of interesting aspects of the artwork, including the plain text 
+deciphered so far, there are so many details that one can easily get overwhelmed if (s)he tries 
+to take it all in at once.  For one thing, not everything that seems interesting will ultimately 
+be signiﬁcant (and/or useful).  For another, the things that are signiﬁcant and useful may 
+have to be interpreted and used in the proper order.
+How well I recall the early days of my work on Kryptos:  having new, wild ideas sometimes 
+in the middle of the night; thinking “oh my God, that HAS to be it”; lying in bed sleepless, 
+suddenly paranoid that someone else has probably had the same idea as me at almost the 
+same instant; losing sleep until I ﬁnally got up and tested my theory in order to beat the 
+other guy to the punch.  I knew better than to present something like that prior to testing it 
+myself, and the quick ideas always failed.  So I was quiet in the Kryptos community for the 
+better part of three and a half years.  Patiently listening, I wish I had a dime for every time 
+someone in the community opined “K4 is probably really simple, and it will shock us with 
+how it was right there under our noses, but nobody thought of it the right way” or “just keep 
+turning over every rock”.  
+Then slowly, surely, my appraisal of Kryptos changed.  I began to accept that Kryptos might 
+require hard work.  I’m not talking “hard” as in “trying a bunch of diﬀerent things until 
+something worked and the answer popped out”.  I mean “hard” as in “meticulously going 
+through hypotheses and thought experiments, analyzing clues and noticing signs”.  (To mix 
+some metaphors, Kryptos is like one of those carnival games that is extremely hard to win 
+and yet is designed to seem as if you almost win on any given attempt, thus luring you on.)  I 
+began to iteratively ignore some clues in favor of others, making the chicken as spherical as 
+it could be and seeing where it got me.  And slowly I made progress, and APEX Theory took 
+form.
+Note: By the way, even though I came upon the fascinating things presented here while try-
+ing to extend APEX Theory, the discoveries are supplementary and independent.  That is, 
+they work hand-in-hand with my theory and even advance it, but they also stand on their 
+own merits.  So anybody that doesn’t especially like APEX Theory still may ﬁnd these ideas 
+attractive.  
+An APEX Theory Supplemental Report 
+8
+
+[[page 9]]
+Anyway, as I said in the introduction, I was oblivious to Peter Tompkins until the Fall of 
+2009, and even then I only knew him as the author of Secrets of the Great Pyramid, a book 
+that I had identiﬁed as having possible relevance to Kryptos.  Little did I know at the time 
+that what I had in my hands was the very heart of the “spherical chicken”.  In other words, I 
+strongly believe that various elements of Kryptos (i.e. not just the sculpture itself) contain 
+numerous parallels to the works of Peter Tompkins, and that these parallels were inten-
+tional.  
+Let’s begin with the parallels related to the Great Pyramid:
+K R Y P T O S
+G R E A T P Y R A M I D
+ 
+• There is a chunk of limestone on the 
+ground next to the Kryptos sculpture
+• From page 1 of Secrets of the Great Pyramid, 
+the Great Pyramid is made of limestone
+• “Polished red granite” was also used by 
+Sanborn at the CIA (quoting a description 
+found at the  CIA website)
+• From page 15 of Secrets of the Great Pyramid, 
+the “King’s Chamber” of the Great Pyra-
+mid was made of “polished red granite”
+An APEX Theory Supplemental Report 
+9
+
+[[page 10]]
+K R Y P T O S
+G R E A T P Y R A M I D
+• There is a “Khufu-looking-pyramid” struc-
+ture in the strata, according to Monet’s 
+Kryptos Observations.  (Red circle denotes 
+the missing apex.)
+• “Khufu” is just another name for “Cheops”, 
+the theorized creator of the Great Pyramid
+• The Great Pyramid has been missing its 
+apex since written records began.  Unfor-
+tunately, the oldest records are nowhere 
+near as old as the pyramid itself, so 
+whether the apex was ever ﬁnished or (if 
+so) what happened to it is still a mystery
+• Curiously, one of Jim Sanborn’s quotes re-
+garding the fourth part of Kryptos says, 
+“The ﬁnal part is obviously the, you know, 
+the apex of the pyramid there.”
+• The plaintext of K3 originates from Car-
+ter’s book about King Tut’s Tomb (in an-
+cient Egypt)
+• K3 and K4 are suggestively paired together 
+and apart from the rest, on a subsequent 
+Kryptos-related Sanborn piece known as 
+“Antipodes”.  This suggests a common 
+theme, e.g. ancient Egypt
+• Obviously, the Great Pyramid ﬁts the “an-
+cient Egypt” theme
+• Two other Kryptos materials, petriﬁed 
+wood and copper were also found in the 
+Great Pyramid
+Now let’s consider another Tompkins book entitled Secrets of the Soil, published in 1989 just 
+before Sanborn and Scheidt were working out encryption methods for Kryptos.  I became 
+interested in this book only because of the possible relationship between its abbreviation 
+(SOS) and the similar clue in the Morse Code.  So I searched around on the internet to get 
+more information about the various editions of this book.  (Yes, I know that in Morse Code 
+"SOS" is a prosign as opposed to an acronym, but in popular culture the distinction has been 
+blurred, and I can't say with certainty that Sanborn wouldn't have "gone there" with his 
+An APEX Theory Supplemental Report 
+10
+
+[[page 11]]
+hint.)  Nevertheless, I found some things that made the connection far more compelling.  
+First of all, the UK version of the First Edition has a very interesting dust jacket: 
+Note that the image contains a cross section of ground, with some plant parts and soil, but 
+it also contains a huge "SOS" turned sideways and heading down into the ground.  Not only 
+does this seem to be a curious link to the "SOS" in the Morse, but it also resonates well with 
+the plaintext snippet from K2, "The information was gathered and transmitted under-
+ground."  I always wondered why anyone would "transmit" anything into the ground.  Per-
+haps now I know.  Indeed, if one reads the book, there is a chapter that discusses the use of 
+electromagnetic energy transmitted into the ground for the purpose of eliminating certain 
+An APEX Theory Supplemental Report 
+11
+
+[[page 12]]
+pests.  Intrigued, I purchased a used copy of Secrets of the Soil from Alibris, and found many 
+more parallels to Kryptos:
+K R Y P T O S
+S E C R E T S O F T H E S O I L
+ 
+• There is a small whirlpool near the foot of 
+the Kryptos sculpture, positioned even 
+closer to the copper plate than the chunk 
+of limestone.  This image was captured 
+from a video playing at “The Kryptos Pro-
+ject”,  a Kryptos webisite by Jew-Lee Lann
+• Secrets of the Soil contains a chapter entitled 
+“Vortex of Life” regarding the hidden pow-
+ers of vortices.  There is even a section on 
+the power of whirlpools.  This image comes 
+from page 107, in that section
+      
+• Regarding the whirlpool at the foot of the 
+Kryptos sculpture , Jim Sanborn wrote
+“In a sma' pool on the plaza, 
+partly surrounded by the copper 
+plate, water wi' be turbulent 
+and provocative, constantly agi-
+tated into standing waves.”
+-Jim Sanborn letter to Agency, From Gary 
+Phillip’s Realm of Twelve site
+• Note the similarity in words used to de-
+scribe the whirlpools (bold letters)
+• Regarding the power of whirlpools, Peter 
+Tompkins wrote
+“Flanagan realized the same cos-
+mic energies could be captured in 
+water undergoing turbulent 
+chaotic movement or vortical 
+ﬂow and - most important - that 
+these energies would remain in 
+the water a%er the ﬂow has ceased 
+until the water was again agi-
+tated violently enough to dis-
+rupt them.”
+-Peter Tompkins, Secrets of the Soil, Page 108
+An APEX Theory Supplemental Report 
+12
+
+[[page 13]]
+K R Y P T O S
+S E C R E T S O F T H E S O I L
+• There is a mysterious “Green Blob” sur-
+rounded by a copper-colored region “be-
+hind” the Kryptos sculpture.  This image 
+comes from Monet’s Kryptos Observa-
+tions
+• The “Green Blob” resembles this black and 
+white image (at right) of a copper chloride 
+“Chromatograph” of a “biodynamic” mate-
+rial known as BD500.  This image was ex-
+tracted from the lower right part of a ﬁg-
+ure on page 300 of Secrets of the Soil
+• The plaintext of K4 is said (by those who 
+supposedly have been shown it) to be 
+philosophical and abstract
+• Sanborn’s artwork typically involves hidden 
+natural forces such as magnetism, the Co-
+riolis eﬀect, etc.
+• Secrets of the Soil would do quite nicely as a 
+source for philosophical and abstract mate-
+rial, if a book code were used
+• Secrets of the Soil is also replete with theo-
+ries about hidden natural forces, which are 
+part of Sanborn’s typical theme
+Finally let’s consider another Tompkins book entitled The Magic of Obelisks,7 published in 
+1981.  I mention this one last because I have only recently (May, 2010) discovered surprising 
+Kryptos relevance.
+An APEX Theory Supplemental Report 
+13
+
+[[page 14]]
+It is a well known fact that the strata and the pond placed in the courtyard by Sanborn form 
+a nearly perfect line with the Kryptos sculpture itself.  Furthermore, according to notes 
+taken by Elonka Dunin, Sanborn has conﬁrmed that “the front-entrance pieces were sup-
+posed to parallel something in the courtyard, but [he] was surprised and a bit disappointed 
+when it appeared that they did not.”  From overhead imagery, it is easily conﬁrmed that the 
+front-entrance pieces are nearly parallel with the line formed by the courtyard pieces and 
+the Kryptos sculpture.  So one might wonder why Sanborn went to the trouble of forming 
+these lines.  We are clearly supposed to take notice, else why form the parallels?  What do 
+the lines indicate?  Where are they pointing?  To answer that question, I utilized the linear 
+mensuration feature provided by Google Earth.  I started by drawing a line from the center 
+of the Kryptos sculpture, through the (approximate) center of the two courtyard strata and 
+along the straight edge of the courtyard pool.  Here is a screen capture of that line:
+An APEX Theory Supplemental Report 
+14
+
+[[page 15]]
+Next, I extended the line out across the Washington DC area, like this:
+I found it interesting that the line passed through the National Mall, so I stopped there.  
+The image below is a close up of where I stopped.  You can see that the line passes perfectly 
+through the Washington Monument.  Sure I realize that at such a scale and distance, one 
+can take some liberty with regard to where they move the right endpoint without severely 
+damaging the linear alignment with the courtyard structures.  If you experiment a bit with 
+slight changes of slope, your line can pass through other features at the National Mall, but 
+the center of the narrow “cone of uncertainty” passes through the Washington Monument.
+An APEX Theory Supplemental Report 
+15
+
+[[page 16]]
+Knowing that Tompkins had written a book called The Magic of Obelisks, I again went to the 
+internet for some information about it.  Here is a picture of the dust jacket:
+An APEX Theory Supplemental Report 
+16
+
+[[page 17]]
+See anything familiar in that image?  Alright, well, a cute correspondence to the Washington 
+Monument may not be enough, but the linear alignment between the Kryptos sculpture and 
+the courtyard elements is no accident.  I have tried to ﬁnd a good solid review of this book 
+on the internet, but the most I can come up with is that it is concerned with Egyptian writ-
+ing and (somehow) Free Masonry.  That’s not really much of a surprise, I guess, given the ti-
+tle.  I’m also a little chagrined because this ﬁnding smacks a bit too much like the latest Dan 
+Brown novel, which is clearly a work of ﬁction.  But I am just following the clues here, and 
+even though they are starting to sound a lot like ﬁction, it seems like I must take note.  I 
+have ordered this book from Amazon.
+Conclusions
+This report details numerous potential connections between Peter Tompkins and Kryptos.  
+Tompkins was an OSS spy that had an impact on the history of the CIA, wrote an espionage 
+book that was most likely known to both Sanborn and Scheidt, and probably had (at least) a 
+professional relationship with Jim Sanborn’s father.  Tompkins’ subsequent books contain 
+material that is rich with parallels to various elements of Kryptos and quotes by Jim San-
+born.  No other treatment that I have seen explains so many Kryptos elements in one sim-
+ple coherent thesis:  Kryptos is based upon the literary works of Peter Tompkins.
+Perhaps not all of these discoveries are meaningful, but I am inclined to believe that the net 
+result is that Kryptos indeed contains references to works by Tompkins.  And as long as we 
+are entertaining the notion that such references exist, we might as well wonder why.  When 
+asked how many encryption techniques were used in Kryptos, Sanborn responded “maybe 
+ﬁve or six”.   Is it a stretch to consider that a book code - one of the most mysterious and 
+alluring of the encryption methods - is one of them?  Given that APEX Theory strongly 
+suggests that a book code is required, I already have my answer.  But for those of you who 
+don’t subscribe to APEX Theory, you could at least consider the ramiﬁcations of these new 
+ﬁndings.  Perhaps you can use them as a springboard for your own studies. 
+In the next section, I merge this work with APEX Theory to form a plan of action that I 
+believe will result in the ﬁnal solution.   Opponents of APEX Theory can tune out now.
+An APEX Theory Supplemental Report 
+17
+
+[[page 18]]
+Addendum:  Connection with APEX Theory
+Last summer, I had been working on K4 for about four years, and I presented a multi-step 
+process (called “APEX Theory”) which I believe will ultimately lead to the solution.  Rather 
+than clutter up this report with the details, I’ll refer you to APEX Theory via this link.
+By last fall, I had already concluded that K4 probably employs a book code and that the 
+topic might somehow be related to the Great Pyramid of Cheops.  To my initial delight, a 
+Google search yielded a treasure trove of results, and my imagination was sparked by each 
+and every one.  But eventually, as I saw that the possibilities were far too many to explore in 
+a lifetime, my delight changed into dismay.  I realized soon enough that I was highly unlikely 
+to ever guess exactly which book I needed for a potential attack, but I consoled myself with 
+the fact that it would be fun to learn a little bit more about the topic.  So I obtained a copy 
+of Secrets of the Great Pyramid, and I commenced reading.   My selection of that particular 
+book was based on several things, including its immense popularity, its vintage (not so old as 
+to be out of print and rare, like some of the others that emerged from the Google search, 
+but not so new that it is post-Kryptos) and because of the brief description of its subject 
+matter, which seemed to be spot-on.  I ﬁgured that these qualities made it an excellent can-
+didate for use in a puzzle such as this.  But my selection had nothing to do with the author, 
+who I ﬁgured was just some scholarly gentleman who writes intriguing historical books.  So 
+imagine my surprise when I discovered that “scholarly gentleman” had been an undercover 
+operative for the OSS in World War II, who sent intelligence via secret radio, and who also 
+played a critical role in the (pre)history of the CIA, all facts that were most likely known to 
+Ed Scheidt.  And I had one of his books in my hands for months, for entirely diﬀerent rea-
+sons!  That’s a pretty steep coincidence.  And that coincidence led me to investigate further, 
+resulting in the many more coincidences that I have presented here.  Sure, I realize that 
+meaningless coincidences are a dime a dozen, but when multiple coincidences emerge from 
+one simple premise, that is something that shouldn’t be ignored.
+I’m thinking that this Tompkins connection has done two things: it has conﬁrmed that my 
+line of reasoning in APEX Theory is fairly close to the mark, and if a book code is really the 
+answer then it has also decreased my search space from millions of possible source texts 
+down to a manageable number.  I consider conﬁrmation of my reasoning and a signiﬁcant 
+reduction in search space to be a major breakthrough, and I have posted that opinion on 
+various message boards.
+Combining the discoveries presented here with the book code conclusion of APEX Theory, 
+I believe that one of the three Tompkins books discussed above (i.e. A Spy in Rome, Secrets 
+of the Great Pyramid, or Secrets of the Soil) is possibly the source.  My current favorite is Secrets 
+of the Soil because of the presence of “SOS” as the last clue in the Morse Code and because 
+An APEX Theory Supplemental Report 
+18
+
+[[page 19]]
+of the proximity of the whirlpool to the sculpture.  My second favorite is A Spy in Rome be-
+cause of the three books it is the most relevant to the CIA and yet is not referenced at all.  
+(Perhaps the last challenge is to put all of the pieces together to ﬁnd Tompkins and then 
+take the ﬁnal step to relevance.)  The other book, Secrets of the Great Pyramid, is left as the 
+least likely candidate due to (1) the location of its reference in the interior of the Morse 
+clues rather than at the end, and (2) the relative distance from the sculpture to the elements 
+that reference these books (i.e. the whirlpool is closer than the limestone piece).
+In APEX Theory, K4 is deconstructed using various clues and signs, and the result is a se-
+quence of 48 characters that I refer to as the “APEX Sequence”.  Actually, there are three 
+variants of the APEX Sequence that arise from minor variations of a convention used in step 
+9.  These variants, with diﬀerences colored in red, are...
+APEX 1:
+“EBXAJRAAJPPBEHBLDVEPEXXDXOVFXPARFZPEFACAGPEDPRXN”
+APEX 2:
+“EBLAJRAAJPPBEHBLDVEPEAXDXOVFXPARFZSEFACAGPEDPRXN”
+APEX 3:
+“EBLAJRAAJPPKEHBMDVEPEAXDXOVFXPARFZSEFACAGPEDPRXN”
+To complete the solution of K4, I believe we need to group the characters in pairs or trip-
+lets, yielding either 24 or 16 words, respectively, extracted from the appropriate book.  If 
+done properly, this may result in a message of the expected length (around 100 characters).  
+But a complication arises in that there are numerous ways one could use the APEX se-
+quences to index into a book, and it’s possible that another transposition of characters or 
+words is also required.  I can conceive of over a hundred possible combinations of steps that 
+may still be needed (not to mention the ones I have yet to conceive of) and since I don’t 
+have any of these books in digital form, each combination will involve some manual eﬀort.
+I now have copies of the potential books, and I am preparing for a focused study in early 
+April.  (I usually only have a few hours per month to pursue Kryptos ideas, but upcoming 
+events are providing me an opportunity to spend about 9 days of signiﬁcant focus.)   Be-
+tween now and the study period, I’ll contemplate the possible existence of more clues in or-
+der to constrain the search space.  I will document my ﬁndings and report them sometime 
+in April 2010.  Stay tuned.
+An APEX Theory Supplemental Report 
+19
+
+[[page 20]]
+Update:  you are reading version 2 of this report.  As it turns out, I didn’t spend nearly as 
+much time working on Kryptos as I had hoped.  However, I did get a chance to try several 
+diﬀerent approaches for transforming the APEX sequence (and its variants) into numerical 
+pairs and triples.  I had hoped to ﬁnd some unlikely signatures that were suggestive of a 
+book code application, but nothing stood out as obvious.  Given my less-than-expected 
+study time, I was reluctant to just start trying out random indexing schemes into physical 
+books.  So there is no success to report at this time.
+Recently, I’ve also been wondering about the possibility that these Tompkins parallels are 
+relevant to K5 (i.e. the mystery that comes after the code is cracked).  If it weren’t for the 
+fact that the APEX sequence fairly shouts the word “apex”, and that coupled with the RQ? 
+is what led me to Tompkins, I would consider whether the curious relationships docu-
+mented herein were ONLY relevant to K5 and NOT to K4.  But the coincidence is just too 
+mighty to believe that.
+Perhaps the Tompkins angle is necessary for both K4 and K5.  After reading “Secrets of the 
+Soil” and some of Sanborn’s quotes about his feelings towards the CIA (for instance, that 
+they shouldn’t “take things so seriously”) I can see all kinds of interesting connections to the 
+rather eccentric beliefs of Peter Tompkins.  And, by the way, I’ll venture one (tongue-in-
+cheek) prediction:  The thing that Sanborn buried at Langley will be found just beneath the 
+“Green Blob”.  You see, that “green blob” is a representation of the chromatograph of 
+BD500, a new age material that is supposed to do wonders for your soil.  And there is only 
+one way to make BD500... you make it by ﬁlling up a desiccated cow horn with cow manure, 
+and you bury it underground.  
+BIBLIOGRAPHY
+(1) Tompkins, Peter. “Secrets of the Great Pyramid.”  New York: Harper & Row, 1971.
+(2) Thompson, Randy. “The APEX of Kryptos.”  http://www.freeverse.com/apexo)ryptos, 2009.
+(3) Tompkins, Peter. “A Spy in Rome.” New York: Simon and Schuster, 1962.
+(4) Tompkins, Peter and Bird, Christopher. “The Secret Life of Plants.” New York: Harper & Row, 1973.
+(5) Coleman, Loren. “Peter Tompkins Dies.” http://www.cryptomundo.com/cryptozoo-news/tompkins-obit/, 2007.
+(6) Tompkins, Peter and Bird, Christopher. “Secrets of the Soil.” London:Viking, 1989.
+(7) Tompkins, Peter. “The Magic of Obelisks.” New York: Harper & Row, 1981.
+An APEX Theory Supplemental Report 
+20

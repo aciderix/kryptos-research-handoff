@@ -1,0 +1,228 @@
+[[page 1]]
+Kryptos - Background, Copyright © 2003 by Gary Warzin
+Page 1
+Kryptos – Background
+Including Updated Information on Part 3
+Gary Warzin
+Audiophile Systems, Ltd.
+8709 Castle Park Drive  •  Indianapolis IN 46256
+Phone: 317-841-4100  •  Fax: 317-841-4107
+ garyw@aslgroup.com
+Confidential – Not for Public Distribution
+This document is for the private reading of members of the Kryptos Group (see
+http://groups.yahoo.com/group/kryptos ).  Please do not distribute it to others.  If you know
+someone that would be interested in reading this, encourage them to join the group.
+Background
+Credit for much of what is known about Kryptos must go to two people.  As far as I am aware
+Douglas Gwyn is the first person to have publicly posted an accurate transcription of the text
+contained on the sculpture.   Jim Gillogly was the first to post a solution to the first three parts.
+While someone within the CIA had solved the same three parts slightly earlier, this was not made
+public until after Mr. Gillogly announced his solution.  Thus is it Jim that I “blame” for getting
+me, and probably most other members of this group, involved with Kryptos.
+Kryptos is located in a courtyard at CIA headquarters in Langley, Virginia. It was commissioned
+by the CIA and created by artist Jim Sanborn with the help of Ed Scheidt, former head of the
+
+[[page 2]]
+Kryptos - Background, Copyright © 2003 by Gary Warzin
+Page 2
+CIA’s Cryptographic Center.  Dedicated in October 1990, the secret message it contained
+remained a mystery for nearly a decade, until the solution for the first three parts of the message
+was announced in 1999.  The last part remains unsolved.
+The inscriptions on the two panels (again thanks to Douglas Gwyn) are shown below, the
+message on the left, and the Vigenere table on the right.  The blue bands separate the message
+into its four different parts.
+The solution to the first three parts of the message (with spaces and punctuation added) are
+shown below. Note that three words with apparent "errors" are highlighted in red:
+Part 1 - Vigenere Cipher with key word PALIMPSEST
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF
+IQLUSION(sic).
+Part 2 - Vigenere Cipher with key word ABSCISSA
+IT WAS TOTALLY INVISIBLE. HOW’S THAT POSSIBLE? THEY USED THE EARTH’S
+MAGNETIC FIELD. X THE INFORMATION WAS GATHERED AND TRANSMITTED
+UNDERGRUUND(sic) TO AN UNKNOWN LOCATION. X DOES LANGLEY KNOW ABOUT THIS?
+THEY SHOULD. IT’S BURIED OUT THERE SOMEWHERE. X WHO KNOWS THE EXACT
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLB
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJ
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+
+[[page 3]]
+Kryptos - Background, Copyright © 2003 by Gary Warzin
+Page 3
+LOCATION? ONLY WW. THIS WAS HIS LAST MESSAGE. X THIRTY-EIGHT DEGREES, FIFTY-
+SEVEN MINUTES, SIX POINT FIVE SECONDS NORTH. SEVENTY-SEVEN DEGREES, EIGHT
+MINUTES, FORTY-FOUR SECONDS WEST. ID BY ROWS.
+Note that, on the right hand panel, the normal alphabets running across the top and bottom, as
+well as down the left side of panel, appear to be for decorative purposes only.  The alphabets that
+actually serve to provide the coordinates used during the solution of Parts 1 and 2 are the
+alphabets starting with KRYPTOSABC that run across the second row and down the second
+column.
+Part 3 - Transposition
+SLOWLY, DESPARATLY(sic) SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED. WITH TREMBLING
+HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER AND THEN, WIDENING
+THE HOLE A LITTLE, I INSERTED THE CANDLE AND PEERED IN. THE HOT AIR ESCAPING
+FROM THE CHAMBER CAUSED THE FLAME TO FLICKER, BUT PRESENTLY DETAILS OF THE
+ROOM WITHIN EMERGED FROM THE MIST. X CAN YOU SEE ANYTHING Q?
+Jim Gillogly first reported the solution to Part 3 as a Triple Columnar Transposition.  I was never
+able to duplicate that result, but eventually found a Complete Double Columnar Transposition
+(“Complete” meaning a full rectangle with no short or incomplete columns) with widths of 21
+and 28 columns, with the columns taken off in order from right to left.
+It was much later (December of 2002) that I came across this posting from Jim in sci.crypt:
+I didn't actually solve it that way: I solved it as a double
+columnar transposition which put a bunch of English strings
+together; I reassembled them as a third irregular transposition.
+It's left as an exercise to the reader to see why they're
+equivalent... meaning that I never got around to working it out.
+I think it’s likely that the 21 and 28 columns probably put the solution to this double columnar
+beyond the capabilities of Jim’s hill-climbing program, thus the reason for his original partial
+solution containing broken strings of English text.
+Part 3 Gets a Bit Simpler
+There was one thing about my double columnar solution that bothered me.  Why take the
+columns off in such a simple order (right to left)?  That would seem to negate a good portion of
+the security of the double columnar transposition.
+Then Ferdinando Stehle sent me a message that shed some light on the issue.  He had found a
+much simpler transposition.  See the cut and paste from his message below:
+The solution of the third part was a "simple" transposition:
+let's say P(x) the letter of plaintext at position X
+          C(y) the letter of the ciphertext at position Y
+the transposition is:  C(y) = P((y*191 + 192) mod 337)
+That was back in mid 2001, so my memory is a bit foggy, but I think I might have had to swap
+the 191 and the 192 to make the formula work.  But it did work.  And it did show that the
+
+[[page 4]]
+Kryptos - Background, Copyright © 2003 by Gary Warzin
+Page 4
+transposition was considerably simpler than a double columnar.  It also made some sense.  In a
+336 character long message, my double columnar, with 21 and 28 columns, would have had
+column lengths of 16 and 12 respectively.  16 x 12 = 192.
+… and Simpler
+It wasn’t until recently (May 2003), when I dug out my Kryptos notes for another look, that I
+realized the significance of that formula.  I, and I assume most others, had been working with a
+message length of 336.  Both the double columnar and Stehle’s formula worked great with a
+message length of 336.  And 336 was such a “nice” number to work with.  Plenty of factors.  Lots
+of different size rectangles for columnar transpositions.  It was just a nice number.  I was happy to
+treat the “?” at the end as simply a divider between the messages.
+But, add that “?” to the message and the length becomes 337…  and the decryption becomes
+trivial.  Count in 192.  That’s the first character of the plain text.  Count another 192, looping
+back to the beginning.  There’s the second character.  Continue and you’ll uncover the entire
+message, ending with the question mark.  It was so simple that a child could do it.
+There are still things about Part 3 that bother me.  Why the “Q” just before the question mark?
+Some have speculated that it was indicated “question mark.”  Not likely, since there was already a
+question mark.
+A more plausible reason was to change the message length.  I haven’t done the math, but it would
+seem that this new simpler encryption/decryption scheme only works if the message length and
+the key number length have no common factors.  (Otherwise you’d end up landing on the same
+letters more than once, while missing others completely.)  The easiest way to avoid common
+factors is to make the message length prime – as in 337.  So I speculate that the Q is simply a null
+character.  The irony is that if “desparatly” had been spelled correctly there would have been no
+need for the Q.   This is one question I’m dying to ask Sanborn after Kryptos is solved.
+ID BY ROWS?
+It was widely believed that the “ID BY ROWS” in Part 2 was a clue as to the method of
+encryption employed in Part 3.  That is likely what inspired Jim Gillogly to approach it as a
+columnar transposition.
+Elonka Dunnin, after learning of the simplified approaches outlined above, decided to look for an
+equally simple solution that was consistent with the “ID BY ROWS” concept.  Her entire work
+can be found posted in the Kryptos group files section.
+I think, in an effort to make it as simple as possible to extract the correct text, she may be over
+complicating the task.  I think her very first step already makes the task elegantly simple and may
+very well be the solution Sanborn and Scheidt had in mind.
+The first step requires the text to be arranged in equal length rows.  (Because of the question
+mark, the last row will actually have 1 extra character.)  The math works out for any equal length
+rows, but the solution is “prettier” with rows of 24 or 48.  Here I will use 48, to be consistent with
+Elonka’s layout.
+
+[[page 5]]
+Kryptos - Background, Copyright © 2003 by Gary Warzin
+Page 5
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW?
+As Elonka points out with the letters in red, a pattern quickly emerges.  Starting at the red S in the
+last column simply count down 4, shifting one column to the left when you reach the bottom of a
+column.  Following this pattern, the entire message can be recovered.
+It is not necessary to know where the message starts.  Beginning any place, and taking every 4th
+character quickly begins to deliver intelligible text.  Trying 2 then 3, etc. would eventually result
+in a solution.  In rows of 48 that solution comes quite quickly with a count of 4.  Other row
+lengths may require much longer counts.
+There is a slightly quicker solution, which will work with any arrangement of equal length rows.
+If you had any reason to believe that there would be a null Q at the end of the message, all that
+would be required is to start at the question mark and count to the Q.  Since are starting at the end
+of the message and working backwards, you would count UP instead of down, and shift through
+the columns from left to right.
+Since the question mark is on a column all it’s own, the first count up actually moves you from
+the question mark to the bottom of the first row.  You reach the Q on four.  Continuing the count
+brings out the entire message, in reverse –  QGNIHTYNA…
+Is there any way you could have known about the null Q at the end?  Unlikely, but not
+impossible.  Consider the target audience – CIA employees.  It is reasonable to assume that
+Scheidt, in his position at the CIA, would have worked out examples of ciphers with fellow
+employees and/or “students.”  If he happened to regularly use a Q when a null was required there
+could have be a number of people that might expect the same to be true in Kryptos.
+Another possibility is that no one was expected to anticipate this Q.  The solution already seems
+simple enough.  Additional aids were not necessary.  It is possible that Scheidt intended this Q to
+be found, and to then serve as a hint for Part 4.   After solving the substitution in Part 4, and
+finding an unusually large number of Qs, one could conclude that Q served as a null in Part 4 as
+well.  There may even be a string of nulls, which could serve as a crib in the solution of the
+transposition portion of Part 4.
+Implications on Part 4
+The possible implications of such a simple solution to Part 3 should be obvious.  Could Part 4
+actually be much simpler than we think?  I would argue yes.  For some evidence of this see the
+next document in this series – Kryptos, Part 4 – Substitution.
+Post any comments or questions in the Kryptos Group (http://groups.yahoo.com/group/kryptos/)
+or email me at gwarzin@yahoo.com.

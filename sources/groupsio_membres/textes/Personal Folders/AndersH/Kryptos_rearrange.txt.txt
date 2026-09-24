@@ -1,0 +1,619 @@
+Rearranging parts of Kryptos text into different row lengths
+and looking for easter eggs...
+
+This file only covers some selected parts of that big story...
+I'm trying to move in a specific direction, according to a hunch I had,
+namely finding a K4 keystream in K3 when aligned to line width 31.
+
+%%
+
+[Regarding observations from Kryptos group:
+ I am not spending time here researching who wrote what and when,
+ and making references to original posts.
+ Try searching the group if you need more info.]
+
+%%
+
+Observation from Kryptos group:
+{
+  Take K2 pt (corrected). It's 365 chars + LAYERTWO.
+  Think of every char as a day and arrange the 12 rows as the 12 months:
+  (31,28,31,30, etc)
+Original obs:
+  Read down 1st column: I SEE ONE
+}
+My additional obs:
+  Read down 4th column: ABCD
+  Read up 2nd column: DO ARTS
+
+ITWASTOTALLYINVISIBLEHOWSTHATPO
+SSIBLE?THEYUSEDTHEEARTHSMAGN
+ETICFIELDXTHEINFORMATIONWASGATH
+EREDANDTRANSMITTEDUNDERGRUUNDT
+OANUNKNOWNLOCATIONXDOESLANGLEYK
+NOWABOUTTHIS?THEYSHOULDITSBURI
+EDOUTTHERESOMEWHEREXWHOKNOWSTHE
+EXACTLOCATION?ONLYWWTHISWASHISL
+ASTMESSAGEXTHIRTYEIGHTDEGREESF
+IFTYSEVENMINUTESSIXPOINTFIVESEC
+ONDSNORTHSEVENTYSEVENDEGREESEI
+GHTMINUTESFORTYFOURSECONDSWESTx LAYERTWO
+
+Note that K2 is written by the artist and it would be possible
+(although hard) to craft the text to make these strings appear.
+
+LAYER TWO might suggest that layer 1 is the rows with 30 days,
+layer two is the rows with 31 days,
+and that the solver should focus on layer two.
+This might suggest rearranging K3 PT or CT in rows of 31 -
+we will get back to that.
+
+LAYER TWO might also suggest that there is a second layer of
+something going on elsewhere, in K3 and/or K4 -
+we will get back to that.
+
+What if we try to do the same rearrangement of K3 pt?
+(And borrow some of K4 to fill up December)
+
+SLOWLYDESPARATLYSLOWLYTHEREMAIN
+SOFPASSAGEDEBRISTHATENCUMBER
+EDTHELOWERPARTOFTHEDOORWAYWASRE
+MOVEDWITHTREMBLINGHANDSIMADEAT
+INYBREACHINTHEUPPERLEFTHANDCORN
+ERANDTHENWIDENINGTHEHOLEALITTL
+EIINSERTEDTHECANDLEANDPEEREDINT
+HEHOTAIRESCAPINGFROMTHECHAMBERC
+AUSEDTHEFLAMETOFLICKERBUTPRESE
+NTLYDETAILSOFTHEROOMWITHINEMERG
+EDFROMTHEMISTXCANYOUSEEANYTHIN
+GQ?OBKRUOXOGHULBSOLIFBBWFLRVQQP
+
+Read up the upper corner of 1st column: MESS
+Can this be a deliberate hint that we are doing the wrong thing?
+(And it does not fit together with the above K2: MESSGOIA...)
+
+Note that K3 is not written by the artist, only edited,
+so it would be much harder to craft the text to make
+strings like these appear on purpose.
+
+What if we include LAYERTWO when doing the same rearrangement of K3?
+
+LAYERTWOSLOWLYDESPARATLYSLOWLYT
+HEREMAINSOFPASSAGEDEBRISTHAT
+ENCUMBEREDTHELOWERPARTOFTHEDOOR
+WAYWASREMOVEDWITHTREMBLINGHAND
+SIMADEATINYBREACHINTHEUPPERLEFT
+HANDCORNERANDTHENWIDENINGTHEHO
+LEALITTLEIINSERTEDTHECANDLEANDP
+EEREDINTHEHOTAIRESCAPINGFROMTHE
+CHAMBERCAUSEDTHEFLAMETOFLICKER
+BUTPRESENTLYDETAILSOFTHEROOMWIT
+HINEMERGEDFROMTHEMISTXCANYOUSE
+EANYTHINGQ?OBKRUOXOGHULBSOLIFBB
+
+This moves MESS to col 9 as expected,
+otherwise only the usual random words appearing;
+one may note MAD TABS in col 5+6...
+Or "WIER (weird?) TABS" in col 7+6...
+
+Now if we instead arrange K3 pt in rows of 30
+(which according to my speculation is the incorrect layer one):
+
+SLOWLYDESPARATLYSLOWLYTHEREMAI
+NSOFPASSAGEDEBRISTHATENCUMBERE
+DTHELOWERPARTOFTHEDOORWAYWASRE
+MOVEDWITHTREMBLINGHANDSIMADEAT
+INYBREACHINTHEUPPERLEFTHANDCOR
+NERANDTHENWIDENINGTHEHOLEALITT
+LEIINSERTEDTHECANDLEANDPEEREDI
+NTHEHOTAIRESCAPINGFROMTHECHAMB
+ERCAUSEDTHEFLAMETOFLICKERBUTPR
+ESENTLYDETAILSOFTHEROOMWITHINE
+MERGEDFROMTHEMISTXCANYOUSEEANY
+THINGQ?
+
+Only the usual random words appearing;
+one may note STONE in col 2...
+
+Arrange K3 pt in rows of 31
+(which according to my speculation is the correct layer two):
+(Since K4 fits, add it to:)
+
+SLOWLYDESPARATLYSLOWLYTH EREMAIN
+SOFPASSAGEDEBRISTHATENCU MBEREDT
+HELOWERPARTOFTHEDOORWAYW ASREMOV
+EDWITHTREMBLINGHANDSIMAD EATINYB
+REACHINTHEUPPERLEFTHANDC ORNERAN
+DTHENWIDENINGTHEHOLEALIT TLEIINS
+ERTEDTHECANDLEANDPEEREDI NTHEHOT
+AIRESCAPINGFROMTHECHAMBE RCAUSED
+THEFLAMETOFLICKERBUTPRES ENTLYDE
+TAILSOFTHEROOMWITHINEMER GEDFROM
+THEMISTXCANYOUSEEANYTHIN GQ?
+                            OBKR
+UOXOGHULBSOLIFBBWFLRVQQP RNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAW INFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHU AUEKCAR
+
+(Spacing out the last 7 cols for reasons that will come later...)
+
+Any secret vertical messages?
+Only the usual random words appearing.
+Most noteworthy is:
+If you instead write the entire K1-K4 in width 31,
+one may note SUPERMEN across K2+K3 pt in col 9...
+(I won't show it. Above you see the fragment PERMEN in col 10.
+ Not col 9 due to different alignment.)
+(Note that this observation may be flawed because I used 
+ a realignment-and-rotation program that removed all "?",
+ so I might have seen an incorrect alignment...)
+
+%%
+
+Now over to rearrangements of CT instead of PT.
+
+First, for sort of completeness,
+try the "12 months" rearrangement of K2 ct:
+
+Not shown. Nothing special pops out as far as I can see.
+
+Again, for sort of completeness,
+try the "12 months" rearrangement of K3 ct:
+
+Not shown. Nothing special pops out as far as I can see.
+
+%
+
+Next, try rearrangement of K3 ct in rows of length 30
+(which according to my speculation is the incorrect
+ "layer one" arrangement).
+
+Observation from Kryptos group:
+{
+  Take K3(+K4) ct. Arrange in rows of length 30.
+Original obs:
+  Read down column 22: I SEE
+  Read down column 21: OHNNY NASH
+  The J to make JOHNNY can be found in the last row of K2 ct.
+  (To make it align you need to tweak the length of this row
+   a bit. Just aligning K2+K3 to 30 will not directly do it.)
+  Interpretation: Ref to Johnny Nash's song
+  "I can see clearly now".
+}
+My comments:
+  - Interpretation of the interpretation
+    (Ref to Johnny Nash's song "I can see clearly now"):
+    Unclear what we are supposed to make of it at this point.
+    According to my speculation,
+    we should be told to realign from 30 to 31 now.
+
+This has already been noted in the group:
+Since K3 is not written by the artist, only edited,
+it would be really hard to craft the text and transposition parameters
+to make such long strings as these appear on purpose in ct.
+But I have not analysed it; maybe something close to it
+appeared by coincidence, and maybe the artist observed this and
+crafted the misspelled DESPARATLY for this purpose...
+
+...                 !
+BEDMHDAFMJGZNUPLGEsWJLLAETG
+                    !!
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNA
+IACHTNREYULDSLLSLLNOHSNOSMRWXM
+NETPRNGATIHNRARPESLNNELEBLPIIA
+CAEWMTWNDITEENRAHCTENEUDRETNHA
+EOETFOLSEDTIWENHAEIOYTEYQHEENC
+TAYCREIFTBRSPAMHHEWENATAMATEGY
+EERLBTEEFOASFIOTUETUAEOTOARMAE
+ERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+GRIEWFEBAECTDDHILCEIHSITEGOEAO
+SDDRYDLORITRKLMLEHAGTDHARDPNEO
+HMGFMFEUHEECDMRIPFEIMEHNLSSTTR
+TVDOHW?
+       OBKRUOXOGHULBSOLIFBBWFL
+RVQQPRNGKSSOTWTQSJQSSEKZZWATJK
+LUDIAWINFBNYPVTTMZFPKWGDKZXTJC
+DIGKUHUAUEKCAR
+
+Here is the entire Kryptos in width 30 and rotated CCW to make for
+easier reading:
+
+(Sorry, my rotation program removed all non-letters,
+ i.e. all "?", this corrupts the alignments of K2 and K4...
+ which means the below matrix is slightly useless
+ for text-spotting outside K3...)
+
+IDQQGBWYFPLPLUCLEHAHUHLEPUJZ
+FRFHNTUIPICVANOSPAHHTAILIHSM
+NYGXURKFQGQMYZELRRNMOAHMRGQT
+GKTFJCHDYOMDQGHLANEAIIDLMOTT
+HMEPPQWTSGJBJJRSREWPFNDKDXWVR
+STQGRBFNGVDXRMSDNEISSDTRCOTPA
+NQKAFLKWUQPEMFLLHTTRADCTEUOYC
+RYKIVJHPTDVEPANUIIDBOEEIERSNK
+KJHMDBJFTFUOLDHYTDETFSARHKSBE
+DVWMGTSULSNVFHOEANSFEBBOUBKFU
+LEGQAJKFJBCFLMRRGWLIEIELEOGNA
+ZRVDDNFBQZEFGDHNNTOETTFDFWNIU
+KTYZEEUKQKAKZEATRMFRBRWYMHRWH
+JLZQQEDWOFUGNBYHPWTCLNERFOPAU
+DLTFKUVDMZPRPEDCTEEYRTIDGDQIK
+SVEPVXMHZEGRMMNAEAOAERRDMVQDG
+UUWCLUEVETTVFUEINCETEEGSHTVUI
+YYZMQYZUFGNZQQGAMAACYEAOORRLD
+XVHQNGKDKGQZNDTNXIHNGAOAETLKC
+AQEDACTDDLHLDPEHWINEEMRENTFJJ
+FBEKJEEDLFFEEKASRPTETREOPSWTT
+RQDKZLZHVXFQRVLYMLEHAAIGDSBAX
+LXUHMZIHEDKFGXLDSBRQMOPERLBWZ
+ZUJWVGYIEIRDLDJIOEDYATWTANFZK
+HQPGMZRTRVDEZPWBNLUETOEIHHIZD
+PTFGIQRFEAHNEVsISEETAETSDELKG
+FQVETAHZZLHUXUEOHNNYNASHTMOEW
+UYDCGNFSQNXMQNGEONEOEUMIGISSK
+MJFNLUDLUUFUFGLTNLTIWTTEAEBSP
+EVMJREJQCEUQNMPPLSCEEETCHFLQF
+
+(Columns from left before rot now become rows from the bottom after rot.)
+
+Note "CLUE" in K2 in column (before rotation) 14.
+(Can be a flawed obs due to my flawed prog, and can be pure coincidence.)
+
+Note ISEE;OHNNYNASH in columns (before rotation) 5+4.
+The J to go with OHNNY is found a little misaligned 3 positions up.
+
+%
+
+Next, try rearrangement of K3+K4 ct in rows of length 31
+(which according to my speculation is the *correct*
+ "layer two" arrangement).
+
+Observation from Kryptos group:
+{
+  Take K3+K4 ct. Arrange in rows of length 31.
+Original observations:
+  - This is a 14x31 (14 rows, 31 cols) matrix.
+    The "preferred" matrix for the first decryption step of K3
+    is 14x24. This one is exactly 7 chars wider,
+    and 14x7 makes 98 chars, fitting the 98 chars of "?"+K4.
+  - The known JS notes show this configuration, and
+    there are suspicions of folds in that paper around the
+    columns 24 and 7, suggesting there is something about it.
+  - Near the assumed fold around col 24,
+    one can identify a scrambled "ID BY ROWS".
+    The position is close to the original appearance in the
+    end of K2 (which would be on the end of the previous row before K3).
+  - Near the middle one can read backwards: "ETYOIE", which is
+    very close to the reconstructed keyword "ELYOIE" that would decrypt
+    NYPVTT in K4 to BERLIN under K1+K2 assumptions.
+    (Note that this one is read horizontally and therefore
+     is visible independently of any realignment of rows.)
+  - Not surprising, the ISEE;OHNNYNASH from alignment 30
+    can still be read diagonally.
+  - Obviously, the famous ENDYAHR fits nicely in the first 7 columns
+    in the first row.
+}
+My comments:
+  - I do not personally care much for the scrambled "ID BY ROWS".
+    I mentioned it anyway.
+  - I also think the backwards ETYOIE can be merely coincidence.
+    I do not see other fragments of reconstructed key stream.
+My additional observations:
+  - Take the right-wing 14x7 part, rotate it 90 deg *CW* to 7x14.
+    Now, identify 1st letter with the 1st letter of K4, etc.
+    (This means do not count the leading "?" in K4.
+     Do, however, count the "?" appearing in the matrix and
+     identify it with a K4 letter. 
+     The 97th char identifies with the 97th and last letter of K4.
+     The 98th and last char in the matrix is a leftover.)
+    Now, there are several letters that are in the correct
+    position and matching the reconstructed key stream 
+    (under K1+K2 assumptions) for the known plaintext in K4.
+    The most striking example is LYO in chars 65-67,
+    but there are a few more, and can this also be coincidence?
+    Or is this the correct key stream, only lacking the 
+    "masking technique" to reveal the actual pt??
+  - Around the L in LYO you could also make out a scrambled
+    BERLIN... (possibly coincidence)
+
+ENDYAHR OHNLSRHEOCPTEOIBI DYSHNAI
+ACHTNRE YULDSLLSLLNOHSNOS MRWXMNE
+TPRNGAT IHNRARPESLNNELEBL PIIACAE
+WMTWNDI TEENRAHCTENEUDRET NHAEOET
+FOLSEDT IWENHAEIOYTEYQHEE NCTAYCR
+EIFTBRS PAMHHEWENATAMATEG YEERLBT
+EEFOASF IOTUETUAEOTOARMAE ERTNRTI
+BSEDDNI AAHTTMSTEWPIEROAG RIEWFEB
+AECTDDH ILCEIHSITEGOEAOSD DRYDLOR
+ITRKLML EHAGTDHARDPNEOHMG FMFEUHE
+ECDMRIP FEIMEHNLSSTTRTVDO HW?
+                             OBKR
+UOXOGHU LBSOLIFBBWFLRVQQP RNGKSSO
+TWTQSJQ SSEKZZWATJKLUDIAW INFBNYP
+VTTMZFP KWGDKZXTJCDIGKUHU AUEKCAR
+
+The rotated 7x14 part according to my observation:
+= presumed key stream for a partial decrypt of K4:
+
+AIRHFDREYNNPMD
+UNNWMRIRECHIRY
+EFG?FYETETAIWS
+KBKOEDWNRAEAXH
+CNSBULFRLYOCMN
+AYSKHOETBCEANA
+RPORERBITRTEEI
+
+Compare to known keystream (matching in caps):
+However note also the swapped RI for RIY in pos 26-27.
+
+AIRHFDREYNNPMD UNNWMRIRECHIRY EFG?FYETETAIWS KBKOEDWNRAEAXH
+                      RdumriY woynkY
+
+CNSBULFRLYOCMN AYSKHOETBCEANA RPORERBITRTEEI
+       eLYOiec baqK
+
+Could we fill in more of the expected key stream from other sources?
+- The first 7 columns? No.
+- The first or last 7 columns of K3+K4 *PT* aligned to 31?
+  (See matrix above.) No.
+- The first or last 7 columns of *K1+K2* PT or CT aligned to 31?
+  Not shown, and only studied briefly, but so far no.
+- The tableau side? No.
+
+%
+
+OK, OK, for the sake of some completeness,
+showing K1+K2 PT and CT aligned to line width 31:
+Aligned to start and end of block, respectively:
+
+[CT aligned to start]
+EMUFPHZ LRFAXYUSDJKZLDKRN SHGNFIV
+JYQTQUX QBQVYUVLLTREVJYQT MKYRDMF
+D
+ VFPJUD EEHZWETZYVGWHKKQE TGFQJNC
+EGGWHKK ?DQMCPFQZDQMMIAGP FXHQRLG
+TIMVMZJ ANQLVKQEDAGDVFRPJ UNGEUNA
+QZGZLEC GYUXUEENJTBJLBQCR TBJDFHR
+RYIZETK ZEMVDUFKSJHKFWHKU WQLSZFT
+IHHDDDU VH?DWKBFUFPWNTDFI YCUQZER
+EEVLDKF EZMOQQJLTTUGSYQPF EUNLAVI
+DXFLGGT EZ?FKZBSFDQVGOGIP UFXHHDR
+KFFHQNT GPUAECNUVPDJMQCLQ UMUNEDF
+QELZZVR RGKFFVOEEXBDMVPNF QXEZLGR
+EDNQFMP NZGLFLPMRJQYALMGN UVPDXVK
+PDQUMEB EDMHDAFMJGZNUPLGE sWJLLAE
+TG
+
+Well, on the left side we do have EL in the correct place.
+Nothing more.
+
+[CT (corrected version) aligned to end]
+EM
+UFPHZLR FAXYUSDJKZLDKRNSH GNFIVJY
+QTQUXQB QVYUVLLTREVJYQTMK YRDMFD
+                                V
+FPJUDEE HZWETZYVGWHKKQETG FQJNCEG
+GWHKK?D QMCPFQZDQMMIAGPFX HQRLGTI
+MVMZJAN QLVKQEDAGDVFRPJUN GEUNAQZ
+GZLECGY UXUEENJTBJLBQCRTB JDFHRRY
+IZETKZE MVDUFKSJHKFWHKUWQ LSZFTIH
+HDDDUVH ?DWKBFUFPWNTDFIYC UQZEREE
+VLDKFEZ MOQQJLTTUGSYQPFEU NLAVIDX
+FLGGTEZ ?FKZBSFDQVGOGIPUF XHHDRKF
+FHQNTGP UAECNUVPDJMQCLQUM UNEDFQE
+LZZVRRG KFFVOEEXBDMVPNFQX EZLGRED
+NQFMPNZ GLFLPMRJQYALMGNUV PDXVKPD
+QUMEBED MHDAFMJGZNUPLGEsW JLLAETG
+
+Well, on the right side we do have QK in the correct place
+(rotated position 74-75 corresponding to K4 pos 73-74),
+if we identify last position 98 (Y) with last position 97 in K4
+(in other words identify position 1 (J) with the K4 leading "?",
+ then key pos 2 (P) = K4 letter 1, etc).
+
+Well, on the left side, if we read our key stream mirrored
+from inside to out, we do have EL in the correct place.
+
+More interesting obs on the left side:
+- Down col 7: EDNYEHZ resembling ENDYAHR
+- Column 3 bottom-up: MFZQGDD...
+  K4 ct:           ...MZFPKWGD...
+  K4 reconstr.key:    cbaQk...
+  (This find is not in alignment though)
+- Column 1 down the end: ...FFLNQ
+  K4 ct:                  ...FLRVQQ...
+  (This find is not in alignment though)
+
+In fact, the same are found in the previous one
+(CT aligned to start), only in different locations.
+
+[CT (uncorrected version) aligned to end]
+Not shown, but this version of K2 will align cleanly in width 31.
+First row first 7 columns is VFPJUDE.
+It is otherwise similar enough that I do not feel the need to show it.
+
+[PT aligned to start]
+BETWEEN SUBTLESHADINGANDT HEABSEN
+CEOFLIG HTLIESTHENUANCEOF IQLUSIO
+N
+ ITWAST OTALLYINVISIBLEHO WSTHATP
+OSSIBLE ?THEYUSEDTHEEARTH SMAGNET
+ICFIELD XTHEINFORMATIONWA SGATHER
+EDANDTR ANSMITTEDUNDERGRU UNDTOAN
+UNKNOWN LOCATIONXDOESLANG LEYKNOW
+ABOUTTH IS?THEYSHOULDITSB URIEDOU
+TTHERES OMEWHEREXWHOKNOWS THEEXAC
+TLOCATI ON?ONLYWWTHISWASH ISLASTM
+ESSAGEX THIRTYEIGHTDEGREE SFIFTYS
+EVENMIN UTESSIXPOINTFIVES ECONDSN
+ORTHSEV ENTYSEVENDEGREESE IGHTMIN
+UTESFOR TYFOURSECONDSWEST xLAYERT
+WO
+
+See next. Same appearances, just in different locations.
+
+[PT (corrected version) aligned to end]
+BE
+TWEENSU BTLESHADINGANDTHE ABSENCE
+OFLIGHT LIESTHENUANCEOFIQ LUSION
+                                I
+TWASTOT ALLYINVISIBLEHOWS THATPOS
+SIBLE?T HEYUSEDTHEEARTHSM AGNETIC
+FIELDXT HEINFORMATIONWASG ATHERED
+ANDTRAN SMITTEDUNDERGRUUN DTOANUN
+KNOWNLO CATIONXDOESLANGLE YKNOWAB
+OUTTHIS ?THEYSHOULDITSBUR IEDOUTT
+HERESOM EWHEREXWHOKNOWSTH EEXACTL
+OCATION ?ONLYWWTHISWASHIS LASTMES
+SAGEXTH IRTYEIGHTDEGREESF IFTYSEV
+ENMINUT ESSIXPOINTFIVESEC ONDSNOR
+THSEVEN TYSEVENDEGREESEIG HTMINUT
+ESFORTY FOURSECONDSWESTxL AYERTWO
+
+Well, on the right side there are unaligned ELYOIE frags:
+YIELIO down col 24 and OIE down col 30.
+
+Nothing more.
+
+[PT (uncorrected version) aligned to end]
+Not shown (but this version of K2 will align cleanly in width 31).
+
+In summary, nothing spectacular enough was found in this excursion.
+My presumed key stream from K3+K4 is not changed.
+
+%
+
+Decrypt K4:
+(still under K1+K2 assumptions i.e. Quag3, KRYPTOSABC)
+
+K4 (standard alignment):
+                           OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Key:
+                           AIRH
+FDREYNNPMDUNNWMRIRECHIRYEFG?FYE
+TETAIWSKBKOEDWNRAEAXHCNSBULFRLY
+OCMNAYSKHOETBCEANARPORERBITRTEE
+
+=>
+                           XNZG
+CUWQEUYHJVDXVIJABESMBONRJAK?QTQ
+KFKGLNHSXEUHIKHPCIDWVSHLAXUVMER
+LUFZMDWKCBZVLINCJPHDUQPQZSAZOVJ
+
+Compare to known plaintext (matching in caps):
+Note also the swapped NO for NOR in pos 26-27.
+
+CUWQEUYHJVDXVIJABESMBONRJAK?QTQ
+                 EastnoRtheasT
+                  +---+ -++ +     <- offset (sign)
+                 0010110101?10    <- offset (div 10)
+                 0124220271?20    <- offset (mod 10)
+
+KFKGLNHSXEUHIKHPCIDWVSHLAXUVMER
+                            bER
+                            -
+                            100
+                            000
+
+LUFZMDWKCBZVLINCJPHDUQPQZSAZOVJ
+LinclocK    ????
+ -++--+ 
+00010010
+06701520
+
+I hoped and expected to find some more recognizable pt frags here,
+so big disappointment so far.
+
+Note that the periodic doubles in K4 ct disappeared in ict.
+
+What is LINC (fragment of known pt) doing out of alignment there??
+
+Note that tMZFpKW decrypts to
+          FZMdWKc (where we expected
+          nclocK. )
+where caps are matching or transposed letters in CT...
+
+We also already know that letters of 
+    BERLINCLOCK (except R) are found in ct and known key:
+INfBNypvttmzfpK
+    ELyOIECBaqK
+
+Is some sort of scrambled autokey going on?
+
+%
+
+Offsets: many +-12...
+I can't see a pattern yet, such as each offset being the sum of two others...
+
+Convert offset to another key (in KRYPTOSABC):
+Secondary key that would be needed to get known plaintext.
+PT + secondary key + key = CT
+CT    FLRVQQPRNGKSS   NYPVTTMZFPK
+key1  RECHIRYEFG?FY   RLYOCMNAYSK
+ICT   ESMBONRJAK?QT   MERLUFZMDWK     (intermediate ciphertext)
+key2  kzftfhkfni?hk   dkkksnjrohk
+PT    EastnoRtheasT   bERLinclocK
+
+We have some irregular repetition of F(=offset 12) and HK (H=offset -12).
+Actually on EastnoRtheasT side, rep of (h)k is regular.
+
+Can we find key2 elsewhere in Kryptos (or in transformations thereof)?
+
+%
+
+Frequency analysis on key and result:
+(Files on my local drive Kryptos_rearrange.key_stat.txt and ...out_stat...
+ may or may not be uploaded and shared with the group)
+
+The result (called ICT above) is still very flat.
+The key is pretty English-looking, not surprising given it consists
+mostly of transposed K3.
+
+Key2 shows a highly stereotype letter distribution,
+signaling that something decidedly non-random
+is going on in this process. This is reassuring:
+there is hope that this could be a step in the right direction
+despite the lack of any readable plaintext appearing in ICT.
+
+%%
+
+Let's recap some old "W theory". I was hoping for a connection. 
+
+Observation from Kryptos group:
+{
+  Take K4 ct and partition it on W:
+
+  OBKRUOXOGHULBSOLIFBB W FLRVQQPRNGKSSOT W TQSJQSSEKZZ W 
+  ATJKLUDIA W INFBNYPVTTMZFPK W GDKZXTJCDIGKUHUAUEKCAR
+
+  Glue together "odd" and "even" snippets:
+
+  OBKRUOXOGHULBSOLIFBB (W) TQSJQSSEKZZ (W) INFBNYPVTTMZFPK (W)
+  FLRVQQPRNGKSSOT (W) ATJKLUDIA (W) GDKZXTJCDIGKUHUAUEKCAR
+
+Original observations:
+  - This gives us two pieces of equal length 46. (without W:s)
+  - Furthermore, they have "equal" frequency distribution
+    in the sense that the shapes of the sorted histograms are equal.
+    (Specific letters do not have the same frequency.)
+    (I am not showing it here.)
+  - The known ....BERLINCLOCK is entirely in one "odd" snippet,
+    aligned at the end and preceded by 4 letters.
+    It is also aligned at the end of the whole "odd" piece.
+  - The known EASTNORTHEAST.. is entirely in one "even" snippet,
+    aligned at the start and followed by 2 letters.
+    It is also aligned at the start of the whole "even" piece.
+    (The latter observation is kind of new but I can't really take
+     credit for it; it is trivial to see now but it was unknown
+     before we learned about pt EAST before NORTHEAST.)
+}
+
+No, I do not see a connection to my misaligned LINC
+as I was hoping.
+
+%%
+

@@ -1,0 +1,576 @@
+[[page 1]]
+ 
+Title 
+Author 
+Date 
+Kryptos K4.  Evidence for a 44 Character Plain Text 
+Matt Reid 
+10th October 2010 
+ 
+Introduction 
+ 
+The following document sets out a series of what are assumed to be novel discoveries in relation to 
+the remaining unsolved cipher texts embedded in Jim Sanborn’s Kryptos and Antipodes sculptures. 
+Whereas this does not purport to be a complete solution it does offer a candidate for the decryption 
+of K4 per se and is hoped in time to mark a significant waypoint on the road to the eventual 
+discovery of the outstanding plain text.  The various statements of what are thought to be novel 
+discoveries have been grouped and presented according to their viability.   
+The readership is aimed primarily at those in the Kryptos K4 community who are already conversant 
+with the cipher and plain texts of sections K1-K3 as well as the associated tools and techniques.  
+Such readers may wish to skip the background notes and proceed directly to the later paragraphs.   
+As with sections K1, K2 and K3 anyone wishing to repeat these results for themselves needs only the 
+decryption tableau, a pen and some paper. 
+I’m indebted to all the hard work undertaken in both the recognized forums and micro sites that 
+have sprung up along the way in support of the commonly shared goal and hope that in time this 
+work finds a place in the canon of standard references used to offer a complete decryption.  Should 
+any aspects of the work infringe anyone’s prior art then my sincere apologies are offered as I have 
+been as exhaustive as possible in searching the public domain for blogs or micro sites venturing a 
+similar solution. 
+This introduction would be incomplete without a sincere expression of gratitude to Jim Sanborn, Ed 
+Scheidt and their Federal patrons for seeding the world with such a constructive curiosity.  
+Lastly I’d like to thank Elonka Dunin for taking the time out to cast an eye over the first draft and 
+offer constructive feedback.  Anyone unfamiliar with Kryptos may also want to visit her Kryptos 
+micro site at http://www.elonka.com/kryptos before proceeding any further with this document.     
+
+[[page 2]]
+Background 
+ 
+The following information on the background of the Kryptos sculpture was gathered from a range of 
+internet sources. 
+Kryptos was dedicated on November the 3rd 1990 on the grounds of the CIA headquarters in Langley 
+Virginia.  The main body of the sculpture is a worked copper scroll by Artist Jim Sanborn who was 
+commissioned by the CIA to create the installation for the courtyard of their headquarters.  He was 
+additionally loaned the services of a retiring CIA employee by the name of Ed Scheidt who was on 
+hand to provide assistance with the cryptographic elements of the piece.  
+Since 1990 there have been three public acknowledgments in relation to the decryption of parts K1, 
+K2 and K3. 
+A civilian computer scientist named Jim Gillogly went public with a decryption of parts K1, K2 and K3 
+in 1999 having used computational analysis to arrive at the plain texts. 
+After this announcement it was revealed that a CIA employee named David Stein was recognised 
+within the CIA as having cracked parts K1, K2 and K3 using a pencil and paper technique in 1998.  
+It was later announced in 2005 that an NSA team led by Ken Miller, Dennis McDaniels and two other 
+unnamed individuals had deciphered parts K1, K2 & K3 in late 1992 using computational analysis. 
+In the years since Gillogly’s announcement a mystique has continued to grow around the unsolved 
+K4 cipher text.  This is partly due to its resistance to yield its final secrets, but also the mass of 
+interest aroused worldwide by Dan Brown’s code sleuthing novels and the growing pervasiveness of 
+cryptography in modern life.  As a result there has been a mass of internet based collaboration in the 
+public domain ever since, whereby common interest groups and individuals have persistently poured 
+over the clues left in the plain texts of parts K1, K2 and K3 in search of possible routes into the plain 
+text of K4. 
+For anyone not familiar with plain texts of K1, K2 and K3 they read as follows. 
+K 1 (this was encrypted using the Keyword PALIMPSEST) 
+ 
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF IQLUSION 
+K2 (this was encrypted using the Keyword ABSCISSA) Note: This was publicly corrected by Jim Sanborn on 
+April 19th, 2006 who intervened to point out the IDBYROWS should read XLAYERTWO 
+ 
+IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE ? THEY USED THE EARTHS MAGNETIC FIELD X THE 
+INFORMATION WAS GATHERED AND TRANSMITTED UNDERGRUUND TO AN UNKNOWN LOCATION X 
+DOES LANGLEY KNOW ABOUT THIS ? THEY SHOULD ITS BURIED OUT THERE SOMEWHERE X WHO 
+KNOWS THE EXACT LOCATION ? ONLY WW THIS WAS HIS LAST MESSAGE X THIRTY EIGHT DEGREES 
+FIFTY SEVEN MINUTES SIX POINT FIVE SECONDS NORTH SEVENTY SEVEN DEGREES EIGHT MINUTES 
+FORTY FOUR SECONDS WEST X LAYER TWO 
+
+[[page 3]]
+K 3 (this section was not encrypted using the Kryptos Tableau, but instead made use of  a 
+192 character skip sequence to encrypt the plain text) 
+  
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT ENCUMBERED THE LOWER 
+PART OF THE DOORWAY WAS REMOVED WITH TREMBLING HANDS I MADE A TINY BREACH IN THE 
+UPPER LEFT HAND CORNER AND THEN WIDENING THE HOLE A LITTLE I INSERTED THE CANDLE AND 
+PEERED IN THE HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME TO FLICKER BUT 
+PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X CAN YOU SEE ANYTHING Q  
+ 
+Complete Cipher Text and Decryption Tableau as it appears on the sculpture.  This has been 
+lifted directly from Elonka Dunin’s Kryptos site at http://elonka.com/kryptos/transcript.html . 
+ 
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ 
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG 
+ 
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP 
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT 
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO 
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS 
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA 
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB 
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC 
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD 
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE 
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF 
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG 
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH 
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI 
+ 
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE 
+TPRNGATIHNRARPESLNNELEBLPIIACAE 
+WMTWNDITEENRAHCTENEUDRETNHAEOE 
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATAMATEGYEERLB 
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB 
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL 
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL 
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM 
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN 
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ 
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU 
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV 
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW 
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX 
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ 
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK 
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR 
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY 
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+ 
+K1 is highlighted in Mauve, K2 in Blue, K3 in Green and K4 in Red 
+The remainder of this document presents analysis relating solely to parts K1 and K4. 
+ 
+
+[[page 4]]
+Initial K4 Analysis 
+ 
+It is often said that frequency analysis is the strongest weapon in the cryptographer’s armoury and 
+the identification of a route into K4 has proven to be no exception to this general rule.   Of all the 
+potential ideas that were publicised in the online community the possibility of K4 being a ‘one time 
+pad’ of itself is the idea that the Author believes has always carried the most weight.  As a result of 
+this conviction the majority of the initial research centred heavily on such a decryption scheme.    
+After multiple failed attempts and various blind detours later, it has eventually been possible to 
+arrive at a credible decryption scheme, although this is not as grandiose a claim as it first appears for 
+reasons that will become clear later.   
+The decryption scheme employs a simple technique whereby the K4 cipher text is split symmetrically 
+and laid over a reversal of itself.  In this configuration the reversed second half of the cipher text 
+plays the role of the keyword.  Using the Kryptos Tableau to decrypt yields the following results. 
+Cipher Text   
+RACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTAW 
+Keyword        
+?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZ 
+Decryption    
+?YRKDKYWCBFMXYPEGCGMYJECYJOXRPPJYGYAIMNGCQREQOTBX 
+ 
+For the sake of brevity I shall refer herein to the Decryption Text given above as K4d 
+Frequency & Positional Analysis For K4d 
+ 
+Letter 
+Frequency 
+Positions 
+Y 
+7 
+2, 7, 14, 21, 25, 33, 35 
+C 
+4 
+9, 18, 24, 41 
+G 
+4 
+17, 19, 34, 40 
+X 
+3 
+13, 28, 49 
+P 
+3 
+15, 30, 31 
+M 
+3 
+12, 20, 38 
+R 
+3 
+3, 29, 43 
+E 
+3 
+16, 23, 44 
+J 
+3 
+22, 26, 32 
+K 
+2 
+4, 6 
+B 
+2 
+10, 48 
+O 
+2 
+27, 46 
+Q 
+2 
+42, 45 
+I 
+1 
+37 
+D 
+1 
+5 
+W 
+1 
+8 
+T 
+1 
+47 
+A 
+1 
+36 
+ 
+
+[[page 5]]
+ 
+ 
+Further Analysis Of K4d  
+ 
+It is immediately obvious that K4d is not readable plaintext, but a number of structural factors do 
+stand out immediately.  Of interest is the positional relationship information for the characters X and 
+Y.  These were marked as being of interest due to the Cartesian flavour of the K2 decryption 
+keyword ABSCISSA.  
+If every seventh letter in K4d is skipped then it is seen that the resultant text reads off as YYYXYQX 
+which to the eye looking for Cartesian linkages stands out immediately as a possible aspect of some 
+underlying structural artefact. 
+It is worth pointing out at this juncture that all of the discoveries that follow were not immediately 
+obvious despite being the key to all the doors that followed.   The line of enquiry that the specific Y, X 
+and Q combination prompted were all eventual dead-ends that explored a range of different 
+encryption schemes including morse and pseudo cursor operations. 
+Notes On Computational Analysis 
+ 
+It is interesting to note in hindsight that computational analysis does not offer any major help from 
+this point in as the text starts to descend in a series of structural operations and cryptic clues that 
+would wrong foot any potential pattern matching software.  Combined with the disparity in the 
+popularity of cryptic crosswords in America as opposed to Britain where they are pervasive it does 
+not surprise me that there has been massive asymmetry in the time taken to find a route into K4. 
+The Forensics Of Kryptos 
+ 
+From investigations to date on what lies beyond this point, it is also possible to venture a guess that 
+the cipher texts of K2 and K3 were laid down very early on in the project and that K1 and K4 were 
+produced in tandem with each other, with the wording of the K1 plaintext being significantly 
+reworked until the desired result was achieved.  The idea that K2 and K3 were already done and 
+dusted combined with the amount of effort required to generate the desired effect for the K1 & K4 
+combination may well have been a factor in the ‘aesthetic mistake’ inherent in K2. 
+ 
+ 
+
+[[page 6]]
+Claims As To The Structural Composition Of  K1/K4 And Initial 
+Attempts To Harvest Potential Plain Texts 
+ 
+The following eight statements are now offered up for critique and the corresponding analysis 
+presented in more detail in the following sections.  The ninth and tenth unqualified statements 
+should be disregarded as tenuous, but note taken that a meaningful plaintext may be compressed 
+into 44 characters.   
+1. The decryption of K4 per se is: ?YRKDKYWCBFMXYPEGCGMYJECYJOXRPPJYGYAIMNGCQREQOTBX (K4d) 
+2. K4d interacts with both the K1 cipher and plain texts to reveal further structural information.  
+3. K4d is subdivided into 3 further components K4d-1, K4d-2 and K4d-3 that in their entirety 
+comprise 44 characters. 
+ 
+4. Each unique section just like the four sections of the complete cipher text as a whole has its 
+own distinct method of encryption that must be broken. 
+5. It is ventured that the first layer decryption of K4d-1 is LCOXWHXMAKE. 
+6.  K4d-1, K4d-2 & K4d-3 are each DOUBLY encrypted. 
+7. Once the first layer of decryption is removed from each of the three parts, the final plaintext 
+is recovered through the use of two keywords of 5 and 6 characters in length respectively. 
+These are applied repeatedly four times against the underlying 44 character string to recover 
+the eventual plaintext. 
+8. It is ventured that the first keyword in this 5 and 6 character combination is QUXQB which 
+corresponds to the K1 cipher text for the word LIGHT.   
+ 
+9. It is tenuously ventured that the second keyword in plain text may either be HIOOGH where 
+OO represents  underlying characters that should remain unchanged or GNOMON which can 
+be derived tenuously from the same original source. 
+10. It is conjectured that the first five letters of the K4 plain text proper are WHATI and an 
+unqualified guess ventured that this may well correspond to a quote by Andre Malraux. 
+High confidence is placed in statements 1 – 3, but evidence supporting statements 4 -8 is based solely 
+on work undertaken against K4d-1 and is deemed speculative until further supporting evidence is 
+found. 
+ 
+ 
+
+[[page 7]]
+Corresponding Analysis 
+ 
+Statement 1.  The decryption of K4 per se is: 
+?YRKDKYWCBFMXYPEGCGMYJECYJOXRPPJYGYAIMNGCQREQOTBX 
+ 
+The arrival at this conclusion is irrespective of the frequency and positional analysis and is obtained 
+solely by the ability to obtain the results that follow.  If this statement is incorrect then all 
+proceeding statements must also be a fallacy. 
+Statement 2.  K4d interacts with both the K1 cipher and plain texts to reveal 
+further structural information. 
+  
+If we treat the keyword PALIMPSEST used to decrypt K1 as cryptic clue, then it may indicate that K1 
+itself has some additional properties that have passed unnoticed to date.  Palimpsest essentially 
+means to write on top of an existing document that has since been erased, so our interest 
+immediately centres back onto the cipher text of K1 itself.  If we compare the cipher text of K1 with 
+K4d then we start to see that a series of new structural artefacts stand out. 
+K4d YRKDKYWCBFMXYPEGCGMYJECYJOXRPPJYGYAIMNGCQREQOTBX 
+K1c EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+Given the Cartesian flavour of the K2 keyword ABSCISSA , the word ORDINATE should also be close 
+to hand in our vocabulary of potential keywords.  The ABSCISSA and ORDINATE are more commonly 
+known as X and Y. Identifying the relative positions of the XY pairing in both strings leads us to notice 
+some other significant structural features that are outlined below. 
+The following tables show the K4d text overlayed on top of the K1 Cipher Text (K1c) then the K1 Plaintext (K1p) and finally 
+the K1 decryption Keyword PALIMPSEST cycling underneath. 
+YRKDKYWCBFM XY PEGCGMYJECYJOXRPP  JY GYAIMNGCQREQOTBX  
+EMUFPHZLRFA XY USDJKZLDKRNSHGNFIV JY QTQUXQBQVYUVLLTREV JY QTMKYRDMFD 
+BETWEENSUBT LE SHADINGANDTHEABSEN CE OFLIGHTLIESTHENUAN CE OFIQLUSION 
+PALIMPSESTP AL IMPSESTPALIMPSESTP AL IMPSESTPALIMPSESTP AL IMPSESTPAL 
+ 
+We can see immediately that there is a significant interaction between K4d, K1c and K1p whereby the 
+text is broken into 3 sections in K4d and 4 sections in K4c/p.  It is probably no coincidence that the 
+Kryptos Tableau interactions at these same points all read ‘AL’ and it is suspected that this is a non 
+cryptic reference implying ‘Another Layer’.   
+ 
+ 
+
+[[page 8]]
+If we assume that XY and JY are purely structural spacers then we are led directly to our next 
+deduction which is that a further positional rearrangement is required in order to bring 
+QTQUXQBQVYUVLLTREV JY directly underneath USDJKZLDKRNSHGNFIV JY.  We can see 
+that in this instance VJY now becomes the common structural spacer.  
+YRKDKYWCBFM XY PEGCGMYJECYJOXRPP  JY GYAIMNGCQREQOTBX  
+EMUFPHZLRFA XY USDJKZLDKRNSHGNFI VJY  
+               QTQUXQBQVYUVLLTRE VJY QTMKYRDMFD 
+BETWEENSUBT LE SHADINGANDTHEABSE NCE OFLIGHTLIESTHENUAN CE OFIQLUSION 
+PALIMPSESTP AL IMPSESTPALIMPSEST PAL IMPSESTPALIMPSESTP AL IMPSESTPAL 
+ 
+Statement 3.  K4d is subdivided into 3 further components K4d-1, K4d-2 and 
+K4d-3 that in their entirety comprise 44 characters 
+ 
+From the preceding analysis we may deduce that K4d actually gives rise to a new puzzle consisting of 
+three distinct parts.  If we remove the structural spacers then we are left with. 
+K4d-1  (11 characters) 
+K4d Fragment 1 YRKDKYWCBFM  
+K1C Fragment 1 EMUFPHZLRFA  
+K1p Fragment 1 BETWEENSUBT  
+K1 Keyword 
+PALIMPSESTP  
+ 
+K4d-2  (17 characters) 
+K4d Fragment 2 PEGCGMYJECYJOXRPP 
+K1C Fragment 2 USDJKZLDKRNSHGNFI 
+K1C Fragment 3 QTQUXQBQVYUVLLTRE 
+K1p Fragment 2 SHADINGANDTHEABSE 
+K1p Fragment 3 OFLIGHTLIESTHENUA 
+K1 Keyword 
+IMPSESTPALIMPSEST 
+ 
+K4d-3  (16 characters) 
+K4d Fragment 3 GYAIMNGCQREQOTBX  
+K1C Fragment 4 QTMKYRDMFD 
+K1p Fragment 4 OFIQLUSION 
+K1 Keyword 
+IMPSESTPAL 
+ 
+One has to stand back at this point and momentarily forget the cryptographic aspects of Kryptos and 
+marvel at the skill inherent in what the artist has managed to achieve here.  The concept of Chinese 
+Boxes or Russian Doll’s immediately spring to mind as we suddenly find ourselves confronted by 
+another three doors left to unlock. 
+
+[[page 9]]
+Statement 4.  Each unique section just like the four sections of the complete 
+cipher text has its own distinct method of encryption that must be broken. 
+ 
+It can be seen immediately that the structures of K4d-1, K4d-2 and K4d-3 are all quite distinct from 
+each other and are most probably encrypted using either separate Keywords or different encryption 
+methods. 
+Statement 5.  It is ventured that the first layer decryption of K4d-1 is 
+LCOXWHXMAKE 
+ 
+By using K4d Fragment 1 as the cipher text and K1C Fragment 1 as the corresponding keyword to 
+decrypt, the following plain text was extracted: 
+LCOXWHXMAKE.   
+The discovery of this plaintext was thought at the time to be significant as it might imply an entire 
+plain text yet to be discovered that detailed a scenario such as a stand down order from the Launch 
+Control Office of the Whitehouse.  Significant research was undertaken as to the acronyms in use by 
+the various strategic bodies at the time of the Cuban missile crisis as any resultant plain texts might 
+be obscured by intelligence specific grammar’s that appear meaningless in plain English .  Examples 
+include ALCC, SAC & ICBM etc. 
+Statement 6.  K4d-1, K4d-2 & K4d-3 are each DOUBLY encrypted. 
+ 
+Initial thoughts on the decryption of K4d-1 being the true plain text are now thought to be over 
+simplified despite its readability and it was eventually reasoned that it was subject to a secondary 
+encryption mechanism.  This conclusion was reached on the basis of working on potential decryption 
+schemes for K4d-2 which so far have yielded no meaningful results. 
+ 
+ 
+
+[[page 10]]
+Statement 7.  Once the first layer of decryption is removed from each of the 
+three parts the final plaintext is recovered through the use of two keywords 
+of 5 and 6 characters in length respectively. These are applied repeatedly 
+four times against the underlying 44 character string to recover the 
+eventual plaintext. 
+ 
+As more blind alleys were reached, especially in regards to work on breaking K4d-2 it was reasoned 
+that a secondary layer of encryption was likely to be in play.   
+This conclusion then started to gain some momentum after reviewing the cryptic clue embedded in 
+K2 that was subject to personal intervention by Sanborn after parts K1-3 had been decrypted:   
+THIS WAS HIS LAST MESSAGE. X THIRTY-EIGHT DEGREES FIFTY-SEVEN MINUTES SIX POINT FIVE 
+SECONDS NORTH SEVENTY-SEVEN DEGREES EIGHT MINUTES FORTY-FOUR SECONDS WEST X LAYER 
+TWO. 
+If this cryptic clue wasn’t taken at face value as being the coordinates of the sculpture itself then we 
+could alternatively just write out the following number string: 38576.577844.  The importance of this 
+is that we have a five and six digit number that if repeated four times would overlay our 44 character 
+solution exactly. 
+ 
+ 
+
+[[page 11]]
+Statement 8.  It is ventured that the first keyword in this 5 and 6 character 
+combination is QUXQB which corresponds to the K1 cipher text for LIGHT.   
+ 
+Given that there was only confidence in a potential solution to K4d-1 a concerted efforts was made 
+to ascertain the meanings of both the 5 and 6 digit numbers respectively.  As K4d-1 was 11 letters 
+long it was thought that this would be the perfect benchmark for uncovering any potential second 
+layer of encryption. 
+Two more cryptic clues now came into play:  The first is from the K3 plaintext. 
+I INSERTED THE CANDLE AND PEERED IN THE HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE 
+FLAME TO FLICKER BUT PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X 
+CAN YOU SEE ANYTHING Q  
+The second is from the K1 plaintext. 
+ABSENCE OF LIGHT  
+The expression for light in the K1 cipher text is QUXQB.  If this is metaphorically held up to the first 
+five letters of K4d-1 and decrypted using the Kryptos Tableau then we derive a plain text of WHATI. 
+Given that the key to solving the overall puzzle most probably lies with K4d-1.  This cryptic clue left in 
+K3 now takes on some additional meaning. 
+I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER  
+It began to become apparent that the journey undertaken to this point was very similar to the 
+opening text of K3.  It was reasoned that the structural operations taken out on K1 as a result of K4d 
+had indeed been like breaking  off a piece of door way.  It leads to the overall question of whether 
+K3 is actually a metaphorical description of how the K4 plain text is derived from start to finish. 
+
+[[page 12]]
+Statement 9.  It is tenuously ventured that the second keyword in plain text 
+may either be HIOOGH where OO represents  underlying characters that 
+should remain unchanged or GNOMON which can be derived tenuously 
+from the same original source. 
+ 
+This statement has been grouped along with statement ten as being extremely tenuous.  Regular 
+solvers of daily cryptic crosswords may sympathise with its merits, whilst others may feel ill at ease 
+with the route necessary in order to extract the end result.   If we return to our original number 
+string from statement 7, then we have our two numbers consisting of five and six digits a piece, 
+38576 and 577844.  If LIGHT is indeed the correct secondary decryption keyword then we can 
+assume that there is a relationship between 38576 and the plain text LIGHT.  We know that we can 
+only be dealing with numbers one through to eight in regards to both numbers so the letters of 
+LIGHT can be laid out in the following positions: 
+1 2 3 4 5 6 7 8 
+    L   G T H I 
+ 
+It is immediately obvious that we have a table that is missing three letters.  Various words were 
+constructed that would fill the missing gaps with an example being THINKLOG, which was thought  
+to sound promising as it would seem to compel us to ‘think logically’, but it was then noted almost 
+instantly that a major clue in the sculpture itself may offer some cryptic assistance here.  The 
+sculpture itself stands next to a large piece of petrified wood which thinking cryptically may also be 
+thought of as a ‘thick log’. 
+If we now substitute in the missing letters of THICKLOG we arrive at:  
+1 2 3 4 5 6 7 8 
+C K L O G T H I 
+ 
+If we now read off the plain text for the number value 577844 then we arrive at: GHHIOO. 
+Shifting the letters to the left twice gives us HIOOGH.  In tandem with the word LIGHT it would seem 
+to suggest HIGH LIGHT and one would assume that OO may imply a scheme whereby the underlying 
+letters uncovered in the first decryption remain unchanged (much like the action of light from a 
+flickering candle). 
+The feeling cannot be shaken that GHHIOO may alternatively be alluding to the word GNOMON 
+which has a meaning in its original Greek of ‘that which reveals’ which would fit sympathetically with 
+the use of the word LIGHT.  This would seem to imply that there is something spatial about the final 
+decryption that may only be seen at the site of the sculpture at a certain hour of day as many have 
+already suggested. 
+The important information that hasn’t been imparted here is how HIOOGH or GNOMON itself may 
+be encrypted for use as a Keyword.  It is presently assumed that PALIMPSEST must still be the 
+keyword in play, but at present no evidence has been found to support this conjecture. 
+
+[[page 13]]
+ Claim 10.  It is conjectured that the first five letters of the K4 plaintext 
+proper are WHATI and an unqualified guess ventured that this may well 
+correspond to a quote by Andre Malraux. 
+ 
+If the assertion that the second keyword utilises a two character space that preserves the underlying 
+layer 1 decryption is correct, then the final doubly decrypted plain text of K4d-1 would read as 
+WHATI__MA__.   Any number of combinations would be plausible for filling the complete 44 letters 
+of the required plain text such as WHAT IS IMAGINATION etc, but the information imparted publicly 
+by the ex CIA Director in relation to K4 implied that the complete answer was ‘philosophical and 
+obscure’.  What is effectively a social hack led to a brief search for potential quotes that would fit 
+such criteria.   
+The quote ‘WHAT IS A MAN? A MISERABLE LITTLE PILE OF SECRETS’  attributed to Andre Malraux 
+would appear a fitting conclusion given the nature of the work undertaken at the CIA.  Malraux 
+would also fit as a potential source known to Sanborn as he wrote widely on a number of subjects 
+including art and sculpture. 
+Compressed into 44 characters it is conjectured that such a plain text would read something like: 
+WHATISAMANXAXMISERABLELITTLEXPILEXOFXSECRETS  
+Should anyone search the internet in pursuit of a source for this quote, then they will no doubt come 
+across multiple references from its use in a video game published by KONAMI in the 1990’s.  In the 
+time since the sculpture was installed the game became a hit, and its obscure dialogues passed into 
+the vocabulary of teen sub culture.  As a result there are multiple sites on the internet where T-shirts 
+or mugs emblazoned with the same wording may be purchased.  Given that the final plain text may 
+not be revealed for some time to come the Author is happy to settle on this conclusion as he notes 
+with a wry smile that teenagers all over the western world may have been walking around the 
+streets keeping the secret in plain sight for most of the last decade. 
+ 
+Closing Remarks 
+ 
+It is hoped that the newly revealed inner structure of K4/K1 outlined in statements one to three will 
+offer an exciting opportunity to break the K4 impasse of the last decade.  It is also hoped that there 
+is some meaningful signal to be extracted from within the noise of statements four to ten.   
+If anyone would like to offer a critique, corrections or suggest related collaborations then feel free to 
+email K4@dataluminescence.co.uk where I will endeavour to try and respond. 
+ 
+ 
+
+[[page 14]]
+Feedback 
+  
+Useful feedback has already started to filter back from the Kryptos forums, so an effort will be made 
+to try and keep a log of how the basic premise of statements 1 -3 progresses, unravels or mutates. 
+Monday 11th October 2010 
+Progression.  Feedback on changes necessary to background information. 
+Tuesday 12th October 2010 
+Unravelling.  It is pointed out that JS has recently indicated that K4 plain text is approximately 100 
+characters long. 
+Thursday 14th October 2010 
+Major Coincidence.  Whilst digging up some information about the artist Kit Williams I stumble 
+across a picture of the Sanborn copper screen installation in Stamford CT.  A shiver goes down my 
+back as I realise that I must have walked past that sculpture every day when I was visiting the 
+company offices in the US.  In fact in one of the shots our old company offices are actually visible.  
+Progression.  Kryptos Group Member Dan points me at some work on his compass rose theory.  I 
+strip the theory back to its original premise and redo the rose using the original cipher text.  
+Compare against K4d to see if anything stands out. 
+Progression.  Studying group member Dan’s Compass Rose theory suddenly highlights the fact that 
+the two misspelt letters are A and U.  I point out that this may be an allusion to the golden section or 
+phi.  Transpires that there is a binary sequence called the Golden String closely related to Fibonacci 
+numbers that has a selef similar repeating element of 101101. 
+Tuesday 19th October 2010 
+Progression.  Two things strike me today.  The first is that the original document above wrongly 
+stated the order in which the decryption is done.   The OBKR part of the string should have read as 
+being the Keyword used to decipher ACKEUA etc.  Document corrected. 
+The second is that if we don’t terminate halfway and incorporate the entire K4 string then we end up 
+with the following relationship. 
+CT 
+ACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTAWZZKESSQJSQTWTOSSKGNRPQQVRLFWBBFILOSBLUHGOXOURK
+BOR 
+KW 
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEK
+CAR 
+PT 
+YRKDKYWCBFMXYPEGCGMYJECYJOXRPPJYGYAIMNGCQREQOTBXYMVUSIZSLGABENXGXDWWZYUDXLIDXBGLGIWXYBHMLPXKJK
+ZXK 
+
+[[page 15]]
+Of interest is the resulting XY combos that are present in the string similar to the first one we used to 
+separate out K4d-1. 
+ 

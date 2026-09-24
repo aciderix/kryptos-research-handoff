@@ -1,0 +1,144 @@
+[[page 1]]
+#1 - Yet Another Revelation, T is your 
+POSITION
+There is a riddle, deep and grand,
+still no one holds it in their hand.
+Just fifty-eight more days are left,
+before the secret stands bereft.
+They say the clues are in plain sight,
+the hidden truth lies in the light.
+But NSA misled with schemes,
+should whole matrix fuel our dreams?
+Illusion lies — where L plus C,
+becomes the letter K, the Key.
+So shift from T, top row obey,
+and “YAR” will shimmer into play.
+#1.1 – What matrix?
+•
+is PALIMPSEST matrix really the matrix used? 
+•
+This is the matrix shown in NSA docs, used for decryption:
+ 
+•
+what we think is that Monnpass used full matrix for encryption (not the one above)
+•
+Why?
+•
+In word ILLUSION he encrypted first L into K
+
+[[page 2]]
+•
+That was done because he made a mistake writing PALIMPSEST key in matrixes he 
+shared with us. He wrote PALIMPCEST
+•
+this is the explanation how did he encrypt L using C (that resulted in K)
+ 
+•
+if he used PALIMPSEST matrix he wouldn`t be able to encrypt using C row – there is no 
+“C” row in PALIMPSEST matrix 
+•
+Hypothesis: He use full KRYPTOS matrix (instead of only selected rows)
+#1.2 – full matrix + T is your position + YAR
+•
+lets position simple alphabet at the top starting with T (since its your position) 
+•
+and lets reverse OBK (first 3 letters of K4)
+•
+We use the same matrix shown in previous point (only first rows are shown below):
+•
+reverse of OBK results in: YAR
+•
+Hypothesis: are YAR letters information how to set up the matrix for K4?
+
+[[page 3]]
+Rush along, the bold ones score,
+The next part knocks upon the DOOR. 
+
+[[page 4]]
+#2 – BERLIN CLOCK, T NORTH EAST, 
+washing machine and A DOOR
+We’re nearly there, the code grows thin,
+Each step reveals what hides within.
+So first, we’ll turn towards NORTH EAST,
+A compass clue for cryptic feast.
+Then break the letters, tick by tick,
+The BERLIN CLOCK will do the trick.
+We’ll rinse the noise and scrub it clean,
+Then use washing machine.
+Yet someone shuffled, twist by twist,
+A sneaky move we almost missed.
+Where whispers fade and echoes die,
+We find a DOOR... and GOD knows why.
+
+[[page 5]]
+#2.1 – T NORTH EAST attack
+•
+lets try to reverse TNORTHEAST using matrix presented previously
+•
+T – is 25th letter in K4
+•
+RONVUJCOTS <-> TNORTHEAST – not working
+•
+lets skip first 3 rows (used for setting up the matrix using YAR clue), then TNORTHEAST 
+will start on 28th row:
+•
+OLKSPGZLQP <-> TNORTHEAST – not working??
+#2.2 – washing machine
+•
+Lets try BERLIN CLOCK based WASHING MACHINE
+•
+BERLIN CLOCK when using hours shows us numbers using something like 2D 
+cordinates.
+
+[[page 6]]
+•
+So hour 1 is represented by (0, 1) => 0 * 5 + 1 = 1
+•
+hour 11 is represented by (2, 1) => 2 * 5 + 1 = 11
+•
+hour 24 is represented by (4, 4) => 4 * 5 + 4 = 24
+•
+does it show us that we should use 5x5 matrix for MASKING? Lets put letters into 
+5x5 matrix
+•
+and now lets put washing machine into motion
+•
+swap matrix across CHMRW column:
+•
+now we wash OLKSPGZLQP letters using mapping from above matrixes. We get: 
+OLKSPGZLQP => KNOQTI?NST
+•
+which letters are ok? xNOxTxxxST
+•
+but what if we modify a little the rows in the KRYPTOS matrix. Lets move them a 
+little.
+•
+now we wash PLKRPHALQP letters again using:
+
+[[page 7]]
+•
+PLKRPHALQP => TNORTHExST better?
+•
+Only one letter not working?
+•
+But why should we move rows in the main matrix? Lets look at line lenghts in original 
+KRYPTOS K1 + K2 and our modifications (for first 6 rows):
+•
+Does it look similar? (+1, 0, 0, -1, 0, +1)
+#2.3 – washing A DOOR …
+•
+Lets try then from the beginning. We take K4, reverse first 5 letters using our matrix:
+
+[[page 8]]
+•
+VXOOH – wash using matrix swapped across KLMNO:
+•
+VXOOH => BDOOR => B DOOR 
+•
+first row moved by 1 position left? Then we have UXOOH => A DOOR
+•
+nice followup after: DO YOU SEE ANYTHING Q? A DOOR …
+•
+is it ok? GOD only knows :)
+We rush ahead with urgency,
+EAST’s just a stop — then AGENCY.

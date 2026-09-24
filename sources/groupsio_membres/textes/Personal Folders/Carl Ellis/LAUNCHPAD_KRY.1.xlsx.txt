@@ -1,0 +1,166 @@
+## xl/sharedStrings.xml
+ 
+ "Values", as used below, means the ordinal value within its section of a character, either CT or pt; e. g., the value of the "D" of "VFPJUD" (K2) is 6. Algorhythm to Split Kryptos into Algorhythm to Decipher Sections by means of END YA H R OHN &c. K3 by means of END YA H R OHN &c. Add first (or smallest ) 2 Raised values. (=9) Add Raised Values. (4+5+7=16) Multiply by the last (or largest ). (9*7=63) Multiply by the last (or largest ). (7*16=112) This is the length of the first section. Multiply by # of Raised Values. This Combine the number from step 1 with is the length of K3 message content. (3*112=336) the Last (or largest ) raised Value to form a multi-digit number. This is the The First (or Smallest ) raised letter is length of the final section. (=97) to the Last (or Largest ), as the Interval between plaintext letters is to the The other two sections comprise whole Message, i.e. 1':n'=Int:Msg. (4/7=x/336 --> x=192) the remaining characters, split at This is also the first letter of plaintext the sculpture's physical mid-line. within the K3 CT. (192') Repeat the interval from 4 until you have the whole message. Count Anywhere herein where desired, 4 can be derived from the number of copper cyclically, from the end around to the quadrants, or the extra 4 letters in the alpha bets of the Vigenére table, and 7 beginning, counting the punctuation. from the number of letters in KRYPTOS. I used the raised letters of K3 for this instead, as they would produce these results regardless of the number of copper plates, or letters in the Sculpture title/Vigenére keyword. a Combine the first ( smallest ) raised letter with the last ( largest ), to form a multi-digit number. (=47) This will be the interval in K3 between every other pt letter. Algorhythm to Decipher K3 by means of Deciphered K1 K3 by means of Deciphered K2 Split the digits of the K1 value of the Find the value (within the entire upper "error". (57 --> 5 & 7) quadrant of the encipherment) of the K2 "error", counting letters only. (= 178) First find the n'th PALIMPSEST section indicated by the tens digit. (5' = liesthenua) Subtract this from the letter count of Then find the letter within that string the entire upper quadrant of the indicated by the ones digit. (7'-liesth e nua) encipherment. (373 - 3 queries = 370) This will be the number in K3 of the (370 - 178 = 192) (This letter's value will, incidentally, first plaintext letter, and the interval be the interval in K3 between every between plaintext letters. second pt letter.) Repeat the interval from 2 until you Add the digits of the "error": (5+7=12) have the whole message. Count Multiply by the number of letters of K1 beginning, counting the punctuation. (#337) following the one identified in step 2. (12 x 16 = 192) OR Repeat the interval from 4 until you Add the digits of the number found in step 1. (1+7+8=16) Multiply by the number of punctuation marks in K2. (3*16=48) Multiply by the Smallest Raised digit . (4*48=192) This will give the number in K3 of the Add the digits of the K1 value of the (57 --> 5 & 7, 5 + 7 = 12) Combine the Smallest Raised Value and the Largest Raised Value to indicate a letter of K1. (47' - CT=L, pt=e) & ALSO, Split off the ones digit of the K2 place value (Counting letters only) of the (115 --> 11 & 5) Multiply the number of letters of K1 which follow the one identified in step b Find the K2 key-section indicated 2 by the sum found in step 1. (16) (12) by the other digit(s). (11'=onwasgat) c Find the letter within that section indicated by the ones digit. (5' = onwa s gat) d Subtract the place value of the first punctuation mark of K2 (= 38) from the place value (now again counting letters only) of the letter indicated by the "error" and found in step 3. (= 85 - 38 = 47) This will be the interval in the K3 CT of every second letter of K3 pt. a' Split off the ones value of the quadrant value (counting letters only) of the (178 --> 17 & 8) b' (17' = nlocatio) c' (8' = nlocati o ) This letter (CT "F", pt "o") may be (136 in K2, 199 in Quad) of interest in that it is 21 letters from the "error", and K4 exhibits some indication of pattern at that interval. K1 by means of K3 CT K2 by means of K3 CT First letter of K1 keyword is found at Start at the same value of K3 as there the same value of K3 as the upper are letters in K4. This is just the starting quadrant value of the start of K2. (=64'="P") point. (=97') (or, If K2 is solved, the value of the sum of the digits in the Lon./Lat. coordinates) Come backward as many places in K3 as the value of the first Raised Letter Go as many places further in K3 as plus the number of Raised Letters. This the value of the first Raised Letter. is the first K2 keyword letter. (=97-[4+3]-->90'="A") This is the 2nd keyword letter. (=68+4-->68'="A") as the value of the next Raised Letter. the value of the first Raised Letter plus (=90-5-->85="B") the value of the Last. This is the 3rd letter of the K1 keyword. (=68+4+7-->79'="L") as the value of the largest Raised Letter. This is the 3rd keyword letter. (=85-7-->78="S") the value of the first Raised Letter plus the value of the next Raised Letter. Combine the first and next Raised This is the value of the 4th keyword Letter values to form a 2-digit number. letter. (=79+4+5-->88'="I") Come backward that many places in K3. This is the 4th keyword letter. (=78-45-->33="C") These 4 letters are exactly half of the plus the number of raised letters. This keyword, which will be the only 8-letter is the value of the 5th keyword letter. (=88+4+3-->95'="M") word in your dictionary which starts with these four letters. ( ABSC ISSA) These 5 letters are exactly half of the keyword, which will be the only 10-letter with these five letters. ( PALIM PSEST) 
+## xl/worksheets/sheet1.xml
+ 
+ 0 
+ 
+ 1 2 
+ 3 4 
+ 
+ 1 5 6 1 7 8 
+ 
+ 2 9 10 2 11 12 
+ 13 
+ 3 14 
+ 3 15 16 17 
+ 18 
+ 19 4 20 
+ 21 22 23 
+ 24 
+ 4 25 26 27 
+ 28 29 
+ 30 31 32 
+ 
+ 5 33 
+ 34 
+ 35 36 
+ 37 38 
+ 39 
+ 40 
+ 41 
+ 
+ 42 43 
+ 44 
+ 45 46 
+ 
+ 47 
+ 48 
+ 
+ 
+ 
+ 49 49 
+ 50 51 
+ 
+ 1 52 1 53 
+ 54 55 56 
+ 57 58 59 
+ 2 60 
+ 61 62 2 63 
+ 64 65 
+ 66 67 68 69 
+ 70 71 
+ 72 73 
+ 74 75 
+ 76 46 
+ 3 77 
+ 3 78 79 80 
+ 36 
+ 4 81 82 83 
+ 84 85 
+ 70 
+ 73 86 
+ 75 
+ 
+ 5 87 2 88 
+ 80 89 90 
+ 36 
+ 82 83 3 91 
+ 92 93 
+ 
+ 86 4 94 95 
+ 96 
+ 49 73 
+ 50 75 
+ 
+ 1 97 5 77 
+ 54 98 80 
+ 57 36 
+ 2 99 4 82 83 
+ 100 7 
+ 101 102 
+ 103 
+ 72 
+ 74 42 104 
+ 76 105 
+ 54 106 
+ 3 107 
+ 108 109 110 
+ 111 112 113 114 115 
+ 96 85 
+ 73 116 117 
+ 75 118 119 
+ 
+ 4 87 120 121 
+ 80 122 123 
+ 36 124 
+ 82 83 125 
+ 126 
+ 127 128 
+ 129 
+ 130 
+ 
+ 
+ 131 132 
+ 133 
+ 54 134 
+ 
+ 135 110 
+ 114 136 
+ 
+ 137 117 
+ 118 138 
+ 
+ 139 140 
+ 141 
+ 142 
+ 143 
+ 
+ 
+ 49 49 
+ 144 145 
+ 
+ 1 146 1 147 
+ 148 149 
+ 150 151 152 153 
+ 154 
+ 155 2 156 
+ 157 
+ 2 158 159 
+ 160 161 162 
+ 163 164 
+ 3 156 
+ 3 158 165 
+ 166 163 167 
+ 168 
+ 169 170 4 156 
+ 171 
+ 4 158 172 173 
+ 174 
+ 175 5 176 
+ 177 178 
+ 179 180 181 
+ 182 183 
+ 5 158 
+ 174 6 184 
+ 185 186 
+ 187 188 189 
+ 190 191 
+ 6 192 
+ 193 
+ 189 
+ 194 195 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

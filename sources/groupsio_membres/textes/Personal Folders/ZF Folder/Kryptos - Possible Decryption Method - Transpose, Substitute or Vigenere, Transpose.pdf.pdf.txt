@@ -1,0 +1,108 @@
+[[page 1]]
+My current hypothesis is based on the letter configurations in the ENDYARH portion of 
+K3.  The letters Y, A, and R are raised ever so slightly above the rest of other letters in 
+the first line of K3 (or superscripted).  Upon closer inspection, D and Y as well as R and 
+H seem like they're paired together, while A is just hanging out there by itself.  My first 
+question was, "Why would Sanborn cut those letters into the copper sheet (which isn't 
+thin) without first double checking to ensure they were properly aligned with the rest of 
+the letters?  Was he drunk when he did that?  Why would he purposely superscript 
+those letters for a piece of art that he knew was going to last for a long time?  Why 
+would he accept those imperfections in his final product?"  But the more I think about it, 
+I believe the superscripting was done on purpose.    
+ 
+My next thought was, "Ok.  If those letters were superscripted on purpose, what was 
+that purpose?"  I thought back to the scenario Sanborn was trying to convey through the 
+artwork.  If the sculpture was supposed to be a message shared between a handler and 
+his spy, where face-to-face communication was next to impossible, how would the 
+handler get a message to his spy (or vise versa) without getting caught?  My mind goes 
+to the Soviet Union with the KGB breathing down everyone's neck and making human 
+intelligence operations next to impossible.  To me, the person writing the message 
+would have to communicate the decryption method on the first encounter, because 
+there was no way to assume a second meeting would occur.  If that's the case, where 
+would one look to find that decryption method?  Here is where I think sections K1, K2, 
+and K3 of KRYPTOS come further into play.  
+ 
+If you look at the decrypted letters of K1, you'll notice that the word IQLUSION is 
+situated all way to the right-hand side of the message.  Moving down to K2, you'll notice 
+that UNDERGRUUND is also on the right-hand side of the message, but not as far to 
+the right as IQLUSION.  And if you move down to K3, DESPARATLY is on the center-left 
+of the message.  If you a draw a diagonal line that intersects these decrypted words, 
+you get something that *might* be indicating where to look for the method of decrypting 
+K4, which just so happens to be the seven beginning letters of K3, ENDYARH. 
+ 
+So, what would the superscripted letters mean if they are to be viewed as a method of 
+decryption?  One way to interpret the D/Y and the R/H letters in ENDYARH is that one 
+of those letters is the beginning and ending points for the first row/column of the 
+transposition.  Perhaps we need to start the first transposition at the letter R and go in a 
+way that ends the first row/column of transposed letters with H, then follow that with the 
+second row/column of transposed letters beginning with the letter after H until the 
+second row/column of transposed letters matches the number of letters in the first 
+row/column, and so on until the letters run out.  
+ 
+Another interpretation could be that we should work with both the encrypted and 
+decrypted letters of K3 to begin and end our transposition.  Perhaps we start with O, 
+which is the decrypted letter that corresponds to D in ENDYARH.  It's the "O" in 
+
+[[page 2]]
+SLOWLY.  After that, we end our first line of transposed letters with the encrypted 
+letters, so Y.  There's only one letter "Y" in K4, so it's possible that it could be an 
+indicator or letter of importance when doing the first transposition.  If we were to layer 
+the decrypted message immediately underneath or on top of the encrypted message, 
+we would be going from one layer to another when we begin and end our first line of the 
+transposition.  
+ 
+Another possibility is that the first letter of the transposition (D or R) into a row/column 1 
+needs to be placed in such a way that it mirrors the superscripting of the letters in K3 so 
+that Y or H of row/column 2 are diagonally located from the first letters.  I'm not entirely 
+sure which way we're supposed to transpose the letters, so this is a complete guess on 
+my part.  But I do believe transposing the letters is supposed to be the first step in 
+solving K4. 
+ 
+What makes me think the superscripted A is intended to mean a substitution or 
+Vigenere cipher should be applied after doing the first transposition?  Well, for me, it's 
+just weird to have one letter hanging about by itself when the two other superscripted 
+letters seem to be just a tad bit closer to the other letters in K3.  If the letter A is 
+supposed to indicate a substitution should be carried out, does that mean only one letter 
+should be used as the substitution method?  Possibly.  This would be like a Caesar shift 
+where every letter is changed by the same key letter in the message's alphabet.  If this 
+is the case, which letter should be used as the substitution key?  I've already gone 
+through every single letter shift in the key alphabet to find that the letters Y, T, S, B, I, 
+and J are the only letters that, when applied to the original encoded message, decrypt 
+to the minimum number of letters needed to have EASTNORTHEAST and 
+BERLINCLOCK in the resulting message.  
+ 
+Another possibility is that a key schedule, or set of letters that can be applied to the 
+entire message, is applied to the transposed letters to get an entirely new set of 
+letters.  This would be a multi-word Vigenere cipher and the decrypted letter counts 
+would depend on the initial transposed letter's position.  If we are supposed to use the 
+previous sections to help solve K4, it's possible that we would need to use a key 
+schedule that included IQLUSION, UNDERGRUUND, and DESPARATLY.  It would 
+mean KRYPTOS is a sequential discovery puzzle, where solving one puzzle leads to 
+the solving of another.  This would be very similar to the puzzle processes that are seen 
+in many escape rooms.  The only potential key schedule that uses the previously 
+misspelled words in the decrypted sections is: 
+DESPARATLYUNDERGRUUNDIQLUSION.  If repeated three times and DESPARATLY 
+is added to the end, the exact number of letters in the key schedule is 97.  I previously 
+wrote about this potential key schedule in message #22625.  
+ 
+What we're left is six possible substitution letters and one key schedule, for a total of 
+seven possibilities that could be used to change the letters of the first transposition of 
+
+[[page 3]]
+letters. 
+ 
+To me, it would make sense to assume that if one of the superscripted letters in K3 
+suggest transposition in the beginning, then the other superscripted letter should be 
+treated the same.  But how to get to that point after first changing the positions of the 
+letters and then the letters themselves is a challenge. 
+ 
+One of the reasons I believe the decryption method is supposed involve a transposition, 
+followed by a substitution, and ending with another transposition is that this method is 
+mentioned in the Army's technical training manual on Basic Cryptography.  The section 
+is called Monoalphabetic and Polyalphabetic Substitution Combined with Transposition 
+and can be found on page 154.  It's a form of super encryption, which I'm pretty sure we 
+can assume Sanborn used in KRYPTOS, given its difficulty.  It's a way to apply what 
+was done to solve sections K1-K3, but combining the methods and changing the order. 
+ 
+I'm still working on this approach, but am definitely willing to see if anyone has any 
+ideas on how to tweak it. 

@@ -1,0 +1,137 @@
+[[page 1]]
+ 
+M1  A big clue is in plain sight 
+ 
+Jim said a big one is in plain sight. Well if that's so, it's in the Kryptos ciphertext. Part of the 
+clue was already found several years ago. But it was not understood as Jim and Ed expected. 
+Jew-Lee found that if K3 was arranged in 31 columns, it can be read diagonally, from NE to SW, 
+OHNNY NASH. Then Paul Kiesel found on the next diagonal, I SEE. Imagine for a moment the 
+enormous task of adjusting the plaintext of K3 to get these 13 characters aligned as they are in 
+the ciphertext (and we will see that there are many more messages in plain sight and 
+concealed in K3 and throughout Kryptos). This is not just random. 
+ 
+ 
+ 
+Although the J was lost, the message is loud and clear: Singer - Johnny Nash, Song - I can see 
+clearly now. If in the final part of K3 it asks: CAN YOU SEE ANY THING Q? So we must listen to 
+what things Johnny can see. 
+This is one of my favorite songs. I have enjoyed it hundreds of times. So what things can 
+Johnny see? I can see all obstacles in my way… OBSTACLES. Here is that rainbow I’ve been 
+praying for… RAINBOW. Look all around, there’s nothing but blue skies… BLUE SKIES. But in 
+principle BLUE SKIES wins, because there is nothing else. So, 4 + 5 characters. What's in K4 with 
+4, 5 or 9 things? The 4 rows! We will number the rows of K3 and K4 as Jim does in his chart #3, 
+from 1 to 14 (not from 15 to 28 as I had done before). How many B are in row 11? Only 1 and it 
+is one of the 4 letters of K4 in row 11. How many L are in row 12? 3. How many U are in row 
+13? Only 1. How many E are in row 14? Only 1. So, we should slide the rows between them to 
+form BLUE vertically? And in which column do we align BLUE? Are there only 3 simple 
+transpositions possible? 
+ 
+Tests:  
+ 
+1) In the Antipodes sculpture, Jim put the Kryptos code almost 2 times, but in this order: K3, 
+K4, space, K1, K2, K3, K4, K1 and part of K2. So if we place rows 1 and 2 of K1, as they are in 
+
+[[page 2]]
+Kryptos, after K4, as they are in Antipodes, the magic appears. We can see SKY in columns 25 
+and 26. 
+ 
+ 
+ 
+ 
+We must align BLUE in column 25. Several years ago, in an interview with Jim, Elonka asked 
+him if the mistakes were deliberate. Jim answered yes. But more important than which the 
+mistakes were, is it more the orientation or positioning of those letters that’s use full there. 
+The character that causes the IQLUSION mistake is precisely the K in SKY and it is marking the 
+position of where to align BLUE, hence its importance. We find a logical explanation for the 
+first deliberate mistake. 
+ 
+2) Jim in his chart where he shows how K1 and part of K2 would have been encoded, puts 4 
+marks on K1. An arrow to the right in row 1 of the ciphertext, another arrow to the left in row 
+2, and 2 checks marks under a K in row 1 and a Y in row 2. He was giving us the clue to pay 
+attention to the Ks and Ys and to move row 1 to the right or row 2 to the left so that we find 
+SKY. He didn't mark an S because it would be too obvious. If he checked the first one, we 
+would read SKY and the second is precisely the S of our SKY. Here is the ambiguity of whether 
+we should align BLUE on column 25 or 26. With PALIMPCEST as the title Jim seems to explain 
+that IQLUSION was an inadvertent mistake. But honestly, I don't think so. I believe that Jim is 
+fairly and cleverly doing the opposite. This is not the original chart where Jim wrote the 
+plaintext, the key, and encoded. We will see that Kryptos is an immense puzzle, very carefully 
+elaborated, almost character by character. I think this is a chart built years later just to give us 
+additional clues. If it were true that he put PALIMPCEST as the key, he encoded wrong, realized 
+the mistake and corrected it... where would be the first place where he should correct the C 
+for the S? Of course in the title. By leaving the C in the title he is confirming that IQLUSION is a 
+deliberate mistake, just as he told Elonka. 
+ 
+3) Nicholas LaMey did a study with ciphertext in a 30 column arrangement. Below is a detail of 
+the area under study: 
+ 
+
+[[page 3]]
+            
+ 
+ 
+OHNNY and I SEE are vertical from N to S, now BnLUE also appears vertical, but that n 
+interleaved in BLUE is the n of LINE diagonally from NE to SW. TEST also appears diagonally. If 
+we had not realized with the song, here is the clear instruction, in correct English, LINE BLUE! 
+TEST! It is not possible to solve K4 if we do not align BLUE. 
+ 
+4) When we begin to pay attention to the 3 L of row 12, we see that one of them is the 
+sequence ULB, BLU reversed. But there is no E in row 12. Also in row 12 there are 2 sequences 
+SO, OS reversed. It is curious that the sequences are reversed only in row 12, just random or 
+intentional? In the U of row 13 is the LU sequence, and shifting row 13 forms the YPT 
+sequence. At the E of row 14 is the sequence UE. All these sequences belong to BLUE or 
+KRYPTOS. It will be possible to form more than one BLUE with simple movements and thus 
+obtain the lost plural… SKIES? Daniel Ankuda showed that taking the characters of K2 and 
+jumping according to the days of the months in order: 31, 28, 31, 30… we got I SEE ONE, I only 
+SEE ONE blue? Jim commented that it was strange to him that no one had tried running it 
+through all possible shifts. Was it an indication for someone to test the 31 x 31 x 31 = 29,791 
+shifts and find the 3 possible BLUEs? Should we also reverse row 12 to read BLU and OS? 
+Should we swap rows 12 and 13 so that KR appears above, YPT in the middle and OS below? 
+Since row 13 has only one L and row 12 has 2 U, we have 10 possible simple K4 transpositions 
+to align BLUE: 
+ 
+The first 3 with each of the 3 L in row 12 
+ 
+ 
+ 
+
+[[page 4]]
+ 
+ 
+ 
+ 
+The next 3 with row 12 reversed to be able to read BLU and OS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The next 2 swapping rows 12 and 13 to have the KR, YPT and SO sequences in the correct 
+order 
+ 
+
+[[page 5]]
+ 
+ 
+ 
+ 
+Finally the last 2 interchanging rows 12 and 13, with row 12 reversed, to have the KR, YPT and 
+OS sequences in the correct order and to be able to read BLU and OS 
+ 
+ 
+ 
+ 
+ 
+If we had a choice, this last K4 transposition would be the preferred one. It complies with 
+having BLUE aligned, it has the KR, YPT and OS sequences in the correct order and with OS in 
+the correct sequence, when reversing row 12 the U falls exactly in column 25 and another 2 
+BLUE can be read in zigzag, recovering the lost plural of SKIES. 
+Ed said he built some dead ends. 9 are enough for me. There is another LINE BLUE test 
+elsewhere on Kryptos that I will show later. 
+ 
+This M1 message was a bit long, but it´s a big clue in plain sight! And there is much, much 
+more! 
+ 
+Jose Luis 
+ 

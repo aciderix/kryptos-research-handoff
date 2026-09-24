@@ -1,0 +1,13 @@
+Analysis of K4
+
+The cipher alphabet is derived by a columnar transposition of the 26 letters of English. The letters are inscribed, in normal order, into the columns of a 7 wide rectangle.
+The transposition rectangle  uses the numerical key  1  4  7  3  6  2  5  and the cipher alphabet is read  out by rows, left to right, top to bottom.
+The cipher alphabet is: ALWHSEPBMIXTFQCNYJUGRDOZKV
+When written of a width of 21 letters, rows 1 and 2 and rows 3 and 4 exhibit isomorphism. Isomorphs are repeated plain with different key.  They appear in K4 as adjacent letters in the cipher alphabet in the columns formed by writing the data on a width of 21.
+It is certain that K4 involves at least two coding processes. The latter of which used the cipher alphabet to code the results of the previous “cipher”. And it is certain that there is a purposeful format to the cipher as transmitted.  The “format” consists of two sections, each of which has two sub-sections with each containing two distinct ‘reports’.  I believe all of the intermediate text of K4 is digits.
+ It is certain that ITA-2 and the cipher alphabet are causally related in the two step enciphering process.
+
+
+
+
+

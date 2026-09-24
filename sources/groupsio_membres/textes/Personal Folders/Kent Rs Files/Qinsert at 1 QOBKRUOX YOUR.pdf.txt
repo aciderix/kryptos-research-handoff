@@ -1,0 +1,59 @@
+[[page 1]]
+Regarding Hill Cipher/Jack Levine theory. 
+Things to try if interested. Review clock mechanisms and potential grid. Insert the Q@ position 1. 
+Review resulting table symmetries below. Bottom row decrypted via Kryptos Tableau. Ex: T top row, 
+follow column down to Q, read over to extra alphabet 1=J, etc, 
+ 
+T 
+I 
+S 
+Y O U R 
+P O S 
+I 
+T 
+I 
+O N 
+1 
+2 
+3 4 
+3 
+3 
+3 
+4 
+3 
+3 
+2 
+1 
+2 3 
+2 
+Q O B K R 
+U O X O G H U L 
+B 
+S 
+J 
+L 
+T 
+R X 
+Y 
+S 
+X Y 
+C 
+K 
+L 
+P O H 
+ 
+RUOX /YOUR (34 333 43 /rXYsXY)  JL       I    I 
+                                                                       H   L 
+                                                                          L 
+(ZORABCDEFGHIJKLMNPQSTUVWXY) ? 
+ 
+U    
+U 
+ 
+From extra L 
+H 
+I 
+ JL 
+L 
+Hill and Jack Levine. Fun stuff! 
+ 

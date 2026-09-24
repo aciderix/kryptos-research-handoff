@@ -1,0 +1,612 @@
+[[page 1]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+Deciphering the plain text K1 to K3
+This document relates specifically to my current thinking that all the clues for deci-
+phering the fourth cryptographic panel from the KRYPTOS sculpture, installed at the
+CIA headquarters in Langley, Virginia, come from passages 1 to 3.
+Whilst it has been stated many times that Kryptos can be broken using only the K4
+cipher text, for 33 years, this has been proven to be untrue as the method used to
+encrypt the panel has never been discovered.
+My thinking here is that the method is embedded and explained in panels 1 to 3 and
+this is my journey of discovery.
+Before I move on, for those reading from the Kryptos forum, you may note that
+my work recently was around the discovery of primes and the speculation of an
+advanced cipher and key exchange such as Diffie Hellman with Elgamal, before I
+suddenly switched, almost without warning to examining the plain text in great
+detail.
+In case you’re wondering, this was the result of a chain of events that made me
+question everything I was doing.
+1. I was discussing hobbies with a colleague and our conversation turned to
+adventure game books.
+2. Josh LeVeque posted about media quotes related to Kryptos. https://kryp
+tos.groups.io/g/main/message/23792 This made me realise just how much
+noise had built up over the years.
+3. Rob Mccleary posted about the Greek word ASTATOS which made me realise
+I’d been totally wrong about LAQUEO, a keyword I’d based much of my
+previous research around.
+4. Elonka Dunin posted a statement which made me realise just how little we
+understood about the plain text in K1 to K3.
+5. I took a day trip to Vilanova i la Geltru on the Catalonia coast. On the way
+back the train broke down and I found myself staring out to sea through a
+small hole in the cliff face (a tiny breach if you will) whilst thinking about
+the shape of those 97 characters.
+This chain of events then started to come together in my head and brought me
+directly to this discussion.
+Whilst this isn’t complete, I’m hoping that this will bring forth a resolution of
+the cipher text known as K4. It’s still 33 years old until November. I’m 44. The
+Martin Proffitt
+1
+
+[[page 2]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+symmetry here would be remarkable. See below.
+Traps
+For9yearsIhavechasedfantasiesanddreamsaroundK4. I’vetriedforcingmyownwill
+onto the cipher, I’ve probably made a fool of myself trying to solve it with techniques
+that do not belong to it and wasted countless hours of my life inventing numbers that
+do not exist, largely as a result of my own vanity and desire to “Be the one who breaks
+it using some magical, yet non-existent method of transposing one set of letters into
+another”.
+With K4, I think we have all set a trap for ourselves; I certainly fell into a deep one
+but there are also two very clever ones, one set for us by the sculpture itself, and the
+second set by our expectations around it.
+1. I feel we are geared to over-engineering solutions based on the premise “This
+must be hard, the CIA, NSA, GCHQ and probably every other intelligence agency
+in the world can’t break it”
+Whilst I used to believe this to be true, over the course of a few days in April,
+my thinking shifted from the need for over-engineering to believing that its
+complexity comes from its simplicity.
+I stated recently in an email to a fellow amateur cryptographer that the bit that
+makes it hard is that we forget how to think like an artist and infer things that
+actually are not there.
+2. For the second of the two traps; we’re all caught up in solving the cipher text
+yet how many of those who have attempted to decipher KRYPTOS can truly say
+we’ve solved the all of the plain text?
+My estimation is that most reading this, like myself have decided “K1, Vigenère,
+Palimpsest, that’s cute, move on” and I think this is a real trap that was sprung
+by the sculpture.
+This plain text has a lot more to say.
+Avoid K4
+Trying to dive straight in to K4 without fully understanding K1 to K3 is probably the
+biggest trap of all that this sculpture springs on us.
+Martin Proffitt
+2
+
+[[page 3]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+Over the years, many things have been said in retrospect about this cipher and this
+feeds into the belief that K4 can be solved with some magical combination of other
+cipher methods.
+• Unknown: Can you solve K4 without solving K1 to K3 first?
+• JS: Yes but K5 cannot be solved without K4.
+People have spent many thousands of combined hours on this cipher. It’s one of the
+greatest cryptographic challenges in the field and whilst it is true that K4 might be
+solvable without K1 to K3, time has proven this to be almost impossible.
+Whilst it is hard to completely avoid K4, in theory, this cipher text should be irrelevant
+to discovering the method used to deciphering it.
+Solving K4 should be a matter of putting pieces of the puzzle together. Once the puzzle
+is assembled, K4 will solve itself.
+That said, there will be places throughout this discussion where I reference the K4
+cipher text, predominately for correlation between the method and the solution being
+devised.
+Speculation and conjecture
+These are yet more traps that are easy to fall into. Whilst both of these are reasonable
+in context, it is easy to find rabbit holes to go down when trying to look for clues as to
+how K4 works.
+📓Toserveasanexampleofthis, Thenumbersinthecoordinatesgiveninpassage
+2 add up to 64. The length of the phrase “SLOWLYDESPARATLYSLOWLY” is 22
+characters.
+There are 4 passages in the Kryptos sculpture, 97 - 4 is 93. We will come back to
+these numbers later.
+These form the number 93-22-64 which is the bank sort code for the AIB Bank in
+the town of Althone, which sits on the border of County Roscommon and County
+Westmeath in the Republic of Ireland.
+Atthetimeofwritingthis, therewere1690membersoftheKryptosforum. In1691,
+a dozen men destroyed the bridge over the river Shannon during the second siege
+of the town; slowing the advance of the Williamite army under General Ginkel.
+During the siege, 32 heavy cannon and mortar fired one shot every minute at the
+town, making it the heaviest bombardment of any city in Britain and Ireland up
+Martin Proffitt
+3
+
+[[page 4]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+until that point.
+32 is half of 64 and clocks apparently play a large role in this cipher.
+The number of Grenadiers Ginkel sent to destroy the Jacobite position was 2000
+which is roughly the number of letters carved in the whole sculpture. The letters
+GG appear twice in the K2 cipher text.
+The actions of the 12 men was later captured in the poem A Ballad of Athlone by
+Aubrey de Vere.
+This kind of thinking falls into the realm of confirmation bias and whilst this has
+absolutely no relevance to Kryptos, it serves to highlight how easy it is to draw
+completely irrelevant connections between this sculpture and events that have
+taken place throughout history.
+By no means am I saying do not use these techniques. They are useful and inspiration
+often comes from applying both speculation and conjecture in the right place, at the
+right time.
+During the course of this discussion, I will try to be clear when I believe I am doing
+either. Thereisroomforbothbutforeveryspeculativepieceofevidencebroughttothe
+table, I would expect the legwork to be done to prove it or expect it to be discarded.
+Until that point, it should be called out for what it is, and I will try and highlight the
+ones I believe are relevant.
+Keywords
+Another trap to fall into is the belief of keywords being discovered inside either the
+cipher text or the plain text, especially inside K4.
+K4 is 97 alphabetic characters with a specific character distribution. Whilst the distri-
+bution does not match the standard character distribution, it is only 3 characters less
+than the number of pieces in a standard English language scrabble game.
+The number of possible ways one can rearrange these 97 characters, allowing for
+substitution where relevant to form new words is approximately 2697 ≈1.31 × 10143
+This is many orders of magnitude more than the estimated number of atoms in the
+observable universe ≈1078 ≤𝑥≤1082
+Given that the Oxford English Dictionary contains ≈600, 000 words and the Collins
+English Dictionary contains ≈722, 000 words, the chances of finding keywords in this
+cipher text is extremely high, whilst the chance of finding the exact phrase that forms
+Kryptos K4 is 1 ∶2697−1
+Martin Proffitt
+4
+
+[[page 5]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+Thatsaid, thesenumbersshouldnotdeteryoufromattemptingvalidorviablemethods
+of decryption but should instead encourage you to look for the correct method used
+and not try and brute force the algorithm as so many have tried and failed to achieve
+over the years.
+On PALIMPSEST and ABSCISSA
+I would like to talk briefly about these two keywords as they are not only important to
+solving the related passages 1 and 2 but I believe that they are also important towards
+passage 4.
+The first of these is PALIMPSEST. No, it’s not spelt PALIMPCEST, it doesn’t have any
+religious meaning, it’s not pointing to a specific scroll; I think we need to accept that
+the word is literally being given in its natural form and we need a very specific part of
+the meaning of this word.
+Re-Use
+The meaning of the word Palimpsest is
+• A manuscript or piece of writing material on which later writing has been
+superimposed on effaced earlier writing.
+• something reused or altered but still bearing visible traces of its earlier
+form.
+The part here that we are looking for is the reused or altered. I think both of these
+words have meaning here and I will try and demonstrate why I believe this to be the
+case a little later.
+Why this keyword was chosen for passage 1, I believe is because it indicates that
+passage one will point you towards the section of the sculpture that will be both
+re-used and altered in order to decipher passage 4.
+Coordinates
+The word Abscissa is chosen for passage 2. I believe that this is because Mr Sandborn
+is saying “You now have one half of the geometric position”. If this is the case, we still
+have the ordinate to find.
+Martin Proffitt
+5
+
+[[page 6]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+There is another possible meaning to this word as well; in that Mr Sandborn is saying
+“I’mgivingyouonehalfofthecipher”. Whilstthisisbothacontentious, andspeculative
+reading of the word, it is, I believe still a valid assumption.
+Even as I write this, I become aware that there are many more possible meanings for
+this choice of word and I hope that by the end of this discussion, the true meaning will
+make sense, if not to myself, at least to you.
+On LAQUEO and ASTATOS
+Back in 2015, I noted that the misspellings and their counterparts were an anagram
+of the word LAQUEO. I have spent a considerable amount of time on this word over
+the years and I fully believe I have fallen into its meaning. In Latin, this word means “A
+trap” and yes, I think I fell into it. My current belief is that the misspellings of words are
+a deliberate trap to throw you off the cipher. Think of this in terms of Indiana Jones
+and a treasure map for the pyramids, littered with traps.
+The breakthrough on me recognising this came when a man named Rob Mccleary
+wrote about his discovery of the word Greek word ASTATOS on the Kryptos forum
+https://kryptos.groups.io/g/main/message/23883. This word literally means
+“Unstable”.
+When I read this, I became of the belief that it was telling us that “This half of the cipher
+is unstable”. To follow through with the treasure map analogy “Here be dragons”.
+Just like the word, my thinking has shifted a little in light of more recent discoveries to
+believe that it also means the cipher is unstable; it shifts and moves; morphs from one
+thing to another and we should be wary of the form it takes.
+That said, just like any good Indiana Jones movie, we need to cross the dangerous
+part to get to the treasure. For why have a treasure map if it’s supposed to be easy?
+Shading
+In passage 1, we note the phrase
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF
+IQLUSION
+The length of this section is 63 characters.
+Martin Proffitt
+6
+
+[[page 7]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+When I first came to the cipher on 2014, my initial reaction to the word IQLUSION was
+towards another word. INCLUSION. Although this word is wrong in terms of the cipher
+text, in an example I give later, it could be construed to carry meaning.
+Whilst it is widely agreed upon that the Q in IQLUSION is a deliberate misspelling of
+ILLUSION, nobody has ever deciphered this phrase; this was also recently pointed out
+by Elonka Dunin in her reply to the Greek word ASTATOS https://kryptos.groups.io/g/
+main/message/23910.
+In terms of another place to look, I am reminded of Sanborn’s comment about
+the K1 plain text. When I asked him where it was from, like a poem or something,
+he answered that it was an original sentence, written by him, with “carefully
+chosen wording”.
+I don’t believe we have ever come up with a satisfactory explanation for his
+comment, could it be related?
+It was this exact comment that finally pushed me into what I believe to be the right
+direction towards finding out exactly what K1 to K3 tell us.
+📓It has to be stated that this caught me off guard by a very wide margin. I always
+assumed the plain text was well studied and understood. It never occurred to
+me that nobody had ever really paid it much attention.
+Much of it is remarkably obvious once you start looking in detail.
+Whilst in the initial stages of the transformation I described in the introduction to
+this discussion, I still believed this to relate to something hidden in the cipher text,
+as I broke down more of the plain text, I realised just how wrong we’ve been all this
+time.
+I am entirely convinced now that Mr Sandborn is pointing us directly to how this cipher
+works.
+Dissection
+Consider the phrase, and reduce it down to its relevant components.
+BETWEEN something AND something LIES something
+Fill in the gaps and you get to
+Martin Proffitt
+7
+
+[[page 8]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+BETWEEN 𝑆−𝑆AND 𝐴−𝐿LIES 𝑁−𝐼
+Here, we find 3 character pairs that take you in one direction inside the cipher.
+There are two key things to remember about illusions. One, in an illusion anything is
+POSSIBLE, and the second is that for an illusion to work, it has to be VISIBLE
+But:
+IT WAS TOT 𝐴𝐿LY 𝐼𝑁VISIBLE HOWS THAT PO 𝑆𝑆IBLE
+Here we find the letters 𝐴𝐿, 𝐼𝑁and 𝑆𝑆but they are in the wrong order.
+PlaceapivotpointbetweentheIandtheNandrotateit. Whendoingso, itisreasonable
+to consider how when an object orbits another, it often shows the same face.
+𝑆𝑆−𝑁𝐼−𝐴𝐿
+Axis and Allies
+📓There is another way to interpret this now. The SS were one of the most brutal
+forces in the second world war but formed a small part of the AXIS, the collective
+term for the countries Germany, Italy, and Japan.
+The counterpart to that was the ALLIES which was principally made up of Great
+Britain, The United States of America and Soviet Russia.
+In a section of the sculpture where geometry plays a large role, it is hard not
+to form this connection, especially if you think there can be no good action
+adventure without WW2 German soldiers running around after you.
+Astute observers may note another pair of letters in this text that directly link back to
+the first.
+In passage 1, we’re told that BETWEEN 𝑆… 𝑆… AND 𝐴… 𝐿… LIES 𝑁… 𝐼….
+This is yet another facet of illusions and its existence brings into play another interest-
+ing pair. 𝐿𝑌.
+When we then read the first phrase from passage 2, we also note:
+IT WAS TOT 𝐴𝐿𝐿𝑌𝐼𝑁VISIBLE HOWS THAT PO 𝑆𝑆IBLE
+We have an Ally in the SS.
+Martin Proffitt
+8
+
+[[page 9]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+📓Here we can look to K4 where we find that 𝑆𝑆appears twice in the cipher sep-
+arated by the 8 characters 𝑂𝑇𝑊𝑇𝑄𝑆𝐽𝑄which in turn, contains Mr Sanborn’s
+initials 𝐽𝑆surrounded by the letter 𝑄. It may be that this signifies a reversal has
+taken place and that 𝐽𝑆has turned and is working for the other side but there
+are questions about him.
+Geo Magnetic Fields
+In passage 2, we note the phrase as follows:
+THEY USED THE EARTHS MAGNETIC FIELD
+In 1906, Bernard Brunhes made the first discovery of Geomagnetic reversal, published
+in his paper Les variations de l’aimantation des terres volcaniques de la Chaîne des
+Puys et de l’Auvergne” [Variations in magnetization of volcanic rocks in the Chaîne
+des Puys and Auvergne].
+This work was later built upon by Motonori Mat(s)uyama in 1929 in the paper “On
+the magnetization of rocks in Japan.”, and again by the English Mathematician and
+geophysicist Harold Jeffreys in his 1948 paper “The Earth’s Magnetic Field and its
+Secular Variation.”
+In the early 1950s, a team led by Lloyd V. Berkner discovered that the earths magnetic
+field was tilted at an angle of approximately 11° from the perpendicular.
+⚠I want to also place a warning to anyone looking to follow this research; stick
+to the relevant facts. We know Mr Sandborn has an interest in Atomic reaction
+through his book Atomic Time and the sculpture Critical Assembly
+Those researching the Geomagnetic field, will undoubtedly come across Dynamo
+Theory which will inevitably lead towards Patrick Blackett who introduced a
+theory on the Earths magnetic field as a function of rotation, a theory he later
+contradicted in his paper “The Diurnal Variation of the Earth’s Magnetic Field”.
+My understanding is that Blackett would later go on to be instrumental in aligning
+Britain with America on the creation of the Atomic bomb.
+Whilst this makes for fascinating reading, this is almost certainly irrelevant to the
+sculpture KRYPTOS.
+Don’t get too caught up in the speculative, stick to only what you can see.
+Martin Proffitt
+9
+
+[[page 10]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+Key points
+1. The magnetic field is tilted 11° off the perpendicular. This may be indicative of
+a Caesar shift somewhere in the cipher. If so, the shift is most likely to be of 11.
+2. The magnetic field periodically flips over.
+In my understanding, Mr Sandborn has made several references to “Turning” and
+“Rotating” in relation to K4. Lets keep this in mind.
+Intervals
+There is another potential element of misdirection at play here. K2 contains:
+• 7 × 𝑋, 5 of which are at the end of statements
+• 10 × 𝑌
+• 2 × 𝐿𝑌
+If we imagine K2 being a conversation between two people, the X symbols indicate a
+change of speaker when a question is not being asked, or a pause in the conversation
+which is then followed by a piece of information.
+Person 1. IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE ?
+• this is a lie.
+Person 2. THEY USED THE EARTHS MAGNETIC FIELD 𝑋
+• Quite literally. “THEEARTHSMAGNETICFIELD” is 22 characters long
+Person 2. THE INFORMATION WAS GATHERED AND TRANSMITTED UNDERGRU-
+UND TO AN UNKNOWN LOCATION 𝑋
+• Still unsure about this
+Person 1. DOES LANGLEY KNOW ABOUT THIS ?
+• Still unsure about this
+Person 2. THEY SHOULD ITS BURIED OUT THERE SOMEWHERE 𝑋
+• This is true. It relates to the next passage (K3)
+Person 1. WHO KNOWS THE EXACT LOCATION ?
+Person 2. ONLY WW THIS WAS HIS LAST MESSAGE 𝑋
+Martin Proffitt
+10
+
+[[page 11]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+• This is a lie. Someone else knows
+Person 2. THIRTY EIGHT DEGREES FIFTY SEVEN MINUTES SIX POINT FIVE SEC-
+ONDS NORTH SEVENTY SEVEN DEGREES EIGHT MINUTES FORTY FOUR SECONDS
+WEST 𝑋
+• I think this relates to how the string is split up
+• This is 110 characters long including non-numeric words
+• The sum of the numbers given is 64. This is 33 less than the required 97.
+– if we add to this the 22 from THEEARTHSMAGNETICFIELD, we get 86
+leaving 11 to find.
+Person 2. LAYER TWO
+One thing of interest here is the numbers given as the coordinates.
+These numbers add up to 64 ∑[3, 8, 5, 7, 6, 5, 7, 7, 8, 4, 4] = 64
+The lengths of each word in the phrase “THE EARTHS MAGNETIC FIELD” are
+∑[3, 6, 8, 5] = 22. This leaves 11 characters to find.
+Now, we learn in the next section that 4 characters do not move so only 7 remains.
+This gives us a set of numbers ∑[3, 6, 8, 5, 7] + ∑[3, 8, 5, 7, 6, 5, 7, 7, 8, 4, 4] + 4 = 97
+This is the length of the K4 cipher text.
+One thing that is interesting here is the pattern that is forming in the numbers here. I
+am not entirely sure what to do with this yet but I believe that it relates to the rotation
+of blocks in the cipher.
+Question
+What is the purpose of the U to O conversion in this passage?
+In Passage 1, the Q indicates that you look between the Qs In passage 3, the A to E
+conversion is indicative of the missing A in RED, this is backed up by the missing E in
+DESPARATLY.
+I’m missing the meaning of the U in UNDERGRUUND
+Thoughts
+It is possible, that these indications are telling you when to change direction in the
+cipher; or a cadence in which to read the letters but both of these options are only
+conjecture until proven otherwise.
+Martin Proffitt
+11
+
+[[page 12]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+Note the person to whom the Xs belong. Person 1 never contains an X, Person 2 has 5
+of them.
+One of the reasons I think this, is that in Morse code, an X was occasionally used to
+indicate a pause or a break between sections.
+If that were the case in this message, there should be more Xs (for example between
+INVISIBLE and HOW, and between WW and THIS); Overall, the beat or cadence of this
+section feels off.
+If this was to be a cadence, then the pattern will almost certainly be 1 −2 −2 −1 −
+2 −1 −2 −2 −2 as this is the order that the speakers appear.
+The sum of the numbers in this cadence is 15 = O. Is this sequence incomplete?
+Is this the meaning of the U-O misspelling?
+If this is the case, it could be that the sequence should start with 1 −2 which
+would make it a little more symmetrical and might resolve the woodenness of
+the cadence?
+One note that bothers me about the cadence is that it implies a second passage to read
+from. This might not be a problem as there is another plain text passage of interest
+that contains all the letters of interest (SS NI AL), in their correct order:
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PA 𝑆𝑆AGE DEBRIS THAT ENCUM-
+BERED THE LOWER PART OF THE DOORWAY WAS REMOVED WITH TREMBLING
+HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER AND THEN
+WIDE 𝑁𝐼NG THE HOLE 𝐴𝐿ITTLE I INSERTED THE CANDLE AND PEERED IN THE
+HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME TO FLICKER BUT
+PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X CAN YOU
+SEE ANYTHING Q?
+Tutankhamun and the raiders of the missing candle
+The whole passage contains
+• 1 × 𝑋
+• 8 × 𝑌
+• 4 × 𝐿𝑌
+Now I come to K3 and the discussion of Howard Carters discovery of the tomb of
+Tutankhamun. Most of this is conjecture. I think I’ve not yet fully understood this
+passage but this tells us a lot.
+Martin Proffitt
+12
+
+[[page 13]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+• SLOWLYDESPARATLYSLOWLY is 22 characters long but it’s all LYs so we don’t
+listen to it.
+• PRESENTLY is another LY. This is going to take time.
+We start with the full passage, but initially set aside the part prior to the 𝑆𝑆in PASSAGE.
+I am not sure if this is required but this takes time.
+Building the machine
+In passage 2, we located the boundaries of the room as set out in passage 1. These
+are: SS and AL. It is my opinion that within these boundaries, everything we require
+will fit. Here, I will go through the process of packing the room with all that is required
+to move forward possibly into the cipher text known as K4.
+The length of the relevant section is 141 characters. By the time this is finished, you
+will be left with only 97 characters.
+The characters SS and AL define the boundaries of the room we leave these in
+place throughout this build.
+1
+SS AGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORW
+2
+AYWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHI
+3
+NTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+The first thing we need to do is clear the passage debris, so lets get rid of that.
+1
+SS THATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWASRE
+2
+MOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTH
+3
+EUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+The next instruction tells us OF THE DOORWAY WAS REMOVED so lets get rid of that:
+1
+SS THATENCUMBEREDTHELOWERPARTWITHT
+2
+REMBLINGHANDSIMADEATINYBREACHIN
+3
+THEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER
+OK, lets do that: Take “A TINY BREACH” and move it, overwriting “THATENCUMBE”
+1
+SS ATINYBREACHREDTHELOWERPARTWITHT
+2
+REMBLINGHANDSIMADEINTHEUPPERLEF
+3
+THANDCORNERANDTHENWIDENINGTHEHOLE AL
+Next step:
+Martin Proffitt
+13
+
+[[page 14]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+THEN WIDENING THE HOLE A LITTLE I INSERTED THE CANDLE AND PEERED IN
+This one confused me until I realised it meant everything after INSERTED so lets do
+that.
+1
+SS ATINYBREACHREDTHELOWERPARTWITHT
+2
+REMBLINGHANDSIMADEINTHEUPPERLEF
+3
+THANDCORNERTHECANDLEANDPEEREDIN AL
+Reading this passage, you will notice that it states “A TINY BREACH RED THE LOWER
+PART” and THE CANDLE AND PEERED IN should be made in the upper left hand cor-
+ner.
+Note how there is an A missing in the word RE[A]D. If I read this correctly, this
+passage contains the word DESPARATLY, which uses an A in place of an E, and
+there is an E missing. I believe the A in READ is the counterpart to the missing E
+in DESPERATELY.
+So, lets do that:
+1
+SS THECANDLEANDPEEREDINREDTHELOWER
+2
+PARTWITHTREMBLINGHANDSIMADEINTH
+3
+EUPPERLEFTHANDCORNERATINYBREACH AL
+This, if I’m not mistaken, is a perpetual motion machine. It is constantly reversing
+itself around TREMBLING HANDS.
+THE HOT AIR ESCAPING FROM THE CHAMBER
+I believe we do not need this section, it literally escapes.
+CAUSED THE FLAME TO FLICKER
+I have not yet understood this phrase but it may relate to the change in structure of
+this phrase as it moves between locations.
+BUT PRESENTLY DETAILS OF THE ROOM WITHIN
+The word PRESENTLY is a lie but DETAILS OF THE ROOM WITHIN may relate to how K4
+should be cut at one end.
+EMERGED FROM THE MIST
+I believe this is the second cut.
+Finally
+Martin Proffitt
+14
+
+[[page 15]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+CAN YOU SEE ANYTHING Q
+I’m not the first person to think this is a question directed at the character Q but given
+that the best place to look for something is from an elevated position, I personally
+believe that this question is being called up to the Q in IQLUSION who I imagine
+answering “No, I’m in the dark”.
+In other words, look between the Qs.
+Notes
+One thing that is important to note here is that the operation only moves 93 out of the
+97 characters. 4 characters (2 at each end), do not move
+Exchanges
+1
+Rotations:
+2
+-----------------------------------------------------------------------------
+3
+THIRTY EIGHT FIFTY SEVEN SIX FIVE SEVENTY SEVEN EIGHT FORTY
+FOUR
+4
+3, 8, 5, 7, 6, 5, 7, 7, 8, 4, 4,
+5
+-----------------------------------------------------------------------------
+6
+Q - L = 17 - 12 = 5
+7
+U - O = 21 - 15 = 6
+8
+E - A = 5
+- 1
+= 4
+9
+FLAME
+= 5 TO = 2 FLICKER = 7
+10
+11
+Questions in passage 2: 3
+12
+Statements in passage 2: 6
+13
+Questions in passage 3: 1
+14
+X in passage 2: 7
+15
+X in passage 3: 1
+16
+LY in passage 3: 4
+17
+18
+19
+passage 2
+20
+7 X
+21
+10 Y (one zero = 3, 4)
+22
+2 LY
+23
+24
+passage 3
+25
+1 X
+26
+8 Y
+27
+4 LY
+Martin Proffitt
+15
+
+[[page 16]]
+Deciphering the plain text, K1 to K3
+2023-05-15
+28
+--------------------------------------
+29
+I think these are the exchanges...
+30
+31
+DETAILS OF THE ROOM WITHIN = 22
+32
+--------------------------------------
+33
+EMERGED FROM THE MIST = 18
+34
+--------------------------------------
+Martin Proffitt
+16

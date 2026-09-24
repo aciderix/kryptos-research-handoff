@@ -1,0 +1,104 @@
+## word/document.xml
+ 
+ Hi, 
+ 
+ I name this “Chicken Wire method”! 
+ 
+ 
+ Three characters at each location - 
+ If you see JS’s matrix he built which was also recently shared in this group.. 
+ He has code for K2 in 3 characters each from the V’s sheet ( the Matrix he has in next to the Cipher, where KRYPTOS goes diagonally ) 
+ Each interaction produces 3 characters, 
+ Which are used throughout in K 1,K2 ,K3. 
+ When he says you have to solve the other Ciphers first...  
+ using his own sheet he example .. 
+ He has everything in a strict order, he picked up certain characters( 3 , example BNS ) to use in K4. 
+ The real story is NOT in the characters of K4 but the walls inside each columns . 
+ Example: 
+ 
+ Take 1st and 2nd columns  
+ U at 5, 
+ T at 36, 
+ V at 67 
+ And next to it 
+ OWT column at 6, 38, 68. 
+ 
+ The story is in the 3 rd or 1st characters of the inner column. 
+ Example suppose AUV at 5. 
+ SLV at 67 ( S is coming down from 35 position and is SON at position 35, notice N came from YEN at 65 ) 
+ In other words, the last character goes to the corresponding opposite position to make up the combination of that character. 
+ Like if you have # sign in both direction . 
+ Each of the 3 characters at a certain spot is giving feed to the upper or lower character in next column. 
+ Take example of  
+ T at 68 
+ It’s ITW( I as in BERLIN ) 
+ Then W above i it is already coming from ITW, now W has to be the middle position to produce EWT 
+ EWT 
+ ITW 
+ 
+ This example combination satisfies the V’s sheet for a certain spot( look at EWT and ITW in the matrix ) 
+ 
+ He plucked out EWT and ITW from the sheet he used with pen and paper. 
+ 
+ Now moving forward... 
+ E at 37 ( decided from W at 37 ) and T at  36 has to be IRT ) 
+ Where R comes from PSR ( look at NYPVTT - BERLIN - P being PSR in the matrix ) 
+ Here I for IRT comes from ( ITW  - at 68 , I being I in BERLIN) 
+ 
+ So each of the diagonal upper or lower X junction within inner columns feed each other. 
+ 
+ Now going back to what we have E at 38, I at 68( decoded ), T( coded and I in IRT being the decoded character at this position ) 
+ E and T and then I , so to satisfy the inner column for the matrix from JS 
+ We need to have a W or A in the innner column of 5, 37, 68 and next to it. 
+ That’s where AUV comes at position 5. 
+ ETA 
+ Again satisfies the Matrix at the same time they are in 3rd or 1st positions. 
+ 
+ How did we come up with L as the decoded character for V? 
+ TTL 
+ Look at the characters. 
+ They ALL have to satisfy the bigger picture or V’s matrix he provided. 
+ 
+ Each time we encounter K, R, Y, P, T, O S 
+ We flip the 3 characters example  
+ PSR at 66 ( R from BERLIN )  
+ But R is also in KRYPTOS, so  
+ It would become RSP , now P has to satisfy With the inner column  
+ So we have ITW at position 68 ( I as in BERLIN ) 
+ 
+ But T is also in KRYPTOS so we flip and  
+ It becomes WIT. 
+ Now PWE satisfies V’s Matrix he provided. 
+ 
+ So the characters are ALL interrelated from V’s matrix ( look back at his pen and paper sheet ) 
+ Pick 3 characters from the combination and use it in K4. 
+ 
+ This way the Key is all there in front of us we have the just see the diagonal positions and feed the corresponding opposite above or below characters 3 characters so that it satisfies V’ matrix and his pen and paper sheet. 
+ 
+ Now to make the K4, all he did is cherry picked 1 character at position 1 or 3 to put in K4, making it difficult as if we know what is at the center at position 2 then the V’s matrix could be applied. 
+ But now we have to find 1, 2 or 2,3 from the inner columns as explained above. 
+ The task of flipping the KRYPTOS using  
+ Spots are very important. 
+ That’s what confuses the most ( me too ! ) 
+ 
+ But as you see, there is NO key involved, NO hashing and changing positions involved. 
+ We have to look the inner columns characters for each column. 
+ He has marked numbers on the postings of K4 and is very specific not to move them around in K 1,k 2, K3 and K4. 
+ 
+ This way we use his decoded characters from the above codes  and come up with the inner columns. 
+ 
+ This is a method where 1 feeds the other spot. But no key is used. 
+ If we try to use keys in K4, the flipping of characters will never produce as defined result. 
+ 
+ I have a certain idea, but the other issue is if he changed any character and made a deliberate mistake. Then it throws a curve ball. 
+ 
+ Another reason he didn’t give clues from just above each other, because it would help in finding the corresponding characters in position. 
+ The only major clue is positions for BE and ST ( in NORTHEAST) which he gave out. 
+ 
+ Here BHN, YEN satisfies BNS( S at SSO at 33 ). 
+ 
+ 
+ 
+ Thanks   
+ Sukhwant  
+ 

@@ -1,0 +1,1587 @@
+[[page 1]]
+1 
+ 
+ 
+Valkyrie 
+ 
+Evidence of a palimpsest in K1 and K2 discoverable via steganographic 
+transforms of the Kryptos cipher and plain texts. 
+ 
+By  
+Matt Reid 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+October 2013 
+
+[[page 2]]
+2 
+ 
+Contents 
+Introduction ....................................................................................................................................... 3 
+Abstract ............................................................................................................................................. 4 
+Part I ................................................................................................................................................. 5 
+Background ................................................................................................................................... 5 
+Interventions post decryption of K1-K3 ......................................................................................... 6 
+Issues with the decryption of K2 ................................................................................................ 6 
+The Berlin Clue ......................................................................................................................... 6 
+The Sculpture Text ........................................................................................................................ 7 
+Complete Cipher Text and Decryption Tableau as it appears on the sculpture. ............................ 7 
+Part II ................................................................................................................................................ 8 
+Decryption Steps And Their Derivation ......................................................................................... 8 
+The discovery of a null cipher in K1. ......................................................................................... 8 
+First Steganographic Transform ............................................................................................... 11 
+Second Steganographic Transform ........................................................................................... 13 
+Derivation of a start point ........................................................................................................ 14 
+Row Address Scheme .............................................................................................................. 18 
+Part III ............................................................................................................................................. 19 
+Potential Masking and Substitution Schemes ................................................................................... 19 
+Possible Masking Scheme for rows proceeding left to right ...................................................... 20 
+Possible Masking Scheme for rows proceeding right to left ...................................................... 26 
+Conclusion ...................................................................................................................................... 28 
+Appendices...................................................................................................................................... 29 
+Appendix A. ............................................................................................................................. 29 
+Elemental Substitution scheme................................................................................................. 29 
+Appendix B. ............................................................................................................................ 30 
+Embedded Morse? ................................................................................................................... 30 
+Appendix C. ............................................................................................................................ 30 
+Algorithms used....................................................................................................................... 30 
+ 
+ 
+ 
+
+[[page 3]]
+3 
+ 
+Introduction 
+ 
+The following paper sets out a series of what are assumed to be novel discoveries in relation to the 
+remaining unsolved cipher texts embedded in Jim Sanborn’s Kryptos and Antipodes sculptures. 
+The readership is aimed primarily at those in the Kryptos K4 community who are already conversant 
+with the cipher and plain texts of sections K1-K3 as well as the associated tools and techniques.  Such 
+readers may wish to skip the background notes and proceed directly to the later paragraphs.   
+As with sections K1, K2 and K3 anyone wishing to repeat these results for themselves needs only the 
+decryption tableau, a pen and some paper (although for reasons of pragmatism a computer of some 
+description may allow for faster verification of techniques and results).   
+The paper puts forward the idea that K4 per se is in fact a palimpsest of K1 and K2 that is 
+discoverable via a steganographic transformation of the underlying cipher text.  It is further 
+hypothesised that the resulting palimpsest has had masking and substitution applied prior to final 
+decryption using the Vigenère method with the formally recognised K4 cipher as its key.  The paper 
+has been informally titled Valkyrie in homage to the 20th of July plot of 1944, the reasoning being that 
+just like the plot, its credibility will ultimately rest on whether or not it can assume credible control 
+over Berlin (the known plain text in positions 64-69 of K4).  
+I’m indebted to all the hard work undertaken in both the recognized forums and micro sites that have 
+sprung up along the way in support of the commonly shared goal and hope that in time this work finds 
+a place in the canon of standard references cited in the final and complete decryption.  
+This introduction would be incomplete without a sincere expression of gratitude to Jim Sanborn, Ed 
+Scheidt and their Federal patrons for seeding the world with such a constructive curiosity.  
+Lastly I’d like to thank Elonka Dunin who took the time out to cast an eye over my initial paper back 
+in 2010.  Anyone unfamiliar with Kryptos may also want to visit her Kryptos site at 
+http://www.elonka.com/kryptos before proceeding any further with this document.     
+Apologies are given in advance for anyone with colour blindness as the colour palettes used to render the graphics contained within this 
+document may cause confusion.  Please feel free to make any necessary adjustments to the colours if reproducing this work for wider 
+publication.  
+ 
+ 
+
+[[page 4]]
+4 
+ 
+Abstract 
+ 
+This paper will set out the method by which the 6 letter string BERLIN can be decrypted to plain text 
+using the string NYPVTT in positions 64-69 of K4.  It will be shown that this can be achieved by 
+steganographic manipulation of both the cipher and known plain texts into the form given here.   
+ 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WLYTHEREMAINS 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+The reasoning for making this transform will be shown from first principles, which will then lead 
+directly to a second steganographic transform that will lay bare the palimpsest that underlies the 
+encryption scheme of K4.  The existence of a demonstrable row scheme for K4 should significantly 
+decrease the time required to make a final and complete decryption.  The paper concludes with a 
+number of suggestions for the masking and substitution methods required for a complete decryption. 
+ 
+ 
+ 
+ 
+ 
+
+[[page 5]]
+5 
+ 
+Part I   
+Background 
+ 
+The following information on the background of the Kryptos sculpture was gathered from a range of 
+internet sources. 
+ 
+Kryptos was dedicated on November the 3rd 1990 on the grounds of the CIA headquarters in Langley 
+Virginia.  The main body of the sculpture is a worked copper scroll by Artist Jim Sanborn who was 
+commissioned by the CIA to create the installation for the courtyard of their headquarters.  He was 
+additionally loaned the services of a retiring CIA employee by the name of Ed Scheidt who was on 
+hand to provide assistance with the cryptographic elements of the piece.  
+Since 1990 there have been three public acknowledgments in relation to the decryption of parts K1, 
+K2 and K3. 
+A civilian computer scientist named Jim Gillogly went public with a decryption of parts K1, K2 and 
+K3 in 1999 having used computational analysis to arrive at the plain texts. 
+After this announcement it was revealed that a CIA employee named David Stein was recognised 
+within the CIA as having cracked parts K1, K2 and K3 using a pencil and paper technique in 1998.  
+It was later announced in 2005 that an NSA team led by Ken Miller, Dennis McDaniels and two other 
+unnamed individuals had deciphered parts K1, K2 & K3 in late 1992 using computational analysis. 
+In the years since Gillogly’s announcement a mystique has continued to grow around the unsolved K4 
+cipher text.  This is partly due to its resistance to yield its final secrets, but also the mass of interest 
+aroused worldwide by Dan Brown’s code sleuthing novels and the growing pervasiveness of 
+cryptography in modern life.  As a result there has been a mass of internet based collaboration in the 
+public domain ever since, whereby common interest groups and individuals have persistently poured 
+over the clues left in the plain texts of parts K1, K2 and K3 in search of possible routes into the plain 
+text of K4. 
+For anyone not familiar with plain texts of K1, K2 and K3 they read as follows. 
+K 1 (this was encrypted using the Keyword PALIMPSEST) 
+ 
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF 
+IQLUSION 
+ 
+ 
+
+[[page 6]]
+6 
+ 
+K2 (this was encrypted using the Keyword ABSCISSA) Note: This was publicly corrected by Jim Sanborn on April 
+19th, 2006 who intervened to point out the IDBYROWS should read XLAYERTWO 
+ 
+IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE? THEY USED THE EARTHS 
+MAGNETIC FIELD X THE INFORMATION WAS GATHERED AND TRANSMITTED 
+UNDERGRUUND TO AN UNKNOWN LOCATION X DOES LANGLEY KNOW ABOUT THIS? 
+THEY SHOULD ITS BURIED OUT THERE SOMEWHERE X WHO KNOWS THE EXACT 
+LOCATION? ONLY WW THIS WAS HIS LAST MESSAGE X THIRTY EIGHT DEGREES 
+FIFTY SEVEN MINUTES SIX POINT FIVE SECONDS NORTH SEVENTY SEVEN DEGREES 
+EIGHT MINUTES FORTY FOUR SECONDS WEST X LAYER TWO 
+K 3 (this section was not encrypted using the Kryptos Tableau, but instead made use of  a 192 
+character skip sequence to encrypt the plain text) 
+  
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT 
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED WITH 
+TREMBLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER AND 
+THEN WIDENING THE HOLE A LITTLE I INSERTED THE CANDLE AND PEERED IN THE 
+HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME TO FLICKER BUT 
+PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X CAN YOU 
+SEE ANYTHING Q  
+ 
+Interventions post decryption of K1-K3 
+ 
+Issues with the decryption of K2 
+ 
+With regards the correct decryption of K2, Jim Sanborn the artist that created Kryptos personally 
+intervened on April 19th 2006, contacting the group moderators in order to say, "No, that last part is 
+wrong."  Elonka’s Kryptos website at www.elonka.com/kryptos relays the following about this 
+incident. 
+“He also indicated that there was a missing character on the sculpture, probably something that would have 
+resulted in a plaintext "X" before that section. He said that he had thought that with the missing character, the 
+section in question would have come out to be an unintelligible scramble. Instead, he was astounded to see that 
+by sheer chance, the resulting random text had turned out to be apparently intelligible English, "ID BY ROWS", 
+although that was not what was intended.” 
+ 
+The Berlin Clue 
+ 
+On the 21st November 2010 Jim Sanborn once again intervened, but in this instance it was to reveal a 
+clue.  Sanborn indicated that a six letter string between positions 64 through to 69 of the Kryptos 
+plaintext for K4 would read BERLIN once decrypted. 
+
+[[page 7]]
+7 
+ 
+The Sculpture Text 
+ 
+The text as it appears on the sculpture has been lifted wholesale from Elonka’s website and is 
+presented in full below. 
+Complete Cipher Text and Decryption Tableau as it appears on the sculpture. 
+ 
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ 
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG 
+ 
+ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP 
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT 
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO 
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS 
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA 
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB 
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC 
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD 
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE 
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF 
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG 
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH 
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI 
+ 
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE 
+TPRNGATIHNRARPESLNNELEBLPIIACAE 
+WMTWNDITEENRAHCTENEUDRETNHAEOE 
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATAMATEGYEERLB 
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB 
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL 
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL 
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM 
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN 
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ 
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU 
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV 
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW 
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX 
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ 
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK 
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR 
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY 
+ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+ 
+K1 is highlighted in Mauve, K2 in Blue, K3 in Green and K4 in Red 
+ 
+ 
+ 
+ 
+
+[[page 8]]
+8 
+ 
+Part II  
+Decryption Steps And Their Derivation 
+ 
+Before commencing this section it should be noted that K4 is not a ‘block cipher’ that can be 
+decrypted by a single key.  It will become evident throughout each step that the whole of the Kryptos 
+sculpture represents a holistic puzzle that is only ‘eventually’ decrypted through use of the known K4 
+string.  There are many facets to the puzzle, but viewed as a whole it will be seen that the aim of the 
+piece is to quite literally step us through the art and history of cryptography itself.  This is done quite 
+brilliantly and bears testament to the intellect and artistry of both Scheidt and Sanborn.  I suspect that 
+a further study of the cipher and plain texts after this paper has been distributed will yield many more 
+encryption methods, some of which may light a way to a decryption path that does not require 
+foreknowledge of the BERLIN clue.   
+The discovery of a null cipher in K1. 
+ 
+I have included the following working details for extraction of the null cipher in K1for the purposes of 
+completeness.  Readers from outside the Kryptos community that are not looking to reproduce the 
+results may safely skip to the next heading which is ‘First Steganographic Transform’ on page 11.   
+The presence of a null cipher in K1 is found by following and solving the clues given in the plain 
+texts of K1 and K3.  
+The first clue was found in the first half of the K1 text.  
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT 
+If K1 is treated as something akin to a cryptic crossword clue then the following reasoning can be 
+applied.  
+ 
+i)  Compare between 'subtle shading and absence of' (light) by writing one over the other: 
+ 
+SUBTLE SHADING 
+ABSENCE OF 
+ 
+ii)  Remove the letters that make up LIGHT from SUBTLE SHADING to give: 
+SUBESADN 
+ABSENCEOF 
+ 
+iii)  Remove common letters in each word to leave: 
+USD 
+CEOF 
+USD is present in the cipher text of K1 whilst CEOF is present in the plain text. 
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION 
+
+[[page 9]]
+9 
+ 
+ 
+Significance of the extracted information 
+ 
+It is hypothesised that USD and CEOF are an example of ‘Keys’, the idea being that once the 
+cryptographer has extracted  the correct key from a given clue that  they are then able to unlock 
+otherwise hidden information from within the rest of the sculpture texts. 
+To substantiate this hypothesis it will now be shown how the strings USD and CEOF in K1 can be 
+used to find the entry point into the decryption process. 
+To begin, let us first temporarily discard the first 13 characters, in order to give a start point of USD. 
+USDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+Using the Vigenère scheme to decrypt this string using K4 leads to a small but significant observation.  
+The ‘encryption’ rather than decryption begins with a K.  The idea that we might have to encrypt 
+rather than decrypt is interesting as it is our first encounter with the idea that symmetry may play a 
+part in the decryption process.  Given that we had to decrypt in order to arrive at the plain texts of K1 
+and K2, it seems counter intuitive at first that we may then have to do the inverse of this process. 
+Some pointers appear to be given in the form of intentional spelling mistakes, that we should consider symmetry as being an important 
+aspect of the decryption process.  The spelling mistake AU has been commented on many times, but if we consider it to mean Gold then we 
+know its atomic number is 79.  This is obviously a mirror image of 97(the number of characters in K4), which may indicate that we should 
+be thinking about the role of symmetry when dealing with the sculpture holistically.  A number of other clues point to symmetry including 
+the water feature as well as Sanborn’s decision to create the sculpture in the form of two semi-circles rather than as a cylinder.    
+By referring back to the string CEOF it is possible to cite two other clues as having relevance to the 
+next step.  The first of these clues is from one of the Morse Code messages left dotted around the 
+sculpture.  Once resolved one particular Morse message reads, ‘SHADOW FORCES’. 
+If we quite literally shade the word FORCES then we see the recurring relation of CEOF.  Admittedly 
+the R and the S is harder to justify, but not everything is given to us on a plate as we shall see.  If we 
+now consider K1’s enigmatic message as a whole we are reminded that ‘BETWEEN SUBTLE 
+SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF IQLUSION’.  From the 
+perspective of rendering something graphically ‘occlusion’ is the act of blocking.  There is another 
+aspect of CE OF that is interest.  CF is often used as an abbreviation for ‘compare’.  By placing CE 
+next to OF we are in fact comparing and finding that CF can be fashioned by occluding both two letter 
+strings.  The eventual significance of this string will be found in the concluding part of the paper.   
+This leaves us with the strong indication that O and C as well as E and F may share an occlusion 
+relationship when shaded.  With this in mind let us examine the first four letters of K4.  These are 
+found to be OBKR.  By thinking about possible occlusion relationships we can transform OBKR to 
+CRYP.  Returning to our previous observation that the encryption of (the reduced form starting at 
+USD) of K4 gives us an encrypted string starting with a K we can make a deductive leap and reason 
+that the target we should be looking to match is in fact KRYP.     
+The string required to give us an encrypted cipher text of KRYP is UNYY.  If we now search for such 
+a string in the K1 cipher text then we make our first significant discovery. 
+USDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+
+[[page 10]]
+10 
+ 
+The length between letters proceeds in the pattern 10, 9, 10.  On its own this relationship might 
+merely be dismissed as a coincidence, but it presence is cited a second time in K3.   
+The line in question reads:  I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER 
+Extending the pattern backwards in both K1 and a cyclically repeating K4 string of ROBKR yields:   
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+PUNYY encrypted using a cipher key of ROBKR gives TKRYP. 
+PUNY is of course a synonym of TINY.  Our first letter in this scheme is T which may relate to 
+another Morse message that reads: T IS YOUR POSITION. 
+The length between letters now proceeds in the pattern 9,10,9,10.  Adding these numbers together 
+yields a value of 38.  Adding an additional sequence of 9,10 would of course give us 57.  The fact that 
+this particular skip sequence was capable of generating the first two coordinates or 38 and 57 degrees 
+given in K2 gave a strong indication that this was a significant step in the decryption scheme.   
+The most fascinating part of this particular component of the puzzle is that there appears to be an 
+almost explicit reference as to what it represents.  Using a symbol font in MS Word and typing ‘hull’ 
+allows us to create a mirror image of the lower case string in Greek. 
+Original Key 
+unyy  
+Key as typed to achieve Greek mirror text 
+hull 
+Mirror Key 
+
+ 
+By occluding the h to give an n, we actually have the word ‘null’ right in front of us.  By treating 
+UNYY as a null cipher we end up with another interesting relationship, but this time in the 
+corresponding plain text.  I shall also include the first line of K2.  Remember that the entry point was 
+arrived at via UNYY not PUNYY so in this illustration you will notice the first 13 letters are 
+discarded.  I shall circle the letters corresponding to UNYY in the plaintext. 
+SHADINGANDTHEABSENC 
+EOFLIGHTLIESTHENUANCEOFIQLUSION 
+ITWASTOTALLYINVISIBLEHOWSTHATPO 
+ It can be seen that laying out the lettering in this mode leads to the appearance of an interesting letter 
+string in the vertical plane. 
+SHADINGANDTHEABSENC 
+EOFLIGHTLIESTHENUANCEOFIQLUSION 
+ITWASTOTALLYINVISIBLEHOWSTHATPO 
+ 
+The plain text of K3 that reads HOT AIR ESCAPING is immediately brought back to our immediate 
+attention.  The null cipher has now given way to what appears to be some kind of running key that 
+only exposes itself upon structural change to the text layout. 
+ 
+
+[[page 11]]
+11 
+ 
+First Steganographic Transform 
+ 
+Taking our cue from the keys derived above and reordering the Cipher and Plain Texts now gives the 
+following layout.  It will be noted that the first 13 characters have now been inserted after the string  
+USDJKZLDKRNSHGNFIVJ.  I shall highlight the positions of USD and CEOF as well as the 
+location of two strings in the vertical plane that are of interest.  It should also be pointed out that the 
+XY string combo now sits in a position that is consistent with the coordinates of a graph and resonates 
+with the Cartesian aspects of the Keyword ABSCISSA used of the decryption of K2. 
+ 
+USDJKZLDKRNSHGNFIVJEMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE 
+TPRNGATIHNRARPESLNNELEBLPIIACAE 
+WMTWNDITEENRAHCTENEUDRETNHAEOE 
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATAMATEGYEERLB 
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB 
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+SHADINGANDTHEABSENCBETWEENSUBTLE 
+EOFLIGHTLIESTHENUANCEOFIQLUSION 
+ITWASTOTALLYINVISIBLEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEEARTHSMAGNET 
+ICFIELDXTHEINFORMATIONWASGATHER 
+EDANDTRANSMITTEDUNDERGRUUNDTOANU 
+NKNOWNLOCATIONXDOESLANGLEYKNOWA 
+BOUTTHIS?THEYSHOULDITSBURIEDOUT 
+THERESOMEWHEREXWHOKNOWSTHEEXACTL 
+OCATION?ONLYWWTHISWASHISLASTMES 
+SAGEXTHIRTYEIGHTDEGREESFIFTYSE 
+VENMINUTESSIXPOINTFIVESECONDSNO 
+RTHSEVENTYSEVENDEGREESEIGHTMINU 
+TESFORTYFOURSECONDSWESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLOWLYTHEREMAINS 
+OFPASSAGEDEBRISTHATENCUMBEREDT 
+HELOWERPARTOFTHEDOORWAYWASREMOV 
+EDWITHTREMBLINGHANDSIMADEATINY 
+BREACHINTHEUPPERLEFTHANDCORNERAN 
+DTHENWIDENINGTHEHOLEALITTLEIIN 
+SERTEDTHECANDLEANDPEEREDINTHEHOT 
+AIRESCAPINGFROMTHECHAMBERCAUSED 
+THEFLAMETOFLICKERBUTPRESENTLYDETA 
+ILSOFTHEROOMWITHINEMERGEDFROM 
+THEMISTXCANYOUSEEANYTHINGQ?XXXX 
+VERXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+ 
+ 
+ 
+
+[[page 12]]
+12 
+ 
+The next part of the transform is to examine the position of CEOF and recognise its significance as a 
+boundary marker.  If we split the text upon reaching this string from left to right then we notice that 
+the left hand division has rows that follow the skip pattern outlined in the null cipher of 10,9. 
+ 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WLYTHEREMAINS 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+VERXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+The most striking feature of this particular layout is that it almost looks like a facsimile of the original 
+sculpture text.  Once laid out in this format we can now proceed to the most significant discovery, 
+which is the existence of further embedded steganographic information within the cipher and plain 
+text.  Before moving on to this step it is worth pointing out the clues that lead us to such a radical 
+conclusion.  It has been pointed out by others before that the hours and minutes of the coordinates 
+given in K2 sum to 180.  To recap this calculation and make things explicit we can see that: 
+38 + 57 + 77 + 8 = 180.   
+This is an interesting piece of math and once again points in the direction of symmetry having 
+something to do with the final decryption of K4.  The first real indication we have that this summation 
+of the coordinates is significant is in the form of an anagram embedded within the first line of K3.  I 
+have drawn attention to the original text above, but it can be seen by re-arrangement that the anagram 
+reads as: WESTHLAYERMIN.  Again our attention is being drawn to the coordinates.  Their 
+relevance in the decryption scheme will now be demonstrated. 
+
+[[page 13]]
+13 
+ 
+Second Steganographic Transform 
+ 
+First let us remind ourselves of the coordinate scheme given in the K2 plaintext.  
+THIRTY EIGHT DEGREES FIFTY SEVEN MINUTES SIX POINT FIVE SECONDS NORTH 
+SEVENTY SEVEN DEGREES EIGHT MINUTES FORTY FOUR SECONDS WEST  
+The next steganographic transform relates directly to this clue and can best be explained by breaking 
+the text up into separate blocks of colour.  I apologise in advance for the English spelling as well as 
+any difficulties in discerning the colours, but please feel free to render this as you wish when 
+reproducing these results. 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ? 
+ 
+ 
+ 
+ 
+Mappings to H and MIN of K2 Coordinate System 
+█ 38 Characters 
+ 
+ █ 19 Characters 
+38 + 19 = 57 
+█ 6(?)5 Characters 
+ 
+█ 77 Characters 
+ 
+ 
+ 
+
+[[page 14]]
+14 
+ 
+If the question mark is equated to a decimal point then we can see that it is possible to derive the 
+coordinates 38, 57, 6.5 and 77.  Other coordinates appear to be alluded to, but these will be ignored 
+for the purposes of explaining the role that the central block of 77 characters plays in the decryption 
+process.  Please extend on this work and explore the possible meanings of the other coordinates as I’m 
+sure the cipher and plain texts still have plenty of secrets to impart.   
+ 
+ 
+Derivation of a start point 
+ 
+The derivation of the start point for the decryption was stumbled upon by pure chance, but it will be 
+seen how this start point complements the hidden row mechanism established in the previous section 
+and leads us towards a credible decryption process.  Before we do this let us make another bold leap 
+of faith and guess that the cipher and plain texts were designed to be symmetrical.  This would mean 
+that the block coordinate groupings found in the last section could be mirrored in the X axis running 
+between the edge of K2 and K3.  Such a scheme yields the following layout.  You will note that the 
+anagram in the top right of K3 has been rearranged in all the plain texts from this point in. 
+ 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+
+[[page 15]]
+15 
+ 
+We return now to the null cipher that we found in the first section and show its position in the plain 
+text. A rail fence scheme is then shown in K3 that reflects this string.  If we take the longer string 
+previously derived of PUNYY then we find the scheme extends backwards along the diagonal. 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+ 
+At this point it was noted that the rail fence scheme could be extended to the top right corner of the 
+mirrored block of 77 characters if the I below SE was included in the vertical plane and then the 
+sequence started again from the H on the right hand side of the initial S.  This is best shown 
+graphically as: 
+S H A D I N G A N D T H E A B S E N C B E T W E 
+E O F L I G H T L I E S T H E N U A N  
+I T W A S T O T A L L Y I N V I S I B  
+ 
+ In order to show this relation in K3 more fully I will zoom in on the plain text to show the complete 
+rail fence scheme alluded to above. 
+ 
+
+[[page 16]]
+16 
+ 
+SLOWLYDESPARATLYSLO  
+OFPASSAGEDEBRISTHAT  
+HELOWERPARTOFTHEDOO  
+EDWITHTREMBLINGHAND  
+BREACHINTHEUPPERLEF  
+DTHENWIDENINGTHEHOL  
+SERTEDTHECANDLEANDP  
+AIRESCAPINGFROMTHEC  
+THEFLAMETOFLICKERBU  
+ILSOFTHEROOMWITHINE  
+ 
+ 
+With regards to the clue in K2 that reads: THEY USED THE EARTHS MAGNETIC FIELD, we can 
+find the following interesting anagrams along the path of the rail fence. 
+ 
+SLOWLYDESPARATLYSLO  
+OFPASSAGEDEBRISTHAT  
+HELOWERPARTOFTHEDOO  
+EDWITHTREMBLINGHAND  
+BREACHINTHEUPPERLEF  
+DTHENWIDENINGTHEHOL  
+SERTEDTHECANDLEANDP  
+AIRESCAPINGFROMTHEC  
+THEFLAMETOFLICKERBU  
+ILSOFTHEROOMWITHINE  
+ 
+ 
+The boxed strings above read off as. 
+ERHTSA, FLICWT, ETNECG and EGAMEN 
+EARTHS is definitely extractable from the first anagram, but I’ll leave the idea of the presence of 
+MAGNETIC FIELD as an interesting piece of conjecture that others may wish to pursue at their 
+leisure.  We will return again to the theme of ‘THE EARTHS MAGNETIC FIELD in section III when 
+
+[[page 17]]
+17 
+ 
+we start looking at potential masking schemes, but for now we shall return to our primary task which 
+is to discern the start point for the decryption process.  
+The rail fence scheme can be seen to extend in a diagonal before finally terminating on the O at the 
+top right of the K3 section that has been marked out as being the symmetrical component of the block 
+of 77 characters in K2.  Assuming that everything is symmetrical, let’s reflect the path of the line in 
+the X axis. 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+As they say in all the best adventures, ‘X marks the spot’.  It will be noted that even with the row 
+separation the centre of the X lies between WW.  The coordinates were his last message, implying 
+that there is something significant that ties his last position to the properties of the coordinate blocks.  
+This leads us directly to the existence of a concealed row addressing scheme.   
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 18]]
+18 
+ 
+Row Address Scheme 
+ 
+The row address scheme discovered is centred round the central block of 77 characters, but does in 
+fact define 14 rows each containing 12 characters.  Each row of seven characters in the block of 77 
+corresponds to 7 characters in the string of K4.  If we assume that this addressing scheme starts from 
+the previously found X marker for WW’s last position then it is hypothesised that the Kryptos row 
+scheme extends upwards in boustrophedon format, whereby the rows reverse the direction that they 
+should be read off in at the end of each row.  This principle will be demonstrated graphically here.   
+                                                                                                               (Row Addressing) 
+ 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+                                                                                        
+(Function of this block will be discussed in Part III) 
+(Rows participating in palimpsest scheme read off in boustrophedon order) 
+The overrun from block 77 into blocks 57 and 38 becomes more interesting when one examines the 
+underlying mathematical relationship. 
+77 – 57 = 20  
+77 + 20 = 97 
+Whether the final 20 rows have been addressed correctly will no doubt be seen in time, but for now it 
+is assumed that the rows continue unbroken in the vertical plane. 
+ 
+
+[[page 19]]
+19 
+ 
+Part III   
+Potential Masking and Substitution Schemes 
+ 
+Now that the row addressing scheme has been outlined, it will be shown how a number of clues 
+within the plain texts point to a potential masking and substitution scheme.  It will then be possible to 
+show how such schemes can be used to derive the plain text BERLIN from positions 64 through to 69. 
+The first obvious move is to number the addresses for each of the rows. 
+ 
+ 
+SHADINGANDTH92 - 98 BETWEENSUBTLE 
+EOFLIGHTLIES91 - 85 CEOFIQLUSION 
+ITWASTOTALLY78 - 84 LEHOWSTHATPO 
+SSIBLE?THEYU77 - 71 ARTHSMAGNET 
+ICFIELDXTHEI64 - 70 IONWASGATHER 
+EDANDTRANSMI63 - 57 ERGRUUNDTOANU 
+NKNOWNLOCATI50 - 56 LANGLEYKNOWA 
+BOUTTHIS?THE49 - 43 ITSBURIEDOUT 
+THERESOMEWHE36 - 42 NOWSTHEEXACTL 
+OCATION?ONLY35 - 29 ASHISLASTMES 
+SAGEXTHIRTYE22 - 28 REESFIFTYSE 
+VENMINUTESSI21 - 15 IVESECONDSNO 
+RTHSEVENTYSE08 - 14 EESEIGHTMINU 
+TESFORTYFOUR07 - 01 WESTXLAYERTWO 
+ 
+                                                                                        
+The obvious row of interest is 64 – 70 as we are looking to find the decryption in plaintext of 
+BERLIN in positions 64 – 69.  Just as with the null cipher earlier we find that an encryption with the 
+Vigenère scheme using NYPVTT yields ICXUEI.   
+If we compare the row of plaintext from K2 on the right hand side in this position then we find 
+ICFIELDXTHEI.  Masking the word FIELD and substituting the TH for a U would give us our 
+necessary target, but we need to find some supporting evidence that such a scheme is in place as well 
+as determine the nature of its behaviour.  
+ 
+ 
+
+[[page 20]]
+20 
+ 
+Possible Masking Scheme for rows proceeding left to right 
+ 
+The word FIELD was originally identified as a potential mask by using an algorithm that looked for  
+Vigenère encryption or decryption relations between keywords in the plaintext or cipher text.  The 
+relation found here was originally alluded to by the linkage of an anagram of QUXQB (This is the 
+word LIGHT in the cipher text) to FIELD and AGNET in the plain text.  Once attention was centred 
+in this area the next clue became apparent. 
+Looking at the previously discovered text strings for HOT in the vertical plane it was seen that these 
+could be extended to give obfuscated anagrams of NORTH and SOUTH whereby the U of South had 
+been replaced by a C and the R of North replaced by a T. 
+  
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+
+[[page 21]]
+21 
+ 
+It is hypothesised that this is the structure alluded to by the ‘EARTHS MAGNETIC FIELD’ clue in 
+K2.  If we do another steganographic transform to move the right hand block to the left hand then this 
+becomes even more of stark clue.  It will also be seen that the word WEST in the bottom right now 
+also resides in the WEST half of the table. 
+ 
+The string ‘HOT’ represents the letters in common to both NORTH and SOUTH.  It will be 
+remembered from child hood that a MAGNET will have the effect of repelling or attracting a NORTH 
+and SOUTH pole in the presence of its field.  Full stops have been used to show the relationship with 
+the gaps that appear when the text is repositioned in such a manner.  The appendices at the back of 
+this document will discuss the potential pattern of dots and there relation to Morse encodings. 
+ 
+BETWEENSUBTLESHADINGANDTHEABSENC 
+CEOFIQLUSION.EOFLIGHTLIESTHENUAN 
+LEHOWSTHATPO.ITWASTOTALLYINVISIB 
+ARTHSMAGNET..SSIBLE?THEYUSEDTHEE 
+IONWASGATHER.ICFIELDXTHEINFORMAT 
+ERGRUUNDTOANUEDANDTRANSMITTEDUND 
+LANGLEYKNOWA.NKNOWNLOCATIONXDOES 
+ITSBURIEDOUT.BOUTTHIS?THEYSHOULD 
+NOWSTHEEXACTLTHERESOMEWHEREXWHOK 
+ASHISLASTMES.OCATION?ONLYWWTHISW 
+REESFIFTYSE..SAGEXTHIRTYEIGHTDEG 
+IVESECONDSNO.VENMINUTESSIXPOINTF 
+EESEIGHTMINU.RTHSEVENTYSEVENDEGR 
+WESTXLAYERTWOTESFORTYFOURSECONDS 
+ 
+ 
+ 
+The fact that each of the poles is missing a letter suddenly made it clear that in the non palimpsest text 
+area in the row 64-70 there were enough letters to mark SO(U)TH, but without a U. 
+I O N W A S G A T H E R 
+It turned out that all the other cardinal points of the compass could be constructed from this string, so 
+a trawl was made of the relationships between the redundant block on the left and all the possible 
+cardinal points that could be extracted.   
+ 
+ 
+
+[[page 22]]
+22 
+ 
+The resulting set of relationships for each row is as follows. 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ? 
+ 
+ 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+ 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+NORTH EAST SOUTH WEST 
+ 
+ 
+The most striking aspect of this analysis is that only this one row exhibits this relationship, whereby 
+all cardinal points of the compass are reproducible from the (redundant?) plain text. 
+The reward of any intellectual endeavour is always that eureka moment when all the different strands 
+that have been kept up in the air finally come together to form a coherent whole that is instantly 
+recognisable as being beyond chance.  Whilst running the afore mentioned algorithm to explore 
+relationships between discrete sections of the plain text and cipher text I found a region that did not 
+code at all for the strings LIGHT or QUXQB whereas every other position in the string did (I will 
+expand on this algorithm in the appendices).  It is thought that this may bear some significance 
+relating to the clue, THE ABSENCE OF LIGHT. 
+I should also point out that the line I was parsing was the equivalent of rows 64 – 70, but in the 
+reflected K3 rows that are in the half below the X-axis. 
+Amazingly I didn’t see the most striking relationship at first glance, so I will ask the reader to see if 
+they spot it on the next page before making the relationship explicit.  Remember that this string that 
+didn’t code for LIGHT or QUXQB was found by computational analysis and not by eye. 
+ 
+ 
+
+[[page 23]]
+23 
+ 
+Result of computational parsing for strings that do not relate through anagrammatic translation in 
+any way to either QUXQB or LIGHT when fed the symmetric string from the corresponding row 
+above the X-axis.  This is the result for rows 64-70 in K2 and the symmetric equivalent in K3. 
+ 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+ 
+I shall let the reader reflect on this page and continue on the next. 
+ 
+ 
+ 
+
+[[page 24]]
+24 
+ 
+To make explicit what was found on the last page look at the letters highlighted in the K3 row.  They 
+read SOFTH.  In other words (or letters even) SO(U)TH.  On re-examining what was deemed to be 
+the redundant information in row 64-70 we find the following string SAGTH.  Putting this all together 
+we end up with what looks like a triangular relationship between the masked string and the word that 
+has been used as a substitution target. 
+ 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+ 
+ 
+ 
+
+[[page 25]]
+25 
+ 
+If we now allow ourselves to swap letters within the confines of a single row then we can arrive at the 
+following arrangement for row 64- 70 and its symmetric equivalent in K3.  
+ 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINAGRMAT IONWASOFTHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ROSOFTHMROOMWITHINE MERGEFIELD 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+A bet is now hedged with regards the substitution scheme whereby the TH is transformed to a U.  It 
+may be that the scheme is as simple as looking for the presence of any parts of the masking keyword 
+in the palimpsest section of the plain text and then replacing with the missing letters required to make 
+the correct word in this case the U of SO(U)TH.  The letter replaced would then be appended to the 
+end of the line to make up our full block of 7.  Our final string in this instance would be ICXUEIF 
+which in turn would give a plain text of BERLINT. 
+An alternate scheme is now given whereby the letters that are substituted for the missing letters of the 
+masking keyword are deemed significant.  Remember that FO was swapped for GA in order to arrive 
+at SOFTH on the right hand side.  If we put HT through the Vigenère decryption process along with 
+AG then we arrive at UL.  If U and L are the letters we are substituting then making up the row to 7 
+now gives ICXUEIL.  This particular string is of interest as we have already inadvertently stumbled 
+across the string UEIL already.  It was mentioned on page 21 that the gaps in the row endings may 
+have some significance in Morse Code.  If we examine the relation found which is: .._ . .. ._.. then we 
+can translate to plain text to find the string UEIL.  This string would give a plain text of BERLINC. 
+
+[[page 26]]
+26 
+ 
+ 
+ 
+ 
+Possible Masking Scheme for rows proceeding right to left 
+ 
+Once the start point and text direction was established, a credible method for decrypting rows right to 
+left was established that followed the exact same pattern and method as outlined above.  The 
+difference with the right to left scheme is that the masking appears to be different, which may mean 
+that each individual row has its own discrete method of masking and substitution.  Rather than wait to 
+find all the discrete masks and substitutions for each row, I thought it better to publish in the hope that 
+any errors in this work can be corrected by the wider community and that any clues missed can be 
+brought to bear on the same underlying palimpsest and row schematic in order to arrive more quickly 
+at a complete decryption.  Please feel free to take this paper as a whole or extract various clues in 
+order to develop your own decryption schemes, but please cite this original paper in any subsequent 
+write ups.  
+With regards the row representing string positions 1 – 7, the following observation was made. 
+ 
+SHADINGANDTHEABSENC 
+EOFLIGHTLIESTHENUAN 
+ITWASTOTALLYINVISIB 
+SSIBLE?THEYUSEDTHEE 
+ICFIELDXTHEINFORMAT 
+EDANDTRANSMITTEDUND 
+NKNOWNLOCATIONXDOES 
+BOUTTHIS?THEYSHOULD 
+THERESOMEWHEREXWHOK 
+OCATION?ONLYWWTHISW 
+SAGEXTHIRTYEIGHTDEG 
+VENMINUTESSIXPOINTF 
+RTHSEVENTYSEVENDEGR 
+TESFORTYFOURSECONDS 
+ 
+ 
+ 
+There is the potential to apply a mask in this row that looks incredibly similar to one of our first keys 
+which was CE OF.  Remembering to use SUBTLE SHADING to occlude, we can arrive at the 
+interchangeable strings of OF and OF.  Remember also that the previous decryption scheme of right to 
+left also involved the use of the string FO being swapped to give OF. 
+
+[[page 27]]
+27 
+ 
+To find some reasoning that is vaguely consistent with the proposed right to left scheme outlined 
+above it is possible to look slightly further and find a possible method that gives an additional 
+explanation for the use of this mask. 
+ 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+TPRNGATIHNRARPESLNN ELEBLPIIACAE 
+WMTWNDITEENRAHCTENE UDRETNHAEOE 
+TFOLSEDTIWENHAEIOYT EYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATA MATEGYEERLB 
+TEEFOASFIOTUETUAEOT OARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPI EROAGRIEWFEB 
+AECTDDHILCEIHSITEGO EAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEO HMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTT RTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFL RVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKL UDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDI GKUHUAUEKCAR 
+SHADINGANDTHEABSENC BETWEENSUBTLE 
+EOFLIGHTLIESTHENUAN CEOFIQLUSION 
+ITWASTOTALLYINVISIB LEHOWSTHATPO 
+SSIBLE?THEYUSEDTHEE ARTHSMAGNET 
+ICFIELDXTHEINFORMAT IONWASGATHER 
+EDANDTRANSMITTEDUND ERGRUUNDTOANU 
+NKNOWNLOCATIONXDOES LANGLEYKNOWA 
+BOUTTHIS?THEYSHOULD ITSBURIEDOUT 
+THERESOMEWHEREXWHOK NOWSTHEEXACTL 
+OCATION?ONLYWWTHISW ASHISLASTMES 
+SAGEXTHIRTYEIGHTDEG REESFIFTYSE 
+VENMINUTESSIXPOINTF IVESECONDSNO 
+RTHSEVENTYSEVENDEGR EESEIGHTMINU 
+TESFORTYFOURSECONDS WESTXLAYERTWO 
+ 
+SLOWLYDESPARATLYSLO WESTHLAYERMIN 
+OFPASSAGEDEBRISTHAT ENCUMBEREDT 
+HELOWERPARTOFTHEDOO RWAYWASREMOV 
+EDWITHTREMBLINGHAND SIMADEATINY 
+BREACHINTHEUPPERLEF THANDCORNERAN 
+DTHENWIDENINGTHEHOL EALITTLEIIN 
+SERTEDTHECANDLEANDP EEREDINTHEHOT 
+AIRESCAPINGFROMTHEC HAMBERCAUSED 
+THEFLAMETOFLICKERBU TPRESENTLYDETA 
+ILSOFTHEROOMWITHINE MERGEDFROM 
+THEMISTXCANYOUSEEAN YTHINGQ?XXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+XXXXXXXXXXXXXXXXXXX XXXXXXXXXBER 
+LINXXXXXXXXXXXXXXXX XXXXXXXXXXXX 
+ 
+Using the Vigenère method we can decrypt OFOF by YAHR to derive the word POLE.  This is 
+slightly more tenuous than the method used to derive FIELD, but even if a coincidence it was felt too 
+noteworthy to leave out of this final draft. 
+Now that we believe we have applied the right mask, we need to find a suitable substitution.  In this 
+instance the substitution was guessed to be RT -> P.  
+Substituting ET for P and reading from right to left gives the string RUYTRSP.  When this string is 
+encrypted with the first 7 letters of the K4 plain text, which are OBKRUOX we derive a string of: 
+SPY OVER 
+ 
+ 
+
+[[page 28]]
+28 
+ 
+Conclusion 
+ 
+It has been shown that there is a potential palimpsest in K1 and K2 that with appropriate masking and 
+substitution may yield the final K4 plain text when encrypted with the known K4 cipher text.  For 
+every clue found in the preceding sections there are no doubt many more that remain hidden, but the 
+existence of a coherent framework underlying the decryption process should dramatically reduce the 
+time and scope of the algorithms needed in order to flush these out and find a complete decryption.  
+There are bound to be many mistakes and wrong turns made in this paper, but I’m hopeful that the 
+row addressing scheme in itself is a meaningful contribution that will feature in any complete 
+decryption.   
+ 
+This paper is no doubt likely to cause some lively debate, but I would urge community members to 
+keep this within the bounds of the Kryptos group forum.  Should anyone want to discuss any of the 
+ideas in this paper in more detail then please join the forum and find me under my user name of 
+matzreid888@yahoo.co.uk.    
+ 
+ 
+
+[[page 29]]
+29 
+ 
+Appendices 
+ 
+Appendix A. 
+Elemental Substitution scheme 
+ 
+It was noted that the substitution scheme may have something to do with elements and their 
+underlying atomic number.  This was based on three observations, the first being that the substitution 
+relationship Th->U may be a nod towards the Thorium to Uranium transmutation process. 
+Te to P is more tenuous, but we do have a very interesting artefact in the cipher text that would show 
+a method for collapsing two letters in to one.  In this example for gold (Au) it is conjectured that Pt 
+would be substituted for A.  The reasoning behind this is highlighted below. 
+USDJKZLDKRNSHGNFIVJ EMUFPHZLRFAXY 
+YQTQUXQBQVYUVLLTREV JYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWH KKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMM IAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGD VFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJ LBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKF WHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWN TDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGS YQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGO GIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQ CLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDM VPNFQXEZLGRE 
+DNQFMPNZGLFLPMRJQYA LMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNU PLGEWJLLAETGO 
+ 
+ENDYAHROHNLSRHEOCPT EOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOH SNOSMRWXMNE 
+ 
+ 
+ 
+Pt and Au are in positions 78 and 79 of the  periodic table, which is why this was deemed significant.  
+It may be that there is still a substitution table still to be discovered or that there is a direct link to the 
+periodic system.  
+ 
+ 
+ 
+ 
+
+[[page 30]]
+30 
+ 
+Appendix B.   
+Embedded Morse? 
+ 
+In the swap of the right hand block to the left hand side it was seen that the spaces seemed to follow a 
+pattern.  Whether or not this is meaningful Morse Code or some other code remains to be seen, but the 
+following observation was made. 
+For the upper half (K1 & K2) it can be seen that the spaces code to the symmetrical string: 
+ .._ ./../._..   
+and that the bottom half (K3) codes to: 
+ .. . ../.././(...) .  
+(The 3 dots in parenthesis are left as 3 single dots rather than a guess made as to the permutation of dot to dash).  
+ 
+Appendix C. 
+Algorithms used 
+ 
+The algorithms used throughout were purely the standard encryption and decryption methods that 
+utilised the Vigenère tableau built into the sculpture. 
+New algorithms were only needed in order to ease the finding of strings in the vertical plane of the 
+texts and looking for any anagrammatic relationships that may decode from one part of the text into 
+another.   
+ 

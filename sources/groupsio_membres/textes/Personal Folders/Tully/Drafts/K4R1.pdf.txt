@@ -1,0 +1,126 @@
+[[page 1]]
+ 
+DeKRYPTOS 
+K4R1 
+Draft 
+
+[[page 2]]
+Method: Steganography/ Riddle 
+Hints: 
+• Plain Text UNDERGROUND is spelled correctly on the charts but not the sculpture. 
+• “You got to delve in that particular clock”. - Jim Sanborn 
+Text: K2 Plain Text(PT) over K2 Cipher Text(CT) 
+Storyline: Howard Carter excavating or walking the steps to King Tuts tomb. 
+KRYPTOS CHART 
+(Image source:   https://kryptos.groups.io/g/main) 
+“ed” is lowercase in the 8th row plain text, possibly to draw 
+attention to the word BURIed.
+UNDERGRUUND
+Insertion point for your first STEGO block.
+Row 8 has an elbow marking with an unknown purpose, 
+possibly decode direction/type. 
+
+[[page 3]]
+NOTE: Because we are decoding, we need to modify the charts to reflect CT on top 
+(mask) and PT on bottom (carrier). We are using a width of 42 to fit on the page but you 
+may use any reasonable width you like. The repeated keyword layer has been omitted. 
+ 
+
+[[page 4]]
+ 
+STEGO  TYPE - 1 
+• Locate your starting position(A) within the CT layer. 
+• Find the next instance of the K4 character (B). 
+• The decoded letter (C) is that position, but in the (PT) 
+ 
+STEGO TYPE - 2 
+•  Locate your starting position (A) within the mask layer. 
+• Move over by K4 letter value (B) 
+• The decoded character (C) is at the position you land on 
+ 
+ 
+(KRYPTOS alphabet values). 
+(KRYPTOS incomplete K4 Block Matrix).	 	
+	
+	
+	
+              Mengenlehreuhr clock 
+	
+The above block matrix was inspired by the Berlin clock clue where the K4 format 
+loosely mirrors that of an up-side-down Mengenlehreuhr clock.  
+Some possible hints within K4 include: 
+• OLIF	
+-  FILO (First In Last Out) 
+• SSEK	
+-  SEEK is the hint for GKSS starting position “Can you see anything Q”. 
+• WINF	
+-  Believed to represent WIND and/or WIN (as in winning a race) 
+• DIG  	
+-  The first hint that introduces us to K4. 
+• CAR           -  Lord Carnarvon, Howard Carter, car (automobile) 
+
+[[page 5]]
+STEP 1: Locate your K4 blocks to be decoded (Z XTJ CDIG KUHU AUEK) 
+STEP 2: Align your K4 letter C with the Masking letter C above the misspelled word 
+UNDERGRUUND on the chart below.  
+ 
+(Modified Cipher Chart) 
+STEP 3: From your insertion point, find the next K4 letter  and perform the STEGO 
+type-1 method and record the red character directly below. This is your decoded K4 text 
+and is now your new position, repeat until you are left with:  
+“RT KONI AIRITE.” 
+
+[[page 6]]
+STEP 4: Go back to the insertion point “UNDERGRUUND”. Here you will decode in 
+reverse for both the cipher block XTJ and carrier text reading direction. Using the 
+TYPE-1 STEGO method to decode J to D, T decodes to U, X decodes to M. 
+ 
+ 
+(Letter to index value) 
+STEP 5:  Use the TYPE-2 STEG method by: 
+•
+Locate your position at X over M (index 103). 
+•
+Move to the left by Z (25). 
+•
+The letter you land on s your decoded letter ”A”. 
+First     J/D
+Second   T/U
+Third     X/M
+Fourth   Z/A   
+
+[[page 7]]
+If you are using DeKryptos.com you can use the following: 
+Step 1: Press 
+Book Of Knowledge(BOK) in the top left of your window to  
+close the Book Of Knowledge. 
+Step 2: Press  II in the top left to load the K2 CT and PT layers. 
+Step 3: Press the STEG button in the top right to load the STEG tool. 
+ 
+B0K
+
+[[page 8]]
+Step 4: In the STEG field, press “CDIG”to load the block into the STEG tool. 
+Step 5: Set your cursor  Q over G 
+(Position 114). 
+Step 6: Press the Type-1 STEGO method on the right side of the STEG tool 4 times. 
+Step 7: Press the scribe icon to apply your decoded text to the STEG field. 
+Step 8: Load KUHU by clicking on this block of the STEG Field. 
+Step 9: Press the Type-1 STEGO method on the right side of the STEG tool more 4 times. 
+Step 10: Press the scribe icon to apply your decoded message. 
+Step 11: Load AUEK by clicking on this block of the STEG Field. 
+Step 12: Press the Type-1 STEGO method on the right side of the STEG tool more 4 times. 
+Step 13: Press the scribe icon to apply your decoded message. 
+
+[[page 9]]
+Step 14: Go back to index 114 
+Step 15: Click to load XJT from the STEG field. 
+Step 16: Reverse the loaded text to produce JTX 
+Step 17:  Press the Type-1 STEGO method on the left-hand-side of the STEG tool 3 times. 
+ 
+Step 18: Reverse the STEG input  JTX 
+Step 19: Press the scribe icon to apply your decoded message. 
+Step 20: Click to load from the STEG field. 
+Step 21: Execute a type-2 STEGO method by moving over by STEG value (Z = 25) to land on your 
+decoded character. 
+Step 20: Press the scribe icon to apply your decoded message to the K4 STEG field.

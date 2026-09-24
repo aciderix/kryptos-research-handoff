@@ -1,0 +1,199 @@
+[[page 1]]
+ 
+M10  Starting to solve K5 with the instructions of WW 
+ 
+Who knows  the exact location? 
+Only WW. This was his last message x 
+38 degrees  57 minutes   6.5 seconds North 
+77 degrees    8 minutes    44 seconds West x 
+ 
+As we saw in the previous message M9, it is very likely that K5 is a visual puzzle. Starting from 
+the Original Matrix or Plaintext Matrix (P), and following the instructions that WW left in his 
+last message, we will have to move rows and columns of the P Matrix and the Matrix System. If 
+we carry out the correct movements, we will obtain in the P Matrix the representation, by 
+characters, of the image chosen by Jim for K5. We will also get clues to solve K4 and K5. Jim 
+has been clear that while it is possible to solve K4 without having solved K1 - K3, K5 cannot be 
+solved without K4. If we are correct and K5 is a visual puzzle of the P Matrix, we need all the 
+plaintext, also the one in K4. But since K4 is just 11% of the P Matrix and we already have part 
+of the K4 plaintext, we can try to start solving K5. 
+ 
+In previous messages we saw what were the movements associated with several of the WW 
+instructions, and their tests or confirmations. In the M6 message we saw how 38 degrees is 
+related to solving the anagrams ZENITH in North Kryptos and DEBRIS in South Kryptos, both in 
+rows 3 to 8. The proofs are that the doorways THE PENNY RED UK and SET HANDS arise, in 
+addition to other clues. In message M8 we saw how 6.5 seconds and 8 minutes are related to 
+folding the Matrix with axis 6 and a half columns from the right and 8 columns from the left, 
+obtaining TEST in the first fold and POSTTEST and DEAN in the second fold as confirmations. 
+Finally in the previous M9 message we saw how 77 degrees and 44 seconds are related to 
+shifting columns 7 and 4 vertically to place an A and an L  in column 7, rows 2 in both North 
+Kryptos and South Kryptos, and an E and an O in column 4, rows 5 in both North Kryptos and 
+South Kryptos, to complete the weird duo DELTA - HOTEL. These latest moves involve 
+characters from K4 and confirm Jim's announcement that to fully resolve K5 we need to have 
+all the plaintext from K4. It remains then to discover what are the movements linked to 57 
+minutes. I have discovered two possible clues linked to rows 5-7, but perhaps other clues exist. 
+The first one in P Matrix shown below: 
+ 
+
+[[page 2]]
+ 
+ 
+If we focus on the SUPERMEN clue in column 10, we see how in row 7 there is an A. We could 
+interchange rows 5 and 7 so that SUPERMAN appears. Should we do it only in South Kryptos or 
+also in North Kryptos? 
+ 
+The second clue linked to rows 5 to 7 is in C matrix, shown below: 
+ 
+
+[[page 3]]
+ 
+ 
+Starting from column 11, row 4, we see diagonally, from NE to SW, a misaligned CLUE. We 
+could align it NE to SW by shifting rows 5 to 7 one place to the right. Or we could align it 
+vertically from N to S by shifting rows 5 to 7, respectively, 2, 3, and 4 places to the right. Or we 
+could align it diagonally from NW to SE by shifting rows 5 to 7, respectively, 3, 5, and 7 places 
+to the right. Or is it just a clue that we can shift rows 5 through 7 across each other and relative 
+to the Matrix? Should we do it only in North Kryptos or also in South Kryptos? There are many 
+possible alternatives, and I have probably overlooked other interesting ones. Therefore, in this 
+message, more than movements tested and with confirmations as in the previous messages, 
+we show possible movements, until we reach a movement without solution. It would be very 
+good if other members of the Group explore new alternatives and find test that confirms 
+which are the correct movements. Perhaps also when K4 is resolved, new clues will emerge for 
+K5. 
+ 
+It is reasonable to think that the operative in the field tries to follow, as strictly as possible, the 
+instructions that his boss WW left him in his last message. So we will carry out the movements 
+in the order of the coordinates and we will see to what point Kryptos continues to guide us as 
+before. First then the instruction 38 degrees, the anagrams ZENITH and DEBRIS of rows 3 to 8. 
+The new P Matrix or 38P is the following: 
+ 
+
+[[page 4]]
+ 
+ 
+As we had seen in the M6 message there are some clues such as THE RED GATE, perhaps in 
+allusion to THE GOLDEN GATE and SAN FRANCISCO, as we saw in the M4 message possible K4 
+plaintext from position #52. On the other hand POSTTEST, which will appear once we have 
+made the folds in column 25 and between columns 8 and 9, is not altered by the 38 degrees 
+and 57 minutes movements, since they are from row 9 in North Kryptos to the row 2 in South 
+Kryptos. But SUPERMEN in column 10 has already been altered by the 38 degrees movement, 
+as well as DlLTg and HcTEs clues for the 77 degrees and 44 seconds instructions. A NE to SW 
+diagonal AGE has also emerged between columns 28 to 26 and the rows that currently have 
+the fifth to seventh position. Is this clue that we have to pay attention to when executing the 
+57 minutes instruction? The sequence MENAM (MEN MAN) near the PUT ON IT cluster may be 
+the clue to first swapping SUPERMEN for SUPERMAN by exchanging the fifth and seventh place 
+rows. The WHEN and TILT clues also appear. When to tilt CLUE? When to tilt AGE? Before or 
+after SUPERMEN? 
+ 
+Let's first perform the SUPERMAN movement on both North Kryptos and South Kryptos. The 
+new first Matrix P or 57P1 is as follows: 
+ 
+
+[[page 5]]
+ 
+ 
+AGE has changed its tilt and two new clues appear: ADD IT and HERE, which appear to be 
+related, in the extreme columns of the Matrix. With this movement important clues emerge in 
+the corresponding Matrix C or 57C1. Matrix 57C1 is as follows: 
+ 
+
+[[page 6]]
+ 
+ 
+On the one hand PENNY RED appears again, now in a cluster with one of the misspelled 
+QUEENs. If we still had not found the Matrix System that we discussed in the M6 message, 
+here again it gives us the clue about THE PENNY RED that we found in said message, in the P/C 
+Matrix, after solving the DEBRIS anagram. With QHEEN there are no doubts that it refers to the 
+PENNY RED of UK and not of USA. In addition, NEAR PEER appears in the cluster. And 
+coincidentally PENNY appears in exactly the same position as in the P/C Matrix that we saw in 
+the M6 message. All of this does not appear to be just random, it is intentional, and it would 
+confirm that we made the right move. 
+ 
+Now let's study how we can shift the rows that are in the fifth to seventh positions. After 
+several tests, with shifts 4, 2 and 0 to the right, in both North Kryptos and South Kryptos, the 
+following is the 57P2 Matrix that I have found most likely: 
+ 
+
+[[page 7]]
+ 
+ 
+AGE appears tilted, now from SW to NE. As we saw in the M8 message, folding the right side 6 
+and a half columns from the edge, we got TEST and NEDLES. An E was missing and the D was in  
+column 18 and the eighth row. Now the missing E appears and arises NEED, but in the place 
+where the D should be there is an S. And the S as it is in the eighth row, it should no move in 
+the 57 minutes instruction. A YES appears but LOSE continues. Will these be the correct moves 
+for 57 minutes? Let's see which is the Matrix that arises from the first fold at 6 and a half 
+columns from the right edge corresponding to the 6.5 seconds instruction. Matrix 6.5 P is as 
+follows: 
+ 
+
+[[page 8]]
+ 
+ 
+As we saw in the M8 message, when executing the 6.5 seconds instruction, TEST appears. 
+Now, although the E has arisen from the NEDLES error, an S has also arisen. If they are the 
+hands of a clock, we could interpret that the S is the center of the clock, NEED is the large 
+needle and LES the small one. As we also saw in the M8 message, Jim expressed surprise that 
+we didn’t include the rotation of the pool in the 3D modeling. He gave us the clue that 
+something must be rotated in Kryptos. Something similar happens with the clue: passing 
+Kryptos through a washing machine, flip and rotate. And here we have found it. We should 
+execute the SET HANDS instruction rotating a certain area of the 6.5P matrix with the center at 
+that S. The ends of the S could be indicating the direction of rotation: clockwise, the same as 
+that of the pool. But if we do that, and we choose to rotate the square marked with light green 
+and light blue, with N, A, S and O in its corners, AGE will not be aligned with POST, when we 
+execute the instruction 8 minutes, folding the left side to 8 columns from the edge. In order for 
+AGE to be aligned with POST and POSTAGE appears, we should rotate, with the center in the D 
+of NEEDsLES, the square marked with light blue, with E, U, S and X in its corners. But then 
+spare the S in the middle of NEEDLES. The same happens if we interpret that it is singular: 
+NEEDsLE and is the compass needle. Thus, the D is the center of the NEEDsLE, but the s 
+remains. It seems that we have not made the right moves. In addition there are several 
+uncertainties. Should we do the rotation now, or after we have executed the remaining WW 
+instructions? Should we rotate a square, or remove 1 or 3 or 6 characters from each corner 
+and rotate an 8-sided area? For the moment, and taking into account that at the center of the 
+sixth row we can read HEY USE D, let's rotate the square of 11 x 11 characters with center in D. 
+The new 6.5PR matrix is the following: 
+ 
+
+[[page 9]]
+ 
+ 
+Nothing has emerged to confirm, as on previous occasions, that we have made the right move. 
+We only have AGE correctly located. When we fold the left side with the 8 minutes instruction, 
+POSTAGE will pop up. Now it corresponds to make the shifting of column 7 according to the 
+instruction 77 degrees. As we saw in the message M9, we must shift column 7 in order to 
+locate an A in the second row of North Kryptos and an L  in the second row of South Kryptos. 
+Let's find then an A and an L separated by 14 positions in column 7. But there is only one L  in 
+the sixth row of North Kryptos and one A in the third row of South Kryptos. There is neither 
+one located in rows 12 to 14 that could be complemented by the K4 plaintext , when we solve 
+it. This confirms that we have not correctly followed WW's instructions in his last message, 
+possibly in the 57 minutes instruction. Many alternatives remain open. In what order to play 
+the SUPERMEN and CLUE clues? Are other clues linked to rows or columns 5 to 7? We have to 
+run both clues in North Kryptos and South Kryptos as we did? 
+ 
+As we saw in the M6 message, after resolving the DEBRIS anagram, THE PENNY RED UK 
+appears in the P/C Matrix, one of the first postage stamps in the world. 
+ 
+
+[[page 10]]
+                                                                     
+ 
+ 
+When we fold 8 columns from the left, instruction 8 minutes, POSTAGE will appear instead of 
+POSTTEST (message M8) having replaced TEST with AGE with the rotation. If we correctly 
+follow the instructions of WW, it is likely that QUEEN, VICTORIA, REGINA, RED or some 
+combination of these, and also ONE PENNY, will appear. That POSTAGE appears in the middle 
+of the P Matrix is not a problem, because we will probably also have to cut the rows and move 
+them around, or fold them by rows, according to the marks on the petrified tree. The character 
+representation of this postage stamp would be the solution to the visual puzzle Jim has 
+referred to, as well as his preference for Matrix-based coding systems. 
+ 
+All these discoveries that we develop in this series of 10 messages, are linked to K4 and K5. I 
+invite the members of the group to explore the K4 algorithm that we saw in messages M4 and 
+M5, to find a way to modify, expand or apply it in a different way; so that in addition to 
+correctly decoding BERLIN and NORTH E as so far, let's manage to decode CLOCK, the two EAST 
+and surely the rest of K4. I also invite you to explore the movements of K5, so that 
+confirmations appear, as has happened until now, and that we can continue to advance in the 
+resolution of K5. I think we are very close to solving both K4 and K5. I am optimistic, with the 
+Group's Collective Intelligence, in a very short time, we will achieve it. 
+ 
+Jose Luis 
+ 

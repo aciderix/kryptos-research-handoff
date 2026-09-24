@@ -1,0 +1,185 @@
+[[page 1]]
+jag <codenamejag@yahoo.com>
+To:k7cw@yahoo.com
+Nov 14 at 11:21 PM
+Hi Paul,
+the plain text in K2 will have to be written out in 
+columns of eight. I'm not sure if I'm describing it 
+correctly. It should look like this
+I T W A S T O T
+A L L Y I N V I
+....
+F O R T Y F O U
+R S E C O N D S
+W E S T X L A Y
+E R T W O 
+ 
+it will match with K4's when K4 is rotated in this 
+fashion.
+     
+M Q O
+T T X
+T W O
+V T U
+Jag’s Find
+Emphasis mine.
+P.K.
+Paul Kiesel
+12/11/2019
+
+[[page 2]]
+F O R T Y F O U
+R S E C O N D S
+W E S T I D B Y
+R O W S
+ES CT
+FIND S 
+ID BY RO W
+INSERT S
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+K4 CT+                 K2 PT (8-Column Pad)                                            
+Before S
+Insertion
+After S
+Insertion
+F O R T Y F O U
+R S E C O N D S
+W E S T X L A Y
+E R T W O
+FOUND S LAY
+Note:
+LAY = POSITION
+re: (...WES)T IS YOUR
+    POSITION)
+M Q O M
+T T X D
+T W O C
+V T U E
+So, placing the S in the K2 CT
+in the 9th position from the end
+causes the above match:
+      O
+    T X
+  T W O
+between the K2 PT and the K4
+CT. The result of this is that the
+word REST now appears
+vertically with the T at the 
+bottom. This is a clue to look at
+the letters in K4 that lie above 
+the T.
+R P O R
+A Y S K
+C N S B
+K B K O
+E F G ?
+U N N W
+A I R H
+U W P O
+H A Q D
+U I Q V
+K D V T
+G U R R
+I L L T
+D K F T
+C J W S
+J T B S
+T A B L
+X W F N
+Z Z I H
+K Z L E
+D K O M
+G E S I
+W S B E
+K S L F
+P Q U P
+F J H I
+Z S G R
+M Q O M
+T T X D
+T W O C
+V T U E
+    H
+M H O
+T O
+T O O
+UH
+     R
+DIG
+    E
+
+[[page 3]]
+R P O R A Y S K
+C N S B K B K O
+E F G Z U N N W
+A I R H U W P O
+H A Q D U I Q V
+K D V T G U R R
+I L L T D K F T
+C J W S J T B S
+T A B L X W F N
+Z Z I H K Z L E
+D K O M G E S I
+W S B E K S L F
+P Q U P F J H I
+Z S G R M Q O M
+T T X D T W O C
+V T U E
+    H
+M H O
+T O
+T O O
+R P O R
+A Y S K
+C N S B
+K B K O
+E F G Z
+U N N W
+A I R H
+U W P O
+H A Q D
+U I Q V
+K D V T
+G U R R
+I L L T
+D K F T
+C J W S
+J T B S
+T A B L
+X W F N
+Z Z I H
+K Z L E
+D K O M
+G E S I
+W S B E
+K S L F
+P Q U P
+F J H I
+Z S G R
+M Q O M
+T T X D
+T W O C
+V T U E

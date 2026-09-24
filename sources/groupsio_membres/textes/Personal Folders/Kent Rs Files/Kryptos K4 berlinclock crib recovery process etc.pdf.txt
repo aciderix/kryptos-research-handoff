@@ -1,0 +1,117 @@
+[[page 1]]
+Just to recap the procedure to recover 'berlinclock' via the morse code "dit-dah" system and resulting 
+intermediate text: 
+1. Create the intermediate(real) cipher text via the morse code starting with TI, etc and the four extra 
+alphabets on the right side of the Kryptos Tableau: So OBKR.. is set against TISY...from the morse and 
+sequenced through. It appears that somewhere along the line letters are inserted in the K4 text, 
+probably two at some point prior to NYPVTTMZFPK, though it may also be that the morse sequence is 
+shortened. At any rate, the correct matchup between the morse and the K4 berlinclock crib is shown in 
+the following table 
+K4 Text  
+N 
+Y 
+P 
+V 
+T 
+T 
+M 
+Z 
+F 
+P 
+K 
+Morse=NONLINEAR 
+SHIFT REGISTER 
+e 
+e 
+e 
+e 
+e 
+e 
+I 
+N 
+V 
+I 
+S 
+# dit-dahs =   1-4 
+alphabet 
+1 
+1 
+1 
+1 
+1 
+1 
+2 
+2 
+4 
+2 
+3 
+Intermediate 
+Cipher text 
+B 
+L 
+M 
+E 
+N 
+N 
+T 
+A 
+N 
+I 
+W 
+Crib 
+b 
+e 
+r 
+l 
+i 
+n 
+c 
+l 
+o 
+c 
+k 
+Key on Kryptos 
+Tableau 
+K 
+S 
+L 
+Q 
+T 
+K 
+U 
+J 
+H 
+S 
+W 
+ 
+ 
+ becomes BLMENNTANIW.   The correct line up of the morse key against berlinclock is eeeeeeINVIS. This 
+shows the 2010 clue to have been fairly friendly. 
+2. Identify the linkup between TI in EWWJ, EWJ etc on the K2 cipher(wesTIdbyrowS  and xlayertwo) and 
+TI at the end of row 7 (K2 row 5). wesTIDBYROWS . S=7 in Kryptos alphabet, see how Row S of Tableau 
+side links to row end TI on the cipher side. This is the pointer for the key identification row. 
+3. Cribdrag  (tuu and fro perhaps?) row 7 against  BLMENNTANIW: first from the left normally which 
+identifies the digraph crib segments as follows against the normal Kryptos tableau: TK=in, KS=be, JH=lo,  
+KU=nc (duplicate n),  then W as k and finally S as c so: "be--inclock". At this stage go backwards (turn the 
+row or crib over)and drag again to pick up SLQ=erl. There is 'berlinclock'. Whether another key 
+identification procedure exists or not, crib dragging will identify known or suspected plaintext without 
+any problem. That being the easy part. 
+4.  ? On a fun note, SLQ on the Kryptos Key becomes GRU on the Normal Alphabet Key. The rest might 
+have to wait until after Thanksgiving. For me at any rate. 
+5. Someone emailed me a question about why I make weapon versions of Kryptos. Good question. 
+Partly I suppose because I think it fits certain design elements of the puzzle, and possibly its hidden story 
+line. But also because K3 ends "Can you see anything Q?". Well my contribution to the "Top Ten Kryptos 
+K4 Solutions Competition" was a reply which starts "Not a damn thing Bond....". All of these answers of 
+course used "one-time pad" keys that were simply the creation as a result of running the imagined 97 
+letter plaintexts against OBKR.., not the actual intermediate cipher text described above. These keys 
+
+[[page 2]]
+reportedly will be hidden in Geocaches at locations somehow related to Kryptos, as will a number of the 
+jokes and back alley, dead end stuff, real or imagined that have become part of Kryptos lore. 
+Competition rules will be map and compass only, not this new fangled GPS stuff. At any rate, you know 
+who Q is right? Not M, oops I mean W. So he goes missing in the above answer, but nevertheless there 
+are a number of designs made by "Missing Q" involved here and they are not all weapons. I have put 
+some other designs up there, I think. Possibly the "missing Q" will come back just like the "missing X" 
+always does. Enjoy the rest of the puzzle. 
+Happy Thanksgiving. 
+Kent Ramliden 

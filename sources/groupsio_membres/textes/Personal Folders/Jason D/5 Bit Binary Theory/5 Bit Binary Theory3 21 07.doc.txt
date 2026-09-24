@@ -1,0 +1,164 @@
+Disclaimer:
+This paper proposes a framework and some possible algorithms on how K4 was possibly encrypted. The evidence presented is primarily based on comments made by its creator and advisor (Sanborn and Scheidt), and not any patterns or statistics concerning the actual 97 letters. Sources for each are referenced by message #, so key observations and contributions are properly documented.
+ 
+Theory basis:
+The 5 bit zero-index theory is one that assumes artistic and other types of clues where left in the piece to help the solver or impaired operative remember or figure out the encryption technique used and/or the key(s). The basis for this theory comes from several of the interviews and conversations with Sanborn and Scheidt, in particularly message 728, 732, 753, and 808:
+
+Quote from Message 728: Elonka
+According to Ed:
+He made a point of saying that he used to be an op, that part 4 isdesigned to be solved in a straightforward manner with pencil and paper, andthathe did things to "disguise the English" in part 4, so that it couldn't besolved in the frequency analysis ways that were used for parts 1-3.
+He talked about how the code was designed so that someone could comealong 15 years later, without remembering what the key was, and still be ableto figure it out because of clues that were there.
+
+Message 732 from Gary Warzin contains his interpretation of what was said along with his speculation from his meeting with Mr. Scheidt.
+
+Imagine that you have an operative in place that you will need to get a message to in the future.  It could be 15 years down the road - you won't have any contact with them in the meantime.  You have to assume that they will not remember the "key".   How to you deliver the message in such a way that it conveys not only the encrypted data, but also the key?
+ 
+It is important to note that he made a specific point that the "key" is not necessarily the key word.  He put it something like this:
+ 
+In a modern digital system the "key" is the key word or number that you need to decrypt the message.  Everyone knows the algorithm.  It just a black box into which you insert the key and the encrypted text and the answer comes out the other end.  In analog systems (as used in Kryptos) the "key" IS THE ALGORITHM.
+ 
+So, how do you give the intended recipient of the message enough information to figure out the algorithm and give it to them in such a manner that it will be of little help to others?  His implication was that there were a number of intentional dead ends that would throw others off the track.
+ 
+He implied that even though people may have discovered the text of the first three parts, they still don't understand how the message was constructed and how his fictitious "operative in the field" would have solved the problem.
+ 
+His most significant comment about Part 4 was that it was designed so that encrypted text wouldn't "look like English."  But the evening before, he also said that at one point they (he and Sanborn) debated over the use of obscure languages and decided against that option on the grounds that it wouldn't be fair to those trying to solve the puzzle.  So, the way I read things, the implication is that Part 4 is in English, it's just that the frequency distribution was deliberately altered so it wouldn't look like English.
+
+If we assume that the algorithm for K4 is communicated to the Impaired Operative in the future through some form of hidden communication, then it makes logical sense to start with nuances of the piece that we are confident are intentional. Here are the assumptions: 
+
+Message 753 Elonka:When I showed the pictures of the out of alignment letters, Sanborn madea point of pointing to them and specifically asking if anything else has beenfigured out about them. He said, "They're important."- When I asked about the misspellings and asked if they were accidental ordeliberate, Sanborn said that they were deliberate, but it was less important*what* they were. He said, and I quote: "it's more the orientation of thoseletters that's useful there." Later on in the evening he repeated that point,saying it was the "positioning" that was important.
+
+Part 1: Artistic (Impaired Operative Clues):
+Assumption 1:  Iqlusion, Gruund, and Desparatly are miss-spelled versions of Illusion, Ground, and desperately.
+
+Assumption 2: These mis-spellings are intentional and are the clues mentioned above for the operative to recover the key for K4.
+
+Assumption 3: The raising of the letters YA_R at the section of K3 is intentional. The pattern created by e n d Y A h R can be interpreted with the raised letters as 1 and the lower letters as 0 (message 748).  If done it becomes 0 0 0 1 1 0 1. This is also intentional and is a clue to solve K4.
+
+Assumption 4: In the morse section DIGETAL Interpretatu, DIGETAL is a deliberate miss-spelling of DIGITAL, (Also possible additional supporting evidence is the way it was misspelled with space for the missing dit messages 5565, 5820)
+
+Quoting Message 808(Elonka): Something else I just remembered about when I gave the talk to Sanborn, is from when I mentioned the morse code messages.  Both he and Scheidt seemed to already know that "INVISIBLE" was a morse palindrome.  When I brought up about "DIGETAL INTERPRETATU", and how DIGETAL might be a typo for DIGITAL (since it used only one dot for an "E" instead of two for an "I") and that we weren't sure whether it was human error or a clue, well, Sanborn didn't specifically say anything, but the impression that I got was that he already knew about that difference, and that it was deliberate. 
+
+Part II Speculation:
+This is my personal speculation on how clues “were meant” to be recovered by the Impaired Op. (Not the way it was stumbled on to)
+
+DIGETAL INTERPRETATU:  Interpret the Miss-spelled words digitally, or by association with a binary alphabet (First proposed by Elonka in message 808 I believe)
+Spell out each of the miss-spelled words in various binary alphabets. The correct alphabet is signaled by the recovery of the corrected letter as spelled by the first bit of each of the first five letters. For example:
+(Recovered by Randy Thompson message: 5318)
+The zero-Indexed alphabet:
+
+
+Yields: (Writing the letter down vertically, reading off horizontally,)
+
+01011 =L
+
+GRUUND01110000001010111010000101001101110 = O
+
+DESPARATLY0010010101000100001101010000001011000110100101011000100=E
+In each case the corrected letter is represent by the first 5 bits of the first 5 letters.
+
+It also has been argued that there is a problem with Desparatly. Since the there is a missing E, which this theory does not take into account, and the mis-spelling does not provide the bit change to recover the E( The first bit of DESPE spells E as well since the first bit of A and E is 0), as do the first two examples. I personally do not view these as critical issues since the Alphabet holds for all three words. It serves its purpose as to recover the correct alphabet or masking method
+
+Write K4 in the same manner, and recognize the bit pattern for the first letters of K4 match those indicated by e n d Y A h R. with the Raised letter (capitalized here) as 1 and others as 0:
+
+0 0 0 1 1 0 1
+e n d Y A h R 
+O B K R U O X
+0 0 0 1 1 0 1
+1 0 1 0 0 1 0
+1 0 0 0 1 1 1
+1 0 1 0 0 1 1
+0 1 0 1 0 0 1
+
+Given a random selection of letters, there is a 1/123 chance that the first 7 letters of K4 would form the same pattern as formed by the raised YA_R in the first seven letters of K3(message;5288,5280).  This confirms that the binary is the method used for K4 to operative.
+
+Additionally, breaking up a message to ones and zeros, mixing it up and reassembling to letters should mask any frequency distribution.  Someone who is more skilled in statistics may be able to contribute here.
+
+This indicates that K4 could use the zero indexed binary in some way in its solution and warrants further investigation.
+
+
+Possible Encryption techniques and work so far:
+Obviously there are a host of techniques that can use the binary alphabet in some way for the solution to K4.  This is how I have binned them, and the list is not inclusive. (I am not schooled in the correct nomenclature, please forgive me if I mis- label things)
+
+Direct encryption—The Binary is used to directly encrypt K4,various (fractional) transpositions
+Indirect encryption- K4 is an output and must be used with another text. (Baconian, XOR, Steg)
+Embedded text: Keywords or phrases are embedded in an earlier parts of the text(K1-K3)using. This would allow the use of a one-time pad. 
+
+Binary encryption technique limitations: If the binary alphabet is revisited an issue is quickly discovered:
+
+
+
+K4 uses only letters A-Z and does not use letters a-f.  This causes a problem, because for an encryption process to be robust, one needs to be able to use the method and any given key, on any message, and not have to cherry-pick only keys that will work with a certain message. Also, it poses a problem for the operative who needs to make a decision on the reverse process.  If there is multiple mapping on the encryption side, reversing it on the decryption side becomes geometrically more difficult with each successive choice.  For example:  Encrypt SLOWLY in binary:  In by rows out by columns:  
+	Since SLOWLY has 6 letters we need six columns and five rows
+
+
+Since lower case letters are not used, the result would be: F F J E A O.  However if you do the reverse to decrypt and it is unknown which A, B, C, D, E, and F’s are lowercase versus uppercase it will be hard for the intended recipient to decrypt,(S)he would have to work through 24 combinations in the above example, just for this six letter word. For a text of any length, this would quickly breakdown.
+		
+
+Work-around:
+
+There two possible ways identified to work around this issue(I’m sure there may be others):  
+
+Addition of a masking layer
+In this scenario, whatever binary manipulation method is used for encryption is simply written out in only 4 layers, bits 2-5 or 1 and 3-5. A masking layer is added as bit 1 (or 2) to prevent letters 1 1 X 1 X and higher from being formed. This also has the added benefit that it gives the encryptor some flexibility to create false patterns and manipulate frequency count. The down side is that the resulting encrypted message is roughly 20% longer.
+
+Example: If we take SLOWLY again, in by rows out by columns, but leave bit-line one empty and arbitrarily fill in with 1’s and 0’s:
+
+
+
+Eliminating Y and Z from the message and code, and prohibit transposition processes that can generate 1 1 X X X letters. (Similar to Playfair where I/J are combined to fit the 5x5 box.) The easiest way to do this is to make Y and Z common with another letter and “link” the first 2 bits.  The advantage of this process is that message length remains constant, however some granularity is lost because only 24 letters are used instead of 26.
+
+
+ 
+On the encryption side, once the text is encrypted, a fraction of a given letter, for instance I and J for Y and Z can be substituted back to yield a cipher text with all 26 letters.
+
+K4 analysis:
+If we assume that K4 uses some form of binary manipulation, then there are some frequency analysis techniques that can be used specifically on the Binary alphabet.
+
+1) Bit Frequency of English and that of the uniform alphabet are given below.  (A truly masked message would have the distribution of the uniform alphabet with no repeating pattern.)
+
+
+
+
+
+
+
+
+K4 has an overall frequency of:
+
+
+
+The overall bit average of .433 which is close to the Uniform.  To see if this falls in the normal distribution for English (at least Sanborn English) I created a data set from K1-K3 on a 100 bit rolling Average.  
+
+
+
+Other important relationships among the individual bits may also be available for exploitation.
+
+Techniques tried(Further documentation to follow):
+
+Transpositions: K4 Bit frequency is a bit high for a simple transposition, (including masking layer and Bit 1&2 linked methods).
+
+Substitution + Transposition and Transposition + Substitution:  Seem very possible, Currently working on these.
+
+Stegonagraphy: K4 has 210 1’s.  If used as markers against another text of binary 42 letters of 5 bits can be formed.
+
+X/OR: Tried against various K1-K3 texts.
+
+Embedded Keyword: Pulled text from Layer 1 (bit 1) and Layer 2 (bit 2) from K1, K2 and K3 to use as a key string for K4.  K3 Layertwo may have potential.
+
+
+
+
+
+
+
+
+
+
+
+Kryptos 5 Bit Binary Theory revised 3 21 07  Jason DeSeve
+
+
+ PAGE 6 of  NUMPAGES 6
+
+
+

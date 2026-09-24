@@ -1,0 +1,1353 @@
+[[page 1]]
+Throwing bits at K4:
+Evidence for a Three-Zone Split with Tableau-Keyed
+XOR Core
+DRAFT
+D. Umanovskis∗
+June 2026 — draft
+Abstract
+This paper presents a theory that K4, the unsolved 97-letter passage of Kryptos, is split
+into three zones, enciphered with different, most likely two, methods. A 61-letter core body
+(positions 25–85) is enciphered by a five-bit XOR against the sculpture’s own engraved
+Vigen`ere tableau, read from the start of row M and aligned so that the row’s first letter
+falls immediately after the opening four-letter group OBKR, whose first two letters. The head
+(positions 0–24) and tail (86–96) flanks are enciphered by a substitution method, with no
+XOR or use of the tableau. We present the statistical evidence for these conclusions and
+show an example of how the known BERLINCLOCK crib would have been encrypted. The
+paper makes no claim of recovering additional plaintext of K4 beyond what is publicly
+known.
+1
+Introduction
+K4 is the 97-character ciphertext
+OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+with two artist-disclosed plaintext fragments (cribs): EASTNORTHEAST at positions 21–33 and
+BERLINCLOCK at 63–73 (0-based throughout). The K4 ciphertext has resisted all known decryp-
+tion attempts, no plaintext has been decrypted and no method of K4’s encryption has been
+conclusively shown.
+In this paper we perform computer-assisted searches and statistical analysis to show that K4
+has a distinct 61-character body and flanks, with the longer body segment showing interaction
+well beyond chance with the KRYPTOS-keyed Viegn`ere tableau engraved on the right hand half
+of the sculpture. The K4 architecture this paper proposes is summarised as:
+The architecture this paper defends is shown in Figure 1 and summarised as:
+1. Three zones. A head (0–24), a body (25–85), and a tail (86–96). The plaintext runs
+continuously across the seams — EAST ends the head and NORTHEAST opens the body —
+but the cipher changes at the boundary.
+∗Contact at daniels@umanovskis.se
+1
+
+[[page 2]]
+2. The body is XOR-encrypted against the sculpture. Each body plaintext letter is
+first put through an unidentified substitution stage (the “mask”) and then combined, as
+a five-bit number, with the corresponding letter of the engraved Vigen`ere tableau, read
+linearly as carved from the first letter of row M’s content.
+3. The opening letters select the key. The first two letters of K4 are OB and they
+hint at row M as O ⊕B = ‘M’ The sculpture’s DYAHR raised-letter anomaly is a second,
+independent hint encoding M. The running key’s alignment is anchored at the end of the
+four-letter field — position 4 faces row M’s first letter, position 5 its second, and so on
+— though the XOR engages only inside the body. OBKR itself is enciphered by the head’s
+substitution. Only O and B carry information.
+4. The flanks are a substitution. The flanks - head and tail - are enciphered using a
+different method that does not involve the tableau or XOR operations. Both flanks are
+likely using the same method.
+head 0--24
+body 25--85 (61 chars)
+tail 86--96
+substitution
+substitution + five-bit XOR against tableau
+substitution
+Figure 1: The architecture.
+This paper does not provide a full decryption or any new plaintext.
+We make some brief
+arguments about decryption possibilities but they are of low confidence. In fact, if the paper’s
+overall architecture of K4 is correct, that is an argument against the plaintext being recoverable,
+as we will show.
+AI Disclaimer: The analysis was performed, and this paper written, by the author who
+identifies as human. An LLM (Claude Opus) was used to assist with LATEX formatting of tables
+and TikZ diagrams in this paper, as well as implement the ABC analysis in 6.1.
+2
+Methodology
+Table 1 defines the terms we use in this paper.
+Of particular importance to our method was the shuffle null, informally answering the ques-
+tion “would this finding be impressive if the ciphertext were meaningless?”. The search space for
+algorithmic approaches is large enough that algorithms will inevitably produce tempting looking
+partial matches. Examples the authors have seen include MSGFORCIA and BERLINCLOCKSPOOKSHAD.
+The infamous “K4 syndrome” is a tendency for an attempted solver of K4 to develop increas-
+ingly convoluted methods that go against the evidence and certainly seeing seemingly legible
+decryptions is a risk for going down that path. As such, we used shuffle nulls to protect our-
+selves during all algorithmic runs. We take the K4 ciphertext, scramble its letters into a random
+order, destroying any positional structure, and run the analysis on the scrambled copy. Doing
+this with a large number of scrambled texts lets us properly judge the significance of search
+results obtained when run against the real K4.
+We index ciphertext positions as 0-based, 0–96. Panel positions index the 867-character
+engraved tableau.
+2.1
+Axioms
+We treat every concrete clue provided by Jim Sanborn, the artist, as definitive. The cribs
+are assumed to be placed where Sanborn stated, and to be spelled correctly. The plaintext
+2
+
+[[page 3]]
+Table 1: Terms used in this paper.
+Term
+Meaning
+IoC
+Index of coincidence:. Random uniform text ≈0.0385; English ≈0.0667.
+A5 encoding
+Letters as five-bit numbers by alphabet position: A = 1, B = 2, . . . , Z =
+26.
+XOR (⊕)
+Bitwise exclusive-or of two five-bit values.
+passthrough
+The convention for XOR results outside 1..26 (six of the 32 five-bit values
+have no letter): the input letter is emitted unchanged.
+stream / intermediate
+The result of undoing the XOR. This would have been the output of the
+substitution step, before applying the XOR, if our K4 architecture is cor-
+rect.
+mask
+That substitution stage: the unknown plain→stream letter map.
+indicator
+Part of an encrypted message that configures the system, providing infor-
+mation about the key.
+shuffle null
+The control described above: the analysis re-run on letter-scrambled ci-
+phertext. We derive p-values from these controls, e.g. “p = 0.002” means
+2 in 1000 scrambles did as well.
+z-score
+The standard score - how many deviations a value sits above the null’s
+mean.
+total-variation
+dis-
+tance
+A 0-to-1 measure of how different two letter distributions are (half the
+summed absolute frequency differences).
+keyed alphabet
+An alphabet reordered by a keyword (KRYPTOSABCDE...). This alphabet,
+engraved with repeated shifts, is the tableau found on the sculpture..
+is assumed to be exactly 97 characters long. These were implemented as hard constraints in
+every algorithmic search we ran.
+In accordance with Sanborn’s statements, we rule out any method that requires knowledge
+of the K1-K3 plaintext. As such we don’t consider using the coordinates from K2 or any other
+part of the first three messages.
+We also preemptively rule out any methods that are based on the particulars of the World
+Clock in Berlin. The first crib release happened twenty years after the sculpture was completed,
+it stands to reason that the message was intended to be decrypted without knowing it refers
+to the clock.
+We similarly rule out any method requiring external information, such as book ciphers, or
+access to the actual sculpture. Our work assumes that an accurate transcript of the sculpture
+is enough to solve K4.
+2.2
+Initial assumptions
+Our investigation was, before arriving at the results, guided by a number of clues and assump-
+tions. These all appear reasonable to us but cannot be proven definitvely. We list the clues
+and our assumptions below.
+• Ed Scheidt asked “How do you deliver a message in such a way that it conveys not only
+the encrypted data, but also the key?”. Jim Sanborn has stated “I used a bit of stego
+[steganography] when designing the fourth part of Kryptos.”.
+• The sculpture has a much-discussed irregularity in the engraving of the K3 ciphertext.
+A five-letter block DYAHR appears visually distinct, with the letters Y, A, R in it ele-
+vated above the baseline. We assume this is significant and a strong candidate for a
+steganographic hint in the sculpture.
+• Sanborn has multiple time referenced that he was taught “modern” encryption systems.
+We consider it likely he would have been taught at least the basics of digital encryption,
+3
+
+[[page 4]]
+such as the principles behind DES. As bitwise XOR is a fundamental operation in many
+digital encryption systems, and is easily doable (and teachable) on paper, we consider it
+near certain that Sanborn was familiar with XOR.
+Overall, our starting hypothesis was that, while K1-K3 are purely classical ciphers, K4 is a
+classical/digital hybrid, with a classical layer and a digital layer. The digital layer is assumed to
+be a bitwise operation, and it is assumed that the sculpture itself provides some steganographic
+hint about K4.
+2.3
+H¨orenberg’s work
+Cryptanalyst Michael H¨orenberg has previously made observations in [1] that inform our digital
+approach to K4. H¨orenberg assumed that the DYAHR anomaly was to be interpreted as a five-bit
+pattern, an assumption we do not rely on a priori but that our work corroborates. H¨orenberg
+also used the tableau as a key stream source, which our work also does.
+Several assumptions put forward in [1] have been definitely shown to be incorrect, as they
+contradict later information about K4, but our method independently arrives at the same
+running key as this earlier work.
+3
+Hiding in plain sight
+3.1
+The tableau as a key stream
+If XOR encryption was used for a 97-letter text, a key of at least that length is needed.
+Examining the sculpture provides a candidate for the source of a key stream - the tableau
+panel. The sculpture’s second panel carries a Vigen`ere tableau keyed by KRYPTOS. Figure 2
+reproduces the whole side as engraved. Read top left to bottom right, it is a single linear
+stream of letters: a 30-character header row (ABCD...XYZABCD), then 26 lettered rows of 31
+characters each (row-label plus 30 content characters), and the header row is repeated again at
+the bottom. An unexplained quirk is that the N row has an extra character, a second L, being
+32 characters long. In total,
+30 + 26 × 31 + 1 + 30 = 867 letters.
+A K4 candidate key is a 97-letter run of this stream, so candidates are determined by their
+starting position d on the panel. Disregarding the possibility of wrapped keys, the key readout
+has to fit inside the stream so d can be 0 through 867 −97 = 770, giving 771 candidate keys.
+Alternatively, the key could be taken from the ciphertext panel as well, so a 97-long stretch
+of ciphertext preceding K4. This did not seem intuitive to us but we did run the ciphertext-
+as-key scan as control as well, as will be shown later.
+3.2
+The key search
+Under this hypothesis, the first experiment is to evaluate each of the 771 possible tableau keys.
+For every offset d, take the 97-long key running from d to d + 97, XOR the K4 ciphertext with
+that key and measure the IoC to see if a non-random structure appears.
+To perform the XOR, there are two questions that must be answered first.
+1. What numerical values to assign to letters?
+2. What rule to use for positions where the result of XOR is not a letter?
+For numerical representation of letters, we tried several intuitive encodings.
+4
+
+[[page 5]]
+ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+0
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP
+30
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT
+61
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO
+92
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS
+123
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA
+154
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB
+185
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC
+216
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD
+247
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE
+278
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF
+309
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG
+340
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH
+371
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI
+402
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+433
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+465
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM
+496
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN
+527
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ
+558
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU
+589
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV
+620
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW
+651
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX
+682
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ
+713
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK
+744
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR
+775
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY
+806
+ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+837
+Figure 2: The tableau side of the sculpture: a header row, then 26 keyed rows whose first letter
+is the row label, then the header repeated. Row M, which will be of particular importance, is
+highlighted. Note the extra L at the end of the N-labeled row. The numbers on the right hand
+side show the panel index of the first letter in that row.
+• A=1, B=2, ..., Z=26. Every letter fits within five bits. We call this encoding A5.
+• Reversed A5, with Z=1 and A=26.
+• A=0, B=1, ... ,Z=25. We call this A0.
+• KRYPTOS-alphabet indexed, K=1, R=2, ... , S = 7, A = 8, Z = 26.
+• Baudot / ITA2 encoding. Included for historical interest and completeness despite being
+a legacy system by the time Kryptos was designed.
+After applying the XOR to cipher and key, Ci ⊕Ki, if the result r was outside the range
+that letters are represented by, we tried several rules.
+• Passthrough. Output the ciphertext letter Ci, unmodified.
+• Output the keystream letter Ki.
+• Modulo 26, so 27 becomes A, 28 becomes B, etc. 0 →Z.
+• Truncate to the four lowest bits. Values 27 — 31 become K, L, M, N, O. 0 →Z.
+• Reflect the result, so 52 −r. 27 is same as 25 (Y), 28 is as 24 (X). 0 →Z.
+Some of those choices like the inclusion of Baudot encoding or the “reflect” style rule
+appeared unlikely but the computational cost of these scans is effectively zero so we erred on
+the side of checking more.
+5
+
+[[page 6]]
+Algorithm 1: tableau offset scan, with its calibrated null
+OffsetScan(C):
+for d in 0 ..
+770:
+S ←XOR-decode(C, tableau[d :
+d+97])
+record IoC(S)
+return max over d, and the offset achieving it
+Calibration:
+repeat 1000 times:
+C′ ←random shuffle of C’s letters
+record OffsetScan(C′) # the null replays the WHOLE search
+p ←fraction of null runs ≥OffsetScan(C)
+Running the scan with each combination of encoding and out-of-range rule, we found that
+only the A5 encoding with the passthrough rule provided a significant result. Each encod-
+ing/rule combination was tested against 1000 randomly shuffled ciphertexts, the results are
+shown in Table 2. Raw IoC values are not comparable across runs as the mod 26 and trun-
+cation rules concentrate letters regardless of the underlying text.
+This is the rationale for
+calibrating each run separately.
+Table 2: The full encoding × out-of-range-rule grid. Each cell is the scan’s max-over-771-offsets
+IoC, with p from 1000 shuffled ciphertexts.
+Encoding
+Passthrough
+Emit key
+Mod 26
+Truncate
+Reflect
+A5
+0.0573 (p=.003)
+0.0503 (.21)
+0.0638 (.44)
+0.0640 (.11)
+0.0595 (.52)
+A5 reversed
+0.0522 (.07)
+0.0507 (.14)
+0.0649 (.29)
+0.0580 (.61)
+0.0627 (.16)
+A0
+0.0509 (.19)
+0.0513 (.11)
+0.0586 (.85)
+0.0552 (.62)
+0.0550 (.75)
+KRYPTOS-indexed
+0.0492 (.33)
+0.0500 (.24)
+0.0593 (.52)
+0.0535 (.94)
+0.0623 (.10)
+ITA2
+0.0468 (.83)
+0.0488 (.44)
+0.0601 (.56)a
+0.0526 (.87)a
+0.0526 (.57)a
+a ITA2’s letter codes are not a contiguous range, so these three rules are not defined for it as written; we realise
+mod-26 by indexing the 26 letters in code order, and truncate/reflect with a fallback to passthrough when the
+result is still not a letter.
+The scan results indicate a clear signal for the A5/passthrough attempt.
+Under those
+rules, the Vigen`ere tableau has a notable interaction when XORed with K4. We also note
+that intuitively, A5 is the most natural seeming encoding (it’s just alphabetic indexing) and
+passthrough is arguably the simplest rule, so a signal in this scan intuitively feels more promising
+than, for example, the somewhat convoluted ITA2/Reflect would feel.
+3.3
+Key alignment
+The first experiment, summarised in Table 2, showed an interesting pattern exists somewhere
+among the 771 possible key readings. Next we look at what panel offsets produced significant
+results in our A5/passthrough scan. This is shown in Table 3.
+The best offset is d = 399 and to interpret the results, we recall that the engraved tableau’s
+stream is almost 30-periodic, as each row’s content is the previous row’s conent rotated by one
+letter. This means that other top-scaring candidates, offset from 399 by a multiple of 399, are
+“echoes” that reuse a very similar but degraded key.
+The top-scoring candidate not related to d = 399 is the tenth-ranked d = 439 and its 0.0481
+IoC is just below the null shuffled median of 0.0485. The leading d = 399 alignment is also a
+prominent peak, the gap between it and the second spot is bigger than the gap between #2
+and #10. The d = 399 candidate is clearly uniquely interesting.
+Examining the key alignment that d = 399 produces, we make a few observations that are
+more of an intuitive nature. The first letter of row M’s content (panel position 403, the under-
+6
+
+[[page 7]]
+Table 3: The ten best offsets under A5/passthrough.
+#
+d
+IoC
+∆from 399
+Reading
+1
+399
+0.0573
+—
+best key alignment
+2
+579
+0.0522
++180 = 6×30
+row-shift echo
+3
+519
+0.0518
++120 = 4×30
+row-shift echo
+4
+549
+0.0518
++150 = 5×30
+row-shift echo
+5
+489
+0.0503
++90 = 3×30
+row-shift echo
+6
+609
+0.0492
++210 = 7×30
+row-shift echo
+7
+368
+0.0490
+−31
+one whole row up (label included)
+8
+429
+0.0490
++30
+row-shift echo
+9
+398
+0.0490
+−1
+off-by-one neighbour
+10
+439
+0.0481
++40
+unrelated; below the null median
+row L: . ...........................FGH
+row M: M FGHIJLMNQUVWXZKRYPTOS ABCDEFGHI
+row N:
+N GHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+row O:
+O HIJLMNQUVWXZKRYPTOS ABCDEFGHIJL
+Figure 3: The XOR key from the tableau (rows L–O of the panel). The underlined F is panel
+position 399, identified by the scan. content: the key’s origin, aligned to message position 4 —
+the first letter after OBKR. The shaded run is the 61 panel characters the body actually consumes
+(panel 424–484, keying positions 25–85): it crosses two row boundaries, includes the row-label
+letters N and O, and includes row N’s extra 32nd character (the underlined L), which keys a
+letter of BERLIN (Section 3.5) — and ends exactly at the S completing KRYPTOS (Section 6.1).
+lined F of Figure 3) is at K4 ciphertext position 4, right after OBKR. This may be coincidental
+or it may be a point in support of OBKR being an indicator group. We believe that only the first
+two letters OB are an indicator pointing to M, as discussed in Section 5 but this observation
+nonetheless felt worth noting.
+3.4
+K1-K3 as a placebo
+Our control was, as mentioned, synthetic texts obtained by randomly shuffling the letters of
+K4. This control may miss artefacts present in real ciphers so as an additional control, we ran
+the same key scan on 97-character blocks of K2 and K3, as well as the entire K1. We also
+ran the algorithm against K1-K3 plaintexts as a sample of real English. None of these runs
+produced anything of statistical significance, leaving us with a result that doesn’t replicate
+outside of K4.
+3.5
+The BERLINCLOCK example
+We show a brief example, running the proposed mechanism position by position on the BERLINCLOCK
+crib (positions 63–73, ciphertext NYPVTTMZFPK). At each position the ciphertext letter is XORed
+with its key letter from the engraved stream, the result is a stream letter, which the body’s
+masking stage links to the plaintext. One position in binary, then all eleven in Table 4:
+N
+|{z}
+01110
+⊕
+I
+|{z}
+01001 (panel 462)
+= 00111 =
+G
+|{z}
+stream
+←→
+B
+|{z}
+plain (crib)
+The full de-XORed body stream, with the two crib spans marked, is
+PSSVKALSZ ASWTQSGQBFSKBZWSMZKCFEKBSLHAJ GSPYTTGVKPZ BQSSZSFSSPFT
+7
+
+[[page 8]]
+Table 4: The BERLINCLOCK positions under the architecture. The key letters come from panel
+positions 462–472 (IJLOHIJLMNQ; see Figure 3): they include row N’s extra engraved L (panel
+464) and the row-label letter O (panel 465). † marks passthrough positions, where C ⊕K falls
+outside 1–26 and the ciphertext letter passes through unchanged.
+Pos
+Cipher
+Panel pos
+Key
+C ⊕K
+Stream
+Plain
+63
+N (14)
+462
+I (9)
+7
+G
+B
+64
+Y (25)
+463
+J (10)
+19
+S
+E
+65
+P (16)
+464
+L (12)
+28
+P†
+R
+66
+V (22)
+465
+O (15)
+25
+Y
+L
+67
+T (20)
+466
+H (8)
+28
+T†
+I
+68
+T (20)
+467
+I (9)
+29
+T†
+N
+69
+M (13)
+468
+J (10)
+7
+G
+C
+70
+Z (26)
+469
+L (12)
+22
+V
+L
+71
+F (6)
+470
+M (13)
+11
+K
+O
+72
+P (16)
+471
+N (14)
+30
+P†
+C
+73
+K (11)
+472
+Q (17)
+26
+Z
+K
+4
+Body and flanks
+4.1
+The localisation scan
+After making the observations detailed in the previous section, the authors spent some effort
+to extract additional plaintext or structural information from K4 but were unable to make any
+progress worth reporting.
+Progress resumed after thinking through the IoC of 0.0573 that the message has after
+applying the d = 399 XOR key. This statistically significant IoC is well above random but
+also well below English and the intermediate stream, after reverting XOR, resisted the authors’
+attempts.
+Then we hypothesised that the XOR key may fit only part of K4, with the rest of the
+message using no XOR. The IoC of 0.0573 would then likely be a lower-than-actual value,
+diluted by the part where the XOR should not be applied.
+To test this, we generalised the scan (Algorithm box 2): over every combination of offset
+d and contiguous window [a, a + ℓ) with ℓ≥20, score the window’s IoC as a z-value against
+shuffle bands matched to that window length. This is 771 × 3081 = 2,375,451 geometries.
+Algorithm 2: offset-and-window localisation scan
+LocalScan(C):
+for d in 0 ..
+770:
+S ←XOR-decode(C, tableau[d :
+d+97])
+for every window [a, a+ℓ), ℓ≥20:
+z ←(IoC(S[a:a+ℓ]) −null mean) / null sd
+# per-length bands
+return max z and its (d, window)
+Calibration:
+repeat 1000 times:
+C′ ←random shuffle of C’s letters
+record max z of LocalScan(C′) # same 2,375,451 geometries
+null max-z ←those 1000 maxima; p ←fraction ≥real
+The z-score we use is the IoC of a particular window, standardised against noise of the
+same length.
+z = IoCwindow −µℓ
+σℓ
+,
+8
+
+[[page 9]]
+where µℓand σℓare the mean and standard deviation of IoC over windows of the same length
+ℓcut from randomly shuffled K4s passed through the same A5/passthrough decode at random
+tableau offsets. The controls are thus noise with K4’s letter distribution and no positional
+information.
+For each of 1000 shuffled ciphertexts, only the single best z found across all 2,375,451 of its
+geometries is kept: that “null max-z” distribution (median 7.2, maximum 14.6) shows noise
+routinely manufactures z ≈7 when allowed this much search space.
+The LocalScan run once again found the same d = 399 key offset as the best geometry,
+and the top-scoring windows (z ≥9.5) all start at positions 25–26. For every window length
+ℓof 44 or more, the best window of that length anywhere in the search has d = 399 and
+overlaps the canonical body [25, 86) this paper proposes. The window boundaries are soft,
+as one wrong letter barely moves a window’s score, but the rate of loss is itself informative:
+extending a window costs about 0.07σ per added letter inside the body, and 0.31σ for the first
+letter beyond the body at either end — position 24 on the left, position 86 on the right.
+Section 6.1 discussses the boundaries in more detail, nothing in this section depends on the
+exact choice. But we will note now that our pick of boundary at 25 is motivated by it being a
+known word boundary - EAST is at positions 21–24 in K4 and position 25 is a natural break,
+even if EASTNORTHEAST is a compound bearing.
+Table 5: Localisation scan across all geometries. Two calibrations are given: agnostic prices
+the search as a blind expedition (every shuffle gets the identical full geometry search, keeping
+single best z), the harshest possible accounting; sequential replays the two-stage procedure
+actually used (each shuffle gets the offset scan of Algorithm 1 first, then the window search at
+its own winning offset).
+Quantity
+Value
+Notes
+best geometry
+d = 399, [26, 93), z = 9.8
+re-finds the Algorithm-1 alignment
+per-length winners
+every ℓ≥44 at d = 399, over the body
+shorter ℓ: noise-level only (z ≤7.1)
+body window
+[25, 86): IoC 0.0803, z = 9.4
+adopted here; edges argued in §6.1
+agnostic null
+max-z median 7.2, 90th 9.0, max 14.6
+noise, given the same search
+verdict
+p(global) = 0.044; p(body) = 0.072
+worst case, if conducted as a blind search
+sequential null
+max-z median 5.0, max 12.0
+both stages replayed per shuffle
+verdict
+p = 0.007
+the procedure as actually run
+The two calibrations answer different objections. The agnostic figure prices the localisation
+as if the search had been run blind, with no OffsetScan before it.
+This is the harshest
+accounting, and such a blind search never happened.
+The sequential figure tests the composite statistic of the procedure as actually run. Under
+the null hypothesis, a shuffle’s best whole-stream offset d and its best XOR window have no
+reason to coincide, so confining the window search to its own first-stage winner drops the
+median z-score of shuffles from 7.2 to 5.0. For the real K4, if the key engages at a particular
+alignment, the whole-stream winner and the window host are the same place by design. Note
+that the sequential p and Algorithm 1’s p are computed on the same data with correlated
+statistics: each stands alone, and they must not be multiplied.
+The canonical body window [25, 86) scores IoC 0.0803, comfortably above English. This
+suggests the de-XORed interior is output of a substitution with merged letters — the mask of
+Section 7.1. For this section’s purposes it just means the XOR layer is real and sits on top of
+something else.
+4.2
+Flank statistics
+Applying the tableau key to the body segment produced a high IoC, but the XOR key has
+the opposite effect on the flanks. Table 6 shows that both flanks have an IoC below that of
+9
+
+[[page 10]]
+uniformly random text if the XOR is applied to them. This suggests to us that the body and
+tail zones, which we call the flanks collectively, are enciphered differently.
+We briefly considered the possibility that another tableau key is to be used for the flanks,
+so we ran the tableau key scan over all offsets again, measuring the IoC of only the flanks. No
+tableau offset produces a statistically significant improvement in the flank IoCs.
+Table 6: The three zones when the d = 399 key is applied to the entire C4. Reference: random
+text IoC ≈0.0385, English ≈0.0667.
+Zone
+Positions
+Len
+IoC under the XOR
+Head
+0–24
+25
+0.0300
+Body
+25–85
+61
+0.0803
+Tail
+86–96
+11
+0.0364
+This emerging body-flank split makes it interesting to compare the raw ciphertext of the
+zones. For the body and the flank parts, we take its letter-frequency distribution and measure
+their dissimilarity by the total-variation distance. For each zone, let pc and qc be the proportion
+of letter c in the flank and in the body respectively (so P
+c pc = P
+c qc = 1). Their total-
+variation distance is
+TV = 1
+2
+Z
+X
+c=A
+|pc −qc|.
+The result is TV = 0.594.
+As a control, we do 5000 random partitions of the K4 ciphertext into a 61 letter and a 36
+letter block, calculating the total variance of such random splits. The median value for random
+partitions is 0.42 and our calculated TV = 0.594 exceeds all but 0.3% of random partitions,
+giving evidence at p = 0.003 that body and flank chiphertext have a different underlying
+method.
+4.3
+Entropy measurements
+The index of coincidence is one member (the collision, α = 2 case) of the R´enyi family of en-
+tropies. Cross-validating the findings through other entropy calculations is not an independent
+validation but it does confirm that the statistical anomaly with the identified key is not an
+artifact of the α = 2 parameter in IoC.
+An independent verification that this spike is not reproducible from the letter multiset or
+similar ciphertext alone is the verification against random K4 shuffles and the application of
+K1-K3 placebos in 3.4.
+Table 7: The d = 399 key anomaly across other entropy measurements. Calculated for the
+de-XORed body stream, All four place offset 399 first of 771. Entropies in bits.
+Statistic
+d=399
+English (reference)
+Offsets (mean ± sd)
+Rank
+Index of coincidence
+0.0803
+0.0655
+0.040 ± 0.005
+1/771
+R´enyi-2 entropy
+3.39
+3.93
+4.16 ± 0.13
+1/771
+Shannon entropy
+3.82
+4.18
+4.33 ± 0.11
+1/771
+Min-entropy
+2.12
+2.98
+3.36 ± 0.23
+1/771
+4.4
+K4 zones with the key
+Figure 4 lays the whole arrangement out, position by position. The key stream read from the
+tableau at d = 399 runs alongside the entire message, with the XOR operation only applied in
+10
+
+[[page 11]]
+the body (yellow) zone.
+The stream shown is the intermediate after reversing the XOR operation where it applies.
+Letters in a lighter shade are positions where the passthrough rule was used, making the
+ciphertext letter the same as the stream’s.
+A few interesting positions in the key are underlined. The header of row M at position 4,
+the headers of rows N and O where they are included in the key stream and used in the body
+segment.
+The boxed L is the extra 32nd character in the tableau’s N row.
+0
+5
+10
+15
+20
+ciphertext
+key
+stream
+plain
+O
+B
+K
+R
+U
+F
+G
+H
+M
+F
+O
+G
+X
+H
+O
+I
+G
+J
+H
+L
+U
+M
+L
+N
+B
+Q
+S
+U
+O
+V
+L
+W
+I
+X
+F
+Z
+B
+K
+B
+R
+W
+Y
+F
+P
+E
+L
+T
+A
+R
+O
+S
+V
+S
+T
+25
+30
+35
+40
+45
+ciphertext
+key
+stream
+plain
+Q
+A
+P
+N
+Q
+B
+S
+O
+P
+C
+S
+R
+R
+D
+V
+T
+N
+E
+K
+H
+G
+F
+A
+E
+K
+G
+L
+A
+S
+H
+S
+S
+S
+I
+Z
+T
+O
+N
+A
+T
+G
+S
+W
+H
+W
+T
+I
+T
+Q
+J
+Q
+S
+L
+S
+J
+M
+G
+Q
+N
+Q
+S
+Q
+B
+S
+U
+F
+E
+V
+S
+K
+W
+K
+Z
+X
+B
+Z
+Z
+Z
+W
+K
+W
+A
+R
+S
+50
+55
+60
+65
+70
+ciphertext
+key
+stream
+plain
+T
+Y
+M
+J
+P
+Z
+K
+T
+K
+L
+O
+C
+U
+S
+F
+D
+A
+E
+I
+B
+K
+A
+C
+B
+W
+D
+S
+I
+E
+L
+N
+F
+H
+F
+G
+A
+B
+H
+J
+N
+I
+G
+B
+Y
+J
+S
+E
+P
+L
+P
+R
+V
+O
+Y
+L
+T
+H
+T
+I
+T
+I
+T
+N
+M
+J
+G
+C
+Z
+L
+V
+L
+F
+M
+K
+O
+P
+N
+P
+C
+K
+Q
+Z
+K
+W
+U
+B
+75
+80
+85
+90
+95
+ciphertext
+key
+stream
+plain
+G
+V
+Q
+D
+W
+S
+K
+X
+S
+Z
+Z
+Z
+X
+K
+S
+T
+R
+F
+J
+Y
+S
+C
+P
+S
+D
+T
+P
+I
+O
+F
+G
+S
+T
+K
+A
+U
+B
+H
+C
+U
+D
+A
+E
+U
+F
+E
+G
+K
+H
+C
+I
+A
+J
+R
+L
+Figure 4: K4 against the tableau key. colours as in Figure 1 (blue: head; yellow: body; pink:
+tail).
+Visualizing the key like that also highlights properties that intuitively seem noteworthy and
+may point towards intentionality. The boundary where XOR begins applying is also a natural
+plaintext boundary, and the XOR ends with the key fragment spelling KRYPTOS.
+5
+Pointing at M
+The candidate key alignment starts its readout from panel position 399. Row M, the important
+one, starts its content at panel position 403 and the XOR begins to be applied starting with
+ABC... from row M, so position 424. Thus NORTHEAST is enciphered with ABCDEFGHI.
+There are two features of Kryptos that we consider as possible pointers to row M, and the
+decryption method.
+First is the interpretation of the three raised letters in DYAHR. If this is read as a five-bit
+sequence with the raised letters being 1, the result is 011012 in binary or 13, which is the letter
+M. This observation was made by H¨orenberg in [1], where it’s treated as pure five-bit ASCII.
+We note that a binary representation of letters in five-bit ASCII is equivalent to a decimal
+representation of alphabet-indexed letters. The DYAHR hint can thus be seen as saying both
+“use bitwise techniques” and “row M is significant”.
+The second hint may be the start of K4’s own ciphertext. The first two letters are OB, and
+11
+
+[[page 12]]
+performing an XOR on their values also points to M.
+O ⊕B = 15 ⊕2 = 13 = ‘M’
+We speculate that the letters OB are such an intentional hint.
+This would make OB an
+indicator, a common technique (used by Enigma among others) where part of the transmitted
+cipher, usually at the beginning, is information about the key.
+Making OB an indicator would be very challenging if the XOR applied to the entire K4
+ciphertext. If however the XOR only applies to the body zone, as we propose, it would be
+much easier to encrypt the flanks in a way that the first two letters are OB, indeed it would be
+trivial if the flanks use a substitution of some kind.
+6
+Narrowing the zones
+In earlier sections we located a tableau key and a body window to which it applies by search.
+In this section we look at some alternative hypotheses and we also examine how precisely we
+know the boundaries of the body and flank zones.
+If the first two letters OB are meant to be an indicator for the XOR key, there is an obviously
+simpler cipher design. Leave the indicator letters exactly as they are in the plaintext and then
+apply masking and XOR to the rest of the message. So the plaintext begins with OB (there are
+certainly many English words starting so) and the remaining 95 characters are all masked by
+the unknown procedure and then XORed with the key.
+We cannot definitively rule out such a construction method, but the statistics given in 4.2
+are against it. If K4 is indeed split into a body and flanks, we want to narrow down the exact
+boundaries.
+6.1
+Head–body boundary
+Our localisation scan cannot confidently indicate the zone boundaries. Moving a window by
+one position back, while keeping the length, will at worst exchange one correct position for
+noise, barely affecting the IoC. The per-length winners in Table 5 have a boundary at 25 or
+26. So the scan leaves us with a ±1 resolution.
+No per-length winner in the scans started at 24 or earlier. Given the choice between position
+25 or 26 as the body start, we pick 25 mainly due to a plaintext boundary, with some support
+from Bayesian modeling.
+Our global offset scan and the localisation scan operated on the K4 ciphertext and the
+sculpture’s tableau, without any knowledge of the cribs.
+The known plaintext EAST is at
+positions 21–24 and NORTHEAST starts at 25. If the encryption method changes at the boundary,
+it seems far more natural for the boundary to be at position 25, splitting EAST|NORTHEAST in
+a way that aligns with the English words of the plaintext.
+We also ran an ABC (Approximate Bayesian Computation) model generating 3 million
+synthetic K4s (using the known cribs, the remaining characters filled with English words) and
+applying a XOR key from a random panel offset to a random window. The windows were given
+start locations at positions 21 −33 and a length of 50 −70. We scored these synthetic K4s
+on sixteen dimensions, of which eight contain no IoC measurement (five top letter frequencies,
+XOR passthrough fraction, autocorrelation, flank-body TVD) and eight were different IoC
+computations 1.
+Comparing the synthetic K4s against the real one, the ABC posterior scored position 25
+as the most likely, in the full 16-dimension evaluation and the 8-dimension IoC-free evaluation.
+1Over whole stream; chunks at [0, 16), [16, 32), [32, 49), [49, 65), [65, 81), [81, 97); bigrams over whole
+stream
+12
+
+[[page 13]]
+The results in 8 show that positions 25 and 26 are favoured. While 25 scores marginally higher,
+its lead over 26 is not conclusive.
+Table 8: ABC posterior over the body-window start from 3,000,000 synthetic K4s, under the
+full 16-dimensional signature and the no-IoC 8-dimensional subset. Both peak at position 25.
+Prior: uniform over 21–33.
+Full (16-dim)
+No-IoC (8-dim)
+Window start
+n
+%
+n
+%
+21
+301
+2.9
+315
+3.6
+22
+510
+4.9
+470
+5.4
+23
+690
+6.6
+538
+6.2
+24
+810
+7.8
+661
+7.6
+25
+1154
+11.1
+871
+10.0
+26
+1087
+10.4
+867
+10.0
+27
+1075
+10.3
+842
+9.7
+28
+991
+9.5
+799
+9.2
+29
+915
+8.8
+786
+9.0
+30
+887
+8.5
+735
+8.4
+31
+766
+7.4
+716
+8.2
+32
+631
+6.1
+588
+6.8
+33
+601
+5.8
+520
+6.0
+accepted
+10,418
+8,708
+6.2
+Body–tail boundary
+The end of the window, the body–tail boundary, is a softer one. Statistically, the tail could
+begin at positions 83 – 86 with little to distinguish these picks. z, the window’s IoC standardised
+against length-matched shuffles, remains high and flat across the 83 – 86 range, with ∆z being
+at noise levels until the tail boundary is moved to position 87.
+Table 9: Body/tail boundary: localisation z versus the candidate tail-start position, the body
+window is [25, tail start). Bands carry ±0.06σ Monte Carlo noise.
+Tail start
+IoC
+z
+∆z
+83
+0.0835
+9.61
+—
+84
+0.0824
+9.53
+−0.09
+85
+0.0814
+9.48
+−0.05
+86
+0.0803
+9.37
+−0.10
+87
+0.0783
+8.97
+−0.40
+Our main argument for setting the tail start at 86 arises from looking at the XOR key
+readout.
+At positions 79 – 85, the key is KRYPTOS (from row O of the tableau).
+For an
+intentionally designed encryption scheme, it seems more natural to set the boundary after
+KRYPTOS.
+Under the body window [25, 86), the running XOR key for the body zone starts with ABC
+and ends with KRYPTOS, an attractive pattern that treat as the canonical boundary for our
+proposed architecture.
+13
+
+[[page 14]]
+7
+Decryption possibilities
+Under the proposed K4 architecture, we have three zones with different encryption methods.
+The individual flanks, head and tail, are short and we assume that both flanks use the same
+encryption method, which makes K4 a two-cipher message.
+In this section we examine what the three zone split and the XOR key tell us about the
+possibilities of retrieving plaintext. The authors have not given this question an exhaustive
+examination but the initial findings do not show any clear path towards decrypting K4 assuming
+the paper’s architecture.
+7.1
+Body’s stream cipher
+After undoing the XOR operation on the body, we get the intermediate stream, which is itself
+the result of an unknown masking cipher and contains two cribs.
+Unfortunately, the obtained stream does not offer many pointers. It has many S characters,
+indicating that the masking cipher merges letters, and the known cribs do not fit any simple
+substitution model. We see that four different plain text letters (E, O, R, S) become S in the
+stream, with other many-to-one mappings also existing.
+Cipher
+QQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIG
+Stream
+PSSVKALSZASWTQSGQBFSKBZWSMZKCFEKBSLHAJGSPYTTGVKPZBQSSZSFSSPFT
+Plain
+NORTHEAST.............................BERLINCLOCK............
+Figure 5: The body segment (K4 positions 25–85, 61 letters).
+The observed patterns do allow for two substitution methods at the masking layer that the
+authors identified.
+There could be two substitution tables, call them T0 and T1, applied in a period-7 pattern
+(T0, T1, T0, T0, T0, T1, T1). Each table maps one or two plaintext letters to a stream letter.
+Under this two-table reading, the plaintext appears unrecoverable. This is also just one fit
+among several, the cribs are also consistent with a longer period or more tables.
+The same observations could be explained by an occurrence counting system, where each
+plaintext letter has a list of (likely two) stream letters, with the first occurrence of the plaintext
+letter being substituted for the first letter on the list, etc. Under this scheme there is likewise
+insufficient information to recover the plaintext.
+Regardless of the exact scheme, the problem is evident in the NORTHEAST crib alone. The
+stream contains three letters S that map to different plaintext letters, which is a strong alphabet
+collapse. Such an encryption scheme is possible but it is likely not reversible without knowledge
+of the exact process.
+A particularly interesting segment is at the end of the body stream. We see SSZSFSSPFT
+ending the stream, a segment very heavy on the letter S and significantly contributing to the
+measured IoC. In the S-heavy body, 12 of 14 occurrences are from XOR, not passthrough, and
+the XOR of two uniformly-distributed letters favors small output values so we note this as an
+interesting pattern.
+We emphasise that this is not a definitive conclusion as more investigation of the stream as
+ciphertext can be conducted.
+7.2
+The flank cipher
+For our investigation of the flanks, we treated them both as a continuous span of ciphertext
+encrypted by one unknown method. The flanks contain one crib, EAST.
+The authors hit a dead end quite rapidly with the flanks. A monoalphabetic substitution
+cipher is possible but places difficult constraints on the plaintext (T may not appear outside
+14
+
+[[page 15]]
+of EAST, only one more appearance of E) and we were not able to obtain even speculatively
+meaningful tilings. A polyalphabetic substitution for the flanks is minimally constraining and
+admits almost any text.
+A Vigen´ere search similar to K1-K2 turned up nothing for the flanks, and a brute force
+search of ACA Gromark in the standard and KRYPTOS-keyed alphabets likewise produced
+no results. Some other classical ciphers are excluded due to the flank structure, like Playfair
+being impossible due to the BB digraph.
+8
+Conclusion
+We have proposed a three-zone structure for K4, where the middle zone is to be decrypted by
+XORing it with a running key from the tableau panel.
+The flanks, the head and tail zones, use a different mechanism.
+The architecture, if correct, would explain the meaning of the raised letters in DYAHR and
+the reason for the extra L in one of the tableau’s rows.
+At the present time, we do not see a clear path from the architecture to a plaintext recovery
+and that remains an avenue for future work.
+References
+[1] C. H¨orenberg, The Kryptos Sculpture: K4 analysis, web publication, https://kryptos.
+hoerenberg.com. Origin of the tableau-XOR model and the row-M alignment calibrated
+in this work.
+15

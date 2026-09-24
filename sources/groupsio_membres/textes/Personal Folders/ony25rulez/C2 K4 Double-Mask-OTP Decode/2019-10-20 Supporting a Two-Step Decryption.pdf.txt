@@ -1,0 +1,690 @@
+[[page 1]]
+Page 1 of 10 
+ 
+Supporting a Two-Step Decryption 
+October 20, 2019 – Finding Supporting Facts for the Single (Public) Key-
+Transposition-Substitution-Concealment Mask Decryption (identical to C2 K4 Double-
+Mask-OTP hypothesis 2019-07-15) 
+Decryption Approach from Moscow Billboard Problem (2019-10-18) 
+ 
+ 
+Establish the K4 Public Key with a matrix of 14 column x 7 rows (98 = 7 x 2 x 7) 
+? 
+O 
+B 
+K 
+R 
+U 
+O 
+X 
+O 
+G 
+H 
+U 
+L 
+B 
+S 
+O 
+L 
+I 
+F 
+B 
+B 
+W  F 
+L 
+R 
+V 
+Q 
+Q 
+P 
+R 
+N 
+G 
+K 
+S 
+S 
+O 
+T 
+W  T 
+Q 
+S 
+J 
+Q 
+S 
+S 
+E 
+K 
+Z 
+Z 
+W  A 
+T 
+J 
+K 
+L 
+U 
+D 
+I 
+A 
+W 
+I 
+N 
+F 
+B 
+N 
+Y 
+P 
+V 
+T 
+T 
+M  Z 
+F 
+P 
+K 
+W  G 
+D 
+K 
+Z 
+X 
+T 
+J 
+C 
+D 
+I 
+G 
+K 
+U 
+H 
+U 
+A 
+U 
+E 
+K 
+C 
+A 
+R 
+ 
+Transposition of Public Key to BERLINCLOCK crib for standard decode 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+M  U 
+Y 
+K 
+L 
+G 
+K 
+O 
+R 
+N 
+A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Apply XOR, Vernam, OTP, Vigenère Tabula Recta, or Running Key Decryption 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B 
+E 
+R 
+L 
+I 
+N 
+C 
+L 
+O 
+C 
+K 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1:1 Relationship is maintained as the ultimate plaintext 
+Encryption
+Phoenetic Masking of 
+Plaintext
+Standard Subsitution 
+Encryption +n
+(XOR, Vernam, OTP, 
+Vigenere Tabula Recta, 
+Running Key)
+Transposition of K4 Public 
+Key to produce K4
+(K4 CIPHERTEXT)
+Decryption
+Transposition of K4 
+ciphertext to produce 
+decryption key
+(K4 PUBLIC DECRYPT 
+KEY)
+Public Key substitution -n 
+Decryption applied to K4
+(XOR, Vernam, OTP, 
+Vigenere Tabula Recta, 
+Running Key)
+Human interpretation of 
+phoenetic masking
+
+[[page 2]]
+Page 2 of 10 
+ 
+Proposed Transposition Method 
+The transposition is a stream cipher done in the analog style of a Jefferson disk. 14 disks of 7 
+characters are ordered, and then rotated/spun around to produce the K4 public decryption key 
+used for the substitution decryption. 
+  
+Since conventional substitution should be used, BERLINCLOCK on positions 64-73 will require K4 
+to be manipulated to produce MUYKLGKORNA as a partial crib. The question mark will be skipped, 
+but was required for the original matrix. 
+Running the proposed Moscow Billboard through the wringer 
+The next goal is to see if the proposed approach can be supported through the accounts by various 
+members in the Yahoo! Kryptos Group. 
+2013 Richard SantaColoma notes 
+In light of the fact that Sanborn had, in November of 2010, given the clue that “letters 64-69 
+NYPVTT in part 4 encode the text BERLIN”, several questions were asked about this. One question 
+was, “Then you are saying that N=B, Y=E, etc.?”. Sanborn answered to the positive, while Ed seemed 
+less ready to acknowledge this. I do not know if this is because of a misunderstanding of the 
+question, or because of Ed’s reluctance to go that far, or because Ed himself was not entirely certain 
+if this was the final outcome. However, as Ed professes to not know the actual answer, although he 
+knows the cipher type used, he therefore should know whether or not there is an actual letter for 
+letter correspondence. So I came away from the answer thinking that either Sanborn did not exactly 
+know what was being asked, or that there is this letter for letter correspondence. I favor the latter 
+If the above is true, then a 1:1 relationship is possible, but Ed’s reluctance is more of a technicality whereby a transposition of 
+K4 (Public Key) is required to decode NYPVTT to BERLIN. From Jim’s standpoint, K4 can also be treated as a single 
+polyalphabetic substitution decryption with an encrypted transposed public key. 
+ 
+Ed Schiedt made the point that (paraphrasing as close as I can remember), “Panel four’s cipher was 
+designed so that English could not be used as an aid in deciphering”. Questions were asked about 
+this statement, among them, “Are you saying it is not in English?”, and Ed seemed reluctant to 
+answer directly… only repeating “…English could not be used as an aid”. So my take on that is that it 
+is either not in English, or the system employed would obviate any attempts at using character 
+counts to solve it. 
+The masking system is done at the plaintext level as a phonetic mask to deter brute forcing. 
+
+[[page 3]]
+Page 3 of 10 
+ 
+2019 Richard SantaColoma notes 
+German Guy’s Proposal: Elonka asked Jim if anyone who guessed through his proposal “system” 
+(the $50 a shot thing) had come close. At first, Jim said “no”. But then after a pause, he said 
+something to the effect of, “Well one guy worried me for a minute”, or maybe, “One got had me 
+scared”, or like that. Elonka asked him to elaborate, and he said that a German guy had given a 
+“solution” that seemed very close at first, but then, on (some sort of) further examination, turned 
+out to be wrong. So this begged the question… and Elonka and I asked in different ways… “what” 
+about the solution made him think it was wrong, then? The only thing I could think was that the 
+result was close to correct, but that the method used told Sanborn that the result was either a lucky 
+guess or happy error. So I asked, specifically, after a short back and forth, “If a person gave you an 
+answer which was 100% correct, would you care how the person arrived at it?” He answered, 
+firmly, “I don’t care how they do it”. 
+To properly decode K4 97 out of 97 characters, there is only ONE possible public key. Jim would be indifferent on the 
+transposition process of K4 to obtain the final public key. 
+Transposition information 
+“Matrices”: Jim was explaining, on at least two occasions, his passion for matrices. But he was also 
+discussing, using hand gestures, “rotating” them, and I think (?) “flipping” or “mirroring” them 
+(could be wrong on those last two). As a noobie to this, and not being a cipher expert, I mention it 
+because I am not sure that “rotating” the matrices was a part of the solved K1-K3. If not, then I 
+would say this is some sort of possible suggestion, because he was stating it in relation to these 
+panels, perhaps a further way to glean another layer of information from them? Yeah, not strong… 
+but again, mentioned “because”. 
+The transposition of K4 ciphertext to the produce the key is unconventional (non‐rule based). 
+Megellis – March 2019 Kryptos Lunch notes 
+Heard 2 things from Ed Scheidt. For one, he mentioned the idea of a prism as being useful.  As he did 
+not elaborate, I take it he was comparing a masking layer to a piece of glass which takes in a 
+mixture of light wavelengths and splits them into the different components of white light.  I can't 
+say I'd ever looked at it quite that way, but it doesn't tell me anything new about what a masking 
+layer does.  It's not an all-fours metraphor, as the prism differentiates the spectrum based on the 
+specific characteristics of the wavelength mix put into it; a masking layer, so far as I can understand 
+it, specifically ignores the values input, and "bends the colors", so to speak, into a variegated output 
+which has as little relation to the input as can be managed.  Anyway, I did understand that 
+statement to have been in relation to Kryptos-cracking. 
+Ed Scheidt offers another cryptic clue on a potential stream cipher for the transposition component of K4. This is not the first 
+time he has mentioned the prism metaphor – which may imply a stream of SEVEN rows (Red‐Orange‐Yellow‐Green‐Blue‐
+Indigo‐Violet) instead of SEVEN colours from white light. 
+2019 Elonka Dunin – Langley Visit Day 3 – March 2019 
+When asked whether it was necessary to know the solutions to 1-3 in order to solve 4, Jim said no. 
+The ciphertext & plaintext of K1, K2, and K3 are not required to decrypt K4. K4 can be used to decrypt itself – literally. 
+It's not necessary to have a particular book to solve K4, just "to be able to read". 
+Referring to the plaintext being phonetically masked – likely there’s a reflective or circular process of transforming K4, 
+applying it to K4 to be decrypted and then repeating the process until words or phrases appear.  
+
+[[page 4]]
+Page 4 of 10 
+ 
+We spent quite a bit of time asking Jim about the correlation between the plaintext BERLIN and the 
+ciphertext such as NYPVTT. Specifically, we were trying to find out if there was a 1:1 relationship 
+from NYPVTT to BERLIN, or there was some other step, the masking technique. Jim was confused 
+when we mentioned masking technique, evidently it's something that Ed said that Jim didn't 
+understand. Jim said that yes the ciphertext and plaintext were connected, but when I tried to 
+explain what exactly we were asking, like that in K1 EMUFPH is exactly BETWEE, but in K3 
+ENDYAH does not map exactly to SLOWLY, Jim backed off and said he would only commit to the fact 
+that K4 is exactly 97 characters long, and that BERLIN is plaintext that starts at exactly the 64th 
+character, but he wouldn't go further than that. 
+If K4 is decrypted by transposition (to produce public decrypt key) then substitution, Jim would prefer not to disclose the steps 
+to decoding K4. BERLIN starting exactly at the 64th position means that there is some form of substitution occurring from the 
+64th to 73rd position to produce BERLINCLOCK. The transposition portion is not exactly manipulating the ciphertext, but 
+assembling the public decryption key. 
+2015 Scheidt Workshop Transcript – Richard Bean 
+[3:55] I look at cryptography as building things ... there's other aspects, and maybe from your 
+perspective ... in the sense of ... if you had a cryptographic paradigm is there a way to break it or 
+understand it or what's the schema that's involved in that. 
+Classical ciphers are fundamentally substitutions and transpositions. 
+Q: I've got K1, 2 and 3 are one-stage encryption - is that also true for K4 [47:06]  
+aha - now yeah you're closer to that answer than [saying???] is at one stage [47:16] 
+no, I would consider it more than one stage [47:19]  
+The proposed decryption is a two‐stage process. 
+ 
+I've mentioned earlier and I have mentioned in public there's a masking technique that applied so 
+that the English language wouldn't be available [47:35] 
+Masking to be done at the plain text level in the event the approach is discovered. 
+[what is clue in plain sight / duress code] [53:45] [Jim] has said that something that was key is no 
+longer there. Jim questions ... [no clear answers]  
+[masking first then encryption? or the other way around] [no clear answer] 
+Masking is a destructive/irreversible step on the plaintext – it can ONLY be done on the plaintext. 
+Bill Briere Notes – Nov 3, 2013 
+8. Someone asked about the previously stated one‐to‐one correspondence of the plaintext to the 
+ciphertext, at least for positions 64‐69. Many accept this as settled; but I don’t think it is. It’s not that I’m 
+clinging to the need for it to NOT be that, but I think that some of the likely candidates would require it. 
+Jim again stated, pretty convincingly, that it was 1:1. I asked Ed ‐‐ some might say untactfully ‐‐ if he 
+would answer the same question. He hesitated and looked to Jim for guidance on what to say, then 
+didn’t say anything. I believe that Ed’s hesitation indicates that either it was NOT a 1:1 correlation, or 
+that the answer was not something that was black‐and‐white, or that he could not answer without 
+maybe taking a look at the piece. Again, Ed may not know exactly what was done, but he might be 
+skeptical of what Jim thinks he knows about 1:1. My take‐away is this: If Ed’s answer were going to be 
+the same as Jim’s, there wouldn’t have been any hesitation in answering. Also noted, a bit later (I think), 
+
+[[page 5]]
+Page 5 of 10 
+ 
+that Jim gave Ed (and maybe me, too) a dirty look, possibly for talking too much, and indicated that we 
+had gotten quite enough information already and that he (Jim) would be the only one to give out clues. 
+(Sorry, Jim. Love you, man.) 
+Ultimately K4 is decrypted from a standard polyalphabetic substitution, BUT the key must be constructed by changing the 
+character positioning of K4 to obtain the K4 public key. This technicality is what makes Ed hesitate because it could severely 
+mislead Kryptos codebreakers. 
+ 
+Thomas Fulmer – 2007 DC Visit 
+3. Question was asked if he considered substitution followed by transposition (or the reverse) 
+qualified as "masking" --Ed Laughed and gave no reply 
+Masking is done at the plaintext level, and if Ed answered, he would be giving away the decryption steps. 
+ 
+4. In a conversation with Elonka, Ed repeatedly spoke about the code being "Reflective" When 
+asked if he meant symmetric, he replied, "Reflective" 
+Reflective describes the circular process where K4 is transformed and applied to K4 (decryption) to produce a plaintext 
+result. Symmetric would imply that the K4 public key is the same for encryption and decryption. In terms of standard XOR, 
+Vernam, OTP, Vigenerie, or running key, the keys are asymmetric in nature. Encoding is generally a +n step, and decoding is a 
+‐n step. 
+Elonka Dunin – 2007 DC Visit (Dinner) 
+* K4 uses a system "unknown to anyone on the planet" 
+The unknown to anyone on the planet refers to an unorthodox transposition to produce the K4 public key. 
+* His job wasn't breaking codes, it was designing them 
+Code design deals with creating a cipher and addressing the key in terms of distribution and security. 
+* When I asked if the method for K4, once understood, could be re-used for other messages, he said, 
+"The concept could." 
+* He says all crypto boils down to substitution and transposition (I pointed out concealment) 
+Conceptually a self‐decoding cipher can be reused as long as the basic substitution/transposition ciphers are understood. 
+* He said the first parts of Kryptos were "simple" substitution, to show that it was in English. He 
+said he could have double-transposed part 1 and it "never would have been solved" 
+A double transposition will equate to a single transposition. The difficulty lies with the distribution of the key and/or 
+deciphering tableau for substitution. 
+* He was describing my analysis as "trying to find the method." With the implication that that's the 
+wrong way to go about it. 
+K4 does not use a specific known cipher (i.e. playfair, railfence, etc.) but has its own unique analog encryption. It is more 
+important to understand the approach first then go for the problem. In this case, it’s about dealing with the transposition of 
+K4 to produce the public key. The substitution component is largely dependent on the transposition anyways. 
+* Referred to "bias" as helping out the frequency counters. The masking technique is designed to 
+remove the bias 
+
+[[page 6]]
+Page 6 of 10 
+ 
+Frequency counting would give clues on the nature of the substitution/transposition – K4 is to be decoded by analog means 
+and not computer brute forcing. 
+2005 DC Trip - D1stancerunner20 
+We talked quite a bit about problems in high performance computing, to communications methods, 
+and short comings in current cryptographic systems. In this discussion a couple of interesting 
+things came up, they were not related to talking directly about Kryptos but they may have some 
+meaning. One thing that was mentioned several times was symmetry in nature and it's value in 
+cryptography. One thing he mentioned was how the Egyptians built the pyramids and they have 
+standed the test of time, because of their symmetry. The concept that nature tends to be 
+symmetrical was mentioned a couple of times.  
+ 
+K4 is an asymmetrical cipher in the sense that the K4 public decryption key is different from the encryption key. In this sense, 
+this is Ed Scheidt cryptically referring to public key cryptographic methods. 
+ 
+Another thing that I cued in on was when he mentioned light and it's use in cryptography. This was 
+not when talking about Kryptos either. However, he mentioned about the use of light in 
+cryptography. He mentioned a prism and how it breaks white light into it's individual components. 
+Then came the part that fascinating; when talking about electromagnetic signals (this part is 
+theoretical), he mentioned modifying either the H vector or the E vector, and being able to transfer 
+light information onto twisted-pair (copper wire). He said he presented this idea about 5 years ago 
+so it may not have any relation to Kryptos (although he may have been thinking about it for some 
+time). Interesting, Kryptos is copper and conveys information through light by us being able to see 
+it in the visible spectrum :) 
+Prism referring to a potential version of a stream cipher for the transposition component. A prism may refer to 7 streams 
+from the 7 colours. 
+2005 Elonka Dunin – 2005 DC Notes 
+Scheidt said that every letter in K4 will be used, "like the other sections" 
+Refers to the usage of all 97 characters. The question mark remains in limbo, but has been used for the hypothesized 
+decryption. 
+Scheidt said he has not done a reverse check of K4 himself, but he's confident that it was done 
+correctly. 
+Since it is a two step process, Ed can confirm at the K4 public key level (only one possible key) and not apply the decryption 
+steps to K4. 
+ 
+2013 Kryptos Dinner - Doug Price 
+3. Ed implied (in fact, I'd go as far as saying he "stated") that there is a masking step prior to the 
+encryption. K1/2/3 have English as the plaintext, where you can use language statistics to help 
+solve the cipher. "In K4, I took that advantage away from you". He implied/stated that he did 
+something with the plaintext prior to encrypting to change the language statistics; this is different 
+than just using a long key (running key, composite key, etc.) to encrypt the message -- if he did that 
+he would not have described his process the way he did. 
+
+[[page 7]]
+Page 7 of 10 
+ 
+This is the only time that Ed has stated the masking step is done PRIOR to encryption. That is, the masking step is done on the 
+PLAINTEXT. 
+2006 New York Times Interview – Ed Scheidt 
+He (Ed Scheidt) said a good code, even if it's complex, should be usable easily. 
+The proposed decryption is not complex and easily usable (conventional substitution using a K4 public key) 
+2015 Ed Scheidt Workshop – Elonka Dunin Notes 
+When asked about whether the masking technique was applied to the plaintext before encryption, 
+or after decryption, he "deferred". 
+Refer to 2013 Kryptos Dinner – Ed says masking step prior to encryption. 
+2013-05-30 https://kryptosfan.wordpress.com/2013/05/30/jim-sanborn-
+answers-kryptos-questions/ 
+Is the 4th part 97 or 98 letters? try both 
+98 characters are required for the transposition of K4 (step one to produce the public decryption key) 
+Who do you think is most likely to solve K4? a Vulcan 
+KRYPTOS must be deciphered in a logical manner using factual information. 
+Is the actual code/cipher breaking secondary to the actual process of understanding what Kryptos 
+really means? both are important 
+Without understanding of the cipher, the plaintext does not have as much meaning. 
+Any advice for people who “get so close” after a complicated multi-step decryption effort who are 
+convinced that they just need more steps or help to solve it? you get it all or nothing at all 
+The K4 Public Key must be transformed perfectly. 
+2013 ACA Convention: - Jim M’s notes 
+It was asked if N decodes to B, Y decodes to E, etc, etc. and Jim confirmed it does. Emphatically.  
+Jim Sanborn rattled through the entire crib: 
+N = B, 
+Y = E, 
+P = R, 
+V = L, 
+T = I, 
+T = N 
+When the same question was asked to Ed, Jim cut in and said “I’m the only one who knows.” 
+It was asked if N decodes to B or encodes to B, and Jim stated “decodes”.  
+
+[[page 8]]
+Page 8 of 10 
+ 
+It was asked if K4 was a “one-off”. Some discussion ensued about the definition of “one-off”, but Ed 
+looked to Jim and said “well Jim, how are we going to answer that one?”. To which Jim simply 
+replied “we don’t answer it”. 
+The most important information is that K4 is done by decryption. This is very important for standard substitution ciphers 
+(XOR, Vernam, OTP, Vigenère Tabula Recta, etc.) 
+Elonka jumped in to remind Ed that he once told her that Kryptos uses a system unknown to 
+anyone on the planet. Ed stated he didn’t recall that conversation, and back-pedaled out of saying 
+anything more. 
+The unknown part refers to the unique analog process for transposition. 
+1991 ABC Interview 
+How did you decide what message to encode? 
+Well that changed during the course of the project as well. And that developed largely from the 
+reading that I did about the Agency. And also while I was cutting out, physically cutting out the 
+copperplates, things in my own mind changed. I wanted to put something on there which would -- 
+Let's just say, that once the plate is deciphered, I'm not convinced the true meaning will be clear 
+even then. I've made a statement which is straightforward, but that leads to something else. There's 
+another deeper mystery. As you peel off a layer of an onion, the myst-- you get closer to the heart of 
+what it is. And so y'know I just wanted to make it even after it was deciphered, you had to go deeper 
+and decipher something else. It's in English, it's in plain English, it's in text, and you can read it, but 
+that isn't necessarily the whole story. 
+Implications of a potential K5. 
+2011 CBC Interview w/ Q Podcast: Jian Gomeshi for BERLIN clue – Jim Sanborn 
+54:31 Interviewer: Which I certainly don't know wh-what that means, other than one of my favorite 
+cities in the world, but...ah...Do you expect that we’ll see the code broken anytime soon?  
+54:39 JS: It’s wha- It 6 of 97 characters. The odds…the odds of getting the rest--I mean if you’re a 
+very good cryptographer, your odds are certainly improved. But the odds of-of-of filling in the lines 
+in text around it, you know, are-it’s still difficult and very challenging code, I must say. 
+And…um…That’s not to say won’t give another-, in another decade, when I am 75 [Interviewer 
+laughs] I might give another clue. And maybe when I am 85, I will give another clue. And all these 
+clues, perhaps, will add up to something that, you know, is-is infinitely crack-able. Um…I started 
+this piece the in 1988, and installed it in like 1990. And…um...During that period of time, the Berlin 
+Wall fell. 
+The infinite portion refers to the trial and error of the K4 public key to produce a plaintext. Since it appears the K4 public key 
+transformation algorithm is not disclosed, this may suggest the infinite possibilities. 
+55:29 Interviewer: Well, when this [Break] Well, the...Maybe you just gave us another clue!? 
+I’m..people [SB Laughs] ju..I hope that people are listening to this. That...Ah…um…That, in fact, 
+everything that you say is a clue, I-I am even convinced.  
+55:39 JS: Well, yes, there is-there is a serious, [Interviewer laughs] sort of, forensic..um..[SB laughs] 
+[Interviewer laughs] dissection … 
+
+[[page 9]]
+Page 9 of 10 
+ 
+Berlin itself is extremely important as the K4 decryption would require MUYKLG decryption of NYPVTT to produce BERLIN. 
+There is only one M and one Y in K4. 
+2003 Sanborn Trip – Elonka Dunin 
+- He commented how it was odd that "no one has recovered the original matrix". He kept using that 
+word "matrix" quite a bit, such as to say "matrix system". Evidently there's something important 
+about re-creating the exact system that he used for encrypting the messages, and he has never seen 
+anyone do that yet (and didn't see it anywhere on my slides). 
+Matrix may refer to the 14x7 K4 matrix that will be transposed to yield the K4 public decryption key. 
+- Similar to how Scheidt reacted, I saw Sanborn light up when I talked about how the extra "L" on 
+the tableau side now means that we have the same number of characters on both the cipher 
+alphabet and tableau sides. Neither Scheidt nor Sanborn *said* anything when I talked about that, 
+but I definitely noticed both of them reacting, like sitting up or forward a little more, nodding like 
+this was something that they knew and were glad that someone had noticed. 
+The extra L refers to the stenographic clue for K2 deciphering tableau. This outlines the tableau (top right portion) and the 
+bottom left is found by looking at the W in the tableau left side. 
+- When I asked about the misspellings and asked if they were accidental or deliberate, Sanborn said 
+that they were deliberate, but it was less important *what* they were. He said, and I quote: "it's 
+more the orientation of those letters that's useful there." Later on in the evening he repeated that 
+point, saying it was the "positioning" that was important. 
+Perhaps the errors may suggest a hidden algorithm such as PALIMP(C)EST being the 7th character on the key. 
+- Sanborn was adamant that Scheidt did *not* do the encryption. He said that Scheidt did teach him 
+various systems "going back to Caesar", and that Sanborn used "several" of them, but that the actual 
+encryption was done by Sanborn, by himself, during the time that he was driving the petrified tree 
+from the southwestern U.S. back to the DC area. Sanborn said that he and Scheidt had agreed to 
+keep it "compartmentalized" like that. Sanborn insisted that when it came to the encryption, he said 
+(referring to himself) that it was "entirely me." 
+The encryption steps are fairly straightforward: write out plaintext, phonetically mask the plaintext, encrypt +n and then 
+scatter (transform) the result. 
+- Sanborn said that no one else beta-tested the code -- not even Scheidt. When I commented that 
+first-time code creators often make errors that leave a code unsolvable, he said that he was certain 
+that he did it right. He said though he has never gone back to decrypt it, because that keeps it more 
+secure. 
+There is ultimately one combination on K4 public key that will yield 97 of 97 characters for the decrypt. 
+- Getting back to Kryptos, Sanborn commented that he was surprised that no one had tried 
+recovering the original matrix and running it through all possible "shifts". 
+- He said that "Kryptos wasn't cracked the reverse of the way that I did it." 
+Refers to a potential asymmetrical public key problem where the encryption steps will differ from the decryption steps. 
+
+[[page 10]]
+Page 10 of 10 
+ 
+ 
+2010 – NPR All Things Considered – Radio Interview w/ Jim Sanborn 
+JS: OK, well I mean really, it's 6 characters out of 97.  And I dangled the clue BERLIN, but I also 
+divulged or gave images of my original decoding charts, the ones that I... well actually for me they 
+were encoding charts.  And I think once the Kryptophiles study it in a forensic manner there might 
+be revelations in there.  So in a way I gave more than just BERLIN, I think I gave other information 
+as well. 
+BERLIN is a vital clue in the process due to the required conventional substitution of NYPVTT being decoded by MUYKLG. 
+There is only 1 M and 1 Y present on K4 and they are not on the 64th and 66th positions respectively. Some sort of 
+transposition IS required to construct the K4 public key. 
+2014 – New York Times Clue (CLOCK) 
+When asked whether his new clue was a reference to this Berlin clock, Mr. Sanborn, sounding 
+pleased, said, “There are several really interesting clocks in Berlin.” 
+He added, “You’d better delve into that particular clock,” a favorite of conspiracy theorists because 
+of the mysterious death in 1991 of its designer, Dieter Binninger. With all the intriguing 
+timekeepers in the city, including the “Clock of Flowing Time,” Mr. Sanborn said, “There’s a lot of 
+fodder there.” 
+The particular clock may refer to the BERLINCLOCK crib literally. To decrypt NYPVTTMZFPK, the characters MUYKLGKORNA 
+are required and can be constructed from the transformation of K4 into a public key. 
+Conclusion 
+The Moscow Billboard approach is identical to the C2 K4 Double Mask-OTP Hypothesis proposed 
+on July 15, 2019. Through review of information gathered by the Kryptos community over the 
+years, the approach can be substantiated.  

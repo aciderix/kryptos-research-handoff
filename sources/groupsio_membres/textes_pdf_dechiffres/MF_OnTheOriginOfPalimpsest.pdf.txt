@@ -1,0 +1,163 @@
+[[page 1]]
+Kryptos : On the Origins of Palimpsest : a theory on the acquisition of the K1 keyword 
+1 of 4 
+Kryptos : On the Origins of Palimpsest : a theory on the acquisition of the K1 keyword 
+This is an attempt to acquire the keyword PALIMPSEST from the Morse coded messages, 
+using the odd numbered vertices of palindromes (the letter centering the palindrome). 
+The Kryptos Morse code messages are found on two of the three strata outcroppings in front of the CIA entrance, 
+the north outcropping and the compass outcropping. 
+ 
+Note: The Morse code is read when facing South. 
+Here are a number of photographs (taken by Jim Gillogly) of the Morse code in question.  Larger renditions are available on the website. 
+ 
+ 
+ 
+ 
+ 
+
+[[page 2]]
+Kryptos : On the Origins of Palimpsest : a theory on the acquisition of the K1 keyword 
+2 of 4 
+A graphic look at the outcroppings near the front entrance, including Morse code, the compass and lodestone. 
+ 
+ 
+ 
+
+[[page 3]]
+Kryptos : On the Origins of Palimpsest : a theory on the acquisition of the K1 keyword 
+3 of 4 
+Continuing... 
+On the Origins of Palimpsest: a theory on the acquisition of the K1 keyword 
+This is an attempt to acquire the keyword PALIMPSEST from the Morse coded messages, 
+ using the odd numbered vertices of palindromes (the letter centering the palindrome). 
+Here are the Kryptos Morse code messages, found on the strata outcroppings in front of the CIA entrance, as read when facing South. 
+The 1's stand for the dits, the 0's for the dashes. 
+1 011 11 001 1 0 10 1011 1 1 1 11 01 0 1 101 1001 101 1 0 10 0 11 0 
+E DIGETAL EEE INTERPRETAT/IT/U/(ION) 
+0 11 111 0100 000 110 101 1001 000 111 11 0 11 000 01 1 
+T IS YOUR POSITION E 
+1 1 1110 11 101 0 110 10 1011 1011 0100 1 1 1 1 1 1 1 11 01 1110 11 111 11 0111 1011 1 
+EE VIRTUALLY E EEEEEE INVISIBLE 
+1 1 111 1111 10 011 000 100 1 1 1101 000 101 0101 1 111 1 1 1 1 1 
+EE SHADOW EE FORCES EEEEE 
+1011 110 0101 11 011 1 1 1 00 1 00 000 101 0100 1 
+LUCID EEE MEMORY E 
+101 0010 
+RQ 
+111000111 
+SOS    
+The end of the Morse INTERPRETAT/IT/U/(ION) has been cut such that, after the last T, there is only a double dit and a dash. 
+Clearly, the inference is that the word INTERPRETATION was the original Morse before the abscission (hint). 
+Thus, the double dit was the letter I, and the single dash was once accompanied by two similar dashes, to make up the letter O. 
+Regardless, all we now have is 11 0, which is most appropriately interpreted as the letter I plus a dash.  The dash is thus interpreted as a T. 
+..............................................................(...U) 
+E ..D .I ..G E T .A ...L E E E .I .N T E ..R ...P ..R E T .A T .I T(.O .N) 
+1 011 11 001 1 0 10 1011 1 1 1 11 01 0 1 101 1001 101 1 0 10 0 11 0(00 01)  
+ 
+E DIGETAL EEE INTERPRETAT/IT/U/(ION) 
+T .I ..S ...Y ..O ..U ..R ...P ..O ..S .I T..I ..O .N E 
+0 11 111 0100 000 110 101 1001 000 111 11 0 11 000 01 1 
+T IS YOUR POSITION E 
+E E ...V .I ..R T ..U .A ...L ...L ...Y E E E E E E E .I .N ...V .I ..S .I ...B ...L E 
+1 1 1110 11 101 0 110 10 1011 1011 0100 1 1 1 1 1 1 1 11 01 1110 11 111 11 0111 1011 1 
+EE VIRTUALLY E EEEEEE INVISIBLE 
+E E ..S ...H .A ..D ..O ..W E E ...F ..O ..R ...C E ..S E E E E E 
+1 1 111 1111 10 011 000 100 1 1 1101 000 101 0101 1 111 1 1 1 1 1 
+EE SHADOW EE FORCES EEEEE 
+...L ..U ...C .I ..D E E E .M E .M ..O ..R ...Y E 
+1011 110 0101 11 011 1 1 1 00 1 00 000 101 0100 1 
+LUCID EEE MEMORY E 
+..R ...Q 
+101 0010 
+RQ 
+..S .O .S . . . SOS is a special case in which the letter string SOS is used to 
+111000111 . . . represent a single character 'SOS'. The O here is thus, not the vertex. 
+SOS    
+ 
+
+[[page 4]]
+Kryptos : On the Origins of Palimpsest : a theory on the acquisition of the K1 keyword 
+4 of 4 
+The following table outlines the proposed method of acquisition. 
+P,P 
+1st and 
+3rd 
+T E R P R E T 
+E R P R E 
+R P R 
+A 
+T A T 
+I 
+T I T 
+..............................................................(...U) 
+E ..D .I ..G E T .A ...L E E E .I .N T E ..R ...P ..R E T .A T .I T(.O .N) 
+1 011 11 001 1 0 10 1011 1 1 1 11 01 0 1 101 1001 101 1 0 10 0 11 0(00 01) 
+T 
+I T I 
+T .I ..S ...Y ..O ..U ..R ...P ..O ..S .I T .I ..O .N E 
+0 11 111 0100 000 110 101 1001 000 111 11 0 11 000 01 1 
+L 
+L L 
+S 
+I S I 
+E E ...V .I ..R T ..U .A ...L ...L ...Y E E E E E E E .I .N ...V .I ..S .I ...B ...L E 
+1 1 1110 11 101 0 110 10 1011 1011 0100 1 1 1 1 1 1 1 11 01 1110 11 111 11 0111 1011 1 
+S 
+E S E  
+E E ..S ...H .A ..D ..O ..W E E ...F ..O ..R ...C E ..S E E E E E 
+1 1 111 1111 10 011 000 100 1 1 1101 000 101 0101 1 111 1 1 1 1 1  
+M 
+E M E 
+E 
+M E M  
+...L ..U ...C .I ..D E E E .M E .M ..O ..R ...Y E 
+1011 110 0101 11 011 1 1 1 00 1 00 000 101 0100 1 
+ 
+(We'll ignore the trivial E E E's) 
+We thus have acquired the letters PPAITLSSME. 
+All and only those letters required to form the word PALIMPSEST. 
+For those with a problem with the acquisition of the L, 
+there is an elegant, encompassing solution to acquire the L, one that requires additional knowledge of the Kryptos environment. 
+Now, where, oh where, can we find an extra L? 
+Could it be in the tableau? 
+Here's a reminder.  The tableau has an extra L at the end of row 15. 
+.ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP 
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT 
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO 
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS 
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA 
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB 
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC 
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD 
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE 
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF 
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG 
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH 
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI 
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL (row 15) 
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL 
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM 
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN 
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ 
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU 
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV 
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW 
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX 
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ 
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK 
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR 
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY 
+.ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+So there you have it.  The letters of the word PALIMPSEST can be acquired using the vertex of palindromes found in the Morse code messages, 
+and (if need be) with the purchase of the letter L dangling at the end of the tableau's row 15. 
+The major strength of this theory is the fact that it can be applied very quickly, with virtually no paper work. 
+The only weakness of this theory is that it doesn't provide a ready means to infer the order in which the letters are arranged. 
+This is, of course, a minor weakness; for anagram users, this would not be a problem. 
+Another strength of this theory is that no letters other than those found in the word PALIMPSEST were forced upon us. 
+Also note that if the 2nd I in DIGITAL was not replaced, then this theory would have forced upon us the letter G. 
+Perhaps one reason why Jim Sanborn chose to make that change. 
+Just a thought. 
+Monet Friedrich 
+monetfriedrich@yahoo.com 
+ 

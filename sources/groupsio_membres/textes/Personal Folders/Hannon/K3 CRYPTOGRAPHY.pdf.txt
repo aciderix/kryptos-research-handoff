@@ -1,0 +1,71 @@
+[[page 1]]
+                                                        K3  CRYPTOGRAPHY
+    k3’S  SOLUTION IS WELL KNOWN WITH VARIOUS  DECRYPTION MODELS PROPOSED;  ALL OF
+  WHICH INVOLVE ANAGRAMMING.  JS EXPLICITLY STATED THAT IT WAS NOT THE METHOD
+   EXPECTED,  AND  ES  SAID  THE ACTUAL K3 CRYPTOGRAPHY WOULD BE ‘HELPFUL’ IN  THE
+  ANALYSIS OF K4.  THIS PAPER PRESENTS A STRONG CASE FOR K3’S  CRYTPOGRAPHY,  ENCRYP-
+TION AND DECRYPTION.  AND  A  STRONG CASE FOR A CAUSAL CRYPTOGRAPHIC CONNECTION
+BETWEEN  K3 AND K4’S CRYPTOGRAPHY.
+   K3
+   ENCRYPTION:
+   PLAIN TEXT IS INSCRIBED INTO A 14 X 24  INTO THE LOCATIONS SPECIFIED BY THE KRYPTOS
+  KEY IN BLOCKS  OF 84 LETTERS.  THE FOUR BLOCKS OF 84 USE THE FOLLOWING KEY IN THE OR
+  DER GIVEN:        4  1  5  2  6   3  7
+                                3  7  4  1  5   2  6
+                                2  6  3  7  4   1  5
+                                1  5  2  6  3   7  4 .
+  THE FOLLOWING MATRIX DISPLAYS THE PROCESS:  (FIRST 10 LTS  PLACED)
+                    1  2  3  4  5  6  7  8  9    10  11  12  13  14  15  16  17  18  19  20  21  22  23  24
+                    1  1  1  1  1  1  1  1  1     1    1     1    1    1    1    1    1    1    1    1   1    1    1    1
+                    1  1  1  1  1  1  1  1  1     1    1     1    1    1    1    1    1    1    S    1   1    1    L    1    key:  4 1 5 2 6 3 7
+                    2  2  2                                                                                                                 2
+                    2  2  2                                                                                                    W         2
+                   3  3   3                                                                                                                 3
+                   3  3   3                                                                                               Y               3
+                   4  4  4                                                                                                                  4
+                   4  4  4                                                                                           E                    S
+                   5  5  5                                                                                                                  5
+                   5  5  5                                                                                      P                    O   5
+                   6  6  6                                                                                                                  6
+                   6  6  6                                                                                                      L         6
+                   7 7  7                                                                                                                   7
+                   7  7 7                                                                                                  D              7
+ THE  PATTERN IS SIMPLE, COMPELLING, AND OBVIOUS IN BOTH THE VERTICAL, HORIZONTAL,
+AND DIAGONAL . THE REASON FOR THE DOUBLED ROWS  FOLLOWS FROM THE PATTERN.  ONE
+CAN ONLY INSCRIBE 42 LETTERS. IN THE 14 X 24  MATRIX AT A TIME. THEREFORE, FOR THE SEC-
+OND 42 EVERYTHING MOVES UP ONE ROW. AND USES THE SAME KRYPTOS KEY AS THE FIRST 42.
+ THE SECOND BLOCK OF 84 USES THE KEY 3741526. AND SO FOR THE REMAINING TEXT AND
+BLOCKS. SINCE ALL ALL SETS OF 42 BEGIN IN THE RIGHT MOST COLUMN  (24),ALL STARTING PO-
+SITIONS MUST BE DIVISIBLE BY 24. THEREFORE, THE VAUNTED 192  IS  SIMPLY THE STARTING PO-
+SITION OF THE MESSAGE.
+
+[[page 2]]
+IMPORTANT:   NOTE THE POSITI ON AND STRUCTURE OF THE PLACEMENT OF THE 42 LET-
+TERS  SUBSETS.  THEY FORM A  7 X  14  ROW GRILLE  WITH 6 APERTURES PER ROW, EACH SPACED
+4  CELLS APART.   THESE APERTURES ARE KRYPTO KEY IDENTIFED.
+ K3 DECRYPTION
+   WHEN PLACED OVER A COMPLETELY FILLED 24 X 24  CIPHER MATRIX, THE PLAIN IS READ  OUT
+   OF THE APERTURES FROM TOP TO BOTTOM, RIGHT TO LEFT USING KRYPTOS KEY TO ALIGN THE
+  INITIAL SETTING OF EACH  BLOCK OF 84.  THE  GRILLE IS THE  DECRYPTION CRYPTOGRAPHY.
+   IF K3 CRYPTOGRAPHY WOULD BE A ’HELP’ IN  THE ANALYSIS OF K4, THEN ONE WOULD LOOK
+  FOR REFLECTIONS OF K3 CRYPTOGRAPHY IN K4.  I  HAVE AND THERE ARE.
+  K3 / K4 CRYPTOGRAPHIC CONNECTION
+   THE THREE  DIRECTIONAL ONE OFFS* BETWEEN R1 AND R2 ,  THE SIX DIRECTIONAL ONE OFFS
+  BETWEEN R3 AND R4 , THE  THREE REVERSED DIRECTIONAL ONE OFFS BETWEEN R4 AND R3,
+  AND THE WRAP AROUND OF R5 WITH R1 WITH A DIGRAPIC CIPHER HIT BOOKENDED BY TWO
+  DIRECTIONAL ONE OFFS ARE CAUSAL.   THE CONTINUITY BETWEEN R1/R2 AND R3/4, THE DIS-
+CONTINUTITY BETWEEN R2/3,  AND THE R5/R1 WRAP-AROUND  ARE REFLECTIONS OF K3
+CRYPTOGRAPHY SEEN IN K4.  SPECIFICALLY, THE 42 LETTER SUBSETS (R1/R2 R3/4 DISCONTINU-
+ITY), THE BLOCK SIZE 84 ( R5/R1 WRAP-AROUND),  THE DOUBLE ROW FEATURE ( WIDTH 21 // R1/R2
+AND R3/R4),  AND THE USE OF THE KRYPTOS KEYWORD IN FORMING THE CIPHER ALPHABET.
+  CONCLUSION:
+  THERE IS A CAUSAL CONNECTION BETWEEN K3 AND K4 CRYPTOGRAPHY.
+*ONE OFFS ARE DEFINED AS ADJACENT LETTERS IN THE CIPHER ALPHABET DERIVED BY .KEYED
+COLUMNAR TRANSPOSITION OF A STANDARD A-Z ALPHABET;
+    K  R  Y  P  T  O  S
+    1   4   7   3  6  2   5      this alphabet is equivalent to  a width 11 write out of the standard a-z alphabet
+    a   l   w   h  s   e   p      the one offs with ug, and tf to name two are evidence of the keyed version.
+    b  m  x    i   t   f   q
+    c   n   y   j   u  g   r
+    d   o  z   k   v
+ eh

@@ -1,0 +1,145 @@
+Arrange letters: 4 x 48
+
+OBBE   
+KORF
+UIOT
+XWOA
+GSHS
+UILB
+BLSI
+OELL
+IAFN
+BDBT
+WOFW
+LNRLVOQI
+QSPR
+ONMG
+EKWS
+NSOO
+TNWL
+TTQY
+SEJS
+QSSI
+SXEY
+KSZE
+ZVWEASTE
+JCKA
+LTUL
+DYIR
+AIWS
+ITNH	
+FEBD
+NOYH
+PAVN
+TDTR
+MLZE
+FFPTKLWE
+GADP
+KEZE
+XRTC
+JHCA
+DMIB
+GRKE
+USHR
+UGAE
+UPEH
+KICN
+AGRQ
+Remove letters that “mask” English:
+use same numbers as those that divided the steps on the pyramid-
+3:4:5
+
+3 – X
+4 – Z
+5 – Q  = 12 removals
+
+remove and reformat:
+
+OBBEKORFUIOT
+WOAGSHSUILB
+BLSIOELLIAFN
+BDBTWOFWLNRL
+VOISPRONMG
+EKWSNSOOTNWL
+TTYSEJSSSI
+SEYKSEVWE
+ASTEJCKALTUL
+DYIRAIWSITNH
+FEBDNOYHPAVN
+TDTRMLEFFPT
+KLWEGADPKEE
+RTCJHCADMIB
+GRKEUSHRUGAE
+UPEHKICNAGR
+
+192 – 12 = 180
+prime factorization of 180
+2.90
+2.3.30
+2.3.3.10
+2.2.3.3.5
+
+10x18
+
+OBBEKORFUIOTWOAGSH
+SUILBBLSIOELLIAFNB
+DBTWOFWLNRLVOISPRO
+NMGEKWSNSOOTNWLTTY
+SEJSSSISEYKSEVWEAS
+TEJCKALTULDYIRAIWS
+ITNHFEBDNOYHPAVNTD
+TRMLEFFPTKLWEGADPK
+EERTCJHCADMIBGRKEU
+SHRUGAEUPEHKICNAGR
+
+change color, and notice “two”s:
+
+OBBEKORFUIOTWOAGSH
+SUILBBLSIOELLIAFNB
+DBTWOFWLNRLVOISPRO
+NMGEKWSNSOOTNWLTTY
+SEJSSSISEYKSEVWEAS  (lots of S’s)
+TEJCKALTULDYIRAIWS
+ITNHFEBDNOYHPAVNTD
+TRMLEFFPTKLWEGADPK
+EERTCJHCADMIBGRKEU
+SHRUGAEUPEHKICNAGR
+
+
+rearrange letters to 9 x 20 – the word “TWO” shows up twice, and can be stacked:
+
+OBBEKORFU 
+IOTWOAGSH
+SUILBBLSI
+OELLIAFNB
+DBTWOFWLN
+RLVOISPRO
+NMGEKWSNS
+OOTNWLTTY
+SEJSSSISE
+YKSEVWEAS
+TEJCKALTU
+LDYIRAIWS
+ITNHFEBDN
+OYHPAVNTD
+TRMLEFFPT
+KLWEGADPK
+EERTCJHCA
+DMIBGRKEU
+SHRUGAEUP
+EHKICNAGR
+
+Took this text and threw it into the vigenere, using Kryptos and candle, just for s&g’s. What resulted was a strange gibberish that curiously contained a HIGH frequency of Q’s, some doubles, but only in the bottom half of the text:
+
+
+vigenere – kryptos, candle
+
+HMRULJDNHZVISF KWWZIYBRZNKGBI YYKVKVDNNIWAVW SXFEBAHVZGMJYZ SULBIKZIVIYTDH UGIMCJWLXGTFLL QPJUXLGMCNLMKE HRRGXBKZHLXEFX PVLLFINZFHIPUU GBERYWUDWDBBQQ KQQEQMQHKRWJKQ CKLQQDYSIUQOTM QYVUOEXJFLTF
+
+Hopefully, this would not indicate yet ANOTHER LAYER. UGH. 
+
+I don’t know where to go from this, and AGAIN, I think that K4s permutation must be determined first before trying anything more with this. Someone FAR BETTER than I must be called upon in that case, if someone is inspired to pursue this avenue due to any virtue contained herein.
+
+
+
+

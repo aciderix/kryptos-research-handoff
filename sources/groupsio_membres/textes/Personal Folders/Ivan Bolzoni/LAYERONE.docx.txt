@@ -1,0 +1,56 @@
+## word/document.xml
+ 
+ I send you the text and a file.txt containing it 
+ 
+ SECOND THEORY : THE CIPHERS MUST BE DECIPHERED IN THE ORDER WE KNOW. 
+ 
+ As Rob said in the topic " No necessity to provide K1/K2 keywords", K1 and K2 can be solved with only pencil and paper and their Key s are not spread around the sculpture. 
+ 
+ So with skill and patience we can break K1 and K2. 
+ 
+ K1 : Its key is PALIMPCEST, but what we have always thought is that i refers to K3 : in reality it refers to K4 and it tells us it's a multistage cipher, as a palimpsest is a paper used several times. 
+ What about the Q? It doesn't metter the Q , but its position and it Will be explained with the U in K2. 
+ 
+ K2: Its key is ABSCISSA. I Think it refers to the coordinate position, but i expect it to have a meanin g related to K4, maybe the real position of K4 in the sculpture. 
+ IDBYROWS -> LAYERTWO: i think it is a hint for K3, maybe it suggest us that we must shift it or that the letters must be shaffled. 
+ LAYERTWO refers to K4 and i thought it implies LAYERONE. Where we can find it? 
+ U of Undergruund: same explanation of Q in K1, its meaning can be understood later and it involves its position, no tranformations of L to Q or O to R. 
+ 
+ K3: this is the missing part and here it's my discovery. Only with the Matrix solution that Sanborn gave us we can explain this clue that involves some stego, it's hidden in K3. 
+ Let's follow the first 7 words of K3, namely ENDYAHR and let's see where they end up after we obtain K3 Plaintext in a Grid of 8x42 : 
+ 
+ 1 '---------- --------------------------------' 
+ 2 '-----------------------------R------d-----' 
+ 3 '------------------------------------------' 
+ 4 '-------------------------------h------N---' 
+ 5 '------------------------------------------' 
+ 6 '----------- ----------------------A------E-' 
+ 7 '------------------------------------------' 
+ 8 '-----------------------------------Y------' 
+ 
+ It looks like LAYERONE...what are the missing letters? L,E,O. 
+ But L and O are the letters obtained correcting the mi sspellings of Q and U respectively, and their orientation resembles 
+ the pattern above. 
+ 
+ So let's try to substitute D and H and we obtain ENOYALR. In the matrix we obtain: 
+ 
+ P 1'------------------------------------------' 
+ C 2'---------------- -------------R------O-----' 
+ P 3'------------------------------------------' 
+ C 4'-------------------------------L------N---' 
+ P 5'------------------------------------------' 
+ C 6'---------------------------------A------E-' 
+ P 7'------- -----------------------------------' 
+ C'8'-----------------------------------Y------' 
+ 
+ 
+ The C on the left of the matrix are on the same rows of the letters. Is it a coincidence? 
+ What have you noted though? The E is missing! But is missing also in D ESPARATLY. 
+ So here we are : we have LAYERONE and LAYERTWO. I have 2 interpretations of it that i will give after the members have expressed their opinions about it. 
+ 
+ Now the missing part is: can you find a way to align the misspellings in K1 and K2 in order to ontain the L and O in that 
+ position? Or Jim just wanted us to change the letters and no alignment is involved? 
+ The mistaken A in DESPARATLY maybe tells us that we have to change some letters in order to obtain LAYERONE as we did to D and H 
+ 
+ 
+ 

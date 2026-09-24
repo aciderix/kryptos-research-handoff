@@ -1,0 +1,62 @@
+﻿Something discovered a long time ago by Ulli
+
+He thinks Subtle Shading in K1 refers to the SS-21 Trochka OR Nato code name :
+SS-21 SCARAB (1)
+
+Personally I think Ulli who is an expert on fuzzy logic has lost it somehow but
+here is his reasoning ;
+
+Remember the 3 7's hidden in the Vignere side of Kryptos?
+
+Turn the tableau upside down and the 3 7's look like ballistic missiles on their
+launcher (TEL).
+
+SUBTLE SUB TEL .....BUS TEL
+
+3 * 7 = 21 + SS = SS-21
+
+Strange enough there is a Scarab hidden in Kryptos :
+
+just remove all spaces on the tableau
+CARAB seperated for better view
+VTTMZFPKWGDKZXTJCDIGKUHUAUEK CARAB CDEFGHIJKLMNOPQRSTUVWXYZABCD
+1234567890123456789012345678901234567890123456789012345678901234
+
+remember the S from K2 you had to insert? Let's do that :
+
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKsCARABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+1234567890123456789012345678901234567890123456789012345678901234
+
+Reverse it :
+DCBAZYXWVUTSRQPONMLKJIHGFEDCBARACsKEUAUHUKGIDCJTXZKDGWKPFZMTTV
+
+DECRYPT VIG KRYPTOS RQ
+CIAGXBWPURPFKKYEMXJSIUGNELCIAGKGBfZLQGQQQSFUCIIDWOZJFPZCEOLDPYWell that is
+interesting CIA and KGB hidden in Kryptos, what a surprise Ulli.
+Amazing discovery!!!!
+
+Too make a very long story really short:
+
+Do what Ulli did but use the whole of Kryptos, insert the S so you get BARACKS :
+                             baracks (quotset(s))
+DCBAZYXWVUTSRQPONMLKJIHGFEDCBARACKsEUAUHUKGIDCJTXZKDGWKPFZMTTV
+VIG DECRYPT KRYPTOS RQ
+CIAGXBWPURPFKKYEMXJSIUGNELCIAGKGBSoLQGQQQSFUCIIDWOZJFPZCEOLDPY
+
+go back, swop the CA in BARACK, ignore the S
+DCBAZYXWVUTSRQPONMLKJIHGFEDCBARCAKEUAUHUKGIDCJTXZKDGWKPFZMTTV
+VIG DECRYPT KRYPTOS RQ
+CIAGXBWPURPFKKYEMXJSIUGNELCIAGKISSDRSRGRZNHJBVPTXSCNVSYMXXPDU
+
+CAKE decodes to KISS??? birthday party or just keep it stupid simple?
+
+Looks like something is hiddem here, no idea what but this is a bit too
+elaborate for a red herring.
+
+I posted the file : TEST on our server here in personal folders dnb so you can
+play around with it.
+
+regards, Hans
+
+(1) Subtle Shading, colors 7 , ROY G BIV --->>> RAINBOW
+

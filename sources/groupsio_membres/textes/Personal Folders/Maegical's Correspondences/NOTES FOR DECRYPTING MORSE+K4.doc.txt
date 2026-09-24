@@ -1,0 +1,171 @@
+Created on  CREATEDATE \@ "M/d/yyyy h:mm:ss am/pm" 4/19-20/2007 beginning at 11:33:00 PM  Page  PAGE 1 of  NUMPAGES 4
+NOTES FOR DECRYPTING MORSE + K4
+By Bryan D. Levenson
+Typed up Thursday, April 19, 2007
+(Dated as included.)
+
+Friday, April 13, 2007 10:45-? Vigenère w/kryptos_Vig; KRYPTOS-keyed alphabet; used decipher_trigram.xls to decrypt probable texts: when, which, the
+
+179 character text used at end: (CQGDUMHUQWXSJJLVSZHQHRQGIEFJQLFJKNANPAZGJHIIVWMCHIPNALHKGGVQJNITXHZPTVNPGIDOEQYXHIXMIGVVSIUAUJASLWYSJLIMTBTNBNIBFIGQYTTPXEPSIHWHBIVSTEKJKGUNEAGIIDCSJN)
+
+Probable Keyword (p.k.) JUNG -> AWICK, Intermediate Text (i.t.) 18-20 WAY; 27-29 CON; 78-84 PILIURS (pillars?)
+									↓
+									p.k. AAWAY
+									↓
+									16-29 AGICK; 87-90 DAVI
+									↓
+									p.k. CCMAGI
+									↓
+									52-61 yICROvANGE						
+		↓							↓								|
+		p.k. MICRORANGE					p.k. MICRO→1-3 LOT; 26-29 GLER; 31-34 HOOF	|	
+		↓							62-65 EDIS; 68-79 SIR					|
+		p.k. 1-3 LOT, 31-34 HOOF; 63-67 DISCS; 73-75 THO; 90-92 SER		↓
+												11:11 pm MICROWAVERADIATION
+													↓
+												44-46 TOM, 58-61 GROG
+Remembered Sanborn’s quote, tried p.k. ANAPEXOFTHEPYRAMID
+						↓
+					p.k. INAPEXOFTHEPYRAMID (See “Copy of kryptos_Vig179-1.xls”)
+						↓
+1-18 pthdlyfmeoldcbhspk 11:20 pm 179→ 17.9 → 18
+3:35 am Saturday, April 14, 2007 pthdlyfmeoldcbhspk of ‘key back substitution’ → ‘key back substitution’ deokrcmslfrkj to ‘key’ gives zcbgwwrvjebhs followed by another zc. Tried these 13 as key (remembered “13” from David Stein’s article). deokrcmslfrkj, thought DEMOCRACY
+		↓
+p.k. DEMOCRACYINAMERICA→ p.k. ALEXISDTOCQUEVILLE
+		↓							↓
+1-18 KLSFJBHJCPTHSLBPJH of ‘key back substitution, tried as p.k.; remembered 451 [position of missing ‘E’ in DESPARATLY] as possible clue to book code. Looked in copy of Oxford Dictionary of Quotations.
+		↓
+Quotation: The French want no-one to be superior. The English want inferiors. The Frenchman constantly raises his eyes above him with anxiety. The Englishman lowes his beneath him with satisfaction. On either side it is pride, but | [end of 179 characters] | understood in a different way. [end of 204 characters – Morse + K4 including “e”’s ? Thursday, April 19, 2007] Quotation from Voyage en Angleterre et en Irlande, 1835] 11:54 pm Friday, April 13, 2007.
+
+‘key back substitution’ p.k. EOLmbltjoxhtetfftlefilEOLpb… → (See “Copy of kryptos_Vig179-4.xls”)
+		↓
+EOL → p.k. XIV → p.k. EOL (See “Copy of kryptos_Vig179-2.xls”) 12:09 am April 14, 2007
+ Read off Vigenère text at each EOL → 1-4 OSYR…YS…32-34 SPY
+[Friday, April 20, 2007 p.k. THEWIDOWSSON through text  CQGDUMHUQBEQQQVAQFJYJJPCGOSQYWSQHGVHPAZGJHIIVBZKJNHGVVJHHHSYQKNJEDGIJSGGGIDOEQYXNMDXMHANPLPJELPQGHGHFEZPNCXNLQOKAHXHZUFOVTUWUJCGQULFZLZJGXRGZSMGQYTTPXEPDMJBLZFAULTIHHHTGOVIGGPRQQG results in OSYGSBCXHYSRJSEDOYEODDXJCLUWGGRWBALUZNHJRTDMJYQAFOPJAFELBBRCJFBNVKBMDKBQCRZBVDWRGFOOHKVVHAXNOEXRCKYLWRQSGPNKGSQPMTNLNIAFMJDKSSTJHIFNUPHNXHVJNKGQJHNAHHSSTFEIGERDSAZMBBCECLEMXPXTHHB]
+↓
+Page  PAGE 2 of  NUMPAGES 4
+p.k. SPY
+↓
+i.t. PLEAUT
+↓
+p.k. PLEAPK
+↓
+p.k. SPYSUP → 24-40 SAYTHA.KLFAREWhwLwshwhga
+↓
+First line of text PLEAPPGZOL…SAYTHA.KLFAREWhwLwshwhga
+↓
+p.k.AAAAAAAAAAAAAAAAAAAAAAASAYSTHANKSFAREWELL (See “Copy of kryptos_Vig179-6.xls”) [Friday, April 20, 2007 1:40 a.m. This is some proof that DAN BROWN is the “prominent fictional writer” mentioned by JAMES SANBORN”]
+↓
+i.t. 1-41 AAAAAAAAAAAAAAAAAAAAAAApspkjhjgqbrigMqhsRY
+↓
+p.k. AAAAAAAAAAAAAAAAAAAAAAApspkjhjgLUCIDMEMORY
+↓
+i.t. 34-40 TATESAM
+
+SOSRQLUCIDMEMORYTISYOURPOSITIONDIGETALINTERPRETATUVIRTUALLYINVISIBLESHADOWEEFORCESOBKR…KCAR (See “Copy of kryptos_Vig179-7.xls”) (Similarly, see “Copy of kryptos_Vig179-7b.xls”)
+
+DEMOCRACYINAMERICAAAAAAAAAAAAAAALUCIDEEEMEMORYETATUVIRTUALLYINVISIBLESHADOWEEFORCESOBKR…KCAR (See  ”Copy of kryptos_Vig179-8b.xls”)
+
+2:31 a.m. Put the e’s back in with LUCIDMEMORY at pos. 32?
+
+3:35 a.m. Alexis de Tocqueville
+
+Saturday, April 14, 2007 Updated Morse-K4-bitrans.xls to include Morse Codes in order without EE [from SHADOWEEFORCES]. 11:34 p.m.
+Copied Strata from Monet’s site to paper 11:48 p.m. Found “AT” to be put just before DIGETALINTERPRETATIT 11:49 p.m. Corrected Morse Codes 11:50:34 p.m.
+Copied 179-letter string of SOSRQ…OBKR…KCAR through binary transposition (from Jason De Seve’s work)
+CQGDUMHUQBEQQQVAQFJYJJPCGOSQYWSQHGVHPAZGJHIIVBZKJNHGVVJHHHSYQKNJEDGIJSGGGIDOEQYXNMDXMHANPLPJELPQGHGHFEZPNCXNLQOKAHXHZUFOVTUWUJCGQULFZLZJGXRGZSMGQYTTPXEPDMJBLZFAULTIHHHTGOVIGGPRQQG 11:58 p.m.
+Take text into “Copy of kryptos_Vig179-9.xls” 12:00 a.m. Sunday, April 15, 2007 Cipher back-substitution JUNK → p.k. JUNK (Similar to JUNG)
+179-letter string transferred to “decipher-trigram.xls” 12:05 a.m.
+In decipher-trigram18.xls placed as keyword for ‘Test Word’ tab. → “INAPEXOFTHEPYRAMID”
+Sunday, April 15, 2007
+12:27 a.m., 12:30a.m. In “Copy of kryptos_Vig179-9.xls” a.k.a. “Copy9” placed p.k. “INAPEXOFTHEPYRMID” and 179 letters from SOSRQ…KCAR. Copied SOSRQ…KCAR to “decipher-trigram18.xls”
+Created “decipher-trigram18-SOS…KCAR.xls” 12:35 a.m.
+12:41 a.m. From “Copy9”, key-back-substitution SOS…KCAR to “Copy9” → NAT
+										   THE (keylength=179)
+Took key back-substitution GFG…JHB (keylength=179) to p.k.
+1-179 VBK…TSO → p.k. KRYP… Vigenère HNP…RYZ to p.k.
+Key back-subst VBK…TSO → p.k. (KRYP… Beaufort 12-16 CRUPT)
+
+Took it YSGMQUHEWDOWUOBQYL in “decipher-trigram18.xls” (a.k.a. “a-t18”) to keyword in cell B7 spells INAPEXOFTHEPYRAMID under first S in cell U108 (“S” is first S of “SOS”). Created “decipher-trigram36-SOS…KCAR.xls”. Appended text NAZPMMHDOCJQLNIVIL under cell AF108 (“E” of MEMORY) to p.k. Replaced NAZ…VIL w/ text EWJDYELLATWQMSJAOD from under INAPEXOFTHEPYRAMID to keyword after same (INAPEX...MID) 1:18 a.m. Gives reverts the text under the first S of SOS to YSG…QYLAGQZVFPBICAGYGRWGR
+
+1:25 a.m. With INAPEXOFTHEPYRAMID doubled as keyword, text under S becomes YSG…QYLAGQZXFIIINESZSADNVVJY
+1:53 a.m. Keyword GSA (keylength=3) in “Copy of kryptos_Vig179-5.xls” gives key back subst. NGH
+2:02 a.m. Corrected “(?)” formulae in KRYP…* rows (Period near end should be comma.)
+Page  PAGE 3 of  NUMPAGES 4
+2:07 a.m. Created “Copy of kryptos_Vig179-9updatedtext.xls”
+2:20 Repeated attempt to crack 179 w/ SPY → i.t. PLEAUT → p.k. PLEASE → i.t. PLEA → SPYS → p.k. PLEAIDES → i.t. SPYSCVBV
+p.k. SPYSUBMARINES (keylength=13) 2:37 a.m. 67-73 DEOUS
+p.k. PLEAP → 1-11 SPYSUPyLkqS → p.k. SPYSUPPLIES (keylength=5) → 1-11 i.t. PLEAPKJKRYP (apple shifted) 3:02 a.m. Created “Copy of kryptos_Vig179-5PLEAP.xls”)
+
+Sunday, April 15, 2007
+2:45 a.m. p.k. KRYPTOS (keylength=7) → i.t. 1-14 cnEdqRGYsusdlb → p.k. CNEDQRGYSUSDLB (keylength=14) → i.t. 1-14 KRYPTOSNHFZQUR
+3:07 a.m. p.k. PLEAP → key back-subst. DRLHD → p.k. DRLHD → key back-subst. KBROK → p.k. KBROK → key back-subst AIBFA & 11-15 CSUCH
+p.k. KBROR in “decipher-trigram36.xls” gives us <something> which, in turn gives RUCBF which gives us under the first S in SOS, PLEAPRVJPKSLSFBC
+3:22 a.m. Try KRYPTOS-keyed alphabet (w/KRYPTOS in front & back in “decipher-trigram36.xls” 3:23 a.m.
+
+8:45 a.m. Restarted w/ new order of Morse Code, added “AT” after Morse Code and before OBKR…KCAR (keylength=180)
+Created “Copy of kryptos_Vig180-1.xls” 
+p.k. INAPEXOFTHEPYRAMID (keylength=18) → key back-subst.: PTHDEYFMEOLDCBHSPK → p.k. PTHDE (DEPTH rolled) (keylength=5) → key back subst.: DEOKL & 1-5 UEQMO
+p.k. UEQMO → i.t. PTHDE
+
+9:15 a.m. Gave up on Vig180-1. No good results.
+Updated “Copy of kryptos_Vig179-9updatedtext.xls”. Saved it as “Copy of kryptos_Vig180-1updatedtext.xls”
+
+9:33 a.m. Corrected text in “decipher-trigram36-SOS…KCAR.xls”
+
+9:40 a.m. p.k. OSYRYS into “Copy of kryptos_Vig180-1n.t.” (?) [perhaps “Copy of kryptos_Vig180-1updatedtext.xls”]
+Ciphertext: (keylength=180) XIB…RPIIB
+
+9:49 a.m. p.k. THE → EOL in key back-subst.
+
+10:02 a.m. Created “decipher-trigram36-SOS…KCAR2.xls”
+
+11:11:11 a.m. Corrected mistake (missing the “E” in INVISIBLE) in “Morse-K4-bitrans.xls”
+
+11:26 a.m. Created “Morse-K4-bitrans180.xls”.
+
+Sunday, April 15, 2007
+9:02 p.m. – 9:37 p.m. Corrected “Morse-K4-bitrans180.xls” to get correct (hopefully!) the 180-letter text: CQGDUMHUQWXSJJLVSZHQHRQGIEFJQLFJKNAGQTBYTGGJALOWPGDYVTPNNYAJHIPEMKMDELNQQQJJJVJINYGGYDVSHNJJOJBLNJQJWWLBJHIYHAHZFSUYUVOAMAJTBOIKHYOLSFVFQHDLBGQXHPGLLHEOIQMJBLZFAULTIHHHTGOVIGGPRQQG
+
+9:51 p.m. Enter purple180 text (above) to “Cyfer.exe” (saved text as PURPL180.CYF)
+
+10:00 p.m. Data from “K5-pb4.xls” [# of letters:180, ∑f(f-1):1550, ∆I.C.: 1.2508, ∑log sum(letters): 25.015]
+
+10:03 p.m. – 11:01 p.m. Take “purple180.cyf” text of 180 letters to “Copy of kryptos_Vig180-1updatedtext.xls” which just created “Copy of kryptos_Vig180-2.xls”. Copied purpl180 text to “decipher-trigram36-SOS…KCAR.xls”
+
+2:00 p.m. Monday, April 16, 2007
+Retried THEFVKHVOVABLEBFGMSEVHIRPBZTNKLRSPY to recover key to SPY and OSYRYS, got OSYXZMKZIFTFPFDQYSOSYRYSOSYRYSOSPY with keylength=179. Retrieved 17-19 HEE. Replaced HEE w/ SPY.
+      0	            1                  2                  3                  4
+      123456789012345678901234567890123456789012
+p.k.  THEFVKHMOVABLEFGMSEVHIRPBZTNKLRHEESUPPLIES
+i.t.  OSYXZMKPIFTFPCDQYSOSYRYSOSYRYSOSPYJNKHEFRE
+p.k.  THEFVKHMOVABLEFGMSEVHIRPBZTNKLRHEEJNKHEFRE
+i.t.  OSYXZMKPIFTFPCDQYSOSYRYSOSYRYSOSPYSUPPLIES 2:10 p.m.
+
+Page  PAGE 4 of  NUMPAGES 4
+2:11 p.m. Repeated/retried p.k. SPY (keylength=3) → i.t. PLETMJ → p.k. SPYATA (keylength=3) → p.k. PLETMJ (keylength=6) → 40-43 key back-subst. 40-43 MBLE/i.t. IESF → (keylength=179): DRLESQOSFWHIRLMNSGLWOPBDIZETARBOLLQTAOLMBLC…STL
+Created “Copy of kryptos_Vig179-9b.xls”
+p.k. PLETKPPLIES (keylength=179) → i.t. SPYSUIETOWO (keylength=179) → p.k. PLETKIETOWO (keylength=179) → i.t. SPYSUPPLIES (keylength=179)
+
+2:30 p.m. p.k. OSYRYSHMOVABLEFGMSEVHIRPBZTNKLRHEEJNKHEFRE
+						      ↓
+						 WHIRLPOOL
+2:45 p.m. (Off PC) 2:47 p.m. Try keyword CAPSTONE (keylength=8)
+
+9:48 p.m. – 10:02 p.m. Using Black Chamber Website by Simon Singh, HGV 36, HHH 218; p.k. JUNK → p.k. JUNKYARD → i.t. AAAAXSXSUXYGQQRWGZ)
+
+11:17 p.m. p.k. OSYRANDISIS → i.t. THECHZTSHNOYGNUMCY → p.k. THE CANDLE
+
+11:27 p.m. p.k. ISIS → i.t. QHXT → 38-42 PLIES → p.k. SUPPLIESSPY → p.k. SPYSUPPLIESSECRETS (keylength=18)
+
+Tuesday, April 17, 2007
+12:12 a.m. p.k. ACAP(STONE) → 73-75 SPY 
+
+12:37 a.m. p.k. PLEAP →1-5 SPYSU → p.k. SPYSUP (keylength=6) → PSPYSUPSPYSUPSPYS → 24-40 SAYTHAqKlFAREWhwL → p.k. SAYTHANKSFAREWELL
+12:56 a.m. – 1:42 a.m. Created “Copy of kryptos_Vig179-5SPYSUP6.xls”
+p.k. 25-42 out  of keylength=179 SAYSTHANKSFAREWELLA → i.t. 25-42 AXTJHJGQBRIGMQHSRY → p.k. 32-42 LUCIDMEMORY → 34-40 TATESAM → p.k. 96-104 DSTATESAM → i.t. 96-104 DADSDROME
+
+Thursday, April 19, 2007
+10:41 p.m. p.k. MORSECODE → 1-4 LIFT (encoded by MORS), 90-96 SEEDEMY (encoded with EMORSEC).
+ 
+

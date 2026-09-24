@@ -1,0 +1,65 @@
+Jon Thornber                                                                                                 B
+"#,##0;\-"
+"#,##0
+"#,##0;[Red]\-"
+"#,##0
+"#,##0.00;\-"
+"#,##0.00
+"#,##0.00;[Red]\-"
+"#,##0.00
+"* #,##0_-;\-"
+"* #,##0_-;_-"
+"* "-"_-;_-@_-
+_-* #,##0_-;\-* #,##0_-;_-* "-"_-;_-@_-
+"* #,##0.00_-;\-"
+"* #,##0.00_-;_-"
+"* "-"??_-;_-@_-
+_-* #,##0.00_-;\-* #,##0.00_-;_-* "-"??_-;_-@_-
+Sheet1
+Sheet2
+Sheet3
+Enter text into
+rows in this order&
+Read text out of columns in this order
+Part 3 code
+Part 3 plaintext!
+NB. 52 rows, 7 columns in matrix.g
+the first leaves Q at the beginning of the plaintext, the second leaves it at the end. I've just chosenO
+to put it at the end of row 6 so that the left ends of the rows line up neatly.m
+There is some ambiguity over whether the Q goes at the end of row 6 or beginning of row 1, either would work,
+A matrix below for converting encrypted text directly to plain text. The ordering on the left  can be derived from 'rksotpy', kryptos backwards shifted by 2 letters.:
+The ordering on the top simply groups the columns into 4s.|
+I think this is the neatest for an operative to use, they just need to know the shape of the matrix & the keyword (kryptos).$
+Matrix size is 86 columns by 4 rows.
+A final version of the encryption matrix, slightly simpler as you start reading off the encrypted text from the last column. Columns grouped in 7s and ordered by 'kryptos' as the key.
+An encryption matrix below which allows you to write the plain text straight in horizontally, then read off vertically to give the encrypted text.
+MbP?_
+MbP?_
+HP LaserJet 9000 PCL 6
+ETRj
+}byd
+6CZ 
+MbP?_
+Jon Thornber
+Jon Thornber
+Microsoft Excel
+LogicaCMG
+Sheet1
+Sheet2
+Sheet3
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Century1
+Arial1
+Arial
+                                    %
+\\1prtgms\GMS5-BW1
+Letter
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

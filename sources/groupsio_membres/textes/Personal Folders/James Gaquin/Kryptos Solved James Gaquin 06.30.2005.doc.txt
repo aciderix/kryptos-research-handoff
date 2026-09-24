@@ -1,0 +1,191 @@
+Kryptos Solved
+By James Gaquin
+San Diego, CA
+06.30.2005
+
+O. Abstract
+
+Although four out of five of the known Kryptos Installation codes have been decrypted, barring the Morse code, this was done so without recovering the contained keys. Herein, I will recover all four of the known keys by the method I surmise was intended by the artist. Further, to aid my own understanding and perhaps enhance yours, I will provide interpretation of several aspects of the sculpture installation. Please forgive my pedantic nature and my assumed familiarity with the sculpture.
+
+For completeness I have designated the different pieces of the sculpture installation to aid my understanding and perhaps systematize the decryption process to a higher degree. 
+The term Kryptos Installation will herein refer to the sculpture installation as a whole. This includes the Entrance pieces, the Courtyard pieces and the general design of the Courtyard (Mr. Sanborn was responsible for its design). 
+KZ (K-Zero) will designate all Morse related codes and strata, inclusive of the Compass/Lodestone object, Pyramid stone, Large courtyard pool, Red Granite strata near Large pool, Small courtyard pool, White Granite(?) stone, Red Granite stone 1(adjacent to small pool), Red Granite stone 2 (seat stone near Kryptos) and the Petrified tree. Further, KZ1 will designate the front entrance pieces and KZ2 will designate the courtyard pieces (excluding the main sculpture piece).
+The main sculpture will be designated as Kryptos and the four known codes designated as K1, K2, K3 and K4 as has previously been designated. Any further codes will follow the pattern and be designated K5, K6, etc. 
+
+I. Telegraphing Your Moves
+
+	The International Morse Code phrases (KZ1) are all Morse palindromes to some degree (the Morse is the same left to right and right to left (or upside down)). The letters that are formed by the Morse are not the same palindromicly in all cases, with SOS the only perfect Morse palindrome phrase in the known Kryptos Installation. (I have not confirmed the proper decryption of the Morse, the degree of true palindromicity or the proper use of International Morse Code.)
+	The Morse code is the first code type in the installation and was, I assume, visually recognized as such. However, I do not think that Mr. Sanborn intended anything to be guessed, as he did include the well known Morse phrase SOS as the first embedded key. Morse code is a well known code and the SOS key was essentially superfluous to the obvious recognition of the Morse. But it is important that there was a first key. As I do not think Mr. Sanborn expected the Agent in the Field to guess at anything. I have read interview material that suggested the codes were designed to be decrypted even when the Agent had forgotten, or had never known, the keys (or the method of encryption).
+	The meaning of these Morse phrases is unimportant to the solutions of the known codes. The clue contained in these phrases is in the fact that they are palindromic. Looking up the word Palindrome in a typical old fashion book dictionary reveals that the word Palimpsest is very close by, if not directly proceeding. Recall that, circa 1990, you couldn’t Google definitions. I consider PALIMPSEST to be the second key; recovered by the method intended by the artist. 
+	
+Aside:	The word Palimpsest has become very popular of late with Archimedes and all, but if you read a definition or two you find that there is a more profound meaning. A Palimpsest can be an object or area that reflects the history of a place, for example a meteor crater is a Palimpsest. Mr. Sanborn has used an almost verbatim definition of Palimpsest when describing the CIA’s desired meaning for the sculpture.
+
+II. Double Word Score
+
+	Moving into the Courtyard (KZ2), we find the main sculpture piece: Kryptos. Although we have recovered the second key, PALIMPSEST, we did so in a fairly virtual way. Perhaps the sculpture contains the key in a material manner, much like the Morse code contained the SOS key.
+	If you type out the Code Text in a uniform font like Courier New, you find that the rows are uneven in character length; this was intentional. The non-uniform Kryptos font disguises this fact. Still the reflected Tableau and the S form of Kryptos cry out for symmetry. 
+If you rearrange a few letters of the Code Text, you can match the line length of the Tableau, with the only exception being that the Tableau contains two black spaces in the upper and lower left (assuming you are viewing the Tableau text from behind the sculpture, as it is usually pictured).
+	If you take this original matrix and highlight all the letters of the word PALIMPSEST, you find two instances of the word on consecutive rows (one overlapping the top/bottom boundary). This is the full recovery of the K1 key PALIMPSEST by the method intended by the artist.
+
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V
+J Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F
+D V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C
+E G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R
+R Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T
+I H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R
+E E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I
+D X F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R
+K F F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F
+Q E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R
+E D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K
+P D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T
+  G E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I
+A C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E T
+F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B T
+E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R
+I T R K L M L E H A G T D H A R D P N E O H M G F M F E U H E
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R
+
+Diagram 1 (PALIMPSEST)
+
+
+III. Abscissa Makes The Heart Grow Fonder
+
+	The first code of the main sculpture (K1) was decrypted using the Vigenere Tableau by others sans this author with the guessed keyword PALIMPSEST – perhaps a frequency attack was also employed. The key had not been recovered properly.
+
+Kryptos K1 decrypted Plain Text (spaces added):
+
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT 
+LIES THE NUANCE OF IQLUSION (sic)
+
+That’s an odd sentence. Not quite poetic enough to artistically satisfy and too vague to point out any apparent next step in solving the remaining code. Two methods have worked so far in finding key words: our “dictionary attack” and our sliding the rows word search. Cryptographers are lazy; it’s a real pain to change coding schemes, just ask anyone who lost a recent world war.
+If you look up all the main words from the decrypted K1 section in a dictionary - looking for interesting words near these words - you find a couple. The word Subtle has the word Subterranean nearby, and the word Absence has the word Abscissa very close by (your dictionary may vary).
+Turning to our word search for confirmation again, you actually find both of these words. ABSCISSA appears twice, and I found SUBTERRANEAN at least three times before I lost interest as it doesn’t appear to decrypt anything as yet. This is the full recovery of the K1 key ABSCISSA by the method intended by the artist.
+ 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V
+J Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F
+D V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C
+E G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R
+R Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T
+I H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R
+E E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I
+D X F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R
+K F F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F
+Q E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R
+E D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K
+P D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T
+  G E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I
+A C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E T
+F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B T
+E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R
+I T R K L M L E H A G T D H A R D P N E O H M G F M F E U H E
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R
+
+Diagram 2 (ABSCISSA)
+
+IV. What Is Your Position or Subterranean Blues 
+
+The second code of the main sculpture (K2) was decrypted using the Vigenere Tableau by others sans this author with the guessed keyword ABSCISSA – perhaps a frequency attack was also employed. The key had not been recovered properly.
+
+Kryptos K2 decrypted plain text (spaces added):
+
+IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE? THEY USED THE EARTHS MAGNETIC FIELD X THE INFORMATION WAS GATHERED AND TRANSMITTED UNDERGRUUND (sic) TO AN UNKNOWN LOCATION X DOES LANGLEY KNOW ABOUT THIS? THEY SHOULD ITS BURIED OUT THERE SOMEWHERE X WHO KNOWS THE EXACT LOCATION? ONLY WW THIS WAS HIS LAST MESSAGE X THIRTY EIGHT DEGREES FIFTY SEVEN MINUTES SIX POINT FIVE SECONDS NORTH SEVENTY SEVEN DEGREES EIGHT MINUTES FORTY FOUR SECONDS WEST ID BY ROWS
+
+The KZ code text and plain text leads to the K1 key PALIMPSEST and the decryption of K1. The K1 plain text leads to the K2 key ABSCISSA and the decryption of K2. Does the K2 plain text hold clues to the K3 key?
+
+1) Mr. Sanborn has revealed that he arrived at the coordinates listed in the K2 plain text from a USGS marker located somewhat near the Kryptos Installation site. The USGS marker’s coordinates are pre-GPS coordinates, and therefore approximate. Mr. Sanborn most likely used a theotolite to arrive at the K2 coordinates, which could have enhanced any errors in the USGS coordinates. Circa 1990 (pre-GPS) it was unlikely that Mr. Sanborn anticipated people, 15 years in the future, to be using aerial photos of the CIA buildings to locate the coordinates to within a few feet. Therefore, there is a reasonable probability that the K2 coordinates were intended to point to the main Kryptos sculpture itself. Hence the K3 key is the sculpture itself: Kryptos. (The K2 key ABSCISSA also strengthens the coordinate interpretation.)
+[Mr. Sanborn has also stated in an interview that the coordinates could point to two locations. I can only assume that he means that if you follow the coordinate point normally through the center of the Earth that you will arrive at the other location on the other side of the planet. Perhaps someone could take that one on.]
+
+2) Mr. Sanborn has been coy when questioned about a possible object actually being buried on the CIA grounds. Mr. Scheidt has stated that he is unaware that anything has been buried on site. Given the intense security at the time of installation, I do not believe that anything is physically buried on site. I think that it is far more likely that the subterranean reference refers to a virtual burial in the code itself.
+
+3) The K2 plain text states that ONLY WW (KNOWS), which further supports this interpretation as William Webster was the only person that was given the decryption of Kryptos. Therefore, only Mr. Webster would know the location described in the plain text. Perhaps Mr. Sanborn had originally intended to give Mr. Webster the final section, which I presume holds text connecting the initial four sections.
+
+4) I propose that the Kryptos sculpture is intended to represent an antennae (Petrified Wood) transmitting(receiving) a sinusoidal magnetic wave (copper screen). The Small Pool is a representation of that wave being transmitted(received) outward to an unknown location. The terms UNDERGR(O)UND and BURIED could easily be interpreted as meaning Secretive or Subversive and Hidden or Masked, respectively. Again, an interpretation that points to the Kryptos code, not the physical grounds. (The fact that the sculpture is not at this time underground could also be interpreted as Kryptos in the future. If you consider the strata pieces with the Morse, these codes have been left in the past and actually become part of the strata of civilization. In the future Kryptos will be covered over by time, much like a cave man’s fire pit.)
+
+5) The structure of the courtyard and the Large Pool may have been intended to represent a mirror reflecting the signal either outward or inward. I would holistically interpret the whole sculpture site as a concentrating antennae GATHERING the information through time in through the front door and reflecting off the Large Pool into the Small Pool which is symbolically encoding the knowledge into the Kryptos code. 
+Conversely, the Petrified Tree represents the storage of knowledge in paper and the coded dissemination of that knowledge out through the entrance like a giant radio transmitter. 
+
+6) The last phrase in the K2 plain text, ID BY ROWS, has been interpreted by others sans this author as meaning that K3 should be decrypted using Columnar Transposition. I would reinterpret ID BY ROWS to be a clue to the K3 key, specifically, that ID BY ROWS indicates that the ROWS should be IDentified. Sean O’Neil's description of Columnar Transposition as it relates to K3 is quite informative as is his reference to the Army Crypto analysis Book. Further, the structure of the phrase ID BY ROWS reminds me of a rectangular measurement, 2 by 4, or 86 by 7.
+
+7) If you take our proposed K3 key KRYPTOS and apply our word search technique, you find once again that it appears two times. More prominently even in the center of the coded text.
+
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V
+J Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F
+D V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C
+E G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R
+R Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T
+I H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R
+E E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I
+D X F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R
+K F F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F
+Q E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R
+E D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K
+P D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T
+  G E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I
+A C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E T
+F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B T
+E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R
+I T R K L M L E H A G T D H A R D P N E O H M G F M F E U H E
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R
+
+Diagram 1 (KRYPTOS)
+
+8) The K3 key was reverse engineered by other sans this author as 1473625 (0362514) or the key word KOPRSTY. If you look at the alphabet, you find that the letter ordering of the letters in the word Kryptos is Koprsty. 
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+	I note also that the K in the word KRYPTOS in the center of the code text begins on row 11, which is the same placement as K in the alphabet. 
+
+9) Ed Scheidt has been quoted as saying, “The ‘key’ is the [encryption] algorithm.”  Therefore the K3 key is fully recovered by the method that was intended by the artist, and therefore the encryption method in revealed as well.
+
+V. Weapons Of Mass Decryption
+
+The third code of the main sculpture (K3) was “solved” with a brutal technological attack by others sans this author. The key had not been recovered properly. 
+	
+Kryptos K3 decrypted plain text (spaces added):
+
+SLOWLY DESPARATLY (sic) SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED WITH TREMBLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER AND THEN WIDENING THE HOLE A LITTLE I INSERTED THE CANDLE AND PEERED IN THE HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME TO FLICKER BUT PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X CAN YOU SEE ANYTHING Q?	
+
+Tutankhamen’s tomb was found, in a very obvious place, six years after Mr. Carter set off to become the most well known grave robber in all of history. Mr. Sanborn has stated that he was enthralled by the story of Tut tomb being discovered as a child and that he hoped to recreate that excitement of discovery with the Kryptos project. The K3 plain text paraphrases the salient moment. 
+	
+VI. Concerning Bibliomania
+
+When considering the possibility that the word search is partially or completely coincidental, I entertained that there was a high probability of finding one of the 26 letters of the alphabet in each row of the code and that I would find any word if I looked hard enough. But there are a few clues that suggest that these words are not random. If you look at the Diagrams, you will note that most of the letters seem to cluster in the lower section of the code; if you make up your own diagram and highlight all the known keyword letters in one diagram, the pattern is even more obvious. 
+
+I then entertained that the encryption method used for the K3 section might simply have a fuller frequency distribution and therefore again I would find any word I sought in the K3 code text (Column Transposition does preserve the natural English frequency whereas Substitution does not.) This is a possibility and I will leave the word search open to mere chance but I note that it is odd that only two instances of the keywords PALIMPSEST, ABSCISSA and KRYPTOS can be found. And curiously, the keyword KRYPTOS in the center of the code is only found if you return the coded section to the original matrix (the K is on the previous line in the sculpture text).
+
+Despite the possibility of the bibliomania, I feel reasonably confident that the artist intended and designed this word search into the code. Specifically that the K3 code text in particular is a Palindromic code, wherein the code encodes the plain text and plain text encodes the code text. This explains the large amount of paraphrasing in the K3 plain text when it is compared to the actual diary entry of Mr. Carter. Note that certain important phrases such as UPPER LEFT HAND CORNER are not used for any of the word search words.
+
+VII. K4 Update
+
+	I have discovered a few more interesting things and will publish them soon.

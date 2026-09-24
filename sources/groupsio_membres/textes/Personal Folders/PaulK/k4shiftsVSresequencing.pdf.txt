@@ -1,0 +1,318 @@
+[[page 1]]
+Before going any further, note that KRYPTOS = 1473625, and
+32514 is the same without the 7 and 6, but in the same order,
+otherwise. This is important as we need to hold to this regime.
+32514 DYAHR - 12345 HYDRA
+32514 DIAWI - 12345 WIDIA
+32514 INFBN - 12345 BNINF
+But remember:
+1234512345 WIDIAWIDIA has DIAWI (pos. 3-7)now shows a reversal 
+of values of the I and I. Same with INFBN, but with the N and N,
+instead.
+Working with DIAWI for now...
+DIAWA appears initially in K4 shift 0 in pos. 21-25. DIAWA 
+appears again at K4 shift 21, pos. 25-29, Assigning DIAWI values 
+14325 (instead of 12345 because of the reversals of the values 
+of the I and I) gives: 
+14325 DIAWI - 12345 DWAII 
+DWAII appears in pos. 26-30 in the 2nd row of K4, shift 16 (0-16).
+Now dealing with INFBN.
+The same thing happens with INFBN whose initial appearance is at
+K4 shift 5, 3rd row (pos. 21-25). It appears again at K4 shift 0
+in pos. 25-29 of third row. IBFNN appears in K4 shift 21 
+pos. 26-30, 2nd row.
+NOW...
+DIAWI appears initially in shift 0 of K4. With a K4 shift of 5, 
+the result is INFBN in the same position. INFBN does appear with 
+DIAWI in shift 0, but that does not appear to be the origin of 
+INFBN, but the result of a shift of -5 to K4 shift 0, pos. 25-30. 
+THEN as shift to K4 shift 21 occurs, resulting in the appearance 
+of IBFNN.
+Working With Clue Words and K4 Shifts
+Paul Kiesel   10/9/2018
+(See last page for K4 shifts)
+k4shiftsVSresequencing.pdf
+
+[[page 2]]
+SO...
+The scheme appears to be that, without looking further at K4,
+two strings, DIAWI and INFBN end up being converted to DWAII 
+and IBFNN, both of which end in doublets following this rule:
+  a. The original string appears in K4 in its original K4
+     shift (0-26), pos. 21-25. (DIAWI at shift 0, INFBN at 
+     shift 5)
+  b. The same string is then shifted to K4 shift (original   
+     shift -5). (DIAWI 0(26) - 5 = 21, INFBN 5 - 5 = 0)
+  c. A converted form of the same characters, but ending in a
+     doublet of the two common characters appears shifted 
+     again -5. (DWAII 21 - 5 = 16, IBFNN 0(26) - 5 = 21)
+In other words, the original string appears in positions 21-25
+of the third row of a K4 shift (0 through 25). It is then
+shifted a -5 K4 shift and appears in positions 25-29 of the
+third row. Finally, it appears after another -5 K4 shift in
+positions 26-30 of the 2nd row after having undergone a 
+transposition that reverses the values of the two similar 
+characters (places the second character in the fourth position
+and places the fourth character in the second position
+according to the rule that appears in the third paragraph on
+page 1.
+Now, it can be shown that this scheme occurs for all shifts
+of K4. IE, the string residing in the 3rd row, pos. 21-25,
+OXOOX, will, after two shifts and a transposition of the values
+in the Xes (2 and 4), will end up as OOOXX in Row 2, pos. 26-30.
+There will be two K4 shifts of -5 each.
+One has to ask, will the reverse occur if I take the ﬁrst 
+doublet and preceding 3 characters of K4 shift 0, LIFBB, and
+attempt to arrive at LBFIB by shifting +5 twice? The answer
+is NO. In fact this procedure does not work for any doublet-
+ended strings in K4 shift 0 except for the NGKSS string in the 
+2nd row, pos. 26-30. Reversing back from NGKSS, we arrive
+initially at K4 shift 10, pos. 21-25 (as we expected). 
+How about K4 shift 16 where DWAII lies? Will BHLGG produce
+BGLHG if we reverse the process? The answer is again NO. 
+Nor will any 5-character strings ending in doublets in 
+locations other than the 2nd row, pos. 26-30.
+
+[[page 3]]
+There is one odd occurrance where two strings exhibiting the
+structure OXOOX are together and oﬀset from the other by one 
+position. They are in K4 shift 0 starting at 3rd row, position
+3. They are TQSJQ and QSJQS. These sort of stood out as I was
+scanning everything looking for any cases where the OXOOX
+situation existed. I could ﬁnd no relationship between them and
+the other connections that I made.
+So, The bottom line at this point seems to be that the characters
+surrounding the CT implied to look for a way to complete Hoover’s
+name. A shift of 21 was applied that resulted in the OOH
+appearing. The positive result of this actually could have caused
+me to look at the adjacent letters around OOH. Together, they
+are QOOHUAKFR. However, I did a 21 shift of all of K4 and found
+DIAWI in another place. This made me want to see if other shifts
+got results. They did. A shift of 5 found INFBN, which I saw
+merged with DIAWI in the 0 shift of K4. This confused me at ﬁrst,
+as I was thinking that DIAWI and INFBN were related in a way 
+other than the Caesar shift of 5. IE a shift of 21 is encode and
+a shift of 5 is decode since 26 - 21 = 5. I now think INFBN was
+chosen as as clue to use shifts of 5. This caused me to arrive
+at a shift of 16 which had DWAII in it. I looked at the values
+and rationalized how DWAII could come from DIAWI and then 
+remembered the switching of the values of the I and I according 
+to what I discovered about lining up WIDIAWIDIA/1234512345, 
+getting DIAWI now worth 14325 instead of 12345. Now it made some 
+sense.
+Now, we have for all shifts of K4, An origin for a string in the
+form of OXOOX lying in pos. 21-25 of the 3rd row of K4 shift Y, 
+then a Y-5 K4 shift with OXOOX lying in pos. 25-29 of row 3, then
+a ﬁnal -5 K4 shift (to Y-10) but with a transposition of 
+characters to the form OOOXX in pos. 26-30 of the 2nd row. The 
+regime is valid for all 26 K4 shifts. But this scheme is valid
+only in the positions I mentioned above:
+Y - 0  OXOOX positions 21-25 in Row 3
+y - 5  OXOOX positions 25-29 in Row 3 (a K4 shift of -5)
+y - 10 OOOXX positions 26-30 in Row 2 (a K4 shift of -5)
+I don’t feel that DIAWI or INFBN are speciﬁcally pertinent. I
+think he used them to map out the shifts. Interesting that he
+identiﬁed them as relating to Hoover, which conﬁrmed that
+solving for OOH on the outset was essentially a necessary step
+in moving forward.
+
+[[page 4]]
+What to consider as the next step? After manipulating with
+two shifts and a transposition resulting in strings ending
+in doublets, I would have thought that keeping the doublets 
+out of the resulting substitution routine would be prudent. 
+But we don’t know what K4 CT says except for NYPVTTMZFPK says
+BERLINCLOCK. And the TT corresponds with the SS in ABSCISS
+(since a Z has replaced the ? at the front of K4 CT).
+Three things are going on that show up involving shifts of 5.
+1. Out of all 26 shifts of K4 (0 through 25), ﬁve positive
+   shifts have been chosen as original positions:
+   a. The original position of DIAWI is at shift 0.
+   b. The original position of INFBN is at shift 0 + 5 = 5.
+   c. The original position of NSKGS is at shift 5 + 5 = 10.
+2. Out of all 26 shifts of K4 (0 through 25), SHIFTS OF -5
+   from original positions have been chosen as
+   intermediate positions (numbers below are shifts):
+   a. The intermediate position of DIAWI is at a shift
+      of -5 from the original position 0(=26), 26 - 5 = 21.
+   b. The intermediate position of INFBN is at shift of
+      -5 from the original position 5, 5 - 5 = 0.
+   c. The intermediate position of NSKGS is at a shift
+      of -5 from the original position 10, 10 - 5 = 5.
+3. Out of all 26 shifts of K4 (0 through 25), SHIFTS OF -5
+   from intermediate positions have been chosen
+   as destination positions and their strings have undergone 
+   transpositions from 12345 to 14325.
+   a. The destination position of DIAWI and transposition to
+      DWAII is at a shift of -5 from the intermediate
+      position of 21, 21 - 5 = 16.
+   b. The destination position of INFBN and transposition to
+      IBFNN is at a shift of -5 from the intermediate 
+      position of 0(=26), 26 - 5 = 21.
+   c. The destination position of NSKGS and transposition to
+      NGKSS is at a shift of -5 from the intermediate
+      position of 5, 5 - 5 = 0.
+See the chart of all 24 K4 shifts on the following page.
+
+[[page 5]]
+0
+ZOBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+0
+ZOBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+1
+APCLS
+VPYPHIVMCTPMJGCCXGMSWRRQSOHLTTP
+UXURTKRTTFLAAXBUKLMVEJBXJOGCOZQ
+WUUNAGQLXHELAYUKDEJHLVIVBVFLDBS
+2
+BQDMT
+WQZQIJWNDUQNKHDDYHNTXSSRTPIMUUQ
+VYVSULSUUGMBBYCVLMNWFKCYKPHDPAR
+XVVOBHRMYIFMBZVLEFKIMWJWCWGMECT
+3
+CRENU
+XRARJKXOEVROLIEEZIOUYTTSUQJNVVR
+WZWTVMTVVHNCCZDWMNOXGLDZLQIEQBS
+YWWPCISNZJGNCAWMFGLJNXKXDXHNFDU
+4
+DSFOV
+YSBSKLYPFWSPMJFFAJPVZUUTVRKOWWS
+XAXUWNUWWIODDAEXNOPYHMEAMRJFRCT
+ZXXQDJTOAKHODBXNGHMKOYLYEYIOGEV
+5
+ETGPW
+ZTCTLMZQGXTQNKGGBKQWAVVUWSLPXXT
+YBYVXOVXXJPEEBFYOPQZINFBNSKGSDU
+AYYREKUPBLIPECYOHINLPZMZFZJPHFW
+6
+FUHQX
+AUDUMNARHYUROLHHCLRXBWWVXTMQYYU
+ZCZWYPWYYKQFFCGZPQRAJOGCOTLHTEV
+BZZSFLVQCMJQFDZPIJOMQANAGAKQIGX
+7
+GVIRY
+BVEVNOBSIZVSPMIIDMSYCXXWYUNRZZV
+ADAXZQXZZLRGGDHAQRSBKPHDPUMIUFW
+CAATGMWRDNKRGEAQJKPNRBOBHBLRJHY
+8
+HWJSZ
+CWFWOPCTJAWTQNJJENTZDYYXZVOSAAW
+BEBYARYAAMSHHEIBRSTCLQIEQVNJVGX
+DBBUHNXSEOLSHFBRKLQOSCPCICMSKIZ
+9
+IXKTA
+DXGXPQDUKBXUROKKFOUAEZZYAWPTBBX
+CFCZBSZBBNTIIFJCSTUDMRJFRWOKWHY
+ECCVIOYTFPMTIGCSLMRPTDQDJDNTLJA
+10
+JYLUB
+EYHYQREVLCYVSPLLGPVBFAAZBXQUCCY
+DGDACTACCOUJJGKDTUVENSKGSXPLXIZ
+FDDWJPZUGQNUJHDTMNSQUEREKEOUMKB
+11
+KZMVC
+FZIZRSFWMDZWTQMMHQWCGBBACYRVDDZ
+EHEBDUBDDPVKKHLEUVWFOTLHTYQMYJA
+GEEXKQAVHROVKIEUNOTRVFSFLFPVNLC
+12
+LANWD
+GAJASTGXNEAXURNNIRXDHCCBDZSWEEA
+FIFCEVCEEQWLLIMFVWXGPUMIUZRNZKB
+HFFYLRBWISPWLJFVOPUSWGTGMGQWOMD
+13
+MBOXE
+HBKBTUHYOFBYVSOOJSYEIDDCEATXFFB
+GJGDFWDFFRXMMJNGWXYHQVNJVASOALC
+IGGZMSCXJTQXMKGWPQVTXHUHNHRXPNE
+14
+NCPYF
+ICLCUVIZPGCZWTPPKTZFJEEDFBUYGGC
+HKHEGXEGGSYNNKOHXYZIRWOKWBTPBMD
+JHHANTDYKURYNLHXQRWUYIVIOISYQOF
+15
+ODQZG
+JDMDVWJAQHDAXUQQLUAGKFFEGCVZHHD
+ILIFHYFHHTZOOLPIYZAJSXPLXCUQCNE
+KIIBOUEZLVSZOMIYRSXVZJWJPJTZRPG
+16
+PERAH
+KENEWXKBRIEBYVRRMVBHLGGFHDWAIIE
+JMJGIZGIIUAPPMQJZABKTYQMYDVRDOF
+LJJCPVFAMWTAPNJZSTYWAKXKQKUASQH
+17
+QFSBI
+LFOFXYLCSJFCZWSSNWCIMHHGIEXBJJF
+KNKHJAHJJVBQQNRKABCLUZRNZEWSEPG
+MKKDQWGBNXUBQOKATUZXBLYLRLVBTRI
+18
+RGTCJ
+MGPGYZMDTKGDAXTTOXDJNIIHJFYCKKG
+LOLIKBIKKWCRROSLBCDMVASOAFXTFQH
+NLLERXHCOYVCRPLBUVAYCMZMSMWCUSJ
+19
+SHUDK
+NHQHZANEULHEBYUUPYEKOJJIKGZDLLH
+MPMJLCJLLXDSSPTMCDENWBTPBGYUGRI
+OMMFSYIDPZWDSQMCVWBZDNANTNXDVTK
+20
+TIVEL
+OIRIABOFVMIFCZVVQZFLPKKJLHAEMMI
+NQNKMDKMMYETTQUNDEFOXCUQCHZVHSJ
+PNNGTZJEQAXETRNDWXCAEOBOUOYEWUL
+21
+UJWFM
+PJSJBCPGWNJGDAWWRAGMQLLKMIBFNNJ
+OROLNELNNZFUURVOEFGPYDVRDIAWITK
+QOOHUAKFRBYFUSOEXYDBFPCPVPZFXVM
+22
+VKXGN
+QKTKCDQHXOKHEBXXSBHNRMMLNJCGOOK
+PSPMOFMOOAGVVSWPFGHQZEWSEJBXJUL
+RPPIVBLGSCZGVTPFYZECGQDQWQAGYWN
+23
+WLYHO
+RLULDERIYPLIFCYYTCIOSNNMOKDHPPL
+QTQNPGNPPBHWWTXQGHIRAFXTFKCYKVM
+SQQJWCMHTDAHWUQGZAFDHRERXRBHZXO
+24
+XMZIP
+SMVMEFSJZQMJGDZZUDJPTOONPLEIQQM
+RUROQHOQQCIXXUYRHIJSBGYUGLDZLWN
+TRRKXDNIUEBIXVRHABGEISFSYSCIAYP
+25
+YNAJQ
+TNWNFGTKARNKHEAAVEKQUPPOQMFJRRN
+SVSPRIPRRDJYYVZSIJKTCHZVHMEAMXO
+USSLYEOJVFCJYWSIBCHFJTGTZTDJBZQ
+K4 (Plus Z) Caesar Shifts 
+QOOHUAKFR Note: Beginning Q answers
+question at end of K3 CT. OOH is
+missing part of Hoover’s name as 
+one travels around the corners of
+the ciphertext on the sculpture. 
+The Q + UAKFR approximates the word
+QUAKER.
+REKUPBLIPECYOHIN approximates the
+word REPUBLICAN.
+Herbert Hoover was a QUAKER and a
+REPUBLICAN. Not J. EDGAR, but 
+Herbert is Sanborn’s ﬁrst name.
+The above is evidence that the 
+forgoing procedures were done 
+correctly.
+Important: Subsequent analysis has demonstrated
+that, in the zero-shift version, DIAWI lies “fully
+exposed”, INFBN is “subtly shaded” and NGKSS,
+the “nuance of illusion”, lies between subtle shading
+and nothingness  (the absence of light). The 
+implication here is to locate the version of this string 
+that lies in the fully exposed position, the position
+that DIAWI occupies in the zero-shift version. This 
+location  is found in the shift of 10 which begins with 
+JYLUB.

@@ -1,0 +1,563 @@
+[[page 1]]
+?
+O
+B
+K
+R U O
+K 4
+X
+O G H U
+L
+B
+T H E
+S
+O
+L
+I
+F
+B
+B
+K R Y P T O S
+W F
+L
+R
+V Q Q
+P A L
+I M P S E S T
+P
+R N G
+K
+S
+S
+O
+T W T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+W A
+T
+J
+K
+L
+U
+D
+I
+A W
+I
+N
+F
+B N
+Y
+P
+V
+T
+T
+M Z
+F
+P
+K W G
+D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U H U
+A U
+E
+K
+C
+A
+R
+?
+O
+B
+K
+R U O
+?
+O
+B
+K
+R U O
+X
+O G H U
+L
+B
+X
+O G H U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+S
+O
+L
+I
+F
+B
+B
+W F
+L
+R
+V Q Q
+W F
+L
+R
+V Q Q
+P
+R N G
+K
+S
+S
+P
+R N G
+K
+S
+S
+O
+T W T
+Q
+S
+J
+Y
+P
+C
+A
+E
+S
+A
+R
+N
+E
+O
+T W T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+F
+P
+S
+H
+I
+F
+T
+1
+5
+U
+E
+Q
+S
+S
+E
+K
+Z
+Z
+W A
+T
+J
+K
+L
+U
+W A
+T
+J
+K
+L
+U
+A D D M B
+D W Q O
+P W S
+X
+?
+D
+I
+A W
+I
+N
+F
+D
+I
+A W
+I
+N
+F
+U
+I
+K
+Z
+N
+I
+A
+S
+T
+R
+F
+O O O
+B N
+Y
+P
+V
+T
+T
+V
+T
+C
+A
+E
+S
+A
+R
+N
+L
+B N N
+E
+N
+L
+T
+E
+G
+Z
+U N A
+T
+S W N
+L
+L
+G
+B
+M Z
+F
+P
+K W G
+K W
+S
+H
+I
+F
+T
+1
+8
+C O
+M Z
+U
+E
+C O G
+K
+K
+X
+E
+E W J
+E
+T
+G
+R
+I
+H
+K
+D
+K
+Z
+X
+T
+J
+C
+D
+K
+Z
+X
+T
+J
+C
+C
+U
+T
+C N
+I
+K
+K
+Q K
+V
+F
+U
+R
+D
+I
+G
+K
+U H U
+D
+I
+G
+K
+U H U
+A H
+J
+O
+L
+N
+L
+Z
+S
+S
+Q B
+L
+U
+A U
+E
+K
+C
+A
+R
+A U
+E
+K
+C
+A
+R
+R U
+C
+G
+T
+F
+U
+Z
+J
+S
+Q B
+B O
+U
+E
+E
+N
+C O
+L
+N
+C
+T
+P
+T
+A D D M B
+D W Q O
+P W S
+X
+?
+M
+C
+A D D M B
+D W Q O
+P W S
+X
+?
+U
+I
+K
+Z
+N
+I
+A
+S
+T
+R
+F
+O O O
+Z
+N
+L
+B
+U
+I
+K
+Z
+B
+I
+A
+S
+T
+R
+F
+O O O
+E
+G
+Z
+U
+Y
+A
+T
+S W N
+L
+L
+G
+B
+U
+Y
+O
+E
+E
+G
+Z
+F
+E
+A
+T
+S W N
+L
+L
+G
+B
+K
+K
+X
+E
+P W J
+E
+T
+G
+R
+I
+H
+K
+E
+P
+C
+R
+K
+K
+X
+P
+R W J
+E
+T
+G
+R
+I
+H
+K
+C
+U
+T
+C
+N
+I
+K
+K
+Q K
+V
+F
+U
+R
+C
+N
+K
+L
+C
+U
+T
+C
+L
+I
+K
+K
+Q K
+V
+F
+U
+R
+A H
+J
+O
+L
+N
+L
+Z
+S
+S
+Q B
+L
+U
+L
+I
+A H
+J
+O
+I
+N
+L
+Z
+S
+S
+Q B
+L
+U
+R U
+C
+G
+T
+F
+U
+Z
+J
+S
+Q B
+B O
+T
+N
+R U
+C
+G N
+F
+U
+Z
+J
+S
+Q B
+B O
+Begin by padding K4 CT into 
+7 columns and 14 rows
+1st Layer Decipherment
+(Caesar Shift)
+Rotate 90 degrees into 
+14 columns and 7 rows
+2nd Layer Decipherment
+(Keyed Vigenere?/Unknown)
+*the known BERLIN/CLOCK plaintext is used
+1st set of plaintext:  COLN
+2nd set of plaintext:  BERLIN
+I believe K4 contains two seperate sets 
+of plaintext.  The 2nd set of plaintext is 
+written atop the 1st set.
+The 1st set of plaintext combined with 
+the 2nd set of plaintext reveal: LINCOLN
+I have only used a sample of characters for 
+this attempt.  I am convinced by these 
+findings that K4 contains two seperate 
+messages.  When combined, the two 
+messages are related to each other.  This is 
+not a full solution attempt, but only a 
+proposed partial method of decipherment 
+of K4.  
+- Nicholas C. LaMey 6.29.2016
+Q? 
+LIN?

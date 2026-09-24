@@ -1,0 +1,91 @@
+[[page 1]]
+I have irrefutable evidence that Mengenlehreuhr is The Berlin Clock. I have developed and shown this evidence in my ﬁles. I 
+would not have jumped in and stated this in my message, after Sanborn stated otherwise, unless I was certain about it. There 
+are clues in K0 and K4 relating to this: In K0, DIGE TAL INTERPRETATI(ON) and in K4: As you pad K4+Z into seven 
+columns, you see DIGE UHR (digital clock) in distinct clusters in the bottom two rows. (I have already shown that the ﬁrst 
+action taken on K4 is to add a Z to the front, so a full 7-column matrix is displayed.) Notice that the E in DIGE is the same E as 
+in BERLINCLOCK per Sanborn's clue! Notice also that three of the Ks in column 5 correspond to Ks as shown in the keyword 
+THEBERLINCLOCK and are clues to that eﬀect. (The other K is part of KLU which indicates a clue regarding DIAWINFBN.) 
+This keyword is used in solving K4.
+Z O B K R U O
+X O G H U L B
+S O L I F B B
+W F L R V Q Q
+P R N G K S S
+O T W T Q S J
+Q S S E K Z Z
+W A T J K L U 
+D I A W I N F
+B N Y P V T T
+M Z F P K W G
+D K Z X T J C
+D I G K U H U
+A U E K C A R
+Layout of Keyword THEBERLINCLOCK:
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+Another word used in solving K4 is MENGENLEHREUHR. The keyword is lined up to have letters ENGEN correspond to 
+QSJQS that appear in K4+Z in rows 6 and 7 as they have the same structure XYZXY. (Yes, it took me a while to ﬁgure that 
+out.)
+E N L E H R E 
+U H R M E N G
+E N L E H R E 
+U H R M E N G
+E N L E H R E 
+U H R M E N G
+E N L E H R E 
+U H R M E N G
+E N L E H R E 
+U H R M E N G
+E N L E H R E 
+U H R M E N G
+E N L E H R E 
+U H R M E N G
+One would have to view my ﬁle SIDE-BY-SIDE to see where these keywords are used.
+So, it's irrefutable that Mengenlehreuhr is THEBERLINCLOCK.
+Z O B K R U O
+X O G H U L B
+S O L I F B B
+W F L R V Q Q
+P R N G K S S
+O T W T Q S J
+Q S S E K Z Z
+W A T J K L U 
+D I A W I N F
+B B E R L I N
+C L O C K W G
+D K Z X T J C
+D I G K U H U
+A U E K C A R
+Analysis of K4 following the Sanborn release
+of the BERLINCLOCK clues quickly shows
+that BERLINCLOCK is part of a 14-character
+keyword. The keyword is THEBERLINCLOCK.
+Take notice that this keyword is not used until
+several steps have been taken into K4.
+The Z added to the front of K4 was derived
+via analysis of K2 and K3 plaintexts along
+with analysis of the shifts of ABSCISSA
+keyword used on the DOORWAY text of
+K2 ciphertext, which is the last 120 characters
+of K2 ciphertext as arranged in a 12 by 10
+matrix (paying particular attention to rows
+9 and 10 and especially what letters appear
+in the 9th position from the end of row 10 of 
+the matrices). Notice that appending the Z to 
+the front of K4 is implied by Kryptos. It is the
+ﬁrst step in solving K4!
+Paul Kiesel
+11/15/2025

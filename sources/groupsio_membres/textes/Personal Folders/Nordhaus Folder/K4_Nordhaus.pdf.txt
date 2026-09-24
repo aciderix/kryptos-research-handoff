@@ -1,0 +1,64 @@
+[[page 1]]
+K4 — Homophonic + Steganography Cipher
+Dr. Jason Nordhaus
+nordhaus@astro.rit.edu
+
+[[page 2]]
+Tableau
+
+[[page 3]]
+With 
+backwards 
+alphabet, 
+plaintext 
+(assuming 1-
+to-1) is coming 
+from 12 lines.
+
+[[page 4]]
+Gives a 7 sequence 
+YAR grouping + a 5 
+sequence DH 
+grouping.
+
+[[page 5]]
+Probability of obtaining this YAR 
++ DH grouping if randomly 
+drawing from Tableau:
+p ⇠
+✓9
+13
+◆7
+⇥
+✓4
+13
+◆5
+⇥
+✓9
+13
+◆8
+⇥
+✓4
+13
+◆4
+p ⇠10−7
+Where are these YAR + DH 
+sequences from?  The K1-K3 
+cipher text.
+
+[[page 6]]
+ARAARAY is the first 7 “YAR” 
+sequence in K2 backwards
+ARYYYYA is not on the 
+horizontal sequence but IS on 
+the vertical sequence (5th line 
+down).
+93 distinct horizontal length 7 YAR 
+sequences on statue.  92 distinct 
+vertical length 7 YAR sequences 
+on statue. 
+2187 possible sequences. 
+p(drawing 2) = (93/2187)*(92/2187) 
+~ 0.17%
+
+[[page 7]]

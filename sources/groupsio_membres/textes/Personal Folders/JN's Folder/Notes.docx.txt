@@ -1,0 +1,20 @@
+## word/document.xml
+ 
+ Notes: I generally avoid going into a lot of detail on my thoughts, but it seems worthwhile to provide some insight into the process so it doesn’t seem like quite so random a hodgepodge. Relevant: 
+ I’ve pointed out elsewhere that I’m approaching Kryptos from the artistic side because I believe that there are internal clues meant to help the viewer solve the parts of Kryptos , evidenced by Sanborn’s stated them of Intelligence Gathering. Too, there is the idea of what Kryptos Exhibit is meant to represent beyond simply four cryptographic puzzles to solve. I refer loosely to “rabbit holes” but while I draw on free association to grant myself a wider scope of ideas to choose from, my process has winnowed to researching specific concepts that I believe are pertinent at the current time. These include: The USGS, WWII, cryptographic styles, RAYs, magnetic striping and geomagnetic reversal, as well as some other related concepts. 
+ Recently another member pointed out an acrostic from the K1 solution, and I promptly anagrammed it. Incorrectly, as it turns out, but in what may still be a relevant way. I understand there’s an issue with anagramming, but I’ll point out here that what was done was SPECFIICALLY an acrostic, not an anagram…. And acrostics, at least in cryptography, are a form of very old cipher. If accurate, K1 represents a very simple kind. Specfiically : 
+ NULL CIPHERS: They’re basically a mix of CT and PT, alternatively called concealment ciphers, and steganographic in nature. They’re specifically designed to foil ciphertext attacks. That’s the basics and this is not an anagram simply pulled from nowhere. 
+ That said, AS BALLOONIST was an incorrect variation, missing a T. A more appropriate variant might be T IS SAT BALLOON. There’s a rabbit hole for you, and one that spreads wide. 
+ One of the things I’ve been looking for is a shared theme in the PT for K1 to K3 and possibly K4. I got RAYs and magnetic striping that way (leading lines, diagonal coordinates and the striped mask of tut) among other things, and the BALLOON idea opened up a startling new path. 
+ K1 – BTSSATAOLLTNOI T IS SAT BALLOON 
+ K2 – The USGS marker and Berlin Wall. The former is noted for the use of weather balloons while the later is noted for a historic hot air balloon escape. 
+ K3 – Howard Carter’s partner, the Earl of Carnarvon – Carnarvon is noted as being the site of the world first hot air balloon launch. 
+ K4 is more speculative. 
+ There’s a concept known as a crib/kiss that most people are aware of. The PRNG string in K3 and K4 has been noted. If taken as a kiss, the CT letters PRNG turn to the PT of LOWE 
+ There’s another name for the carriage clock, specifically a “berlin clock” alternatively berline clock. There is a notable carriage clock as the Pasadena Museum of history that belonged to Thaddeus Lowe and his wife. 
+ Who is Thaddeus Lowe? The engineer of the first military hot-air balloons in the USA during the civil war, and a member of the ill-fated US Balloon Corps. He apparently has a small section at least in the kid’s area at the CIA campus. He was also a contemporary of Graf von Zeppelin and the inspiration for said zeppelins. 
+ So here’s a different take on striping and reversals. 
+ Perhaps the RAYs represent hot air in the theme? 
+ 
+ 
+ 

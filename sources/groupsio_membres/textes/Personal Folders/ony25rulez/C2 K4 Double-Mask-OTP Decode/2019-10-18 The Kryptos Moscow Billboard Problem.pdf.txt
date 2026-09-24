@@ -1,0 +1,147 @@
+[[page 1]]
+Page 1 of 3 
+ 
+The Kryptos Moscow Billboard Problem 
+Hypothesizing an approach to decrypt K4 (October 18, 2019) 
+ “How do you put Kryptos on a billboard in Moscow, so it means something?” – 2011 
+DC Gather (Elonka Dunin 2011 dinner notes) 
+The literal interpretation is putting the 7 characters “KRYPTOS” on a billboard in Moscow. Cryptically 
+speaking, Mr. Scheidt has revealed several clues on approaching K4 after the billboard problem is 
+fundamentally understood. Imagine during the Cold War an encoded message from Langley has to be 
+sent to a Moscow operative in deep cover. The only way to send the message is through a public 
+billboard that can be seen and analyzed by the Russian government. Armed with only pencil and 
+paper, what is the minimum decryption steps required to thwart Russian computational brute force 
+yet have the operative execute an analog decryption?  
+To simplify the problem, some assumptions are made: 
+1. The message will be KRYPTOS (English characters only for simplicity) in a single billboard 
+2. Russian intelligence can also see the billboard and have unlimited computing power 
+3. Langley will deliver the message in the future and there is no contact between the operative 
+and headquarters (Langley) implying only basic cryptographic skills for substitution and 
+transposition required 
+4. The operative can only decrypt with pencil and paper 
+5. Ciphertext is vulnerable to brute force when 
+a. Single substitution step OR 
+b. Single transposition step 
+The questions to be answered: 
+i. 
+What is the minimum number of decoding steps (substitution/transposition) to thwart 
+brute forcing? 
+ii. 
+What is the minimum number of keys that must also be distributed on the billboard? 
+AND 
+iii. 
+If the operative was compromised, what additional countermeasures could be employed 
+(i.e. masking)? 
+Important terms: 
+Substitution ciphers – where a plaintext character is replaced by another character and the position of the character is 
+preserved 
+Conventional substitution – utilizes a standard Vigenère tabula recta for encryption/decryption requiring only a key 
+Unconventional substitution – the decoding tableau (tabula recta) is altered requiring both key(s) and the modified 
+tableau  
+Transposition ciphers – where all plaintext characters are unchanged BUT may change position; a key is optional 
+Key – the fundamental component used in a cryptographic algorithm that may transform plaintext into ciphertext or 
+ciphertext into plaintext 
+Masking – a destructive and irreversible encryption process that removes characters 
+
+[[page 2]]
+Page 2 of 3 
+ 
+Summary of Decryption Steps 
+ 
+Decryption sequence 
+Number of keys and/or deciphering tableau 
+Vulnerable to brute 
+force 
+Single 
+Step 
+Substitution 
+Conventional polyalphabetic: 1 key 
+Unconventional polyalphabetic: 1 key plus tableau 
+Yes to all 
+Transposition 
+0 if self-explanatory, or 1+ if more difficult 
+Yes due to plaintext 
+being scrambled 
+Double Step 
+Double substitution 
+Conventional polyalphabetic: 2 keys 
+Unconventional polyalphabetic: 2 keys plus tableau 
+Yes due to 
+fundamentally being 
+a single substitution 
+in aggregate 
+Double transposition 
+2+ keys if multiple algorithms 
+Yes due to 
+fundamentally being 
+a single transposition 
+in aggregate 
+Substitution then transposition* 
+Conventional polyalphabetic: 1 key (special case) or 2 keys 
+Unconventional polyalphabetic: 2 keys plus tableau 
+Yes* for special case 
+No 
+Transposition then substitution* 
+Conventional polyalphabetic: 1 key (special case) or 2 keys 
+Unconventional polyalphabetic: 2 keys plus tableau 
+No 
+ 
+Special Case Double Decryption Steps 
+Substitution then transposition (1 key) – the key would both provide the substitution and 
+transposition algorithm (i.e. 7-5-7-5-7 could indicate odd characters shift 7 and even characters shift 
+5 and then rearrange to a matrix of 7-5-7-5-7). If the Russians were able to infer either substitution 
+or transposition from the key, then the corresponding substitution/transposition could be brute 
+forced. 
+Transposition then substitution (1 key) – this is a special case scenario where the ciphertext is also 
+the substitution (conventional) key after transposition. The plaintext is recovered after the 
+transformed ciphertext is used to decode the original ciphertext with conventional substitution 
+decryption methods (XOR, Vernam, OTP, Vigenère tabula recta, running key, etc.) 
+Ciphertext: 
+ 
+ 
+KRYPTOS 
+Transposed ciphertext: 
+RKYOTPS 
+(conventional substitution decrypt) 
+Decoded plaintext: 
+ 
+THABAZA 
+This could possibly result in “The Baza (cuckoo-hawk)” as a codename. From the table above, the 
+decryption steps that would best thwart brute forcing and has the minimum number of keys is the 
+special case scenario of transposition then substitution to decode. 
+Masking 
+Unlike substitution ciphers which replace one character for another, masking is an irreversible 
+process that removes characters without fundamentally changing the position of the plaintext. The 
+destructive nature would also imply that this would be done at the plaintext level. For encryption, 
+this would be done first, and for decryption it would end up as some form of concealment as some 
+English character statistics would be altered. If it were applied to the ciphertext or intermediaries, it 
+may compromise the integrity of the ciphers and plaintext in its totality. 
+ 
+ 
+
+[[page 3]]
+Page 3 of 3 
+ 
+Codenames (Nicknames) 
+In addition to masking, having a codename would also provide an extra layer of protection if it was 
+referring to the name of a target or asset. For example, TRIGON refers to Aleksandr Ogorodnik during 
+the Cold War. 
+Conclusion 
+The crux of the Moscow Billboard problem lies with the number of encryption steps and the quantity 
+of keys that also need to be delivered. When the quantity of ciphers is increased, the number of keys 
+may also increase. With a single billboard, it becomes increasingly difficult to include the keys and/or 
+deciphering tableau without garnering the attention of Russian Intelligence. 
+If the analysis of Moscow Billboard is analogous to the K4 section of Kryptos, then the encoding of K4 
+would be masking, substitution, then transposition. Conversely the decrypting steps of K4 would 
+then involve: 
+1. Transposition of ciphertext to produce the substitution key 
+2. Substitution decryption using transposed ciphertext 
+3. Analysis of masked plaintext 
+Generally speaking, the method being described is a form of asymmetrical public key cryptography 
+where the user has to reassemble the decryption key from transforming the ciphertext to then apply 
+a substitution decryption process. 
+To decode manually, this would require a circular process of transforming K4 ciphertext then 
+decrypting K4 from the transformed substitution key. Fortunately, Jim Sanborn did offer two words 
+for a partial crib: BERLIN and CLOCK. If the Moscow Billboard steps are used the K4 ciphertext 
+characters NYPVTTMZFPK can be decrypted with MUYKLGKORNA using a standard polyalphabetic 
+substitution (XOR, Vernam, OTP, Vigenère Tabula Recta, running key, etc.). 

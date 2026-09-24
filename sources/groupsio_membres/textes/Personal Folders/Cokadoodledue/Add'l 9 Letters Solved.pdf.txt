@@ -1,0 +1,105 @@
+[[page 1]]
+This letter string was found in the solution to K0. After trying it across the entire 
+Key (not including spaces 64 to 74), these 2 places were the only locations, which 
+did NOT provide gibberish as output! Upon careful reflection, I determined the
+string starting at space 77 was the most like the Sanborn plain text that we have 
+seen so far! This format includes a "q" denoting a question prior to this string,
+a misspelling, a lack of acronyms AND a corresponding one-to-one relationship
+between the cipher text and the plain text!!
+**VIABLE "ETRANSEWJ" STRINGS
+@77
+@78
+E
+T
+R
+A
+N
+S
+E
+W
+J
+E
+T
+R
+A
+N
+S
+E
+W
+J
+4
+19 17
+0
+13 18
+4
+22
+9
+4
+19 17
+0
+13 18
+4
+22
+9
+N
+I
+N
+G
+U
+N
+S
+O
+L
+I
+N
+G
+U
+N
+S
+O
+L
+V
+13
+8
+13
+6
+20 13 18 14 11
+8
+13
+6
+20 13 18 14 11 21
+16 11
+4
+19 18
+5
+11
+8
+23
+21
+6
+11
+5
+0
+0
+15 11 13
+q
+l
+e
+t
+s
+f
+l
+i
+x
+v
+g
+l
+f
+a
+a
+p
+l
+n
+77 78 79 80 81 82 83 84 85
+78 79 80 81 82 83 84 85 86
+**PREFERRED ONE!!

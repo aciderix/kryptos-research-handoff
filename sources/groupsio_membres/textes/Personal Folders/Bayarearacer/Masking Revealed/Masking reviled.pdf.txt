@@ -1,0 +1,126 @@
+[[page 1]]
+Masking reviled 
+The clues from Jim: 
+"The masking technique may not be [a known technique]...  That's part of the puzzle I told [Jim] 
+I would keep secret." - Excerpt from interview in Wired Magazine. 
+"I used a bit of stego when designing the fourth part of Kryptos." - Excerpt from 
+cryptography discussion. 
+Standing waves are the result of two sinusoidal waves of the same frequency in a common 
+medium traveling in opposite directions.  The displacement of each wave has a combined affect 
+that produces the superposition of a stationary wave. 
+ 
+It may be easier to visualize three separate waves.  The first wave (above) appears to be 
+traveling in a horizontal direction while the second wave is traveling in the opposite 
+direction.  The two waves do not collide; rather the amplitude of each at any given moment is 
+combined into the effect of a single amplitude resulting in the standing wave.  If the troughs 
+and crests of the traveling waves range in maximum displacement of -1 to +1 unit, the troughs 
+and crests of the standing wave will have a maximum displacement of -2 to +2 units. 
+ 
+From the outside of the cylinder, all text would be legible and the only viewpoint rendering 
+backward text would be from the center of the cylinder, and you would have to be in a pool of 
+standing waves.  
+Not only does superposition occur in the pool of water; it occurs in K3 of the copperplate (the 
+third passage which is located in the bottom half of the cipher text side).  The position of three 
+of the characters are superscript or super-positioned.  In fact, those characters are Y, A, 
+and R consecutively. 
+ 
+spatial systems of encoding and decoding 
+*********************************************** End of Clues 
+ 
+This is the key clue on how to find the mask. 
+ 
+The mask is reviled by turning the text on its side. If you use a 1 for a letter is present and a zero 
+for no letter present, you get 28 four bit nibbles of binary data. This is the mask control. 
+In 4 bit nibbles it is: E033337333137337313337131713 
+The clue to extract the mask is from the Morse T is your position. The first letter out of place is the T, so I 
+started extraction from there. 
+ 
+The other part that is raised is also binary, the D YAHR This is 0 “1101” This is the 
+other part, I will call the mask. 
+
+[[page 2]]
+Now how to apply the mask is the next part. So we have two parts a 
+control that tells us whether to apply the mask or not, and the mask 
+itself. The mask control can be binary 1=yes apply mask, 0=no do not 
+apply mask.  
+Then how to apply the mask, it can be XOR with the alphabet then 
+modulo26 added to the cipher, cipher can be xor with the mask and 
+added modulo26 added. It can indicate to use alphabet 0 or alphabet 2 
+Many ways. It can be nibbles that are shift values. 
+Then we have 2 alphabets One being the one with the L since its out of 
+spatial context. 
+GHIJLMNQUVWXZKRYPTOSABCDEF   GHIJ L --- 
+KRYPTOSABCDEFGHIJLMNQUVWXZ 
+ 
+This can then be a alberti cypher with two wheels keeping with 
+the idea of clocks. Then the mask can be to use alphabet 0 or 1 
+to decode. 
+ 
+Many possibilities to still go thought yet. 
+But I feel confident with the mask, and the mask control extraction. 
+So the way to solve is much easier now as we have a way to unmask the data. 
+On the encryption I don’t think it’s the same technique. He would use something different here keeping 
+with the visual clues. So I like the rings, but another clue is there to tell us what it is. 
+So that’s it for now what do you think. 
+ 
+ 
+ 
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ 
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD 
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE 
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG 
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA 
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR 
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI 
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE 
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX 
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF 
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ 
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE 
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP 
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT 
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO 
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS 
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA 
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB 
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC 
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD 
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE 
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF 
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG 
+
+[[page 3]]
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP 
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG 
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH 
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI 
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA 
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE 
+TPRNGATIHNRARPESLNNELEBLPIIACAE 
+WMTWNDITEENRAHCTENEUDRETNHAEOE 
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR 
+EIFTBRSPAMHHEWENATAMATEGYEERLB 
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI 
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB 
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT 
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE 
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL 
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL 
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM 
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN 
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ 
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU 
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV 
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW 
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX 
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ 
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK 
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR 
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY 
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD 
+ 

@@ -1,0 +1,6 @@
+[[page 1]]
+Tabulation of modulo-26 calculations was done on cipher-text to find repeated patterns.
+Frequency distribution of distances between pattern repetitions of letters, digraphs and trigraphs.
+Minima occurred periodically on average of 9.
+Plot of tabulated distances factored as compared to all possible factors. Expected graph was scaled x2.
+There is definite peak at 11 with obvious trough at 9 and lesser dip at 13.

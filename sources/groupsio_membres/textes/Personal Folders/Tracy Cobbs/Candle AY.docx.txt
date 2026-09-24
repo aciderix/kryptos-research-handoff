@@ -1,0 +1,52 @@
+## word/document.xml
+ 
+ Insert one character before K3 CT + K4 CT, then pad to 3 lines of 145 characters each, per N.L.’s discovery ( Msg #13606, May 4 2012). (Only the first and last characters of each line are shown to save space.) 
+ 
+ ?ENDYAHR ...AEIOYTEY 
+ QHEENCTA...RKLMLEHA 
+ GTDHARDP...UAUEKCAR 
+ 
+ 
+ 
+ 
+ Picking up where N.L. left off, we now divide those 145 columns into 3 groups, lengths 47-51-47 , and left-justify the three triads of lines: 
+ 
+ 
+ ?ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLS 
+ QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOA 
+ GTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW 
+ 
+ LLNOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMTW 
+ SFIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROAGR 
+ ?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA 
+ 
+ NDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY 
+ IEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEHA 
+ TJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+ 
+ Notes 
+ 
+ The presence of YAR at the end was already noted by N.L. Is this at last the main, intended significance of those raised letters ? 
+ 
+ Bigrams and trigrams of K3 PT read upward in each column. 
+ 
+ First and last bigrams of K3 PT are in the leftmost column -- first bigram (SL) above the ? that separates K3 from K4, last bigram (GQ) below the created “breach”. 
+ 
+ K3 PT bigrams and trigrams i n each column are read out by the following route: bottom bigram, top trigram, middle bigram, shift 4 columns left and repeat. (Since the PT begins with the middle bigram on the left (SL), and the 2nd bigram (OW) is in the “wick” (see below), the first full column of PT is LY/DES/PA.) 
+ 
+ K4 CT plus the preceding question mark completely fills and does not overflow the bottom line of the bottom two triads of lines. 
+ 
+ The formatting of the text resembles a candle, with a 4-character “wick” extending to the right . ( A nalogous to the 4 extra columns of the tableau side?) It also bears a striking resemblance to the Antipodes sculpture, which has two copperplates on the sides and a petrified log, slightly taller than the copperplates, in the middle. 
+ 
+ 
+ 
+ 
+ 
+ Of course, my mind has been in overdrive with a plethora of observations and speculations, none of which have led to a K4 solution so far, and many of which may be just meaningless coincidences. 
+ 
+ One of the things I immediately pursued after noting how there were two letters above each letter of K4 CT was how those pairs of letters might be used to decode K4. Focusing on the NYPVTT segment which Sanborn revealed equals BERLIN, I tried various methods with no success. Do any of you know of any cryptographic methods whereby those letter pairs could form a key stream that would transform NYPVTT into BERLIN? 
+ 
+ It’s possible that this is not the path to the K4 solution, but may instead be part of what some people have called “K5” -- stuff that Sanborn embedded in the sculpture beyond the solution of K4. 
+ 

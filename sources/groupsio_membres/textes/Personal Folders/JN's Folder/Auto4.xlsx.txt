@@ -1,0 +1,61 @@
+## xl/sharedStrings.xml
+ 
+ B E N C D F G H I J K L M O P Q R S T U V W X Y Z A Sanborn: The final part is obviously the, you know, the apex of the pyramid there The apex of a pyramid is typically referred to as a capstone, and is also known as a BENBEN or PYRAMIDION. One of the most recognizable capstones would be that of the Eye of Providence on the back of a $1 bill. "Running the Alphabet", a form of Caesar shift analysis. Needless to say, a spreadsheet is a lot simpler than pencil and paper, and the results are fantastic, since all three mini-pyramids refer to major Kryptos clues. N/CEOF - Not only are the the letters immediately preceeding the IQLU "error" but they are also the sequence needed to break Vigenere with Kasisiski Tests. IKLU - A variation on IQLU found within K4. KNOW - (K2) WW Knows… (K3) SLL-SLL-NOHS sequence The first BENBEN illustrates the above clues. Turning it into BENNEB creates a capless pyramid without it's BENBEN and emphasizes WW KNOWS NOS (numbers) BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUA [NCEOF] [KLUS] ION. IT WAS TOTALLY INVISIBLE. Why is this significant? Treat K1 as a puzzle. Substitute the BENBEN, one half for each capstone. BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NU. A [BENBEN/PYRAMID] ION. IT WAS TOTALLY INVISIBLE. The NU is the ancient primoridal waters from which a BENBEN mound arises. What's so special about a BENBEN? Take a look at one below and when you research the meaning of the hieroglyphs, you'll notice something very familiar, a line of Pharaoh naming text that has a lot in common with the King's Wishiping Cup found in King Tut's tomb. Given that these tombs came about after pyramids fell from fashion, you might consider it a capstone…. That rock looks a lot like the ones Sanborn used too. From K1 to K4. Everything now links. From a cradle or crib of civilization, all the way to it's tomb, you could say. Inversion. 
+## xl/worksheets/sheet1.xml
+ 
+ 26 
+ 27 
+ 28 
+ 29 
+ 0 1 2 0 1 2 0 1 2 2 1 0 
+ 3 5 13 3 5 13 3 5 13 13 5 3 
+ 4 6 14 4 6 14 4 6 14 14 6 4 
+ 1 7 15 1 7 15 1 7 15 15 7 1 
+ 5 8 16 5 8 16 5 8 16 16 8 5 
+ 6 9 17 6 9 17 6 9 17 17 9 6 
+ 7 10 18 7 10 18 7 10 18 18 10 7 
+ 8 11 19 8 11 19 8 11 19 19 11 8 
+ 9 12 20 9 12 20 9 12 20 20 12 9 
+ 10 2 21 10 2 21 10 2 21 21 2 10 
+ 11 13 22 11 13 22 11 13 22 22 13 11 
+ 12 14 23 12 14 23 12 14 23 23 14 12 
+ 2 15 24 2 15 24 2 15 24 24 15 2 
+ 13 16 25 13 16 25 13 16 25 25 16 13 
+ 14 17 0 14 17 0 14 17 0 0 17 14 
+ 15 18 3 15 18 3 15 18 3 3 18 15 
+ 16 19 4 16 19 4 16 19 4 4 19 16 
+ 17 20 1 17 20 1 17 20 1 1 20 17 
+ 18 21 5 18 21 5 18 21 5 5 21 18 
+ 19 22 6 19 22 6 19 22 6 6 22 19 
+ 20 23 7 20 23 7 20 23 7 7 23 20 
+ 21 24 8 21 24 8 21 24 8 8 24 21 
+ 22 25 9 22 25 9 22 25 9 9 25 22 
+ 23 0 10 23 0 10 23 0 10 10 0 23 
+ 24 3 11 24 3 11 24 3 11 11 3 24 
+ 25 4 12 25 4 12 25 4 12 12 4 25 
+ 0 1 2 0 1 2 0 1 2 2 1 0 
+ 30 
+ 31 
+ 32 
+ 33 
+ 34 
+ 35 
+ 36 
+ 37 
+ 39 
+ 38 
+ 40 
+ 41 
+ 42 
+ 43 
+ 44 
+ 45 
+ 47 
+ 46 
+ 
+## xl/worksheets/sheet2.xml
+ 
+ 
+## xl/worksheets/sheet3.xml
+ 
+ 

@@ -1,0 +1,245 @@
+[[page 1]]
+●
+●
+●
+●
+●
+●
+●
+●
+●
+Kryptos K2/K4 Internal Variant System
+Proposed Method That Was Used to Build K4
+Start with by populating a 26 x 26 matrix of character lookups with, say 
+12.6% E's e.g. 26x26x0.126 --> 85 or even those crypto FM phrases like 
+SIXTYSEVEN, LUCKYCHARM, MASTERWORK etc... (this hides the English 
+frequencies)
+Using K2 as your random X reference character (“Q”) find one of your K4 
+PT character in that same row (“I”) and pick its Y column reference (“T”)
+“T” then becomes your K4 CT for that position
+If you start seeing too many bigrams/trigrams, go back and choose an 
+alternative letter from the original selections.
+Publish the string of Y references as the CT code 
+Add fours character to the front of the CT code (modified with ROT-13) to 
+indicated where to find the other half of the bigram OBKR/BOXE
+1st Steps Working Backwards to Solve
+start with an empty 26 x 26 matrix for the bigram characters (different row/
+column counts could apply but we can compress/collapse later)
+fill in the known cribs/letters into the array
+regenerate all of K4 with the new matrix
+Example
+K2
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG
+K4
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+So “QT” corresponds to the “I” in the known crib “BERLIN” (Line 3/2nd letter 
+from the left)
+Our internal variant matrix would therefore assign “I” to the QT reference
+Repeating this for all know CT/PT clues a regenerating the whole shebang from 
+the start yeilds:
+
+[[page 2]]
+d.
+e.
+.................EASTNORTHEAST.
+..IO..N.S.................E.BER
+LINCLOCK............A..........
+The word preceding BERLIN without the “.E.” hint would normally be assumed 
+to be “THE”.  We can now assume this is not the case.
+Further Steps
+Based on the context of Kryptos we can start to look at stuff related to the 
+BERLIN CLOCK, its underground station, maybe the poet/his works that the 
+station is named for (Uhland) or even the fact it was at the initial East/West 
+divide when the wall went up. Phrases like “UNDER berlin clockʼs terminus/
+station…” and “BELOW Berlin clockʼs shadow” seem to fit so weʼll a few…
+Using the word “UNDER” immediately prior to “BERLIN” then check a few 
+things:
+That we do not clash with already allocated letters within the same matrix 
+reference i.e. we do not want anything but an “I” for “QT”
+Try fitting words/phrases in around the  new “anchoring” letters
+Here Iʼve highlighted the additional letters in BOLD when trialling “UNDER”
+...............R.EASTNORTHEAST.
+..IO..N.S..............UNDERBER
+LINCLOCK............A..........
+The word after ENE seems to be place related and “REGION” seems to fit the 
+bill.
+Now this combo result in the matrix having the same letter “E” on the same 4th 
+or “D” row . Weʼll ignore that because we donʼt mind lots of duplicate letters for 
+frequency masking.
+So now weʼve got the following:
+...............R.EASTNORTHEASTR
+EGION.N.S....S.........UNDERBER
+LINCLOCKS...........A..........
+There are no new insights/“anchoring” letters but then again, there are no 
+clashes, so it is a valid combo.
+As is this:
+
+[[page 3]]
+...............R.EASTNORTHEASTR
+EGIONANDSEEKSTOREUNIFIYUNDERBER
+LINCLOCKT.....R.....A....IE....
+Matrix Analysis
+So far the filled in matrix yields no obvious insights as to the method used to fill 
+in the initial matrix - at least in its generated form. 
+Further analysis manipulations, alphabet shuffling with keywords need to be 
+applied to see if anything comes to light e.g. rearrange the internal rows 
+alphabetically so see if the column header/reference spells anything 
+interesting…
+  ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 
+'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 
+'W', 'X', 'Y', 'Z']
+A ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'N', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+B ['.', '.', '.', '.', '.', 'O', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+C ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+D ['.', '.', '.', '.', '.', 'E', '.', '.', '.', '.', 'K', 
+'.', '.', '.', '.', '.', '.', '.', '.', 'E', '.', 'L', 
+'.', '.', '.', '.']
+E ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', 'H', 'R', 'C', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', 'L']
+F ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'E', 
+'.', '.', '.', '.', '.', 'O', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+G ['.', '.', '.', '.', '.', '.', '.', '.', 'I', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', 'S', '.', '.', '.', 
+'.', '.', '.', '.']
+H ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+I ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+J ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', 'R', '.', '.', 
+'.', '.', '.', '.']
+
+[[page 4]]
+K ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', 'E', '.']
+L ['.', '.', '.', '.', 'E', '.', '.', '.', '.', '.', 'A', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', 'I', '.', 
+'.', '.', '.', 'K']
+M ['.', '.', '.', 'F', '.', '.', '.', '.', '.', '.', '.', 
+'A', 'C', '.', '.', '.', '.', '.', 'N', '.', '.', '.', 
+'T', '.', '.', '.']
+N ['Y', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', 'N', '.', '.', '.', '.', '.', 
+'G', '.', '.', '.']
+O ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+P ['.', '.', '.', '.', '.', '.', '.', '.', '.', 'A', '.', 
+'.', '.', 'D', '.', 'R', '.', '.', '.', '.', '.', 'T', 
+'.', '.', '.', 'S']
+Q ['.', '.', '.', '.', '.', '.', '.', '.', '.', 'E', '.', 
+'.', '.', '.', '.', 'R', '.', '.', '.', 'I', '.', '.', 
+'.', '.', '.', '.']
+R ['O', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', 'T', '.', '.', '.', 
+'.', '.', '.', '.']
+S ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+T ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+U ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', 'N', '.', '.', 
+'U', '.', '.', '.']
+V ['.', '.', '.', '.', '.', '.', '.', '.', 'N', '.', '.', 
+'.', '.', 'B', '.', '.', '.', 'S', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+W ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+X ['.', 'R', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', 'T', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+Y ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'U', 
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 
+'.', '.', '.', '.']
+Z ['.', '.', '.', '.', '.', '.', 'E', '.', '.', '.', '.', 
+'.', '.', '.', '.', '.', '.', '.', 'D', '.', '.', '.', 
+'.', '.', '.', '.']
+
+[[page 5]]
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+Alternative Attack Methods
+Perhaps standard biliteral systems attacks (reference: Page 92, Section 
+5-10 of the Basic Cryptoanalysis Army Field manual)
+Dictionary fillers
+AI/ML predict previous word in phrase/predict subsequent word in phrase 
+(tensorflow/BERT models/seq2seq)
+??
+??
+Pros
+Pen and Paper style with a little programming help with bigram matrix 
+generation/checking.
+“as simple as ABC" - where you have x="A", y="B" and the lookup is "C"
+“is in plain sight" - the arrangement of the last three lines of K2 and it's 
+corresponding shape in K4 indicate a 1n1 relationship of some sort. The XY 
+lookup has been used already in K1/K2 with Vigenere
+internal variant system - hides the frequencies used automatically - no 
+binaries, ones, zeros though, entirely human/analogue - and hard
+having the same letters enciphered by multiple bigrams make it easier to 
+ensure you can easily put in clues/breadcrumbs of how to solve e.g. 
+TUT,WIZ,KID,PKS,ODD,etc
+the same bigram freedom can also ensure the encoder has multiple 
+selections to choose from so as to avoid (after splitting the second letter 
+off into K4) English bigrams/trigrams
+BOX E can (at a stretch) be loosely identified with last 3 lines of K2/
+certainly the last 2.
+Can be rotated every odd lookup 
+the same degrees of freedom likewise allows you the freedom to assign a 
+secondary key-phrase to create a duress cipher
+Can be rotated every odd lookup - Not sure this "washing machine" is truly 
+K4 or just K3 where it applies 100%...
+impossible to solve with only the K4 half of the CT in play :)
+Cons
+It extends itself beyond K4 proper - Is this still fair?
+It is a bigram system 97 and also 93 are not divisible by 2, so technically K4 
+in itself is not sufficient to solve K4
+The encipherment is only represented by 50% of K4 - the other 50% is in 
+bottom bit of K2
+The placement of the lookup characters in the internal variant matrix (using 
+A thru Z & A thru Z) don't yield any patterns to suggest how to fill in the 
+remaining missing letters - yet!
+a 1n1 between K4's CT and K4's PT isn't strictly in play due to the other half 
+
+[[page 6]]
+●
+of K4's CT existing over in K2 - the relative positions of NYPTT/BERLIN 
+remain intact
+could be the final masking solution of an interim K4 CT, so the method of 
+attack is not strictly the right way to approach this....

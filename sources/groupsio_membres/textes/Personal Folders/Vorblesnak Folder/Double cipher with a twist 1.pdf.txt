@@ -1,0 +1,583 @@
+[[page 1]]
+twas blinky and the garbled text
+the sysop lubered as he smote
+did flicker briefly on the screen
+what message this that will not die
+all used up was the sectored disk
+the system froze in core dump heap
+and sysop eyes were narrow green
+the warning burned in terminal eye
+T R A N P O S E T R A N P O S E T R A N P O S E T R A
+K
+t w a
+s
+b
+l
+i
+n k
+y
+a
+n
+d
+t
+h
+e
+g
+a
+r
+b
+l
+e
+d
+t
+e
+x
+t
+p
+C
+P O S E T R A N P O S E T R A N P O S E T R A N P O S E
+K
+d
+i
+d
+f
+l
+i
+c
+k
+e
+r
+b
+r
+i
+e
+f
+l
+y
+o n
+t
+h
+e
+s
+c
+r
+e
+e
+n
+p
+C
+T R A N P O S E T R A N P O S E T R A N P O S E T R A N
+K
+a
+l
+l
+u
+s
+e
+d
+u p w e
+r
+e
+t
+h
+e
+s
+e
+c
+t
+o
+r
+e
+d
+d
+i
+s
+k
+p
+C
+P O S E T R A N P O S E T R A N P O S E T R A N P O S E
+K
+a
+n d
+s
+y
+s
+o
+p
+e
+y
+e
+s w e
+r
+e
+n
+a
+r
+r
+o w g
+r
+e
+e
+n
+j
+p
+C
+T R A N P O S E D T R A N P O S E D T R A N P O
+K
+t
+h
+e
+s
+y
+s
+o
+p
+l
+u b
+e
+r
+e
+d
+a
+s
+h
+e
+s m o
+t
+e
+p
+T
+I G C A E F D Z U C G T
+I
+I G G V E A Q B B J
+C
+S E D T R A N P O S E D T R A N P O S E D T R A N P O S E
+K
+w h
+a
+t m e
+s
+s
+a
+g
+e
+t
+h
+i
+s
+t
+h
+a
+t w i
+l
+l
+n
+o
+t
+d
+i
+e
+p
+P U I
+T N G C D F N M F H J B A M F D T W L M U B B
+I U M
+C
+D T R A N P O S E D T R A N P O S E D T R A N P O S E D
+K
+t
+h
+e
+s
+y
+s
+t
+e m f
+r
+o
+z
+e
+i
+n
+c
+o
+r
+e
+d
+u m p
+h
+e
+a
+p
+p
+F H F B O D C L Z Q R S R H N X I
+F C E E W U A N L H E
+C
+T R A N P O S E D T R A N P O S E D T R A N P O S E D T R
+K
+t
+h
+e w a
+r
+n
+i
+n
+g b u
+r
+n
+e
+d
+i
+n
+t
+e
+r m i
+n
+a
+l
+e
+y
+e
+p
+T
+I G K E S Z V R G C W T W J
+J V R T F P U N X G X N Y F
+C
+T
+R
+A N
+P
+O
+S
+E
+D
+I
+G
+C
+A
+E
+F
+D
+Z
+U
+C
+G
+T
+I
+I
+G G V
+E
+A Q
+B
+B
+J
+P
+U
+I
+T
+N G
+C
+D
+F
+N M F
+H
+J
+B
+A M F
+D
+T W L
+M U
+B
+B
+I
+U M H
+F
+B
+O D
+C
+L
+Z
+Q
+R
+S
+R
+H N X
+I
+F
+C
+E
+E
+W U A N
+L
+H
+E
+T
+I
+G K
+E
+S
+Z
+V
+R
+G
+C
+W T W
+J
+J
+V
+R
+T
+F
+P
+U N X G X N Y
+F
+9
+7
+1
+4
+6
+5
+8
+3
+2
+Starting with the last letter of the enciphered text I pulled it 
+off nine letters at a time and built the box at the left.  I ended 
+up with 109 letters and so dropped the first letter of the 
+message.  Each column was pulled off using the key word as 
+a guide.  Note the blue characters in the table.
+
+[[page 2]]
+T A B C D E F G H I
+J L M N Q U V W X Z K R Y P T O S A B C D T
+R B C D E F G H I
+J L M N Q U V W X Z K R Y P T O S A B C D E R
+A C D E F G H I
+J
+L M N Q U V W X Z K R Y P T O S A B C D E F A
+N D E F G H I
+J
+L M N Q U V W X Z K R Y P T O S A B C D E F G N
+P E F G H I
+J L M N Q U V W X Z K R Y P T O S A B C D E F G H P
+O F G H I
+J L M N Q U V W X Z K R Y P T O S A B C D E F G H I O
+S G H I
+J L M N Q U V W X Z K R Y P T O S A B C D E F G H I
+J
+S
+E H I
+J L M N Q U V W X Z K R Y P T O S A B C D E F G H I
+J
+L E
+D I
+J
+L M N Q U V W X Z K R Y P T O S A B C D E F G H I
+J L M D
+T
+R
+A N
+P
+O
+S
+E
+D
+I
+G
+C
+A
+E
+F
+D
+Z
+U
+C
+G
+T
+I
+I
+G G V
+E
+A Q
+B
+B
+J
+P
+U
+I
+T
+N G
+C
+D
+F
+N M F
+H
+J
+B
+A M F
+D
+T W L
+M U
+B
+B
+I
+U M H
+F
+B
+O D
+C
+L
+Z
+Q
+R
+S
+R
+H N X
+I
+F
+C
+E
+E
+W U A N
+L
+H
+E
+T
+I
+G K
+E
+S
+Z
+V
+R
+G
+C
+W T W
+J
+J
+V
+R
+T
+F
+P
+U N X G X N Y
+F
+9
+7
+1
+4
+6
+5
+8
+3
+2
+C
+T
+B
+C
+A
+B
+D
+N
+A
+E W N
+U
+E
+T
+H
+L
+F
+S
+E
+I
+C
+F
+F
+Z
+V
+I
+U
+D
+N
+P
+G
+F
+X
+J
+S
+N
+X
+C
+B M D
+B
+I
+A
+Y
+T
+G
+T
+E
+R
+H W F
+Z
+F
+H
+V
+V
+X
+E
+I
+J
+F
+F
+I
+L
+I
+L
+Z
+J
+G
+G
+G
+Q
+G
+B
+U
+O
+H
+U
+P W G W R
+B M
+J
+N
+A
+C
+I
+N
+R
+R
+E
+C
+Q M T M U
+G
+D
+U
+T
+K
+CTBCABDNAEWNUETHLFSEICFFZVI
+UDNPGFXJSNXCBMDBIAYTGTERHWF
+ZFHVVXEIJFFILILZJGGGQGBUOHU
+PWGWRBMJNACINRRECQMTMUGDUTK
+Above is the nine line poly table pulled from the middle of 
+the tableau on the sculpture. To the left is a copy of the table 
+from the preceding page.
+Below is four lines of 27 characters.  My final step was to 
+wrap the lines instead of running left to right on each line.  
+So they read, left to right, right to left, left to right and finally 
+right to left.  All columns are read top to bottom but a nasty 
+twist would be to wrap the columns, top to bottom, bottom to 
+top when setting up the message to send it.
+The purpose of the exercise is to build something that looks like K4 and understand the process that 
+built it.  I will continue to pull as much meaningless data from it as I can.  Why do letters double?  Is 
+that inherent to the poly tableau or is it caused by process or both?  What letters from the tableau are 
+used, which are skipped?  Why?
+There is a big wedge of a crib in my process that makes it very weak.
+No need for sequential alphabets, use a random selection set by process.

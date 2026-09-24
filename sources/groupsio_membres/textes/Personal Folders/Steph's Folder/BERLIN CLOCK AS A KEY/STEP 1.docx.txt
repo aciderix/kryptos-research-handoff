@@ -1,0 +1,1846 @@
+## word/document.xml
+ 
+ 
+ 
+ THE FIRST SEQUENCE IN THE SOLUTION OF K4: THE SUBSTITUTION STEP 
+ 
+ 
+ STEP 1: 
+ looking at matrix with k 4 CODE . 
+ A clue given to us was actually the first part of the sequence for the solution to k4 ….. remember this is just the first baby step … ….BERLIN CLOCK = KEY 
+ ORIGINAL K4 CODED MATRIX 4 X 31 COLUMNS 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ K 
+ R 
+ 2 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ 3 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ L 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ 4 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ 
+ 
+ 
+ 
+ STEP 2: IDENTIFY WHERE THE KEY EQUALS THE SAME CODE LETTERS . 
+ THE SEQUENCE IS 6 LETTERS - THEN 5 LETTERS . …… AS BERLIN HAS 6 LETTERS AND CLOCK HAS 5. 
+ WHICH TOTALS 11 LETTERS ..THIS NUMBER 11 WILL COME IN HANDY SOON ………WHERE IT GETS MORE INTERESTING 
+ 
+ 
+ IDENTIFY WHERE KEY STARTS FROM …REVERSE FROM POSITION ( 3 ,29 ) OR LETTER 64 N Y P = B E R FOLLOW THE PATTERN (COLOUR CODED TO HELP) 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ K 
+ R 
+ 2 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ 3 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ L 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ 4 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ CODE SHOW WITH THE KEY 4 X 3 1 NOTICE THAT THE STARTING POSITION IS NOT THE BEGINNING OF THE KEY … …… 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ L 
+ I 
+ N 
+ C 
+ 11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ K 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ 12 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ 13 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ L 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ 14 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ 
+ 
+ 
+ 
+ USING SUBSTITUTION MATRIX BELOW… ….CHANGE THE LETTERS IN K4 
+ FOLLOW EXACTLY THE SAME RULES USED TO SOLVE K1 AND K2 
+ KEEP ALL THE LLETTERS IN THE PROPAR SEQUENCE 
+ 
+ 
+ 
+ SIMPLE SUBSTITUTION CIPER DECODER ….. USING KEYS KRYPTOS AND BERLIN CLOCK 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 
+ 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ 2 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ 3 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ 4 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ 5 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ 6 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ 7 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ 8 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ 9 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ 10 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ 11 
+ K 
+ R 
+ Y 
+ P 
+ T 
+ O 
+ S 
+ A 
+ B 
+ C 
+ D 
+ E 
+ F 
+ G 
+ H 
+ I 
+ J 
+ L 
+ M 
+ N 
+ Q 
+ U 
+ V 
+ W 
+ X 
+ Z 
+ K 
+ 
+ 
+ 
+ THIS MATRIX HAS THE CODE THE KEY AND THE NEW SUBSTITUTION LETTERS… 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ G 
+ M 
+ S 
+ L 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ L 
+ I 
+ N 
+ C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ K 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 
+ P 
+ Z 
+ H 
+ T 
+ T 
+ Y 
+ N 
+ Z 
+ M 
+ F 
+ U 
+ Z 
+ C 
+ Y 
+ A 
+ Z 
+ E 
+ D 
+ Z 
+ E 
+ Y 
+ D 
+ Y 
+ W 
+ L 
+ M 
+ T 
+ H 
+ T 
+ H 
+ I 
+ 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 
+ D 
+ G 
+ F 
+ H 
+ V 
+ J 
+ E 
+ Q 
+ T 
+ N 
+ D 
+ O 
+ I 
+ O 
+ R 
+ Q 
+ I 
+ L 
+ O 
+ N 
+ R 
+ Z 
+ G 
+ G 
+ W 
+ G 
+ Y 
+ A 
+ D 
+ J 
+ R 
+ 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ L 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4 
+ T 
+ H 
+ D 
+ B 
+ A 
+ S 
+ N 
+ Z 
+ H 
+ R 
+ B 
+ B 
+ C 
+ T 
+ Q 
+ X 
+ P 
+ K 
+ H 
+ T 
+ H 
+ N 
+ V 
+ O 
+ G 
+ E 
+ Q 
+ Q 
+ Z 
+ S 
+ M 
+ 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ PUT ALL THE NEW SUBSTITUTION LETTERS INTO A MATRIX OF ITS OWN 4 X 31 ….FOLLOW THE WW’S 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ G 
+ M 
+ S 
+ L 
+ 2 
+ P 
+ Z 
+ H 
+ T 
+ T 
+ Y 
+ N 
+ Z 
+ M 
+ F 
+ U 
+ Z 
+ C 
+ Y 
+ A 
+ Z 
+ E 
+ D 
+ Z 
+ E 
+ Y 
+ D 
+ Y 
+ W 
+ L 
+ M 
+ T 
+ H 
+ T 
+ H 
+ I 
+ 3 
+ D 
+ G 
+ F 
+ H 
+ V 
+ J 
+ E 
+ Q 
+ T 
+ N 
+ D 
+ O 
+ I 
+ O 
+ R 
+ Q 
+ I 
+ L 
+ O 
+ N 
+ R 
+ Z 
+ G 
+ G 
+ W 
+ G 
+ Y 
+ A 
+ D 
+ J 
+ R 
+ 4 
+ T 
+ H 
+ D 
+ B 
+ A 
+ S 
+ N 
+ Z 
+ H 
+ R 
+ B 
+ B 
+ C 
+ T 
+ Q 
+ X 
+ P 
+ R 
+ K 
+ T 
+ H 
+ N 
+ V 
+ O 
+ G 
+ E 
+ Q 
+ Q 
+ Z 
+ S 
+ M 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NOW THE FUN BEGINS…… 
+ 
+ 
+ 
+ If this interests anyone and you want to know more.. 
+ let me know what you think…. 
+ 
+ PS: I’m not good at maths.. 
+ SO PATTERN RECOGNITION AND CLUES ARE WHAT I DO.. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+## word/footnotes.xml
+ 
+ 
+ 
+ 

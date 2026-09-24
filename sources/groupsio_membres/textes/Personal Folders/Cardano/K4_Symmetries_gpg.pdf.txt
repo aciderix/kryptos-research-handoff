@@ -1,0 +1,185 @@
+[[page 1]]
+K4 Symmetries
+Chris Nuebler
+This work looks at and expands upon symmetries
+introduced by Chris Feige, Michael Hoerenberg,
+and others.
+
+[[page 2]]
+What makes Michael Hoerenberg's work (1) interesting is the tablar rows he 
+chose.  The beginning of the alphabets ABCD, EFGH, around the ~ 30 character 
+mark in the cipher -- they line up with what looks like "quiet" spots (less 
+instances of higher numbered bases) if you graph the cipher in e.g. base 6.5. 
+These quiet spots also seem to have base-5 rotational symmetry: NGKS, DIAW, 
+INFB, originally brought up in Elonka's Kryptos group many years ago by Chris 
+Feige in reference to Difference Arrays (2).  It's as though whatever 
+obfuscation/encryption was applied, in these spots it doesn't have such a "noisy" 
+effect.  
+Hoerenberg's row selection from the Kryptos tablar and Chris Feige's symmetry 
+aligned with cribs:
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+FGHMFGHIJLMNQUVWXZKRYPTOSABCDEFGHINGHIJLMNQUVWXZKRYPTOSABCDEFGHIJLOHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+…....................EASTNORTHEAST.............................BERLINCLOCK.......................
+The quietness in the above graph falls on or near these spots, around every 30 
+characters.  The MOD 2 of the text seems to show similar periodicity:
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+0101001001011001011101111001110000010100100000110011010100001111011110111000101111010000100000001
+1
+13
+25
+37
+49
+61
+73
+85
+97
+5
+9
+17
+21 29
+33 41
+45 53
+57 65
+69 77
+81 89
+93 101
+105
+109
+113
+117
+121
+125
+129
+133
+137
+141
+145
+149
+153
+157
+161
+165
+169
+173
+177
+181
+185
+189
+193
+-6
+-4
+-2
+0
+2
+4
+6
+8
+Cipher Text (Base 6.5) Periodicity & Crib Differentials
+base pairs are collated; wavelength seems ~ 30/60
+Cribs
+Cipher
+
+[[page 3]]
+The above alphabet geometry was derived from coordinatizing and spatially 
+mapping out NGKS, DIAW, INFB, AUEK, and other (less obvious) symmetries in 
+K4. I allowed for swapped/transposed letters (e.g. NGKS  NSKG, AUEK  AKUE) 
+→
+→
+within cosets.  I didn't “choose” these positions, they fell into place when 
+analyzing the relationship between cipher chunks.  (5+8) / 2 = 6.5, * 4 = 26
+D  I = +5
+→
+I  S = +10
+→
+A  I = +8
+→
+W  A = +4 (mod 27)
+→
+O  W = +8
+→
+A  D, F  I = +3
+→
+→
+K  R = +7
+→
+etc.
+This geometry is post encryption, so it may not be useful as a deciphering tool.  
+However, it might yield clues as to the underlying technique(s).  It's possible it's 
+the result of an amalgamation/interplay of different shaped tablars. e.g. 
+Something akin to Gromark tablars (whereby the length of the keyword defines 
+the base) but possibly organized into different shapes on graph paper and/or a 
+modular numbering system that constrains calculations to certain bases.  
+Gromark, for example, uses a base-10 calculation.  See Richard Bean's work on 
+Kryptos and Gromark (3).
+
+[[page 4]]
+A proposed solution formed solely from relationships/data within the cipher (no 
+bible codes or assumptive thinking):
+Segments/Cosets/Dimensions, not bases, to perform a symmetrical “change of 
+basis”?  
+•
+Super simple, you just have to add. 
+•
+Can be worked visually, just swap “like” segments.  
+•
+It's always non-zero, always sums to [1..26], if first segments are static. 
+•
+Provides simultaneous substitution/transposition.  
+•
+Can be changed in a myriad of ways as long as there's symmetries and they
+add to 26. 
+•
+Can do further modular math/substitution on the individual segments 
+without breaking the system (e.g. rotation, index shuffling). 
+•
+“Segments” look a bit like Morse code.  :)
+e.g. Key basis. Two fives, a ten, and a six = 26:
+[x....], [.....], [..........], [......] = A
+[.x...], [.....], [..........], [......] = B
+…
+[....x], [....x], [.........x], [....x.] = Y
+[....x], [....x], [.........x], [.....x] = Z
+e.g. Cipher basis.  Two eights, a four, and a six = 26:
+[x.......], [........], [....], [......] = A
+[.x......], [........], [....], [......] = B
+…
+[.......x], [.......x], [...x], [....x.] = Y
+[.......x], [.......x], [...x], [.....x] = Z
+etc.
+I'm using the terms segment/coset/dimension interchangeably here, depending 
+on the context in which you think of them.  Or, maybe equivalent fractions?
+You're allowed to swap the “six” segments in the above basis example.  You could
+also use clocks and compasses (e.g. 12s, 8s, & 6s) or geometric shapes to 
+represent the segments.  You could swap among cipher rows, columns, etc. 
+and/or literal spatial alignment of segments among rows/columns to define 
+swapping rules among same-sized segments (e.g. four 5s and a 6). An Auto-key 
+would work fine as well.
+You can think of the x's in the example as a point in a multi-dimensional, finite 
+topological space.  In the case of "A", it's just one point in one dimension.  
+Conversely, "Z" is a point in the upper limit of all possible dimensions.  Then 
+you're just swapping symmetrical dimensions, or groups of dimensions (not 
+necessarily moving the points in those dimensions, though you can do that too).  
+
+[[page 5]]
+I'm not sure if this technically qualifies as a "change of basis," though the 
+technique was inspired by it.
+You could also group multiple segments and swap them, like Russian nested dolls,
+as long as there's additive symmetry.  e.g. [two fives and a ten = 20] <-> [two 
+eights and a four = 20].  This would effectively "shuffle" throughout the cipher 
+many different segment sizes that could be further substituted/transposed.  This 
+would "smooth out the bits" as Ed once said.  There might be further constraints 
+at play to ensure an even distribution of "bits," preventing English language 
+analysis (e.g. sticking to specific segment/coset/dimension sizes).
+References:
+1. https://kryptos.hoerenberg.com
+2. https://elonka.com/kryptos (search for Chris Feige in the forum)
+3. https://kryptos.richardbean.id.au
+4. https://youtu.be/P2LTAUO1TdA&t=402 (change of basis)
+5. https://youtu.be/Dl7K_a8ViNY (Abelian groups)
+
+[[page 6]]
+OBKR
+UOXOGHU LBSOL IFBBW FLRV QQPR NGKSS
+OTWTQSJ QSSEK ZZWAT JKLU DIAW INFBN
+YPVTTMZ FPKWG DKZXT JCDI GKUH UAUEK 
+CAR

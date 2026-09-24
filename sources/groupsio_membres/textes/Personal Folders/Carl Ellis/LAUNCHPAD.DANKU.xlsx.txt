@@ -1,0 +1,169 @@
+## xl/sharedStrings.xml
+ 
+ K R Y P T O S B U X G H L I F W V Q N J E Z A D M C f (97+71) * 2 = Letters (f-1) f*(f-1) P1⇿Q3 ΔIC E1⇿Q2 E1⇿P3 e q o s u K4 b t w n l h a d i g c y v p ? r m x k Rob, Cheers! Dan There's one non-programming item in your responses that I want to address......and also use as a disclosure for my current efforts ;) "But that's no different than a one-time pad: all 97-letter solutions are possible. But since Sanborn and Scheidt believe K4 is solvable, it can't be a one time pad." True if the OTP has actually been held secret, not true if it is hidden within KRYPTOS awaiting discovery. My current efforts revolve around OTP because of the raised YAR, the NOVA disclosure of the K3 PT in a 42 col X 8 row format with the appended "P"s and "C"s, ing the disclosure of the misspellings in the NYT. and an extremely simple approach to the meaning behind the misspellings after see- First, the misspelling of IQLUSION. I'm viewing this as the simplest of hints; if you have the correct PT, the correct CT, and the correct method then you can derive the correct key which in this case was actually PALIMPCEST in lieu of PALIMPSEST. that presentation format coupled with the first item above is that a key (which would be in the form of OTP) can be derived from this table if the correct method is known. Third, the misspelling of GRUUND. I'm viewing this also as the simplest of hints; if you have the correct PT, the correct CT, and the correct key then you can derive the correct methodology. In this particular case, t he U will convert to an O if the Beaufort as stated above, but not necessarily using standard vig ﻿ - Carl Ellis Thank you, Carl, but my post does specify the 97 characters I'm focusing on -- the 35 preceding the Y + the 33 preceding the A + the 29 preceding the R. Probably hasn't escaped you, tho I hadn't noticed it until a couple months ago: When you run the basic IC test on K4, the sum of all the occurrences is, of course, 97, and the sum of frequencies-less-one is thus necessarily 26 less, or 71, and these add to 168. Nothing remarkable so far, but the sum of [frequencies x frequencies-less-one] is 336, and while altering the distribution of letters/frequencies will not change the 97+(97-26) = 168, the 336 is very specific to the the actual numerical distribution of K4. (see attached) I hypothesize that J. S. built Kryptos "backward" from K4, using its numerical characteristics to develop K3, K3's for K2, &c. No idea how that might help, or how to pick out the 71 letters to eliminate for your OTP key, just inviting your notice, in case you missed it. (Sent direct as well as to group so the Excel attachment gets to Dan. Can upload it if anyone wants it.) immediately preceding the raised YAR. Obviously can be a coincidence, but I like it. the R is in position 30 of the first "C" line i.e. there are 35+33+29=97 characters Finally, this approach generates a 168 character OTP of which we only need 97 -- and that takes me to the raised YAR. Within the K3 PT presentation format the Y is in position 36 of the fourth "C" line, the A is in position 34 of the second "C" line and variation is used. My inference is that the OTP can be derived from the K3 presentation The solution space is extremely large due to the possibility that the YAR pieces are in a different order, there are multiple variations of vig decoding, the possibility of transposition in multiple steps along the way, etc etc and so thought I would give this to the forum should someone (especially someone with programming skills) like the concept and decide to tackle it. Second, the K3 PT worksheet shows us the rows labeled P & C. My inference� from dankuda@q.com <dankuda@q.com> Friday, May 27, 2011 7:50 PM Dankuda-p1 Dankuda-p2 Σ 1-26 [f n *(f n -1)] = [Σ 1-26 (f n ) + Σ 1-26 (f n -1)] * 2 NOT usually, just here. Φobserved Φrandom Φplain DANKUc1 DANKUp1 Dankuda-c2 Dankuda-c1 DANKUc2 DANKUp2 From: "Meg/Carl Ellis" <megellis1@tds.net> To: Kryptos@yahoogroups.com, dankuda@q.com Sent: Friday, May 27, 2011 9:49:02 PM Subject: Re: [Kryptos] Re: VSolver a brute force vigenere solver. E2@178 
+## xl/worksheets/sheet1.xml
+ 
+ 
+ 109 110 
+ 
+ 60 
+ 
+ 63 
+ 64 
+ 
+ 65 
+ 66 
+ 
+ 67 
+ 68 
+ 
+ 69 
+ 70 
+ 72 
+ 71 
+ 
+ 73 
+ 74 
+ 75 
+ 
+ 108 
+ 76 
+ 77 
+ 
+ 78 
+ 79 
+ 80 
+ 102 
+ 81 
+ 
+ 99 
+ 100 
+ 101 
+ 98 
+ 97 
+ 
+ 103 
+ 104 
+ 105 
+ 106 
+ 107 
+ 
+ 61 
+ 
+ 62 
+ 
+ 
+ 
+ 
+ 84 
+ 85 
+ 
+ 
+ 124 
+ 125 
+ 126 
+ 127 
+ 
+ 82 
+ 86 
+ 87 
+ 88 
+ 89 
+ 90 
+ 91 
+ 
+ 92 
+ 93 
+ 94 
+ 
+ 83 
+ 
+ 95 
+ 96 
+ 
+ 
+## xl/worksheets/sheet2.xml
+ 
+ 31 SUM(C14:AB14) 239 97*71 6887 
+ 33 SUM(C15:AB15) 168 97/71 1.3661971830985915 0 6 4 8 7 5 15 22 14 10 13 12 17 1 21 23 19 18 3 25 20 11 16 9 24 2 
+ 34 SUM(C16:AB16) 142 71/97 0.73195876288659789 8 6 6 6 5 5 5 4 4 4 4 4 4 4 4 3 3 3 3 2 2 2 2 2 1 1 
+ 4/7 0.5714285714285714 571428 97*433 42001 128 
+ 97*866 84002 1728/97 17.814432989690722 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 
+ 3 38 45 37 43 45 52 48 35 38 54 47 56 47 42 45 52 38 45 37 43 45 52 42 46 35 56 35 57 47 49 44 38 37 26 54 47 38 38 47 50 35 48 COUNTA(BQ7:BV7,BR8:BV8,BS9:BV9,BT10:BV10,BU11:BV11,BV12) 21 
+ 113 114 27 (97+71)*2 336 25 35 41 56 49 38 42 46 47 42 35 44 51 39 57 41 35 56 35 48 42 46 35 45 37 43 35 56 54 47 56 42 37 26 42 46 35 48 37 37 56 43 47 COUNTA(BK8:BV8,BO12:BV12,BQ14:BV14) 26 
+ 3 52 43 47 38 56 35 57 37 53 35 48 43 49 42 46 42 56 35 57 41 45 49 44 50 46 47 44 48 38 49 57 47 48 35 47 42 49 44 52 41 56 35 
+ 28 22 7 25 23 20 14 10 11 13 19 0 12 24 18 5 3 17 1 6 4 8 16 15 9 2 21 AC11*(AC11-1) 9312 25 47 51 46 49 44 42 46 35 39 54 54 35 56 45 35 26 42 46 47 44 48 51 37 56 44 35 56 47 44 48 42 46 35 44 43 49 48 35 44 49 44 50 
+ 40 26 4 5 2 3 2 4 4 2 4 3 8 4 1 3 5 3 4 4 6 6 6 2 5 2 1 4 SUM(C11:AB11) 97 COUNTIF(C11:AB11,">0") 26 3 42 46 35 46 37 45 35 47 45 49 42 42 45 35 49 49 44 38 35 56 42 35 48 42 46 35 51 47 44 48 45 35 47 44 48 54 35 35 56 35 48 49 
+ 29 C11-1 3 4 1 2 1 3 3 1 3 2 7 3 0 2 4 2 3 3 5 5 5 1 4 1 0 3 SUM(C12:AB12) 71 COUNTIF(C12:AB12,">0") 24 25 44 42 46 35 46 37 42 47 49 56 35 38 51 47 54 49 44 50 26 56 37 57 42 46 35 51 46 47 57 41 35 56 51 47 39 38 35 48 42 46 35 26 
+ 30 C11*C12 12 D11*D12 20 E11*E12 2 6 2 H11*H12 12 12 2 12 6 56 12 0 6 20 6 12 12 30 30 30 2 20 2 0 12 SUM(C13:AB13) 336 115 3 45 47 57 35 42 37 26 45 49 51 59 35 56 41 39 42 54 56 35 38 35 44 42 45 52 48 35 42 47 49 45 38 37 26 42 46 35 56 37 37 57 43 
+ SUM(C14:AB14) 239 C13-C11 8 D13-D11 15 E13-E11 0 3 0 8 8 0 8 3 M13-M11 48 8 -1 3 15 3 8 8 24 24 24 0 15 0 -1 8 0.0385*AC11*(AC11-1) 358.512 116 25 49 42 46 49 44 35 57 35 56 50 35 48 26 56 37 57 42 46 35 57 49 38 42 58 51 47 44 52 37 39 38 35 35 47 44 52 42 46 49 44 50 36 55 COUNTA(BJ7:BV7,BK8:BV8,BL9:BV9,BM10:BV10,BN11:BV11,BO12:BV12,BP13:BV13,BQ14:BV14,BW14) 77 
+ SUM(C15:AB15) 168 C14-C12 5 11 -1 1 -1 5 5 -1 5 1 41 5 -1 1 11 1 5 5 19 19 19 -1 11 -1 -1 5 0.0667*AC11*(AC11-1) 621.11040000000003 117 COUNTA(AG8:BI8) 29 COUNTA(AG12:BM12) 33 COUNTA(AG14:BO14) 35 COUNTA(BJ8,BN12,BP14) 3 COUNTA(BI7,BJ8,BK9,BL10,BM11,BN12,BO13,BP14) 8 SUM(BJ15,BN15,BP15) 97 
+ SUM(C16:AB16) 142 C14-C11 4 D14-D11 10 E14-E11 -2 0 -2 4 4 -2 4 0 40 4 -2 0 10 0 4 4 18 18 18 -2 10 -2 -2 4 AC13/AC14 0.93720712277413309 32 
+ 0 6 4 8 7 5 15 22 14 10 13 12 17 1 21 23 19 18 3 25 20 11 16 9 24 2 1 42 37 26 42 46 35 48 37 37 56 43 47 
+ 8 6 6 6 5 5 5 4 4 4 4 4 4 4 4 3 3 3 3 2 2 2 2 2 1 1 22 39 38 35 48 42 46 35 26 
+ 2 42 46 49 44 50 36 
+ 22 7 25 23 20 14 10 11 13 19 0 12 24 18 5 3 17 1 6 4 8 16 15 9 2 21 
+ COUNTIF(DANKUc2,AF20) 1 COUNTIF(DANKUc2,AG20) 0 0 2 3 2 1 3 1 0 0 0 0 1 3 0 1 1 1 4 1 0 1 0 0 0 SUM(AF21:BE21) 26 
+ 
+ 
+ 28 22 7 25 23 20 14 10 11 13 19 0 12 24 18 5 3 17 1 6 4 8 16 15 9 2 21 AC25*(AC25-1) 9312 118 49 42 46 49 44 35 57 35 56 50 35 48 26 56 37 57 42 46 35 57 49 38 42 58 51 47 44 52 37 39 38 35 35 47 44 44 42 46 35 46 37 42 47 49 56 35 38 51 47 54 49 44 50 26 56 37 57 42 46 35 51 46 47 57 41 35 56 51 35 41 56 49 38 42 46 47 42 35 44 51 39 57 41 35 56 35 48 42 46 35 45 37 43 35 56 54 47 
+ 121 26 COUNTIF(DANKUc1,C24) 7 COUNTIF(DANKUc1,D24) 3 5 2 16 2 2 8 6 0 0 1 6 6 5 2 0 8 4 9 2 0 1 1 1 0 SUM(C25:AB25) 97 COUNTIF(C25:AB25,">0") 21 
+ 29 C25-1 6 2 4 1 15 1 1 7 5 -1 -1 0 5 5 4 1 -1 7 3 8 1 -1 0 0 0 -1 SUM(C26:AB26) 71 COUNTIF(C26:AB26,">0") 17 
+ 30 C25*C26 42 D25*D26 6 E25*E26 20 2 240 H25*H26 2 I25*I26 2 56 30 0 0 0 30 30 20 2 0 56 12 72 2 0 0 0 0 0 SUM(C27:AB27) 624 115 
+ 20 4 11 1 22 13 24 18 25 5 6 7 23 14 10 3 8 12 15 9 2 19 0 17 16 21 0.0385*AC25*(AC25-1) 358.512 116 
+ 16 9 8 8 7 6 6 6 5 5 4 3 2 2 2 2 2 1 1 1 1 0 0 0 0 0 0.0667*AC25*(AC25-1) 621.11040000000003 117 
+ AC27/AC28 1.74052751372339 32 
+ 
+ 
+ 
+ 28 22 7 25 23 20 14 10 11 13 19 0 12 24 18 5 3 17 1 6 4 8 16 15 9 2 21 AC35*(AC35-1) 9312 119 45 47 57 35 42 37 26 45 49 51 59 35 56 41 39 42 54 56 35 38 35 44 42 45 52 48 35 42 47 49 45 38 37 26 42 42 46 35 46 37 45 35 47 45 49 42 42 45 35 49 49 44 38 35 56 42 35 48 42 46 35 51 47 44 48 45 35 47 38 45 37 43 45 52 48 35 38 54 47 56 47 42 45 52 38 45 37 43 45 52 42 46 35 56 35 57 47 
+ 111 26 COUNTIF(DANKUp1,C34) 8 1 2 4 15 2 0 4 5 0 1 13 2 3 5 2 0 5 6 12 1 0 2 0 4 0 SUM(C35:AB35) 97 COUNTIF(C35:AB35,">0") 20 
+ 29 C35-1 7 0 1 3 14 1 -1 3 4 -1 0 12 1 2 4 1 -1 4 5 11 0 -1 1 -1 3 -1 SUM(C36:AB36) 71 COUNTIF(C36:AB36,">0") 17 
+ 30 C35*C36 56 D35*D36 0 E35*E36 2 12 210 H35*H36 2 I35*I36 0 12 20 0 0 156 2 6 20 2 0 20 30 132 0 0 2 0 12 0 SUM(C37:AB37) 696 115 
+ 20 12 4 22 6 13 5 1 23 11 2 18 25 14 24 3 15 7 0 8 10 19 17 16 9 21 0.0385*AC35*(AC35-1) 358.512 116 
+ 15 13 12 8 6 5 5 5 4 4 4 3 2 2 2 2 2 1 1 1 0 0 0 0 0 0 0.0667*AC35*(AC35-1) 621.11040000000003 117 
+ AC37/AC38 1.9413576114607043 32 
+ 
+ 28 22 7 25 23 20 14 10 11 13 19 0 12 24 18 5 3 17 1 6 4 8 16 15 9 2 21 AC45*(AC45-1) 650 122 42 46 49 44 50 36 39 38 35 48 42 46 35 26 42 37 26 42 46 35 48 37 37 56 43 47 
+ 120 26 COUNTIF(DANKUc2,C44) 1 0 0 2 3 2 1 3 1 0 0 0 0 1 3 0 1 1 1 4 1 0 1 0 0 0 SUM(C45:AB45) 26 COUNTIF(C45:AB45,">0") 15 
+ 29 C45-1 0 -1 -1 1 2 1 0 2 0 -1 -1 -1 -1 0 2 -1 0 0 0 3 0 -1 0 -1 -1 -1 SUM(C46:AB46) 0 COUNTIF(C46:AB46,">0") 6 
+ 30 C45*C46 0 D45*D46 0 E45*E46 0 2 6 H45*H46 2 I45*I46 0 6 0 0 0 0 0 0 6 0 0 0 0 12 0 0 0 0 0 0 SUM(C47:AB47) 34 115 
+ 4 20 11 5 23 14 22 10 13 18 17 1 6 8 15 7 25 19 0 12 24 3 16 9 2 21 0.0385*AC45*(AC45-1) 25.024999999999999 116 
+ 4 3 3 3 2 2 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0.0667*AC45*(AC45-1) 43.354999999999997 117 
+ AC47/AC48 1.3586413586413588 32 
+ 
+ 28 22 7 25 23 20 14 10 11 13 19 0 12 24 18 5 3 17 1 6 4 8 16 15 9 2 21 AC55*(AC55-1) 812 123 46 35 56 37 37 57 43 44 48 54 35 35 56 35 48 49 49 44 38 37 26 54 47 38 38 47 50 35 48 
+ 112 26 COUNTIF(DANKUp2,C54) 2 COUNTIF(DANKUp2,D54) 0 0 3 5 1 1 1 2 0 0 0 1 2 3 2 0 2 3 0 0 0 1 0 0 0 SUM(C55:AB55) 29 COUNTIF(C55:AB55,">0") 14 
+ 29 C55-1 1 -1 -1 2 4 0 0 0 1 -1 -1 -1 0 1 2 1 -1 1 2 -1 -1 -1 0 -1 -1 -1 SUM(C56:AB56) 3 COUNTIF(C56:AB56,">0") 9 
+ 30 C55*C56 2 D55*D56 0 E55*E56 0 6 20 H55*H56 0 I55*I56 0 0 2 0 0 0 0 2 6 2 0 2 6 0 0 0 0 0 0 0 SUM(C57:AB57) 48 115 
+ 20 12 6 4 22 5 1 13 2 23 24 18 15 11 3 7 14 25 10 0 8 16 19 17 9 21 0.0385*AC55*(AC55-1) 31.262 116 
+ 11 10 8 8 7 6 6 5 5 4 4 4 4 3 3 2 2 1 1 1 1 1 0 0 0 0 0.0667*AC55*(AC55-1) 54.160399999999996 117 
+ AC57/AC58 1.5354104024054762 32 
+ 
+ 12 20 2 6 2 12 12 2 12 6 56 12 0 6 20 6 12 12 30 30 30 2 20 2 0 12 0 
+ MOD(C68,26) 12 MOD(D68,26) 20 2 6 2 12 12 2 12 6 4 12 0 6 20 6 12 12 4 4 4 2 20 2 0 12 0 
+ 12 20 2 6 2 12 12 2 12 6 4 12 0 6 20 6 12 12 4 4 4 2 20 2 0 12 2 
+ 2 
+ 2 
+ 2 
+ 2 
+ 4 
+ 4 
+ 4 
+ 4 
+ 6 
+ 6 
+ 6 
+ 6 
+ 12 
+ 12 
+ 12 
+ 12 
+ 12 
+ 12 
+ 12 
+ 12 
+ 20 
+ 20 
+ 20 
+ 

@@ -1,0 +1,79 @@
+Something just dawned on me :
+
+In K1 and K2 three letters stick out at the end of the rows :
+
+J R X
+
+they decode to X U L.
+
+In reverse L U X.
+
+J R X
+M S A
+X U L
+
+Borrowing from Wikipedia :
+
+The lux (symbol: lx) is the SI derived unit of illuminance and luminous emittance, measuring luminous flux per unit area. It is equal to one lumen per square metre.
+
+There is another SI unit for "light" called the candela.
+
+I always assumed that this could be a reference to : inserted a candle".
+
+Does anyone remember the left out S from K2?
+
+The G at the end of K2 gets pushed out and then we have
+
+J R X G
+
+and now something really crazy :
+
+J R X G
+M M M M
+X C S U
+
+That is funny, somebody wishing us succes?
+
+Look again :
+
+X C S
+
+X C S
+
+C S
+
+Remember the original decoding chars in the New York Timee where C S I was sticking out?
+
+J R X G
+M S A X
+X U L I
+
+I am convinced M S A X is the mask Mister Scheidt was talking about.
+
+However if this was indeed used to encrypt K4 is a very big maybe.
+
+We call Mister Scheidt with respect : Red (herring) Ed.
+
+14:49 20-1-2019
+
+
+regards,
+
+TWO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

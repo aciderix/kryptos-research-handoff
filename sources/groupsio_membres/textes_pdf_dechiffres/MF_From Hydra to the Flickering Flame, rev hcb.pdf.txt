@@ -1,0 +1,986 @@
+[[page 1]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+1 of 8 
+From Hydra to the Flickering Flame 
+ 
+ 
+“There are lots of doors to go through to get to the meaning of the code.  Every time you enter one 
+doorway you might, in the distance, see another door.  You go through that doorway and then you 
+go through another doorway.  It unfolds as it's deciphered.” 
+Jim Sanborn (from November, 2005 CNN Jamie McItyre video) 
+ 
+There are many layers.  A lot of thought went into this.  There is more to the puzzle than what's 
+been talked about.  Ed Scheidt (from Elonka’s 2003 road trip) 
+ 
+According to an interview with Elonka Dunin (from Elonka’s 2003 road trip), Ed Scheidt made a point of saying that he used 
+to be an “op” (operative), and that Kryptos is designed to be solved in a straight-forward manner with pencil and paper.  He 
+talked about how the code was designed so that someone could come along 15 years later, having forgotten the keys, and 
+still be able to figure it out via the clues that were there. 
+ 
+“Imagine that you have an operative in place that you will need to get a message to in the future.  
+It could be 15 years down the road - you won’t have any contact with them in the meantime.  You 
+have to assume that they will not remember the key.  How do you deliver a message in such a way 
+that it conveys not only the encrypted data, but also the key?” 
+ 
+Ed claimed that it was necessary to recover the keys, and that the keys were concealed at the sculpture.  He made a specific 
+point that the key is not necessarily the keyword. 
+ 
+“In a modern digital system, the key is the keyword or number that you need to decrypt the 
+message.  Everyone knows the algorithm.  It is just a black box into which you insert the key and 
+the encrypted text, and the answer comes out the other end.  In analog systems (as used in Kryptos) 
+the key is the algorithm.” 
+ 
+He implied that, even though people may have discovered the text of the first 3 parts, they still didn’t understand how the 
+message was constructed and how his fictitious “operative in the field” would have solved the problem. 
+ 
+The goal was to create something you would look at if you were working an intel operation.  (B-
+roll comments, Ed Scheidt New York Times interview, April 21, 2006) 
+ 
+ 
+I will demonstrate that the keys Ed mentions are genuine, come from a variety of sources, and direct you to do things.  They 
+even tell you when you’ve got the correct result.  And they’ve been right in front of you, all along. 
+ 
+According to Jim Sanborn, artist/sculptor of Kryptos, Ed Scheidt gave him an outline of historic and contemporary encoding 
+systems that have been formally used by the agency (in 1990) and were still used by the agency and other people. 
+ 
+“He gave me a whole variety of possible systems to use and ways to modify those systems.  But as 
+a visual artist, I like to rely on systems that include visual material as well as digital material that 
+can be deciphered by machines.  It's well-known that I did use some matrix codes Ed gave me (in 
+K1, K2, K2+, and K3).  I have also designed visual systems for encoding, which are much harder 
+for cryptographers to crack because they're individualistic.” 
+ 
+Excerpts from Sanborn’s interview in NPR’s All Things Considered 
+ 
+“There are encoding systems which use pattern, light and shadow, and it's those kinds of systems 
+that I was most interested in using, because I'm an artist... and I chose not to use, in at least what's 
+been deciphered already, perhaps what has not been deciphered...  I like to use spatial systems of 
+encoding and decoding.” 
+ 
+I'm in a unique position: I'm an artist, not a mathematician, but I do have other skills, more visual 
+skills, that were brought to bear in designing the code.” 
+ 
+“I will say that I have left instructions in the earlier text that refer to later text. 
+That's as far as I'll go.” 
+ 
+--------------------------?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+As we will see, the strategy to solve K4 involves observation, interpretation and the expectation of confirmation. 
+ 
+
+[[page 2]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+2 of 8 
+ 
+ 
+When shown the out-of-alignment letters, Sanborn said, “They're important”,  
+and then asked if anything else had been figured out about them. 
+(Elonka’s 2003 road trip) 
+DYAHR 
+ 
+Anagrams: HARD Y, HD RAY, HYDRA 
+ 
+HYDRA1 
+Noun 
+1: (Greek myth) monster with nine heads, slain by Hercules.  When struck off, each head was replaced by two new ones; 
+2: a long faint constellation in the southern hemisphere near the equator stretching between Virgo and Cancer [syn: Hydra, Snake] 
+3: A persistent or multifaceted problem that cannot be eradicated by a single effort.  “In Kryptos, we may be facing a hydra that defies any easy solution.” 
+ 
+As I see it, there is no better definition of Kryptos than a persistent or multifaceted problem that cannot be eradicated by a single effort. 
+ 
+And the Greek myth of Hydra fits nicely in the mythos of Kryptos. 
+A monster with nine heads, such that when a head is struck off, each was replaced by two new heads. 
+ 
+A clue found in the K4 CT corroborates the notion of adding and then removing, but provides no specifics. 
+ 
+ 
+--------------------------?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+?OBKRUO 
+XOGHULB 
+SOLIFBB 
+WFLRVQQ 
+PRNGKSS 
+OTWTQSJ 
+QSSEKZZ 
+WATJKLU 
+DIAWINF 
+BNYPVTT 
+MZFPKWG 
+DKZXTJC 
+DIGKUHU 
+AUEKCAR 
+ 
+ 
+ 
+?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+Nine heads x two replacements per head = 18 replacements. 
+ 
+Consider the distribution of characters in K4’s CT. 
+ 
+K4 CT distribution 
+ 
+A : AAAA 
+B : BBBBB 
+C : CC 
+D : DDD 
+E : EE 
+F : FFFF 
+G : GGGG 
+H : HH 
+I : IIII 
+J : JJJ 
+K : KKKKKKKK 
+L : LLLL 
+M : M 
+N : NNN 
+O : OOOOO 
+P : PPP 
+Q : QQQQ 
+R : RRRR 
+S : SSSSSS 
+T : TTTTTT 
+U : UUUUUU 
+V : VV 
+W : WWWWW 
+X : XX 
+Y : Y 
+Z : ZZZZ 
+ 
+ 
+ 
+ 
+86665554444444433332222211 
+KSTUBOWAFGILQRZDJNPCEHVXMY 
+ 
+Note, in particular, 
+ 
+Y : Y 
+A : AAAA 
+R : RRRR 
+ 
+ 
+ 
+the raised letters from DYAHR. 
+ 
+We now have our nine heads, YAAAARRRR.  Why we focus on them, and not the D’s or H’s might be summed up as follows. 
+ 
+                                                     
+1 Recall my, now ancient, post about DYAHR → HYDRA,   Kryptos group message #3796, Oct 22, 2005, 5:05 pm 
+
+[[page 3]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+3 of 8 
+THE REMAINS OF PASSAGE DEBRIS THAT ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED 
+ 
+The five characters DYAHR from K3’s CT (cipher text), form the DOORWAY.  Removing the lower part, that is, the non-raised letters, DH, leaves the letters YAR. 
+ 
+Now recall the quote from the end of K3's PT (plain text), CANYOUSEEANYTHINGQ, which happens to be 18 characters. 
+ 
+Split into digraphs.  CA NY OU SE EA NY TH IN GQ 
+ 
+There are nine digraphs and nine YAR’s. 
+-Y--A--A--A--A--R--R--R--R 
+CA NY OU SE EA NY TH IN GQ 
+ 
+ 
+Replace all YAR's in K4’s CT, with digraph replacements, in order2. 
+ 
+K4 CT 
+(without the ?) 
+ 
+Highlight all the 
+Y’s, A’s and R’s. 
+Exchange those YAR’s with the ordered series of digraphs from the final K3 passage, 
+CAN YOU SEE ANYTHINGQ, CA NY OU SE EA NY TH IN GQ. 
+ 
+OBKRUOX 
+OGHULBS 
+OLIFBBW 
+FLRVQQP 
+RNGKSSO 
+TWTQSJQ 
+SSEKZZW 
+ATJKLUD 
+IAWINFB 
+NYPVTTM 
+ZFPKWGD 
+KZXTJCD 
+IGKUHUA 
+UEKCAR 
+ 
+OBKRUOX 
+OGHULBS 
+OLIFBBW 
+FLRVQQP 
+RNGKSSO 
+TWTQSJQ 
+SSEKZZW 
+ATJKLUD 
+IAWINFB 
+NYPVTTM 
+ZFPKWGD 
+KZXTJCD 
+IGKUHUA 
+UEKCAR 
+ 
+OBKCAUOX 
+OGHULBS 
+OLIFBBW 
+FLNYVQQP 
+OUNGKSSO 
+TWTQSJQ 
+SSEKZZW 
+SETJKLUD 
+IEAWINFB 
+NNYPVTTM 
+ZFPKWGD 
+KZXTJCD 
+IGKUHUTH 
+UEKCINGQ 
+ 
+  
+ 
+ 
+Now what?  Well, from simple observation, the letters C and U play a significant role in the Kryptos environment. 
+In addition to the UC of the final K3 passage, CAN U C ANYTHING, we can find the letters CU (actually, Cu) in the atomic symbol of the element copper, the material used 
+prominently in the sculpture’s copper plate and the Morse code engraving on the strata outcroppings located in the front entrance. 
+ 
+We can also find the letters CU in a clue from the inner courtyard outcroppings.  The following photographs were taken with the camera looking away from the sculpture. 
+Courtyard strata outcropping farthest from the sculpture 
+Courtyard strata outcropping nearest to the sculpture 
+ 
+ 
+ 
+ 
+Courtyard strata outcropping farthest from the sculpture 
+Courtyard strata outcropping nearest to the sculpture 
+ 
+From the camera’s vantage point, if we were to mark the number of exterior corners of the outcropping’s granite faces that are 90° or less, we can immediately derive 
+the signals  ._._  (farthest strata) and  _..  (nearest strata) or, where 1 represents a dit and 0 a dash, 1010 and 011.   
+However3, if we were to stand on the other side of the strata and look towards the sculpture, then from our new vantage point, the signals become 0101 (farthest strata) and 110 
+(nearest strata).  These signals represent, in Morse code, the letters C and U, respectively. 
+ 
+                                                     
+2 Recall my initial manipulations, mentioned in a previous post to the Yahoo Kryptos group, message #5231, June 28th, 2006, 6:12 am. 
+3 Actually, a simple change in our representation (where 0 represents a dit and 1 a dash) would do the same. 
+
+[[page 4]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+4 of 8 
+ 
+Highlight the U’s and C’s 
+(CAN UC ANYTHING Q?) 
+ 
+Now remove 
+the U’s and C’s 
+ 
+ 
+leaving us with... 
+ 
+ 
+...aligned neatly for display. 
+ 
+OBKCAUOX 
+OGHULBS 
+OLIFBBW 
+FLNYVQQP 
+OUNGKSSO 
+TWTQSJQ 
+SSEKZZW 
+SETJKLUD 
+IEAWINFB 
+NNYPVTTM 
+ZFPKWGD 
+KZXTJCD 
+IGKUHUTH 
+UEKCINGQ 
+ 
+OBK-A-OX 
+OGH-LBS 
+OLIFBBW 
+FLNYVQQP 
+O-NGKSSO 
+TWTQSJQ 
+SSEKZZW 
+SETJKL-D 
+IEAWINFB 
+NNYPVTTM 
+ZFPKWGD 
+KZXTJ-D 
+IGK-H-TH 
+-EK-INGQ 
+ 
+OBKAOX 
+OGHLBS 
+OLIFBBW 
+FLNYVQQP 
+ONGKSSO 
+TWTQSJQ 
+SSEKZZW 
+SETJKLD 
+IEAWINFB 
+NNYPVTTM 
+ZFPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ 
+ 
+OBKAOX 
+OGHLBS 
+OLIFBB 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ 
+ 
+--96 (6x16) 
+OBKAOXOG 
+HLBSOLIF 
+BBWFLNYV 
+QQPONGKS 
+SOTWTQSJ 
+QSSEKZZW 
+SETJKLDI 
+EAWINFBN 
+NYPVTTMZ 
+FPKWGDKZ 
+XTJDIGKH 
+THEKINGQ 
+ 
+--96 (8x12) 
+OBKAOXOGHLBS 
+OLIFBBWFLNYV 
+QQPONGKSSOTW 
+TQSJQSSEKZZW 
+SETJKLDIEAWI 
+NFBNNYPVTTMZ 
+FPKWGDKZXTJD 
+IGKHTHEKINGQ 
+ 
+--96 (12x8) 
+  A : AA 
+B : BBBBB 
+C :  
+D : DDD 
+E : EEEE 
+F : FFFF 
+G : GGGGG 
+H : HHH 
+I : IIIII 
+J : JJJ 
+K : KKKKKKKK 
+L : LLLL 
+M : M 
+N : NNNNNN 
+O : OOOOOO 
+P : PPP 
+Q : QQQQQ 
+R :  
+S : SSSSSSS 
+T : TTTTTTT 
+U :  
+V : VV 
+W : WWWWW 
+X : XX 
+Y : YY 
+Z : ZZZZ 
+ 
+ 
+OBKAOXOGHLBSOLIFBBWFLNYV 
+QQPONGKSSOTWTQSJQSSEKZZW 
+SETJKLDIEAWINFBNNYPVTTMZ 
+FPKWGDKZXTJDIGKHTHEKINGQ--96 (24x4) 
+ 
+The King is revealed.  DIG KH4 THE KING Q 
+ 
+ 
+We’ve lost a character, going from 97 to 96, because there were 10 UC’s, not 9.  This little fact will play a role, later. 
+ 
+ 
+ 
+THE REMAINS OF PASSAGE DEBRIS THAT ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED (continued) 
+ 
+Before we move on to the next key, we need to fulfill the entire clue, and this involves the word WAS5, which implies that the action took place in the past. 
+ 
+We also have the previously referenced PALIMPSEST, which, at least with the Archimedean example, involved shifts of 90°. 
+ 
+Folks, we need to make a temporal shift, to go back in time.  So do what you gotta do; but not to worry, those pedestrians without the capacity can follow along by faking it: 
+Simply turning your clocks back, say, 15 minutes (90° or a quarter of a dial) ought to do it.  You can also wave your arms, if you want. 
+ 
+We need to do the same with our matrix.  Consider our matrix as if it was sitting on a dial or a compass rose. 
+Transpose it counter-clockwise, as if turning it a quarter dial to the left. 
+ 
+Note: I’ve highlighted DIGKHTHEKING to make the transposition easier to follow, you know, for those CIA or NSA folks among us.  Try to keep up. 
+ 
+Transposed 90° counter-clockwise ↶. 
+ 
+OBKAOX 
+OGHLBS 
+OLIFBB 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ  96 (6x16) 
+ 
+XSBVGWSWLIYZDDHQ 
+OBBYNTQZKWNMGJTG 
+ALFNOOJZJANTWTHN 
+KHILPSSKTEBTKXKI 
+BGLFQSQEEIFVPZGK 
+OOOWQKTSSDNPFKIE  96 (6x16) 
+ 
+ 
+ 
+ 
+ 
+WITH TREMBLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER 
+ 
+Now everyone’s got a theory about this passage.  The reservation is where/when to apply it?  Well, how about here/now? 
+X marks the spot.  Again, for those with intel credentials, the “upper left hand corner” is on the left, towards the top. 
+ 
+XSBVGWSWLIYZDDHQ 
+OBBYNTQZKWNMGJTG 
+ALFNOOJZJANTWTHN 
+KHILPSSKTEBTKXKI 
+BGLFQSQEEIFVPZGK 
+OOOWQKTSSDNPFKIE  96 (16x6) 
+ 
+                                                     
+4 The KH provides us a timely occasion for this revelation.  Granted, there are those of you, you Egyptologists out there (you know who you are) will immediately go from KH to 
+Khufu.  But may I suggest we pull ourselves back from the trees a touch and see the forest?  Kryptos sits in the courtyard of the CIA.  And when people at the CIA think KH, they 
+think South East Asia, specifically, Cambodia. 
+The ex King of Cambodia, Norodom Sihanouk, wrote a book about the CIA’s agenda with his country, MY WAR WITH THE C.I.A., Cambodia’s Fight for Survival.  It’s not a pretty 
+story.  And some of the players did some God awful things.  This past week, one of those players/bastards, The BUTCHER, a member of 1970’s Pol Pot version of the Khmers 
+Rouge, the man behind Cambodia’s Killing Fields, Ta Mok (pronounced “Ass wipe” by those who knew him) died awaiting trial in prison for crimes against humanity and genocide. 
+<Insert magical, stomach calming, smile inducing, segue here> 
+5 ‘Was’ was ‘were’ in at least one account attributed to Howard Carter. 
+
+[[page 5]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+5 of 8 
+AND THEN... 
+ 
+Another temporal clue, instructing us to move forward in time and transpose our matrix accordingly. 
+So let’s transpose our matrix 90° clock-wise ↷, essentially where we were before we highlighted the X. 
+ 
+ 
+...WIDENING THE HOLE A LITTLE 
+ 
+We expand our breach by highlighting the O next to the X. 
+ 
+OBKAOX 
+OGHLBS 
+OLIFBB 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ 
+ 
+ 
+ 
+ 
+I INSERTED THE CANDLE AND PEERED IN 
+ 
+Let me introduce to you our CANDLE for the evening, providing both light and a cavity in which to PEER (gaze). 
+ 
+Introducing LUMINA 
+ 
+Function: noun 
+Inflected Form: plura form of lumen 
+Etymology: New Latin lumin-, lumen, from Latin, light, air shaft, opening 
+1. Anatomy: the inner open space or cavity or bore of a tubular organ, as of a blood vessel or an intestine (or as of a hollow needle or catheter) <the lumen of a blood vessel> 
+2. Botany: the cavity bounded by a plant cell wall. 
+3. Physics: a unit of luminous flux in the International System, equal to the amount of light emitted through a unit solid angle by a uniform point source of one candle 
+intensity radiating equally in all directions.  Abbreviation. lm 
+ 
+But before we insert our candle, let’s have a hardy (DYAHR) chuckle with some home grown American comedy, right from the nation’s capital... 
+ 
+ 
+ 
+ 
+THE HOT AIR ESCAPING FROM THE CHAMBER 
+ 
+When you think of HOT AIR, what comes to mind? 
+ 
+That’s right folks, living in Washington DC, Sanborn has heard it before.  BS 
+ 
+Removing our breach... 
+ 
+out pops BBBS6. 
+ 
+In goes our candle, LUMINA.  Now take a look at the matrix, folks.  A good hard look.  What do you see? 
+ 
+OBKA-- 
+OGHLBS 
+OLIFBB 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ 
+ 
+OBKA-- 
+OGHL-- 
+OLIF-- 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ 
+ 
+OBKAMA 
+OGHLUN 
+OLIFLI 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ  96 
+ 
+ 
+ 
+Do you see it?  The next key to our adventure?  Take a closer look.  What do we expect to see?  Confirmation! 
+ 
+ 
+(we disengage;  we turn the page) 
+ 
+                                                     
+6 Seems to be a lot more bull than S, and that’s no stutter. 
+
+[[page 6]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+6 of 8 
+Here, let me help. 
+ 
+---E 
+---M 
+OBKAMA 
+OGHLUN 
+OLIFLICKER 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ  102 characters 
+ 
+ 
+Putting it all together... 
+ 
+THE HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME TO FLICKER 
+Because the HOT AIR ESCAPING passage happens after we peered in, we need to again move temporally forward and transpose the matrix 90° clockwise ↷. 
+ 
+Transposed 90° counter-clockwise ↷. 
+ 
+---E 
+---M 
+OBKAMA 
+OGHLUN 
+OLIFLICKER 
+WFLNYV 
+QQPONG 
+KSSOTW 
+TQSJQS 
+SEKZZW 
+SETJKL 
+DIEAWI 
+NFBNNY 
+PVTTMZ 
+FPKWGD 
+KZXTJD 
+IGKHTH 
+EKINGQ  102 characters 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLAME 
+GTJGMNWKZQTNYLUM 
+QHDDZYILWSWGVINA 
+-------------C 
+-------------K 
+-------------E 
+-------------R 
+ 
+ 
+ 
+ 
+At this point we have a number of choices to make.  Consider it a Y in the Road, or looking at it a different way, a ReQuest. 
+ 
+ 
+A 
+ 
+Do we use the results above? 
+ 
+B 
+Or, say a scaled down version 
+(without the ME and CKER)? 
+ 
+C 
+Or, perhaps only 
+removing BS, leaving the BB 
+D 
+Again, only removing BS, 
+leaving the BB 
+E 
+ 
+Yada yada yada 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLAME 
+GTJGMNWKZQTNYLUM 
+QHDDZYILWSWGVINA 
+-------------C 
+-------------K 
+-------------E 
+-------------R 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLA 
+GTJGMNWKZQTNYLUM 
+QHDDZYILWSWGVINA 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLA 
+GTJGMNWKZQTNYBLU 
+QHDDZYILWSWGVBMINA 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLA 
+GTJGMNWKZQTNYBLUM 
+QHDDZYILWSWGVB-INA 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLA 
+GTJGMNWKZQTNYBLU 
+QHDDZYILWSWGVBMINA 
+ 
+Fu 
+Or, for those 
+Dan Brown devotes7... 
+ 
+ 
+Cu 
+Same as above, but including 
+the ME and CKER 
+ 
+Du 
+ 
+Yada 
+ 
+Eu 
+ 
+Yada yada 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLA 
+GTJGMNWKZQTNYLUM 
+QHDDZYILWSWGVINA 
+--------------TI 
+ 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLAME 
+GTJGMNWKZQTNYBLU 
+QHDDZYILWSWGVBMINA 
+----------------C 
+-----------------K 
+------------------E 
+-------------------R 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLAME 
+GTJGMNWKZQTNYBLUM 
+QHDDZYILWSWGVB-INA 
+----------------C 
+-----------------K 
+------------------E 
+-------------------R 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLAME 
+GTJGMNWKZQTNYBLU 
+QHDDZYILWSWGVBMINA 
+----------------C 
+-----------------K 
+------------------E 
+-------------------R 
+ 
+ 
+                                                     
+7 You all realize by now, I hope, that Kryptos was commissioned in the late 80’s, a generation before Dan got around to penning the Da Vinci Code. 
+  Kryptos has absolutely nothing to do with the theories of Mr. Brown, or his wife.  Though, of course, Dan and his handlers would love to hitch his ride to Sanborn’s wagon. 
+  Heidi, my dear, you need to call me. 
+
+[[page 7]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+7 of 8 
+Expanding the matrices to a single row provides us the following: 
+ 
+A 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAMEGTJGMNWKZQTNYLUMQHDDZYILWSWGVINACKER 
+102
+B 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAGTJGMNWKZQTNYLUMQHDDZYILWSWGVINA 
+96
+C 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAGTJGMNWKZQTNYBLUQHDDZYILWSWGVBMINA 
+98
+D 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAGTJGMNWKZQTNYBLUMQHDDZYILWSWGVBINA 
+98
+E 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAGTJGMNWKZQTNYBLUQHDDZYILWSWGVBMINA 
+98
+Cu 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAMEGTJGMNWKZQTNYBLUQHDDZYILWSWGVBMINACKER 
+104
+Du 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAMEGTJGMNWKZQTNYBLUMQHDDZYILWSWGVBINACKER 
+104
+Eu 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAMEGTJGMNWKZQTNYBLUQHDDZYILWSWGVBMINACKER 
+104
+Fu 
+EIKFPNDSSTKQWOOOKGZPVFIEEQSQFLGBIKXKTBETKSSPLIHKNHTWTNAJZJOONFLAGTJGMNWKZQTNYLUMQHDDZYILWSWGVINATI 
+98
+ 
+ 
+But now consider K3’s penultimate passage. 
+ 
+ 
+BUT PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST 
+ 
+PRESENTLY means momentarily, that is, very soon, but still future. 
+So, as before, we ought to take this as a clue directing us to transpose our matrix 90° clockwise, once again. 
+With all the options available to us, this will double the number of potentially required investigations. 
+ 
+Transposed 90° counter-clockwise ↷. 
+ 
+EIKFPNDSSTKQWOOO 
+KGZPVFIEEQSQFLGB 
+IKXKTBETKSSPLIHK 
+NHTWTNAJZJOONFLAME 
+GTJGMNWKZQTNYLUM 
+QHDDZYILWSWGVINA 
+-------------C 
+-------------K 
+-------------E 
+-------------R 
+ 
+----QGNIKE 
+----HTHKGI 
+----DJTXZK 
+----DGWKPF 
+----ZMTTVP 
+----YNNBFN 
+----IWAEID 
+----LKJTES 
+----WZZKES 
+----SQJSQT 
+----WTOSSK 
+----GNOPQQ 
+----VYNLFW 
+REKCILFILO 
+----NULHGO 
+----AMAKBO 
+------M 
+------E 
+ 
+ 
+ 
+We now find ourselves with a matrix that is essentially the reverse of K4’s original CT.  This corresponds nicely with the clue found in K1’s PT8. 
+ 
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF IQLUSION 
+ 
+ 
+ 
+                                                     
+8 Recall my earlier post to the Yahoo Kryptos group, message #5231, June 28th, 2006, 6:12 am. 
+
+[[page 8]]
+On Engendering an Understanding of Illusion — Kryptos, From Hydra to the Flickering Flame 
+8 of 8 
+K1's PT 
+ 
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF IQLUSION 
+ 
+Between SS and removal of C9 lies the NI. 
+ 
+Recall that the original K4 CT had two C’s near the end. 
+ 
+---------------------------OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+----------------↑-----------↑ 
+ 
+But our previous UC removal has removed them.  There are also two SS digraphs.  Find either SS and walk towards The King. 
+ 
+K4’s original CT 
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZW 
+-ATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR---97 characters 
+----------------------------------↑-----------↑ 
+ 
+K4’s original CT 
++ Hydra substitution, 
++ UC removal, 
+ 
+OBKAOXOGHLBSOLIFBBWFLNYVQQPONGKSSOTWTQSJQSSEKZZW 
+SETJKLDIEAWINFBNNYPVTTMZFPKWGDKZXTJ-DIGKHTHEK-INGQ--96 
+-----------------------------------↑---------↑ 
+ 
+K4’s original CT 
++ Hydra substitution, 
++ UC removal, 
++ transposition 90° counter-clockwise, 
++ make tiny breach, 
++ transposition 90° clockwise, 
++ widen breach, 
++ insert candle, 
++ causing the flame to flicker. 
+ 
+ 
+ 
+OBKAMAOGHLUNOLIFLIWFLNYVQQPONGKSSOTWTQSJQSSEKZZW 
+SETJKLDIEAWINFBNNYPVTTMZFPKWGDKZXTJ-DIGKHTHEK-INGQ--96 
+-----------------------------------↑---------↑ 
+ 
+ 
+You will come across IN (twice).  But we require NI (it's an ordering thing). 
+This provides us a genuine reason to reverse K4's CT, thus placing the question mark at the end. 
+Something, I suspect, many have sought to do, for some time now. 
+ 
+So, after our manipulations, we’ve arrived at the following matrix, which just happens to satisfy the ordering of SS and NI. 
+ 
+ 
+QGNIKE 
+HTHKGI 
+DJTXZK 
+DGWKPF 
+ZMTTVP 
+YNNBFN 
+IWAEID 
+LKJTES 
+WZZKES 
+SQJSQT 
+WTOSSK 
+GNOPQQ 
+VYNLFW 
+ILFILO 
+NULHGO 
+AMAKBO 
+ 
+ 
+QGNIKEHTHKGIDJTXZKDGWKPFZMTTVPYNNBFNIWAEIDLKJTESWZZKESSQJSQTWTOSSKGNOPQQVYNLFWILFILONULHGOAMAKBO  96 
+ 
+ 
+QGNIKEHTHKGIDJTXZKDGWKPFZMTTVPYNNBFNIWAEIDLKJTESWZZKESSQJSQTWTOSSKGNOPQQVYNLFWILFILONULHGOAMAKBO  96 
+ 
+ 
+ 
+ 
+ 
+I’ll stop here to allow digestion.  There is actually quite a ways to go. 
+ 
+A few things you need to notice: the extent of instructions provided to us from the K3 PT for our matrix manipulations, and the fact that many of the stages were confirmed from 
+clues we should all be familiar with.  As we will see, this will continue. 
+ 
+I’ll leave you with this. 
+ 
+For those that haven’t done the math, WW is the result of JS xor ED. 
+That is, in a one-indexed alphabet (where A = 1, D = 4, E = 5, J = 10, S = 19 and W = 23), 
+23 = 10 xor 5, and 23 = 19 xor 4. 
+In binary, 10111 = 01010 xor 00101 and 10111 = 10011 xor 00100. 
+ 
+ 
+Monet Friedrich 
+friedrich@sfu.ca 
+ 
+                                                     
+9 C, of course, is typically used in Physics to represent the velocity of light; not light itself. 

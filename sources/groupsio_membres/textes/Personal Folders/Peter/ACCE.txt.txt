@@ -1,0 +1,43 @@
+What if the mask is the old crypto trick of only 2 letters with one of the letters being the first letter of the alphabet?
+
+
+
+So YA (4,5) and R (7) could indicate to use  KR and O in K4.
+
+
+
+Translated to the standard alphabet this equates to AB and G.
+
+
+
+The difficult part would be to  figure out the encrytion/decryption scheme used.
+
+
+
+Example :
+
+
+
+ABCD
+
+KRKR
+
+ACCE
+
+
+
+ACCE
+
+OOOO
+
+YTTS
+
+
+
+00:42 9-MAR-2019
+
+regards,
+
+
+
+TWO

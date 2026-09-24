@@ -1,0 +1,202 @@
+User                                                                                                         B
+L;r38
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+Sheet1
+binary code
+Sheet3
+birary code
+birary code
+keyword
+use mid to break up keyword
+use mid to break up pt
+Which letter of keyword
+this letter is?
+Position in binary
+kryptos
+bits in binary
+binary equivalent
+I think this is the "window"
+collect sets of 10
+collect sets together$
+this is a trick to remove the spaces
+just a sequence of numbers#
+where in the column are valid bits?
+list those bits
+break into sets of 5
+convert back to letters
+MbP?_
+01011
+00010
+01001000  
+01001000                      ~
+01001
+01011
+00010
+000  
+01011
+00010
+     
+01011
+00010
+     
+01011
+00010
+     
+10010
+01111
+     
+10010
+01111
+10010
+01111
+10010
+01111
+10010
+01111
+11001
+00010
+          
+11001
+00010
+11001
+00010
+11001
+00010
+11001
+00010
+10000
+10000
+10000
+10000
+10000
+10100
+          
+10100
+10100
+10100
+10100
+01111
+01111
+01111
+01111
+01111
+10011
+10011
+10011
+10011
+10011
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+@Y@(
+@Z@(
+@[@(
+@\@(
+@]@(
+@^@(
+@_@(
+ `@(
+@`@(
+``@(
+ a@(
+@a@(
+`a@(
+ b@(
+@b@(
+`b@(
+ c@(
+@c@(
+`c@(
+ d@(
+@d@(
+`d@(
+ e@(
+@e@(
+`e@(
+ f@(
+@f@(
+`f@(
+ g@(
+@g@(
+`g@(
+ h@(
+@h@(
+`h@(
+ i@(
+@i@(
+`i@(
+ j@(
+@j@(
+`j@(
+ k@(
+@k@(
+`k@(
+ l@(
+@l@(
+`l@(
+ m@(
+@m@(
+`m@(
+ n@(
+@n@(
+`n@(
+ o@(
+@o@(
+MbP?_
+00001
+00010
+00011
+00100
+00101
+00110
+00111
+01000
+01001
+01010
+01011
+01100
+01101
+01110
+01111
+10000
+10001
+10010
+10011
+10100
+10101
+10110
+10111
+11000
+11001
+11010
+MbP?_
+User
+User
+Microsoft Excel
+NIST
+Sheet1
+binary code
+Sheet3
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

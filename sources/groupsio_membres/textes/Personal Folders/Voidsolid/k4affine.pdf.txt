@@ -1,0 +1,99 @@
+[[page 1]]
+k4affine by voidsolid, 14apr21, Re: [Kryptos] Argument in favor of K4 being Quag-III based, by Rob Matson
+The affine cipher or times cipher needs the times part of the encryption to be 
+co-prime with 26 for the decryption to be consistent. 
+When the times is not co-prime with 26, there is 1/2 of the possibilities for 
+the ct letters, and therefore a different distribution of pattern types among 
+the ct letters.
+Consider a n-nested keyed vigenere cipher encrypt with alphabet key kryptos 
+passphrase ABCDEFGHIJKLMNOPQRSTUVWXYZ
+nested# ct
+01 ABCDEFGHIJKLMNOPQRSTUVWXYZ=pt
+02 HJMQVXKYTSKBDFDSHYFBJMQVTX 
+03 UXRTADGJNVKZYOICBPMFEHLQSW
+04 YSDHMVKTBFKJQXQFYTXJSDHMBV 
+05 CHNXPBGMWYKAFLZIVOTQRSEJDU 
+06 JVYBHQKSFMKXTDTMJSDXVYBHFQ 
+07 WTEMZSGQRBKIVPCUDAJYLXOFHN 
+08 TFQYDMKBJXKSHVHXTBVSFQYDJM 
+09 EQPFUTGVOHKWSINRXCYDAJZBML 
+10 MYFVSJKDQTKHXBXTMDBHYFVSQJ 
+11 ZDUSLYGXCQKOJRPAFEHMWBNTVI 
+12 SMTJYHKFXDKVBQBDSFQVMTJYXH 
+13 GKGKGKGKGKKGKGGGKGKKGKGKKG 
+14 QBVDXFKHYJKTMSMJQHSTBVDXYF 
+15 RJOQCXGYLSKUDZWNHIFBPMAVTE 
+16 BXHTQDKJSVKFYMYVBJMFXHTQSD 
+17 ISWHOVGTUFKPQEAZYLXJNDRMBC 
+18 VHSXJBKMDYKQFTFYVMTQHSXJDB 
+19 PVIBRQGSZMKETWLOJNDXCYUHFA 
+20 DTXMFSKQHBKYVJVBDQJYTXMFHS 
+21 LFAYWMGBPXKNHCRETUVSZQIDJO 
+22 XQJFBTKVMHKDSYSHXVYDQJFBMT 
+23 OYZVNJGDATKRXUELMWBHIFCSQP 
+24 FDBSTYKXVQKMJHJQFXHMDBSTVY 
+25 NMLJIHGFEDKCBAUWSZQVOTPYXR 
+26 KKKKKKKKKKKKKKKKKKKKKKKKKK 26=0
+27 ABCDEFGHIJKLMNOPQRSTUVWXYZ 27=1
+This is modified affine cipher encrypt with alphabet key kryptos and 
+c=nested*p=(nested-1)*p+p, where nested varies from 1 to 26,(for usual affine, 
+c=a*p+b, a and b are fixed).
+When nested=2, c=2*p=1*p+p=p+p so clearly there will be 2 matches for this case.
+For this case, notice that
+2*LMNABGCDJIEFH=BDFHJKMQSTVXY and
+2*TOSQUKVWPYXZR=BDFHJKMQSTVXY
+Therefore, there is no solution p for c=2*p when c is any of the letters 
+CEGILRNUAOWZP, so only YVTTMFK but not NPZP in NYPVTTMZFPK can be encrypted this 
+way.
+For example, 
+2*I=T, but also 2*Y=T; and 
+2*C=M, but also 2*V=M.
+p1/2
+
+[[page 2]]
+In other words, for decryption, only 1/2 of the c characters can be decrypted at 
+all, and for each one there is 2 choices for the p characters.
+These points should be factored into the probability calculation for 2 match 
+odds.
+Now, if nested is not fixed at 2 and instead is allowed to vary, we very quickly 
+notice a pattern that at first glance seems to be anything but coincidence.
+N=E+B=none*B+B, however,
+M=D+B=11*B+B=12*B
+Y=L+E=11*E+E=12*E
+P=Y+R=02*R+R=03*R
+V=O+L=11*L+L=12*L
+T=I+I=01*I+I=02*I
+T=E+N=17*N+N=18*N
+M=C+C=01*C+C=02*C
+Z=B+L=02*L+L=03*L
+F=A+O=17*O+O=18*O
+P=Q+C=08*C+C=09*C
+K=K+K=any*K+K=any*
+The pattern is:
+AABACDCBDE?
+**-*-------
+--*----*---
+----*-*----
+-----*--*--
+---------*-
+----------*
+where doublets (**) are very close together where ? is any and
+A=12=2^2*3^1={2,3}^{2,1}
+B=03=2^0*3^1={2,3}^{0,1}
+C=02=2^1*3^0={2,3}^{1,0}
+D=18=2^1*3^2={2,3}^{1,2}
+E=09=2^0*3^2={2,3}^{0,2}
+F=04=2^2*3^0={2,3}^{2,0}
+Here ?=F to make it more of a pattern, the powers of 2 and 3 are circular shifts 
+of each other! That is, both are circular shifts of 011022.
+Any way I have tried to continue the pattern to the next 11 characters 
+WGDKZXTJCDI I have not been able to get any words from it.
+Moreover, there is still the problem of decryption giving 2 possible pt 
+characters for 1/2 of the ct characters for all nests of those characters even 
+when using the trick we used with the N (no EN under B, but there is a DM under 
+B).
+So in the end we have 2^11 choices to check for the next 11 characters for each 
+of the ways we try to continue the pattern.
+However, the artist of Kryptos may have found a way to modify the affine cipher 
+or times cipher so that decryption is consistent.
+p2/2

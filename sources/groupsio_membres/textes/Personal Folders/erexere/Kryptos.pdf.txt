@@ -1,0 +1,363 @@
+[[page 1]]
+KRYPTOS
+(ciphertext)
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP
+DQUMEBEDMHDAFMJGZNUPLGESWJLLAETG
+(Vigenere tableau)
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLB
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+Defects:
+S = unintentionally left out of the sculpture
+L = unintentionally added to the sculpture   
+DYAHR = irregularly positioned  
+K0
+EEVIRTUALLYE 
+. . ...- .. .-. - ..- .- .-.. .-.. -.-- .  
+EEEEEEINVISIBLE
+. . . . . . .. -. ...- .. ... .. -... .-.. .  
+EESHADOWEE
+. . ... .... .- -.. --- .-- . . 
+FORCESEEEEE
+..-. --- .-. -.-. . ... . . . . . 
+LUCIDEE
+.-.. ..- -.-. .. -.. . .  
+MEMORYE
+-- . -- --- .-. -.-- .  
+RQ
+.-. --.-  
+SOS
+... --- ...  
+EDIGETALEEE 
+. -.. .. --. . - .- .-.. . . .  
+INTERPRETATIT 
+.. -. - . .-. .--. .-. . - .- - .. -  
+TISYOUR 
+- .. ... -.-- --- ..- .-. 
+POSITIONE 
+.--. --- ... .. - .. --- -. . 
+
+[[page 2]]
+Why so many E's?  Is this just background noise in the transmission?  What happens if we filter out the 
+noise?  26xE's are superfluous and 6xE's are intelligible parts of the words with the exception of the 
+mispelled word DIGETAL.  The filter doesn't distinguish which E's are important...
+VIRTUALLY, INVISIBL, SHADOW, FORCS, LUCID, MMORY, RQ, SOS, DIGTAL, 
+INTRPRTATIT, TISYOUR, POSITION
+SOS is a palindrome.  (note: palindrome shares a dictionary page with the word PALIMPSEST).  A 
+palindrome is a string of letters that are the same when read forwards or backwards.  It could be that the
+“Central Intelligence Agency” is itself a clue about this puzzle which is physically located at the 
+absolute center of the property.  Looking at the central letters of each palindrome element found in the 
+morse gives,
+LL, ISI, MM, SOS, RPR, TAT, TIT, ITI
+The central letter results: L S M O P A I T  (note: had the word DIGETAL been spelled 
+correctly, it would've contributed a G by the palindrome fragment IGI from DIGITAL.)
+K1
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+K1 is solved using the tableau and keyword PALIMPSEST in what is known as a Quagmire III cipher:
+BETWEENSUBTLESHADINGANDTHEA B SENCEOFLIGHTLIESTHENUANCEOFIQLUSION
+ 1  23      4            5   6  7         8   9     10
+This message is 63 long.  I think it's goal is to communicate something important by looking at the 
+relative middle point with respect to the misspelled letter.  The Q is at the 57th position.  The center of 1-
+56 is 28, which is also where ABS is positioned.  This 3-letter group is also indicated by being grouped 
+in the center between the 5th and 6th E's in the string.  Does Jim Sanborn then use a dictionary to find a 
+keyword by looking up ABS?
+K2
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP
+DQUMEBEDMHDAFMJGZNUPLGESWJLLAETG
+K2 is also solved by Quagmire III, this time using the keyword ABSCISSA:
+
+[[page 3]]
+IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE? THEY USED THE EARTHS M
+ 
+ AG
+  NETIC 
+FIELD X THE INFORMATION WAS GATHERED AND TRANSMITTED UNDERGRUUND TO AN 
+UNKNOWN LOCATION X DOES LANGLEY KNOW ABOUT THIS? THEY SHOULD ITS BURIED OUT 
+THERE SOMEWHERE X WHO KNOWS THE EXACT LOCATION? ONLY WW THIS WAS HIS LAST 
+MESSAGE X THIRTY EIGHT DEGREES FIFTY SEVEN MINUTES SIX POINT FIVE SECONDS 
+NORTH SEVENTY SEVEN DEGREES EIGHT MINUTES FORTY FOUR SECONDS WEST X LAYER TWO
+Could it be that K2 is similar to K1 in its use of a misspelling in order to point to specific position in 
+the text?  The U is at position 116.  The center of 1-115 is 57.5. There is an A at 57 and a G at 58.  The A
+and G are found in the center group of letters following the 6th E out of 13 E's,:  ARTHSM
+ 
+ AG
+  N.  The 
+letters AG might be a special clue to a keyword for K4.  The three nearest words of interest in the 
+dictionary when looking up AG are:   (1)Ag, “Argentum”, the latin word for silver, (2) agapé, an ancient
+Greek word for divine or preferreed love, and (3) agency, which is part of the acroynym, C.I.A.
+K3
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLB
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW
+K3 is solved by applying transpositions first by mapping the code to a 24x14 matrix, turning 90-
+degrees counterclockwise and then fitting it to an 8x42 matrix and turn.
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLB
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT ENCUMBERED THE 
+LOWER PART OF THE DOORWAY WAS REMOVED WITH TREMBLING HANDS I MADE A TINY 
+BREACH IN THE UPPER LEFT HAND CORNER AND THEN WIDENING THE HOLE A LITTLE I 
+INSERTED THE CANDLE AND PEERED IN THE HOT AIR ESCAPING FROM THE CHAMBER CAUSED 
+THE FLAME TO FLICKER BUT PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE 
+MIST X CAN YOU SEE ANYTHING Q 
+
+[[page 4]]
+This is borrowed from a Nov. 26th, 1922 journal of Howard Carter's discovery of King Tut's tomb.  
+Minor alterations seem to indicate select line lengths were sought, thus the locations or spelling of 
+certain letters or words was necessary for some purpose.  I have some analysis on the passage that 
+shows some evidence that the E's were tailored:
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT 
+       DESPERATELY                                              
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED WITH 
+                                         WERE
+TREMBLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND 
+CORNER AND THEN WIDENING THE HOLE A LITTLE I INSERTED THE 
+                           21   
+CANDLE AND PEERED IN THE HOT AIR ESCAPING FROM THE CHAMBER 
+CAUSED THE FLAME TO FLICKER BUT PRESENTLY DETAILS OF THE ROOM 
+CAUSING
+WITHIN EMERGED FROM THE MIST X CAN YOU SEE ANYTHING Q 
+                           42                 44
+                           45                 47      
+I'm looking at two or three possibilities:  (1) are the E's tailored in such a way that they perform the 
+same function as they do in K1 and K2, or (2) does the message hide a key number in the sum of all E's
+known from the original text, which would make it 47, or (3) is it doing both?  This must be confusing, 
+but I'm also making an assumption to ignore the two E's in the last portion for the purpose of 
+identifying the central HOL clue, which may not really be a clue at all if this turns out to be just a 
+simple count of E's by recognizing the subtle differences between what's on the sculpture and the 
+original record of Howard Carter's journal.  I hesitate to jump to conclusions like this, but the number 
+47 just happens to be the atomic number for Silver, Ag.  This is both surprising and confusing.  I still 
+don't know why the X and Q are present in the passage.
+K4
+                          ?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+This is what's left to be deciphered.  A ?-mark and 97 letters encrypted by some unknown process.  Jim 
+Sanborn and his cryptographic advisor Ed Scheidt have revealed something about their unique process: 
+(1) it's masked, meaning something has been done to alter the English language, thwarting all standard 
+methods of cryptoanalysis, (2) five or six steps are used in the overall process of decryption, (3) letters 
+64-74: NYPVTTMZFPK are 1:1 decrypted to BERLINCLOCK.  It is the hope that the crib tip 
+BERLINCLOCK will speed up attempts to solve the remaining K4 ciphertext.
+The Mask
+One of the most perfect methods for masking a ciphertext is to use a source of random letters, one 
+random letter for each letter in the cipher.  This process is known as a One Time Pad (OTP).  In terms 
+
+[[page 5]]
+of frequency and distribution, any text can be analyzed for known consistencies for the language used.  
+It's practically impossible to perceive any consistencies when one message has been paired with an 
+unknown source.  If the purpose of the work preceeding K4 is to provide the needed intelligence to 
+solve K4, then it is my belief that the mask is recovered from somewhere in that data.  It could be a 
+specific range of values in order, or an algorithm of some disrupted pattern or something like a grille.
+Here are two interesting ideas I'd like to consider: (1) making use of the odd letters resulting from the 
+palindrome fragments of K0, and (2) applying the Period Table of the Elements.
+From K0 we get palindrome letters:
+L S M O P A I T anagrams to ALMOST PI
+I've lept to an interesting conclusion which follows just enough reasoning to look consistent with the 
+entirety of K1 and K2 when considered together.  Pi is that relationship between a circle's 
+circumference and it's diameter.  “Almost Pi” could be the common approximation for Pi, simply 
+produced by 22 divided by 7, which is 3.14285714857142857...  I discovered that this number 
+sequence can be applied to K1/K2 to produce exactly 98 random looking letters.
+3 = 3rd letter
+3+1 = 4th letter
+3+1+4 = 8th letter
+3+1+4+2 = 10th letter
+3+1+4+2+8 = 18th letter
+3+1+4+2+8+5 = 23rd letter
+3+1+4+2+8+5+7 = 30th letter
+3+1+4+2+8+5+7+1 = 31st letter... 
+3142857142857142857142857142857142857142857142857
+1428571428571428571428571428571428571428571428571
+(98 places, note: the rainbow convention is just a convenience)
+I don't know which is preferred, using the plaintext or the ciphertext, so I'll try both, forwards and 
+backwards given the speculation that the ?-position may suggest a reversal,
+BETWEENSUBTLESHADINGANDTHEABSE
+   NCEOFLIGHTLIESTHENUANCEOFIQ
+   LUSIONITWASTOTALLYINVISIBLE
+   HOWSTHATPOSSIBLE?THEYUSEDTH
+   EEARTHSMAGNETICFIELDXTHEINF
+   ORMATIONWASGATHEREDANDTRANS
+   MITTEDUNDERGRUUNDTOANUNKNOW
+   NLOCATIONXDOESLANGLEYKNOWAB
+   OUTTHIS?THEYSHOULDITSBURIED
+   OUTTHERESOMEWHEREXWHOKNOWST
+   HEEXACTLOCATION?ONLYWWTHISW
+   ASHISLASTMESSAGEXTHIRTYEIGH
+   TDEGREESFIFTYSEVENMINUTESSI
+
+[[page 6]]
+   XPOINTFIVESECONDSNORTHSEVEN
+   TYSEVENDEGREESEIGHTMINUTESF
+   ORTYFOURSECONDSWESTXLAYERTW
+   O
+Forwards from PT:
+TWSBIDENFITAQLOIANEHTALEHETSCDFOTOHASMEUUAWNAILEB
+OHSOTDOHREHTHATNYWASAGIHTREEIIXNFNRNTVNEMFOFUSXWO
+Backwards from PT:
+OWXSUFOFMENVTNRNFNXIIEERTHIGASAWYNTAHTHERHODTOSHO
+BELIANWAUUEMSAHOTOFDCSTEHALETHENAIOLQATIFNEDIBSWT
+Pulling mask out of the K1/K2 ciphertext(CT),
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFI
+   VJYQTQUXQBQVYUVLLTREVJYQTMK
+   YRDMFDVFPJUDEEHZWETZYVGWHKK
+   QETGFQJNCEGGWHKK?DQMCPFQZDQ
+   MMIAGPFXHQRLGTIMVMZJANQLVKQ
+   EDAGDVFRPJUNGEUNAQZGZLECGYU
+   XUEENJTBJLBQCRTBJDFHRRYIZET
+   KZEMVDUFKSJHKFWHKUWQLSZFTIH
+   HDDDUVH?DWKBFUFPWNTDFIYCUQZ
+   EREEVLDKFEZMOQQJLTTUGSYQPFE
+   UNLAVIDXFLGGTEZ?FKZBSFDQVGO
+   GIPUFXHHDRKFFHQNTGPUAECNUVP
+   DJMQCLQUMUNEDFQELZZVRRGKFFV
+   OEEXBDMVPNFQXEZLGREDNQFMPNZ
+   GLFLPMRJQYALMGNUVPDXVKPDQUM
+   EBEDMHDAFMJGZNUPLGESWJLLAET
+   G 
+Forwards from CT:
+UFLFKRIVTUVEKYFVHZKQFJKMQMGFIJQEDFUGUXNTTHTKVUWQH
+HUHFDZEVDQUEUVDZBOGFHQUPDCQQVVOBMZDZGPRNXMEMDUSTG
+Backwards from CT:
+GTSUDMEMXNRPGZDZMBOVVQQCDPUQHFGOBZDVUEUQDVEZDFHUH
+HQWUVKTHTTNXUGUFDEQJIFGMQMKJFQKZHVFYKEVUTVIRKFLFU
+Using the Period Table of the Elements,
+
+[[page 7]]
+The following chain of letters results beginning with Hydrogen and ending with Cesium:
+HHELIBEBCNOFNENAMGALSIPSCLARKCASCTIVCRMNFECONICUZ
+NGAGEASSEBRKRRBSRYZRNBMOTCRURHPDAGCDINSNSBTEIXECS
+This is purely a guess.  I like that it results in the final letters coming from Cesium which is known to 
+be the most accurate source for time keeping.  Also, my work with tracking the E's in the deciphered 
+section of K2 resulted in some speculation about why it produced the letters AG, possibly a hint to look
+at the abbreviations in a chart of the elements given that Ag represents the element Silver.
+Mask Removal
+This task might be more tricky than we initially think, since it's typical to assume one string of letters is
+being used to modify another string, letter for letter.  The trick that may be involved may involve a 
+spatial component.  This could be done in a number of ways:
+Typical lining up of rows:
+A B C D (mask)
+   &
+a b c d  (plaintext)
+Aa Bb Cc Dd  (K4)
+Horizontally reflected:
+A B C D
+E F G H
+   &
+a b c d
+e f g h    
+Ae Bf Cg Dh
+Ea Fb Gc Hd
+Rotated and layered:
+Ah Bg Cf De
+
+[[page 8]]
+Ed Fc Gb Ha
+In order to consider these spatial possibilities we look at the factors of 98.  49x2, 14x7, 7x14 and 2x49 
+will return different results when reflecting or rotating,
+49x2:
+?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZ
+WATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+14x7:
+?OBKRUOXOGHULB
+SOLIFBBWFLRVQQ
+PRNGKSSOTWTQSJ
+QSSEKZZWATJKLU
+DIAWINFBNYPVTT
+MZFPKWGDKZXTJC
+DIGKUHUAUEKCAR               
+               

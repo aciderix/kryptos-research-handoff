@@ -1,0 +1,93 @@
+All:
+I wanted to post a summary of observations of Impaired Operative clues related to Kryptos K1-3, remaining observations that are potentially used for K4 and some related brainstorming (I had not seen this summarized before and this took a long time for me to take this all in from the bits and pieces on the site.  Hopefully it will speed up the process for others).  I am also posting a complete document my personal folder.  Please feel free to edit, expand etc. Also I am sure that I will miss crediting the originator of the observations in many cases.  Please feel free to update the document.
+
+Overview:
+Sanborn as an artist embedded many clues within the pieces to aid an operative to recover many clues to the keywords. He has stated publicly that he was surprised that K1-3 was not solved as he intended. One can assume that he intended it to be cracked by careful examination of the piece to recover the keys as opposed to brut force methods. The clues recovered thus far have been subtle, so we can assume the clues for K4 are equally subtle. It is probably a fair assumption to assume that Sanborn, who knew the solutions, in trying to make the clues not obvious, made them much more difficult than he intended. One analogy is the directors of the Six Sense.  They thought the clues given in the movie were so obvious that everyone would pick up on the ending, however very few people connect the dots. Of course this changes if one watches the movie the second time.  In trying to be subtle the clues Sanborn created are actually even more so, and they have slowly trickled out after the fact. Restricted access to the piece has made it that much more difficult. This document is an attempt to put them together in a cohesive document to aid in the solution of K4
+
+K1-3 Impaired Operative Clues:
+Sanborn uses many aspects of the Piece to communicate clues. For sake of argument, we can divide them into 3 categories:
+	1) Clues given by the auxiliary pieces
+	2) Clues given in the preceding decoded message
+	3) Clues given by and in the physical form of the main piece.
+
+Because of this Sanborn intended to for the piece to be solved in order:
+
+K1 Clues
+Aux Pieces There is an existing theory that the palindrome nature of the first set of Morse pieces is somewhat suggestive of Palimpsest.
+Preceding Message:  NA
+Physical Form:  There are two proposed ideas here. First the piece itself is a representation of a scroll. This plus the name (Kryptos=hidden) the operative could jump to Scroll with hidden text = Palimpsest.  Second is a theory proposed by Gary Warzin with regards modified serifs on the key letters the vigenere side of the piece.  I am not sure if this has been proven or rejected.
+
+K2 Clues
+Aux Pieces:  “Virtually Invisible” from the morse piece when cribbed across K2 yields the keyword Abscissa in the text
+Preceding message if taken literally can be manipulated to allude to the key word similar to the following
+                  I am between a rock and a hard place = ROCK I HARD PLACE
+
+                 ABSence of light nuance of Iqlusion Subtle Shading And
+
+Physical form: the Petrified tree has several places where it is cut horizontally: Abscissa -> To cut off, also it is the horizontal or X axis.
+
+K3 Clues
+The next Morse Message is “Digetal Interpratatu…” which indicates read digitally or possibly decode “Binary”
+
+K2 ends with ID by Rows indicating what the Binary # represents 
+
+Raised YAR indicates the matrix sizes (see Gary Warzins Write up)
+
+K4 and Remaining Clues
+
+If we assume that K4 is a multi-step process, as many do, recovering and properly interpreting the clues is essential for the solution. If we carry on the framework from above we can insert potential clues here.  Please feel free to add additional observations and theories:
+
+Aux Pieces: If we follow the site map created by Ken Lewis(and Monet Friedrich), As one walks up the path “towards” the building and the main piece, the Morse is read in the following direction:
+
+SOS RQ Lucid Memory Shadow forces (  K1 Palindromes?
+Virtually Invisible ( K2
+Digetal Interpretat   (K3
+T is your position   -(K4?
+
+It is thus possible that “T is your position” is a hint for K4.  Also note that this morse appears next to the compass rose and lodestone and the needle is deflected by the load stone towards west by slightly more than 90 degrees.
+
+2) Previous text (K3): There have been many proposals here.  However there is not a clear clue such as “ID by Rows”, that clearly does not fit with the rest of the message.  Therefore it may be that the keyword or words are embedded in K3 or are inferred by it
+
+3) There are a couple potential clues within the main piece that may be pertinent to K4.  First, K4 (along with the last 26 letters of K3) are the only lines where there are exactly 31 letters and they are justified.  Possibly they need to be rotated 90 degrees based on the compass rose?  There may be other possibilities as well including Palimpsest based on the Vigenere side, etc.   Also the wavy form of the piece may indicate a rail-fence or re-defense type of transposition.
+
+Additional Clues:
+
+The purpose of the miss-spelled words is yet to be explained and they may hold clues for K4 or as also suggested K5. To review what is known:
+
+Morse:  DIGETAL    E instead of I
+K1 IQLUSION    Q instead of L
+K2 UNDERGRUUND U instead of O
+K3 DESPARATLY A instead of E missing E
+
+1) Sanborn has indicated that it is their placement that is critical:
+	Digetal E for I I is the 9th letter of the alphabet. It is also the 9th letter in the morse section  (sos rq luc I d memory)
+
+	Iqlusion:  Q for L L is the twelveth letter of the Alphabet, the 12th letter of K1 is L : Between subt l e,  The position of the Q is the 57th letter of K1 ( 5+7 -12)
+
+	Undergruund  U for O, is the 115th letter (1+1+5 =7) O is the seventh letter of K2
+
+	Desparatly A for e at the 11th letter,  The 11 letter from the back of K4 is an E  An indicator of direction?
+
+2) If we take each of these they spell EQUAL (If we use the Extra L from Vig side)
+
+	Equality (and Balance) is an important form in Kryptos.  Se the examples
+
+A) Equal # of characters on each side of Kryptos.
+
+B) K2 and K3 have the same # of words: (75)
+C) K1 + K2 = K3 + K4  have the same # of characters = 433
+	By extension should K4 have 13 words just like K1?
+D) The coordinates in K2 have the same # of characters:  59  (Include ID by rows)
+
+Equality may be a key factor in this ...Is there a Greek word that relates to this?
+
+Summary 
+There are probably additional clues there. Please feel free to add:  
+
+Jason
+
+
+
+
+
+

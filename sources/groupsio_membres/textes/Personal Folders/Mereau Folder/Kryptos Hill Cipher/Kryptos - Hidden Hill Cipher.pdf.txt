@@ -1,0 +1,447 @@
+[[page 1]]
+KRYPTOS 
+Hidden Hill Cipher - ​Robert Mereau 
+ 
+Preface: 
+This paper is intended to provide support for those working to solve Kryptos. The 
+hope is that the content, be it in part or complete, contains novel discoveries and 
+mechanics that can assist the greater communities development of new approaches. 
+ 
+Before we begin, there’s a few things I want to highlight. First, I have tried to 
+simplify everything into steps that flow from the beginning to the end. In hindsight, some 
+steps are more important than others, but rather than omitting steps that may not be 
+required, I chose to divide this paper into two parts to help show the logical thinking and 
+discovery process I went through. Second, I often use the letters Q and X as wildcards 
+because Jim Sanborn does this. Finally and most importantly, the solution does not end 
+with a ​simple​ decryption of the final passage. With that in mind, I found a number of clues 
+through the entirety of the work which makes me believe this is intended. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 2]]
+ 
+PART I 
+1. Start with Tableau IV. 
+a. Map the letters to a color field, and partition until you see the flame of a 
+candle. (Mengenlehreuhr - Berlin Clock Clue) 
+ 
+ 
+ 
+ 
+
+[[page 3]]
+ 
+b. The tableau now has dimensions 14x31. Identify hidden parallel lines (​the 
+illusion​)​. 
+ 
+ 
+c.
+ Here we focus on the two vertical lines on the far left side and look for 
+scrambled words hidden in between. 
+ 
+
+[[page 4]]
+For the words here and in later parts, I am always going to bring extra attention to ones 
+that go with my theory that ​the secrecy of Kryptos is protected by claims made that may 
+not be true​. In this case, ​Pill ​and ​Damns​ can both be interpreted in this way according to 
+definition. 
+d. Go all the way to WW. 
+ 
+Without any wildcards, we get the word Hijacked. Jim Sanborn has been quoted in 
+many instances saying he did something to Kryptos that not even the CIA knew about. Did 
+he change both the solution and final answer? We also see the words ​Unhelming ​and 
+Upgrowth​, which we later see imply that Tableau II (which is above IV) needs to be added. 
+ 
+e. Back to the image of the flame, upon inspection there seems to be two clear 
+keys​ at the top and bottom that differ from the subtle shading. There is a 
+single 1:1 alphabet transform within the rows, which very nicely turns out to 
+be those ​keys​. 
+
+[[page 5]]
+ 
+ 
+f.
+Apply transform from the bottom ​key​ to the top ​key​ as implied by the word 
+upgrowth​. Here is what we get. 
+ 
+ 
+ 
+ 
+
+[[page 6]]
+g. Map back to a color spectrum. See the flame flicker. 
+ 
+ 
+h. Look at the new keywords in the same place as before. (RQ/RY) 
+ 
+ 
+ 
+ 
+
+[[page 7]]
+PART II 
+ 
+2. We are going to do the same thing again, but this time, start by adding Tableau II to 
+the top of Tableau IV. We now make a ​tiny breach in the upper left​ ​hand corner​ by 
+adding an O to the start of Tableau II. This is necessary to have dimensions 28x31. I 
+chose the letter O because it is most like a hole, but I also think a Q makes sense. It 
+does not impact the invertible matrices used later. 
+ 
+ 
+a. Great Pyramid of Giza 
+After color mapping you get what looks a lot like the Great Pyramid of Giza, 
+which is fitting with the Egyptian theme. Pyramids are also often used to symbolize 
+mysteries and secrets. King Tut was not buried in a pyramid, and certainly not this 
+one. The Great Pyramid of Giza is however, perhaps the most mysterious pyramid 
+of all. Referred to as the ​holiest of holies, ​the name of the King whom it was 
+dedicated to has been lost and is now referred to as ​the name which only wise men 
+know.​ Many attribute the pyramid to the ​holy grail​. We will see this theme repeat 
+again and again as we continue. 
+
+[[page 8]]
+ 
+b. Apply the ​key​ transform to the giza tablet. The word ​wonder​ now appears 
+going through the appex. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 9]]
+c.
+Let’s do a check to see what evidence there is that we are correct so far. 
+ 
+Common with Vigenere solutions in previous parts, we see Kryptos still remains 
+along the edges. It also lines up nicely with our WW which is promising because ​only WW 
+knows. 
+ 
+d. Use the Morse clues (RQ/RY & SOS) 
+ 
+
+[[page 10]]
+Using the clues from the Morse code component along with the location of WW, 
+we see something spectacular happens. We have a candle in a dark and misty room. 
+ 
+e. Look at the spectacular finesse by which these letters align. 
+ 
+Note that words ​Mist, Morse ​and ​Room​ are all in the correct order, and in the center 
+you can make the words ​Glim​ and ​Gloom​. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 11]]
+f.
+Words hidden inside - connection to King Tut’s Tomb 
+ 
+The words here are not as important as the alignment (which signals the 
+transformation is correct), but to me they paint a picture of an eerie entrance to a tomb 
+only lit by the candle we hold, where the ghost of King Tut reigns over the underworld. 
+The ancient Egyptian society was a death oriented culture after all and believed not only 
+in Gods of the underworld, but that the entrance to the underworld (Duat) was a tomb of 
+the deceased. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 12]]
+3. With evidence we are in the right place, we make a breach again in the upper left 
+and find a hole to place a candle.  
+ 
+One of the many things I find brilliant about Kryptos is its versatility, reusability 
+and reinterpretation of clues. This is the ​palimpsest​ phenomenon. Clues like​ WW, RQ, RY 
+and ​do you see anything Q​ always seem to come together with such force that it seems the 
+artist makes sure you know when you are lost and when you have found something. In the 
+case above, the corners of the square formed by parallel lines are Qs, and I detected them 
+first before finding the candle or lines. We also can see all the letters for ​room​, ​gloom, light 
+and ​Lester Hill​ - who is the creator of the Hill Cipher which we will soon use.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 13]]
+a. We now search the room. This letter matrix is conveniently symmetric, so 
+we only need to check the rows. 
+ 
+There are two groups of words that stick out to me here. The first is ​Toyer​ and ​Roil​, 
+as they again go with the theme that something more secretive is going on behind the 
+scenes. Though they may be 4-5 letter words which statistically are easy to make, they do 
+appear in the ​apex of the pyramid​ which I imagine was highly calculated by the artist. The 
+second group of words is ​Storey, Horsey​ and ​Girl​. To me, these are the perfect words used 
+to describe King Tut’s tomb. His death was attributed to a ​horse​; he was buried in a​ girl’s 
+tomb; his tomb was a single ​storey​. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 14]]
+b. Widen the hole a little. 
+ 
+The parallel lines continue further than the inside square, and if you account for the 
+use of Xs as wildcards, the lines can be thought to continue further. 
+ 
+c.
+Details of the room are clear 
+ 
+
+[[page 15]]
+Taking a look at Row 2, we see the original keyword ​TEYSROGHIJLM​, but this time 
+it starts at ​W ​and ends at ​L (WTEYSROGHIJL)​. The words we find inside have taken on a 
+whole new significance. To me, it paints a picture of a shimmering grail that sparkles with 
+divinity, and the light it shines is awesomely more powerful than the candle we hold. 
+ 
+ 
+d. Now it is time to use Mr. Lester Hill’s cipher. You need an invertible matrix, 
+and sure enough, there is one in the room. We will refer to this matrix below 
+as the “​Hill Cipher​” matrix 
+ 
+Is it not a thing of wonder to have Lester Hill with a lit candle in the dark room with 
+us? It is wonderful. This is the invertible matrix we soon use to decrypt the ​unsolved 
+Kryptos code​ in next steps, but before we do, I need to explain why this is my favorite part. 
+ 
+Kryptos is amazingly powerful, and to me, it is arguably one of the most powerful 
+cryptographic tools on the planet. This is because the matrix above is not the only 
+invertible matrix - there are in fact 143 invertible 7x7 invertible matrices, 6 invertible 
+14x14 matrices and hundreds of other sizes. When you take into account linear 
+combinations and recursive ​key​ transforms, the total number of available ciphers is not 
+computable. Again, note that the ​invertible matrix used in this solution is the one hidden 
+in the apex of the pyramid​. You can also see that the J in the first column looks like a 
+backwards L, so the word Hill is almost explicitly written. 
+ 
+
+[[page 16]]
+4. Decode Passage 
+ 
+Recall when we merged the tableaus, we were required to insert an O to make the 
+dimensions work. The same idea applies here. We have a 7x7 invertible matrix and the 
+unsolved code​ has 97 characters which is not divisible by 7. Conveniently the character 
+before the code begins is a question mark, so I interpret this as our missing piece. We 
+therefore insert a ​hole ​in the upper left hand side again, and apply the Hill cipher using our 
+matrix. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 17]]
+a. This is the code after decryption. For consistency, we can refer to this as the 
+true ​candle​. 
+ 
+ 
+First, take a look at the words that appear verbatim. ​Light ​is perhaps the best word 
+to have hoped for considering the theme so far. We also have the words ​You​ and ​Wax​ align 
+with ​WW​, and a phonetic spelling of Lotto which implies a prize​ (maybe the latter is a stretch 
+but never underestimate the creators!). ​Visually we can imagine a person (YOU) holding a lit 
+candle. Now take a look at the words discovered. It appears the grail is almost close 
+enough to grab.  
+ 
+Something also worth mentioning is the importance of the words ​Wight, Aeon ​and 
+Eon. ​I chose a less-used definition of Aeon because it fits very well in the spectrum, but 
+commonly Aeon means the same thing as Eon - which is a long period of time. This was a 
+big deal, because part of the final clue I felt lacked evidence was ​slowly desperately slowly​. 
+There are also some three letter words and acronyms that appear in L shapes. The word 
+job​ for instance. 
+ 
+ 
+ 
+ 
+ 
+
+[[page 18]]
+b. Place ​candle ​in the top left hand corner - apply modular alphabetic 
+arithmetic. 
+ 
+I have kept the enclosed portions of letters exactly where they were in the 
+previous step. At first glance only one word appears verbatim, which is ​Dig​. It may seem 
+underwhelming but this word is very special. Kryptos artist Jim Sanborn has said that in 
+order to solve Kryptos you have to dig. Dig also appears verbatim in the ​unsolved code; 
+another indicator of its significance. Anecdotally, I can say that in the process of working 
+on Kryptos I have looked at over a thousand matrices of letters assuming ​Dig ​will be easy 
+to find (it is a three letter word), but the reality is that it is astonishingly rare. I only found 
+it in two defensible places; the second being a symmetric component of the transformed 
+tableau used here. 
+ 
+One other peculiar component is what happens to the words ​Light​ and ​You​. ​Light 
+transformed into a sleuth of the word ​psst​. As for ​You​ - have you ever seen when someone 
+writes the letter ​i​ with a big bubble at the top rather than a dot? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 19]]
+c.
+Reshape from a 7x14 to 14x7 matrix. This step is hinted at earlier on by the 
+extended parallel lines in the upper left. 
+ 
+A few cases of palimpsest really stick out. First, we see our RQ/RY reappear. Below 
+that has the word ​key​ wrapped around a Q. We also see a square form between the Qs and 
+O on the top and bottom rows, and as the two have been interchangeable in earlier steps, 
+it looks like a square of Qs.  The word dig is also unaffected. Looking in the cusp of the 
+RQ/RY there is a 12 character list of letters with no wildcards, which makes the word 
+Accompanies​. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 20]]
+5. The next step is to decide what ​ENOPCAMCAPIS​ is meant to ​accompany​. Going back 
+to one of the early instances of RQ/RY, recall that we had found the word decrypts. 
+We can also apply this to places where the word Kryptos is still visible, as this 
+seems like an elegant spot to conclude. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 21]]
+a. Apply modular alphabetic addition using ​ENOPCAMCAPIS​ to each part. 
+ 
+b. New codes appear 
+ 
+ 
+ 
+ 
+ 
+
+[[page 22]]
+c.
+Discover words inside 
+ 
+ 
+Going back to the idea that Kryptos may consist of misclaims made to achieve 
+greater secrecy; I find this final step supports my theory. Most of the words here are 
+relatively self-explanatory but the ones I want to focus on are ​Vizard ​and​ Wizard​. ​Vizard 
+implies that a mask has been used, and there have been several quotes from Jim Sanborn 
+stating that he “masked the English language”. ​Wizard ​is, in my opinion, one of the best 
+concluding words to my interpretation of Kryptos. Recall the relationship to the Great 
+Pyramid of Giza and ​the name which only wise men know​. And last but not least - the very 
+final clue to Kryptos ends with the question - ​Do you see anything?​ This quote is taken from 
+a historical account of the discovery of King Tut’s tomb, where the reply was ​“it is 
+wonderful”​. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 23]]
+Additional: 
+1. Caesar cipher 
+I want to include this additional component, which is not part of the solution but is 
+something I found the first day I worked on Kryptos. Using only tableau IV, it is clear that 
+the top two rows share an identical key, so a 1:1 mapping is easy. I learned that this is 
+commonly known as a Caesar cipher and he liked to use the number 3. I applied this to 
+tableau IV and found: 
+ 
+I discovered other words hidden as well, but that is not the focus of this paper. 
+ 
+ 

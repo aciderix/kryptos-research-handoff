@@ -1,0 +1,423 @@
+[[page 1]]
+Calculations	  for	  Kryptos	  K4	  
+When	  the	  plaintext	  is	  known	  for	  a	  section	  of	  code,	  working	  out	  how	  to	  decode	  
+from	  
+	  
+“OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWIN
+FBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR”	  
+	  
+We	  know	  that	  the	  letters	  at	  positions	  64	  –	  74	  (NYPVTT	  MZFPK)	  of	  this	  cipher	  
+text	  spell	  out	  the	  words	  BERLIN	  CLOCK	  but	  so	  far	  no	  public	  solution	  has	  been	  
+given	  to	  show	  how	  this	  is	  calculated.	  This	  documents	  my	  attempt	  so	  far	  to	  bring	  
+clarity	  to	  the	  cipher	  text	  as	  well	  as	  organise	  my	  own	  thoughts	  in	  order	  to	  fill	  out	  
+the	  missing	  pieces.	  
+	  
+Given	  that	  we	  know	  the	  plaintext	  for	  a	  section	  of	  the	  sculpture,	  we	  can	  reverse	  
+engineer	  how	  the	  sculpture	  was	  encrypted	  by	  determining	  which	  character,	  
+when	  combined	  with	  the	  related	  position	  in	  the	  cipher	  text	  results	  in	  the	  
+plaintext	  character.	  
+	  
+Each	  character	  in	  the	  cipher	  text	  has	  two	  positions,	  that	  from	  the	  start	  of	  the	  
+message	  and	  it’s	  related	  position	  from	  the	  end	  of	  the	  message.	  Therefore,	  the	  N	  
+given	  above	  is	  at	  position	  64.	  The	  message	  length	  is	  97	  characters	  resulting	  in	  a	  
+secondary	  position	  of	  33	  (97	  –	  64	  =	  33).	  
+	  
+Ignoring	  the	  secondary	  position	  for	  now,	  it	  is	  worth	  noting	  that	  alongside	  this,	  
+each	  character	  in	  the	  alphabet	  has	  an	  inverse	  character.	  This	  is	  important	  as	  it	  
+leads	  to	  the	  possibility	  of	  being	  able	  to	  calculate	  the	  X,Y	  position	  of	  each	  letter	  in	  
+the	  message	  when	  placed	  on	  a	  grid.	  
+	  
+For	  working	  out	  this	  part	  of	  the	  solution,	  I	  used	  a	  26x26	  Vigenere	  grid	  written	  out	  
+on	  paper.	  	  
+	  
+1	  
+2	  
+3	  
+4	  
+5	  
+6	  
+7	  
+8	  
+9	  
+1
+0	  
+1
+1	  
+1
+2	  
+1
+3	  
+1
+4	  
+1
+5	  
+1
+6	  
+1
+7	  
+1
+8	  
+1
+9	  
+2
+0	  
+2
+1	  
+2
+2	  
+2
+3	  
+2
+4	  
+2
+5	  
+2
+6	  
+A	  
+B	  
+C	  
+D	  
+E	  
+F	  
+G	  
+H	  
+I	  
+J	  
+K	  
+L	  
+M	  
+N	  
+O	  
+P	  
+Q	  
+R	  
+S	  
+T	  
+U	  
+V	  
+W	  
+X	  
+Y	  
+Z	  
+Z	  
+Y	  
+X	  
+W	  
+V	  
+U	  
+T	  
+S	  
+R	  
+Q	  
+P	  
+O	  
+N	  
+M	  
+L	  
+K	  
+J	  
+I	  
+H	  
+G	  
+F	  
+E	  
+D	  
+C	  
+B	  
+A	  
+2
+6	  
+2
+5	  
+2
+4	  
+2
+3	  
+2
+2	  
+2
+1	  
+2
+0	  
+1
+9	  
+1
+8	  
+1
+7	  
+1
+6	  
+1
+5	  
+1
+4	  
+1
+3	  
+1
+2	  
+1
+1	  
+1
+0	  
+9	  
+8	  
+7	  
+6	  
+5	  
+4	  
+3	  
+2	  
+1	  
+	  
+Starting	  with	  the	  letter	  N	  at	  position	  64,	  to	  calculate	  it’s	  X,Y	  coordinates,	  subtract	  
+this	  from	  its	  position	  and	  use	  modulus	  26	  on	  the	  resulting	  value.	  
+	  
+For	  example,	  N	  is	  the	  14th	  character	  in	  the	  alphabet,	  therefore	  it’s	  X	  coordinate	  is	  
+calculated	  as:	  
+	  
+X1	  =	  (64	  –	  14)	  =	  (50	  mod	  26)	  =	  24	  =	  X.	  
+	  
+
+[[page 2]]
+Because	  each	  character	  has	  2	  positions,	  we	  flip	  position	  24	  (X)	  to	  give	  C	  and	  add	  
+N	  to	  this	  in	  order	  to	  obtain	  the	  Y	  coordinate.	  Because	  we	  are	  working	  with	  a	  
+paper	  grid,	  this	  flip	  is	  carried	  out	  as	  (26	  –	  X1	  mod	  26)	  +	  1.	  
+Therefore,	  Y1	  =	  (3	  +	  14)	  =	  (17	  mod	  26)	  =	  17	  =	  Q.	  
+	  
+The	  coordinates	  for	  N	  are	  now	  (24,	  17).	  
+	  
+Following	  this	  through	  for	  positions	  65	  –	  74	  we	  get:	  
+	  
+X	  
+Y	  
+64	  (N)	  
+(64	  –	  14)	  =	  (50	  mod	  26)	  =	  24	  =	  X	  
+(03	  +	  14)	  =	  (17	  mod	  26)	  =	  17	  =	  Q	  
+65	  (Y)	  
+(65	  –	  25)	  =	  (40	  mod	  26)	  =	  14	  =	  N	  
+	  
+(13	  +	  25)	  =	  (38	  mod	  26)	  =	  12	  =	  L	  
+66	  (P)	  
+(66	  –	  16)	  =	  (50	  mod	  26)	  =	  24	  =	  X	  
+(03	  +	  16)	  =	  (19	  mod	  26)	  =	  19	  =	  S	  
+67	  (V)	  
+(67	  –	  22)	  =	  (45	  mod	  26)	  =	  19	  =	  S	  
+(08	  +	  22)	  =	  (30	  mod	  26)	  =	  04	  =	  D	  	  
+68	  (T)	  
+(68	  –	  20)	  =	  (48	  mod	  26)	  =	  22	  =	  V	  
+(05	  +	  20)	  =	  (25	  mod	  26)	  =	  05	  =	  E	  
+69	  (T)	  
+(69	  –	  20)	  =	  (49	  mod	  26)	  =	  23	  =	  W	  
+(04	  +	  20)	  =	  (24	  mod	  26)	  =	  24	  =	  X	  
+70	  (M)	  
+(70	  –	  13)	  =	  (57	  mod	  26)	  =	  05	  =	  E	  
+(22	  +	  13)	  =	  (35	  mod	  26)	  =	  09	  =	  I	  	  
+71	  (Z)	  
+(71	  –	  26)	  =	  (45	  mod	  26)	  =	  19	  =	  S	  
+(08	  +	  26)	  =	  (34	  mod	  26)	  =	  08	  =	  H	  
+72	  (F)	  
+(72	  –	  06)	  =	  (66	  mod	  26)	  =	  14	  =	  N	  
+(13	  +	  06)	  =	  (19	  mod	  26)	  =	  19	  =	  S	  
+73	  (P)	  
+(73	  –	  16)	  =	  (57	  mod	  26)	  =	  05	  =	  E	  
+(22	  +	  16)	  =	  (38	  mod	  26)	  =	  12	  =	  L	  
+74	  (K)	  
+(74	  –	  11)	  =	  (63	  mod	  26)	  =	  11	  =	  K	  
+(16	  +	  11)	  =	  (27	  mod	  26)	  =	  01	  =	  A	  
+	  
+Finding	  the	  square	  from	  plaintext.	  
+Because	  we	  have	  part	  of	  the	  plaintext	  visible,	  we	  can	  figure	  out	  how	  each	  cipher	  
+text	  character	  is	  decoded.	  
+	  
+First	  take	  the	  plaintext	  letter	  and	  “square	  it”	  
+	  
+For	  example,	  B	  has	  the	  square	  	  
+X	  
+B	  
+B	  
+F	  
+	  
+This	  square	  is	  calculated	  as:	  
+	  
+Top	  Right:	  
+X	  =	  ((64	  –	  2)	  mod	  26)	  =	  10.	  
+Y	  =	  ((17	  +	  2)	  mod	  26)	  =	  19.	  
+	  
+Bottom	  Left:	  
+X	  =	  ((64	  +	  2)	  mod	  26)	  =	  14.	  
+Y	  =	  ((13	  +	  2)	  mod	  26)	  =	  15.	  
+	  
+Top	  Left	  =	  (10,	  15)	  =	  X	  
+Bottom	  Right	  =	  (14,	  19)	  =	  F	  
+	  
+This	  follows	  through	  for	  the	  remainder	  of	  the	  revealed	  plaintext	  letters	  as	  such:	  
+	  
+	  
+
+[[page 3]]
+x	  b	  
+b	  f	  
+u	  e	  
+e	  o	  
+h	  r	  
+r	  b	  
+n	  l	  
+l	  j	  
+q	  i	  
+i	  a	  
+l	  n	  
+n	  p	  
+w	  c	  
+c	  i	  
+n	  l	  
+l	  j	  
+k	  o	  
+o	  s	  
+w	  c	  
+c	  i	  
+o	  k	  
+k	  g	  
+	  
+	  
+The	  character	  out	  of	  this	  square	  we	  are	  most	  interested	  in	  is	  the	  character	  in	  the	  
+top	  left	  position.	  For	  the	  purposes	  of	  this	  calculation	  we	  will	  refer	  to	  this	  as	  e.	  
+	  
+The	  use	  of	  the	  top	  left	  position	  has	  come	  from	  the	  decoded	  text	  to	  K3	  which	  
+discusses	  “I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER". 
+Decoding	  plaintext.	  
+Adding	  this	  to	  the	  cipher	  text	  reveals	  the	  plaintext	  when	  using	  the	  following	  
+equation.	  
+	  
+X3	  =	  ((c	  +	  e)	  mod	  26	  +	  p)	  –	  c	  mod	  26	  
+	  
+X3	  =	  (14	  +	  24)	  =	  (38	  mod	  26)	  =	  (12	  +	  64)	  =	  (76	  –	  14)	  =	  (62	  mod	  26)	  =	  10	  
+Y3	  =	  (26	  –	  10)	  +	  1	  =	  (16	  +	  14)	  =	  (30	  mod	  26)	  =	  5	  
+	  
+Looking	  on	  the	  grid,	  this	  reveals	  B	  at	  position	  (X1,	  Y3)	  =	  (24,	  5).	  Alternatively	  this	  
+can	  be	  determined	  by	  running	  (Y3	  +	  X1	  mod	  26).	  Don’t	  forget	  to	  remove	  1	  if	  doing	  
+this	  programmatically	  or	  you’ll	  always	  end	  up	  one	  character	  out	  on	  Y.	  For	  
+example:	  (5	  +	  24)	  –	  1	  =	  (28	  mod	  26)	  =	  2	  =	  B.	  
+	  
+This	  ends	  the	  primary	  calculations	  I	  have	  ascertained	  within	  the	  last	  120	  –	  150	  
+hours	  but	  does	  not	  end	  the	  details	  of	  the	  search	  I	  am	  prepared	  to	  share.	  
+Other	  aspects	  of	  interest	  
+Etymology	  
+An	  anagram	  of	  the	  misspellings	  and	  their	  respective	  counterparts	  is	  LAQUEO.	  
+	  
+Laqueo (Spanish): First person singular present indicative form of Laquear 
+Laquear (English): (plural laquears) (architecture) A lacunar. 
+Lacunar: (medicine) Of or pertaining to a lacuna 
+Lacuna: (plural lacunae or lacunas) 
+• 
+A small opening; a small pit or depression; a small blank space; a gap or vacancy; a 
+hiatus. 
+• 
+An absent part, especially in a book or other piece of writing, often referring to 
+an ancient manuscript or similar such. 
+• 
+(microscopy) A space visible between cells, allowing free passage of light. 
+• 
+(linguistics) A language gap, which occurs when there is no direct translation in the 
+target language for a lexical term found in the source language 
+	  
+Whilst	  this	  may	  seem	  to	  be	  reaching	  (and	  it	  is	  certainly	  convoluted),	  it	  struck	  me	  
+as	  interesting	  due	  to	  the	  meaning	  highlighted	  in	  bold	  above	  which	  seems	  to	  tie	  in	  
+with	  the	  etymology	  of	  the	  keywords	  Abscissa	  and	  Palimpsest.	  
+	  
+
+[[page 4]]
+Distances	  
+One	  of	  the	  more	  speculative	  areas	  I	  have	  been	  examining	  is	  distances	  between	  
+cipher	  text,	  plaintext	  and	  the	  respective	  encoding	  letter,	  which	  has	  revealed	  
+some	  seemingly	  intriguing	  results.	  
+	  
+Consider	  the	  following	  table:	  
+Cipher	  text	  
+Plaintext	  
+Encoding	  
+Cipher	  –	  Encoding	  
+Plain	  –	  Cipher	  
+Plain	  –	  encoding	  
+N	  (14)	  
+B	  (02)	  
+X	  (24)	  
+14	  –	  24	  =	  10	  J	  
+02	  –	  14	  =	  12	  L	  
+02	  –	  24	  =	  22	  V	  
+Y	  (25)	  
+E	  (05)	  
+U	  (21)	  
+25	  –	  21	  =	  22	  V	  
+05	  –	  25	  =	  20	  T	  
+05	  –	  18	  =	  13	  M	  
+P	  (16)	  
+R	  (18)	  
+H	  (08)	  	  
+16	  –	  08	  =	  18	  R	  
+18	  –	  16	  =	  24	  X	  
+18	  –	  08	  =	  16	  P	  	  
+V	  (22)	  
+L	  (12)	  
+N	  (14)	  
+22	  –	  14	  =	  18	  R	  
+12	  –	  22	  =	  10	  J	  
+12	  –	  14	  =	  02	  B	  
+T	  (20)	  
+I	  (09)	  
+Q	  (17)	  
+20	  –	  17	  =	  23	  W	  
+09	  –	  20	  =	  11	  K	  
+09	  –	  17	  =	  08	  H	  
+T	  (20)	  
+N	  (14)	  
+L	  (12)	  
+20	  –	  12	  =	  18	  R	  
+14	  –	  20	  =	  06	  F	  
+14	  –	  12	  =	  24	  X	  
+M	  (13)	  
+C	  (03)	  
+W	  (23)	  
+13	  –	  23	  =	  10	  J	  
+03	  –	  13	  =	  10	  J	  
+03	  –	  23	  =	  20	  T	  
+Z	  (26)	  
+L	  (12)	  
+N	  (14)	  
+26	  –	  14	  =	  14	  N	  
+12	  –	  26	  =	  14	  N	  
+12	  –	  14	  =	  02	  B	  
+F	  (06)	  
+O	  (15)	  
+K	  (11)	  
+06	  –	  11	  =	  05	  E	  
+15	  –	  06	  =	  17	  Q	  
+15	  –	  11	  =	  22	  V	  
+P	  (16)	  
+C	  (03)	  
+W	  (23)	  
+16	  –	  23	  =	  07	  G	  
+03	  –	  16	  	  =	  13	  M	  
+03	  –	  23	  =	  20	  T	  
+K	  (11)	  
+K	  (11)	  
+O	  (15)	  
+11	  –	  15	  =	  04	  D	  
+11	  –	  11	  =	  26	  X	  
+11	  –	  15	  =	  04	  D	  
+	  
+One	  of	  the	  interesting	  things	  I	  have	  seen	  within	  this	  table	  is	  when	  looking	  at	  the	  
+distances	  between	  the	  plaintext	  and	  cipher	  text	  characters,	  focusing	  on	  the	  two	  
+L’s	  and	  the	  C’s,	  we	  can	  see	  that	  although	  the	  letters	  are	  encoded	  using	  the	  same	  
+character,	  	  (L	  encodes	  with	  N,	  C	  encodes	  with	  W),	  the	  plaintext	  to	  cipher	  text	  
+distances	  are	  exactly	  the	  number	  of	  letters	  apart.	  
+	  
+For	  example,	  L	  at	  67	  encodes	  with	  N	  whilst	  the	  distance	  from	  plaintext	  to	  cipher	  
+text	  is	  J.	  Move	  forward	  four	  characters	  to	  position	  71	  and	  we	  hit	  L	  again.	  Here	  the	  
+distance	  from	  plaintext	  to	  cipher	  text	  is	  N.	  J	  –	  N	  =	  (10	  –	  14)	  =	  4.	  
+	  
+Similarly	  we	  see	  the	  same	  pattern	  in	  encoding	  C	  at	  positions	  70	  and	  73	  where	  the	  
+plaintext	  to	  cipher	  text	  distance	  has	  moved	  on	  exactly	  3	  places.	  
+	  
+Without	  more	  of	  the	  plaintext	  to	  verify	  this,	  it	  would	  seem	  to	  indicate	  that	  each	  
+use	  of	  a	  letter	  resets	  a	  counter	  and	  the	  next	  instance	  of	  that	  particular	  letter	  
+would	  decipher	  with	  c1	  =	  (c0	  +	  (p1	  –	  p0)).	  

@@ -1,0 +1,1054 @@
+[[page 1]]
+Decoding of KRYPTOS K4 using C2 K4 Double-Mask-OTP (2019)  
+Page 1 of 4 
+ 
+DECODING OF KRYPTOS K4 
+USING K4 USING C2 K4 
+DOUBLE-MASK-OTP 
+B. Chan & L. Chan 
+(July 22, 2019), Canada 
+ABSTRACT 
+Using the C2 K4 Double-Mask-OTP Hypothesis, we decoded 
+Jim Sanborn’s K4 section of the sculpture Kryptos (1990). 
+Modifications to known cryptography methods were adapted 
+to more tactile analog approaches favorable to an artist, 
+rather than a digital (computational) method used by 
+cryptographers. The hints of BERLIN and CLOCK for positions 
+64 through 74 were used as a crib in the decoding of K4. 
+INTRODUCTION 
+Previously the C2 K4 Double-Mask-OTP Hypothesis for 
+solving K4 for Kyptos was proposed on July 15, 2019. After 
+much trial and error, plaintext was decoded from K4 on July 
+21, 2019 using one-time pad. 
+MATERIAL AND METHODS 
+While the concept is not difficult in theory, the arduous part 
+requires many attempts of manipulating the K4 public key 
+to potentially decode K4. Through reading the dinner notes 
+throughout the years, it was apparent that K4 could be 
+solved with pencil and paper. 
+In lieu of pencil and paper, Microsoft Excel did the heavy 
+lifting for the transpositions and decoding. 
+K4 Public Key & BERLINCLOCK Crib 
+Using the OTP theory, the 2010 NYPVTT decodes to 
+BERLIN1 immensely supported use of a public key. That is, 
+to decoding the text would require the key MUYKLG. In the 
+97 character K4 ciphertext there is only a single M and a 
+                                                             
+1 https://www.nytimes.com/2010/11/21/us/21code.html 
+2 https://www.nytimes.com/2014/11/21/us/another-
+kryptos-clue-is-offered-in-a-24-year-old-mystery-at-the-
+cia.html 
+single Y present – but also not in the 64th and 66th position 
+respectively but the 70th and 65th position. 
+In addition, KORNA would also be required to decode 
+MZFPK into CLOCK2. Armed with this information a table 
+was created to see if there were any patters of a 
+transposition and/or substitution. 
+From the frequency analysis of MUYKLGKORNA: 
+Position required to 
+decode to plaintext 
+OTP 
+Decode 
+Ciphertext position 
+64 
+M 
+70 
+65 
+U 
+5, 11, 55, 88, 90, 92 
+66 
+Y 
+65 
+67 
+K 
+3, 32, 46, 53, 74, 78, 87, 94 
+68 
+L 
+12, 16, 23, 54 
+69 
+G 
+9, 31, 76. 86 
+70 
+K 
+3, 32, 46, 53, 74, 78, 87, 94 
+71 
+O 
+1, 6, 8, 15, 35 
+72 
+R 
+4, 24, 29, 97 
+73 
+N 
+30, 61, 64 
+74 
+A 
+50, 58, 91, 96 
+ 
+In order for some form of transposition to work, public key 
+(K4 ciphertext) Y would have to shift 1 character forward, 
+and M would have to shift back 6 characters. Due to the 
+asymmetrical nature of the shift, it would be extremely 
+difficult for a single columnar transposition, and likely 
+there would be some form of a double transposition. 
+From Jim Sanborn’s prior process, K3 was done by first 
+placing it in a 42 column by 8 row matrices, rotated it by 90 
+degrees clockwise and then transposed it on a 14 column 
+by 24 row matrices with an addition 90-degree clockwise 
+rotation. The resulting text became the cipher for K33. 
+In order to select the row and columns for K3, the values 
+were calculated from the factors of 336 (2, 2, 2, 6, 7) being 
+2x2x2 and 6x7. For K4, the character count was 97, which 
+would be a prime number. However, including the question 
+mark would increase the character count to 98 with factors 
+of 2, 7, and 7. Since Jim worked with a 31-column grid, it 
+was unlikely he was using a 49x2 matrix, but some variant 
+of 14x7. 
+3 http://www.thekryptosproject.com/kryptos/charts/ 
+method.php 
+
+[[page 2]]
+Decoding of KRYPTOS K4 using C2 K4 Double‐Mask‐OTP (2019)  
+Page 2 of 4 
+ 
+Jefferson Disk Method 
+It would be plausible to assume that Mr. Sanborn chose a 
+technique that would give him flexibility to manipulate text 
+without much knowledge in mathematics or cryptography. 
+This would be able to explain the shifts between characters 
+for M and Y in the K4 public key as different disks could be 
+reordered to provide a set shift, and each individual letter 
+could be shifted within the group. In our opinion, Mr. 
+Sanborn was very generous to perform his K3 double 
+columnar shift by mirroring the order in lieu of intermittent 
+swaps. Without the help of the BERLIN and CLOCK hints, 
+the order of the disks might not be possible. That is, a one-
+time pad can be decoded to any plaintext. 
+In dealing with the question mark for K4, both options were 
+attempted with repeated reordering of columns/disks and 
+decoding. With the question mark included, the K4 
+ciphertext was rewritten as: 
+ 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+1
+0 
+1
+1 
+1
+2 
+1
+3 
+1
+4 
+1 
+? 
+O  B 
+K 
+R 
+U 
+O 
+X 
+O 
+G 
+H 
+U 
+L 
+B 
+2 
+S 
+O  L 
+I 
+F 
+B 
+B 
+W  F 
+L 
+R 
+V 
+Q 
+Q 
+3 
+P 
+R 
+N  G 
+K 
+S 
+S 
+O 
+T 
+W 
+T 
+Q 
+S 
+J 
+4  Q 
+S 
+S 
+E 
+K 
+Z 
+Z 
+W  A 
+T 
+J 
+K 
+L 
+U 
+5 
+D 
+I 
+A  W 
+I 
+N 
+F 
+B 
+N 
+Y 
+P 
+V 
+T 
+T 
+6  M  Z 
+F 
+P 
+K 
+W  G 
+D 
+K 
+Z 
+X 
+T 
+J 
+C 
+7 
+D 
+I 
+G 
+K 
+U  H 
+U 
+A 
+U 
+E 
+K 
+C 
+A 
+R 
+ 
+Now the Y part of the key is in the correct place, which 
+would decode to P to R. The columns/disks would then be 
+reordered, shifted downwards, and decoded (via OTP) until 
+it would be able to provide some sort of masked plaintext. 
+What is also important is that disk/column 1 contains the 
+M character which needs to be moved to column 8. 
+This method was then repeated to match the crib of 
+MUYKLG for columns 9-14 and KORNA for columns 1-5. 
+Since each column is grouped into 7 characters, it can be 
+shifted (or turned in a Jefferson disk).  Since the crib was 
+given, there would only be a set number of possibilities or 
+orientations available to decode to BERLINCLOCK. 
+The columns/disks were marked then tabulated for the 
+frequency of letters in MUYKLGKORNA: 
+Position 
+OTP 
+Decode 
+Columns (with the letter) 
+Column 
+placement 
+required 
+64 
+M 
+1 
+#9 
+65 
+U 
+5, 6, 7, 9, 12, 14 
+#10 
+66 
+Y 
+10 
+#11 
+67 
+K 
+4,4, 5,5,5, 9, 11, 12 
+#12 
+68 
+L 
+3, 10, 13 
+#13 
+69 
+G 
+3, 7, 10 
+#14 
+70 
+K 
+4,4, 5,5,5, 9, 11, 12 
+#1 
+71 
+O 
+2,2, 7, 8, 9 
+#2 
+72 
+R 
+2, 5, 11, 14 
+#3 
+73 
+N 
+3, 6, 9 
+#4 
+74 
+A 
+3, 8, 9, 13 
+#5 
+ 
+In order to fit exactly in the correct character position, the 
+M and Y have to fit in position #8 and #10 respectively. 
+What can also be seen through the process of elimination is 
+that L and G can only be columns 3/13 and 3/7 
+respectively. 
+Upon trial and error, it was noted that the columns/disks 
+would change a set of characters in fixed patterns.  
+Originally when attempting to decode the ciphertext, we 
+noticed that using a 14-column table would result in one 
+character to change and a group of six would also change. 
+That is, when characters 1-4 are reoriented to columns 11-
+14 (to match OBKR on K4), the change of the disks would 
+only affect a single column as a whole (plaintext 
+orientation). The pattern was identified as: 
+JEFFERSON DISK (K4 
+PUBLIC KEY) 
+PLAINTEXT 14 
+COLUMN (8 ROWS) 
+OUTPUT 
+1 
+11 
+2 
+12 
+3 
+13 
+4 
+14 
+5 
+1 
+6 
+2 
+7 
+3 
+8 
+4 
+9 
+5 
+10 
+6 
+11 
+7 
+12 
+8 
+13 
+9 
+14 
+10 
+ 
+
+[[page 3]]
+Decoding of KRYPTOS K4 using C2 K4 Double‐Mask‐OTP (2019)  
+Page 3 of 4 
+ 
+With the possibilities, the combinations were mapped out, 
+reordered, transposed, and decoded (OTP). Since the 
+decoded plaintext was masked, it was very imperative to 
+sound out all the plaintexts. Knowing that the M and Y 
+public key columns were fixed, all the combination of 
+letters were lined up for the 2nd row. If a phrase was made, 
+it was matched to the frequency-column table to ensure 
+there were no conflicts. 
+Soon enough the sections of BERLINCLOCK starting 
+matching up and we were left with 3 columns (5, 6 and 7). 
+Again, all the character combinations were mapped out and 
+attempts were made to obtain a plausible combination. 
+To spare everyone reading all possibilities, the order of the 
+columns ended up being: 
+ 
+2 
+1
+1 
+6 
+8 
+1
+4 
+4 
+1
+3 
+1 
+1
+2 
+1
+0 
+9 
+3 
+7 
+5 
+1  O 
+H 
+U 
+X 
+B 
+K 
+L 
+? 
+U 
+G 
+O  B 
+O  R 
+2  O 
+R 
+B 
+W  Q 
+I 
+Q 
+S 
+V 
+L 
+F 
+L 
+B 
+F 
+3  R 
+T 
+S 
+O 
+J 
+G 
+S 
+P 
+Q 
+W 
+T 
+N  S 
+K 
+4 
+S 
+J 
+Z 
+W  U 
+E 
+L 
+Q 
+K 
+T 
+A 
+S 
+Z 
+K 
+5 
+I 
+P 
+N 
+B 
+T 
+W 
+T 
+D 
+V 
+Y 
+N  A 
+F 
+I 
+6 
+Z 
+X 
+W  D 
+C 
+P 
+J 
+M 
+T 
+Z 
+K 
+F 
+G  K 
+7 
+I 
+K 
+H 
+A 
+R 
+K 
+A 
+D 
+C 
+E 
+U  G  U  U 
+ 
+When transposed vertically, the shift is shown as: 
+ 
+2 
+1
+1 
+6 
+8 
+1
+4 
+4 
+1
+3 
+1 
+1
+2 
+1
+0  9  3  7  5 
+1 
+ 
+ 
+ 
+ 
+ 
+K 
+ 
+ 
+ 
+G 
+ 
+ 
+ 
+ 
+2 
+ 
+ 
+U 
+ 
+ 
+I 
+L 
+ 
+ 
+L 
+ 
+ 
+ 
+R 
+3 
+ 
+ 
+B 
+ 
+B 
+G 
+Q 
+ 
+ 
+W 
+ 
+ 
+ 
+F 
+4 
+ 
+ 
+S 
+ 
+Q 
+E 
+S 
+ 
+ 
+T 
+ 
+B 
+ 
+K 
+5 
+ 
+H 
+Z 
+ 
+J 
+W  L 
+ 
+U 
+Y 
+ 
+L 
+ 
+K 
+6  O  R 
+N 
+ 
+U 
+P 
+T 
+ 
+V 
+Z 
+ 
+N 
+ 
+I 
+7  O  T 
+W  X 
+T 
+K 
+J 
+? 
+Q 
+E 
+O  S  O  K 
+ 
+R 
+J 
+H  W  C 
+ 
+A 
+S 
+K 
+ 
+F  A  B  U 
+ 
+S 
+P 
+ 
+O 
+R 
+ 
+ 
+P 
+V 
+ 
+T  F  S 
+ 
+ 
+I 
+X 
+ 
+W 
+ 
+ 
+ 
+Q 
+T 
+ 
+A  G  Z 
+ 
+ 
+Z 
+K 
+ 
+B 
+ 
+ 
+ 
+D 
+C 
+ 
+N 
+ 
+F 
+ 
+ 
+I 
+ 
+ 
+D 
+ 
+ 
+ 
+M 
+ 
+ 
+K 
+ 
+G 
+ 
+ 
+ 
+ 
+ 
+A 
+ 
+ 
+ 
+D 
+ 
+ 
+U 
+ 
+U 
+ 
+ 
+Letters below row 7 would then just wrap around and 
+return to the table: 
+ 
+2 
+1
+1 
+6 
+8 
+1
+4 
+4 
+1
+3 
+1 
+1
+2 
+1
+0  9  3  7  5 
+1  R 
+J 
+H  W  C 
+K 
+A 
+S 
+K 
+G 
+F  A  B  U 
+2  S 
+P 
+U  O 
+R 
+I 
+L 
+P 
+V 
+L 
+T  F  S  R 
+3  I 
+X 
+B 
+W  B 
+G 
+Q  Q 
+T 
+W  A  G  Z  F 
+4  Z 
+K 
+S 
+B 
+Q 
+E 
+S 
+D 
+C 
+T 
+N  B  F  K 
+5  I 
+H 
+Z 
+D 
+J 
+W  L 
+M  U 
+Y 
+K  L  G  K 
+6  O  R 
+N  A 
+U 
+P 
+T 
+D 
+V 
+Z 
+U  N  U  I 
+7  O  T 
+W  X 
+T 
+K 
+J 
+? 
+Q 
+E 
+O  S  O  K 
+ 
+The decoding step on one-time pad is simply converting the 
+K4 text into numerical values from A=0 to Z=25 and 
+subtracting the public key values from A=0 and Z=25 then 
+doing modular arithmetic, take MOD26 so that any negative 
+number will wrap around from A to Z (decoding is shifting 
+back in reverse direction and encoding is shifting forward) 
+for each position. This will now become the K4 public key 
+for OTP to decode the 97 characters. The question mark is 
+ignored. In the original order as K4, the result is: 
+ 
+2 
+1
+1  6 
+8 
+1
+4 
+4 
+1
+3 
+1 
+1
+2 
+1
+0 
+9 
+3 
+7 
+5 
+ 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+1
+0 
+1
+1 
+1
+2 
+1
+3 
+1
+4 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X 
+S 
+D  V 
+2  S  E 
+X  W  W  B 
+P 
+L 
+A 
+Y 
+W  W  O  R 
+3  K  T 
+L 
+Q  Q 
+G  C 
+L 
+Y 
+Y 
+J 
+Q  F 
+O 
+4  R  M  Y  D  D 
+X 
+Q 
+M  K 
+L 
+T 
+I 
+M  J 
+5  J 
+V 
+E  X 
+R 
+Q  X 
+K 
+P 
+T 
+A 
+T 
+X 
+F 
+6  E  J 
+Q  B 
+E 
+R 
+L 
+I 
+N 
+C 
+L 
+O  C 
+K 
+7  C  R 
+K  H  E 
+Y 
+Z 
+W  I 
+V 
+U  N  O  X 
+8  O  K 
+R  E 
+A 
+W  K 
+M  H 
+ 
+ 
+ 
+ 
+ 
+ 
+The plaintext will now read: 
+X SDVSE 
+X WW B PLAY WW OR KTL QQ GCL YY J Q FOR MY DD 
+X Q MK L TIM JJ VE 
+X RQ 
+X KP TAT 
+X FE J Q BERLINCLOCK CR KHEYZ WIV U NO 
+X OK REAWK MH 
+Now that the plaintext is shown, we can clearly see that it 
+has been masked through various abbreviations and 
+
+[[page 4]]
+Decoding of KRYPTOS K4 using C2 K4 Double-Mask-OTP (2019)  
+Page 4 of 4 
+ 
+omissions of letters to defend against computational brute 
+forcing. 
+DISCUSSION & ANALYSIS 
+The entire approach to K4 was to determine a method in 
+which Jim Sanborn, a sculptor, would be able to create an 
+extremely challenging cipher without a significant amount 
+of technical cryptography knowledge. Our goal was to 
+reverse engineer a method where physical manipulation 
+was possible in two dimensions and also three (i.e. 
+Jefferson disk K4 public key). 
+While the techniques are not excessively sophisticated and 
+unknown, the steps to decoding K4 is extremely laborious. 
+This would not be possible without the aid of Microsoft 
+Excel in terms of repeatedly manipulating, recalling, and 
+decoding K4 through trial and error. Unmasking the K4 
+plaintext from one-time pad required some educated 
+guesswork. We surmise that it is a radio transmission from 
+a field operative and the corresponding response from 
+headquarters. Our best translation of the masked text is 
+attached in the figures at the end. 
+Possible K4 Third Hint & Multiple Plaintext Outcomes 
+The decoded plaintext has very few words actually 
+available to be used as hints. Following Mr. Sanborn’s 
+patterns, he could choose from “SEX”, “PLAY”, or “WORK” 
+or maybe pairs of letters. We may never know what his next 
+hint would be. It may be also possible that using OTP could 
+produce multiple outcomes of the plaintext. Our best 
+attempts have resulted in one possibility, had Mr. Sanborn 
+changed the hints, the outcome may have been different. 
+Possible Public Keys for K0-K3 
+Looking back on K0 through K3, it may be possible that all 
+of the sections had some sort of public key available to 
+decode the message. K0 used International Morse, K1 and 
+K2 uses the Quagmire III Vigenere table on the other half of 
+the Kryptos panel, while K3 may have some distinct 
+markings to give clues that the section is actually a double 
+columnar transposition versus a substitution. If this was 
+the case, then a K4 public key pattern could have very well 
+been inferred. We are unsure if Mr. Sanborn left clues to 
+create a Jefferson-style disk to reconfigure K4 as a public 
+key, but it is possible.  
+The “Berlin Clock” & K5 Segway 
+While there are many public clocks in Berlin, one of the 
+clocks that would best fit the description would be the 
+Alexanderplatz (Urania World Clock) from the K4 plaintext. 
+At the base of the clock lies a compass rose which also 
+matches the compass lodestone on the CIA grounds. It may 
+be possible that the magnetic heading adjustment may 
+require the physical presence along with a compass for K5. 
+CONCLUSION 
+Kryptos remains as an analog timepiece in the constantly 
+evolving digital world. We believe the original intention of 
+the artist was to utilize analog methods to experience a 
+fraction of the joy of cryptography (and art) from Mr. 
+Sanborn and Mr. Scheidt. The K4 section was intentionally 
+future-proofed against digital (computer) brute force 
+approaches and required the analog (human) touch. In our 
+opinion, Kryptos remains a masterpiece for its physical 
+manifestation of cryptography in American history. There 
+is a progression of cryptographic methods coincides with 
+key historical American eras. The intrinsic energy it took to 
+physically and mentally create this sculpture cannot be 
+even measured. Jim Sanborn has artistically chosen an 
+elegant, yet simple way of encoding K4 while having its key 
+hidden in plain sight. 
+While we believe our best interpretation of the decoded K4 
+section is a radio conversation between a field operative 
+and headquarters, we may never know if there is an 
+alternative darker possibility. Regardless of the outcome, it 
+would be the true intent of an artist to leave some sort of 
+esoteric meanings open to interpretation. With unlimited 
+mediums available to an artist, art itself is the greatest form 
+of cryptography. 
+FIGURES ATTACHED 
+Figure 1 – K4 Plain Text Phonetic Masking 
+Figure 2 – Outline of C2 K4 Double-Mask-OTP  
+
+[[page 5]]
+FIGURE 1: 
+ 
+K4 PLAIN TEXT PHONETIC MASKING  
+ 
+PT: X SDVSE X WW BPLAY WW OR KTL QQ GCL YY J Q  
+FORMYDD X Q MKLTIM JJ VE X RQ X  
+ 
+POSSIBLE MEANING: 
+ADVISE. “B(RAVO)PLAY” OR K(EY)T(ASK)L(IST)?? 
+G(ROUND)C(ONTROL)L(ANDING) J(ULIET)? FOR MY 
+D(EAD) D(ROP)? M(AR)K L(IMA) TIM(E), 
+V(ERNAL)E(QUINOX). RQ(SOS). 
+ 
+PT: KPTAT X FE J Q BERLIN CLOCK CRK HEYZ WIV UNO 
+X OK REAWK MH 
+POSSIBLE MEANING: 
+COPY T(H)AT. F(IELD) E(XPEDIENT) J(ULIET)? 
+BERLIN CLOCK CR(AC)K KEYS WITH (WHAT) YOU KNOW. OK 
+REWORK M(AGNETIC) H(EADING).   
+ 
+
+[[page 6]]
+one-time pad decryption
+?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+RJHWCKASKGFABU
+SPUORILPVLTTFSR
+IXBWBGQQTWAGZF
+ZKSBQESDCTNBFK
+IHZDJWLMUYKLGK
+ORNAUPTDVZUNUI
+OTWXTKJ?QEOSOK
+XSDV
+SEXWWBPLAYWWORKTLQQGCLYYJQFORMYD
+DXQMKLTIMJJVEXRQXKPTATXFEJQBER
+LINCLOCKCRKHEYZWIVUNOXOKREAWKMH
+one-time pad decryption
+N
+M
+13
+(12)
+01
+01 -> B
+N -> 13
+Each letter corresponds to a single position
+for example we will use the 64th position “N”.
+Rearrange the letters to
+ obtain the public key
+?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+public key
+64th position “M”
+masked (#2) plaintext 
+PHOENETIC CIPHER
+human interpretation
+UUDDLRLR
+masked (#1) public key
+DOUBLE TRANSPOSITION
+human interpretation
+M
+FIGURE 2 - Outline of Cψ K4 Double-Mask-OTP (July 22, 2019)

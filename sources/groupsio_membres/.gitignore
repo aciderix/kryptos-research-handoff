@@ -1,0 +1,3 @@
+# Ce dossier est versé EN ENTIER (dépôt privé) : on annule ici les exclusions de la racine (*.jpg, *.zip, *.log…)
+!*
+.DS_Store

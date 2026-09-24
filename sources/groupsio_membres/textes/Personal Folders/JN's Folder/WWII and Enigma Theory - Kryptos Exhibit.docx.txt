@@ -1,0 +1,25 @@
+## word/document.xml
+ 
+ Morse Path 
+ ~ The Morse text has been solved, but the e markers are unresolved. If looking for metaphors to Enigma, it can be considered line noise, the dits and dahs that are sent out prior to a message with the WW prefix, seeming nonsense that grants meaning to the clues. It also marks the very beginning of the exhibit. 
+ Courtyard 
+ half-sphere landscape 
+ ~ This is the rotor on which the second reflector is positioned 
+ Central Reflection pool 
+ ~ This pool second split-reflector 
+ Sculpture 
+ Kryptos 
+ ~ The visual equivalent of a Zygalski sheet which were used to attempt to crack Enigma. Note the correlation of the axis, the tableau lettering, the punctures/ peforations that are designed to let rays of light through. While made on a sheet of metal, Kryptos approximates a piece of paper unfurling from a log of wood, suggesting more to come – and Zygalski sheets were many. 
+ https://en.wikipedia.org/wiki/Zygalski_sheets#/media/File:P%C5%82achta_Zygalskiego_-_decrypting_Enigma.jpg 
+ K Reflection pool 
+ ~ The pool first split reflector, and this one *only* reflects a limited part of Kryptos , what appears to be K4. 
+ Geodetic Marker 
+ ~ At the location of Berlin wall monument found by using K2 was a geodetic marker that has since disappeared, probably removed since the artist was not aware they aren’t necessarily permanent. Relationship: Geodetic markers are used to measure depth. This relates to Enigma in that the rotors are termed to be "in depth" when encrypting messages with identical near-identical settings, a human error that led in part to the cracking of the Enigma code. This is the final destination of the sheet, the plaintext truth hidden underground, below the ciphertext above. 
+ Two things become true at once. It starts " under ground " (the initial state) and ends "underground" There is no misspelling if both are true. 
+ IMG: Kriegsmarine Enigma rotor:  http://users.telenet.be/d.rijmenants/pics/hires-wehrrotor2.jpg 
+ IMG: Geodetic Survey Marker:  https://en.wikipedia.org/wiki/File:Brow_Monument_US_Coast_and_Geodetic_Survey_Marker.jpg 
+ Conclusion to consider : When looking at how al the parts of the exhibit fit together, one of Sanborn’s old quotes spring to mind about how this was during a period of art where he wanted to make invisible processes visible. Seen as metaphor for an Enigma Machine, the Kryptos Exhibit, show a process from beginning to end, starting with radio transmission by morse , to the translation and sending of the actual text onward to its final unknown destination. 
+ Take- aways : 
+ Friedman’s Index of Coincdence – depth vs in depth 
+ Repeated use of classic ciphers in K1-K4. 
+ 

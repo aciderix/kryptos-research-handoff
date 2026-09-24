@@ -1,0 +1,5 @@
+the files are now located at 
+http://www.spectorsec.com/kryptos/topleft.xls
+http://www.spectorsec.com/kryptos/topright.xls
+http://www.spectorsec.com/kryptos/bottomleft.xls
+http://www.spectorsec.com/kryptos/bottomright.xls

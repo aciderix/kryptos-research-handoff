@@ -1,0 +1,127 @@
+[[page 1]]
+ 
+M2  Recovering the Original Matrix 
+ 
+Based on my research, Jim began divulging his Original charts in the July 2007 PBS 
+NOVAscienceNOW video. His charts #1 and #3 are seen in the video. Perhaps he showed the 
+other charts to reporters, but those don't appear clearly in the video. 
+ 
+When Jim divulged the clue BERLIN in November 2010, he also divulged the chart where he 
+encoded K1 and part of K2. Since it does not have a number, we will name it chart #0. In it the 
+K1 rows 1 and 2 are numbered, and the first 6 rows of K2 from 3 to 8. Divulging charts #0 and 
+#3, Jim practically gave us the Original Matrix, as several members of the Group speculated at 
+the time. In April 2006 Jim made sure we knew a character was missing at the end of K2, when 
+he told Elonka that IDBYROWS was not correct. Group members worked quickly and found the 
+correct plain text XLAYERTWO (as we will see later, IDBYROWS is as important a clue as 
+LAYERTWO). 
+   
+What is the Origin supposed to be? It should be the Original plaintext, from it the keys and 
+algorithms are applied and the ciphertext is obtained. Jim clearly shows us in his Original 
+charts #0 and #3 that the Original Matrix has 31 columns and 28 rows. So, in principle, we will 
+build the Original Matrix with the first 2 rows of K1. We'll leave out the N from IQLUSION like 
+Jim did. Next the 12 rows of K2, leaving out the C of MAGNETIC like Jim did. We will name this 
+part of the Original Matrix: North Kryptos or NK. Jew-Lee continued chart #0 for rows 9 to 14, 
+considering the correction of XLAYERTWO, the O is located exactly in column 31, row 14. 
+ 
+ 
+ 
+
+[[page 2]]
+For the second part of the Original Matrix, we will use Jim's Original #3 chart. Since Jim 
+numbered the rows from 1 to 14 (not from 15 to 28 as I did in the beginning), we will do the 
+same. We will name this part of the Original Matrix: South Kryptos or SK. 
+ 
+The Original Matrix is as follows: 
+ 
+ 
+ 
+Tests: 
+ 
+1 As we can see in column 19, row 3 of NK can be read from N to S: BEoRLIN! Once again it is 
+confirmed that Kryptos contains the keys, clues and instructions to solve it (Kryptos on a 
+billboard), but time passed and no one found those words on their own. It's reasonable to 
+think that when Jim decided to start releasing clues, he started with the ones we should have 
+found first. But how do we know where to locate BERLIN on K4? We already know that the 
+sequence EIOYTE (lucid memory?) appears in the ciphertext of K3. In column 11, row 9 of NK 
+can be read from N to S: ELY. In column 12 row 3 of KS it can be read from NW to SE: OIE. Is 
+this enough? I think not. In addition, with an English text arranged in a matrix, many words of 2 
+and 3 letters are formed randomly (alphabet soup). That is why I have only considered words 
+with 4 or more letters or that form sentences with some meaning. But the fact is that BERLIN is 
+easier to recognize in the Original Matrix, only after leaving the letter C of MAGNETIC outside 
+the matrix. 
+ 
+In column 10, row 13 of NK can be read from N to S: SUPERMEN (The 2 references I have found 
+are NASA Astronauts and SERPENT CROWN characters. Or is it a clue to generate or use the 
+
+[[page 3]]
+word SUPERMAN?). In column 14, row 1 of SK can read: TIE A FLEA. Are them just Easter eggs 
+or real clues? 
+ 
+In column 5, row 1 of SK can be read from N to S: LAW and then a 4 x 4 matrix with 2 HINT. 
+Another Easter egg? A matrix to apply the HILL Cipher (the extra L)? 
+In column 22, row 8 of SK can be read from NW to SE: MERGE, with the oddity that the final E 
+changes course from SW to NE, as if forming an inverted check mark. And perfectly aligned is 
+another MERGE from EMERGED. This clue was essential in building the Matrix System Jim 
+refers to, so we can go from one doorway to the next. I have probably lost, in this and the 
+remaining matrices, other valuable clues. It would be great if you can find new clues! 
+ 
+2 After giving us the BERLIN clue Jim said: “I dangled the clue BERLIN, but I also divulged, or 
+gave images of my Original decoding charts, the ones that I… well, actually, for me, they were 
+encoding charts. And I think once the Krypto-philes study it in a forensic manner, there might 
+be revelations in there. So in a way, I gave more than just BERLIN. I think I gave other 
+information as well." 
+ 
+So let's analyze, in a forensic manner, the charts, and what Jim said and how he said it. As I 
+commented in the M1 post, Jim on his chart #0 on K1 appears to make an inadvertent mistake 
+in IQLUSION. Now in K2 it appears an unwanted messiness by leaving out of K2 the C for 
+MAGNETIC in row 5. I think those are deliberate mistakes to give us those clues. Apparently he 
+wrote the K2 plaintext and omitted the letter C. Then he wrote the ABSCISSA key repeatedly 
+and finally coded. At some point he realized the mistake and added the missing C. But... when 
+did he realize the mistake? If he realized the mistake after coding, which is what would justify 
+not having to redo the entire chart, he was extraordinarily lucky, he also omitted an S from 
+ABSCISSA! If he had realized this before writing in the key, I think most of us would have taken 
+a blank page and started over. Either way, leaving the C out, everything starts to fit together, 
+as we will also see in the other matrices. Also in chart #0 there is a vertical mark in column 18 
+of K2, very close to the limit with column 19. Jim is signaling us to look there and precisely in 
+column 19 row 3 is the B of BERLIN. Also, as we will see later, the boundary between columns 
+18 and 19 is important. 
+ 
+As for what Jim said, the most obvious is: "a forensic manner”. It directly leads us to analyze in 
+K2 the trio CSI (Crime Scene Investigation) left outside the matrix in chart #0. He also named 
+those Original charts, so that we could associate those with the Original Matrix. But I don't 
+think the charts are the Originals. Kryptos is a huge puzzle, carefully done, almost character by 
+character. As we will see they have not used a bit of stego (stenography) in K4. They have used 
+a lot of stego everywhere in Kryptos. It is not credible that he wrote the plaintext, chose the 
+keys, encoded and done. I think these charts were created long later, perhaps in 2007, to give 
+us these clues that allow us to recover the Original Matrix and the Matrix System. Jim had a 
+tongue slip, first he called them decoding charts, and then he corrected himself by calling them 
+encoding charts. That indicates that them are more recent charts and not the Originals. 
+ 
+ 
+Finally, which character(s) to leave outside of K1 is ambiguous. Jim confirms in his chart #0 that 
+K1 occupies only rows 1 and 2, it does not number the N of IQLUSION. We left out of row 2 the 
+N of IQLUSION like Jim did? The problem is that the Q of IQLUSION is in column 26 and not in 
+column 25, and the K does not fall below the S to form SKY in the ciphertext. We leave out of 
+row 1 the C of ABSENCE, because row 1 appears in Kryptos with 32 characters? 
+ 
+
+[[page 4]]
+ 
+ 
+We introduce a space in column 1, row 1, as it appears in the Antipodes sculpture (I made a 
+tiny breach in the upper left hand corner). And we leave out row 1 the N of ABSENCE and of 
+row 2 the N of IQLUSION. In this last alternative, the S and K of SKY would be in column 26, not 
+in 25. 
+ 
+ 
+ 
+And we would double the total of simple transpositions of K4, to align BLUE, as we discussed in 
+M1. I have worked with the second alternative, but we must consider the others as well, until 
+we have something conclusive. Either way, from the many confirmations that we will see later, 
+I believe that the matrix thus constructed is the Original Matrix Jim refers to, minus some 
+adjustment in rows 1 and 2 of K1. 
+ 
+It's all for now but there is much, much more! 
+ 
+Jose Luis 
+ 

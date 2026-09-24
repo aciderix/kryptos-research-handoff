@@ -1,0 +1,46 @@
+FRESH SLATE - CC: Track B Execution Transcript
+==============================================
+
+Script: reconstruct_wheels.py
+Purpose: Reconstruct class wheels from ciphertext and limited crib letters using modular arithmetic
+
+EXECUTION SUMMARY:
+------------------
+
+Case 1: EAST + NORTHEAST + CLOCK (drop BERLIN)
+-----------------------------------------------
+Command: python3 reconstruct_wheels.py --ct ciphertext.txt --anchors anchors_case1.json
+Cribs used: 
+  - EAST at indices 21-24
+  - NORTHEAST at indices 25-33
+  - CLOCK at indices 69-73
+Result: Reconstruction complete. Determined 58 of 97 positions.
+Output files: case1_RESULT.json, case1_derived_pt.txt
+
+Case 2: EAST + NORTHEAST + BERLIN (drop CLOCK)
+-----------------------------------------------
+Command: python3 reconstruct_wheels.py --ct ciphertext.txt --anchors anchors_case2.json
+Cribs used:
+  - EAST at indices 21-24
+  - NORTHEAST at indices 25-33
+  - BERLIN at indices 63-68
+Result: Reconstruction complete. Determined 57 of 97 positions.
+Output files: case2_RESULT.json, case2_derived_pt.txt
+
+Case 3: EAST + NORTHEAST only (drop both BERLIN/CLOCK)
+-------------------------------------------------------
+Command: python3 reconstruct_wheels.py --ct ciphertext.txt --anchors anchors_case3.json
+Cribs used:
+  - EAST at indices 21-24
+  - NORTHEAST at indices 25-33
+Result: Reconstruction complete. Determined 43 of 97 positions.
+Output files: case3_RESULT.json, case3_derived_pt.txt
+
+NOTES:
+------
+- All runs completed successfully without errors
+- The script correctly refuses to recreate dropped cribs
+- Case 1 determined the most positions (58/97) with EAST+NORTHEAST+CLOCK
+- Case 2 determined 57/97 positions with EAST+NORTHEAST+BERLIN
+- Case 3 determined the fewest positions (43/97) with only EAST+NORTHEAST
+- All undetermined positions are marked with '?' in the derived plaintext files

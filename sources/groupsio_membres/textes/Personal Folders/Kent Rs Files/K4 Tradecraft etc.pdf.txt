@@ -1,0 +1,273 @@
+[[page 1]]
+ 
+ 
+Let's not forget some of the other great designs in the K4 Cipher. When you consider it all together it is 
+mindboggling to imagine how it could have all been put together in one single compact 97 letter (and 
+occasionally one ?) cryptogram. 
+K4s Cloak of Innocence. A cover story as a transcript of ham radio banter. 
+....OB, K, RU, O OXO (..Old Boy, Over, Receiving You, OXO (All Band Transmitter)...SS SS (Sweepstakes/radio relays 
+run by ARRL in Newington, CT just up the road from Berlin, ZZ (Zulu Zulu Greenwich Mean/Meridian Time x2: 
+Meriden just down the road from Berlin, Greenwich a little further SE)... QSJ QSS (Q-code banter).. K C AR (Over, 
+Correct, End-of-message). This does not mean important messages might not be hidden in the Qcodes. 
+Text Shapes 
+Clandestine communications have often relied on arranging cipher text in shapes and reversing flow patterns to 
+keep censors and counterintelligence clueless. Code words and enciphered letters often need to be put into 
+normal correspondence, and deliver critical information without anyone noticing they are there. This is a very 
+interesting field at the intersection of clandestine operations, cryptology and steganography. When you rely on the 
+shaping of text to deliver messages, all kinds of things can happen and various seemingly interesting text strings 
+can appear. This is not necessarily a problem if an operative knows exactly where a code is to appear. But 
+otherwise it is important to rely on things like "adjacent repeats". So a text shape with multiple symmetric 
+adjacent repeats can be an interesting one. Below in K4 we can see two vertical adjacent QZ, three AU or UAs, one 
+triple JS (Jim Sanborn), and of course (with the benefit of hindsight from K2 plain text) the anchor points on the 
+upper pyramid WW, which makes the appearance of JFK (John F. Kennedy) and JKL (John Kennedy Lancer, which 
+was his Secret Service Cryptonym) extra interesting directly adjacent to the triple JS, linked to each other and to 
+DUL. In the next "shaped" message we will see the "triple JS" points directly at the W in AWDUL.  The signal to 
+develop this double pyramid came from the following K4 segments: 
+KZZWATJKLUDI followed later by KZXTJCDI. So the digraphs KZ TJ and DI repeat with inter-digraph distance 
+shrinking from 3 to 1. In transposition analysis, this is an indicator that a diamond/pyramid shape is used to run the 
+transposition. So that can be a great clue to put in a puzzle like this. And this message provides an interesting hint 
+concerning Kryptos. K2: Who knows the exact location? Only WW. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+→ 
+  
+B 
+K 
+R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+← 
+G 
+O 
+X 
+O 
+U 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+H 
+U 
+L 
+B 
+S 
+O 
+L 
+ 
+ 
+ 
+ 
+ 
+V 
+R 
+L 
+F 
+W 
+B 
+B 
+F 
+I 
+ 
+ 
+ 
+Q 
+Q 
+P 
+R 
+N 
+G 
+K 
+S 
+S 
+O 
+T 
+ 
+W 
+Z 
+Z 
+K 
+E 
+S 
+S 
+Q 
+J 
+S 
+Q 
+T 
+W 
+F 
+N 
+I 
+W 
+A 
+I 
+D 
+U 
+L 
+K 
+J 
+T 
+A 
+ 
+B 
+N 
+Y 
+P 
+V 
+T 
+T 
+M 
+Z 
+F 
+P 
+ 
+ 
+ 
+J 
+T 
+X 
+Z 
+K 
+D 
+G 
+W 
+K 
+ 
+ 
+ 
+ 
+ 
+C 
+D 
+I 
+G 
+K 
+U 
+H 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+K 
+E 
+U 
+A 
+U 
+→ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C 
+A 
+R 
+← 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+? 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 2]]
+ 
+ 
+Q-codes QSJ QSS appear in both horizontal and vertical planes 
+Here additional players are drawn into the drama via the same mechanisms. The  7 7 (10) 14 doublets invite to 
+shape the text in those directions. Note that it is necessary to make the ? part of K4 for these arrangements to 
+work, just like it was necessary to make the diamond (or double inverted pyramid) work. This is probably what 
+accounts for the ambiguity Ed Scheidt and Jim Sanborn cultivated around the question mark. Is it part of K3? Yes.  
+Is it part of K4? Yes and no. Thus the ambiguity. It is part of those K4 clandestine messages that use shaped text 
+arrangements. It is not part of the Aryabhata Cipher. 
+In the 7x14 array, JS is back but this time as the point in an OSS spearhead pointing to W and ADUL (Allen Welsh 
+Dulles). Allen Dulles was in the OSS during World War II. Later he became the head of the CIA. He was fired over 
+various CIA Cuba fiascos, particularly the Bay of Pigs, by President John F. Kennedy. Shortly afterwards he became 
+a very influential, and the only full time, member of the Warren Commission, perhaps also the intended for the W 
+in this array. There is also a double LO, an OSW and a VIG O to ponder (refers to next to Extra L. on the Vigenere). 
+And you can again see A DUL and JKL(ancer) linking up in the L. 
+Cryptographic tradecraft is also delivered via this array. An important example is spelled vertically in the middle 
+colum: CUT (K) VIK. This goes along with the vertical ADD in the left most column. It is an instruction to perform a 
+so called VIC cut in the message. To cut it in the middle and ADD the back half to the front. The message is in the 
+second half. The CUT VIK is in the middle column and the ADD is in the front. This refers to the intersection 
+between the multiple-of-three series and 7squared series. The two sides are also labeled B and A via top row 
+signals, perhaps best seen on the cobra and mongoose graph. The VIC cipher was used by the KGB in the 1950s, 
+notably by Reino Hayhanen. It was never solved until he explained how it worked. 
+ 
+ Maybe there is more? Sure wonder about that vertical YAT, too. Hmm, literary connotations perhaps? Either way, 
+Hats off to Edward Scheidt I'd say. Better make another Headline Puzzle in his honor 
+ 
+
+[[page 3]]
+ 
+ 
+Headline Puzzle: Axel Rubic! 
+1.  QFU BVMH VOUZ 
+2. BWQ ZOGX HOF XRKRXQX OGX HRBWAYB O PZYQ 
+3. HRY HD YLHXC BHXY ECMWECX NHXC W BCKCVE HD YLC XHNMCNCN *ACNBGV, DGNXY VWAC *CE 
+4. QI APK FQDZBT QI E VHEW 
+5. LFP ZQ RTJ EBZKP ZQ KLVEJP AZBJK 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+                                           
+  
+ 

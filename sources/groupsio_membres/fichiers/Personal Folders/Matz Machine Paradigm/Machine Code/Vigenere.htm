@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .shadowbox {
+          width: 50em;
+          border: 1px solid #333;
+          box-shadow: 8px 8px 5px #444;
+          padding: 8px 12px;
+          background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <p>Select which section to decipher</p>
+                <p>
+                    <select id="mySelect" onchange="setSection()">
+                        <option value="1">K1</option>
+                        <option value="2">K2</option>
+                    </select>
+                    Cursor Time in ms (1000 = 1sec)
+                    <input type="number" id="cursorTimeout" name="cursorTimeout"
+                           min="1" max="1000" value="250">
+                    <button onclick="initialiseK3Fn()">K3</button>
+                </p>
+
+                <p>Enter a Keyword (defaults populate automatically)</p>
+                <p>
+                    <input type="text" id="keyword" name="keyword" value="PALIMPSEST">
+                    <button onclick="stepFn()">Step</button>
+                    <button onclick="autoFn()">Auto</button>
+                    <button onclick="clearInterval(timerCtrl)">Stop</button>
+                </p>
+                <p>
+                    Rotate Vigenere Mask 90 degrees right and overlay on the CT
+                </p>
+                <button onclick="rotateRightFn()">Rotate Right</button>
+            </td>
+            <td>
+                <div class="shadowbox" id="narrative">
+                    <p>
+                        Storyboard.
+                    </p>
+                </div>
+
+            </td>
+           
+        </tr>
+
+    </table>
+    
+    <p>
+    <canvas id="myCanvas" width="1600" height="600"
+            style="border:1px solid #c3c3c3;">
+        Your browser does not support the canvas element.
+    </canvas>
+    
+    <p>Layout and text copyright Jim Sanborn</p>
+    <script>
+
+        
+
+        var ct = "EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ ";
+
+        ct = ct + "YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD* ";
+        ct = ct + "VFPJUDEEHZWETZYVGWHKKQETGFQJNCE* ";
+        ct = ct + "GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG** ";
+        ct = ct + "TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA* ";
+        ct = ct + "QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR ";
+        ct = ct + "YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI* ";
+        ct = ct + "HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE* ";
+        ct = ct + "EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX ";
+        ct = ct + "FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF* ";
+        ct = ct + "FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ** ";
+        ct = ct + "ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE* ";
+        ct = ct + "DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP* ";
+        ct = ct + "DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG* ";
+        ct = ct + "ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA ";
+        ct = ct + "CHTNREYULDSLLSLLNOHSNOSMRWXMNE** ";
+        ct = ct + "TPRNGATIHNRARPESLNNELEBLPIIACAE* ";
+        ct = ct + "WMTWNDITEENRAHCTENEUDRETNHAEOE** ";
+        ct = ct + "TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR ";
+        ct = ct + "EIFTBRSPAMHHEWENATAMATEGYEERLB** ";
+        ct = ct + "TEEFOASFIOTUETUAEOTOARMAEERTNRTI ";
+        ct = ct + "BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB* ";
+        ct = ct + "AECTDDHILCEIHSITEGOEAOSDDRYDLORIT";
+        ct = ct + "RKLMLEHAGTDHARDPNEOHMGFMFEUHE*** ";
+        ct = ct + "ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR* ";
+        ct = ct + "UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO* ";
+        ct = ct + "TWTQSJQSSEKZZWATJKLUDIAWINFBNYP* ";
+        ct = ct + "VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR* ";
+
+        var tt = " ABCDEFGHIJKLMNOPQRSTUVWXYZABCD  ";
+        tt = tt + "AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP  ";
+        tt = tt + "BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT  ";
+        tt = tt + "CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO  ";
+        tt = tt + "DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS  ";
+        tt = tt + "ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA  ";
+        tt = tt + "FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB  ";
+        tt = tt + "GSABCDEFGHIJLMNQUVWXZKRYPTOSABC  ";
+        tt = tt + "HABCDEFGHIJLMNQUVWXZKRYPTOSABCD  ";
+        tt = tt + "IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE  ";
+        tt = tt + "JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF  ";
+        tt = tt + "KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG  ";
+        tt = tt + "LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH  ";
+        tt = tt + "MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI  ";
+
+        tt = tt + "NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL ";
+        tt = tt + "OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL  ";
+        tt = tt + "PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM  ";
+        tt = tt + "QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN  ";
+        tt = tt + "RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ  ";
+        tt = tt + "SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU  ";
+        tt = tt + "TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV  ";
+        tt = tt + "UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW  ";
+        tt = tt + "VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX  ";
+        tt = tt + "WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ  ";
+        tt = tt + "XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK  ";
+        tt = tt + "YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR  ";
+        tt = tt + "ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY  ";
+        tt = tt + " ABCDEFGHIJKLMNOPQRSTUVWXYZABCD  ";
+
+        var pt = "BETWEENSUBTLESHADINGANDTHEABSENC "
+        pt = pt + "EOFLIGHTLIESTHENUANCEOFIQLUSION* ";
+        pt = pt + "ITWASTOTALLYINVISIBLEHOWSTHATPO* ";
+        pt = pt + "SSIBLE?THEYUSEDTHEEARTHSMAGNET** ";
+        pt = pt + "ICFIELDXTHEINFORMATIONWASGATHER* ";
+        pt = pt + "EDANDTRANSMITTEDUNDERGRUUNDTOANU ";
+        pt = pt + "NKNOWNLOCATIONXDOESLANGLEYKNOWA* ";
+        pt = pt + "BOUTTHIS?THEYSHOULDITSBURIEDOUT* ";
+        pt = pt + "THERESOMEWHEREXWHOKNOWSTHEEXACTL ";
+        pt = pt + "OCATION?ONLYWWTHISWASHISLASTMES* ";
+        pt = pt + "SAGEXTHIRTYEIGHTDEGREESFIFTYSE** ";
+        pt = pt + "VENMINUTESSIXPOINTFIVESECONDSNO* ";
+        pt = pt + "RTHSEVENTYSEVENDEGREESEIGHTMINU* ";
+        pt = pt + "TESFORTYFOURSECONDSWESTIDBYROWS* ";
+        pt = pt + "SLOWLYDESPARATLYSLOWLYTHEREMAINS ";
+        pt = pt + "OFPASSAGEDEBRISTHATENCUMBEREDT** ";
+        pt = pt + "HELOWERPARTOFTHEDOORWAYWASREMOV* ";
+        pt = pt + "EDWITHTREMBLINGHANDSIMADEATINY** ";
+        pt = pt + "BREACHINTHEUPPERLEFTHANDCORNERAN ";
+        pt = pt + "DTHENWIDENINGTHEHOLEALITTLEIIN** ";
+        pt = pt + "SERTEDTHECANDLEANDPEEREDINTHEHOT ";
+        pt = pt + "AIRESCAPINGFROMTHECHAMBERCAUSED* ";
+        pt = pt + "THEFLAMETOFLICKERBUTPRESENTLYDETA";
+        pt = pt + "ILSOFTHEROOMWITHINEMERGEDFROM*** ";
+        pt = pt + "THEMISTXCANYOUSEEANYTHINGQ?OBKR* ";
+        pt = pt + "UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO* ";
+        pt = pt + "TWTQSJQSSEKZZWATJKLUDIAWINFBNYP* ";
+        pt = pt + "VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR* ";
+
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        //#5b6b83
+        var yOffSet = 16;
+        var boxSpace = 16;
+        var boxSize = 16;
+        var ctXOffset = 15;
+        var ctTextXOffset = 17;
+        var textYOffset = 28;//17;
+        var fontSize = 15;
+        var fontSizeStr = fontSize + 'px Courier New';
+        //Derived values
+        var tblXOffset = (35 * boxSpace);
+        var tblTextOffset = tblXOffset + 2;
+        var ptXOffset = tblXOffset + (33 * boxSpace);
+        var ptTextXOffset = ptXOffset + 2;
+
+        var displayWidth = ptXOffset + (34 * boxSpace);
+        var displayHeight = 31 * boxSpace;
+        var ctMatrix = [];
+        var tblMatrix = [];
+        var ptMatrix = [];
+        //
+        var currentSection = "K1";
+        var inAuto = false;
+        var lastBlock = 0;
+        //
+        var ctPointer = -1;
+        var ptPointer = -1;
+        //
+        var currentKeywordPosition = -1;
+        var currentLookupRow;
+        var currentLookupColumn;
+        var currentCtCharacter;
+        var currentTblLookUpCharacter;
+        var currentDecodeRowCharacter;
+        getWidth();
+
+        ctx.fillStyle = '#5b6b83';
+
+        ctx.fillRect(0, 0, displayWidth, 600);
+        //ctx.font = "15px Courier New";
+        ctx.font = fontSizeStr;
+        //
+        var keyword = "";
+        var markers = [];
+        var sectionMarker = 0;
+        markers.push({ start: -1, end: 65 });
+        markers.push({ start: 65, end: 461 });
+        markers.push({ start: 461, end: 819 });
+        //
+        var timerCtrl;
+        //
+        var j = 0;
+        var k = 0;
+        var i = 0;
+
+        for (i = 0; i < ct.length; i++)
+        {
+            j++;
+            if (j == 34) {
+                j = 1;
+                k++;
+                if (k == 14)
+                {
+                    yOffSet += 16;
+                    textYOffset += 16;
+                }
+            }
+            
+
+                ctx.beginPath();
+                ctx.lineWidth = "1";
+                ctx.strokeStyle = '#a9a9a9';
+                ctx.rect(ctXOffset + (boxSpace * (j - 1)), yOffSet + (boxSpace * k), boxSize, boxSize);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.lineWidth = "1";
+                ctx.strokeStyle = '#a9a9a9';
+                ctx.rect(ptXOffset + (boxSpace * (j - 1)), yOffSet + (boxSpace * k), boxSize, boxSize);
+                ctx.stroke();
+           // }
+            ctx.fillStyle = "#ffffff";
+            ctx.fillText(ct.charAt(i), ctTextXOffset + (boxSpace * (j - 1)), textYOffset + (boxSpace * k), boxSize, boxSize);
+            ctMatrix.push({ x:(ctXOffset + (boxSpace * (j - 1))), y:(yOffSet + (boxSpace * k)), h:false,r:k+1,c:j,t:ct.charAt(i) });
+
+            //ctx.fillText(pt.charAt(i), ptTextXOffset + (boxSpace * (j - 1)), textYOffset + (boxSpace * k), boxSize, boxSize);
+            ptMatrix.push({ x:(ptTextXOffset + (boxSpace * (j - 1))), y:(textYOffset + (boxSpace * k)), h:false,r:k+1,c:j,t:'' });
+        }
+
+        j = 0;
+        k = 0;
+        i = 0;
+        yOffSet -= 16;
+        textYOffset -= 16;
+
+        for (i = 0; i < tt.length; i++) {
+            j++;
+            if (j == 34) {
+                j = 1;
+                k++;
+                if (k == 14)
+                {
+                    yOffSet += 16;
+                    textYOffset += 16;
+                }
+            }
+           
+            if (j < 33) {
+
+                ctx.beginPath();
+                ctx.lineWidth = "1";
+                ctx.strokeStyle = '#a9a9a9';
+                ctx.rect(tblXOffset + (boxSpace * (j - 1)), yOffSet + (boxSpace * k), boxSize, boxSize);
+                ctx.stroke();
+            }
+            ctx.fillStyle = "#ffffff";
+            ctx.fillText(tt.charAt(i), tblTextOffset + (boxSpace * (j - 1)), textYOffset + (boxSpace * k), boxSize, boxSize);
+            tblMatrix.push({ x:(tblXOffset + (boxSpace * (j - 1))), y:(yOffSet + (boxSpace * k)), h:false,r:k+1,c:j,t:tt.charAt(i) });
+        }
+
+        displayNarrative();
+
+        var rotationPoints = [];
+
+        function rotateRightFn()
+        {
+           var len = tblMatrix.length;
+           for (var i = 0; i < len; i++)
+           {
+                if (tblMatrix[i].h == true)
+                {
+
+                    var x = tblMatrix[i].c - 1;
+                    var y = (22 - tblMatrix[i].r);
+
+                    rotationPoints.push({ x:x,y:y});
+
+                }
+            }
+
+            var len = rotationPoints.length;
+            for (var i = 0; i < len; i++)
+            {
+                var len2 = ctMatrix.length;
+                for (var j = 0; j < len2; j++)
+                {
+                    if (ctMatrix[j].r == rotationPoints[i].x && ctMatrix[j].c == rotationPoints[i].y)
+                    {
+                        //Highlight this cell
+                        ctx.fillStyle = '#ff9900';
+                        ctx.fillRect(ctMatrix[j].x, ctMatrix[j].y, boxSize, boxSize);
+                        ctx.fillStyle = '#ffffff';
+                        ctx.fillText(ctMatrix[j].t, ctMatrix[j].x + 2, ctMatrix[j].y + 12, boxSize, boxSize);
+                        //Break the inner loop
+                        break;
+                    }
+                }
+            }
+        }
+
+        function setSection() {
+            currentSection = document.getElementById("mySelect").value;
+            switch (currentSection)
+            {
+                case "1":
+                    {
+                        sectionMarker = 0;
+                        ctPointer = markers[sectionMarker].start;
+                        ptPointer = markers[sectionMarker].start;
+                        currentKeywordPosition = -1;
+                        document.getElementById("keyword").value = "PALIMPSEST";
+                        break;
+                    }
+                 case "2":
+                    {
+                        sectionMarker = 1;
+                        ctPointer = markers[sectionMarker].start;
+                        ptPointer = markers[sectionMarker].start;
+                        currentKeywordPosition = -1;
+                        document.getElementById("keyword").value = "ABSCISSA";
+                        break;
+                    }
+                  
+            }
+        }
+
+        function displayNarrative()
+        {
+            
+            var str = "<p>In July 2017 I published the long form paper, 'The Machine', into the Yahoo Kryptos Group forums, which was accompanied by message #18613. ";
+            str = str + "This paper along with the R1 revision that followed a month later layed out the rationale for how the sculpture works as a piece of computational hardware that can calculate the same Solar and Lunar ";
+            str = str + "cycles known to be embedded in the workings of the Antikythera Mechanism, a device believed to be the worlds first analogue computer.  This concept of ";
+            str = str + "analogue computation was poorly explained in those early papers, so this page serves as an interactive exposition of what it means in practice.  This page is fully interactive, so have fun! If you run the K1 and K2 ";
+            str = str + "computations to completion, then every letter used in the tableau by the analogue computation will make a mask.  Hit the rotate button to see how a 90 degree right rotation of this mask causes 97 characters to ";
+            str = str + "overlay K1 and K2 and 63 characters to overlay K3.<\p > ";
+            var result = str.fontcolor('rgba(51, 102, 153,0.3)');
+  
+            document.getElementById('narrative').innerHTML = result;
+            //Make replacement here
+        }
+
+        function getWidth()
+        {
+            var canvas = document.getElementById("myCanvas");
+            canvas.width = displayWidth;
+            canvas.height = displayHeight;
+        }
+
+        function resetBlockToDefault(position)
+        {
+                ctx.fillStyle = '#5b6b83';
+                ctx.fillRect(ctMatrix[position].x, ctMatrix[position].y, boxSize, boxSize);
+
+                ctx.beginPath();
+                ctx.lineWidth = "1";
+                ctx.strokeStyle = '#a9a9a9';
+                ctx.rect(ctMatrix[position].x, ctMatrix[position].y, boxSize, boxSize);
+                ctx.stroke();
+
+                ctx.fillStyle = '#ffffff';
+                ctx.fillText(ctMatrix[position].t, ctMatrix[position].x + 2, ctMatrix[position].y + 12, boxSize, boxSize);
+        
+        }
+
+      
+
+        function getCtCharacterUnderCursor()
+        {
+            //ctPointer++;
+            if (markers[sectionMarker].end == ctPointer)
+            {
+                if (sectionMarker != 2)
+                {
+                    if (inAuto == true)
+                    {
+                        clearInterval(timerCtrl);
+                        inAuto = false;
+                    }
+                    ctPointer = markers[sectionMarker].start;
+                    ptPointer = markers[sectionMarker].start;
+                    currentKeywordPosition = -1;
+                    lastBlock = markers[sectionMarker].end - 1;
+                    resetBlockToDefault(lastBlock);
+                    return;
+                }
+                else
+                {
+                    ctPointer = markers[sectionMarker].start;
+                    lastBlock = markers[sectionMarker].end - 1;
+                    //Reset the last block
+                    ctx.fillStyle = '#5b6b83';
+                    ctx.fillRect(ctMatrix[818].x, ctMatrix[818].y, boxSize, boxSize);
+
+                    ctx.beginPath();
+                    ctx.lineWidth = "1";
+                    ctx.strokeStyle = '#a9a9a9';
+                    ctx.rect(ctMatrix[818].x, ctMatrix[818].y, boxSize, boxSize);
+                    ctx.stroke();
+
+                    ctx.fillStyle = '#ffffff';
+                    ctx.fillText(ctMatrix[818].t, ctMatrix[818].x + 2, ctMatrix[818].y + 12, boxSize, boxSize);
+                }
+            }
+           
+            //Fill in the previous one.
+            var previousPosition = 1;
+
+            if (ctPointer > 0) {
+                resetBlockToDefault((ctPointer - 1));
+               
+            }
+            else
+            {
+                if (lastBlock > 0)
+                {
+                    resetBlockToDefault(lastBlock);
+                    lastBlock = 0;
+                }
+            }
+
+            ctx.fillStyle = '#ff9900';
+            ctx.fillRect(ctMatrix[ctPointer].x, ctMatrix[ctPointer].y, boxSize, boxSize);
+            ctx.fillStyle = '#ffffff';
+            ctx.fillText(ctMatrix[ctPointer].t, ctMatrix[ctPointer].x + 2, ctMatrix[ctPointer].y + 12, boxSize, boxSize);
+
+            //
+            return ctMatrix[ctPointer].t;
+
+        }
+
+        function findCtCharacterInRow()
+        {
+            var len = tblMatrix.length;
+            for (var i = 0; i < len; i++)
+            {
+                if (tblMatrix[i].r == currentLookupRow  && tblMatrix[i].t == currentCtCharacter && tblMatrix[i].c !=1)
+                {
+                    tblMatrix[i].h = true;
+                    ctx.fillStyle = '#ff9900';
+                    ctx.fillRect(tblMatrix[i].x, tblMatrix[i].y, boxSize, boxSize);
+                    ctx.fillStyle = '#ffffff';
+                    ctx.fillText(tblMatrix[i].t, tblMatrix[i].x + 2, tblMatrix[i].y + 12, boxSize, boxSize);
+                    return tblMatrix[i].c;
+                }
+            }
+        }
+
+        function findLookupRow()
+        {
+            var len = tblMatrix.length;
+            for (var i = 0; i < len; i++)
+            {
+                if (tblMatrix[i].c == 27 && tblMatrix[i].t == currentTblLookUpCharacter)
+                {
+                    tblMatrix[i].h = true;
+                    ctx.fillStyle = '#ff9900';
+                    ctx.fillRect(tblMatrix[i].x, tblMatrix[i].y, boxSize, boxSize);
+                    ctx.fillStyle = '#ffffff';
+                    ctx.fillText(tblMatrix[i].t, tblMatrix[i].x + 2, tblMatrix[i].y + 12, boxSize, boxSize);
+                    return tblMatrix[i].r;
+                }
+            }
+        }
+        function findDecodeCharacter()
+        {
+            var len = tblMatrix.length;
+            for (var i = 0; i < len; i++)
+            {
+                if (tblMatrix[i].c == currentLookupColumn && tblMatrix[i].r == 3)
+                {
+                    tblMatrix[i].h = true;
+                    ctx.fillStyle = '#ff9900';
+                    ctx.fillRect(tblMatrix[i].x, tblMatrix[i].y, boxSize, boxSize);
+                    ctx.fillStyle = '#ffffff';
+                    ctx.fillText(tblMatrix[i].t, tblMatrix[i].x + 2, tblMatrix[i].y + 12, boxSize, boxSize);
+                    return tblMatrix[i].t;
+                }
+            }
+        }
+
+        function writePlainTextToOutput()
+        {
+            ctx.fillStyle = '#ffffff';
+            ctx.fillText(currentDecodeRowCharacter, ptMatrix[ptPointer].x + 2, ptMatrix[ptPointer].y, boxSize, boxSize);
+        }
+
+        function stepFn()
+        {
+            
+
+            //Step 0 Iterate the current cursor position
+            ctPointer++;
+            ptPointer++;
+            
+
+            //Step 1 Highlight the current CT letter under the cursoe and return its value
+            currentCtCharacter = getCtCharacterUnderCursor();
+            if (currentCtCharacter == " " || currentCtCharacter == "*" ||  typeof currentCtCharacter === 'undefined')
+            {
+                return;
+            }
+
+            if (currentCtCharacter == "?")
+            {
+                currentDecodeRowCharacter = currentCtCharacter;
+                writePlainTextToOutput();
+                return;
+            }
+            //Find the current letter of the keyword
+            keyword = document.getElementById("keyword").value;
+            if (currentKeywordPosition > keyword.length - 2)
+            {
+                currentKeywordPosition = 0;
+            }
+            else
+            {
+                currentKeywordPosition++;
+            }
+            currentTblLookUpCharacter = keyword.charAt(currentKeywordPosition);
+            //Now find this letter in the lookup column of the tableau and highlight it whilst returning its row
+            currentLookupRow = findLookupRow();
+            //In this row find the current CT character and highlight it whilst returning its column.
+            currentLookupColumn = findCtCharacterInRow();
+            //Now find the plain text character in the corresponding decode row
+            currentDecodeRowCharacter = findDecodeCharacter();
+            //Finally Write the plaintext in the plaintext output
+            writePlainTextToOutput();
+            return;
+         
+        }
+        var k3SkipCounter = 0;
+        var columnEnds = [];
+        
+        var currentK3Row = 0;
+        function initialiseK3Fn()
+        {
+            columnEnds[0] = 493;
+            columnEnds[1] = 524;
+            columnEnds[2] = 558;
+            columnEnds[3] = 590;
+            columnEnds[4] = 625;
+            columnEnds[5] = 656;
+            columnEnds[6] = 691;
+            columnEnds[7] = 723;
+            columnEnds[8] = 758;
+            columnEnds[9] = 787;
+            columnEnds[10] = 818;
+
+            sectionMarker = 2;
+            ctPointer = markers[sectionMarker].start;
+            ptPointer = markers[sectionMarker].start;
+                        
+            timerCtrl = setInterval(doK3Fn, document.getElementById("cursorTimeout").value);
+            inAuto = true;
+
+
+        }
+        function doK3Fn()
+        {
+            
+            //Step 0 Iterate the current cursor position
+            ctPointer++;
+            //ptPointer++;
+            
+            //Step 1 Highlight the current CT letter under the cursoe and return its value
+            currentCtCharacter = getCtCharacterUnderCursor();
+            if (currentCtCharacter != " " && currentCtCharacter != "*")
+            {
+                k3SkipCounter++;
+                if (k3SkipCounter == 192)
+                {
+                    ptPointer++;
+                    
+                    currentDecodeRowCharacter = currentCtCharacter;
+                    writePlainTextToOutput();
+                    if (ptPointer == columnEnds[currentK3Row])
+                    {
+                        //Set the ptPointer
+                        currentK3Row++;
+                        ptPointer = 461 + (currentK3Row * 33);
+                        if (currentK3Row == 11)
+                        {
+                            clearInterval(timerCtrl);
+                            //Reset the last block
+                            ctx.fillStyle = '#5b6b83';
+                            ctx.fillRect(ctMatrix[818].x, ctMatrix[818].y, boxSize, boxSize);
+
+                            ctx.beginPath();
+                            ctx.lineWidth = "1";
+                            ctx.strokeStyle = '#a9a9a9';
+                            ctx.rect(ctMatrix[818].x, ctMatrix[818].y, boxSize, boxSize);
+                            ctx.stroke();
+
+                            ctx.fillStyle = '#ffffff';
+                            ctx.fillText(ctMatrix[818].t, ctMatrix[818].x + 2, ctMatrix[818].y + 12, boxSize, boxSize);
+                        }
+                    }
+                    k3SkipCounter = 0;
+                    
+                }
+            }
+        }
+
+        function autoFn()
+        {
+            timerCtrl = setInterval(stepFn, document.getElementById("cursorTimeout").value);
+            inAuto = true;
+            return;
+        }
+        
+    </script>
+
+</body>
+</html>
+

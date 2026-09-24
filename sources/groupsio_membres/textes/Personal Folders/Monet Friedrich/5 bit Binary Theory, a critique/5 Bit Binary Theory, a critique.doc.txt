@@ -1,0 +1,131 @@
+This critique of your text was done very quickly.  Though I suspect some of my wording is rather cold, the observations of your text are meant constructively.
+
+Kryptos 5 Bit Binary Theory:
+
+This theory originated as a potential straight transposition solution to K4, however as new evidence was uncovered and issues with method brought to light it is necessary to back away from the initial (jumped to) conclusion and re-examine the evidence and formulate possible meanings as they may pertain to K4 and the piece as a whole. The basic binary principle provides a common framework that gives possible explanation to many of the mysterious clues given in Kryptos that have gone unexplained for quite sometime.  Therefore it should merit additional brainstorming around the basic technique and possible solutions.
+(foreshadowing: contrary to you claims, the observations below are not shown to be relevant to any clues, let alone the mysterious ones.)
+(Some of your argument involves circular reasoning where observations are used to attempt to justify the very observations.  Some are neat-o observations, the problem is that they arbitrarily chosen to feed your argument.  You need to explain how these observations and/or clues are helpful in revealing/explaining anything further.)
+
+The Clues
+Please note: a clue is something that provides help to explain/justify something further, to provide direction or route and/or confirmation.
+A clue is typically not something that only explains/justifies itself.
+
+There are a few statements Sanborn has made about the way he "intended" the piece to be solved.  This has led to many theories on possible clues hidden or present in the sculpture.  The most probable for K1 and K2 involve crib dragging portions of the Morse message across the respective cipher texts to reveal parts of the key word.
+(I’ve already pointed out that such cribbing, without the use of a computer, would be practically impossible, unless of course you had thousands of monkeys at your disposal; and both Sanborn and Scheidt VEHEMENTLY maintain that the piece (K1 to K4) was meant to be solvable using only pencil and paper.  This doesn’t, of course, preclude the use of a computer in our travels, but the code was meant to be solvable with only p and p.)
+
+It thus would make sense that K4, being that much harder needs clues as well.
+(No need to justify that K4 requires clues, Sanborn and Scheidt have out and out stated it.)
+
+Sanborn has also said that we are missing a huge clue that is clearly in front of us.
+(Not sure why you didn’t quote him here, for the quote itself may be cryptic.)
+(You mention a huge (singular) clue here, without mentioning what that clue is.  In fact, your statement here isn’t even discussed later in your paper; if your observations are genuinely relevant to a clue, huge or not, then you will have absolutely no problem stating what that clue is.)
+
+If we look at the Morse pieces:
+Notice that the one misspelled word (not incomplete) is the word Digetal, in Digetal Interpretatu.
+
+This miss-spelling of the word Digital is significant in that misspelling indicates clues for future pieces of the work.
+(Please state those clues; be precise)
+
+Additionally K1, K2, and K3 each have (at least) 1 word that is misspelled:
+(note: the word BETWEEN (from K1’s PT), for instance, could be a misspelling of the word FROM)
+
+K1  Iqlusion, K2 Gruund, K3 Desparatly
+
+The beginning of K3 also begins with the 4th, 5th and 7th letters (Y A _ R ) raised above the rest of the line.  It has been suggested previously that this (by ‘this’, do you mean DYAHR?) represents a 5 digit binary code (YES!!! Now there’s a potential clue.) (See: Gary Warzin’s K3 solution)
+
+All of these deliberate clues can be explained by using a (zero-indexed) binary representation of the alphabet:
+
+Do you mean to say that
+	the spelling error in K1 can be explained by 5-bit binary?
+	the spelling error in K2 can be explained by 5-bit binary?
+	the spelling error in K3 can be explained by 5-bit binary?
+
+Or similarly,
+Do you mean to say that
+	5-bit binary provides an explanation for the spelling error in K1?
+	5-bit binary provides an explanation for the spelling error in K2?
+	5-bit binary provides an explanation for the spelling error in K3?
+
+If you do mean this, then you are simply mistaken.
+I suspect you need to substitute the word ‘triangulation’ or words ‘further evidence’ for the word ‘explanation’.
+But, if so, why do we require further evidence for the spelling errors?  I think they are evident enough.
+
+Perhaps your argument is the reverse.  That is, (in addition to whatever else they do) the spelling errors provide evidence (via the observations below) that 5-bit binary is (or, may be) useful.
+But, if so, why don’t you just state this?
+
+
+
+Note this alphabet is different than the standard ASCII 8 bit alphabet, which does not hold to the clues.
+(Also, note that ASCII uses one-indexing, not zero-indexing)
+
+Also note that one definition of Digital is:
+(Not satisfying; anyone and their dog can provide a definition.  Please state your references)
+
+A description of  HYPERLINK "http://dictionary.reference.com/search?q=data" data which is stored or transmittedas a sequence of discrete symbols from a finite set (all finite bases satisfy this definition, why then focus arbitrarily on base two?),most commonly this means  HYPERLINK "http://dictionary.reference.com/search?q=binary" binary data represented using electronicor electromagnetic signals (but need not be)
+
+The above definition doesn’t help your case.
+
+Randy Thompson discovered, once the alphabet was proposed, the connection between the misspelled words and the (zero indexed) binary alphabet:
+
+If you write the binary form of each letter vertically down, the correct letter that is misspelled is spelled out horizontally.
+
+01011 =L
+
+GRUUND01110000001010111010000101001101110 = O
+
+DESPARATLY0010010101000100001101010000001011000110100101011000100=E
+
+This may be satisfying to the uncritical eye. But please note: adding the E doesn’t help DESPARATELY.
+It’s still a miss-spelled word.
+To make it a correctly spelled word you will have to make at least one more change.
+And, according to your theory, that change must involve the letter C (00010), K (01010), W (10110) and/or S (10010), as specified by the lines below the E (00100).
+In fact, your proposal of DESPARATELY, since you’ve added a letter, and thus imply that DESPARATLY was incomplete, is hence more like INTERPRETATIT, which is also incomplete.
+But then, why not include INTERPRETATIT in your examples?
+It is this arbitrary nature of your proposal that spells its downfall.
+
+Also the initial discovery (observation) that led to further investigation into the Alphabet, that the first 7 letters of K4 when written in this fashion follow the binary pattern created by the raised YA_R at the beginning of K3. (Neat observation, but please state how this observation is then helpful to us.  Also, why stop at ten?  Is the number 10 a clue?)
+
+ENDyaHROHN0001101000OBKRUOXOGH0001101000
+Additionally (I think you mean ‘However’), the miss-spelled word in the Morse section Digetal does not follow the other misspelled words.
+
+DIGETAL00001000100001001100010101011000101
+Instead of the first line spelling I in binary, it is the second line that gives us the correct letter or possibly “Layer Two” that gives us the second clue to solve K4 (Here you mention the second clue; what was the first clue to solve K4?).  That is Layer two could be indicative of the second row of binary digits when written vertically.
+
+To summarize:
+Digetal is purposely misspelled (yup) and is synonymous with binary (synonymous with binary?  Hardly).
+
+A math based (math based?  As opposed to what?) binary alphabet where A=00000 (that is, zero-indexed), B=00001, etc. can be used to recover the miss-spelled letter in each of the 3 purposely miss-spelled words in K1 K2 and K3.  (As I’ve demonstrated, you haven’t successfully done this.)
+
+The Binary pattern formed by the Raised letters YA_R in the beginning of K3 is the same as the first 7 (10) bits of each of the first 7(10) letters of K4. (Neat observation, but too arbitrary.  I understand that 10 is 2x5, but please explain why you stop at 10 characters?  And why stopping at 10 isn’t arbitrary.)
+
+The binary alphabet provides a framework for the major unexplained clues thus far in piece.  Therefore its use warrants further investigation.
+(May I assume that the major unexplained clues you refer to here are the spelling errors?  Why should I have to assume this?  Please state it.)
+
+Possible techniques for K4.  (Note: Your list includes only a small sampling of the potential techniques available)
+
+Direct Binary transposition of K4
+1) Straight transposition(s) including straight in by columns out by rows (my initial theory), skips, etc just as any like any typical transposition system.
+2) Grouped transposition(s).  Where the message is subdivided into groups, transposed and reassembled into letters
+3) Reduced Message length. The actual message length would be less than 97 letters and there are “Dummy” bits added to the message in the first or second layer so that only Letters A-Z (1-26) are formed
+
+Indirect Binary
+1) Bitwise manipulations using a binary string from the previous sections.
+2) Embedded keyword.  Keyword or phase pulled from the previous sections used for a more traditional Vig. or other type of decipherment.
+
+Embedded K 5 message.  –This will not be clear until K4 is solved (again, no need to state the obvious).
+
+Direct Binary Transpositions
+There are several possible transposition methods available.  The first and my initial guess was a straight in by columns out by rows:
+
+The obvious flaw (as pointed out by Andrew Bromage) with this is that we are starting with an alphabet of letters A-Z and none of the letters a- f or 27 -32.  (Actually, math itself is flawed. See Gödel and his Incompleteness Theorem.  But math still provides us a valuable resource.)  So, to start with English and end with English, and none of the letters 27-32 is not rigorous (curious that you now consider rigor valuable; why not above?).  That is you will almost always end up with letters 27-32.  To prove this I ran a skip, 2-484 (2-484? not sure what this is) and the horizontal binary above and all came up with at least one letter 27-32. (Results given separately)
+
+There is another reason why it is suggestive that K4 is not a direct binary transposition (You mean, other than once you tried it, you didn’t get the results you wanted?), namely the percentage of 1’s is too high compared to expected for English.  Although K4 is short, it is on the high side; although further statistical analysis would be needed.  Stats given separately.
+
+Embedded Keyword: D
+This is potential solution and is discussed separately.
+Kryptos 5 Bit Binary Theory, a critique
+
+ PAGE 1 of  NUMPAGES 4
+
+
+

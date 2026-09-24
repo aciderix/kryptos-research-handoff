@@ -1,0 +1,349 @@
+[[page 1]]
+On Engendering an Understanding of Illusion — Kryptos – the Tomb Entrance 
+4/26/2007   6:55 PM 
+ 
+1 of 4 
+The Tomb Entrance1 
+ 
+“There are lots of doors to go through to get to the meaning of the code.  Every time you enter one 
+doorway you might, in the distance, see another door.  You go through that doorway and then you 
+go through another doorway.  It unfolds as it's deciphered.” 
+Jim Sanborn (from November, 2005 CNN Jamie McItyre video) 
+There are many layers.  A lot of thought went into this.  There is more to the puzzle than what's 
+been talked about.  Ed Scheidt (from Elonka’s 2003 road trip) 
+ 
+According to an interview with Elonka Dunin (from Elonka’s 2003 road trip), Ed Scheidt made a point of saying that he used 
+to be an “op” (operative), and that Kryptos is designed to be solved in a straight-forward manner with pencil and paper.  He 
+talked about how the code was designed so that someone could come along 15 years later, having forgotten the keys, and 
+still be able to figure it out via the clues that were there. 
+“Imagine that you have an operative in place that you will need to get a message to in the future.  
+It could be 15 years down the road - you won’t have any contact with them in the meantime.  You 
+have to assume that they will not remember the key.  How do you deliver a message in such a way 
+that it conveys not only the encrypted data, but also the key?” 
+ 
+Ed claimed that it was necessary to recover the keys, and that the keys were concealed at the sculpture.  He made a specific 
+point that the key is not necessarily the keyword.  And in doing so, he could not have made it more plain that looking for a 
+keyword without first determining the algorithm was a waste of time. 
+ “In a modern digital system, the key is the keyword or number that you need to decrypt the 
+message.  Everyone knows the algorithm.  It is just a black box into which you insert the key and 
+the encrypted text, and the answer comes out the other end.  In analog systems (as used in Kryptos) 
+the key is the algorithm.” 
+ 
+He implied that, even though people may have discovered the text of the first 3 parts, they still didn’t understand how the 
+message was constructed and how his fictitious “operative in the field” would have solved the problem. 
+The goal was to create something you would look at if you were working an intel operation.  
+(B-roll comments, Ed Scheidt New York Times interview, April 21, 2006) 
+ 
+I will demonstrate that the keys Ed mentions are genuine, come from a variety of sources, and direct you to do things.  They 
+even tell you when you’ve got the correct result.  And they’ve been right in front of you, all along. 
+According to Jim Sanborn, artist/sculptor of Kryptos, Ed Scheidt gave him an outline of historic and contemporary encoding 
+systems that have been formally used by the agency (in 1990) and were still used by the agency and other people. 
+ “He gave me a whole variety of possible systems to use and ways to modify those systems.  But 
+as a visual artist, I like to rely on systems that include visual material as well as digital material 
+that can be deciphered by machines.  It's well-known that I did use some matrix codes Ed gave me 
+(in K1, K2, K2+, and K3).  I have also designed visual systems for encoding, which are much 
+harder for cryptographers to crack because they're individualistic.” 
+ 
+Excerpts from Sanborn’s interview in NPR’s All Things Considered 
+“There are encoding systems which use pattern, light and shadow, and it's those kinds of systems 
+that I was most interested in using, because I'm an artist... and I chose not to use, in at least what's 
+been deciphered already, perhaps what has not been deciphered...  I like to use spatial systems of 
+encoding and decoding.” 
+I'm in a unique position: I'm an artist, not a mathematician, but I do have other skills, more visual 
+skills, that were brought to bear in designing the code.” 
+“I will say that I have left instructions in the earlier text that refer to later text. 
+That's as far as I'll go.” 
+--------------------------?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+As we will see, the strategy to solve K4 involves observation, interpretation and the expectation of confirmation. 
+                                                     
+1 I included this page with other papers, including ‘From HYDRA to the Flickering Flame’, but I think it bears repeating. 
+
+[[page 2]]
+On Engendering an Understanding of Illusion — Kryptos – the Tomb Entrance 
+4/26/2007   6:55 PM 
+ 
+2 of 4 
+Take a look at the limestone slab, near the sculpture. 
+ 
+ 
+ 
+For most of the day, 
+there is nothing much to see. 
+ 
+ 
+However, when the lighting cooperates, 
+three letters appear from the shadows.2
+ 
+ 
+The letters Q, J, S found in the limestone slab are there for a reason – to bring our attention to strings of these three letters. 
+ 
+K4 happens to include the letters Q, S, J in the string QSJ, and if we portray K4 as 14 rows of 7 columns, an additional 
+(vertical) letter sequence QSJ aligns perpendicularly to our (horizontal) QSJ letter string. 
+ 
+K4 raw 
+K4 reversed 
+ 
+ 
+--------------------------?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+?OBKRUO 
+XOGHULB 
+SOLIFBB 
+WFLRVQQ 
+PRNGKSS 
+OTWTQSJ 
+QSSEKZZ 
+WATJKLU 
+DIAWINF 
+BNYPVTT 
+MZFPKWG 
+DKZXTJC 
+DIGKUHU 
+AUEKCAR 
+ 
+RACKEUA 
+UHUKGID 
+CJTXZKD 
+GWKPFZM 
+TTVPYNB 
+FNIWAID 
+ULKJTAW 
+ZZKESSQ 
+JSQTWTO 
+SSKGNRP 
+QQVRLFW 
+BBFILOS 
+BLUHGOX 
+OURKBO? 
+ 
+ 
+ ?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+ 
+Now let us colour in a square of 3 columns and 3 rows that correspond to our perpendicular QSJ strings. 
+ 
+K4 raw 
+K4 reversed 
+ 
+ 
+--------------------------?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+?OBKRUO 
+XOGHULB 
+SOLIFBB 
+WFLRVQQ 
+PRNGKSS 
+OTWTQSJ 
+QSSEKZZ 
+WATJKLU 
+DIAWINF 
+BNYPVTT 
+MZFPKWG 
+DKZXTJC 
+DIGKUHU 
+AUEKCAR 
+ 
+RACKEUA 
+UHUKGID 
+CJTXZKD 
+GWKPFZM 
+TTVPYNB 
+FNIWAID 
+ULKJTAW 
+ZZKESSQ 
+TWTO 
+GNRP 
+RLFW 
+BBFILOS 
+BLUHGOX 
+OURKBO? 
+ 
+JSQ 
+SSK 
+QQV 
+ 
+ ?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+ 
+“So what?” you ask. 
+                                                     
+2 As far as I can tell, this was first brought to the attention of the group by Paul E. Wilson in message #3281, posted Mon Jun 27, 2005 5:18 pm 
+
+[[page 3]]
+On Engendering an Understanding of Illusion — Kryptos – the Tomb Entrance 
+4/26/2007   6:55 PM 
+ 
+3 of 4 
+Well, consider the four additional letters included in our coloured square, KVQS.  What can we make of them? 
+ 
+ 
+ 
+From K4 raw 
+ 
+VQQ 
+KSS 
+QSJ 
+ 
+VQ
+KS
+ 
+ 
+ 
+ 
+From K4 reversed 
+ 
+JSQ 
+SSK 
+QQV 
+ 
+SK
+QV
+ 
+ 
+ 
+ 
+Well, we can separate them into KV and QS. 
+ 
+Then we can interpret the Q and S as their zero-indexed placements in the Kryptos alphabet. 
+ 
+KRYPTOSABCDEFGHIJLMNQUVWXZ 
+01234567890123456789012345 
+Q → 20.    S → 6. 
+ 
+Add them up, to acquire the value 26. 
+ 
+Now let’s replace our QS with their sum of 26, with the 6 corresponding to the letter S (i.e., the letter from which it was derived). 
+ 
+ 
+ 
+From K4 raw 
+ 
+VQQ 
+KSS 
+QSJ 
+ 
+VQ
+KS
+ 
+V2
+K6
+ 
+ 
+ 
+From K4 reversed 
+ 
+JSQ 
+SSK 
+QQV 
+ 
+SK
+QV
+ 
+6K
+2V
+ 
+ 
+ 
+Recall the previously referenced PALIMPSEST, which, at least with the Archimedean example, involved shifts of 90°. 
+ 
+Now, let us rotate our portrayal of the four additional letters such that we have letters on one row and numbers on the other. 
+ 
+ 
+ 
+From K4 raw 
+ 
+VQQ 
+KSS 
+QSJ 
+ 
+VQ
+KS
+  © 
+V2
+K6
+ 
+KV
+62
+ 
+ 
+From K4 reversed 
+ 
+JSQ 
+SSK 
+QQV 
+ 
+SK
+QV
+  « 
+ 6K
+2V
+ 
+KV
+62
+ 
+And so we end up with 
+ 
+ KV 
+62 
+ V2Q
+K6S
+QSJ
+ JSQ
+S6K
+Q2V
+ 
+For those that are unfamiliar with the designation KV 62, it happens to be the modern catalog moniker of a certain tomb in a 
+certain valley of a certain, relatively ancient land. 
+ 
+ ? 
+ 
+ 
+ 
+ 
+Not quite. 
+ 
+ 
+ 
+A little more ancient. 
+ 
+
+[[page 4]]
+On Engendering an Understanding of Illusion — Kryptos – the Tomb Entrance 
+4/26/2007   6:55 PM 
+ 
+4 of 4 
+The Valley of the Kings (East), Egypt. 
+ 
+ 
+ 
+ 
+ 
+KV 62 
+ 
+ 
+ 
+ 
+Monet Friedrich 
+friedrich@sfu.ca 
+ 
+ 
+ 
+PS. 
+Note the position of the compass rose. 
+ 
+PSS. 
+Before you begin to compare alignments with those of the Kryptos environment, 
+please note that some of the tombs, including the largest found so far, were not available in 1989-91. 
+ 

@@ -1,0 +1,21 @@
+[
+  {"index": 21, "letter": "E"},
+  {"index": 22, "letter": "A"},
+  {"index": 23, "letter": "S"},
+  {"index": 24, "letter": "T"},
+  {"index": 25, "letter": "N"},
+  {"index": 26, "letter": "O"},
+  {"index": 27, "letter": "R"},
+  {"index": 28, "letter": "T"},
+  {"index": 29, "letter": "H"},
+  {"index": 30, "letter": "E"},
+  {"index": 31, "letter": "A"},
+  {"index": 32, "letter": "S"},
+  {"index": 33, "letter": "T"},
+  {"index": 63, "letter": "B"},
+  {"index": 64, "letter": "E"},
+  {"index": 65, "letter": "R"},
+  {"index": 66, "letter": "L"},
+  {"index": 67, "letter": "I"},
+  {"index": 68, "letter": "N"}
+]

@@ -1,0 +1,603 @@
+[[page 1]]
+KRYPTOS K4 — Geospatial-Symbolic Framework
+Page 1 of 3 | Research draft only | Clarke, PhD | May 2026
+James Roger Clarke, PhD
+·  clarke1830james@comcast.net
+x INTRODUCTION
+Kryptos is a sculpture by Jim Sanborn, dedicated at CIA headquarters on 3 November 1990. It contains four encrypted passages. The first three — K1, K2, and K3 — have been publicly solved. K4, a
+97-character ciphertext, remains methodologically unresolved in the public record after more than 35 years. In November 2025, Sanborn released final public context: the clue BERLINCLOCK refers to the
+World Clock (Weltzeituhr) at Alexanderplatz in Berlin, and the K4 solution is connected to his 1986 Egypt trip and the fall of the Berlin Wall in 1989. This framework proposes that K4 encodes a
+navigational key — not merely plaintext — derived from the ciphertext's own structure, the solved K2 coordinate, and the public clue family EAST · NORTHEAST · BERLIN · CLOCK. The two original
+solved-section keys, PALIMPSEST and ABSCISSA, are not decorative labels. They are the method: one instructs how to read, the other instructs where to look. Together they convert a sculpture into a
+map, a coordinate into a viewing origin, and a set of directional words into testable great-circle bearings.
+PALIMPSEST — The K1 Key: How to Read
+The literal meaning
+A palimpsest is a surface that has been written on more than once, with earlier text incompletely erased and still
+partly visible beneath the later writing. Manuscripts, stone tablets, parchment — all were reused, each layer
+partially obscuring and partially revealing what came before.
+Applied to Kryptos — layers of inscription
+Kryptos is itself a palimpsest. The cipher text is written over a 9x9 grid, which is written over a campus map,
+which is written over a Berlin map, which is written over underground routes and concealed names. Each layer
+is partly readable through the one above — exactly as the word describes. The K2 coordinate is hidden inside
+the solved plaintext: written over by the cipher, visible only once K2 is decoded. The answer is already there,
+beneath the surface.
+Applied to the physical campus — built over
+The CIA compound was literally constructed over the existing Virginia landscape — roads, buildings, and
+installations placed on top of earlier geography. The Kryptos sculpture sits above a motor room 2 m
+underground, connected by cable to the NHB entrance installation. The Berlin Wall monument arrived two years
+after Kryptos — a later inscription placed over the existing installation. The campus is a physical palimpsest:
+each new structure written over what was already there.
+Applied to Berlin — the buried city
+Alexanderplatz was rebuilt over Cold War rubble. The U-Bahn and S-Bahn networks run beneath it, invisible
+from the surface. The WWII flak towers at Volkspark Friedrichshain are buried under a park — a landscape
+written over a bunker. Operation GOLD ran entirely beneath the streets of Berlin, intercepting communications
+through cables buried under Schonefeld. Berlin is a city written over its own hidden infrastructure.
+ABSCISSA — The K2 Key: Where to Look
+The literal meaning
+The abscissa is the horizontal x-coordinate in Cartesian geometry — the distance measured from the y-axis
+along a line parallel to the x-axis. In a standard coordinate system the abscissa is the baseline: the ground-level
+reference line from which vertical depth is measured downward. Sanborn chose this specific mathematical term
+as the K2 repeating cipher key. It is not a random word.
+As a directional instruction — the east-west axis
+On a north-up map the x-axis runs west to east. ABSCISSA therefore points the solver to look horizontally — not
+up or down the map, but along the ground line. From the K2/W51 viewing origin, east at 44.42 degrees leads
+toward Berlin and the Weltzeituhr. West at 269.94 degrees leads toward Mummy Mountain in Arizona, named
+for its Egyptian-mummy silhouette — 0.056 degrees south of due west on the ABSCISSA axis. The E-back ray
+at 259.36 degrees traces the Cold War east-west division of Berlin itself.
+As an underground reference — depth below the baseline
+In a coordinate system, the abscissa is the surface line. Everything below it is negative — depth measured
+downward from the ground. The K2 plaintext says information was gathered and transmitted underground and is
+buried somewhere. That information is below the abscissa. Operation GOLD operated below street level. The
+Kryptos motor room is below grade. The Weltzeituhr has a room beneath it. The abscissa is the surface; the
+secret is below it.
+As a map coordinate — hidden inside the solved text
+The K2 plaintext contains a GPS coordinate: 38 degrees 57 minutes 6.5 seconds N, 77 degrees 8 minutes 44
+seconds W. This coordinate is the abscissa made literal — a specific horizontal position on the earth's surface,
+embedded in the solved text, displaced approximately 150 to 170 feet southeast of the sculpture. That displaced
+point, W51/K2, is where all ray tests originate. ABSCISSA named the key; the key unlocked the coordinate; the
+coordinate defines the origin.
+y K4 INNER FIELD: 9×9 W-CELL GRID
+G
+1
+H
+2
+U
+3
+L
+4
+B
+5
+S
+6
+O
+7
+L
+8
+I
+9
+F
+10
+B
+11
+B
+12
+W
+13
+F
+14
+L
+15
+R
+16
+V
+17
+Q
+18
+Q
+19
+P
+20
+R
+21
+N
+22
+G
+23
+K
+24
+S
+25
+S
+26
+O
+27
+T
+28
+W
+29
+T
+30
+Q
+31
+S
+32
+J
+33
+Q
+34
+S
+35
+S
+36
+E
+37
+K
+38
+Z
+39
+Z
+40
+W
+41
+A
+42
+T
+43
+J
+44
+K
+45
+L
+46
+U
+47
+D
+48
+I
+49
+A
+50
+W
+51
+I
+52
+N
+53
+F
+54
+B
+55
+N
+56
+Y
+57
+P
+58
+V
+59
+T
+60
+T
+61
+M
+62
+Z
+63
+F
+64
+P
+65
+K
+66
+W
+67
+G
+68
+D
+69
+K
+70
+Z
+71
+X
+72
+T
+73
+J
+74
+C
+75
+D
+76
+I
+77
+G
+78
+K
+79
+U
+80
+H
+81
+W41 — center anchor
+W51 — K2 ray origin
+EAST (pos 22–25)
+NORTHEAST (pos 26–34)
+BERLIN (pos 64–69)
+CLOCK (pos 70–74)
+97 = 8 (Shell A) + 81 (inner 9×9) + 8 (Shell B)
+UAUEKCAR = 81    |   W41 = pos 41/81 = exact grid center
+z K2 VIEWING ORIGIN (W51) — SPATIAL KEY
+N
+S
+E
+W
+W41 — Kryptos anchor
+W51/K2 — Ray origin
+~150–170 ft SE of W41
+~79 ft E
+~152 ft S
+NE 44.42° → Berlin
+Schematic — not survey grade
+{ W-CELL POSITIONS & CIA CAMPUS FEATURES
+Cell
+Pos
+Location / Feature
+Role
+W13
+13
+NHB Entrance / Kryptos courtyard
+Lodestone −8.5°, compass rose, Morse plates
+W29
+29
+NHB Atrium / Berlin Wall exhibit
+'The Day the Wall Came Down'; U-2 model
+W41#
+41
+Kryptos sculpture — grid center
+W41 anchor; CIA Great Seal compass (OHB)
+W51/K2 51
+K2 GPS: 38°57′6.5″N 77°8′44″W
+Displaced ray origin ~150–170 ft SE
+W67
+67
+OHB SW Entrance area
+Nathan Hale (1973); Harriet Tubman (2022)
+Boundary statement: This framework presents a falsifiable geospatial-symbolic hypothesis. It does not claim K4 is solved and does not assert proof of authorial intent.
+K2 clues — EAST · NORTHEAST · BERLIN · CLOCK — Sanborn confirmed BERLINCLOCK = Weltzeituhr, Nov 2025. All other connections are proposed and testable.
+Research draft only | Not a claim to solve K4 | Clarke, PhD | May 2026
+
+[[page 2]]
+KRYPTOS K4 — Geospatial-Symbolic Framework
+Page 2 of 3 | Correlation Table | Research draft only | Clarke, PhD | May 2026
+James Roger Clarke, PhD
+·  clarke1830james@comcast.net
+| CORRELATION TABLE — BEARINGS, DEVIATIONS, AND HISTORICAL CONNECTIONS
+Target / Feature
+Bearing
+(° true)
+∆ from
+ray
+Geospatial
+Closeness
+Contextual
+Fit
+Historical Connection & Narrative
+II CORE BEARINGS II
+Berlin World Clock
+(Weltzeituhr, Alexanderplatz)
+BERLINCLOCK — Sanborn 2025
+44.42°
+NE
+—
+Exact NE great-
+circle from K2;
+~6,714 km
+Highest — Sanborn
+publicly named this
+target in 2025
+The Weltzeituhr: 24 time zones on a cylinder, set on a wind-rose mosaic pavement compass. Beneath the clock mechanism is an underground room 
+Berlin E-back / west-axis
+Soviet War Mem. ∆0.18°
+Brandenburg Gate ∆1.63°
+U.S. Embassy ∆1.29°
+259.36°
+WSW
+∆0.18°
+(nearest)
+Multiple named
+landmarks within
+~2° of ray
+High — ABSCISSA
+axis made physical;
+Cold War E-W divide
+The westward axis from the Weltzeituhr traces the Cold War division of Berlin — Soviet memorial in Tiergarten, past the Brandenburg Gate (opened 2
+NSA Fort Meade
+On CIA→Berlin great-circle path
+cross-
+track
+∆0.10°
+path offset
+Within 0.10° of
+Langley–Berlin
+great-circle path
+High — signals
+relay between
+Langley and Berlin
+NSA Fort Meade lies within 0.10° cross-track of the Langley-to-Weltzeituhr great-circle path. Not the same initial bearing as Berlin, but a path near-hit
+US Naval Observatory
+W3 reverse — clock-to-clock
+116.1°
+ESE rev.
+∆0.10°
+Within 0.10° of
+W3 reverse ray
+~7.6 km
+High — CLOCK clue;
+both ends of axis
+are timekeepers
+USNO is the official source of U.S. civil time. The reverse ray from W51/K2 points directly to the nation's timekeeping authority. Both ends of this axis 
+II CIA CAMPUS — SPECIAL EMPHASIS (coordinates pending) II
+CIA Great Seal / Compass Rose
+OHB lobby — 16-ft granite, 16-pt star
+campus
+thresh.
+—
+On-campus;
+W41/W51 grid
+covers OHB
+High — compass
+mirrors K2 lodestone
+and Weltzeituhr rose
+The 16-point granite compass star in the OHB lobby represents intelligence data converging from around the world to a single point — the same logic
+Harriet Tubman — W67 zone
+OHB SW Entrance (statue 2022)
+SW
+~226°
+coord.
+pending
+Within W-grid
+footprint; W67
+zone SW ray
+Highest — conductor,
+hidden routes, North
+Star navigation
+Known as The Conductor, Tubman ran ~13 missions along the Underground Railroad: pre-planned routes, safe houses, coded signals, decoy movem
+Nathan Hale — W67 zone
+OHB SW Entrance (statue 1973)
+SW
+~226°
+coord.
+pending
+Within W-grid
+footprint; W67
+zone SW ray
+High — America's
+first spy; sacrifice
+at the threshold
+America's first executed spy: captured behind British lines in 1776 gathering intelligence on troop positions — the same tradecraft Tubman used 85 ye
+OSS Memorial Garden
+NE hillside OHB; stone, water, koi, brass plaque
+NE
+~45°
+coord.
+pending
+NE quadrant of
+campus; same
+bearing as Berlin ray
+High — unheralded
+service; PALIMPSEST
+landscape
+Commemorates officers whose unheralded efforts served the nation — names partly known, service partly concealed. Stone outcroppings, water cas
+CIA Memorial Wall
+OHB north lobby — stars and sealed names
+campus
+thresh.
+—
+On-campus interior;
+OHB lobby threshold
+sequence
+Highest — sealed
+names echo Carter
+seeing stars on tomb
+Stars for CIA officers killed in service — some names in the Book of Honor, others still classified in death. Visible marks for concealed identities. Carte
+II BERLIN LANDMARKS II
+Soviet War Memorial (Tiergarten)
+Nearest landmark on E-back axis
+259.54°
+WSW
+∆0.18°
+Closest named
+landmark on
+E-back ray
+High — Cold War
+memorial; daily
+threshold crossing
+Built 1945, marks Soviet soldiers who died taking Berlin. Situated in the British sector, it required a Soviet honor guard to cross through Western territ
+Ishtar Gate — Pergamon Museum
+Museum Island ~1.2 km WSW of Weltzeituhr
+~259°
+WSW
+∆<2°
+E-back
+~1.2 km WSW;
+within E-back
+2° corridor
+High — world's
+greatest threshold
+gate; Egypt+Babylon
+The actual gate through which one passed to enter ancient Babylon — not a replica. Glazed blue brick, 2,600 years old, relocated to Berlin. The Proc
+Nefertiti bust — Neues Museum
+~1.1 km W of Weltzeituhr
+~259°
+WSW
+obj. coord
+pending
+~1.1 km W;
+W of Weltzeituhr
+on E-back axis
+High — one blind
+eye; K4 still dark;
+Egypt in Berlin
+Nefertiti was Tutankhamun's stepmother, mother-in-law, and immediate predecessor — a layered identity, like a palimpsest. Her bust is famous for its
+Checkpoint Charlie
+Friedrichstrasse border crossing
+SW
+~226°
+coord.
+pending
+Berlin landmark;
+W5 SW ray
+corridor
+High — the breach
+in the sealed Wall;
+Cold War threshold
+The controlled crossing point between East and West Berlin — the gate through which spies, diplomats, and defectors passed. A narrow breach in a s
+S+U Alexanderplatz station
+Underground portals on W-grid
+W1/W2
+rays
+∆0.4°
+Directly beneath
+W-grid; station
+entrances on rays
+High — underground
+transit echoes K2
+buried-information
+Alexanderplatz is a major S-Bahn, U-Bahn, tram, and rail hub — the underground transit network radiating outward from directly beneath the World C
+Russian Embassy Berlin
+Unter den Linden, W-axis
+255.15°
+WSW
+∆4.2°
+On Unter den
+Linden W-axis;
+∆4 2° f
+Moderate — Soviet
+diplomacy above;
+GOLD
+bl
+b l
+The Russian Embassy stands on the same westward axis as Brandenburg Gate and the Soviet War Memorial — diplomatic anchor of the eastern blo
+∆ = angular deviation from declared ray. Geospatial closeness and contextual fit are descriptive assessments, not statistical claims. Campus coordinates pending. Research draft only | Clarke, PhD | May 2026
+
+[[page 3]]
+KRYPTOS K4 — Geospatial-Symbolic Framework
+Page 3 of 3 | Map Overlays from Original Working Files | Research draft only
+James Roger Clarke, PhD
+·  clarke1830james@comcast.net
+} CIA LANGLEY CAMPUS — W-GRID + COMPASS RAYS FROM W51/K2 ORIGIN
+W41 = Kryptos anchor (grid center, red).  W51/K2 = ray origin (yellow, ~150–170 ft SE).  Blue = NE 45° toward Berlin.  Magenta = ENE 67.5°.  Cyan dashed = W-E / N-S cardinal axes.  Orange = W-cell projections.  W13 (NHB en
+~ BERLIN ALEXANDERPLATZ — W-GRID + COMPASS RAYS FROM W51/K2 ORIGIN
+W41 = Weltzeituhr/World Clock (grid center r5/c5).  W51/K2 = ray origin one cell SE (r6/c6).  Blue dashed = true east from W51/K2.  Orange dashed = adjusted clue bearings (NE adj 34.4°, ENE adj 56.9°).  Red = W-cell projection
+Maps: OpenStreetMap / TomTom base tiles. Grid, W-cells, and ray overlays from K4 ciphertext structure and K2 GPS coordinate. Research draft only | Clarke, PhD | May 2026
+
+[[page 4]]
+KRYPTOS K4 — Geospatial-Symbolic Framework
+Page 4 of 4 | Validated Reference List | Research draft only | Clarke, PhD | May 2026
+James Roger Clarke, PhD
+·  clarke1830james@comcast.net
+ VALIDATED REFERENCE LIST — VERIFIED URLS AND PUBLICATION DETAILS
+PRIMARY — KRYPTOS / SANBORN PUBLIC STATEMENTS
+[R1]
+Vergano, D. 'Final Clues to Mystery of CIA Kryptos Puzzle Released.' Scientific American, 12 November 2025. [Note: title corrected from earlier draft; verified against live article.] Sanborn confirms at International Spy Museum
+event: BERLINCLOCK = World Clock in Berlin; K4 context includes 1986 Egypt trip and 1989 fall of the Berlin Wall; K5 thematically connected to K2.
+https://www.scientificamerican.com/article/cia-kryptos-puzzle-creator-releases-final-clues/
+[R2]
+RR Auction. 'The Complete Secrets of Kryptos: Jim Sanborn's Private Archive.' Lot detail page. Auction title: 'Decoding History: Kryptos, Enigma, and the Rosetta Stone.' Oct. 16 – Nov. 20, 2025. Archive sold for $962,500. Lot
+includes K4 solution, original coding charts, K5 connection, handwritten plaintexts, and private afternoon session with Sanborn.
+https://www.rrauction.com/auctions/lot-detail/350761607302001-the-complete-secrets-of-kryptos-jim-sanborns-private-archive/
+[R3]
+RR Auction. 'Decoding History: Kryptos, Enigma, and the Rosetta Stone.' Auction #730 sale landing page. Oct. 16 – Nov. 20, 2025. Confirmed sale title and description.
+https://www.rrauction.com/auctions/details/730-decoding-history-kryptos-enigma-and-the-rosetta-stone/
+[R4]
+Basilio, Humberto (ed. Clara Moskowitz). 'A Solution to the CIA's Kryptos Code Is Found after 35 Years.' Scientific American, 16 October 2025. Reports Kobek and Byrne's discovery of K4 plaintext fragments in Smithsonian
+Archives of American Art; Sanborn confirmed accuracy 3 September 2025. Note: the plaintext was found in archival material — the cryptographic derivation and encryption method were not demonstrated; researchers themselves
+stated this was not a cryptographic solve.
+https://www.scientificamerican.com/article/a-solution-to-the-cias-kryptos-code-is-found-after-35-years/
+[R5]
+NSA, Declassified Kryptos Analysis. 'The CIA KRYPTOS Sculpture: A Summary of Previous Work and New Revelations.' NSA FOIA release (doc_7.pdf). Documents K1 key PALIMPSEST, K2 key ABSCISSA, K2 coordinate, and
+K3 plaintext as paraphrase from Howard Carter's The Tomb of Tut-ankh-Amen (1923). Primary source for cipher key definitions used throughout this framework.
+https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cia-kryptos-sculpture/doc_7.pdf
+PRIMARY — CIA CAMPUS SOURCES
+[R6]
+Central Intelligence Agency. 'Kryptos Sculpture.' CIA Legacy/Headquarters page. Supports: lodestone, compass rose, Morse plates, petrified wood, S-shaped copper screen, reflecting and bubbling pool, 1,735 alphabetic letters.
+Note: the 'motor room 2 m underground' detail is not confirmed on this page; that claim requires a separate source and is carried in this framework as a cited secondary observation only.
+https://www.cia.gov/legacy/headquarters/kryptos-sculpture/
+[R7]
+Central Intelligence Agency. 'Honoring Harriet Tubman: A Symbol of Freedom and an Intelligence Pioneer.' CIA Stories, September 2022. Statue unveiled 7 September 2022 at CIA HQ; CIA Director Burns in attendance. Confirms:
+13 expeditions, ~100 persons guided to freedom; Combahee River Raid (1 June 1863), more than 750 enslaved people freed; Union Army intelligence work; Underground Railroad tradecraft including disguises, safe houses, coded
+signals, and clandestine communication.
+https://www.cia.gov/stories/story/honoring-pioneer-harriet-tubman/
+[R8]
+Central Intelligence Agency. 'Nathan Hale Statue.' CIA Legacy/Headquarters page. Statue erected on CIA grounds 1973; copy of 1914 original created for Yale University. Hale executed 1776 as first American executed for
+espionage.
+https://www.cia.gov/legacy/headquarters/nathan-hale-statue/
+[R9]
+Central Intelligence Agency. 'CIA Memorial Wall.' CIA Legacy/Headquarters page. Stars for CIA officers killed in service; some names remain classified even in death; located on north wall of OHB lobby.
+https://www.cia.gov/legacy/headquarters/cia-memorial-wall/
+[R10]
+Central Intelligence Agency. 'Office of Strategic Services Memorial.' CIA Legacy/Headquarters page. OSS Memorial on south wall of OHB lobby; one star; Book of Honor for 116 OSS fallen. Explicitly distinct from the Memorial
+Garden [R12].
+https://www.cia.gov/legacy/headquarters/office-of-strategic-services-memorial/
+[R11]
+Central Intelligence Agency. 'CIA Seal.' CIA Legacy/Headquarters page. 16-ft granite seal in OHB lobby; 16-point compass star representing intelligence data converging from around the world to a central point.
+https://www.cia.gov/legacy/headquarters/cia-seal/
+[R12]
+Central Intelligence Agency. 'Memorial Garden.' CIA Legacy/Headquarters page. Garden on hillside between OHB and Auditorium; stone outcroppings, continuous water cascade, large fishpond [CIA page confirms fishpond, not
+specifically koi], fieldstone brass plaque; memorial to deceased officers and contractors. Distinct from OSS Memorial [R10].
+https://www.cia.gov/legacy/headquarters/memorial-garden/
+[R13]
+Central Intelligence Agency. 'Berlin Wall Monument.' CIA Legacy/Headquarters page. Confirms three Berlin Wall sections near OHB SW entrance; dedicated 1992 — two years after Kryptos dedication (November 1990). For the
+'The Day the Wall Came Down' bronze sculpture, cite separately: CIA, 'The Day the Wall Came Down' artifact page: https://www.cia.gov/legacy/museum/artifact/the-day-the-wall-came-down/
+https://www.cia.gov/legacy/headquarters/berlin-wall-monument/
+PRIMARY — BERLIN SOURCES
+[R14]
+Berlin.de. 'World Clock — Berlin Alexanderplatz.' Official Berlin tourism/attractions page. Confirms: Erich John designer; inaugurated 30 September 1969; 24 time zones; wind-rose mosaic on pavement below the column; room
+below the clock containing Trabant-gearbox drive mechanism; protected monument since July 2015.
+https://www.berlin.de/en/attractions-and-sights/3561749-3104052-world-clock.en.html
+[R15]
+Central Intelligence Agency. 'Berlin Tunnel: America's Ear Behind the Iron Curtain.' CIA Stories. Operation GOLD: CIA/MI6 tunnel 1,476 ft under East Berlin; Dulles approval January 1954; collection began May 1955; CIA-reported
+yield: 50,000 reels of tape, 443,000 fully transcribed conversations, 40,000 hours of phone conversations, 1,750 intelligence reports; George Blake (KGB mole inside MI6) compromised operation from planning stage; Soviets
+staged 'accidental' discovery April 1956.
+https://www.cia.gov/stories/story/berlin-tunnel-americas-ear-behind-the-iron-curtain/
+[R16]
+Central Intelligence Agency. 'The Berlin Tunnel.' CIA Museum exhibit page. Companion source to R15; confirms construction details: 3,100 tons soil removed, 125 tons steel plate, 1,000 cubic yards grout.
+https://www.cia.gov/legacy/museum/exhibit/the-berlin-tunnel/
+PRIMARY — EGYPT / CARTER SOURCES
+[R17]
+NSA, Declassified Kryptos Analysis (same document as R5). K3 plaintext confirmed as paraphrase of Howard Carter's account of opening Tutankhamun's tomb, 4 November 1922. Original source: Carter, H. and Mace, A.C. The
+Tomb of Tut-ankh-Amen. London: Cassell, 1923. Vol. I.
+https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cia-kryptos-sculpture/doc_7.pdf
+[R18]
+Griffith Institute, University of Oxford. 'Discovering Tutankhamun: Howard Carter's Excavation Journals and Diaries, Season 1.' Primary archive for Carter's 1922 tomb-opening account. Note: page verified by index search; direct
+URL intermittently unavailable due to site rendering. Treat as confirmed by index; use stable Griffith Institute search if direct link fails.
+https://www.griffith.ox.ac.uk/discoveringtut/journals-and-diaries/season-1/journal.html
+[R19]
+Staatliche Museen zu Berlin. 'The Presentation of the Bust of Nefertiti.' Neues Museum / Aegyptisches Museum collection page. Confirms Nefertiti bust held at Neues Museum, Museum Island, Berlin. Neues Museum is
+approximately 1.1 km west of the Weltzeituhr on the E-back bearing axis.
+https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-presentation/
+GEOSPATIAL / COORDINATE SOURCES
+[R20]
+U.S. Geological Survey / U.S. Board on Geographic Names (GNIS). Domestic Feature Entry: Mummy Mountain. Feature ID 8438; Class: Summit; State: Arizona. Official coordinate: 33.5431120°N, 111.9614856°W (Paradise
+Valley, AZ). Initial true bearing from K2/W51: 269.944° (∆0.056° south of due west); great-circle distance ~1,963 statute miles. Note: GNIS page is a JavaScript-rendered application; coordinate confirmed via GNIS search result
+and exported record. Direct URL below opens GNIS summary app for Feature ID 8438.
+https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/8438
+SECONDARY / REFERENCE CHECKS
+[S1]
+Wikipedia. 'World Clock (Alexanderplatz).' Secondary reference. Confirms: 16-ton structure; opened 30 Sep 1969; wind rose on pavement; clock technology in 5×5m room 2m below the square; Trabant gearbox drive; listed
+monument 2015. Used as secondary check against Berlin.de [R14]; not treated as a primary source.
+https://en.wikipedia.org/wiki/World_Clock_(Alexanderplatz)
+[S2]
+Wikipedia. 'Kryptos.' Secondary reference. Useful summary confirming: dedication 3 November 1990; K4 = 97 characters; BERLIN clue released Nov. 2010 (NYT); CLOCK clue released Nov. 2014; EAST and NORTHEAST
+released 2020; Sanborn confirmed K4 plaintext accuracy 3 Sep 2025; Smithsonian files sealed 50 years until 2075; archive sold $962,500 Nov. 20, 2025. Not treated as a primary source; used for cross-check only.
+https://en.wikipedia.org/wiki/Kryptos
+NOTE ON CLUE RELEASE TIMELINE
+[N1]
+BERLIN (positions 64–69): Sanborn to New York Times, November 2010. CLOCK (positions 70–74): released November 2014 (Wired). NORTHEAST (positions 26–34): released January 2020. EAST (positions 22–25): released
+later in 2020. BERLINCLOCK = Weltzeituhr confirmed: Sanborn public statement at International Spy Museum, 12 November 2025, reported in Scientific American [R1]. Clue release dates cross-checked against Wikipedia Kryptos
+article [S2] and primary press sources.
+Validation status: References reviewed and mostly verified; minor corrections applied per independent review (May 2026).
+Caveats: R1 title corrected from earlier draft. R4 author expanded to Humberto Basilio (ed. Clara Moskowitz). R6 motor-room claim removed from source annotation; requires separate citation. R12 wording corrected to 'fishpond' per CIA sour
+R18 (Griffith Institute) verified by index search; direct page intermittently unavailable — use Griffith index if link fails. R20 (GNIS) is a JS-rendered app; coordinate confirmed via GNIS search (Feature ID 8438). Wikipedia sources [S1, S2] are s
+Research draft only | Not a claim to solve K4 | Clarke, PhD | May 2026

@@ -1,0 +1,2020 @@
+## word/document.xml
+ 
+ 
+ Part 1; HINTS FROM S ANBORNE: …TO BE USED LATER IN SOLUTION 
+ 
+ ADDITIONAL INFORMATION : 
+ LOWER CASE D IN BURIED 
+ POSITION 6,22 WHERE O = U….VERTICALLY SAYS TO USE 
+ 8 TH ROW HAS A TICK NEXT TO IT….JIM MENTIONED SOME WHERE ABOUT THE ? BEING LINED UP CORRECTLY WITH POSITION 8,10 
+ 474753 112973 0 0 
+ BELOW IS A COPY OF A PHOTO S ANBORNE SUBMITTED ONLINE…. 
+ IT IS THE SOLUTION TO K1 AND K2…….. 
+ AT FIR ST I COULD NOT SEE WHAT THE CLUES WHERE UNTIL I LOOKED VERY CLOSELY…. 
+ YOU WILL NOTICE THAT THERE ARE TWO LETTER E………IN LOWER CASE …NOT FOUND ANY WHERE ELSE……SO THESE ARE UNIQUE… 
+ POSITIONS (1,8) 
+ AND (8,26)…… 
+ THESE DO NOT REALLY MEAN ANY THING UNTIL YOU SPOT WHY THEY ARE IMPORTANT….. 
+ IN THE FIRST SMALL LETTER E POSITION(1,8) THE VERTICAL LETTERS ARE S E L.. 
+ IN THE SECOND SMALL LETTER E POSITION (8,26) THE VERTICAL LETTERS ARE …….E C Q 
+ THEN LOOKING AT THE ENTIRE SOLUTION…… I NOTICED THAT THES LETTER SEQUENCES ARE REVERSED AND HORIZIONTAL….. 
+ SO VERTICAL S E L BECOMES HORIZIONTAL AND REVERSED….. L E S BEGINNING AT POSITION 1,12, 1,13 AND 1,14 
+ SO VERTICAL E C Q BECOMES HORIZIONTAL AND REVERSED T0 Q C E 6,20 6,21 6,22 
+ in addition l if you have noticed that the first SEL letters are aligned with the plaintext solution 
+ and the QCE is aligned with the code . 
+ 
+ LOOK AT THE ARROWS THAT ARE ON THE PAGE - ROW 1 CODE ROW 2 CODE 
+ LOOK AT THE VERY FAINT DOTS ABOVE SOME LETTERS 
+ PALIMPCEST IS SPELT INCORRECTLY 
+ SOME LETTERS ARE DARKER OR ENHANSED MORE THAT OTHERS 
+ THERE ARE TICK MARKS BELOW SOME COLUMNS 
+ WE ONLY RECEIVED THE FIRST 8 ROWS…… 
+ VERTICAL MARK ABOVE PPLAINTEXT = INVISIABLE 
+ NLD = LAST COLUMN OF K1 SOLUTIION IS NOT FOLLOWING SEQUENCE AND ATTACHED TO ROW 2..WHY 
+ ROW 5 HAS CSI ATTACHED TO LEFT HAND SIDE OF MATRIX.. 
+ 
+ C S I = shortened for Crime Scene I nvestigation= look for forensic material (5,32) 
+ 
+ CLUES I FOUND IN SANBORN SOLOUTION TO K1 AND K2- LOWER CASE E 
+ LETTER EXCHANGES = ARE CHANGED CELL COLOUR FOR EASIER IDENTIFICATION 
+ Q=L 2,26 O=U 6,22 
+ INTERSTING CO ORDINATE POSITIONS..THERE ARE A REVERSE OF EACH OTHER 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ P 
+ A 
+ L 
+ I 
+ M 
+ P 
+ C 
+ E 
+ S 
+ T 
+ 
+ 3 
+ 1 
+ 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 
+ B 
+ E 
+ T 
+ W 
+ E 
+ E 
+ N 
+ S 
+ U 
+ B 
+ T 
+ L 
+ E 
+ S 
+ H 
+ A 
+ D 
+ I 
+ N 
+ G 
+ A 
+ N 
+ D 
+ T 
+ H 
+ E 
+ A 
+ B 
+ S 
+ E 
+ N 
+ 
+ 
+ 
+ P 
+ A 
+ L 
+ I 
+ M 
+ P 
+ S 
+ E 
+ S 
+ T 
+ P 
+ A 
+ L 
+ I 
+ M 
+ P 
+ S 
+ E 
+ S 
+ T 
+ P 
+ A 
+ L 
+ I 
+ M 
+ P 
+ S 
+ E 
+ S 
+ T 
+ P 
+ 
+ 
+ 
+ E 
+ M 
+ U 
+ F 
+ P 
+ H 
+ Z 
+ L 
+ R 
+ F 
+ A 
+ X 
+ Y 
+ U 
+ S 
+ D 
+ J 
+ K 
+ Z 
+ L 
+ D 
+ K 
+ R 
+ N 
+ S 
+ H 
+ G 
+ N 
+ F 
+ I 
+ V 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 
+ 
+ C 
+ E 
+ O 
+ F 
+ L 
+ I 
+ G 
+ H 
+ T 
+ L 
+ I 
+ E 
+ S 
+ T 
+ H 
+ E 
+ N 
+ A 
+ U 
+ N 
+ C 
+ E 
+ O 
+ F 
+ I 
+ Q 
+ L 
+ U 
+ S 
+ I 
+ O 
+ N 
+ 
+ 
+ A 
+ L 
+ I 
+ M 
+ P 
+ S 
+ E 
+ S 
+ T 
+ P 
+ A 
+ L 
+ I 
+ M 
+ P 
+ S 
+ E 
+ S 
+ T 
+ P 
+ A 
+ L 
+ I 
+ M 
+ P 
+ C 
+ E 
+ S 
+ T 
+ P 
+ A 
+ L 
+ 
+ 
+ J 
+ Y 
+ Q 
+ T 
+ Q 
+ U 
+ X 
+ Q 
+ B 
+ Q 
+ V 
+ Y 
+ U 
+ V 
+ L 
+ L 
+ T 
+ R 
+ E 
+ V 
+ J 
+ Y 
+ Q 
+ T 
+ M 
+ K 
+ Y 
+ R 
+ D 
+ M 
+ F 
+ D 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ 
+ 2 
+ 1 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 
+ 
+ I 
+ T 
+ W 
+ A 
+ S 
+ T 
+ O 
+ T 
+ A 
+ L 
+ L 
+ Y 
+ I 
+ N 
+ V 
+ I 
+ S 
+ I 
+ B 
+ L 
+ E 
+ H 
+ O 
+ W 
+ S 
+ T 
+ H 
+ A 
+ T 
+ P 
+ O 
+ 
+ 
+ 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ 
+ 
+ 
+ V 
+ F 
+ P 
+ J 
+ U 
+ D 
+ E 
+ E 
+ H 
+ Z 
+ W 
+ E 
+ T 
+ Z 
+ Y 
+ V 
+ G 
+ W 
+ H 
+ K 
+ K 
+ Q 
+ E 
+ T 
+ G 
+ F 
+ Q 
+ J 
+ N 
+ C 
+ E 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4 
+ 
+ S 
+ S 
+ I 
+ B 
+ L 
+ E 
+ ? 
+ T 
+ H 
+ E 
+ Y 
+ U 
+ S 
+ E 
+ D 
+ T 
+ H 
+ E 
+ E 
+ A 
+ R 
+ T 
+ H 
+ S 
+ M 
+ A 
+ G 
+ N 
+ E 
+ T 
+ I 
+ 
+ 
+ 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ ? 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ 
+ 
+ 
+ G 
+ G 
+ W 
+ H 
+ K 
+ K 
+ ? 
+ D 
+ Q 
+ M 
+ C 
+ P 
+ F 
+ Q 
+ Z 
+ D 
+ Q 
+ M 
+ M 
+ I 
+ A 
+ G 
+ P 
+ F 
+ X 
+ H 
+ Q 
+ R 
+ L 
+ G 
+ T 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5 
+ C 
+ F 
+ I 
+ E 
+ L 
+ D 
+ X 
+ T 
+ H 
+ E 
+ I 
+ N 
+ F 
+ O 
+ R 
+ M 
+ A 
+ T 
+ I 
+ O 
+ N 
+ W 
+ A 
+ S 
+ G 
+ A 
+ T 
+ H 
+ E 
+ R 
+ E 
+ D 
+ 
+ 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ 
+ 
+ I 
+ M 
+ V 
+ M 
+ Z 
+ J 
+ A 
+ N 
+ Q 
+ L 
+ V 
+ K 
+ Q 
+ E 
+ D 
+ A 
+ G 
+ D 
+ V 
+ F 
+ R 
+ P 
+ J 
+ U 
+ N 
+ G 
+ E 
+ U 
+ N 
+ A 
+ Q 
+ Z 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 6 
+ 
+ A 
+ N 
+ D 
+ T 
+ R 
+ A 
+ N 
+ S 
+ M 
+ I 
+ T 
+ T 
+ E 
+ D 
+ U 
+ N 
+ D 
+ E 
+ R 
+ G 
+ R 
+ O 
+ U 
+ N 
+ D 
+ T 
+ O 
+ A 
+ N 
+ U 
+ N 
+ 
+ 
+ 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ 
+ 
+ 
+ G 
+ Z 
+ L 
+ E 
+ C 
+ G 
+ Y 
+ U 
+ X 
+ U 
+ E 
+ E 
+ N 
+ J 
+ T 
+ B 
+ J 
+ L 
+ B 
+ Q 
+ C 
+ E 
+ T 
+ B 
+ J 
+ O 
+ F 
+ H 
+ R 
+ R 
+ Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 7 
+ 
+ K 
+ N 
+ O 
+ W 
+ N 
+ L 
+ O 
+ C 
+ A 
+ T 
+ I 
+ O 
+ N 
+ X 
+ D 
+ O 
+ E 
+ S 
+ L 
+ A 
+ N 
+ G 
+ L 
+ E 
+ Y 
+ K 
+ N 
+ O 
+ W 
+ A 
+ B 
+ 
+ 
+ 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ 
+ 
+ 
+ I 
+ Z 
+ E 
+ T 
+ K 
+ Z 
+ E 
+ M 
+ V 
+ D 
+ U 
+ F 
+ K 
+ S 
+ J 
+ H 
+ K 
+ F 
+ W 
+ H 
+ K 
+ U 
+ W 
+ Q 
+ L 
+ S 
+ Z 
+ F 
+ T 
+ I 
+ H 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 8 
+ 
+ O 
+ U 
+ T 
+ T 
+ H 
+ I 
+ S 
+ ? 
+ T 
+ H 
+ E 
+ Y 
+ S 
+ H 
+ O 
+ U 
+ L 
+ D 
+ I 
+ T 
+ S 
+ B 
+ U 
+ R 
+ I 
+ E 
+ D 
+ O 
+ U 
+ T 
+ T 
+ 
+ 
+ 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ ? 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ 
+ 
+ 
+ H 
+ D 
+ D 
+ D 
+ U 
+ V 
+ H 
+ ? 
+ D 
+ W 
+ K 
+ B 
+ F 
+ U 
+ F 
+ P 
+ W 
+ N 
+ T 
+ D 
+ F 
+ I 
+ Y 
+ C 
+ U 
+ Q 
+ Z 
+ E 
+ R 
+ E 
+ E 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 9 
+ 
+ H 
+ E 
+ R 
+ E 
+ S 
+ O 
+ M 
+ E 
+ W 
+ H 
+ E 
+ R 
+ E 
+ X 
+ W 
+ H 
+ O 
+ K 
+ N 
+ O 
+ W 
+ S 
+ T 
+ H 
+ E 
+ E 
+ X 
+ A 
+ C 
+ T 
+ L 
+ 
+ 
+ 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ 
+ 
+ 
+ V 
+ L 
+ D 
+ K 
+ F 
+ E 
+ Z 
+ M 
+ O 
+ Q 
+ Q 
+ J 
+ L 
+ T 
+ T 
+ U 
+ G 
+ S 
+ Y 
+ Q 
+ P 
+ F 
+ E 
+ U 
+ N 
+ L 
+ A 
+ V 
+ I 
+ D 
+ X 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 10 
+ 
+ O 
+ C 
+ A 
+ T 
+ I 
+ O 
+ N 
+ ? 
+ O 
+ N 
+ L 
+ Y 
+ W 
+ W 
+ T 
+ H 
+ I 
+ S 
+ W 
+ A 
+ S 
+ H 
+ I 
+ S 
+ L 
+ A 
+ S 
+ T 
+ M 
+ E 
+ S 
+ 
+ 
+ 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ ? 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ 
+ 
+ 
+ F 
+ L 
+ G 
+ G 
+ T 
+ E 
+ Z 
+ ? 
+ F 
+ K 
+ Z 
+ B 
+ S 
+ F 
+ D 
+ Q 
+ V 
+ G 
+ O 
+ G 
+ I 
+ P 
+ U 
+ F 
+ X 
+ H 
+ H 
+ D 
+ R 
+ K 
+ F 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 11 
+ 
+ S 
+ A 
+ G 
+ E 
+ X 
+ T 
+ H 
+ I 
+ R 
+ T 
+ Y 
+ E 
+ I 
+ G 
+ H 
+ T 
+ D 
+ E 
+ G 
+ R 
+ E 
+ E 
+ S 
+ F 
+ I 
+ F 
+ T 
+ Y 
+ S 
+ E 
+ V 
+ 
+ 
+ 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ 
+ 
+ 
+ F 
+ H 
+ Q 
+ N 
+ T 
+ G 
+ P 
+ U 
+ A 
+ E 
+ C 
+ N 
+ U 
+ V 
+ P 
+ D 
+ J 
+ M 
+ Q 
+ C 
+ L 
+ Q 
+ U 
+ M 
+ U 
+ N 
+ E 
+ D 
+ F 
+ Q 
+ E 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 12 
+ 
+ E 
+ N 
+ M 
+ I 
+ N 
+ U 
+ T 
+ E 
+ S 
+ S 
+ I 
+ X 
+ P 
+ O 
+ I 
+ N 
+ T 
+ F 
+ I 
+ V 
+ E 
+ S 
+ E 
+ C 
+ O 
+ N 
+ D 
+ S 
+ N 
+ O 
+ R 
+ 
+ 
+ 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ 
+ 
+ 
+ L 
+ Z 
+ Z 
+ V 
+ R 
+ R 
+ G 
+ K 
+ F 
+ F 
+ V 
+ O 
+ E 
+ E 
+ X 
+ B 
+ D 
+ M 
+ V 
+ P 
+ N 
+ F 
+ Q 
+ X 
+ E 
+ Z 
+ L 
+ G 
+ R 
+ E 
+ D 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 13 
+ 
+ T 
+ H 
+ S 
+ E 
+ V 
+ E 
+ N 
+ T 
+ Y 
+ S 
+ E 
+ V 
+ E 
+ N 
+ D 
+ E 
+ G 
+ R 
+ E 
+ E 
+ S 
+ E 
+ I 
+ G 
+ H 
+ T 
+ M 
+ I 
+ N 
+ U 
+ T 
+ 
+ 
+ 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ 
+ 
+ 
+ N 
+ Q 
+ F 
+ M 
+ P 
+ N 
+ Z 
+ G 
+ L 
+ F 
+ L 
+ P 
+ M 
+ R 
+ J 
+ Q 
+ Y 
+ A 
+ L 
+ M 
+ G 
+ N 
+ U 
+ V 
+ P 
+ D 
+ X 
+ V 
+ K 
+ P 
+ D 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 14 
+ 
+ E 
+ S 
+ F 
+ O 
+ R 
+ T 
+ Y 
+ F 
+ O 
+ U 
+ R 
+ S 
+ E 
+ C 
+ O 
+ N 
+ D 
+ S 
+ W 
+ E 
+ S 
+ T 
+ X 
+ L 
+ A 
+ Y 
+ E 
+ R 
+ T 
+ W 
+ O 
+ 
+ 
+ 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ S 
+ C 
+ I 
+ S 
+ S 
+ A 
+ A 
+ B 
+ 
+ 
+ 
+ Q 
+ U 
+ M 
+ E 
+ B 
+ E 
+ D 
+ M 
+ H 
+ D 
+ A 
+ F 
+ M 
+ J 
+ G 
+ Z 
+ N 
+ U 
+ P 
+ L 
+ G 
+ E 
+ W 
+ J 
+ L 
+ L 
+ A 
+ E 
+ T 
+ G 
+ 
+ 
+ 
+## word/footnotes.xml
+ 
+ 
+ 
+ 

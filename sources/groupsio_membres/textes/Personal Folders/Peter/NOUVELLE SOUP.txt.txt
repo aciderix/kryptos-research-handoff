@@ -1,0 +1,39 @@
+Compass rose : N E S W
+
+K1 keyword : PALIMPSEST
+K2 keyword : ABSCISSA
+
+Anagrams to PS ITS AS SIMPLE AS ABC
+
+
+K2 :  substitute the ?s with X and they decode to MIJ
+      (encodes to TAS)
+
+
+NESW MIJ ABC anagrams to JIMS NEW ABC
+
+(ABC NEWS JIM)
+
+
+K2 : W J LLAETG
+     I D BYROWS
+
+
+     W Z LLAETG
+     I N BYROWS
+
+-> JZ
+
+
+K3 : Missing letters : JZ
+
+
+Possible alphabet : JIMSNEWABC........Z
+Possible mask     : JZ <-> ZJ
+
+
+November 7 2017 00:36 CET
+
+
+
+TWO

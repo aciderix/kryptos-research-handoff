@@ -1,0 +1,63 @@
+[[page 1]]
+ 
+M3  The second matrix of the Matrix System 
+ 
+As we already said in the M3 message, we will build the ciphertext matrix, using the same 
+criteria as for the original matrix. We will number the columns from 1 to 31, and the rows from 
+1 to 14, from N to S for both NK and SK. If in the original matrix in K2 we leave the C of 
+MAGNETIC outside, in the matrix of the ciphertext we will leave out the I that results from its 
+encoding. We will do the same with what we will leave out of K1, whatever our choice, we will 
+leave out the corresponding characters that result from their encoding. The second matrix is 
+the following: 
+ 
+ 
+ 
+What new things can we see in the ciphertext matrix we have built? In addition to the big clue 
+in plain sight that we discussed in the M1 message: OHNNY NASH, I SEE, LINE BLUE, some 
+more words appear: TAIL, BEEF, DART, ENDS, MATE, POET, PIER, TREE… just random? And also 
+two queens with mistakes: XUEEN and QHEEN. The second QHEEN is formed with the final Q 
+of K3. If it's deliberate, some QUEEN is involved in Kryptos. But there are 3 words that seem 
+relevant to me: In column 16, row 3 from N to S in SK: STONE. And aligned, one with another, 
+in column 14, rows 9 and 10 from W to E in SK the already known ones: SITE and HARD. A total 
+of 13 characters... just random? When I had the pleasure of meeting Elonka in December 2005, 
+I told her that we could get ABSCISSA from Morse Code K0 (message #3952 and following) and 
+40% from PALIMPSEST and K1 by testing PALINDROME as key (message #3967). Now when I 
+see STONE, SITE and HARD the first phrase that comes to my mind is: BETWEEN A ROCK AND A 
+HARD PLACE. If we try with this phrase as a key in Kryptos we get 70% of PALIMPSEST 
+
+[[page 2]]
+(PALIMPS), because BETWEEN is the first word of the plain text of K1. Is this enough for the 
+operative in the field to recognize PALIMPSEST? 
+ 
+From her interview with Ed in Feb 2011, Elonka tells us: He talked about how it was a code that 
+could be solved without giving away who’d solve it. That clue was not understood. Perhaps it 
+would be better to have expressed: without leaving aside who’d solve it. Ed began to talk, 
+repeatedly, that the message is intended for an operative in the field under duress (with a gun 
+to his head), that is why there are duress ciphers, and that they are difficult to design. He has 
+insisted a lot on this, so it must be important. Jim and Ed have already given us at least two 
+examples of duress ciphers: with the same ciphertext and different keys we get different 
+plaintext: "ID BY ROWS" / "LAYER TWO" in K3 and "T THE KEY e TRANS" / "TWENTY StCONDS” 
+in Pre-Kryptos. In the first 8 character example there are no errors, it is perfect. As we'll see 
+later, ID BY ROWS is as important clue in K4 as LAYER TWO. In the second example of 13 
+characters there is only one error in each message. 
+ 
+The phrase BETWEEN A ROCK AND A HARD PLACE also conveys the idea of being under duress. 
+The operative in the field must choose between delivering the message to his captor and 
+having his head shot. And also if the TEE in column 15 row 8 from W to E and the E of STONE 
+from S to N indicates your position (T IS YOUR POSITION), then you are literally BETWEEN A 
+STONE AND A HARD SITE, that is, BETWEEN A ROCK AND A HARD PLACE and under duress, 
+such as the operative in the field. I think this is the clue in Kryptos, of what Ed has told us so 
+many times: the message is intended for an operative in the field under duress, with a gun to 
+his head. In Spanish the expression is: ENTRE LA ESPADA Y LA PARED (BETWEEN THE SWORD 
+AND THE WALL) Instead of a gun, it is a sword. What can the operative do to save his life and 
+not deliver the message? Well, if it is a duress cipher, he delivers the key 1 and the message 1 
+(LAYER ONE). Key 2 and message 2 remain hidden (LAYER TWO). 
+ 
+This matrix with the ciphertext does not seem to add much new information but, as we will 
+see later, it is as important as the original, to build the matrix system that Jim talks about, walk 
+the trail of doorways that he has promised us and enjoy new moments of discovery linked to 
+K4 and K5. 
+ 
+There is much, much more! 
+ 
+Jose Luis 

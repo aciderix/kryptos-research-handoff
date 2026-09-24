@@ -1,0 +1,391 @@
+Administrator                                                                                                B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+0;[Red]0
+0.00;[Red]0.00
+0.00_);[Red]\(0.00\)
+0_);[Red]\(0\)
+"Yes";"Yes";"No"
+"True";"True";"False"
+"On";"On";"Off"
+x""@ @ 
+Probable Word
+Palimpsest Vigenere (L at top)
+Test Word
+verdigris
+# OF LETTERS IN TABLEAU
+- VIGEN
+RE SIDE
+OBKR..KCAR = K4
+FIRST OCCURENCES
+RACK..RKBO = K4 REVERSED
+38576.5-77844
+encipher left-top-in (Vigen
+decipher left-in-top (Vigen
+Step1:
+Step2:
+Enter Cryptogram into Row 8.
+SECRET
+FIELD
+EXAMPLES:
+APEX
+GAMES
+Step 3a:
+Step 3b:C
+Read down columns in rows 34 and following to find key letters (or)&
+Enter Keyword into Row 6 (length <=11)b
+Find repeats in rows 45-50 by finding a column of blue positive numbers or a number greater than 7Q
+ or in row 51 a 10. In rows 53-80 look for consecutive numbers in the same color.
+Vigen
+re Side "Palimpsested" 
+left-in-top by consecutive pairs#
+left-in-bottom by consecutive pairs
+letters form top table
+letters from bottom table
+Tan/Light Yellow
+Rose/Tan 
+face
+Cipher Key:
+ptosabcdefghijlmnquvwxzkry
+Alphabet Key: 
+YPTOSABCDEFGHIJLMNQUVWXZKR
+Plaintext Key:
+cbazyxwvutsrqponmlkjihgfed
+For Elonka's Vigen
+re Cipher:
+Coming Soon.=
+Bryan D. Levenson K5-decipher-trigram-twist.xls April 7, 2007
+MbP?_
+SDDM
+hp LaserJet 1012
+,@D(
+,@Au
+,@D-
+,@Au
+<@D,
+<@Au
+<@D*
+<@Au
+,@D,
+,@Au
+,@D-
+,@Au
+1Las&
+MbP?_
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+>=aAZ
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+@P@(
+@Q@(
+@R@(
+@S@(
+@T@(
+@U@(
+@V@(
+@W@(
+@X@(
+0M]v
+MbP?_
+SDDM
+hp LaserJet 1012
+MbP?_
+Administrator
+Microsoft Excel
+Probable Word
+Palimpsest Vigenere (L at top)
+Test Word
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1
+Arial1
+Arial1,
+Lucida Console1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1
+Arial1
+Arial1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console
+-2]\ #,##0.00_);[Red]\([$
+-2]\ #,##0.00\)
+HCZLX...CJ = DISATaGfOO
+IB ordered alphabetically through Kryptos LJ
+HGNF
+iqtno
+qg = DISATaGfOO
+IB ordered alphabetically through Kryptos ngh
+ASOCF
+ST = HCZLX
+CJ ordered by most letters through Std. Dist. #3 (from Simon Singh)
+iqtno
+OBKR..KCAR = K4 through binary transposition (A=00000,
+,Z=11010,a=11011,
+,f=11111)
+hp LaserJet 1012
+*UU  PT  Vf!!PT!!Vf""PT""Vf##PT
+aaaaaa
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+aaaaaa
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+eeeaaaaaa
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+eeeaaaaaa
+ccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+ccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+hhhhhhhhhhhhhhhdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+!UiE
+ddddddddddi
+tttttttttt
+ttttttttt
+tttttttt
+ttttttt
+tttttt
+ttttt
+(g{{h
+tttt
+)f{{{h
+$###
+$######
+*---
+6666 
+( !8
+;;;;; 
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+3##7
+;;;;;88"
+;;;;;88"
+5##8
+5$CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCDDDDDDD
+;;;;;88"
+6#3)
+6$3.
+6%3$
+6&3 
+6(3/
+6)3,
+6*3(
+6+30
+6,30
+6-3+
+6/3*
+6030
+613+
+623)
+643(
+653.
+6631
+673(
+6930
+6:3*
+6;3*
+6<32
+6=3.
+6>33
+6?3 
+6@3)
+6A3$
+6B34
+6D31
+6E3+
+6F3$
+6G32
+6H3 
+6I3+
+6J3)
+6K3(
+6M3!
+6N3$
+6O3&
+6S33
+6U3(
+6W3$
+6X3*
+6Z3*
+6[30
+6\3%
+6]32
+6^3'
+6`3%
+6a32
+6c3'
+6d33
+6f3!
+6g3&
+6h3!
+6i3 
+6j3&
+6k3)
+6l33
+6m3*
+6n31
+6o3*
+6p3+
+6q3!
+6r3(
+6s3$
+6t3)
+6x3$
+6y3*
+6{32
+6|3)
+6}3*
+6~3*
+EEEEE88"
+7#F9
+7$CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+EEEEE88"
+EEEEE88"
+9#F:
+9$CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+8GEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE88"
+BBBBBBI
+;##<
+;$CCCJJJJJCCCCCCCCCCC
+=$AAAAAAAAAAAAA++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++A
+H"O>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OO
+I"OPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOO
+J"O>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ROO
+K"OSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSOO
+L"VTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTOO
+M"OTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTOO
+N"OUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUOO
+O"OWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOO
+P"OWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOO
+Q"QOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+R"O>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OO
+S"OPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOO
+T"O>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ROO
+U"OSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSOO
+V"VTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTXOO
+W"OTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTYOO
+X"OUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUOO
+Y"QWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWZOO
+Z"OWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWZOO
+["OUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUOO
+\"U[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[YUU
+]"O[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[YOO
+^!L=
+^"\OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOUU
+_"O\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\OO
+`"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+a"O\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\UOO
+b"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO]^OO
+c#OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO]^
+d#________________________________________________________________________________________________Y
+e#OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+#O"!
+hp LaserJet 1012
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

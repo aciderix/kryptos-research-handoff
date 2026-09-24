@@ -1,0 +1,22 @@
+[[page 1]]
+An interesting, albeit incorrect, solution to K4…
+Divide the text into 7 rows of 16/13 columns
+0 O B K R U O X O G H U L B S O L
+1 I F B B W F L R V Q Q P R
+2 N G K S S O T W T Q S J Q
+3 S S E K Z Z W A T J K L U D I A
+4 W I N F B N Y P V T T M Z
+5 F P K W G D K Z X T J C D
+6 I G K U H U A U E K C A R
+Can you see anything?
+0 O B K R U O X O G H U L B S O L
+3 S S E K Z Z W A T J K L U D I A
+2 N G K S S O T W T Q S J Q
+6 I G K U H U A U E K C A R
+1 I F B B W F L R V Q Q P R
+5 F P K W G D K Z X T J C D
+4 W I N F B N Y P V T T M Z
+Before anyone gets all jazzed-up about this, I should tell you that it most 
+certainly is NOT the correct answer.  I simply thought it was interesting and 
+decided to pass it along for that reason.
+DEX1879@AOL.COM / DEX1879@YAHOO.COM
