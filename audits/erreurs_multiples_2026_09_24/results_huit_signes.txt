@@ -1,0 +1,7 @@
+chiffré 66–73 : VTTMZFPK ; clair : LINCLOCK
+clé Vigenère  alphabet A–Z      : KLGKORNA
+clé Beaufort  alphabet A–Z      : GBGOKTRU
+clé variante  alphabet A–Z      : QPUQMJNA
+clé Vigenère  alphabet KRYPTOS  : OIECBAQK
+clé Beaufort  alphabet KRYPTOS  : GNWRJLFK
+clé variante  alphabet KRYPTOS  : UEILMNSK
