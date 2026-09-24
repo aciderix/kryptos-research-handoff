@@ -1,0 +1,10 @@
+K4 (6, 5, True, 9)
+famille                                doubl  P(D7>=5) P(chaîne 3) P(C7>=9) P(D7>=5 & C7>=9)
+uniforme                                3.68  0.0004   0.0041     0.0083   0.00000
+Vigenère période 7                      3.71  0.0019   0.0067     0.1425   0.00010
+autoclé clair écart 7 VIG AZ            3.87  0.0013   0.0079     0.1689   0.00065
+autoclé clair écart 7 VIG rand          3.76  0.0014   0.0084     0.1643   0.00030
+autoclé clair écart 7 BEAU AZ           4.01  0.0012   0.0053     0.0119   0.00000
+autoclé clair écart 7 BEAU rand         4.11  0.0021   0.0111     0.0118   0.00005
+autoclé clair écart 7 VARB AZ           3.99  0.0008   0.0061     0.0118   0.00000
+autoclé clair écart 7 VARB rand         4.10  0.0019   0.0106     0.0114   0.00000

@@ -1,0 +1,191 @@
+contrôle positif (chiffré, L=7, σ, VIG) : 1 (attendu 1)
+clair clé=σ (même alphabet) VIG L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 14/40
+clair clé=σ (même alphabet) VIG L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 22/40
+clair clé=σ (même alphabet) VIG L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 38/40
+clair clé=σ (même alphabet) VIG L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=σ (même alphabet) VIG L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=σ (même alphabet) VIG L=41 (11 contraintes) : K4 COMPATIBLE ; témoins 16/40
+clair clé=σ (même alphabet) VIG L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 18/40
+clair clé=σ (même alphabet) VIG L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 22/40
+clair clé=σ (même alphabet) VIG L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 23/40
+clair clé=σ (même alphabet) VIG L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=σ (même alphabet) BEAU L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 28/40
+clair clé=σ (même alphabet) BEAU L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 33/40
+clair clé=σ (même alphabet) BEAU L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 32/40
+clair clé=σ (même alphabet) BEAU L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 33/40
+clair clé=σ (même alphabet) BEAU L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 13/40
+clair clé=σ (même alphabet) BEAU L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 24/40
+clair clé=σ (même alphabet) BEAU L=40 (11 contraintes) : K4 COMPATIBLE ; témoins 20/40
+clair clé=σ (même alphabet) BEAU L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=σ (même alphabet) BEAU L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 37/40
+clair clé=σ (même alphabet) BEAU L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 32/40
+clair clé=σ (même alphabet) VARB L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 19/40
+clair clé=σ (même alphabet) VARB L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=σ (même alphabet) VARB L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=σ (même alphabet) VARB L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=σ (même alphabet) VARB L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 24/40
+clair clé=σ (même alphabet) VARB L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 14/40
+clair clé=σ (même alphabet) VARB L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 34/40
+clair clé=σ (même alphabet) VARB L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 34/40
+clair clé=A-Z VIG L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 12/40
+clair clé=A-Z VIG L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 16/40
+clair clé=A-Z VIG L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 26/40
+clair clé=A-Z VIG L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 28/40
+clair clé=A-Z VIG L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=A-Z BEAU L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 23/40
+clair clé=A-Z BEAU L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 27/40
+clair clé=A-Z BEAU L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 37/40
+clair clé=A-Z BEAU L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=A-Z BEAU L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=A-Z BEAU L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 12/40
+clair clé=A-Z BEAU L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 24/40
+clair clé=A-Z BEAU L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 23/40
+clair clé=A-Z BEAU L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=A-Z BEAU L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=A-Z VARB L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 13/40
+clair clé=A-Z VARB L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 17/40
+clair clé=A-Z VARB L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 21/40
+clair clé=A-Z VARB L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 26/40
+clair clé=A-Z VARB L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=KRYPTOS VIG L=41 (11 contraintes) : K4 COMPATIBLE ; témoins 0/40
+clair clé=KRYPTOS BEAU L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 26/40
+clair clé=KRYPTOS BEAU L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=KRYPTOS BEAU L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 35/40
+clair clé=KRYPTOS BEAU L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=KRYPTOS BEAU L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 21/40
+clair clé=KRYPTOS BEAU L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 31/40
+clair clé=KRYPTOS BEAU L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 26/40
+clair clé=KRYPTOS VARB L=41 (11 contraintes) : K4 COMPATIBLE ; témoins 0/40
+clair clé=A-Z inv VIG L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 15/40
+clair clé=A-Z inv VIG L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=A-Z inv VIG L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 24/40
+clair clé=A-Z inv VIG L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 15/40
+clair clé=A-Z inv VIG L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 19/40
+clair clé=A-Z inv VIG L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 21/40
+clair clé=A-Z inv VIG L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 26/40
+clair clé=A-Z inv VIG L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 24/40
+clair clé=A-Z inv BEAU L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=A-Z inv BEAU L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=A-Z inv BEAU L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 28/40
+clair clé=A-Z inv BEAU L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 36/40
+clair clé=A-Z inv BEAU L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=A-Z inv BEAU L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 28/40
+clair clé=A-Z inv BEAU L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 23/40
+clair clé=A-Z inv BEAU L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 31/40
+clair clé=A-Z inv BEAU L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 31/40
+clair clé=A-Z inv VARB L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 18/40
+clair clé=A-Z inv VARB L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 26/40
+clair clé=A-Z inv VARB L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 24/40
+clair clé=A-Z inv VARB L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 13/40
+clair clé=A-Z inv VARB L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 7/40
+clair clé=A-Z inv VARB L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 19/40
+clair clé=A-Z inv VARB L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=A-Z inv VARB L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=KRYPTOS inv VIG L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 15/40
+clair clé=KRYPTOS inv VIG L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 20/40
+clair clé=KRYPTOS inv VIG L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=KRYPTOS inv VIG L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 12/40
+clair clé=KRYPTOS inv VIG L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 18/40
+clair clé=KRYPTOS inv VIG L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 17/40
+clair clé=KRYPTOS inv VIG L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 28/40
+clair clé=KRYPTOS inv BEAU L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 21/40
+clair clé=KRYPTOS inv BEAU L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 32/40
+clair clé=KRYPTOS inv BEAU L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 29/40
+clair clé=KRYPTOS inv BEAU L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 33/40
+clair clé=KRYPTOS inv BEAU L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 28/40
+clair clé=KRYPTOS inv BEAU L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=KRYPTOS inv BEAU L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=KRYPTOS inv BEAU L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 30/40
+clair clé=KRYPTOS inv BEAU L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 25/40
+clair clé=KRYPTOS inv BEAU L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 31/40
+clair clé=KRYPTOS inv BEAU L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 32/40
+clair clé=KRYPTOS inv VARB L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 18/40
+clair clé=KRYPTOS inv VARB L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 21/40
+clair clé=KRYPTOS inv VARB L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 27/40
+clair clé=KRYPTOS inv VARB L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 8/40
+clair clé=KRYPTOS inv VARB L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 18/40
+clair clé=KRYPTOS inv VARB L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 16/40
+clair clé=KRYPTOS inv VARB L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 30/40
+chiffré clé=σ (même alphabet) VIG L=41 (13 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=σ (même alphabet) VIG L=43 (13 contraintes) : K4 COMPATIBLE ; témoins 9/40
+chiffré clé=σ (même alphabet) VIG L=47 (13 contraintes) : K4 COMPATIBLE ; témoins 5/40
+chiffré clé=σ (même alphabet) VIG L=52 (13 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=σ (même alphabet) VIG L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 14/40
+chiffré clé=σ (même alphabet) VIG L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 31/40
+chiffré clé=σ (même alphabet) VIG L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 32/40
+chiffré clé=σ (même alphabet) BEAU L=30 (17 contraintes) : K4 COMPATIBLE ; témoins 0/40
+chiffré clé=σ (même alphabet) BEAU L=33 (14 contraintes) : K4 COMPATIBLE ; témoins 6/40
+chiffré clé=σ (même alphabet) BEAU L=36 (13 contraintes) : K4 COMPATIBLE ; témoins 6/40
+chiffré clé=σ (même alphabet) BEAU L=37 (13 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=σ (même alphabet) BEAU L=41 (13 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=σ (même alphabet) BEAU L=43 (13 contraintes) : K4 COMPATIBLE ; témoins 10/40
+chiffré clé=σ (même alphabet) BEAU L=44 (13 contraintes) : K4 COMPATIBLE ; témoins 8/40
+chiffré clé=σ (même alphabet) BEAU L=51 (13 contraintes) : K4 COMPATIBLE ; témoins 9/40
+chiffré clé=σ (même alphabet) BEAU L=57 (13 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=σ (même alphabet) BEAU L=58 (13 contraintes) : K4 COMPATIBLE ; témoins 9/40
+chiffré clé=σ (même alphabet) BEAU L=60 (13 contraintes) : K4 COMPATIBLE ; témoins 6/40
+chiffré clé=σ (même alphabet) BEAU L=61 (13 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=σ (même alphabet) BEAU L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 17/40
+chiffré clé=σ (même alphabet) BEAU L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 17/40
+chiffré clé=σ (même alphabet) BEAU L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 32/40
+chiffré clé=σ (même alphabet) BEAU L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 30/40
+chiffré clé=σ (même alphabet) VARB L=37 (13 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=σ (même alphabet) VARB L=48 (13 contraintes) : K4 COMPATIBLE ; témoins 5/40
+chiffré clé=σ (même alphabet) VARB L=50 (13 contraintes) : K4 COMPATIBLE ; témoins 3/40
+chiffré clé=σ (même alphabet) VARB L=58 (13 contraintes) : K4 COMPATIBLE ; témoins 3/40
+chiffré clé=σ (même alphabet) VARB L=60 (13 contraintes) : K4 COMPATIBLE ; témoins 8/40
+chiffré clé=σ (même alphabet) VARB L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 19/40
+chiffré clé=σ (même alphabet) VARB L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 20/40
+chiffré clé=σ (même alphabet) VARB L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 32/40
+chiffré clé=σ (même alphabet) VARB L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 35/40
+chiffré clé=A-Z BEAU L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 16/40
+chiffré clé=A-Z BEAU L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 18/40
+chiffré clé=A-Z BEAU L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 34/40
+chiffré clé=A-Z BEAU L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 35/40
+chiffré clé=A-Z BEAU L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 30/40
+chiffré clé=KRYPTOS BEAU L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 11/40
+chiffré clé=KRYPTOS BEAU L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 18/40
+chiffré clé=KRYPTOS BEAU L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 25/40
+chiffré clé=KRYPTOS BEAU L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 28/40
+chiffré clé=KRYPTOS BEAU L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 28/40
+chiffré clé=A-Z inv VIG L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 9/40
+chiffré clé=A-Z inv VIG L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 12/40
+chiffré clé=A-Z inv VIG L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 13/40
+chiffré clé=A-Z inv VIG L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 22/40
+chiffré clé=A-Z inv VIG L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 24/40
+chiffré clé=A-Z inv BEAU L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 18/40
+chiffré clé=A-Z inv BEAU L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 18/40
+chiffré clé=A-Z inv BEAU L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 28/40
+chiffré clé=A-Z inv BEAU L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 27/40
+chiffré clé=A-Z inv BEAU L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 33/40
+chiffré clé=A-Z inv VARB L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 5/40
+chiffré clé=A-Z inv VARB L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 8/40
+chiffré clé=A-Z inv VARB L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 15/40
+chiffré clé=A-Z inv VARB L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 19/40
+chiffré clé=A-Z inv VARB L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 19/40
+chiffré clé=KRYPTOS inv VIG L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 4/40
+chiffré clé=KRYPTOS inv VIG L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 9/40
+chiffré clé=KRYPTOS inv VIG L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 16/40
+chiffré clé=KRYPTOS inv VIG L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 18/40
+chiffré clé=KRYPTOS inv VIG L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 21/40
+chiffré clé=KRYPTOS inv BEAU L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 13/40
+chiffré clé=KRYPTOS inv BEAU L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 19/40
+chiffré clé=KRYPTOS inv BEAU L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 29/40
+chiffré clé=KRYPTOS inv BEAU L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 30/40
+chiffré clé=KRYPTOS inv BEAU L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 34/40
+chiffré clé=KRYPTOS inv VARB L=65 (11 contraintes) : K4 COMPATIBLE ; témoins 7/40
+chiffré clé=KRYPTOS inv VARB L=66 (10 contraintes) : K4 COMPATIBLE ; témoins 10/40
+chiffré clé=KRYPTOS inv VARB L=68 (8 contraintes) : K4 COMPATIBLE ; témoins 13/40
+chiffré clé=KRYPTOS inv VARB L=69 (7 contraintes) : K4 COMPATIBLE ; témoins 21/40
+chiffré clé=KRYPTOS inv VARB L=70 (6 contraintes) : K4 COMPATIBLE ; témoins 25/40
+TOTAL : 1380 cas tranchables ; K4 compatible dans 179 ; non tranchés 0 ; attendu au hasard 198.7
+
+real	2m49.974s
+user	2m48.184s
+sys	0m0.000s
+
+# Taux au hasard précis pour les cas isolés (t17_un.c, 2 × 1000 ou 1000 chiffrés)
+chiffré, clé σ, BEAU, L=30 (17 contraintes) : 86/2000 = 4,3 %
+clair, clé KRYPTOS, VIG, L=41 (11 contraintes) : 7/1000 = 0,7 %
+clair, clé KRYPTOS, VARB, L=41 (11 contraintes) : 10/1000 = 1,0 %
+=> attendus par recherche multiple (1 380 cas) ; aucun signal.
