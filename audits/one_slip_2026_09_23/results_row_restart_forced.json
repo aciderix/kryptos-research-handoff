@@ -1,0 +1,14 @@
+{
+ "('PANEL', 8, 'beau', 65)": {
+  "text (lowercase = crib, UPPER = forced, . = free)": ".N...............O...eastnortheastQR.N.S.O..F..L.....A......H..beClinclock...AL.............GA...",
+  "forced_outside_cribs": 16
+ },
+ "('WS', 8, 'beau', 25)": {
+  "text (lowercase = crib, UPPER = forced, . = free)": ".N.P.............O...east.ortheast.R.N...O..F..L..M..A......H..berlinclock....L.S.....A.....GA..P",
+  "forced_outside_cribs": 17
+ },
+ "('PANEL', 13, 'beau', 63)": {
+  "text (lowercase = crib, UPPER = forced, . = free)": "...P.................eastnortheast...N...........KN..A......H..Terlinclock......I.M...K.....GA..P",
+  "forced_outside_cribs": 13
+ }
+}

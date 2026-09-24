@@ -1,0 +1,34 @@
+{
+ "QI-vig": {
+  "true_p10": true,
+  "wrong_p7": false
+ },
+ "QI-beau": {
+  "true_p10": true,
+  "wrong_p7": false
+ },
+ "QII-vig": {
+  "true_p10": true,
+  "wrong_p7": false
+ },
+ "QII-beau": {
+  "true_p10": true,
+  "wrong_p7": false
+ },
+ "QIII-vig": {
+  "true_p10": true,
+  "wrong_p7": false
+ },
+ "QIII-beau": {
+  "true_p10": true,
+  "wrong_p7": false
+ },
+ "QIV-vig": {
+  "true_p10": true,
+  "wrong_p7": false
+ },
+ "QIV-beau": {
+  "true_p10": true,
+  "wrong_p7": false
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "rowmajor": {
+  "fixed_best": [
+   6,
+   [
+    74,
+    "AZ",
+    "KA",
+    "beau"
+   ]
+  ],
+  "anyalphabet_compatible": []
+ },
+ "rowmajor_rev": {
+  "fixed_best": [
+   5,
+   [
+    74,
+    "AZ",
+    "KA",
+    "var"
+   ]
+  ],
+  "anyalphabet_compatible": []
+ },
+ "colmajor_down": {
+  "fixed_best": [
+   6,
+   [
+    115,
+    "AZ",
+    "KA",
+    "var"
+   ]
+  ],
+  "anyalphabet_compatible": []
+ },
+ "colmajor_up": {
+  "fixed_best": [
+   5,
+   [
+    176,
+    "KA",
+    "KA",
+    "beau"
+   ]
+  ],
+  "anyalphabet_compatible": []
+ },
+ "K4_IC": 0.03608247422680412,
+ "K4_vowel_share": 0.21649484536082475,
+ "null_any_offset_of_8": 0
+}

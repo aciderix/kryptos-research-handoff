@@ -1,0 +1,776 @@
+[
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "vig",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "I",
+  "mode": "beau",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "vig",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "II",
+  "mode": "beau",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "vig",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "III",
+  "mode": "beau",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 1
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 2
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 1
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [
+   32,
+   33
+  ],
+  "null_exact": 1
+ },
+ {
+  "q": "IV",
+  "mode": "vig",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "1986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 1
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "1989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 2
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "8689",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "8986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "19861",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 1
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "19891",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "19869",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "19898",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "861989",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "19861989",
+  "exact": false,
+  "one_slip_positions": [
+   32,
+   33
+  ],
+  "null_exact": 1
+ },
+ {
+  "q": "IV",
+  "mode": "beau",
+  "primer": "19891986",
+  "exact": false,
+  "one_slip_positions": [],
+  "null_exact": 0
+ }
+]

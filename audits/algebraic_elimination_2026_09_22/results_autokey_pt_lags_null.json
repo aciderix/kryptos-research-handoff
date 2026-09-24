@@ -1,0 +1,42 @@
+{
+ "beau_L6": {
+  "K4": true,
+  "n_constraints": 12,
+  "random_sat_rate": "20/60"
+ },
+ "beau_L7": {
+  "K4": true,
+  "n_constraints": 10,
+  "random_sat_rate": "35/60"
+ },
+ "beau_L8": {
+  "K4": true,
+  "n_constraints": 8,
+  "random_sat_rate": "46/60"
+ },
+ "beau_L10": {
+  "K4": true,
+  "n_constraints": 4,
+  "random_sat_rate": "59/60"
+ },
+ "vig_L32": {
+  "K4": true,
+  "n_constraints": 3,
+  "random_sat_rate": "59/60"
+ },
+ "vig_L33": {
+  "K4": true,
+  "n_constraints": 4,
+  "random_sat_rate": "46/60"
+ },
+ "vig_L34": {
+  "K4": true,
+  "n_constraints": 5,
+  "random_sat_rate": "58/60"
+ },
+ "vig_L35": {
+  "K4": true,
+  "n_constraints": 6,
+  "random_sat_rate": "45/60"
+ }
+}

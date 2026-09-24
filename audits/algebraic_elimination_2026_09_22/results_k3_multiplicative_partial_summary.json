@@ -1,0 +1,61 @@
+{
+ "coverage": "shards 2,3 complete (both models); shard 1 model A; shard 0 and shard 1 model B not finished",
+ "n_configurations_covered": 260,
+ "n_short_period_cells": 3380,
+ "K4_short_period_hits": 96,
+ "K4_rate": 0.028402366863905324,
+ "null_trials": 1280,
+ "null_sat": 43,
+ "null_rate": 0.03359375,
+ "expected_hits_under_null": 113.546875,
+ "K4_hits_with_null_rate_le_1_of_30": [
+  {
+   "model": "A",
+   "mult": 43,
+   "order": "ST",
+   "mode": "beau",
+   "p": 10,
+   "null": "1/30"
+  },
+  {
+   "model": "A",
+   "mult": 58,
+   "order": "ST",
+   "mode": "vig",
+   "p": 7,
+   "null": "1/30"
+  },
+  {
+   "model": "A",
+   "mult": 91,
+   "order": "ST",
+   "mode": "vig",
+   "p": 7,
+   "null": "0/30"
+  },
+  {
+   "model": "B",
+   "mult": 81,
+   "order": "TS",
+   "mode": "vig",
+   "p": 7,
+   "null": "0/30"
+  },
+  {
+   "model": "B",
+   "mult": 81,
+   "order": "ST",
+   "mode": "vig",
+   "p": 7,
+   "null": "0/30"
+  },
+  {
+   "model": "A",
+   "mult": 85,
+   "order": "ST",
+   "mode": "vig",
+   "p": 7,
+   "null": "0/30"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "K1_real_control": {
+  "7": false,
+  "8": false,
+  "9": false,
+  "10": true,
+  "11": false,
+  "20": true
+ },
+ "runkey_K2PT": {
+  "vig": {
+   "K4_sat": [],
+   "n_params": 318,
+   "null_mean_sat_params": 0.0,
+   "null_frac_with_any_sat": 0.0,
+   "positive_control": true
+  },
+  "beau": {
+   "K4_sat": [],
+   "n_params": 318,
+   "null_mean_sat_params": 0.0,
+   "null_frac_with_any_sat": 0.0,
+   "positive_control": true
+  }
+ }
+}

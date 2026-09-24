@@ -1,0 +1,30 @@
+{
+ "K1_real_control": {
+  "7": false,
+  "8": false,
+  "9": false,
+  "10": true,
+  "11": false,
+  "20": true
+ },
+ "columnarKRYPTOS_inv_TS": {
+  "vig": {
+   "K4_sat": [],
+   "n_params": 26,
+   "null_mean_sat_params": 2.2,
+   "null_frac_with_any_sat": 0.85,
+   "positive_control": true
+  },
+  "beau": {
+   "K4_sat": [
+    16,
+    20,
+    23
+   ],
+   "n_params": 26,
+   "null_mean_sat_params": 3.25,
+   "null_frac_with_any_sat": 1.0,
+   "positive_control": true
+  }
+ }
+}

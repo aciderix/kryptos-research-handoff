@@ -1,0 +1,29 @@
+{
+ "K4_hits": {
+  "QI_PANEL": {
+   "13": {
+    "vig": "slip@21",
+    "beau": "slip@21"
+   }
+  },
+  "QII_PANEL": {
+   "13": {
+    "vig": "slip@32",
+    "beau": "slip@32"
+   }
+  },
+  "QIII_WS": {
+   "8": {
+    "beau": "slip@25"
+   }
+  },
+  "QIII_PANEL": {
+   "8": {
+    "beau": "slip@65"
+   },
+   "13": {
+    "beau": "slip@63"
+   }
+  }
+ }
+}

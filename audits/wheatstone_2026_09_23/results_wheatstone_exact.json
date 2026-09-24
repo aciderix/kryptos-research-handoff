@@ -1,0 +1,34 @@
+{
+ "outer=AZ,sign=+,repeat=full": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ },
+ "outer=AZ,sign=+,repeat=zero": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ },
+ "outer=AZ,sign=-,repeat=full": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ },
+ "outer=AZ,sign=-,repeat=zero": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ },
+ "outer=KA,sign=+,repeat=full": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ },
+ "outer=KA,sign=+,repeat=zero": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ },
+ "outer=KA,sign=-,repeat=full": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ },
+ "outer=KA,sign=-,repeat=zero": {
+  "EASTNORTHEAST_alone_consistent": false,
+  "offsets_d_consistent_both": []
+ }
+}

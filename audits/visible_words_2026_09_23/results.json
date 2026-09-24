@@ -1,0 +1,36 @@
+{
+ "K4_best": 10,
+ "null_best": [
+  9,
+  8,
+  8,
+  8,
+  9,
+  8,
+  9,
+  8,
+  8,
+  9,
+  8,
+  9,
+  8,
+  8,
+  9,
+  8,
+  9,
+  8,
+  8,
+  8
+ ],
+ "top_K4": [
+  [
+   10,
+   "kw:INVISIBLE",
+   "kw:PALIMPSEST",
+   "beau",
+   "AZ",
+   "DIGITALINTERPRETATION",
+   13
+  ]
+ ]
+}

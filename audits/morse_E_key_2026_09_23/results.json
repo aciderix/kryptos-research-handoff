@@ -1,0 +1,170 @@
+[
+ {
+  "order": "rumkin",
+  "q": "I",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin",
+  "q": "I",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin",
+  "q": "II",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin",
+  "q": "II",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin",
+  "q": "IV",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin",
+  "q": "IV",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical",
+  "q": "I",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical",
+  "q": "I",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical",
+  "q": "II",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical",
+  "q": "II",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical",
+  "q": "IV",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical",
+  "q": "IV",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin_rev",
+  "q": "I",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin_rev",
+  "q": "I",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin_rev",
+  "q": "II",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin_rev",
+  "q": "II",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin_rev",
+  "q": "IV",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "rumkin_rev",
+  "q": "IV",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical_rev",
+  "q": "I",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical_rev",
+  "q": "I",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical_rev",
+  "q": "II",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical_rev",
+  "q": "II",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical_rev",
+  "q": "IV",
+  "mode": "vig",
+  "K4_phases": [],
+  "null_any_phase": 0
+ },
+ {
+  "order": "physical_rev",
+  "q": "IV",
+  "mode": "beau",
+  "K4_phases": [],
+  "null_any_phase": 0
+ }
+]

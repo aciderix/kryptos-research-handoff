@@ -1,0 +1,6 @@
+vig_AZ BLZCDCYYGCKAZ pas KA: [9, 8, 10, 1, 25, 19, 0, 11, 22, 17, 7, 18] progression +-1: False
+beau_AZ JLJODEGKUKKKL pas KA: [1, 25, 15, 5, 1, 2, 13, 21, 5, 0, 0, 17] progression +-1: False
+varbeau_AZ ZPBYXYCCUYQAB pas KA: [4, 5, 20, 22, 4, 7, 0, 12, 7, 18, 13, 1] progression +-1: False
+vig_KA RDUMRIYWOYNKY pas KA: [9, 11, 23, 9, 14, 13, 21, 8, 23, 17, 7, 2] progression +-1: False
+beau_KA WXAKGZTOAXAFD pas KA: [1, 9, 19, 13, 12, 5, 1, 2, 17, 9, 5, 24] progression +-1: False
+varbeau_KA ZJOBZEXPUXAKX pas KA: [17, 15, 3, 17, 12, 13, 5, 18, 3, 9, 19, 24] progression +-1: False

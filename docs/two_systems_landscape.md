@@ -54,7 +54,7 @@ This is the "K4 is one layer" baseline. Most of the project's mass is here.
 | Running-key from K1/K2/K3 plaintext | **EMPIRICAL** | E-JTS-12, ZERO matches across 694K transpositions | Identity + structured transpositions only |
 | Running-key from Carter / Kahn / 73 Gutenberg books | **EMPIRICAL** | E-FRAC-49: 8.4B checks, ZERO matches | Specific corpora |
 | Running-key from unknown English (any source) | **EMPIRICAL** | E-FRAC-51: 0 of 16,597 Bean-passing configs produce English fragments | English fragment scorer; H1; non-mono inner |
-| Vimark / Gromark (orders 1-8) | **STRUCTURAL** | E-JTS-08/11: linear algebra proves zero consistent primers | Bean + recurrence linearity |
+| Vimark / Gromark (orders 1-8) | **STRUCTURAL only with fixed alphabets** | E-JTS-08/11: linear algebra proves zero consistent primers **when both alphabets are fixed (additive class)**. With both alphabets free, Bean's `gt.c` finds 39 base-10 five-digit primers (reproduced 2026-09-23, `audits/gromark_scope_2026_09_23/`); with one side fixed to AZ/KA/PALIMPSEST/ABSCISSA-keyed: 0 | Bean + recurrence linearity; fixed alphabets |
 | Hill 4+ | **OPEN** | not tested | larger Hill spaces |
 | Non-additive cipher classes | **STRUCTURALLY-OPEN** | not in framework | requires bespoke testing |
 | Procedural / physical mechanisms | **STRUCTURALLY-OPEN** | not in framework | requires non-algebraic testing |

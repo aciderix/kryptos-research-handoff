@@ -1,0 +1,42 @@
+
+== AZ-vig: key at anchors = BLZCDCYYGCKAZ / MUYKLGKORNA
+  T1 row+col key, widths 2-48, informative & consistent: []
+  T2 autokey any lag (>=4 checks) survivors: []
+  T3 progressive key p<=48, any step (>=3 checks) survivors: []
+  T4 periodic p<=12 checked inside each crib only (null/omission-robust): []
+  T5 distinct key rows among 24 anchors: 14; anchors whose row is outside KRYPTOS|PALIMPSEST|ABSCISSA letters: 7/24
+
+== AZ-beau: key at anchors = JLJODEGKUKKKL / OCGGBGOKTRU
+  T1 row+col key, widths 2-48, informative & consistent: []
+  T2 autokey any lag (>=4 checks) survivors: []
+  T3 progressive key p<=48, any step (>=3 checks) survivors: []
+  T4 periodic p<=12 checked inside each crib only (null/omission-robust): []
+  T5 distinct key rows among 24 anchors: 12; anchors whose row is outside KRYPTOS|PALIMPSEST|ABSCISSA letters: 9/24
+
+== AZ-vbeau: key at anchors = ZPBYXYCCUYQAB / OGCQPUQMJNA
+  T1 row+col key, widths 2-48, informative & consistent: []
+  T2 autokey any lag (>=4 checks) survivors: []
+  T3 progressive key p<=48, any step (>=3 checks) survivors: []
+  T4 periodic p<=12 checked inside each crib only (null/omission-robust): []
+  T5 distinct key rows among 24 anchors: 14; anchors whose row is outside KRYPTOS|PALIMPSEST|ABSCISSA letters: 10/24
+
+== KA-vig: key at anchors = RDUMRIYWOYNKY / ELYOIECBAQK
+  T1 row+col key, widths 2-48, informative & consistent: []
+  T2 autokey any lag (>=4 checks) survivors: []
+  T3 progressive key p<=48, any step (>=3 checks) survivors: []
+  T4 periodic p<=12 checked inside each crib only (null/omission-robust): []
+  T5 distinct key rows among 24 anchors: 16; anchors whose row is outside KRYPTOS|PALIMPSEST|ABSCISSA letters: 5/24
+
+== KA-beau: key at anchors = WXAKGZTOAXAFD / RGTGNWRJLFK
+  T1 row+col key, widths 2-48, informative & consistent: []
+  T2 autokey any lag (>=4 checks) survivors: []
+  T3 progressive key p<=48, any step (>=3 checks) survivors: []
+  T4 periodic p<=12 checked inside each crib only (null/omission-robust): []
+  T5 distinct key rows among 24 anchors: 14; anchors whose row is outside KRYPTOS|PALIMPSEST|ABSCISSA letters: 13/24
+
+== KA-vbeau: key at anchors = ZJOBZEXPUXAKX / ICXUEILMNSK
+  T1 row+col key, widths 2-48, informative & consistent: []
+  T2 autokey any lag (>=4 checks) survivors: []
+  T3 progressive key p<=48, any step (>=3 checks) survivors: []
+  T4 periodic p<=12 checked inside each crib only (null/omission-robust): []
+  T5 distinct key rows among 24 anchors: 16; anchors whose row is outside KRYPTOS|PALIMPSEST|ABSCISSA letters: 10/24
