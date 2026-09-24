@@ -4,6 +4,8 @@
 #   D : doublets de lettres en position ≡ 4 (mod 7) — J. Gillogly, archive du groupe, 2005 ;
 #   C : coïncidences à l'écart 7 (c[i] = c[i+7]) — la « rugosité à l'intervalle 7 » du mémo NSA de 1992 ;
 #   V : bigrammes verticaux répétés en largeur 21 = 3 × 7 — relevé communautaire (base 4, phénomène 2).
+# ATTENTION (correctif, voir stats_7b.py) : dans K4, 3 des 11 paires de V viennent de D et de C ;
+# le produit D × C × V compte donc deux fois les mêmes faits. Chiffre retenu : D × C, p ≈ 2e-4.
 # Hypothèse nulle : K4 mélangé (mêmes lettres, positions échangeables). 100 000 mélanges.
 # Correction du choix du module : pour chaque texte, on prend le MEILLEUR module m de 2 à 24
 # (D mod m, C à l'écart m, V en largeur 3m ≤ 48), puis on compare K4 à la même procédure sur les mélanges.

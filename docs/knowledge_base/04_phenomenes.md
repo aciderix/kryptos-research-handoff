@@ -34,9 +34,10 @@
 - **Lettres doublées (ajout du 24/09, base 7 §7.2)** : les 6 doublets de K4 commencent en 18 (BB), 25 (QQ), 32 (SS), 42 (SS), 46 (ZZ) et 67 (TT). **5 sur 6 sont ≡ 4 (mod 7).** Mélanges de K4 : p ≈ 0,0006 pour le module 7 seul, **p ≈ 0,02** en balayant les modules 3–16. La statistique a été choisie après coup (J. Gillogly, 2005, qui les jugeait « causées par le chiffrement »). Trois de ces doublets sont dans les cribs (NO→QQ, ST→SS, IN→TT). C'est le signal « 7 » le plus net relevé à ce jour, plus net que la largeur 21.
 - **« Réfléchissant »** : en 2007, Scheidt a qualifié le code de *reflective* en refusant le mot « symétrique » (base 7 §7.1). *Lecture* : à rapprocher du miroir des cribs ci-dessus.
 - **Coïncidences à l'écart 7 (ajout du 24/09)** : c[i] = c[i+7] neuf fois, pour 3,3 attendues (p ≈ 0,005 pour cet écart seul). C'est vraisemblablement la « *slight interval 7 property* » de la NSA.
-- **Les trois ensemble : le 7 est réel** (`stats_7.py`, base 7 §8.2).
-  - Doublets mod 7, écart 7 et largeur 21 sont indépendants sous l'hypothèse nulle.
-  - Pris ensemble, avec le module libre de 2 à 24 : **p ≈ 10⁻⁵** (1 mélange de K4 sur 100 000).
+- **Ensemble, le 7 n'est très probablement pas un hasard** (`stats_7b.py`, base 7 §8.2).
+  - Doublets mod 7 et écart 7 sont indépendants sous l'hypothèse nulle.
+  - Pris ensemble, avec le module libre de 2 à 24 : **p ≈ 2 × 10⁻⁴** (198 mélanges de K4 sur un million).
+  - La largeur 21 n'est pas une preuve de plus. 3 de ses 11 paires viennent des deux autres signaux : les doublets QQ (25), ZZ (46) et TT (67) sont **empilés exactement tous les 21**. Le premier chiffre publié, 10⁻⁵, les comptait deux fois.
   - Ce n'est **pas** une substitution dépendant de i mod 7 : en 65 et 72, P chiffre R puis C. Ce n'est pas non plus une autoclé sur le chiffré à l'écart 7.
   - Aucune des 10 familles simulées (`sim_7.py`) ne concentre les doublets comme K4.
   - **Le mécanisme du 7 est la question ouverte principale.**
