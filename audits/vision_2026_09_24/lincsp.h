@@ -8,9 +8,15 @@
 #define LINCSP_H
 #include "k4lib.h"
 
+#ifndef LC_MAXV
 #define LC_MAXV 160
+#endif
+#ifndef LC_MAXC
 #define LC_MAXC 64
+#endif
+#ifndef LC_MAXT
 #define LC_MAXT 8
+#endif
 typedef struct { int nv; int v[LC_MAXT]; int c[LC_MAXT]; } LCon;
 
 static LCon lc_con[LC_MAXC]; static int lc_ncon, lc_nvar;
