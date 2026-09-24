@@ -1,0 +1,12 @@
+K4 VIG L=7 : 17 équations ; exact IMPOSSIBLE ; avec une erreur : 1 retrait(s) sur 17 rendent K4 compatible
+   retrait possible : chaîne 66 → 73 ; l'erreur serait sur le chiffré en 73
+   témoins aléatoires (300) : compatibles exacts 94 ; compatibles avec au plus une erreur 235
+K4 BEAU L=7 : 17 équations ; exact IMPOSSIBLE ; avec une erreur : 4 retrait(s) sur 17 rendent K4 compatible
+   retrait possible : chaîne 24 → 31 ; l'erreur serait sur le chiffré en 31
+   retrait possible : chaîne 28 → 63 ; l'erreur serait sur le chiffré en 35 42 49 56 63
+   retrait possible : chaîne 32 → 67 ; l'erreur serait sur le chiffré en 39 46 53 60 67
+   retrait possible : chaîne 63 → 70 ; l'erreur serait sur le chiffré en 70
+   témoins aléatoires (300) : compatibles exacts 158 ; compatibles avec au plus une erreur 290
+K4 VARB L=7 : 17 équations ; exact IMPOSSIBLE ; avec une erreur : 1 retrait(s) sur 17 rendent K4 compatible
+   retrait possible : chaîne 25 → 32 ; l'erreur serait sur le chiffré en 32
+   témoins aléatoires (300) : compatibles exacts 155 ; compatibles avec au plus une erreur 278
