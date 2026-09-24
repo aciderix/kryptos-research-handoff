@@ -1,0 +1,32 @@
+== aucun retrait ==
+  VIG p=14 : K4 NON TRANCHÉ ; témoins 3/20 (non tranchés 1)
+  VIG p=21 : K4 NON TRANCHÉ ; témoins 5/20 (non tranchés 2)
+  BEAU p=16 : K4 NON TRANCHÉ ; témoins 7/20 (non tranchés 5)
+  BEAU p=19 : K4 NON TRANCHÉ ; témoins 0/20 (non tranchés 10)
+  VARB p=14 : K4 NON TRANCHÉ ; témoins 4/20 (non tranchés 1)
+  VARB p=21 : K4 NON TRANCHÉ ; témoins 3/20 (non tranchés 2)
+  total : K4 compatible dans 6 cas sur 66 ; attendu au hasard 7.5
+== retrait 26,33,68 ==
+  BEAU p=10 : K4 NON TRANCHÉ ; témoins 1/20 (non tranchés 2)
+  BEAU p=16 : K4 NON TRANCHÉ ; témoins 9/20 (non tranchés 2)
+  BEAU p=17 : K4 NON TRANCHÉ ; témoins 0/20 (non tranchés 0)
+  BEAU p=19 : K4 NON TRANCHÉ ; témoins 0/20 (non tranchés 8)
+  BEAU p=20 : K4 COMPATIBLE ; témoins 9/20 (non tranchés 2)
+  total : K4 compatible dans 5 cas sur 66 ; attendu au hasard 11.6
+== retrait 25,32,67 ==
+  VIG p=14 : K4 NON TRANCHÉ ; témoins 4/20 (non tranchés 0)
+  VIG p=16 : K4 COMPATIBLE ; témoins 12/20 (non tranchés 2)
+  VIG p=19 : K4 COMPATIBLE ; témoins 0/20 (non tranchés 5)
+  VIG p=21 : K4 NON TRANCHÉ ; témoins 2/20 (non tranchés 3)
+  BEAU p=16 : K4 NON TRANCHÉ ; témoins 11/20 (non tranchés 3)
+  BEAU p=17 : K4 NON TRANCHÉ ; témoins 0/20 (non tranchés 2)
+  BEAU p=19 : K4 COMPATIBLE ; témoins 0/20 (non tranchés 7)
+  VARB p=14 : K4 NON TRANCHÉ ; témoins 9/20 (non tranchés 0)
+  VARB p=16 : K4 COMPATIBLE ; témoins 12/20 (non tranchés 2)
+  VARB p=19 : K4 COMPATIBLE ; témoins 0/20 (non tranchés 8)
+  VARB p=21 : K4 NON TRANCHÉ ; témoins 10/20 (non tranchés 1)
+  total : K4 compatible dans 11 cas sur 66 ; attendu au hasard 10.7
+
+real	7m42.785s
+user	7m39.036s
+sys	0m0.021s
