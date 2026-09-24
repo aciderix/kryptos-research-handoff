@@ -94,7 +94,7 @@ Relais transmis par l'utilisateur. Les références pointaient vers des pages d'
 
 **Source :** inventaire officiel à jour (PDF « A Finding Aid to the Jim Sanborn papers, circa 1945-2024 », Ricky Gomez, 2024-02-12, révisé le **2026-05-06**, transmis par l'utilisateur). Il contient **16 liens** vers la visionneuse d'images du Smithsonian (`https://edan.si.edu/slideshow/viewer/?eadrefid=AAA.sanbojim_refNNN`), accessibles depuis cet environnement. **Aucune demande n'est nécessaire.**
 
-**La numérotation actuelle (2026) remplace celle de mars 2025.** Les numéros de ChatGPT correspondaient à cette version récente. Le dossier « **Stencil Patterns, circa 1988** » (6/13 en 2025) **n'apparaît plus** dans l'inventaire de 2026. Hypothèse, non vérifiée : fusionné ailleurs, ou retiré lors de la mise sous scellés.
+**La numérotation actuelle (2026) remplace celle de mars 2025.** Les numéros de ChatGPT correspondaient à cette version récente. Le dossier « **Stencil Patterns, circa 1988** » (6/13 en 2025) **n'apparaît plus** dans l'inventaire de 2026. **Explication trouvée (base 7 §11.2)** : le 05/09/2025, l'AAA a annulé la commande d'un membre sur ce dossier (boîte 6, dossier 13), « **scellé par le donateur** ».
 
 | Dossier (2026) | Titre | Images | Lien EDAN | Lu ? |
 |---|---|---|---|---|
