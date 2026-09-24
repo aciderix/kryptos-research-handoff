@@ -153,7 +153,7 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré à Langley le **5 nove
 | 1991 (ABC) | Scheidt | « J'ai passé environ un mois **après que nous avons choisi le code**, puis j'ai donné à Jim "voilà comment on fait", et c'était tout » ; « Jim est vraiment le seul à savoir ce que ça dit. Pas moi. » | P | base 6 §2.1 |
 | 1991 (ABC) | Sanborn | « **Kryptos… j'ai choisi ce mot comme mot-clé du code** ; le mot-clé d'une partie du texte est Kryptos » ; « c'est **en anglais courant**… mais ce n'est pas toute l'histoire » ; le message **a changé pendant la découpe** ; Scheidt lui conseillait de « ne pas faire les choses sur papier » | P | base 6 §2.2 |
 | 2006 (NOVA, rushes) | Sanborn | chiffré **pendant le trajet en camion** depuis l'Arizona, « il peut donc y avoir quelques erreurs » ; « **je l'ai écrit d'une façon, puis je l'ai réécrit d'une autre façon** » ; « substitutions et matrices… sans mathématiques » ; « le cadran de la boussole **n'est pas orienté nord-sud, il est décalé** » | P | base 6 §2.3 |
-| 24/10/2015 (réunion) | Scheidt | **n'a jamais déchiffré K4** ni vérifié les erreurs de Jim ; « plus d'une étape », **masque en première étape** ; il avait envisagé de **changer de base mathématique (2, 16) mais on lui a demandé de ne pas le faire** ; langues éteintes écartées ; mots à double sens (« coca-cola ») | P (rapporté) | base 6 §2.4 |
+| 24/10/2015 (réunion) | Scheidt | **n'a jamais déchiffré K4** ni vérifié les erreurs de Jim ; « plus d'une étape », avec un **masque** qui retire à l'analyste son premier outil, les fréquences (l'ordre du masque dans le chiffrement n'est pas dit : « je diffère » ; corrigé le 24/09, base 7 §11.6) ; il avait envisagé de **changer de base mathématique (2, 16) mais on lui a demandé de ne pas le faire** ; langues éteintes écartées ; mots à double sens (« coca-cola ») | P (rapporté) | base 6 §2.4 |
 | 2025 | Sanborn | « Ils l'ont découvert. Ils ne l'ont pas déchiffré. Ils n'ont pas la clé. Ils n'ont pas la méthode. » ; « Ce qu'ils ont trouvé, c'est du texte brouillé, pas une résolution du cryptogramme. » ; « K4 a été découvert et il pointe vers K5. » | P | [RR-disc] |
 
 ## 4 bis. Source primaire majeure : entretien d'histoire orale, Archives of American Art (14–16 juillet 2009)
@@ -289,7 +289,7 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 
 ## 4 quinquies. Archive vendue par RR Auction (lot 3507616), photos transmises par l'utilisateur (23/09)
 
-**Source :** photos du lot « The Complete Secrets of Kryptos: Jim Sanborn's Private Archive » (https://www.rrauction.com/auctions/lot-detail/350761607302001-the-complete-secrets-of-kryptos-jim-sanborns-private-archive/). Ce sont des **pièces publiées par la maison de vente**, pas l'archive scellée ; elles ne contiennent aucun clair de K4. Les images ne sont pas versées au dépôt. Nous en avons 12.
+**Source :** photos du lot « The Complete Secrets of Kryptos: Jim Sanborn's Private Archive » (https://www.rrauction.com/auctions/lot-detail/350761607302001-the-complete-secrets-of-kryptos-jim-sanborns-private-archive/). Ce sont des **pièces publiées par la maison de vente**, pas l'archive scellée ; elles ne contiennent aucun clair de K4. Les images ne sont pas versées au dépôt. Nous en avons 12. *Complément (24/09)* : l'album du groupe en compte 31, lues en entier (base 7 §11.6).
 
 | Pièce | Contenu utile |
 |---|---|
@@ -300,6 +300,7 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 | Avenant CO #1 (SF 30) | +5 000 $ pour « **additional fill around artwork outside the fourth floor entrance to the new building** » et des bancs en pierre ; prolongation de 186 jours |
 | Plaque de cuivre d'essai « CDEFGHIJ / DEFGHIJK / EFGHIJKL », signée « J.S. 1988 » sur la tranche | Échantillon du **tableau** (lignes décalées d'un cran), police de l'œuvre, découpé dans les deux sens |
 | Brouillons sur bloc jaune de K1–K2 | K1 écrit « …the nuance of **illusion** X » : le **Q d'IQLUSION n'est pas dans le brouillon** |
+| Deux brouillons de K3, même photo (lus le 24/09) | « **11 Lines \| 342** » et « **3 lines 93** » : le plan exact de la plaque du bas. « slowly » est barré (« ? could remove ») : K3 perd 6 lettres pour que K3, « ? » et K4 tiennent en 14 × 31. Le brouillon plus ancien finit par « yes wonderful things ». Voir base 7 §11.6 |
 | Badge « Escort Required » n° 13764 (15 mai 1991), photos d'atelier et de la cérémonie | Contexte uniquement |
 
 **Propos de Sanborn à l'inauguration, 5 novembre 1990 (extraits de la page photographiée) :**

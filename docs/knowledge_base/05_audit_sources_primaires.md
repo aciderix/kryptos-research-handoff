@@ -72,6 +72,9 @@
 - **Conséquence pour nous :**
   - **si K5 est publié**, ce sera un second chiffré de 97 lettres qui « partage des mots codés aux mêmes positions » que K4. Deux textes chiffrés avec la même clé aux mêmes positions sont « en profondeur », la situation classique qui a permis de casser des chiffres à la main. **C'est le seul événement prévisible qui pourrait changer la donne.**
   - **Règle maintenue :** le vérificateur de Paradigm **ne doit pas servir à ajuster une méthode** (ce serait un oracle). Une seule soumission, à la toute fin, pour confirmer.
+- **À demander à Paradigm (ajout du 24/09, base 7 §11.6)** : des photos nettes, en lumière rasante ou transmise, de deux feuilles de la vente.
+  - La feuille K3 + K4 en 31 × 14 : sous la dernière ligne, à l'aplomb de VTTMZFPK, **8 signes raturés**, recouverts de correcteur sur les photos de Paradigm (lecture d'un membre). Ce seraient peut-être des lettres retirées de K4.
+  - La feuille du bas de K2 : la note « could take out » à côté de l'X retiré (lecture d'un membre).
 
 ## Triage d'un relais IA (« tout ce qui est disponible sur la boîte 6 », 23/09)
 Relais transmis par l'utilisateur. Les références pointaient vers des pages d'accueil (reddit.com, si.edu, paradigm.xyz), jamais vers les pages précises.

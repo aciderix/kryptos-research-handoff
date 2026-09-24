@@ -31,6 +31,11 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
     - Dépôt au Copyright Office (2010) : Q et U absents du clair de Sanborn, DESPARATLY présent.
     - Le panneau du bas fait exactement 14 × 31 = 434 caractères.
   - **Conséquence** : le modèle « lettre retirée à la gravure » passe en priorité basse.
+- **Fils de recherche, album de la vente et site de l'acheteur** (base 7 §11.6).
+  - **Correction** : Scheidt n'a pas dit en 2015 que le masque venait en premier. La « première étape » est celle de l'analyste (compter les lettres) ; l'ordre du masque n'est pas dit. Corrigé dans les bases 1, 6, 7 et 8.
+  - **Brouillons de K3** (photo de la vente) : « 11 Lines | 342 » et « 3 lines 93 », le plan exact de la plaque du bas. Sanborn coupe « slowly » (6 lettres) pour que K3, « ? » et K4 tiennent en 14 × 31 ; K4 = 4 + 93 = 97. Il règle donc les longueurs en coupant des mots du clair.
+  - **Feuille K3 + K4 de NOVA** (31 × 14) : 8 signes raturés sous VTTMZFPK, sous correcteur sur les photos de Paradigm. Illisibles ; à demander à Paradigm.
+  - Aussi : EAST « not inadvertent » (Sanborn, 2020) ; un « big hint » donné à la CIA vers 1997–1998, jamais publié (Gillogly 1999) ; les seuils d'IoC du hasard de Matson (2022), à utiliser comme témoins.
 
 ## Principes de travail
 
