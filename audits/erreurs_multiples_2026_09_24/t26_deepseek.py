@@ -5,7 +5,7 @@ import sys, random, json
 from ortools.sat.python import cp_model
 from emin_cpsat import CRIBPOS, CRIBPT, K4C, CT
 
-def emin(cc, mode, fib=False, a6=False, timeout=60):
+def emin(cc, mode, fib=False, a6=False, timeout=30):
     m = cp_model.CpModel()
     s = [m.NewIntVar(0, 25, f"s{x}") for x in range(26)]; m.AddAllDifferent(s); m.Add(s[CRIBPT[0]] == 0)
     a = [m.NewIntVar(0, 25, f"a{j}") for j in range(7)]
@@ -30,7 +30,8 @@ def emin(cc, mode, fib=False, a6=False, timeout=60):
 if __name__ == "__main__":
     NN = int(sys.argv[1]) if len(sys.argv) > 1 else 50
     rnd = random.Random(26)
-    for name, kw in (("ligne+colonne 7", {}), ("Fibonacci sur les lignes", {"fib": True}), ("boussole a[j] = 6j", {"a6": True})):
+    FAMS = (("ligne+colonne 7", {}), ("Fibonacci sur les lignes", {"fib": True}), ("boussole a[j] = 6j", {"a6": True}))
+    for name, kw in [f for f in FAMS if len(sys.argv) < 3 or f[0] != "ligne+colonne 7"]:
         for mode in ("VIG", "BEAU", "VARB"):
             e = emin(K4C, mode, **kw)
             hu, hs = {}, {}
