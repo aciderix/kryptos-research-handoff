@@ -9,4 +9,6 @@ Cinq bases, à consulter **avant tout calcul** :
 
 5. [`05_audit_sources_primaires.md`](05_audit_sources_primaires.md) — audit des dossiers d'archives accessibles (Smithsonian) : décrit / vérifié / vu / exploité, priorités, et état de l'archive privée (Paradigm, K5).
 
+6. [`06_documents_2026_09_24.md`](06_documents_2026_09_24.md) — **lecture des documents versés le 24/09** (NSA 1991–1992 et 2014, Scheidt et Sanborn 1991, NOVA 2006, réunion Scheidt 2015, journal de Carter, Martinsburg) et ce qu'ils relient. Travaux associés : `audits/vision_2026_09_24/`.
+
 Principe : comprendre l'intention de Sanborn et ce qu'il met à disposition, puis ne lancer un calcul que si une information nouvelle fixe une recette qui sort de la portée déjà couverte.

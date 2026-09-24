@@ -27,6 +27,11 @@
 - **Les deux cribs débutent sur des multiples de 21** (positions 21 et 63, en comptant à partir de 0).
 - **KRYPTOS a 7 lettres.**
 
+**Contrôles du 24/09** (`audits/vision_2026_09_24/`) :
+- Largeur 21 : p = 0,0003 pour cette largeur seule, mais **p ≈ 0,09** une fois compté le balayage de toutes les largeurs 2–48. La NSA avait relevé un « intervalle 7 » dès 1992 (base 6). Réel mais faible.
+- IC des positions 0–20 (0,0667, « anglais ») : **non significatif** (42 % des K4 mélangés ont une fenêtre de 21 aussi forte ; la meilleure fenêtre de K4 atteint 0,0857).
+- **Symétrie des cribs** : les positions 23–33 et 73–63 sont en miroir exact autour de la position 48 (11 paires dont clair et chiffré sont connus). Seule la « pliure » complète (clé = clair en miroir) est décidable : éliminée.
+
 ## Phénomène 3 — Une seule lettre claire, plusieurs chiffrées, mais rapprochées
 
 Une même lettre claire donne des lettres chiffrées différentes selon la position. Pourtant, ces positions sont **proches les unes des autres** (distance moyenne 3,6). C'est l'indice statistique d'une correspondance lettre à lettre **sans transposition** (Bean), confirmé par Sanborn en 2019.

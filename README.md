@@ -12,6 +12,11 @@ Les cellules F-02, F-07, F-08, F-10 et les mécanismes physiques/procéduraux qu
 
 Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il contient le contexte, les règles de preuve, les sources utiles, les corrections du registre, les outils et le prompt complet à donner au prochain agent.
 
+## Mise à jour du 24 septembre 2026
+
+- Documents versés par l'utilisateur (NSA 1991–1992 et 2014, Scheidt et Sanborn 1991, NOVA 2006, réunion Scheidt 2015…) : `sources/docs_utilisateur_2026_09_24/`, lus et résumés dans `docs/knowledge_base/06_documents_2026_09_24.md`.
+- Audit « vision » (liens entre les pistes, tests exacts nouveaux en C, statistiques revues) : `audits/vision_2026_09_24/README.md`. Aucune solution ; plusieurs familles nouvelles éliminées ; la note IMG_1340 est résolue (« ? » non codés).
+
 ## Principes de travail
 
 - Distinguer fait source, interprétation, hypothèse, recette, expérience et preuve.

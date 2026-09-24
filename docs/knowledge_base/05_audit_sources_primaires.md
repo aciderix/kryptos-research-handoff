@@ -273,3 +273,12 @@ Sources : Wikipédia (*Cyrillic Projector*, *Antipodes*), *Science* 302 (10/10/2
   - Portée : Sanborn **montre le mot-indice sur l'œuvre elle-même**. Cela recoupe Scheidt 2003 (« les clés sont dissimulées sur la sculpture »). *Interprétation* : sur Kryptos, les indices de clé (KRYPTOS en tête du tableau, PALIMPSEST/ABSCISSA ?) seraient à chercher de la même façon, comme des mots visibles ; pour K4, aucun mot-indice n'a été identifié.
 - ***Antipodes* (1997, Hirshhorn)** : le côté latin répète Kryptos dans l'ordre K3 → K4 → espace → K1 → K2 → K3 → K4 → K1 → K2 ; UNDERGROUND y est correct ; une espace et deux points en plus au centre.
   **Vérification** : le K4 d'Antipodes (transcription scirealm) est **identique lettre pour lettre** au K4 de Kryptos (97 lettres). ⇒ **aucune divergence dans K4** à exploiter. Les différences d'Antipodes portent sur K1–K3 (déjà testées : `e_antipodes_11/12`).
+
+---
+
+## Complément du 24/09 : documents versés par l'utilisateur
+
+Archive de 31 fichiers (NSA 1991–1992 et 2014, rushes ABC 1991 de Scheidt et Sanborn, rushes NOVA 2006, réunion Scheidt 2015, journal de Carter, relevés d'Antipodes et de Martinsburg, vidéo). Inventaire : `sources/docs_utilisateur_2026_09_24/README.md`. Lecture : base 6. Points qui modifient cet audit :
+- **Qui a exécuté K4** (question « non tranchée » ci-dessus, *Museum & Arts* 1990 contre WaPo 1999) : **tranché en faveur de Sanborn**. Scheidt, ABC 1991 : « I gave Jim "this is how you do it", and that was it » ; réunion 2015 : il n'a jamais déchiffré K4 et ne connaîtrait pas les erreurs de Jim.
+- **Plan orienté de la cour** (NSA, 14/11/1991) : premier plan d'époque avec flèche du nord, position de l'écran, du tableau (« read V square on this side ») et du cryptogramme, encart de l'entrée ouest avec la rose et la magnétite. Schéma non coté.
+- La cassette de la dédicace (1990) et le dossier « Stencil Patterns » restent introuvables.

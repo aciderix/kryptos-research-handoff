@@ -1,0 +1,16 @@
+journal Carter 1922        (22084 lettres) : 22084 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 8/24
+directeurs CIA (plaques)   (232 lettres) : 232 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+statue Donovan             (92 lettres) : 276 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+buste Dulles               (66 lettres) : 264 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 5/24
+Book of Honor (1991)       (294 lettres) : 294 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 6/24
+hall CIA concaténé       (684 lettres) : 684 décalages | L3 0 | NA 0 | NK 0 | alphabets fixés max 7/24
+témoin 0 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 1 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 2 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 8/24
+témoin 3 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 8/24
+témoin 4 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 8/24
+témoin 5 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 9/24
+témoin 6 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 7 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 9/24
+témoin 8 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 7/24
+témoin 9 (journal Carter) : L3 0 | NA 0 | NK 0 | fixés max 7/24

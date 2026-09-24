@@ -142,6 +142,12 @@ Sources :
 | **Chaque crib seul** (aucun lien entre les deux) : clés nécessaires avec alphabet fixé (A–Z/KRYPTOS, 3 conventions) ; périodique QIII tout alphabet par crib | clés = charabia (aucun mot-clé) ; Vig éliminé pour toute période < longueur du crib (sauf p = 12, hasard 86 %) ; Beau au niveau du hasard ⇒ **aucun signal** (23/09) | `audits/cribs_separately_2026_09_23/` |
 | **Crib décalé** (lettre sautée ou ajoutée entre les cribs, décalage de phase s = −3…+3), Quagmire I–IV tout alphabet, p 1–26 | QIII : p ≤ 12 éliminé pour tout s ; les cases QI/II/IV « sévères » relèvent toutes d'un seul phénomène (distance 38 entre cribs), au niveau du hasard (≈ 10 %) ⇒ **aucun signal** (23/09) | `audits/crib_shift_2026_09_23/` |
 | **Catalogue « 20 hypothèses »** (relais 23/09, nuit) : Polybe 5×5 impossible (K4 a I **et** J) ; coordonnées de K2 comme clé ; permutations modulaires sur 97 (affines toutes, multiplicatives, forme K3, exponentielles/log) avant/après substitution ; générateur congruentiel ; colonnes DYAHR/YAR ; « ID BY ROWS » + lecture K3 ; partition îlots fermés ; décalage par ligne physique | tous **éliminés ou au niveau du hasard** ; permutations mod 97 tout alphabet : K4 **en dessous** du témoin global (23/09) | `audits/twenty_hypotheses_2026_09_23/` |
+| **Textes physiques de la sculpture comme clé courante** (tableau avec/sans étiquettes, panneau chiffré, Morse), **13 parcours 1D** (lignes, colonnes, boustrophédons, diagonales, sens inverses) et **2D sur cylindre** (K4 à sa place, clé en (ligne+dr, col+dc), miroirs, rotation) ; σ quelconque + 24 conventions à alphabets fixés | 57 617 placements : **0** ; fixés max 8/24 = hasard ⇒ **éliminé** (24/09) | `audits/vision_2026_09_24/` T1 |
+| **Addition en chaîne** (4 règles, base 10 amorces 2–6, base 26 amorces 2–5), QIII σ quelconque | **0** (hasard 0) ⇒ **éliminé** ; en QIV, K4 = hasard : **les 39 amorces de Bean = 40 attendues pour des clés de chiffres aléatoires** (24/09) | `audits/vision_2026_09_24/` T2 |
+| **Deux mots-clés superposés** k = a[i mod p1] + b[i mod p2] (cellule OPEN de `two_systems_landscape.md`), alphabets A–Z/KRYPTOS, 12 conventions | **éliminé pour p1+p2 ≤ 24** (aucun couple compatible) ; indécidable au-delà (K4 = hasard) (24/09) ; alphabet quelconque : `results_t4.txt` | `audits/vision_2026_09_24/` T3, T4 |
+| **Pliure au centre** (cribs en miroir i ↔ 96−i) : clé = clair en miroir | **éliminé** (test puissant, témoin 0/200) ; demi-pliures et chiffré réfléchi : au niveau du hasard (24/09) | `audits/vision_2026_09_24/` T5 |
+| **Journal de fouilles de Carter (1922)** et **inscriptions du hall de la CIA** (directeurs, Donovan, Dulles, *Book of Honor*, relevés NSA 1991) comme clé courante | **0** partout ⇒ **éliminé** (24/09) | `audits/vision_2026_09_24/` T6 |
+| **M-94 à 25 disques, génératrice fixe** (diapositives NSA 2014) | **impossible** (positions 21 et 71 : E→F et O→F sur le même disque) (24/09) | `audits/vision_2026_09_24/stats_quick.py` |
 | Géométrie mesurée de l'écran | **jamais testée** (donnée absente) | [MR] ; `current_experimental_frontier.md` |
 
 ### 2.7 « Solutions » revendiquées publiquement (non validées)
@@ -153,6 +159,8 @@ Sources :
 | Nash Associates (digraphes) | explicitement incomplète | F-03 |
 
 ## 3. Ce qui reste réellement ouvert
+
+> **Mise à jour du 24/09 (base 6).** Scheidt (1991, 2015) n'a jamais vérifié K4 : Sanborn l'a chiffré seul, probablement fin 1989–1990 (après la chute du Mur), avec des erreurs possibles. Scheidt dit aussi que le **changement de base** a été envisagé puis **écarté**, et que le **masque** est la première étape. Le « ? » avant OBKR n'est **pas codé** (IMG_1340 : lignes 4, 8, 10, 25).
 
 > **Mise à jour du 23/09 (source primaire retrouvée).** « Deux systèmes… indice majeur » (Sanborn, inauguration 1990) porte sur **la plaque du bas, K3 + K4**, pas sur K4 seul (base 1, §4 quinquies). Les familles « deux couches » (substitution + transposition, etc.) ne reposent donc plus que sur le « masquage » de Scheidt (2020) et « plus d'une étape » (2015). Elles ne sont ni plus ni moins réfutées qu'avant, mais **moins prioritaires** qu'un système unique inconnu, sans le tableau.
 
