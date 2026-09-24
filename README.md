@@ -14,6 +14,8 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
 
 ## Mise à jour du 24 septembre 2026
 
+- **Synthèse (à lire en premier)** : `docs/knowledge_base/08_synthese_2026_09_24.md`, qui recoupe l'ensemble des bases.
+
 - Documents versés par l'utilisateur (NSA 1991–1992 et 2014, Scheidt et Sanborn 1991, NOVA 2006, réunion Scheidt 2015…) : `sources/docs_utilisateur_2026_09_24/`, lus et résumés dans `docs/knowledge_base/06_documents_2026_09_24.md`.
 - Audit « vision » (liens entre les pistes, tests exacts nouveaux en C, statistiques revues) : `audits/vision_2026_09_24/README.md`. Aucune solution ; plusieurs familles nouvelles éliminées ; la note IMG_1340 est résolue (« ? » non codés).
 - Fichiers du groupe kryptos.groups.io (accès membre) : inventaire complet, lectures et tri des dossiers personnels dans `docs/knowledge_base/07_groupsio_2026_09_24.md` (rien n'est copié dans le dépôt ; références publiques données). Test T7 (textes « enfouis » : directive Truman de la pierre angulaire, cahier des charges CIA 1988, lettre de Sanborn 1989) : négatif. Archive des messages 2003–2018 lue (témoignages directs de rencontres avec Sanborn et Scheidt ; aucune donnée personnelle reprise) : 5 des 6 lettres doublées de K4 sont en position ≡ 4 (mod 7), p ≈ 0,02 après correction ; T8 (« chaîne de masquage » = 1/563) : négatif.

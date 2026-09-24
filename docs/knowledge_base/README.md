@@ -13,4 +13,6 @@ Les bases suivantes sont à consulter **avant tout calcul** :
 
 7. [`07_groupsio_2026_09_24.md`](07_groupsio_2026_09_24.md) — **lecture des fichiers du groupe kryptos.groups.io** (1 780 fichiers inventoriés) : pièces NSA 1991–1999 (dont la section K4 de 1999, toujours classifiée), boîte de la pierre angulaire de la CIA, Intellipedia, fichier NYT 2010 de Sanborn, transcription Scheidt 2020, comptes rendus de dîners 2004–2019, tri des dossiers personnels (81 « clairs » revendiqués, aucun dérivé vérifiable). Test associé : T7.
 
+8. [`08_synthese_2026_09_24.md`](08_synthese_2026_09_24.md) — **synthèse au 24/09** : ce qui est établi, recoupé ou probable (chiffré, clair, procédé), les signaux statistiques corrigés (dont les doublets ≡ 4 mod 7), comment les sources se recoupent et se contredisent, ce qui reste ouvert et ce qui le trancherait. **À lire en premier.**
+
 Principe : comprendre l'intention de Sanborn et ce qu'il met à disposition, puis ne lancer un calcul que si une information nouvelle fixe une recette qui sort de la portée déjà couverte.
