@@ -1,0 +1,211 @@
+# T20, groupe G1 (T11, disque tourné par bloc de 7), 2000 tirages témoins par cas
+contrôle positif G1 T11 bloc de 7, erreur quelconque en crib 22 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+contrôle positif G1 T11 bloc de 7, erreur copie en crib 18 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+contrôle positif G1 T11 bloc de 7, erreur glissement en crib 8 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+  cas 55 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 28 ; par B en
+  cas 85 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 86 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 87 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 88 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 89 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 90 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 91 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 92 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 93 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 94 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 95 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 96 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 98 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 99 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 100 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 101 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 102 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 103 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 104 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 105 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 106 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 107 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 108 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 109 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 111 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 66 ; par B en
+  cas 113 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 115 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 117 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 119 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 121 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 123 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 127 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 129 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 131 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 133 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 135 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 137 (VIG) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 447 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 28 ; par B en
+  cas 477 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 478 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 479 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 480 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 481 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 482 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 483 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 484 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 485 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 486 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 487 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 488 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 490 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 491 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 492 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 493 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 494 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 495 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 496 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 497 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 498 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 499 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 500 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 24
+  cas 501 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 24 66 ; par B en 66
+  cas 503 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 66 ; par B en
+  cas 505 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 507 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 509 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 511 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 513 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 515 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 519 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 521 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 523 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 525 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 527 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+  cas 529 (VARB) : exact 0, A 1, B 0 ; sauvé par A en 24 ; par B en
+G1 T11 bloc de 7, tranche 0/1 : 588 cas (588 distincts) ; K4 compatible : exact 0, ≤1 erreur quelconque 76, ≤1 erreur Sanborn 48 ; non tranchés 0
+  positions de crib qui sauvent K4 (cas distincts) — A : 24:72 28:2 66:50
+  — B : 24:24 66:24
+  témoins (2000 tirages) : taux exact 0.0030, ≤1 quelconque 0.1220, ≤1 Sanborn 0.0385 ; attendu sur 588 cas : 1.8 / 71.7 / 22.6
+
+Distribution du nombre de cas compatibles (sur les 588 cas de T11) pour 120 chiffrés aléatoires :
+  exact : K4 0 ; moyenne 1.2, médiane 0 ; P(≥ K4) = 1.00 ; P(≤ K4) = 0.92
+  ≤1 erreur quelconque : K4 76 ; moyenne 69.2, médiane 38 ; P(≥ K4) = 0.33 ; P(≤ K4) = 0.68
+  ≤1 erreur Sanborn : K4 48 ; moyenne 26.6, médiane 1 ; P(≥ K4) = 0.17 ; P(≤ K4) = 0.83
+
+# Valeurs brutes (deux tranches de 60)
+témoin 0 : exact 0, A 78, B 26
+témoin 1 : exact 0, A 1, B 0
+témoin 2 : exact 0, A 209, B 106
+témoin 3 : exact 0, A 245, B 118
+témoin 4 : exact 0, A 21, B 3
+témoin 5 : exact 0, A 105, B 41
+témoin 6 : exact 0, A 26, B 0
+témoin 7 : exact 0, A 17, B 14
+témoin 8 : exact 0, A 0, B 0
+témoin 9 : exact 0, A 231, B 155
+témoin 10 : exact 0, A 2, B 0
+témoin 11 : exact 0, A 65, B 2
+témoin 12 : exact 0, A 0, B 0
+témoin 13 : exact 24, A 257, B 183
+témoin 14 : exact 0, A 179, B 38
+témoin 15 : exact 0, A 247, B 88
+témoin 16 : exact 0, A 0, B 0
+témoin 17 : exact 0, A 0, B 0
+témoin 18 : exact 0, A 82, B 26
+témoin 19 : exact 0, A 0, B 0
+témoin 20 : exact 2, A 140, B 60
+témoin 21 : exact 0, A 0, B 0
+témoin 22 : exact 0, A 1, B 0
+témoin 23 : exact 0, A 30, B 0
+témoin 24 : exact 0, A 37, B 1
+témoin 25 : exact 39, A 363, B 303
+témoin 26 : exact 0, A 162, B 14
+témoin 27 : exact 0, A 47, B 22
+témoin 28 : exact 0, A 132, B 38
+témoin 29 : exact 0, A 44, B 3
+témoin 30 : exact 0, A 39, B 14
+témoin 31 : exact 0, A 52, B 0
+témoin 32 : exact 0, A 25, B 0
+témoin 33 : exact 0, A 0, B 0
+témoin 34 : exact 0, A 260, B 23
+témoin 35 : exact 0, A 0, B 0
+témoin 36 : exact 0, A 81, B 26
+témoin 37 : exact 0, A 30, B 2
+témoin 38 : exact 0, A 0, B 0
+témoin 39 : exact 0, A 0, B 0
+témoin 40 : exact 0, A 52, B 12
+témoin 41 : exact 0, A 24, B 12
+témoin 42 : exact 1, A 258, B 130
+témoin 43 : exact 0, A 0, B 0
+témoin 44 : exact 0, A 41, B 0
+témoin 45 : exact 0, A 25, B 12
+témoin 46 : exact 0, A 62, B 0
+témoin 47 : exact 0, A 4, B 0
+témoin 48 : exact 0, A 56, B 38
+témoin 49 : exact 0, A 2, B 0
+témoin 50 : exact 0, A 0, B 0
+témoin 51 : exact 0, A 15, B 0
+témoin 52 : exact 0, A 200, B 72
+témoin 53 : exact 0, A 0, B 0
+témoin 54 : exact 0, A 252, B 129
+témoin 55 : exact 0, A 1, B 0
+témoin 56 : exact 51, A 310, B 220
+témoin 57 : exact 0, A 13, B 0
+témoin 58 : exact 0, A 0, B 0
+témoin 59 : exact 0, A 79, B 0
+témoin 0 : exact 0, A 125, B 83
+témoin 1 : exact 24, A 170, B 132
+témoin 2 : exact 0, A 28, B 0
+témoin 3 : exact 0, A 53, B 0
+témoin 4 : exact 0, A 0, B 0
+témoin 5 : exact 0, A 14, B 0
+témoin 6 : exact 0, A 24, B 0
+témoin 7 : exact 0, A 59, B 14
+témoin 8 : exact 0, A 3, B 0
+témoin 9 : exact 0, A 244, B 66
+témoin 10 : exact 0, A 318, B 181
+témoin 11 : exact 0, A 0, B 0
+témoin 12 : exact 2, A 84, B 26
+témoin 13 : exact 0, A 0, B 0
+témoin 14 : exact 0, A 2, B 2
+témoin 15 : exact 0, A 38, B 12
+témoin 16 : exact 0, A 30, B 2
+témoin 17 : exact 0, A 75, B 43
+témoin 18 : exact 0, A 26, B 0
+témoin 19 : exact 0, A 117, B 25
+témoin 20 : exact 0, A 0, B 0
+témoin 21 : exact 2, A 93, B 28
+témoin 22 : exact 0, A 105, B 26
+témoin 23 : exact 0, A 19, B 3
+témoin 24 : exact 0, A 103, B 1
+témoin 25 : exact 0, A 69, B 1
+témoin 26 : exact 0, A 12, B 0
+témoin 27 : exact 0, A 61, B 48
+témoin 28 : exact 0, A 36, B 0
+témoin 29 : exact 0, A 26, B 1
+témoin 30 : exact 0, A 82, B 78
+témoin 31 : exact 0, A 53, B 0
+témoin 32 : exact 0, A 1, B 0
+témoin 33 : exact 0, A 0, B 0
+témoin 34 : exact 0, A 0, B 0
+témoin 35 : exact 0, A 142, B 29
+témoin 36 : exact 2, A 131, B 51
+témoin 37 : exact 0, A 76, B 4
+témoin 38 : exact 0, A 49, B 5
+témoin 39 : exact 0, A 51, B 0
+témoin 40 : exact 0, A 0, B 0
+témoin 41 : exact 0, A 84, B 0
+témoin 42 : exact 0, A 25, B 24
+témoin 43 : exact 0, A 0, B 0
+témoin 44 : exact 0, A 80, B 3
+témoin 45 : exact 0, A 0, B 0
+témoin 46 : exact 0, A 0, B 0
+témoin 47 : exact 0, A 0, B 0
+témoin 48 : exact 0, A 6, B 1
+témoin 49 : exact 0, A 25, B 0
+témoin 50 : exact 0, A 0, B 0
+témoin 51 : exact 0, A 0, B 0
+témoin 52 : exact 0, A 125, B 56
+témoin 53 : exact 0, A 168, B 38
+témoin 54 : exact 0, A 156, B 64
+témoin 55 : exact 0, A 42, B 0
+témoin 56 : exact 0, A 14, B 13
+témoin 57 : exact 0, A 79, B 5
+témoin 58 : exact 3, A 331, B 173
+témoin 59 : exact 0, A 42, B 24

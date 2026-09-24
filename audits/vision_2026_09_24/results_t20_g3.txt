@@ -1,0 +1,14 @@
+# T20, groupe G3 (T16, clé transposée, L ≤ 7) : K4 et 800 tirages
+contrôle positif G3 T16 clé transposée L≤7, erreur quelconque en crib 19 : exact 1, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+contrôle positif G3 T16 clé transposée L≤7, erreur copie en crib 23 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+contrôle positif G3 T16 clé transposée L≤7, erreur glissement en crib 6 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+G3 T16 clé transposée L≤7, tranche 0/1 : 423360 cas (17970 distincts) ; K4 compatible : exact 0, ≤1 erreur quelconque 24, ≤1 erreur Sanborn 6 ; non tranchés 0
+  positions de crib qui sauvent K4 (cas distincts) — A : 21:1 22:1 23:1 25:2 26:3 28:1 31:1 32:1 33:1 66:1 67:1 68:2 69:1 71:3 72:2 73:1
+  — B : 21:1 32:1 66:1 71:1 73:1
+  témoins (800 tirages) : taux exact 0.0000, ≤1 quelconque 0.0025, ≤1 Sanborn 0.0000 ; attendu sur 423360 cas : 0.0 / 1058.4 / 0.0
+
+# Détail des cas rouverts par une erreur « Sanborn »
+  cas 58980 (BEAU) : exact 0, A 1, B 1 ; sauvé par A en 21 22 23 25 26 28 31 32 33 66 67 68 69 71 72 73 ; par B en 21 32 66 71 73
+
+# Témoins seuls, 15 000 tirages
+  témoins (15000 tirages) : taux exact 0.0000, ≤1 quelconque 0.0015, ≤1 Sanborn 0.0004 ; attendu sur 423360 cas : 0.0 / 649.2 / 169.3

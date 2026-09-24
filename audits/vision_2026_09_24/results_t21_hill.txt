@@ -1,0 +1,10 @@
+n=5 ter A=1 enc φ=0 : exact 0, A 1, B 0 ; sauvé par une erreur en [25, 65] ; témoins A 1/50
+n=6 012 A=1 enc φ=1 : exact 0, A 1, B 0 ; sauvé par une erreur en [30, 72] ; témoins A 15/50
+n=6 012 KA enc φ=1 : exact 0, A 1, B 0 ; sauvé par une erreur en [27, 69] ; témoins A 9/50
+n=6 ter A=1 enc φ=1 : exact 0, A 1, B 0 ; sauvé par une erreur en [30, 72] ; témoins A 10/50
+n=6 ter KA enc φ=2 : exact 0, A 1, B 0 ; sauvé par une erreur en [27, 69] ; témoins A 33/50
+TOTAL n = 2..6 : 360 cas ; K4 compatible : exact 0, ≤1 erreur quelconque 5, ≤1 copie 0 ; attendu au hasard : 1.2 / 4.9 / 1.7
+
+real	0m6.655s
+user	0m6.375s
+sys	0m0.123s

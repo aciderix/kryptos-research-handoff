@@ -1,0 +1,9 @@
+704880 cadrans distincts
+positions « copie » de K4 : [32, 73]
+K4 : cadrans×sens compatibles exact 0, ≤1 erreur quelconque 0, ≤1 copie 0 (sur 1409760)
+témoins (600 tirages) : taux 0.0000 / 0.0000 / 0.0000 ; attendu sur 1409760 : 0.0 / 0.0 / 0.0
+contrôle positif (une lettre de crib fausse) : 20/20 reconnus avec au plus une erreur
+
+real	4m6.634s
+user	3m57.162s
+sys	0m0.756s

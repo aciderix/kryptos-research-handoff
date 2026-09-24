@@ -1,0 +1,12 @@
+# T20, groupe G2 (T11b, blocs 5..30 sauf 7), deux tranches
+contrôle positif G2 T11b blocs 5..30, erreur quelconque en crib 7 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 0
+contrôle positif G2 T11b blocs 5..30, erreur copie en crib 21 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+contrôle positif G2 T11b blocs 5..30, erreur glissement en crib 1 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+G2 T11b blocs 5..30, tranche 0/2 : 17472 cas (16429 distincts) ; K4 compatible : exact 0, ≤1 erreur quelconque 168, ≤1 erreur Sanborn 132 ; non tranchés 0
+  positions de crib qui sauvent K4 (cas distincts) — A : 23:48 24:72 25:12 27:24 28:24 32:132 33:60 65:36 66:24
+  — B : 24:24 32:132 65:24 66:24
+  témoins (500 tirages) : taux exact 0.0020, ≤1 quelconque 0.0160, ≤1 Sanborn 0.0060 ; attendu sur 17472 cas : 34.9 / 279.6 / 104.8
+G2 T11b blocs 5..30, tranche 1/2 : 17472 cas (16842 distincts) ; K4 compatible : exact 0, ≤1 erreur quelconque 192, ≤1 erreur Sanborn 132 ; non tranchés 0
+  positions de crib qui sauvent K4 (cas distincts) — A : 22:24 23:72 24:72 25:12 27:36 28:24 29:24 31:24 32:108 33:84 65:36 66:48
+  — B : 23:24 29:24 31:24 32:108 65:24
+  témoins (500 tirages) : taux exact 0.0000, ≤1 quelconque 0.0120, ≤1 Sanborn 0.0060 ; attendu sur 17472 cas : 0.0 / 209.7 / 104.8
