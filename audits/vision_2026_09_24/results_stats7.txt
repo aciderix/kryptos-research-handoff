@@ -1,0 +1,14 @@
+K4 : doublets [18, 25, 32, 42, 46, 67] ; coïncidences à l'écart 7 : 9 ; bigrammes verticaux répétés en largeur 21 : 11
+module 7 seul : p(D) = 0.00059 ; p(C) = 0.00486 ; p(V) = 0.00170
+corrélations sous le nul (module 7) : D/C -0.016 ; D/V +0.013 ; C/V +0.006
+D seul, meilleur module 2–24 : p corrigée = 0.00302
+C seul, meilleur module 2–24 : p corrigée = 0.06278
+V seul, meilleur module 2–24 : p corrigée = 0.01502
+D × C : meilleur module pour K4 = 7 ; p corrigée = 0.00015 (15/100000)
+D × V : meilleur module pour K4 = 7 ; p corrigée = 0.00005 (5/100000)
+C × V : meilleur module pour K4 = 7 ; p corrigée = 0.00107 (107/100000)
+D × C × V : meilleur module pour K4 = 7 ; p corrigée = 0.00001 (1/100000)
+
+real	1m21.203s
+user	1m19.698s
+sys	0m1.100s

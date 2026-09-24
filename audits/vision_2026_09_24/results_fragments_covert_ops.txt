@@ -1,0 +1,17 @@
+Zola : longueurs des lignes [33, 33, 33, 33, 33, 32, 33, 33, 34, 33, 35, 34, 34, 34, 34, 33]
+  remplissage retiré (au-delà de 32) : ['L', 'W', 'Y', 'E', 'P', '', 'T', 'L', 'SS', 'O', 'LLL', 'II', 'SS', 'EE', 'EE', 'T']
+  512 lettres ; clair (16 colonnes lues de droite à gauche) :
+   SLOWLYDESPERATELYSLOWLYITSEEMEDTOUSASWEWATCHEDTHEREMAINSOFPASSAGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWEREREMOVED … HEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDINICOULDSEENOTHINGXX
+
+Petit fragment : lignes [25, 24, 24, 24] = 97 lettres ; clair 97
+  déchiffré tel que gravé : UNCOVERINBINTENTIONSISZHESTRONGPOINTOFHUMANESPIONAGEBUTITISANEXAGGERATIONTOSAYTHATONLYERPIOWAGECO
+  erreurs (position 0-base, clair, lettre de clé, chiffré attendu, gravé, écart dans l'alphabet KRYPTOS) :
+    (9, 'G', 'D', 'W', 'M', -5)
+    (22, 'T', 'O', 'C', 'T', -5)
+    (87, 'S', 'D', 'J', 'E', -5)
+    (91, 'N', 'H', 'A', 'E', 4)
+  P(au moins 3 des 4 écarts égaux | écarts au hasard) ≈ 0.0062
+  lecture : aux positions 9 et 87, la clé D a été remplacée par la lettre suivante de SHADOW (O) ;
+  en 22, le clair T a été recopié sans chiffrement (gravé T = clair T, soit la clé K) ; en 91, clé M au lieu de H.
+
+Si K4 avait 4 erreurs sur 97 placées au hasard : P(aucune dans les 24 lettres des cribs) = 0.31

@@ -1,0 +1,5 @@
+812876 mots, 704880 cadrans distincts
+cadrans où les trois doublets des cribs sont possibles (O–N–I et T–S voisins) : 1434
+cadrans compatibles avec K4 (deux cribs, cadran intérieur quelconque) : 0
+témoin global : 0 compatibilités pour 300 cadrans × 2 sens sur des chiffrés aléatoires
+contrôle positif : 20/20 faux K4 reconnus

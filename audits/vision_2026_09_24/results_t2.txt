@@ -1,0 +1,60 @@
+contrôle Bean 26717 QIV : 1 (attendu 1) ; QIII VIG/BEAU/VARB : 0 0 0
+contrôle positif QIII base 26 : 1 (attendu 1)
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 0.0 pour 100 clés
+R1 base 10 amorce 2 : 100 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 0.00 par balayage | 0.0s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 0.4 pour 1000 clés
+R1 base 10 amorce 3 : 1000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 17.33 par balayage | 0.0s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 3.8 pour 10000 clés
+R1 base 10 amorce 4 : 10000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 3 | témoins (3) : QIII 0.00 par balayage, QIV 305.67 par balayage | 0.0s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 40.0 pour 100000 clés
+R1 base 10 amorce 5 : 100000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 39 | témoins (3) : QIII 0.00 par balayage, QIV 1744.33 par balayage | 0.1s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 371.0 pour 1000000 clés
+R1 base 10 amorce 6 : 1000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 412 | témoins (1) : QIII 0.00 par balayage, QIV 9846.00 par balayage | 1.1s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 0.4 pour 1000 clés
+R2 base 10 amorce 3 : 1000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 39.00 par balayage | 0.0s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 3.8 pour 10000 clés
+R2 base 10 amorce 4 : 10000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 6 | témoins (3) : QIII 0.00 par balayage, QIV 243.33 par balayage | 0.0s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 38.5 pour 100000 clés
+R2 base 10 amorce 5 : 100000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 20 | témoins (3) : QIII 0.00 par balayage, QIV 26.00 par balayage | 0.2s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 376.0 pour 1000000 clés
+R2 base 10 amorce 6 : 1000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 433 | témoins (1) : QIII 0.00 par balayage, QIV 339.00 par balayage | 1.6s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 4.1 pour 10000 clés
+R3 base 10 amorce 4 : 10000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 28.00 par balayage | 0.0s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 39.0 pour 100000 clés
+R3 base 10 amorce 5 : 100000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 30 | témoins (3) : QIII 0.00 par balayage, QIV 845.33 par balayage | 0.1s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 380.0 pour 1000000 clés
+R3 base 10 amorce 6 : 1000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 405 | témoins (1) : QIII 0.00 par balayage, QIV 2353.00 par balayage | 1.1s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 4.0 pour 10000 clés
+R4 base 10 amorce 4 : 10000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 2 | témoins (3) : QIII 0.00 par balayage, QIV 94.33 par balayage | 0.0s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 39.8 pour 100000 clés
+R4 base 10 amorce 5 : 100000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 58 | témoins (3) : QIII 0.00 par balayage, QIV 720.00 par balayage | 0.2s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 398.0 pour 1000000 clés
+R4 base 10 amorce 6 : 1000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 434 | témoins (1) : QIII 0.00 par balayage, QIV 98379.00 par balayage | 1.6s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 0.3 pour 676 clés
+R1 base 26 amorce 2 : 676 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 40.00 par balayage | 0.0s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 9.3 pour 17576 clés
+R1 base 26 amorce 3 : 17576 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 1052.00 par balayage | 0.0s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 212.0 pour 456976 clés
+R1 base 26 amorce 4 : 456976 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 26732.00 par balayage | 0.6s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 5057.0 pour 11881376 clés
+R1 base 26 amorce 5 : 11881376 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 4860 | témoins (1) : QIII 0.00 par balayage, QIV 1617636.00 par balayage | 13.6s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 0.3 pour 676 clés
+R2 base 26 amorce 2 : 676 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 32.00 par balayage | 0.0s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 8.4 pour 17576 clés
+R2 base 26 amorce 3 : 17576 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 1336.00 par balayage | 0.0s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 204.0 pour 456976 clés
+R2 base 26 amorce 4 : 456976 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 204 | témoins (3) : QIII 0.00 par balayage, QIV 56420.00 par balayage | 0.8s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 5403.0 pour 11881376 clés
+R2 base 26 amorce 5 : 11881376 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 4248 | témoins (1) : QIII 0.00 par balayage, QIV 70464.00 par balayage | 18.7s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 7.6 pour 17576 clés
+R3 base 26 amorce 3 : 17576 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 1176.00 par balayage | 0.0s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 225.0 pour 456976 clés
+R3 base 26 amorce 4 : 456976 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 192 | témoins (3) : QIII 0.00 par balayage, QIV 49676.00 par balayage | 0.5s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 5277.0 pour 11881376 clés
+R3 base 26 amorce 5 : 11881376 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 4548 | témoins (1) : QIII 0.00 par balayage, QIV 209232.00 par balayage | 13.3s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 8.2 pour 17576 clés
+R4 base 26 amorce 3 : 17576 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 24 | témoins (3) : QIII 0.00 par balayage, QIV 992.00 par balayage | 0.0s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 189.0 pour 456976 clés
+R4 base 26 amorce 4 : 456976 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 0 | témoins (3) : QIII 0.00 par balayage, QIV 1552.00 par balayage | 0.7s
+   clés i.i.d. base 26 sur les cribs de K4 : attendu QIII 0.000, QIV 5302.0 pour 11881376 clés
+R4 base 26 amorce 5 : 11881376 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 9888 | témoins (1) : QIII 0.00 par balayage, QIV 1831704.00 par balayage | 18.9s

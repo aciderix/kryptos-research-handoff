@@ -1,0 +1,50 @@
+K4 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+K4 2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+temps K4 : 16.3s
+témoin 0 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 1 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 9/24
+témoin 2 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 3 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 7/24
+témoin 4 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 7/24
+témoin 5 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 6 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 7 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 8 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 9/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 10/24
+témoin 9 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 10 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 9/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 11 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 12 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 9/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 13 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 9/24
+témoin 14 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 15 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 7/24
+témoin 16 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 7/24
+témoin 17 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 18 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+témoin 19 : 1D : 33852 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 8/24
+           2D : 21336 clés | L3 VIG/BEAU/VARB 0/0/0 | NA 0/0/0 | NK 0/0/0 | alphabets fixés max 7/24
+TÉMOINS (20 chiffrés aléatoires) : total L3 0, total NA+NK 0
+distribution du max alphabets fixés 1D : 8:17 9:3
+distribution du max alphabets fixés 2D : 7:5 8:12 9:2 10:1
+
+real	6m8.550s
+user	6m5.596s
+sys	0m0.016s

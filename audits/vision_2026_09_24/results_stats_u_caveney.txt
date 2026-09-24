@@ -1,0 +1,8 @@
+K4 écart 2 : (True, 3)
+mélanges : propriété à l'écart 2 : 0.00018 ; à un écart 2, 3 ou 4 : 0.00065
+trigrammes ABA dans K4 : [(5, 'OXO'), (35, 'TWT'), (87, 'UHU'), (89, 'UAU')]
+nombre ABA : K4 4 ; moyenne mélanges 3.32 ; P(>=) 0.423
+
+real	0m27.134s
+user	0m27.142s
+sys	0m0.032s

@@ -136,6 +136,10 @@ Kryptos n'est pas seulement l'écran de cuivre. Inauguré à Langley le **5 nove
 | 2020 | Sanborn | « Le pouvoir réside dans un secret, pas sans lui. » | P | Washington Post (via [W-K]) |
 | août 2025 | Sanborn | Lettre ouverte (texte intégral reçu) : vente du clair, *« AI has been a recent curse for Kryptos K4 and is responsible for a flood of meaningless decrypts »* ; un système de **vérification par IA** est en préparation pour le futur propriétaire ; *« If they don't [keep it secret], then (CLUE) what's the point? Power resides with a secret, not without it »* ; *« even when K4 has been solved, its riddle will persist as K5 »* | P | [OL25] |
 | nov. 2025 | Sanborn | « **Qui dit que c'est même une solution mathématique ?** » ; conseille la « créativité » | P | [SA-25b] |
+| 1991 (ABC) | Scheidt | « J'ai passé environ un mois **après que nous avons choisi le code**, puis j'ai donné à Jim "voilà comment on fait", et c'était tout » ; « Jim est vraiment le seul à savoir ce que ça dit. Pas moi. » | P | base 6 §2.1 |
+| 1991 (ABC) | Sanborn | « **Kryptos… j'ai choisi ce mot comme mot-clé du code** ; le mot-clé d'une partie du texte est Kryptos » ; « c'est **en anglais courant**… mais ce n'est pas toute l'histoire » ; le message **a changé pendant la découpe** ; Scheidt lui conseillait de « ne pas faire les choses sur papier » | P | base 6 §2.2 |
+| 2006 (NOVA, rushes) | Sanborn | chiffré **pendant le trajet en camion** depuis l'Arizona, « il peut donc y avoir quelques erreurs » ; « **je l'ai écrit d'une façon, puis je l'ai réécrit d'une autre façon** » ; « substitutions et matrices… sans mathématiques » ; « le cadran de la boussole **n'est pas orienté nord-sud, il est décalé** » | P | base 6 §2.3 |
+| 24/10/2015 (réunion) | Scheidt | **n'a jamais déchiffré K4** ni vérifié les erreurs de Jim ; « plus d'une étape », **masque en première étape** ; il avait envisagé de **changer de base mathématique (2, 16) mais on lui a demandé de ne pas le faire** ; langues éteintes écartées ; mots à double sens (« coca-cola ») | P (rapporté) | base 6 §2.4 |
 | 2025 | Sanborn | « Ils l'ont découvert. Ils ne l'ont pas déchiffré. Ils n'ont pas la clé. Ils n'ont pas la méthode. » ; « Ce qu'ils ont trouvé, c'est du texte brouillé, pas une résolution du cryptogramme. » ; « K4 a été découvert et il pointe vers K5. » | P | [RR-disc] |
 
 ## 4 bis. Source primaire majeure : entretien d'histoire orale, Archives of American Art (14–16 juillet 2009)
@@ -205,7 +209,7 @@ Source : https://www.thekryptosproject.com/kryptos/cia/thecryptogram/pdfs/Binder
 ## 4 quater. Autres déclarations primaires (sources publiques, lues le 23/09)
 
 ### Sanborn interviewé par A.J. Jacobs (2020)
-Source : https://scienceblogs.de/klausis-krypto-kolumne/files/2020/10/KRYPTOS-Interview-Jacobs.pdf. **Niveau P** (notes d'entretien de Jacobs). À ne pas confondre avec la transcription **Scheidt**/Jacobs de groups.io (non accessible), d'où vient la phrase sur la « base du langage » citée par Bean.
+Source : https://scienceblogs.de/klausis-krypto-kolumne/files/2020/10/KRYPTOS-Interview-Jacobs.pdf. **Niveau P** (notes d'entretien de Jacobs). À ne pas confondre avec la transcription **Scheidt**/Jacobs de groups.io (**lue le 24/09**, voir base 7, §2.11), d'où vient la phrase sur la « base du langage » citée par Bean.
 
 - **Création du code** : *« I came up with a system based on the materials that he [Scheidt] had given me and suggestions from him… **There are codes that depend entirely on patterns. There are pattern codes that are woven into blankets in some countries in Africa** in particular. I mean, so codes can come in many different shapes and sizes. »* Pour la dernière section : *« he gave me a few suggestions, all of which I could then modify myself… he still doesn't know what it says. »*
 - **Faisabilité** : *« it could be done with **pencil and paper** »* ; un ordinateur puissant peut aussi y arriver.
@@ -312,6 +316,9 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 | IMG_1236 | Croquis d'une façade couverte de **symboles** (« ??? ◎◎=◎∩= »), avec une porte : « encrypted message is included within set of modern day font characters. Could be done to shade an area » | Selon toute vraisemblance **un autre projet** : un écran perforé qui fait de l'ombre, avec un message chiffré mêlé aux caractères. La lecture « stéganographie de K4 » de KryptosBot est une **surinterprétation** |
 | IMG_1224 | Tableau KA manuscrit, un seul « H » entouré | Inexploitable sans contexte |
 
+**Mise à jour 24/09 (IMG_1340 résolu).** Les nombres « 4, 8, 10, 2? » se lisent **« 4, 8, 10, 25 »** : ce sont **exactement les lignes du panneau chiffré qui portent les quatre « ? »** (vérifié sur la transcription, `audits/vision_2026_09_24/data/panel_wikipedia.txt`). Le point 4 dit donc : « ? (lignes 4, 8, 10, 25) : non codés ». Le « ? » qui précède OBKR n'appartient pas au chiffrement : **K4 = 97 lettres**. Le point 3 (« Extra L at end of line, bottom chart section ») décrit le L en trop de la ligne N, **première ligne de la plaque du bas** du tableau (la NSA, 14/11/1991, note que les plaques haute et basse sont boulonnées sous la ligne M). Voir base 6.
+
+
 **« Compass cipher » (IMG_1569), recherche du 23/09.**
 - **Lecture confirmée sur la photo :** « Beaufort cipher / Compass cipher / Morse code / Alphabet code », puis « Cryptonyms », « Overlord / Normandy Invasion, H Bo[mb] ».
 - **Contexte :** la page voisine (IMG_1570–1571) décrit les cryptonymes CIA, les émetteurs à rafales, « Codes in the Shadows », « Smoke and Mirrors ». C'est une **liste de thèmes du renseignement**, pas une recette : rien ne la rattache à K4 plutôt qu'à ses œuvres des années 1990 (*Covert Obsolescence*, *Code Room*).
@@ -332,6 +339,30 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 **Ce que cela apporte au raisonnement** *(interprétation)* :
 - Si IMG_1340 se lit bien, Sanborn traite le « L » en trop et les « ? » comme des **particularités expliquées**, pas comme des clés. Les pistes communautaires fondées sur ces anomalies (HILL, « ? » + 97 = 98 = 14 × 7) reposeraient alors sur une **lecture erronée**.
 - IMG_1555 donne une **forme concrète** à ses « systèmes visuels d'encodage, individuels » (2005), au « pull up one layer » (1990) et à la naissance des projections (deux plaques de Kryptos superposées devant une lumière, AAA 2009). L'idée : **un gabarit physique posé sur le texte chiffré**. Si K4 fonctionne ainsi, l'élément manquant est **un objet**, qu'aucune analyse des 97 lettres ne peut reconstituer. Cela expliquerait aussi « qui dit que c'est même une solution mathématique ? » (2025). *Hypothèse, non démontrée.*
+
+## 4 septies. Fichiers du groupe kryptos.groups.io (lus le 24/09)
+
+Lecture complète dans [`07_groupsio_2026_09_24.md`](07_groupsio_2026_09_24.md). Apports qui touchent cette base :
+- **Fichier NYT 2010 de Sanborn** : le « ? » n'est pas numéroté, O = 1 … R = 97 (base 7, apport 1).
+- **Scheidt 2020** (transcription intégrale) : le masque « change la base de langue… **pas vers une autre langue, vers autre chose** » ; masque jetable « au sens du résultat » (apport 5).
+- **Scheidt 2015**, version longue : il a « fait » son procédé ; Sanborn a « fait autre chose par-dessus » (apport 6).
+- **Comptes rendus de dîners** (2004, 2009, 2011, 2013, 2019, niveau S) :
+  - « un peu de stéganographie » (2004) ;
+  - « fonction régénérative », « lignes de 21 », « résoluble par un humain » (2011) ;
+  - N=B, Y=E… « déchiffre », repère USGS enterré « important », « K5 ne se résout pas sans K4 » (2013) ;
+  - grilles « tournées et retournées », « machine à laver », « deux matrices » (2019).
+- **Wired 2005** (compilation kryptools) : « J'ai laissé dans le texte antérieur des **instructions qui renvoient au texte postérieur**. »
+- **NPR 2010** : le dernier passage mènera « **dans plusieurs directions** », mot employé « intentionnellement ».
+- **CIA** : cahier des charges artistique de 1988 (« racines américaines… dans les **matériaux** ») ; « l'aiguille pointe vers la magnétite, pas vers le nord magnétique » (Intellipedia).
+- **Archive des messages du groupe 2003–2018** (base 7, §7) :
+  - Sanborn en 2006 : « **toutes mes sections sont séparées par des X**, j'ai utilisé un X au lieu des points » ; « je n'ai jamais parlé du code avec Ed ».
+  - Sanborn en 2005 : lettres posées à la main, **sans plan de pose** ; test K4 fait de lettres à des positions fixes (« jusqu'à 96 »).
+  - Scheidt en 2006 : Sanborn seul ? « **probablement pas** ».
+  - Scheidt en 2007 : le code est « **réfléchissant** » ; masques binaires « autant de 1 que de 0 ».
+  - Scheidt en 2013 : un « oui » à la possibilité d'une erreur de chiffrement de Sanborn.
+  - Maquette de 1988 avec un tableau **GIRASOL**.
+- **CBC 2014** (audio transcrit, base 7 §7.5) : « BERLIN n'était pas précis… j'ai ajouté CLOCK » ; « Berlin a plusieurs horloges d'un type très intéressant » ; « deux mots sur 97, la chose peut être très profonde ».
+- ***Cyrillic Projector*** : Quagmire II, alphabet chiffré mélangé par **ТЕНЬ** (« ombre »), clé de 6 lettres. C'est le système de K1–K2 repris et modifié (base 7 §7.5).
 
 ## 5. Indices officiels sur K4
 
@@ -427,7 +458,7 @@ Page de vulgarisation **tertiaire**, qui cite Wikipédia, Dunin, Stein, le NYT e
 - Relevé métrique de l'écran K4 : lignes, retraits, « ? », lettres surélevées « YAR ».
 - Différences **Antipodes / Kryptos** lettre à lettre (Antipodes contient K4 ?).
 - Interviews vidéo : NOVA 2013 (feuille K3 avec « P/C »), Big Techday 2013, LEMMiNO.
-- ~~Article de Bean~~ et ~~entretien AAA 2009~~ : intégrés le 23/09. ~~Lettre ouverte d'août 2025~~ : texte intégral reçu (voir ci-dessous). Reste : la **transcription Scheidt 2020 (A.J. Jacobs)** ; les comptes rendus du **dîner de 2011** (Hannon).
+- ~~Article de Bean~~ et ~~entretien AAA 2009~~ : intégrés le 23/09. ~~Lettre ouverte d'août 2025~~ : texte intégral reçu (voir ci-dessous). ~~Transcription Scheidt 2020 (A.J. Jacobs)~~ et ~~comptes rendus du dîner de 2011~~ : lus le 24/09 sur le groupe (base 7, §2.11 et §2.13), avec ceux des dîners de 2004, 2009, 2013 et de la visite au studio de 2019.
 
 ## Sources
 

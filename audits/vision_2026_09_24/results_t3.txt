@@ -1,0 +1,16 @@
+contrôle positif (10,8) KA/KA VIG : 1 (attendu 1) ; (7,9) : 0
+K4 : 7113 cases compatibles sur 11700
+témoins : moyenne 7118.4 cases compatibles ; P(témoin ≥ K4) = 142/200
+cases sévères (hasard ≤ 1 %) compatibles pour K4 : 0 ; attendu au hasard : 0.41
+  AZ/AZ VIG : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  AZ/AZ BEAU : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  AZ/AZ VARB : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  AZ/KA VIG : plus petit couple compatible (7,18) somme 25 ; hasard à ce couple 0.04
+  AZ/KA BEAU : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  AZ/KA VARB : plus petit couple compatible (7,18) somme 25 ; hasard à ce couple 0.04
+  KA/AZ VIG : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  KA/AZ BEAU : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  KA/AZ VARB : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  KA/KA VIG : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  KA/KA BEAU : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00
+  KA/KA VARB : plus petit couple compatible (9,16) somme 25 ; hasard à ce couple 1.00

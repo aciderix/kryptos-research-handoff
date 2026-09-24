@@ -1,0 +1,13 @@
+contrôle : 1/563 à partir de la 3e décimale = 17761989342806394316… (attendu 17761989342806394316)
+K4  D1 (1 chiffre)     : 281 décalages | σ quelconque compatibles 0 | alphabets fixés max 6/24
+K4  D2 (paires mod 26) : 562 décalages | σ quelconque compatibles 0 | alphabets fixés max 5/24
+témoin 0 : D1 σ 0, fixés 5/24 | D2 σ 0, fixés 5/24
+témoin 1 : D1 σ 0, fixés 6/24 | D2 σ 0, fixés 6/24
+témoin 2 : D1 σ 0, fixés 5/24 | D2 σ 0, fixés 6/24
+témoin 3 : D1 σ 0, fixés 6/24 | D2 σ 0, fixés 5/24
+témoin 4 : D1 σ 0, fixés 7/24 | D2 σ 0, fixés 5/24
+témoin 5 : D1 σ 0, fixés 6/24 | D2 σ 0, fixés 7/24
+témoin 6 : D1 σ 0, fixés 6/24 | D2 σ 0, fixés 5/24
+témoin 7 : D1 σ 0, fixés 6/24 | D2 σ 0, fixés 5/24
+témoin 8 : D1 σ 0, fixés 6/24 | D2 σ 0, fixés 5/24
+témoin 9 : D1 σ 0, fixés 6/24 | D2 σ 0, fixés 5/24

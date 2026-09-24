@@ -1,0 +1,6 @@
+contrôle positif (φ=3, s=1, VIG) : 1 (attendu 1)
+TOTAL : 588 cas ; K4 compatible dans 0 ; non tranchés 0 ; attendu pour un chiffré aléatoire : 1.7
+
+real	0m7.705s
+user	0m7.672s
+sys	0m0.001s

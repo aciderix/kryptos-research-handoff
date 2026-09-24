@@ -1,0 +1,12 @@
+
+A comparison between the current “zero-based” 5-bit Binary and US Teletype (TTY) Code
+
+Note: Though US TTY Code is called “Baudot,” it is not the same as either original  Baudot code or  the Murray code and was created by Western Union.
+
+
+
+
+ 	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z		 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1		 	0	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	0	0	0	0	0	0	0	0	1	1		5b Binary	0	0	0	0	1	1	1	1	0	0	0	0	1	1	1	1	0	0	0	0	1	1	1	1	0	0		 	0	0	1	1	0	0	1	1	0	0	1	1	0	0	1	1	0	0	1	1	0	0	1	1	0	0		 	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1		 	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z		 	0	1	0	0	0	0	1	1	0	0	0	0	1	0	1	1	1	0	0	1	0	1	1	1	1	1		US TTY	0	1	1	1	0	1	1	0	0	1	1	1	1	1	1	0	0	1	0	0	0	1	0	1	0	0		 	0	0	1	0	0	1	0	1	1	0	1	0	1	1	0	1	1	0	1	0	1	1	0	1	1	0		 	1	0	1	0	0	0	1	0	1	1	1	1	0	0	0	1	1	1	0	0	1	1	1	0	0	0		 	1	1	0	1	1	1	0	0	0	1	1	0	0	0	0	0	1	0	1	0	1	0	1	1	1	1		
+ HYPERLINK "http://en.wikipedia.org/wiki/Baudot_code" Baudot code
+
+ HYPERLINK "http://www.nadcomm.com/fiveunit/fiveunits.htm" Five-unit Codes

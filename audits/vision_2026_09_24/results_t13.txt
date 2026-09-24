@@ -1,0 +1,183 @@
+contrôle positif Hill 7 × 7 binaire : chiffrement reconnu, déchiffrement reconnu
+Détail n = 7 (cas avec au moins 2 contraintes par ligne) : lignes sans candidat pour K4 ; témoins compatibles sur 100
+  bin A=0 enc φ=0 : 14 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=0 enc φ=1 : 14 contraintes ; lignes vides 4 ; témoins 0/100
+  bin A=0 enc φ=2 : 14 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=0 enc φ=3 : 14 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=0 enc φ=4 : 14 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=0 dec φ=0 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=0 dec φ=1 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=0 dec φ=2 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=0 dec φ=3 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=0 dec φ=4 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=0 dec φ=5 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=0 dec φ=6 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=1 enc φ=0 : 14 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 enc φ=1 : 14 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=1 enc φ=2 : 14 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=1 enc φ=3 : 14 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 enc φ=4 : 14 contraintes ; lignes vides 6 ; témoins 0/100
+  bin A=1 dec φ=0 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 dec φ=1 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 dec φ=2 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 dec φ=3 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 dec φ=4 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 dec φ=5 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin A=1 dec φ=6 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA enc φ=0 : 14 contraintes ; lignes vides 5 ; témoins 0/100
+  bin KA enc φ=1 : 14 contraintes ; lignes vides 6 ; témoins 0/100
+  bin KA enc φ=2 : 14 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA enc φ=3 : 14 contraintes ; lignes vides 6 ; témoins 0/100
+  bin KA enc φ=4 : 14 contraintes ; lignes vides 5 ; témoins 0/100
+  bin KA dec φ=0 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA dec φ=1 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA dec φ=2 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA dec φ=3 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA dec φ=4 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA dec φ=5 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  bin KA dec φ=6 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  ter A=0 enc φ=0 : 14 contraintes ; lignes vides 0 ; témoins 100/100
+  ter A=0 enc φ=1 : 14 contraintes ; lignes vides 0 ; témoins 80/100
+  ter A=0 enc φ=2 : 14 contraintes ; lignes vides 3 ; témoins 25/100
+  ter A=0 enc φ=3 : 14 contraintes ; lignes vides 3 ; témoins 9/100
+  ter A=0 enc φ=4 : 14 contraintes ; lignes vides 3 ; témoins 50/100
+  ter A=0 dec φ=0 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=0 dec φ=1 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=0 dec φ=2 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=0 dec φ=3 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=0 dec φ=4 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=0 dec φ=5 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=0 dec φ=6 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=1 enc φ=0 : 14 contraintes ; lignes vides 0 ; témoins 72/100
+  ter A=1 enc φ=1 : 14 contraintes ; lignes vides 2 ; témoins 9/100
+  ter A=1 enc φ=2 : 14 contraintes ; lignes vides 1 ; témoins 29/100
+  ter A=1 enc φ=3 : 14 contraintes ; lignes vides 2 ; témoins 16/100
+  ter A=1 enc φ=4 : 14 contraintes ; lignes vides 1 ; témoins 20/100
+  ter A=1 dec φ=0 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=1 dec φ=1 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  ter A=1 dec φ=2 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=1 dec φ=3 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=1 dec φ=4 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter A=1 dec φ=5 : 24 contraintes ; lignes vides 5 ; témoins 0/100
+  ter A=1 dec φ=6 : 24 contraintes ; lignes vides 5 ; témoins 0/100
+  ter KA enc φ=0 : 14 contraintes ; lignes vides 2 ; témoins 2/100
+  ter KA enc φ=1 : 14 contraintes ; lignes vides 3 ; témoins 5/100
+  ter KA enc φ=2 : 14 contraintes ; lignes vides 2 ; témoins 58/100
+  ter KA enc φ=3 : 14 contraintes ; lignes vides 3 ; témoins 10/100
+  ter KA enc φ=4 : 14 contraintes ; lignes vides 0 ; témoins 98/100
+  ter KA dec φ=0 : 24 contraintes ; lignes vides 5 ; témoins 0/100
+  ter KA dec φ=1 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter KA dec φ=2 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter KA dec φ=3 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  ter KA dec φ=4 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  ter KA dec φ=5 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  ter KA dec φ=6 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=0 enc φ=0 : 14 contraintes ; lignes vides 0 ; témoins 100/100
+  012 A=0 enc φ=1 : 14 contraintes ; lignes vides 1 ; témoins 85/100
+  012 A=0 enc φ=2 : 14 contraintes ; lignes vides 2 ; témoins 25/100
+  012 A=0 enc φ=3 : 14 contraintes ; lignes vides 3 ; témoins 9/100
+  012 A=0 enc φ=4 : 14 contraintes ; lignes vides 3 ; témoins 52/100
+  012 A=0 dec φ=0 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=0 dec φ=1 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=0 dec φ=2 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=0 dec φ=3 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=0 dec φ=4 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=0 dec φ=5 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=0 dec φ=6 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=1 enc φ=0 : 14 contraintes ; lignes vides 0 ; témoins 81/100
+  012 A=1 enc φ=1 : 14 contraintes ; lignes vides 2 ; témoins 15/100
+  012 A=1 enc φ=2 : 14 contraintes ; lignes vides 0 ; témoins 26/100
+  012 A=1 enc φ=3 : 14 contraintes ; lignes vides 1 ; témoins 22/100
+  012 A=1 enc φ=4 : 14 contraintes ; lignes vides 1 ; témoins 28/100
+  012 A=1 dec φ=0 : 24 contraintes ; lignes vides 5 ; témoins 0/100
+  012 A=1 dec φ=1 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=1 dec φ=2 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=1 dec φ=3 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=1 dec φ=4 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=1 dec φ=5 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 A=1 dec φ=6 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  012 KA enc φ=0 : 14 contraintes ; lignes vides 2 ; témoins 3/100
+  012 KA enc φ=1 : 14 contraintes ; lignes vides 2 ; témoins 3/100
+  012 KA enc φ=2 : 14 contraintes ; lignes vides 1 ; témoins 54/100
+  012 KA enc φ=3 : 14 contraintes ; lignes vides 1 ; témoins 12/100
+  012 KA enc φ=4 : 14 contraintes ; lignes vides 0 ; témoins 95/100
+  012 KA dec φ=0 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  012 KA dec φ=1 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 KA dec φ=2 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 KA dec φ=3 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 KA dec φ=4 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+  012 KA dec φ=5 : 24 contraintes ; lignes vides 6 ; témoins 0/100
+  012 KA dec φ=6 : 24 contraintes ; lignes vides 7 ; témoins 0/100
+n=7 012 A=0 enc φ=0 (14 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 012 A=0 enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 012 A=0 enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 012 A=1 enc φ=0 (14 contraintes) : K4 COMPATIBLE ; témoins 42/50
+n=7 012 A=1 enc φ=2 (14 contraintes) : K4 COMPATIBLE ; témoins 18/50
+n=7 012 A=1 enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 012 A=1 enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 012 KA enc φ=4 (14 contraintes) : K4 COMPATIBLE ; témoins 47/50
+n=7 012 KA enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 012 KA enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 bin A=0 enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 bin A=0 enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 30/50
+n=7 bin A=1 enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 37/50
+n=7 bin A=1 enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 bin KA enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 bin KA enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 ter A=0 enc φ=0 (14 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 ter A=0 enc φ=1 (14 contraintes) : K4 COMPATIBLE ; témoins 39/50
+n=7 ter A=0 enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 ter A=0 enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 ter A=1 enc φ=0 (14 contraintes) : K4 COMPATIBLE ; témoins 38/50
+n=7 ter A=1 enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 ter A=1 enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 ter KA enc φ=4 (14 contraintes) : K4 COMPATIBLE ; témoins 48/50
+n=7 ter KA enc φ=5 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=7 ter KA enc φ=6 (7 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=0 enc φ=0 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=0 enc φ=1 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=0 enc φ=2 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=0 enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=0 enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=0 enc φ=7 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=1 enc φ=0 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=1 enc φ=1 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=1 enc φ=2 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=1 enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=1 enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 A=1 enc φ=7 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 KA enc φ=0 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 KA enc φ=1 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 KA enc φ=2 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 KA enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 KA enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 012 KA enc φ=7 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 bin A=0 enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 bin A=0 enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 bin A=1 enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 bin A=1 enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 bin KA enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 bin KA enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=0 enc φ=0 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=0 enc φ=1 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=0 enc φ=2 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=0 enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=0 enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=0 enc φ=7 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=1 enc φ=0 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=1 enc φ=1 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=1 enc φ=2 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=1 enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=1 enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter A=1 enc φ=7 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter KA enc φ=0 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter KA enc φ=1 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter KA enc φ=2 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter KA enc φ=5 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter KA enc φ=6 (8 contraintes) : K4 COMPATIBLE ; témoins 50/50
+n=8 ter KA enc φ=7 (16 contraintes) : K4 COMPATIBLE ; témoins 50/50
+TOTAL : 612 cas tranchables ; K4 compatible dans 68 ; attendu pour un chiffré aléatoire : 72.4
+
+real	0m23.699s
+user	0m23.810s
+sys	0m0.008s

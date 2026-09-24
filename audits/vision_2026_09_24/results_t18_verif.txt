@@ -1,0 +1,12 @@
+L=7 VIG arrière : sans chaînes 0 (10 contraintes) ; avec chaînes 0 (17 contraintes)
+L=7 VIG avant : sans chaînes 1 (10 contraintes) ; avec chaînes 1 (17 contraintes)
+L=7 BEAU arrière : sans chaînes 1 (10 contraintes) ; avec chaînes 0 (17 contraintes)
+L=7 BEAU avant : sans chaînes 1 (10 contraintes) ; avec chaînes 1 (17 contraintes)
+L=7 VARB arrière : sans chaînes 0 (10 contraintes) ; avec chaînes 0 (17 contraintes)
+L=7 VARB avant : sans chaînes 1 (10 contraintes) ; avec chaînes 1 (17 contraintes)
+contrôle positif L=7 VIG arrière : 20/20 reconnus
+contrôle positif L=7 VIG avant : 20/20 reconnus
+contrôle positif L=7 BEAU arrière : 20/20 reconnus
+contrôle positif L=7 BEAU avant : 20/20 reconnus
+contrôle positif L=7 VARB arrière : 20/20 reconnus
+contrôle positif L=7 VARB avant : 20/20 reconnus

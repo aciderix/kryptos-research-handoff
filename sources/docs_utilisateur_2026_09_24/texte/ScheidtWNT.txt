@@ -1,0 +1,140 @@
+From ABC "World News Tonight" B-roll, 1991.  Multiple clips from two different tapes, of ABC's John Martin interviewing Ed Scheidt.  Transcript created by Elonka Dunin, January 2004
+
+
+(Closeups of pulped documents, with voices in the background.  Maybe Scheidt and a female voice.)
+
+(maybe Scheidt) Not very exciting.  
+(?) Got your blackboxes out there?
+(?) Uh, yes.
+(female voice) What are blackboxes?  
+(Scheidt?) The things that I developed like Jim has... Mine is devices that protect information....(unintelligible)...keys
+
+(cut)
+
+(Scheidt) Can you hear us?
+
+(Martin) Yup, he can hear us. Ed, just want to start off.  Tell me, what's your background with this?
+Well, awhile back the Agency asked me to help Jim in, with the sculpture and develop some codes.
+
+Before that, tell me your professional background, I'm sorry.  
+Oh, okay.
+
+What's your professional background in cryptography?
+Well, I was a cryptographer and retired from the Agency.  And that's basically all I'm allowed to say, but ...
+
+(cut)
+
+(angle over Scheidt's shoulder towards interviewer.  Sound very muffled)
+(Scheidt) different enough, innovative enough to capture the imagination, I mentioned earlier about taking the standard. Not a lot of that stuff....  So that would be very.... lends itself into things like... you've got that computer there that can be used in different things...addons....modular...last week we were talking... 
+
+(cut)
+
+(Martin pointing to pulped pieces) Did you develop these?
+(Scheidt) No, this is more recent
+
+(cut)
+
+(Martin) I'm going to start over and just ask you to kind of take us a little bit through, I know it's an abbreviated biography that, that you give us. But, tell me, what is your professional background?
+(Scheidt) Well, I have advanced degrees in telecommunications in, from George Washington University, and I've done, worked in that field for awhile, and then bef—and then since then, well, as far as the CIA is concerned, I -- my last job with them was as a cryptographer, of course I retired as such. Since then, I've started my own business, in, along the same lines, that, developing products that can protect information on computers and into networks.
+
+How did you get involved in this sculpture project?
+The Agency called me up and asked if I would be interested in that.   Of course, being a former employee, they knew my background, and said, y'know, if you would like, do contact Jim, which I did.  And then we worked about, oh, four months, or several months, on developing -- looking and examining the type of codes would be appropriate.
+
+What did Jim ask you to do for it?
+He, well, basically went over what he was trying to accomplish, the theme.  And at the same time, I provided during these months, tutorials on cryptography....
+
+Tutorials?
+Tutorials. Because, there are constraints, in the designs. And it's not only necessarily they have the secretive part of cryptography, but it has to match what you're trying – the objective of what you're trying to get....
+ 
+So it's really a philosophy as much as it is a technique?
+There is a certain type of philosophy in that too, yes, but more technique, in the sense of after you know what the person is looking for, for is the theme in the case with Jim, then you work up the codes or code, and then after that, y'know, it turns into a product as he did into the sculpture itself.
+
+What I hear you saying... I'm a layman.  I'm a person, I don't know anything about cryptography... But what I hear you saying is that you helped Jim design this encryption.  Is that accurate?
+Well, I guess that is a middle of the stream type of thing.  I didn't really get into the design.  Jim had in his mind of the format, whether the actual structural concept....
+
+When I say design though, I mean, he designed the sculpture itself.
+The sculpture part, right.
+
+It sounds to me as if you helped him design the way in which he would encrypt the information.
+Yes, that's right, that would be true there.
+
+Is there a word or two that would describe what that design is?
+No, there's... we both have agreed not to talk about how that would be – how that came into being.  As well as Jim is really the only person that knows what it says.  I don't.  And all I talked about, or we discussed, was the codes themselves, and the limitations as well as how it could it be adapted into his design.
+
+Now there are certain keywords in this design, is that correct?  Or in this code?
+Um, I'm not sure about that...
+
+Well he said that he had shared both the message and what I think he called keywords with Director Webster. 
+Right.
+
+Is that right?
+Well, he used the keywords in the sense of, the analogy there is in codes itself, it does take a key to break the code. As well as of course you have to have a message.  And, and as Jim had said, he did share both, or he gave both to Doctor We--- Mister Webster.
+
+Do you think the Agency will be able to crack this?
+(laughs and shrugs) Don't know that one.  That's part of my professionalism, I guess.
+
+Is it possible to take ten years?
+(shakes head) That's a guess, I don't really know.
+
+Why would it be so hard to crack this particular...
+Um, well, there's not many copies of it.  And it is unique to Jim's design.  So, that adds some element of difficulty, and of course it's secretive.  Jim hasn't said what, what it entails.  So it means that someone has to discover either the keys or the method or something like that.
+
+Have you been contacted by any former associates to see if you could shed a light on what it is?
+(laughs) No.
+
+What's been the reaction out there?
+I'm not sure really.  I don't really get into that.  I haven't followed up on it...
+
+You haven't seen former colleagues who've said, "You devil you, you've really given Sanborn..."
+(laughs) No, not really.
+
+So you don't know whether the Agency is perplexed or pleased or pissed off?
+(laughs) Not really.
+
+They are being very secretive with us. They won't let us photograph it, they won't let us come out and look at it.  Any idea why? Does that surprise you?
+No, I don't, y'know, I really don't know why.  I can't speak for the Agency, I mean, that's their role, but, and that's their business, but...
+
+Does it surprise you that they would want to prevent us from coming out there?
+I don't really have a, y'know, an answer for that. But, y'know, again, I'd have to defer that one to the Agency.
+
+Um (pauses) anything about this that you'd like a layperson to know to understand about cryptography that you think is especially interesting in this, in this particular sculpture?
+In this particular sculpture? No, not really. I mean it is a straight sculpture and you have to look at it, and of course there is a secret code in there.  And so there's... I know Jim put a lot of thought into how he would present this. So, y'know, aesthetically, it must look very pleasing, so...
+
+Was it a lot of work for you?
+No, not a lot of work.  I spent about a month after we decided on what code we wanted, and then after that gave Jim, "this is how you do it," and that was it.
+
+Is this a common form of encryption?
+Common form?  (shrugs) That's a leading question. (laughs) I'd rather not say anything about that. Sure.
+
+I'm at a loss to ask you any other questions. 
+(sympathetically) Sure.
+
+You've parried everything I've asked...
+Well, it's to try to be honest with what Jim is trying to portray here, and he has asked, y'know, let's, I want to keep what we're doing secret.  And, in my business, trust and confidence is really paramount, so you say, well, if that's what we're going to do, that's what we do, and to the extent that I don't even know the message.  So, that's-- it's really his show and his ball.
+
+Are you curious about the message?
+Not really.
+
+Wouldn't you really like to know what it says? It's sitting out there, it doesn't have your name on it, but it's got your name behind it.
+Yeahp. That's good enough.  Really.
+
+Okay, well, thank you very much.
+Thank you.
+
+Stay there for a second...(cut)
+
+(looking over interviewer's shoulder)
+Ed: (mid-sentence)...there's a mystique to it, but that's really... 
+
+There are some things that you could discuss...
+Oh, of course.... No, in the case... but it would have to be different from this relationship here....  This relationship here is more on the secretive side.
+
+Well, my number is right there on that card. You give me a call, I'd like to talk to you.  (to someone off-camera) Okay, I'm gonna...This is going to wind up... Well, I dunno, it takes a lot to get Ed to laugh.
+(laughs) That's correct.
+
+When I was in... actually in Saudi Arabia. I only learned two words in Arabic, well actually the whole time that I was there, but they were very important because I kept hearing them endlessly, endlessly.  They were, "Mafi mashkeelah".  Mafi mashkeelah means "No problem."
+(laughs)
+
+(cut)
+
+

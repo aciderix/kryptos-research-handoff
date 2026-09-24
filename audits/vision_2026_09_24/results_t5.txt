@@ -1,0 +1,30 @@
+paires en miroir (i, 96-i) dont les deux clairs sont connus :
+  23 S/R  <->  73 K/K
+  24 T/V  <->  72 C/P
+  25 N/Q  <->  71 O/F
+  26 O/Q  <->  70 L/Z
+  27 R/P  <->  69 C/M
+  28 T/R  <->  68 N/T
+  29 H/N  <->  67 I/T
+  30 E/G  <->  66 L/V
+  31 A/K  <->  65 R/P
+  32 S/S  <->  64 E/Y
+  33 T/S  <->  63 B/N
+F1 VIG : K4 compatible 0/1 (non tranché 0) ; témoin 0/200 compatibles (non tranchés 0)
+F1 BEAU : K4 compatible 0/1 (non tranché 0) ; témoin 0/200 compatibles (non tranchés 0)
+F1 VARB : K4 compatible 0/1 (non tranché 0) ; témoin 0/200 compatibles (non tranchés 0)
+F2 VIG : K4 compatible 0/1 (non tranché 0) ; témoin 60/200 compatibles (non tranchés 9)
+F2 BEAU : K4 compatible 0/1 (non tranché 0) ; témoin 72/200 compatibles (non tranchés 1)
+F2 VARB : K4 compatible 0/1 (non tranché 1) ; témoin 85/200 compatibles (non tranchés 3)
+F3 VIG : K4 compatible 0/1 (non tranché 0) ; témoin 68/200 compatibles (non tranchés 2)
+F3 BEAU : K4 compatible 1/1 (non tranché 0) ; témoin 89/200 compatibles (non tranchés 1)
+F3 VARB : K4 compatible 0/1 (non tranché 0) ; témoin 68/200 compatibles (non tranchés 0)
+F4 VIG : K4 compatible 0/1 (non tranché 0) ; témoin 74/200 compatibles (non tranchés 10)
+F4 BEAU : K4 compatible 1/1 (non tranché 0) ; témoin 61/200 compatibles (non tranchés 13)
+F4 VARB : K4 compatible 0/1 (non tranché 0) ; témoin 60/200 compatibles (non tranchés 8)
+F5 VIG : K4 compatible 1/1 (non tranché 0) ; témoin 33/200 compatibles (non tranchés 3)
+F5 BEAU : K4 compatible 0/1 (non tranché 0) ; témoin 34/200 compatibles (non tranchés 3)
+F5 VARB : K4 compatible 0/1 (non tranché 0) ; témoin 27/200 compatibles (non tranchés 0)
+F6 VIG : K4 compatible 16/142 (non tranché 3) ; témoin 391/20 compatibles (non tranchés 39)
+F6 BEAU : K4 compatible 31/143 (non tranché 2) ; témoin 430/20 compatibles (non tranchés 45)
+F6 VARB : K4 compatible 12/142 (non tranché 3) ; témoin 412/20 compatibles (non tranchés 40)
