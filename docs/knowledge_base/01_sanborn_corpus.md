@@ -354,6 +354,13 @@ Lecture complète dans [`07_groupsio_2026_09_24.md`](07_groupsio_2026_09_24.md).
 - **Wired 2005** (compilation kryptools) : « J'ai laissé dans le texte antérieur des **instructions qui renvoient au texte postérieur**. »
 - **NPR 2010** : le dernier passage mènera « **dans plusieurs directions** », mot employé « intentionnellement ».
 - **CIA** : cahier des charges artistique de 1988 (« racines américaines… dans les **matériaux** ») ; « l'aiguille pointe vers la magnétite, pas vers le nord magnétique » (Intellipedia).
+- **Archive des messages du groupe 2003–2018** (base 7, §7) :
+  - Sanborn en 2006 : « **toutes mes sections sont séparées par des X**, j'ai utilisé un X au lieu des points » ; « je n'ai jamais parlé du code avec Ed ».
+  - Sanborn en 2005 : lettres posées à la main, **sans plan de pose** ; test K4 fait de lettres à des positions fixes (« jusqu'à 96 »).
+  - Scheidt en 2006 : Sanborn seul ? « **probablement pas** ».
+  - Scheidt en 2007 : le code est « **réfléchissant** » ; masques binaires « autant de 1 que de 0 ».
+  - Scheidt en 2013 : un « oui » à la possibilité d'une erreur de chiffrement de Sanborn.
+  - Maquette de 1988 avec un tableau **GIRASOL**.
 
 ## 5. Indices officiels sur K4
 

@@ -34,6 +34,7 @@ Compilation : `gcc -O2 -march=native -o t1 t1_sculpture_keys.c` (idem pour les a
 | **T5** `t5_fold.c` | **La pliure** : les cribs sont en miroir autour du centre (i ↔ 96−i, 11 paires) | F1 clé = clair en miroir (partout) ; F2–F5 demi-pliures (clair ou chiffré en miroir, une moitié) ; F6 chiffré réfléchi en tout centre | F1 : **0** ; F2–F5 : 3 cases sur 12 ; F6 : 59 sur 427 | F1 : 0/200 ; F2–F5 : 14–45 % ; F6 : ≈ 20 par chiffré | **F1 éliminé** (test puissant) ; F2–F6 **au niveau du hasard** (indécidables) |
 | **T6** `t6_new_sources.c` | **Nouveaux textes** comme clé courante | Journal de fouilles de Carter 1922 (22 084 lettres, ≠ livre déjà testé) ; plaques des 14 directeurs, statue de Donovan, buste de Dulles, *Book of Honor* (relevés NSA 1991) ; tous décalages | **0** partout ; fixés max 8/24 | 10 chiffrés : 0 ; max 7–9/24 | **éliminé** |
 | **T7** `t7_cornerstone.c` | Un texte **« enfoui »** ou **fondateur** du site comme clé courante (K2 : « IT'S BURIED OUT THERE SOMEWHERE ») | Directive Truman du 22/01/1946, scellée dans la **boîte de cuivre de la pierre angulaire** de la CIA (`data/truman_1946_directive.txt`, texte FRUS) ; principes du concours artistique CIA 1988 (`data/cia_fine_arts_principles_1988.txt`) ; lettre de Sanborn de 1989 ; concaténation ; endroit et envers, tous décalages | **0** partout ; fixés max 8/24 | 10 chiffrés : 0 ; max 6–8/24 | **éliminé** |
+| **T8** `t8_inv563.c` | La **« chaîne de masquage »** proposée sur le groupe (2017), sans explication | Identifiée : développement décimal de **1/563** (période 281). Clé numérique additive : un chiffre par lettre, ou paires mod 26, tous décalages ; σ quelconque et 12 conventions fixées | **0** ; fixés max 6/24 | 10 chiffrés : 0 ; max 5–7/24 | **éliminé** (emploi direct) |
 
 **T4 : couples (p1, p2) éliminés, alphabet quelconque** (aucune permutation σ des 26! n'est compatible avec les 24 lettres connues) :
 - **VIG et VARB** (les mêmes 28) : (2,3) (2,5) (2,7) (2,9) (2,11) (2,13) (2,15) (2,17) (3,4) (3,5) (3,7) (3,8) (3,11) (3,13) (3,16) (4,5) (4,6) (4,7) (4,9) (4,10) (4,11) (4,13) (5,7) (5,8) (5,9) (6,8) (8,10) (8,12).
@@ -49,6 +50,7 @@ Compilation : `gcc -O2 -march=native -o t1 t1_sculpture_keys.c` (idem pour les a
 - **IC des 21 premières lettres** (0,0667, « comme l'anglais ») : 2,4 % pour cette fenêtre-là, mais **42 %** des K4 mélangés ont une fenêtre de 21 lettres au moins aussi forte (la meilleure fenêtre de K4 lui-même atteint 0,0857). **Non significatif.**
 - **Symétrie des cribs** : positions 23–33 et 73–63 en miroir exact autour de la position 48 (11 paires). Fait géométrique ; les familles « pliure » qui l'exploitent sont testées en T5.
 - **M-94** (diapositives NSA) : 25 disques en ordre fixe, génératrice fixe : **impossible** (positions 21 et 71 : E→F et O→F sur le même disque).
+- **Lettres doublées** : 5 des 6 doublets de K4 sont en position ≡ 4 (mod 7) ; p ≈ 0,0006 (module 7 seul), **p ≈ 0,02** (modules 3–16 balayés). Relevé par J. Gillogly en 2005 dans l'archive du groupe (base 7 §7.2). Statistique choisie après coup, mais c'est le signal « 7 » le plus net.
 
 ## 4. Ce qui reste ouvert (et pourquoi)
 

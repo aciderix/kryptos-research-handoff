@@ -27,3 +27,17 @@ for n in list(range(20,31)):
             m[p]=c; inv[c]=p
         if not ok: break
     print(f"n={n}: {'compatible' if ok else 'IMPOSSIBLE (disque %d, position %d)'%bad}")
+# 3) Lettres doublées (ajout du 24/09, archive du groupe : J. Gillogly 2005) : 5 des 6 doublets de K4 commencent en
+#    position ≡ 4 (mod 7). Nul = K4 mélangé ; statistique = part maximale des doublets dans une même classe de résidus,
+#    avec au moins 4 doublets ; module 7 seul, puis balayage des modules 3–16 (correction du nombre d'essais).
+def doublets(s): return [i for i in range(len(s)-1) if s[i]==s[i+1]]
+def frac_max(d, mods): return max(max(sum(1 for i in d if i%m==r) for r in range(m))/len(d) for m in mods)
+d0=doublets(CT); f0=frac_max(d0,[7])
+random.seed(7); L=list(CT); N=100000; a=b=0
+for _ in range(N):
+    random.shuffle(L); d=doublets(L)
+    if len(d)<4: continue
+    if frac_max(d,[7])>=f0-1e-9: a+=1
+    if frac_max(d,range(3,17))>=f0-1e-9: b+=1
+print(f"doublets de K4 : {d0} ; résidus mod 7 : {[i%7 for i in d0]} ; part max = {f0:.3f}")
+print(f"P(part >= {f0:.3f}, >=4 doublets) : module 7 seul = {a/N:.5f} ; un module quelconque 3-16 = {b/N:.5f}")

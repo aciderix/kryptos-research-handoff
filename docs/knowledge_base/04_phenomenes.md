@@ -31,6 +31,8 @@
 - Largeur 21 : p = 0,0003 pour cette largeur seule, mais **p ≈ 0,09** une fois compté le balayage de toutes les largeurs 2–48. La NSA avait relevé un « intervalle 7 » dès 1992 (base 6). Réel mais faible.
 - IC des positions 0–20 (0,0667, « anglais ») : **non significatif** (42 % des K4 mélangés ont une fenêtre de 21 aussi forte ; la meilleure fenêtre de K4 atteint 0,0857).
 - **Symétrie des cribs** : les positions 23–33 et 73–63 sont en miroir exact autour de la position 48 (11 paires dont clair et chiffré sont connus). Seule la « pliure » complète (clé = clair en miroir) est décidable : éliminée.
+- **Lettres doublées (ajout du 24/09, base 7 §7.2)** : les 6 doublets de K4 commencent en 18 (BB), 25 (QQ), 32 (SS), 42 (SS), 46 (ZZ) et 67 (TT). **5 sur 6 sont ≡ 4 (mod 7).** Mélanges de K4 : p ≈ 0,0006 pour le module 7 seul, **p ≈ 0,02** en balayant les modules 3–16. La statistique a été choisie après coup (J. Gillogly, 2005, qui les jugeait « causées par le chiffrement »). Trois de ces doublets sont dans les cribs (NO→QQ, ST→SS, IN→TT). C'est le signal « 7 » le plus net relevé à ce jour, plus net que la largeur 21.
+- **« Réfléchissant »** : en 2007, Scheidt a qualifié le code de *reflective* en refusant le mot « symétrique » (base 7 §7.1). *Lecture* : à rapprocher du miroir des cribs ci-dessus.
 
 ## Phénomène 3 — Une seule lettre claire, plusieurs chiffrées, mais rapprochées
 
