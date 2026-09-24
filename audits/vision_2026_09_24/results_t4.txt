@@ -1,1 +1,2 @@
 Validation (clé périodique simple, alphabet quelconque) :
+  VIG compatibles p=1..26 :
