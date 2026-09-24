@@ -13,6 +13,7 @@
 | `textes/` | Texte extrait de chaque fichier lisible (PDF, Word, tableurs lus en texte brut, `.txt`), même arborescence | ≈ 39 Mo |
 | `textes_pdf_dechiffres/` | Texte des PDF protégés de M. Friedrich (mot de passe trivial), extraits après ouverture | < 1 Mo |
 | `messages/mbox.json` | Archive des messages 2003–2018 : 20 250 messages, champs `d` (date), `s` (sujet), `a` (auteur, adresse tronquée par groups.io), `t` (texte) | 25 Mo |
+| `messages/messages_2018-12_2026-09.json` | Messages du 01/12/2018 au 23/09/2026 : 5 900 messages, lus par l'API de groups.io le 24/09/2026 (lecture seule, compte de l'utilisateur). Champs `d`, `s`, `a` (nom affiché), `n` (numéro), `topic`, `reply`, `t` (texte sans HTML ni citations, adresses remplacées par « [courriel] ») | 5,7 Mo |
 | `inventaire/` | `tree.json` (arborescence complète du groupe), `pf_overview.txt` (aperçu des dossiers personnels), `skipped.json` (fichiers non extraits) | — |
 | `balayage/` | Sorties et scripts des deux balayages (bases 7 §8 et §9) : phrases d'observation (`obs_candidates.json`, `obs_part2.txt`), affirmations chiffrées (`odds_candidates.txt`), affirmations de solution (`claims.json`), scripts de vérification (`scripts/`) | — |
 
