@@ -361,6 +361,8 @@ Lecture complète dans [`07_groupsio_2026_09_24.md`](07_groupsio_2026_09_24.md).
   - Scheidt en 2007 : le code est « **réfléchissant** » ; masques binaires « autant de 1 que de 0 ».
   - Scheidt en 2013 : un « oui » à la possibilité d'une erreur de chiffrement de Sanborn.
   - Maquette de 1988 avec un tableau **GIRASOL**.
+- **CBC 2014** (audio transcrit, base 7 §7.5) : « BERLIN n'était pas précis… j'ai ajouté CLOCK » ; « Berlin a plusieurs horloges d'un type très intéressant » ; « deux mots sur 97, la chose peut être très profonde ».
+- ***Cyrillic Projector*** : Quagmire II, alphabet chiffré mélangé par **ТЕНЬ** (« ombre »), clé de 6 lettres. C'est le système de K1–K2 repris et modifié (base 7 §7.5).
 
 ## 5. Indices officiels sur K4
 

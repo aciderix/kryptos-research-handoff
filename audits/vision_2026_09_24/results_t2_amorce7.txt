@@ -1,0 +1,14 @@
+contrôle Bean 26717 QIV : 1 (attendu 1) ; QIII VIG/BEAU/VARB : 0 0 0
+contrôle positif QIII base 26 : 1 (attendu 1)
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 3867.0 pour 10000000 clés
+R1 base 10 amorce 7 : 10000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 3834 | témoins (7) : QIII 0.00 par balayage, QIV 77130.71 par balayage | 11.8s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 3955.0 pour 10000000 clés
+R2 base 10 amorce 7 : 10000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 3561 | témoins (7) : QIII 0.00 par balayage, QIV 266324.29 par balayage | 16.2s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 3981.0 pour 10000000 clés
+R3 base 10 amorce 7 : 10000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 3996 | témoins (7) : QIII 0.00 par balayage, QIV 82538.43 par balayage | 11.6s
+   clés i.i.d. base 10 sur les cribs de K4 : attendu QIII 0.000, QIV 4062.0 pour 10000000 clés
+R4 base 10 amorce 7 : 10000000 clés | K4 QIII VIG/BEAU/VARB = 0/0/0 | K4 QIV = 3009 | témoins (7) : QIII 0.00 par balayage, QIV 281048.71 par balayage | 16.4s
+
+real	8m11.035s
+user	8m5.973s
+sys	0m0.006s

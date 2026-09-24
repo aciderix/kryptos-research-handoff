@@ -118,8 +118,13 @@ int main(int argc, char **argv) {
   int configs[][3] = { {1,10,2},{1,10,3},{1,10,4},{1,10,5},{1,10,6},{2,10,3},{2,10,4},{2,10,5},{2,10,6},{3,10,4},{3,10,5},{3,10,6},{4,10,4},{4,10,5},{4,10,6},
                        {1,26,2},{1,26,3},{1,26,4},{1,26,5},{2,26,2},{2,26,3},{2,26,4},{2,26,5},{3,26,3},{3,26,4},{3,26,5},{4,26,3},{4,26,4},{4,26,5} };
   int nconf = sizeof configs / sizeof configs[0];
+  /* option « 7 » (ajout du 24/09) : amorces de 7 chiffres en base 10, règles R1–R4 (1e7 amorces chacune).
+   * Motif : doublets de K4 ≡ 4 (mod 7), « fonction régénérative » (Scheidt 2011), KRYPTOS = 7 lettres. */
+  int configs7[][3] = { {1,10,7},{2,10,7},{3,10,7},{4,10,7} };
+  int (*cfg)[3] = configs;
+  if (argc > 1 && atoi(argv[1]) == 7) { cfg = configs7; nconf = 4; }
   for (int ci = 0; ci < nconf; ci++) {
-    int rule = configs[ci][0], B = configs[ci][1], n = configs[ci][2];
+    int rule = cfg[ci][0], B = cfg[ci][1], n = cfg[ci][2];
     clock_t t0 = clock();
     for (int t = 0; t < NCRIB; t++) C24[t] = CT[CRIBPOS[t]];
     Res R = {0}; sweep(rule, B, n, &R, 1);
