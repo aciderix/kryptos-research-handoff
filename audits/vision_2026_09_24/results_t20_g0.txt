@@ -1,0 +1,59 @@
+# T20, groupe G0 (clé périodique p = 1..26, témoin de méthode)
+t20_erreur_familles.c: In function 'evaluate':
+   71 |   if (resA) *resA = ma; if (resB) *resB = mb;
+   71 |   if (resA) *resA = ma; if (resB) *resB = mb;
+t20_erreur_familles.c: In function 'main':
+  138 |       for (int i = 0; i < 26; i++) inv[s[i]] = i; int kv[NB]; for (int j = 0; j < NB; j++) kv[j] = rng() % 26;
+  138 |       for (int i = 0; i < 26; i++) inv[s[i]] = i; int kv[NB]; for (int j = 0; j < NB; j++) kv[j] = rng() % 26;
+t20_erreur_familles.c: At top level:
+t20_erreur_familles.c:76:12: warning: 'NCASE_G' defined but not used [-Wunused-variable]
+   76 | static int NCASE_G[4];
+contrôle positif G0 périodique p=1..26, erreur quelconque en crib 14 : exact 1, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+contrôle positif G0 périodique p=1..26, erreur copie en crib 14 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+contrôle positif G0 périodique p=1..26, erreur glissement en crib 11 : exact 0, ≤1 erreur quelconque 1, ≤1 erreur Sanborn 1
+G0 périodique p=1..26, tranche 0/1 : 78 cas (78 distincts) ; K4 compatible : exact 2, ≤1 erreur quelconque 16, ≤1 erreur Sanborn 16 ; non tranchés 23
+  positions de crib qui sauvent K4 (cas distincts) — A : 21:3 22:2 25:3 27:3 28:1 29:1 32:2 63:2 65:1 68:1 70:4 71:1 73:6
+  — B : 21:3 22:2 25:3 27:3 28:1 29:1 32:2 63:2 65:1 70:4 71:1 73:6
+  témoins (200 tirages) : taux exact 0.2250, ≤1 quelconque 0.4350, ≤1 Sanborn 0.4300 ; attendu sur 78 cas : 17.6 / 33.9 / 33.5
+  cas 18 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 32 70 ; par B en 32 70
+  cas 22 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 27 73 ; par B en 27 73
+  cas 23 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 25 73 ; par B en 25 73
+  cas 25 (VIG) : exact 0, A 1, B 1 ; sauvé par A en 21 73 ; par B en 21 73
+  cas 41 (BEAU) : exact 0, A 1, B 1 ; sauvé par A en 22 70 ; par B en 22 70
+  cas 43 (BEAU) : exact 0, A 1, B 1 ; sauvé par A en 27 29 63 65 ; par B en 27 29 63 65
+  cas 44 (BEAU) : exact 0, A 1, B 1 ; sauvé par A en 25 63 ; par B en 25 63
+  cas 45 (BEAU) : exact 0, A 1, B 1 ; sauvé par A en 28 68 ; par B en 28
+  cas 48 (BEAU) : exact 1, A 1, B 1 ; sauvé par A en ; par B en
+  cas 49 (BEAU) : exact 0, A 1, B 1 ; sauvé par A en 22 70 ; par B en 22 70
+  cas 50 (BEAU) : exact 0, A 1, B 1 ; sauvé par A en 21 71 ; par B en 21 71
+  cas 51 (BEAU) : exact 1, A 1, B 1 ; sauvé par A en ; par B en
+  cas 70 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 32 70 ; par B en 32 70
+  cas 74 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 27 73 ; par B en 27 73
+  cas 75 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 25 73 ; par B en 25 73
+  cas 77 (VARB) : exact 0, A 1, B 1 ; sauvé par A en 21 73 ; par B en 21 73
+
+# Cas partiellement non tranchés (limite de nœuds), relance détaillée
+  cas 12 (VIG, p=13) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 13 (VIG, p=14) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 16 (VIG, p=17) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 18 (VIG, p=19) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 20 (VIG, p=21) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 23 (VIG, p=24) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 24 (VIG, p=25) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 37 (BEAU, p=12) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 39 (BEAU, p=14) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 40 (BEAU, p=15) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 41 (BEAU, p=16) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 42 (BEAU, p=17) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 44 (BEAU, p=19) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 46 (BEAU, p=21) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 49 (BEAU, p=24) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 50 (BEAU, p=25) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 64 (VARB, p=13) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 65 (VARB, p=14) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 68 (VARB, p=17) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 70 (VARB, p=19) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 72 (VARB, p=21) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+  cas 75 (VARB, p=24) : non tranché (limite de nœuds) ; exact 0, A 1, B 1
+  cas 76 (VARB, p=25) : non tranché (limite de nœuds) ; exact 0, A 0, B 0
+G0 périodique p=1..26, tranche 0/1 : 78 cas (78 distincts) ; K4 compatible : exact 2, ≤1 erreur quelconque 16, ≤1 erreur Sanborn 16 ; non tranchés 23
