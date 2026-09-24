@@ -1,0 +1,885 @@
+[[page 1]]
+I've been thinking about the K4 cipher, and I wanted to share some of my observations. 
+After some analysis, I think that JS chose the crib words "BERLIN" and "CLOCK" with the belief that they 
+would be enough information to break the cipher. When that clue failed, he added "EASTNORTHEAST" to 
+the mix.  
+As a result, we have two sizable cribs, each solidly within their half of the cipher: 
+ 
+ 
+----------------------EASTNORTHEAST-------------- 
+---------------BERLINCLOCK----------------------- 
+ 
+ 
+However, there isn't much overlap between these halves when folded like this, especially since "BERLIN" 
+and "NORTHEAST" don't correspond to anything in the other half. 
+But something interesting happens when you reverse one of the halves. Now the two cribs have 
+significant positional overlaps! Maybe this is why "NORTHEAST" was the next clue after "BERLINCLOCK"? 
+ 
+ 
+                      EASTNORTHEAST               
+?OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZ 
+                       KCOLCNILREB                
+RACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTAW 
+ 
+ 
+Because the cipher has an odd length of 97 characters (i.e., ignoring the question mark), I don't think JS 
+intended for the halves to be directly compared to one another.  Rather, I've been working on ideas that 
+involve reversing either the plaintext or ciphertext (it's been easier to reverse the cipher so that the 
+plaintext remains readable): 
+ 
+ 
+----------------------EASTNORTHEAST----------------------------BERLINCLOCK----------------------- 
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+RACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTAWZZKESSQJSQTWTOSSKGNRPQQVRLFWBBFILOSBLUHGOXOURKBO 
+-----------------------KCOLCNILREB-----------------------------TSAEHTRONTSAE--------------------- 
+ 
+ 
+ 
+ 
+
+[[page 2]]
+I've also been thinking about how JS might have generated the ciphertext given the plaintext (or reverse 
+text). Maybe he used an autokey? Unfortunately, I couldn't make it work, but I did find one particularly 
+interesting coincidence that makes me think this line of thinking has at least a little bit of merit. 
+Consider this portion with the reversed ciphertext: 
+ 
+BERLINCLOCK (plaintext) 
+SSKGNRPQQVR (ciphertext, reversed) 
+ 
+I tried to figure out what key would work: 
+B:? = S 
+E:? = S 
+R:? = K 
+L:? = G 
+I:? = N 
+N:? = R 
+If we use the full tableau from the sculpture, then the regular English alphabet maps into the modified 
+KRYPTOS alphabet, so A:A=K, B:A=R, C:A=Y, etc.  (I can't shake the feeling that the dual alphabets are 
+important for K4 whereas the KRYPTOS alphabet alone was used for K1-K2) 
+ 
+  
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+K 
+L 
+M N 
+O P 
+Q R 
+S 
+T 
+U 
+V 
+W X 
+Y 
+Z 
+A 
+B 
+C 
+D 
+A 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+B 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+C 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+D 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+E 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+F 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+G 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+H 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+I 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+J 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+K 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+L 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+M F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+N 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+O H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+P 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M 
+Q 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+R 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q 
+S 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+T 
+N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+U 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W 
+V 
+U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+W V 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+X 
+W X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+Y 
+X 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Z 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O S 
+A 
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M N 
+Q U 
+V 
+W X 
+Z 
+K 
+R 
+Y 
+
+[[page 3]]
+A
+B
+C
+D
+E
+F
+G
+A
+K
+R
+Y
+P
+T
+O
+S
+B
+R
+Y
+P
+T
+O
+S
+A
+C
+Y
+P
+T
+O
+S
+A
+B
+D
+P
+T
+O
+S
+A
+B
+C
+E
+T
+O
+S
+A
+B
+C
+D
+F
+O
+S
+A
+B
+C
+D
+E
+G
+S
+A
+B
+C
+D
+E
+F
+To find the missing keytext, locate the plaintext letter across the top, follow that column down until you 
+arrive at the ciphertext, and then follow that row to the left to get the keytext. 
+B:F=S 
+E:C=S 
+R:J=K 
+L:C=G 
+I:L=N 
+N: 
+ 
+ 
+BERLINCLOCK (plaintext) 
+SSKGNRPQQVR (ciphertext) 
+FCJCLOBJGUR (keytext) 
+ 
+ 
+What piqued my interest here is that CLOBJ portion... which is really close to CLOCK (if you shift the B 
+and J by +1). And this is only offset by three characters from the plaintext, so maybe this is a form of 
+autokey? The starting key could then be something like the YAR offset letters (which is RAY... reversed!).   
+If this is a modified autokey, the next three characters after CLOCK are GUR... If you happen to shift each 
+of these +1, you get HVS, which could be read as "HAS". 
+ 
+ 
+FCJCLOBJGUR (autokey) 
+66400011111 (shift) 
+LINCLOCKHVS (corresponding plaintext) 
+ 
+ 
+At this point, I couldn't derive a repeating pattern needed to shift the autokey for this to work 
+universally. And, there seems to be nothing but noise on the EASTNORTHEAST side of the cipher when 
+applying this method. So, I think I'm at a dead end here trying to make an autokey based on reversing 
+text work. 
+But, maybe somebody else will see a pattern that I can't? 

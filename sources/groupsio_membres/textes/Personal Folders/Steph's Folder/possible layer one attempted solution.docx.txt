@@ -1,0 +1,2919 @@
+## word/document.xml
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ K 
+ R 
+ 2 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ 3 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ 4 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ K 
+ R 
+ 1 
+ 2 
+ U 
+ O 
+ X 
+ O 
+ G 
+ H 
+ U 
+ L 
+ B 
+ S 
+ O 
+ L 
+ I 
+ F 
+ B 
+ B 
+ W 
+ F 
+ L 
+ R 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ 12 
+ 3 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ A 
+ T 
+ J 
+ K 
+ L 
+ U 
+ D 
+ I 
+ A 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ P 
+ 6 
+ 4 
+ V 
+ T 
+ T 
+ M 
+ Z 
+ F 
+ P 
+ K 
+ W 
+ G 
+ D 
+ K 
+ Z 
+ X 
+ T 
+ J 
+ C 
+ D 
+ I 
+ G 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ E 
+ K 
+ C 
+ A 
+ R 
+ 10 
+ 
+ 1 
+ 
+ 2 
+ 
+ 3 
+ 
+ 4 
+ P L A I N C O RR E C T - 
+ 
+ P L A I N R E V 
+ 
+ C O D E C O RR E C T 
+ 
+ C O D E R E V E R S E D 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ Z 
+ X 
+ W 
+ A 
+ L 
+ O 
+ R 
+ P 
+ M 
+ 
+ A 
+ C 
+ D 
+ Z 
+ O 
+ L 
+ I 
+ K 
+ N 
+ 
+ L 
+ N 
+ O 
+ K 
+ Z 
+ W 
+ T 
+ V 
+ Y 
+ 
+ K 
+ I 
+ H 
+ L 
+ W 
+ Z 
+ C 
+ A 
+ X 
+ Y 
+ V 
+ T 
+ E 
+ Q 
+ U 
+ K 
+ I 
+ D 
+ 
+ B 
+ E 
+ G 
+ V 
+ J 
+ F 
+ P 
+ R 
+ W 
+ 
+ M 
+ P 
+ R 
+ G 
+ U 
+ Q 
+ A 
+ C 
+ H 
+ 
+ J 
+ G 
+ E 
+ P 
+ B 
+ F 
+ V 
+ T 
+ O 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O 
+ B 
+ R 
+ R 
+ 1 
+ 2 
+ U 
+ O 
+ X 
+ O 
+ D 
+ H 
+ U 
+ L 
+ A 
+ S 
+ O 
+ L 
+ I 
+ L 
+ A 
+ A 
+ N 
+ L 
+ L 
+ K 
+ Z 
+ Q 
+ Q 
+ I 
+ K 
+ N 
+ D 
+ K 
+ S 
+ S 
+ O 
+ 12 
+ 3 
+ T 
+ W 
+ T 
+ W 
+ S 
+ J 
+ W 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ W 
+ T 
+ T 
+ J 
+ K 
+ L 
+ Z 
+ D 
+ I 
+ T 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ N 
+ 6 
+ 4 
+ C 
+ A 
+ A 
+ M 
+ Z 
+ Z 
+ L 
+ K 
+ W 
+ I 
+ D 
+ K 
+ Z 
+ X 
+ A 
+ K 
+ C 
+ D 
+ I 
+ I 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ H 
+ K 
+ C 
+ A 
+ R 
+ 10 
+ 
+ 
+ 
+ 24 C O L U M N M A T R I X A FT E R U N M A S K I N G 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ O 
+ B 
+ R 
+ R 
+ U 
+ O 
+ X 
+ O 
+ D 
+ H 
+ U 
+ L 
+ A 
+ S 
+ O 
+ L 
+ I 
+ L 
+ A 
+ A 
+ N 
+ L 
+ L 
+ K 
+ 
+ Z 
+ Q 
+ Q 
+ I 
+ K 
+ N 
+ D 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ W 
+ S 
+ J 
+ W 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ 
+ W 
+ T 
+ T 
+ J 
+ K 
+ L 
+ Z 
+ D 
+ I 
+ T 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ N 
+ C 
+ A 
+ A 
+ M 
+ Z 
+ Z 
+ 
+ L 
+ K 
+ W 
+ I 
+ D 
+ K 
+ Z 
+ X 
+ A 
+ K 
+ C 
+ D 
+ I 
+ I 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ H 
+ K 
+ C 
+ A 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24 C O L U M N M A T R I X A FT E R U N M A S K I N G 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ O 
+ B 
+ R 
+ R 
+ U 
+ O 
+ X 
+ O 
+ D 
+ H 
+ U 
+ L 
+ A 
+ S 
+ O 
+ L 
+ I 
+ L 
+ A 
+ A 
+ N 
+ L 
+ L 
+ K 
+ 
+ Z 
+ Q 
+ Q 
+ I 
+ K 
+ N 
+ D 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ W 
+ S 
+ J 
+ W 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ 
+ W 
+ T 
+ T 
+ J 
+ K 
+ L 
+ Z 
+ D 
+ I 
+ T 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ N 
+ C 
+ A 
+ A 
+ M 
+ Z 
+ Z 
+ 
+ L 
+ K 
+ W 
+ I 
+ D 
+ K 
+ Z 
+ X 
+ A 
+ K 
+ C 
+ D 
+ I 
+ I 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ H 
+ K 
+ C 
+ A 
+ R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 1 
+ O 
+ B 
+ R 
+ R 
+ U 
+ O 
+ X 
+ O 
+ D 
+ H 
+ U 
+ L 
+ A 
+ S 
+ O 
+ L 
+ I 
+ L 
+ A 
+ A 
+ N 
+ L 
+ L 
+ K 
+ 
+ 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ 
+ NE W 
+ G 
+ M 
+ A 
+ L 
+ P 
+ Z 
+ H 
+ T 
+ R 
+ Y 
+ N 
+ Z 
+ L 
+ F 
+ U 
+ Z 
+ C 
+ A 
+ S 
+ X 
+ A 
+ I 
+ Z 
+ D 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 
+ Z 
+ Q 
+ Q 
+ I 
+ K 
+ N 
+ D 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ W 
+ S 
+ J 
+ W 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ 
+ 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ 
+ NE W 
+ O 
+ D 
+ Y 
+ C 
+ J 
+ M 
+ R 
+ H 
+ T 
+ H 
+ I 
+ D 
+ G 
+ F 
+ L 
+ V 
+ I 
+ H 
+ Q 
+ T 
+ N 
+ D 
+ O 
+ I 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 
+ W 
+ T 
+ T 
+ J 
+ K 
+ L 
+ Z 
+ D 
+ I 
+ T 
+ W 
+ I 
+ N 
+ F 
+ B 
+ N 
+ Y 
+ N 
+ C 
+ A 
+ A 
+ M 
+ Z 
+ Z 
+ 
+ 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ 
+ NE W 
+ O 
+ X 
+ Q 
+ I 
+ L 
+ O 
+ W 
+ M 
+ Z 
+ D 
+ G 
+ W 
+ G 
+ Y 
+ A 
+ D 
+ J 
+ L 
+ L 
+ L 
+ G 
+ B 
+ A 
+ N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4 
+ L 
+ K 
+ W 
+ I 
+ D 
+ K 
+ Z 
+ X 
+ A 
+ K 
+ C 
+ D 
+ I 
+ I 
+ K 
+ U 
+ H 
+ U 
+ A 
+ U 
+ H 
+ K 
+ C 
+ A 
+ R 
+ 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ C 
+ L 
+ O 
+ C 
+ K 
+ B 
+ NE W 
+ A 
+ Z 
+ H 
+ P 
+ B 
+ B 
+ C 
+ T 
+ W 
+ B 
+ P 
+ K 
+ H 
+ S 
+ H 
+ N 
+ V 
+ O 
+ G 
+ E 
+ V 
+ Q 
+ Z 
+ S 
+ M 
+ A FT ER B ER L I N C L O C K M A S T ERC OP Y O R I G I N A L K 4 I N 24 C O L U M NS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ G 
+ M 
+ A 
+ L 
+ P 
+ Z 
+ H 
+ T 
+ R 
+ Y 
+ N 
+ Z 
+ L 
+ F 
+ U 
+ Z 
+ C 
+ A 
+ S 
+ X 
+ A 
+ I 
+ Z 
+ D 
+ O 
+ D 
+ Y 
+ C 
+ J 
+ M 
+ R 
+ 2 
+ H 
+ T 
+ H 
+ I 
+ D 
+ G 
+ F 
+ L 
+ V 
+ I 
+ H 
+ Q 
+ T 
+ N 
+ D 
+ O 
+ I 
+ O 
+ X 
+ Q 
+ I 
+ L 
+ O 
+ W 
+ M 
+ Z 
+ D 
+ G 
+ W 
+ G 
+ Y 
+ 3 
+ A 
+ D 
+ J 
+ L 
+ L 
+ L 
+ G 
+ B 
+ A 
+ N 
+ A 
+ Z 
+ H 
+ P 
+ B 
+ B 
+ C 
+ T 
+ W 
+ B 
+ P 
+ K 
+ H 
+ S 
+ H 
+ N 
+ V 
+ O 
+ G 
+ E 
+ V 
+ 4 
+ Q 
+ Z 
+ S 
+ M 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SEC O N D S U B S T I T U T IO N U S I N G O R I N A T E - W O R D M E A N I N G Y C OO R D I N A T A FT ER U N M A S K I N G T I S Y O U R PO S I T IO N S T A R T S A N D F I N I SHES W I T H A T 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ G 
+ M 
+ A 
+ L 
+ P 
+ Z 
+ H 
+ T 
+ R 
+ Y 
+ N 
+ Z 
+ L 
+ F 
+ U 
+ Z 
+ C 
+ A 
+ S 
+ X 
+ A 
+ I 
+ Z 
+ D 
+ O 
+ D 
+ Y 
+ C 
+ J 
+ M 
+ R 
+ 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ 
+ B 
+ S 
+ R 
+ I 
+ M 
+ C 
+ Q 
+ V 
+ V 
+ J 
+ G 
+ W 
+ S 
+ V 
+ R 
+ L 
+ T 
+ U 
+ K 
+ V 
+ V 
+ Z 
+ O 
+ Y 
+ K 
+ X 
+ V 
+ A 
+ O 
+ Y 
+ A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 
+ H 
+ T 
+ H 
+ I 
+ D 
+ G 
+ F 
+ L 
+ V 
+ I 
+ H 
+ Q 
+ T 
+ N 
+ D 
+ O 
+ I 
+ O 
+ X 
+ Q 
+ I 
+ L 
+ O 
+ W 
+ M 
+ Z 
+ D 
+ G 
+ W 
+ G 
+ Y 
+ 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ 
+ S 
+ Z 
+ Y 
+ C 
+ B 
+ Y 
+ V 
+ W 
+ H 
+ D 
+ Y 
+ H 
+ Y 
+ B 
+ Q 
+ E 
+ A 
+ K 
+ F 
+ H 
+ G 
+ S 
+ I 
+ P 
+ D 
+ Q 
+ X 
+ A 
+ U 
+ Y 
+ F 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 
+ A 
+ D 
+ J 
+ L 
+ L 
+ L 
+ G 
+ B 
+ A 
+ N 
+ A 
+ Z 
+ H 
+ P 
+ B 
+ B 
+ C 
+ T 
+ W 
+ B 
+ P 
+ K 
+ H 
+ S 
+ H 
+ N 
+ V 
+ O 
+ G 
+ E 
+ V 
+ 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ I 
+ N 
+ A 
+ T 
+ E 
+ O 
+ R 
+ D 
+ 
+ G 
+ Y 
+ E 
+ O 
+ E 
+ I 
+ Y 
+ M 
+ G 
+ E 
+ Y 
+ G 
+ B 
+ R 
+ W 
+ M 
+ I 
+ V 
+ M 
+ V 
+ W 
+ X 
+ P 
+ J 
+ Q 
+ E 
+ L 
+ N 
+ A 
+ C 
+ E 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4 
+ Q 
+ Z 
+ S 
+ M 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ I 
+ N 
+ A 
+ T 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ T 
+ O 
+ X 
+ G 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ A FT RE O R D I N A T E M A S T ERC OP Y O R I G I N A L K 4 I N 24 C O L U M NS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 1 
+ B 
+ S 
+ R 
+ I 
+ M 
+ C 
+ Q 
+ V 
+ V 
+ J 
+ G 
+ W 
+ S 
+ V 
+ R 
+ L 
+ T 
+ U 
+ K 
+ V 
+ V 
+ Z 
+ O 
+ Y 
+ K 
+ X 
+ V 
+ A 
+ O 
+ Y 
+ A 
+ 2 
+ S 
+ Z 
+ Y 
+ C 
+ B 
+ Y 
+ V 
+ W 
+ H 
+ D 
+ Y 
+ H 
+ Y 
+ B 
+ Q 
+ E 
+ A 
+ K 
+ F 
+ H 
+ G 
+ S 
+ I 
+ P 
+ D 
+ Q 
+ X 
+ A 
+ U 
+ Y 
+ F 
+ 3 
+ G 
+ Y 
+ E 
+ O 
+ E 
+ I 
+ Y 
+ M 
+ G 
+ E 
+ Y 
+ G 
+ B 
+ R 
+ W 
+ M 
+ I 
+ V 
+ M 
+ V 
+ W 
+ X 
+ P 
+ J 
+ Q 
+ E 
+ L 
+ N 
+ A 
+ C 
+ E 
+ 4 
+ T 
+ O 
+ X 
+ G 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ B 
+ S 
+ R 
+ I 
+ M 
+ C 
+ Q 
+ V 
+ V 
+ J 
+ G 
+ W 
+ S 
+ V 
+ R 
+ L 
+ T 
+ U 
+ K 
+ V 
+ V 
+ Z 
+ O 
+ Y 
+ 
+ K 
+ X 
+ V 
+ A 
+ O 
+ Y 
+ A 
+ S 
+ Z 
+ Y 
+ C 
+ B 
+ Y 
+ V 
+ W 
+ H 
+ D 
+ Y 
+ H 
+ Y 
+ B 
+ Q 
+ E 
+ A 
+ 
+ K 
+ F 
+ H 
+ G 
+ S 
+ I 
+ P 
+ D 
+ Q 
+ X 
+ A 
+ U 
+ Y 
+ F 
+ G 
+ Y 
+ E 
+ O 
+ E 
+ I 
+ Y 
+ M 
+ G 
+ E 
+ 
+ Y 
+ G 
+ B 
+ R 
+ W 
+ M 
+ I 
+ V 
+ M 
+ V 
+ W 
+ X 
+ P 
+ J 
+ Q 
+ E 
+ L 
+ N 
+ A 
+ C 
+ E 
+ T 
+ O 
+ X 
+ G 
+ T R A N S PO S I T IO N O F K 4 90 D E G R EE R O T A T IO N T O R I G H T 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 
+ 1 
+ Y 
+ K 
+ K 
+ B 
+ G 
+ F 
+ X 
+ S 
+ 
+ 2 
+ B 
+ H 
+ V 
+ R 
+ R 
+ G 
+ A 
+ I 
+ 
+ 3 
+ W 
+ S 
+ O 
+ M 
+ M 
+ I 
+ Y 
+ C 
+ 
+ 4 
+ I 
+ P 
+ A 
+ Q 
+ V 
+ D 
+ S 
+ V 
+ 
+ 5 
+ M 
+ Q 
+ Z 
+ V 
+ V 
+ X 
+ Y 
+ J 
+ 
+ 6 
+ W 
+ A 
+ C 
+ G 
+ X 
+ U 
+ B 
+ W 
+ 
+ 7 
+ P 
+ Y 
+ Y 
+ S 
+ J 
+ F 
+ V 
+ V 
+ 
+ 8 
+ Q 
+ G 
+ W 
+ R 
+ E 
+ Y 
+ H 
+ L 
+ 
+ 9 
+ L 
+ E 
+ D 
+ T 
+ N 
+ O 
+ Y 
+ U 
+ 
+ 10 
+ A 
+ E 
+ H 
+ K 
+ C 
+ I 
+ Y 
+ V 
+ 
+ 11 
+ E 
+ Y 
+ B 
+ V 
+ T 
+ M 
+ Q 
+ Z 
+ 
+ 12 
+ O 
+ G 
+ E 
+ O 
+ X 
+ E 
+ A 
+ Y 
+ G 
+ M A S T E R C OP Y O R I G I N A L K 4 I N 24 C O L U M N S 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 1 
+ O 
+ E 
+ A 
+ L 
+ Q 
+ P 
+ W 
+ M 
+ I 
+ W 
+ B 
+ Y 
+ G 
+ Y 
+ E 
+ E 
+ G 
+ Y 
+ A 
+ Q 
+ P 
+ S 
+ H 
+ K 
+ 
+ 2 
+ E 
+ B 
+ H 
+ D 
+ W 
+ Y 
+ C 
+ Z 
+ A 
+ O 
+ V 
+ K 
+ O 
+ V 
+ K 
+ T 
+ R 
+ S 
+ G 
+ V 
+ Q 
+ M 
+ R 
+ B 
+ 
+ 3 
+ X 
+ T 
+ C 
+ N 
+ E 
+ J 
+ X 
+ V 
+ V 
+ M 
+ R 
+ G 
+ E 
+ M 
+ I 
+ O 
+ Y 
+ F 
+ U 
+ X 
+ D 
+ I 
+ G 
+ F 
+ 
+ 4 
+ A 
+ Q 
+ Y 
+ Y 
+ H 
+ V 
+ B 
+ Y 
+ S 
+ Y 
+ A 
+ X 
+ Y 
+ Z 
+ V 
+ U 
+ L 
+ V 
+ W 
+ J 
+ V 
+ C 
+ I 
+ S 
+ G 
+ M A S T E R C OP Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 1 
+ O 
+ E 
+ A 
+ L 
+ Q 
+ P 
+ W 
+ M 
+ I 
+ W 
+ B 
+ Y 
+ G 
+ Y 
+ E 
+ E 
+ G 
+ Y 
+ A 
+ Q 
+ P 
+ S 
+ H 
+ K 
+ E 
+ B 
+ H 
+ D 
+ W 
+ Y 
+ C 
+ Z 
+ 
+ 2 
+ A 
+ O 
+ V 
+ K 
+ O 
+ V 
+ K 
+ T 
+ R 
+ S 
+ G 
+ V 
+ Q 
+ M 
+ R 
+ B 
+ X 
+ T 
+ C 
+ N 
+ E 
+ J 
+ X 
+ V 
+ V 
+ M 
+ R 
+ G 
+ E 
+ M 
+ I 
+ O 
+ 
+ 3 
+ Y 
+ F 
+ U 
+ X 
+ D 
+ I 
+ G 
+ F 
+ A 
+ Q 
+ Y 
+ Y 
+ H 
+ V 
+ B 
+ Y 
+ S 
+ Y 
+ A 
+ X 
+ Y 
+ Z 
+ V 
+ U 
+ L 
+ V 
+ W 
+ J 
+ V 
+ C 
+ I 
+ S 
+ G 
+ 
+ 
+ M A S T ERC OP Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+ 16 
+ 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+ 24 
+ 25 
+ 26 
+ 27 
+ 28 
+ 29 
+ 30 
+ 31 
+ 32 
+ 33 
+ 
+ 1 
+ O 
+ E 
+ A 
+ L 
+ Q 
+ P 
+ W 
+ M 
+ I 
+ W 
+ B 
+ Y 
+ G 
+ Y 
+ E 
+ E 
+ G 
+ Y 
+ A 
+ Q 
+ P 
+ S 
+ H 
+ K 
+ E 
+ B 
+ H 
+ D 
+ W 
+ Y 
+ C 
+ Z 
+ I 
+ 
+ 2 
+ A 
+ O 
+ V 
+ K 
+ O 
+ V 
+ K 
+ T 
+ R 
+ S 
+ G 
+ V 
+ Q 
+ M 
+ R 
+ B 
+ X 
+ T 
+ C 
+ N 
+ E 
+ J 
+ X 
+ V 
+ V 
+ M 
+ R 
+ G 
+ E 
+ M 
+ I 
+ O 
+ S 
+ 
+ 3 
+ Y 
+ F 
+ U 
+ X 
+ D 
+ I 
+ G 
+ F 
+ A 
+ Q 
+ Y 
+ Y 
+ H 
+ V 
+ B 
+ Y 
+ S 
+ Y 
+ A 
+ X 
+ Y 
+ Z 
+ V 
+ U 
+ L 
+ V 
+ W 
+ J 
+ V 
+ C 
+ I 
+ S 
+ G 
+ DIRECTION OF LETTER PLACEMENT IN GRIDS 
+ 
+ 
+ 
+ 
+ 2 
+ 3 
+ 1 
+ 4 
+ 461114 105617 0 0 
+ 233916 67001 0 0 
+ 223936 81740 0 0 
+ 232349 57373 0 0 
+ 295171 79597 0 0 
+ 252710 70108 0 0 
+ 260996 102644 0 0 
+ 253229 102086 0 0 
+ FOUND ON COMPASS ROSE 
+ FOUND IN PLAINTEXT 
+ LAST CLUE FROM JIM 
+ LAST DIRECTION 
+ IF DIRECTIONS ARE TO BALANCE – WE NEED 4 POINTS OF REFFERENCE… X MARKS THE SPOT 
+ 
+ 
+ 
+ 
+ 

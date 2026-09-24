@@ -1,0 +1,60 @@
+
+
+Jason DeSeve
+July 14, 2006
+
+Proposed English Masking Technique:
+
+
+K4 English masking technique is very straight forward. It uses a five digit binary # with a simple transposition (5 rows by 97 columns).  Since the 5 digit binary has 32 possible combinations and English has 26 letters we are left with 6 additional characters.  For now let us assume the letters repeat and we will use the lower case for these: 
+
+
+
+The binary # for each letter is given vertically.  For example the letter O is 0 1 1 1 0.  Now we replace the K4 plain text with the binary number vertically by columns and read off the original letter horizontally.
+
+
+
+
+etc……….
+
+
+
+Do you notice anything? ……Look Below ….We have our key!    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ENDyaHrOHN0001101000OBKRUOXOGH0001101000
+I  calculate the odds of the first bit of each of the first 7 letters of K 4 to match the raised letters in the first section of K3 at being 1 in 123  ( slightly less than 1/(2^7) or .62^4 * .38^3  since there are only 10 1's and 16 0's possible
+
+If we read off left to right we get:
+
+DISATaGfOORCBORDQFINFCOBBKIEHDSMcNRSKARDfCJSLCQCECFVSbCBOYKPVYKCPeTJLJALDebNBRJFSdccCSBTKDbbRPIIB   
+DISAT aGfOO RCBOR DQFIN
+FCOBB KIEHD SMcNR SKARD
+FCJSL CQCEC FVSbC BOYKP
+VYKCP eTJLJ ALDeb NBRJF
+SdccC SBTKD bbRPI IB 
+
+If we do frequency analysis we get:  (Top as written, bottom assume lower case are same as upper case)
+
+
+
+The distribution looks like it could be English after Maybe a simple monoalphabetic substitution and transposition.
+
+
+Maybe someone with a computer program can finish it off.
+
+
+

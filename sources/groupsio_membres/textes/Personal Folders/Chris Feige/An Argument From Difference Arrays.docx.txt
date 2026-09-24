@@ -1,0 +1,612 @@
+## word/document.xml
+ 
+ 
+ An underlying array: 
+ Part 1 of 3 
+ by Chris Feige 
+ A pattern can be found while dragging an alphabet across K4; that is, while applying a simple shift cipher. That’s what we’ll be talking about now in Part 1. Part 2 will provide an example method of encryption; a seemingly transposition -like, Vigenere cipher that can be used to make K3. In part 3, I point to a discrepancy with the explanation of K3’s Keyed Columnar transposition. 
+ 
+ First, the pattern in K4 seems to follow the 3 rules given from David Wilson's mores code translation : 
+ 
+ "Inspection of the Morse code alphabet yields a set of letters that is a mirror image of itself, one that is a mirror image of another letter, and another that is not a mirror image of any other letter." (David Wilson, David Wilson's Kryptos Morse Code, http:// www.elonka.com / kryptos /mirrors/ daw / MorseCode.txt ) 
+ 
+ This is how I found the pattern. Here, K4 is divided by identifying the shortest string s with a complete alphabet; all 26 characters at least once . Then, div id ing K4 into to those those parts. (see: K4 distribution map) . I'll refer to this as the ‘initial string’ meaning , it is the start of a series of permutations. 
+ 
+ INITIAL STRING : 
+ NGKS  SOTWTQSJQSSEKZZWATJKLU  DIAW 
+ INFB  NYPVTTMZFPKWGDKZXTJCDI GKUH 
+ UAUE KCAROBKRUOXOGHULBSOLIF BBWF 
+ LRVQQPR 
+   
+ It's not necessary to use all 97 characters since it's just a shift cipher. Removing the non-relevant charters will not affect the ones we want to examine, So I’ll just proceed with the three "strings" that make the pattern. Y ou can use this site ( http:// rumkin.com /tools/cipher/ caesar.php ) to test it yourself. Just copy line 1 , from figure 1 and paste it into the message text area, then shift through the alphabet, 1-26 in order, with the drop-down menu. Plea se remember to start at ROT 0. 
+ 
+ 
+ BEGIN SHIFT CIPHER: 
+ a 
+ NGKS DIAW INFB 
+ 
+ OHLT EJBX JOGC 
+ 
+ PIMU FKCY KPHD 
+ 
+ QJNV GLDZ LQIE 
+ 
+ RKOW HMEA MRJF 
+ 
+ 
+ 
+ SLPX  INFB NSKG 
+ 
+ TMQY  JOGC OTLH 
+ 
+ UNRZ  KPHD PUMI 
+ 
+ VOSA  LQIE QVNJ 
+ 
+ WPTB  MRJF RWOK 
+ 
+ 
+ 
+ XQUC  NSKG  SXPL 
+ 
+ YRVD  OTLH  TYQM 
+ 
+ ZSWE  PUMI  UZRN 
+ 
+ ATXF  QVNJ  VASO 
+ 
+ BUYG  RWOK  WBTP 
+ 
+ CVZH  SXPL  XCUQ 
+ 
+ 
+ 
+ DWAI  TYQM  YDVR 
+ 
+ EXBJ  UZRN  ZEWS 
+ 
+ FYCK  VASO  AFXT 
+ 
+ GZDL  WBTP  BGYU 
+ 
+ HAEM  XCUQ  CHZV 
+ 
+ 
+ 
+ IBFN  YDVR  DIAW 
+ 
+ JCGO  ZEWS  EJBX 
+ 
+ KDHP  AFXT  FKCY 
+ 
+ LEIQ  BGYU  GLDZ 
+ 
+ MFJR  CHZV  HMEA 
+   
+ As you can see, five things happen to four characters ,  then something changes.  Five more things happen, then something changes again. The center section has 6 things happen, and then something changes, ... ect .  The three rules talked about in the Morse translation are represented by the color codes, where each sequence is repeated or mirrored or something different is added. You can see they are grouped by columns, five rows at a time, with six in the middle. W ays to describe these characteristics might be; recursion, repetition and symmetry ( both vertically and horizontally ) . 
+   
+ 
+ 
+ 
+ Part 2: 
+ 
+ I know of two procedures t hat can produce something close; both may be necessary, more may exist . Here is the short v ersion. The idea comes from a book on computational theory . It can be f ound on Google books : Orthogonal Arrays: Theory and Applications, By A.S. Hedayat , N.J.A. Sloane, John Stufken . Let the table below serve as an example of an orthogonal , perpendicular difference array ; a PDA (7,7) . 
+ 
+ 
+ Group j = 0 
+ 
+ Group j = 1 
+ 
+ Group j = 2 
+ 
+ Group j = 3 
+ 
+ Group j = 4 
+ 
+ Group j = 5 
+ 
+ Group j = 6 
+ i = 0 
+ 0000000 
+ 
+ 0123456 
+ 
+ 0246135 
+ 
+ 0362514 
+ 
+ 0415263 
+ 
+ 0531642 
+ 
+ 0654321 
+ i = 1 
+ 1111111 
+ 
+ 1234560 
+ 
+ 1350246 
+ 
+ 1403625 
+ 
+ 1526304 
+ 
+ 1642053 
+ 
+ 1065432 
+ i = 2 
+ 2222222 
+ 
+ 2345601 
+ 
+ 2461350 
+ 
+ 2514036 
+ 
+ 2630415 
+ 
+ 2053164 
+ 
+ 2106543 
+ i = 3 
+ 3333333 
+ 
+ 3456012 
+ 
+ 3502461 
+ 
+ 3625140 
+ 
+ 3041526 
+ 
+ 3164205 
+ 
+ 3210654 
+ i = 4 
+ 4444444 
+ 
+ 4560123 
+ 
+ 4613502 
+ 
+ 4036251 
+ 
+ 4152630 
+ 
+ 4205316 
+ 
+ 4321065 
+ i = 5 
+ 5555555 
+ 
+ 5601234 
+ 
+ 5024613 
+ 
+ 5140362 
+ 
+ 5263041 
+ 
+ 5316420 
+ 
+ 5432106 
+ i = 6 
+ 6666666 
+ 
+ 6012345 
+ 
+ 6135024 
+ 
+ 6251403 
+ 
+ 6304152 
+ 
+ 6420531 
+ 
+ 6543210 
+ 
+ The idea is to start the encryption by laying down an orthogonal array in the message field before passing the message through the password field. Step 1 and 2 are seemingly the same but really it’s the difference between key space and cipher-text length so I thought I would include it. 
+ 
+ Vigenere encode ( Elonka’s Vigenere http:// rumkin.com /reference/ kryptos / elonka.html ) 
+ 
+ Step 1: 
+ Create message space using first letter from password; fill 105 charters into the message space. 
+ 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK 
+ 
+ Step 2: 
+ Create group 1 for orthogonal perpendicular difference array (PDA 7,7) by entering the password, “ KKKKKKK ” 
+ 
+ Message: 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK   
+ 
+ Output: 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK 
+   
+ Step 3: 
+ Create group 2 for orthogonal perpendicular difference array (PDA 7,7) by entering the password, “ KRYPTOS ” 
+ 
+ Message: (Output From Step 1) 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK 
+ KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK KKKKKKK   
+ 
+ Output: 
+ KRYPTOS KRYPTOS KRYPTOS KRYPTOS KRYPTOS KRYPTOS KRYPTOS 
+ KRYPTOS KRYPTOS KRYPTOS KRYPTOS KRYPTOS KRYPTOS KRYPTOS KRYPTOS 
+   
+ S tep 4: 
+ C reate group 3 expand output from step 3 to 8 columns . We’ve now gone for a PDA (7,7) to a … I'm not sure, I think It’s a PDA (8,8) . 
+   
+ KRYPTOSK RYPTOSKR YPTOSKRY PTOSKRYP TOSKRYPT OSKRYPTO 
+ SKRYPTOS KRYPTOSK RYPTOSKR YPTOSKRY PTOSKRYP TOSKRYPT OSKRYPTO S 
+   
+ S tep 5 : 
+ B reak into strings of four. 
+   
+ KRYP TOSK RYPT OSKR YPTO SKRY PTOS KRYP TOSK RYPT OSKR YPTO SKRY 
+ PTOS KRYP TOSK RYPT OSKR YPTO SKRY PTOS KRYP TOSK RYPT OSKR YPTO S 
+   
+ S tep 6 : 
+ S hift cipher over 4 characters at a time. 26 repetitions in all. 
+   
+ KRYP UPTL TARV RVNU CTXS XPWD VZUY RYFW BWAS AHYC YCUB JAEZ EWDK 
+ CGBF YFMD IDHZ HOFJ FJBI QHLG LDKR JNIM FMTK PKOG OVMQ MQIP XOSN S 
+ S tep 7: 
+ Output to 30 characters per row. 
+   
+ KRYP UPTLTARVRVNUCTXSXPWDVZUY RYFW 
+ BWAS AHYCYCUBJAEZEWDKCGBFYFMD IDHZ 
+ HOFJ FJBIQHLGLDKRJNIMFMTKPKOG OVMQ MQIPXOSN S 
+   
+ S tep 8: 
+ D elete first 7 characters because they contain the password. 
+   
+ TARV RVNUCTXSXPWDVZUYRYFWBW ASAH 
+ YCYC UBJAEZEWDKCGBFYFMDIDHZ HOFJ 
+ FJBI QHLGLDKRJNIMFMTKPKOGOV MQMQ IPXOSNS 
+ 
+ Then , taking the s ame end bits that we did with K4 and running them through a shift cipher we have something very similar , the interval of repletion is isn’t the same for mine it’s 7 since my key word was 7. In K4 the interval of repletion is every 5. I haven’t developed the example further because it should be obvious that a more accurate example could be produced with some play. All I need to do is provide an example of the procedure that can create it and I think that’s obvious and that this example serves that purpose. 
+ 
+ TARV ASAH YCYC HOFJ 
+ UBSW BTBI ZDZD IPGK 
+ VCTX CUCJ AEAE JQHL 
+ WDUY DVDK BFBF KRIM 
+ XEVZ EWEL CGCG LSJN 
+ 
+ YFWA FXFM DHDH MTKO 
+ ZGXB GYGN EIEI NULP 
+ AHYC HZHO FJFJ OVMQ 
+ BIZD IAIP GKGK PWNR 
+ CJAE JBJQ HLHL QXOS 
+ 
+ DKBF KCKR IMIM RYPT 
+ ELCG LDLS JNJN SZQU 
+ FMDH MEMT KOKO TARV 
+ GNEI NFNU LPLP UBSW 
+ HOFJ OGOV MQMQ VCTX 
+ 
+ IPGK PHPW NRNR WDUY 
+ JQHL QIQX OSOS XEVZ 
+ KRIM RJRY PTPT YFWA 
+ LSJN SKSZ QUQU ZGXB 
+ MTKO TLTA RVRV AHYC 
+ NULP UMUB SWSW BIZD 
+ 
+ OVMQ VNVC TXTX CJAE 
+ PWNR WOWD UYUY DKBF 
+ QXOS XPXE VZVZ ELCG 
+ RYPT YQYF WAWA FMDH 
+ SZQU ZRZG XBXB GNEI 
+ 
+   
+ T hat's the end of the example.  The only other thing that I have to say is ; the other method involves dragging an alphabet across the password field of a Vigenere (ENCODE) cipher.  You can reproduce the "rules" of five things happening and then five more thing happening, by stacking the permutations on top of each other. It might involve reordering the columns to accommodate the correct changes in intervals.  That's the long one, I’ll post it and explain as much as I know if anyone wants to see it.  
+   
+ I made  a special cipher for you folks.  I hope you like it.  
+ 
+ PPNQB NQQOR DGRRP TIXCH TTNAJ 
+ MUZGV LYMLJ BXCHH UNOXA IYEYY 
+ XALWZ AYBMP BBZCR HMRSS XUNDJ 
+ QHUMY JVPFL DDDAK MXGMH GY 
+   
+ 
+ 
+ 
+ Part 3: An Undeveloped Party , but still important. 
+ 
+ A study on Difference arrays: these result question the conclusion that the encryption/ decryption method of K3 as is keyed columnar transposition . 
+ 
+ Instead , an underlying perpendicular difference array could have been laid down in the key space before the message s were passed through the password field of a Vigenere cipher. The password s , kryptos , palimpsest and abscissa were created to match the array and act like an interference wave and reveal the clear text as the wave forms collapse . And the same ‘stat-box’ was used to encrypt all 4 sections. 
+ 
+ The first step is understand how to create an array . The second, how to apply it to the Vigenere. 
+ 
+ 
+ Begin by making a mod 7 multiplication table. 
+ 
+ Here is a table of mod 7 multiplication. From it, you can develop an array. 
+ 
+ X 0 1 2 3 4 5 6 
+ 0 0 0 0 0 0 0 0 
+ 1 0 1 2 3 4 5 6 
+ 2 0 2 4 6 1 3 5 
+ 3 0 3 6 2 5 1 4 
+ 4 0 4 1 5 2 6 3 
+ 5 0 5 3 1 6 4 2 
+ 6 0 6 5 4 3 2 1 
+ 
+ To create the first row ( i =0), copy each row to a group ( J= _) , in the order it came. 
+ 
+ Group j = 0 
+ 
+ Group j = 1 
+ 
+ Group j = 2 
+ 
+ Group j = 3 
+ 
+ Group j = 4 
+ 
+ Group j = 5 
+ 
+ Group j = 6 
+ i = 0 
+ 0000000 
+ 
+ 0123456 
+ 
+ 0246135 
+ 
+ 0362514 
+ 
+ 0415263 
+ 
+ 0531642 
+ 
+ 0654321 
+ 
+ 
+ Then, for each column, fill down. Fill down one column at a time. 
+ 
+ 
+ Group j = 0 
+ 
+ Group j = 1 
+ 
+ Group j = 2 
+ 
+ Group j = 3 
+ 
+ Group j = 4 
+ 
+ Group j = 5 
+ 
+ Group j = 6 
+ i = 0 
+ 0000000 
+ 
+ 0123456 
+ 
+ 0246135 
+ 
+ 0362514 
+ 
+ 0415263 
+ 
+ 0531642 
+ 
+ 0654321 
+ i = 1 
+ 1111111 
+ 
+ 1234560 
+ 
+ 1350246 
+ 
+ 1403625 
+ 
+ 1526304 
+ 
+ 1642053 
+ 
+ 1065432 
+ i = 2 
+ 2222222 
+ 
+ 2345601 
+ 
+ 2461350 
+ 
+ 2514036 
+ 
+ 2630415 
+ 
+ 2053164 
+ 
+ 2106543 
+ i = 3 
+ 3333333 
+ 
+ 3456012 
+ 
+ 3502461 
+ 
+ 3625140 
+ 
+ 3041526 
+ 
+ 3164205 
+ 
+ 3210654 
+ i = 4 
+ 4444444 
+ 
+ 4560123 
+ 
+ 4613502 
+ 
+ 4036251 
+ 
+ 4152630 
+ 
+ 4205316 
+ 
+ 4321065 
+ i = 5 
+ 5555555 
+ 
+ 5601234 
+ 
+ 5024613 
+ 
+ 5140362 
+ 
+ 5263041 
+ 
+ 5316420 
+ 
+ 5432106 
+ i = 6 
+ 6666666 
+ 
+ 6012345 
+ 
+ 6135024 
+ 
+ 6251403 
+ 
+ 6304152 
+ 
+ 6420531 
+ 
+ 6543210 
+ 
+ Next, using Microsoft Word’s find/replace command, you can substitute the numbers for letters. 
+ 
+ Group j = 0 
+ 
+ Group j = 1 
+ 
+ Group j = 2 
+ 
+ Group j = 3 
+ 
+ Group j = 4 
+ 
+ Group j = 5 
+ 
+ Group j = 6 
+ i = 0 
+ KKKKKKK 
+ 
+ KRYPTOS 
+ 
+ KYTSRPO 
+ 
+ KPSYORT 
+ 
+ KTROYSP 
+ 
+ KOPRSTY 
+ 
+ KSOTPYR 
+ i = 1 
+ RRRRRRR 
+ 
+ RYPTOSK 
+ 
+ RPOKYTS 
+ 
+ RTKPSYO 
+ 
+ ROYSPKT 
+ 
+ RSTYKOP 
+ 
+ RKSOTPY 
+ i = 2 
+ YYYYYYY 
+ 
+ YPTOSKR 
+ 
+ YTSRPOK 
+ 
+ YORTKPS 
+ 
+ YSPKTRO 
+ 
+ YKOPRST 
+ 
+ YRKSOTP 
+ i = 3 
+ PPPPPPP 
+ 
+ PTOSKRY 
+ 
+ POKYTSR 
+ 
+ PSYORTK 
+ 
+ PKTROYS 
+ 
+ PRSTYKO 
+ 
+ PYRKSOT 
+ i = 4 
+ TTTTTTT 
+ 
+ TOSKRYP 
+ 
+ TSRPOKY 
+ 
+ TKPSYOR 
+ 
+ TROYSPK 
+ 
+ TYKOPRS 
+ 
+ TPYRKSO 
+ i = 5 
+ OOOOOOO 
+ 
+ OSKRYPT 
+ 
+ OKYTSRP 
+ 
+ ORTKPSY 
+ 
+ OYSPKTR 
+ 
+ OPRSTYK 
+ 
+ OTPYRKS 
+ i = 6 
+ SSSSSSS 
+ 
+ SKRYPTO 
+ 
+ SRPOKYT 
+ 
+ SYORTKP 
+ 
+ SPKTROY 
+ 
+ STYKOPR 
+ 
+ SOTPYRK 
+ 
+ At this point, one can see a discrepancy with the proposed keyed columnar transposition method from K3. It’s not possible that KOPRSTY=0123456 As seen for example on , http:// math.ucsd.edu /~crypto/Projects/ KarlWang /index2.html , In step two of the process , it is claimed that: 
+ Step 2, The Keyed Columnar Transposition: 
+ KRYPTOS KOPRSTY 
+ 0362514 -> 0123456 
+ 
+ 
+ 
+ 
+ 
+## word/footnotes.xml
+ 
+ 
+ 
+ 

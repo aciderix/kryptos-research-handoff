@@ -1,0 +1,350 @@
+`5qQ
+lmcelhiney                                                                                                   B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  
+        
+        
+00\);_(*
+;_(@_)  
+        
+        
+00\);_(*
+;_(@_)  
+        
+        
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  
+        
+        
+00\);_(*
+00\);_(*
+;_(@_)  
+        
+        
+00\);_(*
+00\);_(*
+;_(@_)  
+        }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  }
+00\);_(*
+;_(@_)  
+20% - Accent1
+20% - Accent2
+20% - Accent3
+20% - Accent4
+20% - Accent5
+20% - Accent6
+40% - Accent1
+40% - Accent2
+40% - Accent3
+40% - Accent4
+40% - Accent5
+40% - Accent6
+60% - Accent1
+60% - Accent2
+60% - Accent3
+60% - Accent4
+60% - Accent5
+60% - Accent6
+Accent1
+Accent2
+Accent3
+Accent4
+Accent5
+Accent6
+Calculation
+Check Cell
+Explanatory Text
+Good
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Input
+Linked Cell
+Neutral
+Note
+Output
+Title
+Total
+Warning Text
+Sheet1
+Sheet2
+Sheet3
+ I. 
+CIPHER ALPHABET
+CIPHER: 
+ -------^
+T W 
+......_
+----> 
+ < ---- 
+ --------
+THE TWO UNDERLINED 
+ISOMORPHIC PAIRS, LIF OVER WTQ 
+AND EP OVER KV , ARE
+11 LETTERS APART IN THE STANDARD ALPHABET. TWO ISOMORPHS OCCURS BETWEEN LINE 3 AND LINE 4; 
+ E K 
+OVER P V 
+AND 
+L U OVER W G. AND WITHIN LINE 2 (GK 
+OVER RV).
+ ----- 
+ ----- 
+K W 
+K Z 
+ ----- 
+ -----
+THEREFORE, TWO CONCLUSIONS CAN BE REACHED REGARDING K4, THERE IS A STRONG WIDTH 21 PROPERTY AND THAT THE CIPHER ALPHABET 
+IS RELATED TO LETTERS WHICH ARE 11 APART IN THE STANDARD ALPHABET.
+M N 
+T U 
+ W X Y 
+ALL OF THE ISOMORPHS ARE ADJACENT LETTERS IN THE COLUMNS. THE UG PAIR OCCURS TWICE IN CIPHER YET THE TWO ARE 12 LETTERS APART. AN EXPLANATION IS PROVIDED;
+BY THE CONSTRUCTION OF THE TRUE CIPHER ALPHABET AS FOLLOWS:h
+THE CIPHER ALPHABET:e
+05 06 
+09 10 
+II. 
+FORMATTED INTERMEDIATE 
+ "PLAIN".
+THE 
+DOUBLETS IN CIPHER POSITIONS 5 AND 6 OF THE DATA WRITTEN IN GROUPS OF SEVEN,
+THE BIAS IN POSITIONS 3 AND 4 OF EACH GROUP (THE ISOMORPHS), 
+AND THE K AND V OF CIPHER IN POSITION 4 ARE NON RANDOM AND REFLECT THE STRUCTURE OF THE UNDERLYING PLAIN.o
+REDUCING THE CIPHER LETTERS TO THEIR NUMERICAL VALUES (0-25 ) THE FORMAT OF THE INTERMEDIATE PLAIN AS FOLLOWS:%
+22 07 24 20 
+18 22 09 
+22 19 
+14 00 20 
+. ( I BELIEVE THAT THERE IS A DROPPED LETTER IN THE 24 23 09 GRAPH, NEEDED TO
+ MAINTAIN THE SEVEN FEATURE THROUGH THE LAST TWO LINES AND KEEPING 
+POSITION OF THE 24)
+THE FORMAT IS HIGHLY SUGGESTIVE OF NUMERIC DATA FOR AT LEAST THE MAIN BODY OF THE TEXT. 
+THE VALUE 25 IS A SPECIAL CHARACTER. THE VALUE 24 APPEARS TO BE BOTH A DELIMITER AND A NUMBER.
+IN SUMMARY, THE CIPHER IS FIRST A SUBSTITUTION FOR THE CIPHER ALPHABET 
+FOLLOWED BY ANOTHER SUBSTITUTION FOR THE CIPHER TO PLAIN MAPPING. THE TEXT ALMOST CERTAINLY CONTAIN TWO 'REPORTS'
+, EACH OF WHICH HAS 4 DATA POINTS IN TWO SUBSETS WITH HEADERS.
+   S 
+  B 
+  F 
+  Q 
+  N 
+  Y 
+  J 
+  O 
+ Z  
+  VM
+KRYPTOS NUMERICAL KEY: 
+  1 
+    01 07 04 22 
+ 01 10 12 
+07 07 02 12 01 20 25
+         
+13 13 05 20 15 19 24
+      
+04 04 22 11 
+ 02 11 
+ 04 17 13 04 04 05 24 
+          
+23 23 02 00 11 17 24x
+      
+01 18 21 
+10 00 02 10 
+ 15 12 07 15 16 06 25 
+          
+11 11 08 23 12 06 24w
+      
+02 19 21 
+ 24 23 09 
+ 11 17 14 21 10 19 24
+          
+18 03 18 14 18 05 24
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+lmcelhiney
+lmcelhiney
+Microsoft Excel
+Sheet1
+Sheet2
+Sheet3
+Worksheets
+Microsoft Office Excel 2003 Worksheet
+Biff8
+Excel.Sheet.8
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Cambria1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri
+20% - Accent1
+20% - Accent2
+20% - Accent3
+20% - Accent4
+20% - Accent5
+20% - Accent6
+40% - Accent1
+40% - Accent2
+40% - Accent3
+40% - Accent4
+40% - Accent5
+40% - Accent6
+60% - Accent1
+60% - Accent2
+60% - Accent3
+60% - Accent4
+60% - Accent5
+60% - Accent6
+Accent1
+Accent2
+Accent3
+Accent4
+Accent5
+Accent6
+Calculation
+Check Cell
+Comma
+Comma [0]
+Currency
+Currency [0]
+Explanatory Text
+Good
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Input
+Linked Cell
+Neutral
+Normal
+Note
+Output
+Percent
+Title
+Total
+Warning Text
+TableStyleMedium9PivotStyleLight16
+CompObj

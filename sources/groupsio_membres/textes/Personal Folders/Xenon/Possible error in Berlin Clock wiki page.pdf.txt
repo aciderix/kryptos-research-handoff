@@ -1,0 +1,27 @@
+[[page 1]]
+Un­ Disclosed <chaocipher@gmail.com>
+Possible error in Mengenlehreuhr wiki page
+Un­ Disclosed <chaocipher@gmail.com>
+Wed, Sep 14, 2016 at 7:02 PM
+To: Kryptos@yahoogroups.com
+I'm not sure if anyone in the Kryptos community has brought this up, but I believe the original location of the Berlin Clock
+is incorrect on the wiki page. It probably won't matter to solving K4, but I thought just in case I would post it.
+https://en.wikipedia.org/wiki/Mengenlehreuhr
+The text says:
+Commissioned by the Senate of Berlin and designed by Dieter Binninger, the original full-sized Mengenlehreuhr
+was originally located at the Kurfürstendamm on the corner with Uhlandstraße.
+Below is the original location:
+Notice the two towers in the background. That's Kaiser Wilhelm Memorial Church, which also had a clock in it.
+Here is a pic from the intersection claimed by wiki:
+
+[[page 2]]
+But now check out an intersection a couple blocks closer to the towers:
+I think this is closer to the original location.
+52°30'14.0"N 13°19'54.0"E
+52.503896, 13.331667
+Intersection of Kurfurstendamm and Joachimsthaler Str.
+
+[[page 3]]
+Please let me know what you think.
+Thanks,
+Chaocipher

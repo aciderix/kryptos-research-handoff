@@ -1,0 +1,125 @@
+[[page 1]]
+Write out the plaintext of K1 in rows of 5 letters, and note what appears in the same column as 
+the Q: 
+ 
+BETWE 
+ENSUB 
+TLESH 
+ADING 
+ANDTH 
+EABSE 
+NCEOF 
+LIGHT 
+LIEST 
+HENUA 
+NCEOF 
+IqLUS 
+ION 
+ 
+Most of the word CANDLE ­­ with the complete word LIGHT on the next row, to boot!! (As far as 
+the fact that the E is missing, you can skip a row or go east from the L to get the E, or perhaps 
+the missing E in DESPARATLY is a clue to this missing E). (06/14/14: Or, file this under “E, 
+ABSCENCE OF” to quote lines 6 and 7 of this matrix. LOL) 
+ 
+This makes even more sense if you write in the K1 PT from bottom to top, as was suggested in 
+“Solving Section III” on this page (http://math.ucsd.edu/~crypto/Projects/KarlWang/index2.html): 
+ 
+  NOI 
+SULqI 
+FOECN 
+AUNEH 
+TSEIL 
+THGIL 
+FOECN 
+ESBAE 
+HTDNA 
+GNIDA 
+HSELT 
+BUSNE 
+EWTEB 
+ 
+Is the “breach” in the upper left hand corner, as mentioned in K3, relevant here or not? 
+ 
+ 
+ 
+ 
+ 
+
+[[page 2]]
+ 
+ 
+Now for something REALLY interesting:  Take the dYAhR sequence, rotate it counterclockwise 
+and match it against the CANDL.  Read from top to bottom, going left of CANDL for the 
+superscript letters and to the right for the other letters. 
+ 
+R
+ECN 
+ H
+BAE 
+A
+DNA 
+Y
+IDA 
+ D
+ELT 
+ 
+E E DIT.....A reference to the morse code with all the extra E’s?   
+And if we consider the CANDL as the Y­axis in a 5x5 matrix (i.e. move the column on the left to 
+the right, or just read in a wraparound fashion)... 
+ 
+OECNF 
+SBAEE 
+TDNAH 
+NIDAG 
+SELTH 
+ 
+T DAH forms the X­axis. 
+ 
+Further speculation, 09/01/12 ­­ Similarly to how we moved the leftmost column to the right and 
+got T DAH, look what happens if we move the topmost row to the bottom: 
+BUSNE 
+EWTEB 
+  NOI 
+ 
+The letter T (“T is your position”) surrounded by the four points of the compass.  (To get them 
+into the correct orientation, you have to reflect along the x­axis. 
+ 
+The clues that are incorporated into these observations: 
+1) The Candle 
+2) The typography of dYAhR, which then points to 
+3) The Morse (E E DIT, T DAH) 
+4) T is your position 
+5) Compass rose 
+and potentially 
+6) coordinates ­­ if not necessarily global lat/long coords, at least some type of Cartesian 
+coordinates. 
+ 
+Are all these things there because of coincidence, or because of Sanborn’s “carefully­chosen 
+wording”? 
+
+[[page 3]]
+ 
+ 
+ 
+ 
+New observation 09/04/12: Thinking more about the Morse, I asked myself how many dits and 
+dahs there are in the complete alphabet ­­ turns out there are 82.  Then I asked how many there 
+would be on each line of the Vigenere tableau.  I was particularly interested in whether any lines 
+had exactly 97 dits and dahs.  Turns out there are 2 (or 3, if you’re looking at the Kryptos 
+miniature rather than the original).  One is the last line of the top half (starts with M, ends with I) 
+and the other starts with R and ends with Q.  Could the RQ in the Morse code be directing us to 
+use this line of the tableau in conjunction with K4 in some way? 
+ 
+ 
+ 
+ 
+ 
+Interesting links (not necessarily directly related to this observation/theory): 
+ 
+http://www.thekryptosproject.com/tjp/dinner/ 
+ 
+There’s also a discussion of that conversation at the following link, with many interesting 
+comments on the possible meaning of what Sanborn said: 
+http://kryptos4.blogspot.com/2009/10/new­hints­from­sanborn­scheidt.html 
+ 
+ 

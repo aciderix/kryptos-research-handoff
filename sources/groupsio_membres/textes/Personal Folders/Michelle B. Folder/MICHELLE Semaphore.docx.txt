@@ -1,0 +1,177 @@
+## word/document.xml
+  Baudot – Semaphore Theory Towards Solving Krypt os Part IV 
+ by Michelle Barette, January-March 2021 
+ 
+ There is a famous sculpture at the center of CIA Headquarters called Kryptos . This 12’ tall work of art has large copper sheets with thousands of characters carved through them, comprising encrypted text and Vigenère cipher system tableaus. Of the encrypted text, there are four messages. Since the sculpture was dedicated in November 1990, three of the four messages have been solved, but the fourth has not, and has become one of the most famous unsolved codes in the world. 
+ 
+ My document here attempts to portray a method that I think can be used to solve this mysterious 97-letter message, Kryptos part IV: 
+ 
+ OBKR 
+ UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+ TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+ VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ My method includes a combination of Baudot and Semaphore Flag systems, and a set of simple rules. With this system, I have derived a complete 97-letter plaintext answer that includes some of the essential words that the artist, Jim Sanborn, has offered as hints, such as the words BERLIN, CLOCK, EAST, AND NORTHEAST at specific locations. My purpose for providing this document is to offer my method, but without the complete solution, to see if anyone else can verify that they can get a similar answer. 
+ 
+ Step 1. Bec ome familiar with the Baudot and Semaphore Flag systems. 
+ 
+ In Baudot, a 5-bit binary can be used to express any letter or number. 
+ 
+ In the Semaphore Flag system, the position of two flags can be used to express any letter. 
+ Note: The sculpture itself can be viewed as a large copper ‘flag’ attached to a petrified wood ‘pole’, which could be a reference to the need to use semaphore flags 
+ 
+ Pictures of these two systems are easily found on the web. For reference, here are pictures from Wikipedia, but only the alphabetic characters are used in this system: 
+ 
+ 
+ 
+ 
+ Step 2: Create repeated rows of the Baudot cipher letters for ABC and D : 
+ 
+ These four letters come from the top of the KRYPTOS Vigenere tableau — the extra letters after the reference alphabet: ABCDEFGHIJKLMNOPQRSTUVWXYZ ABCD 
+ Note, another reason I came up with this is because Sanborn has sometimes said that the answer is “as simple as ABC” 
+ 
+ A X X . . . 
+ B X . . X X 
+ C . X X X . 
+ D X . . X . 
+ A X X . . . 
+ B X . . X X 
+ C . X X X . 
+ D X . . X . 
+ A X X . . . 
+ B X . . X X 
+ C . X X X . 
+ D X . . X . 
+ 
+ 
+ 
+ 
+ Step 3: Cut this matrix of Baudot rows into five vertical strips so that they can be used as a type of slide cipher. 
+ 
+ 
+ Note: Ed Scheidt and William Friedman both were well-familiar with strip ciphers as part of their work in Army Signals Intelligence 
+ : (https://commons.wikimedia.org/wiki/File:M-138-A_strip_cipher_1.jpg) 
+ 
+ Step 4 . T he core of the system: 
+ 
+ Slide each vertical strip in the matrix up and down to look for the Baudot representation of a given ciphertext letter, to read it either horizontally or diagonally depending on the semaphore flag orientations for that ciphertext letter, using the following simple rules: 
+ The flag on the *left* will be the orientation for a ciphertext letter 
+ The flag on the *right* will be the orientation for its corresponding plaintext letter 
+ Flags in diagonal positions will stay in their diagonal direction on the matrix, but could potentially be read either left to right or right to left (see section on ambiguity below ) 
+ A flag in a horizontal or vertical position will result in a horizontal direction on the matrix 
+ If the flag is vertical pointing down, then the ciphertext letter is horizontal and read left to right 
+ If the flag is vertical pointing up, then the ciphertext letter is horizontal and read right to left 
+ If the plaintext letter is vertical (regardless of pointing up or down), then the letter is horizontal, after which the letter could potentially be read from left to right or right to left (see table below). I could use help defining a clear and elegant rule to define which direction to use. 
+ If the flag is horizontal, the letter is usually read horizontally from left to right (with exceptions, see appendix) 
+ 
+ 
+ 
+ Example #1 : One thing we know from Sanborn is the following: 
+ 
+ Ciphertext: NYPVTT 
+ Plaintext: BERLIN 
+ 
+ So let’s use our system to see that we can go from the ciphertext letter N to the plaintext letter B, from Y to E, and so forth. 
+ 
+ Looking for N, we start on a standard semaphore chart, and see the two flags in this case in two diagonals, with the righthand side at the 5 o’clock position, and the lefthand side at the 7   o’clock position . 
+ 
+ 
+ In the strip cipher matrix, l ine up the strips to create the letter N in Baudot code ( ..XX. ) using the lefthand flag for orientation, meaning a diagonal line in a 7 o’clock orientation . After moving the strips accordingly , the letter B ( X .. XX ) can be seen in the 5 o ’clock orientation. 
+ 
+ 
+ 
+ 
+ Example #2 : Move onto the next, we are looking for the c iphertext letter Y to become a plaintext E. 
+ 
+ For the ciphertext letter Y ( X.X.X ), we want to line up the strips to match the flag on the lefthand side of the semaphore, the diagonal flag in the 10 o ’clock orientation 
+ The plaintext letter E ( X.... ), from the righthand side, then correctly shows up in a horizontal orientation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ My working theory is that Scheidt gave Sanborn a crib sheet so that he could pick the plaintext letter and then choose a ciphertext letter he wanted, knowing that each letter in the list can be formed using the flags as a guide. The system can be used to encrypt or decrypt depending on which flags are used. 
+ 
+ There is, of course, a possibility of some ambiguity depending on which ways that the strips are shifted, as well as decision-making as to whether to read a letter from left to right or right to left. I have therefore included below a chart of every possible plaintext letter that could be derived from any ciphertext letter: 
+ 
+ Ciphertext 
+ A- ABCDFGJKLMOPRUVW 
+ B- ABCDEFGHIJKLMNOPRSTUVW 
+ C- ABFGHJOPQSWXY 
+ D- ABDEFGIJKLMNOPQRTUVWX 
+ E- ABDEGHJKLMOQRSTUVWXY 
+ F- ABDEFGJLOPRTW 
+ G-ADEGJKLMOTUV 
+ H- ABCDEGJKLOTVWZ 
+ I- ABDEGIJLNOTWZ 
+ J- BCDEFGHIJKLMNPRSTUVWYZ 
+ K- AEFGHJKOPST 
+ L- ABCDEFGJKLMOPQRTUVWXY 
+ M- CDEGJKLMTUV 
+ N- ABDGIJLNOW 
+ O- ABDFGIJKLMNOPQRUVWX 
+ P- ABCDEFGJLOPRTWZ 
+ Q- ABFGIJNOPRW 
+ R- ABDEFGHJKLMOPQRSTUVWXYZ 
+ S- EFGJPRSTZ 
+ T- ABEFGHIJKMNOPRSTUVWYZ 
+ U- ABDKLOVW 
+ V- ADEFGHIJLMNOPQRSTUXY 
+ W- ABCDGIJLMNOQRUWX 
+ X- ADGJLOQRXY 
+ Y- CDEKLTV 
+ Z- DEFGHIJLNPRST 
+ 
+ 
+ Or to put it another way, with NYPVTT, this shows that even if allowing for the ambiguity of which vertical position to put a strip into, or deciding whether to read right to left or left to right, etc., BERLIN is one of the few possibilities that can be derived from this system: 
+ 
+ N = ABDGIJLNOW 
+ Y = CDEKLTV 
+ P = ABCDEFGJLOPRTWZ 
+ V = ADEFGHIJLMNOPQRSTUXY 
+ T = ABEFGHIJKMNOPRSTUVWYZ 
+ T = ABEFGHIJKMNOPRSTUVWYZ 
+ 
+ My goal in sharing this system is to see what possible plaintext that other people could find, applying it to the entire 97-letter K4 section from OBKR to KCAR. 
+ 
+ I have found a complete answer, but I want to confirm that others can find the answer (or what I think is the answer) too! The answer I found is in plain English with EASTNORTHEAST and BERLINCLOCK exactly where Sanborn said they were. Please tell me what you find, via the Kryptos Group. 
+ 
+ It is of course possible that my answer is not correct. I still think that it is worth sharing this information with other Group members though in case it may spark someone else’s idea towards a K4 solution. 
+ 
+ Thanks for your help, 
+ 
+ Michelle 
+ 
+ 
+ --- 
+ Appendix: 
+ 
+ Other mildly related comments that occurred while I was working on this: 
+ 
+ As I was investigating Berlin clocks, I noted that the Berlin Peace Clock was donated by the Lorenz family. Lorenz (unrelated) is also a cipher machine, the Lorenz SZ40/42, which uses a punched paper tape that uses the Baudot system. 
+ 
+ In 2007, Ed Scheidt said things like: 
+ It was a “reflective” system 
+ It was necessary to “even out the ones and zeroes”. He also said that Binary does not necessarily mean ASCII. 
+ 
+ Baudot is a reflective system, for example, “x….” to “....x”, ASCII is not 
+ 
+ 
+ iqlusion is an interesting typo, and Sanborn has said that this was an original sentence, written by him with “carefully chosen wording”. The plaintext “L” in this Baudot system could turn into the ciphertext “Q” with my proposed system. Similarly in the misspelling in the word “Undergruund”, the “O” could become the “U”. 
+ 
+ Another theory that jogged my mind towards this system was the out-of-alignment letters, EN dYAhR. As I mulled this, I thought that: 
+ Y referred to part 1 
+ A referred to part 2 
+ h was a separator for part 3 
+ R made me think of “Ring”, or the strip ciphers for part 4 
+ 
+ 
+ The extra “L” line on Kryptos has exactly 32 letters, NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL, which is also a possible tie-in with the 32 possible letters in a Baudot system 
+ 
+ Exceptions to the above rules on converting flags: 
+ If the ciphertext letter is V or L, then the cipher letter is reversed (read in the opposite direction) 
+ If the ciphertext letter is I or S, then the plaintext is read on a diagonal 
+ 
+ 

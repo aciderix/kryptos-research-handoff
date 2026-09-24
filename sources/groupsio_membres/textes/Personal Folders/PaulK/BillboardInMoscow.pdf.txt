@@ -1,0 +1,296 @@
+[[page 1]]
+E                                     J
+                                       D
+                                       E
+                                       G
+                                       A
+                                       R
+D                                    G
+E D A R                    A
+N Y H
+E                          
+R
+ZOBK
+V
+                            R
+TTM
+OOH
+Note doublet 
+and Caesar shift 
+of 21 between 
+OOH and TTM.
+I arrived at this on
+9/29/2017
+JEDGAR Revisited
+Alternate path
+Billboard in Moscow
+When Scheidt made the comment about recognizing a clue on viewing a billboard in Moscow,
+the appearance of J. Edgar Hoover’s name along the right edge and corners of the CT caused
+me to think this might be the billboard to examine. In looking at the pattern of the appearance 
+of the letters of Hoover’s name in the corners, I, like others, was puzzled by the appearance of 
+the V and E, which are letters in Hoover’s last name in the left corners of the bottom CT panel. 
+It was observed by members that these letters were part of Hoover’s last name, but a 
+connection was not made as to how they might apply to a possible scheme. After looking at 
+this for a while I noticed that the E and R of Hoover’s last name might (by plan) show up in one 
+or the other of two places as noted in the diagram below. One place was at the beginning of 
+K3, at the beginning and end of ENDYAHR. The other place was at the beginning of the row 
+where K3 ends and K4 begins, the E being the ﬁrst letter and the R being the last in the row. 
+To me, it was pretty obvious that Hoover’s whole name was involved here and I needed to ﬁnd 
+a way for the HOO part to become apparent. I noticed that there was a TT following the V on 
+the corner. Maybe this would be more than a coincidence, so I did a Caesar shift of 21 and 
+discovered that the M after the TT decrypted to H, as well. I had succeeded in getting Hoover’s 
+whole name with some small amount of manipulation. To me, it was clear that I needed to ﬁnd 
+a way to complete Hoover’s name. The go-ahead nudge was right there in full view. 
+Paul Kiesel, 8/17/2018
+BillboardInMoscow.pdf
+Notice that the sequence of
+letters in Hoover’s name is
+in the shape of a big S!
+This is the second step
+in going through the K4
+doorway. Step 1 had us
+add a letter to K4 matrix.
+Step two is the ﬁrst 
+manipulation step after
+stepping through the 
+doorway.
+
+[[page 2]]
+ B E T W E E N
+ S U B T L E S
+ H A D I N G A
+  N  D T H E A B
+ S  E  N C E O F
+ L I  G  H T L I
+ E S T  H  E N U
+ A N C E  O  F I 
+ Q L U S I  O  N
+I TWASTOTALLYINVISIBLEHOWSTHATPOO
+ S SIBLE?THEYUSEDTHEEARTHSMAGNETI 
+C F IELDXTHEINFORMATIONWASGATHERE 
+DA N DTRANSMITTEDUNDERGRUUNDTOANUN
+KNO W NLOCATIONXDOESLANGLEYKNOWAB
+OUTT H IS?THEYSHOULDITSBURIEDOUTT
+HERES O MEWHEREXWHOKNOWSTHEEXACTLO
+CATION?O NLYWWTHISWASHISLASTM
+ESSAGEXTHIRTYEIGHTDEGREESFIFTYS
+EVENMINUTESSIXPOINTFIVESECONDSN
+ORTHSEVENTYSEVENDEGREESEIGHTMIN
+UTESFORTYFOURSECONDSWESTIDBYROWS
+Shifts by me.
+ I TWASTOTALLYINVISIBLEHOWSTHATPO
+S S IBLE?THEYUSEDTHEEARTHSMAGNET
+IC F IELDXTHEINFORMATIONWASGATHER
+EDA N DTRANSMITTEDUNDERGRUUNDTOANU
+NKNO W NLOCATIONXDOESLANGLEYKNOWA
+BOUTT H IS?THEYSHOULDITSBURIEDOUT
+THERES O MEWHEREXWHOKNOWSTHEEXACTL
+OCATIOn ? ONLYWWTHISWASHISLASTMES
+SAGEXTHI R TYEIGHTDEGREESFIFTYSE
+VENMINUTE S SIXPOINTFIVESECONDSNO
+RTHSEVENTY S EVENDEGREESEIGHTMINU
+TESFORTYFOU R SECONDSWESTIDBYROWS
+Suggested by Simon Hughes
+HOO part of J. Edgar Hoover’s
+name is missing!
+A 21 Caesar Shift of TTM
+will get you OOH.
+Additional information about HOO follows
+on next page.
+
+[[page 3]]
+jag <codenamejag@yahoo.com>
+To:k7cw@yahoo.com
+Nov 14 at 11:21 PM
+Hi Paul,
+the plain text in K2 will have to be written out in 
+columns of eight. I'm not sure if I'm describing it 
+correctly. It should look like this
+I T W A S T O T
+A L L Y I N V I
+....
+F O R T Y F O U
+R S E C O N D S
+W E S T X L A Y
+E R T W O 
+ 
+it will match with K4's when K4 is rotated in this 
+fashion.
+     
+M Q O
+T T X
+T W O
+V T U
+Jag’s Find
+Emphasis mine.
+P.K.
+Paul Kiesel
+12/11/2019
+And next page....
+
+[[page 4]]
+F O R T Y F O U
+R S E C O N D S
+W E S T I D B Y
+R O W S
+ES CT
+FIND S 
+ID BY RO W
+INSERT S
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+M Q O M
+T T X D
+T W O C
+V T U E
+K4 CT                 K2 PT (8-Column Pad)                                             
+Before S
+Insertion
+After S
+Insertion
+F O R T Y F O U
+R S E C O N D S
+W E S T X L A Y
+E R T W O
+FOUND S LAY
+Note:
+LAY = POSITION
+re: (...WES)T IS YOUR
+    POSITION)
+M Q O M
+T T X D
+T W O C
+V T U E
+So, placing the S in the K2 CT
+in the 9th position from the end
+causes the above match:
+              O
+    T X
+  T W O
+between the K2 PT and the K4
+CT. The result of this is that the
+word REST now appears
+vertically with the T at the 
+bottom. This is a clue to look at
+the letters in K4 that lie above 
+the T.
+R P O R
+A Y S K
+C N S B
+K B K O
+E F G ?
+U N N W
+A I R H
+U W P O
+H A Q D
+U I Q V
+K D V T
+G U R R
+I L L T
+D K F T
+C J W S
+J T B S
+T A B L
+X W F N
+Z Z I H
+K Z L E
+D K O M
+G E S I
+W S B E
+K S L F
+P Q U P
+F J H I
+Z S G R
+M Q O M
+T T X D
+T W O C
+V T U E
+    H
+M H O
+T O
+T O O
+And next page....
+
+[[page 5]]
+R P O R A Y S K
+C N S B K B K O
+E F G Z U N N W
+A I R H U W P O
+H A Q D U I Q V
+K D V T G U R R
+I L L T D K F T
+C J W S J T B S
+T A B L X W F N
+Z Z I H K Z L E
+D K O M G E S I
+W S B E K S L F
+P Q U P F J H I
+Z S G R M Q O M
+T T X D T W O C
+V T U E
+    H
+M H O
+T O
+T O O
+R P O R
+A Y S K
+C N S B
+K B K O
+E F G Z
+U N N W
+A I R H
+U W P O
+H A Q D
+U I Q V
+K D V T
+G U R R
+I L L T
+D K F T
+C J W S
+J T B S
+T A B L
+X W F N
+Z Z I H
+K Z L E
+D K O M
+G E S I
+W S B E
+K S L F
+P Q U P
+F J H I
+Z S G R
+M Q O M
+T T X D
+T W O C
+V T U E
+Notice association 
+with TWO.
+Some observations: Isn’t it cool that something that hasn’t been subject to a Caesar
+Shift has a value of 26? Remember now that Kryptos CT has increased in number
+of characters. This is not a minor thing. Think about the possible resulting outcomes.
+One last thing. Remember what I said in the ﬁrst list about what the clue signs are.
+You might take a look at K4 CT before you start to manipulate things.
+It’s all up to you now. I’m retreating into the shadows so as not to be found (unless 
+you have managed to eke out that last minuscule bit. If you have, please contact me.)
+Good Luck!
+Paulk                                                    11/23/2020
+P.s., Do the shift on the whole
+K4 matrix.

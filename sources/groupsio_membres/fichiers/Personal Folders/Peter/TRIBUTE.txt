@@ -1,0 +1,43 @@
+To clarify how the rotation and expanding could work a tribute to the ladies of Kryptos.
+
+Elonka Dunin
+JewLee Lann
+Jae Ko Sanborn
+Kim Zet(ter)
+
+There are 3 matrices.
+
+Matrix 1 are the names of the ladies written out in rows
+of 6 letters.
+
+Matrix 2
+Start at the bottom right corner.
+Read the rows from right to left
+Place  the letters in colums of 4 letters high.
+
+Matrix 3
+Start at the top right corner.
+Read the rows from right to left
+Place  the letters in colums of 3 letters high.
+
+
+ELONKA
+JEWLEE
+JAEKOS
+KIMZET
+
+
+TIKEEN
+EKEEJO
+ZSALAL
+MOJWKE
+
+
+NKOELAEJ
+EIJKASKO
+ETEELZWM
+
+
+Happy Jae day,
+
+

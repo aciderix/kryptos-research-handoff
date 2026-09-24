@@ -1,0 +1,135 @@
+[[page 1]]
+ 
+Full Derivation of the Weltzeituhr Error Key Decryption Method for Kryptos K4 
+ 
+Ryan Bonifacino 
+Visiting Fellow 
+Massachusetts Institute of Technology 
+Sloan School of Management  
+ryan.bonifacino@sloan.mit.edu  
+ 
+November 18, 2025 
+ 
+Herbert James Sanborn Jr  
+Piney Point, Maryland  
+ 
+ 
+Dear Mr. Sanborn, 
+Please find the detailed derivation below: 
+1. Introduction 
+This document provides the complete mechanical derivation for the proposed decryption of 
+Kryptos K4 using the Weltzeituhr Error Key - a running-key Vigenère system derived solely 
+from historically documented changes to the Berlin World Time Clock. 
+No plaintext is assumed or guessed. All steps are deterministic and reproducible using: 
+• 
+the 1969 Weltzeituhr city list, 
+• 
+the 1997 repair/renaming records, 
+• 
+the K4 ciphertext, 
+• 
+and the OBKR header. 
+ 
+2. Cipher System 
+2.1 Structure 
+The cipher functions as a running-key Vigenère variant: 
+Plain = (Cipher −Key) 𝑚𝑜𝑑 26 
+ 
+with letters mapped A=0, …, Z=25. 
+
+[[page 2]]
+2.2 Start Point 
+The header OBKR is interpreted as four offsets. For Row 3, the third letter K (11th letter) 
+indicates: 
+• 
+Hour 11 
+• 
+ENE sector on the Weltzeituhr 
+• 
+covering Soviet/Eastern Bloc cities 
+Thus the key begins at the Russia block of the clock. 
+ 
+3. Key Generation Rule (“Weltzeituhr Error Key”) 
+The running key is defined by a single rule: 
+Extract the initial letter of every city on the 1969 Weltzeituhr that was renamed, removed, 
+or time-zone-shifted by 1997, in clockwise order starting at Hour 11. 
+This list is objectively defined by: 
+• 
+public 1969 construction records, 
+• 
+Berlin archives, 
+• 
+and the 1997 maintenance documentation, reflected archival metadata: 
+“55 city names were added, 1 removed, spellings were partially changed.” 
+ 
+4. Deterministic Key Table 
+Each entry yields one key character. 
+The full 27-letter block used for Row 3 is: 
+K L G K O R N A   
+Q Y I G H E M F   
+X V V G Z   
+U U C E Q N 
+(Spaces added for readability.) 
+This sequence comes directly from the Weltzeituhr error cities: 
+1–8: Russia block (Kiew → Alma Ata) 
+9–16: Global block (Quebec → Frunze) 
+
+[[page 3]]
+17–21: Pacific block (Xian → Zagreb) 
+22–27: Return to Asia/Europe/Americas (Ulan Bator → Novosibirsk) 
+ 
+5. Decryption of Row 3 
+Ciphertext (31 chars) 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R 
+5.1 Russia Block (Positions 1–8) 
+Key: K L G K O R N A 
+Plain: LINCLOCK 
+5.2 Global Block (Positions 9–16) 
+Key: Q Y I G H E M F 
+Plain: GIVESTHE 
+5.3 Pacific Block (Positions 17–21) 
+Key: X V V G Z 
+Plain: FINAL 
+5.4 Answer Block (Positions 22–27) 
+Key: U U C E Q N 
+Plain: ANSWER 
+5.5 Trailing Nulls 
+Final four ciphertext characters K C A R are treated as padding/nulls. 
+ 
+6. Decryption of Rows 1 and 2 
+OBKR’s remaining letters direct simple Caesar shifts: 
+• 
+Row 1 uses O (15) → shift −15 
+→ “FACE THE DIAL TO THE EAST NORTH EAST” 
+• 
+Row 2 uses B (2) → shift −2 
+→ “LOOK TO THE SATURN RING AND REMEMBER” 
+These are validated by features of the Weltzeituhr: 
+• 
+Wind rose (Row 1): ENE alignment matches the base plate. 
+
+[[page 4]]
+• 
+Saturn (Row 2): The clock’s planetary indicator designates Saturn as the visually 
+trackable cue. 
+ 
+7. Full Plaintext 
+FACE THE DIAL TO THE EAST NORTH EAST. 
+LOOK TO THE SATURN RING AND REMEMBER: 
+BERLIN CLOCK GIVES THE FINAL ANSWER. 
+8. Reproducibility 
+Any cryptanalyst with: 
+• 
+the 1969 and 1997 city lists, 
+• 
+the Weltzeituhr geometry, 
+• 
+the OBKR header, and 
+• 
+the K4 ciphertext, 
+will derive the same key stream and the same plaintext. 
+End of Document. 
+ 
+Yours sincerely, 
+Ryan Bonifacino 
+ 

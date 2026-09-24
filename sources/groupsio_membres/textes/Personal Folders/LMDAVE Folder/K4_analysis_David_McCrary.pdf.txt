@@ -1,0 +1,108 @@
+[[page 1]]
+K4 Analysis, David McCrary 
+ 
+ 
+ 
+ 
+The Kryptos structure with the tableau side reversed and perfect shape is ideal for folding over and 
+laying on top of the cipher side (That’s nothing new, that’s always been seen). But, what then? What 
+does that do for you? You have a one‐to‐one relationship between letters, except the “V” on the bottom 
+left of the cipher side, but still not much.  
+But, no reason to stop there. There is more that can be done after folding over. 
+ 
+ 
+
+[[page 2]]
+ 
+First, If we look at K4, there is a couple of things that stand out. One being the letter from KRYPTOS 
+present on the right hand side. You have KR (on line 1) then SO then YP (with the T of wrapped to the 
+other side). Things would be in much more order if lines 2 and 3 were swapped. KR,YP, SO, and that also 
+would make the left side column TUV (I’ll show why that is significant in a second.) 
+ 
+                                                                OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+                                                                OBKR 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+Now that you have this, lets look at the bottom half of the tableau side when it folds over, it’s in the 
+orientation we already know: 
+ 
+But, why keep it there? As you can see now, the (TUV) of K4 can be slid up (well the whole cipher side 
+can be) to overlap (TUV) of the tableau side 
+ 
+ 
+Swap these two 
+lines
+TUV  Could be a combination of “T” is you position, 
+and the reference to UV light that was mentioned 
+in an earlier post of mine.  
+
+[[page 3]]
+ 
+ 
+ 
+ 
+ 
+ 
+Now of course you don’t have to physically do this, but it was all set up to fall in the right orientation to 
+do it on paper. 
+ 
+ 
+ 
+                                                                OBKR 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+ 
+ 
+This now gives you a new one‐to‐one relationship with the letters (white is K4, blue is overlapped 
+tableau letters): 
+ 
+ 
+ 
+ 
+ 
+Cipher text side can 
+slide up and down after 
+folded over 
+
+[[page 4]]
+Now, move on to NYPVTT, they are no longer in position 64‐69, well maybe this means that those lines 
+just needs to be put back after its decoded. So NYPVTT can still translate one‐to‐one to BERLIN. (it will 
+be BER at the end of line 2, and LIN at the start of line 4 which can be switched back into its normal 
+position afterwards) 
+ 
+This is where I feel I am getting close. When attempting my method of backwards calculating the letters, 
+NYPVTT against BERLIN, I want to see QUVVUV. Because those are the letters of the tableau side that 
+are one‐to‐one with NYPVTT. 
+ 
+The formula I’m using has no idea what the tableau side is, BUT its giving me several interesting results 
+as I slide the starting point of my letter to number reference: 
+MCEEBE (E repeating in position 3,4,6) 
+NVFFWF (F repeating in position 3,4,6) 
+EOWWTW (W repeating in position 3,4,6) 
+I know I’m not getting the repeating 2 & 5, but the fact that 3,4,6 is repeating , its not a random event. 
+The fact that I’m getting this repeating letter in the exact position I want to see V of QUVVUV, can not be 
+coincidental (I think it’s like 1 out of 17000) and its happening at several positions. My formula is not 
+doing anything to force this text, it’s merely taking the cipher text letter and performing a math function 
+with the known text to produce a new letter. And the function can basically be reversed. Meaning if I 
+take the result letters (MCEEBE) and put them in the formula, I’ll get BERLIN back, but MCEEBE means 
+nothing, I need QUVVUV for it to hopefully all fall in place. 
+ 
+It may all boil to just finding a keyword to insert in my text to number reference that feeds my formula 
+to jumble the order correctly. But the fact that it’s spitting out these repeating letters at 3,4 and 6 
+makes me feel that it’s so close. 
+ 
+David McCrary (LMDAVE) 
+ 
+ 
+ 
+ 
+ 

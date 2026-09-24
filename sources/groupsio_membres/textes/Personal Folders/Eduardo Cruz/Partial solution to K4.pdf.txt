@@ -1,0 +1,256 @@
+[[page 1]]
+Dear group, my name is Eduardo Cruz and I'm a computer/electronics reverse engineering hobbyist based in 
+Spain.
+I'm always up for a good challenge and Kryptos K4 caught my attention about 2 years ago, since then I 
+have dedicated on and off time in an attempt to understand it. In this email I disclose a plausible 
+cipher solution to the plain-text K4 block EASTNORTHEAST. 
+As this is my first email to the group, I'm not sure if the formatting of my notes will be preserved, for 
+such reason I have uploaded a pdf version of my notes to group files, you will find it under the folder 
+"Eduardo Cruz".
+During my analysis of Kryptos K4, I've come to the strong conclusion that none of the methods or 
+combination of methods previously used in K1, K2 and K3 are at play in K4. There's a few reasons as to 
+why I think this is the case, the analysis and discoveries presented further below demonstrate that no 
+vigenere table is used in Kryptos as seen in K1-K2, and also no usage of transposition techniques as seen 
+in K3.
+Instead, and as already pointed out by the creators of Kryptos publicly, K4 seems to consist of two 
+cipher methods stacked together working in combination, a first layer with the purpose of masking the 
+english language to complicate analysis, and a second final cipher layer seating on top. 
+The biggest trace as to how K4 is ciphered comes from padding K4 to 98 letters (97+1), this arrangement 
+offers the possibility of aligning K4 in rows using mathematical divisors 2, 7, 14 and 49. Out of these, 
+aligning K4 to a width of 7 columns and 14 rows produces a very distinct feel with as many as 14 
+observable repetition patterns, both occurring horizontally and vertically. To top it up, in such 
+arrangement both pieces of known plain text happen to start precisely at the beginning of a block. The 
+resulting 7x14 block structure looks as follows:
+         Pos.       Horizontal patterns    Vertical patterns
+         1234567    1234567                1234567
+Block 
+    1    OBKRUOX                           O              
+    2    OGHULBS                           O    B
+    3    OLIFBBW        BB                 OL   B
+    4    FLRVQQP        QQ                  L  
+
+[[page 2]]
+    5    RNGKSSO        SS                     S 
+    6    TWTQSJQ                               S 
+    7    SSEKZZW    SS  ZZ                    K   
+    8    ATJKLUD                              K   
+    9    IAWINFB                                 
+   10    NYPVTTM        TT                   P   
+   11    ZFPKWGD                             P   D
+   12    KZXTJCD                                 D
+   13    IGKUHUA                             K    
+   14    UEKCAR                              K    
+When looking at letter count weight by translating letters in the alphabet (A-Z) into numbers (1-26), we 
+can observe the following cipher-text (CT) vs plain-text (PT) distribution in each block.
+Block #              1     2     3     4      5      6     7     8     9    10     11     12    13    14
+CT weight            108   84    69    108    103    126   129   79    64   130    93     98    78    59
+CT weight avg.       15.4  12.0  9.9   15.4   14.7   18.0  18.4  11.3  9.1  18.6   13.3   14.0  11.1  9.8
+CT weight adjusted *                          88 * (6)                             59 * (4) 
+PT weight                              92     73 * (6)                      63     41 * (4) 
+PT weight avg.                         13.4   12.6                          9      10.25    
+CT PT distance                         22     21                            57     34       
+CT PT distance avg.                    3.14   3.50                          8.14   8.50
+    
+* Available plain-text is less than cipher-text its 7 letter counterpart block. Cipher-text weight count 
+is adjusted to the corresponding number of known plain-text letters.
+Focusing the analysis on blocks containing known plain-text (blocks #4 #5 #10 & #11), average cipher-text 
+to plain-text distance reveals some very interesting and important information. 
+On one hand we can see the cipher process being additive as it generally tends to push the plain-text 
+alphabet up. On blocks #4 and #5 this push seems to leave things very close to shore, on average it 
+pushes plain-text up by just 3.32 alphabet positions. 
+On the other hand, the fact that known plaint-text block pairs share close plain-text to cipher-text 
+
+[[page 3]]
+distances, potentially indicates the same or a very similar ciphering mechanism is used on each pair. 
+This hypothesis seems to be true at least for blocks #4 and #5 as we will see in a moment.  
+When comparing blocks #4 & #5 vs #10 & #11, the distance factor goes up significantly to an average of 
+8.32 characters  (blocks #10 & #11) vs 3.32 (blocks #4 & #5). This seems to indicate that the cipher 
+process and/or its parameters are not always the same and get changed at a certain interval. 
+Let's now focus solely on blocks #4 and #5, the longest and most complete K4 section of known plain-text.
+K4 7-letter block:   #4       #5
+Letter position:     1234567  1234567
+Cipher-text:         FLRVQQP  RNGKSSO
+Known Plain-text:    EASTNOR  THEAST
+(the last letter of block #5 plain-text is unknown)
+When looking at these two blocks, a few obvious traits can be observed:
+- The "S" on the second "EAST" plain-text word matches its cipher-text counterpart. 
+- "FLRV" and "GKSS" cipher-text both representing plain-text word "EAST" are at very close distance, 
+mostly shift by 1. 
+- Block #4 plain-text "NO" and block #5 "ST", two alphabet consecutive plain-text letter pairs that 
+sharing the same block location as characters 5 & 6, both produce a similar cipher-text repetition 
+pattern: "QQ" and "SS".
+- Average cipher-text vs plain-text distance is very close on both blocks: 3.14 and 3.50 alphabet 
+positions.
+The careful consideration of these traits offers enough hints to the presence of a repeating cipher 
+system, perhaps with interferences from at least one additional cipher system. The main challenge to 
+solving K4 is being able to untangle the different cipher techniques into something arguably logical and 
+repeatible.
+After extensive analysis of Kryptos blocks #4 and #5, the following findings were be made:
+Step #1: We assume block #5 letter at position #5 "S" is not shifted at all. Plain-text and cipher-text 
+
+[[page 4]]
+are the same letter "S".
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift:                                                                0        
+Shifted-text:                                                         S        
+Step #2: Next to it, letter "T" is consecutive to letter "S" in the alphabet, so shift by 1.
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift:                                                                0   1    
+Shifted-text:                                                         S   T    
+Step #3: We use the previous two shifts learned in block #5 on block #4 on the same positions. We don't 
+obtain direct plain text but both resulting letters "Q" and "R" share an interesting equal distance of 3 
+alphabet positions vs plaintext letters "N" and "O" (from plain-text word NORTH).
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift:                                  0   1                         0   1    
+Shifted-text:                           Q   R                         S   T    
+Step #4: Block #4 expected known plaintext also contains the letters "ST" (word EAST), so we calculate 
+their distance to cipher text.
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift:                          1  -2   0   1                         0   1    
+Shifted-text:                   S   T   Q   R                         S   T    
+
+[[page 5]]
+Step #5: We use the shifts learned from block #4 letter locations 3 & 4 on block #5. The resulting "H" is 
+also at a distance of 3 from plaintext "E", letter "I" is at a distance of 8 from plaintext "A" (word 
+EAST).
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift:                  2  -3   1  -2   0   1                 1  -2   0   1   
+Shifted-text:                   S   T   Q   R                 H   I   S   T    
+Step #6: As we also have plaintext on block #4 letters "EA" (word EAST), we calculate their distance 
+represented as intermediate cipher letters "H" and "I" as found out in the previous step.
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift:                  2  -3   1  -2   0   1                 1  -2   0   1   
+Shifted-text:           H   I   S   T   Q   R                 H   I   S   T    
+Step #7: Learned shifts from step 6 block #4 are also applied to the same locations of block #5. In this 
+step we successfully obtain another piece of plaintext at block #5 location #1. letter "T".
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   "
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift:                  2  -3   1  -2   0   1         2  -3   1  -2   0   1   
+Shifted-text:           H   I   S   T   Q   R         T   K   H   I   S   T    
+Step #8: We leave position #7 on both blocks as a question mark. This is because we don't have any other 
+known plaintext "R" to help us solve block #4 letter position 7, and block #5 letter 7 plaintext is 
+unknown. 
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+
+[[page 6]]
+Shift:                  2  -3   1  -2   0   1   ?     2  -3   1  -2   0   1   ?
+Shifted-text:           H   I   S   T   Q   R   ?     T   K   H   I   S   T   ?
+Overall the resulting shifted-text shows two obvious repetition patterns of the word "HIST" matching 
+known plaintext locations for the word "EAST". Letters "S" and "T" are always seen in plaintext and 
+happen to be at the right places.
+Step #9: We now try breaking our findings into two different cipher system layers. Since we already have 
+some direct plaintext, letters "S" and "T", we assume all their occurrences are only affected by one of 
+the cipher systems layers.
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift #1:               2  -3   1  -2   0   1   ?     2  -3   1  -2   0   1   ?
+Shifted-text #1:        H   I   S   T   Q   R   ?     T   K   H   I   S   T   ?
+Shift #2:                       0   0                 0               0   0
+Shifted-text #2:                S   T                 T               S   T
+Step #10: All remaining letters but one are at a distance of 3 letters in the alphabet vs the expected 
+plaintext. H = E, K = H, Q = N, R = O. 
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Shift #1:               2  -3   1  -2   0   1   ?     2  -3   1  -2   0   1   ?
+Shifted-text #1:        H   I   S   T   Q   R   ?     T   K   H   I   S   T   ?
+Shift #2:              -3       0   0  -3  -3         0  -3  -3       0   0    
+Shifted-text #2:        E       S   T   N   O         T   H   E       S   T    
+Step #11: Lastly, both remaining occurrences of plaintext "A" are at a distance of 8 vs cipher-text "I".
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Cipher-text:            F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+
+[[page 7]]
+Shift #1:               2  -3   1  -2   0   1   ?     2  -3   1  -2   0   1   ?
+Shifted-text #1:        H   I   S   T   Q   R   ?     T   K   H   I   S   T   ?
+Shift #2:              -3  -8   0   0  -3  -3         0  -3  -3  -8   0   0    
+Shifted-text #2:        E   A   S   T   N   O         T   H   E   A   S   T    
+The above findings can be summarized as follows: Cipher layer #1 employs a letter dependent mono-
+alphabetic substitution, while cipher layer #2 employs a letter position dependent shift.
+K4 Block:               #4                            #5
+Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+Starting plain-text:    E   A   S   T   N   O   R     T   H   E   A   S   T   ?
+Layer 1 substitution:   3   8   0   0   3   3   ?     0   3   3   8   0   0   ?
+Resulting text:         H   I   S   T   Q   R   ?     T   K   H   I   S   T   ?
+Layer 2 shift:         -2   3  -1   2   0  -1   ?    -2   3  -1   2   0  -1   ?
+Resulting cipher-text:  F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Cipher Layer 1 mono-alphabetic substitution known parameters so far:
+Alphabet PT:          A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Shift:                8       3     3           3 3       0 0
+Alphabet CT:          I       H     K           Q R       S T
+Cipher Layer 2 shift known parameters so far:
+Letter position:       1  2  3  4  5  6  7
+Numerical shift:      -2  3 -1  2  0 -1  ?
+Regarding the missing two letters at position #7, most likely Layer-2 shifts are 0, 1 ,2 or 3. Shifts -1 
+-2 -3 -4 -5 or 4 are not possible due to collisions with other known CT-PT letter pairs. 
+Shift by 1 is my favorite because its overall roundness: 
+-The number is not used before in the shift series.
+-It creates an incremental sequence at the odd positions (-2, -1, 0, 1). 
+-In the substitution alphabet, shifting block #4 letter at position #7 by 1 gives letter "O", a -3 shift 
+position from known plaintext "R", creating a correspondence with the known "O = R" seen in #4 letter 
+
+[[page 8]]
+position #6. 
+-Same distance mirror happens with #5 letter position #7, shifting by 1 gives letter "N" also at -3 from 
+alphabet letter "Q", also a correspondence with "N = Q" seen in block #4 letter position #5. 
+-If the last letter of block #5 were "Q", the resulting word could be QUADRANT or QUARTER, terminology 
+compatible with compass directions and mapping, a great fit with the preceding sentence "EAST NORTHEAST".
+Analysis updated with Block #4 & #5 letter #7 assumptions:
+      K4 Block:               #4                            #5
+      Letter position:        1   2   3   4   5   6   7     1   2   3   4   5   6   7
+      Starting plain-text:    E   A   S   T   N   O   R     T   H   E   A   S   T   Q 
+      Layer 1 mono subst.:    3   8   0   0   3   3  -3     0   3   3   8   0   0  -3 
+      Resulting text:         H   I   S   T   Q   R   O     T   K   H   I   S   T   N 
+      Layer 2 shift:         -2   3  -1   2   0  -1   1    -2   3  -1   2   0  -1   1 
+      Resulting cipher-text:  F   L   R   V   Q   Q   P     R   N   G   K   S   S   O
+Cipher Layer 2 shift known parameters:
+Letter position:       1  2  3  4  5  6  7
+Numerical shift:      -2  3 -1  2  0 -1  1
+Block #              1     2     3     4      5      6     7     8     9    10     11     12    13    14
+CT weight            108   84    69    108    103    126   129   79    64   130    93     98    78    59
+CT weight avg.       15.4  12.0  9.9   15.4   14.7   18.0  18.4  11.3  9.1  18.6   13.3   14.0  11.1  9.8
+CT weight adjusted *                                                               59 * (4) 
+PT weight                              92     90                            63     41 * (4) 
+PT weight avg.                         13.4   12.8                          9      10.25    
+CT PT distance                         22     23                            57     34       
+CT PT distance avg.                    3.14   3.28                          8.14   8.50
+Alphabet PT:       A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Shift:             8       3     3           3 3  -3-3 0 0
+
+[[page 9]]
+Alphabet CT:       I       H     K           Q R   N O S T
+I hope this solution to the EASTNORTHEAST passage helps cracking the remaining of K4, my attempts to 
+untangle blocks #10 & #11 of known plaintext have failed to produce any viable results due to a lack of 
+usable coincidences. A few strong clues indicate blocks #10 & #11 ciphers unlikely to share parameters 
+with blocks #4 & #5, and also not among themselves. Here's a few reasons:
+-Using blocks #4 & #5 Layer-2 parameters on block #10 creates a "T" collision on letters #4 & #5, hence 
+block #10 doesn't seem to use the known layer-2 parameters.
+-On Block #11 letter #4 both the cipher-text and plaintext is letter "K", this outcome is not posible by 
+using the known cipher parameters from Block #4 & #5.
+-Block #10 and #11 position #3 cipher-text is both "P" while the expected plaintext is "R" and "C", this 
+collision wouldn't happen if the blocks shared the same cipher parameters.
+-Block #10 plaintext "E" and Block #11 "O" share the same position #2, assuming Layer-2 position shift is 
+the same for both letters, if Layer-1 substitution was the same as seen in blocks #4 & #5 these should 
+show at an equal distance vs their correspondences. In blocks #4 & #5 once Layer-2 is solved, known "E" 
+and "O" are at an equal distance of 3 from their Layer-1 cipher correspondences "H" and "R". 
+No other K4 blocks seem to follow the cipher/parameter mechanics of blocks #4 & #5. Analysis of blocks #3 
+and #6 produces favorable Layer2 results but nothing conclusive, no english language is produced when 
+applying the known layer1 parameters.
+That's all for now, Eduardo

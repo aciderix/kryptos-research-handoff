@@ -1,0 +1,4067 @@
+[[page 1]]
+1 
+ 
+ 
+Eris and Harmonia 
+ 
+ 
+ 
+ 
+By Matt Reid 
+12th March 2021 
+ 
+ 
+
+[[page 2]]
+2 
+ 
+Introduction and thanks 
+This paper marks the culmination of some 11 years of research into Jim Sanborn’s Kryptos 
+installation located on the grounds of the CIA Headquarters in Langley Virginia.  Since its original 
+dedication in 1990 public awareness of the Kryptos cipher challenge has grown year on year.  The 
+fact that only partial decryptions for three of the four ciphers have ever been publicly acknowledged 
+have only served to increase its mystique amongst the amateur crypto community that has sprung up 
+in its wake.  Its stubbornness to yield its final secrets even with the gradual release of some 25% of its 
+plain text over the last decade does not appear to have changed the odds stacked against any would be 
+cryptographer in any way.   
+The framework and results presented herein will no doubt represent something of a paradigm shift in 
+how both K4 and the sculpture itself as a ‘whole’ piece are currently viewed.  As will be seen from 
+the eventual conclusion, the artist has not only given us four encrypted messages, but also the 
+blueprints for two physical devices, the first of which would seemingly allow us to decode K4’s 
+unique cipher scheme.  Seasoned programmers will know that for many years the computer journals 
+ran regular columns that challenged readers to construct functional programs using the most minimal 
+amount of code possible.  I would hope that after this paper has been digested, appraised and 
+researched further that it will become apparent just how much has been squeezed into the 1735 letters 
+that comprise Kryptos.  I would also hope that the technical brilliance of the installation as a complete 
+scheme will finally be realised and that parts of this paper will eventually find their way into 
+educational settings for replication in STEM based teaching activities.  On that basis please feel free 
+to replicate any or all parts of this paper for use as an educational or research resource.  
+November the 3rd 2021 will mark the 31st anniversary of the sculptures original dedication by the then 
+Agency Director William Webster.  This in itself was also an important date as it came 31 years to the 
+day after Dwight D Eisenhower laid the foundation stone for the Original Headquarters Building in 
+1959.  At that same ceremony in 1959 a time capsule was buried that  supposedly ‘contained secrets’.  
+Whether this was simply a joke made by Allan Dulles at the expense of the assembled press or not 
+may never be known as the official manifest for the capsule did not appear to contain anything of any 
+great secrecy, but what we do know is that 31 years later a sculpture was installed that really did 
+contain secrets.  This paper won’t offer any background on the Kryptos story as it will be assumed 
+that the reader is already familiar with the chronology of how the first three parts were broken.  It will 
+concentrate instead purely on the nature of the proposed cipher method and the potential meaning of 
+the final message. This solution ‘beyond the solution’ will put an entirely new perspective on the 
+sculpture and show that it is in fact far more than a redundant copper sheet once K4 is broken and 
+reveals instead a new function that takes it into perpetuity. 
+This introduction would of course be incomplete without a sincere expression of gratitude to Jim 
+Sanborn, Ed Scheidt, their patrons and any other unnamed parties behind the scenes for seeding the 
+world with such a constructive and educational curiosity.  I hope this paper in itself goes some way to 
+paying the necessary respect to their collective artistic and technical skills. 
+Lastly I’d like to thank all those on the public forums, microsites and especially Larry McElhiney who 
+moderates the Kryptos.groups.io site along with Matt Coleman over at the Kryptos Facebook Page 
+and Elonka Dunin who took the time out to cast an eye over my initial paper back in 2010.  As 
+someone that came late to this in 2009 I’d also like to thank Elonka as well as all the other crypto 
+enthusiasts that continue to publicly communicate so much about the sculpture and cryptography in 
+general to the outside world.  Anyone unfamiliar with Kryptos that wants additional background may 
+also want to visit Elonka’s Kryptos site at https://elonka.com/kryptos/ before proceeding any further 
+with this document. 
+
+[[page 3]]
+3 
+ 
+Overview 
+This paper presents evidence showing that the Kryptos cipher text is a palimpsest written over the top 
+of 12 cryptograms, each of which show a consistent underlying structure that can be uncovered and 
+decrypted using the K4 cipher text as a key.  A framework is put forward that shows the sculpture 
+must first be closed to form a cylinder consisting of 32 columns and 28 rows.  Each row must then be 
+given freedom to move about the axis in the same way as a Jefferson Cylinder.  Groupings of three 
+consecutive rows are identified that give rise to  6 ‘rail positions’ on which all 12 solves are 
+predicated.  Each of these rails are designated by the same 4 letter marker, with 3 being in the 
+horizontal plane and 3 being in the vertical.  Two distinct types of symmetry operation are used to 
+mirror any row shifts in the relation n* = 29 – n , where n is the row number being shifted.  These two 
+algorithms are provided via cryptically hidden crib examples which are then used repeatedly for the 
+remaining solves.  A defined start and end position is found for each rail position based on the 
+principle of ‘invariance under transformation’, which naturally gives rise to the identification of 8 
+letters for each rail configuration where there are two configurations per rail.  The positioning of the 
+rails that are marked in the vertical plane along with the information that can be gleaned from the 
+BERLIN CLOCK plain text, shows that a transition occurs at Rail Position 3, from which point on the 
+letters are read off vertically rather than horizontally.  In each case the algorithms naturally give rise 
+to the identification of 8 letters in each cryptogram.  Once each cryptogram has been broken, all 
+cipher and plain text is right shifted by one letter in the Kryptos alphabet.  In order to read the plain 
+text for the 8 letters in each cryptogram it is necessary to first encrypt them using the same Vigenere 
+scheme used for parts K1 and K2, using the K4 cipher text as the key.           
+Amendments to the previous paper 
+At the time of publishing this is believed to be an original piece of work that draws upon and extends 
+the findings already put into the public domain by the author’s previous paper, ‘Proposed Outline 
+Method For Decryption of K4’, published to the Kryptos Group forum in May 2020.  This date was of 
+course prior to the latest ‘EAST’ clue gradually emerging via group member Sukhwant Singh’s posts 
+that occurred later in August of that year.  The new clue highlighted a discrepancy in the previous 
+work whereby the  retrieval of ‘NORTH EAST’ in the correct positions was achievable in isolation, 
+but could not be used to successfully recover ‘EAST NORTH EAST’.   
+I’m indebted to James Churchill a member of the Kryptos Group’s sister site on Facebook for an 
+observation around repeating letter strings that he shared on December 15th 2020.  This intriguing 
+pattern in the K2 cipher text represented the break that was needed in order to explain why the new 
+‘EAST’ clue could not be accommodated within the original framework despite the general premise 
+being sound.  Most importantly, it also highlighted a viable basis for how the previous framework 
+could be amended in order to achieve a full solve, the results of which are now discussed in detail.  
+Results 
+The modified method put forward in this paper generates a coherent plain text for the remaining K4 
+cipher as well as all verified plain text letters for K4 in their correct positions.  As ever, this is a large 
+document and the author makes no apologies for that as a full set of cipher and plain text that has been 
+correctly transformed by the appropriate right shift in the Kryptos alphabet has been provided should 
+anyone wish to test or refine any of the results for themselves.  This paper may represent something of 
+an initial pass at the final plain text, but the general basis of the method is generated from first 
+principles and is believed to be sound.  The complete K4 string derived in this paper is 96 letters in 
+length with a 97th letter (R) that remains unmapped, giving an overall string of. 
+
+[[page 4]]
+4 
+ 
+KRYPTO SITE AM EAST / ROOND EAST NORTH EAST B STREET LEADS TO IT / A 
+CRONOMITER OF BERLIN CLOCKS BRILLIANSE / MORNING STAR(R)   
+The forward slashes represent my interpretation of how the message should be split, but is informed 
+by a conscious bias brought about by an awareness of the sculptures other underlying properties that 
+are discussed as part of the conclusion.  This would appear at first glance to be a reasonably cryptic 
+message replete with as many spelling mistakes as K1-3 put together, but there are aspects of it that 
+give reason for confidence that portions of it at the very least (beyond the known plain text) are 
+indeed correct.  The attributes of this message that are deemed to be of interest are discussed in detail 
+later, but before we procced to the method it is perhaps worth taking the 1000 foot view and looking 
+at two subtle features that follow from the nature of the general method used. 
+The first is that the proposed solution is predicated on the existence of 6 ‘Rail Positions’.  Each of 
+these Rail Positions consist of 3 consecutive rows of 32 letters, which sum in total to 96 letters.  As 
+we have a single letter remaining in K4 once we are done it can readily be seen that the plain text 
+eventually creates a result that fits perfectly into the exact same dimensions as one of these standard 
+Rail Positions. 
+The second and perhaps most subtle feature of this method is what at first glance may appear to be 
+just a numerical coincidence, but equally may also be the intentional signature of the master puzzle 
+makers that have put this entire scheme together. 
+It will be seen shortly in the discussion on method that we are selecting 8 characters for each 
+cryptogram over rows that are 32 letters in length.  Those that have researched the CIA’s Langley 
+campus for any additional art, inscriptions or seals looking for potential clues will know that etched 
+into the wall of the original building's main lobby is a biblical verse which also characterizes the 
+intelligence mission in a free society. It reads: 
+"And ye shall know the truth and the truth shall make you free." 
+John VIII-XXXII 
+ 
+ 
+ 
+
+[[page 5]]
+5 
+ 
+Prerequisites 
+In order to successfully replicate the results described in this paper, a software tool that is capable of 
+applying the following transforms to the Kryptos cipher and plain Text is recommended, but this is 
+purely for expedience.  The results presented could equally be derived in long hand fashion simply 
+using ‘pencil and paper’, the Kryptos cipher text and its associated tableau.  The recommended 
+transform capabilities for any software tool are: 
+• 
+A method of showing the plaintext and cipher text side by side that allows transforms to be 
+applied to both sides simultaneously.  This leads to a display with four panels visible on 
+screen as shown below. 
+• 
+The shifting of individual rows to the right or left over a field of 32 characters, whereby a 
+right shift will make the current 32nd character the 1st character and shift all subsequent 
+character positions right by 1 position. 
+• 
+A method of reciprocating any transform (or its opposite) in row n with a corresponding 
+transform in row (29-n).  This is a symmetrical transform that will be explained later. 
+• 
+A method of transforming the cipher and plain text in bulk by right shifting through the 
+KRYPTOS alphabet by one letter at a time.  (This operation can be done by hand by simply 
+utilising a single row from the decryption tableau as a guide). 
+Screenshots used in this paper make use of bespoke software written by the author in order to achieve 
+the functional requirements outlined above, but written tables are provided at the end of the paper in 
+order to allow access to the same outputs as the software. 
+As can be seen here, the software tool gives a simultaneous view of both the plaintext and the cipher 
+text.  Any positional shifts applied to a given row are made in both views.  Row 23 extends over 33 
+characters, but this is compensated for by the software, despite not showing in the matrix view below. 
+ 
+ 
+
+[[page 6]]
+6 
+ 
+Evolution 
+Whilst this paper presents an end to end method for the decryption of K4, it should be born in mind 
+that this paper is just one in a long line of previous attempts, each of which have fallen short of a 
+complete solution.  Anyone wanting to follow the evolution of the ideas from the outset can track 
+them through the Kryptos.Groups.Io forum by reviewing the author’s previous papers in the following 
+order.  All are available in the personal folders section under ‘Matz K4 Decryption Candidate’ and 
+‘Matz Machine Paradigm’. 
+In order of appearance they are: 
+File 
+Date 
+Title 
+Notes 
+KryptosK4.pdf 
+October 2010 
+Kryptos K4. Evidence for 
+a 44 Character Plain Text 
+Something of a naïve 
+first paper on Kryptos, 
+but with some interesting 
+insights that are still 
+relevant to this latest 
+paper.  
+Valkyrie.pdf   
+October 2013 
+Valkyrie Evidence of a 
+palimpsest in K1 and K2 
+discoverable via 
+steganographic transforms 
+of the Kryptos cipher and 
+plain texts 
+A catalogue of interesting 
+phenomena, but most 
+importantly the first 
+paper to document the 
+steganographic scheme 
+for the coordinates that 
+was then taken further in 
+the following two papers. 
+The Machine.pdf 
+June 2017 
+The Machine 
+A detailed breakdown of 
+the various clues 
+gathered to date and how 
+they formed a link 
+between the sculpture 
+text, its physical layout 
+and the Antikythera 
+Mechanism. 
+The Machine r1.pdf 
+September 2017 
+The Machine 
+This was an edited 
+version of the previous 
+paper that removed any 
+conjecture about K4 and 
+added an additional 
+section on using the 
+tableau panels to 
+compute the saros cycle. 
+Proposed Outline 
+Decryption 
+Method.pdf 
+May 2020 
+Proposed Outline Method 
+For Decryption Of 
+Kryptos K4 
+The first draft of the 
+framework described in 
+this paper. 
+ 
+ 
+ 
+
+[[page 7]]
+7 
+ 
+ 
+ 
+ 
+ 
+Part 1 
+ 
+Method 
+ 
+ 
+
+[[page 8]]
+8 
+ 
+ 
+Creating a physical rendition of the cipher machine 
+ 
+Before discussing the decryption method in detail, we need to first construct a physical device that we 
+will use for all steps of the K4 decryption process.  The design of this device is not arbitrary, but is 
+instead an informed design choice based on Jim Sanborn’s Antipodes sculpture that was created in 
+1992 and is now on display at the Hirshhorn Museum in Washington DC.   
+ 
+ 
+ 
+ 
+The design of Antipodes design as seen above would suggest that if we wrap the copper sheets like a 
+scroll then it is possible to create two cylinders, one within the other.  If we remove the extraneous 
+letters T and L from both the cipher and tableau panels respectively then we can see that by putting 
+the text into a regular matrix arrangement the cipher text has dimensions of 32 columns by 28 rows 
+and similarly the tableau text has dimensions of 31 columns by 28 rows.   
+ 
+
+[[page 9]]
+9 
+ 
+With these dimensions in mind we can see that it is possible to close both the cipher text and tableau 
+panels into two closed cylinders, one of which will fit neatly within the other. 
+ 
+To complete the necessary construction of our cipher cylinder we need to add some additional kinetic 
+elements.  Firstly we will need to allow the inner cylinder to rotate freely about the axis.  This means 
+that the inner tableau cylinder will always be matched against 31 letters of the outer 32 letter cipher 
+cylinder meaning that rotation about the central axis will cause different letters from the inner cylinder 
+to be juxtaposed against different  letters of the outer cipher text cylinder each time it moves by 1 
+letter position.  The functionality that this feature provides will be discussed shortly. 
+The outer cipher text cylinder needs to have its 28 individual rows of 32 letters broken apart and given 
+the freedom to move freely about the central axis in that same way as a Jefferson Cylinder.  I’ve taken 
+this rendition of a Jefferson Cylinder from the web and reworked it slightly, so it is deficient in 4 of 
+the 28 rows, but shows the general concept of how we will need the rows to be able to move. 
+
+[[page 10]]
+10 
+ 
+ 
+ 
+The final feature that we will need to add is reasonably unique and I would keen to hear from any 
+readers of this paper as to whether they can propose a more elegant solution to this design requirement 
+than the one I outline below. 
+As there are 28 individual rows there will naturally be an axis of symmetry between rows 14 and 15. 
+Our final design requirement is that for any rotation of a particular row we will require the ability to 
+shift the corresponding reciprocal row (about the axis of symmetry) either symmetrically or counter-
+symmetrically about the central axis.  We will revert shortly to an idealised theoretical version of this 
+setup whereby we only require one cylinder, but from a mechanical perspective its possible to achieve 
+this functionality by creating a second replica of the cipher text cylinder and inverting it so that row 1 
+is at the bottom rather the top.  Attaching a belt between rows of the two cylinders then gives 
+symmetrical movement about the axis for the reciprocal rows.  Attaching the belt in a twisted or 
+figure of eight configuration would allow for counter symmetrical rotation instead. 
+ 
+ 
+ 
+   
+ 
+
+[[page 11]]
+11 
+ 
+A necessary part of the decryption will require us to be walked through two crib examples, both of 
+which make use of the plaintext, so our final step will be to create a second version of this device that 
+replaces the cipher text with the known plain text for parts 1 to 3.  To complete rows 25 to 28 on this 
+cylinder, we shall simply fill in with the standard K4 cipher text.  Intriguingly, the idea of two 
+cylinders existing one as a counterpart to the other has already been alluded in other works by Jim 
+Sanborn such as the 2001 ‘Lux’ installation in Fort Meyers. 
+ 
+ 
+Flattening the device to a 2D representation 
+For the purposes of this paper the text shown will have to be in a flat 2D format, so any row shifts to 
+the left or right will result in the characters at the edges wrapping round as they would do on the 
+physical cylinder.  In case it is not already obvious this also means that spaces are treated as physical 
+characters that move with the respective rows and are not constant white space that pad row ends.  An 
+example is given here for the rotation of right shift rotation of row 2 for the cypher text cylinder. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+Row alignments after right shift of 1 letter on row 2.  Note the movement of the space as well as the 
+letters. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+ 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+ 
+
+[[page 12]]
+12 
+ 
+Rail Positions 
+After some exhaustive analysis to determine their uniqueness,  it became apparent that the cipher text 
+cylinder has six defined ‘rail position’ markers that are each defined by a distinct pattern of the 
+repeating letters, R, E, V and F.   
+A ROT13 operation on these same letters gives ERIS.  As Eris is also the name of the Greek goddess 
+of chaos, strife and discord it was thought fitting that she should be entrusted as the guardian of K4’s 
+concealment.  Her counterpart in mythology is Harmonia, who symbolises union and marriage.  The 
+solution described herein seeks to gradually bring together a number of seemingly disparate clues 
+into a single unified solution hence the title of this paper.  .  
+The first two of these six markers are immediately apparent in the cipher text without the need for any 
+row shifts and can be found in the following locations in rows 1-14. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R 
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X 
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+  
+The presence of a third marker is then discovered via a left shift of 13 letters in row 1.  As will be 
+seen later in the paper this left shift of 13 characters is absolutely fundamental to making the initial 
+break in K4. 
+  
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R 
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X 
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+It can be seen that these three markers are in the horizontal plane and are all contained within the first 
+14 rows or ‘top left panel’.  Three further markers can be identified that exist in the vertical plane and 
+are more generally spread about both panels, whereby the letters RE extend upwards across rows and 
+are capped with the letters F and V, each with a separation of 6 letters within the cylinder scheme. 
+
+[[page 13]]
+13 
+ 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R 
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X 
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I A 
+C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E  
+ 
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E  
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E  
+ 
+T F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R 
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B  
+ 
+T E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I 
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B  
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R I 
+R K L M L E H A G T D H A R D P N E O H M G F M F E U H E  
+ 
+ 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R  
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+Creating a normalised picture for the vertical markers by shifting the rows appropriately gives a 
+clearer picture of how they are supposed to look. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+V F 
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R 
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X 
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+D X V K P  
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P 
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I A 
+C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E  
+ 
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E  
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E  
+ 
+T F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R 
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B  
+ 
+T E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I 
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B  
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R I 
+P N E O H M G F M F E U H E  
+ 
+ 
+R K L M L E H A G T D H A R D 
+S S T T R T V D O H W ? O B K R  
+E C D M R I P F E I M E H N L 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+
+[[page 14]]
+14 
+ 
+The known plain text for K4 along with the decryption method presented in this paper allows us to 
+discern the order in which these rails are to be used, which are as follows. 
+Rail Position 1 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+Rail Position 2 
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X 
+Rail Position 3 
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+Rail Position 4 
+R K L M L E H A G T D H A R D P N E O H M G F M F E U H E  
+ 
+ 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R  
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+Rail Position 5 
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I A 
+Rail Position 6 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+ 
+The most important takeaway from the observation of these six defined rail positions is that they 
+represent our first piece of evidence that the Kryptos cipher text is in fact a palimpsest written over 
+the top of 12 discrete cryptograms.  
+Rail Positions 5 & 6 
+Rail positions 5 and 6 are both slightly anomalous for two very different, but related reasons.  The 
+overall solution will eventually be seen to be dependent on the use of two types of symmetry 
+operation that occur in conjunction with the reciprocal rows for each of these rails.  With regards Rail 
+Position 5 this is impossible as the rows do not sit evenly across the axis of symmetry, which may 
+account for why Jim Sanborn felt compelled to give BERLIN as the first clue as this would flush out 
+any would be solves that may have stalled at this particular step.  The method used on Rail Position 5 
+still uses the same general principles as the rest of the puzzle, but dispenses with the symmetry 
+operations used by the other rails. 
+ 
+With regards Rail Position 6 there is an obvious issue with ‘too much’ symmetry being in play as it 
+mirrors the positions for Rail Position 4 that have themselves already used the underlying symmetry 
+relationships for those rows.  If the puzzle maker did not take action to address this issue then the 
+general solutions to Rail Position 4 could also be used to instantly break the alignment settings for 
+Rail Position 6.   
+
+[[page 15]]
+15 
+ 
+ 
+As a result of this it is conjectured that the puzzle maker has simply dropped one row down (or under) 
+in order to compose Rail Position 6 of rows 4, 5 and 6 as shown here. 
+Rail Position 6 (Alternate.  Repositioned in order to break symmetry with Rail Position 4) 
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R 
+ 
+A consequence of this downward row shift is the presence of the letters QED and END, which are a 
+fitting marker to imply that this alternative row configuration may represent the final intended rail of 
+the K4 solution.  If F and V(B) had their proper six letter separation in that row then the plain text 
+GRUUND would sit between them.  It can be seen that GRUND is spelt out in the cipher text above. 
+Symmetry Operations 
+In order to understand the method used we will first need to explain two distinct types of symmetry 
+operation that can be carried out on the cylinder.  This has already been explained in the context of  
+the physical model in 3D, but we shall revisit the topic again here so that it is explicit within the 
+context of this 2D paper rendition.  
+The rows for the rail positions defined above (with the exception of rail position 5) have symmetrical 
+counterparts defined by the relationship:  
+n* = 29 – n, where n is the row number of any rail row being transformed by a shift operation.  If we 
+take rail position 1 as an example then this formula tells us that we would also have to perform a 
+corresponding operation in row 28, by virtue of the relation 28 = 29 – 1. 
+We can perform either a symmetrical or a counter-symmetrical shift operation on the reciprocal row.  
+The reciprocal rows for rail position 1 are actually the full 3 rows of K4, so we can illustrate the effect 
+of a symmetrical right shift by one letter on row 1 as follows. 
+Before symmetrical right shift of 1 letter in row 1 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+After symmetrical right shift of 1 letter in row 1 
+J E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+ 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R 
+ 
+ 
+
+[[page 16]]
+16 
+ 
+A counter-symmetrical operation on row 1 would lead to a left shift in row 28 giving this result 
+instead 
+J E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+V 
+ 
+Conventions used and glossary of terms 
+It would appear that we are dealing with a unique cipher type and as a result we will have to define 
+some conventions and also introduce some new terms in order to best describe the decryption process 
+concisely.  The drafting of these terms will be seen to pay dividends later by allowing us to reduce the 
+K4 decryption to a simple two-step process that is repeated for all 12 cryptograms.  
+C(n).  The cryptogram number.  This paper puts forward the idea that K4 is made up of 12 discrete 
+cryptograms, which shall be labelled C(1) to C12). 
+KRS(n) In the discussion on the nature of the physical cipher device it was noted that the inner 
+cylinder on which the tableau is written can rotate by one letter position at a time.  In order to emulate 
+the effect of the changing juxtaposition of tableau letters against cipher text or plain text letters we 
+shall simulate this by right shifting by one letter value each time using the Kryptos alphabet. 
+KRYPTOSABCDEFGHIJLMNQUVWXZ 
+To perform a right shift operation on any arbitrary piece of text using the Kryptos alphabet we simply 
+need to look up the current position for any letter of that text in the alphabet above and move one 
+position to the right.  The most simple example to use would of course be the word KRYPTOS itself.  
+It can be seen that a right shift of one letter through the Kryptos alphabet will result in the letters 
+RYPTOSA being returned.  Another subsequent right shift operation would result in the letters 
+YPTOSAB being our next output.  Every time we break a cryptogram for a given rail configuration a 
+global ‘Kryptos Right Shift’ is applied to all of the plain and cipher text on both of our cylinders.  
+There is no KRS applied for C(1), so its initial setting is n=0, but all subsequent right shifts 
+performed are KRS(n+1) every time we have extracted a cryptogram and are about to move to either 
+the next configuration or the next rail position. 
+RP(n).  The rail position number 1-6.  Each rail position will have two configurations. 
+SA(CS/SS).  The two configurations for each rail position correspond to the algorithm that is 
+necessary to apply in each instance.  Odd numbered cryptograms will always have the counter-
+Symmetric algorithm applied (CS) and even numbered cryptograms will always make use of the 
+simple-symmetric algorithm (SS). 
+For each of the two rail position configurations we shall define three alignment settings, which are the 
+IRP, NSP and TSP.   
+IRP is the ‘initial row position’ and is useful to document each time, so that anyone wishing to verify 
+these results or do more research can simply cut and paste the text, which will already have had the 
+correct amount of right shifting applied.   
+
+[[page 17]]
+17 
+ 
+NSP is the ‘normalised symmetry position’ and is the row alignment in which 3 letter mirroring 
+within the row can be seen as well as the characters that will remain ‘invariant under transformation’ 
+when we move the middle rail to the ‘transformed symmetry position’.  
+TSP is the ‘transformed symmetry position’ in which the middle row of the rail will have its invariant 
+letters shifted to their second possible configuration other than the NSP. 
+IUT 2:2[i/j] These are the 4 letters that remain ‘invariant under transformation’ from the NSP to the 
+TSP.  Letters in the top or bottom row will be defined as i and the letters in the middle row as j. 
+IUT 3:4[i/j] These are the 3 letters that initially occur in a contiguous block that is either horizontal, 
+split or vertical in the NSP that will remain invariant and be present in the TSP position as 3 out of 4 
+letters of a 2:2 block of 4 letters. 
+IUT H:V[i/j] The i/j parameters are for letters that will be read in the horizontal plane for the NSP 
+and in the vertical plane for the TSP. 
+RML[ijk].  These are the 3 letters that are mirrored within the row for any given NSP. 
+SML[ijk].  These are the letters that are mirrored between the rail position rows and their reciprocal 
+row positions when the counter-symmetrical algorithm has been run to arrive at the TSP. 
+It is appreciated that these terms and conventions may initially seem complex before viewing the plain 
+text derivations, but it will allow for all cryptograms to be broken on a repeatable basis using a 
+common template that will make for easy comparison between cases. 
+R(n) For any given rail position we shall use this to denote a specific rail, namely 1, 2 or 3. 
+RS/LS(n) The amount of left or right shift that has been applied to a given rail between 
+transformations.  For all of the 12 cryptograms it is only ever rail 2 that is shifted left or right in order 
+to transition from the NSP to the TSP. 
+LBA. We shall refer to a ‘letter block alignment’ as two letters that sit directly over each other 
+between rows. 
+A brief note on Vigenère encryption 
+The final part of the decryption process appears to cause some confusion even amongst those familiar 
+with the cryptographic techniques involved.  The principle of symmetrical encryption means that just 
+like the rest of the framework that has utilised symmetry to some degree, the final method of decoding 
+is no different.  When using the Vigenère scheme, the use of encryption is purely the reversal of the 
+process that was used to decrypt parts one and two.  The puzzle makers have chosen to only reveal the 
+final plain text when the mirror image of the original decryption process is undertaken.  An example 
+is given here for OBKRUOX, the first 7 letters of K4. 
+The key required to decrypt OBKRUOX to give a plain text KRYPTOS is OCYTZDT. 
+The plain text required to be encrypted with a key of OBKRUOX to give a cipher text of KRYPTOS 
+is UNYYCKB. 
+The puzzle makers have opted to use this second method instead.  As the process is symmetrical the 
+level of cryptographic security is identical.  This means that the end result that is read as plain text is 
+‘technically’ classified as cipher text, but the output of this process for each 8 letter cryptogram is 
+clearly intended to be read as the plain text. 
+ 
+
+[[page 18]]
+18 
+ 
+General Method 
+The discovery of the general method and how it was derived from the two crib examples that 
+accompany cryptograms 1 and 2 is discussed in a low level of detail in part 3, but for those not 
+looking to replicate results and that purely want to see the end results then part 2 will give something 
+of a pictorial overview of the complete scheme.  The underlying principle is reasonably simple, but is 
+made obscure by the application of two additional layers of obfuscation.   
+The basis on which the entire scheme is predicated is that of ‘invariance under transformation’ or 
+IUT. 
+There are three types of IUT scheme that are used repeatedly for each cryptogram.  Note. The third 
+type of IUT only starts to appear from C(7) onwards. 
+The first type of IUT is what we have just defined in our glossary of terms as the IUT 2:2 type.  This 
+is perhaps the easiest type to explain and we shall use C(1) as an example of how this works. 
+We can see that by shifting the first row of the cipher text left by 13 letters that we arrive at the 
+following alignment scheme for the first two rows of the cipher text.  
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+ 
+If we look at the letters U and N in the above alignment then we can clearly see the 4 ‘letter block 
+alignment’ LBA that forms UN/YY in rows 1 and 2 respectively.   
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+Applying a left shift of 10 letters to the bottom row results in the following new relationship between 
+the rows.  The Y that was previously the left most Y in the 4 letter block retains its colouring to show 
+its new position after the row shift. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+It is not only the invariant letter blocks that are important, but also the start and end position for the 
+row alignments.  The initial left shift of 13 letters in row 1 put us into what we have specified as being 
+the ‘normalised symmetry position’ or NSP. 
+The NSP position is one in which there will be a defined symmetry characteristic of three letters 
+occurring in the vertical plane twice in one rail position.  In the case of the first cryptogram this 
+occurs in the corresponding plain text for rows 1-3 and can be shown here.  Remember that to get into 
+the NSP alignment all we have done is to left shift row 1 by 13 letters.   
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E O F L I G H T L I E S T H E N U A N C E O F I Q L U S I O N  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+When we apply a shift to the middle rail to take up the second possible configuration that is not the 
+NSP then we say that we have shifted to the ‘Transformed Symmetry Position’ TSP. 
+
+[[page 19]]
+19 
+ 
+The entire solve only requires that we find the required NSP for each rail position and shift the middle 
+rail in order to arrive at the TSP.  The 8 letters that we use to construct each cryptogram result will 
+always be read from the TSP.  The number of row configurations that allow for these symmetrical 
+relationships are much higher than one might suspect, but as we shall see the degrees of freedom that 
+allow us to define the NSP are limited by a number of other criteria.  The first of these criteria is that 
+the NSP has to allow for the presence of the IUT 3:4 type, which is the presence of 3 letters in the 
+NSP that must be present in the TSP and will give us 3 out of 4 letters in an eventual set of 2 LBA’s 
+in the 2:2 configuration. 
+An example is given here for the C(1) NSP. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+The same letters are then found in their 2:2 configuration in the TSP. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+The format of the IUT 3:4 type can be one of 3 types.  Horizontal, Split or Vertical.  Examples of 
+those configurations are given here.  The DK/BQ configuration given in the previous example is 
+obviously an example of a split configuration.  In this diagram the Horizontal configuration is shown 
+in orange, the Split in blue and the Vertical in green. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The final IUT type is IUT H:V and occurs when 2 LBA’s can be read off horizontally in the NSP and 
+then vertically in the TSP.  An example is given here for C(9), which encapsulates the majority of the 
+BERLIN CLOCK section of K4.  As the cryptograms are read 8 letters at a time, the eventual 
+plaintext for C(9) is ERLI NCLO. 
+The NSP position for C(9) is as follows and as can be seen from the coloured blocks the invariant 
+letters are IL and MN when read horizontally. 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+N H O X Z Z I N F U M Y P K N J N M K V M I Q K X U A R P E Z U 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+Upon shifting the middle rail to the TSP position we can see that the invariance has shifted to the 
+vertical plane. 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+I Q K X U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+From cryptogram C(7) onwards all LBA’s are read vertically rather than horizontally.  This tallies 
+with the change in the rail marker orientations for rail positions 4 onwards, but interestingly a gradual 
+transition is noted in cryptograms C(5) and C(6) whereby the last four letters are read in a hybrid 
+diagonal manner for C(5) and in the vertical plane for the final 4 letters of C(6). 
+
+[[page 20]]
+20 
+ 
+There are some additional features of interest which will be loosely described here as Symmetry 
+Mirror Letters, but these are artifacts that occur consistently in the TSP.  For all odd cryptograms up 
+to C(5) there is a mirrored set of 3 diagonal letters that would appear to be additional confirmation 
+that the row settings are correct and that we haven’t wandered off track due to the available degrees of 
+freedom.  An example of SML shall be given here for C(1) in which the rail position rows (in rows 1-
+3) show a mirroring relationship in their reciprocal rows (rows 26-28). 
+ PT 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E S T H E N U A N C E O F I Q L U S I O N  
+E O F L I G H T L I 
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+*PT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+There are two distinct algorithms that make use of the IUT scheme.  The counter symmetric algorithm 
+used for odd numbered cryptograms is very straight forward and should be self-explanatory to some 
+degree even before we delve into a lower level of detail in the next section, but the simple-symmetric 
+algorithm used for the even numbered cryptograms is a different beast altogether.  This algorithm 
+dictates that we have to solve using the same IUT scheme used for the odd numbered cryptograms, 
+but from the perspective of the reciprocal rows.  The invariant letters selected from the Rail Position 
+in focus do not used the IUT2:2 scheme, but the IUT 3:4 scheme instead, which makes solving the 
+even numbered cryptograms much harder than for the odds in both respects.  For the purposes of this 
+first pass it may seem confusing at first as to how these even numbered cryptograms are broken, but 
+the method derivation in part 2 should start to clear that up the missing detail before all 12 
+cryptograms are re-examined again at a much lower level of detail in part 3.  This will also give 
+readers the materials they need to take their own research further with a complete set of correctly 
+transformed grids for each cryptogram.   
+For the purposes of parsing the overview of the results given in part 2 the only thing that needs to be 
+borne in mind is that we will be alternating between the Counter-Symmetric and Simple-Symmetric 
+for C(1-8) and C(11-12).  How these alternations in scheme are mapped to the K4 key is given here. 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O 
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R 
+ 
+Orange corresponds to the CS algorithm for the odds and green to the SS algorithm for the evens.  
+The blue region specifies cryptograms C(9-10) which have no symmetry relationships.  The final R is 
+the K4 letter that doesn’t map. 
+A distinct colour scheme has been devised to differentiate between the IUT 2:2 ,IUT 3:4, RML and 
+SML as they transition from the NSP to TSP positions.  Remember that this transform only ever 
+requires the movement of the middle rail.  If anything is still not clear after this high level overview 
+then please look for more detail against the particular cryptogram in the next section.  For these initial 
+results, screenshots will be taken directly from the authors bespoke software that will show the plain 
+and cipher text side by side with the appropriate level of Kryptos right shifting applied.  As a final 
+reminder before the first pass results are shown, all plain and cipher text is shifted right by 1 letter 
+value in the Kryptos alphabet every time we break a cryptogram. 
+
+[[page 21]]
+21 
+ 
+ 
+ 
+The colour convention used will be. 
+ 
+RML Row Mirrored Letters 
+ 
+SML Symmetry Mirrored Letters 
+ 
+IUT 2:2 Blocks of 2 across rows that remain invariant 
+ 
+IUT 2:2 Blocks of 2 that are the dynamic component of the invariant scheme 
+ 
+IUT 3:4 Blocks of 4 letters that contain 3 of the final 4 in the TSP 
+ 
+All results will only require the display of two distinct row alignments, which are the NSP and TSP.  
+It will be seen that it is only the position of the middle row that is changed in each case.  The current 
+rail position and it’s reciprocal rows are additionally delimited within the grey boundary.  The use of 
+the previously defined terms and conventions should now become as apparent as we move through on 
+a case by case basis. 
+Remember also that LBA’s are consistently read off in the vertical plane from C(7) onwards.   
+ 
+ 
+ 
+
+[[page 22]]
+22 
+ 
+ 
+ 
+ 
+Part 2 
+ 
+Cryptogram Solves  
+C(1 – 12) 
+First Pass 
+
+[[page 23]]
+23 
+ 
+C(1) RP1 KRS(0) SA(CS) RML[HOT] IUT2:2[UN/YY] IUT3 :4[DK/BQ] NSP 
+ 
+R(2)LS(10) to the TSP gives. 
+C(1) KRS(0) SA(CS) SML[ANL] IUT2:2[UN/YY] IUT3 :4[DK/BQ] TSP 
+ 
+C(1) KRS(0) SA(CS) 
+K4 Key 
+Encryption 
+UNYY CKBD 
+OBKR UOXO 
+KRYP TOSI 
+ 
+
+[[page 24]]
+24 
+ 
+C(2) RP1  KRS(1) SA(SS) SML[HUN] IUT2:2[AS/MV] IUT3 :4[WL/FN] IUT3 :4[NG/RR] NSP 
+ 
+R(2)LS(12) to the TSP gives. 
+C(2) RP1 KRS(1) SA(SS) IUT2:2[AS/MV] IUT3 :4[LW/FR] IUT3 :4[PR/RG] TSP 
+ 
+C(2) KRS(1) SA(SS) 
+K4 Key 
+Encryption 
+LWFR PRRG 
+GHUL BSOL 
+TEAM EAST 
+ 
+
+[[page 25]]
+25 
+ 
+C(3) RP2 KRS(2) SA(CS) RML[NFW] IUT2:2[GZ/OJ] IUT3 :4[FW/FN]  NSP 
+ 
+R(2)LS(4) to the TSP gives. 
+C(3) RP2 KRS(2) SA(CS) SML[GHG] IUT2:2[GZ/OJ] IUT3 :4[EW/NF]  NSP 
+ 
+C(3) KRS(2) SA(CS) 
+K4 Key 
+Encryption 
+IFBB WFLR 
+FNWE GZJO 
+ROON DEAS 
+ 
+
+[[page 26]]
+26 
+ 
+C(4) RP2 KRS(3) SA(SS) RML[HHT] IUT2:2[DH/BA] IUT3 :4[AP/XI]  NSP 
+ 
+R(2)RS(4) to the TSP gives. Note 2 IUT[3:4] for BEX in the NSP PT.  TSP also shows PXA in PT   
+C(4) RP2 KRS(3) SA(SS) RML[HHT] IUT2:2[DH/BA] IUT3 :4[AP/XI]  TSP 
+ 
+C(4) KRS(3) SA(SS) 
+K4 Key 
+Encryption 
+VQQP RNGK 
+BZEX PUXA 
+TNOR THEA 
+ 
+
+[[page 27]]
+27 
+ 
+C(5) RP3 KRS(4) SA(CS) RML[QOW] IUT2:2[XK/YP] IUT3 :4[LO/AW]  NSP 
+ 
+R(2)LS(9) to the TSP gives. 
+C(5) RP3 KRS(4) SA(CS) SML[IIW] IUT2:2[XK/YP] IUT3 :4[AW/LO] TSP 
+ 
+C(5) KRS(4) SA(CS) 
+K4 Key 
+Encryption 
+SSOT WTQS 
+XKPY AWLO 
+STBS TREE 
+ 
+
+[[page 28]]
+28 
+ 
+C(6) RP3 KRS(5) SA(SS) RML[VVY] IUT2:2[VV/VB] IUT3 :4[HW/OR] IUT3:4[ZS/OS]  TSP 
+ 
+R(2)RS(3) to the TSP gives. 
+C(6) RP3 KRS(5) SA(SS) RML[JJW] IUT2:2[VV/VB] IUT3 :4[HW/OR] IUT3:4[ZS/OS]  TSP 
+ 
+C(6) KRS(5) SA(SS) 
+K4 Key 
+Encryption 
+JQSS  EKZZ 
+HWOR  ZSOS 
+TLEA DSTO 
+ 
+
+[[page 29]]
+29 
+ 
+C(7) RP4 KRS(6) SA(CS) SML[LJN] IUT H:V[RH/XU] IUT3 :4[MK/WN]  NSP 
+ 
+R(2)RS(8) to the TSP gives. 
+C(7) RP4 KRS(6) SA(CS) SML[EEA] RML[LXY] IUT H:V[XR/UH] IUT3 :4[MW/PN]  TSP 
+ 
+C(7) KRS(6) SA(CS) 
+K4 Key 
+Encryption 
+WATJ KLUD 
+ MWPN RHXU 
+ITAC RONO 
+ 
+
+[[page 30]]
+30 
+ 
+C(8) RP4 KRS(7) SA(SS) RML[LZM] IUT2:2[BF/BG] IUT3 :4[ITN][ABV]  NSP 
+ 
+R(2)LS(6) to the TSP gives. 
+C(8) RP4 KRS(7) SA(SS) RML[GVE] IUT2:2[BF/BG] IUT3 :4[BN/TI][AV/BP]  TSP 
+ 
+C(8) KRS(7) SA(SS) 
+K4 Key 
+Encryption 
+IAWI NFBN 
+PBAV BNTI 
+MITE ROFB  
+ 
+
+[[page 31]]
+31 
+ 
+C(9) RP5 KRS(8) SA(?) RML[EZI] IUT H:V[IL/MN] IUT3 :4[TE/XU]  NSP 
+ 
+R(2)RS(11) to the TSP gives. 
+C(9) RP5 KRS(8) SA(?) SML[HNH] IUT2:2[IN/LM] IUT3 :4[UE/CX]  TSP 
+ 
+C(9) KRS(8) SA(?) 
+K4 Key 
+Encryption 
+IAWI NFBN 
+CXUE ILMN 
+ERLI NCLO  
+ 
+
+[[page 32]]
+32 
+ 
+C(10) RP5 KRS(9) SA(?) RML[FRQ] IUT H :V[IM/LN] IUT3 :4[UH/SK]  NSP 
+ 
+R(2)LS(5) to the TSP gives. 
+C(10) RP5 KRS(9) SA(?) SML[IIQ] IUT2:2[IL/MN] IUT3 :4[KS/CU]  TSP 
+ 
+C(10) KRS(9) SA(?) 
+K4 Key 
+Encryption 
+PKWG DKZX 
+SKCU LIMN 
+CKSB RILL 
+ 
+
+[[page 33]]
+33 
+ 
+C(11) RP6 KRS(10) SA(CS) NSP(1) Note.  C(11) has 2 NSP positions that show IUT H:V for both 
+the R(1) and R(3) rows that will be discussed in part 4.  The 2 NSP positions are shown below for 
+the horizontal case in each instance and finally the vertical instance that is the TSP and resolves 
+both schemes. 
+ 
+R(2)RS(12) to the NSP(2) gives. 
+C(11) RP6 KRS(10) SA(CS) NSP(2) 
+ 
+
+[[page 34]]
+34 
+ 
+ 
+R(2)RS(15) to the TSP gives. 
+C(11) RP6 KRS(10) SA(CS) TSP IUT H :V[EL/VD][VO/OS] TSP 
+ 
+C(11) KRS(10) SA(CS) 
+K4 Key 
+Encryption 
+TJCD IGKU 
+ELDV VOOS 
+IANS EMOR 
+ 
+ 
+ 
+
+[[page 35]]
+35 
+ 
+C(12) RP6 KRS(1) SA(SS) IUT H:V [XQ/UT] [UT/QX] IUT3:4[OQ/FI]  NSP 
+ 
+R(2)RS(8) to the TSP gives. 
+C(12) RP6 KRS(11) SA(SS) SML[VVL] RML[IPV] IUT H:V[UT/QX] IUT3 :4[QO/FM]  TSP 
+ 
+C(12) KRS(11) SA(SS) 
+K4 Key 
+Encryption 
+HUAU EKCA 
+OQFM UTXQ 
+NING STAR 
+ 
+
+[[page 36]]
+36 
+ 
+ 
+ 
+ 
+ 
+Part 3 
+ 
+Method Derivation 
+ 
+ 
+ 
+ 
+ 
+
+[[page 37]]
+37 
+ 
+Initial Break 
+The method for decrypting K4 is given by two crib examples that make use of the plain text in order 
+to walk the solver (albeit cryptically) through the steps necessary.  Subsequent use of these steps 
+against rail positions 2-6 show the consistent user of two algorithms and three IUT schemes that can 
+be traced back directly to these initial set of cryptic instructions.  The method by which these two 
+cribs are discovered will unfold gradually, but we first need to establish the initial break and define 
+the first cryptogram from which everything else will follow. 
+Cryptogram 1 
+As already mentioned in the section on rail positions in part 1, the 4 letter marker RE,V,F appears in 
+Rail Position 1 when a left shift of 13 is applied to row 1 as shown below. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+Examining the distribution of the Y’s in the second row of the cipher text we see that there is a 
+consecutive repeat of the YY pattern.  This arises as the distance between the Y’s are 9,9,4 and 6 
+respectively as shown below.  The U and N have been highlighted in the cylinder rendition below as 
+transformation of row 2 by a left shift of 10 will leave the same letter relationship invariant under 
+transformation.  
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+If we now apply a left shift of 10 to row 2 then we are left with the following arrangement. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+As has already been pointed out earlier, the encryption of UNYY CKB with OBKRUOX will give 
+KRYPTOS when using the vigenere scheme, so the blocks above actually represent the entry point 
+into the overall solve and give the first cryptogram, which has a full 8 letters of UNYYCKBF giving 
+KRYPTOS L (when encrypted with OBKRUOXO).  The order in which the letters are read off is, 
+UNYY for the first four and CKBF for the final four.  We will refine this result later (as the intended 
+result is UNYY CKBD), but now that we have our target row alignment and letters we can examine the 
+plain text and reciprocal rows to extract the additional information required in order to construct the 
+first crib. 
+Extraction of the first crib 
+If we widen the scope of the previous row transformations to include a view of these same operations 
+on the plain text cylinder and additionally include counter-symmetric operations on the reciprocal 
+rows, then the presence of new structural information can be shown that will provide the basis for the 
+first crib. 
+ 
+
+[[page 38]]
+38 
+ 
+Examining the plain text cylinder after the initial left shift of 13 characters for Rail Position 1 
+immediately causes the following relationship of note to appear, which is the word HOT running in 
+both directions in the vertical plane.   
+This may at first glance appear to be a trivial coincidence, but it will gradually become apparent that 
+this an essential part of the first crib, 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E O F L I G H T L I E S T H E N U A N C E O F I Q L U S I O N  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+Another aspect of this arrangement worthy of note is the presence of the anagram HOLE in row 3. 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E O F L I G H T L I E S T H E N U A N C E O F I Q L U S I O N  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+If we now apply the left shift of 10 to row 2 to match the operations we made against the cipher text 
+cylinder we can see that the relationship that defined HOT is destroyed, but the anagram of the word 
+HOLE reappears, albeit in a different spatial relationship as two LBA’s that are read vertically rather 
+than horizontally. 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E S T H E N U A N C E O F I Q L U S I O N  
+E O F L I G H T L I 
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+It will be seen that these two observations for the occurrence of HOT and the persistence of HOLE 
+will  actually come to define the basis for the entire K4 solve.  We have already used a very specific 
+term to describe the spatial relationship between the letters UN and YY in the cipher text, which was 
+that they were ‘invariant under transformation’. 
+The general principle of invariance under transformation is well known in puzzle solving circles as 
+it’s the same geometric principle that Ernő Rubik was trying to explain to his architectural students 
+before stumbling across the concept of the cube that now bears his name.  In cryptographic terms it is 
+also the reason why transposition ciphers can easily be broken as their underlying statistical 
+properties are also invariant under transformation. 
+As the reciprocal rows for Rail Position 1 are all contained within the full 3 rows of K4 the last 3 rows 
+of both the cipher and plain text cylinders will always be identical, which means for the purposes of 
+Rail Position 1 we only need to consider 3 views simultaneously.  We already have the transformed 
+rows for the first 3 rows of the cipher and plain text cylinders, so we now only need to examine the 
+reciprocal rows (26, 27 and 28) when transformed counter-symmetrically.  This operation gives the 
+following result. 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+The most striking feature of this operation is the presence of the aligned double digraph DI at the end 
+of rows 27 and 28. 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+
+[[page 39]]
+39 
+ 
+Another less obvious feature is also apparent, which is the mirroring of the letters ALN on the plain 
+text cylinder in rows 1-3.  Discarding rows 4 – 25 and displaying these two rows in closer proximity 
+better displays this relationship. 
+ 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E S T H E N U A N C E O F I Q L U S I O N  
+E O F L I G H T L I 
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+This symmetrical relationship is important as it has a wider implications when viewed across the 
+entirety of the plain text cylinder.  This relationship actually defines an X on the plain text cylinder 
+when additional diagonal letters are projected as an extension to these first 3 as shown below. 
+ 
+
+[[page 40]]
+40 
+ 
+The remarkable outcome of note in this new relationship is not the X itself, but the implications that 
+arise from the positioning of the letters WL that sit at the intersection of the arms in row 15.  When 
+deriving the first cryptogram it was shown that the distribution of the Y’s in row 2 allowed for a 
+transformation that retained an invariant spatial relationship.  It will be seen from the above that a left 
+shift of 16 on row 15 will result in a swap of the letters WL on the right of row 15 with the letters WL 
+on the left.  By virtue of the cylinders 32 letter width this transformation can repeat indefinitely. 
+If we explore this relationship further and sketch an identical X projection about the left hand instance 
+of the letters WL then we see that this relationship has distinct markers that deem its existence non-
+coincidental. 
+ 
+
+[[page 41]]
+41 
+ 
+If it is not already apparent, the letters WL and D that straddle the intersection of this second X 
+correspond to the slightly raised letters YA and R on the original sculpture.  This may well be an 
+artistic intervention to imply that a RAY is passing through this position between the raised letters.   
+ 
+ 
+Also of interest are the two blocks of four letters directly above and below the WL position, which are 
+SE/FO and AS/OW as shown below. 
+   
+
+[[page 42]]
+42 
+ 
+These two blocks are anagrams of the words FORCES and SHADOW, each deficient in the RC and 
+HD digraphs respectively.  Another feature of note is SOS written diagonally across rows 13 to 15.  
+The use of the raised letters R, A, and Y in the corresponding plain text also suggests we may be 
+dealing with a phenomena associated with light.  If the arms of the X are symbolic of light paths 
+focusing then WL may well be a cryptic nod to the concept of wavelength.  The interchangeability of 
+the positions of WL may also be intended to express (cryptically) the notion of a polarisation filter.  
+As will be seen subsequently, this is not a guess and is borne out by the operation required in order to 
+discover the next cryptogram and its associated crib.  The idea that rotating row 15 by 16 spaces left 
+or right will lead to Invariance under transformation for the 4 letter blocks FO/WL and WE/WL is 
+also a factor that adds additional weight of the emerging role of IUT in the cipher scheme. 
+We saw previously that there is nothing in the original derivation of cryptogram C(1)  that would lead 
+us to believe the intended result is anything other than UNYY CKBF, which would give a C(1) result 
+of KRYPTOS L. 
+Contemplation of this ‘L’ after a number of other avenues had been exhausted  prompted the question 
+of whether this lone ‘L’ was connected with the extraneous L on the tableau panels.  After some 
+thought it appeared that it might suggest that the tableau or something else should shift one letter to 
+the right.  The application of a global right shift through the Kryptos alphabet of KRS(n) has been 
+discussed in part 1, so we shall now apply KRS(1) to all the cipher and plain text simultaneously to 
+replicate how this assertion was originally tested. 
+Note that the row alignment positions for Rail Position 1 have been reset back to their original settings 
+(along with the reciprocal rows). 
+  
+Cryptogram 2 
+We are initially guided in our discovery of cryptogram 2 by the use of the double X configuration that 
+was previously deduced from the steps taken in the construction of the first cryptic crib. 
+
+[[page 43]]
+43 
+ 
+If we apply the same double X overlay on the transformed text above then it becomes apparent (after 
+some significant trial and error) that the discovery of the second cryptogram has to be done via 
+manipulation of the reciprocal rows for Rail Position 1.  To clarify this point, it means that the crib we 
+have been given exists in rows 26,27 and 28, but that the cryptogram that we are expected to retrieve 
+C(2) is actually still in the original Rail Position.  It is also found during this process that we need to 
+apply a simple symmetric transform rather than the previous counter-symmetric operation to the 
+reciprocal rows.  With those considerations in mind we now apply a right shift of 2 to row 28, a left 
+shift of 10 to row 27 and finally a right shift of 11 to row 26. 
+The results of these operations on the cipher text cylinder are shown relative to the double X pattern 
+outlined previously. 
+  
+It will be seen immediately that the letters ALN have been retained in the same filter position and 
+have now been joined by the letters DCI in the second filter position, which is believed to be 
+representative of CANDIL light passing through the two (hypothesised) polarising filters.  The second 
+cryptogram is presented without a full introduction at this point, but the order in which the letters are 
+read is LWFR PR(R)G.  The R in the second grouping of 4 is bracketed as it represents the position of 
+
+[[page 44]]
+44 
+ 
+the spelling mistake in K1.  Encrypting LWFR PRRG against the next 8 letters of K4, which are 
+GHUL BSOL gives rise to the result TEAM EAST for cryptogram 2. 
+One further observation of note before looking more deeply into the first two cribs is that 7 of the 8 
+letters comprising cryptogram 2 appear to have been lifted directly from K4 itself starting at position 
+21, with the single spelling mistake also being echoed in the K1 plain text for that same position. 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O 
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R 
+ 
+All of the phenomena described up to this point have been engineered in order to cement the 
+significance of these two end results for cryptograms 1 and 2 by adding tangible methods of 
+corroboration.  These initial two cryptograms and their associated cribs are all we are given in the way 
+of help in order to complete the remainder of the solves for Rail Positions 2 to 6.  We obviously have 
+the plain text clues for EAST NORTH EAST  and BERLIN CLOCK in their relative positions, but 
+these can only be used for verification purposes and do not in themselves give anything away about 
+the underlying method.  It is necessary therefore to re-examine everything we have already been given 
+in these two cribs to see if it’s possible to extract any more information about the underlying method.   
+In depth re-examination of the first two cryptograms and 
+their associated cribs 
+The significance of some of the initial structures discovered in the plain text cylinder under the 
+transforms for C(1) were passed over quite quickly in the previous treatment, so we should now 
+address the question of letter selection and whether the crib examples can give us any further pointers 
+towards how we can identify the intended letters without recourse to support from these large scale 
+visual structures. 
+Two distinct schemes per rail position 
+The first and most obvious conclusion to draw first is that there are two distinct alignments for each 
+rail position.  Irrespective of the required KRS(1) operation after the first block of 8, C(2) is telling us 
+that the second alignment scheme needs to be solved via the rails ‘reciprocal rows’ rather than in the 
+primary rail itself.  Given that we have already established the presence of 6 rails positions this would 
+imply that we are capable of generating at least 96 letters of plain text via this scheme.  
+Invariance under transformation 
+If we step back to the initial left shift of 13 applied to row 1 in the plain text cylinder then we will 
+remember the vertical striping of the letters HOT running in both directions. 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E O F L I G H T L I E S T H E N U A N C E O F I Q L U S I O N  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+It was this initial configuration that allowed us to spot the persistence of the UN YY grouping in the 
+cipher text as shown again here. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+
+[[page 45]]
+45 
+ 
+This appears to be an important observation as the characters that remain constant have become the 
+first 4 of the intended cryptogram. 
+We were initially led to the solve of cryptogram 2 by the visual guidance given by the double X crib, 
+but looking in greater detail at the cipher cylinder for Rail Position 1 and the reciprocal rows after the 
+first global right shift we find a very similar mechanism to that just described for C(1).  The H and N 
+characters share the same relationship as H and T in cryptogram 1.   
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C U W 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+On closer inspection we find there is only one symmetrical shift pattern of row 2 that provides a 
+complete mirroring between the rail position and its reciprocal rows, which is found to be for the 
+letters HUN as shown here. 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+E  
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+T  
+O X O U A L U A A F R K K X B O L R M V E J B X J Q G C Q P 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+The next observation under this row alignment is critical as it shows that the use of the double X  as a 
+visual crib was purely a guide pointing us at this configuration.  If we look at the relationship between 
+the digraphs AS and MV then we can see that there is an equivalent persistence of a 4 letter block 
+identical to that of the UNYY configuration in C(1). 
+  
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+E  
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+T  
+O X O U A L U A A F R K K X B O L R M V E J B X J Q G C Q P 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+A left shift of 12 in row 27 with a symmetrical change in the reciprocal row 2 brings us back to the 
+relationship first discovered via the crib. 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C U W 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+
+[[page 46]]
+46 
+ 
+There is another and much more subtle aspect of this transformation that is harder to spot, but will be 
+seen to be relevant in later solves.  If we examine the plain and cipher text cylinders simultaneously 
+for this same  transformation in Rail Position 1 then it can be seen that there is a similar relationship 
+that occurs in the top half of the cylinder under the same transformation.  All three views will be 
+shown simultaneously to show what is happening.  These initial positions that form our starting points 
+for a given rail alignment shall be referred to here on in as the ‘normalised symmetry position’ or 
+NSP.  The * character will designate the reciprocal rows for any given position.  KRS(n) will be used 
+to designate how much the text has been right shifted through the Kryptos alphabet.  The ‘transformed 
+symmetry position’ will be referred to as the TSP.  
+NSP for Rail Position 1 KRS(1). 
+PT 
+Q D C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F 
+Q  
+F S G M J H I O M J F A O I F Q V B Q D F S G J U M V A J S 
+I S X A O I B O T S   J O X B A O S O B M M P J Q W J A J C M F 
+CT 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+E  
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+* CT/PT 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+T  
+O X O U A L U A A F R K K X B O L R M V E J B X J Q G C Q P 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+TSP for Rail Position 1 KRS(1). 
+PT 
+Q D C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F 
+F A O I F Q V B Q D F S G J U M V A J S Q  
+F S G M J H I O M J 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+CT 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C U W 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+* CT/PT 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+  
+Mirroring and row striping 
+There does not appear to be any symmetry under RS1 for Rail Position 1 like the clean ALN 
+relationship that we saw under KRS(0).  What we do see however is a feature under KRS(0) that 
+appears to be echoed to some degree under RS1 for the cipher text cylinder.  This feature is the 
+presence of the vertical row stripe ABC.  We first see it here in Rail Position 1 under KRS(0). 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+
+[[page 47]]
+47 
+ 
+ 
+ 
+We next see this feature in *Rail Position 1 under KRS(1) as shown here. 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+The most interesting aspect of this feature is that if we read the rows as 2, 3 and then finally 1 the 
+relationship reverts back to ALN and ABC. 
+There also appears to be signature in the reciprocal rows of the plain text cylinder that is noteworthy 
+in the TSP. 
+* CT/*PT 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+The role of digraphs 
+This next piece of analysis was not discussed in part 2 so as not to add confusion, but is left in as part 
+of this more detailed analysis as there may well be some additional spatial information imparted 
+through the use of digraphs.  
+If we go back to the results for Cryptogram 1 as displayed on the plain text cylinder then it can be 
+seen that there does appear to be some significant positional information conveyed through the use of 
+digraphs.  Looking in more detail at the most obvious digraphs we can note the following 
+relationships. 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E S T H E N U A N C E O F I Q L U S I O N  
+E O F L I G H T L I 
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+The spatial relationships here are extremely interesting as there is a separation on the cylinder 
+between the diagonal TL and AN of 9 letters, which is the same as the separation of the diagonal HE 
+letters that cross the location of our first 4 letter block. 
+In analysing the role played by digraphs another aspect of the IUT scheme became apparent at this 
+stage, which is the role played by the IUT 3:4.  In C(2) we can see that the cipher text for the NSP 
+position has the following digraph relationships prior to transformation. 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+E  
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+
+[[page 48]]
+48 
+ 
+We know that we see 3 of these letters again as part of the 4 that make our PR/RG LBA’s.  Whilst this 
+was noted, it wasn’t really cemented as a meaningful part of the scheme until the implications of 
+C(9)’s start and end positions  were fully appraised.  
+In terms of the 3rd type of IUT transformation we see in the cryptograms from C(7) onwards, which 
+we have described as IUT H:V then the best example is given by the previous scenario in the plain 
+text of C(1) where the word HOLE could be read horizontally in the NSP and then as 2 LBA’s in the 
+vertical plane from the corresponding TSP position. 
+Temporal IUT 
+There may be some evidence for a form of temporal IUT as seen in this example from C(2), where a 
+relationship exists between the PT and CT when viewed as a superposition of the NSP and TSP. 
+PT NSP 
+Q D C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F 
+Q  
+F S G M J H I O M J F A O I F Q V B Q D F S G J U M V A J S 
+I S X A O I B O T S   J O X B A O S O B M M P J Q W J A J C M F 
+CT NSP 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+E  
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+PT TSP 
+Q D C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F 
+F A O I F Q V B Q D F S G J U M V A J S Q  
+F S G M J H I O M J 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+CT TSP 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C U W 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+The start position for the MV block and its locking counterpart in the plaintext appear to be relevant 
+positional markers in this instance, but evidence for a similar relationship has only be identified in one 
+additional cryptogram so far. 
+Now that we have established how the algorithms and IUT scheme were initially found with the help 
+of the visual cribs, we shall revisit each of the cryptograms in order to see if any additional 
+information can be extracted. 
+For the purposes of making results easy to replicate a transformed version of the text for the rail 
+position and reciprocal rows are given for both the cipher and plain text cylinders with the correct 
+amount of KRS(n) applied.  
+Rows are additionally shown in their original alignments as the ‘initial row position’ or IRP.  
+ 
+ 
+
+[[page 49]]
+49 
+ 
+ 
+ 
+ 
+Part 4 
+ 
+Cryptogram Solves  
+C(1 – 6) 
+Detailed Analysis 
+ 
+ 
+
+[[page 50]]
+50 
+ 
+Cryptogram 1 
+C(1) RP1 IRP KRS(0)  
+PT 
+B E T W E E N S U B T L E S H A D I N G A N D T H E A B S E N C 
+E O F L I G H T L I E S T H E N U A N C E O F I Q L U S I O N  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+*PT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+CT 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+*CT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+C(1) RP1 KRS(0) SA(CS) RML[HOT] IUT2 :2[UN/YY] IUT3 :4[DK/B] NSP 
+PT 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E O F L I G H T L I E S T H E N U A N C E O F I Q L U S I O N  
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+*PT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+CT 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+*CT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+R(2)LS(10) to the TSP gives. 
+ 
+C(1) RP1 KRS(0) SA(CS) IUT[UN/YY] SML[ANL] TSP 
+PT 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E S T H E N U A N C E O F I Q L U S I O N  
+E O F L I G H T L I 
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+ 
+
+[[page 51]]
+51 
+ 
+*PT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+CT 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+*CT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+C(1) RP1 KRS(0) SA(CS) IUT2 :2[UN/YY] IUT3 :4[DK/B] TSP Digraph Analysis 
+PT 
+S H A D I N G A N D T H E A B S E N C B E T W E E N S U B T L E 
+E S T H E N U A N C E O F I Q L U S I O N  
+E O F L I G H T L I 
+I T W A S T O T A L L Y I N V I S I B L E H O W S T H A T P O  
+PT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+CT 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+*CT 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+A W I N F B N Y P  
+T W T Q S J Q S S E K Z Z W A T J K L U D I 
+G K U H U A U E K C A R  
+V T T M Z F P K W G D K Z X T J C D I 
+ 
+Notes.  The first 4 letters are given to us by the IUT 2:2 configuration where UN/YY is invariant.  At 
+this stage we see that IUT3:4 is actually DK/B, which means the intended 2 LBA’s must be CK/BD. 
+Whilst we have already extracted our required 8 letters, the spatial relationships given by the digraph 
+analysis do remain intriguing. 
+Letter Selection 
+RSP1 CT 
+U S D J K Z L D K R N S H G N F I V J E M U F P H Z L R F A X Y 
+Y U V L L T R E V J Y Q T M K Y R D M F D  
+Y Q T Q U X Q B Q V 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+Results 
+C(1) KRS(0) SA(CS) 
+K4 Key 
+Encryption 
+UNYY CKBD 
+OBKR UOXO 
+KRYP TOSI 
+
+[[page 52]]
+52 
+ 
+Cryptogram 2 
+C(2) RP1 IRP KRS(1)  
+PT 
+C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F Q D 
+F S G M J H I O M J F A O I F Q V B Q D F S G J U M V A J S Q  
+J O X B A O S O B M M P J Q W J A J C M F I S X A O I B O T S   
+CT 
+F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J W L 
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G E  
+W G T L V E F F I K X F O K P W H X I R R U F O H G U L Q D F  
+*CT / PT 
+V S Z S H I V M C A S M J G C C X G M Y W U U T Y Q H R A A S  
+O X O U A L U A A F R K K X B O L R M V E J B X J Q G C Q P T  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B Y  
+ 
+C(2) RP1 KRS(1) SA(SS) SML[HUN] IUT2:2[AS/MV] IUT3:4[G/RR][WLF] NSP 
+PT 
+Q D C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F 
+Q  
+F S G M J H I O M J F A O I F Q V B Q D F S G J U M V A J S 
+I S X A O I B O T S   J O X B A O S O B M M P J Q W J A J C M F 
+CT 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+E  
+P U O U V Z U C U W P V W M M O Y F W L P U O N R P Y E N G 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+*CT/PT 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+T  
+O X O U A L U A A F R K K X B O L R M V E J B X J Q G C Q P 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+R(2)LS(12) to the TSP gives. 
+ 
+C(2) RP1 KRS(1) SA(SS) RML[HLG] IUT2 :2[AS/MV]  IUT4 :4[PR/RG][LW/FR] TSP 
+PT 
+Q D C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F 
+F A O I F Q V B Q D F S G J U M V A J S Q  
+F S G M J H I O M J 
+I S X A O I B O T S   J O X B A O S O B M M P J Q W J A J C M F 
+CT 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C U W 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+*CT/PT 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+
+[[page 53]]
+53 
+ 
+RP1 TSP KRS(1) SA(SS) IUT[AS/MV] Digraph Analysis 
+PT 
+Q D C F O X F F Q A V C O M F A I B E J Q H B Q E O I F B C A F 
+F A O I F Q V B Q D F S G J U M V A J S Q  
+F S G M J H I O M J 
+I S X A O I B O T S   J O X B A O S O B M M P J Q W J A J C M F 
+*PT 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+CT 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C U W 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+*CT 
+U U T Y Q H R A A S  
+V S Z S H I V M C A S M J G C C X G M Y W 
+R K K X B O L R M V E J B X J Q G C Q P T  
+O X O U A L U A A F 
+Y  
+W O O N K G T R X H E R K Z O L D E J H R V I V B V F R D B 
+ 
+Notes.  Whilst there is no interesting additional data to be gleaned from digraphs in this instance we 
+do have the interesting result with regards the matching up with the K4 cipher text.  The presence of 
+the single mistake being in the same location as the misspelt Q in K1 is deemed non-coincidental. 
+ 
+Letter Selection 
+CT 
+W L F N V G T I K M Y G B Z P V A E L R K M E R Y Q A I H Q G J 
+P V W M M O Y F W L P U O N R P Y E N G E  
+P U O U V Z U C U W 
+U F O H G U L Q D F   W G T L V E F F I K X F O K P W H X I R R 
+ 
+Results 
+C(2) KRS(1) SA(SS) 
+K4 Key 
+Encryption 
+LWFR PRRG 
+GHUL BSOL 
+TEAM EAST 
+ 
+ 
+
+[[page 54]]
+54 
+ 
+Cryptogram 3 
+C(3) RP2 IRP KRS(2)  
+PT 
+U Y U A Z U N A E C S L A U K F A G B N C U I N G T Y U A Z C  
+D A W S S J L B ? S J G T B J A W N F L S B D W P L G F A W S  
+S J G P G B A Q G Z J G P G K Z J A Y U A Z B S J G G K C E S N 
+*PT 
+F S J G U Z L F G U L U I S J G J A N G C N L S S N G L L U  
+ 
+B G P S G F S J G E C U F N G C U F O G G P G F L U S J G J A S 
+C L P G B E C O L U I H P A Q S J G E J C Q D G P E C W B G F  
+CT 
+T L R G S Y R G Q X F W H Y B M J Y H Z J Y W Z V N B R H S L  
+J J F F F W X J ? F Z Y D H W H O Z U S F H L T E W V R G P G  
+G X N F Y H G R Q A V V M N S S W I B T V O H G W U N C X L F K 
+*CT 
+G L H S D P B O C Q J J G Z G U C S C Q C S G I T G G P N D  
+ 
+S G G H A C B H L A S W G S W C G A S A C P Q C G G P S U P S L 
+D B G F F U L C C J S S Q B S G Z O L G P A C I P L G Z H G D  
+ 
+C(3) RP2 KRS(2) SA(CS) IUT2:2[GZ/OJ] IUT3:4[WFN] RML[NFW] NSP 
+PT 
+U Y U A Z U N A E C S L A U K F A G B N C U I N G T Y U A Z C  
+S J G T B J A W N F L S B D W P L G F A W S  
+D A W S S J L B ? 
+S J G G K C E S N S J G P G B A Q G Z J G P G K Z J A Y U A Z B 
+*Rail Position 2 PT 
+U L U I S J G J A N G C N L S S N G L L U  
+ 
+F S J G U Z L F G 
+F L U S J G J A S B G P S G F S J G E C U F N G C U F O G G P G 
+C L P G B E C O L U I H P A Q S J G E J C Q D G P E C W B G F  
+Rail Position 2 CT 
+T L R G S Y R G Q X F W H Y B M J Y H Z J Y W Z V N B R H S L  
+F Z Y D H W H O Z U S F H L T E W V R G P G  
+J J F F F W X J ? 
+G W U N C X L F K G X N F Y H G R Q A V V M N S S W I B T V O H 
+*Rail Position 2 CT 
+Q J J G Z G U C S C Q C S G I T G G P N D  
+ 
+G L H S D P B O C 
+C G G P S U P S L S G G H A C B H L A S W G S W C G A S A C P Q 
+D B G F F U L C C J S S Q B S G Z O L G P A C I P L G Z H G D  
+ 
+R(2)LS(4) to the TSP gives. 
+ 
+C(3) RP2 KRS(2) SA(CS) IUT[GZ/OJ] IUT3:4[FN/WE] SML[GHG] TSP 
+PT 
+U Y U A Z U N A E C S L A U K F A G B N C U I N G T Y U A Z C  
+B J A W N F L S B D W P L G F A W S  
+D A W S S J L B ? S J G T 
+S J G G K C E S N S J G P G B A Q G Z J G P G K Z J A Y U A Z B 
+ 
+
+[[page 55]]
+55 
+ 
+*PT 
+U L U I S J G J A N G C N L S S N G L L U  
+ 
+F S J G U Z L F G 
+G G P G F L U S J G J A S B G P S G F S J G E C U F N G C U F O 
+C L P G B E C O L U I H P A Q S J G E J C Q D G P E C W B G F  
+ 
+CT 
+T L R G S Y R G Q X F W H Y B M J Y H Z J Y W Z V N B R H S L  
+H W H O Z U S F H L T E W V R G P G  
+J J F F F W X J ? F Z Y D 
+G W U N C X L F K G X N F Y H G R Q A V V M N S S W I B T V O H 
+*CT 
+Q J J G Z G U C S C Q C S G I T G G P N D  
+ 
+G L H S D P B O C 
+A C P Q C G G P S U P S L S G G H A C B H L A S W G S W C G A S 
+D B G F F U L C C J S S Q B S G Z O L G P A C I P L G Z H G D  
+ 
+C(3) RP2 TSP KRS(2) SA(CS) IUT[GZ/OJ] Digraph Analysis 
+PT 
+U Y U A Z U N A E C S L A U K F A G B N C U I N G T Y U A Z C  
+B J A W N F L S B D W P L G F A W S  
+D A W S S J L B ? S J G T 
+S J G G K C E S N S J G P G B A Q G Z J G P G K Z J A Y U A Z B 
+*PT 
+U L U I S J G J A N G C N L S S N G L L U  
+ 
+F S J G U Z L F G 
+G G P G F L U S J G J A S B G P S G F S J G E C U F N G C U F O 
+C L P G B E C O L U I H P A Q S J G E J C Q D G P E C W B G F  
+ 
+CT 
+T L R G S Y R G Q X F W H Y B M J Y H Z J Y W Z V N B R H S L  
+H W H O Z U S F H L T E W V R G P G  
+J J F F F W X J ? F Z Y D 
+G W U N C X L F K G X N F Y H G R Q A V V M N S S W I B T V O H 
+*CT 
+Q J J G Z G U C S C Q C S G I T G G P N D  
+ 
+G L H S D P B O C 
+A C P Q C G G P S U P S L S G G H A C B H L A S W G S W C G A S 
+D B G F F U L C C J S S Q B S G Z O L G P A C I P L G Z H G D  
+ 
+Notes.  The IUT[3:4] doubles up with the RML in this instance. The position of the PL/GP and 
+GF/GB blocks are highlighted here as the placement is of interest. 
+Letter Selection 
+CT 
+T L R G S Y R G Q X F W H Y B M J Y H Z J Y W Z V N B R H S L  
+H W H O Z U S F H L T E W V R G P G  
+J J F F F W X J ? F Z Y D 
+G W U N C X L F K G X N F Y H G R Q A V V M N S S W I B T V O H 
+ 
+Results 
+C(3) KRS(2) SA(CS) 
+K4 Key 
+Encryption 
+IFBB WFLR 
+FNWE GZJO 
+ROON DEAS 
+ 
+
+[[page 56]]
+56 
+ 
+ 
+Cryptogram 4 
+C(4) RP2 IRP KRS(3)  
+PT 
+V P V B K V Q B F D A M B V R G B H C Q D V J Q H O P V B K D  
+E B X A A L M C ? A L H O C L B X Q G M A C E X T M H G B X A  
+A L H T H C B U H K L H T H R K L B P V B K C A L H H R D F A Q 
+*PT 
+G A L H V K M G H V M V J A L H L B Q H D Q M A A Q H M M V  
+ 
+C H T A H G A L H F D V G Q H D V G S H H T H G M V A L H L B A 
+D M T H C F D S M V J I T B U A L H F L D U E H T F D X C H G  
+CT 
+O M Y H A P Y H U Z G X I P C N L P I K L P X K W Q C Y I A M  
+L L G G G X Z L ? G K P E I X I S K V A G I M O F X W Y H T H  
+H Z Q G P I H Y U B W W N Q A A X J C O W S I H X V Q D Z M G R 
+*CT 
+H M I A E T C S D U L L H K H V D A D U D A H J O H H T Q E  
+ 
+A H H I B D C I M B A X H A X D H B A B D T U D H H T A V T A M 
+E C H G G V M D D L A A U C A H K S M H T B D J T M H K I H E  
+ 
+C(4) RP2 KRS(3) SA(SS) IUT2:2[DH/BA] IUT3:4[BEX][XAP] RML[HHT] NSP 
+PT 
+A M B V R G B H C Q D V J Q H O P V B K D  
+V P V B K V Q B F D 
+A C E X T M H G B X A  
+E B X A A L M C ? A L H O C L B X Q G M 
+A L H T H C B U H K L H T H R K L B P V B K C A L H H R D F A Q 
+*PT 
+G A L H V K M G H V M V J A L H L B Q H D Q M A A Q H M M V  
+ 
+H T H G M V A L H L B A C H T A H G A L H F D V G Q H D V G S H 
+J I T B U A L H F L D U E H T F D X C H G  
+D M T H C F D S M V 
+CT 
+G X I P C N L P I K L P X K W Q C Y I A M  
+O M Y H A P Y H U Z 
+G I M O F X W Y H T H  
+L L G G G X Z L ? G K P E I X I S K V A 
+H Z Q G P I H Y U B W W N Q A A X J C O W S I H X V Q D Z M G R 
+* CT 
+H M I A E T C S D U L L H K H V D A D U D A H J O H H T Q E  
+ 
+D T U D H H T A V T A M A H H I B D C I M B A X H A X D H B A B 
+A A U C A H K S M H T B D J T M H K I H E  
+E C H G G V M D D L 
+ 
+R(2)RS(4) to the TSP gives. 
+C(4) RP2 KRS(3) SA(SS) IUT2:2[DH/BA] IUT3:4[BZ/EX][PU/XA] RML[HHA][HVD] TSP 
+PT 
+A M B V R G B H C Q D V J Q H O P V B K D  
+V P V B K V Q B F D 
+X Q G M A C E X T M H G B X A  
+E B X A A L M C ? A L H O C L B 
+A L H T H C B U H K L H T H R K L B P V B K C A L H H R D F A Q 
+ 
+
+[[page 57]]
+57 
+ 
+*PT 
+G A L H V K M G H V M V J A L H L B Q H D Q M A A Q H M M V  
+ 
+V G S H H T H G M V A L H L B A C H T A H G A L H F D V G Q H D 
+J I T B U A L H F L D U E H T F D X C H G  
+D M T H C F D S M V 
+ 
+CT 
+G X I P C N L P I K L P X K W Q C Y I A M  
+O M Y H A P Y H U Z 
+S K V A G I M O F X W Y H T H  
+L L G G G X Z L ? G K P E I X I 
+H Z Q G P I H Y U B W W N Q A A X J C O W S I H X V Q D Z M G R 
+*CT 
+H M I A E T C S D U L L H K H V D A D U D A H J O H H T Q E  
+ 
+H B A B D T U D H H T A V T A M A H H I B D C I M B A X H A X D 
+A A U C A H K S M H T B D J T M H K I H E  
+E C H G G V M D D L 
+ 
+C(4) RP2 KRS(3) SA(SS) IUT[DH/BA] TSP  Digraph Analysis 
+PT 
+A M B V R G B H C Q D V J Q H O P V B K D  
+V P V B K V Q B F D 
+X Q G M A C E X T M H G B X A  
+E B X A A L M C ? A L H O C L B 
+A L H T H C B U H K L H T H R K L B P V B K C A L H H R D F A Q 
+* PT 
+G A L H V K M G H V M V J A L H L B Q H D Q M A A Q H M M V  
+ 
+V G S H H T H G M V A L H L B A C H T A H G A L H F D V G Q H D 
+J I T B U A L H F L D U E H T F D X C H G  
+D M T H C F D S M V 
+CT 
+G X I P C N L P I K L P X K W Q C Y I A M  
+O M Y H A P Y H U Z 
+S K V A G I M O F X W Y H T H  
+L L G G G X Z L ? G K P E I X I 
+H Z Q G P I H Y U B W W N Q A A X J C O W S I H X V Q D Z M G R 
+* CT 
+H M I A E T C S D U L L H K H V D A D U D A H J O H H T Q E  
+ 
+H B A B D T U D H H T A V T A M A H H I B D C I M B A X H A X D 
+A A U C A H K S M H T B D J T M H K I H E  
+E C H G G V M D D L 
+ 
+Notes.  The HM/HH and MVFL digraph blocks appear to be in play here, but again we are simply 
+committing the observation to the record.  
+ 
+Letter Selection 
+CT 
+G X I P C N L P I K L P X K W Q C Y I A M  
+O M Y H A P Y H U Z 
+S K V A G I M O F X W Y H T H  
+L L G G G X Z L ? G K P E I X I 
+H Z Q G P I H Y U B W W N Q A A X J C O W S I H X V Q D Z M G R 
+ 
+Results 
+C(3) KRS(2) SA(SS) 
+K4 Key 
+Encryption 
+VQQP RNGK 
+BZEX PUXA 
+TNOR THEA 
+ 
+
+[[page 58]]
+58 
+ 
+Cryptogram 5 
+C(5) RP3 IRP KRS(4)  
+PT 
+D E L I Y B M N O B S I N L M B H I L O I I D J N J B S D I  
+ 
+K I W V N W Z B I D D N Y A C N W B J N K I D I G C W H D W C  
+O B M D I K I W B S D I K I W H I L O I I D I N L M B V N W Z  
+*PT 
+C J A E D D E L I H I F O N D B M E B I W G Z V F I O I H B  
+ 
+M I U C R I O A E O B C J B M I H C C O R E S R E D O I V C K  
+I H R N B M B O I V F U N W L M E W H D N V E H I E B N W S  
+ 
+CT 
+J M X W B L A Z E I G W Z K A H Q V X G U X Z V Z W I H J X  
+ 
+I U P P K O O L T J J K C I I Y F H V K A W J X Y I P U L O I  
+H W X J V A W P L U J U A V O Q X S E U V L W Z K A H Y K T A  
+*CT 
+G M B W O I S Z U H D U U D U U W C M D W C D V O R Y V W I  
+ 
+B A O W L E B N M W O E O A I D U W W I U I F U A N N E G E I  
+R V B R W H N B I I W O E M G B I W I Z H O I B W M E I C I  
+ 
+ 
+C(5) RP3 KRS(4) SA(CS) IUT2:2[XK/YP] IUT3:4[AWOL] RML[QOW] NSP 
+PT 
+D E L I Y B M N O B S I N L M B H I L O I I D J N J B S D I  
+ 
+A C N W B J N K I D I G C W H D W C  
+K I W V N W Z B I D D N Y 
+I N L M B V N W Z  
+O B M D I K I W B S D I K I W H I L O I I D 
+*PT 
+I F O N D B M E B I W G Z V F I O I H B  
+ 
+C J A E D D E L I H 
+O R E S R E D O I V C K  
+M I U C R I O A E O B C J B M I H C C 
+I H R N B M B O I V F U N W L M E W H D N V E H I E B N W S  
+ 
+CT 
+J M X W B L A Z E I G W Z K A H Q V X G U X Z V Z W I H J X  
+ 
+I I Y F H V K A W J X Y I P U L O I  
+I U P P K O O L T J J K C 
+W Z K A H Y K T A  
+H W X J V A W P L U J U A V O Q X S E U V L 
+*CT 
+D U U D U U W C M D W C D V O R Y V W I  
+ 
+G M B W O I S Z U H 
+I U I F U A N N E G E I  
+B A O W L E B N M W O E O A I D U W W 
+R V B R W H N B I I W O E M G B I W I Z H O I B W M E I C I  
+ 
+ 
+R(2)LS(9) to the TSP gives. 
+C(5) RP3 KRS(4) SA(CS) IUT2:2[XK/YP] SML[IIW] IUT3:4[OW/AL] TSP 
+PT 
+D E L I Y B M N O B S I N L M B H I L O I I D J N J B S D I  
+ 
+A C N W B J N K I D I G C W H D W C  
+K I W V N W Z B I D D N Y 
+I N L M B V N W Z  
+O B M D I K I W B S D I K I W H I L O I I D 
+ 
+ 
+
+[[page 59]]
+59 
+ 
+*PT 
+I F O N D B M E B I W G Z V F I O I H B  
+ 
+C J A E D D E L I H 
+O R E S R E D O I V C K  
+M I U C R I O A E O B C J B M I H C C 
+I H R N B M B O I V F U N W L M E W H D N V E H I E B N W S  
+ 
+CT 
+J M X W B L A Z E I G W Z K A H Q V X G U X Z V Z W I H J X  
+ 
+J X Y I P U L O I  
+I U P P K O O L T J J K C I I Y F H V K A W 
+W Z K A H Y K T A  
+H W X J V A W P L U J U A V O Q X S E U V L 
+*CT 
+D U U D U U W C M D W C D V O R Y V W I  
+ 
+G M B W O I S Z U H 
+O E O A I D U W W I U I F U A N N E G E I  
+B A O W L E B N M W 
+R V B R W H N B I I W O E M G B I W I Z H O I B W M E I C I  
+ 
+ 
+C(5) RP3 KRS(4) SA(CS) IUT2 :2[DH/BA] TSP  Digraph Analysis 
+PT 
+D E L I Y B M N O B S I N L M B H I L O I I D J N J B S D I  
+ 
+A C N W B J N K I D I G C W H D W C  
+K I W V N W Z B I D D N Y 
+I N L M B V N W Z  
+O B M D I K I W B S D I K I W H I L O I I D 
+*PT 
+I F O N D B M E B I W G Z V F I O I H B  
+ 
+C J A E D D E L I H 
+O R E S R E D O I V C K  
+M I U C R I O A E O B C J B M I H C C 
+I H R N B M B O I V F U N W L M E W H D N V E H I E B N W S  
+ 
+CT 
+J M X W B L A Z E I G W Z K A H Q V X G U X Z V Z W I H J X  
+ 
+J X Y I P U L O I  
+I U P P K O O L T J J K C I I Y F H V K A W 
+W Z K A H Y K T A  
+H W X J V A W P L U J U A V O Q X S E U V L 
+*CT 
+D U U D U U W C M D W C D V O R Y V W I  
+ 
+G M B W O I S Z U H 
+O E O A I D U W W I U I F U A N N E G E I  
+B A O W L E B N M W 
+R V B R W H N B I I W O E M G B I W I Z H O I B W M E I C I  
+ 
+ 
+Notes.  This is interesting as the AWLO LBA’s are read in a diagonal manner for the first time rather 
+than horizontally.  It is believed that this is the start of the transition to the vertical reads for all LBA’s 
+post C(6).  
+Letter Selection 
+CT 
+J M X W B L A Z E I G W Z K A H Q V X G U X Z V Z W I H J X  
+ 
+J X Y I P U L O I  
+I U P P K O O L T J J K C I I Y F H V K A W 
+W Z K A H Y K T A  
+H W X J V A W P L U J U A V O Q X S E U V L 
+ 
+Results 
+C(5) KRS(4) SA(CS) 
+K4 Key 
+Encryption 
+SSOT WTQS 
+XKPY AWLO 
+STBS TREE 
+ 
+ 
+
+[[page 60]]
+60 
+ 
+ 
+Cryptogram 6 
+C(6) RP3 IRP KRS(5)  
+PT 
+E F M J P C N Q S C A J Q M N C I J M S J J E L Q L C A E J  
+ 
+R J X W Q X K C J E E Q P B D Q X C L Q R J E J H D X I E X D  
+S C N E J R J X C A E J R J X I J M S J J E J Q M N C W Q X K  
+*PT 
+D L B F E E F M J I J G S Q E C N F C J X H K W G J S J I C  
+ 
+N J V D Y J S B F S C D L C N J I D D S Y F A Y F E S J W D R  
+J I Y Q C N C S J W G V Q X M N F X I E Q W F I J F C Q X A  
+ 
+CT 
+L N Z X C M B K F J H X K R B I U W Z H V Z K W K X J I L Z  
+ 
+J V T T R S S M O L L R D J J P G I W R B X L Z P J T V M S J  
+I X Z L W B X T M V L V B W S U Z A F V W M X K R B I P R O B  
+*CT 
+H N C X S J A K V I E V V E V V X D N E X D E W S Y P W X J  
+ 
+C B S X M F C Q N X S F S B J E V X X J V J G V B Q Q F H F J  
+Y W C Y X I Q C J J X S F N H C J X J K I S J C X N F J D J  
+ 
+ 
+C(6) RP3 KRS(5) SA(SS) IUT2:2[VV/VB] RML[VVY] IUT3:4[WSZ][H(W)O] NSP 
+PT 
+Q L C A E J  
+ 
+E F M J P C N Q S C A J Q M N C I J M S J J E L 
+P B D Q X C L Q R J E J H D X I E X D  
+R J X W Q X K C J E E Q 
+S C N E J R J X C A E J R J X I J M S J J E J Q M N C W Q X K  
+*PT 
+D L B F E E F M J I J G S Q E C N F C J X H K W G J S J I C  
+ 
+L C N J I D D S Y F A Y F E S J W D R  
+N J V D Y J S B F S C D 
+J F C Q X A  
+ 
+J I Y Q C N C S J W G V Q X M N F X I E Q W F I 
+CT 
+K X J I L Z  
+ 
+L N Z X C M B K F J H X K R B I U W Z H V Z K W 
+D J J P G I W R B X L Z P J T V M S J  
+J V T T R S S M O L L R 
+I X Z L W B X T M V L V B W S U Z A F V W M X K R B I P R O B  
+*CT 
+H N C X S J A K V I E V V E V V X D N E X D E W S Y P W X J  
+ 
+S B J E V X X J V J G V B Q Q F H F J  
+C B S X M F C Q N X S F 
+X N F J D J  
+ 
+Y W C Y X I Q C J J X S F N H C J X J K I S J C 
+ 
+R(2)RS(3) to the TSP gives. 
+C(6) RP3 KRS(5) SA(SS) IUT2 :2[VV/VB] IUT3:4[HW/OR][ZS/OS] RML[WJJ] TSP 
+PT 
+Q L C A E J  
+ 
+E F M J P C N Q S C A J Q M N C I J M S J J E L 
+E E Q P B D Q X C L Q R J E J H D X I E X D  
+R J X W Q X K C J 
+S C N E J R J X C A E J R J X I J M S J J E J Q M N C W Q X K  
+ 
+
+[[page 61]]
+61 
+ 
+*PT 
+D L B F E E F M J I J G S Q E C N F C J X H K W G J S J I C  
+ 
+S C D L C N J I D D S Y F A Y F E S J W D R  
+N J V D Y J S B F 
+J F C Q X A  
+ 
+J I Y Q C N C S J W G V Q X M N F X I E Q W F I 
+CT 
+K X J I L Z  
+ 
+L N Z X C M B K F J H X K R B I U W Z H V Z K W 
+L L R D J J P G I W R B X L Z P J T V M S J  
+J V T T R S S M O 
+I X Z L W B X T M V L V B W S U Z A F V W M X K R B I P R O B  
+*CT 
+H N C X S J A K V I E V V E V V X D N E X D E W S Y P W X J  
+ 
+X S F S B J E V X X J V J G V B Q Q F H F J  
+C B S X M F C Q N 
+X N F J D J  
+ 
+Y W C Y X I Q C J J X S F N H C J X J K I S J C 
+  
+ 
+C(6) RP3 TSP KRS(5) SA(SS) IUT2:2[VV/VB] Digraph Analysis 
+PT 
+Q L C A E J  
+ 
+E F M J P C N Q S C A J Q M N C I J M S J J E L 
+E E Q P B D Q X C L Q R J E J H D X I E X D  
+R J X W Q X K C J 
+S C N E J R J X C A E J R J X I J M S J J E J Q M N C W Q X K  
+*PT 
+D L B F E E F M J I J G S Q E C N F C J X H K W G J S J I C  
+ 
+S C D L C N J I D D S Y F A Y F E S J W D R  
+N J V D Y J S B F 
+J F C Q X A  
+ 
+J I Y Q C N C S J W G V Q X M N F X I E Q W F I 
+CT 
+K X J I L Z  
+ 
+L N Z X C M B K F J H X K R B I U W Z H V Z K W 
+L L R D J J P G I W R B X L Z P J T V M S J  
+J V T T R S S M O 
+I X Z L W B X T M V L V B W S U Z A F V W M X K R B I P R O B  
+*CT 
+H N C X S J A K V I E V V E V V X D N E X D E W S Y P W X J  
+ 
+X S F S B J E V X X J V J G V B Q Q F H F J  
+C B S X M F C Q N 
+X N F J D J  
+ 
+Y W C Y X I Q C J J X S F N H C J X J K I S J C 
+ 
+Notes.  This is the last cryptogram before we flip to reading all LBA’s in the vertical plane.  IT is not 
+known at this stage whether this cryptogram is simply wrong or whether the puzzle maker has flipped 
+the W in the IUT3:4 scheme to an M to imply a reversal of sorts.  The final 4 letters for the ZS and OS 
+LBA’s are now read in the fully vertical configuration. 
+Letter Selection 
+CT 
+K X J I L Z  
+ 
+L N Z X C M B K F J H X K R B I U W Z H V Z K W 
+L L R D J J P G I W R B X L Z P J T V M S J  
+J V T T R S S M O 
+I X Z L W B X T M V L V B W S U Z A F V W M X K R B I P R O B  
+ 
+Results 
+C(6) KRS(5) SA(SS) 
+K4 Key 
+Encryption 
+JQSS  EKZZ 
+HWOR ZSOS 
+TLEA DSTO 
+ 
+
+[[page 62]]
+62 
+ 
+Reflections on BERLIN 
+If we briefly skip ahead and examine the relationship between the IUT scheme as we understand it so 
+far and the plain text for BERLIN CLOCK then we can  see that we are in slightly different territory.  
+We know that the rail markers have changed from a horizontal configuration into a vertical one and 
+we know from the previous 2 cryptograms that our read order appears to be transitioning to the 
+vertical plane.  Whether or not this has made a difference to the general scheme or not is yet to be 
+seen, but as we have the plain text for positions 64 through to 75 then we are in a position to check 
+our reasoning.  Interestingly a coincidence exists by which Rail 5 was actually in the same position as 
+Rail 5 in the previous papers scheme and rather amazingly this allowed for a resolution of the string 
+ERLEN CLO in the correct position.  A re-examination of the evidence now that we have the specific 
+rail markers and the fact that they are vertical markers rather than horizontal leads to the following 
+observation for the exact same rows under the same degree of right shifting as the original paper.  The 
+only thing that has been altered is the row alignment and read direction, which is now in the vertical 
+plane. 
+C(9) RP5 KRS(8) CT with relevant row shifts applied to achieve TSP. 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+I Q K X U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+The K4 string for Cryptogram 9 is YPVT TMZF, which encrypted with CXUE ILMN gives ERLI 
+NCLO.  This would imply that the change of markers to the vertical direction have also indicated a 
+change of direction in which we should be reading off the letter blocks.  This was perhaps hinted at in 
+Cryptogram 5 with the read order of the letters AWLO. 
+It was mentioned previously that Rail 5 has no reciprocal symmetry position, but there are some 
+intriguing properties of this row alignment that show how the principle of ‘invariance under 
+transformation’ has been utilised for this case.  For this first case (i.e. what would have been the CS 
+case in the symmetry scheme) we can see that the letter relationship IL MN has two positions in 
+which it is invariant in the horizontal plane as shown here. 
+IUT[NM/IL] position 1 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+I Q K X U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M 
+G W J W M D H V R I W I N R M D I V C G V R Z H C V N G L E F N 
+ 
+IUT[NM/IL] position 2 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+I Q K X U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M 
+W I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I 
+ 
+There is also an interesting glimpse of how the complexity of the puzzle may be progressing as we 
+move into these final rails.  We have already discussed the invariance under transformation of the 
+ILMN letters, but now when we look at what may be happening in terms of our expected row 
+symmetry we find some unexpected differences.  Taking the proposed TSP for cryptogram 9 we can 
+identify the following top and bottom row letters for the rail that are of interest, which are: 
+  
+
+[[page 63]]
+63 
+ 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+I Q K X U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+Further analysis shows that the there are only two possible settings for row symmetry in this position, 
+which are for ENI and EZI as shown here. 
+ENI 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+U M Y P K N J N M K V M I Q K X U A R P E Z U N H O X Z Z I N F 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+EZI 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+N H O X Z Z I N F U M Y P K N J N M K V M I Q K X U A R P E Z U 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+We would appear to be dealing with the case for EZI in this instance as there is yet a third 
+configuration of ILNM that reveals itself here in the bottom left hand corner as shown here. 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+N H O X Z Z I N F U M Y P K N J N M K V M I Q K X U A R P E Z U 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+This invariance type whereby letters that are read in the horizontal plane for the NSP and then in the 
+vertical plane for the TSP are classified as the IUT H:V type. 
+Degrees of freedom 
+The scientific method would typically urge caution at this point as we should always be vigilant for 
+false positives given the number of numerical coincidences that abound in this universe.  The question 
+we should always ask is, ‘no matter how good these results are, what are the statistical chances of 
+them being coincidental’.  An answer to this question was sought through programmatic means and 
+the answer was much higher than might be expected for comfort.  The occurrence of symmetrical 
+letter occurrences in matching groups of three within each rail position are actually much higher than 
+intuition would suggest. 
+The puzzle maker would appear to have reduced at least some of the available degrees of freedom by 
+the selection of configurations that give rise to consistent phenomena in the NSP and TSP positions, 
+but there is still a sense that the smoking gun is still at large in terms of being sure that each NSP and 
+TSP position is unique.  What is needed is a programmatic way to select these alignments in such a 
+way where we can be certain that no other possibilities exist.  It may well be that we need to make an 
+additional observation to close that gap or conduct a re-appraisal of the data already presented.  
+Irrespective of these insecurities about the uniqueness of the NSP and TSP positions, we shall now 
+continue to C(7) and beyond. 
+   
+ 
+
+[[page 64]]
+64 
+ 
+ 
+ 
+ 
+Part 5 
+ 
+Cryptogram Solves  
+C(7 – 12) 
+Detailed Analysis 
+ 
+ 
+
+[[page 65]]
+65 
+ 
+Cryptogram 7 
+C(7) RP4 IRP KRS(6)  
+PT 
+U W F E M D Q L A E E X P U D Q U Z L X L A N L J M A E X  
+ 
+ 
+D Q L X U F D T I G Z B E R F L L G Z B D Q U Z N K ? E H S A  
+R E T E N Q R W H F E W U M H H P M W A Y K K C A Z N S F F E  
+*PT 
+U D P G F D E D G W W B U Z Y U F U H W L Q E P F D Q G D C E  
+F F U H W L ? D Q L B R F L J D Q L L G A D Q F X G N Z L D  
+ 
+U I M U L W J T D Q L U Z M E A X G D U E Z P G F N G D Q L A  
+CT 
+A S W X W L Q G N D J Q G A J C Z L E Q X N M X M L R Q L  
+ 
+ 
+L I J X A U C M L U X L Q Z W F F D D A D Y J E Q P ? E H S A  
+R E T E N Q R W H F E W U M H H P M W A Y K K C A Z N S F F E  
+*CT 
+Y M C V R J L L Q O P L D O B Y N P Q S S K L D N M K V Z I L  
+N N P Q S S ? J K X I C M K O J K X X U G N C M T Q K A W N  
+ 
+D U X Y X O V G Z K W Y S K L J G N J Y M A C V R Z N L R Z G  
+ 
+C(7) RP4 KRS(6) SA(CS) IUT H:V [RH/XU] IUT3:4[PMW] SML[NJL] NSP 
+PT 
+U W F E M D Q L A E E X P U D Q U Z L X L A N L J M A E X  
+ 
+ 
+Z B E R F L L G Z B D Q U Z N K ? E H S A  
+D Q L X U F D T I G 
+M H H P M W A Y K K C A Z N S F F E  
+R E T E N Q R W H F E W U 
+*PT 
+W L Q E P F D Q G D C E  
+U D P G F D E D G W W B U Z Y U F U H 
+Q F X G N Z L D  
+ 
+F F U H W L ? D Q L B R F L J D Q L L G A D 
+U I M U L W J T D Q L U Z M E A X G D U E Z P G F N G D Q L A  
+CT 
+A S W X W L Q G N D J Q G A J C Z L E Q X N M X M L R Q L  
+ 
+ 
+X L Q Z W F F D D A D Y J E Q P ? E H S A  
+L I J X A U C M L U 
+M H H P M W A Y K K C A Z N S F F E  
+R E T E N Q R W H F E W U 
+*CT 
+S S K L D N M K V Z I L  
+Y M C V R J L L Q O P L D O B Y N P Q 
+C M T Q K A W N  
+ 
+N N P Q S S ? J K X I C M K O J K X X U G N 
+D U X Y X O V G Z K W Y S K L J G N J Y M A C V R Z N L R Z G  
+ 
+R(2)RS(8) to the TSP gives. 
+ 
+C(7) RP4 KRS(6) SA(CS) IUT H :V[RH/XU] IUT3 :4[MW/PN] RML[LXY] TSP 
+PT 
+U W F E M D Q L A E E X P U D Q U Z L X L A N L J M A E X  
+ 
+ 
+L X U F D T I G Z B E R F L L G Z B D Q U Z N K ? E H S A  
+D Q 
+M H H P M W A Y K K C A Z N S F F E  
+R E T E N Q R W H F E W U 
+ 
+
+[[page 66]]
+66 
+ 
+*PT 
+W L Q E P F D Q G D C E  
+U D P G F D E D G W W B U Z Y U F U H 
+ 
+ 
+F F U H W L ? D Q L B R F L J D Q L L G A D Q F X G N Z L D 
+U I M U L W J T D Q L U Z M E A X G D U E Z P G F N G D Q L A  
+CT 
+A S W X W L Q G N D J Q G A J C Z L E Q X N M X M L R Q L  
+ 
+ 
+J X A U C M L U X L Q Z W F F D D A D Y J E Q P ? E H S A  
+L I 
+M H H P M W A Y K K C A Z N S F F E  
+R E T E N Q R W H F E W U 
+*CT 
+S S K L D N M K V Z I L  
+Y M C V R J L L Q O P L D O B Y N P Q 
+ 
+ 
+N N P Q S S ? J K X I C M K O J K X X U G N C M T Q K A W N 
+D U X Y X O V G Z K W Y S K L J G N J Y M A C V R Z N L R Z G  
+ 
+C(7) RP4 KRS(6) SA(CS) IUT H :V[RH/XU] IUT3 :4[MW/PN] RML[LXY] TSP 
+Digraph Analysis 
+PT 
+U W F E M D Q L A E E X P U D Q U Z L X L A N L J M A E X  
+ 
+ 
+L X U F D T I G Z B E R F L L G Z B D Q U Z N K ? E H S A  
+D Q 
+M H H P M W A Y K K C A Z N S F F E  
+R E T E N Q R W H F E W U 
+*PT 
+W L Q E P F D Q G D C E  
+U D P G F D E D G W W B U Z Y U F U H 
+ 
+ 
+F F U H W L ? D Q L B R F L J D Q L L G A D Q F X G N Z L D 
+U I M U L W J T D Q L U Z M E A X G D U E Z P G F N G D Q L A  
+CT 
+A S W X W L Q G N D J Q G A J C Z L E Q X N M X M L R Q L  
+ 
+ 
+J X A U C M L U X L Q Z W F F D D A D Y J E Q P ? E H S A  
+L I 
+M H H P M W A Y K K C A Z N S F F E  
+R E T E N Q R W H F E W U 
+*CT 
+S S K L D N M K V Z I L  
+Y M C V R J L L Q O P L D O B Y N P Q 
+ 
+ 
+N N P Q S S ? J K X I C M K O J K X X U G N C M T Q K A W N 
+D U X Y X O V G Z K W Y S K L J G N J Y M A C V R Z N L R Z G  
+ 
+Notes.  We can see that there has been an immediate jump in the complexity of the IUT scheme.  Here 
+the horizontal relationship XU/RH transforms into XU/RH in the vertical plane from rail 3 to rail 1.  It 
+will be noticed that the RML is now present in the TSP rather than the NSP. 
+Letter Selection 
+CT 
+A S W X W L Q G N D J Q G A J C Z L E Q X N M X M L R Q L  
+ 
+ 
+J X A U C M L U X L Q Z W F F D D A D Y J E Q P ? E H S A  
+L I 
+M H H P M W A Y K K C A Z N S F F E  
+R E T E N Q R W H F E W U 
+ 
+Results 
+C(7) KRS(6) SA(CS) 
+K4 Key 
+Encryption 
+WATJ KLUD 
+ MWPN RHXU 
+ITAC RONO 
+ 
+
+[[page 67]]
+67 
+ 
+Cryptogram 8 
+C(8) RP4 IRP KRS(7)  
+PT 
+V X G F N E U M B F F Z T V E U V K M Z M B Q M L N B F Z  
+ 
+ 
+E U M Z V G E O J H K C F Y G M M H K C E U V K Q R ? F I A B  
+Y F O F Q U Y X I G F X V N I I T N X B P R R D B K Q A G G F  
+*PT 
+V E T H G E F E H X X C V K P V G V I X M U F T G E U H E D F  
+G G V I X M ? E U M C Y G M L E U M M H B E U G Z H Q K M E  
+ 
+V J N V M X L O E U M V K N F B Z H E V F K T H G Q H E U M B  
+CT 
+B A X Z X M U H Q E L U H B L D K M F U Z Q N Z N M Y U M  
+ 
+ 
+M J L Z B V D N M V Z M U K X G G E E B E P L F U T ? F I A B  
+Y F O F Q U Y X I G F X V N I I T N X B P R R D B K Q A G G F  
+*CT 
+P N D W Y L M M U S T M E S C P Q T U A A R M E Q N R W K J M  
+Q Q T U A A ? L R Z J D N R S L R Z Z V H Q D N O U R B X Q  
+ 
+E V Z P Z S W H K R X P A R M L H Q L P N B D W Y K Q M Y K H  
+ 
+C(8) RP4 KRS(7) SA(SS) IUT2:2[BF/BG] RML[LZM] IUT3:4[TNI][ABV] NSP 
+PT 
+V X G F N E U M B F F Z T V E U V K M Z M B Q M L N B F Z  
+ 
+ 
+Z V G E O J H K C F Y G M M H K C E U V K Q R ? F I A B  
+E U M 
+D B K Q A G G F  
+Y F O F Q U Y X I G F X V N I I T N X B P R R 
+*PT 
+T G E U H E D F  
+V E T H G E F E H X X C V K P V G V I X M U F 
+I X M ? E U M C Y G M L E U M M H B E U G Z H Q K M E  
+ 
+G G V 
+V J N V M X L O E U M V K N F B Z H E V F K T H G Q H E U M B  
+CT 
+B A X Z X M U H Q E L U H B L D K M F U Z Q N Z N M Y U M  
+ 
+ 
+Z B V D N M V Z M U K X G G E E B E P L F U T ? F I A B  
+M J L 
+D B K Q A G G F  
+Y F O F Q U Y X I G F X V N I I T N X B P R R 
+*CT 
+E Q N R W K J M  
+P N D W Y L M M U S T M E S C P Q T U A A R M 
+U A A ? L R Z J D N R S L R Z Z V H Q D N O U R B X Q  
+ 
+Q Q T 
+E V Z P Z S W H K R X P A R M L H Q L P N B D W Y K Q M Y K H  
+ 
+R(2)LS(5) to the TSP gives. 
+C(8) RP4 KRS(7) SA(SS) IUT2:2[BF/BG] RML[EGV] IUT3:4[BN/TI][AV/BP] TSP 
+PT 
+V X G F N E U M B F F Z T V E U V K M Z M B Q M L N B F Z  
+ 
+ 
+J H K C F Y G M M H K C E U V K Q R ? F I A B  
+E U M Z V G E O 
+D B K Q A G G F  
+Y F O F Q U Y X I G F X V N I I T N X B P R R 
+ 
+ 
+
+[[page 68]]
+68 
+ 
+*PT 
+T G E U H E D F  
+V E T H G E F E H X X C V K P V G V I X M U F 
+U M C Y G M L E U M M H B E U G Z H Q K M E  
+ 
+G G V I X M ? E 
+V J N V M X L O E U M V K N F B Z H E V F K T H G Q H E U M B  
+CT 
+B A X Z X M U H Q E L U H B L D K M F U Z Q N Z N M Y U M  
+ 
+ 
+M V Z M U K X G G E E B E P L F U T ? F I A B  
+M J L Z B V D N 
+D B K Q A G G F  
+Y F O F Q U Y X I G F X V N I I T N X B P R R 
+*CT 
+E Q N R W K J M  
+P N D W Y L M M U S T M E S C P Q T U A A R M 
+R Z J D N R S L R Z Z V H Q D N O U R B X Q  
+ 
+Q Q T U A A ? L 
+E V Z P Z S W H K R X P A R M L H Q L P N B D W Y K Q M Y K H  
+ 
+C(8) RP4 KRS(7) SA(SS) IUT2:2[BF/BG] RML[EGV] IUT3:4[BN/TI][AV/BP] TSP 
+Digraph Analysis 
+PT 
+V X G F N E U M B F F Z T V E U V K M Z M B Q M L N B F Z  
+ 
+ 
+J H K C F Y G M M H K C E U V K Q R ? F I A B  
+E U M Z V G E O 
+D B K Q A G G F  
+Y F O F Q U Y X I G F X V N I I T N X B P R R 
+*PT 
+T G E U H E D F  
+V E T H G E F E H X X C V K P V G V I X M U F 
+U M C Y G M L E U M M H B E U G Z H Q K M E  
+ 
+G G V I X M ? E 
+V J N V M X L O E U M V K N F B Z H E V F K T H G Q H E U M B  
+CT 
+B A X Z X M U H Q E L U H B L D K M F U Z Q N Z N M Y U M  
+ 
+ 
+M V Z M U K X G G E E B E P L F U T ? F I A B  
+M J L Z B V D N 
+D B K Q A G G F  
+Y F O F Q U Y X I G F X V N I I T N X B P R R 
+*CT 
+E Q N R W K J M  
+P N D W Y L M M U S T M E S C P Q T U A A R M 
+R Z J D N R S L R Z Z V H Q D N O U R B X Q  
+ 
+Q Q T U A A ? L 
+E V Z P Z S W H K R X P A R M L H Q L P N B D W Y K Q M Y K H  
+ 
+Notes.  This cryptogram is interesting as the puzzle maker has made sure the TSP makes full use of 
+the 8 available digraphs for this alignment. The PN digraphs were highlighted in the NSP as they hint 
+at an interesting alternative method of derivation for this alignment. 
+Letter Selection 
+CT 
+B A X Z X M U H Q E L U H B L D K M F U Z Q N Z N M Y U M  
+ 
+ 
+M V Z M U K X G G E E B E P L F U T ? F I A B  
+M J L Z B V D N 
+D B K Q A G G F  
+Y F O F Q U Y X I G F X V N I I T N X B P R R 
+Results 
+C(8) KRS(7) SA(SS) 
+K4 Key 
+Encryption 
+IAWI NFBN 
+PBAV BNTI 
+MITE ROFB  
+ 
+ 
+ 
+
+[[page 69]]
+69 
+ 
+Cryptogram 9 
+As mentioned previously the rows do not sit cleanly either side of the axis of symmetry for rail 
+position 5 so the reciprocal rows are omitted for Cryptograms 9 and 10. 
+C(9) RP5 IRP KRS(8)  
+PT 
+C F V H N T N R F D H N T N R M N U C N N H N W U V F K W R P  
+F N H Q G C F D Q G P C H N L G R M H O N H F S Z I D N C F O G 
+H Z G O Z D M N H E I C I F Z D H Z G O Z D F V N C N K I W R H 
+CT 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+M Y P K N J N M K V M I Q K X U A R P E Z U N H O X Z Z I N F U 
+N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W I 
+ 
+C(9) RP5 KRS(8) RML[EZI] IUT H:V[IL/MN] IUT3:4[XUE] NSP  
+PT 
+C F V H N T N R F D H N T N R M N U C N N H N W U V F K W R P  
+F S Z I D N C F O G F N H Q G C F D Q G P C H N L G R M H O N H 
+H H Z G O Z D M N H E I C I F Z D H Z G O Z D F V N C N K I W R 
+CT 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+N H O X Z Z I N F U M Y P K N J N M K V M I Q K X U A R P E Z U 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+R(2)RS(11) to the TSP gives. 
+C(9) RP5 KRS(8) RML[HNH][NND] IUT H:V[IL/MN] IUT3:4[CX/UE] TSP  
+PT 
+C F V H N T N R F D H N T N R M N U C N N H N W U V F K W R P  
+C H N L G R M H O N H F S Z I D N C F O G F N H Q G C F D Q G P 
+H H Z G O Z D M N H E I C I F Z D H Z G O Z D F V N C N K I W R 
+CT 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+I Q K X U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+Letter Selection 
+CT 
+M R Y Q K E R A U Z Q Z E K C X Y D I Z K U R P T E M S T B E  
+I Q K X U A R P E Z U N H O X Z Z I N F U M Y P K N J N M K V M 
+I N R M D I V C G V R Z H C V N G L E F N G W J W M D H V R I W 
+ 
+RP2 TSP KRS(3) SA(SS) IUT[DH/BA ] Results 
+C(9) KRS(8) SA(?) 
+K4 Key 
+Encryption 
+YPVT TMZF 
+CXUE ILMN 
+ERLI NCLO 
+
+[[page 70]]
+70 
+ 
+Cryptogram 10 
+As mentioned previously the rows do not sit cleanly either side of the axis of symmetry for rail 
+position 5 so the reciprocal rows are omitted for Cryptograms 9 and 10. 
+C(10) RP5 IRP KRS(9)  
+PT 
+D G W I Q O Q Y G E I Q O Q Y N Q V D Q Q I Q X V W G R X Y T  
+G Q I U H D G E U H T D I Q M H Y N I S Q I G A K J E Q D G S H 
+I K H S K E N Q I F J D J G K E I K H S K E G W Q D Q R J X Y I 
+CT 
+N Y P U R F Y B V K U K F R D Z P E J K R V Y T O F N A O C F  
+N P T R Q L Q N R W N J U R Z V B Y T F K V Q I S Z K K J Q G V 
+Q Y N E J W D H W Y K I D W Q H M F G Q H X L X N E I W Y J X J 
+ 
+C(10) RP5 KRS(9) RML[FRQ] IUT H:V[IL/MN] IUT3:4[SUK] NSP  
+PT 
+D G W I Q O Q Y G E I Q O Q Y N Q V D Q Q I Q X V W G R X Y T  
+T D I Q M H Y N I S Q I G A K J E Q D G S H G Q I U H D G E U H 
+E G W Q D Q R J X Y I I K H S K E N Q I F J D J G K E I K H S K 
+CT 
+N Y P U R F Y B V K U K F R D Z P E J K R V Y T O F N A O C F  
+N J U R Z V B Y T F K V Q I S Z K K J Q G V N P T R Q L Q N R W 
+X L X N E I W Y J X J Q Y N E J W D H W Y K I D W Q H M F G Q H 
+ 
+R(2)LS(5) to the TSP gives. 
+C(10) RP5 KRS(9) RML[HNH] IUT H:V[IL/MN] IUT3:4[SK/CU] TSP  
+PT 
+D G W I Q O Q Y G E I Q O Q Y N Q V D Q Q I Q X V W G R X Y T  
+H Y N I S Q I G A K J E Q D G S H G Q I U H D G E U H T D I Q M 
+E G W Q D Q R J X Y I I K H S K E N Q I F J D J G K E I K H S K 
+CT 
+N Y P U R F Y B V K U K F R D Z P E J K R V Y T O F N A O C F  
+V B Y T F K V Q I S Z K K J Q G V N P T R Q L Q N R W N J U R Z 
+X L X N E I W Y J X J Q Y N E J W D H W Y K I D W Q H M F G Q H 
+ 
+Letter Selection 
+CT 
+N Y P U R F Y B V K U K F R D Z P E J K R V Y T O F N A O C F  
+V B Y T F K V Q I S Z K K J Q G V N P T R Q L Q N R W N J U R Z 
+X L X N E I W Y J X J Q Y N E J W D H W Y K I D W Q H M F G Q H 
+ 
+RP2 TSP KRS(3) SA(SS) IUT[DH/BA ] Results 
+C(10) KRS(9) SA(?) 
+K4 Key 
+Encryption 
+PKWG DKZX 
+SKCU LIMN 
+CKSB RILL 
+
+[[page 71]]
+71 
+ 
+Cryptogram 11 
+As mentioned at the head of this document.  Rail position 6 is taken as being 1 row down from the 
+position that its marker would imply in order to break the symmetry relationship with Rail Position 4. 
+C(11) RP6 IRP KRS(10)  
+PT 
+J J Z M R U ? H X U F O J U Q H X U U L E H X J Y L W P U H  
+ 
+Z N V Z U R Q B H X U Z P V I E Y L H Z I P A L J W L H X U E  
+U Q L P Q H E L P J Y Z H H U Q O P Q U E W E O O P Q H I L P O 
+*PT 
+H X U V R L Y U H I V R Z N D U E M O H G E U J U P H R F Q U H 
+Z R J I V H X U E I I Y A Z H X Z P U Y U E W U Q V E I Y  
+ 
+ 
+H X U Y Z J H B N L P F I O J U U L P F H X Z P W T ? I M D E  
+CT 
+W W A X D D ? Q T Y N G V T C Q T Y Y Z L W G V B X T E R W  
+ 
+H Z Y S Y C K L P T R S D T U Q L W Q S V E G K O P W U O P L  
+T C W C R U N W F O B O U U P K H M K R M T N E H M K Q V X E E 
+*CT 
+L U N H Q Q X Z R N U Z X J Z H U W I U L I J Q Q E F Q R I E Z 
+E D R Y R U X L W H Q X L E Q G P U I X Y W V Y V U O X U  
+ 
+ 
+U N Q Y E Z G V U Z Y U X P R J J H H E H S Q I X A ? I M D E  
+ 
+Cryptogram 11 presents a very interesting challenge.  As can be seen from the plain text, it is believed 
+that we are aiming for the word BRILLIANCE, which is achievable from this rail position under the 
+current KRS(10), but that would require reading the LBA’s in the horizontal plane.  We find instead 
+that we are given a hybrid IUT H:V type transformation to resolve, whereby there are 2 NSP positions 
+that resolve in the horizontal plane and one TSP that resolves both schemes.  This only occurs in the 
+cipher text, so we shall temporarily dispense with the other views until evaluating the TSP itself. 
+C(11) RP6  KRS(10) IUT2:2[]DV/EL] NSP 1 
+CT 
+W W A X D D ? Q T Y N G V T C Q T Y Y Z L W G V B X T E R W  
+ 
+L W Q S V E G K O P W U O P L  
+H Z Y S Y C K L P T R S D T U Q 
+T N E H M K Q V X E E T C W C R U N W F O B O U U P K H M K R M 
+ 
+R(2)RS(12) to the NSP 2 gives. 
+C(11) RP6  KRS(10) IUT2:2[]SO/VO] NSP 2 
+CT 
+W W A X D D ? Q T Y N G V T C Q T Y Y Z L W G V B X T E R W  
+ 
+Y C K L P T R S D T U Q L W Q S V E G K O P W U O P L  
+H Z Y S 
+T N E H M K Q V X E E T C W C R U N W F O B O U U P K H M K R M 
+ 
+ 
+ 
+ 
+
+[[page 72]]
+72 
+ 
+R(2)RS(15) to the TSP gives. 
+RP6 KRS(10) IUT H:V[EL/DV][VO/OS]  
+PT 
+J J Z M R U ? H X U F O J U Q H X U U L E H X J Y L W P U H  
+ 
+P A L J W L H X U E  
+Z N V Z U R Q B H X U Z P V I E Y L H Z I 
+W E O O P Q H I L P O U Q L P Q H E L P J Y Z H H U Q O P Q U E 
+*PT 
+R Z N D U E M O H G E U J U P H R F Q U H L H X U V R L Y U H I 
+Y A Z H X Z P U Y U E W U Q V E I Y  
+ 
+ 
+Z R J I V H X U E I I 
+H X U Y Z J H B N L P F I O J U U L P F H X Z P W T ? I M D E  
+CT 
+W W A X D D ? Q T Y N G V T C Q T Y Y Z L W G V B X T E R W  
+ 
+E G K O P W U O P L  
+H Z Y S Y C K L P T R S D T U Q L W Q S V 
+T N E H M K Q V X E E T C W C R U N W F O B O U U P K H M K R M 
+*CT 
+Z X J Z H U W I U L I J Q Q E F Q R I E Z H L U N H Q Q X Z R N 
+X L E Q G P U I X Y W V Y V U O X U  
+ 
+ 
+E D R Y R U X L W H Q 
+U N Q Y E Z G V U Z Y U X P R J J H H E H S Q I X A ? I M D E  
+ 
+Notes. This is perhaps the most challenging cryptogram to solve as we are initially wrong footed by 
+the alternate spelling and then finally by the lack of our usual RML or SML support to imply the 
+alignment may be correct.  
+ 
+Letter Selection 
+CT 
+W W A X D D ? Q T Y N G V T C Q T Y Y Z L W G V B X T E R W  
+ 
+E G K O P W U O P L  
+H Z Y S Y C K L P T R S D T U Q L W Q S V 
+T N E H M K Q V X E E T C W C R U N W F O B O U U P K H M K R M 
+ 
+Results 
+C(11) KRS(10) SA(CS) 
+K4 Key 
+Encryption 
+TJCD IGKU 
+ELDV VOOS 
+IANS EMOR 
+ 
+ 
+ 
+
+[[page 73]]
+73 
+ 
+Cryptogram 12 
+C(12) RP6 IRP KRS(11)  
+PT 
+L L K N Y V ? I Z V G S L V U I Z V V M F I Z L P M X T V I  
+ 
+K Q W K V Y U C I Z V K T W J F P M I K J T B M L X M I Z V F  
+V U M T U I F M T L P K I I V U S T U V F X F S S T U I J M T S 
+*PT 
+I Z V W Y M P V I J W Y K Q E V F N S I H F V L V T I Y G U V M 
+K Y L J W I Z V F J J P B K I Z K T V P V F X V U W F J P  
+ 
+ 
+I Z V P K L I C Q M T G J S L V V M T G I Z K T X O ? J N E F  
+CT 
+X X B Z E E ? U O P Q H W O D U O P P K M X H W C Z O F Y X  
+ 
+I K P A P D R M T O Y A E O V U M X U A W F H R S T X V S T M  
+O D X D Y V Q X G S C S V V T R I N R Y N O Q F I N R U W Z F F 
+*CT 
+M V Q I U U Z K Y Q V K Z L K I V X J V M J L U U F G U Y J F I 
+F E Y P Y V Z M X I U Z M F U H T V J Z P X W P W V S Z V  
+ 
+ 
+V Q U P F K H W V K P V Z T Y L L I I F I A U J Z B ? J N E F  
+ 
+C(12) RP6 KRS(11) SA(SS) IUT H:V[UX/QT][UQ/TX] IUT3:4[OQF] NSP 
+PT 
+L L K N Y V ? I Z V G S L V U I Z V V M F I Z L P M X T V I  
+ 
+K T W J F P M I K J T B M L X M I Z V F  
+K Q W K V Y U C I Z V 
+S V U M T U I F M T L P K I I V U S T U V F X F S S T U I J M T 
+*PT 
+M I Z V W Y M P V I J W Y K Q E V F N S I H F V L V T I Y G U V 
+P B K I Z K T V P V F X V U W F J P  
+ 
+ 
+K Y L J W I Z V F J J 
+I Z V P K L I C Q M T G J S L V V M T G I Z K T X O ? J N E F  
+CT 
+X X B Z E E ? U O P Q H W O D U O P P K M X H W C Z O F Y X  
+ 
+A E O V U M X U A W F H R S T X V S T M  
+I K P A P D R M T O Y 
+F O D X D Y V Q X G S C S V V T R I N R Y N O Q F I N R U W Z F 
+*CT 
+I M V Q I U U Z K Y Q V K Z L K I V X J V M J L U U F G U Y J F 
+Z M F U H T V J Z P X W P W V S Z V  
+ 
+ 
+F E Y P Y V Z M X I U 
+V Q U P F K H W V K P V Z T Y L L I I F I A U J Z B ? J N E F  
+ 
+R(2)RS(8) to the TSP gives. 
+C(12) RP6 KRS(11) SA(SS) IUT H:V[UX/QT][UQ/TX] IUT3:4[OQ/FM] RML[VPI][VVL]TSP 
+PT 
+L L K N Y V ? I Z V G S L V U I Z V V M F I Z L P M X T V I  
+ 
+K V Y U C I Z V K T W J F P M I K J T B M L X M I Z V F  
+K Q W 
+S V U M T U I F M T L P K I I V U S T U V F X F S S T U I J M T 
+ 
+ 
+
+[[page 74]]
+74 
+ 
+*PT 
+M I Z V W Y M P V I J W Y K Q E V F N S I H F V L V T I Y G U V 
+J W I Z V F J J P B K I Z K T V P V F X V U W F J P  
+ 
+ 
+K Y L 
+I Z V P K L I C Q M T G J S L V V M T G I Z K T X O ? J N E F  
+CT 
+X X B Z E E ? U O P Q H W O D U O P P K M X H W C Z O F Y X  
+ 
+A P D R M T O Y A E O V U M X U A W F H R S T X V S T M  
+I K P 
+F O D X D Y V Q X G S C S V V T R I N R Y N O Q F I N R U W Z F 
+*CT 
+I M V Q I U U Z K Y Q V K Z L K I V X J V M J L U U F G U Y J F 
+P Y V Z M X I U Z M F U H T V J Z P X W P W V S Z V  
+ 
+ 
+F E Y 
+V Q U P F K H W V K P V Z T Y L L I I F I A U J Z B ? J N E F  
+ 
+C(12) RP6 KRS(11) SA(SS) IUT H:V[UX/QT][UQ/TX] IUT3:4[OQ/FM] RML[VPI][VVL] TSP 
+Digraph Analysis 
+PT 
+L L K N Y V ? I Z V G S L V U I Z V V M F I Z L P M X T V I  
+ 
+K V Y U C I Z V K T W J F P M I K J T B M L X M I Z V F  
+K Q W 
+S V U M T U I F M T L P K I I V U S T U V F X F S S T U I J M T 
+*PT 
+M I Z V W Y M P V I J W Y K Q E V F N S I H F V L V T I Y G U V 
+J W I Z V F J J P B K I Z K T V P V F X V U W F J P  
+ 
+ 
+K Y L 
+I Z V P K L I C Q M T G J S L V V M T G I Z K T X O ? J N E F  
+CT 
+X X B Z E E ? U O P Q H W O D U O P P K M X H W C Z O F Y X  
+ 
+A P D R M T O Y A E O V U M X U A W F H R S T X V S T M  
+I K P 
+F O D X D Y V Q X G S C S V V T R I N R Y N O Q F I N R U W Z F 
+*CT 
+I M V Q I U U Z K Y Q V K Z L K I V X J V M J L U U F G U Y J F 
+P Y V Z M X I U Z M F U H T V J Z P X W P W V S Z V  
+ 
+ 
+F E Y 
+V Q U P F K H W V K P V Z T Y L L I I F I A U J Z B ? J N E F  
+ 
+Notes.  This is the final cryptogram and perhaps the most satisfying to complete as it embodies all 
+previous elements of the IUT scheme. 
+Letter Selection 
+CT 
+X X B Z E E ? U O P Q H W O D U O P P K M X H W C Z O F Y X  
+ 
+A P D R M T O Y A E O V U M X U A W F H R S T X V S T M  
+I K P 
+F O D X D Y V Q X G S C S V V T R I N R Y N O Q F I N R U W Z F 
+ 
+C(12) RP6 KRS(3) SA(SS) IUT[DH/BA ] TSP  
+Results 
+C(12) KRS(11) SA(SS) 
+K4 Key 
+Encryption 
+HUAU EKCA 
+OQFM UTXQ 
+NING STAR 
+ 
+
+[[page 75]]
+75 
+ 
+ 
+ 
+
+[[page 76]]
+76 
+ 
+ 
+ 
+ 
+Part 6 
+ 
+Conclusions 
+
+[[page 77]]
+77 
+ 
+Conclusions 
+Putting all 12 individual cryptograms together we can see that we are left with the following 
+composite message.  As can be seen there are multiple spelling mistakes and the author takes on board 
+that some solves may have been completed incorrectly despite matching the requirements for the 
+proposed scheme, but high confidence is placed in a number of the solves beyond those for the known 
+plain text. 
+Cryptogram K4 Key 
+Cryptogram Result 
+Plain Text 
+1 
+OBKRUOXO 
+UNYY CKBD 
+KRYP TOSI 
+2 
+GHULBSOL 
+WRLF PRRG 
+TEAM EAST 
+3 
+IFBBWFLR 
+FNWE GZJO 
+ROON DEAS 
+4 
+VQQPRNGK 
+BZEX PUXA 
+TNOR THEA 
+5 
+SSOTWTQS 
+KXPY AWLO 
+STBS TREE 
+6 
+JQSSEKZZ 
+HWOR ZSOS 
+TLEA DSTO 
+7 
+WATJKLUD 
+MWPN RHXU 
+ITAC RONO 
+8 
+IAWINFBN 
+PBAV BNTI 
+MITE ROFB 
+9 
+YPVTTMZF 
+CXUE ILNM 
+ERLI NCLO 
+10 
+PKWGDKZX 
+SKCU LIMN 
+CKSB RILL 
+11 
+TJCDIGKU 
+ELDV VOOS 
+IANS EMOR 
+12 
+HUAUEKCA 
+OQFM UTXQ 
+NING STAR 
+ 
+Looking at the composite message in more detail there are a number of features that allow us to  make 
+some further observations beyond this end result. 
+KRYPTO SITE AM EAST / ROOND EAST NORTH EAST B STREET LEADS TO IT / A 
+CRONOMITER OF BERLIN CLOCKS BRILLIANSE / MORNING STAR(R) 
+The first and most obvious feature is the correlation in the text between the opening statement and the 
+end statement.  Both would appear to be referencing the planet Venus in the morning or easterly phase 
+of its synodic cycle.  The second most obvious feature would appear to be something lunar in nature 
+as the moon certainly rises for some of its cycle in an East North Easterly position on the horizon. 
+The reference to B STREET is compelling as further analysis shows that B Street is also the name for 
+Constitution Avenue in Washington.  If one thinks for a moment about the iconic shot of the Moon 
+rising above the Capitol Building in Washington then those shots are typically taken whilst the camera 
+is pointing in a North Easterly direction with the Moon quite literally hanging over B Street. 
+ 
+
+[[page 78]]
+78 
+ 
+To see the Moon rise in a North Easterly direction over Constitution Avenue there are two locations 
+of interest where you could be standing, both of which would qualify as a ‘crypto site’. 
+The first is the Pentagon, whose design will also be seen to link to the synodic cycle of Venus that we 
+shall discuss shortly. 
+ 
+The second and perhaps most compelling location due to its civilian accessibility would be the 
+Hirshhorn Museum that sits just off the National Mall.  The building itself is famous for its round 
+architectural design and as discussed at the head of the document also houses a copy of the Antipodes 
+sculpture.
+ 
+
+[[page 79]]
+79 
+ 
+A solution beyond the solution 
+The reference to something astronomical in nature combined with the mention of a chronometer that 
+is related to a clock or clocks in Berlin was a satisfying message to extract as the author’s two 
+previous ‘Machine’ papers published in 2017 have addressed these very issues of celestial mechanics 
+and how they would appear to relate to the overall sculpture layout. For anyone that hasn’t read those 
+papers, they assert that all 4 panels of the sculpture participate in a schematic that can be overlayed on 
+top of the sculpture text as a hidden steganographic layer.   
+These two previous papers covered in some detail how this hidden layer can be used to calculate the 
+Metonic and Saros cycles, which are also the two main functions provided by the Anitkythera 
+Mechanism, which is acknowledged as being one of the worlds earliest analogue computers.   
+ 
+ 
+The solar/lunar cycles detailed in those papers stopped short of mentioning anything about the 
+Antikythera Mechanism’s planetary dial, but a cryptic analogue to this dial was found by the author in 
+late 2017.  The discovery of this dial is significant as it simultaneously clears up an additional 
+outstanding question about the relevance of the K3 plain text.  The evidence would suggest that this is 
+in fact another cryptic clue related to geometry and implies that the Tutankhamun clue should be read 
+as a homophone much like the CANDIL clue that was used in K4’s second crib example.  If we break 
+up Tutankhamun phonetically then we can say it instead as TU (TAN) CAR (MOON).  If we look at 
+K4 again in light of this assertion then we can pick out the words CAR and TU.  
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R * 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O * 
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P * 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R * 
+ 
+The line that has been drawn from the top left of the U in TU to the bottom right corner of the CAR is 
+expressed in angular terms as Tan(θ) = 3/31. 
+Resolving this angle gives a figure of 5.5 degrees.  This is a very interesting angle as it is a coarse 
+grain figure for the offset of the Moon’s orbit relative to Earths orbital plane.  In other words this 
+angle explains why we get eclipse cycles as they can only occur during a new moon that happens 
+
+[[page 80]]
+80 
+ 
+whilst the Earth’s orbital plane is being crossed.  Many have commented in various forums about the 
+presence of the KRYPTOS anagram that is tucked into K4’s edges (shown here in green), but if we 
+examine it in more detail then we can see that exhibits the exact same geometrical relationship as our 
+previous example for TU and CAR having 3 letters in the vertical and 31 in the horizontal. 
+Drawing both of these lines simultaneously shows this remarkable set of relationships. 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R * 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O * 
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P * 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R * 
+ 
+It will be seen instantly that the two lines intersect directly beneath the letters SOL.  Delving slightly 
+deeper with a more cryptic eye we can see that STTR is a Caesarean shift of 21 for the letters NOOM.  
+Likewise a shift of 10 for the letters KLUDI gives UVENS and finally a shift of 16 for the letters 
+OBKR gives ERAH.  The author asserts that this is a cryptic model of the Sun, Earth, Moon and 
+Venus. 
+The relationship above would imply that K4 does in fact implement the complete Antikythera scheme 
+with the presence of this analogue to its planetary dial.  This planetary dial may be cryptically hidden, 
+but it is clearly showing rays hitting the Earth that are about to be blocked by the Moon.  The presence 
+of Venus along the path of the other ray would imply that the equivalent phenomena of Venus’ solar 
+conjunctions are also just as important as lunar eclipses. 
+The scheme and calculation of the Metonic and Saros cycles has already been covered in the previous 
+papers, so beyond the discovery of the planetary dial the only new information to add that hasn’t been 
+shared previously is with regards to the synodic cycle of Venus. 
+Before discussing this in detail we will briefly need to revisit the general concept of the 
+steganographic overlays.  We are in fact given the chance to segue directly into this discussion by the 
+first few lines of the previously derived K4 message itself. 
+A Kryptos.Groups.Io forum member with the handle LouiZSA  made a very interesting observation in 
+message #22071 to which I responded with this extension to the scheme.  Despite only having two 
+instances of EAST from the plain text clues given LoiZSA was somehow able to assert the presence 
+of an interesting numerical pattern.  Comparing this with the plain text results just derived for K4 it 
+became apparent that they appeared to extend LouisZSA’s observation further.   
+To understand its significance, lets tabulate the first 34 letters of our proposed plain text result by 
+splitting it over a table with 9 columns and 3 rows. 
+If we remove the word KRYPTOS from the beginning and write out the remainder then the result fits 
+rather neatly into this table. 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+I 
+T 
+E 
+A 
+M 
+E 
+A 
+S 
+T 
+R 
+O 
+O 
+N 
+D 
+E 
+A 
+S 
+T 
+N 
+O 
+R 
+T 
+H 
+E 
+A 
+S 
+T 
+ 
+This is significant as we have seen the exact same pattern before in the sculptures steganographic 
+layer previously detailed in the ‘Machine’ papers.  This layer not only holds the sculptures 
+coordinates, but also a range of other numbers that when appraised as a complete scheme allow the 
+sculpture layout to be used as a sophisticated analogue computer.  Delimiting the cipher text panels in 
+a 19/13 split and the tableau panels in an 18/13 split eventually leads to the following overlays. 
+
+[[page 81]]
+81 
+ 
+Cipher text panel overlays 
+ 
+Tableau panel overlays 
+ 
+It will be seen in both instances that the large green block on the right hand side for both the cipher 
+and tableau text is 364 letters, with the extraneous T and L in both cases bringing that figure to 365.  
+In other words, both the cipher and tableau text have embedded 365 day calendars hidden by the stego 
+scheme when appraised as a matrix that is 33 X 28 and 33 X 28 respectively.   
+
+[[page 82]]
+82 
+ 
+For the case of the cipher text we additionally know that we have a missing X that can be added that 
+will force one of the existing spaces to move into column 33 that will then be capable of doubling up 
+as a leap day. 
+The fine structure contained within the overlay for the top cipher text panel is perhaps the most 
+interesting part (to the authors mind) of the whole Kryptos piece.  The steganographic overlay shows 
+the presence of the complete set of coordinates for the sculpture embedded in the top left corner of the 
+cipher text.  These coordinates are initially defined by 3 repeating rows of 19 that give 19, 38 and 57 
+when summed.  It is these initial 3 repeating rows of 19 that would appear to echo the 3 repeating 
+rows that end in EAST shown in the previous 9 column table. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J  
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+ 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+ 
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R  
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+ 
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+ 
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X  
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+ 
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+ 
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+ 
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+To finish up the discussion on the embedded coordinates given by the stego system is can be seen that 
+the seconds for the northerly coordinates are marked by 6 letters followed by a question mark and 
+then an additional 5 letters to give us our 6.5.  It can be seen that the end of the 6.5 region is abutted 
+by the last row of the 77 letter section for the westerly coordinates.  HHDDDUVH marks the 8 
+minutes, which are then added to the 36 letters above to give the 44 seconds that complete the full set 
+of sculpture coordinates. 
+Brilliant Chronometers 
+Much has been made of the various clocks of interest that reside in Berlin, but there are perhaps two 
+that are of real interest for the purposes of this conclusion.  The first of course is Dieter Binninger’s 
+‘Mengenlehreuhr’ or set theory clock and the second is Bernard Gitton’s ‘Clock of Flowing Time’ 
+that extends over 3 floors of the Europa Center in Berlin. 
+The steganographic layout that we find within Kryptos would appear to be a hybrid of these two 
+concepts, both of which are driven by the presence of an ingenious gearing system hidden within the 
+actual coordinates themselves.  The presence of this gear mechanism is not arbitrary and is instead 
+found in a clue that can be extracted when looking at the plain text through the filter of the 
+steganographic overlay.  If we examine the boundaries of the 19/13 row scheme when viewing rows 
+14 and 15 then we see the following relationship of note. 
+T E S F O R T Y F O U R S E C O N D S W E S T X L A Y E R T W O  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+S L O W L Y D E S P A R A T L Y S L O W L Y T H E R E M A I N S  
+ 
+An anagrammatic rearrangement of the 13 letters for the row 15 line end gives. 
+T E S F O R T Y F O U R S E C O N D S W E S T X L A Y E R T W O  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+S L O W L Y D E S P A R A T L Y S L O W E S T H L A Y E R M I N  
+
+[[page 83]]
+83 
+ 
+  
+That may seem like an unremarkable insight until we realise that the hours (H) and minutes (MIN) of 
+the Kryptos coordinates as given in the K2 plain text sum exactly to 180. 
+38 + 57 + 77 + 8 = 180 
+This hour to minute relationship forms the backbone of a gearing system that we can drive by treating 
+the sculpture as an analogue computer driven by cursor operations, whereby each letter can light up 
+when selected as part of some predefined function.  In the physical case of something like one of 
+Bernard Gitton’s water clocks this could also be thought of as filling a container with a set amount of 
+water before filling up the next.  At some logical point the sum (in this case 180) is reached and we 
+would then drain the water away to start the process again of filling again. 
+It should be noted that the coordinate system used in the Kryptos stego overlay is schematic and not 
+physical, by which it is meant that after counting out 38 blocks we then need to return to the start of 
+the three initial rows in order to count out 57.  Whilst this is not an issue when programming such a 
+scheme it would be an issue if making a physical reproduction as another 38 blocks would be needed.  
+Anyone reading the authors previous papers looking to make physical interpretations of the scheme 
+should bear this in mind when sketching out their initial designs. 
+If any additional proof is needed that Kryptos can double up as an analogue computer then we need 
+look no further than the computation of the K1 and K2 decrypts, which can both be performed by the 
+sculpture by driving it as an analogue computation using these same cursor operations.  If we in fact 
+leave the letters that have participated in that computational process highlighted after decrypting K1 
+and K2 then we see that Kryptos has yet another additional secret to reveal. 
+ 
+On the right hand side of the picture above we see all the tableau letters that participated in the 
+decryption of K1 and K2.  Taking those same letter positions as a mask and rotating them by 90 
+degrees before overlaying back on the cipher text gives a remarkable result.  The portion of the mask 
+that overlays K1 and K2 on the left hand side of the picture is exactly 97 letters.  The portion that 
+overlays K3 and K4 is 63 letters, which is the exact same length as the K1 message.  It will also be 
+noted that our rail position markers did not extend beyond row 26. 
+We saw in the ‘Machine’ papers that cycling through the 180 blocks of the stego gearing system 
+allowed us to traverse the blocks for the 6.5 coordinate region every time we reached 180 before 
+resetting to 0 again.  These 11 blocks that were transited in the 6.5 coordinate block could be 
+interpreted in a different way.  If we thought of 6.5 degrees as an angle instead then it would mean for 
+
+[[page 84]]
+84 
+ 
+every 360 blocks we traversed in the gearing scheme we would symbolically trace out 13 angular 
+degrees.  This is significant as every time the Earth turns once on its axis the moon appears to move 
+13 degrees in the sky relative to the previous night’s position. 
+ 
+Revisiting the number of blocks transited before the gearing scheme resets we see that we have 180 
+blocks for the half turn followed by 11 blocks for the representation of 6.5 degrees, so in fact for 
+every representation of a half day we traverse 191 blocks before resetting. 
+If we start this process by simultaneously running a cursor through the letter blocks of K3 and 
+examine the letter underneath the cursor every time we reset the gearing to zero then we in fact 
+inadvertently recreate the algorithm for the extraction of K3, which is effectively a 192 letter skip.  
+Making this connection that Kryptos really is capable of meaningful analogue computations by virtue 
+of its stego layer is necessary to digest before we examine the synodic cycle of Venus in more details. 
+ 
+ 
+ 
+
+[[page 85]]
+85 
+ 
+The Synodic Cycle of Venus 
+We have just seen previously that adding the northerly 6.5 seconds to the base 180 gearing allowed us to 
+derive 13 degrees of lunar motion through the sky for every Earth day.  By the exact same method, but 
+using the 44 westerly seconds added to the base 180 scheme we can see that we are also given a coarse 
+grain figure in days for the orbital period of Venus, which in this instance is given as 180 plus 44 or 224 
+days.  Using the calendar that we are provided as part of the stego layer it is possible to track the course of 
+its progress relative to the Earth year. 
+By combining the coordinate blocks used to describe the 44 westerly seconds and the blocks used to 
+describe the 6.5 notherly seconds it is possible to completely capture the synodic cycle of Venus.  The only 
+slight adjustment we need to make is to lose three letters from the top and bottom left of the cipher text 
+panels.   
+This gives an arrangement with similar aesthetics to the tableau panel notches in the top and bottom left 
+hand corners, and could be considered as an operation undertaken under instruction by letting ‘the HOT 
+AIR escape’ from the top and bottom panels respectively.   
+Reviewing our 19/13 steganographic division under this condition gives the following layout. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J  
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+ 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+ 
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R  
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+ 
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+ 
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X  
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+ 
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+ 
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+ 
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I A  
+C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E  
+ 
+ 
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E  
+ 
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E  
+ 
+ 
+T F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R  
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B  
+ 
+ 
+T E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I  
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B  
+ 
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R I T 
+R K L M L E H A G T D H A R D P N E O H M G F M F E U H E  
+ 
+ 
+ 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+ 
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+ 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+ 
+ 
+ 
+
+[[page 86]]
+86 
+ 
+Combining the stego coordinate scheme for the northerly and westerly seconds highlights the 
+following blocks of interest. 
+E M U F P H Z L R F A X Y U S D J K Z L D K R N S H G N F I V J  
+Y Q T Q U X Q B Q V Y U V L L T R E V J Y Q T M K Y R D M F D  
+ 
+V F P J U D E E H Z W E T Z Y V G W H K K Q E T G F Q J N C E  
+ 
+G G W H K K ? D Q M C P F Q Z D Q M M I A G P F X H Q R L G  
+ 
+ 
+T I M V M Z J A N Q L V K Q E D A G D V F R P J U N G E U N A  
+ 
+Q Z G Z L E C G Y U X U E E N J T B J L B Q C R T B J D F H R R  
+Y I Z E T K Z E M V D U F K S J H K F W H K U W Q L S Z F T I  
+ 
+H H D D D U V H ? D W K B F U F P W N T D F I Y C U Q Z E R E  
+ 
+E V L D K F E Z M O Q Q J L T T U G S Y Q P F E U N L A V I D X  
+F L G G T E Z ? F K Z B S F D Q V G O G I P U F X H H D R K F  
+ 
+F H Q N T G P U A E C N U V P D J M Q C L Q U M U N E D F Q  
+ 
+ 
+E L Z Z V R R G K F F V O E E X B D M V P N F Q X E Z L G R E  
+ 
+D N Q F M P N Z G L F L P M R J Q Y A L M G N U V P D X V K P  
+ 
+D Q U M E B E D M H D A F M J G Z N U P L G E W J L L A E T G  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+E N D Y A H R O H N L S R H E O C P T E O I B I D Y S H N A I A  
+C H T N R E Y U L D S L L S L L N O H S N O S M R W X M N E  
+ 
+ 
+T P R N G A T I H N R A R P E S L N N E L E B L P I I A C A E  
+ 
+W M T W N D I T E E N R A H C T E N E U D R E T N H A E O E  
+ 
+ 
+T F O L S E D T I W E N H A E I O Y T E Y Q H E E N C T A Y C R  
+E I F T B R S P A M H H E W E N A T A M A T E G Y E E R L B  
+ 
+ 
+T E E F O A S F I O T U E T U A E O T O A R M A E E R T N R T I  
+B S E D D N I A A H T T M S T E W P I E R O A G R I E W F E B  
+ 
+A E C T D D H I L C E I H S I T E G O E A O S D D R Y D L O R I T 
+R K L M L E H A G T D H A R D P N E O H M G F M F E U H E  
+ 
+ 
+ 
+E C D M R I P F E I M E H N L S S T T R T V D O H W ? O B K R  
+ 
+U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O  
+ 
+T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P  
+ 
+V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R  
+ 
+ 
+If we use the highlighted blocks for the westerly and northerly seconds as positions to mark our days 
+then we can now chart the synodic cycle for Venus using the following steps. 
+Venus appears as a morning star for 263 days, which we can track in the light blue area in the top 
+panel. 
+Venus then disappears for 50 days behind the Sun, which can be tracked in the gold block given by 
+the 44 plus 6. 
+Venus is then an evening star for another 263 days which we can mark in the light blue area in the 
+bottom panel. 
+Finally, Venus transits in front of the Sun and is not visible for 8 days, which we can record in the 8 
+minute block of our coordinate scheme highlighted above in orange. 
+The cycle then repeats.  As we can simultaneously set off a cursor in the calendar portion of the 
+panels it will of course be possible to determine the dates on which superior and inferior conjunctions 
+will occur.  As we saw with the Metonic and Saros cycles, the Synodic Cycle of Venus also gives rise 
+to regularly defined intervals of time, but in this instance there is something of an added bonus as the 
+position in the sky at which these conjunctions occur give a well-defined and recurring geometric 
+pattern, which is that of the pentagram.  The following diagram of this phenomenon has been taken 
+from the European Southern Observatory public outreach site, and shows how this geometric 
+relationship plays out over time with respect to the various constellations of the zodiac. 
+
+[[page 87]]
+87 
+ 
+ 
+ 
+To conclude, it can be seen that all the astronomical phenomenon that have been highlighted by the 
+sculptures numerical layer are all about repeating cycles that continue with clockwork regularity 
+despite the chaotic nature of the overall universe through which these kinetic systems are travelling.  
+This paper has outlined the principle of invariance under transformation as it applies to the K4 cipher, 
+but it is not a great leap of the imagination to see that these astronomical cycles that are encoded 
+within the sculptures numerical overlay are also telling us something about their invariance when 
+transformed over time itself.  It is hoped that this paper has been useful and that as a result you will 
+finally be able to see Kryptos in a new light.  
+Matt Reid 12/3/21 
+ 
+ 
+ 
+ 
+ 
+
+[[page 88]]
+88 
+ 
+Further Reading 
+For anyone wanting to read more about the various subjects that have been touched upon in this paper 
+I would recommend the following books. 
+‘A Portable Cosmos’ by Alexander Jones is highly recommended.  This is an excellent work on both 
+the history and reconstructed mechanics of the Antikythera Mechanism.   
+ISBN 978-0-19-973934-9 
+I would also recommend Carl Sagan’s ‘Contact’ novel to anyone that has an active interest in 
+Kryptos.  Whether Carl Sagan was a consultee to the Kryptos project or not will no doubt be known in 
+time, but I can’t recommend this book highly enough.  For anyone that has seen the film, but not read 
+the book, the endings are different with one being more profound than the other.   
+ISBN 0-09-946950-2 
+Simon Singh’s ‘The Code Book’ is still a classic introduction to Cryptography for the modern reader 
+and I recently had chills upon noticing that the books acknowledgements include thanks for the 
+brilliant Sonya Holbraad who was once also my maths tutor at a pivotal point in my academic career.     
+ISBN 185-70-2889-9 
+Codebreaking A Practical Guide, by Elonka Dunin and Klaus Schmeh is probably one of the most 
+recent introductory cryptography books to hit the shelves and has a great level of depth for anyone 
+wanting to take their interest further. 
+ISBN 978-1472144218 
+Cubed: The Puzzle of Us All is another new comer to the book shelves and is written by Erno Rubik 
+the inventor of the cube that bears his name.  This short, but fun book is not just about puzzles, but 
+more importantly about the role of the creative process, so educators may also want to pick up a copy 
+of this one and surreptitiously leave it lying in view of any students with curious minds.   
+ISBN 978-1474613118 
+Other than Rubik’s work on ‘invariance under transformation’ there appears to be no other record of a 
+similar puzzle type cipher that I can find a reference to other than an academic paper by Douglas W 
+Mitchell from 1992 entitled “Rubik's Cube” as a transposition device.  This paper doesn’t appear to 
+point back to anything relating to the method discussed in this paper, but I would be interested to hear 
+from anyone that can find precedence for this scheme. 
+ 
+ 
+
+[[page 89]]
+89 
+ 
+Afterward 
+In compressing these findings into a paper that is almost academic in nature it is appreciated that a 
+large part of any potential audience may have been lost, along also with any sense of the narrative and 
+the sense of adventure that ran through each of these discoveries.  Please bear in mind that each one 
+represented an individual moment of wonder, intrigue or elation rather than the clinical end results 
+discussed in the previous sections.  This is a long paper and there will no doubt be the need for many 
+corrections and clarifications as it has been written in isolation, but it is hoped that professionals and 
+amateurs alike in the crypto community will kick the tyres on both the IUT scheme as well as the 
+assertion that Kryptos when viewed as a holistic piece is also an analogue calculator capable of a wide 
+range of astronomical predictions.  
+About the author 
+Matt is a Software Architect based in the UK with undergraduate and post graduate degrees in Physics 
+and Distributed Computing.  For questions relating to this paper or previous Kryptos work he can be 
+contacted at matzreid888@yahoo.co.uk. 

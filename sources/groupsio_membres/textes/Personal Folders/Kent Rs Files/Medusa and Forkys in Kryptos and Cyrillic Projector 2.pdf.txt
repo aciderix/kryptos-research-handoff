@@ -1,0 +1,61 @@
+[[page 1]]
+Gorgons and potential key acquisition in Kryptos and Cyrillic Projector 
+1. The Cyrillic Projector key word MEDUSA, [медуза in Russian] is applied to the regular, not keyed, 
+alphabet. The keyed equivalent on the теньабв.....alphabet was  йбасгт (jbasgt). Medusa was one of 
+three Gorgon monsters. The others were EURYALE and STHENO.                
+2. When a KR SO YP methodology is applied to the 4x4 piece of Kryptos K4 "key shape" the 16 letter 
+sequence RPORKYSABNSCOBKK appears. 
+O B 
+K 
+R 
+K 
+S 
+S 
+O 
+B 
+N Y 
+P 
+K 
+C 
+A R 
+   
+This is quite interesting and could be some kind of key, PORKYSAB also looks like the start of a keyed 
+alphabet. Or perhaps it could mean that PORKYS applied to the regular alphabet AB.... derives a key on a 
+keyed tableau, like in the Cyrillic Projector? In British English porkies typically means lies, but it is also 
+very noteworthy that PHORKYS, (FORKYS, actually) alternatively sometimes spelled PHORCYS, or FORCYS 
+and KETO (CETO) were the parents of the three Gorgons. Medusa's father, PHORKYS, or FORKYS, was 
+the god of "hidden dangers of the deep". Maybe he lives in the ponds? 
+If the equivalent keyword acquisition analysis applied to the Cyrillic Projector, as described above, is 
+applied to the regular KRYPTOS keyed tableau the following occurs: 
+F 
+O R K 
+Y S 
+O H L 
+D X M 
+ 
+This is of course at least of interest for anyone attempting to follow the "LO trail". At "Extra L", then over 
+to VIG O, those letters occur in sequence as well LOH when reading normally. Whether this is a clue with 
+meaning beyond identifying the start of a 97 letter string which ends in W at  Panel 4, Row 5, Letter 7 I 
+do not know. But it certainly could be another hint at the purpose of that string.  
+When the 97 letter sequence starting in Panel 4, Row 2 (letter 1=H, so right after LOH or OHL, depending 
+on how you read) and ending with the W in Panel 4, Row 5, Letter 7 is run through the Double 
+Transpositions as described elsewhere: 1. First 16 blocks, then VIC CUT with the blocks, 16 to 1, 15 to 2 
+etc. until 10 to 7 , then 1 to 8, 2 to 9 until 9 to 16. 2. Tableau 21. 3. Tableau 17. The final three letters in 
+the bottom row of Tableau 17 are DXM. 
+It seems reasonable to assume that the one-time pad has been correctly constructed. 
+Additionally I find it curious that the letters YAR are centered in EURYALE./KR 
+ 
+13 9 
+5 1 
+15 11 7 3 
+14 10 6 2 
+16 12 8 4 
+P O R K 
+Y 
+S 
+I 
+H L 
+D X M 
+
+[[page 2]]
+ 

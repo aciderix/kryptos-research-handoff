@@ -1,0 +1,133 @@
+[[page 1]]
+Concerns That the K4 Breakthrough Might Not Be Valid
+In June, 2013 I announced to the Kryptos group the details of a breakthrough I made in K4 of Kryptos.  
+I claimed a roughly 1:100,000,000 chance of the K4 breakthrough being random.
+The response from the list was extremely helpful; a lot of concerns were brought up about the validity 
+of the breakthrough.  Obviously, if it is not really a breakthrough, it is in everyone's best interest to 
+know.
+So I looked carefully at each of the ~40 responses within the first 48 hours of my posting the details, 
+looking for every possible position challenging the validity of my breakthrough.  I broke them down 
+into 5 different concerns:
+[1] Jim Sanborn said that no transposition was allowed (“NYPVTT->BERLIN 1:1” theory #1),
+[2] NYPVTT should not map to BERLIN in intermediate ciphertext (the other 
+“NYPVTT->BERLIN 1:1” theory).
+[3] It's just alphabet soup, aside from BERLIN being in the right place,
+[4] There are a massive number of ways to get BERLIN in the right place, and
+[5] K4 should be solved using just 1 step.
+I believe all these concerns (except the last one) are valid, but I personally do not believe any of them 
+stand in the way of the K4 breakthrough being valid.  I will address each one separately.
+
+[[page 2]]
+Concern #1:
+Jim Sanborn said that no transposition was allowed
+(“NYPVTT->BERLIN 1:1” theory #1)
+Summary:
+In October, 2011, there was a dinner with Jim Sanborn and a number of guests from the Kryptos group. 
+The day after the dinner, someone posted that:
+We asked about the last clue that had been released, and whether it was a
+one-to-one mapping from NYPVTT to BERLIN, or whether it was intended that
+this clue be a mapping of a six letter group to a six letter group. Mr.
+Sanborn indicated this is a one-to-one mapping. 
+This has been interpreted in several ways.  One of the ways is that something is done with the letter 
+“N” to turn it into “B” and that it always stays at position 64.  If this is the case, it is said that 
+transposition cannot be used in K4 (in which case the “N” would move somewhere else, and a different 
+character would decode to “B”).
+My Thoughts:
+The first thing to notice here is that Jim Sanborn has never publicly stated or implied this.
+The second thing to notice is that there is much confusion on the Kryptos group as to what was meant 
+at that dinner (there is another interpretation suggesting that Jim Sanborn meant simply that “BERLIN” 
+appears in the plaintext where “NYPVTT” appears now).
+The third thing to notice is that when the BERLIN clue was released, the author of the article implied 
+that transposition was used (“the other 91 characters and their proper order are yet to be 
+determined.”).
+The fouth is that if a group of people trying to solve Kryptos are confused as to what was said and 
+meant at that dinner, Jim Sanborn could have easily misinterpreted the question.
+If this concern is true, that transposition cannot be used, it would indeed mean that my K4 
+breakthrough is not real.
+However, given all the confusion over a private conversation, I personally do not believe that 
+transposition cannot be used in K4.
+
+[[page 3]]
+Concern #2:
+NYPVTT should not map to BERLIN in intermediate
+ciphertext (“NYPVTT->BERLIN 1:1” theory #2).
+Summary:
+See Concern #1 for details on the discussion from the October, 2011 dinner with Jim Sanborn.
+One of the interpretations was that BERLIN appears in the plaintext, not the ciphertext of an 
+intermediate decoding step.  In other words, BERLIN is a word that Jim Sanborn used in whatever he 
+wrote for K4, not a random group of letters that happened during decoding that happened to form the 
+name of a city.
+My Thoughts:
+I do strongly believe that BERLIN appears in the plaintext.  The New York Times article implies that 
+that is the case, but does not state so directly.  Also, this concern conflicts with Concern #5 (that there is 
+only 1 step to K4).  Both cannot be right.
+More importantly, having BERLIN in the intermediate ciphertext does not mean that it does not appear 
+in the plaintext.  My belief is that a mask is used that causes some letters to be decoded, while others do 
+not.  This would allow BERLIN to appear in the intermediate decoding step as well as appearing in the 
+plaintext.  In fact, Ed Scheidt stated that a mask was used in K4.
+So I do not really see a concern here, but in fact a major clue (that a mask is used that allows some 
+characters to be decoded while others are not).
+
+[[page 4]]
+Concern #3:
+It's just alphabet soup, aside from BERLIN being
+in the right place.
+Summary:
+This concern was brought up by several different people.  There are two close varieties: [1] You 
+shouldn't see alphabet soup (random characters) at all, you should see the final plaintext, and [2] If you 
+do see random characters, BERLIN should not appear within them.
+The assumption here is that either there is a single step to decoding K4, or that if multiple steps are 
+used, they will all be just random characters until the entire plaintext is suddenly revealed.
+My Thoughts:
+First, if K4 involves multiple steps, then you are nearly guaranteed to see random characters in one or 
+more intermediate steps.  That quickly takes care of the first variety of the concern.
+The second variety of the concern ties in with Concern #2.  If K4 uses multiple steps and one of the 
+steps is a mask that allows some characters to be decoded while others are not, it allows BERLIN to 
+appear in the intermediate ciphertext as well as the plaintext.  So that takes care of the other variety of 
+this concern.
+Also worth noting is the K3 plaintext, which ends with “Do you see anything Q?”, which could be 
+interpreted to mean that there is random text with one or more words visible inside.
+
+[[page 5]]
+Concern #4:
+There are a massive number of ways to get BERLIN
+in the right place.
+Summary:
+Although we all know there are many ways of decoding K4 that get BERLIN in the correct location, 
+one person suggested there was a massive number of ways to do so (suggesting billions of ways).
+He did not elaborate, but suggested something along the lines of complex transposition (similar to one 
+time pads), such as “Take the character from position 5 and put it in position 64, then take the character 
+from position 19 and put it in position 65, ...”
+My Thoughts:
+There could possibly be an infinite number of ways of getting BERLIN in the correct location, using 
+creative transposition methods and multiple steps.
+But, this does not in any way suggest that the K4 breakthrough is invalid.  It just shows that the more 
+creative you are allowed to get (the more steps you take, the more you diverge from standard 
+cryptography, etc.), the more likely you are to find ways to force BERLIN in the right place.
+Since I'm not talking about something far-fetched, this doesn't apply (and even if it did, it doesn't 
+suggest that the K4 breakthrough is invalid, just that it is to some degree less likely than the 
+~1:100,000,000 odds I came up with).  The K4 breakthrough is very straightforward; combining the 
+methods used in K1-K3, and using key words and key numbers that appear in what Jim Sanborn 
+created.
+Finally, according to this concern, essentially no multi-step solution would be worth pursuing.  So this 
+concern really cannot be used as the basis of not pursuing the K4 breakthrough.
+
+[[page 6]]
+Concern #5:
+K4 should be solved using just 1 step.
+Summary:
+At least 2 people suggested that K4 should be solved in just one step, and that there should be no 
+intermediate ciphertext.
+My Thoughts:
+I find this line of thought very surprising (and limiting).
+First, it should be noted that this concern conflicts with Concern #2 – both cannot be true.
+As far as I know, Jim Sanborn has not said anything suggesting that this is the case.  And there are 
+statements suggesting otherwise (e.g. the New York Times article mentioning the BERLIN clue stated 
+“There are many steps to cracking the code”, Jim Sanborn stated that he thinks he used 5-6 
+cryptographic techniques in Kryptos, Jim Sanborn discussing in the NOVA special how multiple steps 
+would let the code get very complex very quickly).  Even the NSA in 1992 suggested the possibility of 
+multiple steps.
+So if someone believes, for whatever reason, that K4 is solved in just one step, they have that belief, 
+and there isn't really a way to counter it.  They will simply choose not to pursue multi-step solutions.
+Since nothing has been said stating that there should be just one step, however, I see no reason to 
+assume that it must be true.

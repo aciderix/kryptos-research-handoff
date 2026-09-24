@@ -1,0 +1,92 @@
+[[page 1]]
+Kryptos, the triﬁd cipher, and automated analysis of classical cryptosystems
+Seth of CryptoCrap pointed out that Sanborn had said that he is an “anathemath” and ﬁnished high school mathemaƟcs outside of school. So, when he says “matrix”, he is unlikely to be referring to a mathemaƟcal matrix as Bauer et al wrote; he is probably just referring to a grid arrangement of
+characters. This is also apparent from his talk at Big Tech Day in June 2013, where he describes K1-K3 as being “matrix codes”.
+Scheidt has previously described the last secƟon as having 98 characters, which would mean that it begins “?OBKR” and thus has 27 diﬀerent characters. Among classical cryptosystems, the most well-known system with 27 diﬀerent characters is the “Triﬁd” cryptosystem invented by Felix
+Delastelle. It is likely that K4 is based on a known classical cryptosystem as the Kryptos sculpture reﬂects the history of cryptography and codes.
+Thomas at Klausi’s Krypto Kolumne wrote that the references to “ROWS” and “LAYER TWO” in the two diﬀerent decipherments of K2 also are likely to indicate Triﬁd. One more possibility is that “ID BY ROWS” is a reference to “TRIFID BY ROWS”; or at least some kind of “mulƟﬁd” cipher. It could be
+either each block is encrypted one of the rows in the sculpture, or a variant of triﬁd where the plaintext is wriƩen in by rows and the ciphertext is read out by columns.  Biﬁd is less likely because the K4 ciphertext has 26 characters, not 25, and digraﬁd is an ACA invenƟon c1960.
+The Kryptools website goes through the public informaƟon, and suggests possible grid sizes – the K1 and K2 grid paper has 31 columns, while the K3 grids are 42x8 and 14x24.
+Since Kryptos was installed in 1990, several papers have been published on automated cryptanalysis of classical ciphers, starƟng with Safavi-Naini et al’s papers around 1993 using simulated annealing. Gillogly described “shotgun hill climbing” in an ACA arƟcle in 1995 (also used as the main
+technique in the 2008 book "Decoding the IRA"), Clark wrote his PhD thesis on this topic in 1998, Cowan compared hill climbing and simulated annealing for many ciphers including triﬁd between 2007 and 2010, and Lasry published his PhD thesis in 2017 referencing all of these. It is perhaps
+possible that “HILL” found on the sculpture could refer to “hill climbing” as a cryptanalysis technique. Gillogly used this technique to solve K1-K3.
+If we are trying to ﬁnd the key to a triﬁd cipher by brute force, having 11 characters of known plaintext (“BERLINCLOCK”) may reduce the search space from 27! (1.1*10^28) by a factor of 3^33 – to as low as 2.0*10^12 – not yet accounƟng for symmetry. For a given posiƟon (e.g. the ﬁrst character
+in mapping) we only need to test six possibiliƟes due to symmetry, so this reduces the space by another 26/6 factor. Thus, for a parƟcular period it’s even possible to do a brute force search. It is not generally necessary though as simulated annealing is a very good technique for ﬁnding the key,
+assuming we know the plaintext language.
+The ACA guidelines for the period length for a triﬁd are 5-15 with a ciphertext length of 120-150 leƩers.
+I examined all period lengths from 2 to 51, with all possible rotaƟons of the ciphertext, and both variants of triﬁd (inserƟng plaintext in the matrix “by columns” and “by rows”) but didn’t ﬁnd anything.
+More obscure ideas
+It is interesƟng that the row length of the last three sculpture rows is 31. Sanborn had said that his 2010 hints were “three-pronged” i.e. crib text, website, and grid sheet release, and another Ɵme at a dinner he said that there was informaƟon to be gleaned from the grid sheets themselves.
+Certainly we can now see that each row has 31 characters. Perhaps “DYAHR” is referring to DAY plus HR and is thus 24 plus 7, and we can use a triﬁd variant with alternaƟng period lengths of 24 and 7, or 7 and 24, starƟng at “Q?OBKR”, “?OBKR”, “OBKR” or “UOXO”.
+If the ciphertext length is 99, the factors are 3, 9, 11, and 33.
+If it’s 100 (e.g. add in YAR, hopefully at the beginning or end, not sprinkled through it somewhere) we have 2, 4, 5, 10, 20, 25, 50. If it’s 96 (leave out a leƩer somewhere) we have many factors – 2, 3, 4, 6, 8, 12, 16, 24, 32 and 48.
+However, none of these ideas led anywhere.
+We have to be careful with the scoring funcƟon using logged n-gram frequencies – should # (the 27th character) be scored like an X, like a quesƟon mark, a full stop, an E, or a space? Also, with the known plaintext, we can allow for scoring which gives texts which are just close to the crib, without
+matching it exactly; in case the encrypƟon has a mistake in it.
+Based on Michael Cowan’s old site cryptoden – we can also use “tries” to change the scoring funcƟon so that it’s based on the number of complete words found in the decipherment – which is menƟoned in his descripƟon of the “Churn algorithm”. 
+The example given was “Junk jewelry jingles, jolts jerky jackanapes. Jealous jades jot jabberwocky, jerboa jumps jaguarundi” which is not really plain English. Unfortunately, the simulated annealing algorithm is quite slow to assess scores for this compared to summing logged n-gram frequencies.
+Fortunately, the K4 plaintext seems unlikely to be this obscure as Sanborn had said it is “plain English” (unless there are lots of #s or Xs sprinkled everywhere).
+Finally, as with the Hill cipher – in Triﬁd, we could use two diﬀerent alphabets, one for enciphering and one for deciphering. However, there is not then enough ciphertext to determine what keys were used – the unicity distance would be around 60 characters. The only real likely opƟon would be
+using two of the sculpture alphabets.
+Appendix – Ɵmeline
+·
+1983 paper – The technique of “Simulated annealing” is ﬁrst described in Science by Kirkpatrick, GelaƩ, and Vecchi
+·
+1986 Glover writes about “random restart hillclimbing” which is another name for “shotgun hill climbing”. In the various arƟcles, it isn’t always clear whether the algorithm is “ﬁrst ascent” (move to the ﬁrst neighbour you ﬁnd with a beƩer score) or “steepest ascent” (explore all neighbours
+and move to the one with the best score).
+·
+1988-1990 Kryptos codes are developed and installed
+·
+1993 Forsyth and Safavi-Naini “Automated cryptanalysis of subsƟtuƟon ciphers” (simulated annealing)
+·
+1994 Giddy and Safavi-Naini “Automated cryptanalysis of transposiƟon ciphers” (simulated annealing) 
+·
+1995 “Shotgun hillclimbing” is described by Gillogly – The Cryptogram Nov/Dec 1995 issue
+·
+1998 Andrew J Clark QUT thesis “OpƟmisaƟon heurisƟcs for cryptology” - chapter 3 concerns aƩacks on classical ciphers with simulated annealing, geneƟc algorithms and tabu search.
+·
+2007 Michael J Cowan – arƟcles in The Cryptogram - MJ2007, SO2007 on Simulated annealing.  Example code is at
+hƩp://www.cryptogram.org/resource-area/computer-column-programs/simulated-annealing-example-using-playfair/
+hƩp://www.cryptogram.org/resource-area/computer-column-programs/aristo-excel-worksheet-and-playfair-simulated-annealing-program/
+hƩp://pracƟcalcryptography.com/cryptanalysis/stochasƟc-searching/cryptanalysis-biﬁd-cipher/#c-code-for-breaking-biﬁd (James Lyons)
+Cowan wrote:
+ 
+Trifid can also be solved by SA, which again
+finds the solution much more quickly than
+hillclimbing. There are 6 possible mixed
+alphabets for any particular Trifid key, depending
+on assignment of numbers in the
+tableau. I've illustrated this below using just
+the first 3 columns:
+ 
+POW POW POW POW POW POW
+111 111 222 111 222 333
+111 111 222 111 222 333
+123 132 213 321 231 312
+ 
+These six different assignments produce six
+variations in mixed alphabet, all of which
+give the same encipherment or decipherment,
+shown below. It can be seen that
+3-letter groups move position in the mixed
+alphabet, and also the letters within a group
+change in order. In the simulated annealing
+program it pays to include swaps that move
+these groups around.
+POWERANDMIGHTBCFJKLQSUVXYZ#
+PWONMDEARLSQY#ZUXVIHGFKJTCB
+BTCGIHJFKREAOPWDNMVUXQLSZY#
+#ZYXVUSQLKJFCBTHGIMDNAREWOP
+#YZSLQXUVMNDWPOAERKFJHIGCTB
+BCTJKFGHIVXUZ#YQSLRAEDMNOWP
+·
+2008 Michael J Cowan publishes arƟcles on “Solving Triﬁd” with simulated annealing in The Cryptogram (May/June 2008, Computer Corner, page 12)
+·
+2008 Cowan – “Breaking short playfair ciphers with the simulated annealing algorithm” (Cryptologia). MenƟons SA works well on biﬁd, and beƩer than hill climbing.
+·
+2012 McLaughlin thesis – secƟon 3.5 - see parƟcularly secƟon 3.5.2 on SA parameter choices
+·
+2018 Lasry thesis “A methodology for the cryptanalysis of classical ciphers with search metaheurisƟcs” is published online, discussing the references above.
+http://elvumgar.fea.st/misc/trifid3.htm
+1 of 1
+12/09/2018, 12:59 pm

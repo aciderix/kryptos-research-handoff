@@ -1,0 +1,564 @@
+[[page 1]]
+Page 1 of 6 
+C2 K4 Double‐Mask‐OTP Hypothesis (2019) 
+ 
+C2 K4 DOUBLE-MASK-OTP 
+HYPOTHESIS 
+B. Chan & L. Chan 
+(July 15, 2019), Canada 
+ABSTRACT 
+A hypothesized on approaching the decryption of K4 from Jim 
+Sanborn’s Kryptos (1990) sculpture located within the 
+grounds of the CIA Headquarters. Existing information on 
+Kryptos was combined with historical research on 
+cryptography methods, the artist Jim Sanborn, and former 
+CIA communications officer Ed Scheidt to develop an 
+inference model of K4 and hypothesize an approach. Based 
+on our findings, it may be very likely K4 has been encrypted 
+through a multi‐step process involving one‐time pad and 
+several masks. 
+INTRODUCTION 
+On July 12th, 2019, we stumbled upon a YouTube video 
+published by Great Big Story titled Cracking the 
+Uncrackable Code and a thumbnail of repeating KRYPTOS 
+characters.  Immediately this caught our eyes and due to 
+our unique skills and interests in computers/mathematics, 
+and espionage history/art, we immediately decided to 
+tackled his unsolved puzzle. 
+In our initial research of the puzzle, we learned that Jim 
+Sanborn’s Kryptos is a set of sculptures commissioned by 
+the CIA Fine Arts Commission to coincide with the opening 
+of the New Headquarters Building (NHB) in 1991. 
+Comprised of multiple rock formations and sculptures, its 
+centerpiece is a curved 4 panel copperplate screen with 
+1,735 characters cut out. On the right side is an encoded 
+text and the left a series of characters arranged in the style 
+of a 16th century Vigenere Tableau. In the encoded text, 
+there are presumably 4 sections that have been designated 
+K1 through K4 and Morse code messages scattered within 
+the rock sculpture formations collectively known as K0. As 
+                                                               
+1 Many thanks to Elonka Dunin for her website links 
+2 http://www.thekryptosproject.com/ 
+3 https://elonka.com/kryptos/ 
+of July 15, 2019, K0, K1, K2, and K3 have been deciphered 
+but K4 remains an unsolved mystery. K4 is a 97 or 98 set of 
+alphabet 
+letters 
+that 
+has 
+an 
+extremely 
+difficult 
+cryptographic code. 
+That weekend, we buckled down to embark on an internet 
+research frenzy. We scoured through the internet to recap 
+on decades of knowledge poured into Kryptos1. After sifting 
+through potential cryptographic analysis and wild theories, 
+we decided to create a standardized logical approach to K4 
+using K0 through K3 as clues and identify Mr. Sanborn’s 
+original approach to encoding Kryptos. K0 to K3 were 
+examined through a set of conditions (see below in 
+materials and methods) and we attempted to integrate 
+these elements to propose a multi-step decryption of K4 
+supported by recorded comments from Mr. Sanborn and 
+Mr. Scheidt. 
+MATERIALS AND METHODS 
+Without the advent of broadband internet23, the research 
+would not be possible. Our weekend comprised of learning 
+all the K0 to K3 ciphers and building a set of rules to assess 
+the relevancy of Kryptos artistic elements. 
+Creating an inference model of K4 from K0 to K3  
+Upon reading of the official CIA story of Kryptos 4 , a 
+Statement of Principles had 4 key thoughts. Among the key 
+thoughts that stood out was: 
+“It should be worldly yet have identifiable American roots in concept, 
+materials, representation, and so forth.” 
+We postulated that if Kryptos was able to meet the CIA 
+Statement of Principles and Key Thoughts in its entirety, 
+then its individual components must also meet them. That 
+is, K0, K1, K2, K3, and K4 must also meet the Statement of 
+Principles and Key Thoughts to exist on Kryptos. 
+Furthermore, if K0-K3 could be modelled to extrapolate 
+and hypothesize a plausible solution to approaching K4.  
+ 
+ 
+4 https://www.cia.gov/about-cia/headquarters-
+tour/kryptos/?tab=list-1 
+
+[[page 2]]
+Page 2 of 6 
+C2 K4 Double‐Mask‐OTP Hypothesis (2019) 
+ 
+Our model was based on meeting all three conditions: 
+1. A known principally manual cryptography method 
+is employed AND 
+2. In the context of the CIA (and US Military), the 
+cryptography method and/or plaintext reference 
+was historically significant (i.e. occurred during 
+some era of conflict) AND 
+3. Have identifiable American roots (i.e. an American 
+created, developed, or utilized the cryptographic 
+method to help achieve an outcome) 
+If the three conditions are met, the manual cryptography 
+method would be used to determine the potential historical 
+era of cryptographic importance. We will refer to meeting 
+these three conditions as “ART” short for American 
+Relevance to crypTography. 
+From there we would also analyze the deciphered plaintext 
+found 
+to 
+K0-K3 
+and 
+identify potential patterns 
+and hints that would lead 
+to a logical progression of 
+K0 to K4. 
+The goal is to eliminate as 
+many 
+possible 
+non-
+relevant 
+cryptography 
+methods (ciphers) for K4 
+by using the “ART” conditions above. 
+Historical Era 
+The importance of a historical era in cryptography is that 
+the method of encryption used should represent the 
+appropriateness with respect to time. An example is that 
+WPA2 WiFi encryption would not be used in the 1800’s, but 
+invisible ink would be appropriate for the 1800’s.  
+Plaintext Hints and Original Intended Approach 
+On the assumption that Kryptos is a progressive puzzle 
+from K0 to at least K4, it is very likely that hints were 
+provided in the decrypted plaintext to provide possible 
+guidance for future encryption sections. While K0 through 
+K3 have already been decoded, it is possible that there will 
+be evidence left by the artist, Mr. Sanborn, to approach K4. 
+Evidence will likely be implied in relation to the historical 
+era and intentional mistakes as hints. The hint could refer 
+to the subsequent cipher(s), or provide a fragment of the 
+key to the cipher(s). With the hints in mind, it should lead 
+to the original intended approach to solving KRYPTOS. 
+One‐time Pad 
+The mechanics of one-time pad is an evolutionary step in 
+substitution ciphers that can shift each individual character 
+to any of the possible 26 A-Z letters. What differs from the 
+prior substitution methods is the special use of keys. 
+Firstly, the single use would make brute-force decryption 
+of multiple messages difficult. Secondly while the key can 
+be of any length, it would be most strongly encrypted if the 
+key is at least the length of the plaintext and of random 
+(unpredictable) text.  
+In order to utilize one-time pad, there are separate 
+encryption and decryption methods. First, each English 
+alphabet letter is assigned a number. A is assigned 0, B is 
+assigned 1, C is assigned 3 all the way to Z being assigned 
+25. 
+For the encryption step, the process would be: 
+1. Plaintext character converted to number 
+2. ADD number of shifts from key (can be letter 
+equivalent or number) 
+3. Divide by mod 26 
+4. Convert new character into equivalent letter 
+(ciphertext) 
+The mod 26 will account for the shift when the letter goes past Z 
+and will return to A, B, C, etc. 
+The decryption method would be the opposite: 
+1. Convert ciphertext into number 
+2. SUBTRACT number of shifts from key (can be letter 
+equivalent or number) 
+3. Divide by mod 26 
+4. Revert back to plaintext character 
+Review of Supplementary Information ‐ Dinner Notes & 
+Interviews 
+The supplementary information analyzed was too small to 
+discuss in great length, but provided additional information 
+that may be relevant to addressing the K4 problem. We 
+Known 
+Cryptographic 
+Method
+Historical 
+CIA 
+Significance
+Identifiable 
+American 
+roots
+
+[[page 3]]
+Page 3 of 6 
+C2 K4 Double‐Mask‐OTP Hypothesis (2019) 
+ 
+make the assumption that both Mr. Sanborn and Mr. 
+Scheidt are truthful people and always make truthful 
+statements. When ambiguous statements are made, it is 
+assumed that the statements are still true in the original 
+context. 
+K4 Ciphertext & K4 Clues 
+                                                           ?OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+ 
+For reference, it is important to also have the K4 ciphertext 
+available. In 2010 the clue was the 64th to 69th characters 
+NYPVTT decode to BERLIN and in 2014 the word after 
+BERLIN (decoded) is CLOCK (decoded). 
+RESULTS 
+K0 
+Manual 
+cryptography 
+method 
+International Morse per memo from Jim 
+Sanborn 
+CIA or USM 
+significance 
+Communication method used by Lincoln, 
+Ulysses S. Grant and Robert E. Lee to send 
+encrypted messages during Civil War 
+Radio telegraphy for World War I & II 
+Identifiable 
+American 
+roots 
+Samuel Finley Breese Morse was American and 
+the co-developer of American Morse code 
+(1836) for commercial use - the precursor to 
+International Morse 
+Meets 
+ART 
+criteria? 
+ 
+All three conditions are met. 
+Plaintext 
+e e V I R T U A L L Y e | e e e e e e I N V I S I B L E 
+D I G E T A L e e e | I N T E R P R E T A T I -? 
+e e S H A D O W e e | F O R C E S e e e e e 
+L U C I D e e e | M E M O R Y e 
+T I S Y O U R | P O S I T I O N (e)? 
+S O S 
+R Q 
+Noted 
+misspelling(s) 
+Digetal Interpretat 
+Possible 
+era 
+reference(s) 
+Civil War, World War I, World War II 
+ 
+K1 
+Manual 
+cryptography 
+method 
+Quagmire III (of IV)5 – a variation of Vigenere 
+Keys – KRYPTOS (cipher key), PALIMPSEST 
+(passphrase) 
+                                                               
+5 http://www.cryptogram.org/resource-area/cipher-types/ 
+6 http://www.cryptogram.org/resource-area/cipher-types/ 
+CIA or USM 
+significance 
+Plaintext (below) of subtle shading and absence 
+of light referring to “invisible ink” or the 
+“sympathetic stain” during the Revolutionary 
+War of the 18th century (stenography) 
+Identifiable 
+American 
+roots 
+Quagmire ciphers (four variants) are part of the 
+Cipher Exchange in the American Cryptogram 
+Association 
+Meets ART 
+criteria? 
+ 
+All three conditions are met. 
+Plaintext  
+Between subtle shading and the absence of 
+light lies the nuance of iqlusion. 
+Noted 
+misspelling(s) 
+Iqlusion (Illusion?) 
+Possible era 
+reference(s) 
+Revolutionary War (via plaintext) 
+ 
+K2 
+Manual 
+cryptography 
+method 
+Quagmire III (of IV)6 – a variation of Vigenere 
+Keys – KRYPTOS (cipher key), ABSCISSA 
+(passphrase) 
+CIA or USM 
+significance 
+Vigenere used by Confederates during 
+American Civil War that was generally 
+transmitted by Morse code, but would lead to 
+the demise due to error and spacings7. 
+Identifiable 
+American 
+roots 
+Quagmire ciphers (four variants) are part of the 
+Cipher Exchange in the American Cryptogram 
+Association (same as K1) 
+Meets ART 
+criteria? 
+ 
+All three conditions are met. 
+Plaintext  
+It was totally invisible Hows that possible? 
+They used the Earths magnetic field X 
+The information was gathered and transmitted 
+undergruund to an unknown location X 
+Does Langley know about this? 
+They should Its buried out there somewhere X 
+Who knows the exact location? 
+Only WW This was his last message X 
+Thirty eight degrees fifty seven minutes six 
+point five seconds north Seventy seven degrees 
+eight minutes forty four seconds west 
+ID by rows* 
+Noted 
+misspelling(s) 
+Undergruund and underground 
+Correction of K2 from ID BY ROWS to LAYER 
+TWO 
+Possible era 
+reference(s) 
+American Civil War, World War I 
+7 http://www.eiaonline.com/history/codecrackers.htm 
+
+[[page 4]]
+Page 4 of 6 
+C2 K4 Double‐Mask‐OTP Hypothesis (2019) 
+ 
+ 
+K3 
+Manual 
+cryptography 
+method 
+Double Columnar Transposition: transposition 
+by 42x8 matrix rotated 90 degrees CW, 
+transposed to 14x24 matrix and rotated 90 
+degrees CW 
+CIA or USM 
+significance 
+During the American Civil War, the Union 
+utilized a columnar transposition cipher in lieu 
+of the more sophisticated substitution ciphers.  
+Precursor to CIA, the SSO also utilized the 
+double transposition cipher. 
+Identifiable 
+American 
+roots 
+Usage of the cipher by Anson Stager, the co-
+founder of Western Union8 telegraph company9 
+in 1861 
+Meets 
+ART 
+criteria? 
+ 
+All three conditions are met. 
+Plaintext  
+SLOWLY DESPARATLY SLOWLY THE REMAINS 
+OF PASSAGE DEBRIS THAT ENCUMBERED THE 
+LOWER PART OF THE DOORWAY WAS 
+REMOVED WITH TREMBLING HANDS I MADE A 
+TINY BREACH IN THE UPPER LEFT HAND 
+CORNER AND THEN WIDENING THE HOLE A 
+LITTLE I INSERTED THE CANDLE AND PEERED 
+IN THE HOT AIR ESCAPING FROM THE 
+CHAMBER CAUSED THE FLAME TO FLICKER 
+BUT PRESENTLY DETAILS OF THE ROOM 
+WITHIN EMERGED FROM THE MIST X CAN YOU 
+SEE ANYTHING Q (?) 
+Noted 
+misspelling(s) 
+Desparatly 
+Possible 
+era 
+reference 
+American Civil War, World War II 
+ 
+ 
+ 
+                                                               
+8 Western Union money order is the choice of Jim Sanborn’s 
+verification method of K4 
+9 http://www.eiaonline.com/history/codecrackers.htm 
+
+[[page 5]]
+Page 5 of 6 
+C2 K4 Double‐Mask‐OTP Hypothesis (2019) 
+ 
+DISCUSSION & ANALYSIS 
+Based on the analysis from K0 to K3, there appears to be 
+overarching themes of cryptography through significant 
+periods of American historical conflict. The methods used 
+appear to have a correlation to its actual usage in history. 
+ 
+American 
+Revolution 
+American 
+Civil War 
+World War 
+I and/or II 
+Cold War 
+K0 
+
+
+
+
+K1 
+
+
+
+
+K2 
+
+
+
+
+K3 
+
+
+
+
+K4 
+ 
+ 
+ 
+? 
+ 
+What is missing from K0 through K3 are any themes or 
+references pertaining to the Cold War. While not absolutely 
+certain, there is a high possibility that K4 will be in the Cold 
+War era and have a cipher system relevant to the Cold War. 
+Two ciphers that would fit both Cold War usage and a high 
+degree of encryption would be one-time pad or VIC cipher. 
+Assessing both the one-time pad and VIC ciphers we have 
+the following characteristics. 
+ 
+OTP 
+VIC 
+Method 
+Individual numeric 
+encoding per 
+character on an 
+additive basis from 
+0-25 (A to Z) 
+A straddling 
+checkerboard for 
+letters, numbers, and 
+unique numeric 
+escape characters 
+(fillers)10 
+Ciphertext 
+display 
+English alphabetic 
+characters 
+Numeric 
+Origin 
+Frank Miller (USA) 
+in 1882 and re-
+invented in 1917 by 
+Gilbert Vernam and 
+Joseph Mauborgne 
+(mechanized OTP as 
+Vernam Cipher) 
+Soviet spy Reino 
+Hayahnen codename 
+“VICTOR” 
+ 
+While we do acknowledge the Vernam cipher, in our 
+opinion, it is just a digital evolution of the one-time pad and 
+could be better represented by a one-time pad for Kryptos. 
+Again, by applying the ART model, the VIC cipher is a 
+manual cryptography method, has Cold war significance, 
+but does not have identifiable in American roots. The one-
+                                                               
+10
+https://www.cia.gov/library/center-for-the-study-of-
+intelligence/kent-csi/vol5no4/html/v05i4a09p_0001.htm 
+time pad can be a manual cryptography method, has Cold 
+War relevance to CIA/USM, and has identifiable American 
+roots. 
+“BERLIN” & “CLOCK” Clues 
+Mr. Sanborn has been extremely generous to provide 
+several clues in 2010 and 2014 regarding K4. He indicated 
+to the New York Times that positions 64 to 69 and positions 
+70 to 74 spell BERLINCLOCK when decoded from NYPVTT 
+and MZFPK. Using a one-time pad, the key for positions 64 
+to 74 would be MUYKLGKORNA as a decode key. For 
+example, the N (value 13) would need 12 shifts backwards 
+(i.e. letter M) to reach the letter B. 
+While critics may discount the one-time pad method (due 
+to the absence of a key and the ability to create any 
+plaintext), what is crucial is the letter frequency of K4 in 
+terms of M and Y – there is one a single M and Y on the 97 
+K4 cipher text. Currently the M and Y on the cipher text are 
+on the 70th and 65th positions respectively and somehow 
+would have to shift to get into the 64th and 66th position 
+respectively. If this is the case, K4 would act both as the 
+ciphertext and public key in a one-time pad decryption. To 
+increase the level of difficulty, the K4 public key would 
+likely have to be rearranged. 
+Masking techniques 
+In our opinion, masking techniques differ from actual 
+cipher methods as deterrents to computational methods. 
+Since computers can theoretically brute force all possible 
+combinations, the masking techniques would likely remove 
+the increasing computing power advantage by adding non-
+linear human approaches. Assuming a public key on K4 is 
+used for the one-time pad cipher, there should be at least 
+two masks done.  
+One mask for the public key in terms of multiple 
+transpositions (matching the redundant technique in K1 
+and K2 substitutions and the double transposition of K3). 
+The second mask would be for the plaintext to mitigate 
+computational brute-force by (from a 2005 NPR interview 
+
+[[page 6]]
+Page 6 of 6 
+C2 K4 Double‐Mask‐OTP Hypothesis (2019) 
+ 
+with Ed Scheidt in which he eluded to the number four spelt 
+as P-H-O-A-R11.) using a phonetic masking technique.  
+ Therefor we propose a Double-Mask-OTP Hypothesis 
+approach, whereby: 
+ 
+K4 has been encrypted using one-time pad (OTP) 
+ 
+K4 is a public decryption key using OTP that is 
+masked through multiple transpositions in a non-
+linear way AND 
+ 
+The plaintext is masked phonetically to prevent 
+brute-force computational decryption 
+CONCLUSION 
+Our hypothesis is a simple, yet elegant approach to 
+decoding K4. It would allow for the maximum amount of 
+flexibility and creativity for Jim Sanborn to create K4. Ed 
+Scheidt may be aware of the plaintext, but would not know 
+the exact steps that Mr. Sanborn has used due to the natural 
+of non-linear transpositions of the hypothesized K4 public 
+key. 
+In a sense, art is very much akin to cryptography. The artist 
+has an intent (plaintext) that is encoded through some 
+medium (ciphertext). Individuals have to decode the 
+artwork through various materials and methods (key) to 
+recreate the meaning of the art piece (plaintext) and 
+potentially some sort of esoteric enlightenment. Jim 
+Sanborn’s Kryptos should truly be considered an artistic 
+masterpiece.
+                                                               
+11 http://kryptools.com/hints.hm 
+ 
+Edit – July 22, 2019 – As of July 21, 2019 we believe we have 
+decoded K4 using our proposed C2 Double‐Mask OTP 
+Hypothesis. Details will follow. Special thanks to Elonka 
+Dunin for her Great Big Story, the Yahoo! Kryptos group, 
+and everyone else involved in detailing the accounts of 
+Kryptos. At this time of writing, Jew-Lee’s Kryptos project 
+appears to be offline, possibly due to increased network 
+traffic. 

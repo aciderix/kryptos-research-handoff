@@ -1,0 +1,41 @@
+[[page 1]]
+ABSCISSA Was The Clue For K3
+D. K. Sander
+dsander17@gmail.com
+May 2, 2023
+I believe the kryptos alphabet and table on the sculpture was the clue for K1, and the key for K1
+was the clue for K2, and the key for K2 was the clue for K3. I will explain the clue for K3.
+A cryptanalyst looking at the bottom section of Kryptos for the first time would find that the index
+of coincidence (IoC) of the first 336 characters matches the English language. They would
+assume a transposition cipher was used, and start looking for clues for the method or route. K2
+provided the clue ABSCISSA.
+ab·​scis·​sa
+1.
+the horizontal or x-coordinate of a point in a two-dimensional system of Cartesian
+coordinates
+The clue is straight forward, abscissa is an x-coordinate or horizontal value. The clue is similar
+to a commencement word or blind word like ones used in a Union Route Cipher or Stager
+Cipher. They often signify the dimensions of a matrix and or a route to follow. They
+communicate a route or value in different ways, either by a predefined list of words and routes,
+or by the number of characters the word has. In this case abscissa has 8 characters. This
+indicates the value of X is 8. This value seems to be the horizontal step of a skip cipher, which
+would also be like the diameter of the rod in a scytale cipher.
+
+[[page 2]]
+Let’s assume we haven’t solved K3 yet. A cryptanalyst armed with the magic number 8 and an
+assumption that a skip cipher was used would want to place the ciphertext into a matrix where
+either the width or height is divisible by 8. This will cause cells with an index divisible by 8 to
+align into columns and potentially make a message appear.
+Since the ciphertext is an even 336 characters it should completely fill a matrix, without empty
+cells, as long as the product of the width and height is 336. The ciphertext for K3 is in a 31x11
+matrix on the sculpture which equals 341 cells. That is 5 cells too large. The next size down that
+fits the ciphertext, where the product of the width and height is 336, and has either a width or
+height divisible by 8, is 24x14. See below.
+Now all the cells with an index divisible by 8 on the X axis are aligned into columns and
+highlighted in gray. This helps count by 8. But as you see above, reading every 8th character left
+to right outputs OOIAUL which is meaningless. At this point we would look to see if the matrix
+was rotated by checking 8ths on the Y axis too. On the right side, counting every 8th character
+downwards reads SLOWLY. There we have the solution! It is clear that the matrix is rotated 90
+degrees clockwise. We can confirm by rotating counterclockwise (as shown on page 1) and
+placing it into a matrix with a width divisible by 8 (as shown below).
+This proves that K3 is a once rotated skip cipher of value 8 and ABSCISSA was the key.

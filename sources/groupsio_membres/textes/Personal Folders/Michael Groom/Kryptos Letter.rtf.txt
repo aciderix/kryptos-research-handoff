@@ -1,0 +1,50 @@
+Times New Roman;Arial;;;Normal;
+Kryptos group: Here are some coincidental findings which may have importance.
+
+
+
+If you lay-out K3 and K4 in the DRYAD authentication table, PRNG is in the same postition. 
+
+
+
+ ABCDEFGHJKLMNPQRSTUVWXYZ
+
+ 0 1 23 456 789
+
+
+
+
+
+CTJKLUDIAWINFB NYPVTTMZFPKW
+
+
+
+ABCDEFGHJKLMNPQRSTUVWXYZ
+
+ 0 1 23 456 789
+
+
+
+
+
+CHSNOSMRWXMNETPRNGATIHNRAR
+
+
+
+
+
+
+
+In separating the vowels, in order, from K3 I have found only one 6 letter sequence; it may be a coincidence but this same 6-letter sequence is the one (out of a possible 25) that was used to decipher the Purple Code.  I have only an antiquated 386 computer and cannot extract the Purple Code simulator, but I encourage others to do so. The Purple code was the Japanese code de-ciphered by the famous William Friedman and is considered to be more difficult than the famed Enigma. It consists of vowel switches (6 switches) and consonent switches (20 switches) each which can be set to slow, medium or fast. My information is from PurpledRevealed.PDF .Purpled Revealed: Simulation and Computer Aided Cryptanalysis of Angooki Taipu B, by Wes Freeman, Geoff Sullivan, and Frode Weierud: Weierud is at the CERN.
+
+
+
+If you read through PurpleRevealed to the end you will find this 6 letter code: 312645  (1=A, 2=E, etc.), or  IAEYUO.
+
+Switch Motion 321, sixes switch set to 13 and twenties switches set to 25, 23 and 12
+
+Twenties alphabet: XPILRQFYECZVNOUDBKGTWSHAMJ.  There conclusion involves "hill climbing" for the best statistical outcome. Read the reference for more.  It may be a coincidence, but K3 having only one 6-letter sequence and it being the same one (out of a possible 25) as required for the solution for Purple, makes one go "Ummm'.
+
+
+
+

@@ -1,0 +1,524 @@
+[[page 1]]
+Dear fellow code breakers. October 31st 2025 seems a wonderful day to release an 
+enigma on the world, and we are in a race against time. I can’t do it alone. 
+Skip to Page 4 if you do not need a history lesson – but you will need history to solve K4. 
+While I cannot reveal any partial plaintext solutions for fear of reprisal from the creator of 
+Kryptos itself (history proves itself) I will release to you the process by which to begin 
+decrypting K4, which I discovered as originally intended. Not through use of a computer, 
+nor through artificial intelligence, but by picking up a book and reading it in a library (…then 
+on 
+a 
+computer…) 
+As 
+Sanborn 
+intended, 
+all 
+the 
+way 
+back 
+in 
+1990. 
+ 
+Skip to the last page, should you be filled with doubt at the outset. 
+KRYTPOS CIPHER TEXT ON FOUR PANELS (Wikipedia). 
+ 
+Morse code inscription on site of CIA installation (Wikipedia) 
+Translations of Morse code (K0) on copper slabs when read facing south, on the grounds of the CIA headquarters. 
+E E VIRTUALLY E | E E E E E E INVISIBLE              DIGETAL E E E | INTERPRETATIT     E E SHADOW E E | FORCES E E E E E  
+LUCID E E E | MEMORY E                                             T IS YOUR | POSITION E                                  SOS  
+Cipher Method: Vigenère 
+Keyword: cipher alphabet 
+KRYPTOSABCDEFGHIJLMNQUVWXZ 
+and cipher key PALIMPSEST 
+Plaintext Solution: 
+BETWEEN SUBTLE SHADING 
+AND THE ABSENCE OF LIGHT 
+LIES THE NUANCE OF IQLUSION 
+Code breaker’s note: 
+PALIMPSEST: a manuscript or piece 
+of writing material on which the 
+original writing has been effaced to 
+make room for later writing but of 
+which traces remain. Something 
+reused, altered but still bearing 
+visible traces of its earlier form. 
+Kryptos K4: The Wonderful Painted Chest & Carter’s Magnificent Robe 
+
+[[page 2]]
+Plaintext Solutions from Section 1, 2 and 3 of the FOUR KRYPTOS PANELS (Wikipedia). 
+ 
+ 
+ 
+ 
+ 
+ 
+Cipher Method: Vigenère 
+Cipher alphabet 
+KRYPTOSABCDEFGHIJLMNQUVWXZ 
+and cipher key ABSCISSA 
+Plaintext Solution: 
+BETWEEN SUBTLE SHADING 
+AND THE ABSENCE OF LIGHT 
+LIES THE NUANCE OF IQLUSION 
+Code breaker’s note: 
+ABSCISSA: the horizontal x-axis of a 
+two-dimensional graph, which, 
+along with the y-coordinate, 
+precisely defines the location of a 
+point on a plan. 
+Cipher Method: Transposition 
+Cipher key: 0362514 (KRYPTOS) 
+Plaintext Solution: 
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT 
+ENCUMBERED THE LOWER PART OF THE DOORWAY WAS REMOVED WITH 
+TREMBLING HANDS I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER AND 
+THEN WIDENING THE HOLE A LITTLE I INSERTED THE CANDLE AND PEERED IN THE 
+HOT AIR ESCAPING FROM THE CHAMBER CAUSED THE FLAME TO FLICKER BUT 
+PRESENTLY DETAILS OF THE ROOM WITHIN EMERGED FROM THE MIST X CAN YOU 
+SEE ANYTHING Q ? 
+
+[[page 3]]
+LIBRARY SCIENCE & OSINT DISCOVERY – JUNE 27 2025 
+ 
+ 
+Code breaker’s introduction: 
+For the Kryptos community, this is where we move 
+away from an area of highly studied content, to an 
+area that, in 35 years, no one has studied or 
+documented. 
+This is Jim Sanborn, the artist, coming out, showing 
+his love for the discovery of the Tomb and the 
+treasures inside and marrying it with a cipher. 
+The photographs at left refer to The Tomb of Tut-
+Ankh-Amen, as documented and discovered by the 
+Late Earl of Carnarvon and Howard Carter. 
+This document has rarely been OCR’d correctly, and 
+to date no code breaker has given this manuscript a 
+top to bottom read and found the correct sections, 
+approximately 100 pages later (more if you include 
+the annexes of photographic record). Since 2010, this 
+document has shown up on Archive.org, but has 
+been very poorly OCR’d. Here are searchable 
+references on Archive.org I and Archive.org II 
+You will find this studied on the next page, but 
+before you continue I must explain that an approach 
+has been applied to discern a significant portion of 
+the K4 plaintext using a novel method described 
+herein, which is not difficult to replicate –especially 
+not for my friends in Kryptos circles. 
+Instead of seeking fame or interfering with the 
+auction of the K4 plaintext coming next month, I am 
+instead sharing this critical decipherment process so 
+that the Kryptos community, and the thousands of 
+codebreakers that have looked at Kryptos since 1990, 
+can appreciate the artistry Sanborn was aiming for. 
+Sanborn installed Kryptos at a time when he 
+expected sleuths to visit a library, pick up a book, 
+and read it for clues. That’s why all previous 
+attempts at this deciphering this passage have 
+failed.  
+Prepare yourself, then get to work! For you are about 
+to see wonderful things! 
+It’s been waiting for us all along, but we were 
+looking so hard at this passage we forgot to explore 
+exactly what happens inside the tomb. 
+
+[[page 4]]
+ 
+ 
+ 
+Code breaker’s note: Let’s go. We begin exactly seventy pages later 
+in this specific version of Howard Carter’s account of the opening of 
+the Tomb of Tutankhamen (first volume of three, first edition, 
+reprinted 2010, OCR’d 2017, OCR re-map 2019). 
+At this point, Carter has explored the first portions of the tomb and 
+certain artifacts are being brought back for study. 
+I will use two styles of inserting helpful guidance to you. 
+- 
+Direct [GREEN] Code breaker’s notes  
+- 
+Indirect [ORANGE] in-line assistance 
+Page 163:…it became increasingly difficult to keep track of the work, 
+and it was only by close attention to detail [hint from Sanborn], and 
+strict adherence to a very definite order of procedure [follow these 
+steps that will be revealed to a “T”], that we managed to keep clear of 
+complications.….Each of the primary objects had been given its own 
+registration number in the tomb, but … an elaborate system of sub-
+numbering became necessary. [You must address the subsystem]. 
+Page 164: …A box, for instance, might contain fifty objects, any one of 
+which must be clearly identifiable at all times, and these we 
+distinguished by letters of the alphabet, or, where necessary, by a 
+combination of letters [a literal nod from Sanborn that we have now 
+arrived where he intended]…Not infrequently it happened that the 
+component parts of a single object, scattered in the tomb, were 
+entered under two or more numbers, and in this case cross-references 
+in the notes were necessary. [Throughout Carter’s account, various 
+photographic evidence will be important to come back to]. 
+So much for our system of work. [Sanborn’s ciphersystem for K4] Let 
+us turn now to the individual treatment of a selected number of the 
+antiquities [the decipherment process that is about to be described].  
+The first that required treatment in the laboratory was the wonderful 
+painted casket (No. 21 in our register)…[a final nod that we’re on the 
+right track.] 
+Code breaker’s note: I must spoil some surprise now loyal readers 
+and fellow cryptographers, Kryptos is in fact the “wonderful painted 
+casket” and antiquity number 21 in Carter’s register is in fact K4, 
+which Carter calls the magnificent robe. 
+Sanborn was pointing to it all along. K3 ends with the question: Can 
+you see anything? The answer Carter gave in his account of the tomb 
+was: “Yes, wonderful things.” Although the word wonderful appears 
+elsewhere in the approximate 230-page manuscript, there is only one 
+place you need to concentrate on for solving K4 at this time – and 
+it’s not when Carter answers that question a third of the way through 
+his account, but when he describes the wonderful painted casket 
+and what he found inside – a literal palimpsest of treasures. 
+ 
+
+[[page 5]]
+ 
+ 
+ 
+Code breaker’s note: In order to appreciate what you’re about to see and learn, take the time to study this box and the 
+below images closely. There are lovely, high definition current photographs online of the original items, as well as the 
+critical reconstruction of the mysterious robe.  
+Carter photographed four stages of opening the “wonderful painted casket” [aka Kryptos itself, as a whole]. Inside, 
+there was a great deal of individual treasures – only one of which is important to you right now –the magnificent robe. 
+The images themselves were photographed and labelled A, B, C, D, literally showing the stages of unpacking the 
+“wonderful painted casket” aka Kryptos. It is a direct echo of K1, K2, K3, and K4, which I will describe next. 
+Section K1
+Section K2
+Section K3
+Section K4, and what remains below: K5/K0
+
+[[page 6]]
+ 
+ 
+ 
+Page 165: Drastic measures were necessary…Courage was 
+needed to take the step, but we were thoroughly justified by 
+the result…We used this process later on a number of other 
+objects of wood and gesso 
+So much for the outside of the casket. [Kryptos as a whole]. 
+Now let us remove the lid and see what the inside has in 
+store for us. This is an exciting moment, for there are 
+beautiful things everywhere…there is nothing to forewarn 
+one as to what the contents of any individual box [or cipher 
+within] may be. 
+In this particular case, by reference to the four views on 
+Plates XXXIV and XXXV, the reader can himself follow the 
+successive stages in the clearing [the process of going 
+through K1 through K4, and it will give him some idea of the 
+difficulty of handling the material [K5] if I explain that it took 
+me three weeks of hard work to get to the bottom of the box 
+[K5 again; Kryptos as a whole]. 
+Code breaker’s notes: 
+- 
+“beautiful things everywhere” is harkening back to 
+Carter’s “Wonderful things statement,” this is a 
+Sanborn clue. 
+- 
+The “four views” refers to the photographed stages 
+of uncovering on the previous page, which when 
+combined will grant you access to successive stages 
+of the Kryptos solution, and what sits on the bottom 
+of the buried contents. 
+Take a deep breath now! We’re uncovering the secret just 
+like Carter did, just like Sanborn intended with Kryptos. 
+
+[[page 7]]
+ 
+ 
+ 
+Page 167: The first photograph was taken immediately after the lid had 
+been removed, and before anything was touched.  
+Layers of the palimpsest: 
+1. On the right there is a pair of rush and papyrus sandals, in perfect 
+condition [K1: palimpsest; the sandals were not in perfect 
+condition, but were reconstructed back in the lab]. 
+2. below them, just showing, gilt head-rest [K2: just showing, and 
+discernable as vignere] 
+3. lower again, a confused mass of cloth, leather, and gold, of which 
+we can make nothing as yet. [K3: columnar transposition merely 
+reveals the plaintext of K3, but this plaintext alone is not enough on 
+its own to decipher K4] 
+4. On the left, crumpled into a bundle, there is a magnificent royal 
+robe, and in the upper corner there are roughly shaped beads of 
+dark resin. [K4] 
+Code breaker’s notes: K4 has finally been found in the wonderful painted 
+chest. The magnificent royal robe. 
+Page 167: The robe it was that presented us with our first problem, a 
+problem that was constantly to recur—how best to handle cloth that 
+crumbled at the touch [palimpsest], and yet was covered with elaborate 
+and heavy decoration [letters]. In this particular case the whole surface of 
+the robe [K4] is covered with a network of faience beads [cipher component 
+a], with a gold sequin [cipher component b] filling in every alternate square 
+in the net. [process key i]. These—beads and sequins—had originally been 
+sewn to the cloth [K4], but are now loose [and jumbled up; the ciphertext]. 
+A great many of them are upside down [process key ii]…At the borders of 
+the robe—they are underneath, and do not show in the photograph 
+[process key iii]—there are bands of tiny glass beads of various colours, 
+arranged in patterns [process key iv]. The upper layer of cloth was very 
+deceptive in appearance. It looked reasonably solid, but if one tried to lift it, 
+it fell to pieces in one’s hand. 
+Code breaker’s notes: Sanborn is literally using Carter’s account to describe 
+Kryptos as a whole and the K4 process here. 
+Page 167: Below, where it had been in contact with other things, the 
+condition was much worse [part of K4 continues beyond the end of the 
+ciphertext; the bottom of the sculpture touching the ground has something 
+buried below it and hidden]. This question of cloth and its treatment was 
+enormously complicated for us in the present tomb [we must now move 
+away from K3 into K4]. Had it been spread out flat, or neatly folded, it 
+would have been a comparatively simple matter to deal with it. 
+Code breaker’s notes: I hope I have your attention now. Sanborn was 
+talking directly to us through Carter’s words for 35 years – we missed it. 
+
+[[page 8]]
+ 
+ 
+ 
+Page 168: we should…have had an easier task if it had been 
+allowed to remain strewn about the floor of the chamber [hint: it 
+must be laid flat, there is also later mention of a gilded necklace 
+laid flat and photographed]…Nothing could have been worse for 
+our purposes than the treatment it had undergone in the tidying-
+up process… the various garments had been crushed, bundled 
+and interfolded, and packed tightly into boxes with a mixture of 
+other and, in some cases, most incongruous objects. 
+Code breaker’s note: This entire description is reference to the 
+keyword palimpsest from K1, but also an upcoming clue with a 
+gilded necklace. 
+Page 168: In the case of this present robe it would have been 
+perfectly simple to solidify the whole of the upper layer and 
+remove it in one piece, but this was a process to which there 
+were serious objections.  
+Code breaker’s note: the first half of this description refers to K1 
+and K2 being encrypted with the vignère keyword. The ‘serious 
+objections’ are the varying cipher methods at play, and now we 
+are moving into K5 territory for later, being unable to completely 
+remove K1 and K2 from the equation after solving K3 and K4. 
+Page 168: It involved, firstly, a certain amount of danger to 
+whatever might lie beneath, for in the unpacking of these boxes 
+we had to be continually on our guard lest, in our enthusiasm 
+over the treatment or removal of an object, we might inflict 
+damage on a still more valuable one which lay under it [the 
+bottommost, fourth documented object is the magnificent robe, 
+below it rests K5/K0]. 
+Page 168: Then, again, if we made the upper part of the robe 
+solid, we should seriously have reduced the chances of extracting 
+evidence as to size and shape, to say nothing of the details of 
+ornamentation. 
+Code breaker’s note: The ah-ha moment is below. 
+Page 168: In dealing with all these robes there were two 
+alternatives before us. Something had to be sacrificed, and we 
+had to make up our minds whether it should be the cloth or the 
+decoration  [process key v & vi]. It would have been quite 
+possible, by the use of preservatives, to secure large pieces of the 
+cloth, but, in the process, we should inevitably have disarranged 
+and damaged the bead ornamentation that lay below [process 
+key v]. On the other hand, by sacrificing the cloth, picking it 
+carefully away piece by piece [process key v]. 
+
+[[page 9]]
+ 
+ 
+ 
+Page 169: we could recover, as a rule, the whole scheme of 
+decoration  [the encryption method]  This was the plan we usually 
+adopted. Later, in the museum, it will be possible to make a new 
+garment of the exact size [the code breaker must organize and 
+replicate the entire ciphertext], to which the original ornamentation 
+[encoding]—bead-work beads [cipher component a], gold sequins 
+beads [cipher component b], or whatever it may be [pearls; cipher 
+component a]—can be applied.  
+Code breaker’s note: we are now moving into the rules for K4 
+decipherment and describing the remaking of the magnificent robe 
+via pen and paper – it’s exact size, original ornamentation, and 
+placement of its beads, gold sequins. 
+Page 169: Restorations of this kind will be far more useful, and have 
+a much greater archaeological value, than a few irregularly shaped 
+pieces of preserved cloth and a collection of loose beads and sequins 
+[all four sections, once recreated, will be used to decipher the 
+installation, K1 through K0 as keys]. 
+Code breaker’s note: Here it comes. I will insert words in square 
+brackets to help you along. 
+Page 169: The size of the robe [K4 cipher] from this [wonderful 
+Kryptos] casket can be worked out with reasonable accuracy from 
+the ornamentation [cipher components]. At the lower hem [of 
+Kryptos, where K4 starts] there was a band [note the double 
+meaning of the word ‘was’, it’s past tense, the robe has fallen into 
+decay – it was there, but it also marks cipher key a locations; note 
+the beginning of K4] composed of tiny beads [cipher key a; 
+alphabetical letters] arranged in a pattern, a pattern of which we 
+were able to secure the exact details [note the word secure, it 
+means encrypt, it means to hide the exact plaintext, but also 
+obtain]. From this band [K4] there hung, at equal intervals, a series 
+of bead strings [cipher component a] with a large pendant at the 
+end of each string [cipher component c, the recurring letters]. 
+Code breaker’s note: large pendants are BB, SS, SS, ZZ,TT and RR; a 
+second letter added to the end–I used RR–for a clean divisible of 98. 
+Page 169: We can thus calculate the circumference of the hem 
+[Kryptos, K4 wrapped in a cylinder shape, process key vii] by 
+multiplying the space between the strings by the number of 
+pendants [cipher component iii]. That gives us the width of the 
+robe [Kryptos, K4]. Now we can calculate the total area [process 
+key viii] of decoration from the number of gold sequins employed 
+[cipher component ii], and, if we divide this total area by our known 
+circumference at the bottom, we shall arrive at a fairly accurate 
+approximation of the height [K4, then K5]. This naturally 
+presupposes that our robe [Kryptos] is the same width throughout, a 
+method of cutting borne out by a number of undecorated garments 
+of which we were able to secure the exact measurements [cipher 
+method]. 
+Code breaker’s note:
+The words “a method of cutting borne” refers that 
+other Egyptian robes were cut in the fashion of 
+cylinders, not cut to the shape of the body/wearer 
+itself. A tube, in all senses of the word, top to 
+bottom, with sleeves for arms, exactly like Kryptos. 
+There is double meaning here as well for the 
+decipherment. This entire page is what you need to 
+begin solving K4 and the rest. It is the exact process 
+that CIA employee Edward Scheidt took and 
+masterfully crafted into the first half of K4’s cipher. 
+
+[[page 10]]
+ 
+ 
+ 
+Code breaker’s note: So you can sleep at night (or not) here are 
+some final passages for your sanity, that you are walking down 
+the correct path. You’re now following the footsteps of those 
+who came before, and you will discover something incredible. 
+Page 170: First of all we removed the rush sandals, which were in 
+beautifully firm condition, and presented no difficulties [Sanborn 
+indicate K1 would be the fastest and easiest to solve, but in fact the 
+sandals were falling apart and palimpsest refers]. Next came the 
+gilt head-rest [K2, following closely, there is also a photograph 
+later], and then, very carefully, we removed the robe. [still some 
+double meaning with K3; harder, but possible; a different method 
+of encrypting from vignere].One large portion of its upper surface 
+[K1, K2, K3] we managed to take out whole by the aid of a celluloid 
+solution, and short lengths of the band decorations of small beads 
+[K4; cipher component a]  we preserved in wax for future reference. 
+The third photograph [where we first observed the magnificent 
+robe as a confused mass of cloth, gold, beads and pearls] shows 
+what we may call the second layer of the casket’s contents 
+[Kryptos’ contents; the second layer; K3 and K4]. 
+Code breaker’s note: full stop. We’re now examining the ‘second 
+layer,’ which Sanborn had to clarify did not mean IDBYROWS. In 
+2005, a fellow Canadian codebreaker, Nicole Friedrich, determined 
+the correct plaintext capping off K2 was "XLAYERTWO", as 
+confirmed by Sanborn a year later. Sanborn omitted an S in the 
+ciphertext (an X in the plaintext), and he confirmed that the last 
+passage of the plaintext was "WESTXLAYERTWO", and not 
+"WESTIDBYROWS". Focus on this, when adding the extra 98th 
+character for diving K4 as you know understand it. Using R helps. 
+Page 170: Here, to begin with, were three pairs of sandals, or 
+rather, to be accurate, two pairs of sandals and a pair of loose 
+slippers. These were of leather, elaborately decorated with gold, 
+and of wonderful workmanship (two of them are shown on Plate 
+XXXVI). Unfortunately, their condition left much to be desired. They 
+had suffered from their packing in the first place, but, worse than 
+that, some of the leather had melted and run, gluing the sandals 
+together and fastening them to other objects, making their 
+extraction from the box a matter of extreme difficulty. So much of 
+the leather had perished that the question of restoration became a 
+serious problem. We secured the gold ornamentation that still 
+remained in place with a solution of Canada balsam, and 
+strengthened them generally as far as we could, but eventually it 
+will probably be better to make new sandals and apply the old 
+decoration to them. [This is a literal description of creating new on 
+top of old: a palimpsest. Don’t forget this later]. 
+Page 170: Beneath the sandals there was a mass of 
+decayed cloth, much of it of the consistency of soot 
+[virtually invisible, we may be approaching K5/K0 and 
+what rests below the decayed robe], thickly spangled 
+throughout with rosettes and sequins of gold and 
+silver. This, sad to relate, represents a number of 
+royal robes [Another nod from Sanborn; ciphers and 
+art lost to time – unlike Kryptos, which can be solved]. 
+Page 170-171: The difficulty of trying to extract any intelligible record from it can be imagined, but a certain amount of 
+assistance was given by the differences in the sizes and shapes of the sequins [cipher component b]. 
+ 
+ 
+ 
+ 
+ 
+palimpsest
+
+[[page 11]]
+  
+ 
+ 
+Page 171: There were at least seven distinct garments. One…in cloth (see 
+last photograph of the series, Plate XXXV, d); while two of the others were 
+… shown in Plate LXXVIII. Bundled in with the actual garments there were 
+a number of other objects—two faience collarettes of beads and pendants, 
+two caps or bags of tiny bead-work which had almost entirely fallen to 
+pieces, a wooden tag inscribed in hieratic “ Papyrus (?) [another nod to 
+palimpsest, with the ? as well] sandals of His Majesty,” a glove of plain 
+linen, an archer’s gauntlet, tapestry woven in coloured thread, a double 
+necklace of large flat faience beads (see Plate XXXV, d), and a number of 
+linen belts or scarves.  
+Below the garments there was a layer of rolls and pads of cloth...and 
+below…resting on the bottom of the box…there were two boards, 
+perforated at one end for hanging, whose purpose is still doubtful 
+[Kryptos Panel I and Panel II; left and right; likely a nod to K5 and K0].  
+Code breaker’s note: K0, may in fact, be the tool you require at the end. A 
+lodestone and morse code to break K5. The two boards whose purpose is 
+still doubtful is the Kryptos statue itself, both panels. 
+Code breaker’s note: this is where my job ends, and yours begins. You 
+have approximately one month to use all of this information to arrive at 
+the same conclusions I have. Solve K4, then go further than and attack 
+Kryptos with everything you’ve learned. 
+Good luck! 
+Final clue: 
+Page 172: Another interesting piece of evidence in this connexion 
+[interesting archaic spelling in early-1900s, much like Kryptos misspellings 
+in late 80s] is supplied by the fact that on the lid of one of the other boxes 
+there is a docket which reads, “ The King’s side-lock (?) as a boy.” The 
+question raises an interesting historical point, and we shall be eager to 
+see, when the time comes, the evidence of age that the mummy will 
+supply. One other point with regard to the robes found in this and other 
+boxes. Many of them are decorated with patterns in coloured linen 
+threads. Some of these are examples of tapestry weaving, similar to the 
+fragments found in the tomb of Thothmes IV,1 but there were also 
+undoubted cases of applied needlework. The material from this tomb will 
+be of extreme importance to the history of textile art, and it needs very 
+careful study.  
+We shall not have space here to describe the unpacking of the other boxes 
+[because, they’re irrelevant to Kryptos], but all were in the same jumbled 
+state, and all had the same queer mixture of incongruous objects. Many of 
+them contained from fifty to sixty individual pieces, each requiring its own 
+registration card, and there was never any lack of excitement in the 
+unpacking, for you never knew when you might not happen upon a 
+magnificent gold scarab, a statuette, or a beautiful piece of jewellery.  
+It was slow work, naturally, for hours at a time had to be spent working 
+out with brush and bellows [pen and paper] the exact order and 
+arrangement of collar, necklace, or gold decoration, covered, as they 
+ordinarily were, with the dust of decayed cloth [the cipher; plaintext]. 
+
+[[page 12]]
+Code Breaker’s Clues – Annex I 
+ 
+ 
+ 
+ 
+
+[[page 13]]
+Code Breaker’s Clues – Annex II 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 14]]
+Should you still be filled with doubt, start here, at the end, then go to the beginning. 
+Kryptos is the painted casket. Inside, through layers of decayed treasure, there is a 
+magnificent robe (K4) and that which rests below it (K5, K0). 
+ 

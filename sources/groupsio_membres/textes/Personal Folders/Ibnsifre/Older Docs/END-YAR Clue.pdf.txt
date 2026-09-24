@@ -1,0 +1,49 @@
+[[page 1]]
+What I think END - YAR means.
+I think it's a clue on how to apply a mask for an OTP.  YAR 
+backwards is RAY, as in an electromagnetic transverse wave.  The 
+END means that column 1 is the end, or that you should apply this 
+pattern, 3 across then 4 up, to start the wave at the other end, 
+column 48.  Obviously the H gets in the way here - but I think 
+that it must be excused.  And since RAY is spelled right to left 
+you should apply the OTP and mask right to left.
+If you take K3 when it is laid out in rows of 48, and then 
+rearrange it into a wave you get the following.*
+  123456789012345678901234567890123456789012345678
+1 E    HROH    HEOC    IBID    AIAC    EYUL    SLL
+2 N    OSMR    ETPR    IHNR    SLNN    LPII    WMT
+3 W    EENR    ENEU    NHAE    OLSE    ENHA    TEY
+4 Q    CTAY    FTBR    HHEW    AMAT    ERLB    OAS
+5 FOHSNETUAWXMNARMANGATNRTIARPEDNIAELEBMSTEACAEROA
+6 GNDITFEBAAHCTDHILDRETSITEOETFOSDDDTIWORITEIOYLEH
+7 AHEENARDPCREIMGFMSPAMEECDENATFEIMEGYESSTTTEEFOHW
+1     IOTU    EOTO    EERT    BSED    AHTT    WPIE
+2     RIEW    ECTD    CEIH    GOEA    RYDL    RKLM
+3     GTDH    NEOH    FEUH    MRIP    EHNL    RTVD
+4     NDYA    NLSR    PTEO    YSHN    HTNR    DSLL
+* Why not an EM wave!  Jim Sanborn is a visual artist:
+http://www.wired.com/techbiz/media/news/2005/01/66333?
+currentPage=all
+In columns 42 to to 47 of row 6 we get our EIOYLE, Which applying 
+the ciphertext NYVPTT from right to left for an OTP solution 
+yields BERLIN.
+Lets put K3 in the other phase:
+  123456789012345678901234567890123456789012345678
+4  NDYA    NLSR    PTEO    YSHN    HTNR    DSLL
+5  OHSN    WXMN    NGAT    ARPE    ELEB    ACAE
+6  NDIT    AHCT    DRET    OETF    DTIW    EIOY
+7  HEEN    CREI    SPAM    ENAT    EGYE    TEEF
+1 EIOTUHROHEOTOHEOCEERTIBIDBSEDAIACAHTTEYULWPIESLL
+2 NRIEWOSMRECTDETPRCEIHIHNRGOEASLNNRYDLLPIIRKLMWMT
+3 WGTDHEENRNEOHENEUFEUHNHAEMRIPOLSEEHNLENHARTVDTEY
+4 Q    CTAY    FTBR    HHEW    AMAT    ERLB    OAS
+5 F    ETUA    ARMA    NRTI    DNIA    MSTE    ROA
+6 G    FEBA    DHIL    SITE    OSDD    ORIT    LEH
+7 A    ARDP    MGFM    EECD    FEIM    SSTT    OHW
+If you look in column 1 toward the end - we get, looking at columns 
+26 to 48, we get the following:
+BSEDAIACAHTTEYULWPIESLL
+Notice the last 8 columns: L-WPIES-LL 
+Or L-SPIES-LL, spies surrounded by L's.
+After that start; I think that the first part of K4, 
+OBKRUOXOGHULBSO..., goes with the UYET...

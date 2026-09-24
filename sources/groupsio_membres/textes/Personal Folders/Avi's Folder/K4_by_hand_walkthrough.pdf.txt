@@ -1,0 +1,261 @@
+[[page 1]]
+K4 Solution - By Hand Walkthrough
+A Pencil-and-Paper Guide to Verifying the K4 Plaintext
+Kryptos Forum Community
+September 2025
+This guide shows how to verify the K4 solution using only pencil and
+paper.
+No computers or programming knowledge required.
+
+[[page 2]]
+1. Introduction
+This walkthrough demonstrates how to decrypt K4 using only: • The 97-character K4
+ciphertext • Four known plaintext segments (cribs) • Basic modular arithmetic (mod 26) •
+Pencil and paper
+The method uses a polyalphabetic cipher system with: • Six cipher classes determined by
+position • Three cipher families (Vigenère, Beaufort, Variant-Beaufort) • Periodic key wheels
+with period 17
+What You'll Learn:
+1. How the classing function assigns each position to a cipher class
+2. How cribs force specific key values
+3. How forced values propagate through the periodic structure
+4. How to decrypt any position once you have the key wheels
+
+[[page 3]]
+2. The K4 Ciphertext
+The 97-character K4 ciphertext, arranged in a 7×14 grid (minus 1):
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+O
+T
+W
+T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+W
+A
+T
+J
+K
+L
+U
+D
+I
+A
+W
+I
+N
+F
+B
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+W
+G
+D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U
+H
+U
+A
+U
+E
+K
+C
+A
+R
+Linear indices 0-96 (reading left-to-right, top-to-bottom).
+
+[[page 4]]
+3. The Four Cribs
+We have four known plaintext segments (cribs) at specific positions:
+Crib
+Plaintext
+Positions
+Ciphertext
+EAST
+E-A-S-T
+21-24
+F-L-R-V
+NORTHEAST
+N-O-R-T-H-E-A-S-T
+25-33
+Q-Q-P-R-N-G-K-S-S
+BERLIN
+B-E-R-L-I-N
+63-68
+Y-P-V-T-T-M
+CLOCK
+C-L-O-C-K
+69-73
+Z-F-P-K-W
+These cribs act as constraints that force specific key values.
+
+[[page 5]]
+4. The Classing Function
+Each position is assigned to one of six cipher classes using:
+class(i) = ((i mod 2) × 3) + (i mod 3)
+This creates a repeating 6-position pattern:
+Position
+0
+1
+2
+3
+4
+5
+Class
+0
+3
+1
+4
+2
+5
+Classes and Cipher Families
+Class
+Cipher Family
+Decryption Formula
+0
+Vigenère
+P = C - K (mod 26)
+1
+Vigenère
+P = C - K (mod 26)
+2
+Beaufort
+P = K - C (mod 26)
+3
+Vigenère
+P = C - K (mod 26)
+4
+Variant-Beaufort
+P = C + K (mod 26)
+5
+Vigenère
+P = C - K (mod 26)
+
+[[page 6]]
+5. Building the Key Wheels
+Each class has a key wheel with period 17. To determine a key value: 1. Calculate the class:
+class(i) = ((i mod 2) × 3) + (i mod 3) 2. Calculate the wheel slot: slot = i mod 17 3. Apply the
+cipher formula with the crib to find the key
+Example: Position 21 (EAST)
+• Ciphertext: F = 5, Plaintext: E = 4 • Class: ((21 mod 2) × 3) + (21 mod 3) = (1 × 3) + 0 = 3 • Slot: 21
+mod 17 = 4 • Cipher: Vigenère, so K = C - P = 5 - 4 = 1 (letter B) • Result: Class 3, Slot 4 → Key = B
+
+[[page 7]]
+6. Propagation: How Cribs Determine the Wheels
+The four cribs provide constraints at 22 positions. Due to the period-17 structure, these
+constraints propagate to force many more key values.
+Propagation Example
+If position 21 forces Class 3, Slot 4 to have key B, then: • Position 38 (= 21 + 17) also uses Class 3, Slot
+4 → Same key B • Position 55 (= 21 + 34) also uses Class 3, Slot 4 → Same key B • Position 72 (= 21 +
+51) also uses Class 3, Slot 4 → Same key B • Position 89 (= 21 + 68) also uses Class 3, Slot 4 →
+Same key B This propagation means the 22 crib positions actually determine most of the key wheels.
+Algebraic Determination
+Through this propagation process: • 71 positions become algebraically determined • 26 positions
+remain undetermined (require additional constraints) The 26 undetermined positions are resolved using
+the tail constraint (positions 75-96).
+
+[[page 8]]
+7. Worked Example: Positions 80-84
+Let's decrypt positions 80-84 step by step, showing the complete process.
+Position 80: T → O
+1. Calculate class: ((80 mod 2) × 3) + (80 mod 3) = 0 + 2 = 2
+2. Calculate slot: 80 mod 17 = 12
+3. Look up key: Class 2, Slot 12 → K = 7 (H)
+4. Apply Beaufort: P = K - C = 7 - 19 = -12 ≡ 14 (mod 26)
+5. Convert: 14 = O
+Position 81: J → F
+1. Calculate class: ((81 mod 2) × 3) + (81 mod 3) = 3 + 0 = 3
+2. Calculate slot: 81 mod 17 = 13
+3. Look up key: Class 3, Slot 13 → K = 4 (E)
+4. Apply Vigenère: P = C - K = 9 - 4 = 5
+5. Convert: 5 = F
+Position 82: C → A
+1. Calculate class: ((82 mod 2) × 3) + (82 mod 3) = 0 + 1 = 1
+2. Calculate slot: 82 mod 17 = 14
+3. Look up key: Class 1, Slot 14 → K = 2 (C)
+4. Apply Vigenère: P = C - K = 2 - 2 = 0
+5. Convert: 0 = A
+
+[[page 9]]
+Position 83: D → N
+1. Calculate class: ((83 mod 2) × 3) + (83 mod 3) = 3 + 2 = 5
+2. Calculate slot: 83 mod 17 = 15
+3. Look up key: Class 5, Slot 15 → K = 16 (Q)
+4. Apply Vigenère: P = C - K = 3 - 16 = -13 ≡ 13 (mod 26)
+5. Convert: 13 = N
+Position 84: I → A
+1. Calculate class: ((84 mod 2) × 3) + (84 mod 3) = 0 + 0 = 0
+2. Calculate slot: 84 mod 17 = 16
+3. Look up key: Class 0, Slot 16 → K = 8 (I)
+4. Apply Vigenère: P = C - K = 8 - 8 = 0
+5. Convert: 0 = A
+Result: TJCDI decrypts to OFANA (part of "JOY OF AN ANGLE")
+
+[[page 10]]
+8. The Complete Solution
+Following this method for all 97 positions yields:
+WEAREINTHEGRIDSEETHENEASTNORTHEASTANDWEAREBYTHE
+LINETOSEEBETWEENBERLINCLOCKTHEJOYOFANANGLEISTHEARC
+Formatted with word breaks:
+WE ARE IN THE GRID SEE THE EAST NORTHEAST AND WE ARE BY
+THE LINE TO SEE BETWEEN BERLIN CLOCK THE JOY OF AN
+ANGLE IS THE ARC

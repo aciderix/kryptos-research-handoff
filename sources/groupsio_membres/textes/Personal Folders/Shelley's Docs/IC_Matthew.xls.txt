@@ -1,0 +1,221 @@
+Shelley McClarigan                                                                                           B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+0.000
+0.0000
+Chart
+2 A-bets
+3 A-bets
+4 A-bets
+5 A-bets
+6 A-bets
+7 A-bets
+8 A-bets
+9 A-bets
+10 A-bets
+11 A-bets
+12 A-bets
+13 A-bets
+14 A-bets
+15 A-bets
+ a) Plain cyphertext
+2 alphabets
+Alphabets
+I.C.
+MbP?_
+UTQE
+qV~B
+|.NI
+MbP?_
+PRIV
+MbP?_
+PRIV
+UTQE
+MbP?_
+PRIV
+MbP?_
+PRIV
+MbP?_
+PRIV
+MbP?_
+PRIV
+MbP?_
+PRIV
+MbP?_
+PRIV
+MbP?_
+PRIV
+MbP?_
+PRIV
+qV~B
+MbP?_
+PRIV
+UUUUUU
+MbP?_
+PRIV
+MbP?_
+PRIV
+MbP?_
+PRIV
+|.NI
+Yahoo! Mail - mcclar@yahoo.com
+Shelley McClarigan
+Shelley McClarigan
+Microsoft Excel
+Dresser-Rand
+Chart
+2 A-bets
+3 A-bets
+4 A-bets
+5 A-bets
+6 A-bets
+7 A-bets
+8 A-bets
+9 A-bets
+10 A-bets
+11 A-bets
+12 A-bets
+13 A-bets
+14 A-bets
+15 A-bets
+Worksheets
+_PID_GUID
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial
+Percent
+     5       
+\\drolnw09\OLNPTR110
+Letter
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2
+AAAAAAAAAAAAAA!
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2
+hhhhhhhhhhh
+hhhh
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+(((((((()
+********+
+......../
+\\drolnw09\OLNPTR110
+Letter
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+(((()
+****+
+..../
+\\drolnw09\OLNPTR110
+Letter
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+((()
+***+
+.../
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+\\drolnw09\OLNPTR110
+Letter
+{719C2A2B-E21A-442A-B96A-755CA6BD0926}
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

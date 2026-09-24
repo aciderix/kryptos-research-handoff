@@ -1,0 +1,98 @@
+[[page 1]]
+ 
+DeKRYPTOS 
+Drafted by Joshua.tully@gmail.com 
+
+[[page 2]]
+Method: Steganography / physical modification/ riddle 
+Carrier Text: K3 (PT and CT) 
+Storyline: Lord Carnarvon's rush to Luxor after receiving Howard 
+Carters’ telegram.’ 
+Hint: Misspelled START in CT  adjacent to  “Can you see 
+anything Q” 
+• The text in the image below indicates a row width of 42. 
+• The K3 Plain text chart indicates at some point, alternating the PT and CT layers is used. 
+METHODS 
+STEGO  TYPE - 1 
+• Locate your starting position(A) within the masking layer. 
+• Find the next instance of the K4 character (B). 
+• The decoded letter (C) is that position, but in the (PT) 
+ 
+STEGO TYPE - 2 
+• Locate your starting position (A) within the mask layer. 
+• Move over by K4 letter value (B) 
+•The decoded character (C) is at the position you land on 
+ 
+
+[[page 3]]
+STEP 1: With K3 Cipher Text over Plain Text, set the text width to 42. 
+STEP 2: Slant the Plain Text by one space for each row starting at the bottom. 
+STEP 3: Square off the text by moving the overhanging text to the front of the row. 
+} } } } } }
+}
+}
+
+[[page 4]]
+STEP 4: Alternate PT and CT to mimic the original encoding charts. 
+ 
+ 
+
+[[page 5]]
+STEP 5: Set your insertion point (position) to the misspelled START. 
+Conduct a type-1 STEGO method three times to reveal S=S, K=A, and G=E. 
+STEP 6: Read from left to right,  you should be able to decode G->E, K->A, S->S.  
+STEP 7: Return to position index 326 (S over S) and only using the  CT mask layer; execute a  
+type-2 STEGO method by moving over by K4 cipher letter(S) to the right. The character you 
+land on (T) is your decoded character. 
+ 
+Kryptos keyed alphabet and value table. 
+ 
+
+[[page 6]]
+Last, Move S distance
+ to land on T 
+
+[[page 7]]
+If you are using DeKryptos.com (Limited to larger screen computers) you can use the following: 
+ 
+ 
+Step 1: Press the 
+Book Of Knowledge in the top center of your work area to  
+close the splash window. 
+  
+ 
+Step 2: Press  
+in the top left corner to load the K3 chart. 
+Step 3: Click 
+to load the path tool. 
+Step 4: Click   
+skew-right in the text path. 
+Step 5: Click  in the modifier output to load in a new layer with changes. 
+	
+        
+Step 6: Click  
+to shuffle-even PT/ CT. 
+B0K
+
+[[page 8]]
+Step 7: Click 
+in the upper right-hand to load the STEG tool. 
+ 
+Step 8 Click 
+in the STEG field (Block Matrix) to load the STEG block. 
+Step 9: Press 
+to reverse the STEG block. 
+NOTE: This reverse appears to be an extra step caused by how this program works. There 
+is a more natural way of looking at this. 
+Step 10: Set the insertion point (cursor position) to the misspelled START. 
+ 
+Step 11: Press the STEGO type-1 3 times.  
+Step 12: Reverse text. 
+Step 13: Apply (scribe).  
+ 
+Step 14: In the STEG field, click           
+to load the text into the STEG tool. 
+Step 15: Place the cursor in S over S (position 326). 
+Step 16: Press the STEGO. 
+Type-2 to the right to land on T. 
+Step 17: Press apply (Scribe).

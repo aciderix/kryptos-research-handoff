@@ -1,0 +1,146 @@
+Shelley McClarigan                                                                                           B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+pareto
+Pareto English
+Step 1 -- Create Cypher Text String  (a - plain cypher text, b - cypher text without the KR SOT YP characters, c - mispelled characters from pts 1-3 replaced with correct character)
+ c) Substituted
+ a) Plain cyphertext
+ b) Wihout KR SOT YPf
+Step 2 -- Pareto the letters of the alphabet in order of use (E is highest, and therefore to the left)H
+Step 3 -- Count the occurance of each letter in the cypher strings aboveS
+Step 4 -- Pareto the substitution alphabet letters and chart against the A-Z pareto
+Note:  Pareto doesn't fit that well, there are too many of the lesser used letters, and too few of the common letters -- Cypher alphabet is almost "flattened"c
+Note:  Pareto hasn't changed much from the one above - this makes sense, we only removed 7 letters.
+Note:  Pareto fits very well.  Note that there are more of the common letters, and less of the uncommon letters.  Substitution brought the cypher more in line with the english language
+Step 5 -- Rearrange the English letters back into alpahbetic order and graph against the corresponding substituted cypher lettersk
+Step 6 -- Rearrange the Cypher alphabet into alphabetic order, and try to match with normal English pattern
+Note:  This chart shows that the cypher alphabet, after substitutions for the mispelled letters in Parts 1-3, actually does mirror the english language.  Also note that I do not know how many letters of text this chart is based on, but it is probably more than one hundred. The counts for the cypher text are based on 90 characters, so it makes sense that some of the bars are lower than in the English language (I didn't normalize the data).  
+At first glance, this doesn't look like anything to me.  However, it is important to remember that many of the letters can be switched around (the ones that are near each other in frequency, as the pareto left letters with the same count in alphabetic order. Whle switching the letters won't do anything to the chart, it will change the corresponding english letter. The obvious sets of same-frequency letters are shown by the bar colors in the chart above. I'm not sure where to go from here, my goal was simply to show that by using the mispellings in Parts 1-3 as a clue, the cypher text from Part 4 can indeed resemble the English language. 
+MbP?_
+PRIV
+Column BX
+lg)@
+lg)@
+lg)@
+333333
+lg)@
+333333
+lg)@
+333333
+Frequency distribution of letters in English
+Shelley McClarigan
+Shelley McClarigan
+Microsoft Excel
+Dresser-Rand
+pareto
+Worksheets
+_PID_GUID
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial
+Percent
+\\drolnw09\OLNPTR110
+Letter
+))))))))))))))))))))))))))
+***************************
+#++++++++++++++++++++++++++
+#++++++++++++++++++++++++
+.../
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++01112
+#++++++++++++++++++++++++34445
+#++++++++++++++++++++++++++
+#++++++++++++++++++++++++++
+B\FFFFFFFFFBB
+$++++++++++++++++++++++++++
+$++++++++++++++++++++++++
+.../
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++01112
+$++++++++++++++++++++++++34445
+$++++++++++++++++++++++++++
+$++++++++++++++++++++++++++
+++++++++++++++++++++++++++
+++++++++++++++++++++++++
+.../
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++01112
+++++++++++++++++++++++++34445
+++++++++++++++++++++++++++
+6666666666666666666666666666
+B\FFFFFFFFFBB
+>ZDDDDDDDDD>>P>
+......................../
+01111111111111111111111112
+01111111111111111111111112
+34444444444444444444444445
+7877
+>>>>>>
+J>>>
+......................./
+0111111111111111111111112
+0111111111111111111111112
+0111111111111111111111112
+3444444444444444444444445
+R>>>>
+English
+Cypher
+English
+Cypher
+English
+Cypher
+English
+Cypher
+Cypher Alphabet
+{57751F2D-52F8-4240-A071-58E6213657C1}
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

@@ -1,0 +1,254 @@
+[[page 1]]
+UNDERGRUUND
+2023-05-22
+UNDERGRUUND
+When looking for the next clue, I was considering the implications of the line THE
+INFORMATION WAS GATHERED AND TRANSMITTED UNDERGRUUND TO AN UNKNOWN
+LOCATION.
+One thing that struck me about this line is the word UNDERGRUUND.
+Given everything that I now understand about K1 to K3, this word almost certainly has
+multiple meanings, in fact the whole line has but one in particular stands out and it is
+this one I wish to focus upon.
+Firstly, we need to rewind a little.
+In passage 1, we are shown how rotation works within the cipher. SS AL NI becomes SS
+NI AL. Here I made a misjudgement because this movement is not only related directly
+to the movement in passage 2 although it is certainly linked to this.
+Within this movement, Mr Sandborn shows us something else that is going on. I will
+come back to this later.
+What this did give us for passage 2 is the characters to look for, and here we find the
+rotation. AL IN SS. Rotating these 6 characters we get to SS NI AL.
+Lets look at the ciphertext K4 for a minute.
+1
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZ
+2
+WATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+So lets break this into blocks of 6 and rotate each block in the same way were shown.
+On the left is the cipher and on the right is the cipher flipped.
+1
+[O, B, K, R, U, O] [U, O, R, K, O, B]
+2
+[X, O, G, H, U, L] [U, L, H, G, X, O]
+3
+[B, S, O, L, I, F] [I, F, L, O, B, S]
+4
+[B, B, W, F, L, R] [L, R, F, W, B, B]
+5
+[V, Q, Q, P, R, N] [R, N, P, Q, V, Q]
+6
+[G, K, S, S, O, T] [O, T, S, S, G, K]
+7
+[W, T, Q, S, J, Q] [J, Q, S, Q, W, T]
+8
+[S, S, E, K, Z, Z] [Z, Z, K, E, S, S]
+9
+[W, A, T, J, K, L] [K, L, J, T, W, A]
+10
+[U, D, I, A, W, I] [W, I, A, I, U, D]
+11
+[N, F, B, N, Y, P] [Y, P, N, B, N, F]
+12
+[V, T, T, M, Z, F] [Z, F, M, T, V, T]
+13
+[P, K, W, G, D, K] [D, K, G, W, P, K]
+14
+[Z, X, T, J, C, D] [C, D, J, T, Z, X]
+15
+[I, G, K, U, H, U] [H, U, U, K, I, G]
+16
+[A, U, E, K, C, A] [C, A, K, E, A, U]
+17
+[R]
+[R]
+Martin Proffitt
+1
+
+[[page 2]]
+UNDERGRUUND
+2023-05-22
+At first glance, nothing too exciting but we do have a lot more Us.
+Next advance the cipher by one character.
+1
+[O, R, K, O, B, U]
+2
+[L, H, G, X, O, I]
+3
+[F, L, O, B, S, L]
+4
+[R, F, W, B, B, R]
+5
+[N, P, Q, V, Q, O]
+6
+[T, S, S, G, K, J]
+7
+[Q, S, Q, W, T, Z]
+8
+[Z, K, E, S, S, K]
+9
+[L, J, T, W, A, W]
+10
+[I, A, I, U, D, Y]
+11
+[P, N, B, N, F, Z]
+12
+[F, M, T, V, T, D]
+13
+[K, G, W, P, K, C]
+14
+[D, J, T, Z, X, H]
+15
+[U, U, K, I, G, C]
+16
+[A, K, E, A, U, R]
+17
+[U]
+If we look down each column, we then find the characters [I, G, T, U, U, L]. These are at
+respective rows 10, 13, 9, 10, 16, 3
+If you’re looking at this in rendered form, add 1 to each row - I wrote this based
+on python output, not markdown line numbers.
+INFORMATION GATHERED TRANSMITTED UNDERGRUUND UNKNOWN LOCATION
+Lets move those to the top.
+1
+[I, G, T, U, U, L]
+2
+[P, J, I, N, B, R]
+3
+[F, U, B, V, O, O]
+4
+[K, K, T, P, S, J]
+5
+[D, R, W, Z, B, Z]
+6
+[U, H, T, I, Q, K]
+7
+[A, L, K, A, K, W]
+8
+[U, F, E, O, T, Y]
+9
+[O, P, K, X, S, Z]
+10
+[L, S, G, B, A, D]
+11
+[F, S, O, B, D, C]
+12
+[R, K, W, V, F, H]
+13
+[N, J, Q, G, T, C]
+14
+[T, A, S, W, K, R]
+15
+[Q, N, Q, S, X, U]
+16
+[Z, M, E, W, G, I]
+17
+[L]
+There are many ways we can reach the next part and Im pretty sure only one will
+Martin Proffitt
+2
+
+[[page 3]]
+UNDERGRUUND
+2023-05-22
+be accurate. The one Im going to show though, contains both GRUUND (reversed),
+IGTUUL and the initials JS although there are certainly other ways to make at least 2
+of these (I’ve not yet found another with all 3 together).
+First we need to flatten the previous result, then flip every block of 6 the other way,
+then rotate this by 7 characters.
+1
+IGTUULPJKNBRFUEVOOKKKPSJDRGZBZUHOIQKALWAKWUFQOTY
+2
+OPSXSZLSQBADFSEBDCRKTVFHNJIGTCTABWKRQNTSXUZMWWGIL
+3
+4
+ULUTIGBRNKPJOOVEFUSJPKKKBZZGDRQKIOUHKWAWALTYOQUF
+5
+SZXSOPADBQLSDCBEFSFHVTRKTCGINJKRWBTAXUSTQNGIWWZML
+6
+7
+RNKPJOOVEFUSJPKKKBZZGDRQKIOUHKWAWALTYOQUFSZXSOPA
+8
+DBQLSDCBEFSFHVTRKTCGINJKRWBTAXUSTQNGIWWZMLULUTIGB
+finally rotate the columns by 8, 0, 15, 4, 3, 13
+1
+[D, N, U, U, R, G]
+2
+[C, V, K, A, H, L]
+3
+[H, P, E, U, L, G]
+4
+[C, Z, K, O, F, O]
+5
+[R, I, G, L, P, S]
+6
+[U, A, O, F, S, B]
+7
+[I, O, W, R, S, Q]
+8
+[U, X, Q, N, K, K]
+9
+[B, B, S, T, J, T]
+10
+[R, B, Q, Q, A, S]
+11
+[O, V, E, Z, N, A]
+12
+[J, G, T, T, M, D]
+13
+[Z, W, I, P, I, F]
+14
+[K, S, B, F, J, T]
+15
+[W, W, T, K, U, K]
+16
+[Y, L, W, D, K, X]
+17
+[Z]
+GRUUND is row 0 reverse, INFORMATION GATHERED TRANSMITTED UNDERGROUND
+UNKNOWN LOCATION is at 7 −12 −12 −3 −15 −3 and Jim Sandborns initials are
+diagonal across rows 9 and 10 in columns 5 and 6.
+Maybe theres a purer version. Ive not found it yet but Im still looking.
+The other rotation
+Next: Regarding the other rotation.
+There has been a lot of chatter about the word KRYPTOS in the K4 ciphertext and some
+have posited that there might be a rotation going on.
+Martin Proffitt
+3
+
+[[page 4]]
+UNDERGRUUND
+2023-05-22
+Well thats exactly what there is. SS AL NI shows you how this works.
+Firstly, its important to note, SS doesnt move whilst AL and NI change locations.
+Next, Passage 3 shows you a machine. In this, 4 characters are separated and the rest
+split into lines 31 characters long.
+Lets recap on that:
+1
+SS
+THECANDLEANDPEEREDINREDTHELOWER
+2
+PARTWITHTREMBLINGHANDSIMADEINTH
+3
+EUPPERLEFTHANDCORNERATINYBREACH AL
+Now do the same to K4.
+1
+OB KRUOXOGHULBSOLIFBBWFLRVQQPRNGKS
+2
+SOTWTQSJQSSEKZZWATJKLUDIAWINFBN
+3
+YPVTTMZFPKWGDKZXTJCDIGKUHUAUEKC AR
+Next: Reverse the middle line and rotate it by 3 characters
+1
+OB KRUOXOGHULBSOLIFBBWFLRVQQPRNGKS
+2
+TOSNBFNIWAIDULKJTAWZZKESSQJSQTW
+3
+YPVTTMZFPKWGDKZXTJCDIGKUHUAUEKC AR
+Finally, swap lines 2 and 3.
+1
+OB KRUOXOGHULBSOLIFBBWFLRVQQPRNGKS
+2
+YPVTTMZFPKWGDKZXTJCDIGKUHUAUEKC
+3
+TOSNBFNIWAIDULKJTAWZZKESSQJSQTW AR
+That is KRYPTOS read by rows.
+Martin Proffitt
+4

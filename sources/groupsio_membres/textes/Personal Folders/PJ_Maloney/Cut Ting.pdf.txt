@@ -1,0 +1,322 @@
+[[page 1]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+Slowly, desparatly slowly, the remains of passage debris that encumbered the lower part of the doorway was
+removed.
+With trembling hands I made a tiny breach in the upper left-hand corner. And then, widening the hole a little, I
+inserted the candle and peered in. The hot air escaping from the chamber caused the flame to flicker, but presently
+details of the room within emerged from the mist. x Can you see anything? 
+- decrypt of Kryptos Part 3
+(derived from Carter, Howard, The Tomb of Tutankhamen (1923))
+For fifteen years, KRYPTOS has stood guard to a secret.  Contained in the last 97 characters of its encrypted text is
+a some information, perhaps a vital clue to the whereabouts of the mysterious item buried somewhere on the
+grounds of the CIA as described in a previously decrypted section.  Revealed below is my solution to the puzzle
+that has garnered the attention of thousands worldwide.  Will we find the buried item?  Read and see.
+The key to solving Part 4 is removal of all the unnecessary letters.  The
+entire design concept of the screen and the system for solving the last of the
+puzzle is a pun – this is about “Kut Ting” as much as it is about “King Tut.”
+I. The picture
+Start with the last 97 characters:
+                           OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+Remove “KR” and “YP” but not “SOT.”  Remove “AR” because along with “YAR”
+that makes “ARRAY” - another word for “matrix.” You could say this completes
+and explains the meaning of “YAR” (but more on other meaning later).  Remove
+this debris (slowly, ‘desparatly’ slowly, if you must).  The backwards
+spelling of “TOS” is the clue not to remove that.  You now have:
+                             OB
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBN
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKC
+Take your 91 characters remaining and form them into a 7x13 “array” as
+shown:
+OBUOXOG
+HULBSOL
+IFBBWFL
+RVQQPRN
+GKSSOTW
+TQSJQSS
+EKZZWAT
+JKLUDIA
+WINFBNV
+TTMZFPK
+WGDKZXT
+JCDIGKU
+
+[[page 2]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+HUAUEKC
+
+[[page 3]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+You can see the word “CUT” at the bottom right, but according to the text from
+Part 3, the “breach” is suppose to be in the upper left.  We have to turn the
+whole thing around to look like this:
+CKEUAUH
+UKGIDCJ
+TXZKDGW
+KPFZMTT
+VNBFNIW
+AIDULKJ
+TAWZZKE
+SSQJSQT
+WTOSSKG
+NRPQQVR
+LFWBBFI
+LOSBLUH
+GOXOUBO
+That’s better.  With “trembling hands”, make a tiny breach (remove the letters
+“CUT”):
+ KEUAUH
+ KGIDCJ
+ XZKDGW
+KPFZMTT
+VNBFNIW
+AIDULKJ
+TAWZZKE
+SSQJSQT
+WTOSSKG
+NRPQQVR
+LFWBBFI
+LOSBLUH
+GOXOUBO
+Now “widen the hole a little.”  A “piece” of KaKE sounds nice! (Remove K, K
+and E):
+ KEUAUH
+ KGIDCJ
+ XZKDGW
+KPFZMTT
+VNBFNIW
+AIDULKJ
+TAWZZKE
+SSQJSQT
+WTOSSKG
+NRPQQVR
+LFWBBFI
+LOSBLUH
+GOXOUBO
+
+[[page 4]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+Hold on to your CANDLE (save it for your KaKE), but the double letters are all
+“hot air” and we have to remove them.  JS (James Sanborn, creator of KRYPTOS)
+is likely being self-deprecating by saying he’s hot air too, so we’ll remove
+that, too.
+   UAUH
+  GIDCJ
+ XZKDGW
+KPFZMTT
+VNBFNIW
+AIDULKJ
+TAWZZKE
+SSQJSQT
+WTOSSKG
+NRPQQVR
+LFWBBFI
+LOSBLUH
+GOXOUBO
+And you are left with a beautiful – what??? – 
+SATELLITE DISH !
+   UAUH
+  GIDCJ
+ XZKDGW
+KPFZM
+VNBFNIW
+AIDULKJ
+TAW  KE
+      T
+WTO  KG
+NRP  VR
+LFW  FI
+LOSBLUH
+GOXOUBO
+A SATELLITE DISH ?
+Taking the answer as an anagram, a few come to mind --
+The first might be “THIS ALL EDITS.”  Not helpful.  If we’re done
+cutting and all we get is this picture, where’s whatever is buried?  
+Another anagram is “I-HELL IS TASTED.”  If there is an information
+hell – trying to gain knowledge from useless data, the satellite dish
+can symbolize those data and the quest to solve KRYPTOS is certainly
+a taste of “I-HELL.”  But like the previous anagram, it doesn’t
+resolve our quest.
+The correct anagram, I think, is “L SLATE HIDES IT.”  This is a good
+one.  If “T IS YOUR POSITION” as said in the Morse Code, then a slate
+a position “L” is certainly believable. But where is Position L? 
+
+[[page 5]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+Let’s cut some more ‘hot air’ by removing all adjacent pairs -- up-
+down or diagonal –- along with the horizontals we already removed. 
+The second picture underlying the first is already showing through if
+you know where to look.
+   UAUH
+  GIDCJ
+ XZKDGW
+KPFZM
+VNBFNIW
+AIDULKJ
+TAW  KE
+      T
+WTO  KG
+NRP  VR
+LFW  FI
+LOSBLUH
+GOXOUBO
+And now we have:
+   UAUH
+  GI CJ
+ X K GW
+KP  M
+VNB NIW
+AIDUL J
+TAW   E
+      T
+WTO  KG
+NRP  VR
+ FW  FI
+  SBL H
+G XO BO
+
+[[page 6]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+This is better seen with this matrix taken from a spreadsheet:
+U A U
+H
+G
+I 
+C
+J
+X 
+K 
+G W
+K P 
+ M 
+ 
+V N B
+ N I
+W
+ 
+I
+D
+U L 
+J
+T 
+W
+  
+ 
+E
+ 
+ 
+ 
+  
+ 
+T
+W T O
+  
+K
+G
+N R P
+  
+V
+R
+ 
+F W
+  
+F
+I
+ 
+ 
+S
+B L U
+H
+G 
+X
+O U B
+O
+And – wow! – a map of KRYPTOS reveals itself from its hiding place in
+the 97 characters.  Note the screen shaded in green and the water jet
+– clearly indicated as ‘WJET’ and shown here in blue. The petrified
+tree trunk is “W” for wood.  The “T” – from “T IS YOUR POSITION” –
+looking at the code – is at the end of “WJET” and the anagram for
+“RIGHT” shares that “T” and is shown in green.  The other two T’s are
+in the “WRONG” area.  
+And there we have – plain as day – the location of the buried item. 
+Right under the tile marked “L.”  Err – one of the tiles marked “L.” 
+But which one?  Looking carefully, we see that the “L” near or under
+the sculpture is “DUL” (dull) and at the other location you can form
+the letters “BLOU” or “below you.”  The buried item is obviously
+hidden under the tile marked with the second “L.” !
+But wait.  Our quest may not be over.  The “SATELLITE DISH” could
+mean not “THIS ALL EDITS” but “THIS ALL e DITS” – a clue, perhaps, as
+to how to fill in the “e’s” (Morse dits) in the Morse code section. 
+Solving the Morse Code could reveal that the map is wrong and there
+is nothing buried.  Or perhaps both meanings – “L SLATE HIDES IT” and
+“THIS ALL e DITS” are correct.
+And so the mystery lives on!  The only way to know is to solve the
+Morse Code.  And to DIG!
+II. Title of the piece (?)
+Taking look at the letters we cut out in (I) you will see
+we have twelve letters:
+
+[[page 7]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+KR YP AR CUT KKE
+The “hot air” letters removed are:
+TT SS QQ JS QQ SS BB DD FF KK LL OO UU
+Eliminating the doubles from those we have fourteen
+letters:
+TSQJSQSBDFKLOU
+All told, we have 26 letters, which is equal to the number
+of “e” dits in the Morse Code and dovetails nicely with
+the “This all e dits”  interpretation of “SATELLITE DISH”
+above.  In other words, here are the 26 letters that need
+to be used to complete the Morse Code section (N.B.
+arriving at a count of 26 “e” dits requires the
+interpretation of this Morse Code:
+-..  ..  --.  .  -  .-  .-..  .  .  . 
+to be read as “DIG e TAL eee” and not as “DIGETALeee.”).
+Alternatively, we could assume that all of the double letters are
+“hot air” in accordance with the text and simply drift away. 
+Including the “out of place” letters from the encrypted text and
+the tableau, we have:
+YAR L KR YP AR CUT KKE 
+and a “?”
+which we can use to form a title for the piece.  There are plenty
+of anagrams to be formed with these letters and the meaning here
+is certainly subject to debate.  In some senses Mr. Sanborn could
+asking us to interpret his work by choosing the right anagram.  I
+like this idea that you have to get past a lot of hot air to find
+a useful meaning in an artistic piece, and both this
+interpretation and the use of the abscissa as “e” dits may be
+correct.
+You could say the remain letters form this:
+KRYP CUT ARRAY KKEL
+If you could turn the “L” into an “A” the LKKE becomes “KAKE” and
+you have a place to put the “CANDLE” that we did not use in our
+above solution.
+
+[[page 8]]
+Portions of this work copyright ©  Patrick J. Maloney 2005.  All rights reserved.
+How to turn the “L” into “A?”  Take “CENTRAL INTELLIGENCE AGENCY”
+and begin with “T” as “YOUR POSITION.”  Make it through the “R A”
+(ARRAY) but now you are in “L” (HELL).  You need to “step back”
+into the array and find another way out (i.e., get the message).
+But with an “L” turned into an “A” you could also have this:
+Y KRY? KLEAR CUT PARK 
+Which could be interpreted to mean be a criticism of clear cutting
+of trees where KRYPTOS stands.  With this concept, you could say
+the Central Intelligence Agency took a “step back”when it cut the
+trees.
+If you don’t like either of the “stepping back” idea, you could
+instead say that from the raise letters on the screen you can pull
+“Y?” and then you balance “AR” on one side with “L” on the other.
+This suggest that AR=L and you can replace one with the other.
+Which gives us:
+Y? YLLKRYPARCUTKKE 
+or
+Y? TRY KRACK.  KEY: PULL
+Which mean to understand the message you have to pull letters from
+the screen to “krack” the puzzle.
+These are the meaning I found here.  But you can come up with your
+own interpretation.  That’s what art is all about.

@@ -1,0 +1,79 @@
+7x7 - 5x7 - 6x5 - 4x4
+
+E(BERLIN,k,ELYOIe,k)->NYPVTT,k (repeating E)
+D(BERLIN,k,ICXUEi,k)->NYPVTT,k (repeating I)
+E(BERLIN,a,MUYKLG,a)->NYPVTT,a
+D(BERLIN,a,OGCQPU,a)->NYPVTT,a
+
+K4 7x7 K and C blocks as written, 	DUAL COLTRANS OF Ek
+Enciphered and Deciphered (a,a)=k	1354267 & 1237654
+Ka      Ca      Ek      Dk
+_OBKRUO XOGHULB _YALEOI _KOWPLG	            _A ELYO I
+SOLIFBB WFLRVQQ HNVZKLL TLKCJII	            HV KZNL L
+PRNGKSS OTWTQSJ PDCZKDR ZYCGSKL	            PC KZDD R
+QSSEKZZ WATJKLU FMEGQDN SBROKFU	            PD VQYA E
+DIAWINF BNYPVTT TUXEPSX XOXNGSH	            IT PFCO B
+MZFPKWG DKZXTJC ICTFPOB LEQBCGV	            TX PEUS X
+DIGKUHU AUEKCAR PYDQVAE WFXKBNW	            FE QGMD N
+
+As above        Reorganising Ek
+transposed      to align BERLIN
+Ka              with Ca    DualColTrans
+_SPQDMD         P PVKKE Q	5673214 &	AT ITDCV
+OORSIZI         E FQZZL G	5426712	        LG CFQZZ
+BLNSAFG         U CYDNY M   			EQ XPVKK
+KIGEWPK         S OADLO D   			EO UDLOD
+RFKKIKU         X BERLI N   			PB ERLIN
+UBSZNWH         T IPPH_ F   			FS APPH_
+OBSZFGU         X TDCVA E   			MX EYDNY
+
+Ca              Transposed
+XWOWBDA         PEUSX TX
+OFTANKU         PFCOB IT
+GLWTYZE         VQYAE PD
+HRTJPXK         KZDDR PC
+UVQKVTC         KZNLL HV
+LQSLTJA         ELYOI _A
+BQJUTCR         QGMDN FE
+Ek
+_HPFTIP
+YNDMUCY
+AVCEXTD
+LZZGEFQ
+EKKQPPV
+OLDDSOA
+ILRNXBE
+Dk
+_TZSXLW
+KLYBOEF
+OKCRXQX
+WCGONBK
+PJSKGCB
+LIKFSGN
+GILUHVW
+
+Proof of effective keys
+    ENCIP  ENCIP
+Ka  MZAIS  OBKRU
+Ca  DKYNT  OHULB
+Epk ICXUE  YLEOI
+Ck  NYPVT  PYNVT
+Epk BERLI  REBLI
+
+GRILLE test (G=1)
+_YALEOI    3 LNCO   PHO_EY   
+HNVZKLL    8 ALYI   BIONIC
+PDCZKDR    5 P_IE   ALLY
+FMEGQDN    7     
+TUXEPSX    6 HOBY
+ICTFPOB    5    
+PYDQVAE    
+        
+3 LNCO at 6,2;2,2;2,6;6,6
+8 ALYI at 6,7;7,6;2,1;1,6
+5 P_IE at 1,7;1,1;7,1;7,7
+7    
+6 PRTX at 1,3;7,3;1,5;7,5
+5   
+POLARITY
+PIN_CLEx

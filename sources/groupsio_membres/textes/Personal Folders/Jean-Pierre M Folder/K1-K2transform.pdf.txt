@@ -1,0 +1,170 @@
+[[page 1]]
+K1 CT to PT
+K: I: 1, L: 1, N: 1 ( I N L )
+R: D: 1, U: 3 ( U D U U )
+Y: E: 4, L: 1 ( E E E E L )
+P: E: 1 ( E )
+T: F: 2, N: 1 ( F N F )
+S: H: 2 ( H H )
+A: T: 1 ( T )
+B: T: 1 ( T )
+D: S: 1, A: 2, N: 1 ( A A S N )
+E: A: 1, B: 1 ( B A )
+F: O: 1, S: 1, B: 1, W: 1 ( W B S O )
+G: A: 1 ( A )
+H: E: 2 ( E E )
+I: E: 1 ( E )
+J: C: 2, D: 1 ( D C C )
+L: S: 1, E: 1, G: 1, H: 1 ( S G H E )
+M: E: 1, I: 2 ( E I I )
+N: T: 1, B: 1 ( T B )
+Q: O: 2, H: 1, L: 2 ( O L H L O )
+U: T: 1, S: 2, I: 1 ( T S I S )
+V: T: 1, I: 1, N: 2 ( N I T N )
+X: G: 1, L: 1 ( L G )
+Z: N: 2 ( N N )
+K1 PT to CT
+T: A: 1, B: 1, N: 1, U: 1, V: 1 ( U A N B V )
+O: F: 1, Q: 2 ( Q Q F )
+S: D: 1, F: 1, L: 1, U: 2 ( L U F U D )
+A: D: 2, E: 1, G: 1 ( D D G E )
+B: E: 1, F: 1, N: 1 ( E F N )
+C: J: 2 ( J J )
+D: R: 1, J: 1 ( J R )
+E: Y: 4, P: 1, H: 2, I: 1, L: 1, M: 1 ( M P H Y H I Y Y L Y )
+F: T: 2 ( T T )
+G: L: 1, X: 1 ( L X )
+H: S: 2, L: 1, Q: 1 ( S S Q L )
+I: K: 1, M: 2, U: 1, V: 1 ( K U V M M )
+L: K: 1, Y: 1, Q: 2, X: 1 ( X Q Q K Y )
+N: K: 1, T: 1, D: 1, V: 2, Z: 2 ( Z Z K V T V D )
+U: R: 3 ( R R R )
+W: F: 1 ( F ) 
+P: EADVQVM
+A: MXKJVJF
+L: UYRYYYD
+I: FUNQUQ
+M: PSSTVT
+P: HDHQLM
+S: ZJGULK
+E: LKNXTY
+S: RZFQRR
+T: FLIBED
+P: BTANLNI
+A: ELNCICO
+L: TEDEEEN
+I: WSTOSO
+M: EHHFTF
+P: EAELHI
+S: NDAIEL
+E: SIBGNL
+S: UNSHUU
+T: BGETAS
+
+[[page 2]]
+K2 CT TO PT
+K: E: 7, L: 2, N: 6 ( L E L E N N N E N E E N E E N )
+R: M: 1, N: 6, U: 4 ( N N U N U U M N U N N )
+Y: G: 1, N: 3, U: 1, V: 1 ( V N N U N G )
+P: H: 5, U: 3, V: 3, W: 4 ( W U H W U W H H H V V V H U W )
+T: I: 4, U: 2, W: 5, X: 2 ( I W I U U W W I X W I X W )
+O: W: 2, X: 1 ( W W X )
+S: K: 2, W: 1, X: 2 ( X K K W X )
+A: R: 6, M: 1, X: 2 ( R X M R X R R R R )
+B: R: 2, Y: 2, N: 3 ( N R N Y Y N R )
+C: R: 4, Y: 2, P: 1 ( P Y R R R Y R )
+D: R: 3, Y: 2, T: 17, U: 2 ( T T T R T T T U T T T T R T T T T Y T R T T Y U )
+E: Y: 1, P: 1, T: 13, O: 13, V: 1 ( O T Y O O O T T T T O O O T T O T O T T V P O O O O T T T )
+F: T: 2, O: 7, S: 17, W: 1 ( T T S S O O O S O S O S S S O O W S S S S S S S S S S )
+G: T: 6, O: 3, S: 8, A: 6 ( S S S S T T A A A A O A T S A T T S T S O S O )
+H: O: 3, S: 2, A: 6, B: 3 ( A B B A A O A B O S A S A O )
+I: K: 1, S: 1, A: 2, B: 1, C: 2 ( A C K A B C S )
+J: R: 1, A: 4, C: 1, D: 7 ( A A D A D D D D R D D C A )
+L: Y: 3, C: 1, D: 2, E: 12 ( E E D E Y E E E C E E D Y E E E Y E )
+M: C: 1, E: 10, F: 5 ( E E E F E C E E F F E E E F F E )
+N: T: 3, D: 2, E: 8, F: 1, G: 1 ( T T G E E D E E E F E T E E D )
+Q: O: 1, E: 10, F: 1, G: 4, H: 8 ( H H H E H G H F E G E E H E O H G G E E E H E E )
+U: S: 6, G: 1, H: 5, I: 8 ( S S H S I I G H H I H H I I I S I I S S )
+V: A: 2, G: 2, H: 1, I: 11 ( I I I I I A I H A I G I I I G I )
+W: H: 1, I: 2, L: 5 ( L I I L L H L L )
+X: C: 1, I: 1, L: 2, M: 3 ( M M L L I C M )
+Z: D: 3, L: 4, M: 2, N: 9 ( L N D L D N N L N D M N L N M N N N )
+A: VHGGGCMQMKFUEEQHKKKTVFYEMUUFKGHQCQEVOPGPMGKEJEG
+B: FZWFWPIRZQRNCNCRZSUIHPCVOGNLZOHNNCDRENRNRNPDGW
+S: PWHQHFALJEPAGJRREJWHDWULQSLGBGDTULFREFEZJUDMZJ
+C: JEKJKQGGADJQYTTYMHQHWNQDQYAGSIRGVQQGXQDGQVQHNL
+I: UTKNKZPTNAUZUBBIVKLDKTZKJQVTFPKPPUEKBXNLYPUDUL
+S: DZQCDDFIQGNGXJJZDFSDBDEFLPIEDUFUDMLFDEQFADMAPA
+S: EYEEQQXMLDGZULDEUWZDFFRETFDZQFFAJUZFMZFLLXEFLE
+A: EVTGMMHVVVELEBFTFHFUUIEZTEXFVXHEMNZVVLMPMVBMGT
+
+[[page 3]]
+K2 PT TO CT
+K: S: 2, I: 1 ( I S S )
+R: A: 6, B: 2, C: 4, D: 3, J: 1 ( A D A C B C C D J A C D A B A A )
+Y: B: 2, C: 2, D: 2, E: 1, L: 3 ( E C L B B C D L D L )
+P: C: 1, E: 1 ( C E )
+T: D: 17, E: 13, F: 2, G: 6, N: 3 ( F D E F N D D G G N D E E E E D D D D D D E E E D G D D G E D E G D N G D D E E E )
+O: E: 13, F: 7, G: 3, H: 3, Q: 1 ( E E E E F F E E F H F H F E E G Q F E F E E E E H G G )
+S: F: 17, G: 8, H: 2, I: 1, U: 6 ( U G G G G F F U U F H F F F F G I F H F F U F F F F G F F G U F U G )
+A: G: 6, H: 6, I: 2, J: 4, V: 2 ( J H J I H G J G G G H V H I V G G H H J )
+B: H: 3, I: 1 ( H H H I )
+C: I: 2, J: 1, L: 1, M: 1, X: 1 ( I M I L X J )
+D: J: 7, L: 2, N: 2, Z: 3 ( Z J Z L J J J J N Z J L J N )
+E: K: 7, L: 12, M: 10, N: 8, Q: 10 ( K K M Q M M L M L N Q N L K Q K Q L K M Q L N L K N N M L Q Q L K N Q M N L M Q L M N Q M L L )
+F: M: 5, N: 1, Q: 1 ( M Q M N M M M )
+G: Y: 1, N: 1, Q: 4, U: 1, V: 2 ( Q N Q U Q V Q Y V )
+H: P: 5, Q: 8, U: 5, V: 1, W: 1 ( Q Q Q Q P Q U U W U V Q U U Q P P P Q P )
+I: T: 4, U: 8, V: 11, W: 2, X: 1 ( V T V W W T V V V U U V T U T V U U U U V V X V U V )
+L: K: 2, W: 5, X: 2, Z: 4 ( Z W K K Z Z W W W X Z X W )
+M: R: 1, A: 1, X: 3, Z: 2 ( X A X Z R Z X )
+N: K: 6, R: 6, Y: 3, B: 3, Z: 9 ( Z R K R Z Y B B R Y Z K K K Z Y Z K Z R B Z R Z R K Z )
+U: R: 4, Y: 1, P: 3, T: 2, D: 2 ( P T R T R D P Y R R P D )
+V: Y: 1, P: 3, E: 1 ( Y E P P P )
+W: P: 4, T: 5, O: 2, S: 1, F: 1 ( P T P T T O T P S F O P T )
+X: T: 2, O: 1, S: 2, A: 2 ( A S T A T O S )
+A: IASSSYEGENOHTTGANNNWIOUTEHHONSAGYGTIXVSVESNTCTW
+B: TLITIUANLFNERERNLXGASURHWOECLWSEERYNPENENEUYOXO
+S: WLBHBSREDOWRADUUODLBTLIEHKEAYATXIESUOSONDITFNL
+C: AYLALETTXRAENUUNCOEOHDERENXTWSMTGEETIERTEGEODA
+I: SIETEDHITMSDSNNKAEYUEIDEROAIWHEHHSVENCTYGHSUSY
+S: TNHPTTSCHAGAMDDNTSKTYTOSEWCOTISITFESTOHSRTFRWE 
+S: OVOOHHMFETANIETOILNTSSUOXSTNHSSRDINSFNSEEMOSER
+A: TIWSEEAIIITDTROWOAOHHBTMWTLOILATEFMIIDEVEIREST
+
+[[page 4]]
+Python Script 
+ 
+def count_transformations(decoded, encoded): 
+    transformation_dict = {} 
+     
+    for d, e in zip(decoded, encoded): 
+        if d not in transformation_dict: 
+            transformation_dict[d] = {} 
+        if e not in transformation_dict[d]: 
+            transformation_dict[d][e] = 0 
+        transformation_dict[d][e] += 1 
+    return transformation_dict 
+def sort_transformations(transformations, custom_alphabet): 
+    sorted_transformations = {} 
+    for d in custom_alphabet: 
+        if d in transformations: 
+            sorted_transformations[d] = dict(sorted(transformations[d].items(), key=lambda x: custom_alphabet.index(x[0]))) 
+    return sorted_transformations 
+def print_transformations(decoded, encoded, sorted_transformations): 
+    for d, encoded_letters in sorted_transformations.items(): 
+        transformations_str = ', '.join([f"{e}: {count}" for e, count in encoded_letters.items()]) 
+        occurrences = [e for d_char, e in zip(decoded, encoded) if d_char == d] 
+        print(f"{d}: {transformations_str} ( {' '.join(occurrences)} )") 
+string1 = 
+"VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKKDQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVD
+UFKSJHKFWHKUWQLSZFTIHHDDDUVHDWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZFKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQU
+MUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGESWJLLAETG" 
+string2 = 
+"ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLETHEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGRUUNDTOANUNKNOWNLOCATIONXD
+OESLANGLEYKNOWABOUTTHISTHEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATIONONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEV
+ENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWESTXLAYERTWO" 
+custom_alphabet = "KRYPTOSABCDEFGHIJLMNQUVWXZ" 
+transformations = count_transformations(string1, string2) 
+sorted_transformations = sort_transformations(transformations, custom_alphabet) 
+print_transformations(string1, string2, sorted_transformations) 

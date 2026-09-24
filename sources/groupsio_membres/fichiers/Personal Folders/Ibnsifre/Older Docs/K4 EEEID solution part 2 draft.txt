@@ -1,0 +1,306 @@
+From Ibn Sifre to Yahoo Kryptos Group; August, 18, 2013
+
+Part 2 K4 Solution and Procedure with a few possible interpretations
+
+Version 0.5
+
+Bismillah,
+
+Let us continue.
+
+Part 2:
+
+Applying Mask:
+
+Start with W1, Fig. 1-5, and re-order the rows of it like the following, row 4 to 1, 1 to 2, 5 to 3, 2 to 4, 6 to 5, 3 to 6 and 7 to 7. Be careful to follow the row numbers in the Fig., for example part of row 4 is on the first line and the other part is on the 8th line.  Call this W1', as shown in Fig. 2-1.  W1 row numbers are listed first, followed by W1' row numbers.
+
+           1         2
+W1 W1' 123456789012345678901234
+R  R
+2  4      MLKR    LDYR    AEOG
+6  5      YOIE    WITD    FTEO
+3  6      DVTR    LNHE    PIRM
+7  7      FEET    EYGE    TANE 
+4  1   SAOLLSDBLRERNTHTAMANHSYW
+1  2   LLSEIPWLUYETTHACAIADESBD
+5  3   AOREACAETSMBELEAINDEPRAI
+2  4   TMW    IIPL    NNLS    R
+6  5   HEL    TIRO    DDSO    E
+3  6   YET    AHNE    ESLO    E
+7  7   WHO    TTSS    MIEF    D
+
+Fig. 2-1, W1'
+
+Do the same for W2, Fig.1-7.  Call this W2', as shown in Fig. 2-2.  W2 row numbers are listed first, followed by W2' row numbers.
+
+           1         2
+W2 W2' 123456789012345678901234
+R  R
+4  1   SAO    BLRE    TAMA    W
+1  2   LLS    LUYE    CAIA    D
+5  3   AOR    ETSM    AIND    I
+2  4   TMW    IIPL    NNLS    R
+6  5   HELYOIETIROWITDDDSOFTEOE
+3  6   YETDVTRAHNELNHEESLOPIRME
+7  7   WHOFEETTTSSEYGEMIEFTANED
+4  1     LLSD    RNTH    NHSY
+1  2     EIPW    TTHA    DESB
+5  3     EACA    BELE    EPRA
+2  4     MLKR    LDYR    AEOG
+
+Fig. 2-2, W2'
+
+OTP, One Time Pad, Decryption Step:
+
+Continuing, Arrange parts K4 like shown in Fig. 2-3:
+
+1 OBKRUOXOGHULBSOLIFBBW
+2 FLRVQQPRNGKSSOTWTQSJQ
+3 SSEKZZWATJKLUDIAWINFB
+4 NYPVTTMZFPKWGD
+5 KZXTJCDIGKUHUAUEKCAR
+
+Fig 2-3., K4'
+
+The characters of the lines marked with # in K4' will not be used.
+Take Row 1 of K4' and Row 3, Columns 4 to 23 of W1' and apply the OTP decryption algorithm, as before in part 1, for the resulting plain text:
+
+K4' R1 OBKRUOXOGHULBSOLIFBBW
+W1' R3 EACAETSMBELEAINDEPRAI
+       ---------------------
+       QRLQDRMGOPTSRLFATCARB
+
+And Take Row 4 of K4' and Row 2, Columns 2 to 14 of W1' and apply the OTP for the resulting plain text:
+
+K4' R4 NYPVTTMZFPKWGD
+W1' R2 LLSEIPWLUYETTH
+       -------------
+       YEWEIRUBLRINCV
+
+And Take Row 3 of K4' and Row 1, Columns 3 to 23 of W1' and apply the OTP for the resulting plain text:
+
+K4' R3 SSEKZZWATJKLUDIAWINFB
+W1' R1 OLLSDBLRERNTHTAMANHSY
+       ---------------------
+       RIQQILSSNIAGASBIJVOSS
+
+And Take Row 5 of K4' and Row 7, Columns 2 to 20 of W2' and apply the OTP for the resulting plain text:
+
+K4' R5 KZXTJCDIGKUHUAUEKCAR
+W2' R7 WHOFEETTTSSEYGEMIEFT
+       -------------------
+       PENMOXSECQIPNQDNEXUW
+ 
+The plain text is backwards so arrange as in P2 shown in Fig. 2-4.
+
+1     BRACTAFLRSTPOGMRDQLRQ VCNIRLBURIEWEY
+2     SSOVJIBSAGAINSSLIQQIR WUXENDQNPIQCESXOMNEP
+
+Fig. 2-4, P2
+
+Misspellings Step:
+
+Guess the misspellings as follows in Fig 2-5.  The rows labeled with MISS are the rows of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  The rows labeled with P2 are  the plaintext row from the OTP step.  The rows labeled with W2 are the row from the pad text and shows the corresponding pad letter where the misspelling occurred in the plaintext.
+           
+               2         1               2         1 
+           432109876543210987654321  432109876543210987654321
+
+MP2-1           O  A  L  A                     S  T       D
+P2-R1      BRACTAFLRSTPOGMRDQLRQ               VCNIRLBURIEWEY
+W2-M1           D  A  E  S                     H  E       S
+			
+MP2-2          S  M       T   E          C      H  E     O  	 
+P1-R2       SSOVJIBSAGAINSSLIQQIR        WUXENDQNPIQCESXOMNEP
+W2-M2          N  A       L   S          T      Y  S     F
+
+Which gives us PC2, as shown in Fig 2-5.
+
+      BRACTOFLASTLOGARDQLRQ SCNTRLBURIEDEY
+      SSOSJIMSAGAINSTLIEQIR CUXENDQHPIECESXOONEP
+
+Fig 2-5, PT2
+
+Or maybe as follows:
+
+Misspellings:
+
+Let us look at the misspellings letters as in Fig 2-6.
+
+               2         1               2         1 
+           432109876543210987654321  432109876543210987654321
+
+MP2-1           O  A  L  A                     S  T       D
+MP2-2          S  M       T   E          C      H  E     O 
+
+Fig 2-6, PTM      
+
+Reading the letters across from left to right for MP2-1 and then left to right again for MP2-2 we get:
+
+PA    OALASTDSMTECHEO 
+
+Then reading down from right to left we get:
+
+PD    DOETHSCETALAMOS
+
+
+Let us also look at the pad letters where the misspellings occurred as in Fig 2-7, WM.
+
+               2         1               2         1 
+           432109876543210987654321  432109876543210987654321
+
+W2-M             D  A  E  S                     H  E       S
+W2-M2           N  A       L   S          T      Y  S     F
+
+Fig 2-7, PTM     
+
+Reading across starting with W2-M2 reading right to left then W2-M1 left to right we get:
+
+WA    FSYTSLANDAESHES
+
+then reading down from left to right we get:
+
+WD    NDAAESLSTHYESFS
+
+
+Part 2.1 - Another One
+
+In part one, an algorithm was given for OTP decryption.  Here we will give the corresponding algorithm for OTP encryption.
+
+Assign to each letter of the Kryptos alphabet a number as shown in Fig. 1-6:
+
+Then, for a letter of the plaintext and a letter of the pad, add the numbers corresponding to the letters.  If the resulting number greater than 25, subtract 26 from it.  Take the resulting number and find its corresponding letter.  That letter is the letter of the ciphertext.
+
+Examples:
+plaintext  => BE....
+pad        => EL....
+--------------------
+plaintext  => NY....
+
+Example 1:
+step 1:
+B => 8
+E => 11
+
+step 2:
+8 + 11 = 19
+
+19 => N
+plaintext => N
+
+Example 2:
+step 1:
+E => 11
+L => 17
+
+step 2:
+11 + 17 = 28
+
+step 3:
+28 - 26 = 2
+
+2 => Y
+plaintext => Y
+
+And Take Row 2 of K4' and Row 6, Columns 1 to 21 of W2' and apply the OTP encryption algorithm for the resulting ciphertext:
+
+K4' R2 FLRVQQPRNGKSSOTWTQSJQ
+W2' R6 YETDVTRAHNELNHEESLOPI
+       ---------------------
+       HYOSJXTBASEWZNIBDEENC
+
+
+The text is in reverse with misspellings (note at column 7 the letters: T BASE).  Guess the misspellings as follows in Fig 2-8.  
+
+MP3    I       S   T       
+P3     CNEEDBINZWESABTXJSOYH           
+W2     I       N   H
+
+which gives us, after adding the ? (the ? starting the letters of K4):
+      
+      INEEDBINSWESTBTXJSOYH?
+
+Fig. 2-8 PT3M
+
+Reading off the letters across left to right, MP3 and then W2 we get
+
+       IST
+       INH
+
+Interpretations:
+
+
+      BRACTOFLASTLOGARDQLRQ SCNTRLBURIEDEY
+      SSOSJIMSAGAINSTLIEQIR CUXENDQHPIECESXOONEP
+
+
+      OALASTDSMTECHEO
+      DOETHSCETALAMOS
+      
+      FSYTSLANDAESHES
+      NDAAESLSTHYESFS
+
+      INEEDBINSWESTBTXJSOYH
+      
+      IST
+      INH
+
+Or maybe as follows:
+
+     BR ACT OF LAST LOG A RD Q S CNTR L BURIED EYS
+     SOS JIM S AGAINST LIE Q I RC U X END Q H PIECES X O ONE P
+
+Perhaps in a little better English:
+
+Brother* act of last log a riddle? S center L* buried EY's
+SOS Jim S. against lie? I receive you, ten, End? H* pieces X O one piece
+
+* Brother might be B R or "Berlin our"
+* S might mean "secret" or it might be referring to the main sculpture of Kryptos itself which is in the form of an S.  CNTRL might be "center L" or CNTRL for control.  If the former, L might refer to the log (or the other log, as in book - the bench) or maybe its short for lake, referring to the small pond.  Or it might even refer to the lake between the two stones with the morse code on them.  
+* H might mean 11 - being the closest letter that looks like 11.
+
+
+The misspellings form some sort of punning riddle:  Perhapes
+
+      O A LAST DS MT ECHEO
+      DOETH S CE T ALAMOS
+      
+      F SYTS L AN DAESHES
+      NDAAES LST HYES FS
+
+Perhaps in a little better English:
+
+      O' a last devil's mountain ech-e-o
+      Doeth S see T alamo's 
+	
+      F site's L and dashes
+      Nada-s lost his 
+	- FS
+
+Note the AES: D-AES-HES and NDA-AES,
+and note HYES and HES of dashes
+
+Are some AES keys to be found?
+  
+The last part might be:
+
+     I NEED BINS WEST B TX JS O Y H?
+     IS TIN H
+
+Again, perhaps in a little better English:
+
+     I need bin's west berlin text, Jim S.  Oh, why H?
+     Is ten H
+
+     "bin's might refer to JKF's "Ich bin ein Berliner" speech.
+     Why H?  H is the initial of Jim's first name, Herbert,
+     or maybe H is like EEEE in morse code (H = EEEE, S = EEE, I = EE and, of course, E = E),
+     or maybe H is the letter that most looks like 11 (and 11, in binary, is 3).
+     ????
+
+     or maybe H is for hex so h10 is 16
+     part 1 -> W1, W2 + 4 M's
+     part 2 -> W1', W2' + 4 M's,
+     part 3 -> 1 + 2 M's
+     and ?
+     --------------------------
+     is 16?

@@ -1,0 +1,217 @@
+[[page 1]]
+Kent Ramliden: The Fifty-five Year Journey of Venona Message No: 3/NBF/T1463 
+On 28 November 1941 the Soviet Military Intelligence  (GRU) Station in Stockholm, Sweden sent yet one 
+more message to Moscow Centre from its astonishingly well informed source known only as "K". This 
+time it contained the weekly updates of casualty and related figures in the German units, and their 
+Finnish allies, fighting the Red Army on the northern front.  The message was very detailed, obviously 
+based on an inside source with very good access, and we can all read  it now because in 1996 the NSA 
+released the message to the public as Ref No: 3/NBF/T1463 (T1463),  part of Venona tranche number 
+five. It turns out that the message was in all likelihood created a day or two before 11/28/1941, in a 
+different place and language, and by the time of the NSA publication, it had been through at least six 
+countries, been intercepted at least twice in a minimum of two languages, encrypted twice, once in an 
+alphanumeric machine cipher and once in a code superenciphered with one-time pads. It had been 
+broken cryptanalytically by two countries (one of which partially) and stolen by a spy working for a third. 
+Despite the fact that we now only have the English translation of the final fragmented decryption 
+available, it has been possible to reasonably trace the message via research into the various intelligence 
+operations launched by Sweden, The Soviet Union and the UK/USA against the original German 
+message. Here is the journey of an encrypted message from World War II. 
+On June 22, 1941 Germany attacked the Soviet Union, and almost immediately Finland signed on with 
+the Germans hoping to take back territory lost to the USSR in the Winter War of 1939-40. Throughout 
+the fall of 1941 strenuous, though unsuccessful, efforts were made to break through the Russian lines 
+and take control of the strategic railroad running from Murmansk south toward the Russian heartlands, 
+on which nearly all Allied relief supplies ran. In charge of the German northern front was Army HQ 
+Norway (AOK Norwegen) which made heavy use of Finnish, Norwegian and Swedish telephone lines for 
+their communications, and the message in question was part of the normal updates  sent to Berlin HQ 
+(OKW).  These HQ-to-HQ messages were encrypted, generally with a high level German cipher machine 
+known as the Geheimschreiber, (at Bletchley Park known as Tunny), more complicated than the Enigma. 
+The fact that the traffic was travelling on land lines, out of reach of the big Allied intelligence services, 
+made the Germans extra sure that their communications through Sweden were secure. They were 
+wrong about that.  
+Small, but extremely capable, the Swedish Signals Intelligence organization FRA (predecessor)had 
+broken the Geheimschreiber already in the summer of 1940 through the efforts of mathematician Arne 
+Beurling. This man later got Einstein's old office at Princeton University. FRA had access to everything 
+that ran on the telephone lines and much of what flew through the ether. So our message in question 
+was generated and encrypted by the Germans in Northern Finland, likely on 27 November 1941. On its 
+way south to the German High Command (OKW) in Berlin it was intercepted by the Swedes who 
+immediately started decrypting it. By this time their Geheimschreiber decrypting process was so fast 
+that they often knew the contents before the Germans. The FRA then used a decidedly low tech report 
+distribution approach. They put the decrypts into a secure briefcase where only the FRA and the 
+relevant recipient, in this case the Swedish Army HQ, had keys. They then sent the reports by a special 
+courier off to deliver the briefcase contents. The Swedes considered this to be an efficient and 
+completely secure method of report distribution. They were wrong about that.  
+
+[[page 2]]
+ 
+By 1941 the Soviet GRU had constructed a variety of agent nets targeting the German sea and railroad 
+transport and communications arrangements through Sweden, and the key FRA courier, Allan Nyblad, 
+worked for the GRU. Source "K" is listed as "Unidentified" in Venona T1463. Perhaps that really was the 
+case at the GCHQ or NSA when this Venona message was solved, though that seems hard to believe, or 
+perhaps it was just a gesture of some sort. Venona itself leaves little doubt about what kind of source 
+"K" was. This fabulous GRU Stockholm source provided reports on a wide range of topics from transport 
+shipping, to what is happening in the battlefields of Crimea, to the structure of small Finnish army units 
+and what the Finns are building in the town of Kemi, to the German casualty reports by category by unit 
+on the Northern front, and confirmation to the Russians that the Swedes were decrypting the messages 
+of the Northern Russian fleet, etc., was of course nothing less than a major sigint source. This can be 
+reasonably suspected already via an examination of other Venona telegrams from source "K", though a 
+key source in Swedish Military HQ might have had the same kind of access in a secondary sense: 
+Number 
+Date 
+Area/Region Covered 
+Message Content Summary 
+883/41 
+25 Aug. 41 
+Shipping (Baltic?) 
+Re: German transport ships Würzburg and Urundi 
+884/41 
+25 Aug. 41 
+Naval? 
+Re: Karlskrona, is either the Swedish Navy base or the 
+destroyer J8, also named Karlskrona. 
+908/41 
+28 Aug. 41 
+Denmark-Sweden straits 
+Communications Helsingör-Helsingborg and Copenhagen-
+Malmö. 
+914/41 
+29 Aug. 41 
+Unknown 
+Unclear 
+1404/41 
+21 Nov. 41 
+Kemi, Finnish town in 
+Gulf of Bothnia 
+Some type of production is being organized by the Finns 
+there. 
+1456/41 
+28 Nov. 41 
+Northern front (Polar, 
+Salla, etc.) 
+Casualty, etc report on German and Finnish Army units in the 
+region from front HQ to OKW (German General Staff) in 
+Berlin 
+1546/41 
+10 Dec. 41 
+Kerch, Crimea 
+Mentions 1 Tank Army 
+1564/41 
+12 Dec. 41 
+Stockholm and Finland 
+Sigint./Army deployments. Mentions DF activity against USSR 
+northern fleet, Swedes decrypting Russian cipher traffic, and 
+provides a list of German divisions in Finland. 
+203/42 
+30 Jan. 42 
+Germany 
+A message concerning  OKH the German Army High 
+Command. Last message containing "K" (and a link to KARL) 
+520/42?¹ 
+18 Mar. 42 
+Sweden 
+Covername KARL in HOSPITAL (=Prison) 
+ 
+Two relatively recent Swedish sources further assist in pinpointing Source "K". A particularly thorough 
+review of the case was done by Wilhem Agrell, Professor in Intelligence Studies at Lund University (X). 
+He unambiguously concluded that "K" matched the information provided in the interrogation records of 
+the  brothers Knut (Code Name EDGAR) and Allan Nyblad (9), one of  whom  was a courier at FRA and 
+then obtained a duplicate key that could open the secure FRA briefcases. Bengt Beckman, a former FRA 
+official also mentions the Nyblad case. (Y) 
+The brothers worked together and took out and photographed the contents in quick 10-15 minute 
+working sessions on each courier delivery run. Then they handed over the film to Ivanov who gave it to 
+Colonel N.I. Nikitushev of the GRU, cover name AKASTO, usually on the same day. And as quickly as 
+possible the GRU encrypted the content in code sheets superencrypted with one-time pads and sent 
+
+[[page 3]]
+them off to Moscow via radiotelegraphy. Very likely GRU Headquarters in Khodinka outside Moscow had 
+the accounting of German losses not much later than OKW did in Berlin, or Swedish Army HQ in 
+Stockholm. The GRU did not even bother breaking "K" up into several cryptonyms to hide the rather 
+significant  hints at a major sigint source, that's how secure they considered the one-time pad system. In 
+fact, "K" was short for KARL, and it is probably not a coincidence that the courier worked out of an FRA 
+building in Stockholm known as "KARLBO" . So they really must have thought this was all completely 
+secure. They were wrong about that. 
+Late in 1959the NSA and GCHQ were scrounging around  to obtain encrypted Russian messages from the 
+1940s that could be tested to see if they contained any of the reused one-time pad indicator numbers 
+that would allow more messages to be "put in depth", and more text thus available to create solutions. 
+In connection with this it was learned that the Swedes had intercepted quite a large number of Russian 
+messages during World War II and kept them. They had also kept the messages sent via the 
+radiotelegraphy of the Swedish PTT. So a deal was cut in which the Swedish messages were turned over 
+to the GCHQ in return for a promise to get any solved content. Over the next 15 years the GCHQ and the 
+NSA labored away on these messages and during some warm summer days in 1962 they managed to 
+produce some breakthroughs in messages from 1941, including the 28th of November, that they 
+possibly believed the Swedes would find extremely interesting. Evidence of a major sigint leak during 
+the war.   
+By the time T1463 made its way back to Sweden in the final solved form sometime in the summer of 
+1962, it was about twenty years since the men behind the cryptonym "K" had been arrested and 
+eventually convicted of the espionage at FRA. Aside from their confessions, and the astonishing range 
+and depth of  messages from "K", the very existence of the sources in the Venona "K" material match 
+exactly their brief period of activity in 1941, and stops abruptly when the brother who was the courier 
+was arrested in January, 1942. Later confirmed by message 520/42 to be "in hospital", GRU code for 
+prison. Perhaps you think the arrest was the result of a long, painstaking and occasionally brilliant 
+counterintelligence operation? It was not. He was arrested for performing  illegal abortions, one of 
+which  went terribly wrong. When the GRU via the other brother tried to recruit a new courier, the 
+attempt was reported and the whole thing unraveled during the criminal investigation that followed.  
+But the message was back again in Stockholm by mid-1962. Twenty plus years after they first decrypted 
+the whole message, in the original German, likely even before the Germans in Berlin, the  FRA got it 
+back, fragments of it solved again. This time by the British working from Russian text. By then it had also 
+no doubt been to the United States. And that's where it sits now, for all to see. Well traveled. Many 
+hours of work dedicated to it. Twice encrypted, twice decrypted. Twice broken by cryptanalysis, and 
+once stolen by spies. Translated at least twice and perhaps three times. Not bad for a routine casualty 
+message from AOK Norwegen. 
+ Venona, as I am sure you know, was an extremely secretive project at first known only to select 
+individuals in US and UK sigint and counterintelligence organizations. President Truman was not 
+informed and neither was the CIA until 1952. The only other organization that was well informed about 
+the project already by 1945 was the KGB. 
+
+[[page 4]]
+Background Material/Handout along with presentation at 
+ 
+T1463 below 
+USSR Ref. No: 3/NBF/T1463 
+Issued: 27/6/1962 
+Copy No: 201 
+"K's" INFORMATION: REPORT ON CERTAIN GERMAN AND FINNISH FORCES (1941) 
+From: STOCKHOLM 
+To: MOSCOW 
+No: 1456, 1457 28 Nov. 41 
+[Two-Part Message Complete] 
+[Part 1] To NORTHERN[SEVERNYJ].[i] 
+According to information from "K":[ii] 
+ 
+1. [2 groups unrecovered] northern front [1 group unrecovered] AOK NORWAY[ii 
+from [1 group unrecovered] to [1 group unrecovered]: 
+XXXVI Army Corps[AK] [2 groups unrecovered] no information. 
+169 Infantry Division - 13, 3, 48, 185. 
+SS "NORD"[iv] - 53, [2 grps. 152, 26. 
+unrec.] 
+3 Mountain Division - 0, 19, 52, [1 grp. 
+unrec.] 
+2 Mountain Division - 0, 0, 9, 560. 
+[2 groups - [1 grp. 2, 193, 47. 
+unrecovered] Division. unrec.] 
+163 Infantry Division - [1 grp. 0, 27, 410. 
+unrec.] 
+6 Finnish Infantry Division - 2, 0, 27, 165,[a 
+Finnish Army Corps[AK] ([2 grps. - 135, 0, 614, 961. 
+unrecovered]) - 
+Distribution [Continued overleaf 2 3/NBF/T1463 
+(The first figure [1 group unrecovered] killed, the second missing, the 
+third wounded, the fourth sick). 
+[63 groups unrecovered] 
+([1 group unrecovered]) 124 north of KEMI. 4 
+[62 groups unrecovered] 
+[Part II] 
+[73 groups unrecovered] 
+...STER 
+[73 groups unrecovered] 
+[57 groups unrecoverable] 
+No. 471 AKASTO[v] 
+Notes: [a] Or : 265 
+Comments: [i] NORTHERN : MOSCOW addressee, so far only occurring in 
+messages sent in the STOCKHOLM lane. 
+[ii] K : Unidentified. 
+[iii] AOK NORWAY: German Army Headquarters in NORWAY 
+(Armeeoberkommando). 
+[iv] SS "NORD" : The name of an SS division in the German Army. 
+[v] AKASTO : Probably Col. N.I. NIKITUShEV, Soviet Military 
+Attache in STOCKHOLM 1939-1945. 
+ 
+ 

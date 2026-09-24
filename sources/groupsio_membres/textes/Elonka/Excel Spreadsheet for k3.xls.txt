@@ -1,0 +1,75 @@
+David Otterson                                                                                               B
+LJu08
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+"Yes";"Yes";"No"
+"True";"True";"False"
+"On";"On";"Off"
+0.0000
+0.000000000
+0.000
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+Part 3 simple
+Periodicity
+Begin odds
+Begin Evens
+MbP?_
+PRIVB0
+David Otterson
+David Otterson
+Microsoft Excel
+STT,Inc
+Part 3 simple
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial
+-2]\ #,##0.00_);[Red]\([$
+-2]\ #,##0.00\)
+Apple LaserWriter_Pro 810
+bbbbbbbbbbbbbbbbbbbbbbbbbb
+ssss
+ssssssssssssssssssssssss
+ssssssssssssssssssssssssss
+ssss
+ssssssssssssssssssssssssss
+ssssssssssssssssssssssssss
+ssss
+ssssssssssssssssssssssssss
+ssssssssssssssssssssssssss
+ssss
+ssssssssssssssssssssssssss
+ssssssssssssssssssssssssss
+ssss
+sssssssssssss}}}}}}}ssssss
+yFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFwFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFwFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFwFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFwFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFwFFFFFFFFFFFFFFFFHFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFF
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

@@ -1,0 +1,522 @@
+[[page 1]]
+Index
+Plaintext [P]
+Key [K]
+Ciphertext [C]
+Rule
+Rule or Rule confirmation
+Confirmation
+1
+W
+S
+O
+Where [K]=S, S =8] ([C]+[K]=[P])
+2
+E
+X
+B
+Where [P] = E (K=X) = [C=B]
+3
+A
+K
+K
+Where [P] = A ([K] = [C])
+Where [K=K, K= -10] ([C]-[K]=[P])
+****see R32
+4
+R
+A
+R
+Where [K=A], A=0 ([P]=[C])
+5
+E
+Q
+U
+Where [K=Q, Q=10] ([C]+[Q]=[P])
+***see R5
+6
+I
+G
+O
+Where [K=G, G= -6] ([C]-[K]=[P])
+7
+N
+K
+X
+Where [P] = A ([K] = [C])
+8
+T
+V
+O
+Where [K=V, V=5] ([C]+[K]={P])
+9
+H
+Z
+G
+Where [K=Z, Z=+1] ([C]+[K]=[P]
+10
+E
+D
+H
+Where [K=D, D= -3] ([C]+[N]=[P])
+11
+G
+O
+U
+Where [K=O, O =12] ([C]=[K+[P])
+12
+R
+U
+L
+Where [K=U, U=6] ([C]+[K]=[P])
+13
+I
+T
+B
+Where [K=T, T= 7] ([C]+[K] = [P]
+14
+D
+P
+S
+Where [K=P, P =11] ([C]+[K]=[P])
+15
+S
+W
+O
+4 Where [K=W, W=4] ([C]+[K]=[P])
+16
+E
+H
+L
+Where [K=H, H= -7] ([C]+[N]=[P])
+17
+E
+E
+I
+Where [K=E, E= -4] ([C]-[K]=[P])
+18
+T
+M
+F
+Where [K=M, M= -12] ([C]-[K]=[P]
+19
+H
+U
+B
+Where [K=U, U=6] ([C]+[K]=[P])
+20
+E
+X
+B
+Where [P] = E (K=X) = [C=B]
+21
+N
+J
+W
+Where [[K]=J, J= -9] ([C]-[K]=[P])
+22
+E
+B
+F
+Where [K=B, B= -1] ([C]+[K]=[B]
+**see R62
+23
+A
+L
+L
+Where [P] = A ([K] = [C])
+Where [K=L, L= -11] ([C]-[K]=[P])
+24
+S
+Z
+R
+Where [K=Z, Z=+1] ([C]+[K]=[P]
+25
+T
+C
+V
+Where [K=C, C= -2] ([C]-[K]=[P]
+26
+N
+D
+Q
+Where [K=D, D= -3] ([C]-[K]=[P]
+27
+O
+C
+Q
+Where [K=C, C= -2] ([C]-[K]=[P]
+28
+R
+Y
+P
+Where [K=Y, Y= +2] ([C]+[K]=[P])
+29
+T
+Y
+R
+Where [K=Y, Y= +2] ([C]+[K]=[P])
+30
+H
+G
+N
+Where [K=G, G= -6] ([C]-[K]=[P])
+31
+E
+C
+G
+Where [K=C, C= -2] ([C]-[K]=[P]
+32
+A
+K
+K
+Where [P] = A ([K] = [C])
+Where [K=K, K= -10] ([C]-[K]=[P])
+****see R3
+33
+S
+A
+S
+Where [K=A], A=0 ([C]=[P])
+34
+T
+Z
+S
+Where [K=Z, Z=+1] ([C]+[K]=[P]
+35
+A
+O
+O
+Where [P] = A ([K] = [C])
+Where [K=O, O =12] ([C]=[K+[P])
+36
+N
+G
+T
+Where [K=G, G= -6] ([C]-[K]=[P])
+37
+D
+T
+W
+Where [K=T, T= 7] ([C]+[K] = [P]
+38
+W
+X
+T
+Where [P] = E (K=X) = [C=B]
+39
+E
+M
+Q
+Where [K=M, M= -12] ([C]-[K]=[P]
+*****see R42
+40
+A
+S
+S
+Where [P] = A ([K] = [C])
+Where [K]=S, S =8] ([C]+[K]=[P])
+***see R41
+41
+R
+S
+J
+Where [K]=S, S =8] ([C]+[K]=[P])
+***see R40
+42
+E
+M
+Q
+Where [K=M, M= -12] ([C]-[K]=[P]
+*****see R42
+43
+B
+R
+S
+Where [K=R, R=9] ([C]+[K]=[P])
+44
+Y
+U
+S
+Where [K=U, U=6] ([C]+[K]=[P])
+45
+T
+L
+E
+Where [K=L, L= -11] ([C]-[K]=[P])
+46
+H
+D
+K
+Where [K=D, D= -3] ([C]-[K]=[P]
+47
+E
+V
+Z
+Where [K=V, V=5] ([C]+[K]={P])
+48
+L
+O
+Z
+Where [K=O, O =12] ([C]=[K+[P])
+49
+I
+O
+W
+Where [K=O, O =12] ([C]=[K+[P])
+50
+N
+N
+A
+Where [K=N, N=13] ([C]+[N]=[P])
+51
+E
+P
+T
+Where [K=P, P =11] ([C]+[K]=[P])
+1
+
+[[page 2]]
+52
+T
+Q
+J
+Where [K=Q, Q=9] ([C]+[Q]=[P])
+53
+O
+W
+K
+4 Where [K=W, W=4] ([C]+[K]=[P])
+54
+S
+T
+L
+Where [K=T, T=7] ([C]+[N]=[P])
+55
+E
+Q
+U
+Where [K=Q, Q=10] ([C]+[Q]=[P])
+***see R55
+56
+E
+Z
+D
+Where [K=Z, Z=+1] ([C]+[K]=[P]
+57
+B
+H
+I
+Where [K=H, H= -7] ([C]+[N]=[P])
+58
+E
+W
+A
+4 Where [K=W, W=4] ([C]+[K]=[P])
+59
+T
+D
+W
+Where [K=D, D= -3] ([C]-[K]=[P]
+***see R75
+60
+W
+M
+I
+Where [K=M, M= -12] ([C]-[K]=[P]
+61
+E
+J
+N
+Where [[K]=J, J= -9] ([C]-[K]=[P])
+62
+E
+B
+F
+Where [K=B, B= -1] ([C]+[K]=[B]
+**see R22
+63
+N
+O
+B
+Where [K=O, O =12] ([C]=[K+[P])
+64
+B
+M
+N
+Where [K=M, M= -12] ([C]-[K]=[P]
+65
+E
+U
+Y
+Where [K=U, U=6] ([C]+[K]=[P])
+66
+R
+Y
+P
+Where [K=Y, Y= +2] ([C]+[K]=[P])
+67
+L
+K
+V
+>>>>>
+Where [K=K, K= -10] ([C]-[K]=[P])
+68
+I
+L
+T
+Where [K=L, L= -11] ([C]-[K]=[P])
+69
+N
+G
+T
+Where [K=G, G= -6] ([C]-[K]=[P])
+70
+C
+K
+M
+>>>>>>
+Where [K=K, K= -10] ([C]-[K]=[P])
+71
+L
+O
+Z
+Where [K=O, O =12] ([C]=[K+[P])
+72
+O
+R
+F
+Where [K=R, R=9] ([C]+[K]=[P])
+73
+C
+N
+P
+Where [K=N, N=13] ([C]+[N]=[P])
+74
+K
+A
+K
+Where [K=A], A=0 ([P]=[C])
+75
+T
+D
+W
+Where [K=D, D= -3] ([C]-[K]=[P]
+***see R59
+76
+H
+Z
+G
+Where [K=Z, Z=+1] ([C]+[K]=[P]
+77
+E
+Z
+D
+Where [K=Z, Z=+1] ([C]+[K]=[P]
+78
+J
+B
+K
+Where [K=B, B= -1] ([C]+[K]=[B]
+79
+O
+L
+Z
+Where [K=L, L= -11] ([C]-[K]=[P])
+80
+Y
+Z
+X
+Where [K=Z, Z=+1] ([C]+[K]=[P]
+81
+O
+F
+T
+Where [[K]=F, F= -5] ([C]-[K]=[P])
+82
+F
+E
+J
+Where [K=E, E= -4] ([C]-[K]=[P])
+83
+A
+C
+C
+Where [P] = A ([K] = [C])
+Where [K=C, C= -2] ([C]-[K]=[P]
+*see R95
+84
+N
+Q
+D
+Where [K=Q, Q=9] ([C]+[Q]=[P])
+85
+A
+I
+I
+Where [P] = A ([K] = [C])
+Where [K=I, I= -7] ([C]-[K]=[P])
+86
+N
+T
+G
+Where [K=T, T= 7] ([C]+[K] = [P]
+87
+G
+E
+K
+Where [K=E, E= -4] ([C]-[K]=[P])
+88
+L
+J
+U
+Where [[K]=J, J= -9] ([C]-[K]=[P])
+89
+E
+D
+H
+Where [K=D, D= -3] ([C]-[K]=[P]
+90
+I
+M
+U
+Where [K=M, M= -12] ([C]-[K]=[P]
+91
+S
+I
+A
+>>>>>>
+Where [K=I, I= -7] ([C]-[K]=[P])
+92
+T
+B
+U
+Where [K=B, B= -1] ([C]+[K]=[B]
+93
+H
+X
+E
+Where [P] = E (K=X) = [C=B]
+94
+E
+G
+K
+Where [K=G, G= -6] ([C]-[K]=[P])
+95
+A
+C
+C
+Where [P] = A ([K] = [C])
+Where [K=C, C= -2] ([C]-[K]=[P]
+*see R84
+96
+R
+J
+A
+Where [[K]=J, J= -9] ([C]-[K]=[P])
+97
+C
+P
+R
+Where [K=P, P =11] ([C]+[K]=[P])
+2

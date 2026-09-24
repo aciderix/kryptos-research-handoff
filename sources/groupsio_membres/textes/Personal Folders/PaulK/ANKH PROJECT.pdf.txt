@@ -1,0 +1,315 @@
+[[page 1]]
+  C C S L R O H
+  H H Q W E I K
+  C Z K C T A N
+  C O G K Y H A
+  R Y P F Q N N
+  B V H U M O U
+  G R N M E H Z
+  Z C U J E K I
+  T H K G T C N
+  E B E V Y U U
+  P O R B Q K A
+  P E H Z M A U
+  X V Q E E Z H
+  P R B L U C K
+I was able to do ten steps beyond this with seemingly positive 
+outcomes, but there was an indicator in the ninth step (after this one), 
+that I saw later, to do something else. I performed the action and got a 
+distinct indicator to use a scytale. I was not able to come up with
+anything, possibly because I could not come up with the correct 
+number of characters per turn or maybe I had done (or not done) 
+something necessary early on. So I thought about the above result 
+that I got earlier. I was not able to do anything with it and I got positive 
+results after all following steps, so I ignored it. But now I am concerned 
+that a solution to this apparent puzzle needs to be accomplished 
+before I can get the scytale to produce something readable, though 
+I’m not sure I was rigorous enough in manipulating the strip when I
+tried it.
+Sanborn, in talking about K4, said something about having to deal with 
+smoke and mirrors along the way. This appears to be the smoke and 
+mirrors part.
+ANKH PROJECT
+WIDIA VERSION
+F
+
+[[page 2]]
+ANKH PROJECT
+WIDIA VERSION (Cont.)
+  C C S L R O H
+  H H Q W E I K
+  C Z K C T A N
+  C O G K Y H A
+  R Y P F Q N N
+  B V H U M O U
+  G R N M E H Z
+  Z C U J E K I
+  T H K G T C N
+  E B E V Y U U
+  P O R B Q K A
+  P E H Z M A U
+  X V Q E E Z H
+  P R B L U C K
+P R B L U C K
+X V Q E E Z H
+P E H Z M A U
+P O R B Q K A
+E B E V Y U U
+T H K G T C N
+Z C U J E K I
+G R N M E H Z
+B V H U M O U
+R Y P F Q N N
+C O G K Y H A
+C Z K C T A N
+H H Q W E I K
+C C S L R O H
+The seeming correspondences between letters in the
+upper seven rows with the “ﬂipped” bottom seven rows
+of columns 1 and 7, and to a lesser extent towards the
+middle column, have rows 8 through 14 as a mirror
+image of rows 1 through 7. Among other things, I tried
+a Quagmire III encrypt OTP substitution using the 
+ﬂipped version as keyword against the original version 
+as CT.
+             CT                                          Key
+The resulting PT is on the next page.
+F
+
+[[page 3]]
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+ANKH PROJECT
+WIDIA VERSION (Cont.)
+The OTP substitution described on the preceding  page
+resulted in this:
+
+[[page 4]]
+ANKH PROJECT
+WIDIA VERSION (Cont.)
+Let’s do it sideways (the cipher I mean).
+  C C S L R O H
+  H H Q W E I K
+  C Z K C T A N
+  C O G K Y H A
+  R Y P F Q N N
+  B V H U M O U
+  G R N M E H Z
+  Z C U J E K I
+  T H K G T C N
+  E B E V Y U U
+  P O R B Q K A
+  P E H Z M A U
+  X V Q E E Z H
+  P R B L U C K
+H O R L S C C 
+K I E W Q H H 
+N A T C K Z C
+A H Y K G O C
+N N Q F P Y R
+U O M U H V B
+Z H E M N R G
+I K E J U C Z
+N C T G K H T
+U U Y V E B E
+A K Q B R O P
+U A M Z H E P
+H Z E E Q V X
+K C U L B R P
+CT                                          Key
+  W H A B A H W
+  H P O Q O P H
+  Y S T M T S Y
+  J N I K I N J
+  Q U W X W U Q
+  P R S J S R P
+  F I T D T I F
+  H C S S S C H
+  W W T K T W W
+  S P G M G P S
+  D O U J U O D
+  X M S X S M X
+  F U O V O U F
+  P D P B P D P
+We get:
+F
+
+[[page 5]]
+Now doing the same
+but without the change
+from DIAWI to WIDIA
+made at the outset...
+
+[[page 6]]
+ANKH PROJECT
+DIAWI VERSION
+This is what would appear at the same point if I had not 
+transposed DIAWI to WIDIA.  The characters in yellow
+boxes are the ones changed in the WIDIA version due
+to the transposition. I used the WIDIA version to complete
+the steps that then followed. But now there is a question 
+about whether I should have done the transposition of 
+DIAWI to WIDIA. So, here I will do a Quagmire III 
+substitution encrypt using the above version as CT and its 
+ﬂipped version as keyword.
+See next page.
+C C S L R O H
+H H Q W E I K
+C Z K C T A N
+C O G K Y H A
+R Y P F Q N N
+Y V A H F O U
+G R N M E H Z
+Z C U J E K I
+D H A Q D C N
+E B E V Y U U
+P O R B Q K A
+P E H Z M A U
+X V Q E E Z H
+P R B L U C K
+F
+
+[[page 7]]
+C C S L R O H
+H H Q W E I K
+C Z K C T A N
+C O G K Y H A
+R Y P F Q N N
+Y V A H F O U
+G R N M E H Z
+Z C U J E K I
+D H A Q D C N
+E B E V Y U U
+P O R B Q K A
+P E H Z M A U
+X V Q E E Z H
+P R B L U C K
+P R B L U C K
+X V Q E E Z H
+P E H Z M A U
+P O R B Q K A
+E B E V Y U U
+D H A Q D C N
+Z C U J E K I
+G R N M E H Z
+Y V A H F O U
+R Y P F Q N N
+C O G K Y H A
+C Z K C T A N
+H H Q W E I K
+C C S L R O H
+ CT                                          Key
+ANKH PROJECT
+DIAWI VERSION (Cont.)
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+F D H B V H H
+The result is that I get exactly the same thing as I got with
+the WIDIA transposition!
+F
+
+[[page 8]]
+Done sideways:
+ANKH PROJECT
+DIAWI VERSION (Cont.)
+C C S L R O H
+H H Q W E I K
+C Z K C T A N
+C O G K Y H A
+R Y P F Q N N
+Y V A H F O U
+G R N M E H Z
+Z C U J E K I
+D H A Q D C N
+E B E V Y U U
+P O R B Q K A
+P E H Z M A U
+X V Q E E Z H
+P R B L U C K
+H O R L S C C
+K I E W Q H H
+N A T C K Z C
+A H Y K G O C
+N N Q F P Y R
+U O F H A V Y
+Z H E M N R G
+I K E J U C Z
+N C D Q A H D
+U U Y V E B E
+A K Q B R O P
+U A M Z H E P
+H Z E E Q V X
+K C U L B R P
+ CT                                          Key
+W H A B A H W
+H P O Q O P H
+Y S T M T S Y
+J N I K I N J
+Q U W X W U Q
+W R N Y N R W
+F I T D T I F
+H C S S S C H
+P W L H L W P
+S P G M G P S
+D O U J U O D
+X M S X S M X
+F U O V O U F
+P D P B P D P
+We get:
+F
+
+[[page 9]]
+Essential comments:
+Since adding the Z to the front of K4, several steps have transpired.
+Clues or inferences led to each successive step. I used all three 
+keywords that were on my list to try. One of them led to clues that 
+resulted in changed text when I tried it and the other two resulted directly 
+in changed text.
+When I say several steps, I mean that I got through all steps because
+the clues I arrived at along the way were the same for both the WIDIA
+version and the DIAWI version. The clue to the scytale occurred as a
+result of an inference that appeared in the result of step “P” in both
+versions. It was not blatant, but I followed up on it. The resulting text,
+step “R”, had COIL in the bottom left corner, horizontally, GATE in the 
+bottom right corner, vertically, and EOF (end of ﬁle) in the upper left corner, 
+horizontally. So the scytale is going to be wound bottom to top, right to 
+left or right to left, bottom to top. 
+I took one other step (next from step “P”) by doing another 
+substitution inferred to by a comment Sanborn made in one of his 
+interviews. This particular step (”Q”) demonstrated to be correctly done by 
+easy analysis of the result. I used the K1 CT as the keyword. I think this
+step may be part of the K5 solution, as it does not seem to relate to the
+other goings on.
+So, now the question is, how do I apply this scytale thing? The letter
+frequencies after step sixteen do not support it being English. For 
+instance, there is only one E in the whole text. So, the scytale would
+not be used directly with the text after step sixteen. I am taking the
+scytale clues seriously as they point to a nearby solution. But, what
+to do with the result of step sixteen? 
+Because all of the pertinent clues and results are encountered in both
+streams WIDIA and DIAWI, including the fact that vertical mirror image
+OTPs of  “F” versions are identical, one has to conclude that both streams
+are necessary to arrive at a solution.

@@ -1,0 +1,155 @@
+[[page 1]]
+ 
+M6  Expanding the Matrix System 
+ 
+When in the M2 message we recovered the Original Matrix or plaintext matrix, which from 
+now on we will name the P matrix, we find BERLIN and two MERGE as important clues, in 
+addition to other curious clues such as SUPERMEN and TIE A FLEA, ELY, OIE, LAW and two 
+crossed HINTs. When in the M3 message we recovered the second matrix of the system or the 
+ciphertext matrix, which from now on we will name the C matrix, we saw as important clues 
+OHNNY NASH, I SEE, LINE BLUE, TEE between STONE and HARD SITE, two QUEENs with 
+mistakes and MATE. 
+The instructions or clues on how to build the new matrices, that Kryptos gives us, are many. 
+The most obvious is the duplicate MERGE instruction, horizontally and diagonally. MERGE is 
+the doorway that will lead us to new discoveries. Also Jim in his chart #1 shows us alternating P 
+and C vertically. One of the many interpretations of K1 can be: BETWEEN SUBTLE SHADING 
+(some light, plaintext) AND THE ABSCENCE OF LIGHT (no light, ciphertext). Finally, which game 
+has 2 QUEENs and MATE? Of course: CHESS with checkMATE. Once again Kryptos tells us how 
+to continue on our trail of doorways. 
+We will make two other matrices, as in a chessboard, merging the matrices P and C. In the 
+white squares (light) the plaintext and in the black squares (no light) the ciphertext. We will 
+name the matrix that has in column 1 row 1 plaintext, the P/C matrix. We will name the matrix 
+that has in column 1 row 1 ciphertext, the C/P matrix. It is as if we had made it on a 
+chessboard turned 90°. To facilitate reading and to be able to highlight the findings, I have left 
+all the squares white, the plaintext in blue and the ciphertext in black. The P/C matrix is as 
+follows: 
+ 
+
+[[page 2]]
+ 
+ 
+Many new words in correct English appear in the rows and columns of the P/C matrix. The 
+diagonals are the same as in matrices P and C. I am going to comment on some that I consider 
+important, but surely I have overlooked other valuable clues that you can find, in this and the 
+other matrices. The longest is THE GOD MAID. It refers to a character from the book The Flute 
+of the Gods (a novel about the Navajo people in times of Spanish rule) by Marah Ellis Ryan. 
+Will she be the prominent fiction writer Jim refers to in his letter to CIA employees? Then he 
+said that he is the author of all the plaintext. How many times have Jim and Ed mentioned the 
+Navajos or their language? Is it the Navajo language that Ed considered using in Kryptos and 
+then they agreed to make it English? The Petrified Tree Jim brought it from Arizona, a state 
+where most of the Navajo reservation is located. How many coincidences! I recommend taking 
+a look at chapter XXII “AT THE TRAIL’S END”. There is a DOORWAY as in K3. And phrases like 
+“Your trail is to the hills”, “Where the bluebird builds her nest”, “I build the nest for you, and 
+sing the bluebird song for you at the trail's end.” TRAIL, END, HILL, BLUE song, NEST. There is a 
+nest-shaped NEST in the P/C matrix. AIR and HOT also appear as in K3, and TEAR. Finally, the 
+mistake in DESPARATLY, the A in column 11 row 1 of SK is what causes the appearance of the 
+first A in NASA SEAL. We have found a logical explanation for the third intentional mistake! The 
+NASA insignia is known as the meatball. The NASA seal is as follows: 
+ 
+
+[[page 3]]
+                                                         
+ 
+ 
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION USA, 44 characters candidates for a 
+pseudo OTP? We will see that SPACE US appears later as possible plaintext for K4. In the next 
+column, next to SEAL we can read ALFA, it is the international phonetic code for the letter A. 
+ 
+Before moving on to the C/P matrix, we are going to comment on a finding made by member 
+Matt. His last posts were #9728 and #9729 in January 2010 (it seems like every time a member 
+finds something important related to Kryptos… this was his last message, just like WW). Matt 
+uploaded the file “AmICrazy.xls” to his personal folder (Mattylw’s folder). Matt drew on 
+previous work from Dan Ankuda. Dan arranged the plaintext K1, K2, and K3 in 21 columns and 
+then rotated it 90° clockwise. The matrix reads THE BALL (Reference to the NASA insignia?). In 
+his work Matt modifies Dan's matrix and finds that by doing fixed jumps, the following texts 
+are hidden: jump 29 YOU DID IT, jump 31 SECRET, jump 36 TESTING, jump 33 ONE and jump 16 
+DOOR. This doesn't just seem random, this is intentional, especially the first 3. In the M4 
+message we discussed how SECR appeared after a possible QUEEN. Then something will have 
+to be DONE and something will have to TEST. The C/P matrix is as follows: 
+ 
+
+[[page 4]]
+ 
+ 
+In the center of the C/P matrix appears BRIGHT misspelled (reminiscent of the Johnny Nash 
+song) in a cluster with ELY and OIE (again the keys of BERLIN). And in column 31 we can read a 
+new instruction: DO IT! (Let's remember the YOU DID IT from Matt's matrix). The O is for 
+XLAYERTWO, which confirms that in the matrix system, we must add the S in the ciphertext so 
+that XLAYERTWO appears in the plaintext. But what do we have to do? In the same column, 
+after DO IT is EBRSID, the debris of DEBRIS! DEBRIS appears in K3. And in NK in the same 
+column 31 is EIZNHT, the debris of ZENITH! Two anagrams. We will reorder the 6 rows of NK 5, 
+3, 6, 4, 8 and 7 (the order of ZENITH) and the 6 rows of SK 8, 3, 4, 5, 7 and 6 (the order of 
+DEBRIS). Let's not expect to see ZENITH and DEBRIS, as there are plaintext and ciphers that 
+switch between each other and between the P/C and C/P matrices. The new P matrix, having 
+passed through the ZENITH and DEBRIS doorways, is the following: 
+ 
+
+[[page 5]]
+ 
+ 
+In the new P matrix we see that FLAT, TEAM, TILTS, OIE, LOSE NAST, THE GATE (would that be 
+a reference to THE golden GATE, a confirmation that SAN FRANCISCO is a correct piece of K4 
+plaintext?) and LION appear. And if we aggregate K1 after K4 (following the ANTIPODES 
+instruction as we did in the M1 message) TANGO appears, which is the International phonetic 
+code for the letter T. OTEL also appears, which we will comment on in the corresponding C/P 
+matrix. The new C matrix is as follows: 
+ 
+
+[[page 6]]
+ 
+ 
+In the new C matrix we see that BAND appear, two crossed TEENs and STAR (a BAND of TEEN 
+STARs?), SEE TEST (do we see the first TEST that we are on the right path? Let's remember 
+TESTING of the Matt's matrix), APES, THREE (and a cluster of 3 other E pairs), FUMED and USA. 
+The new P/C matrix is as follows: 
+ 
+
+[[page 7]]
+ 
+ 
+In the new P/C matrix we see LENS, DENT, NOOK and what I think is the great doorway linked 
+to K5: THE PENNY RED UK. There are two PENNY RED, a USA coin and a UK postage stamp: 
+ 
+               
+ 
+ 
+In the new C matrix we have USA, and here, on the same diagonal as RED, we have UK. Also in 
+the new P matrix we have a LION, one of the symbols of the United Kingdom. Taking into 
+account all this, and from the clues and evidence that appear later, I think that the final 
+doorway is the postage stamp, successor to the PENNY BLACK, the world's first postage stamp. 
+In it we can see POSTAGE at the top. The image of QUEEN VICTORIA in the center. ONE PENNY 
+at the bottom. The letters in the corners identify the column and row of the stamp location on 
+the printed sheet. In the NW and SE corners the column appears, which varies from A to L (12 
+columns). In the NE and SW corners the row appears, which varies from A to T (20 rows). The 
+
+[[page 8]]
+example stamp occupied column 1 and row 2 on the printed sheet. In the first impressions of 
+THE PENNY RED, there were no letters in the upper corners but two stars. We have STAR in the 
+new C matrix. Each row was worth 1 shilling and the entire sheet 1 sterling pound. As we 
+assumed, a QUEEN is linked to Kryptos, none other than the “Grandmother of Europe”. One 
+possibility is that RQ in K0 (Red Queen) and CAN YOU SEE ANYTHING Q? in K3, they refer to 
+Queen Victoria. In this case on the edges, between the height of the eyes and the mouth, is 
+the number of the printing plate. In the example we can see 77, one of the rarest plates and 
+therefore one of the most valuable. Finally, the new C/P matrix is the following: 
+ 
+ 
+ 
+In the new C/P matrix we see that SET HANDS appears (the first reference we find to a 
+CLOCK!). Finally, three very particular words appear again, with the pattern of being seen here 
+without their first letter. ELTA in column 3, OTEL and ANGO that we already saw in the new P 
+matrix. DELTA and HOTEL, like ALFA and TANGO, make up the select group of 26 words, unique 
+in the world, of the international phonetic code, in which DELTA is D and HOTEL is H. They are 
+three words of the phonetic code with 5 letters. Furthermore, the symmetry between OTEL 
+and ANGO is perfect, forming an arrowhead. Will this be a clue to test in the TFJ algorithm: D, 
+H and T BY ROWS? I have not built those tables yet. It is truly amazing how new instructions 
+and clues from Kryptos continue to emerge; and that does not end in this message. 
+ 
+In the next M7 we will delve into the subject of DELTA and HOTEL and how they lead us to a 
+unique and special place in Africa, following a logical reasoning, with a new interpretation of 
+the DYAHR cluster. As we have seen, the vast majority of the instructions, clues and doorways 
+
+[[page 9]]
+are found in correct English or fulfilling recognizable patterns, and some lead us to the other. Is 
+it another test that we are on the right trail? And there is still more! 
+ 
+Jose Luis 

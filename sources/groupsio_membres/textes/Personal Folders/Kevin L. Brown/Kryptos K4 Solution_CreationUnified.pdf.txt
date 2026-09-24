@@ -1,0 +1,791 @@
+[[page 1]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+1 
+ 
+Kryptos K4 as a Sun-Stencil Ground 
+Projection System 
+A field-solvable reconstruction hypothesis 
+for K4 as a physical light, shadow, and 
+ground-plane mechanism 
+ 
+ 
+by: Kevin L. Brown 
+May 2026 
+ 
+Abstract 
+ 
+ 
+
+[[page 2]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+2 
+ 
+The Kryptos sculpture by artist Jim Sanborn is located in the courtyard at CIA 
+headquarters in Langley, Virginia. It was installed in 1990. 
+The sculpture contains four built-in cipher sections cut into its copper surface. The 
+first three sections, K1 through K3, were solved in the 1990s. The final section, K4, 
+contains 97 visible encrypted characters and has resisted conventional 
+cryptographic solution for more than three decades. 
+This paper proposes that K4 has resisted solution because it was not designed as 
+a text-only cipher. It was designed as a field-solvable physical system. 
+Under this reconstruction, the copper screen, the courtyard compass, the S-
+shaped panel geometry, the sun angle, the cut letters, the left encoded side, the 
+right tableau side, and the ground plane are all part of the key. The 97 visible K4 
+characters remain essential, but they are not necessarily the final readable surface. 
+They may function as a stencil, routing mask, or positional register that becomes 
+readable only when sunlight passes through multiple S-shaped panel openings 
+and projects a readable pattern onto the ground. 
+WHY CONVENTIONAL METHODS FAIL 
+The spatial reframe explains the persistent failure of cryptanalysis perfectly: 
+Method 
+Why It Fails 
+Vigenère/polyalphabetic attack Assumes linguistic encoding — wrong problem class 
+Supercomputer brute force 
+Searches key space of a cipher that may not be a cipher 
+AI pattern matching 
+Matches against language patterns — solution is a physical event
+Frequency analysis 
+Assumes statistical regularities of enciphered text 
+Known-plaintext attack 
+Assumes plaintext→ciphertext algorithm exists 
+The central claim is simple: 
+K4 was always meant to be solved in the field. The 
+final answer may not be hidden only in the letters. It 
+may be projected by light through the sculpture onto 
+the ground. 
+
+[[page 3]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+3 
+ 
+ 
+1. Introduction: Why a Physical Key Is 
+Required 
+K4 is proposed here as a field-activated optical system. The K4 text, the S-shaped 
+copper screen, the courtyard compass, the Vigenere tableau side, the encoded 
+text side, the shadow field, and the ground plane together form the solve 
+apparatus. 
+The central claim is not that cryptography is irrelevant. Kryptos is plainly a 
+cryptographic artwork, and the first three sections were solved through 
+cryptanalytic methods. The central claim is narrower: 
+K4 appears to require a physical key that ordinary cryptanalysis does not 
+supply. 
+This is not a secondary feature of the puzzle. It appears to be the design intent. 
+Sanborn has publicly indicated that solving K4 is not complete as a desk exercise 
+and that the final result requires interaction with the CIA grounds. That means K4 
+should be analyzed as a field-solvable puzzle from the start, not as a normal 
+ciphertext that merely happens to sit outdoors. 
+If a puzzle was designed to be completed in the field, 
+then the physical setting is not background. It is part 
+of the key. 
+This would explain why the clue set repeatedly points away from flat text and 
+toward physical observation: subtle shading, absence of light, earth, magnetic field, 
+underground transmission, exact location, layer two, a breach in an upper-left 
+corner, candlelight, seeing, east-northeast, the Berlin World Clock, and the 
+courtyard compass. These are not merely decorative references. They read like 
+operational instructions for using the sculpture in place. 
+The hypothesis presented here is that K4 functions as a filtered sun stencil. In that 
+model, the final instruction is not hidden only in the visible letters. It is produced by 
+light passing through the sculpture and landing on the ground. 
+ 
+
+[[page 4]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+4 
+ 
+Based on the Earth's rotation speed the 97 character 
+plaintext projection alignment should only appear in the 
+east-northeast shadow area for 60-90 seconds every 24 
+hours. That means it is not visible for 99.99% of time. A 
+casual visit time and observation at the courtyard will 
+likely miss it. 
+2. Source Facts and Constraints 
+The reconstruction begins with externally checkable facts about the sculpture. 
+The CIA’s official description states that the centerpiece of Kryptos is an S-shaped 
+copper screen, supported by petrified wood, located in the courtyard between the 
+Original Headquarters Building and the New Headquarters Building. The same 
+official description states that, when the sculpture is viewed from the front, the left 
+half of the copper screen contains encoded text, while the right half contains a 
+series of alphabets forming a Vigenere tableaux, intentionally flipped so that it can 
+only be read from the back. 
+Those facts matter. They describe a left-right physical apparatus, not a simple flat 
+text slab. 
+The CIA Museum further describes the central artifact as a copperplate screen with 
+letters cut into it and notes that Sanborn used several methods of cryptography. 
+This supports a hybrid reading: the sculpture is cryptographic, but it is also a 
+perforated physical screen. A screen with cut letters can block light, transmit light, 
+and cast shadows. That property should not be treated as secondary when the 
+plaintext clues repeatedly refer to light, shadow, earth, buried location, and 
+physical seeing. 
+Sanborn’s confirmed K4 clues include EASTNORTHEAST and BERLINCLOCK. 
+Later reporting clarified that BERLINCLOCK refers to the World Clock in Berlin. 
+Sanborn has also distinguished between having recovered text and having the 
+actual method. That distinction is crucial. If K4 was designed to be completed in 
+the field, then a text fragment alone is not equivalent to a solve. The method must 
+explain how the sculpture, site, and clue system work together. 
+ 
+
+[[page 5]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+5 
+ 
+Constraint
+Evidence 
+Implication for K4 
+S-shaped copper screen 
+CIA official 
+description 
+The S geometry is not decorative; it can 
+operate as a light/shadow stencil. 
+Left side encoded text / right 
+side tableau 
+CIA official 
+description 
+The two sides may interact as mask and 
+alignment table. 
+Letters cut into copper 
+CIA Museum 
+description 
+The sculpture can transmit clean light 
+and cast shaped shadows. 
+K4 has 97 characters 
+Confirmed K4 
+structure 
+The 97 characters may be a surface 
+register rather than the final readable 
+order. 
+EASTNORTHEAST 
+Sanborn-confirmed 
+clue 
+Direction matters; the compass and 
+ground plane must be considered. 
+BERLINCLOCK / World 
+Clock 
+Sanborn-confirmed 
+clue 
+Time, location, and solar geometry are 
+likely part of the activation condition. 
+Field completion required 
+Sanborn’s stated 
+design constraint 
+The solution should be testable on CIA 
+grounds, not only at a desk. 
+Text is not method 
+Sanborn’s later 
+distinction 
+A projection mechanism can remain 
+essential even if candidate text is known. 
+ 
+ 
+ 
+
+[[page 6]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+6 
+ 
+3. Core Hypothesis 
+Hypothesis H1: K4 is a sun-stencil ground 
+projection system. 
+The 97-character K4 sequence is proposed to function as a structured mask or 
+positional field. The sculpture is activated when sunlight at the correct time and 
+season passes through multiple openings, edges, and negative spaces in the S-
+shaped copper screen. The resulting clean-light and shadow-overlap pattern falls 
+onto the courtyard ground. The projected pattern, not the visible copper surface 
+alone, yields the final plaintext, route-string, or target point. 
+Hypothesis H2: The ground is the intended 
+receiving layer. 
+The repeated K2 language about earth, underground, buried information, exact 
+location, and layer two is interpreted as a receiving-plane instruction. The ground is 
+not merely thematic. It is the projection surface. This explains why a field solve is 
+necessary and why a purely text-only solve can remain underdetermined. 
+Hypothesis H3: Q and WW are projection 
+markers, not ordinary plaintext letters. 
+Q is treated as an inspection gate or seeing marker, inherited from the terminal Q 
+in K3’s “Can you see anything? q” clue. WW is treated as a witness or shadow-
+hinge marker, inheriting both the K2 “Only WW” exact-location witness and the 
+physical possibility of doubled shadow edges or paired screen interactions. In this 
+model, Q and WW help locate the optical hinge rather than simply contributing to a 
+readable sentence. 
+Hypothesis H4: K1 through K3 are instructions 
+for how to use K4. 
+K1 tells the solver to attend to shading and absence of light. K2 tells the solver to 
+attend to earth, magnetic field, underground transmission, exact location, WW, and 
+layer two. K3 tells the solver to attend to aperture, light entering through a breach, 
+
+[[page 7]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+7 
+ 
+physical seeing, and Q. K4 combines these into a site-based optical activation 
+condition: a timed, compass-aligned, ground-projected message. 
+ 
+4. K1 through K3 as Operational 
+Instructions 
+The most important shift in this reconstruction is treating K1 through K3 not merely 
+as solved historical passages, but as operational instructions for K4. The first three 
+solved sections repeatedly describe the physical act of revealing hidden 
+information by controlling light, position, and viewing conditions. 
+That pattern is too consistent to ignore. 
+Section
+Relevant clue family 
+Operational reading for K4 
+K1 
+“Between subtle shading and the 
+absence of light lies the nuance of 
+iqlusion.” 
+K1 introduces the primary optical 
+vocabulary: shading, absence of light, and 
+hidden information contained between 
+them. 
+K2 
+Invisible information, earth’s magnetic 
+field, undergruund transmission, buried 
+somewhere, exact location, WW, layer 
+two. 
+K2 introduces the ground layer, 
+geomagnetic/courtyard orientation, buried 
+or hidden target, witness marker, and 
+second-layer reading. 
+K3 
+Upper-left breach, inserted candle, 
+details emerge, “Can you see 
+anything? q.” 
+K3 introduces aperture-based illumination, 
+physical sight, a narrow light source, and Q 
+as the terminal inspection marker. 
+K4 
+EASTNORTHEAST, BERLINCLOCK / 
+World Clock, 97-character final field. 
+K4 supplies the timed orientation condition 
+and the remaining surface field that must be 
+physically activated. 
+This layered reading explains why K4 has resisted ordinary attack. If K4 is the final 
+projection layer, then K1 through K3 are not only earlier solved messages. They 
+are the instruction stack. Removing them from the solve deprives K4 of its physical 
+key. 
+
+[[page 8]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+8 
+ 
+ 
+5. The Courtyard Compass and Ground 
+Plane 
+The courtyard compass is a major clue. Under this model, it is not supporting 
+decoration. It is part of the field apparatus. A compass does not decode text. It 
+orients a physical act. 
+The compass becomes especially important when combined with the fact that the 
+Kryptos screen is a physical copper stencil. If the sculpture faces south, then at 
+2:15 PM in the northern hemisphere the sun is in the western half of the sky. 
+Sunlight travels from the west or southwest side across the sculpture and projects 
+shadow and clean light toward the opposite ground plane. 
+The key conceptual point is this: 
+ The compass establishes the ground-coordinate system. 
+ The sculpture supplies the stencil. 
+ The sun supplies the moving clock. 
+ The ground receives the output. 
+This is why the field-solvable design constraint matters so much. If the final step 
+requires the CIA grounds, then the compass and ground are not optional 
+references. They are part of the machine. 
+ 
+6. The Berlin World Clock as Solar-Time 
+Selector 
+The Berlin Clock clue was previously modeled as a mechanical 24-hour clock. The 
+revised model keeps the 24-hour time logic but assigns it a field function: it is a 
+time selector for illumination. 
+The later clarification that BERLINCLOCK refers to the World Clock in Berlin 
+supports this broader reading. A World Clock is not only a named object. It is a 
+public time-and-place device. In a sun-stencil model, time and place are not 
+secondary. They are the key. 
+
+[[page 9]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+9 
+ 
+The phrase BERLINCLOCK therefore functions as an activation instruction: 
+determine the correct time condition, then use the physical artwork under that 
+condition. 
+The candidate 2:15 reading remains useful because east-northeast can be 
+represented on a clock face between 2:00 and 3:00, and because earlier modeling 
+repeatedly found the hinge field near the K4 BERLIN/CLOCK region. But this must 
+be treated as a measurable solar condition, not a guessed diagram angle. 
+A rigorous field test must compute the sun’s azimuth and elevation at the CIA 
+courtyard for candidate dates and times, then verify whether the shadow and 
+clean-light openings through the S-shaped screen produce a stable projected 
+pattern on the ground. 
+ 
+7. Q and WW: Marker Hypotheses 
+The two unresolved symbolic features that require special handling are Q and WW. 
+In conventional text attacks, they are treated as letters. In the projection model, 
+they likely operate as markers, gates, or hinge points. 
+Marker
+Source clue 
+Projection hypothesis 
+Testable expectation 
+Q 
+K3 ends with 
+“Can you see 
+anything? q.” 
+Q marks the inspection gate: a 
+place where the solver must 
+look, sight through, or verify 
+projected visibility. 
+A Q-aligned panel location, 
+ray path, or projected mark 
+should correspond to a 
+change from hidden to visible 
+output. 
+WW 
+K2 asks who 
+knows the exact 
+location and 
+answers: Only 
+WW. 
+WW marks the witness or 
+double-hinge condition. It may 
+represent William Webster 
+historically and a doubled 
+optical hinge physically. 
+Two W positions, W-shaped 
+shadows, or paired shadow 
+edges should align near the 
+projection route or ground 
+target. 
+Q / WW 
+together 
+K2 exact-location 
+witness + K3 sight 
+gate 
+The system may require a 
+witness marker and a viewing 
+marker: one locates, the other 
+verifies. 
+The correct field condition 
+should make Q and WW 
+operationally useful rather 
+than retrospective labels. 
+
+[[page 10]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+10 
+ 
+This interpretation preserves Sanborn’s known use of layers, errors, and 
+ambiguous signals. Q and WW need not decode into ordinary words to matter. 
+They may be registration marks that tell the solver where the optical system pivots. 
+ 
+8. Proposed Optical Mechanism 
+The physical mechanism is not a single ray passing through one panel. It is more 
+likely a parallel bundle of sunlight interacting with several parts of the S-shaped 
+screen. 
+Some rays are blocked by copper. 
+Some pass through cut letters. 
+Some pass through negative spaces between curved panels. 
+Some create overlapping shadow boundaries. 
+Some form clean-light corridors. 
+The final readable output is produced by the subset of light and shadow that 
+survives these constraints. 
+The two halves of the screen are especially important. CIA’s official description 
+says the left side contains encoded text and the right side contains the Vigenere 
+tableaux, flipped to be read from the back. Under the projection model, those sides 
+can function as a paired optical system. The encoded side can serve as the letter 
+mask. The tableau side can serve as the alignment or transformation surface. 
+Sunlight passing through both sides can select a specific projected subset from the 
+97-character K4 field. 
+This creates a clean explanation for the field-solvable design. A field-solved 
+projection cannot be fully reproduced by a text transcript. It requires the actual 
+geometry, orientation, season, and sunlight. 
+ 
+ 
+ 
+ 
+ 
+
+[[page 11]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+11 
+ 
+Cryptography provides the surface. Geometry provides the key. The ground 
+reveals the output. 
+Layer
+Physical role 
+Kryptos clue relation 
+Sun 
+Moving clock / time source 
+BERLINCLOCK / World Clock 
+S-shaped copper 
+screen 
+Stencil / mask / route body 
+CIA S-shaped copper screen 
+description 
+Cut letters 
+Light apertures / shadow 
+blockers 
+Copperplate screen with letters cut into 
+it 
+Left encoded side 
+Cipher reservoir 
+K4 visible ciphertext field 
+Right tableau side 
+Alignment / transformation 
+grid 
+Vigenere tableaux, flipped 
+Compass 
+Orientation frame 
+EASTNORTHEAST and courtyard 
+compass 
+Ground 
+Receiving plane 
+K2 undergruund / buried / layer two 
+Q / WW 
+Inspection and hinge markers 
+K3 Q and K2 WW 
+ 
+ 
+ 
+ 
+
+[[page 12]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+12 
+ 
+9. Best Semantic-Fit Plaintext Candidate — 
+Hypothesized, Not Proven 
+The sun-stencil hypothesis does not require guessing a preferred sentence. It 
+requires fitting any proposed plaintext into the hard K4 clue skeleton created by the 
+confirmed word placements. 
+The known structure is: 
+Block
+Required length 
+Function 
+Block 1 
+21 
+Opening action 
+Block 2 
+13 
+EASTNORTHEAST 
+Block 3 
+29 
+Projection mechanism 
+Block 4 
+11 
+BERLINCLOCK 
+Block 5 
+23 
+Terminal location statement 
+This produces the rigid structure: 
+[21] + EASTNORTHEAST + [29] + BERLINCLOCK + [23] = 97 
+Under the present reconstruction, the strongest desk-derived semantic candidate 
+is: 
+PROJECTTHESHADOWLINESEASTNORTHEASTWHERECLEANLIGHTMA
+RKSTHEGROUNDBERLINCLOCKXMARKSTHEEXACTLOCATIONX 
+ 
+ 
+ 
+
+[[page 13]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+13 
+ 
+Expanded into its five structural blocks: 
+Block
+Candidate text 
+Count
+Inherited clue logic 
+1 
+PROJECTTHESHADOWLINES 
+21 
+K1 introduces subtle shading 
+and absence of light. This 
+block converts the K1 optical 
+vocabulary into an action. 
+2 
+EASTNORTHEAST 
+13 
+The compass and confirmed 
+clue supply the direction 
+vector. 
+3 
+WHERECLEANLIGHTMARKSTHEGROUND
+29 
+K3’s aperture, candlelight, and 
+seeing logic become a clean-
+light projection onto the 
+ground. 
+4 
+BERLINCLOCK 
+11 
+The clock clue supplies the 
+timed activation condition. 
+5 
+XMARKSTHEEXACTLOCATIONX 
+23 
+K2’s “exact location” language 
+becomes the terminal field 
+instruction. The X characters 
+function as Sanborn-style 
+delimiters, not arbitrary 
+padding. 
+This candidate is not claimed as proven plaintext. It is the best current semantic fit 
+because it satisfies the 97-character length, preserves the known clue placements, 
+follows the K1-K3 inheritance chain, and matches the proposed field-solve 
+mechanism. 
+The terminal block is especially important. K2 asks who knows the exact location. 
+The proposed K4 ending answers that unresolved question directly: 
+XMARKSTHEEXACTLOCATIONX 
+The phrase is also structurally appropriate because Sanborn used X as a delimiter 
+in earlier solved sections. Here, the opening X separates the terminal instruction 
+from BERLINCLOCK, and the closing X seals the full 97-character message. 
+
+[[page 14]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+14 
+ 
+ 
+In plain English, the candidate reads: 
+“Project the shadow lines east-northeast, where 
+clean light marks the ground. Berlin Clock. X 
+marks the exact location.” 
+If the sun-stencil model is correct, this is the type of instruction K4 should contain: 
+not a philosophical passage, but a physical operating instruction for a sculpture, 
+compass, shadow field, and ground-plane target. 
+The best confirmation of this candidate is not semantic agreement. It is physical 
+observation. A candidate plaintext becomes meaningful only if the sculpture, under 
+the correct solar and field condition, produces a stable ground projection consistent 
+with the instruction. Until that observation is made, this string remains a 
+hypothesized best semantic fit, not a proven solution. 
+ 
+10. Why Cryptography Alone Fails 
+This paper does not reject cryptography. It argues that K4 cannot be solved by 
+cryptography alone if the final transform is physical. The visible K4 sequence may 
+be necessary but insufficient. It can define the letter set, order field, aperture mask, 
+or route register without itself being the final readable surface. 
+Sanborn’s field-solve design constraint is crucial. If the successful solver must 
+complete the result on CIA grounds, then K4 is not merely a desk cipher. It points 
+back to the sculpture’s physical setting. 
+This explains the historical pattern. K1 through K3 could be solved through 
+conventional or semi-conventional cryptanalytic methods. K4 remains different 
+because it appears to close the sculpture back onto the site. If the final method 
+requires sunlight, panel geometry, compass orientation, and ground projection, 
+then text-only attacks will remain underdetermined even when they recover 
+plausible fragments. 
+In simple terms: many solvers have looked at the letters. The hypothesis here says 
+the final step requires looking at the ground. 
+ 
+
+[[page 15]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+15 
+ 
+11. Test Protocol 
+The hypothesis is only useful if it can be tested. The following protocol defines the 
+minimum field or CAD test required to evaluate it. 
+Step
+Measurement or action 
+Pass condition 
+1. Survey 
+geometry 
+Measure the exact 3D geometry of both 
+copper screen sides, including letter cutouts, 
+panel thickness, curvature, and relative 
+position. 
+A CAD model can reproduce 
+the sculpture’s physical stencil 
+behavior. 
+2. Lock 
+orientation 
+Measure the exact azimuth of the sculpture, 
+courtyard compass, and local ground plane. 
+Model orientation matches 
+field measurements, not 
+simplified assumptions. 
+3. Compute 
+solar vectors 
+Calculate solar azimuth and elevation for 
+candidate dates and 2:15 time conventions: 
+clock time, local solar time, and World Clock 
+interpretation. 
+At least one candidate 
+condition produces a stable, 
+repeatable projection path. 
+4. Ray-cast 
+light bundle 
+Simulate parallel sunlight rays through multiple 
+S-panel openings and cut letters. 
+The system produces clean-
+light corridors or shadow 
+overlaps on the ground. 
+5. Identify 
+projected 
+output 
+Read projected ground pattern as text, route-
+string, or point target. 
+Output is not arbitrary and 
+preserves known anchors. 
+6. Check Q / 
+WW 
+Test whether Q and WW locations correspond 
+to inspection gates, double hinges, or shadow-
+edge registration points. 
+Q / WW become operationally 
+predictive rather than 
+retrospective labels. 
+7. Replicate 
+Repeat test across nearby dates/times and 
+measurement tolerances. 
+Correct condition is sharply 
+better than adjacent controls. 
+ 
+
+[[page 16]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+16 
+ 
+12. Acceptance and Falsification Criteria 
+The model is intentionally falsifiable. It should not be accepted because it is 
+elegant. It should be accepted only if the projection produces a result that ordinary 
+chance alignment does not explain. 
+Criterion
+Confirmation standard 
+Falsification standard 
+Ground 
+projection 
+A stable projected pattern lands on the 
+ground under the specified time/orientation 
+condition. 
+No meaningful ground pattern 
+appears under measured 
+geometry. 
+Plaintext or 
+route-string 
+Projected output yields readable text, an 
+unambiguous route-string, or a specific point 
+that fits K1-K4 clues. 
+Projected output is visually 
+arbitrary or changes 
+unpredictably under small 
+tolerances. 
+Known 
+anchors 
+EASTNORTHEAST, BERLINCLOCK / World 
+Clock, Q, WW, and ground/layer-two clues 
+become mechanically useful. 
+Anchors must be forced after 
+the fact and do not predict 
+projection behavior. 
+Controls 
+Correct date/time/orientation performs better 
+than neighboring conditions. 
+Many random conditions 
+produce equally plausible 
+outputs. 
+Independent 
+replication 
+A third party can reproduce the projection 
+using measured data. 
+The result depends on 
+subjective drawing choices or 
+unmeasured assumptions. 
+ 
+ 
+ 
+ 
+ 
+
+[[page 17]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+17 
+ 
+13. Conclusion 
+The strongest current reconstruction is that K4 is not merely a conventional 
+ciphertext. It is a field-activated optical cipher. The 97 visible characters remain 
+essential, but they are likely not meant to be read directly as a final surface string. 
+They participate in a physical transform performed by the sculpture itself. 
+The solve architecture is: 
+Sunlight functions as the clock; the S-shaped copper screen functions as the 
+stencil; the left encoded side and right tableau side provide the paired surfaces; the 
+courtyard compass orients the system; Q and WW mark inspection and hinge 
+behavior; the ground functions as the receiving layer; and the final plaintext, route-
+string, or target point appears only when the field condition is correct. 
+This model ties together the most persistent clue families: K1’s light and absence 
+of light, K2’s earth, magnetism, underground transmission, buried location, WW, 
+and layer two, K3’s aperture, candlelight, sight, and Q, and K4’s east-northeast, 
+Berlin Clock, and field location. It also explains why cryptography alone has failed. 
+Solvers have been looking only at the letters. The hypothesis says the final answer 
+is projected onto the ground. 
+The best current semantic plaintext candidate is: 
+PROJECTTHESHADOWLINESEASTNORTHEASTWHERECLEANLIGHTMA
+RKSTHEGROUNDBERLINCLOCKXMARKSTHEEXACTLOCATIONX 
+But the paper does not claim that this string is proven. It is the strongest desk-
+derived semantic fit under the known placement constraints. The decisive test 
+remains physical: field observation at the sculpture site or a high-resolution CAD 
+reconstruction of the screen, letter cutouts, panel curvature, sun angle, and 
+courtyard ground plane. 
+If the projected ground pattern yields a stable text, route, or target under the 
+correct solar condition, the sun-stencil hypothesis becomes a reproducible solve 
+method. If it does not, the hypothesis fails.stencil hypothesis becomes a 
+reproducible solve method. If it does not, the hypothesis fails. 
+ 
+ 
+
+[[page 18]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+18 
+ 
+Appendix A. 
+Figure 1. Conceptual sun-stencil model. Based on the speed of the Earth’s 
+rotation, the 97-character alignment for the K4 plaintext will likely only appear for 
+60-90 seconds in the east-northeast shadow area. 
+ 
+ 
+ 
+
+[[page 19]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+19 
+ 
+Figure 2. Conceptual sun-stencil model. Sunlight crosses the S-shaped copper 
+screen, passes through multiple panel regions and openings, and projects a 
+candidate plaintext or route-string onto the ground plane. 
+ 
+ 
+ 
+
+[[page 20]]
+Kryptos K4 Sun-Stencil Ground Projection Hypothesis 
+Copyright Kevin L. Brown creationunified.com 2026 
+20 
+ 
+References 
+[1] CIA, “Kryptos Sculpture,” official CIA legacy page. Key facts: S-shaped copper 
+screen, courtyard setting, left side encoded text, right side Vigenere tableaux, and 
+flipped chart. 
+[2] CIA Museum, “Kryptos,” official artifact page. Key facts: copperplate screen with 
+letters cut into it; several methods of cryptography; K1-K3 solved and K4 remains 
+elusive. 
+[3] Scientific American, “CIA Kryptos Puzzle Creator Releases Final Clues,” 2025. 
+Key facts: World Clock in Berlin, 1986 Egypt trip, 1989 Berlin Wall, message-
+delivery theme, and K5 connection to K2’s buried-language clue. 
+[4] Associated Press, “Info to decipher secret message in Kryptos sculpture at CIA 
+headquarters sells for close to $1M,” 2025. Key facts: K1-K3 solved, K4 archive 
+sale, and Sanborn’s distinction between discovering text and deciphering the 
+method. 
+ 

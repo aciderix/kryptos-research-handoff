@@ -1,0 +1,65 @@
+[[page 1]]
+The Gromark cipher is an invenƟon from “The Cryptogram” in 1969 (Hall or DUMBO, Gronsfeld with Mixed
+Alphabet and Running Key). It’s not a “military” or “spy” cipher. I’d rejected the “Digraﬁd” cipher as being
+too contrived and an ACA invenƟon, but there are some points in favour of Gromark here.
+Gillogly suggested Gromark as a possibility for K4 in 1999 to help explain the high index of coincidence at
+width 50.
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWA
+TJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+..*.*.......*........*.........................
+There are four coincidences (IC = 0.08) when only 47/26 = 1.8 would be expected by chance.
+(Also, using a progressive key of length 42, with A, D, G etc “subtracted” we get ﬁve coincidences in the ﬁrst
+42, which is the width of a grid paper in a Sanborn video, but this seems rather contrived. Progressive key
+usually seems to involve Vigenere aŌer that step – someone would have thought of that …)
+Then the challenge is to ﬁnd a recurrence relaƟon which has a period of 50 – this would help explain the
+high index of coincidence at width 50.
+One of the simplest ways to do this is to take a 5-digit primer, as in the usual Gromark.
+With the primer ABCDE, interpreƟng the “DYAHR” superscript as a kind of Baconian binary cipher, we can
+generate the next digit by A+B^2+C^2+D+E^2. Then with base 5 or 10, we have a period of 50 in our
+recurrence relaƟon. E.g. starƟng with 01033 in base 5, or 51533 in base 10. It is curious that by seƫng the
+exponents in the ﬁve-digit relaƟon to either 1 or 2 – 32 possibiliƟes - the only way we can get this period of
+50 is in this way. It has also been menƟoned that the Berlin Clock is related to base 5.
+This cipher also ﬁts in well with the “grid paper” method of the original encrypƟon – beƩer than the Hill
+Cipher or Triﬁd would, but the method may be too “mathemaƟcal” for Sanborn.
+AŌer the “BERLINCLOCK” crib came out, it was clear that the default Plaintext row A…Z (e.g. see Blackman’s
+1989 Cryptologia paper) would not produce “NYPVTTMZFPK” in the ciphertext with the usual base 10
+Gromark. We would need C and R in the plaintext alphabet both producing P in the ciphertext alphabet, but
+they are more than 10 leƩers apart in the plaintext alphabet.
+The original 1969 arƟcle suggested using a keyword mixed alphabet for the cipher alphabet e.g. GRONSFELD
+giving the ciphertext alphabet DPEKYFJXGAQLMZNHVOCURBTSIW.
+The encrypƟon process is sƟll quite prone to error – it may be a good idea to not start with the
+“BERLINCLOCK” crib when searching.
+Nothing has been found yet, but the primers 51533 and 01033 are good places to start (base 10 or 5). For
+example, starƟng with 51533 in base 10, several other leƩers are ﬁxed (B, I, N, O and K). It has been found
+that this primer produces high-scoring outcomes (out of the 100 possible keys in base 10).
+pt ETXRQFLABCDGHIJKMNOPSUVWYZ
+ct XFEHSCAYBGUVPJDZMNKLRWTQOI
+http://elvumgar.fea.st/misc/gromark.html
+1 of 2
+12/09/2018, 12:59 pm
+
+[[page 2]]
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+5153337535515979595799331375593591391933339553313351533375355159795957993313755935913919333395533
+PAINAUPPLYFORUNDSORTHOMNDSMAKBLIURUISISTDSUZWKHJORNHIMAGOTOSHERBERLINCLOCKSLAIDNPBVIVENTEARAPIERN
+.................O...O.......B.....I.I.......K....N..............................................
+StarƟng with ciphertext O and Gromark primer digit 5, we ﬁnd “O” in the ciphertext alphabet and go ﬁve places leŌ,
+which leads to “P” in the plaintext alphabet, and so on.
+Naturally, this hasn’t led to any exciƟng plaintext discoveries…
+.515333 .OBKRUO
+7535515 XOGHULB
+9795957 SOLIFBB
+9933137 WFLRVQQ
+5593591 PRNGKSS
+3919333 OTWTQSJ
+3955331 QSSEKZZ
+3351533 WATJKLU
+3753551 DIAWINF
+5979595 BNYPVTT
+7993313 MZFPKWG
+7559359 DKZXTJC
+1391933 DIGKUHU
+3395533 AUEKCAR
+http://elvumgar.fea.st/misc/gromark.html
+2 of 2
+12/09/2018, 12:59 pm

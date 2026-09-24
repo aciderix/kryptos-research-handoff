@@ -1,0 +1,925 @@
+[[page 1]]
+Kryptos Thoughts
+It's 2018 and the code of the fourth part of the "Kryptos" sculpture at CIA known as "K4" has been unsolved for more than 27 years.
+With the huge growth in computer speed since 1990, the development of massive online databases of digiƟsed books, texts, and
+staƟsƟcs, and clues released by the sculptor in 2010 and 2014, is a soluƟon now more likely than ever?
+On the other hand, there has been a marked decrease of interest in the sculpture. One of the founders of the Yahoo Kryptos mailing
+list, Elonka Dunin, hasn’t updated her Ɵmeline much since April 2006.
+Perhaps people are collecƟvely smart and they realise that tradiƟonal methods aren't going to be successful: there's been a mistake
+or the sculptor Sanborn has stepped outside the parameters or constraints suggested to him by his CIA advisor, Ed Scheidt, and
+inadvertently come up with something nobody is ever likely to break. Or they realise that now that two plaintext clues have been
+released with nobody any closer to a soluƟon, the smartest course of acƟon is just to wait for more clues.
+Sanborn did say he'd be "modifying systems and developing my own which would make it virtually impossible for [Scheidt] to
+decipher all of it", there are mistakes in the ﬁrst three parts, and he has even hinted that a unique decipherment might not be
+possible. ObjecƟvely speaking this is rather discouraging for would-be solvers – if he expects a CIA cryptography expert cannot solve
+it, why should anyone else be able to?
+On the mildly posiƟve side, Scheidt did say in 2005 that he was “conﬁdent” the part four encipherment had been done correctly
+and Sanborn said in 2006 he was “preƩy sure” about part four.
+I recommend some background reading of pages and arƟcles wriƩen since the 2010 "BERLIN" clue was released. If you have never
+read anything about Kryptos before, then start with the Schridde post.
+Kryptos web pages in the "Berlin Clock" era
+•
+25 April 2011. Dean L. Wiley posts a PHP script on his webpage which aƩracts a large number of possible keywords (and
+injecƟon aƩacks). Many suggested keywords are there: DYAHR, HYDRA, LAYERTWO, KLEPSYDRA, PARASYSTOLE, DIGETAL, LUCID,
+SHADOW etc.
+•
+1 July 2011. Crypto Crap who also posts as "skinƟgh" on reddit writes a summary of their thoughts. There is some good
+discussion on whether the "mistakes" are deliberate or not.
+•
+23 July 2011. Please Decipher Me writes about a fracƟonated subsƟtuƟon method. Linking from zetaboards, he wrote "I do
+believe that if you have an unknown algorithm, a short plaintext, and only one message, that there has to be some hint as to
+what the algorithm is. If someone posted an unknown algorithm cipher challenge here with ~100 characters of ciphertext with
+no clue as to the algorithm, no one would even bother." In the same thread, pineconedegg commented: "It's very classically
+unsolved for a reason, I assume. ... Unknown algorithm cipher challenges are just terrible, as cool and mysterious as Kryptos is."
+•
+20 March 2013. Kryptos Fan publishes Gillogly's responses to some interview quesƟons. The last post on this blog is around the
+beginning of 2015.
+•
+27 April 2016. Bauer, Link and Molle publish a paper in Cryptologia enƟtled "James Sanborn's Kryptos and the Matrix EncrypƟon
+Conjecture". In July 2016 one of Bauer's friends Klaus Schmeh publishes an arƟcle in German on his blog about it.
+•
+18 January 2017. Patrick Kellogg posts a presentaƟon focusing on Vigenere soluƟons. "There has been a notable decrease of
+interest in the sculpture, and several websites have stopped updaƟng progress and theories."
+•
+3 and 17 March 2017. ChrisƟan Schridde publishes a two-part explanaƟon of the methods used for Kryptos parts 1 to 3 and
+examines the Bauer et al paper.
+Commentary on these webpages
+Gillogly Interview
+He wrote: "... we know that we don’t know the system used to encrypt it: Scheidt has said it’s his own invenƟon and hasn’t been
+seen in the world before."
+This seems to be based on a misunderstanding. This was corrected at a October 2013 American Cryptogram AssociaƟon dinner.
+"Elonka jumped in to remind Ed that he once told her that Kryptos uses a system unknown to anyone on the planet. Ed stated he
+didn’t recall that conversaƟon and back-pedaled out of saying anything more."
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+1 of 15
+12/09/2018, 12:58 pm
+
+[[page 2]]
+The closest Scheidt came to saying this publicly was "the masking technique may not be known" in Wired in January 2005 or
+possibly “[the code] is unique to Jim’s design” in 1991. The "own invenƟon" quote may be a misinterpretaƟon of the ﬁrst statement.
+"One quesƟon on which I’d like to see more consideraƟon or insight is the issue about the end of K2.  The NSA team, David Stein and
+I all decrypted it as it stands: ID BY ROWS.  Several years later Sanborn said that he’d made an error, leaving out an X in the
+plaintext, and it should actually have said X LAYER TWO.  I believe Scheidt raised an eyebrow about this explanaƟon in print, though
+I don’t have his quote in front of me.
+I feel that having it decrypt two ways producing by chance perfectly grammaƟcal English (both versions obscure, of course) is
+extremely unlikely.  I think it’s more likely that Scheidt put that secondary meaning in by a judicious selecƟon of the keyword."
+I haven't seen this quote by Scheidt - does anyone know what he means? Is something which was menƟoned only in the Kryptos
+Yahoo group and not outside it?
+Crypto Crap
+The commentary on the "extra L" here is: That extra L was added for "aestheƟc reasons." (read that somewhere, can't ﬁnd a link
+though... did I imagine it?) Either kerning was adjusted to make room for the L, or mistakes in kerning were made requiring this L.
+Sanborn has leŌ this L oﬀ of the models of Krypto he sells and says it is not important for solving Kryptos, so that suggests it was a
+kerning mistake.
+This again seems to be a misunderstanding possibly deriving from the English Wikipedia arƟcle (pre 16 Feb 2018) which says "One
+of the lines of the Vigenere tableau has an extra character (L), which Sanborn has indicated was accidental." The source given is
+a November 2014 Wired arƟcle which doesn't contain any similar statement. The “aestheƟc reasons” quote actually refers to the
+LAYERTWO/IDBYROWS part.
+The bit about "Sanborn ... says it is not important" seems to be just wrong: he didn't say that, that's excessive paraphrasing and/or
+overinterpretaƟon.
+Another arƟcle from The Magazine by Mark Siegal summarises a 2005 Kryptos dinner meeƟng: "That leƩer is missing from the
+replica, so it was probably a mistake made while cuƫng out all the sculpture's leƩers." 
+Chris Hanson had a similar conclusion from the same 2005 dinner: "DYAHR is important to the puzzle (since Sanborn remembered it)
+ergo the extra L is not for the same reason."
+Doug Gwyn notes stated: “The extra L on the tableau seems even more likely to be simply a producƟon error, since Sanborn's models
+we saw at Cafe Asia didn't include them yet he said that they were supposed to have everything needed to solve.”
+On the other hand there are some other facts that make the extra L seem useful which are discussed in the next secƟon.
+In 2005 the sculptor commented on CNN that there was “one clue” on the Kryptos version which wasn’t on AnƟpodes (a near
+replica of Kryptos at the Hirshhorn Museum in Washington DC).
+There are only two strict textual diﬀerences between the sculptures - on Kryptos, the “UUND” part of the word “UNDERGRUUND”
+encrypts to “RTBJ” while on AnƟpodes, the spelling has been corrected, as in the original worksheet, to “OUND” and thus encrypts
+to “ETBJ”. The second diﬀerence is the extra “L” (spelling “HILL” on the right hand edge) is present only on Kryptos.
+Frank Corr of the ACA agrees with CryptoCrap that the misspelling in Kryptos part one is due to an encoding error on the original
+worksheet. i.e. PALIMPSEST as PALIMPCEST.
+Bauer, Link and Molle paper and Schridde post
+This paper and post examine the idea of a "Hill Cipher" or matrix encrypƟon being used in K4. Before plaintext was released for K4,
+Gillogly and the NSA team guessed the probable methods for this secƟon were combined transposiƟon and polyalphabeƟc
+subsƟtuƟon, autokey, or running key.
+Elonka’s Ɵmeline menƟons that Roger Anderson noƟced the extra “L” on the sculpture in October 2003. The NSA memorandum of
+March 1993 had already noted this.
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+2 of 15
+12/09/2018, 12:58 pm
+
+[[page 3]]
+Following this Keith Edkins looked at the 2x2 Hill Cipher in February 2004. He examined the Kryptos alphabets plus the standard
+alphabet, in all shiŌs, for the ﬁrst 96 and last 96 characters of the ciphertext, using all 157,248 inverƟble 2x2 key matrices.
+Krazy Kryptos had looked at the 2x2 Hill Cipher in December 2010.
+AŌer the clues of 2010 and 2014 were released, Bauer et al published a 2016 paper looking at order 2 and 3 matrix encrypƟon for
+K4.
+In his YouTube talk of 24 April 2013 around 25:00 and InternaƟonal Spy Museum talk of 18 July 2017 around 51:45 Bauer also
+menƟoned this theory.
+There are several serious problems with the Bauer et al paper. As Bauer is the editor of Cryptologia this may indicate that the paper
+did not go through a stringent refereeing process. It may also have been intended as more of an educaƟonal paper.
+•
+The authors do not consider the diﬀerent alignments. For instance, Edkins looked at the two possible alignments for the 2x2
+case; but the paper only considers one each for the 2x2 and 3x3 cases, out of a possible ﬁve. This was always going to be a
+problem with a prime number of cipher text characters. Then again, Ed Scheidt in Wired did say once there were 98 characters
+leŌ, which is divisible by 2 and 7. Further, the paper fails to recognize that in the 2x2 case where “BE” is aligned with “NY”
+(characters 64-65) this requires omiƫng the iniƟal “O” of the ciphertext, but in the 3x3 case where “BER” is aligned with “NYP”
+this requires omiƫng the ﬁnal “R” of the ciphertext. The aƩempted decrypƟons are considering diﬀerent oﬀsets of the
+ciphertext and the authors seem unaware of it. They missed what Edkins had noƟced in 2004.
+•
+Using the known plaintext, it's quite possible (for a given alphabet mapping) to recover the key matrix row by row for the 2x2
+and 3x3 cases (Bauer and Millward). Instead, for the 3x3 case, the paper contains text about building a FPGA and how the search
+took many hours. Recovering the key matrix row by row (i.e. 3*26^3 possibiliƟes instead of 26^9 possibiliƟes - James Lyons has
+also menƟoned this possibility) reduces the Ɵme for this search for each alphabet mapping to a fracƟon of a millisecond. Using
+this method, it is even feasible to test all the sculpture alphabets for the 4x4 case in a short Ɵme. We can also check the Aﬃne
+Hill Cipher concept (a matrix equaƟon of the form AX+B) for the sculpture alphabets with 2x2 and 3x3 matrices. This eliminates
+one of the four Bauer et al suggesƟons in the paper.
+•
+The paper source code is not commented and does not have any documentaƟon. I could not ﬁgure out how the program
+worked. It is not useful to anyone seeking to improve it or generalize it.
+Bauer’s “Unsolved!” book, where he describes the same results, is available for about $US10 (Kindle ediƟon).  Taylor and Francis
+want $US50 to download a PDF of the Cryptologia paper which is the same as Sanborn wants since 2014 as a “correspondence fee”.
+ Bauer doesn’t provide a PDF of the paper on his website. On 12 June 2017 the arƟcle had had 92 views since it was published on
+27 April 2016 (through the Taylor and Francis website, as opposed to sci-hub).
+This retards the progress of science and blocks access to interested people outside academia. I’d be willing to pay about $US0.50 for
+the PDF if I didn’t have it. I can see the parallels with the music industry circa 1999.
+Historically, in the two Hill papers and the Friedman books (menƟoned below) people tend to work modulo 26 i.e. mappings 0 to 25
+- numbering 1 to 26 hasn't really been considered in the literature. There's a second Hill paper from 1931 containing a diﬀerent
+alphabet which was not considered – MJDXAHOUCZQETYFWGIVSKPLRNB.
+Three reasons were given as hints that matrix encrypƟon was used for K4.  It seems quite plausible that "HILL" down the right-hand
+edge of the sculpture is indeed referring to the Hill Cipher. The other two suggesƟons about the coordinates of the errors in K1-K3
+having a role in decrypƟng K4 and "BERLIN" being aligned with the cipher are more tenuous and seem like wishful thinking.
+Certainly, Sanborn stated in Wired in April 2006: "... clues to the last secƟon, which has only 97 leƩers, are contained in previously
+deciphered parts. Therefore, geƫng those ﬁrst three secƟons correct is crucial."  However, Bauer is in a good posiƟon to know more
+than others about the possible methods, being editor of Cryptologia and having worked in the area of unsolved ciphers for some
+Ɵme.
+Also, Jim Gillogly already stated in September 1999: "I was told by Sanborn in a phone conversaƟon aŌer I did my part of
+the soluƟon that he'd given the CIA a big hint a year or two ago". Thus, hints are given to some people and not others.
+There are some other good reasons, not menƟoned in the paper, to believe that matrix encrypƟon is likely, apart from the
+AnƟpodes comparison menƟoned above.
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+3 of 15
+12/09/2018, 12:58 pm
+
+[[page 4]]
+·
+In 2007, Sanborn stated to PBS that “matrix codes (bar codes)” were his favourite type of encrypƟon, being more “art-like”.
+·
+In Wired in 2005 he stated he “used some matrix codes Ed gave me”.
+·
+The “Atomic Time” book of 2003 quotes Sanborn: “a fairly extensive text [was encoded] into a matrix system”.
+·
+At a 2005 dinner, Sanborn menƟoned that Kryptos is now featured in modern high-school math texts, in a secƟon on
+matrices. [Chris Hanson] menƟoned that Kryptos didn't use mathemaƟcal matrices, and he refuted "but it does".
+In rough terms, there are 26! or about 4*10^26 possible mappings for the alphabet, and for the 2x2 case, about 1 in a billion
+mappings have a corresponding 2x2 matrix which can produce "BERLINCLOCK", for the 3x3 case, about 1 in a thousand, and for the
+4x4 case, there might be about a million such 4x4 matrices for each mapping (although for some mappings there are none).
+AŌer a large scale search, I am conﬁdent a 2x2 matrix, with the same mapping for enciphering and deciphering text, was not used;
+at least, not if the rest of the plaintext is in plain English. The search looked at all possible 2x2 inverƟble matrices and for each
+matrix derived all possible alphabet mappings that would encipher “BERLINCLOCK” to “NYPVTTMZFPK”. The “leŌover” leƩers not
+used in the known plaintext or ciphertext are A, D, G, H, J, Q, S, W, U and X.
+Brieﬂy, by adding mappings for H, A, and S, and possibly U depending on the alignment, then scoring the possible decipherments
+(while permuƟng the leŌover leƩers) using modiﬁed quadgram frequencies from Lyons I found that no possible decipherment
+made sense in English.
+As one example, it would have been great if, say "NFB" decoded to "THE" for "THE BERLIN CLOCK" and "SOLIFB" decoded to
+"ANDTHE", since the only words which occur in all three of the previous secƟons of Kryptos are "AND" and "THE". There are many
+ways this could happen but in every case the rest of the text is just gibberish.
+The Schridde post follows on from the Bauer paper. In terms of the Hill cipher approach, he helpfully explains how instead of
+working with just n characters at once, n x n characters can be encrypted. The cipher can then possibly be solved by choosing a
+keyword for processing into an alphabet mapping.
+Using all the ACA word lists in one big ﬁle, searching about 1.9 million possible mappings derived directly from the words takes
+about 10 minutes for exploring the 3x3 cases on my laptop.
+Extending that, Friedman and Callimahos in "Military CryptanalyƟcs Part I" suggest many ways that a keyword can be transformed
+into an alphabet mapping. To quote them:
+Let us examine several types of mixed sequences, using the key word HYDRAULIC as an example. The ordinary keyword-mixed
+sequence produced from this key word is;
+(1) HYDRAULICBEFGJKMHQPQSTVWXZ
+The two principal transposiƟon-mixed types based on this key word are derived from the diagram
+HYDRAULIC
+BEFGJKMNG
+PQSTVWXZ
+and read:
+(2) Simple columnar
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+4 of 15
+12/09/2018, 12:58 pm
+
+[[page 5]]
+HBPYEQDFSRGTAJVUKWLMXINZCO and
+(3) Numerically-keyed columnar
+AJVCODFSHBPINZLMXRGTUKWYEQ
+Other types may arise from various types of route transposiƟons such as the following, using the foregoing diagram:
+(4) Alternate verƟcal
+HBPQEYDFSTGRAJVWKULMXZNICO
+(5) Alternate diagonal
+HYBPEDRFQSGAUJTVKLIMWXNCOZ
+(6) Simple diagonal
+PBQHESYFTDGVRJWAKXUMZLNIOC
+(7) Alternate horizontal
+HYDRAULICONMKJGFEBPQSTVWXZ
+(8) Spiral counterclockwise
+OCILUARDYHBPQSTVWXZNMKJGFE
+SƟll other types are possible from the foregoing diagram which do not follow a simple, clear-cut route, such as the following:
+(9) HYEBPQSTGFDRAUKJVWXZNMLICO
+(10) CPIOQBLNSEHUMZTFYAKXVGDRJW
+They then go on to discuss the inverse of these mappings. The example mapping for the Hill Cipher later in the book (page 185) is
+also based on the keyword HYDRAULIC (number 3 above).
+The named methods above were taken from a previous handbook by Parker HiƩ - Chapter V of the 1916 Manual for the SoluƟon of
+Military Ciphers. The book by Friedman and Callimahos was published by Aegean Park Press in the 1980s so was public knowledge
+when Kryptos was dedicated in 1990.
+It is interesƟng that HYDRAULIC here begins with "HYDRA", an anagram of "DYAHR" from the sculpture cipher text. "HYDRA" also
+referred to a CIA computer of the 1960s and 1970s for keeping tabs on Americans, explained in a Church CommiƩee report. What is
+meant by the leƩers on the sculpture: "DYAHR", "NDYAHR", "ENDYAHR" or "YAR" remains a mystery. At Realm of Tweleve the other
+theories are that it refers to DAY and HR, and is related to the Hydra of Camp X.
+I had thought that perhaps "YAR" could have been derived from a diagonal type method like the above for the keyword KRYPTOS
+aŌer puƫng it into a width 7 matrix.
+KRYPTOS KOPRSTY
+ABCDEFG ABCDEFG
+HIJLMNQ HIJLMNQ
+UVWXZ   UVWXZ
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+5 of 15
+12/09/2018, 12:58 pm
+
+[[page 6]]
+For example PYARSEKODITCHNBGMWFLVJUQZX, XZVQWUMJNLHFIGDBECKYARTSPO or QZNGXMFSWLEOVJDTUICPHBYARK. But
+again, this idea didn't lead anywhere.
+There's also the small possibility that a larger matrix has been used, but there are many possibiliƟes, so the search space needs to
+be compressed somehow. Naturally the possibiliƟes become more outlandish.
+For example, we could:
+·
+combine the 25 leƩers of known keywords PALIMSPEST, ABSCISSA and KRYPTOS into a 5x5 matrix using one of those
+methods
+·
+anagram those to PSITSSIMPLEASABC
+·
+add PARASYSTOLE to get 36 leƩers for a 6x6 matrix
+·
+use a keyword with all diﬀerent leƩers (e.g. RAY, HYDRA, KRYPTOS, DIGETAL, SCHEIDT, LAYERTWO, KLEPSYDRA) and produce
+a LaƟn square for the secret matrix based on that keyword.
+·
+Create a matrix using just the values 0 and 1; or just 0, 1, and -1; or just 0, 1, -1 and 13. Even with just the values 0, 1 and -1
+in a 2x2 key matrix there are many alphabets which can give the known plaintext with the correct choice of alphabet
+mapping.
+We could possibly interpret the “YAR” as a reference to “ARY”, for example binary or 3-ary values in a matrix. It’s interesƟng to ask:
+what is the minimum order binary matrix we’d have to choose with the sculpture alphabets as mappings to get “BERLINCLOCK”
+out?
+If we take the alphabet ABC…KRYPTOS from the sculpture and number the leƩers appropriately we can obtain, for example, the
+following mapping.
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+L
+M
+N
+Q
+U
+V
+W
+X
+Z
+K
+R
+Y
+P
+T
+O
+S
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+6 of 15
+12/09/2018, 12:58 pm
+
+[[page 7]]
+Here the rows of the matrix correspond to the values 9, 77, 59, 86, 71, 123, 68. Perhaps we could place the laƟtude and longitude
+values from the K2 plaintext 38, 57, 6, 5, 77, 8, 44 into a binary matrix to use as our secret matrix (“by rows”, and “layer two” as in
+binary). About 29% - that is 163,849,992,929,280 divided by 2^49 - of binary 7x7 matrices have an inverse modulo 26. The laƟtude
+and longitude values as binary rows are in that 29% of matrices. We could also try the Morse code as binary values (light and
+shadow…).
+Note that this matrix doesn’t really require mulƟplicaƟon as such, just addiƟon of the values corresponding to the leƩers – 2, 4, 5,
+4, 4, 6, and 2 in each row. This greatly reduces the chance of mistakes in the encipherment.  We have
+L + C = 10 + 2 = 12 = N
+B + L + I + C = 1 + 10 + 8 + 2 = 21 = Y
+E + R + L + N + C = 4 + 20 + 10 + 12 + 2 = 22 = P
+…
+K + S = 19 + 25 = 18 = Z
+And so on. Unfortunately the deciphered context makes no sense.
+I had some hope that using a 7x7 matrix would help explain the observed period 7 paƩerns in the ciphertext and the “KRYPTOS”
+leƩers visible around the right hand edge of the sculpture. These were illustrated in Schridde’s post by the following diagrams. The
+7 x 14 matrix isn’t quite the same alignment as illustrated in the binary matrix example above – here it’s “?BERLIN” maps to
+“BNYPVTT” where “?” is an unknown leƩer.
+?
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+O
+T
+W
+T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+W
+A
+T
+J
+K
+L
+U
+D
+I
+A
+W
+I
+N
+F
+B
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+W
+G
+D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U
+H
+U
+A
+U
+E
+K
+C
+A
+R
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+7 of 15
+12/09/2018, 12:58 pm
+
+[[page 8]]
+?
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+O
+T
+W
+T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+W
+A
+T
+J
+K
+L
+U
+D
+I
+A
+W
+I
+N
+F
+B
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+W
+G
+D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U
+H
+U
+A
+U
+E
+K
+C
+A
+R
+To keep the search Ɵme for ﬁnding such binary matrices reasonable we'd have to restrict ourselves to the sculpture alphabets or
+alphabets derived from the KRYPTOS keyword.
+At higher orders even calculaƟng the determinant to check if a matrix is inverƟble modulo 26 is quite Ɵme-consuming.
+We could also use a diﬀerent alphabet for the enciphering and deciphering mappings. This possibility is menƟoned in Sinkov’s
+“Elementary Cryptanalysis” book but not explicitly in the Friedman books or the Hill papers.
+As a contrived example, say we took the words afsnauwt and johdannossa (Dutch and Finnish, from the ACA word lists) giving the
+alphabets AFSNUWTBCDEGHIJKLMOPQRVXYZ and JOHDANSBCEFGIKLMPQRTUVWXYZ.
+Enciphering mapping for plaintext
+J
+O
+H
+D
+A
+N
+S
+B
+C
+E
+F
+G
+I
+K
+L
+M
+ P
+Q
+R
+T
+U
+V
+W
+X
+Y
+Z
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+Deciphering mapping for ciphertext
+A
+F
+S
+N
+U
+W
+T
+B
+C
+D
+E
+G
+H
+I
+J
+K
+L
+M
+O
+P
+Q
+R
+V
+X
+Y
+Z
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+We then encipher the plaintext “ERLI” as the matrix 9, 18, 14, 12 (by columns) and decipher the ciphertext “YPVT” as 24, 19, 22, 6
+and use our secret matrix 17, 3, 5, 4 as follows to decipher the “YPVT” part of the ciphertext.
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+8 of 15
+12/09/2018, 12:58 pm
+
+[[page 9]]
+Unfortunately, the context of the decrypted ciphertext is then … MAKABERLINCLOCKFBUEU … which is no use.
+The other secƟons of Kryptos were enciphered using pen and grid paper and the larger the matrix, the more diﬃcult the
+encipherment is and the greater the possibility of error. This theme is heavily emphasised in the Sinkov book in the chapter on
+polyalphabeƟc encrypƟon.
+With cryptanalysis of the Hill Cipher method, it's criƟcal that there are no mistakes in the encipherment of the known plaintext
+("NYPVTTMZFPK" from "BERLINCLOCK") otherwise we really are wasƟng our Ɵme.
+We can look at these Hill cipher decrypƟon aƩempts in informaƟon theoreƟc terms.
+There are 26! or about 4*10^26 possible permutaƟons of the English alphabet. This corresponds to about log2(26!) = 88.4 key bits.
+There are 26^11 possibiliƟes for the 11 known plaintext leƩers – about 4*10^15 which is 51.7 bits.
+If we were to use a 7x7 binary matrix, there are 163,849,992,929,280 inverƟble binary 7x7 matrices, which corresponds to about
+47.2 bits. If we were to pick one of 27 possible alphabets (the sculpture alphabets plus the standard alphabet) that corresponds to
+about 4.8 bits. EssenƟally the number of possibiliƟes is about 47.2 + 4.8 = 52.0 bits which is about the same amount of informaƟon
+in the 11 known plaintext leƩers. On average we’d expect to ﬁnd about one “soluƟon” (i.e. mapping BERLINCLOCK to
+NYPVTTMZFPK) in the keyspace.
+With a 3x3 Hill Cipher there are 1,634,038,189,056 inverƟble matrices and for a 4x4 Hill Cipher 12,303,585,972,327,392,870,400 –
+40.6 and 73.4 bits respecƟvely. Even with the reducƟon of the keyspace due to the known plaintext there is an enormous number
+of possibiliƟes.
+David Kahn in "The Codebreakers" (1967) wrote about cryptanalysis of the Hill Cipher (page 408). He menƟons "octogram
+frequencies" which implies that 8x8 matrices were considered.
+“In general, the Hill system defends itself well against the direct onslaughts of cryptanalysis. Without a knowledge of the basic
+leƩer-to-number conversion alphabet, the cryptanalyst may not even be able to start. Even with it, a straighƞorward frequency-
+analysis aƩack is out of the quesƟon: octogram frequencies, for example, are hard to collect and even harder to diﬀerenƟate.
+Probable words require tedious tesƟng for possible locaƟons and then much mathemaƟcal juggling to determine the correct
+equaƟons; even so, only the relaƟvely trivial trigraphic encipherments have been solved. The cipher has, however, at least one
+curious chink in its armor. If a cryptanalyst obtains two ciphertexts resulƟng from a single plaintext enciphered with diﬀerent
+involutory equaƟons (of the same type and polygram size), and if he knows the conversion alphabet, he can, in general, recover the
+equaƟons fairly easily.
+The real obstacle to pracƟcal use of the Hill system is, of course, its ponderousness. Hill sought to minimize this by patenƟng a device
+that will encipher small polygrams (up to hexagrams). It consists of a series of geared wheels connected by a sprocketed chain so
+that the rotaƟon of one wheel will turn all the others, but the range of its keys appears to be limited. Mechanisms could also be built
+to compute the encipherments of large polygrams, which give the best security, but they would be so complicated that they could
+not compete on a pracƟcal basis with simpler, though possibly less secure, cipher machines. For such reasons, the Hill system has
+served as a U.S. governmental cryptosystem in only one minor capacity – to encipher the three-leƩer groups of radio call-signs.”
+Propinquity
+Bauer is well-connected in the historical cryptography world. Most communicaƟon is non-verbal and people with a close
+connecƟon to Scheidt and Sanborn have a much beƩer chance of soluƟon than people without such a connecƟon. (Remember the
+story about “Masquerade”).
+Gillogly menƟoned Scheidt's interest in key escrow "Given Scheidt's interest in key escrow, I'd expect the key to be hidden in there
+for somebody who knows what to look for" in 1999 at a Ɵme when very few people would know who Scheidt was.
+In 2013 he also menƟoned “Scheidt's interest in duress ciphers mulƟ-layered ciphers for which you can give up a key to the enemy
+that produces credible plaintext without giving up the farm" which Scheidt menƟons in a 2015 video.
+Also, similarly, people who go to ACA conferences, Kryptos dinners, people with a connecƟon to Washington DC, or the USA in
+general may have more chance with Kryptos K4 than others not so well connected. Bauer himself works in the adjacent state of
+Pennsylvania: as with Sanborn he is within 100 miles of the sculpture.
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+9 of 15
+12/09/2018, 12:58 pm
+
+[[page 10]]
+The last part
+“It's in English, plain English” ... and between 95 and 100 characters. Given average word lengths in English, this is expected to be
+something between 18 and 23 words.
+Which clock?
+"There are several really interesƟng clocks in Berlin" said Sanborn in 2014.
+The most obvious candidates are ...
+•
+The Berlin Clock, or Berlinuhr, or Set Theory Clock, or Mengenlehreuhr by Dieter Binninger (1975). What is meant by Sanborn's
+quote "you'd beƩer delve into that parƟcular clock" is anyone's guess. Is it a suggesƟon for a probable word "THE" or
+"PARTICULAR" or "THAT" before "BERLINCLOCK"? Is it about a probable word concerning its pre-1995 locaƟon at
+Kurfürstendamm on the corner with Uhlandstraße, or the sculptor Dieter Binninger? Does it suggest it a technique involving
+modulo 11 or modulo 24 arithmeƟc, or puƫng the text in a width 11 or width 24 matrix?
+•
+Water Clock, or Clock of Flowing Time, or Wasseruhr, or Uhr der ﬂießenden Zeit by Bernard GiƩon (1982) also menƟoned in the
+NYT arƟcle.
+•
+World Time Clock (Weltzeituhr) or Atomic Clock (Urania) by Erich John (1969)
+•
+Peace Clock (Friedensuhr) by Jens Lorenz (1989). It has a great story associated with its unveiling. It’s been menƟoned at
+Indepdenent Café.
+•
+Rotes Rathaus, the German town hall clock
+•
+A sundial in the EgypƟan Museum in Berlin - "... the results of Borchardt's invesƟgaƟon of the Berlin Clock for an assumed
+laƟtude of 25.5°" in "Ancient EgypƟan Science, A Source Book, Volume Two: Calendars, Clocks and Astronomy" by Marshall
+ClageƩ, 1995. The book also examines star clocks, water clocks, shadow clocks, and sundials. This would be a nice way to
+connect all the parts themaƟcally - the Morse code and K1 concerning shadows, K2 concerning laƟtude, and K3 concerning
+ancient Egypt. And then there is Kryptos itself as a sundial, which perhaps suggests "gnomon" as a probable word for the text.
+A German blog of 2017 describes some of the 430 public clocks in Berlin.
+Professor Michael J. Sauter has two arƟcles on Berlin clocks historically: Clock Watchers and Stargazers (2006) and a similar arƟcle in
+2007. The focus is on the Berlin Academy Clock on Unter den Linden.
+Also a bit less likely, with no direct connecƟon to Berlin ...
+•
+The Danish Clock Cryptograph menƟoned by Jose
+•
+The Polish clock of cryptography for Enigma cryptanalysis menƟoned in the Wired arƟcle of 2014
+Yahoo group
+I've never joined it, but some parƟcipants and observers have commented about it online. Unfortunately, the signal to noise raƟo
+seems quite low.
+"So far as I have seen, the so-called Kryptos discussion group hasn't produced anything notable. 'If' the producƟon of "LAYERTWO"
+using a slightly broken key had been recognized at the Ɵme as an indicaƟon of an error in the ciphertext, it would be worth noƟng in
+the arƟcle. However, its signiﬁcance wasn't appreciated unƟl Sanford [sic] announced the error." (Wikipedia talk page)
+"The Yahoo group was teeming unƟl Yahoo had the huge hack [gradually disclosed between September 2016 and October
+2017]. Then a lot of people just didn't come back." (reddit)
+"There's a yahoo group for it, too, with an archive of 20,000 messages. Every now and then there is a useful post, but a lot are
+people who are sure they found the soluƟon but won't share or won't take advice, for a while tons of claims Nostradamus both
+predicted and solved Kryptos, cranks who are "anagramming" "soluƟons" (playing alphabet soup)..." (reddit and cryptocrap)
+"The forum seemed to be very acƟve leading up to a conference, but then nothing. However there were like 2 useful posts out of
+400." (reddit)
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+10 of 15
+12/09/2018, 12:58 pm
+
+[[page 11]]
+The membership experienced some small spikes aŌer the November 2010 and November 2014 hints were released but has really
+ﬂaƩened oﬀ. When the hints were released, or a biennial Kryptos dinner was coming up (2013, 2015, 2017...) there was a ﬂurry of
+message acƟvity which quickly dropped oﬀ again.
+Also consider the Figure from Heuer from the chapter "Do You Really Need More InformaƟon?". This graph showed the result of a
+horserace handicapping experiment (Paul Slovic, “Behavioral problems of adhering to a decision policy”, 1973). Having more
+informaƟon can increase conﬁdence but not accuracy.
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+11 of 15
+12/09/2018, 12:58 pm
+
+[[page 12]]
+Jose suggesƟon
+This was a niŌy idea between November 2010 to November 2014 - a 97 character suggested plaintext from Reagan's "Tear Down
+This Wall" speech, with "BERLIN" in characters 64-74.
+Jose plastered it all over comments secƟons everywhere for years without providing a method. His suggesƟon has 23 English words.
+Apart from not providing a method, the other ﬂaws were that it went through a sentence break in the original and started in the
+middle of a sentence: "... people, to create a safer, freer world. And surely there is no beƩer place than Berlin, the meeƟng place of
+East and West".
+Outlandish theories
+As Schridde has said, the theories of running key, auto key, and combined transposiƟon and polyalphabeƟc would have to be
+regarded as unlikely aŌer the "BERLIN CLOCK" clues. Other suggesƟons are very diﬃcult systems to analyse given the short cipher
+text length. Enigma requires a knowledge of rotor seƫngs and the classical version doesn't allow leƩers to encrypt to themselves
+(as with "MZFPK" to "CLOCK").
+•
+Enigma. “An Enigma that short would be quite a trick” (Gillogly). The standard Enigma machine wouldn’t map a “K” to itself in
+the ciphertext.
+•
+M-94 and M-209. Gillogly menƟoned "The only likely periodicity appears to be at period 25, but that may well just be
+chance". Does this indicate a parƟcular likely system associated with the number 25, like M-94? He also wrote "I don't see
+any regulariƟes other than a probably-spurious Phillips-like distribuƟon, if you ignore the presence of both I and J."
+•
+FracƟonated Morse. Possible, but very diﬃcult…
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+12 of 15
+12/09/2018, 12:58 pm
+
+[[page 13]]
+•
+Hill Cipher with a diﬀerent number of characters e.g. 27 or 29
+•
+Vigenere followed by Hill Cipher
+•
+TransposiƟon followed by Hill Cipher - but then saying "NYPVTT" maps to "BERLIN" becomes diﬃcult
+•
+Gromark – to help explain the high index of coincidence aŌer arranging the text at width 50. See Gromark subpage.
+•
+Triﬁd cipher – since Scheidt commented there were 98 characters remaining, we could include “?” as an extra character, which
+gives us 27 diﬀerent characters in the ciphertext as a Triﬁd cipher would have. I haven’t looked at this as I assume this has been
+done to death already, although I’m aware the keyspace for the encrypƟon alphabet is huge with 27! possibiliƟes. Update – I
+created another page about this idea.
+•
+One Ɵme pad (as suggested by the iniƟal CIA memo - in which case you'd have to ﬁnd a key which had been used elsewhere...
+and then it wouldn't be a real OTP ... like Venona)
+Curiously, a Washington Post arƟcle of January 1990 about Kryptos hasn’t been transcribed online. The relevant part (from the NSA
+presentaƟon) states
+The secret phrase will be cut into the plate. Anyone who knows a coding system called the Vigenere Tableau, invented in 1586 by
+French diplomat Blaise de Vigenere, will be able to decipher one-half of the phrase. The other half will be encoded in a modern
+system created for the project by an expert cryptographer, whom Sanborn would not idenƟfy.
+Other staƟsƟcal analysis
+For informaƟon about the period 7 properƟes, see the Schridde page.
+The original NSA document stated:
+A staƟsƟcal analysis of this porƟon showed some roughness on interval 7. This could be a characterisƟc of plain-text auto-key, if the
+alphabet used has a high frequency leƩer assigned the value of 0. Another hypothesis is that this last secƟon employs both of the
+systems already used. First the message is encrypted using some set of alphabets, as was done in the ﬁrst and third breakthroughs,
+and then the cipher is put through transposiƟon, such as that used in the second breakthrough. If the original text had a repeat at a
+distance of 7 apart (or perhaps 14 or even 21 apart), then aŌer transposing the text, the repeat would now show up in the interval
+staƟsƟc rather than the width staƟsƟc.
+Back in 1999 Doug Gwyn looked at ICs of the delta text - although with the 2010 clue that there's a one-to-one correspondence
+between "BERLIN" and "NYPVTT" this would have to be considered a defunct possibility.
+Monet's Kryptos observaƟons (last updated February 2014) is more observaƟons than soluƟon aƩempts.
+Western Union payment for Sanborn to examine soluƟons
+Western Union isn't available in Iran, Myanmar, Somalia or North Korea so post 2014, people from those countries have to try
+quesƟoning Jim Sanborn another way. The $50 payment he requests is really for crank deterrence. It may also be deterring interest
+in the sculpture as it could be interpreted as a money-making venture.
+Google n-gram search
+Apart from the huge growth in computer power since 1990, Google has also been busy digiƟsing all the books in the world. They
+have a page of n-gram data (updated 2012) so that if you want to download all the 2-grams, you can see what words tend to come
+before or aŌer "BERLIN" or "CLOCK" in English books, and in 3-grams, maybe you can ﬁnd the same for "BERLIN CLOCK" if it's a
+popular enough phrase.
+Total immersion
+People who become totally immersed in cryptanalysis someƟmes have nervous breakdowns (William F. Friedman) or engage in
+wishful thinking about famous unsolved cipher soluƟons (Beale, Voynich, Zodiac).
+Ideally a cryptanalysis task would be a posiƟve and growth experience, not a complete waste of Ɵme, and would help each
+individual involved to be a more well-rounded person. (Although I can well imagine that working on Venona was incredibly boring).
+Charles Babbage wrote “I am myself inclined to think that deciphering is an aﬀair of Ɵme, ingenuity, and paƟence; and that very few
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+13 of 15
+12/09/2018, 12:58 pm
+
+[[page 14]]
+ciphers are worth the trouble of unravelling them.”
+Parker HiƩ wrote “Success in dealing with unknown ciphers is measured by these four things in the order named: perseverance,
+careful methods of analysis, intuiƟon, luck. The ability at least to read the language of the original text is very desirable but not
+essenƟal.”
+Mark Siegal in The Magazine stated "Kryptos has moƟvated me to do more enthusiasƟc programming than almost anything else in
+my life."
+“This may be a good cryptosystem or it may not, but if it takes much eﬀort to crack, people are only going to aƩempt it if they have
+suﬃcient moƟvaƟon.” – Doug Gwyn, net.crypt, 1985
+“My guess is that when it is ﬁnally cracked, it will be by somebody versed in classical C/A who happens to make a lucky guess (about
+the key, the general system, or ???) that enables further progress.  That actually happens a lot in cryptanalysis and is part of the
+"art".” – Doug Gwyn, sci.crypt, 2004
+Sanborn commented ... "... there are actually schools for the disabled and auƟsƟc children, who have used Kryptos as therapy. I
+think it’s a wonderful thing. In addiƟon there are - on the opposite side - there are people whose relaƟonships have been destroyed
+over Kryptos."
+This was followed by another Sanborn style exchange about what he really meant by following Kryptos around the
+country, reminiscent of the bizarre "Something you did do?" "Something I could have done" exchange in Wired. (I'm missing the
+non-verbal context, but I'd ﬁnd someone who talked like that quite annoying.)
+This in turn reminded me of his 2005 throwaway line in Wired which probably discouraged many: "If a person deciphers and sends
+me the exact decipherment -- if it can be deciphered exactly, considering most of my things are rife with mistakes on purpose -- I'd
+probably let them know that they got it if they did." Or, reading that more charitably, is that supposed to mean there could be more
+than one soluƟon to K4, like a duress cipher?
+The idea of using a Hill cipher with non-inverƟble matrices was examined by Bauer et al, and brieﬂy in one sentence at PC's Xcetra
+Support page, although the vast majority of that page is deep in "wishful thinking" territory. Hill Ciphers with diﬀerent sized
+blocks were menƟoned on theoryland but you could get the plaintext to be anything that way.
+Lambros D. Callimahos's NSA classes certainly seemed to encourage becoming well-rounded, with trivia quesƟons long before the
+age of Google.
+Kryptosfan's blog has a big list of movies and books that he's read. I've picked up a few books that I probably wouldn't otherwise
+have read, and have been working my way through. For example:
+•
+"A Spy in Rome" by Peter Jenkins - recommended by Apex.
+•
+"The Codebreakers" by David Kahn (1996 update). FantasƟc background and very detailed.
+•
+"The Psychology of Intelligence Analysis" by Richards Heuer, a 1999 book published by the CIA. Reading this book and applying
+the theories will help you "keep your feet on the ground" and hopefully help you realise when you're engaging in wishful
+thinking. See also Piƞalls of decipherment.
+•
+"Killing Hope" by William Blum and "Legacy of Ashes" by Tim Weiner, about the history of the CIA
+•
+"Merchants of Menace" by Peter BuƩ, about the Nugan Hand Bank, a CIA bank of the 70s and 80s - a successor to "The Crimes
+of Patriots" by Jonathan Kwitny from 1987
+•
+"Encyclopedia of the CIA" - Kryptos gets a menƟon of course
+•
+"Ancient EgypƟan Science" menƟoned above, though it's quite dry and detailed
+•
+The two Michael Sauter arƟcles menƟoned above
+•
+"Unsolved" by Craig Bauer and "The MathemaƟcs of Secrets" by Joshua Holden
+(And whatever happened to the book about Kryptos Sanborn talked about wriƟng in 2009 and 2010?)
+Similar challenges
+The idea of a public puzzle which has remained unsolved for several years has been seen before in books.
+Masquerade by Kit Williams, published August 1979, solved March 1982
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+14 of 15
+12/09/2018, 12:58 pm
+
+[[page 15]]
+The Code Book by Simon Singh, published September 1999, solved October 2000
+Can you crack the Enigma Code by Paul Belﬁeld, published September 2006, solved August 2012
+These UK books aƩract the same kind of people as Kryptos which is why there are Kryptos pages on the Quest4Treasure forum and
+the Tweleve forum. One diﬀerence between these books and Kryptos is that it is certain the book puzzles were rigorously externally
+veriﬁed. We are essenƟally trusƟng Scheidt that K4 is decipherable.
+Extra hints
+So based on revelaƟons in 2006, 2010, and 2014 I guess it would be nice to have arithmeƟc progression and get a new clue in 2018.
+Ideally, it would be a hint about the method, like the zetaboards comments above said, but a list of the word divisions – like turning
+a “Patristocrat” into an “Aristocrat” - or an extra word might also help.
+In comparison to the Code Book Challenge everything here is as clear as mud.
+Last words
+From the sculptor (2012):
+"Like Kryptos, the other public works are designed to exude their informaƟon slowly. ... For the past 30 years, my task as an arƟst
+has been to release this hidden informaƟon at a rate commensurate with its importance, and at the Ɵme of my choosing so as to
+prolong the experience of discovery. As we all know, artwork that gives up its form or content quickly is soon forgoƩen."
+Given all the above, it would be wise not to spend too much Ɵme on this and wait for some new informaƟon to be disclosed.
+http://elvumgar.fea.st/misc/kryptos-2018.htm
+15 of 15
+12/09/2018, 12:58 pm

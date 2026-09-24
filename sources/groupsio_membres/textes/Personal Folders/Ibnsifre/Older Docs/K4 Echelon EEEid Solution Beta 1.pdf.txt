@@ -1,0 +1,760 @@
+[[page 1]]
+October, 19, 2013
+Beta 1.0
+K4 Echelon EEEid Solution and Procedure Draft 
+From Ibn Şifre to Yahoo Kryptos Group:
+Bismillah, Let us begin:
+Part 1 - Big H
+Carryout Transpositions Step:
+Start with K3 and arrange it in 7 rows by 48 columns as shown in Fig 1-1.
+           1         2         3         4
+  123456789012345678901234567890123456789012345678
+1 ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+2 NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+3 WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+4 QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+5 FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+6 GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+7 AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW
+Fig. 1-1, K3
+Flip K3 about the columns so that column 48 is ﬁrst and column 1 is last, as shown in 
+Fig 1-2.  This is done only to make the technique easier to visualize. Call it K3'.
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+1 LLSLLSDLUYERNTHCAIANHSYDIBIOETPCOEHRSLNHORHAYDNE
+2 TMWEACAIIPLBELENNLSEPRARNHITAGNRPTENMXWRMSONSHON
+3 YETYOIEAHNEWITDESLOFTEOEAHNTERDUENETCHARNEETIDNW
+4 SAOFEETBLREEYGETAMATANEWEHHMAPSRBTFIERCYATCNEEHQ
+5 AOREIPWETSMTTHAAINDDESBITRNTREEAMRAOTOEAUTEUTOIF
+6 HELMLKRTIROLDYRDDSOAEOGETISHIECLIHDDTCEABEFWEIRG
+7 WHODVTRTTSSLNHEMIEFPIRMDCEEHUEFMFGMHOENPDRAHDTGA
+Fig. 1-2, K3'
+
+[[page 2]]
+Using the END - YAR (RAY) clue, place K3' in the form of a transverse EM wave with a 
+period of 16 characters and an amplitude of 11 characters, as shown in Fig 1-3. 
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+4    LLSD    RNTH    NHSY    OETP    RSLN    AYDN
+5    EACA    BELE    EPRA    TAGN    NMXW    NSHO
+6    YOIE    WITD    FTEO    TERD    TCHA    TIDN
+7    FEET    EYGE    TANE    MAPS    IERC    NEEH
+1 LLSEIPWLUYETTHACAIADESBDIBITREECOEHOTOEHORHUTOIE
+2 TMWMLKRIIPLLDYRNNLSAEOGRNHIHIECRPTEDTCERMSOWEIRN
+3 YETDVTRAHNELNHEESLOPIRMEAHNHUEFUENEHOENRNEEHDTGW
+4 SAO    BLRE    TAMA    WEHH    RBTF    YATC    Q
+5 AOR    ETSM    AIND    ITRN    AMRA    AUTE    F
+6 HEL    TIRO    DDSO    ETIS    LIHD    ABEF    G
+7 WHO    TTSS    MIEF    DCEE    MFGM    PDRA    A 
+Fig. 1-3, W-K3'
+For brevity sake, display only rows 25 through 48 of W-K3' and collapse the wave so 
+that all the columns are ﬁlled as shown in W0, Fig 1-4.  
+ 
+           1         2
+  123456789012345678901234
+1 LLSEIPWLUYETTHACAIADESBD
+2 TMWMLKRIIPLLDYRNNLSAEOGR
+3 YETDVTRAHNELNHEESLOPIRME
+4 SAOLLSDBLRERNTHTAMANHSYW
+5 AOREACAETSMBELEAINDEPRAI
+6 HELYOIETIROWITDDDSOFTEOE
+7 WHOFEETTTSSEYGEMIEFTANED
+Fig. 1-4, W0
+Take the Rows and arrange them as 
+R5:R1
+R6:R2
+R7:R3
+shown below in W1, Fig 1-5:
+
+[[page 3]]
+         1         2             1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-5, W1
+Notice in Row 1, Columns 1 to 8 of W1, as shown in Fig. 1-5, spell out 'L WPIES LL'.  
+Maybe it means 'L SPIES LL'; spies surrounded by L's.   Also notice the last column of 
+R5-R7 and the ﬁrst column of R1-R3 spell out 'Y T LIED'.  Last, notice that the ﬁrst 
+columns of R1-R3 and R5-R7 spell out 'DREW H' - so draw an H!
+        1         2             1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-5b, W1 with H drawn on it
+OTP, One Time Pad, Decryption Step:
+The next step involves treating W1 as a pad and K4 as ciphertext as part of a OTP, one 
+time pad, encryption scheme.  In order to recover the plaintext one needs to follow the 
+following decryption algorithm.  Assign to each letter of the Kryptos alphabet a number 
+as shown in Fig. 1-6:
+K  R  Y  P  T  O  S  A  B  C  D  E  F  
+0  1  2  3  4  5  6  7  8  9  10 11 12
+G  H  I  J  L  M  N  Q  U  V  W  X  Z 
+13 14 15 16 17 18 19 20 21 22 23 24 25
+Fig. 1-6, Letter to Number Mapping for OTP
+Then, for a letter of the ciphertext and a letter of the pad, subtract the numbers 
+corresponding to the letters.  If the resulting number is negative then add 26 to it.  Take 
+the resulting number and ﬁnd its corresponding letter.  That letter is the letter of the 
+plaintext.
+
+[[page 4]]
+Examples:
+ciphertext => NY....
+pad        => EL....
+--------------------
+plaintext  => BE....
+Example 1:
+step 1:
+N => 19
+E => 11
+step 2:
+19 - 11 = 8
+8 => B
+plaintext => B
+Example 2:
+step 1:
+Y => 2
+L => 17
+step 2:
+2 - 17 = -15
+step 3:
+-15 + 26 = 11
+11 => E
+plaintext => E
+For ease, I have provided a python script that automates this in my folder in the Yahoo 
+Kryptos Group Files under personal folders.
+Continuing, Arrange K4 in 6 rows so that they look like small "pyramids" or perhaps 
+"A's" on their sides as shown in K4-1 Fig 1-7.  Also shown in Fig 1-7a is K4 arranged in 
+it's pad conﬁguration.
+
+[[page 5]]
+1      OBKRUOXOGHULBSO
+2 LIFBBWFLRVQQPRNGKSSO
+3       TWTQSJQSSEKZZW
+4 ATJKLUDIAWINFB
+5 NYPVTTMZFPKWGDKZXTJC
+6 DIGKUHUAUEKCAR
+Fig. 1-7, K4-1
+  1         2             0        1         2
+  123456789012345678901234123456789012345678901234
+   ATJKLUDIAWINFB                 OBKRUOXOGHULBSO
+   NYPVTTMZFPKWGDKZXTJC      LIFBBWFLRVQQPRNGKSSO
+   DIGKUHUAUEKCAR                  TWTQSJQSSEKZZW
+Fig. 1-7a, K4-1
+And apply K4 in Fig 1-7a over the negative space of the H in W1, Fig 1-5b as shown in 
+Fig 1-7b in an OTP decrypt.
+      1         2             0        1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-7b
+In other words:
+Take Row 1 of K4 and Row 1, Columns 9 to 23 of W1, Fig. 1-5 (after the LLSEIPWL 
+clue) and apply the OTP for the resulting plain text:
+K4 R1 OBKRUOXOGHULBSO
+W1 R1 UYETTHACAIADESB
+      ---------------
+      DSIWLLLVSZHAWKW
+  
+
+[[page 6]]
+And Take Row 2 of K4 and Row 2, Columns 4 to 23 of W1 and apply the OTP for the 
+resulting plain text:
+K4 R2 LIFBBWFLRVQQPRNGKSSO
+W1 R2 MLKRIIPLLDYRNNLSAEOG
+      --------------------
+      ZXFANBCKDFMNDBYANURM
+And Take Row 3 of K4 and Row 3, Columns 10 to 23 of W1 and apply the OTP for the 
+resulting plain text:
+K4 R3 TWTQSJQSSEKZZW
+W1 R3 NELNHEESLOPIRM
+      --------------
+      EFGRMOCKISWDXO
+ 
+And Take Row 4 of K4 and Row 5, Columns 2 to 15 of W1 and apply the OTP for the 
+resulting plain text:
+      
+K4 R4 ATJKLUDIAWINFB
+W1 R5 OREACAETSMBELE
+      --------------
+      YPONBHZEROABUW
+  
+And Take Row 5 of K4 and Row 6, Columns 2 to 21 of W1 and apply the OTP for the 
+resulting plain text:
+      
+K4 R5 NYPVTTMZFPKWGDKZXTJC
+W1 R6 ELYOIETIROWITDDDSOFT
+      --------------------
+      BERLINHDEXPBCKJIMZTO
+And Take Row 6 of K4 and Row 7, Columns 2 to 15 of W1 and apply the OTP for the 
+resulting plain text:
+      
+K4 R6 DIGKUHUAUEKCAR
+W1 R7 HOFEETTTSSEYGE
+      --------------
+      VDRIDDLPIOIAQJ
+
+[[page 7]]
+One should get the following for the resulting plain text:
+  1         2             0        1         2
+  123456789012345678901234123456789012345678901234
+   YPONBHZEROABUW                 DSIWLLLVSZHAWKW
+   BERLINHDEXPBCKJIMZTO      ZXFANBCKDFMNDBYANURM
+   VDRIDDLPIOIAQJ                  EFGRMOCKISWDXO
+Fig. 1-8
+Now re-arrange by ﬂipping the rows, (or 'pyramids' base to base) and get P1 as shown 
+in Fig. 1-9, 
+1      DSIWLLLVSZHAWKW YPONBHZEROABUW
+2 ZXFANBCKDFMNDBYANURM BERLINHDEXPBCKJIMZTO
+3       EFGRMOCKISWDXO VDRIDDLPIOIAQJ
+ 
+  
+Fig. 1-9, P1
+Misspellings Step:
+Guess the misspellings as follows in Fig. 1-10.  
+Don't worry, there are ways to tell if you have the right ones.  The rows labeled with 
+P1M are the rows of the correct letters where a misspelling occurs in the plaintext, as 
+best I can guess.  The rows labeled with P1 are  the plaintext row from the OTP step.  
+The rows labeled with W2 are the rows from the pad text and show the corresponding 
+pad letter where the misspelling occurred in the plaintext.
+                       1         2                1         2
+      123456789012345678901234  123456789012345678901234
+P1M 1          L A   O T          E  E        Z
+P1 R1         DSIWLLLVSZHAWKW    YPONBHZEROABUW
+W2-14         UYETTHACAIADESB    OREACAETSMBELE
+P1M 2         K Q  I      O            S    E T   S  
+ 
+P1 R2    ZXFANBCKDFMNDBYANURM    BERLINHDEXPBCKJIMZTO
+W2-25    MLKRIIPLLDYRNNLSAEOG    ELYOIETIROWITDDDSOFT
+P1M 3           D  R     R       D      E   C
+P1-R3          EFGRMOCKISWDXO    VDRIDDLPIOIAQJ
+W2-36          NELNHEESLOPIRM    HOFEETTTSSEYGE         
+Fig. 1-10
+
+[[page 8]]
+Which gives us PT1, our K4 solution to the 97 charters as shown in Fig. 1-11
+1      DLIALLLOSTHAWKW YEONEHZEROABUZ
+2 ZXFANKCQDFINDBYANORM BERLINSDEXPECTJIMSTO
+3       EDGRROCKISRDXO DDRIDDLEIOICQJ
+Fig. 1-11, PT1
+Examining the misspellings, Fig. 1-11, we can ﬁnd further messages.
+                  1        2                 1         2
+         12345678901234567890    12345678901234567890
+P1M 1         DLIALLLOSTHAWKW    YEONEHZEROABUZ
+P1M 2    ZXFANKCQDFINDBYANORM    BERLINSDEXPECTJIMSTO 
+P1M 3          EDGRROCKISRDXO    DDRIDDLEIOICQJ
+Fig. 1-12
+Read the misspelled letters across by rows in such a way:
+P1M 1   <- right to left  
+P1M 2   -> left to right
+P1M 3   <- right to left
+To get the following, PT1-MA, as shown in Fig. 1-13.
+ZEE TO AL K Q IO SETS C ED R RD
+Fig. 1-13, PT1-MA
+Now read the misspelled letters going up-down, left to right to get the following, PT1-
+MD, as shown in Fig 1-14. (odd columns: up and even columns: down)
+KLQD A R IO T R O DEE SEE CZTS
+Fig. 1-14, PT1-MD
+Next, examine the W2 Letters at the positions of the misspellings, Fig. 1-15.
+                    1         2              1         2
+         12345678901234567890    12345678901234567890
+W2-14         UYETTHACAIADESB    OREACAETSMBELE
+W2-25    MLKRIIPLLDYRNNLSAEOG    ELYOIETIROWITDDDSOFT
+W2-36          NELNHEESLOPIRM    HOFEETTTSSEYGE
+Fig. 1-15
+
+[[page 9]]
+Again, read the misspelled letters across by rows in such a way:
+W2-14   <- right to left  
+W2-25   -> left to right
+W2-36   <- right to left
+To get the following, PT1-WA, as shown in Fig. 1-16.
+ECR I CT YI LYE TI DOYTH P HE
+Fig. 1-16, PT1-WA
+Now read the W2 letters from Fig. 1-15, alternating column by column by going down-up 
+followed by up-down, left to right to get the following, PT1-WD, as shown in Fig 1-17.
+IY LET HY CIPEHR CT TIYED O
+Fig. 1-17, PT1-WD
+Part 2: Big O
+Bismillahi Al Haqq il Ala, let us continue.
+Carryout Transpositions Step:
+"
+As in part 1, start with W0 in Fig 1-4, but this time re-arrange the rows as follows: 
+R4:R3
+R1:R6
+R5:R7
+shown below in W1', Fig 1-5 and Draw a 'Big O' on it in the following way:
+      1         2             0        1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R3 AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME
+R1:R6 LLSEIPWLUYETTHACAIADESBDHELYOIETIROWITDDDSOFTEOE
+R4:R7 SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED
+Fig. 2-1, W1'
+
+[[page 10]]
+Continuing, Arrange K4 in as shown in K4-2, Fig 2-2a.  Note that 'NYPVTTMZFPKWG' is 
+repeated.  Also shown in Fib 2-2b is K4 arranged in it's pad conﬁguration.
+1  OBKRUOXOGHULBSOLIFBBW
+2  FLRVQQPRNGKSSOTWTQSJQ
+3  SSEKZZWATJKLUDIAWINFBN
+4a YPVTTMZFPKWGD
+5  KZXTJCDIGKUHUAUEKCAR
+4b NYPVTTMZFPKWG
+Fig. 2-2a, K4-2
+      1         2             0        1         2
+      123456789012345678901234123456789012345678901234
+R1:R2    OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQ
+R4a:b  YPVTTMZFPKWGD                     NYPVTTMZFPKWG
+R3:R2   SSEKZZWATJKLUDIAWINFBNKZXTJCDIGKUHUAUEKCAR
+Fig. 2-2b, K4-2
+OTP, One Time Pad, Decryption Step:
+Take Row 1 of K4-2 and Row 3, Columns 4 to 23 of W1' and apply the OTP decryption 
+algorithm, as before in part 1, for the resulting plain text:
+K4-2 R1 OBKRUOXOGHULBSOLIFBBW
+W1'  R3 EACAETSMBELEAINDEPRAI
+        ---------------------
+        QRLQDRMGOPTSRLFATCARB
+And Take Row 4a of K4-2 and Row 2, Columns 2 to 14 of W1' and apply the OTP for 
+the resulting plain text:
+K4-2 R4a YPVTTMZFPKWGD
+W1'  R2  LSEIPWLUYETTH
+         -------------
+         EWEIRUBLRINCV
+
+[[page 11]]
+And Take Row 3 of K4-2 and Row 1, Columns 3 to 24 of W1' and apply the OTP for the 
+resulting plaintext:
+K4-2 R3 SSEKZZWATJKLUDIAWINFBN
+W1'  R1 OLLSDBLRERNTHTAMANHSYW
+        ---------------------
+        RIQQILSSNIAGASBIJVOSSV
+And Take Row 5 of K4-2 and Row 7, Columns 1 to 20 of W2' and apply the OTP for the 
+resulting plain text:
+K4-2 R5 KZXTJCDIGKUHUAUEKCAR
+W2'  R7 WHOFEETTTSSEYGEMIEFT
+        -------------------
+        PENMOXSECQIPNQDNEXUW
+ 
+The plain text is backwards, so arrange them as in P2 shown in Fig. 2-3.
+1    BRACTAFLRSTPOGMRDQLRQ 
+2  VCNIRLBURIEWEY
+3   VSSOVJIBSAGAINSSLIQQIR WUXENDQNPIQCESXOMNEP
+Fig. 2-3, P2
+Misspellings Step:
+Guess the misspellings as follows in Fig 2-4.  The rows labeled with P2M are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with P2 are the plaintext row from the OTP step.  The rows labeled 
+with W' are the row from the pad text and shows the corresponding pad letter where the 
+misspelling occurred in the plaintext.
+           
+
+[[page 12]]
+               2         1               2         1 
+           432109876543210987654321  432109876543210987654321
+P2M 1           O  A  L  A           
+P2 R1      BRACTAFLRSTPOGMRDQLRQ           
+W'-1       IARPEDNIAELEBMSTEACAE                            
+ 
+ 
+ 
+P2M 2                 O G       D
+P2 R2                VCNIRLBURIEWE
+W'-2                 HTTEYULWPIESL               
+P2M 3      D   S  M       T  E          Q      D  E     O 
+ 
+P1 R3      VSSOVJIBSAGAINSSLIQQIR       WUXENDQNPIQCESXOMNEP
+W'-3       WYSHNAMATHTNRERLBDSLLO       TFEIMEGYESSTTTEEFOHW      
+Fig. 2-4
+Which gives us PT2, our K4 part 2 solution as shown in Fig 2-5.
+      BRACTOFLASTLOGARDQLRQ 
+                VONGRLBURIEDE
+      DSSOSJIMSAGAINSTLIEQIR   QUXENDQDPIECESXOONEP
+Fig. 2-5, PT2
+Examining the misspellings, Fig 2-6, we can ﬁnd further messages.            
+               2         1               2         1 
+           432109876543210987654321  432109876543210987654321     
+P2M 1      BRACTOFLASTLOGARDQLRQ               
+P2M 2                VONGRLBURIEDE
+P2M 3      DSSOSJIMSAGAINSTLIEQIR        QUXENDQDPIECESXOONEP
+Fig 2-6     
+Read the misspelled letters across by rows in such a way:
+P2M 3   -> left to right  
+P2M 2   <- right to left
+P2M 3   <- right to left
+To get the following, PT2-MA, as shown in Fig. 2-7.
+DS MT EQ DE OD GOAL A O
+Fig. 2-7, PT2-MA
+
+[[page 13]]
+Now read the misspelled letters going up on odd rows, down on even, right to left, to get 
+the following,  PT2-MD, as shown in Fig 2-8.
+O ED Q DET A GO LAM OS D
+Fig. 2-8, PT2-MD
+Next, examine the W' Letters at the positions of the misspellings, Fig. 2-6.
+               2         1               2         1 
+           432109876543210987654321  432109876543210987654321
+W'-1       IARPEDNIAELEBMSTEACAE              
+W'-1                 HTTEYULWPIESL
+W'-2       WYSHNAMATHTNRERLBDSLLO        TFEIMEGYESSTTTEEFOHW
+Fig 2-9    
+Again, read the misspelled letters across by rows in such a way (note that row 2 is ﬁrst):
+W'-3"   <-  right to left 
+W'-2"   <-  right to left
+W'-1"   <-  right to left
+to get the following, PT2-WA, as shown in Fig. 2-10.
+F SYTS L A NW SET SE A D
+Fig. 2-10, PT2-WA
+Now read the W' letters from Fig. 2-9, up on even rows, down on odd, left to right to get 
+the following, PT2-WD, as shown in Fig 2-11.
+F SYTS S L SET EA A D NW
+Fig. 2-11, PT2-WD
+Part 2.1 - The other part of the Big O
+In part one, an algorithm was given for OTP decryption.  Here we will give the 
+corresponding algorithm for OTP encryption.
+Assign to each letter of the Kryptos alphabet a number as shown in Fig. 1-6.  Then, for 
+a letter of the plaintext and a letter of the pad, add the numbers corresponding to the 
+
+[[page 14]]
+letters.  If the resulting number greater than 25, subtract 26 from it.  Take the resulting 
+number and ﬁnd its corresponding letter.  That letter is the letter of the ciphertext.
+Examples:
+plaintext  => BE....
+pad        => EL....
+--------------------
+ciphertext  => NY....
+Example 1:
+step 1:
+B => 8
+E => 11
+step 2:
+8 + 11 = 19
+19 => N
+ciphertext => N
+Example 2:
+step 1:
+E => 11
+L => 17
+step 2:
+11 + 17 = 28
+step 3:
+28 - 26 = 2
+2 => Y
+ciphertext => Y
+Take Row 2 of K4-2 and Row 6, Columns 1 to 21 of W2' and apply the OTP encryption 
+algorithm for the resulting ciphertext:
+K4' R2 FLRVQQPRNGKSSOTWTQSJQ
+W2' R6 YETDVTRAHNELNHEESLOPI
+       ---------------------
+       HYOSJXTBASEWZNIBDEENC
+
+[[page 15]]
+And Row 4b of K4-2 and Row 6, Columns 1 to 21 of W2' and apply the OTP encryption 
+algorithm for the resulting ciphertext:
+K4' R4b  NYPVTTMZFPKWG
+W2' R6   WITDDDSOFTEOE
+         -------------
+         JLASHHXTXAEYX
+For the ﬁrst, the text is in reverse with misspellings (note starting at column 7 the letters: 
+T BASE).  Guess the misspellings as follows in Fig 2-10.  
+P2.1.1M   I       S   T         
+P2.1.1    CNEEDBINZWESABTXJSOYH
+W'        IPOLSEEHNLENHARTVDTEY    
+P2.1.2M       T A  K
+P2.1.2    JLASHHXTXAEYX   
+W'        WITDDDSOFTEOE   
+Fig. 2-10
+which gives us
+      
+INEEDBINSWESTBTXJSOYH
+Fig. 2-11a PT2.1.1
+which gives us
+      
+JLASTHATXKEY
+Fig. 2-11b PT2.1.2
+Reading off the letters across left to right, for P2.1.1 and then W' we get
+       IST INH
+Fig. 2-12a PT2.1.1-MW
+And reading off the letters across right to left for the guesses and left to right for W' for 
+P2.1.2 we get
+      K AT DS T
+Fig. 2-12b PT2.1.2-MW
+
+[[page 16]]
+Part 3: Big Y!?
+Bismillahi Ar Rahmani Raheem, let us continue.
+Carryout Transpositions Step:
+"
+As in part 1, start with W0 in Fig 1-4, but this time re-arrange the rows as shown 
+below in W1'', Fig 3-1 and Draw a 'Big Y' on it in the following way:
+      1         2          
+   123456789012345678901234
+  
+R5 AOREACAETSMBELEAINDEPRAI
+R2 TMWMLKRIIPLLDYRNNLSAEOGR
+R3 YETDVTRAHNELNHEESLOPIRME
+R7 WHOFEETTTSSEYGEMIEFTANED
+R1 LLSEIPWLUYETTHACAIADESBD
+Fig. 3-1, W1''
+1  OBKRUOXOGHULB
+2  SOLIFBBWFLRVQQ
+   PRNGKSSOT
+3  WTQSJQSSEKZZW
+   A
+4  TJKLUDIAWINFB
+   NYPVTTMZFPKWG
+   DK
+5  ZXTJCDIGKUHUAU
+   EKCAR
+Fig. 3-2, K4-3
+OTP, One Time Pad Step:
+As Before do the OTP decrypt step on each of the parts:
+K4-3 R3 WTQSJQSSEKZZW
+W1'' R3 LNHEESLOPIRME
+        -------------
+        SESUOHIRBEXAF
+K4-3 R5 ZXTJCDIGKUHUAU
+W1'' R7 FEETTTSSEYGEMI
+        --------------
+        GGNFOSCAINRDIS
+
+[[page 17]]
+K4-3 R2 SOLIFBBWFLRVQQ
+W1'' R3 LLSEIPWLUYETTH
+        --------------
+        IHETWOESLIJMJS
+       
+The plain text is as shown in P3.1 Fig. 3-3a.
+3              SESUOHIRBEXAF 
+4      GGNFOSCAINRDIS
+5   IHETWOESLIJMJS
+Fig. 3-3a, P3.1
+And do the OTP encrypt step on the other two parts:
+K4-3 R4 TJKLUDIAWINFB
+W1'' R5 OREACAETSMBEL
+        -------------
+        CLEXTLKEPARWZ
+K4-3 R1 OBKRUOXOGHULB
+W1'' R2 KRIIPLLDYRNNL
+        -------------
+        OCIJXVIIIIHDZ
+The plain text is as shown in P3.1 Fig. 3-3b, note row 2 is read backwards.
+1   CLEXTLKEPARWZ 
+2       OCIJXVIIIIHDZ
+Fig. 3-3b, P3.2
+Misspellings Step:
+Guess the misspellings as follows in Fig 3-4.  The rows labeled with P3M are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with P3 are the plaintext row from the OTP step.  The rows labeled 
+with W'' are the row from the pad text and shows the corresponding pad letter where the 
+misspelling occurred in the plaintext.
+
+[[page 18]]
+             1         2          
+      123456789012345678901234
+P3M 3             O A        C   
+P3 R3            SESUOHIRBEXAF           
+W''-3            LNHEESLOPIRME                            
+ 
+ 
+ 
+P3M 4    T  P   T     L
+P3 R4    GGNFOSCAINRDIS
+W''-4    FEETTTSSEYGEMI               
+P3M 5  N    I   O     
+P3 R5 IHETWOESLIJMJS      
+W''-5 SOLIFBBWFLRVQQ
+Fig. 3-4
+Which gives us PT3.1, our K4 part 3.1 solution as shown in Fig 3-5.
+              SOSAOHIRBEXAC 
+      TGNPOSCTINRDIL
+   INETWOISLIOMJS
+Fig. 3-5, PT3.1
+Examining the misspellings, Fig 3-5, we can ﬁnd further messages.            
+             1         2          
+      123456789012345678901234
+  
+P3M 3            SOSAOHIRBEXAC           
+P3M 4    TGNPOSCTINRDIL
+P3 R5 INETWOISLIOMJS      
+Fig 3-6     
+Read the misspelled letters across by rows in such a way:
+P3M 3   -> left to right  
+P3M 4   -> left to right 
+P3M 5   -> left to right
+To get the following, PT3.1-MA, as shown in Fig. 3-7.
+O A CT PT LN 10
+Fig. 3-7, PT3.1-MA
+
+[[page 19]]
+Now read the misspelled letters going up on odd rows, down on even, left to right, to get 
+the following,  PT3.1-MD, as shown in Fig 3-8.
+N TIP TOO AL C
+Fig. 3-8, PT3.1-MD
+As for the ﬁrst two parts, they are shown in Fig 3-12, PT3.2
+     123456789012345678901234
+P3M 1   T    I    T   
+P3 R1  CLEXTLKEPARWZ           
+W''-1  OREACAETSMBEL                              
+ 
+P3M 2       M        L O
+P3 R2      OCIJXVIIIIHDZ
+W''-2      KRIIPLLDYRNNL
+Fig. 3-12, PT3.2
+And as before, with some brevity 
+And as before, with some brevity, PT3.2, PT3.2-MA are given:
+C TEXT LIE PART Z
+O DL IIII VX JIM O
+TI TO LM
+Fig. 3-12, PT3.2, PT3.2-MA
+Interpretations:
+What follows are my best guesses - certainly not everything will be correct.  CDQ! SOS!
+Plaintexts and others:
+PT1:
+DL I ALL LOST H-AWK-WYE ONE H ZERO A BUZZ X
+FAN K CQD FIND BY ANORM BERLIN'S D EXPECT
+JIM S TO ED GR ROCK IS RD X 
+ODD RIDDLE 10 I C Q J 
+PT2:
+BR ACT OF LAST LOG A RD Q LRQ
+
+[[page 20]]
+V ON GR L BURIED E D'S
+SOS JIM S AGAINST LIE Q I RQ U X 
+END Q D PIECES X O ONE P
+PT2.1.1:
+I NEED BINS WEST B TX JS O Y H
+PT2.1.2:
+J LAST H-A TX KEY X
+PT3.1
+SOS AOHI RB EXACT GN POS CT IN RD I LINE TWO IS LIOM JS
+PT3.2
+C TEXT LIE PART Z
+O DL IIII VX JIM O
+PT1-MA:
+ZEE TO AL K Q IO SETS C ED R RD
+PT1-MD:
+KLQD A R IO T R O DEE SEE CZTS
+PT1-WA:
+ECRI CT YI LYE TI DOYTH P HE
+PT1-WD:
+IY LET HY CIPEHR CT TIYED O
+PT2-MA:
+DS MT EQ DE OD GOAL A O
+PT2-MD:
+O ED Q DET A GO LAM OS D
+PT2-WA:
+F SYTS L A NW SET SE A D
+PT2-WD:
+F SYTS S L SET EA A D NW
+PT2.1.1-MW:
+
+[[page 21]]
+IS TIN H
+PT2.1.2-MW:
+K AT DS T
+PT3.1-MA:
+O A CT PT LN IO
+PT3.1-MD:
+N TIP TOO AL C
+PT3.2-MA:
+TI TO LM
+Note I'm guessing the following relations:
+K is for C
+C is for CIA
+D is for T
+T is for Teufelsberg, "Devil's Mountain", Berlin
+so D is for Devil
+PT 1:
+DeviL won ALL, LOST H AWKward WYE ONE H ZERO2 BUZZ X1
+Fan of K3 CQD4 ﬁnd by abnormal Berlin's D5 expect Jim S. to Ed6 ground rock is RD7 X
+Odd riddle - 10 I see8? J9
+1. This could also be read like: Devil won, all lost, H-Y on E Hz Arrow a buzz X; or Devil eyes lost, or D 
+Lies, etc.   It is also interesting since when read backward (It's the Devil - you must read it backwards). 
+Reading forward we ﬁnd the letters 'LIXL' (if we substitute A for X since 'A IS X' is a Kryptos password).  In 
+Roman numerals it can be  51-40 or backwards its 415.  This might be a hidden reference to Project 415, 
+aka the ECHELON program.  H-Y is also a reference to YAR.
+2. Berlin Hz Arrow: The big antenna tower that was used by the British GCHQ at the NSA Field Station 
+Teufelsberg, Berlin - also 1H0A probably should be read A0H1, maybe in reference to its EM emission 
+mode?; see Chaos Computer Club's page: http://dasalte.ccc.de/teufelsberg/
+3. Us, Kryptos' Fans
+4. CQD is an older radio distress call that was used before SOS
+5. D is for Devil - Teufelsberg
+6. Jim Sanborn, the sculptor and artist, and CIA cryptographer Edward M. Scheidt
+7. Riddle or "Our Devil" meaning our secret listening ﬁeld site.
+6. There are ten pieces to the riddle
+
+[[page 22]]
+9. Jim Sanborn
+PT 2:
+Brother10 act of last log a riddle? Location request:
+V on GRound L11 buried E D'S12
+SOS Jim S. against lie? I require you X
+End? D pieces X O one piece.13
+10. Brother: the British, or perhaps "B R act" meaning "Berlin, our act"
+11. Maybe L - stands for Logs, or Lies, or Laws, - or all three!
+12. Buried I's and D's SOS or maybe Ed's SOS. 
+13. A hint of the big O
+The misspelling for these 2 main PT's:
+ZEE TO AL K Q IO SETS C ED R RD
+D to all Kryptos Fans - ? 10 sets, see Ed our riddle
+KLQD A R IO T R O DEE SEE CZTS
+L CQD A is 10 and T is 0 (morse code to binary?) D See sets.
+ECRI CT YI LYE TI DOYTH P HE
+Encrypt CT, Why I LIED - T Doeth protest He! 
+IY LET HY CIPEHR CT TIYED O
+IY Letter H-Y Cipher CT TIYED O
+The H-Y Cipher CT s the YAR letters - Vig. Encrypt them (ENDYAHR..) with a 'V' to see what I mean.
+DS MT EQ DE OD GOAL A O
+Devil's Mountain Equals D, Odd goal a (Big) O
+O ED Q DET A GO LAM OS D
+O Ed, Q Determine A, Go to L and M, Is D (?)
+F SYTS L A NW SET SE A D
+Field site's L, a northwest set, southeast is a D
+I NEED BINS WEST B TX JS O Y H? IS TIN H
+I need bin's20 west berlin text, Jim S.
+The O-Y-H are the 3 Plaintexts, and use the '?' here!
+20. Binary or it might refer to JKF's "Ich bin Ein Berliner" speech.
+J LAST H-A TX KEY X
+
+[[page 23]]
+Pay attention to the last part of the H plaintext.
+SOS AOHI RB EXACT GN POS CT IN RD I LINE TWO IS LIOM JS
+You would kill me if I told you here and didn't let you solve the riddle within a riddle - it's 
+a really nice tip :)  
+C TEXT LIE PART Z
+O DL IIII V X JIM O
+See text lie in part 2, and 4, 5, 10 - there are those numbers again :) 
+K AT DS T
+Kryptos at D's T ?
+O A CT PT LN IO
+O A cipher text - plain text (line 2)
+N TIP TOO AL C
+Nice tip to all Kryptos fans.
+TI TO LM
+TI to L and M
+That enough for now!
+"
+"
+"
+"
+"
+"
+Salam and Happy Discoveries and Adventures,
+"
+"
+"
+"
+"
+"
+"
+"
+"
+"
+              Ibn Şifre
+SUMHGGJKKIPETCTWGTGGPIBZJEJNJKKQRXWCCYXFSBWMJAZUMC

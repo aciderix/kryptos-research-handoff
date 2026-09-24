@@ -1,0 +1,199 @@
+[[page 1]]
+The NGS Data Sheet 
+See file dsdata.txt for more information about the datasheet. 
+PROGRAM = datasheet95, VERSION = 8.5 
+1        National Geodetic Survey,   Retrieval Date = NOVEMBER  2, 2014 
+ JF0629 
+*********************************************************************** 
+ JF0629  DESIGNATION -  W 340 
+ JF0629  PID         -  JF0629 
+ JF0629  STATE/COUNTY-  KS/DICKINSON 
+ JF0629  COUNTRY     -  US 
+ JF0629  USGS QUAD   -  ABILENE (1979) 
+ JF0629 
+ JF0629                         *CURRENT SURVEY CONTROL 
+ JF0629  
+______________________________________________________________________ 
+ JF0629* NAD 83(1986) POSITION- 38 56 41.     (N) 097 08 39.     (W)   
+SCALED     
+ JF0629* NAVD 88 ORTHO HEIGHT -   367.722 (meters)     1206.43  (feet) 
+ADJUSTED   
+ JF0629  
+______________________________________________________________________ 
+ JF0629  GEOID HEIGHT    -        -29.00  (meters)                     
+GEOID12A 
+ JF0629  DYNAMIC HEIGHT  -        367.466 (meters)     1205.59  (feet) 
+COMP 
+ JF0629  MODELED GRAVITY -    979,922.7   (mgal)                       
+NAVD 88 
+ JF0629 
+ JF0629  VERT ORDER      -  FIRST     CLASS II 
+ JF0629 
+ JF0629.The horizontal coordinates were scaled from a topographic map 
+and have 
+ JF0629.an estimated accuracy of +/- 6 seconds. 
+ JF0629. 
+ JF0629.The orthometric height was determined by differential leveling 
+and 
+ JF0629.adjusted by the NATIONAL GEODETIC SURVEY 
+ JF0629.in June 1991. 
+ JF0629 
+ JF0629.The dynamic height is computed by dividing the NAVD 88 
+ JF0629.geopotential number by the normal gravity value computed on the 
+ JF0629.Geodetic Reference System of 1980 (GRS 80) ellipsoid at 45 
+ JF0629.degrees latitude (g = 980.6199 gals.). 
+ JF0629 
+ JF0629.The modeled gravity was interpolated from observed gravity 
+values. 
+ JF0629 
+ JF0629;                    North         East    Units  Estimated 
+Accuracy 
+ JF0629;SPC KS N     -    68,220.      474,190.      MT  (+/- 180 
+meters Scaled) 
+ JF0629 
+ JF0629                          SUPERSEDED SURVEY CONTROL 
+
+[[page 2]]
+ JF0629 
+ JF0629  NGVD 29 (??/??/92)  367.614  (m)         1206.08   (f) ADJ 
+UNCH    1 2 
+ JF0629 
+ JF0629.Superseded values are not recommended for survey control. 
+ JF0629 
+ JF0629.NGS no longer adjusts projects to the NAD 27 or NGVD 29 datums. 
+ JF0629.See file dsdata.txt to determine how the superseded data were 
+derived. 
+ JF0629 
+ JF0629_U.S. NATIONAL GRID SPATIAL ADDRESS: 14SPJ608122(NAD 83) 
+ JF0629 
+ JF0629_MARKER: DB = BENCH MARK DISK 
+ JF0629_SETTING: 46 = COPPER-CLAD STEEL ROD W/O SLEEVE (10 FT.+) 
+ JF0629_SP_SET: COPPER-CLAD STEEL ROD 
+ JF0629_STAMPING: W 340 1970 
+ JF0629_MARK LOGO: NGS 
+ JF0629_STABILITY: B = PROBABLY HOLD POSITION/ELEVATION WELL 
+ JF0629 
+ JF0629  HISTORY     - Date     Condition        Report By 
+ JF0629  HISTORY     - 1970     MONUMENTED       NGS 
+ JF0629  HISTORY     - 1986     GOOD             NGS 
+ JF0629 
+ JF0629                          STATION DESCRIPTION 
+ JF0629 
+ JF0629'DESCRIBED BY NATIONAL GEODETIC SURVEY 1970 
+ JF0629'3.7 MI E FROM ABILENE. 
+ JF0629'ABOUT 3.7 MILES EAST ALONG INTERSTATE HIGHWAY 70 FROM THE 
+HIGHWAY 
+ JF0629'OVERPASS FOR STATE HIGHWAY 15 AT ABILENE, 0.1 MILE EAST OF A 
+ JF0629'SMALL HIGHWAY OVERPASS FOR A FARM ROAD, 129 FEET SOUTHEAST OF 
+ JF0629'THE CENTER LINE OF THE SOUTH LANES OF THE HIGHWAY, 173 FEET 
+ JF0629'EAST OF THE SOUTH END OF AN 18-INCH TUBULAR CULVERT UNDER THE 
+ JF0629'HIGHWAY, 0.5 FOOT NORTHWEST OF A FENCE, 0.5 FOOT SOUTHEAST OF 
+ JF0629'A METAL WITNESS POST, ABOUT 12 FEET BELOW THE LEVEL OF THE 
+ JF0629'HIGHWAY, AND ON THE TOP OF A COPPER COATED ROD THAT IS DRIVEN 
+ JF0629'TO REFUSAL AT 11 1/2 FEET AND IS ENCASED IN A 4-INCH PLASTIC 
+PIPE 
+ JF0629'THAT PROJECTS 0.5 FOOT.  SECTION 6, T 13 S, R 3 E. 
+ JF0629 
+ JF0629                          STATION RECOVERY (1986) 
+ JF0629 
+ JF0629'RECOVERY NOTE BY NATIONAL GEODETIC SURVEY 1986 
+ JF0629'RECOVERED IN GOOD CONDITION. 
+ 
+ *** retrieval complete. 
+ Elapsed Time = 00:00:02 
+
+[[page 3]]
+The NGS Data Sheet 
+See file dsdata.txt for more information about the datasheet. 
+PROGRAM = datasheet95, VERSION = 8.5 
+1        National Geodetic Survey,   Retrieval Date = NOVEMBER  2, 2014 
+ HV4867 
+*********************************************************************** 
+ HV4867  DESIGNATION -  LANGLEY CIA TANK 
+ HV4867  PID         -  HV4867 
+ HV4867  STATE/COUNTY-  VA/FAIRFAX 
+ HV4867  COUNTRY     -  US 
+ HV4867  USGS QUAD   -  FALLS CHURCH (1994) 
+ HV4867 
+ HV4867                         *CURRENT SURVEY CONTROL 
+ HV4867  
+______________________________________________________________________ 
+ HV4867* NAD 83(1993) POSITION- 38 57 02.98075(N) 077 08 53.87342(W)   
+ADJUSTED   
+ HV4867* NAVD 88 ORTHO HEIGHT -          **(meters)           **(feet)            
+ HV4867  
+______________________________________________________________________ 
+ HV4867  LAPLACE CORR    -         -2.61  (seconds)                    
+DEFLEC12A 
+ HV4867  GEOID HEIGHT    -        -31.86  (meters)                     
+GEOID12A 
+ HV4867  HORZ ORDER      -  THIRD 
+ HV4867 
+ HV4867.The horizontal coordinates were established by classical 
+geodetic methods 
+ HV4867.and adjusted by the National Geodetic Survey in November 1994. 
+ HV4867. 
+ HV4867.The Laplace correction was computed from DEFLEC12A derived 
+deflections. 
+ HV4867 
+ HV4867. The following values were computed from the NAD 83(1993) 
+position. 
+ HV4867 
+ HV4867;                    North         East     Units Scale Factor 
+Converg. 
+ HV4867;SPC MD       -   142,558.083   387,145.215   MT  0.99995070   -
+0 05 35.1 
+ HV4867;SPC MD       -   467,709.31  1,270,158.93   sFT  0.99995070   -
+0 05 35.1 
+ HV4867;SPC VA N     - 2,143,405.156 3,617,165.768   MT  0.99996527   
++0 50 37.0 
+ HV4867;SPC VA N     - 7,032,155.08 11,867,318.02   sFT  0.99996527   
++0 50 37.0 
+ HV4867;UTM  18      - 4,313,514.555   313,837.164   MT  1.00002676   -
+1 21 03.3 
+ HV4867 
+ HV4867                          SUPERSEDED SURVEY CONTROL 
+ HV4867 
+
+[[page 4]]
+ HV4867  NAD 83(1991)-  38 57 02.97989(N)    077 08 53.87504(W) AD(       
+) 3 
+ HV4867  NAD 83(1986)-  38 57 02.97914(N)    077 08 53.88334(W) AD(       
+) 3 
+ HV4867  NAD 27      -  38 57 02.58035(N)    077 08 54.95127(W) AD(       
+) 3 
+ HV4867 
+ HV4867.Superseded values are not recommended for survey control. 
+ HV4867 
+ HV4867.NGS no longer adjusts projects to the NAD 27 or NGVD 29 datums. 
+ HV4867.See file dsdata.txt to determine how the superseded data were 
+derived. 
+ HV4867 
+ HV4867_U.S. NATIONAL GRID SPATIAL ADDRESS: 18SUJ1383713514(NAD 83) 
+ HV4867 
+ HV4867_MARKER: 51 = TANK 
+ HV4867 
+ HV4867  HISTORY     - Date     Condition        Report By 
+ HV4867  HISTORY     - 1969     FIRST OBSERVED   CGS 
+ HV4867  HISTORY     - 19840101 GOOD             NGS 
+ HV4867 
+ HV4867                          STATION DESCRIPTION 
+ HV4867 
+ HV4867'DESCRIBED BY NATIONAL GEODETIC SURVEY 1984 (CLN) 
+ HV4867'THE STATION WAS RECOVERED IN GOOD CONDITION.  A COMPLETE 
+DESCRIPTION 
+ HV4867'FOLLOWS.  THE STATION IS LOCATED ABOUT 6.4 KM (3.95 MI) EAST OF 
+THE 
+ HV4867'INTERSECTION OF INTERSTATE 495 AND CHAINBRIDGE ROAD, 0.8 KM 
+(0.50 MI) 
+ HV4867'NORTH OF DOLLY MADISON BLVD, WITHIN THE CIA COMPOUND AT 
+MCCLEAN.  THE 
+ HV4867'POINT INTERSECTED WAS THE CENTER OF THE VENT ATOP HEMISPHERICAL 
+TANK 
+ HV4867'WHICH IS PAINTED RED AND WHITE CHECK, SUPPORTED BY 6-LEGS AND 
+IS ABOUT 
+ HV4867'125 FT (38.1 M) IN HEIGHT. 
+ 
+ *** retrieval complete. 
+ Elapsed Time = 00:00:02 
+ 

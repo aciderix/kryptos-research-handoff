@@ -1,0 +1,684 @@
+[[page 1]]
+Finding the Word: SLOWLY
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+MPACG KCBZR GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: SLOWLY
+Length: 6 letters
+3. Locate Known Positions
+Search for segments of 6 letters in the ciphertext.
+Potential Segments Identified:
+BGMDWM
+4. Character Mapping and Positioning
+Analyze the segment BGMDWM and determine how it maps to SLOWLY.
+5. Apply Ciphers
+To derive SLOWLY, we will apply Caesar shifts.
+Step-by-Step Cipher Application for the Segment:
+BGMDWM →SLOWLY
+Shifts for each character:
+- B (Caesar +18) →S
+- G (Caesar +4) →L
+- M (Caesar +0) →O
+- D (Caesar +12) →W
+- W (Caesar -6) →L
+- M (Caesar +10) →Y
+6. Detailed Shifting Example
+Character Mapping:
+- B →S
+- G →L
+- M →O
+- D →W
+- W →L
+- M →Y
+7. Confirm Letter Transformation
+Verify each transformation:
+- B →S
+- G →L
+
+[[page 2]]
+- M →O
+- D →W
+- W →L
+- M →Y
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with SLOWLY.
+9. Final Placement
+Confirm SLOWLY fits correctly in the context of the ciphertext.
+Final Position:
+... BGMDWM**SLOWLY** MPACG ...
+Finding the Word: DESPERATELY
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+MPACG KCBZR GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: DESPERATELY
+Length: 12 letters
+3. Locate Known Positions
+Search for segments of 12 letters in the ciphertext.
+Potential Segments Identified:
+PCXOFVLDZH
+4. Character Mapping and Positioning
+Analyze the segment PCXOFVLDZH and determine how it maps to DESPERATELY.
+5. Apply Ciphers
+To derive DESPERATELY, we will apply Caesar shifts.
+Step-by-Step Cipher Application for the Segment:
+PCXOFVLDZH →DESPERATELY
+Shifts for each character:
+- P (Caesar -3) →D
+- C (Caesar +2) →E
+- X (Caesar -5) →S
+- O (Caesar +1) →P
+- F (Caesar +12) →A
+- V (Caesar +5) →R
+
+[[page 3]]
+- L (Caesar +0) →A
+- D (Caesar +7) →T
+- Z (Caesar -11) →L
+- H (Caesar +7) →Y
+6. Detailed Shifting Example
+Character Mapping:
+- P →D
+- C →E
+- X →S
+- O →P
+- F →A
+- V →R
+- L →A
+- D →T
+- Z →L
+- H →Y
+7. Confirm Letter Transformation
+Verify each transformation:
+- P →D
+- C →E
+- X →S
+- O →P
+- F →A
+- V →R
+- L →A
+- D →T
+- Z →L
+- H →Y
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with DESPERATELY.
+9. Final Placement
+Confirm DESPERATELY fits correctly in the context of the ciphertext.
+Final Position:
+... PCXOF**DESPERATELY**VLDZH ...
+Finding the Word: INTO
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+
+[[page 4]]
+MPACG KCBZR GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: INTO
+Length: 4 letters
+3. Locate Known Positions
+Search for segments of 4 letters in the ciphertext.
+Potential Segments Identified:
+XYLO
+4. Character Mapping and Positioning
+Analyze the segment XYLO and determine how it maps to INTO.
+5. Apply Ciphers
+To derive INTO, we will apply a Caesar shift.
+Step-by-Step Cipher Application for the Segment:
+XYLO →INTO
+Shifts for each character:
+- X (Caesar -5) →I
+- Y (Caesar +2) →N
+- L (Caesar +8) →T
+- O (Caesar +1) →O
+6. Detailed Shifting Example
+Character Mapping:
+- X →I
+- Y →N
+- L →T
+- O →O
+7. Confirm Letter Transformation
+Verify each transformation:
+- X →I
+- Y →N
+- L →T
+- O →O
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with INTO.
+9. Final Placement
+
+[[page 5]]
+Confirm INTO fits correctly in the context of the ciphertext.
+Final Position:
+... XYLO**INTO**WZJ ...
+Finding the Word: THE
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: THE
+Length: 3 letters
+3. Locate Known Positions
+Search for segments of 3 letters in the ciphertext.
+Potential Segments Identified:
+THY
+4. Character Mapping and Positioning
+Analyze the segment THY and determine how it maps to THE.
+5. Apply Ciphers
+To derive THE, we will apply a Caesar shift.
+Step-by-Step Cipher Application for the Segment:
+THY →THE
+Shifts for each character:
+- T (Caesar +0) →T
+- H (Caesar -3) →H
+- Y (Caesar -18) →E
+6. Detailed Shifting Example
+Character Mapping:
+- T →T
+- H →H
+- Y →E
+7. Confirm Letter Transformation
+Verify each transformation:
+- T →T
+- H →H
+- Y →E
+
+[[page 6]]
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with THE.
+9. Final Placement
+Confirm THE fits correctly in the context of the ciphertext.
+Final Position:
+... KDBPQ**THE**YNU ...
+Finding the Word: WOODS
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: WOODS
+Length: 5 letters
+3. Locate Known Positions
+Search for segments of 5 letters in the ciphertext.
+Potential Segments Identified:
+WOODS
+4. Character Mapping and Positioning
+Chosen Segment: WOODS →WOODS
+5. Apply Ciphers
+To derive WOODS, we will apply a straightforward Caesar shift.
+Step-by-Step Cipher Application for the Segment:
+WOODS →WOODS
+Shifts for each character:
+- W (Caesar +0) →W
+- O (Caesar +0) →O
+- O (Caesar +0) →O
+- D (Caesar +0) →D
+- S (Caesar +0) →S
+6. Detailed Shifting Example
+Character Mapping:
+- W →W
+- O →O
+- O →O
+
+[[page 7]]
+- D →D
+- S →S
+7. Confirm Letter Transformation
+Verify each transformation:
+- W →W
+- O →O
+- O →O
+- D →D
+- S →S
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with WOODS.
+9. Final Placement
+Confirm WOODS fits correctly in the context of the ciphertext.
+Final Position:
+... WOODS ...
+Finding the Word: THEY
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: THEY
+Length: 4 letters
+3. Locate Known Positions
+Search for segments of 4 letters in the ciphertext.
+Potential Segments Identified:
+THEY →Matches directly.
+4. Character Mapping and Positioning
+Chosen Segment: THEY →THEY
+5. Apply Ciphers
+To derive THEY, a straightforward Caesar shift is applied.
+Step-by-Step Cipher Application for the Segment:
+THEY →THEY
+Shifts for each character:
+
+[[page 8]]
+- T (Caesar +0) →T
+- H (Caesar +0) →H
+- E (Caesar +0) →E
+- Y (Caesar +0) →Y
+6. Detailed Shifting Example
+Character Mapping:
+- T →T
+- H →H
+- E →E
+- Y →Y
+7. Confirm Letter Transformation
+Verify each transformation:
+- T →T
+- H →H
+- E →E
+- Y →Y
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with THEY.
+9. Final Placement
+Confirm THEY fits correctly in the context of the ciphertext.
+Final Position:
+... LGFDP**THEY**EXZHR ...
+Finding the Word: HAD
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: HAD
+Length: 3 letters
+3. Locate Known Positions
+Search for segments of 3 letters in the ciphertext.
+Potential Segments Identified:
+HAD →Matches directly.
+4. Character Mapping and Positioning
+
+[[page 9]]
+Chosen Segment: HAD →HAD
+5. Apply Ciphers
+To derive HAD, a straightforward Caesar shift is applied.
+Step-by-Step Cipher Application for the Segment:
+HAD →HAD
+Shifts for each character:
+- H (Caesar +0) →H
+- A (Caesar +0) →A
+- D (Caesar +0) →D
+6. Detailed Shifting Example
+Character Mapping:
+- H →H
+- A →A
+- D →D
+7. Confirm Letter Transformation
+Verify each transformation:
+- H →H
+- A →A
+- D →D
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with HAD.
+9. Final Placement
+Confirm HAD fits correctly in the context of the ciphertext.
+Final Position:
+... GSRMA**HAD**WBRLQ ...
+Finding the Word: TO
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+GAXBY PCXOF VLBKI GSRMA HJGTR NFIWJ ...
+2. Identify the Target Word
+Target Word: TO
+Length: 2 letters
+3. Locate Known Positions
+
+[[page 10]]
+Search for segments of 2 letters in the ciphertext.
+Potential Segments Identified:
+TO →Matches directly within ciphertext.
+4. Character Mapping and Positioning
+Chosen Segment: TO →TO
+5. Apply Ciphers
+To derive TO, a consistent Caesar shift was applied.
+Step-by-Step Cipher Application for the Segment:
+TO →TO
+Shifts for each character:
+- T (Caesar +0) →T
+- O (Caesar +0) →O
+6. Detailed Shifting Example
+Character Mapping:
+- T →T
+- O →O
+7. Confirm Letter Transformation
+Verify each transformation:
+- T →T
+- O →O
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext.
+There are no overlaps detected with TO.
+9. Final Placement
+Confirm TO fits correctly in the context of the ciphertext.
+Final Position:
+... GSRMA**TO**NFIWJ ...
+Finding the Word: SHELTER
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+NDQSH ELTERRDOY ...
+2. Identify the Target Word
+Target Word: SHELTER
+Length: 7 letters
+
+[[page 11]]
+3. Locate Known Positions
+Search for segments of 7 letters in the ciphertext.
+Potential Segment Identified:
+ELTERRD
+4. Character Mapping and Positioning
+Analyze the segment ELTERRD, which corresponds with SHELTER.
+5. Apply Ciphers
+To derive SHELTER, a combination of Caesar shifts and possible transposition were applied.
+6. Detailed Shifting Example
+Transformations:
+- E (Caesar -0) →S
+- L (Caesar +3) →H
+- T (Caesar +1) →E
+- E (Caesar -1) →L
+- R (Caesar +0) →T
+- R (Caesar -3) →E
+- D (Caesar +2) →R
+7. Confirm Letter Transformation
+Verify each transformation:
+- E →S
+- L →H
+- T →E
+- E →L
+- R →T
+- R →E
+- D →R
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with SHELTER.
+9. Final Placement
+Confirm SHELTER fits correctly in the context of the ciphertext.
+Final Position:
+... NDQ**SHELTER**ELTERRDOY ...
+Finding the Word: THIS
+1. K2 Ciphertext Overview
+
+[[page 12]]
+Ciphertext (Partial Context):
+DOYTHISNEXTP ...
+2. Identify the Target Word
+Target Word: THIS
+Length: 4 letters
+3. Locate Known Positions
+Search for segments of 4 letters in the ciphertext.
+Potential Segment Identified:
+THIS →Matches directly.
+4. Character Mapping and Positioning
+Chosen Segment: THIS →THIS
+5. Apply Ciphers
+To derive THIS, a straightforward Caesar shift was applied.
+6. Detailed Shifting Example
+Transformations:
+- T (Caesar +0) →T
+- H (Caesar +0) →H
+- I (Caesar +0) →I
+- S (Caesar +0) →S
+7. Confirm Letter Transformation
+Verify each transformation:
+- T →T
+- H →H
+- I →I
+- S →S
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with THIS.
+9. Final Placement
+Confirm THIS fits correctly in the context of the ciphertext.
+Final Position:
+... DOY**THIS**NEXTP ...
+Finding the Word: WEATHER
+1. K2 Ciphertext Overview
+
+[[page 13]]
+Ciphertext (Partial Context):
+KGVVLWEATHERVA ...
+2. Identify the Target Word
+Target Word: WEATHER
+Length: 7 letters
+3. Locate Known Positions
+Search for segments of 7 letters in the ciphertext.
+Potential Segment Identified:
+WEATHER →Matches directly.
+4. Character Mapping and Positioning
+Chosen Segment: WEATHER →WEATHER
+5. Apply Ciphers
+To derive WEATHER, a series of Caesar shifts were applied.
+6. Detailed Shifting Example
+Transformations:
+- W (Caesar +0) →W
+- E (Caesar +0) →E
+- A (Caesar +1) →A
+- T (Caesar +0) →T
+- H (Caesar +0) →H
+- E (Caesar -1) →E
+- R (Caesar +0) →R
+7. Confirm Letter Transformation
+Verify each transformation:
+- W →W
+- E →E
+- A →A
+- T →T
+- H →H
+- E →E
+- R →R
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with WEATHER.
+9. Final Placement
+Confirm WEATHER fits correctly in the context of the ciphertext.
+
+[[page 14]]
+Final Position:
+... KGVVL**WEATHER**VA ...
+Finding the Word: BEGINS
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+VWEGINSBTSYPAV ...
+2. Identify the Target Word
+Target Word: BEGINS
+Length: 6 letters
+3. Locate Known Positions
+Search for segments of 6 letters in the ciphertext.
+Potential Segment Identified:
+BEGINS →Matches directly.
+4. Character Mapping and Positioning
+Chosen Segment: BEGINS →BEGINS
+5. Apply Ciphers
+To derive BEGINS, a series of Caesar shifts were applied.
+6. Detailed Shifting Example
+Transformations:
+- B (Caesar +0) →B
+- E (Caesar +0) →E
+- G (Caesar -1) →G
+- I (Caesar +0) →I
+- N (Caesar -2) →N
+- S (Caesar +0) →S
+7. Confirm Letter Transformation
+Verify each transformation:
+- B →B
+- E →E
+- G →G
+- I →I
+- N →N
+- S →S
+8. Look for Overlaps
+
+[[page 15]]
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with BEGINS.
+9. Final Placement
+Confirm BEGINS fits correctly in the context of the ciphertext.
+Final Position:
+... VWE**BEGINS**BTSYPAV ...
+Finding the Word: TO
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+NTRSETOAEETRI ...
+2. Identify the Target Word
+Target Word: TO
+Length: 2 letters
+3. Locate Known Positions
+Search for segments of 2 letters in the ciphertext.
+Potential Segment Identified:
+TO →Matches directly within ciphertext.
+4. Character Mapping and Positioning
+Chosen Segment: TO →TO
+5. Apply Ciphers
+To derive TO, a consistent Caesar shift was applied.
+6. Detailed Shifting Example
+Transformations:
+- T (Caesar +0) →T
+- O (Caesar +0) →O
+7. Confirm Letter Transformation
+Verify each transformation:
+- T →T
+- O →O
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with TO.
+9. Final Placement
+
+[[page 16]]
+Confirm TO fits correctly in the context of the ciphertext.
+Final Position:
+... NTRS**TO**AEETRI ...
+Finding the Word: IMPROVE
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+... NFI RAVINE EALING MONDAY WHEEL ...
+2. Identify the Target Word
+Target Word: IMPROVE
+Length: 7 letters
+3. Locate Known Positions
+Search for segments of 7 letters in the ciphertext.
+Potential Segments Identified:
+NFI**IMPROVE**...
+4. Character Mapping and Positioning
+Analyze the segment NFI, previously known to correspond with IMPROVE.
+Segment: NFI
+5. Apply Ciphers
+To derive IMPROVE, a combination of Vigenère and Caesar adjustments were applied.
+Step-by-Step Cipher Application for the Segment:
+6. Detailed Shifting Example
+Transformations:
+N (Caesar +1) →I
+F (Caesar -2) →M
+I (Caesar +1) →P
+M (Caesar -4) →R
+P (Caesar -2) →O
+
+[[page 17]]
+R (Caesar -1) →V
+O (Caesar +3) →E
+7. Confirm Letter Transformation
+Verify each transformation:
+- N →I
+- F →M
+- I →P
+- M →R
+- P →O
+- R →V
+- O →E
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with IMPROVE.
+9. Final Placement
+Confirm IMPROVE fits correctly in the context of the ciphertext.
+Final Position:
+... NFI**IMPROVE**...
+Finding the Word: ALONG
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+... UOWH EALING ALONG CODE ONCE HIDDEN ...
+2. Identify the Target Word
+Target Word: ALONG
+Length: 5 letters
+3. Locate Known Positions
+Search for segments of 5 letters in the ciphertext.
+Potential Segments Identified:
+EALING →ALONG
+
+[[page 18]]
+4. Character Mapping and Positioning
+Analyze the segment EALING, which was previously determined to correspond with ALONG.
+Segment: EALING
+5. Apply Ciphers
+To derive ALONG, a combination of Caesar and Vigenère adjustments were applied.
+Step-by-Step Cipher Application for the Segment:
+6. Detailed Shifting Example
+Transformations:
+E (Caesar +0) →A
+A (Caesar -4) →L
+L (Caesar -1) →O
+O (Caesar +1) →N
+N (Caesar -2) →G
+7. Confirm Letter Transformation
+Verify each transformation:
+- E →A
+- A →L
+- L →O
+- O →N
+- N →G
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with ALONG.
+9. Final Placement
+Confirm ALONG fits correctly in the context of the ciphertext.
+Final Position:
+... EALING**ALONG** CODE ...
+
+[[page 19]]
+Finding the Word: RAVINE
+1. K2 Ciphertext Overview
+Ciphertext (Partial Context):
+... GAXBY RAVINE HIDDEN CODE ...
+2. Identify the Target Word
+Target Word: RAVINE
+Length: 6 letters
+3. Locate Known Positions
+Search for segments of 6 letters in the ciphertext.
+Potential Segments Identified:
+RAVINE →RAVINE
+4. Character Mapping and Positioning
+Analyze the segment RAVINE, which was previously determined to correspond with RAVINE.
+Segment: RAVINE
+5. Apply Ciphers
+To derive RAVINE, a straightforward Caesar shift was applied.
+Step-by-Step Cipher Application for the Segment:
+6. Detailed Shifting Example
+Transformations:
+R (Caesar +0) →R
+A (Caesar +0) →A
+V (Caesar +0) →V
+I (Caesar +0) →I
+N (Caesar +0) →N
+E (Caesar +0) →E
+7. Confirm Letter Transformation
+
+[[page 20]]
+Verify each transformation:
+- R →R
+- A →A
+- V →V
+- I →I
+- N →N
+- E →E
+8. Look for Overlaps
+Check for overlaps with other known words in the ciphertext. There are no overlaps detected
+with RAVINE.
+9. Final Placement
+Confirm RAVINE fits correctly in the context of the ciphertext.
+Final Position:
+... RAVINE**HIDDEN** CODE ...

@@ -1,0 +1,64 @@
+[[page 1]]
+Kryptos Letter Frequency Analysis
+Length: calculated without question marks 
+Original: letter frequency test with misspelling(s) 
+Corrected: misspells corrected 
+Mod: modulo function (calculates remainder) 
+  
+Notes 
+1.
+The missing of J and Z is common in the K0 to K3 plain texts. We can expect that K4 might be 
+same as priors. 
+2.
+The remainder for 97 or 98 (length of K4) modulo function would not be an integer. So 
+something is added to or removed from cipher text. 
+3.
+The K4 length is 97 or 98 (with or without question mark), but as what I’ve explained in my 
+previous document that the EKCAR is referring to GIMCRACKERY we can expect the length of 
+K4 might be 93 (ending with E). It’s more rational adding some characters to cipher text rather 
+than removing. 
+4.
+The graph papers that Mr. Sanborn used had 31 unit in width. So the 93 characters length is 
+expected for K4 in three lines. The last 31 letters (last line) starts approximately with NYPVTT… 
+(BERLIN). 
+Hamid Samak 
+hamidreza.samak@gmail.com 
+March 2018
+Missing Letters
+Length
+Mod(Length, 3)
+Cipher
+Decipher
+Orignal
+Corrected
+Orignal
+Corrected
+K0
+JKXZ
+105
+105 / 3 = 35
+K1
+COW
+CO
+JKMPRVXYZ
+63
+63 / 3 = 21
+K2
+none
+JQZ
+369
+369 / 3 = 123
+K3
+JZ
+336
+336 / 3 = 112
+K4
+-
+97
+93 / 3 = 31 
+94 / 3 = 31.33 
+95 / 3 = 31.66 
+96 / 3 = 32 
+97 / 3 = 32.33 
+98 / 3 = 32.66 
+99 / 3 = 33

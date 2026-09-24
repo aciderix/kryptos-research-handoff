@@ -1,0 +1,112 @@
+[[page 1]]
+Kryptos K4 Observations 
+Author: warrenzevonrocks@bell.net 
+Leading thoughts 
+The solution to K3 was a transposition cipher.  One of the vital steps was a reordering of the rows from 
+0123456 to 3041526. 
+This is depicted in an animated web demonstration on the Realm of Twelve website. 
+http://www.realmoftwelve.net/speculation/k3solution.html 
+ 
+Upon learning of the Kryptos puzzle and examining how each of K1 through K3 were solved, the one 
+thing that always struck me as interesting was how on earth someone could have figured out the 
+algorithm of changing the rows as depicted above.  I later discovered that a "skip" decryption technique 
+could yield the same result mathematically which was fascinating.  However, I digress.  I believe Sanborn 
+encrypted the plain text using a swapping of rows in this fashion and expected the cryptographer to 
+solve it in the same fashion.   
+So what is the significance of 3041526?  There probably isn't any point in reading too much into it.  
+However, my thought is that Sanborn wanted to ensure that no one would solve K4 until K1 through K3 
+were solved.  One way that he could help ensure this would happen would be by using some random 
+piece of information from K3 (since I believe K1 and K2 were trivial to crack in comparison to K3). 
+Therefore, let's see what happens if we use 3041526 as part of a solution to K4.  This is something that I 
+came up entirely by myself and I have yet to read anything on the internet related to such an attempted 
+solution. 
+ 
+
+[[page 2]]
+Attempted Solution 
+So we have K4 as follows: 
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWG
+DKZXTJCDIGKUHUAUEKCAR 
+Step 1 - Keyed Vigenere 
+Let's run K4 through a keyed Vigenere using the standard "KRYPTOS" alphabet keyword and a password 
+of 3041526 or "DAEBFCG". 
+A quick web-based tool is available from the Rumkim website. 
+ 
+ 
+This yields the following: 
+URINCVEUSPGOZNUDTTVZDYDJHBEJLFYMQWMQJNFQAAVZKMGJDWWOMOFWOKFAAPUCUMHMUOIO
+MMETWJMGVTKWOSIGYFQETIRUM 
+On the surface this doesn't seem like any progress.  The kappa is 0.4102 which is a too far off from 
+English ideal of 0.665. However, the original kappa of the cipher text is 0.3608 so maybe we are moving 
+in the right  direction? 
+It is possible that Sanborn did further character manipulation after this substitution as well. I believe a 
+very important clue in solving K4 is the raised letters YAR in K3.  There have been countless elaborate 
+theories into what this means although no one really knows for sure.  My thought is, let's take it at face 
+value.  Sanborn is not a mathematician, in fact he is not a cryptographer either.  He is an artist.  Is it 
+possible that the raised letters are trying to point out that he used a Railfence cipher as a secondary 
+mechanism to encrypt the plain text?   
+
+[[page 3]]
+ Step 2 - Railfence 
+Going with the theory that there are at least two parts to the K4 solution and the first part is a keyed 
+Vigenere, let's play with some RailFence combinations and see what we find. 
+Using the Rumkim website, if we take the output from step 1 and run it through a Railfence cipher with 
+3 rails we get gibberish.  However, if you look closely you can see the word BERLIN start to form.  Refer 
+to the screenshot below.  Note that Sanborn has indicated that the word BERLIN is in fact in the 
+plaintext of the deciphered K4. 
+ 
+Could this be a coincidence or am I on the right track? 
+Step 3 - Railfence - Words start to immerge 
+A railfence of 3 yielded an interesting result so I kept hacking at it.  Without going into deals I found that 
+a railfence of 7 with an offset of 7 yielded some very intriguing results.  However, before the results 
+were seen I had to add two characters at the end of the text.  I used YA although you can use spaces or 
+XX or whatever since it does not change the result of my observation. 
+I.e  
+URINCVEUSPGOZNUDTTVZDYDJHBEJLFYMQWMQJNFQAAVZKMGJDWWOMOFWOKFAAPUCUMHMUOIO
+MMETWJMGVTKWOSIGYFQETIRUMYA 
+Here is the result of the railfence: 
+
+[[page 4]]
+ 
+We still don't have a solution however, it is hard to believe that this is a coincidence!  The words 
+"SHAKE", "UP", "WAVE", "GO" and possibly "AFTER" start to immerge. 
+I'm thinking since the cipher was done shortly after the collapse of the Berlin wall, it would have been on 
+everybody's mind.  It's not a stretch to believe that the plaintext may be something to the effect of the 
+"The world was shaken up after the fall of the Berlin wall and it sent shock waves around the world". 
+So that's it.  I haven't been able to make any further progress based upon the time I've spent on the 
+puzzle but this remains the most profound discovery I have found personally and from my opinion what 
+I've read on the internet. 
+**Important Side Note** 
+Since I am divulging all of the information I have, I have one more information piece of information that 
+I have extracted based upon my analysis of the K4 cipher text.  One of the vital tools a cryptographer has 
+is the measure of index of coincidence of characters.  If you examine K4 in detail you'll see some 
+patterns of repetition. 
+One of my observations that I find very interesting is the use of a duplicate character when a character 
+sequence repeats. 
+For example: 
+The letters FB repeat and there is a second B.  I.e. FBB/FB 
+The letters QS repeat and there is a second S. I.e. QS/QSS 
+The letters KZ repeat and there is a second Z. I.e. KZZ / KZ 
+
+[[page 5]]
+I therefore sense a pattern here that seems a little to formulated to be pure random coincidence.  I'm 
+not sure what it means but my supporting theory is that Sanborn has altered the cipher text to help 
+prevent the usual cryptanalysis from revealing to much information.  Is it possible that these 3 repeated 
+characters are somehow tied to the raised 3 characters Y, A and R?   If Sanborn is giving a clue that these 
+characters need to be replaced it may be that the solution to K4 is a simple Vigenere cipher although the 
+cipher text cannot simply be taken at face value. 
+Alas, I have set a personal goal of cracking K4 by the end of April 2012 and I have not accomplished it.  
+Therefore, as promised I have divulged  what I deem to be the most valuable pieces of information that 
+will hopefully lead someone with more experience than myself on the right path to solve it. 
+If you do use this information and it leads to a solution I would hope that you acknowledge my 
+contribution as the impetus to the solution. 
+Summary 
+I don't believe Kryptos K4 has ever been solved because it is not a simple single cipher.  Alternately it 
+may be a single cipher but the cipher text has been altered in a systematic fashion.  If we perform a 
+Vigenere cipher as the first step in a two step process we get a step further.  The Kryptos structure uses 
+a Vigenere for K1 and K2 and a transposition for K3.  Therefore, a combination of a poly-alphabetic 
+substitution followed by a transposition cipher would be a feasible solution technique for K4.  If we 
+combine a Vigenere cipher with a Railfence we start to see several words emerge.  This is either a 
+complete coincidence or a partial solution to K4 in which no one to date has identified.  
+Thoughts? 
+ 

@@ -1,0 +1,34 @@
+[[page 1]]
+Datei: /home/luna/k4-pattern
+Seite 1 von 1
+Hello,
+first post was not shown. So I give another try. I studied K4 for a while and found a pattern. It 
+assumes that for a letter a alphabet is taken. Example for known BERLINCLOCK:
+i) NYPVTTMZFPK -> BERLINCLOCK   order for V "WXY" Z   V and Z lead to "L"
+also M "NO" P lead to "C"
+ii) Problem for N "O" P    N-> B P ->R   (further I call it BR-problem)
+If you put a pattern like "00++00++00++00++00++00++00..." on the cipher. So that the first two letters 
+"00" are translated with the first alphabet second two letters "++" with a second alphabet. The 
+following "00"'s with the first alphabet and so on....
+It gives us this cipher:
+: A01 : A02 : B01 : B02 : A03 : A04 : B03 : -L : A05 : A05 : B05 : B06 : -K : A07 : B06 : B07 : A08 : 
+A01 : B08 : B01 : -R : A10 : B09 : B10 : A11 : A12 : B11 : B02 : -K : A10 : -B : B13 : -E : A14 : 
+B14 : B05 : -E : A15 : -I : B13 : -C : A17 : -B : B16 : -E : A12 : B13 : -I : A02 : -N : B17 : B05 : 
+A10 : A10 : B18 : B06 : A19 : -C : B11 : B16 : A07 : A20 : B03 : n-B : y-E : p-R : v-L : t-I : t-N : m-
+C : z-L : f-O : p-C : k-K : B06 : B08 : A07 : A14 : B20 : B07 : A12 : A21 : B21 : B21 : -R : A22 : -
+B : B22 : A11 : A04 : B02 : -L : A03 : -C : -O : B08 : A23
+A01..A23 is the first alphabet. With A11=E; A09=R; A18=N; A16=C; A06=K
+B01..B22 is the second alphabet. B12=B; B04=L; B15=I; B17=O
+Assuming a), b) and c)
+a) If we assume that every letter is only once used that would mean example B13 could not be "L" cause 
+in the alphabet "BXX" B04 stands for "L".
+b) at least two alphabets AXX and BXX cause of BR-problem!! -> see at ii)
+c) Alphabets could not start with "KRYPTOS" cause their O and P are used in the partial order 
+"MNOPQRSTUVWXYZ" ->see at i).
+Someone could find a matching word in the area of
+...B10 : A11 : A12 : B11 : B02 : -K : A10 : -B : B13 : -E : A14 : B14 : B0...
+or near A11 : A04 : B02 : -L : A03 : -C : -O : B08 : A23.
+I used a database of normal english words and found some matches. But because of German is my mother 
+language it is a endless task to me.
+Regards,
+RCZ

@@ -1,0 +1,57 @@
+ 
+ 
+ 
+    
+
+ 
+ 
+     
+         
+             
+                 Select which section to decipher 
+                 
+                     
+                         K1 
+                         K2 
+                     
+                    Cursor Time in ms (1000 = 1sec)
+                     
+                     K3 
+                 
+
+                 Enter a Keyword (defaults populate automatically) 
+                 
+                     
+                     Step 
+                     Auto 
+                     Stop 
+                 
+                 
+                    Rotate Vigenere Mask 90 degrees right and overlay on the CT
+                 
+                 Rotate Right 
+             
+             
+                 
+                     
+                        Storyboard.
+                     
+                 
+
+             
+           
+         
+
+     
+    
+     
+     
+        Your browser does not support the canvas element.
+     
+    
+     Layout and text copyright Jim Sanborn 
+    
+
+ 
+ 
+

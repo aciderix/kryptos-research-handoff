@@ -1,0 +1,83 @@
+[[page 1]]
+The two characters highlighted in green below
+are the misspellings from K1 and K2.
+ 
+The three characters highlighted in purple below
+are the raised characters in K3.
+ 
+The two characters highlighted in yellow below
+are the misspellings from K3.
+ 
+The raised characters and misspellings when
+rearranged spell “LAYER”.  Jim Sanborn
+specifically noted that the misspellings are
+important. He also stated that what was
+important was not necessarily the misspelled
+character that was important but rather the
+character’s location.
+ 
+Starting with the two misspelled characters from
+K1 and K2, scroll down their columns until you
+reach the characters located within the first
+row of K3, which are “ID”
+ 
+If you combine the characters “ID” with the
+raised characters and misspellings located on
+the same row, and once we rearrange them, we now
+have “ID LAYER.”
+ 
+Now why is this significant?
+ 
+Well, using those characters noted above from
+row one of K3 as column identifiers, I was able
+to mark columns from K1 and K2.  There are 7
+columns each containing 14 characters. That is a
+total of 98 characters, and one of those
+characters are a question mark.  That leaves us
+with 97 characters and one “?” as seen below. I
+
+[[page 2]]
+believe I have identified the matrix needed to
+solve K4. Now what to do with it I am unsure at
+the moment.
+ 
+          5   4       7            3           6                       1 2
+EMU F P H Z LRF A XYU S DJKZLDKR N S HGNFIVJ
+YQT Q U X Q BQV Y UVL L TREVJYQT M K YRDMFD
+VFP J U D E EHZ W ETZ Y VGWHKKQE T G FQJNCE
+GGW H K K ? DQM C PFQ Z DQMMIAGP F X HQRLG
+TIM V M Z J ANQ L VKQ E DAGDVFRP J U NGEUNA
+QZG Z L E C GYU X UEE N JTBJLBQC R T BJDFHRR
+YIZ E T K Z EMV D UFK S JHKFWHKU W Q LSZFTI
+HHD D D U V H?D W KBF U FPWNTDFI Y C UQZERE
+EVL D K F E ZMO Q QJL T TUGSYQPF E U NLAVIDX
+FLG G T E Z ?FK Z BSF D QVGOGIPU F X HHDRKF
+FHQ N T G P UAE C NUV P DJMQCLQU M U NEDFQ
+ELZ Z V R R GKF F VOE E XBDMVPNF Q X EZLGRE
+DNQ F M P N ZGL F LPM R JQYALMGN U V PDXVKP
+DQU M E B E DMH D AFM J GZNUPLGE S W JLLAETG
+END Y A H R OHN L SRH E OCPTEOIB I D YSHNAIA
+          5 4   7     3     6          1 2
+          Y A   R     L     E          I D
+ 
+5473612
+YARLEID
+1234567
+IDLAYER
+ 
+Perhaps 5473612 is the order in which to
+substitute k4 or add it.  Then again it could be
+nothing.
+ 
+I do not believe that in K2 “IDBYROWS” and
+“XLAYERTWO” was just a coincidence.  
+I believe it was a clue.
+ID BY ROWS
+X LAYER TWO
+ 
+
+[[page 3]]
+ID LAYER
+ 
+ 
+ 

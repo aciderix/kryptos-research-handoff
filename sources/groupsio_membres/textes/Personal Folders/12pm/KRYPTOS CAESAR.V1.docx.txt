@@ -1,0 +1,18 @@
+## word/document.xml
+ 
+ Y Z A B C D E F G H I J K L M N O P Q R S T U V W X 
+ X Y Z A B C D E F G H I J K L M N O P Q R S T U V W 
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+ N O P Q R S T U V W X Y Z A B C D E F G H I J K L M 
+ W X Y Z A B C D E F G H I J K L M N O P Q R S T U V 
+ D E F G H I J K L M N O P Q R S T U V W X Y Z A B C 
+ I J K L M N O P Q R S T U V W X Y Z A B C D E F G H 
+ C 
+ H 
+ A 
+ M 
+ B 
+ E 
+ R 
+ 
+ 

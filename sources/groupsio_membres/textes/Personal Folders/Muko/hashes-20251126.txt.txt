@@ -1,0 +1,34 @@
+...>certutil -hashfile encryption-01.png MD5
+MD5 hash of encryption-01.png:
+8a437a5c76bd76abdfc33d26e2fb0107
+CertUtil: -hashfile command completed successfully.
+
+...>certutil -hashfile encryption-02.png MD5
+MD5 hash of encryption-02.png:
+ab66baa99e1d93f3696e9ff359735451
+CertUtil: -hashfile command completed successfully.
+
+...>certutil -hashfile encryption-03.png MD5
+MD5 hash of encryption-03.png:
+89ad7ce697a89c84a9f1b5d9cfdb2c3e
+CertUtil: -hashfile command completed successfully.
+
+...>certutil -hashfile encryption-04.png MD5
+MD5 hash of encryption-04.png:
+b5e1bcec951fc2c65f16e82004f42bf9
+CertUtil: -hashfile command completed successfully.
+
+...>certutil -hashfile encryption-05.png MD5
+MD5 hash of encryption-05.png:
+f84c1aaf9fa6169af385e19818ea5667
+CertUtil: -hashfile command completed successfully.
+
+...>certutil -hashfile encryption-06.png MD5
+MD5 hash of encryption-06.png:
+40e50b3b9c106398fd56491a9879267a
+CertUtil: -hashfile command completed successfully.
+
+...>certutil -hashfile encryption.txt MD5
+MD5 hash of encryption.txt:
+cdd76ba99e7a7602e1131887af31cd68
+CertUtil: -hashfile command completed successfully.

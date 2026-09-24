@@ -1,0 +1,1926 @@
+[[page 1]]
+July 24, 2014
+Beta  v 5.5
+Kryptos K4 Solution and Procedure
+To Yahoo User Group from Ibn Şifre, 
+A Forward: The Shadxws:
+  
+The world of spies is a world of shadows and mirrors.  A world in which truth is 
+elusive.  A world where much of the data gathered is an incomplete picture of the total 
+situation, and riddled with mistakes.  This elusiveness, I believe, is one of the main 
+themes of Kryptos.  Below, I report what I have found.  The deciphering is veriﬁable, 
+and the process is repeatable.  But, unfortunately in this world there is no 
+decipherment algorithm that tells wether or not what is reported as plaintext is the truth 
+- or a lie - or a bit of both.  The decipherment and interpretations of what is found are 
+mine and mine alone.  I might, inadvertently, imply that a villain is good or a hero is a 
+villain.  I will do my best, but undoubtedly what you will ﬁnd below is riddled with 
+mistakes.  As the Creator is the Most Merciful, the Most Forgiving, I must beg your 
+pardon. 
+ 
+One other note: please keep in mind that decipherment of Kryptos reads like a 
+spy novel, ﬁlled with riddles, sudden realizations, plot twists, multiple interpretations of 
+information, different parties claiming that they are telling the truth and the other is 
+lying, and a signiﬁcant difﬁcultly of even knowing who is who. 
+ 
+In this paper the following notation is used for indicating how a text is encrypted 
+or decrypted.  The cipher is a Vigenere Cipher which uses the KRYPTOS alphabet as 
+was used in K1 and K2:
+For encryption: ENC(key, plaintext) = ciphertext
+For decryption: DEC(key, ciphertext) = plaintext
+Examples:
+key = ELYOIE, plaintext = BERLIN, ciphertext = NYPVTT
+ENC(ELYOIE, BERLIN) = NYPVTT
+DEC(ELYOIE, NYPVTT) = BERLIN
+For ease one could use one of the interactive keyed Vigenère solvers on the web like 
+Rumkin's Keyed Vigenère Cipher at 
+http://rumkin.com/tools/cipher/vigenere-keyed.php
+ 
+Now another point about shadows: That the steganographic clues of Kryptos' 
+ciphertext seem to indicate the following:
+Encrypting 'ENDY'  of ENDYAHR with key 'V' yields:
+ENC(V, ENDY) = AISX -> A IS X
+
+[[page 2]]
+And since 'ENDYA' is quite close to 'ANDYES'  of John 8:32, 'And Ye Shall Know the ...' 
+take 'DYES' and also decrypt with key V :
+DEC(V, DYES) = HSID -> D IS H (backwards) 
+But in other places, we have many reasons to think that D opposes H.  Also, the 
+Stenographic clues of Kryptos imply that S and W go together, which give us:
+S and W
+H  ~  D 
+A is  X
+which is an anagram of SHADXW, or SHADOW with the X covering the O.  The Cyrillic 
+Projector, Kryptos' sister work, uses the word TEHb, or shadow in Russian, as its 
+cryptographic key; the pronunciation of which in English sounds very close to the word 
+"ten".  The number ten being X in Roman numerals suggest the following interpretation:
+A is: X -> TEN -> TEHb -> Shadow
+A is Shadow.
+The Palimpsest as a One Time Pad:
+Start with K3 and arrange it in 7 rows by 48 columns as shown in Fig 1-1.
+           1         2         3         4
+  123456789012345678901234567890123456789012345678
+1 ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+2 NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+3 WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+4 QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+5 FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+6 GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+7 AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW
+Fig. 1-1, K3
+
+[[page 3]]
+Flip K3 about the columns so that column 48 is ﬁrst and column 1 is last, as shown in 
+Fig 1-2.  This is done only to make the techniques easier to visualize. Call it K3'.
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+1 LLSLLSDLUYERNTHCAIANHSYDIBIOETPCOEHRSLNHORHAYDNE
+2 TMWEACAIIPLBELENNLSEPRARNHITAGNRPTENMXWRMSONSHON
+3 YETYOIEAHNEWITDESLOFTEOEAHNTERDUENETCHARNEETIDNW
+4 SAOFEETBLREEYGETAMATANEWEHHMAPSRBTFIERCYATCNEEHQ
+5 AOREIPWETSMTTHAAINDDESBITRNTREEAMRAOTOEAUTEUTOIF
+6 HELMLKRTIROLDYRDDSOAEOGETISHIECLIHDDTCEABEFWEIRG
+7 WHODVTRTTSSLNHEMIEFPIRMDCEEHUEFMFGMHOENPDRAHDTGA
+Fig. 1-2, K3'
+Using the END - YAR (RAY) clue, place K3' in the form of a transverse EM wave with a 
+period of 16 characters and an amplitude of 11 characters, as shown in Fig 1-3a. 
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+4    LLSD    RNTH    NHSY    OETP    RSLN    AYDN
+5    EACA    BELE    EPRA    TAGN    NMXW    NSHO
+6    YOIE    WITD    FTEO    TERD    TCHA    TIDN
+7    FEET    EYGE    TANE    MAPS    IERC    NEEH
+1 LLSEIPWLUYETTHACAIADESBDIBITREECOEHOTOEHORHUTOIE
+2 TMWMLKRIIPLLDYRNNLSAEOGRNHIHIECRPTEDTCERMSOWEIRN
+3 YETDVTRAHNELNHEESLOPIRMEAHNHUEFUENEHOENRNEEHDTGW
+4 SAO    BLRE    TAMA    WEHH    RBTF    YATC    Q
+5 AOR    ETSM    AIND    ITRN    AMRA    AUTE    F
+6 HEL    TIRO    DDSO    ETIS    LIHD    ABEF    G
+7 WHO    TTSS    MIEF    DCEE    MFGM    PDRA    A 
+Fig. 1-3a,
+
+[[page 4]]
+Collapse the wave so that all the columns are ﬁlled as shown in Fig 1-3b.  
+           1         2         3         4
+  123456789012345678901234567890123456789012345678
+1 LLSEIPWLUYETTHACAIADESBDIBITREECOEHOTOEHORHUTOIE
+2 TMWMLKRIIPLLDYRNNLSAEOGRNHIHIECRPTEDTCERMSOWEIRN
+3 YETDVTRAHNELNHEESLOPIRMEAHNHUEFUENEHOENRNEEHDTGW
+4 SAOLLSDBLRERNTHTAMANHSYWEHHOETPRBTFRSLNYATCAYDNQ
+5 AOREACAETSMBELEAINDEPRAITRNTAGNAMRANMXWAUTENSHOF
+6 HELYOIETIROWITDDDSOFTEOETISTERDLIHDTCHAABEFTIDNG
+7 WHOFEETTTSSEYGEMIEFTANEDCEEMAPSMFGMIERCPDRANEEHA
+Fig. 1-3b
+Use only rows 25 through 48 of Fig 1-3b as 'W', shown in Fig 1-4.  This forms our 
+palimpsest.
+ 
+          1         2
+  123456789012345678901234
+1 LLSEIPWLUYETTHACAIADESBD
+2 TMWMLKRIIPLLDYRNNLSAEOGR
+3 YETDVTRAHNELNHEESLOPIRME
+4 SAOLLSDBLRERNTHTAMANHSYW
+5 AOREACAETSMBELEAINDEPRAI
+6 HELYOIETIROWITDDDSOFTEOE
+7 WHOFEETTTSSEYGEMIEFTANED
+Fig. 1-4, W
+Note the steganography in the columns: 
+C24: DREWIED
+DREW I ED 
+Jim and Ed Drew (masks)
+C20: DAP
+C19: ASOADOF
+C18: ILLMNSE
+C17: ANSAIDI
+DAP A, SO A DO FILL MN SE ANS AID I 
+Instructions: A pad (reversed), so A do ﬁll in, See answer, Aid I. They used a "One Time 
+Pad" with a 'A' as its letter mask. "SO A DO FILL IN"; Fill in the mask with K4 ciphertext, 
+
+[[page 5]]
+K4-CT, i.e use pad letters as a key for K4-CT. See the answer, and aid Jim. The pad is 
+reversed, which we did already in the step above. (Note that I also refer to this as the 
+K4-HX pad)
+C16: CNETADM
+C15: AREHEDE
+ARE H ED EM D AT ENC
+Note a switch in the direction of reading; C15 forward then C16 backward. 
+Our H, Ed and Me, D at Encrypt.  There is another mask 'H', start encryption at D; A 
+clue to A Riddle X.
+C02: OEH
+C01: LTYSAHW
+W HAS Y T L, HE O
+W has why T Lied, He is O (T is O).
+As you might notice, there is more in there but it easier to see when one understands 
+more.
+And another clue, when part of it is decrypted with 'V':
+DEC(V, DREWIED) = HOIRNIH -> (backwards) H IN R IO H
+H in our XH, There are two letters using the same pad, a H and an HX.
+Main decryptions have steganographic clues along the edges of the masks indicating 
+what to draw for the mask and giving other important information.  In K4, the letters H, 
+HX (also the A pad as discussed above, formed by two A's laying on their sides, i.e. 
+the negative space around the H), O, P, and Y are the basic masks that I have found.
+
+[[page 6]]
+Part 1a: K4-HX
+Transpositions Step:
+Take the rows of W and arrange them as follows:
+R5:R1
+R6:R2
+R7:R3
+and as shown below in W1, Fig 1-5:
+               1         2             1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-5, W1
+Steganography of K4 HX Pad Mask:
+Again, notice the clues in the steganography in Row 1, Columns 1 to 8 of W1, as 
+shown in Fig. 1-5, spell out 'L WPIES LL'.  Maybe it means 'L SPIES LL'; spies 
+surrounded by L's.   Also notice the last column of R5-R7 and the ﬁrst column of R1-R3 
+spell out 'Y T LIED'.  Last, notice that the ﬁrst columns of R1-R3 and R5-R7 spell out 
+'DREW H, A' - so draw an H! (and some A's).
+        1         2             1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-5b, W1 with H drawn on it
+
+[[page 7]]
+OTP, One Time Pad, Decryption Step:
+ 
+The next step involves treating W1 as a pad and K4 as a ciphertext as part of a 
+OTP, one time pad, encryption scheme.  In this scheme, one uses the pad mask as a 
+'key' matched with parts of K4 as the ciphertext to recover the plaintext using the 
+Kryptos Vigenère cipher, as was used in K1 and K2.
+ 
+For each of the letters, I have tried to adopt a similar way of showing how to 
+decrypt.  First I show the letter pad mask, highlighted in colors, as in Fig 1-6, the HX 
+Pad Mask.  In the next ﬁgure, I show the K4 ciphertext separated out into rows and 
+colored the same as the parts of the pad mask, as in Fig 1-7.  The colored part of the 
+pad mask form the keys used to decrypt the the same colored part of the ciphertext.  
+Next I show them all together, the keys (pad mask), followed by the corresponding 
+ciphertext, and last the plaintext found after decryption.  The HX version of this can be 
+seen in Fig. 1-8. I have laid it out such that one can easily use an online tool such as 
+Rumkin's mentioned above.  For that speciﬁc tool, one should set to Decrypt or 
+Encrypt, depending on which one is doing.  Sometimes one needs to Encrypt to get 
+the plaintext used.  In such cases I have denoted the font in blue instead of black.  
+Then be sure to set the Alphabet Key to 'KRYPTOS', and copy and paste the keys into 
+the 'Passphrase' box, and copy and paste the ciphertext into the 'Your message' box.  
+Then one can read the decrypted message below.
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-6, W1, HX Pad Mask
+HX 1 OBKRUOXOGHULBSO
+HX 2 LIFBBWFLRVQQPRNGKSSO
+HX 3 TWTQSJQSSEKZZW
+HX 4 ATJKLUDIAWINFB
+HX 5 NYPVTTMZFPKWGDKZXTJC
+HX 6 DIGKUHUAUEKCAR
+Fig. 1-7, K4 HX Ciphertext, HX-CT
+
+[[page 8]]
+                 1         2    0        1         2
+        123456789012345678901234123456789012345678901234
+HX KEYS
+         OREACAETSMBELE                 UYETTHACAIADESB
+         ELYOIETIROWITDDDSOFT      MLKRIIPLLDYRNNLSAEOG
+         DIGKUHUAUEKCAR                  NELNHEESLOPIRM
+HX CT
+         ATJKLUDIAWINFB                 OBKRUOXOGHULBSO
+         NYPVTTMZFPKWGDKZXTJC      LIFBBWFLRVQQPRNGKSSO
+         DIGKUHUAUEKCAR                  TWTQSJQSSEKZZW
+HX PT'
+         YPONBHZEROABUW                 DSIWLLLVSZHAWKW
+         BERLINHDEXPBCKJIMZTO      ZXFANBCKDFMNDBYANURM
+         VDRIDDLPIOIAQJ                  EFGRMOCKISWDXO
+Fig. 1-8
+Now re-arrange by ﬂipping the rows to get P1 as shown in Fig. 1-8, 
+       DSIWLLLVSZHAWKW YPONBHZEROABUW
+  ZXFANBCKDFMNDBYANURM BERLINHDEXPBCKJIMZTO
+        EFGRMOCKISWDXO VDRIDDLPIOIAQJ
+ 
+  
+Fig. 1-8, HX PT''
+
+[[page 9]]
+Misspellings Step:
+Guess the misspellings as follows in Fig. 1-9.  
+Don't worry, there are ways to tell if you have the right ones.  The rows labeled with 'HX 
+MS' are the rows of the correct letters where a misspelling occurs in the plaintext, as 
+best I can guess.  The rows labeled with 'HX PT' are  the plaintext rows from the OTP 
+step.  The rows labeled with W are the rows from the pad text and show the 
+corresponding pad letter where the misspelling occurred in the plaintext.
+                         1         2              1         2
+         123456789012345678901234  123456789012345678901234
+HX MS 1             S     O          E           Z
+HX PT 1          DSIWLLLVSZHAWKW    YPONBHZEROABUW
+W R1:R5          UYETTHACAIADESB 
+ OREACAETSMBELE
+HX MS 1            Q  I      O                       S R 
+ 
+HX PT 2     ZXFANBCKDFMNDBYANURM    BERLINHDEXPBCKJIMZTO
+W R5:R3     MLKRIIPLLDYRNNLSAEOG    ELYOIETIROWITDDDSOFT
+HX MS 1              S AR           D      E   S
+HX PT 2           EFGRMOCKISWDXO    VDRIDDLPIOIAQJ
+W R5:R3           NELNHEESLOPIRM    HOFEETTTSSEYGE         
+Fig. 1-9
+Which gives us HX-PT, our K4-HX solution to the 97 charters as shown in Fig. 1-10
+       DSISLLLVSOHAWKW YEONBHZEROABUZ
+  ZXFANBCQDFINDBYANORM BERLINHDEXPBCKJIMSTR
+        EFGSMARKISWDXO DDRIDDLEIOISQJ
+or
+D, SIS, LLL VS OH-AWK-WYE ON BH ZERO ABUZZ X 
+FAN B CQD FIND BY ANORM BERLIN HD EXP BCK JIM S
+T REF GS MARK IS WD X
+ODD RIDDLE IO IS Q J
+Fig. 1-10, HX-PT
+Examining the misspellings, Fig. 1-11, we can ﬁnd further messages.  Read the 
+misspelled letters across, left to right, by rows going down in such a way to get the 
+following, HX-PT, M1, as shown in Fig. 1-11.
+
+[[page 10]]
+SO EZ Q IOS RSA R DES
+Fig. 1-11, HX-PT, M1
+Additionally if we use all three letters (the misspelling, plaintext, and pad letters) at 
+each misspelling point we (maybe ???) can ﬁnd another message:
+SWT OZI EPR HZE ZWE QKL IMY OUE SZO ROT SRN AOE RCE DVH EPT SAY
+Fig. 1-12, HX-PT, M2
+Part 1b: K4-H
+Notice the 'H' part; the part that was not used in the decipherment.  Select parts of the 
+"H" as shown in color as a new pad K4-H, Fig. 1-13.
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+  
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+R7:R3 WHOFEETTTSSEYGEMIEFTANEDYETDVTRAHNELNHEESLOPIRME
+Fig. 1-13, W1, K4-H Pad Mask
+Steganography of K4 HX Pad Mask:
+Notice some of the Stenography one can ﬁnd in K4-H (remember that S and W are 
+related). The ﬁrst row, R5:R1, with a little rearranging one can get:
+L WPIES LL -> L SPIES
+LLSEIPWL, AINDEPRAI -> LLSEIP WLAIN DE PRAI -> SLAIN DE PRAI
+Or together maybe:
+Lies, Lies, SLAIN SPIES, D PRAYs [for them?]
+and the bottom right section, R3, reversed:
+HAR T V D T, E Y
+HAR['s] Truth Vs D['s] Truth - Expose Why
+
+[[page 11]]
+Select the corresponding ciphertext from K4, as shown in Fig. 1-14. 
+H1 OBKRUOXOG
+H2 HULBSOLIFBBWFLRVQQPRNGKS
+H3 SOTWTQSJQ
+H4 SSE
+H5 KZZ
+H6 WATJKLUDI
+H7 AWINFBNYPVTTMZFPKWGDKZXTJCDIGKUH
+H8 UAUEKCAR
+Fig. 1-14, K4 H Ciphertext, H-CT
+Below is shown the K4 H pad, ciphertext, and resultant plaintext,  Fig. 1-15:
+                  1         2    0        1         2
+         123456789012345678901234123456789012345678901234
+H KEYS
+                        WATJKLUDIUAUEKCAR
+                              KZZSSE
+                        OBKRUOXOGSOTWTQSJQ
+H CT
+                        WATJKLUDIUAUEKCAR
+                              KZZSSE
+                        OBKRUOXOGSOTWTQSJQ
+H PT'                       
+                        JMESIHQPKTJIKESDD
+                                                                YHHIQH
+                        GNIILXOQPTQKGBJOCS
+Fig 1-15
+Now re-arrange them.  The left hand side of the 'H' reads bottom to top and is 
+backwards, the right hand side is read top to bottom. 
+                                  PQOXLIING TJIKESDD
+                      HHY IQH
+                KPQHISEMJ TQKGBJOCS
+ 
+  
+Fig. 1-16, H PT''
+
+[[page 12]]
+Misspellings Step:
+Guess the misspellings as follows in Fig. 1-17.  
+The rows labeled with P1M are the rows of the correct letters where a misspelling 
+occurs in the plaintext, as best I can guess.  The rows labeled with P1 are  the plaintext 
+row from the OTP step.  The rows labeled with W1 are the rows from the pad text and 
+show the corresponding pad letter where the misspelling occurred in the plaintext.
+                         1         2               1         2
+         123456789012345678901234  123456789012345678901234
+H MS 1                    L         O     C
+H PT 1                  JMESIHQPK  TJIKESDD
+W R5:R1  AOREACAETSMBELEAINDEPRAI  LLSEIPWLUYETTHACAIADESBD
+H MS 1                          W   
+ 
+H PT 1                        YHH  IQH
+W R6:R2  HELYOIETIROWITDDDSOFTEOE  TMWMLKRIIPLLDYRNNLSAEOGR  
+P1M 3                      Y   V        D
+P1-R3                   GNIILXOQP  TQKGBJOCS
+W R7:R3  WHOFEETTTSSEYGEMIEFTANED  YETDVTRAHNELNHEESLOPIRME       
+Fig. 1-17
+Examining the misspellings we can ﬁnd further messages, reading going across:
+LOC WY D,
+Locate Why D  
+Which gives us H Plaintext, or H PT, our K4-H solution to the 97 charters as shown in 
+Fig. 1-18:
+PQO X LYING WHY KP Q HIS LM J 
+TO IKES DCI Q H T Q KGB DOCS
+Fig. 1-18, H PT
+
+[[page 13]]
+Part 2: K4-O
+Transpositions Step:
+ 
+As in part 1, start with W in Fig 1-3, but this time re-arrange the rows as follows: 
+R4:R3
+R1:R6
+R5:R7
+shown below in W2, Fig 2-1, and draw the letter 'O' on it in the following way:
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234  
+R5:R3 AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME
+R1:R6 LLSEIPWLUYETTHACAIADESBDHELYOIETIROWITDDDSOFTEOE
+R4:R7 SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED
+Fig. 2-1, W2, O Pad Mask
+Arrange K4 in as shown in K4 O-CT, Fig 2-2.  Note that the ciphertext 
+'NYPVTTMZFPKWG', row O4b is repeated. 
+O1  OBKRUOXOGHULBSOLIFBBW
+O2  FLRVQQPRNGKSSOTWTQSJQ
+O3  SSEKZZWATJKLUDIAWINFBN
+O4a YPVTTMZFPKWGD
+O5  KZXTJCDIGKUHUAUEKCAR
+O4b NYPVTTMZFPKWG
+Fig. 2-2, K4 O-CT
+
+[[page 14]]
+Decryption Step:
+As before in part 1, do the OTP decryption as follows.  Note that the keys from rows R3 
+and R6 with the CT from rows O2 and O4b actually encryptions, with font in blue:
+                    1         2    0        1         2
+           123456789012345678901234123456789012345678901234
+O KEYS
+              EACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPI
+             LSEIPWLUYETTH                     WITDDDSOFTEOE
+              OLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFT
+O CT
+              OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQ
+             YPVTTMZFPKWGD                     NYPVTTMZFPKWG
+              SSEKZZWATJKLUDIAWINFBNKZXTJCDIGKUHUAUEKCAR
+O PT'
+              QRLQDRMGOPTSRLFATCARBHYOSJXTBASEWZNIBDEENC
+             EWEIRUBLRINCV                     JLASHHXTXAEYX
+              RIQQILSSNIAGASBIJVOSSVPENMOXSECQIPNQDNEXUW
+Misspellings Step:
+Guess the misspellings as follows in Fig 2-4.  The rows labeled with O MS are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with O PT are the plaintext row from the OTP step above.  The rows 
+labeled with W are the row from the pad text and shows the corresponding pad letter 
+where the misspelling occurred in the plaintext.
+           
+                    1         2             1         2
+           123456789012345678901234123456789012345678901234
+O MS 1              A  L  O  O            ET   S       I
+O PT 1        QRLQDRMGOPTSRLFATCARBHYOSJXTBASEWZNIBDEENC   
+W R5:R3    AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME       
+ 
+ 
+ 
+O MS 2       D       C E                          T P  K
+O PT 1      EWEIRUBLRINCV                     JLASHHXTXAEYX
+W R1:R6    LLSEIPWLUYETTHACAIADESBDHELYOIETIROWITDDDSOFTEOE   
+O MS 3           R  I      M          O     E  HY     Q 
+ 
+O PT 1       RIQQILSSNIAGASBIJVOSSVPENMOXSECQIPNQDNEXUW
+W R4:R7    SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED       
+Fig. 2-4
+
+[[page 15]]
+Read off the misspelled letters of Fig 2-4 starting by going up on odd rows, down on 
+even, right to left for the right set of 24 columns and continuing then to the left set of 24 
+columns by going down on odd rows, up on even, to get the following,  
+KIQ P, TYH SET, OO MOLE CIA R D
+KIM P, OYH SET, OO MOLE CIA R D
+Kim Philby, OYH [are a] SET, OO [is a] MOLE, CIA ouR D
+Information: K and P is for Kim Philby who is our double O mole.
+The letters, OYH, are a set, and the CIA is D, i.e. the letter D stands for the CIA 
+(possibly the CIA under Dulles).  CIA RD can also mean CIA Riddle or 'OO MOLE [in 
+the] CIA, Read'. 
+And following across, the letters of the pad where those misspellings occur we can get:
+IN H D AES, SET D'S T, D R AFS Y G T
+IN H D ANS, SET D'S T, D R ANS Y G T
+We get the following K4 O Plaintext, O-PT.  Note that all but the last line of O-PTb 
+should be reversed:
+K4 O-PTa:
+BR ACT OF LOST LOG A RD Q 
+LRQ V ENCR L BURIED E VS SOV 
+JIM S AGAIN IS LRQ Q
+I RQ U X ENDY, H PIECES X O ONE P
+K4 O-PTb:
+I NEED B IN S WEST B TX JS O Y H 
+J LAST H, P TX KEY.
+Steganography of K4 Y Pad:
+Notice the letters in the center, reversed:
+ORITE IO Y L EHD B'S E DIA C A
+WRITE IO Y L BHD B'S E CIA C A
+Write X, why Lie Berlin Head, B's E, CIA see answer.
+Misspellings: O WEB D C
+And also if decrypted with the key 'T'
+Dec(T, ACAIADESBD HELYOIETIRO) = POPEPSAYTS DAGXREAKEWR
+
+[[page 16]]
+P - O PEP SAY T, S DAG X REAKE WR
+P - O PEN SAY T, S DIG X READ E WR
+As for the outside edges; on the right: 
+R, ME AN ED and the left:  ALSO A R
+So, the two different sections are drawn like R's.
+
+[[page 17]]
+Part 3: K4-Y
+Transpositions Step:
+ 
+As in part 1, start with W in Fig 1-3, and arrange the rows as follows: 
+R4:R5
+R2:R6
+R3:R7
+shown below in W3, Fig 3-1, and draw the letter 'Y' on it in the following way:
+           1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+R4:R5 SAOLLSDBLRERNTHTAMANHSYWAOREACAETSMBELEAINDEPRAI
+R2:R6 TMWMLKRIIPLLDYRNNLSAEOGRHELYOIETIROWITDDDSOFTEOE
+R3:R7 YETDVTRAHNELNHEESLOPIRMEWHOFEETTTSSEYGEMIEFTANED
+Fig. 3-1, W3, Y Pad Mask 
+Y1  OBKRUOXOGHULB
+Y2  SOLIFBBWFLRVQ
+Y3  QPRNGKS
+Y4  SOTWTQSJQSSEKZZWATJ
+Y5  KLUDIAWINFBNYP
+Y6  VTTMZFPKW
+Y7  GDKZXTJCDIGKUHUAUEKCAR
+Fig. 3-2, K4-Y Ciphertext
+
+[[page 18]]
+Decryption, and Encryption Step:
+Done as before, please note that the left side, in blue should be encrypted:
+                   1         2    0        1         2
+          123456789012345678901234123456789012345678901234
+Y KEYS
+                     RNTHTAMANHSYW        TSMBELEAINDEPR 
+               KRIIPLLDYRNNL           IETIROWIT 
+               TRAHNELNHEESLOPIRMEWHOFEETTTSSEYGEMIEFTAN 
+Y CT
+                     SOLIFBBWFLRVQ        KLUDIAWINFBNYP 
+               OBKRUOXOGHULB           VTTMZFPKW 
+               SOTWTQSJQSSEKZZWATJGDKZXTJCDIGKUHUAUEKCAR 
+Y PT'       
+                     AXUPJIKTOOAXL        VEPYTJFBTNXBZY 
+               OCIJXVIIIIHDZ           ANKPXASEN 
+               DSEEWOWCBLLLLTYFBVRJVUGGNFOSCAINRDISKHOKB 
+Fig. 3-3
+Misspellings Step:
+Guess the misspellings as follows in Fig 3-4.  The rows labeled with Y MS are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with Y PT are the plaintext row from the decryption step.  The rows 
+labeled with W are the rows from the pad text and shows the corresponding pad letter 
+where the misspelling occurred in the plaintext.
+                   1         2             1         2
+           123456789012345678901234123456789012345678901234
+Y MS 1                  O I   W             S     K    H      
+Y PT 1                AXUPJIKTOOAXL        VEPYTJFBTNXBZY   
+W R5:R3    SAOLLSDBLRERNTHTAMANHSYWAOREACAETSMBELEAINDEPRAI       
+ 
+ 
+ 
+Y MS 2          D  A  K  B  T             S            
+Y PT 2          OCIJXVIIIIHDZ           ANKPXASEN
+W R1:R6    TMWMLKRIIPLLDYRNNLSAEOGRHELYOIETIROWITDDDSOFTEOE   
+Y MS 3              H  Q   A  A  ST A I    L   W   X  W   
+Y PT 3          DSEEWOWCBLLLLTYFBVRJVUGGNFOSCAINRDISKHOKB
+W R4:R7    YETDVTRAHNELNHEESLOPIRMEWHOFEETTTSSEYGEMIEFTANED       
+Fig. 3-4, Y-PT Misspellings
+To see the misspellings, read off the letters going down on even columns then up on 
+odd ones, right to left:
+
+[[page 19]]
+WH X K WS L, SIA T - SAW T A IB O Q K HAD
+WH A K IS L, CIA T - SAW T A II O Q K HAD
+White House Answer - Kim is Lie (is lying about) CIA T  (Penkovsky, or YOGA) 
+Saw T (Penkovsky, or true) Answer II (two - i.e. a double agent)? Kim Had
+Further misspellings: I CIA - B SW X: 
+One CIA (One is to be reversed - E NO or expose not) - B (Blunt or Blake) SW X: 
+perhaps a clue to the rocks.
+The pad letters where the misspellings occur give if read off going across left to right 
+starting at the top, and then right to left for the next row, followed by left to right for the 
+bottom row, give:
+TTN'S A P T LR LIK NNS I E WOE'S G E A
+TEN'S A P T OR LIE ANS I E WOE'S G X A
+Misspellings: T-L K N E - E O, E AX True or Lie, Kim Not Expose - Expose Oleg, 
+Expose AX
+We get the following K4-Y and K4-N Plaintext:
+K4 Y-PT:
+V SPY T, JFK TNX - BH Y ANS P X
+A SENT V AG INFO SLAIN WD IS X 
+HOW B
+K4 N-PT:
+D - SEE HOW Q 
+B LL ALT Y - AB VS D, CIA X 
+K III BHD T A X
+OP II, K TWO - AX L 
+Steganography of K4 Y Pad:
+Steganography of the edges of the decrypting part of the letter 'Y'.  Read off the letters 
+going down then up, left to right:
+R5 AOREACAETSMBELEAINDEPRAI
+R4 HELYOIETIROWITDDDSOFTEOE
+R7 WHOFEETTTSSEYGEMIEFTANED
+A HE OR LYE A, O C - A E, DD D'S OF-TEA OE, I ED
+A HE OR LIE A, O C - A E, AD D'S OF-TEN YE, I ED
+
+[[page 20]]
+Answer of He or Lie Answer, O see - answer [should be] E, Allen Dulles and CIA [is] 
+OF-TEN YE, I [and] ED . The CIA is often ye, and the CIA is of Ten (of the shadows)
+Misspellings: YDAO - IANY: 
+Y D AOI ANY 
+Why D - AX Answer why; or A N/Y - Answer? No/Yes
+Steganography of the edges of the letter 'N'.  Read off the letters going up then down, 
+left to right:
+R4 SAOLLSDBLRERNTHTAMANHSYW
+R2 TMWMLKRIIPLLDYRNNLSAEOGR
+R3 YETDVTRAHNELNHEESLOPIRME
+YT SAME TWO LM D V, L LSD BLRE, SAE OGR
+NT SAME TWO LM D V, L LSD BLUE, SEE OGR
+Not [the] SAME, [the] TWO LM, D and V's, Lie LSD, BLUE  - SEE O GR.
+Not the same are the two LM's, CIA and the Cambridge V's  Lie and LSD (and LL SD)
+BLUE (sad - or B Lie You Expose) . SEE OGR (a clue to one of the next letter masks, 
+the G (OGR).  LSD: Lysergic Acid Diethylamide, or Acid.
+Further misspellings: YRA
+                      NUE
+N/Y RUE A
+Yes/No Rue the Answer?
+Steganography of the K4 Y Ciphertext:
+Note that column Y3 is not used.  Reversed it says:
+S KGN R P Q
+A KGB R P Q, Answer - KGB our P? (Our Ye, since 'Q YE P'), the 'N' misspelling 
+suggests no. 
+
+[[page 21]]
+Part 4: K4-P
+This letter is a bit strange, it starts off as a 'P' and ends up as the letter 'E'.
+Transpositions Step:
+ 
+As in part 1, start with W in Fig 1-4, but this time re-arrange the rows as follows: 
+R2:R6
+R5:R3
+R1:R7
+shown below in W3, Fig 4-1, and draw the letter 'P' on it in the following way:
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+R2:R6 TMWMLKRIIPLLDYRNNLSAEOGRHELYOIETIROWITDDDSOFTEOE
+R5:R3 AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME
+R4:R7 SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED
+Fig. 4-1, W4, P Pad Mask
+P1  OBKRUOX
+P2  OGHULBSOLIFBBW
+P3  FLRVQQPRNGKSSOTWTQS
+P4  JQSSEKZZ
+P5  WATJKLU
+P6  DIAWINFBNYPVTTM
+P7  ZFPKWGDKZXTJCDIGKUHUAUEK
+P8  CAR
+P9  FLRVQQPRNGKS
+Fig. 4-2p, K4 P Ciphertext, P-CT
+
+[[page 22]]
+OTP Decryption Step:
+                1         2    0        1         2
+       123456789012345678901234123456789012345678901234
+P KEYS
+                 PLLDYRNNLSAEOGRHELYOIETIROWITDDDSOFTEOE
+                                  TDVTRAHN     ESLOPIR
+                                   FEETTTSSEYGEMIEFTAN
+P-CT
+                 DIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEK
+                                  JQSSEKZZ     WATJKLU
+                                   FLRVQQPRNGKSSOTWTQS
+P-PT'
+                 AXJGGMNIYVVEZLLERFXMXZVDWZNQSOPJICCPDSI
+                                  FDDYDNES     FRGEWYQ
+                                   KSJMJJWUBEGUHJNEKGG
+Fig. 4-3, K4-P
+Misspellings Step:
+Guess the misspellings as follows in Fig 4-4.  The rows labeled with P MS are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with P PT are the plaintext row from the decryption step.  The rows 
+labeled with W are the rows from the pad text and shows the corresponding pad letter 
+where the misspelling occurred in the plaintext.
+          
+                    1         2    0        1         2
+           123456789012345678901234123456789012345678901234
+P MS 1                E S     N I A     LS   S I   A  X K
+P PT 1              AXJGGMNIYVVEZLLERFXMXZVDWZNQSOPJICCPDSI   
+W R2:R6    TMWMLKRIIPLLDYRNNLSAEOGRHELYOIETIROWITDDDSOFTEOE       
+ 
+ 
+ 
+P MS 2        J    T    X            S O          U    S
+P PT 2       SXUTXNDECWWZNT          FDDYDNES     FRGEWYQ  
+W R5:R3    AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME   
+P MS 3               X    N T           I I G       Y  A
+P PT 3            QBYAUGAIWQM         KSJMJJWUBEGUHJNEKGG
+W R4:R7    SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED  
+Fig. 4-4
+
+[[page 23]]
+The misspellings of the decrypted part of the letter 'E' with the letter 'P'.  Read off the 
+letters going on the top row going across right to left, then the second row going left to 
+right, and the third row going right to left again :
+K X A IS SLAIN, SEJT X SO U SAY G - II, TNX
+K X A IS SLAIN, SENT X SO K SAY G - II, TNX
+? Kim X Answer is [Penkovsky] Slain, [Kim] Sent X - So Kim Say [to] G - II (that 
+Penkovsky was a double agent), Thanks [for your info]. 
+The pad letters where the misspellings occur give when read off going down on odd 
+columns then up on even ones, left to right:
+E TELL Y, T M,A OR T V, IEE T SIED E F IEN
+E TELL Y, T G,A OR T V, SEE T LIED E F TEN
+Expose - Tell Why ,True Golitsyn and Angleton or True [Cambridge] Five, See T 
+[Penkovsky] Lied, Expose False Ten (Shadows)
+We get the following K4 P Plaintext, K4 P-PT:
+K4 P-PT:
+         
+AG KEY J HUGE BUG JIM IS K Q
+S,W E GRU SEND Y O D, SIS KP X
+CIA POS IN S WD VS LM X
+F REAL LI-ENVY IN MSG E X A
+
+[[page 24]]
+Part 4: K4-E 
+Carryout Transpositions Step:
+This is strange, notice that by using from P-CT, Fig 4-2p we can use rows P2 and P9 to 
+transform the P into the letter E in the following way. 
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+R2:R6 TMWMLKRIIPLLDYRNNLSAEOGRHELYOIETIROWITDDDSOFTEOE
+R5:R3 AOREACAETSMBELEAINDEPRAIYETDVTRAHNELNHEESLOPIRME
+R4:R7 SAOLLSDBLRERNTHTAMANHSYWWHOFEETTTSSEYGEMIEFTANED
+Fig. 4-1, W4-b
+P1  OBKRUOX
+P2  OGHULBSOLIFBBW
+P3  FLRVQQPRNGKSSOTWTQS
+P4  JQSSEKZZ
+P5  WATJKLU
+P6  DIAWINFBNYPVTTM
+P7  ZFPKWGDKZXTJCDIGKUHUAUEK
+P8  CAR
+P9  FLRVQQPRNGK
+Fig. 4-2e, K4 E Ciphertext, E-CT
+ENC(BLRERNTHTAMA, FLRVQQPRNGK) = QBYAUGAIWQM
+ENC(REACAETSMBELEA, OGHULBSOLIFBBW) = SXUTXNDECWWZNT
+The ﬁrst plaintext:
+Q BY A U GAIW Q M
+Q BY X U GAIN Q T
+Misspellings: X ANW M T
+The second plaintext should be reversed
+TNZ WW C E DNX T U XS
+TNX WW C E TNX T U JS
+Misspellings: J T, X TNX:
+
+[[page 25]]
+To T and X Thanks, Jim.
+And in the orginal line: ED NXT; thanks Ed.
+E PT:
+Q BY X U GAIN Q T
+TNX WW C E TNX T U JS
+Steganography of K4 P Pad:
+Steganography of the edges of the 'P' letter.  Read off the letters to get the following
+R6 HELYOIETIROWITDDDSOFTEOE
+R3 YETDVTRAHNELNHEESLOPIRME
+R7 WHOFEETTTSSEYGEMIEFTANED
+WHO YE - E L NH E - ME, ED
+WHO YE - E L BH E - ME, ED
+Who Ye, Expose Lie Berlin Head [or] Expose Me and Ed
+Steganography of the edges of the encrypting part, the 'E' letter.  Read off the letters 
+on the left side going upwards, right to left, then left to right, and then right to left:
+R2:R6 TMWMLKRIIPLLDYRNNLSAEOGR
+R5:R3 AOREACAETSMBELEAINDEPRAI
+R4:R7 SAOLLSDBLRERNTHTAMANHSYW
+D'S L LOAS A OII R K LM, WM T
+D'S L LOSS A III R K LM, LM T
+D'S Lie (CIA's Lie), LOSS Answer III (triple) ouR Kim LM , LM True 
+Misspellings: A O W L IS: Answer Oleg - W Lie Is
+And on the right side going upwards from left to right, the right to left:
+A NH'S Y WIAR P, ED N I
+A BH'S Y LIAR P, ED N I
+Answer Berlin Head's (Allen Dulles) why, Liar P, Ed and I
+Misspellings: NWBL: NW B L
+
+[[page 26]]
+Steganography of P CT:
+Observe the two pieces, from Fig. 4-2 the P-CT or E-CT, that are not used: P1 and P8.
+P1  OBKRUOX
+P8  CAR
+Enc(T, CAR) = GEO and
+X OUR K BOCAR
+X OUR K BEHAR
+Our Kim is Behar, with the misspellings forming the message C O HE, or: He saw O
+Steganography of K4 CT:
+ 1 ?OBKRUOX
+ 2  OGHULBS
+ 3  OLIFBBW
+ 4  FLRVQQP
+ 5  RNGKSSO
+ 6  TWTQSJQ
+ 7  SSEKZZW
+ 8  ATJKLUD
+ 9  IAWINFB
+10  NYPVTTM
+11  ZFPKWGD
+12  KZXTJCD
+13  IGKUHUA
+14  UEKCAR
+Along the left side going down:
+OO OF R T SAIN Z KIU
+OO OF R T SAID Z KIM
+And along the right side going down:
+X SW POQ WD, B MDD A
+X SW POS WD, B MAD A
+And along the top:
+?O B K RUO X, reversed X OUR K B O ?
+E O B, K, RUO X
+Expose Oleg, Blake, Kim, and Our Shadows, X
+
+[[page 27]]
+Also, take K4 H-CT, and add to it the two extra pieces of CT used in O-CT, O4b, and in 
+P-CT, P9. 
+ 1  OBKRUOX
+ 2  OGHULBS
+ 3  OLIFBBW
+ 4  FLRVQQP
+ 5  RNGKSSO
+ 6  TWTQSJQ
+ 7  SSEKZZW
+ 8  ATJKLUD
+ 9  IAWINFB
+10  NYPVTTM
+11  ZFPKWGD
+12  KZXTJCD
+13  IGKUHUA
+14  UEKCAR
+Fig. 4-3e
+Reading off the unused letters by row from bottom to top, alternating from right to left 
+and then left to right we ﬁnd:
+HUKGI 
+KZXTJCD 
+D
+AWINFB
+S
+OLIFBBW 
+SBLUH
+Guess the following misspellings and read off the correct letters the same way (left to 
+right, right to left but going down)
+HGKGB
+KEXTOCD
+R
+AWINGB
+S
+OLIFEBH
+SBLUE
+Misspellings: B GEORGE HE
+H, G, KGB KEX TO C DRAWING B'S O LIFE, BH'S BLUE
+
+[[page 28]]
+Our B is George Blake, who's original name was George Behar. 
+Note: 'WHO YE' is a reference to P - the mask used:
+Enc(V, AISX)= PEYQ -> Q YE P (backwards)
+Part 5: K4-G
+This letter is the letter 'G' made up of an 'O' and a 'R'.
+Transpositions Step:
+ 
+As in part 1, start with W in Fig 1-4, but this time re-arrange the rows as follows: 
+R1:R6
+R2:R4
+R5:R3
+shown below in W5, Fig 5-1, and draw the letter 'G' on it in the following way:
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+R3:R2 YETDVTRAHNELNHEESLOPIRMETMWMLKRIIPLLDYRNNLSAEOGR
+R5:R1 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R4:R6 SAOLLSDBLRERNTHTAMANHSYWHELYOIETIROWITDDDSOFTEOE
+Fig. 5-1, W5, G Pad Mask
+G1  OBKRUOXOG
+G2  HULBSOLIFBBW
+G3  FLRVQQPRNGKS
+G4  SOTWTQSJQSSEKZZW
+G5  ATJKLUDIAWINFBNYPVTTM
+G6  ZFPKWG
+G7  DKZXTJCDIGKUHUAUEKCAR
+Fig. 5-2, K4 G Ciphertext, G-CT
+
+[[page 29]]
+OTP Decryption Step:
+         123456789012345678901234123456789012345678901234
+G KEYS
+                 HNELNHEESLOPIRMETMWMLKRIIPLLDYRNNLSAE
+         AOREACAETSMB            LLSEIPWLU         ADESBD
+                 LRERNTHTAMAN    HELYOIETIROWITDDDSOFT
+G-CT            
+                 SOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTM
+         FLRVQQPRNGKS            OBKRUOXOG         ZFPKWG
+                 HULBSOLIFBBW    DKZXTJCDIGKUHUAUEKCAR
+G-PT'
+                 MFNSESUOHIRBEXAFPFNBKUCKMQXYYSMCDOXWA
+         OFKEGEVJIABX            VZSFDBUVB         SVHSOW
+                 WQSAGRPEOJRT    XEJKCOQHTHOMPZLOUSHNO
+Fig. 5-3, K4-G
+Misspellings Step:
+Guess the misspellings as follows in Fig 5-4.  The rows labeled with G MS are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with G PT are the plaintext row from the decryption step.  The rows 
+labeled with W are the rows from the pad text and shows the corresponding pad letter 
+where the misspelling occurred in the plaintext.
+                  1         2             1         2
+           123456789012345678901234123456789012345678901234
+Y MS 1             KD       WH  T   O      V   G  D   S
+Y PT 1             MFNSESUOHIRBEXAFPFNBKUCKMQXYYSMCDOXWA    
+W R3:R2    YETDVTRAHNELNHEESLOPIRMETMWMLKRIIPLLDYRNNLSAEOGR       
+ 
+ 
+ 
+Y MS 2      P O   D                 A    L             D  E
+Y PT 2     OFKEGEVJIABX            VZSFDBUVB         SVHSOW 
+W R5:R1    AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD   
+Y MS 3              A               S       U   D  H O 
+Y PT 3             WQSAGRPEOJRT    XEJKCOQHTHOMPZLOUSHNO
+W R4:R6    SAOLLSDBLRERNTHTAMANHSYWHELYOIETIROWITDDDSOFTEOE       
+Fig. 5-4, G-PT Misspellings
+
+[[page 30]]
+The G's misspellings, going across right to left then left to right, bottom to top:
+OH D U SAP O DALDE, S D G VO T, H WD K
+OH D U SAY O FALSE, S D G VS T, X WD K
+Pad letters, going up and down, the down and up, right to left:
+DEAO, D NT DRIW E LM ROLR N HEEO
+DEAD, D NT DRAW E LM ROLE N HERO
+DEAD (O), D NoT DRaW P,  Expose LM ouR O, Lie Expose ouR HERO
+G_a PT:
+T R JOE, PR G, A SAW X 
+B AID V EGO KP, O FATE, BH WHOUSE, SND K AS X
+ODD MSG Y X Q
+V K, C UK B - NO P 
+G_b PT:
+B V L B D F, SAVE O S D VS O-NOS HOLD P MOUTH Q O C K JS X
+Steganography of K4 G Pad:
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+R1:R6 YETDVTRAHNELNHEESLOPIRMETMWMLKRIIPLLDYRNNLSAEOGR
+R2:R4 AOREACAETSMBELEAINDEPRAILLSEIPWLUYETTHACAIADESBD
+R5:R3 SAOLLSDBLRERNTHTAMANHSYWHELYOIETIROWITDDDSOFTEOE
+ART V D, T E Y, SAO L LSD B
+ART V D, T E Y, SAY L LSD B
+E L EAIN, D E PR A I WYSH
+E L VAIN, D E PR A I WISH
+YE T THA C A I
+YE T THX C A I
+O GREO E
+O GREY E
+
+[[page 31]]
+Part 6: K4 - X
+This letter is the letter 'X'.
+Transpositions Step:
+ 
+As in part 1, start with W in Fig 1-4, but this time re-arrange the rows as follows: 
+R1:R7
+R4:R3
+R6:R2
+shown below in W3, Fig 6-1, and draw the letter 'X' on it in the following way:
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+R1:R7 LLSEIPWLUYETTHACAIADESBDWHOFEETTTSSEYGEMIEFTANED
+R4:R3 SAOLLSDBLRERNTHTAMANHSYWYETDVTRAHNELNHEESLOPIRME
+R6:R2 HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+Fig. 6-1, W6, X Pad Mask
+X1  OBKRUOXOGHULB
+X2  SOLIFBBWFLRVQQPR
+X3  NGKSSOTWTQSJQSSEK
+X4  ZZW
+X5  AT
+X6  JKLUDIAWINFBNYPV
+X7  TTMZFPKWGDKZXTJC
+X8  DIGKUHUAUEKCAR
+Fig. 6-2, K4 X Ciphertext, X-CT
+
+[[page 32]]
+OTP Decryption Step:
+         123456789012345678901234123456789012345678901234
+X KEYS
+            EIPWLUYETTHACAIA           TTTSSEYGEMIEFTAN
+                 LRERNTHTAMANHSYWYETDVTRAHNELNHEE
+            YOIETIROWITDDDSOF         KRIIPLLDYRNNLSAE
+X-CT
+            ZZWOBKRUOXOGHULB           JKLUDIAWINFBNYPV
+                 SOLIFBBWFLRVQQPRTTMZFPKWGDKZXTJC
+            NGKSSOTWTQSJQSSEK         ATDIGKUHUAUEKCAR
+X-PT'
+            HDQBLOZDRQLSOHYR           FVGITTODTRWWAXVP
+                 ITSHNTQNOZQPSHRTSIVCBARTRPEJLMRQ
+            UMILDQOYRCDKTJFJF         APUKDCTTNSYMCPKJ
+Fig. 6-3, K4-X
+Misspellings Step:
+Guess the misspellings as follows in Fig 6-4.  The rows labeled with X MS are the rows 
+of the correct letters where a misspelling occurs in the plaintext, as best I can guess.  
+The rows labeled with X PT are the plaintext row from the decryption step.  The rows 
+labeled with W are the rows from the pad text and shows the corresponding pad letter 
+where the misspelling occurred in the plaintext.
+                  1         2             1         2
+           123456789012345678901234123456789012345678901234
+X MS 1        S     O   D                        D A    K   
+X PT 1        HDQBLOZDRQLSOHYR           FVGITTODTRWWAXVP    
+W R1:R7    LLSEIPWLUYETTHACAIADESBDWHOFEETTTSSEYGEMIEFTANED       
+ 
+ 
+ 
+X MS 2                NO P  S    O     P      G  K        
+X PT 2             ITSHNTQNOZQPSHRTSIVCBARTRPEJLMRQ 
+W R4:R3    SAOLLSDBLRERNTHTAMANHSYWYETDVTRAHNELNHEESLOPIRME   
+X MS 3        YE         O K             X     E      X   
+X PT 3        UMILDQOYRCDKTJFJF         APUKDCTTNSYMCPKJ
+W R6:R2    HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR 
+          
+Fig. 6-4, X-PT Misspellings
+
+[[page 33]]
+Misspellings reading up and then down, right to left by columns:
+K X A, KD E G, X POS K OP DONO, E'S Y
+K X A, ID E G, X POS K OP DONE, E'S Y
+Pad Misspellings:
+NIEH Y E N R H, M Y V LEAD R D NO Y
+DIED Y E N R L, M Y V LEAD R D DO Y
+and 
+E Y HE IN ELVY, MH N R Y, ODD R D A
+K Y HE IN ENVY, BH N R Y, ODD R D A 
+with misspellings: E LM K N B
+X_a PT:
+S D Q BLOOD RQ D'S O, H Y R F, V GIT TO D, DRAW A X V K, IT'S 
+NOT P NOS Q P SHOT! :(
+X_b PT:
+Q R KM G E PR TRAP CV IS F, JFK TO D CRY O Q D LIE Y
+X_c PT:
+A X UK D C TEN SYM C P X J
+CV = 105 = onezerofive -> (reversed) E V, IF O REZ E NO
+(expose V, if O is released, expose no)
+C TEN SYM C = CXC = 190 = oneninezero -> (reversed) OR EZEN IN E 
+NO
+(or even in exposure, no)
+Steganography of K4 X Pad:
+LLSEIPWLUYETTHACAIADESBDWHOFEETTTSSEYGEMIEFTANED
+SAOLLSDBLRERNTHTAMANHSYWYETDVTRAHNELNHEESLOPIRME
+HELYOIETIROWITDDDSOFTEOETMWMLKRIIPLLDYRNNLSAEOGR
+Far Left:
+L'S HEAL SO L,L LSD B
+X'S DEAL SO L,L LSD B
+Middle Left:
+ED BOES T E D
+
+[[page 34]]
+ED BOSS T E D
+Middle Right:
+T WHMW O, FM LEE
+T SHOW O, FM LIE
+Far Right:
+RED E MG O RIP, O L'S (as usual there are many possibilities)
+RED E BG,O RIP, O T'S
+Another example, Read'em (them) grey, O RIP, O T's (the truth of Penkovsky)
+
+[[page 35]]
+Part 6b: K4 - O
+This letter is another 'O' with IIII, or four I's (meaning just FOUR?).
+Transpositions Step:
+ 
+As in part 1, start with W in Fig 1-4, but this time ﬂip the the rows as shown: 
+R7:R1
+R3:R4
+R2:R6
+shown below in W3, Fig 6-1, and use the negative space from the 'X' in the following 
+way:
+               1         2    0        1         2
+      123456789012345678901234123456789012345678901234
+R7:R1 WHOFEETTTSSEYGEMIEFTANEDLLSEIPWLUYETTHACAIADESBD
+R3:R4 YETDVTRAHNELNHEESLOPIRMESAOLLSDBLRERNTHTAMANHSYW
+R2:R6 TMWMLKRIIPLLDYRNNLSAEOGRHELYOIETIROWITDDDSOFTEOE
+Fig. 6-5, W6, X-O Pad Mask
+And use the following as the ciphertext:
+ 1  OBKRUOX
+ 2  OGHULBS
+ 3  OLIFBBW
+ 4  FLRVQQP
+ 5  RNGKSSO
+ 6  TWTQSJQ
+ 7  SSEKZZW
+ 8  ATJKLUD
+ 9  IAWINFB
+10  NYPVTTM
+11  ZFPKWGD
+12  KZXTJCD
+13  IGKUHUA
+14  UEKCAR
+Fig. 4-3e
+
+[[page 36]]
+Quickly encrypting it:
+1. Enc(HULBSOLIF, DESBDTEOE) = XSWJJCYQW
+2. Enc(WHOFEETMWML, BWFLRVQQPRN) = OELPFAXFKND
+3. Enc(AWINFBNYPVTTM, OGRSLOPIRMEED) = FDJZPGVLTHIIY
+4. Enc(FPKWGDKZXTJCDI, LLSSAOLLSDBHEL) = PQSPQILJTHXWUS
+Fig. 6-6, K4 X-O PT'
+PT 1: X SW JS C YHW 
+X SW JS, see why
+PT 2: HELP T, A X FIND
+Help T (Penkovsky and Truth), Shadow Answer Find 
+PT 3: FD JS PO V L THIS Y
+Find, JS, Penkovsky verses Lie, this is why
+PT 4: POS P QIL J, TNX W US
+Position on Penkovsky? (a Lie) J, Thanks DCI Webster, us (Jim and Ed)???
+(normally W can mean Allen W. Dulles - but this interpretation doesnʼt make sense to 
+me)
+And the unused text from K4 CT? Reading up:
+HUKGZSKGB -> H, UK, G ZS KGB
+             D, UK, G IS KGB
+The CIA, UK (SIS) are Grey [and] KGB and also G is KGB i.e. G is used for short, KGB.
+ 
+The Drawings:
+Listing the letters we have found
+A HA  OR  NYEP  OR G X  -  O IIII  which looks a lot like the following:
+A HA OR NYEP OR G X - O IIII
+A DA OR NYET OR G X - O F OUR
+'Da' would be yes in Russian, and 'Nyet' would be no, thus giving:
+
+[[page 37]]
+Answer 'Da' (yes) or 'Nyet' (no) or G (grey) X   -  O (Penkovsky) [is] OUR Fault
+The Cast:
+H, HAR, K, KP, KM:
+Harold Adrian Russell "Kim" Philby or HAR Kim Philby
+ 
+Kim from KIMBALL O'HARA - Kipling's Kim
+B, GB, BG: 
+George Blake (born George Behar)
+B
+Anthony Blake
+J, JIM, JIM S, JS:
+Herbert James Sanborn Jr, or just Jim Sanborn
+ED:
+Ed Scheidt
+D:
+CIA
+S:
+SIS
+BH:
+Berlin Head, DCI Allen Welsh Dulles - or just a reference to a 
+DCI.
+G:
+KGB or in one case Great Britain, or Anatole Golitsyn
+O, P, T, PO, OP:
+Oleg V. Penkovsky
+CV or V:
+Cambridge Five spies
+V:
+Also it can mean Verses
+W:
+Also Allen Welsh Dulles
+
+[[page 38]]
+WW: DCI William Webster
+KM:
+KIM PHILBY
+L, C, Y, A and E
+In most places L is for LIE, C is for SEE, Y is for WHY, A is 
+for ANSWER and E is for EXPOSE - or if you wish “ENLIGHTEN”
+And also keep in mind:
+H JIM SANBORN, HAR “KIM” PHILBY, GEORGE “BEHAR” BLAKE and thus 
+confusion.
+
+[[page 39]]
+Interpretations:
+What follows are my best guesses to date - certainly not everything will be correct.  
+CQD! SOS!
+Plaintexts and others:
+HX PT:
+D SIS LLL VS O-H-AWK WYE ON BH ZERO ABUZZ X 
+FAN B CQD FIND BY ANORM BERLIN HD EXP BCK JIM S 
+T REF, GS MARK IS WD X ODD RIDDLE IO IS Q J
+D1 SIS2  LLL VS O-H-AWKward WYE3 ON BH ZERO4 ABUZZ5 X
+FAN of B CQD6 - FIND BY AbNORMal BERLIN HeaD, EXPect BaCK - Jim S. 
+T is REFerence7
+GS MARK IS WD8 X
+ODD RIDDLE - 10 IS?9 Jim
+1. D is short for the  CIA, or the CIA under DCI Allen Dulles.
+2. SIS: www.sis.gov.uk , The British Secret Intelligence Service, aka MI6
+3. LLL vs OHW: LLL, maybe Lies, Lies, Lies or, "Tri-L" for trial, or "try L", or LLL is a letter mask for LSD, 
+i.e. Lies, Lies, Lies, are covering up LSD. 
+If 'LLL' reads 'Trial' or 'Try L' then we may have:
+ENC(L, OHWYE) = V OHNY 
+Maybe that means to 'V' 'OHNY' so (remember 'Level Two'):
+ENC(V, OHNY) = RD I X
+Maybe that means that we should 'X Riddle One' i.e. encrypt K4-H with an X. 
+A. So the ﬁrst line could be read as CIA, SIS LLL VS O H WYE ON BH, ZERO ABUZZ X
+O a reference to Oleg Penkovsky,
+H  a reference to H.A.R. "Kim" Philby,
+WYE ON BH: (the reason) Why is known by the Berlin Head, Allen Dulles
+ZERO ABUZZ: Zero could stand for O or be misspelled, for Hero - both referring to Oleg Penkovsky.  
+Penkovsky is ABUZZ (sent a BUZZ or a telephone call).
+Allen Dulles the was head of the OSS in Berlin just after WWII.
+B. Or could be read as CIA, SIS LLL VS OHW (AWK W), YE ON BHZERO, A, BUGZ X
+CIA and the SIS's Lies, Lies, Lies Vs an Awkward WHO.
+ 
+
+[[page 40]]
+'Ye' as part of John 8:32 'And Ye Shall Know ...' which is carved into a wall on the OHB (Old 
+Headquarters Building) in Langley.  In which case YE and the letter A, maybe in SHALL, are bugs, i.e. 
+are wrong.  
+BHZero: OHB written backwards, Old Headquarters Building, Langley, CIA
+For the clue on why BUGZ see the misspelling for K4-H below.
+6. FAN B CDQ: A Fan of 'B', must mean fan of Anthony Blunt. CQD is an old form of SOS.  It could also 
+be meant to be read 'Seek D'.   
+7. T (for Truth) is our reference point referring to 'T IS YOUR POSITION' in Morse code next to the 
+loadstone. The compass is pointing SW - (maybe SW is short for the SIS and W (Allen W. Dulles))
+8. GS MARK IS WD X - on the USGS Marker that was in front of the NHB, New Headquarters Building.  
+On it is written the word (letter) 'X' (or a cross, depending on your point of view)
+9. Odd riddle: yes this is.  Ten is?
+ENC(V, ENDY) = AISX
+The "Answer IS Shadows" - our Riddle
+HX PT: M1
+SO EZ Q IOS RSA R DES
+SO Easy? aS RSA oR DES
+Note that if one does the following:
+ENC(AISX, SOEZQIOSRSARDES) = GQLWRTETBUGZLKF
+G Q L, WRTE T, BUG Z, L K F
+G ?  Lie, and Write T;  there is a Bug Z; L K F.
+Or maybe: George Q Lie, Write T, BUG Z (BUZZ should be written as BUGZ or Bugs), 
+Lie Kim False 
+HX PT: M2
+S W TO ZIE PRZ WEQK L IM YOUES Z O ROTS R NAOE RCED V HEP T SAY
+Maybe:
+SIS, Allen W Dulles T-O  Lie, Mr President weak lie.  I'm Yours, O Rots our name, 
+Received V Help Say the Truth.
+Or better:
+
+[[page 41]]
+SIS and Allen Dulles's Lied about Penkovsky, Mr President, is a weak lie.  I'm Yours, O 
+(what we did concerning Penkovsky) rots our name.  I received ﬁve documents and 
+help.  Please, the Truth say (Declassify the truth about Penkovsky).
+O is for Oleg: Oleg Vladimirovich Penkovsky, a soviet spy for the US and Great Britain, 
+and so is T. Oleg Penkovsky's SIS Code name was YOGA:
+Dec(X, YOGA) = TIAC or backwards CIA T.
+The CIA code name for him was HERO.
+H_a PT:
+TO IKE'S DCI Q H T Q KGB DOCS
+Ike's DCI: again Allen Dulles. 
+Q H T Q: 
+Who is right? H? or T?  
+H, Kim Philby? or T, Oleg Penkovsky?
+H_b PT:
+PQO X LYING WHY, KP Q HIS LM J
+PQO: OVP backwards: Oleg Vladimirovich Penkovsky.
+KP: Kim Philby
+LM: Lucid Memory
+O_a PT:
+BR ACT OF LOST LOG A RD Q 
+LRQ V ENCR L BURIED E VS SOV
+JIM S AGAIN IS LRQ Q 
+I RQ U, X, ENDY, H PIECES X 
+O ONE P
+BRother1 ACT OF LOST LOG Answer Read? Location Request:
+V ENCRypted L BURIED E VS SOViets 2 
+JIM S. AGAIN IS (this) a Location Request? I require you, a X,
+the ENDY, and H PIECES X O one P.3
+1. Brother meaning the British, or just 'British'.  The rest can read OF LOST LOG MAD?  if encrypted with 
+B, MAD deciphers to KIM.  Or maybe its LOGA is misspelled and it should read:
+BR ACT OF LOST YOGA RD: Brother Act of Lost YOGA ReaD (or Riddle)?  With YOGA being again a 
+reference to Penkovsky.
+
+[[page 42]]
+2. V ENCR L BURIED E: suggests that there are ﬁve buried encrypted documents that Jim hid; L being 
+for letters in this interpretation, and that they are documents that Expose (or Enlighten) our dealings 
+verses the Soviets regarding the Penkovsky affair.   
+3. 'ENDY' is the ENDYAHROHN piece, 'H' meaning our PT-H, and a hint that the mask for this part forms 
+an O and that O is the same as P (Oleg Penkovsky).  And note the last 3 letters 'n' 'e' 'P' are clues to 
+more letter masks.  (i.e. that there shoul be a N and an E and a P).
+O_b PT:
+I NEED BINS WEST B TX JS O,Y,H
+I NEED BINS WEST Berlin Text1, Jim S. O-Y-H2
+1. Binary or it might refer to JKF's "Ich bin Ein Berliner" speech.
+Or Maybe it should read: I NEED B IN S-WEST B TX  [I NEED B in South-WEST B TX].  Perhaps a 
+reference to a location (T is your position ?)  where something is buried, or a Key found there for 
+decryption.
+2. O-Y-H a clue to Oleg, YOGA, HERO - the letters of the masks of K4, along with the last 3 letter of PT-O 
+a, N E P
+O_c PT:
+J LAST H PT X KEY X
+Jim - LAST H Plaintext X KEY X
+The last part of PT-H is key; meaning the riddle of 'IO IS ?' which is  A IS X,  and that is 
+a Key.  Also it is a hint as what to do with the PT-H plaintext (encrypt it with an X).
+Y PT:
+V SPY T, JFK TNX BH, Y ANS P X
+A SENT V AG INFO, SLAIN WD IS X 
+HOW B
+[Cambridge] V [say] SPY (Penkovsky) [is] True.  JFK Thanks to BH (Berlin Head) [for] 
+WHY ANSwer P  X
+Answer (or maybe Angleton) SENT V AG (A. Golitsyn) INFO,  SLAIN WD IS  X HOW B
+Cambridge Five (Kim) say Penkovsky is a true double agent (not triple). JKF to Allen 
+Dulles - Thanks.  Why was the Answer an X (Penkovsky was executed).  The Answer: 
+(or Angleton) sent Kim (V) Anatole Golitsyn's information, and Kim was asked to send a 
+message back as to the result of the operation to save Penkovsky - an 'X' if Penkovsky 
+was executed.  How did it fail - because of B (Anthony Blunt).
+
+[[page 43]]
+N PT:
+D - SEE HOW Q 
+B LL ALT Y - AB VS D, CIA X 
+K III BHD T A X
+OP II, K TWO - AX L 
+D SEE HOW Q
+B LL ALTernative whY - Anthony Blunt VS Dulles and CIA X
+Kim III,  Berlin Head True Answer X
+Oleg Penkovsky II, K TWO - A is X is a Lie?
+The other answer why:  D - See How? Blunt Lie Lie
+Alternate why - Anthony Blunt Vs Dulles and the CIA 
+Kim Philby was a triple agent thought Allen Dulles (True A is X or just True Answer).
+Oleg Penkovsky was a double agent and so was Kim Philby - A is X is a Lie
+P PT:
+AG KEY J HUGE BUG JIM IS K Q
+S,W E GRU SEND Y O D, SIS KP X
+CIA POS IN S WD VS LM X
+F REAL LI-ENVY IN MSG E X A
+Anatole Golitsyn KEY J,
+HUGE BUG JIM IS Kim Q
+Sis, (Dick) White Expose GRU - SEND whY Oleg to D, SIS, KP X
+CIA POSition in South WorD VS LM X
+False REAL LI-ENVY IN MSG Expose X Answer
+Anatole Golitsyn is key J, the huge bug, Jim, is Kim?
+SIS and Dick White (the head of MI6)1 [will] Expose GRU - Send why Penkovsky [lied] 2 
+[to] the CIA, SIS and [give it to] Kim Philby.
+See the CIA's position under a south word verses (Kim's) lucid memories. 
+They (lucid memories) are false the real reason is ENVY in his (Philby's) Message to 
+Expose that X (the shadows - CIA etc) is a Lie.2
+1. Or maybe it could mean South West Expose, that the document that details this is located at a South 
+West Position amongst the Morse Code on the rocks. 
+2. A Clue to where both items are buried.  At the morse code on the rocks, the last T in INTERPRETATI.. 
+which is due south of the compass rose hold the CIA position, i.e.. the Truth (I think).   The L of Lucid 
+Memory is where the Lie is buried; possibly something from Kim Philby.
+
+[[page 44]]
+E PT:
+Q BY X U GAIN Q T
+TNX WW C E TNX T U JS
+? By X you gain ? T, 
+Thanks WW, see E 
+Thanks T and you, JS.
+? By shadows you gain truth (or Penkovsky)?
+Thanks DCI William Webster, see - enlightenment (exposure).
+Thanks to Penkovsky and to you, Jim Sanborn.
+E PT:
+Q BY X U GAIN Q T
+TNX WW C E TNX T U JS
+? By X you gain ? T, 
+Thanks WW, see E 
+Thanks T and you, JS.
+? By shadows you gain truth (or Penkovsky)?
+Thanks DCI William Webster, see - enlightenment (exposure).
+Thanks to Penkovsky and to you, Jim Sanborn.
+G_a PT:
+T R JOE, PR G, A SAW X 
+B AID V EGO KP, O FATE, BH WHOUSE, SND K AS X
+ODD MSG Y X Q
+V K C UK B - NO P
+T ouR JOE, PR G Answer SAW X
+B AID V EGO KP, O FATE, Berlin Head - White HOUSE.
+SeND K AS X 
+ODD MSG Y X Q
+V K See UK B - NO P
+True our Joe [Bulik], a Public Relations (PR) campaign against G (KGB) [as the] answer 
+saw.   Blake aids [Cambridge] Five Ego [and E GO] Kim Philby i.e. to expose, goes Kim 
+Philby [to Russia with O's fate in the balance].  Word of Penkovsky's fate to the DCI and 
+White House sends Kim - the message is an X.  An odd message, why X?
+The Cambridge Five and Kim see the UK and see that they don't know about Blunt?  So 
+no Penkovsky (the US will not get Penkovsky).
+
+[[page 45]]
+G_b PT:
+B V L D F, SAVE O S D VS O-NOS HOLD P MOUTH Q O C K JS X
+Blake, Five Lie D False.  SAVE O SIS, D Vs O-NOs HOLD P MOUTH? O See Kim JS X
+Blake and the Cambridge Five's Lie is found to be false. The plan to save Penkovsky by 
+the SIS and CIA verses Oleg's numbers (or oh-no's) hold Penkovsky's mouth (he 
+doesn't divulge who his SIS and CIA handlers are) ? Oleg meets with Kim Philby.
+X_a PT:
+S D Q BLOOD RQ D'S O, H Y R F, V GIT TO D, DRAW A X V K, IT'S 
+NOT P NOS Q P SHOT! :(
+SIS D ? BLOOD RQ D'S O, H whY aRe F, V GIT TO D, DRAW A X V Kim, IT'S NOT P 
+Numbers? P SHOT! :(
+SIS and CIA, Blood required [since] the CIA's "O why" (LSD) and "H why" (about Kim) 
+are false (or at fault), the [Cambridge] ﬁve (i.e. Kim) get to the CIA [a message], [they] 
+draw a 'X' - It's not Penkovsky's numbers - which mean he's been shot! :(
+Note: ten -> net ~ nyet or 'no' in Russian
+V -> ﬁve -> evif ~ expose ﬁve if ... (you don't give us Penkovsky) ?
+ 
+X_b PT:
+Q R KM G E PR TRAP CV IS F, JFK TO D CRY O Q D LIE Y
+? ouR Kim, KGB PR TRAP CV IS F, JFK TO D CRY O? D LIEd Y
+? Our Kim Philby and KGB trap CV is False.  JFK says to the CIA that he is upset about 
+Oleg (being executed). Why did the CIA lie?
+Note: CV = 105 = onezerofive -> (reversed) E V, IF O REZ E NO
+(expose V, if O is released, expose no)
+X_c PT:
+A X UK D C TEN SYM C P X J
+Answer X UK, CIA see TEN SYMbol see, Penkovsky X'ed (Executed), J
+The answer 'X'. The UK and the CIA see a Ten's symbol, see Penkovsky X Jim.
+
+[[page 46]]
+Note: C TEN SYM C = CXC = 190 = oneninezero -> (reversed) OR EZEN 
+IN E NO (or even in exposure, no)
+X-O PT:
+See section 6b.
+
+[[page 47]]
+Opinion:
+Bismillahi Al Haqq il Ala,
+(In the Name of God, The Truth, The Most High)
+"AND YE SHALL KNOW THE TRUTH AND
+THE TRUTH SHALL MAKE YOU FREE."
+Jesus the Son of Mary, the True Messiah, Alayhe Salam
+John VIII - XXXII,
+The Gospel
+ 
+The Biblical and Islamic Exegesis of "Truth" in this verse is that God is The Truth, 
+that He is the One True God, the only One deserving of worship.  
+ 
+However, I think Jim is using this verse to refer to a different truth.  Perhaps a 
+truth that has long been hidden.  In his version, who is Ye?  Is it Kim Philby or George 
+Blake?;  Or perhaps Allen Dulles, or the CIA. The BUGZ A, and YE would yield for 
+example:
+AND Allen Dulles, SIS, CIA, X LL KNOW THE TRUTH AND THE TRUTH SHALL MAKE 
+YOU FREE.
+In this case:
+YE = Allen Dulles 
+S = SIS, MI6
+H => D = CIA
+A = X
+YOU = YOGA, Oleg Penkovsky 
+Hopefully, the bugs will be ﬁxed and YE will mean all of us before too long.
+ 
+Kryptos is a memorial to Oleg Vladimirovich Penkovsky who's initials form four of 
+the ﬁrst ﬁve letter masks used upon Kryptos: HYOP
+HERO: CIA Codename
+YOGA: SIS Codename
+OLEG
+PENKOVSKY
+ 
+Oleg V. Penkovsky, who spied for us from the heart of the Soviet Union.  The 
+information given to us, the United States, by Penkovsky was of the most critical 
+importance.  It assisted our President, John F. Kennedy, during the Cuban Missile 
+Crisis in properly assessing the situation of Soviet nuclear forces in Cuba, and helped 
+bring the crisis to an advantageous end for the United States.  What Penkovsky did, at 
+
+[[page 48]]
+enormous risk to himself, quite possibly prevented a nuclear holocaust.  To that we are 
+all in his debt.  
+ 
+I believe another point Kryptos tries to convey is the "Elusiveness of Truth".  The 
+world of spies is one of shadows, mirrors, and deception.  There is no deciphering 
+algorithm which can measure the truth content of a message.  It serves as a warning 
+and lesson to those working in the CIA and the rest of our intelligence community:  Be 
+careful with interpreting information, and be diligent.  For how was Penkovsky found 
+out?  Penkovsky, as we can now guess, was implicated to the KGB by George Blake.   
+and executed.   Many of our spies were also lost to Kim Philby and his Cambridge Five. 
+All of whom were working within our and our allies intelligence communities.
+ 
+Intelligence, its gathering and analysis, is critical for our Nation.  When it is not 
+done well, or when it is not well heeded, all of us Americans suffer its consequences as 
+does suffer our great Name and Liberty.  But, when done right, and when acted upon 
+with prudence and wisdom the results are magniﬁcent; the results are like MAGIC.  For 
+how can we stop, or at least be prepared for the next war?  How can a cold war be 
+prevented from going hot?  How can a nuclear holocaust be prevented?  Why is there 
+hope of any of this: Indeed as the anagram of the masks asks, Why is there a hope?: 
+the Answer IS our ShadXws.  There is hope due to good and dangerous work our 
+spies, like Oleg V. Penkovsky, and the people of the CIA, and the Intelligence 
+Community of the United States of America do which protects our Nation and its 
+Liberty. And for that I thank them.
+  
+... And while this is undoubtably true, Kryptos seems to point to more whys.  
+One of which is "why T lied", or why Penkovsky lied.  Lied about what?  Kryptos seems 
+to imply that some injustice has been done concerning him - or perhaps, one guess 
+might be, that there is some piece of information which would absolve him of this lie 
+but for security reasons could not be revealed at the time, and still had not been at the 
+time of Kryptos' creation.  
+ 
+There are many possibilities, as we can guess, since Penkovsky was found out 
+by the KGB - but not immediately arrested it seems.   I am hesitant to say the following 
+since I have only done some basic reading, and I am certainly no expert in this ﬁeld i.e. 
+I do not know the subject matter well.
+ 
+So with speculation, one guess might be what is talked about towards the end of 
+an interview with one of his CIA case ofﬁcers, Joe Bulik, given to "The National Security 
+Archive" at The George Washington University: 
+http://www2.gwu.edu/~nsarchiv/coldwar/interviews/episode-21/bulik1.html
+It concerns an agreed upon message that was only to be sent if the Soviet Union was 
+starting a surprise nuclear attack on the United States and our allies:
+
+[[page 49]]
+Mr Bulik: "... We had to have a contingency plan that if he were unable to get to 
+anybody, and the biggest worry that the US military had was that if the Soviets planned 
+a pre-emptive attack upon the United States by way of missiles, to give us a certain 
+signal"
+And,
+Mr Bulik: "Well, when we working communications with him, besides the human 
+contacts and the radio contacts, we had to have special signals from him in the case 
+that he couldn't meet with anybody, but could, by way of telephone, give us the signal 
+and it wasn't until we learned later that after he was captured that a signal came through 
+that the Soviets were sending missiles over or planned to send missiles to the United 
+States to attack us."
+ 
+Penkovsky has been accused by some that he tried to bring an end to the world 
+- after trying to save it:
+http://www.thedailybeast.com/articles/2013/11/03/the-spy-who-saved-the-world-then-
+tried-to-destroy-it.html
+ 
+In other words, he lied to his interrogators and told them to send a message he 
+knew which could lead to the starting of nuclear war.  This might be the lie, and if this is 
+what is being referred to, maybe Kryptos knows something else. Something that tells a 
+different story.  Why was the message sent, when it was not true.  Why was Penkovsky 
+abuzz?  Since Penkovsky was in KGB hands when the telephone call was made, it 
+stands to reason that the call must have been made by the KGB.  It is presumed then 
+that KGB must have found out about the message during their interrogations of 
+Penkovsky.
+ 
+Kryptos suggests that the reason why Penkovsky lied was due to the KGB's use 
+of "enhanced interrogation techniques".! Namely, that the KGB had drugged him with 
+LSD.! Possibly, they used LSD as a truth serum, or setup a situation that lead 
+Penkovsky, while drugged in a hallucinated state, to truly believe that the Soviets were 
+about to launch an attack and reveal the coded actions.! It is clear that they used this 
+signal as a trap to capture one of our Agents handling Penkovsky, Dick Jacobs.
+ 
+But when the CIA found out what had happened, why did the CIA , at best, 
+leave it to be suggested that Penkovsky had signaled the US and Britain that the 
+Soviets where preparing to launch an attack and presumably did this to get the US to 
+launch an attack against the Soviets? 
+ 
+Kryptos continues with the plan to save Penkovsky.  Joe Bulik came up with a 
+PR plan to save Penkovsky (again the same interview):
+"Well, during the course of the trial, there's no question either at the beginning of the 
+trial or the middle of the trial or the end of the trial, there was no question in my mind 
+
+[[page 50]]
+that Oleg would be executed. And the ﬁrst thought in my mind was, can I save his life? 
+Can I save him from being executed? So I proposed a plan, a copy of which I still have 
+today, I brought it with me, I stole something from the CIA, although they have copies of 
+it. This is a plan that was to go to four KGB residencies in the world and four GRU 
+residencies in the world and the reason I did that was to have the KGB and the GRU 
+ofﬁcers throughout the world know that the Americans were trying to save Oleg 
+Penkovsky's life. And the idea was that we had enough information that was very 
+embarrassing, not only to the KGB, but to the Soviet government, tremendously 
+embarrassing to them, that if they executed him, that we would publish that information 
+in the western press..."
+So his plan was to embarrass the KGB, and Penkovsky wasn't telling all that he knew 
+either, as Mr. Bulik further explained:
+"He kept the identities of his old case ofﬁcers secret and when the Soviets published a 
+book on the Penkovsky case and the trial, they couldn't identify the four case ofﬁcers, 
+'cos he ﬁgured we might possibly save his life and I tried to save his life."
+ 
+However, another plan was hatched.   The White House and the CIA tried to 
+save Penkovsky, and it seems that they sent (or let go) Kim Philby to the Soviet Union.  
+I'm not so clear as to the details of their plan.   
+ 
+To back up a bit, George Blake was ﬁnally exposed and caught by information 
+provided by Michael Goleniewski, a Polish triple agent who defected to the CIA in 
+January of 1961.  In addition, other moles and Soviet agents were caught with the 
+information that was provided by him.  Later that year another KGB agent, Anatole 
+Golitsyn, defected to the CIA in December.  Golitsyn brought news of more moles 
+within the western intelligence community.  In speciﬁc about Britain, he told of the 
+KGB's "Ring of Five" spies, but it seems that he did not know who they all were, 
+although he is credited by many for providing the ﬁnal proof that Kim Philby was one of 
+them (however not by DCI Stansﬁeld Turner 2).  "Golitsyn's deﬁnition of the Ring of Five 
+was taken so literally not merely by Wright [the head of MI5 at the time] and the small 
+band of conspiracy theorists but by other Service investigators" 3.  If that was the case, 
+then they would have had four of them already: Maclean, Burgess, Philby, and 
+Cairncross (he had confessed to MI5 years before).  So they would have been looking 
+for another one.  All were rumored to have gone to Cambridge together, but if the 
+British had not considered this fact, or didn't know it at the time, they might have 
+included George Blake in the group, and thus considered that they had found all of 
+them. 
+ 
+Maybe the plan went something like the following, and note that one must place 
+themselves in the context of the early 1960's to understand what was happening.  
+I believe, that Kryptos says that the operation was run by Allen Dulles.  It seems, from 
+the 'N' pad of the 'Y' letter pad, that Allen Dulles thought that Kim Philby was a triple 
+agent, that he was really working for SIS and the CIA.  It has been said that James J. 
+Angleton, who was the head of the CIA's counterintelligence program, had also 
+
+[[page 51]]
+thought the same thing.  So they sent Kim Philby, with information from Golitsyn [again 
+from the 'Y' letter pad], to the Soviet Union to ﬁnd out about Penkovsky.  Was 
+Penkovsky really a triple agent as Golitsyn suggested?  Why was the message sent 
+that the Soviets were about to launch an attack?   If so could they bargain with Joe 
+Bulik's PR information for Penkovsky's life - threatening to expose the KGB and the 
+GRU?  They also might have told Kim Philby that Golitsyn had told them of the ﬁve 
+spies and outed him being one of them.
+ 
+Kim Philby in his book, "My Silent War", eludes with the following quote:
+"So, after seven years, I left Beirut and turned up in the Soviet Union.  Why?  Maybe I 
+was tipped off by a Fourth Man.  Maybe someone had blundered.  It is even possible 
+that I was just tired."
+Indeed, whatever the case someone did blunder - and it seems Philby knew that they 
+did not know all ﬁve of them, and he had seen that Penkovsky was not a triple agent.  
+So when Penkovsky was executed and when Kim decided to stay in Russia, as he had 
+been a double agent all along, it must have sent the CIA and SIS into panic mode.  
+Were they still penetrated, as Golitsyn suggested?  Soon after, the "Forth Man" was 
+found to be Anthony Blunt.   Blunt was given immunity by the British for telling all that 
+he knew, and his treason was covered up.  Blunt was still allowed to continue his 
+regular life, part of which was the "Surveyor of the Queen's Pictures" in addition to 
+being eventually becoming a professor of art history at the University of London, and 
+director of the Courtauld Institute of Art.   He was also related to the Queen Mother.
+ 
+Why was he given immunity, especially when a couple of years before, Blake 
+was given 42 years in prison?  I don't know but perhaps a new deal was struck up with 
+the Soviets, one that didn't include saving Penkovsky.  Perhaps it involved giving Blunt 
+immunity.  It is no exaggeration how embarrassing it would have been if the Soviet's 
+reviled SIS and the CIA messed up by sending Philby or that their agents had  
+penetrated from MI5 and MI6 all the way to the Royal Family.  (if this is correct, it might 
+be said that the Penkovsky affair was mostly covered up in part due to art - and now 
+revealed due to art).  A hint of this might be found in a paragraph from the book "Dead 
+Drop" by Jeremy Duns:
+"Two years later [1964?], when the Sunday Telegraph serialised Greville Wynne's [a 
+British intellegence worker caught by the Soviets from his work in the Penkovsky case] 
+account of his involvement in the operation, Wolfenden [a newspaper reporter who was 
+working for the KGB and MI5, playing both sides] wrote an article claiming that the 
+Soviets were considering releasing 'their own version of what Mr. Wynne said under 
+interrogation'.  The implication was that Mr. Wynne something to hide, and that if too 
+much propaganda hay was made of his account the KGB would reveal some 
+embarrassing secrets.  They never followed up on this threat, but Wolfenden's article 
+left the impression that crucial information was being omitted, and that the Russians had 
+a hold on British intelligence"
+
+[[page 52]]
+ 
+In Kryptos, there are hints that Kim's Lucid Memories say that the reason why 
+Penkovsky was not saved or cleared of lying was ENVY.  That might be the case, but it 
+also might be deceiving, for there is another interpretation of this word.
+E N V Y: Expose Not [Cambridge] V - [that is] whY.
+Also note:
+If one decrypts the X_b plaintext with the key ‘V’ one might ﬁnd an answer:
+Dec(V, Q R KM G E PR TRAP CV IS F, JFK TO D CRY O Q D LIE Y) = 
+X O TV L I AO BOEA GK ND J, QJT BC H GOS C X H UNI S
+which reversed reads:
+SIN U, H X C SO G, H C B T J Q, J D N K GAE - O, B, OAIL V TO X
+SIN G, H X C SO G, H C B T J Q, J D A K GAY - O, B, WAIL V TO X
+misspellings: U N E O, GAY, W
+and doing the same with the X_c plaintext gives:
+Dec(D C TEN SYM C P X J) = H, G, BI W D'S V GAY Q
+If we look at the end of this text we see “W, D’s V GAY ?”  
+The two together I believe, as unbelievable as it sounds, suggest that Allen Dulles and 
+the CIA threatened to expose Kim Philby and the Cambridge Five as a group of 
+homosexuals.  Or is it?
+ 
+GAY might be, as with ENVY a kind of code.  If reversed Y - A - G might mean: 
+whY - Anatole Golitsyn whY, or since he and Angleton were good friends: whY - 
+Angleton and Golitsyn.
+ 
+ 
+To understand why this might be, consider the following quote from "Of Moles 
+and Molehunters" found on the CIA's website:   
+"Important is a deﬁnitive chapter in the Schecter-Deriabin book ["The Spy Who Saved 
+the World "], that makes clear that, for the major period of his intelligence production, 
+Penkovsky was not under Soviet control, and his product was not and could not have 
+been deception. The controversy over whether he was bona ﬁde (fueled largely by 
+Angleton and Golitsyn) had arisen after Penkovsky's arrest on 22 October 1962 and 
+was only put to rest within the CIA's Directorate of Operations in 1979 by a long-
+overdue study of the case. That the Agency made important documentary material 
+available to Schecter and Deriabin so they could provide many of the details to the 
+
+[[page 53]]
+public via their excellent book was a laudable action by Dr. Robert Gates, who was DCI 
+at the time."
+Also, "The Art of Betrayal" by Gordon Corera, reports that while in London, Golitsyn 
+studied the notes from Penkovsky's case and "became convinced that Penkovsky was 
+a plant sent as part of a 'master plot' ", and later: "After Golitsyn had returned to 
+Washington, he began to pursue the idea that the Soviet Union was undertaking a 
+'master plan' of 'strategic deception' to fool the West and its intelligence agencies".
+In the wake of the Penkovsky affair it seems that the the CIA and SIS became paranoid 
+about moles within.  Golitsyn was able to convince Angleton that more moles existed 
+(Sasha for example).  This attitude of conspiracy and paranoia, lead both agencies, 
+and particularly the CIA, to conduct many mole hunts.  Many loyal intelligence ofﬁcers 
+became suspect and were wrongly accused, to the point where some, as is reported in 
+"Of Moles and Molehunters", within the CIA even wondered if Angleton himself was a 
+Soviet Spy.  This paranoia hurt the agency, and it wasn't until 1974 when Angleton was 
+removed from the CIA by DCI William Colby that the CIA began to recover.   
+ 
+So the lie that the CIA might have told about Penkovsky was that he was not a 
+genuine agent, but rather a triple agent secretly working for the Soviets as part their 
+"master plan".  If they had told Kim Philby this, he and might have (after he defected) 
+threatened to expose it as Philby had seen the truth: that Penkovsky was genuine.  
+Philby could have threatened to expose that the CIA had thought he was a triple too, if 
+the CIA and the SIS exposed any of Bulik's PR.  In this case, if Penkovsky was a triple, 
+why would they wish to correct any lie Penkovsky might have told.  Apparently, this was 
+the view of the CIA until, after Angleton, conducted a review in 1979 and determined 
+that Penkovsky was genuine.  Also, in 1979, Anthony Blunt was revealed to be the 
+"Fourth Man" by Margaret Thatcher.  
+ 
+Whatever the case, Kryptos says Kim sent a message back to the US and Great 
+Britain as to the fate of Penkovsky - an 'X' meaning that Penkovsky had been executed.  
+President JFK and the CIA were distraught about it, but Kryptos seems to say, they had 
+no one to blame but themselves, for it was their plan which had failed.  
+ 
+The actions of the CIA, our shadows, after using the intelligence which 
+Penkovsky gave, brought the world back from the brink of nuclear war.! Just a couple 
+of months later, the Soviet’s shadow’s, the KGB’s, "enhanced interrogation techniques" 
+with LSD put into play actions that could have brought on another close brush with 
+nuclear war again.! Kryptos, I believe, suggests that the CIA, after ﬁnding this out, 
+allowed a lie to dishonor the man who provided that intelligence.  Why?  Is it for the 
+reason that it considered Penkovsky, for a time, to be a triple agent, or is it because the 
+CIA decided along with the SIS to cover it up and not expose Anthony Blunt, or their 
+own blunder with Kim Philby by sending him with the information from Golitsyn. 
+ 
+Knowing this, Kryptos poses a question - A is X, or A is L; is the Answer the 
+Shadows or is this answer a lie?   On the one hand you have the CIA and its agent 
+
+[[page 54]]
+Penkovsky, who's actions helped prevented a nuclear war.  On the other hand, you had 
+the actions of the KGB which could have lead to the starting of a nuclear war.  You 
+have the the mole hunts of the CIA, wrongly accusing Penkovsky and many other loyal 
+ofﬁcers of being Soviet agents.  You have the cover up by the CIA and the SIS of Blunt.  
+Kryptos strongly suggests the former, and that ENVY, Kim Philby's answer, is a lie.  It 
+promotes GAY, that Golitsyn and the conspiracies he spread were the reasons why 
+Penkovsky's lie and the actions around it were not exposed. As it was part of the 
+information from these conspiracies: the incomplete information of the ﬁve, and the 
+idea that Penkovsky was a triple, which may have lead to Kim Philby to chosen for and 
+to be trusted with this information by Dulles and Angleton.  And due to this, it was his, 
+Golitsyn's, ideas about Penkovsky that doomed Penkovsky as well as the mistakes of 
+Angleton and Dulles concerning sending Philby to see if those ideas had any validity.
+ 
+Again, for A is X, I would like to give a another quote from Joe Bulik, one of 
+Penkovsky's CIA handlers, said in the interview about the information that the spy gave 
+and the CIA during the crisis:
+"... Bobby Kennedy said that the Cuban Missile Crisis, which Penkovsky helped us with, 
+was worth all of CIA from 1947 to 1961, all the money that was spent on CIA to that 
+time, it was worth, at least ﬁnancially that's what it was worth and of course it saved our 
+country. It kept cities from being blown up and it kept the war from going into a nuclear 
+disaster."
+I think that these examples, if I am right, show us some important lessons:
+ 
+That in things relating to nuclear weapons, while our shadows saved us once, 
+too many shadows surrounding them, concerning their numbers, locations and 
+capabilities, (but not how they are built) are a bad idea.  Perhaps having them, or at 
+least too many of them, is a bad idea.  Jim Sanborn, I believe, hints at this in his work 
+"Cyrillic projector", where the second encrypted document refers to Andrei Sakharov, a 
+Soviet nuclear physicist who in his later years worked towards ending nuclear 
+proliferation.
+ 
+That, while the business of the shadows will always, as in any war, involve some 
+actions that under normal circumstances are immoral, grossly immoral behavior when 
+committed by them can seriously threaten the very things that they serve to protect, 
+and threaten to undermine their own primary purpose.!  The CIA was endangered by 
+its own paranoia which led its counterintelligence unit to conduct mole hunts to the 
+point that they resembled witch hunts.  Here, it should be noted that William Webster 
+was brought in to help the Agency deal with credibility after the Iran Contra Affair.  It 
+seems that Kryptos's subtle message, that witch hunts (mole hunts) like that of the past 
+are harmful to the Agency, might have been meant as a reminder to those seeking to 
+ﬁnd wrong doing.
+ 
+The KGB's use of LSD and other immoral interrogation techniques, in this case 
+with Penkovsky, inadvertently could have lead to the start of actions that might have 
+
+[[page 55]]
+lead to the destruction of their country.  It also shows, at the same time, that the 
+primary functions of our shadows, that of intelligence gathering and interpretation, are 
+critical to the security of our country.  
+ 
+And so perhaps the best realization which can be made about the about 
+Shadows is that the answer is neither true nor lie, black nor white, but the that answer 
+is that Shadows are Grey.  
+ 
+This must be what is buried; documents clearing Penkovsky, hidden gratitude 
+for him from the CIA,  and explaining why it was necessary to do what they did.  Other 
+documents should be there too; ones that explain their views on Shadows and this 
+event by Kim Philby and George Blake, or maybe Anthony Blunt.  Also there might be 
+documents detailing the White House's plan utilizing Kim Philby to save Penkovsky.
+ 
+However, these document still remain hidden as best as I can tell. I'm not sure 
+that they are still classiﬁed since why would Jim know about them, unless he too got 
+security clearance.  It seems to me that DCI Webster knew, and helped.  I should think 
+that all the directors have known everything about Kryptos except the exact plaintext.  
+To that, they would still have a very good idea.  As "Of Moles and Molehunters" says, 
+Bob Gates, the director after Webster, helped release many documents concerning 
+Penkovsky.  
+ 
+I believe that Jim Sanborn and those who helped him are asking us to aid them 
+to clear Penkovsky.  To clear the shadows which surround him with those documents. 
+While shadows are undoubtably necessary, sometimes what is also necessary is that, 
+when they are no longer needed, they are Enlighten for the rest of us to see, for honor 
+to be given or restored, for fault to be better assigned and understood, and for all of us 
+to learn from.  As to the call for aid by Jim Sanborn; Jim - I am with you.  Whatever I 
+can do to help bring this to light, I will try to do, and I ask all of our Yahoo Group to help 
+Jim in this too.  To ﬁx the BUGZ of that great quote on the OHB wall:
+And Ye shall know the truth and 
+the truth shall set you, Penkovsky, free!
+Salam and Happy Discoveries and Decrypts,
+"
+"
+"
+"
+"
+"
+"
+"
+"
+"
+              Ibn Şifre
+
+[[page 56]]
+References List:
+1. "My Silent War; the Soviet Master Spy's Own Story",  Kim Philby, 1968
+2. "Spy Stories, Of Moles and Molehunters",  Cleveland C. Cram, Center for the Study of 
+Intelligence, October 1993, https://www.cia.gov/library/center-for-the-study-of-intelligence/kent-
+csi/vol38no5/html/v38i5a15p.htm
+3. "Defend the Realm: The Authorized History of MI5", Christopher Andrew,  Random House 
+LLC, 2009 pages 439-440
+4. "The Spy Who Saved the World: How a Soviet Colonel Changed the Course of the Cold War", 
+Jerrold L. Schecter and Peter S. Deriabin,  Brassey's UK, Limited, 1995
+5. "Fifteen DCIs' First 100 Days, Taking stock", CIA History Staff
+https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/
+studies/95unclass/100Days.html
+6. "The Art of Betrayal", Gordon Corera, Open Road Media, 2013
+7. "Dead Drop: TheTrue Story of Oleg Penkovsky and the Cold War's Most Dangerous 
+Operation", Jeremy Duns, Simon and Schuster, 2013
+8. "The Spy Who Saved The World—Then Tried To Destroy It", Jeremy Duns, The Daily Beast 
+http://www.thedailybeast.com/articles/2013/11/03/the-spy-who-saved-the-world-then-
+tried-to-destroy-it.html
+9. The National Security Archive" at The George Washington University, Interview with Joe 
+Bulik,  1998
+http://www2.gwu.edu/~nsarchiv/coldwar/interviews/episode-21/bulik1.html
+
+[[page 57]]
+Rocks - Spoiler Alert - try to ﬁgure it out on your own, maybe I missed something!
+Your still reading?!  - Oh I know, you want to know where the treasure is buried!   I don't 
+know - but I can guess.  Are you sure you don't want to try and ﬁnd out for yourself?   If 
+so then stop reading.
+Note: Please don't go try and dig anything up at Langley without permission from the 
+DCIA, the Director of the CIA.    At the very least, you would be disturbing their Art, and 
+just as the Louvre would not like someone doing anything to the "Mona Lisa", I can't 
+imagine that the CIA would take kindly such actions.  Besides, I would guess that the 
+DCIA knows exactly what is buried where and has the unencrypted originals.
+From K4 O-PT we can guess that there are 'V L ENCR BURIED': ﬁve letters, or 
+documents, encrypted and buried.  That would suggest ﬁve different locations.
+1: Lucid Memory - from Kim Philby
+The clues suggest to encrypt our K4 HX-PT with the letter 'X' 
+and look near the end, or back of a reference to Allen Dulles: 
+'FIND BY ANORM BERLIN HEAD EXP BCK'
+K4-HX deciphers to:
+D SIS LLL VS O-H-WYE ON BH ZERO ABUZZ X
+FAN B CQD, FIND BY ANORM BERLIN HD, EXP BCK - JIM S
+T REF, GS MARK IS WD X
+ODD RIDDLE IO IS Q J
+So if you encrypt HX with a X:
+B TGT III QT P-F-UKC PL SF WCZP OSNWW V
+DOL S AMB, DGLB SK OLPZJ SCZIGL FB, CVR SAX - HGJ
+T Y Z CD, ET JOZX GT UB V
+PBB ZGBBIC GP GT M H
+and look at the end (back) of the first reference to Allen 
+Dulles, BH for BERLIN HEAD,
+BHZER - OABUZZXFANBCQ encrypts to POSNWWVDOLSAM
+and that is POS NWW V DO L SA M
+
+[[page 58]]
+If you look at a Position North West by West from T (T is your 
+position and reference) to
+the other rock, you find V L, a group of five letters, the L and 
+M groups - i.e "LUCID - MEMORY"
+Take the AISX key word and encrypt LUCID:
+Enc(AISX, LUCID) = XDIGL
+or X (X marks the spot) DIG (dig here) L (at the L)
+Two: The CIA's interpretation
+From the P PT:
+CIA POSition IN South WorD Vs Lucid Memory
+If one goes due south on the compass rose it points to the 
+letter T of
+DIGETAL INTERPRETATU
+Note: Digital Interpretation does not mean binary.  Digital, 
+from digits, from latin digitus.  A 'digit' is a written symbol 
+for any of the numbers 0 to 9. So digital is something relating 
+to ten. 
+Digital -> of ten -> of Shadows 
+Digital Interpretation -> Shadow's Interpretation.
+One can use the AISX key word and get:
+Encode(V, AISX) = PEYQ or better: Q YE P (reversed)
+Use the QYEP key:
+Enc(QYEP, DIGETAL EEE INTERPRETATU) = TLXHXCY HOG KVXGFSUGIDXW
+Notice the last 5 letters reversed are: W X DIG
+with the T decoding to X (again X marks the spot):
+However some might, like Kim, might disagree:
+Dec(DICUL, LXHXCY HOG KVXGFSUGIDXW) = ACOPMM ZVM CFCTLIEXSIAG
+or at the end:
+T LIE XSIA G
+Three: documents of George Blake (or KGB) 
+DIG E T
+
+[[page 59]]
+Note that:
+Dec(T, DIGETAL...) = SECAKPG ... SEC A KP, G
+And the hint in the O_b PT
+BINS -> B IN S -> B IN SW
+Which would give us:
+T IS YOUR POSITION E
+Dec(T, T IS YOUR POSITION E) = KEYXRLWZRYEKERIA
+KEY X R L, W TRY
+From steganography of letter O: P OPEN SAY T, S DIG X READ E WR
+Enc(XDIG, T IS YOUR POSITION E) = YZUIPOJJPJTLGIBX
+Note the last 7 letters reversed:
+X BIG L T J
+Four: The Shadow Forces
+Use the key 'LSD O' but with the L of the 'LSD O' replaced with 
+an O, and reversed to get 'O DSO' (one could also play with the 
+padding of the ciphertext and change the key to DSOO for D, S, 
+and OO, the Shadow Forces: CIA, SIS and double O's)
+Enc(ODSO, SHADOW EE FORCES EE) = EXGIDA LJ LIAHJJ LJ
+or when the plaintext is reversed, at the end:
+J L A DIG X E
+This X corresponds to the H of SHADOW FORCES
+Five: Virtually Invisible
+Dec(TEHB, EE VIRTUALLY E EEEEEE INVISIBLE) = AK BAWNAZGSH P 
+AKWPAK REMTMATSW
+Note the last part:
+REM T M AT SW; remember T L at SW, so that means use XBIG (and 
+offset by 2 i.e. remove the first two EE's).
+Enc(XBIG, VIRTUALLY E EEEEEE INVISIBLE) = 
+
+[[page 60]]
+QWJLNISTK N KXCNKX GREYTWWTC
+Note the last part:
+X GREY T WW T C
+Shadows are X GREY T WW T C
+This might be a message from DCI William Webster about Kryptos.
+Now take this plaintext, put back in two letters as padding, and 
+use the key GREY but with the last Y changed to an E for expose:
+Enc(GREE, NK X GREYTWWTC) = SR C XHFGIDXIQ 
+or reversed Q I X DIG F HX C
+The X corresponds to the letter B of INVISIBLE
+Summing up:
+Buried at Letters:
+L of LUCID MEMORY
+T of DIGETAL INTERPRETATU
+E of T IS YOUR POSITION E
+H of SHADOW FORCES
+B of VIRTUALLY ...E INVISIBLE
+E of VIRTUALLY ...E INVISIBLE
+or if we encrypt the last part of the P (like the O_c PT 
+suggests):
+Enc(X, ENVY IN MSG JS) = CLQK GL JTE HT 
+or at the end L J TEHT.
+Now the last T in TEHT may be changed to an B and then add an E 
+for expose. So that we get the letters L TEHB E.
+Lie Shadows - Enlighten (or Expose)

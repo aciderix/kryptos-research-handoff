@@ -1,0 +1,53 @@
+[[page 1]]
+#1 - Yet Another Revelation, T is your 
+POSITION
+There is a riddle, deep and grand,
+still no one holds it in their hand.
+Just fifty-eight more days are left,
+before the secret stands bereft.
+They say the clues are in plain sight,
+the hidden truth lies in the light.
+But NSA misled with schemes,
+should whole matrix fuel our dreams?
+Illusion lies — where L plus C,
+becomes the letter K, the Key.
+So shift from T, top row obey,
+and “YAR” will shimmer into play.
+#1.1 – What matrix?
+•
+is PALIMPSEST matrix really the matrix used? 
+•
+This is the matrix shown in NSA docs, used for decryption:
+ 
+•
+what we think is that Monnpass used full matrix for encryption (not the one above)
+•
+Why?
+•
+In word ILLUSION he encrypted first L into K
+
+[[page 2]]
+•
+That was done because he made a mistake writing PALIMPSEST key in matrixes he 
+shared with us. He wrote PALIMPCEST
+•
+this is the explanation how did he encrypt L using C (that resulted in K)
+ 
+•
+if he used PALIMPSEST matrix he wouldn`t be able to encrypt using C row – there is no 
+“C” row in PALIMPSEST matrix 
+•
+Hypothesis: He use full KRYPTOS matrix (instead of only selected rows)
+#1.2 – full matrix + T is your position + YAR
+•
+lets position simple alphabet at the top starting with T (since its your position) 
+•
+and lets reverse OBK (first 3 letters of K4)
+•
+We use the same matrix shown in previous point (only first rows are shown below):
+•
+reverse of OBK results in: YAR
+•
+Hypothesis: are YAR letters information how to set up the matrix for K4?
+Rush along, the bold ones score,
+The next part knocks upon the DOOR. 

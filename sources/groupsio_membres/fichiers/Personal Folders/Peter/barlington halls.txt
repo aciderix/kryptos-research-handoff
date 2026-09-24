@@ -1,0 +1,24 @@
+38 65 77 84 42
+
+
+Above the numbers that would have been visible with the original XLAYERTWO
+
+Do note the number 42
+
+Basically it tell you the row length of K3.
+
+
+42
+
+XLAYERTWO
+
+INBYROWS
+
+
+
+Yet another method to solve K3
+
+14:54 9 OCT 2016
+
+
+TWO

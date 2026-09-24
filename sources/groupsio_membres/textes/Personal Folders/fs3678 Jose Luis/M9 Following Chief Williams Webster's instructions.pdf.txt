@@ -1,0 +1,108 @@
+[[page 1]]
+M9  Following Chief Williams Webster's instructions 
+ 
+Who knows  the exact location? 
+Only WW. This was his last message x 
+38 degrees  57 minutes   6.5 seconds North 
+77 degrees    8 minutes    44 seconds West x 
+ 
+It is very reasonable to think that the operative in the field, linked to Kryptos, pay close 
+attention and follow as exactly as possible, the instructions that his Chief William Webster 
+gives him in his last message. He's the only one that knows. To solve K4 and K5 we must do the 
+same. 
+ 
+According to what we have seen in the previous message M8, the movements to be made in 
+the Original Matrix or Plaintext Matrix, are linked to the numbers of the last message from 
+WW. In message M6 we saw how the DO IT instruction led us to solve two anagrams: ZENITH 
+in North Kryptos, rows 3 to 8 and DEBRIS in South Kryptos, also rows 3 to 8, according to the 
+repeated row numbering chosen by Jim in his charts. At that time I did not relate rows 3 to 8 
+with the 38 degrees with which the last message starts. But when we found in the M8 message 
+that the fold that we had to make for TEST to appear, was 6 and a half columns from the right, 
+and for POSTTEST and DEAN, it was 8 columns from the left, there is no doubt that the 
+numbers of the last message, refer to rows and columns in the Original Matrix. It is on the 
+other hand what one of the Morse K0 messages suggests: DIGETAL INTERPRET… Digital 
+interpretation, as digits, not as tens and units. 
+ 
+We have already found how to use the digits 3 and 8, 6.5 and 8 in the previous messages. This 
+time we will see that 77 and 44 are linked to the columns of the Original Matrix and to the 
+weird duo DELTA - HOTEL that we saw in the M7 message. 
+ 
+The Original Matrix, less than 97 characters from K4, is as follows: 
+ 
+
+[[page 2]]
+ 
+ 
+It took a long time to find it, but once found there is no doubt what the instructions of WW in 
+relation to the digits 4, 4, 7 and 7. Diagonally, from SW to NE, starting at column 3 row 6 in 
+North Kryptos, DELTA appears misspelled. And repeating exactly the same pattern of location 
+and errors, in South Kryptos appears HOTEL misspelled. The two wrong characters for each 
+word are in columns 4 and 7. The four wrong characters then correspond to the digits 4, 4, 7 
+and 7 interpreted as columns and must be corrected. 
+ 
+TEST 
+ 
+1  Columns 3 to 7, where DELTA and HOTEL appear to be corrected, are precisely the columns 
+where the DYAHR cluster is located. Taking into account that Y, A and R are raised with respect 
+to D (DELTA) and H (HOTEL), the idea of a RAY (YAR written backwards) between D and H 
+arose. In message M7 we explored the search for some antipodes (an imaginary RAY that 
+passes through the center of the earth reaching diametrically opposite parts of the earth), with 
+HOTEL in the North and DELTA in the South. Which allowed us to find the HONOLULU and 
+Okavango DELTA antipodes. This confirmed that the DYAHR cluster was related to DELTA and 
+HOTEL. Now again we find in the same columns 3 to 7 of the DYAHR cluster, the weird duo 
+DELTA - HOTEL, misspelled for now. 
+ 
+2  The 3 raised characters YAR of the DYAHR cluster are in columns 4, 5 and 7. The possibility 
+has been handled that this indicated a vertical shifting of any of the 3 columns. Now we have 
+the test that columns 4 and 7 must shift vertically in order to locate an E and an O, separated 
+by 14 positions in column 4 (4 and 4). And locate an A and an L, separated by 14 positions in 
+column 7 (7 and 7). But in the Original Matrix there are no characters that meet this condition, 
+
+[[page 3]]
+in K1 - K3 plaintext. So some of those letters will be come from the K4 plaintext. It is also 
+logical to think that the movements should be made in the order of the last message from 
+WW. For example, the last movement would be the shifting of column 4, after having 
+performed all the movements between rows and folds that we have analyzed. Others will be 
+columns 4 and 7 to shift, not the ones we now have in view in the Original Matrix. 
+Jim commented that it was possible to solve K4 without having solved K1 - K3. But K5 cannot 
+be solved without K4. This confirms that if we consider these movements of rows, columns 
+and folds of the Original Matrix, like the puzzle announced by Jim as K5, to make the vertical 
+shifts of columns 4 and 7, we will need at least one or two characters of the K4 plaintext. We 
+can also do reverse engineering. Assume that we have already solved K4, try to solve K5, and 
+according to what we find and need, get the clue of which could be the characters of the K4 
+plaintext necessary in K5. But let's not get so far ahead. 
+ 
+3  In an interview Jim said: “But as a visual artist, I like to rely on systems that include visual as 
+well as digital material that can be deciphered by machines. It´s also well-known that I did use 
+some matrix codes Ed gave me, and I have also designed visual systems for encoding, which 
+are much harder for cryptographers to crack because they’re individualistic. I have left 
+instructions in the earlier text that refer to later text”. On the one hand, Ed has confirmed that 
+K4 is an algorithmic code: “In analog systems, as coded in Kryptos, the key is the algorithm”. 
+And on the other hand, Jim clarifies that having solved K1-K3 helps us solve K4 and K5 because 
+he has left instructions. All of that is exactly what we are finding here. The last message from 
+WW, these are the instructions to put together the visual puzzle of K5, which is one of the 
+visual systems that Jim likes as a visual artist, and one of the systems he has designed. Starting 
+from the Original Matrix or Plaintext Matrix and following WW's instructions, we must move 
+parts of the matrix, as if it were a puzzle of 870 pieces. If we make the right moves, we will find 
+the doorways and clues that will help us solve K4 and K5. And as a final result, we will obtain 
+the representation, by characters, of the image chosen by Jim for K5. The most relevant 
+doorways and clues we have found so far are: LINE BLUE TEST, BEoRLIN, SUPERMEN, MERGE, 
+NASA SEAL, THE GOD MAID, DO IT, DEBRIS, ZENITH, THE PENNY RED UK, SET HANDS, TEST, 
+POSTTEST, DEAN, NEDLES. Almost all the words in correct English (except BEoRLIN and 
+NEDLES). Some in the Original Matrix and others in the Matrix System. This cannot be just 
+random, the probability of all this happening by chance is negligible. This is intentional and 
+confirms that we are on the right trail. Some of these doorways and clues have already led us 
+to others. For example MERGE took us to THE GOD MAID, DO IT, DEBRIS and ZENITH. DEBRIS 
+took us to THE PENNY RED UK and SET HANDS. ZENITH took us to NEDLES. It is the doorways 
+trails path that Jim announced: “There are a lot of doors to go through to get the meaning of 
+the code… every time you enter… one doorway you might… in the distance see another door. 
+You go through that doorway and then you go through another doorway, and it unfolds as it’s 
+deciphered”. 
+ 
+In the next message, ending this series of ten messages related to discoveries that will help us 
+solve K4 and K5, we will see how the elusive digits 5 and 7 can be interpreted, to perhaps solve 
+the error in NEDLES and rotate a part of the matrix that it contains it, by way of setting the 
+hands on a needle clock or changing the course in a compass. 
+ 
+Jose Luis 
+ 

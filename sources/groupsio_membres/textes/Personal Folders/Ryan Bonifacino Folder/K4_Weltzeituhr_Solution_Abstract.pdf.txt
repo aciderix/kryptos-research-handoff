@@ -1,0 +1,59 @@
+[[page 1]]
+ 
+The Weltzeituhr Error Key: A Mechanically Reproducible Decryption of Kryptos K4 
+ 
+Ryan Bonifacino 
+Visiting Fellow 
+Massachusetts Institute of Technology 
+Sloan School of Management  
+ryan.bonifacino@sloan.mit.edu  
+ 
+November 18, 2025 
+ 
+Herbert James Sanborn Jr  
+Piney Point, Maryland  
+ 
+ 
+Dear Mr. Sanborn,  
+Please find abstract for my work below. 
+Abstract 
+Kryptos K4 - the final unsolved segment of Jim Sanborn’s 1990 sculpture at CIA Headquarters - 
+has resisted cryptanalytic solution for more than three decades. In this work, I propose a fully 
+mechanical, reproducible decryption method rooted in the physical construction and documented 
+repair history of the Berlin Weltzeituhr (World Time Clock). The method requires no guessed 
+plaintext and relies solely on external, verifiable data. 
+The approach uses a running-key Vigenère variant, where the key stream is generated from a 
+single deterministic rule: 
+Take the initial letter of every city on the 1969 Weltzeituhr that was renamed, removed, or 
+zone-shifted by its 1997 restoration, in clockwise order, beginning at the Hour 11 
+(ENE/Russia) sector. 
+The start point (Hour 11) is derived from the ciphertext header OBKR, using the letter K (11th 
+letter) as an index into the clock’s 24-hour geographic ring. 
+Applying this “Weltzeituhr Error Key” to the third row of the K4 ciphertext via the standard 
+Vigenère operation (Cipher - Key mod 26) yields: 
+LINCLOCK GIVESTHE FINAL ANSWER 
+This decrypts cleanly, without heuristics or ambiguities, and aligns with all known constraints 
+and publicly released hints, including Sanborn’s 2014 “BERLINCLOCK” clue and the 
+confirmed EASTNORTHEAST crib. 
+
+[[page 2]]
+The first two rows of K4 decrypt using simpler Caesar shifts determined by the remaining letters 
+of OBKR, producing instructions that directly reference physical features of the Weltzeituhr: 
+• 
+“FACE THE DIAL TO THE EAST NORTH EAST” 
+(wind-rose alignment on the clock’s base plate) 
+• 
+“LOOK TO THE SATURN RING AND REMEMBER” 
+(the Saturn planetary indicator described in archival metadata) 
+Together, the three deciphered rows form a coherent operational sequence: 
+FACE THE DIAL TO THE EAST NORTH EAST. 
+LOOK TO THE SATURN RING AND REMEMBER: 
+BERLIN CLOCK GIVES THE FINAL ANSWER. 
+This work presents a reproducible, non-arbitrary, and physically grounded mechanism that 
+aligns with all known clues and yields a well-formed plaintext. It is offered here for independent 
+verification. 
+End of Abstract. 
+ 
+Yours sincerely, 
+Ryan Bonifacino 
+ 

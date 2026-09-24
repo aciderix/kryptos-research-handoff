@@ -1,0 +1,152 @@
+---------
+
+Rob,
+
+For what it's worth, the interesting path that I have described can be found
+without
+seeking out any hidden clues, i.e. only using the concepts of:
+
+1) "Palimpsest"
+- Some "what ifs" are required to utilize this clue.
+2) K1 Text (as I have already described)
+3) K2 & K3 Text
+4) "Abscissa"
+5) One other "what if" operation that I haven't attributed any clues to yet.
+
+But not necessarily in that order.
+
+---------
+
+As I indicated in the original post of this thread, to solve K4
+you need to concentrate your efforts on finding the "original matrix", as
+Scheidt has plainly said. This process involves
+the locations of the misspelled characters, clues in the plain
+text, and clues in the keywords "Palimpsest" and "Abscissa". While it is true
+that K4 may require some modification, if you don't have this "original matrix"
+in front of you then there is no way to
+know when/whether your changes are correct.
+
+---------
+
+Hint 1: you are right about the ramifications of that "pesky" character
+omission near the
+end of K2. You need to insert the x into the plain text of K2 to get where you
+need to go.
+
+Hint 2: the keyword "Palimpsest" has much greater implication than this
+reference to K3.
+
+---------
+
+You can forget about the cypher text from K1/2/3. Only the plain
+text is used from here on.
+
+---------
+
+I have found the "original matrix" referred to by Sanborn and
+Scheidt. This is no idle boast.
+
+The transformations required to get to the original matrix involve:
+
+(1) The locations of the misspelled letters,
+(2) The keywords "Palimpsest" and "Abscissa", and
+(3) Clues from the K1-K3 plain text. (You literally must interpret
+all of it.)
+
+In addition, some of the morse code introduced by Sanborn at various
+locations around the complex corroborate my findings. That is, they
+are not needed as clues, but they resonate well after the fact. (This
+is probably why it was difficult for Sanborn to give a proper answer
+to the question of whether these elements were important. Answering
+either "yes" or "no" could be misleading.) In particular, I
+understand the meanings of:
+
+(1) DIGETALEEEINTERPRETATU,
+(2) TISYOURPOSITIONE, and
+(3) The Compass Rose with Lodestone
+
+I am not yet 100% sure what to make of LUCIDEEEMEMORYE, but it may be
+a reference to Morse Encryption, with the word "LUCID" as the keyword.
+
+After obtaining this original matrix, K4 is revealed as coordinate
+pairs into the matrix (i.e. reminiscent of a book cypher) that have
+had an element deleted and then undergone columnar transposition. The
+task before me is to properly reverse the columnar transposition,
+properly use the resulting pairs to index into the matrix, and then
+(perhaps) perform one more step of deciphering (e.g. Morse encryption).
+
+While it is true that I do not yet have the final solution, the
+process that I have discovered leads to a series of at least 6
+wonderful observations that cannot all be coincidences. (Sanborn and
+Scheidt are true geniuses to have created this remarkable puzzle.) If
+you are working on any type of deciphering method that does NOT
+involve first forming this matrix, I can ASSURE you that your efforts
+will be in vain. The very nature of K4, i.e. a set of coordinate
+pairs into a specific large array of characters, gave Sanborn and
+Scheidt incredible flexibility in choice. For instance, when they
+needed to encode the character "T", they had numerous different
+coordinate pairs to choose from. This allowed them to set up all
+kinds of alluring frequencies and/or tantalizing oddities in K4 that
+lead to nowhere. Many of you have been going down these paths and
+ignoring the other clues that were before you (misspelled letters,
+keywords, and mysterious text).
+
+I am working on publishing my findings, but it is not ready yet. But
+I can tell you that the following vector is important:
+
+B H L X O F N V P Q R T E M Z S K J W
+
+Regards and Happy Sleuthing,
+Randy Thompson
+
+---------
+
+Chuck,
+
+Did you ever read the "Lord of the Rings"? At one point,
+the "Fellowship of the Ring" is standing before a magical
+doorway to the Mines of Moria, and their leader, Gandalf
+the Wizard, is scratching his head trying to figure out
+what he is supposed to say in answer to the writing "Speak,
+Friend, and Enter", which is inscribed upon the doorway.
+(If you say the right thing, then the door will open.)
+It turns out that the inscription is nothing but a very
+literal riddle. In fact, it is so plainly literal that
+it goes right over Gandalf's head (or rather under it).
+The proper interpretation of that riddle is that you are
+supposed to speak the word "Friend" (in Elvish, actually...
+or some other middle-Earth tongue) and then
+"enter".
+
+The same thing is going on here, but K1 is the door and
+you are Gandalf. You are overthinking the riddle.
+The "nuance of iqlusion" is simply the nuance (or, by
+definition, the subtle difference) of the word "iqlusion".
+It is a direct reference to the letter "Q" that does not
+belong in the word. A reach, at first, I know, but hear me out...
+
+Do you see another Q anywhere in the decoded plain text that
+stands out? Of course you do. It is hanging out by itself
+right there at the end of K3. What's that for? A coincidence?
+Just an extra "Q" to make decoding harder? Well, that last
+one is probably true, but it is there for a higher calling.
+
+Note that K3 is all about barely seeing things through the
+mist and darkness. Sounds like "subtle shading" to me.
+And K2 begins with the phrase "It was totally invisible."
+Sounds like the "absence of light" to me.
+
+It turns out that the plain text of K1 is a clue that you
+need to swap the order of K2 and K3 as one of the initial
+steps to creating the "original matrix". Note that if you
+perform this swap, you will have the Q (which is the
+"nuance" in the word ""iqlusion") nestled snugly right
+between "subtle shading" and the "absence of light".
+Just like K1 says to do.
+
+Randy
+
+---------
+
+---------
+

@@ -1,0 +1,55 @@
+[[page 1]]
+11/5/23, 12:09
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/rkbT5EqV3
+1/2
+In passage 2, we located the boundaries of the room as set out in passage 1. These are: SS
+and AL. It is my opinion that within these boundaries, everything we require will fit. Here, I
+will go through the process of packing the room with all that is required to move forward
+possibly into the ciphertext known as K4.
+The length of the relevant section is 141 characters. By the time this is finished, you will be
+left with only 97 characters.
+SS AGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORW
+AYWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHI
+NTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+The first thing we need to do is clear the passage debris, so lets get rid of that. As SS and
+AL define the boundaries of the room we leave these in place.
+SS THATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWASRE
+MOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTH
+EUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+The next instruction tells us OF THE DOORWAY WAS REMOVED so lets get rid of that:
+SS THATENCUMBEREDTHELOWERPART
+WITHTREMBLINGHANDSIMADEATINYBREACHIN
+THEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER
+OK, lets do that: Take “A TINY BREACH” and move it, overwriting “THATENCUMBE”
+SS ATINYBREACHREDTHELOWERPART
+WITHTREMBLINGHANDSIMADEINTHEUPPERLEF
+THANDCORNERANDTHENWIDENINGTHEHOLE AL
+Next step:
+THEN WIDENING THE HOLE A LITTLE I INSERTED THE CANDLE AND PEERED IN
+This one confused me until I realised it meant everything after INSERTED so lets do that.
+SS ATINYBREACHREDTHELOWERPARTWITH
+TREMBLINGHANDSIMADEINTHEUPPERLEF
+THANDCORNERTHECANDLEANDPEEREDIN AL
+
+[[page 2]]
+11/5/23, 12:09
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/rkbT5EqV3
+2/2
+Reading this passage, you will notice that it states “A TINY BREACH RED THE LOWER
+PART” and THE CANDLE AND PEERED IN should be made in the upper left hand corner.
+So, lets do that:
+SS THECANDLEANDPEEREDINREDTHELOWERPARTWITH
+TREMBLINGHANDSIMADEINTHEUPPERLEF
+THANDCORNERATINYBREACH AL
+This, if I’m not mistaken, is a perpetual motion machine. It is constantly reversing itself
+around TREMBLING HANDS.
+THE HOT AIR ESCAPING FROM THE CHAMBER
+I believe we do not need this section, it literally escapes.
+CAUSED THE FLAME TO FLICKER
+I have not yet understood this phrase
+BUT PRESENTLY DETAILS OF THEROOM WITHIN EMERGED FROM THE MIST
+Similarly, this still eludes me but it may involve subtracting the words THE MIST from the
+result, potentially forming a new ciphertext.

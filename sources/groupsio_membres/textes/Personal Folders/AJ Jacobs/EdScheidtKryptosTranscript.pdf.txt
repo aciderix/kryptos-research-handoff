@@ -1,0 +1,665 @@
+[[page 1]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 1 of 17 
+ 
+ 
+ 
+ 
+Hello everybody.  
+Thank you again for your advice about my interview with Ed Scheidt.  
+I talked to him last week. My impressions are  
+1) He is a very nice person! Very gracious.  
+2) His anwers did not seem overly helpful. They were kind of dense 
+and discursive. Part of the problem is that I’m not enough of an 
+expert in cryptography. And part of the problem is that he often 
+speaks in abstract and vague language. Specifics were few and far 
+between.  
+As for the big question about whether he’d solve K4, he said this:  
+He will not try to solve K4 because he likes not knowing the answer 
+when he is talking to journalists or solvers. It means he doesn’t have 
+to lie. He said that his experience in the CIA has taught him ignorance 
+is sometimes the best course.  
+I am including the transcript. Again, I don’t think there’s a huge 
+amount to be gleaned from it. But maybe those who are sharper than 
+me can find a sliver.   
+If folks have further questions, I am happy to try to get him back on 
+the phone. He seemed open to talking again. Just let me know.  
+Thanks!  
+ 
+ 
+
+[[page 2]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 2 of 17 
+ 
+ 
+ 
+AJ: 
+Would you mind taking it from the start, how you got asked to be 
+involved? 
+Ed Scheidt: 
+Well as you may have read, I was an employee at one time of the CIA, 
+and I was also reaching my retirement age and others knew that, so I 
+was asked by the senior people if it was possible to create something 
+that would be more on the commercial side just for defining things, 
+because I worked in the world where you had terminology assets and 
+all this other stuff. Of course the government is not interested in 
+giving out how they talk to different people and so forth. So I said 
+sure why not, and then the next step was for me an interesting step, 
+and the step was, what would you envision, how hard ... because 
+cryptography can come in different gradations of difficulty. And so I 
+said how hard? And they said well don't make it too hard, T-O-O. And 
+I said, well that's a subjective thing but that's all right too. So I left and 
+came back and said well I have some suggestions and see what you 
+think. In my travels and experiences and so forth I've come across 
+different languages and things like this, if you are going to go a 
+commercial type of thing and you want to give some opportunity for 
+people to ... we'll use the term break the system or be able to hack 
+inside into it, the choice of a language becomes important. 
+Ed Scheidt: 
+And so I started with a language that was really only used in the 
+world for about 100 years, that was defined a dead language today- 
+AJ: 
+Would you mind backing up for one second, you said a choice of a 
+language... 
+Ed Scheidt: 
+
+[[page 3]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 3 of 17 
+ 
+Yeah the choice was do I ... well I presented some choices and my 
+choice was a language that was only used in the world for maybe 100 
+years or so. Then it was the community that used the language 
+disappeared. I don't know the rest of the story but ... so that was one, 
+and then I suggested well, I enjoy opportunities to teach 
+cryptography and stuff like that, perhaps I could portray a educational 
+aspect of it, and use some traditional cryptography that dates back to 
+say 1700s I suppose, and up to modern usage. But this is a paper and 
+pencil design, that what you see today which is the digital design, so 
+the digital designs have inherent fundamentals, but don't exhibit the 
+fundamentals like I was going to do and such. So I said that, and then 
+I would suggest we used the English language as a reference. Now 
+why becomes important in the discussion of, if you're going to give 
+someone the opportunity to do analysis of your work, you wind up 
+with what you may remember or hearing a reason that the Navajos 
+were used during World War II is the United States didn't believe 
+anyone had cataloged that particular language. 
+Ed Scheidt: 
+And if you don't catalog it that means before you get to the crypto 
+part which is the math part, you still have to deal with the language. 
+That was ... what was it written in? And to break Kryptos, the various 
+aspects that had taken place, they used that fundamental principle. 
+Now if we have more ease in the English language than any other 
+letter. We have few Zs in the English language, therefore you 
+wouldn't start your analysis based on Zs. So that's the principle, and 
+from there you have an opportunity and the statistics can work with 
+you if you take that approach, which people who are in the business 
+of crypto-analysts, crypto-analytics definitely know this type of a 
+principle. 
+Ed Scheidt: 
+So after discussion and so forth the agency people said well the 
+intent is to have it so that the design could be broken in time. At that 
+time it was looking at three to five years, that was a matter of genius 
+as they say, and stuff like that. But I said well there's some tricks I 
+can do as long as I can get permission to do it. I recognize where I'm 
+sitting. 
+
+[[page 4]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 4 of 17 
+ 
+Ed Scheidt: 
+So then I retired, that left it so that they didn't have to pay me 
+[inaudible 00:13:25] if I wasn't retired then I'd get my employee's 
+money. And so I said okay I'm willing to do this free. So I didn't hardly 
+get any money from it. So, that's the genesis of it. And that led into 
+the, can you do an educational type of presentation while you are 
+creating a secret? And one of your questions that you needed to 
+ponder is, why does everybody have an interest in this 30 years 
+later? 
+AJ: 
+Great question.  
+Ed Scheidt: 
+Yep, and so a lot of this genesis that I'm mentioning to you is just a 
+stage for a while, because part of what has transparent is transparent 
+is you have a secret. Surely the secret is discoverable and I want to 
+be the discovery, because as you are writing a book, and you're 
+looking to do it in a broad sense, at one time it was 3,000 people 
+working on this. Not with me. So there's clubs if you talk to Elonka 
+and so forth you know that there's various groups, clubs that have 
+met. I have had one that could do it, I did for a bunch of years, once a 
+year in October invited people who had interest in Kryptos, we would 
+go to a restaurant for a while and then a couple of more at my house, 
+because I can accommodate say 20 people, something like that. And 
+it was not in a formal supper but sandwich and stuff like that. But it 
+was very fascinating because you're in one sense an adversarial 
+world because everybody wants to know answer and ... or if there's 
+more than one answer. Why? Because you can get very rich on this 
+particular one. 
+Ed Scheidt: 
+At one time, and I do not keep up with this at all, but I was told that 
+this particular puzzle has a genre in puzzles of the world, so it says if 
+you broke that, ergo which drives the Elonka of the world, it's part of 
+our credence too. 
+
+[[page 5]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 5 of 17 
+ 
+AJ: 
+It's always listed in the lists of great unsolved puzzles, it's always up 
+there with the Voynich manuscript. 
+Ed Scheidt: 
+Well you also have other facets. One is, and this was part of the 
+discussion before I was retiring. Are you going to keep a secret 
+because of where the puzzle is located? It's in a courtyard of the CIA. 
+The average person is not going to get in to see it. So it means are 
+you willing agency to publish it, to illustrate it, to what extent you're 
+going to want to talk about it? Because they use it also, or as I 
+understand it, like a public relations. At one time I wrote the ... they 
+used to have on the ... for recruitment, some CIA puzzles, totally 
+separate of Kryptos, that was the person who put it together, for a 
+presentation on the internet, and it was [inaudible 00:17:42] or 
+whatever. Again it was to attract the younger folks who maybe have 
+math backgrounds, or maybe are interested in being in analysis and 
+stuff like that. So it's been used for the own internal way of saying, we 
+have capabilities and here's an example of where it used as such. 
+AJ: 
+Now when I talked to Jim he mentioned that you two would meet at a 
+restaurant near the headquarters and talk in a low hushed voices.  
+ 
+Ed Scheidt: 
+You know when we discovered, now you're moving into the actual 
+production, if you want to call it the phase or work, you're going to 
+put things together and so forth. Originally Jim thought that he could 
+do the work and I could visit, he has a workspace in Maryland that he 
+had used and [inaudible 00:19:11] media like yourself learned of that. 
+Even though the quest is to keep things as secret, there are no real 
+secrets in this world, and if you're a citizen. So I suggested to Jim 
+why don't we do some techniques that could be used for the 
+clandestine side of it, because it ties to the subject matter. So he 
+agreed and that's where you lined up with restaurants, visited my 
+house on occasion. Not that it's a clandestine site but it's not 
+advertised as such, where his commercial site was advertised. So 
+
+[[page 6]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 6 of 17 
+ 
+that worked out well, the concern was for audio, mostly for audio as 
+opposed to seeing you at a place or something like that. And as you 
+know the media has audio capabilities and pick up voices from a 
+distance. So you could be in a facility and they could still hear you, or 
+what's going on. 
+Ed Scheidt: 
+The obvious is, well not necessarily obvious but the goal was to find 
+out what was the secret, how did you approach the subject of the 
+content part? Which we have a process, we have all the inner 
+changes that build to that, and now we move into if you are going to 
+portray something in the CIA, [inaudible 00:21:17] do, what are the 
+specifics that have ... and at the same time you have the gunmen who 
+would like to retain as much confidentiality up to the point of when 
+they announce it and show you and stuff like that. So this went on for 
+several months. And you're limited on what you can do, it's just like 
+I'm being interviewed by ABC News many many years ago, 20 years 
+ago or so, and they told me, well Ed, this is going to be an experience 
+for you because it's in real time. Which means whatever you say, and 
+at that time 25 years ago they didn't have the delay capability that you 
+get today.. 
+Ed Scheidt: 
+I said, and then ABC visited me at my house as sort of a formality, 
+and said okay we're going to ask you these questions and lead me on 
+in the interview to what you want, while they had certain things they 
+wanted. And I answered them and stuff like that, and the punchline 
+was, I get all wired up, I'm ready to start the interview in the sense of 
+this is live on the ABC set in DC, so it's like a live set. Then I hear 
+New York because it's New York feed, which is where the journalist 
+was at the time. Well he introduced himself and stuff like that, and 
+then in the background came… say, Ed everything we talk about this 
+weekend forget because I'm not going to ask you these questions, I'm 
+going to ask you what you would like to hear. Now think about that, 
+you're live there, 20 million people around the world, you know ABC 
+is big, and it's like the New York Times, a lot of people read it, and a 
+lot of people hear. And I said, well okay this is an interesting 
+experience. 
+
+[[page 7]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 7 of 17 
+ 
+Ed Scheidt: 
+So went through that, the good news is, people after it, they said well 
+Ed you had your three minutes.  
+AJ: 
+So I think Jim had said, just like me, he was no expert in 
+cryptography, and that you gave him a crash course. So what were 
+some of the things you taught him.  
+Ed Scheidt: 
+He learned enough because I did the education as part of his result 
+type of thing, in other words, we're going to come with an answer, let 
+me show you how the answer. And then while we are doing that, let's 
+talk about why did we choose this way of doing it, that's the 
+education part. In other words I could sit here and say well, we're 
+going to do substitution in the genre of cryptography, and you look at 
+me and say, okay. That 25 cents gets me a cup of coffee. And that 
+was ... it has no meaning. Where if I could say we're going to make a 
+puzzle that you would like to have, and while we're making that puzzle 
+let's introduce cryptography into the puzzle and then I will give you 
+some reasons of why this was chosen to do it that way. And so that's 
+some of the education side at Jim's level. Now in the overall project I 
+looked at the way ... has taken place in modern cryptography, not 
+digital now, but paper and pencil. Modern cryptography, what are the 
+bases that make it up? 
+Ed Scheidt: 
+And there you are looking at mathematically how can you make 
+something that will create a secret? Well that's the simple or broad 
+way of addressing this. And then from there on, I said well let's use 
+examples as well as create the puzzle. In other words, if the puzzle is 
+only to be out there three to five years, then we can deal with that in 
+the context of known, understand academic level of cryptography. 
+And there you wind up with, in the genre substitution is the name that 
+flies, you're going to substitute something for something else, since 
+we're using the English language. You're going to substitute one 
+letter for another letter, and what makes you substitute is part of the 
+
+[[page 8]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 8 of 17 
+ 
+math of cryptography. So we began with that, substitutions if you 
+want to read a little bit about this, you'll find that that dates back a lot 
+of time, in other words you take the alphabet and you just move it 
+down one character or two characters and then you starts combining 
+the functions. And then you wind up with processes or process of 
+encryption that is acceptable in the paper and pencil which was done 
+in the 17th century. 
+Ed Scheidt: 
+And well understood again a mathematical problem that's been used 
+for puzzles for many many years, well hundreds of years. So to take 
+these various principles, in other words are we going to make 
+something that AJ would understand, Jim has never been exposed to 
+cryptography but yet I've got to teach him, but at the same time, you 
+don't care. Two weeks after you've done this it's gone, it's not coming 
+back, that's not his thing. So you've got to make something that's 
+retainable, that you can write it on a piece of paper because that's 
+what I did, and it can be justified by others that it's not stupid, and it 
+has credence and so on. But it meets some criteria. So substitution 
+was one I had to use, another math problem is transposition, 
+transposition is again the name implies, you're transposing 
+something. So instead of a direct correlation that you can visualize, 
+transposition is a little harder to visualize. It's sort of like looking at a 
+puzzle and you're defining the parameters of the puzzle in the sense 
+of the square, and then now you have the square and you're going to 
+transpose the characters or the letters that are in the square to 
+something that's a secret. 
+Ed Scheidt: 
+So my secret is push into this square. So that was another step. And 
+then the last step which has been good for 30 years, which I didn't 
+know at the time it would be, but I masked the framework, in other 
+words if you can change the language base then it becomes in my 
+favor and not your favor of trying to break it. It becomes more of a 
+challenge now, when it was used as the mask it was current, 2020 
+secret. 
+AJ: 
+
+[[page 9]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 9 of 17 
+ 
+As I mentioned, I am a beginner in cryptography so what does that 
+mean to change the language base? And can you tell me more about 
+masking?  
+Ed Scheidt: 
+Well mask ... mask is that have used the English to write not a 
+problem. In other words here's what I want to keep secret, I write it in 
+English. If I use that directly in the puzzle I have against me the 
+number of Es, the number of Ys and number Xs and so forth [I wrote. 
+Now if I can mask that, change that characteristic, then you as a 
+breaker of the system whatever it is, different views of what you're 
+looking at. You are either the maker of the system, like Sanborn, or 
+you're the breaker of the system, which is the majority of the 
+community of the world who would like to know what does that puzzle 
+say? And is a puzzle inside of a puzzle? Because it can be that too. 
+And so my son works for NBC and he talks to me about it, because I'll 
+say that I had some talks or an interview of something like that. And 
+he's heard the subject for 30 years but he's not the math of the family. 
+That's just how we are, but he enjoys listening to the stories that 
+have come out of this thing. 
+AJ: 
+Oh yeah well they wanted me to come and see it, but because of 
+COVID that's delayed, so hopefully I'll go get to see it soon.  
+Ed Scheidt: 
+Either get yourself somewhat familiar because it's a sculpture, and 
+looking at a sculpture by itself without a context it's not as much fun 
+as ... if you look at this way, and there's other things that have been 
+put out on the compound of the CIA in addition to the sculpture itself, 
+and there's a been a lot of interest over the years, potential meanings 
+of all these things. 
+AJ: 
+Yeah, can I ask again about the masking. How do you crack a masked 
+code? 
+Ed Scheidt: 
+
+[[page 10]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 10 of 17 
+ 
+That's for me to know and for you to find out. 
+AJ: 
+Good one, but in general, not this one, but is there a key word or a 
+key phrase or is it ... 
+Ed Scheidt: 
+No clues. 
+AJ: 
+No clues, all right. Well I'm not asking, I still am not sure what 
+changing the language base means. Like you're not changing it to a 
+different language like French or German, you're changing it to a ... 
+Ed Scheidt: 
+Something. 
+AJ: 
+What's that? 
+Ed Scheidt: 
+Something else.  
+AJ: 
+What's that? 
+Ed Scheidt: 
+Not to another language, it's to something else. 
+AJ: 
+Oh, so it could be to something else like something in world like the 
+window pattern across that I'm looking at right now, that kind of 
+thing? 
+Ed Scheidt: 
+It could be, but it's not. 
+
+[[page 11]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 11 of 17 
+ 
+AJ: 
+It's not the window pattern outside my window? 
+Ed Scheidt: 
+No, sorry. 
+AJ: 
+Well I thought I had cracked it.  
+Ed Scheidt: 
+That's the currency. You asked about what keeps people going. It's a 
+puzzle, and if you figure out the mechanics of how you did it, then it 
+gives a insight into the answer. 
+AJ: 
+Right, well I Google searched to see what are the hardest types of 
+encryption, and people talk about the One Time Pad, so is that a 
+different thing from masking, or is that related to masking? 
+Ed Scheidt: 
+It's not directly related but because you're trying to say, did you use a 
+one time pad per se, that's not the intent. The analogy is reasonable, 
+but reasonable in a sense of the result. How you did it to get that 
+result is the question. 
+AJ: 
+Got it, and the other thing Jim mentioned was interesting, he said that 
+you told him about codes that are woven into African blankets 
+Ed Scheidt: 
+Clothes that have part ties and other apparel, things like that. And I 
+had a very interesting career, part of a career. Because how you 
+portray the result is another story in itself. In other words, I've got a 
+fancy code, but I have to be able to use it as such. And how I'm going 
+to use it is another subject that enters into the puzzle as such. 
+Because if I want to say I can put it in a blanket, okay, that means I 
+carry the blanket with me. It means I can go across borders with that 
+
+[[page 12]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 12 of 17 
+ 
+blanket, and that can happen depending on your business 
+opportunity, it has a meaning to you, or a meaning to a person. So it 
+puts you into the use of these devices, and it lets you write books. 
+Not necessarily in the context of what you're writing, but the war 
+stories and all the other things. Because you're there, you're 
+experiencing the result of doing this, if you are wanting to be able to 
+have you talk in a different country to me how do you do that? 
+Because if you are determined that you're talking to me, you die. 
+Ed Scheidt: 
+And therefore it's taken seriously, as opposed to casual. 
+AJ: 
+Yep, the stakes are high. 
+Ed Scheidt: 
+Yeah the stakes are high, can be, and they're stories. Thousands of 
+stories along those lines. 
+AJ: 
+So have you thought of writing a book yourself? 
+Ed Scheidt: 
+I did but I had too many other things going on. I don't know if you 
+ever heard of digital currency? 
+AJ: 
+Sure. 
+Ed Scheidt: 
+Well I'm heading up the security of digital currency for all of ISO, I 
+don't know if you know what ISO is? International Standards. 
+AJ: 
+Right, I saw that. You are ahead of the curve on that one.  
+ 
+
+[[page 13]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 13 of 17 
+ 
+Ed Scheidt: 
+Cryptography is only a part of it. 
+AJ: 
+Right, but a huge part of it. One thing I wasn't clear on, did you know 
+the answers to K1, K2 and K3? Or did you crack them or learn them 
+when they were solved? 
+Ed Scheidt: 
+I learned them when it solved. How I work with people is, I firstly do 
+not want to know and if the arrangement is I show you how to do it, 
+you do it, now if you make a mistake in doing it, I'm not here to 
+correct you. I can be I mean obviously I've been asked to review 
+things. But in the case of Kryptos I tried to stay ... okay Jim you have 
+the secret, you have the puzzle, and therefore when I get all these 
+wonderful interviews, I don't have to lie to people. 
+AJ: 
+Ah, I was wondering why, aren't you curious to try to solve K4? 
+Ed Scheidt: 
+I've also learned in my experiences in years past with the government 
+and all, it doesn't do you any good to be too curious. And in the case 
+of ... I just shared the story with the real time, I'm trying to ... this 
+sounds bad but I'm trying to vie my wits with a correspondent that 
+could be much more smarter than I. In his head the ability to ask 
+those tricky questions, and if you've got cameras there focusing on 
+you as you're asking those tricky questions, you can determine he's 
+lying, or he knows something that he's not sharing. Which is, in this 
+case, is [inaudible 00:44:36] things. And then when I have like I said 
+shared with you, you have a supper with a dozen, two dozen people 
+and they're all looking at you, and they all have had a chance at home 
+or otherwise to come up with questions, just like you focused on the 
+mask. They ask six questions upon that. You're seeing that I have a 
+high IQ too, so anyhow. And it's not wrong, it's just okay I'm not a 
+person that likes to lie. 
+
+[[page 14]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 14 of 17 
+ 
+AJ: 
+So ignorance is the best defense. You can't be caught lying if you 
+don't know it 
+Ed Scheidt: 
+If I don't know it, I can't make a mistake  
+AJ: 
+I asked a couple of people I know in the Kryptos community if they 
+had any questions for you, so can I ask you just a couple of those? 
+They wanted to know, was the book that you gave Jim, was that the 
+Cryptanalysis by Helen Gaines? 
+Ed Scheidt: 
+No, I don't think it was, I don't remember that but I don't believe it 
+was. 
+AJ: 
+Do you remember what book you gave him or what materials? 
+Ed Scheidt: 
+It was many years ago. 
+AJ: 
+How about this question, are you ready? This is one of my favorites. 
+Can you arrange a meeting at the Tiger's Den at 7.30 am? 
+Ed Scheidt: 
+I don't think the Tiger's Den is around any more. But there was such a 
+place, at least as I remember it years ago, that you could do that. 
+AJ: 
+It was a restaurant? I have no idea what it means, he just asked me to 
+ask you. 
+Ed Scheidt: 
+
+[[page 15]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 15 of 17 
+ 
+Yeah, if I remember right, it's years ago, it was like restaurant. And it 
+was just a gathering place, and it was a gathering place for people 
+who had interests in Kryptos and wanted to talk about it. You have a 
+transformation of being able to gather information, now you have 
+world wide internets and stuff like that, so you can reach anybody 
+almost anywhere so gathering the areas is one thing. The other is 
+there's enough [inaudible 00:47:46] type of things that the internet is 
+not thoroughly secret either, and because of that it's not as if you can 
+get it in a social environment, like I said have a lunch or a drink or 
+something like that. And then talk on the subject and as well as, what 
+you didn't ask them is, what in their question does it include a secret 
+that's related to them? Because it's a strange world that we live in, in 
+other words Kryptos has secret, does AJ have a secret? That he 
+would like to keep relating to Kryptos? Because the carrot is there, is 
+if you could gain for instance [inaudible 00:48:47] your discussion or 
+[inaudible 00:48:49] today, if you could gain how the fourth part what 
+makes it up, or what's the direction and stuff like that. That's worth 
+money to you, and it's worth fame to you, [inaudible 00:49:08] you 
+may not have recognized it. 
+Ed Scheidt: 
+Because it is a hard puzzle, and today. That wasn't it's intention 30 
+years ago. But because when you are making things in the world of 
+cryptography, or you're doing a lot of things in math, the math 
+parameters shift on you, because you have some very smart PhDs 
+out there that can outdo their analysis from a math perspective, and 
+say hey if we did this mathematically would that make a difference? 
+Now you blend that into the principles that go with the math of 
+cryptography, now you're trying to say well where's the clues? And I 
+mentioned substitution, there are clues in substitution, process that 
+allows you mathematically to address the problem without knowing 
+cryptography per se. It's a math problem. So if you can do that and 
+then you get into a lot of other things, what they call linear and non-
+linear math. Linear is a direct substitution, non-linear is a quadratic 
+way of looking at it. What it all amounts to is it's more difficult as 
+you're getting into the math of the cryptography. What I was trying to 
+present, or which was presented is the different steps of looking at 
+
+[[page 16]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 16 of 17 
+ 
+this puzzle in mathematics and the basis of languages. That's if 
+you're going to keep it as a pencil and paper system. 
+Ed Scheidt: 
+In today's genre for cryptography no one thinks of it, I mean literally 
+no one thinks of it in the basic cryptographic education type of 
+scenario, that's not the same. You're into the world of algorithms, 
+which is again another step in the math process. So it evolves, it can 
+evolve as a puzzle, it can be used in any one of the steps, it can be 
+used as a basis of your puzzle. Which it was, you've got K1, two, 
+three, which is steps of the puzzle, and then K4 being the final 
+ 
+AJ: 
+I think this person thought that that phrase, can you meet at the 
+Tiger's Den at 7.30 am might have something to do with the- 
+Ed Scheidt: 
+Yeah, well the error is looking at the key which is another acronym 
+used in cryptography to say, if there is a secret method would that 
+method show in a key as the name implies, which opens the lock? 
+AJ: 
+Right. 
+Ed Scheidt: 
+It can be looked at in that context. Whereas the context has important 
+facet of how you address these questions. It took a different context 
+than the person who you're talking to. 
+AJ: 
+Another question was, did you work on any other puzzles that were 
+outside of the CIA before you worked with Jim? Or was that the first 
+time you were consulted? 
+Ed Scheidt: 
+That was the first time I was consulted.  
+
+[[page 17]]
+This transcript was exported on Nov 17, 2020 - view latest version here. 
+ 
+ 
+EdScheidt (Completed  11/17/20) 
+Transcript by Rev.com 
+Page 17 of 17 
+ 
+AJ: 
+All right do you have questions for me? 
+Ed Scheidt: 
+No, I would like to read your book though when it comes out.  
+  
+ 

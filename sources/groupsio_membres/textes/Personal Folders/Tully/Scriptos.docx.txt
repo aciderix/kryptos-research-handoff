@@ -1,0 +1,96 @@
+## word/document.xml
+ 
+ 
+ 
+ SKRYPTOS 
+ The message is arbitrary, the journey that is insane. 
+ 
+ 
+ Purpose : 
+ I created this video as a re-attempt of the previous demonstration and is intended to be short lived . The focus is towards the KRYPTOS community in general ; ultimately I want to give the upper hand to those who have worked diligently through the years and not a random person who sees this transmission. 
+ During the 2013 Kryptos dinner, I was able to ask Jim Sanborn the following: 
+ Me: The Kryptos sculpture tableau , what does it represent? 
+ Mr. Sanborn: The petrified tree was a symbol of a forest that was cut down to build the CIA headquarters; it was quite controversial at that time. There was also talk about how there were tree frogs in the little cracks of the fossilized tree when he picked it up and that he could only travel 55MPH from Arizona to Virginia in his crappy rental truck used to transport the petrified tru n k . 
+ Layout - The stones and main sculpture form lines that cut through the CIA building, as if to expose it. 
+ Granit slabs – Represent the history/layers of encryption at the CIA much like a book, the layers can be peeled back. 
+ Overview : 
+ T his video is most likely not exactly how K4 was intended to be solved, from my perspective these methods are what I am most comfortable using but ultimately may be just wrong enough the not be able to solve K4s in its entirety . 
+ For the sake of brevity this talk is targeted to those who are familiar to this sculpture will assume you have a working knowledge of the first three solved portions of Kryptos cipher plus K0 “morse code.” . 
+ We will use both Plain Text and Cipher Text as a vehicle to use stenography to solve for a significant portion of the final passage . 
+ 
+ 
+ Rules of the game 
+ 110490 7620 0 0 
+ 
+ Many people come at K4 like as if they were recreating the enigma process , think more of a Turing machine where position means something and you are processing letter by letter , it is not monolithic ! 
+ K4 utilizes transposition of a rule- table (MATRIX) and not the cipher text itself . You will also traverse all portions of this sculpture. Your position and orientation to the sculpture is key when decoding as well . 
+ K4 was designed to be solved from right -is h to left , having you travel further and further back in time as you e X cavate he hidden message. This does come with the caveat that K4 is not solved in a linear direction. The CAR seems to travel with you as you decode. 
+ K4 Jumps across all portions of the sculpture where the path you take can be identified by the artifacts left behind (classic text steganography artifacts ) . 
+ Insertion points to decode K4 are largely discovered around the misspellings within any combination of PT, CT, and layer combinations. 
+ !!! These parts really need animation to demonstrate what is being communicated!!! 
+ Type-1 Stenograph y - From your current position, find your K4 cipher text character and match the next character from the data point from you r current index , no counting, just the next same letter . The decoded character will be the opposite text type of found location. That is, if you are indexing with the cipher text then look at same location in plain text or vice versa. A visual representation would be the Pythagorean theorem (easy as A B C). 
+ Type- 2 stenography takes your current position and move K4 character over. Note that the distance to move over is based upon the KRYPTOS alphabet and not English [A=0, B=1, C=2] but [ K=0, R=1, Y =2 and so on ] . 
+ W hat section and methods used will be based upon Howard Carters journal entries from 1922 where he records the excavation and exploration of Kin Tuts tomb. B ecause K4 is solved in reverse order , you will be starting at the end of the story and traveling backwards in time to solve the mystery of KRYPTOS. 
+ 
+ 
+ 
+ 
+ 
+ Z XTJ-CD IGKU HUAUEK 
+ Insertion point: K4 DIG is found near K2 misspelled word UUNDERGROUND. 
+ Z XTJ-CD IGKU HUAUEK = 
+ A MUD-RT KONI AIRITE = T ire type , Shocks, Camper shell 
+ 
+ 
+ 
+ 
+ 
+ ZFPK WGDK 
+ Reverse the Cipher Text and locate where the K/K aligns, in 4 characters over, delete the X (x is deleted in graphic below) . From K over K you will decode KPFZ in normal direction of the carrier text. WGDK is decoded in reverse but also in reverse carrier text. 
+ Once again, align the decoded text with the matrix and you should be fine, otherwise it will be confusing where I am getting the letter “A” and generally lost when reverse the text and/or direction. I’m telling you . 
+ Okay, you came to a question mark, or is that a key to a room? 
+ LOCK TERS(A) LOCK is a lock and TERSA = Brand of t i re 
+ TERS = tamper detection device (security seal) 
+ 
+ 
+ TERS.cz – security seals 
+ 
+ Tuts security seal 
+ 
+ BNYP VTTM 
+ Looking at K1, your insertion point is the misspelled IQLUSION. 
+ You will need to remove the 4 Q’s in the cipher text. Maybe Q’s symbolize magnifying glasses, maybe they are candle flames. You will also remove the ‘LL’ after finding your first two decoded letters. 
+ IBER = need more text, possibly an undiscovered step was missed. 
+ BNYP = LINC 
+ Notice how M translates to C but if you were to move to the right instead then it would translate to K? Maybe something (Misspelled Lock) or maybe nothing. 
+ 
+ 
+ 
+ CREDITS 
+ … 
+ … 
+ … 
+ Joshua D. Tully 
+ Post credits 
+ GKSS of K4 is found at the misspelled START (at the end) of the K3 CT where T is your starting position , there is some slight shifting like what was done in K3. The superscript “ HORAY ” might be a misspelled celebration at the end (start) of the track. 
+ 
+ 
+ Dan Brown ( Davinci Code ) Reference 
+ Majority of LRVQ QPRN can be deciphered to ASTN ORTH by way of using the morse code as a cover text over K1 but seems to be random until you apply the coordinates found in K3 which puts it into more focus. A form of transposition between PT and CT seems to repair most but there also may be a separate unknown method used . Try theory and apply backwards to verify. I want to say I have only shown you two or maybe three methods, I’m thinking there is another one. 
+ 
+ ** Insert a nnoying video for youtube thumbnail & preview to throw some people off ** 
+ Video description links 
+ Trying to solve KRYPTOS the confusing way . 
+ https://youtu.be/4tgHOdC64bw 
+ 2013 Kryptos Dinner notes (Not inclusive at all, maybe one or two conversations worth). 
+ https://kryptos.groups.io/g/main/files/Personal%20Folders/Tully 
+ Howard Carters Journal: 
+ http://www.griffith.ox.ac.uk/gri/4sea1not.html 
+ Dekryptos (Old version but working as demo only): 
+ www.dekryptos.com 
+ 
+## word/footnotes.xml
+ 
+ 
+ 
+ 

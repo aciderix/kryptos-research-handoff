@@ -1,0 +1,108 @@
+Some inquiries about the methodology used to solve K4 were made.
+
+
+I can not tell anything about the method I am afraid, the method we used is a state secret.
+
+
+However I can tell you what method was used to make K4.
+
+Jim told the group many years the method he used : matrix writing, there are matrices in Kryptos... the group laughed it off.
+
+He also told the group how many matrices he used : the story of the 3 envelopes, the group did not understand what he meant.
+
+
+Basically there are 3 matrices :
+
+K4-1 the OBKR part
+
+K4-2 the AZUL part
+
+K4-3 the XCODE part
+
+K4-1 is the product of K4-2 and K4-3 but not always.
+
+In essence you write a letter in one of the matrices, then another in another matrix and look what the result is.
+
+You vary what you write in which matrix to form words and confuse the cryptanalyst.
+
+You are not decoding one message but 3 messages.
+
+one message is plain English sentences XCODE (the clear message)
+
+one message is plain English with a twist, AZUL (the obfuscated message)
+
+one messages is the product of both OKBR )the fun/joke message) but is also used at times to hide stuff like : 
+
+WULF CLY SPY which refers to Markus Wolf of the Foreign Intelligence Department of the Stasi (Secret Police) or you read it as FLUW.
+
+
+We started at the end of K4 because we are lazy but in hindsight it seems there are at least 2 hints informing you to start at the beginning of K4.
+
+A Turkish gentlemen (sorry, I forgot your name Sir) discovered that QRSOS could point to PARIS/CODEX.
+
+CODEX
+
+Q? .... R
+
+
+PS ITS AS SIMPLE AS ABC, as simple as from A to Z.
+
+AZ
+
+Then there was the GRU statuette from the Kryptos workshop :
+
+CODES CAN BE DIVIDED
+
+CODES CAN YOU SEE....
+
+
+CODES
+
+
+We got one hint right (more or less)
+
+Q
+Question and Answer
+
+The letter A encrypts a part of K4 to WAX THE MASS.
+
+without that we would not have taken the AWAX serious.
+
+It looks like Mister David Boak of the NSA is in there too : BOAZ.
+
+Which makes you wonder if this is a lure to make you move K4 right after the DAVIX part?
+
+DAVIX BOAZ
+
+
+AZUL is a Spanish word and means Blue
+
+Wulf, Lupo,Lubo are not English words.
+
+Don't ask us, ask the rascals that made Kryptos.
+
+
+To recap :
+
+If I have AZUL which morfs to XCODE and I have AWAX, SKY, EYES then I can make :
+
+BLUE SKY EYES AWAX(1)
+
+
+then I say : something just smashed through the entropical barrier at Mach 9.
+
+
+
+Jim : It is in plain (red dot) sight, look around Berlin for that one.
+
+
+regards,
+
+
+TWO
+
+
+(1) AWACS, is an American airborne early warning and control (AEW&C) aircraft 
+
+also known as the eyes in the sky.
+

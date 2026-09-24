@@ -1,0 +1,106 @@
+[[page 1]]
+M7  The weird  DELTA  HOTEL  duo 
+ 
+Several years ago, when I read Jim's comment that he was surprised that no one had running it 
+through all possible shifts, I began to perform shifting on all things and in all places. It was thus 
+that using the K0 Morse texts as a key, I ran them over all the ciphertext, with all possible 
+shifts, and I found in K2 the 162% of its key ABSCISSAABSCI / ALLYINVISIBLE (message #3952 
+and following). 
+ 
+Also in connection with the Archimedes Palimpsest and the possible anagram of EUREKA in the 
+final part of K4: UEKCAR, and the first letter of K1: E, I tried the EUREKA key on all Kryptos, with 
+all its possible shifts. Imagine my surprise when, by testing with the AEUREK shift and the 
+KRYPTOS alphabet, I got TAKEMHMSSEVXUD starting at the first character of K1. It's easier to 
+see it like this: TAKE MHMSSEV X ud. A clear instruction in correct English. Since in Kryptos the 
+X is a period, I tested the key TAKEMHMSSEV on all Kryptos, using alphabets with all the 
+KRYPTOS shifts. Testing with the PTOSKRY alphabet I got: DELTBPAHOTEWZL, again starting 
+from the first character of K1. It's easier to see it like this: DELTbpA HOTEwzL. Very weird isn't 
+it? They are two 5-letter words from the select group of 26 words, unique in the world, that 
+integrate the international phonetic code. Also with the same pattern: The first 4 correct 
+letters, two interleaved letters, and the correct final letter. This cannot be just random. This is 
+intentional. It's a new example that Kryptos gives us of duress code. With the same ciphertext 
+EMUFPHZLRFAXYU and keys PALIMPSEST and KRYPTOS, we get the first message: BETWEEN 
+SUBTLE S, which we already know. But with AEUREK, KRYPTOS and PTOSKRY keys, we get a 
+second message: DELTbpA HOTEwzL. Of course I saw the possible relationship with the DYAHR 
+cluster, since D and H are the 2 characters that remain aligned with the rest of the row. But 
+when I did not find how to use them, they went on to integrate the list of hot words and were 
+left on the shelf of the intentional things that might one day be useful. Only when DELTA and 
+HOTEL began to appear, sometimes partially, in the Matrix System (M6 message) and in K4 
+(M4 and M5 messages), did I become convinced that the weird duo has an important role to 
+play in K4 and K5. 
+ 
+When using the TFJ algorithm and following the clue “I and D BY ROWS”, I found NORTH in its 
+correct place #26 (message M5), I also found a correct HOTEL in place #31. What's more, I 
+found this before Jim released the plaintext “NORTH EAST”, so I interpreted the possible 
+plaintext for K4 as “NORTH HOTEL”. So if there is a North Hotel, there must also be a South 
+Delta somewhere. Another thing that caught my attention was the appearance of the 
+anagrams of ZENITH and DEBRIS (message M6). DEBRIS appears in K3, but ZENITH and its 
+opposite NADIR were new words, therefore added to the hot word list. The imaginary line 
+passing between the Zenith and the Nadir of an observer on the earth's surface, also passes 
+through the center of the earth and reaches another point on the earth's surface called... 
+Antipodes! Yes, another Jim sculpture containing the Kryptos ciphertext and the Cyrillic 
+Projector ciphertext. Languages English and Russian, CIA and KGB, USA and USSR. They may be 
+in the Antipodes of philosophical or political thought, but the USA and the USSR are not 
+geographic Antipodes, both are in the Northern Hemisphere. 
+ 
+
+[[page 2]]
+Another way of looking at BERLIN's World Time Clock and its list of cities, is as a primitive 
+Antipodes map. If we look at the cities that are in a time zone and compare them with those 
+that are in the +12 time zone, we could start looking for pairs of Antipodean cities. Since 70% 
+of the earth's surface is water, the pairs of antipodean cities are very few. A more refined map 
+of the Antipodes is as follows: 
+ 
+ 
+ 
+Finally, several members of the group interpreted that the 3 raised letters of the DYAHR 
+cluster could mean the word RAY written backwards. A ray between H in the North and D in 
+the South. Again, the concept of Antipodes rises. If those members are correct we will find 2 
+new cities like BERLIN which is in K4, or as SAN FRANCISCO candidate to be in K4 (M4 
+message), which are also in the World Time Clock, one starting with H with its Zenith in the 
+Northern hemisphere and another starting with D with its Zenith in the Southern hemisphere. 
+ 
+The cities that are in the World Time Clock of the Northern Hemisphere and that begin with H 
+are: HELSINKI, HANOI, HONG KONG, HONOLULU, HAVANNA and HALIFAX. The one in the 
+Southern Hemisphere that begins with D is: DAR IS SALAM. But its antipode is in the North 
+Pacific Ocean. Let's not get discouraged, perhaps of the cities we are looking for, one is in the 
+World Time Clock, the one that begins with H, and not the one that begins with D. 
+The antipodes of the first two, HELSINKI and HANOI, are in the South Pacific Ocean. The 
+antipodes of the last two HAVANNA and HALIFAX, are in the South Indian Ocean. The antipode 
+of HONG KONG is in the North of Argentina, close to the border with Bolivia, in the Andes 
+Mountains. The map above shows that the Antipodean city of HONG KONG is HUMAHUACA. 
+Humahuaca is a city of less than 11,000 inhabitants and does not begin with D. 
+ 
+The Antipode of HONOLULU 21 degrees 18 minutes N, 157 degrees 51 minutes W is in the 
+North of Botswana, at the coordinates 21 degrees 18 minutes S, 22 degrees 9 minutes E. The 
+map above shows that the Antipodean city of HONOLULU is GHANZI. Ghanzi is a city of less 
+than 15,000 inhabitants and does not begin with D. Instead, 220 km from the coordinates, we 
+find the DELTA of OKAVANGO! This can't just be random, this is intentional. Instead of a city, a 
+real DELTA. A unique and special place in Africa. It was declared a World Heritage Site by 
+
+[[page 3]]
+UNESCO for its special natural characteristics of its wildlife. It has also been named as one of 
+the Seven Natural Wonders of Africa. In the DELTA we can find many animals, among them 
+The Big Five: lion, leopard, buffalo, elephant and rhinoceros. It is unique because unlike other 
+great rivers such as the Nile, Amazon, Mississippi... that end in Deltas that flow into water: 
+oceans, seas, gulfs, lakes or estuaries, the OKAVANGO River flows into land, its Delta is 
+extinguished in the Kalahari desert. 
+ 
+                                      
+ 
+ 
+The distance, by surface, between a site and its Antipodes is about 20,000 km, so the 
+difference of 220 km has an error of 1.1%. The OKAVANGO DELTA is an acceptable Antipodes 
+of HONOLULU. We don’t know yet if OKAVANGO or HONOLULU will appear in the K4 plaintext, 
+but those do become part of the hot words list. If it's just an Easter egg, it's an extraordinary 
+egg. Furthermore, in the new C/P matrix (message M6) the last 4 letters of HOTEL, DELTA and 
+OKAVANGO appear, and the symmetry between OTEL and ANGO could be interpreted as an 
+arrowhead or a triangle, that is, the fourth letter of the Greek alphabet : ∆ DELTA, hence the 
+name the mouth of a river in a triangular shape. 
+ 
+In the next message we will see how to use the coordinates of K2, which begin to open new 
+doorways for us. We will begin to see, in the distance, the first reflexes of K5. There is still 
+much more! 
+ 
+Jose Luis 
+ 

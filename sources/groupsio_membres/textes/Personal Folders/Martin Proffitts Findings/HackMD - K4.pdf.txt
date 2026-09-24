@@ -1,0 +1,240 @@
+[[page 1]]
+8/5/23, 14:07
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/Sk_bOu-7n
+1/7
+For 9 years I have chased fantasies and dreams around K4. I’ve tried forcing my own will
+onto the cipher, I’ve probably made a fool of myself trying to solve it with techniques that do
+not belong to it and wasted countless hours of my life inventing numbers that do not exist,
+largely as a result of my own vanity and desire to “Be the one who breaks it using some
+magical, yet non-existent method of tranposing one set of letters into another”.
+With K4, I think we have all set a trap for ourselves; I certainly fell into a deep one but there
+are also two very clever ones, one set for us by the sculpture itself, and the second set by
+our expectations around it.
+For the second, I feel we are geared to over-engineering solutions based on the premise
+“This must be hard, the CIA, NSA, GCHQ and probably every other intelligence agency in
+the world can’t break it”
+I don’t think this is true. I think its complexity comes from its simplicity and as I stated
+recently the bit that makes it hard is that we forget how to think like an artist and infer things
+that actually are not there.
+For the first of the two traps; we’re all caught up in solving the ciphertext.
+Exactly how many of us can truly say we’ve solved the plaintext? I know I haven’t. I might
+have found some of it but I’ll bet it tells us a whole lot more. Answers on the back of a
+postcard addressed as the crow flies 23.5km south east of 
+.
+Avoid K4
+K4 is completely irrelevant to solving it. Solving K4 should be a matter of putting pieces of
+the puzzle together. Once the puzzle is assembled, K4 will solve itself.
+Speculation and conjecture.
+I will be clear when I think I am speculating about something, and when I absolutely know I
+am applying conjecture. There is room for both but for every speculative piece of evidence
+brought to the table, I expect the legwork to be done to prove it. Until that point, it should be
+called out as such and I will try and highlight only the ones I believe are relevant.
+On PALIMPSEST and ABSCISSA
+I would like to talk briefly about these two keywords as they are not only important to solving
+the related passages 1 and 2 but I believe that they are also important towards passage 4.
+CNBFLS
+
+[[page 2]]
+8/5/23, 14:07
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/Sk_bOu-7n
+2/7
+The first of these is PALIMPSEST. No, it’s not spelt PALIMPCEST, it doesn’t have any
+religious meaning, it’s not pointing to a specific scroll; I think we need to accept thjat the
+word is literally being given in its natural form and we need a very specific part of the
+meaning of this word.
+Re-Use.
+The meaning of the word Palimpsest is
+A manuscript or piece of writing material on which later writing has been
+superimposed on effaced earlier writing.
+something reused or altered but still bearing visible traces of its earlier form.
+The part here that we are looking for is the reused or altered. I think both of these words
+have meaning here and I will try and demonstrate why I believe this to be the case a little
+later.
+Why this keyword was chosen for passage 1, I believe is because it indicates that passage
+one will point you towards the section of the sculpture that will be both re-used. and altered
+in order to decipher passage 4.
+Coordinate
+The word Abscissa is chosen for passage 2. I believe that this is because Mr Sandborn is
+saying ·“You now have one half of the geometric position”. If this is the case, we still have
+the ordinate to find.
+There is another possible meaning to this word as well; in that Mr Sandborn is saying “I’m
+giving you one half of the cipher”. Whilst this is both a contentious, and speculative reading
+of the word, it is, I believe still a valid assumption.
+On LAQUEO and ASTATOS
+Back in 2015, I noted that the misspellings and their counterparts were an anagram of the
+word LAQUEO. I have spent a considerable amount of time on this word over the years and
+I fully believe I have fallen into its meaning. In Latin, this word means “A trap” and yes, I
+think I fell into it. My current belief is that the misspellings of words are a deliberate trap to
+throw you off the cipher. Think of this in terms of Indiana Jones and a treasure map for the
+pyramids, littered with traps.
+The breakthrough on me recognising this came when Rob Mccleary discovered the word
+Greek word ASTATOS. This word literally mens “Unstable” and I believe now that it’s telling
+us that “This half of the cipher is unstable”. To follow through with the treasure map analogy
+
+[[page 3]]
+8/5/23, 14:07
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/Sk_bOu-7n
+3/7
+“Here be dragons”. That said, just like any good Indiana Jones movie, we need to cross the
+dangerous part to get to the treasure. For why have a treasure map if it’s supposed to be
+easy?
+Shading
+In passage 1, we note the phrase
+BETWEEN SUBTLE SHADING AND THE ABSENSE OF LIGHT LIES THE NUANCE
+OF ILLUSION
+For a while I have been thinking this related to something in the ciphertext but now I am
+firmly of the opinion that this relates to the plaintext.
+Here, I think Mr Sandborn is pointing us directly to how half of the cipher works.
+Consider the phrase, and reduce it down to its relevant components.
+BETWEEN something AND something LIES something
+Fill in the gaps and you get to
+BETWEEN S S AND A L LIES N I
+There are two key things to remember about illusions. One, in an illusion anything is
+POSSIBLE. and the second is that for an illusion to work, it has to be VISIBLE
+But:
+IT WAS TOT[AL]LY [IN]VISIBLE HOWS THAT PO[SS]IBLE
+Here we find the letters AL, IN and SS but they are in the wrong order.
+Place a pivot point between the I and the N and rotate it.
+SS NI LA?
+No, that’s wrong; think about how the moon works; it always shows the same face.
+SS NI AL
+This is almost certainly the ABSCISSA of the cipher.
+Geo Magnetic Fields
+In passage 2, we note the phrase as follows:
+THEY USED THE EARTHS MAGNETIC FIELD
+
+[[page 4]]
+8/5/23, 14:07
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/Sk_bOu-7n
+4/7
+In 1906, Bernard Brunhes made the first discovery of Geomagnetic reversal. published in his
+paper Les variations de l’aimantation des terres volcaniques de la Chaîne des Puys et de
+l’Auvergne" [Variations in magnetization of volcanic rocks in the Chaîne des Puys and
+Auvergne].
+This work was later built upon by Motonori Mat(s)uyama in 1929 in the paper “On the
+magnetization of rocks in Japan.”, and again by the English Mathematician and geophysicist
+Harold Jeffreys in his 1948 paper “The Earth’s Magnetic Field and its Secular Variation.”
+In the early 1950s, a team led by Lloyd V. Berkner discovered that the earths magnetic field
+was tilted at an angle of approximately 
+ from the perpendicular.
+ I want to also place a warning to anyone looking to follow this research; stick to the
+relevant facts. We know Mr Sandborn has an interest in Atomic reaction (Atomic Time
+(https://books.google.com/books/about/Atomic_Time.html?id=F9TpAAAAMAAJ&redir_esc=y), Critical
+Assembly (https://en.wikipedia.org/wiki/Critical_Assembly)). Those researching the Geomagnetic
+field, will undoubtedly come across Dynamo theory (https://en.wikipedia.org/wiki/Dynamo_theory).
+This will innevitably lead towards Patrick Blacket (https://en.wikipedia.org/wiki/Patrick_Blackett)
+who introduced a theory on the Earths magnetic field as a function of rotation, a theory
+he later contradicted in his paper “The Diurnal Variation of the Earth’s Magnetic Field”.
+My understanding is that Blackett would later go on to be instrumental in aligning Britain
+with America on the creation of the Atomic bomb. This is almost certainly irrelevant to
+the sculpture KRYPTOS.
+Don’t get caught up in the speculative, stick to only what you can see.
+Key points
+1. The magnetic field is tilted 11° off the perpendicular. This may be indicative of a Ceasar
+shift somewhere in the cipher. If so, the shift is most likely to be of 11.
+2. The magentic field periodically flips over.
+In my understanding, Mr Sandborn has made several references to “Flipping” and “Turning”
+in relation to K4. Lets keep this in mind.
+Intervals
+There is another potential element of misdirection at play here. K2 contains 5 X symbols in
+total.
+If we imagine K2 being a conversation between two people, the X symbols indicate a
+change of speaker when a question is not being asked, or a pause in the conversation which
+is then followed by a piece of information.
+Person 1. IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE ?
+11°
+
+[[page 5]]
+8/5/23, 14:07
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/Sk_bOu-7n
+5/7
+Person 2. THEY USED THE EARTHS MAGNETIC FIELD X
+Person 2. THE INFORMATION WAS GATHERED AND TRANSMITTED
+UNDERGROUND TO AN UNKNOWN LOCATION X
+Person 1. DOES LANGLEY KNOW ABOUT THIS ?
+Person 2. THEY SHOULD ITS BURIED OUT THERE SOMEWHERE X
+Person 1. WHO KNOWS THE EXACT LOCATION ?
+Person 2. ONLY WW THIS WAS HIS LAST MESSAGE X
+Person 2. THIRTY EIGHT DEGREES FIFTY SEVEN MINUTES SIX POINT FIVE
+SECONDS NORTH SEVENTY SEVEN DEGREES EIGHT MINUTES FORTY FOUR
+SECONDS WEST X
+Person 2. LAYER TWO
+It is possible, that these indications are telling you when to change direction in the cipher; or
+a cadence in which to read the letters but both of these options are only conjecture until
+proven otherwise.
+Note the person to whom the Xs belong. Person 1 never contains an X, Person 2 has 5 of
+them.
+One of the reasons I think this, is that in Morse code, an X was occasionally used to indicate
+a pause or a break between sections.
+If that were the case in this message, there should be more Xs (for example between
+INVISIBLE and HOW, and between WW and THIS); Overall, the beat or cadence of this
+section feels off.
+If this was to be a cadance, then the pattern will almost certainly be
+ as this is the order that the speakers appear.
+Speculatively, some of this also makes me wonder if X LAYER 2 doesn’t mean LAYER
+2 at all, but actually indicates 22:00; why? In a discussion containing the earths
+magnetic field, then 
+ is 
+, if the X is taken as the roman numeral 10, then the
+second 10 in the day is 22:00.
+One note that bothers me about the cadence is that it implies a second passage to read
+from. This might not be a problem as there is another plaintext passage of interest that
+contains all the letters of interest (SS NI AL), in their correct order:
+SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPA SS AGEDEBRISTHATENCUMBE
+REDTHELOWERPARTOFTHEDOORWAYWASREMOVEDWITHTREMBLINGHANDSIM
+ADEATINYBREACHINTHEUPPERLEFTHANDCORNERANDTHENWIDE NI NGTHEHO
+LE AL ITTLEIINSERTEDTHECANDLE
+1 −2 −2 −1 −2 −1 −2 −2 −2
+2 × 11
+22
+
+[[page 6]]
+8/5/23, 14:07
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/Sk_bOu-7n
+6/7
+Tutankhamun and the raiders of the missing candle
+Now I come to K3 and the discussion of Howard Carters discovery of the tomb of
+Tutankhamun. Most of this is conjecture. I think I’ve not yet fully understood this passage.
+Removing the rubble
+SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT ENCUMBERED THE LOWER
+PART OF THE DOORWAY WAS REMOVED
+I am coming to the conclusion here that K4 is either 1 letter too long, or 5 letters too short.
+Either way, I am thinking the R needs to go. This would make the cipher 96 characters which
+splits nicely over 6, 8 and 12 columns, or:
+I INSERTED THE CANDLE
+How do you dispell illusions? How do you reveal something that hides in shadows? By
+shining a light.
+I think at this point we’re supposed to insert a keyword that is indicative of the word light.
+Whether that is CANDLE, FLAME, or even VISIBLE I do not yet know. What I do understand
+is that the keyword is VISIBLE within the cipher.
+Some of this makes sense to me, other parts do not and this is really where i am up to with
+deciphering the plaintext. No, not every question has been answered and not every detail
+worked out but this is where I am.
+AND THEN WIDENING THE HOLE A LITTLE
+For any of these keywords to fit, it may be that we have to remove more of K4 than we
+previously thought.
+My current options are:
+Remove R from the end and insert CANDLE at the beginning (96 chars)
+Remove the R from the end and remove OBKR from the beginning to insert NDLE from
+candle after the CA at the end (96 chars)
+Use the word FLAME and keep all of k4 (102 characters)
+Use the keyword VISIBLE somewhere (Up to 104 characters)
+None of the above
+Finally
+CAN YOU SEE ANYTHING Q
+
+[[page 7]]
+8/5/23, 14:07
+HackMD - Collaborative Markdown Knowledge Base
+https://hackmd.io/@6K3Bd7JbRlW_lllu-R4Xww/Sk_bOu-7n
+7/7
+I’m not the first person to think this is a question directed at the character Q but given that
+the best place to look for something is from an elevated position, I personally believe that
+this question is being called up to the Q in IQLUSION who I imagine answering “No, I’m in
+the dark”

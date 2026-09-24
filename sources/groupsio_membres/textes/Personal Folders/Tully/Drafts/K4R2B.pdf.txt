@@ -1,0 +1,104 @@
+[[page 1]]
+ 
+DeKRYPTOS 
+K4R2B 
+DRAFT 
+	
+	
+	
+	
+	
+	
+	
+	
+By: Joshua.tully@gmail.com 
+
+[[page 2]]
+Method: Steganography / physical modification/ riddle 
+Carrier Text: K2 (PT and CT) 
+Storyline: Standing at the entryway of King Tuts’ tomb;  
+Clue 
+•
+Steganography cipher text is known as a “STEGO KEY” 
+•
+Jim revealed ZFPK decodes to LOCK (meaning the K decodes to K), so K/K is our 
+starting point(index 126). 
+ 
+STEGO TYPE - 1 
+• Locate your starting position(A) within the mask layer. 
+• Find the next instance of the K4 character (B). 
+• The decoded letter (C) is that position, but in the (PT) 
+ 
+ 
+STEGO TYPE - 2 (not used for this section) 
+•  Locate your starting position (A) within the mask layer. 
+• Move over by K4 alphabet value (B) 
+• The position you land on is your decoded character (C) 
+ 
+	 	
+	
+(KRYPTOS alphabet values). 
+(KRYPTOS K4 Block Matrix).	
+	
+	
+	
+	
+       
+
+[[page 3]]
+STEP 1: Reverse the K2 mask (Black CT) layer as seen below. 
+ 
+STEP 2: Focus on WGDK of your K4 block matrix. 
+STEP 3: Reverse your K4 block text to read KDGW. 
+STEP 4: Locate K over K, this is your insertion point. 
+STEP 5: Solve for KDGW by using type-1 STEGO method from right to left. 
+ 
+First     K/S
+Second   D/R
+Third     G/E
+Fourth   W/T   
+
+[[page 4]]
+STEP 6: Delete the Cipher Text X at position 131 and adjust text. 
+STEP 7: Looking at ZFPK of the K4 block matrix. 
+STEP 8: Reverse the key to read KPFZ. 
+STEP 9: K over K is your first decode, continue with the type-1 STEGO method. 
+STEP 10: Reverse KCOL to read LOCK. 
+First      K/K
+Second  P/C
+Third     F/O
+Fourth  Z/L   
+X
+Delete the X
+
+[[page 5]]
+If you are using DeKryptos.com you can use the following: 
+Step 1: Press the II in the top left to load the K2 chart. 
+Step 2: Make sure you have the cipher (black) text layer selected. 
+Step 3: Reverse your masking text (Black CT). 
+Step 4: Set marker to position 126. 
+Step 5: Select the STEG tool in the top right corner. 
+
+[[page 6]]
+ 
+Step 6: Click 
+to Load STEG text from the STEG field. 
+ 
+Step 7: Reverse STEG text. 
+Step 8: From right to left, decode using a type-1 STEGO method. 
+ 
+Step 9: Reverse STEG text in the STEG tool. 
+ 
+Step 10: Press the scribe button to apply. 
+ 
+Step 11: Click	
+to load STEG text from the STEG field. 
+ 
+Step 12: Reverse STEG text. 
+ 
+Step 13: Delete the X (pos 131) by clicking on the text then press the delete 
+button. 
+Step 14: set your cursor to position 86. 
+Step 15: Press the STEGO type-1 method 4 times. 
+Step 16: Reverse the STEG text again. 
+Step 17: Press the scribe button to apply decode to the STEG field.

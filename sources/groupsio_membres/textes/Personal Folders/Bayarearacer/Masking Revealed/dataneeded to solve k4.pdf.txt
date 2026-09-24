@@ -1,0 +1,397 @@
+[[page 1]]
+Data needed to solve K4. 
+ 
+I believe this is all the data needed to solve K4. The question is how to apply the mask to cipher 
+“mask control”, and how is the mask word is used on the cipher. 
+The clues to this is in the words given with berlin clock. It’s a digital clock so this is a digital 
+solution along with the morse section that misspelled iQlusion. 
+Now is the mask XOR, modulo 26, is the mask control binary, nibble, or hex. 
+Is it a shift count for two rings “L” and the normal A-Z. 
+ 
+K1 point to L 
+Between subtle shading and the absence of light lies the nuance of iqlusion. 
+Notice the misspelling … “L” 
+This is also the letter that is out of line spatial encoded. 
+ 
+N GHIJLMNQUVWXZKRYPTOSABCDEF  GHIJL 
+This points to this alphabet as one of the keys to use for k4? 
+ 
+ 
+A B C D E F G H I 
+J 
+K 
+L 
+M 
+N 
+O 
+P 
+Q 
+R 
+S 
+T 
+U 
+V 
+W X 
+Y 
+Z 
+1 2 3 4 
+5 6 7 
+8 
+9 1
+0 
+1
+1 
+1
+2 
+1
+3 
+1
+4 
+1
+5 
+1
+6 
+1
+7 
+1
+8 
+1
+9 
+2
+0 
+2
+1 
+2
+2 
+2
+3 
+2
+4 
+2
+5 
+2
+6 
+ 
+G H I 
+J 
+L M N Q U V 
+W X 
+Y 
+Z 
+K 
+R 
+Y 
+P 
+T 
+O 
+S 
+A 
+B 
+C 
+D 
+E 
+1 
+2 3 4 5 6 
+7 
+8 
+9 
+1
+0 
+1
+1 
+1
+2 
+1
+3 
+1
+4 
+1
+5 
+1
+6 
+1
+7 
+1
+8 
+1
+9 
+2
+0 
+2
+1 
+2
+2 
+2
+3 
+2
+4 
+2
+5 
+2
+6 
+ 
+K R Y P T O S A B C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+L 
+M 
+N 
+Q 
+U 
+V 
+W X 
+Z 
+1 2 3 4 5 6 
+7 8 9 1
+0 
+1
+1 
+1
+2 
+1
+3 
+1
+4 
+1
+5 
+1
+6 
+1
+7 
+1
+8 
+1
+9 
+2
+0 
+2
+1 
+2
+2 
+2
+3 
+2
+4 
+2
+5 
+2
+6 
+ 
+MASK 1101 = HEX D FROM D AYHR  
+MASK CONTROL in 4 bit nibbles . a 
+s a binary mask E= 1110 ; 3=0011; 7=0111 ; 1=0001 ; 0=0000 
+: E033337333137337313337131713 
+ 
+E 0 3 3 3 3 7 3 3 3 
+1 
+3 
+7 
+3 
+3 
+7 
+3 
+1 
+3 
+3 
+3 
+7 
+1 
+3 
+1 
+7 
+1 
+3 
+
+[[page 2]]
+1 2 3 4 5 6 7 8 9 1
+0 
+1
+1 
+1
+2 
+1
+3 
+1
+4 
+1
+5 
+1
+6 
+1
+7 
+1
+8 
+1
+9 
+2
+0 
+2
+1 
+2
+2 
+2
+3 
+2
+4 
+2
+5 
+2
+6 
+2
+7 
+2
+8 
+ 
+CIPHER 
+OBKR 
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO 
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP 
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+ 
+Either the first or last letter is to be discarded, I think it’s the last letter, its just a pad. 
+ 
+This the mask control extract “-“ = no character present ; character present = 1 
+extract starts at 23 “T” because T is your location. 
+ 
+ 
+1 2 3 4 5 6 7 8 9 1
+0 
+1
+1 
+1
+2 
+1
+3 
+1
+4 
+1
+5 
+1
+6 
+1
+7 
+1
+8 
+1
+9 
+2
+0 
+2
+1 
+2
+2 
+2
+3 
+2
+4 
+2
+5 
+2
+6 
+2
+7 
+2
+8 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+T 
+- 
+- 
+- 
+- 
+- 
+J 
+- 
+- 
+- 
+- 
+R - 
+- 
+X - 
+- 
+- 
+- 
+- 
+A 
+- 
+- 
+- 
+R 
+- 
+I 
+- 
+I 
+- 
+- 
+- 
+- 
+- 
+V - 
+E - 
+A R I 
+E D F 
+- 
+E 
+P 
+G 
+I 
+- 
+E 
+- 
+C 
+- 
+I 
+B 
+R 
+- 
+R 
+O 
+P 
+R 
+I 
+F C G N H T R I 
+K 
+Q 
+R 
+K 
+T 
+A 
+E 
+A 
+E 
+Y 
+B 
+R 
+E 
+- 
+- 
+K 
+J 
+Y 
+A 
+ 

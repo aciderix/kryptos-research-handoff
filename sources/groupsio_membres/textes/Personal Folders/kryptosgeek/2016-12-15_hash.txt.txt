@@ -1,0 +1,30 @@
+    (....)certutil -hashfile 2016-12-15_01.txt MD5
+    MD5 hash of file 2016-12-15_01.txt:
+    eb 9b ff 39 47 3e 8f 14 62 7e 3b 7f a4 e1 57 75
+    CertUtil: -hashfile command completed successfully.
+    
+    (....)certutil -hashfile 2016-12-15_02.txt MD5
+    MD5 hash of file 2016-12-15_02.txt:
+    eb 9b ff 39 47 3e 8f 14 62 7e 3b 7f a4 e1 57 75
+    CertUtil: -hashfile command completed successfully.
+    
+    (....)certutil -hashfile 2016-12-15_03.txt MD5
+    MD5 hash of file 2016-12-15_03.txt:
+    eb 9b ff 39 47 3e 8f 14 62 7e 3b 7f a4 e1 57 75
+    CertUtil: -hashfile command completed successfully.
+    
+    (....)certutil -hashfile 2016-12-15_01.txt MD5
+    MD5 hash of file 2016-12-15_01.txt:
+    eb 9b ff 39 47 3e 8f 14 62 7e 3b 7f a4 e1 57 75
+    CertUtil: -hashfile command completed successfully.
+    
+    (....)certutil -hashfile 2016-12-15_02.txt MD5
+    MD5 hash of file 2016-12-15_02.txt:
+    eb 9b ff 39 47 3e 8f 14 62 7e 3b 7f a4 e1 57 75
+    CertUtil: -hashfile command completed successfully.
+    
+    (....)certutil -hashfile 2016-12-15_03.txt MD5
+    MD5 hash of file 2016-12-15_03.txt:
+    eb 9b ff 39 47 3e 8f 14 62 7e 3b 7f a4 e1 57 75
+    CertUtil: -hashfile command completed successfully.
+    

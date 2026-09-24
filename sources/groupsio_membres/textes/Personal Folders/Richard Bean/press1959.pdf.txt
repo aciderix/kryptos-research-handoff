@@ -1,0 +1,3071 @@
+[[page 1]]
+AGARD FLIGHT TEST MANUAL 
+VOLUME IV 
+PART IV C 
+POWER SPECTRAL METHODS OF ANALYSIS AND THEIR 
+APPLICATION TO PROBLEMS IN AIRPLANE DYNAMICS 
+By 
+Harry Press 
+National Advisory Committee for Aeronautics 
+and 
+John W. Tukey 
+Bell Telephone Laboratories, Inc. 
+
+[[page 2]]
+IYC:1
+IYC:2
+IYC:3
+IYC:4
+IYC:5
+VOLUME IY, PART IY C
+CHAPTER CONTENTS
+INTRODUCTION
+RESPONSE DETERMINATION FOR ARBITRARY DISTURBANCES
+(a)
+Fourier Series
+(b)
+Fourier Integral
+(c)
+Step and Impulse Response Functions
+RANDOM PROCESSES
+(a)
+The Generation of Random Processes
+(b)
+Approximately Gaussian Process
+(c)
+Relations Between Spectra and Time History Characteristics
+in the Gaussian Case
+(d)
+Cross-Spectra
+(e)
+Non-Gaussian Processes
+(f)
+Input-Output Relations
+(g)
+Significance of Power Spectral Techniques
+THE MEASUREMENT OF POWER SPECTRA
+(a)
+Aliasing
+(b)
+Limited Resolution
+(c)
+Sampling Errors
+(d)
+Other Errors
+(e)
+Spectral Windows
+(f)
+Prewhitening
+APPLICATIONS
+Page
+IYC:1
+IYC:2
+IYC:2
+IYC:3
+IYC:4
+IYC:4
+IYC:6
+IYC:6
+IYC:9
+IYC:lO
+IYC:lO
+IYC:ll
+IYC:15
+IYC:15
+IYC:16
+IYC:17
+IYC:17
+IYC:19
+IYC:19
+IYC:20
+IYC:21
+(a)
+Disturbance Characteristics
+(b)
+The Effect of Low Damping in Short Period on Loads
+in Rough Air
+(c)
+Effect of Wing Bending Flexibility on Wing Bending
+Moments in Rough Air
+(d)
+Effects of Variations in Turbulence Across the Airplane Span
+(e)
+Buffeting Loads
+REFERENCES
+APPENDIX
+IYC:23
+IYC:25
+IYC:29
+IYC:29
+IYC:31
+IYC:32
+A
+B
+C
+THE NUMERICAL DETERMINATION OF POWER SPECTRA
+ANALOG DETERMINATIONS OF POWER SPECTRA
+CRUDE ASSESSMENT OF POWER SPECTRA
+IYC:35
+IYC:38
+IYC:39
+
+[[page 3]]
+IVC:1 
+INTRODUCTION 
+The field of dynamics is largely con­
+cerned with the response of systems (me­
+chanical, electrical, etc.) to various types 
+of disturbances. 
+A number of techniques 
+exist for the analysis of certain types of 
+disturbances and these have found wide ap­
+plication in many fields. 
+The use of res­
+ponses to step inputs, pulse inputs, and 
+sinusoidal inputs is already familiar and 
+useful in many aeronautical areas. 
+Fourier methods in particular have found 
+wide regions of application in aeronautics 
+and have provided many useful results. In 
+these cases, the methods of analysis permit 
+the synthesis of responses for linear sys­
+tems to certain types of arbitrary but speci­
+fied disturbances. 
+However, if the disturb­
+ances are aperiodic and nondissipati ve, these 
+methods will generally no longer apply. 
+Furthermore, if the disturbances contain an 
+element of chance or randomness and cannot 
+be defined precisely, but only by certain 
+probability distributions and average values, 
+the foregoing methods can no longer be used 
+and more general techniques are required. 
+The introduction of a chance or random 
+element leads naturally to the application of 
+probability and statistical notions which in 
+combination with classical Fourier tech­
+niques have in recent years evolved into a 
+general technique for the analysis of prob­
+lems of this type. These techniques stem 
+from the field of random process theory 
+and from generalized harmonic analysis. 
+Of particular appropriateness for present 
+purposes are the methods centered around 
+the use of power spectra. 
+The motivation and early development 
+of power spectral techniques had its roots 
+in studies of economic time series at the 
+turn of the century. In the physical sciences, 
+the first applications were concerned with 
+the problems of light, the Brownian motion 
+of particles, and turbulence. 
+The develop­
+ment of a rigorous mathematical theory is 
+?ven more recent and appears to be largely 
+due to Kolmogoroff and Wiener. 
+Prior to 
+and during the last war, many useful ap­
+plications of these techniques were made in 
+the fields of communications and servo-
+mechanisms. 
+The applications of these techniques to 
+aeronautical problems appear to have been 
+initiated since the last war and are thus 
+still in an early stage of development. 
+Already, the list of aeronautical problems 
+to which these techniques have been use­
+fully applied include: 
+(a) Gust loads on airplanes 
+(b) Buffeting loads 
+(c) Acoustic noises 
+(d) Tracking errors and human response 
+studies 
+(e) Wind tunnel turbulence 
+(f) 
+Runway roughness (land and sea) 
+(g) Electronic noises in guidance and 
+gunnery systems. 
+Refs. 1 to 24 provide a partial list of un­
+classified papers in this area. Although this 
+list is already impressive, there will no 
+doubt be a further rapid development in these 
+areas and extensions to new areas of ap­
+plication. 
+In spite of the large amount of activity 
+in these areas of aeronautics, there still 
+appears to be some lack of appreciation 
+of the basic motivation of power spectral 
+techniques, the fundamental relations and 
+their limitations, and some of the problems 
+encountered in applications. This condition 
+has in part arisen from the specialized 
+nature of the applications so far made, the 
+scattered nature of the literature, and the 
+lack of definitive treatments in the engi­
+neering literature. 
+The application of these techniques in 
+flight test studies also places some special 
+IVC:1 
+
+[[page 4]]
+requirements on instrument characteristics, 
+flight test techniques, and data reduction 
+procedures. For these reasons, it appeared 
+appropriate to include a paper in this volume 
+which would at least survey the basic notions, 
+the fundamental relations of these newer 
+techniques and their relation to classical 
+techniques, and some of the problems en­
+countered in applications. 
+If the disturbance is characterized by 
+certain probability distributions or average 
+values, then it is necessary to consider 
+all disturbances having these characteristics. 
+Another way to say this is that we are con­
+cerned not with a single time function, but 
+an ensemble of time functions having the 
+required properties. 
+We shall require an 
+analytic representation for such ensembles 
+of functions and rules for performing input-
+output or response calculations. 
+Also, in practice, finite and incomplete 
+data are the rule; a small piece of one time 
+history is frequently available and must be 
+used to estimate results for more general 
+situations. 
+This is the familiar inference 
+problem of the statistician. 
+This matter, 
+in the present case, turns out to be far from 
+a trivial one and the problems that stem from 
+it can be largely blamed for apparent incon­
+sistencies in applications, and for the long 
+delay in the practical applications of these 
+general techniques. In fact, a clear apprécia -
+tion of these problems and useful results 
+in this respect are only very recent achieve­
+ments (Ref. 25) and will be considered herein. 
+The order of presentation will start with a 
+brief discussion of the classical techniques 
+for response determination to arbitrary dis­
+turbances. The concepts of power spectra and 
+the relations between the spectra and time-
+history characteristics will then be briefly 
+reviewed and the relations between the power 
+spectra of a disturbance and the response to 
+the disturbance for a linear system will then 
+be presented. The practical problem of meas­
+uring power spectra from finite data will 
+then be considered and digital and analog 
+techniques discussed. Finally in the interest 
+of concreteness, some examples of results 
+obtained in aeronautical applications will be 
+described. 
+IVC:2 
+RESPONSE DETERMINATION 
+FOR ARBITRARY DISTURBANCES 
+In the way of background, some of the 
+more important classical techniques that 
+are used in the determination of the re­
+sponses to arbitrary disturbances are briefly 
+reviewed. Fourier techniques are described, 
+as these techniques, when fused with statis­
+tical theory, form the basic mathematical 
+structure for spectral methods. 
+No effort 
+is made to be complete, but rather the main 
+ideas are given in a manner which permits a 
+natural extension into the random process 
+applications. 
+(a) Fourier Series 
+Under certain conditions, an 
+arbitrary 
+function x(t) defined in the interval T/2 to -T/2 
+may be represented by a Fourier series ex­
+pansion as follows: 
+oo 
+oo 
+x ' f ) = Ó 
+a n
+ s i n 
+ù ç * + I 
+bn cos ùçß 
+(1) 
+where 
+ùç=çù0 
+n = 1, 2, 3 . . . 
+ùï = 1Ó 
+1 
+a n = è- f 
+x (t) sin ùç t dt 
+2 
+T 
+bn = ^ JZ 
+x ( t ) cos ùç t dt 
+_ J 
+2 
+. 
+„I 
+bo = T J2 x(t) dt 
+_ T 
+2 
+IVC:2 
+
+[[page 5]]
+The function defined by Eq. (1) is recurring 
+with period equal to T. Thus 
+x(t)= x(t ± kT) 
+for k = 0, 1, 2 . . . 
+(^) 
+It will be helpful to rewrite Eq. (1) into 
+other equivalent forms; the complex form, 
+oo 
+J<O 
+x(t) = Ó 
+C ne , aV 
+-oo 
+(3) 
+where 
+bn"'q n 
+c o = bo 
+bn + 'Qn 
+°-n " 
+2 
+and in terms of amplitudes and phases 
+co 
+X (t) = Σ 
+Cn COS (<unt - ø ç ) 
+n = o 
+(4) 
+where 
+cn = y/on + bn 
+ø ç = arc tan a n / b n 
+The 
+representation 
+of the arbitrary 
+function x(t) as the sum of a series of ele­
+mental sine and cosine terms permits the 
+ready determination of the response y(t) of 
+a linear system (but only because of its 
+linearity) to this disturbance by super­
+position, as follows: 
+y ( t ) = Ó 
+Ô ( ù ç ) è ç â '
+ù ç * 
+-co 
+(5) 
+where Ô(ù^ is the frequency response 
+function for the system response to a speci­
+fied disturbance and describes the (amplifica­
+tion and phase shift) response to the dis­
+turbance eiü)n*. Eq. (5) may also be expressed 
+in real form analogous to Eq. (4), as 
+y(t)=I lTK)|cncosUnt-vf>n + 0n) 
+n = 0 
+(6) 
+where the bars designate the amplitude of 
+the complex quantity (amplification factor) 
+and èç is the corresponding phase shift, so 
+that 
+Ô(ù ç) = | Ô ( ù ç ) | â ß ï ç , 
+(b) Fourier Integral 
+In order to extend the preceding results 
+to nonperiodic phenomena, the limit of Eq. 
+(3) is taken as T—oo, ù 0 —0. The continuous 
+form of Eq. (3) becomes 
+oo 
+/ 
+-00 
+x(t) = 2lF / * ( ù ) â' ù ß <*ù 
+(7) 
+where, as the limit is approached 
+and 
+r _ 
+XM . 
+r 
+-oo 
+Χ(ω) = J 
+x ( r ) e ' i W T d T . 
+(8) 
+The quantity ×(ù) is called the spectrum 
+of x(t) and ×(ù) do> denotes the contribution 
+of y(t) to the frequency components between 
+ù and ù + άω. 
+These relations are fre­
+quently written as 
+co 
+/ 
+-co 
+x(t)= jz 
+f d,e i w t f x(r)e-iwT ór 
+00 
+( 
+-CD 
+(9) 
+which is the well-known Fourier integral 
+theorem. 
+IVC:3 
+
+[[page 6]]
+For this representation to apply, it is of 
+course necessary for the defining integral 
+to be convergent. The essential condition is 
+that as t—·oo, x(t) — 0 at a reasonably fast 
+rate. 
+This condition acts as a serious lim­
+itation on the use of this representation. 
+If similar limiting processes are carried 
+out with respect to Eq. (5) as were applied 
+to Eq. (3), the following result is obtained 
+for the response 
+oo 
+y ( t ) 
+= fc / 
+Ô(ù)×(ù) e
+M áù. 
+-CO 
+(10) 
+Eq. (10) gives the response of a system 
+to the arbitrary disturbance x(t). 
+It is, 
+of course, necessary for the defining integral 
+to be convergent which in turn also requires 
+that the disturbance x(t) be dissipating and 
+that the system be damped. 
+(c) Step and Impulse Response Functions 
+Another useful technique for the develop­
+ment of the response to arbitrary disturb­
+ances is based on the superposition of prop­
+erly spaced responses to unit step and im­
+pulse disturbances. 
+In these terms, the 
+response to a disturbance starting at time 
+zero is given by the well-known Duhamel's 
+integral 
+y(t)= x(o)A(t) + f 4 r ^ - A ( t - r ) d r 
+(H) 
+where A(t) is the response to a unit step 
+at time 0. 
+Integrating Eq. (11) by parts yields the 
+equivalent form 
+t 
+y(t) = x(t) A(o) + J ÷(ô) A'(t-r) dr 
+o 
+(12) 
+where the function A1 (t) is the derivative of 
+A(t) with respect to time and is known as the 
+unit impulse response. 
+Ifx(0) = 0andA(0) = 0, Eqs. (ll)and(12) 
+may be written simply as 
+t 
+y(t) = f 
+x'(r) A (t-r) dr 
+o 
+t 
+*J X(T) A' ( t - r ) d r . 
+(13) 
+These relations are the input-output re­
+lations for an arbitrary but specified dis­
+turbance. 
+The unit step response A(t) and 
+the unit impulse response A1 (t) are also 
+simply related to the frequency response 
+function, as follows: 
+oo 
+Ô(ù) = / 
+A'(t)e iajîdt 
+o 
+00 
+= \ω f A ( t ) e i ( j t d t 
+0 
+(14) 
+Ãù é i 
+é 
+provided that / 
+A (t) 
+dt is finite. 
+In principle, Eq. (13) permits the deter­
+mination of responses to arbitrary disturb­
+ances in a relatively straightforward manner, 
+but this is usually complicated. 
+Analytical 
+solutions will only be practical in the sim­
+plest cases. 
+When x(t) has to be found, ap­
+proximation of the integral equation by a 
+system of many linear equations is not dif­
+ficult, but solution of the linear equations 
+requires the inversion of a matrix, which 
+appears practical in only the nearly sim­
+plest cases. 
+IVC:3 RANDOM PROCESSES 
+So far, we have considered arbitrary but 
+determinate (nonrandom) functions and have 
+been able for certain cases to obtain their 
+IVC:4 
+
+[[page 7]]
+representation by superposition of elemental 
+type functions such as sines and cosines, 
+unit steps, and impulses. There exist many 
+disturbances in the physical, engineering, and 
+social sciences as well as in aeronautics 
+where the disturbance of interest is not so 
+well defined. 
+Fig. IVC:1 illustrates three 
+examples of this kind that occur in aero­
+nautics. 
+This indefiniteness arises from an ele­
+ment of chance or randomness which affects 
+the details of the function. A simple example 
+is furnished by the fluctuations of buffeting 
+pressure as measured at a point on a wing. 
+If this test were repeated, the exact time 
+history would not be repeated exactly, but 
+the essential character, averages, or other 
+statistical characteristics could be expected 
+to be unchanged. 
+If we are interested in the buffeting fluc­
+tuations, then our method of representation 
+may not be very adequate if we describe only 
+one test result. We would instead prefer to 
+use a representation which adequately des­
+cribes the ensemble of functions that would 
+be obtained if the test were repeated many, 
+many times. 
+This ensemble of functions is 
+referred to as the random process. In many 
+physical cases, this ensemble can be repre­
+sented in a simple and useful manner by means 
+of random process theory. Accounts of the 
+mathematical theory of random processes 
+may be found in Refs. 26 to 29. 
+In the present paper, we shall restrict 
+ourselves to stationary processes; that is, 
+functions whose characteristics do not change 
+with time. This restriction is not too serious 
+although useful results have already been ob­
+tained 
+for 
+nonstationary or evolutionary 
+processes. However, the greatest simplifica­
+tion and usefulness is associated with the 
+stationary processes. 
+Some of the results to follow are restricted 
+to Gaussian processes. 
+However, many 
+EXAMPLES OF RANDOM DISTURBANCES 
+VERTICAL 
+VELOCITY 
+ROUGH AIR 
+LIFT 
+LIFT 
+_ L _ 
+BUFFETING 
+ELEVATION 
+_J_ 
+RUNWAY ROUGHNESS 
+Fig. IVC:1 Examples of Random Disturbances 
+IVC:5 
+
+[[page 8]]
+processes of aeronautical interest are closely 
+approximated by Gaussian processes, and 
+these results can usually be applied to good 
+effects. 
+In order to provide a further insight into 
+the concept of a random process, an example 
+of a random process is given. The example 
+chosen is a special one, involving the general 
+form of the Fourier series expansion of an 
+arbitrary function, and leads conveniently to 
+the important case of a Gaussian random 
+process. 
+(a) The Generation of Random Processes 
+If we make use of the Fourier series 
+representation of Eq. (4), namely, 
+x (t ) = Ó 
+cn cos(cunt-Yn) 
+n = o 
+(15) 
+where ùç = çù0, it is possible, by imposing 
+random characteristics to the coefficients 
+cn and i(/n, to illustrate quite simply a means 
+of generating a random process. 
+Thus, if we consider the single term 
+x(t) = cn 
+cos ojnt 
+(16) 
+and suppose that cn = 0 or 1 each with prob­
+ability of 1/2, successive random choices 
+of c n lead to a series of functions, one-half 
+of which are everywhere zero, the other half, 
+unit cosines. 
+This example appears trivial but might 
+apply to a simple on-off device. 
+It should 
+be noted that this process is not a stationary 
+process since the average values at a given 
+time depend upon time in a definite manner. 
+Consider next the function 
+x (t) = cos (ùçß - øç) 
+(17) 
+and permit the phase angle ψη to be random 
+with uniform probability for the interval 
+0 to 2 7Γ. 
+We thus generate an ensemble of unit 
+cosine functions. 
+At any time t, the prob­
+ability distribution of x (the relative fre­
+quency of various values of x over the 
+ensemble) is given by 
+p(x,s fyrb-
+-1< x < 1 
+(18) 
+Other statistical characteristics of this 
+process may be likewise derived from Eq. 
+(17). For any time t, we obtain, for example 
+ave |xj = 0 
+ave {x2} = { 
+and we have 
+ave (x(t,) -x(t 2)} = cos ù ç ( ß 2 - t,) 
+where the brackets designate that the average 
+is taken over the ensemble. 
+This process is stationary inasmuch as 
+its statistical characteristics do not depend 
+upon the starting time. 
+(b) Approximately Gaussian Process 
+So far we have considered somewhat 
+trivial processes. 
+A more complicated 
+stationary process may be obtained if use 
+is made of Fourier series representation of 
+Eq. (15) 
+oo 
+x(t) = 
+Σ 
+cn cos (cjnt - øç) 
+n = l 
+where without loss of generality we have 
+assumed that x = 0. 
+If it is assumed that the cn values are 
+fixed constants and the phase shifts ø ç, 
+IVC:6 
+
+[[page 9]]
+are independent and, as before, random with 
+a uniform probability distribution over the 
+interval 0 to 2π9 then an approximation to 
+the 
+interesting 
+and 
+important 
+Gaussian 
+random process is obtained. 
+Inasmuch as 
+x(t) for each given time is the sum of a 
+large number of random and independent 
+variables with finite variance, it follows 
+from the central limit theorem that for this 
+time t, x(t) approximates a Gaussian (or 
+normal) distribution defined by 
+ó í 2 IT 
+_ 
+(19) 
+where cr2= x2 = £ cn/2 (the mean value of 
+x2). 
+The approximation to this distribution 
+becomes arbitrarily good when the largest 
+c n becomes arbitrarily small. 
+The dis­
+tribution of Eq. (19) depends only upon the 
+mean square value of x. 
+It may also be 
+shown that the distribution of x for various 
+times t, , t2, etc. (relative frequency over the 
+ensemble of given combinations of values 
+at t,, t2, etc.) has a multivariate normal 
+distribution. 
+For the case of two values of time, t, and 
+t2, the joint probability distribution of x, 
+and x2 is given by 
+[σζ 
+X, - ó , 
+X2 +2R, 2X| X2 
+/ 2 
+2 
+2 \ 
+2 \ó, ó 2 -R I 2J 
+| 
+(20) 
+where 
+<r, = σ2=σ 
+and where 
+R,2 = ave [x, x2J 
+and (since the average values of x, and x2 
+vanish) is termed the covariance of X| and 
+X 2 . 
+The generalization to the multivariate 
+distribution for t, , t2, etc., is straightforward 
+and can be shown to depend only on such 
+covariances. 
+Inasmuch as the process is a 
+stationary one, the covariances ave (XJ x·; ) 
+will depend only on the time difference j-i. 
+Thus setting j-i = ô , we see that the multi­
+variate distribution depends only on the 
+function R(O, the autocovariance function. 
+In this sense, the autocovariance function 
+R ( T ) is said to define completely the Gaussian 
+process. Also since the process is stationary, 
+averages over time may, in practice, be 
+taken as equivalent to ensemble averages 
+and we may write 
+I 
+R ( T ) = J^coT 
+/ T
+2 x ( t ) x ( t + r ) d t . 
+~2 
+(21) 
+(In the engineering literature R(T ) is 
+frequently called the autocorrelation function 
+although this term more properly should 
+be confined to R(r )/R(o).) 
+The autocovariance function has the fol­
+lowing properties: 
+(a) 
+R(r) = R(-T) 
+(b) 
+R(o) > 
+R ( T ) 
+(c) 
+R(o) = <r2 
+(22) 
+Another function, which is even more 
+useful for many purposes may be obtained 
+by taking the Fourier transform of R ( T ) 
+as follows: 
+oo 
+Ö(ù) = f: J 
+R ( T ) 
+COS 
+ùô Üô 
+0 
+(23) 
+where ö(ù) is the so-called energy or power 
+spectrum of x and plays the central role in 
+subsequent considerations. 
+IVC:7 
+
+[[page 10]]
+The reciprocal relation also holds, namely 
+which is, in general, an important property 
+of a random disturbance. 
+GO 
+R ( r ) = f Ö(ù) 
+COS ùô 6ù 
+If Eq. (23) is rewritten in complex form 
+as 
+oo 
+ÖÌ = ± J R(r)e
+,aiT dr 
+-co 
+(25) 
+and Eq. (21) for R( T), substituted inEq.(25), 
+another expression for the power spectrum 
+may be derived which indicates the relation 
+in the form of Fourier transforms. 
+The 
+formal result obtained is 
+Ö(ù) = jZ% 
+Tj × ô(ù) × ô(-ù) 
+(26) 
+where 
+T 
+÷ ô( ù ) = f7 
+x(t)e" i c j t dt 
+" 2 
+(27) 
+(Since XT (-ù) is the complex conjugate 
+of × ô(ù), the value of Eq. (26) is real and 
+positive.) 
+The quantity ö (ω)άω can be considered 
+to define the contribution to R(0) (or ó2) of 
+the frequency components of x(t) between 
+ù and ù + dco, 
+Inasmuch as the power 
+spectral density function is directly related 
+to the autocovariance function, it likewise, 
+and in the same sense, specifies the Gaussian 
+random process. 
+We shall later see how in 
+the Gaussian case the spectrum is simply 
+related to some of the more important sta­
+tistical characteristics of the time history. 
+For the non-Gaussian case,it also describes 
+the distribution of the power with frequency 
+The power spectral density function has 
+the following properties: 
+(a) 
+Ö(ù) = Ö(-ù) 
+00 
+(b) / * (ù ) d a j = R(0) 
+(C) 
+Ö ( ù ) > 0 
+(28) 
+It may be shown (see Eqs. (1), (4), (26), 
+and Ref. 26) that the Fourier series coef­
+ficients c n and the power spectrum are 
+related as follows. 
+-Jr cn = Ö(ù ç)Äù, 
+where Äù = Ζ^-
+which for T— oo, 
+—* Ö (ù) do; 
+(29) 
+Thus returning to the representation of 
+Eq. (15) we can write 
+oo 
+, 
+x(t) = Ó 
+cos U n t - 
+Øç)*/2Ö(ù 
+)Äù 
+n=| 
+(30) 
+which in continuous form is 
+sometimes 
+written as 
+oo 
+x(t) = f 
+cos ( w t - ø) 
+/2Ö^ùÕüù~ 
+o 
+v 
+(31) 
+The continuous form of Eq. (30) looks 
+somewhat odd but serves to indicate how 
+a time history of x(t) may be generated from 
+a continuous spectrum by random choices 
+IVC:8 
+
+[[page 11]]
+of phase angles. As the interval Äù becomes 
+small, the time functions approach those for 
+the continuous spectrum. 
+(c) Relations Between Spectra and Time 
+History Characteristics in the Gaussian Case 
+The foregoing has served to indicate how 
+the power spectrum completely defines a 
+stationary Gaussian random process. This 
+would tend to imply that all statistical char­
+acteristics of the time history can be deter­
+mined from the spectrum. While this is true, 
+in principle, the expressions are exceedingly 
+complicated, involving integrations in multi­
+dimensional spaces. 
+As a result, simple 
+and useful results have only been obtained 
+for some of the more elementary questions 
+of interest. 
+Such problems are considered 
+in some detail in Part III of Ref. 26. Many 
+of the expressions that have been evaluated 
+are, however, of practical use, and a few 
+of these are noted here. 
+It will be recalled, Eq. (28), that the 
+integral of the spectrum determines the 
+mean square value. 
+The root mean square 
+value may thus be obtained from the spectrum 
+and provides a useful linear measure of the 
+disturbance intensity. 
+If the disturbance 
+x(t) has a normal or Gaussian probability 
+distribution with zero mean, the probability 
+density P(x) is given by 
+(32) 
+The probability distribution defines the 
+proportion of total time that the disturbance 
+is at any value and is in this case completely 
+specified by the root mean square value. 
+Rice (Ref. 26) has derived a number of 
+relations which appear useful in aeronautical 
+applications and are particularly significant 
+for fatigue studies. 
+Of these, the more 
+important appear to be expressions for the 
+average number of times per second that a 
+given value of Xj is crossed with positive 
+slope and the average number of peak values 
+(maxima) per second that are above a given 
+value x, of x. These quantities are indicated 
+in Fig. IVC:2 below 
+Fig. IVC:2 
+The average number of times per second 
+that a given positive value x,, of xis crossed 
+with positive slope (or a given negative value 
+x, , of x is crossed with negative slope) 
+is given by 
+(33) 
+where <*", is the root mean square value of 
+x' (the time derivative of x(t)) and is related 
+to the spectrum of x(t) by the relation 
+ó · = í [ ÷ · . ( ç
+2 ] 
+= 
+[ / ù 2 Ö ( ù ) 
+d c j 
+(34) 
+The expression for the number of peaks 
+(maxima) per second, Np(x,), that are above 
+a given value x, (or the average number of 
+minima or "valleys" per second that are 
+below -xf) 
+is complicated but for large 
+values of y, 
+Np (x,)«N c (x,). 
+(35) 
+For narrow spectra, this approximation 
+IVC:9 
+
+[[page 12]]
+is good over the whole range of values of 
+x, . 
+For most other practical cases, it 
+appears that this approximation is quite 
+good for x, > 2ó\ The average total number 
+of peak (maxima) values of x, (or the number 
+of minima) which includes the maxima for 
+positive and for negative values of x,, is 
+given simply by 
+H > 
+NP^ £F 
+(36) 
+where 
+A / [ X " ( Î ) ] * = Ã / ù 4 ö ( ù ) <JCÜJ 
+L 0 
+The 
+foregoing 
+relations 
+between 
+the 
+spectrum and the peaks, Eq. (33) to (36), 
+which apply to completely Gaussian disturb­
+ances, have been tested empirically in several 
+aeronautical cases with success, as will be 
+illustrated in the applications to be presented. 
+(d) Cross-Spectra 
+where cxy(cj) and qXy(oo) are the cospectrum 
+and the quadrature spectrum, respectively. 
+The basic symmetry conditions and in­
+equalities satisfied by the cross-spectra are 
+(1) 
+cXy(o)) = -Cyxlûj) = cXy(-ci>) 
+(2) 
+q x y (<o) = - q y x (ù) = - q x y (-ù) 
+(3) 
+[ cxy^)] 4- [ g x y U ) f ^ 
+Ö÷ (ù) Öy (ù) 
+00 
+(4) ave { x ( t ) y ( t ) } = ± f 
+Ö (ù) ïù 
+- 0 0 
+(39) 
+We may consider that the cospectrum 
+cXy (ù) and the quadrature spectrum q xy (co) 
+represent the power of the in-phase and 90 
+degree out-of-phase components respectively 
+of the two disturbances. 
+The generalization of power spectra which 
+is already of substantial importance in aero­
+nautics and whose importance can be expected 
+to increase is the generalization to cross-
+spectra of two or more "noises." Here for 
+continuous spectra we may write 
+oo 
+ave {x(t) y (t + r ) } = g" T ^ ^ x y ^ 
+ïù 
+-oo 
+(37) 
+where <£>xy (ω) dœ is the (complex) cross-
+spectrum, and its real and imaginary parts, 
+defined by 
+Φ χ ν (fti) = C x y (ω) + i qYV (ω) 
+xy 
+xy 
+(38) 
+A number of engineering applications of 
+cross-spectra will be indicated subsequently. 
+(e) Non-Gaussian Processes 
+The preceding discussion has been con­
+fined to the simplest case of Gaussian 
+processes. 
+For these processes, we noted 
+that the process was essentially defined by 
+the autocovariance functions and power spec­
+trum. 
+Although the autocovariance function 
+and power spectrum apply in general, they 
+no longer completely define the process in 
+the non-Gaussian case. 
+Third and higher 
+order moment functions and higher order 
+spectra appear required in these cases. 
+Investigations of these higher order moments 
+are only beginning, and some initial results 
+have been given, for example, in Ref. 13. 
+IVC.10 
+
+[[page 13]]
+(f) 
+Input-Output Relations 
+Single Disturbance. A particularly useful 
+and simple relation exists for linear systems 
+between the spectrum of a disturbance and 
+the spectrum of the system response to the 
+disturbance. 
+From Eqs. (13) and (14) we may write 
+Õ(ù) = ×(ù) Ô(ù) 
+which leads to 
+I 
+I2 
+Ö0 (ù) = ö| (ù)|ÔÀù)| 
+(40) 
+where 
+ö ( ù ) 
+is the output spectrum 
+ö[(ù) 
+is the input power spectrum 
+Ô(ù) 
+is the frequency response function 
+and describes the system response to sinus­
+oidal disturbances of various frequencies. 
+Eq. (40) indicates that the response at a 
+given frequency depends only on the input 
+and the system admittance characteristics 
+at that frequency. This is readily plausible 
+for linear systems. 
+In the interest of con-
+creteness, the application of this relation 
+to the gust loads case is illustrated in Fig. 
+IVC:3. 
+The top sketch on this figure is the input 
+spectrum and in this case represents the 
+spectrum of atmospheric vertical velocity. 
+The frequency argument ßß , which is 2π 
+divided by the gust wavelength, is introduced 
+in place of ù because gust disturbances ex­
+perienced by an airplane are essentially 
+space disturbances rather than disturbances 
+in time. 
+The several measurements that 
+have been made to establish this spectrum 
+will be reviewed later. 
+The second sketch 
+|Ô(ù)| 
+represents 
+the squared amplitude of a specified airplane 
+response, such as the airplane normal ac­
+celeration, to sinusoidal gusts of unit am­
+plitude and of frequency il . 
+The sketch 
+shown is a typical normal acceleration re­
+sponse for a moderately flexible airplane. 
+The peaks of the curve represent airplane 
+modes of response such as the free body 
+and fundamental wing bending modes illus­
+trated. 
+The 
+output spectrum 
+Öï(ßÀ) is 
+obtained 
+in 
+accordance 
+with 
+Eq. (40) 
+as 
+the 
+product 
+of the first two curves 
+Ö, (Ù) x | Ô(â) | 
+and gives the power spec­
+trum of either normal acceleration or a 
+relevant stress. 
+The lack of specific accounting for the 
+phase in Eq. (40) for either the disturbance 
+or the system response is an important 
+simplification 
+introduced by the spectral 
+technique, and is frequently misunderstood. 
+The reason for this condition may be indi­
+cated simply for the Gaussian case by return­
+ing to the Fourier series representation of 
+Eq. (15). 
+GO 
+x ( t ) = Σ c n cos ( ù ç ß - ø ç ) . 
+The response to this disturbance for a 
+linear system can in turn be written as in 
+the Fourier Series case Eq. (6) 
+oo 
+, 
+-
+y ( t ) = Ó 
+cn I T ( ù ç ) I cos (<unt - ^n + 0 n ) . 
+(41) 
+Inasmuch as the initial phase angles ø ç 
+are random and independent with a prescribed 
+uniform probability distribution, the adjusted 
+phase angle ( ön - ø ç ) will likewise be random 
+with the same probability distribution. Thus 
+the output y(t) is likewise a Gaussian process 
+IVC:11 
+
+[[page 14]]
+Φί(β) 
+INPUT 
+CHARACTERIZES THE 
+ATMOSPHERE 
+Ai=MEAN SQUARE VALUE 
+OF GUST VELOCITY 
+< 
+Ω 
+>—· 
+to 
+TZ(Ü) 
+BENDING-7 
+FREQUENCY RESPONSE 
+CHARACTERIZES THE 
+AIRPLANE 
+Φ0(ΰ) = 
+φ|ΧΤ 
+OUTPUT 
+CHARACTERIZES THE 
+RESPONSE 
+A0=MEAN SQUARE VALUE 
+OF RESPONSE 
+L - L ^ 
+Figure IVC:3 Input-Output Relation for Power Spectra 
+
+[[page 15]]
+and is also completely specified by the coef­
+ficients fCn |Ô(ù)|] . 
+By virtue of Eq. (29), we may write for 
+T — oo that 
+2 (cn I T (ù)|) 
+" öã (ù) όω * 
+(42) 
+Thus, the output is likewise completely 
+specified by the power spectrum. 
+Another useful relation for linear systems 
+exists between the cross-spectrum of the 
+input and output and the power spectrum of 
+input. 
+We note from Eqs. (13) and (14) that 
+in the frequency plane we may write that 
+Õ(ù) = X (ù) ÔÀù) . 
+(43) 
+This leads to the following relation between 
+the spectrum of a disturbance and the cross-
+spectrum between the input and output: 
+<ï>xy (ù) = ö ÷ (ù) j (ù ) . 
+(44) 
+An important use of this equation is its 
+application in the determination of both the 
+amplitude and phase of the frequency response 
+function 
+from 
+simultaneous 
+time-history 
+measurements of the disturbance and the 
+system response. 
+Multiple Disturbances. It is worth noting 
+that the response of a system to several 
+simultaneous random disturbances such as 
+vertical and longitudinal turbulence may also 
+be handled in an analogous manner to that 
+for the single disturbance. 
+For the case of two disturbances, the 
+response y(t) is given by 
+oo 
+oo 
+y ( t ) = / x , ( t l ) A , ( t - t | ) d t l + / x 2 ( t l ) A 2 ( t - t l ) d t ( 
+0 
+0 
+(45) 
+where x, (t) and x2(t) are the two disturbances 
+and A, (t) and A2(t) are the unit impulse re­
+sponses of the system to the respective dis­
+turbances. 
+In terms of the power spectra, the output 
+is then given by 
+I
+t
+2 
+I
+I
+2 
+Öã(ù) = ö
+÷ (ù) |Ô,(ù)| 
++ ö
+÷ ( ù )|Ô2(ù)| + 
+Ö÷, (ù) × 2 Ô(*(ù)Ô 2(ù) +Ö÷ 2(ù) ÷ Ô,(ù)Ô*(ù) 
+(46) 
+where Ö÷ 
+(ù) and Ö ×2 (ù) are the power 
+spectra oi x, and x2. 
+T, (ù) and Ô2(ù) are the system frequency 
+response functions for the respective dis­
+turbances 
+(the 
+asterisk 
+designates 
+the 
+complex 
+conjugate), 
+and 
+ö ÷ (ù) ÷ 
+and 
+ö ÷ (ù)÷, are the cross-spectra which for 
+stationary processes are defined by the fol­
+lowing relations 
+oo 
+* x ,
+t w ) x 2
+ = It S Ê ÷ , ÷ 2 ^ 6 ~ , ù Ã dr 
+- 0 0 
+(47) 
+where 
+T 
+2 
+RXl X ? ( T ) = Limit 
+f 
+x , ( t ) x 2 ( t + r).dt . 
+T -? 
+(48) 
+The cross-spectrum in contrast to the 
+power spectrum, it will be recalled, is 
+complex with the real part providing a 
+measure of the in-phase power called the 
+IVC:13 
+
+[[page 16]]
+co-power and this imaginary part providing 
+a measure of the out-of-phase power, called 
+the quadrature power. 
+Eq. (44) may be used directly to deter­
+mine the spectrum of the output to two 
+random disturbances. 
+For purposes of 
+determining the spectrum of the input dis­
+turbances from measurements of the output 
+response, measurements are required in 
+this case of an additional output response, 
+oo 
+oo 
+:(t) = / x , (tl)A3(t-t()dtl + /x 2(t l)A 4(t rt)dt i 
+where A3 and A4 are the unit impulse re­
+sponses for the output quantity Z for the 
+respective disturbances. 
+Measurements of the spectra of y and z 
+and their cross-spectra may be used to 
+obtain the input spectra and cross-spectra. 
+Such applications have, for example, been 
+made in aeronautics and in the determination 
+of two (or more) components of turbulence 
+affecting an airplane in flight (see, for ex­
+ample, Ref. 9). A further generalization to 
+multidimensional disturbances is relatively 
+straightforward 
+and is already important 
+in turbulence, ocean wave, and buffeting 
+studies (see, for example, Refs. 14 and 23). 
+For convenience, the principal aspects 
+of the various techniques discussed 
+for 
+response determination for both arbitrary 
+and random disturbances are summarized in 
+the table at the bottom of the page. 
+COMPARISON OF VARIOUS TECHNIQUES FOR RESPONSE DETERMINATION 
+Type 
+Function 
+Recurring 
+Dissipating 
+Arbitrary 
+Random 
+Technique 
+Fourier 
+Series 
+Fourier 
+Integral 
+Impulse 
+Response 
+Generalized 
+Harmonic 
+Analysis 
+Representation 
+of 
+Input 
+00 
+Σ cncos(u>nt-Vn) 
+00 
+Ì7r/x(a>)eÌ<utda, 
+-00 
+x(t) 
+Power spectrum, 
+Φ(ω) 
+Limit | iv 
+/ίΛ\2 
+,, 
+1
+ 
+1
+ 
+. 
+Transfer 
+Function 
+Τ(ωη) 
+Τ(ω) 
+A'(t), 
+unit impulse 
+response 
+|TM|2 
+Input-Output 
+Relation 
+00 
+XcnT(cün)cos(o>nt-
+00 
+Tir ίτ(ω)Χ(ω) 
+00 
+/x(t)A'(T-t)dt 
+0 
+2 
+φγ(ω) = |τ(ω)|φχ(ω) 
+Φχγ(ω) = Τ(ω)φχ(ω) 
+Nature of 
+Output 
+Information 
+Time 
+history 
+Time 
+history 
+Time 
+history 
+Power 
+spectrum 
+& related 
+statistical 
+characteristics 
+IVC:14 
+
+[[page 17]]
+(g) Significance of Power Spectral 
+Techniques 
+The foregoing discussion has served to 
+indicate the basic concepts and relations of 
+the power spectral and random process 
+techniques. 
+These results have some far-
+reaching implications in regard to aero­
+nautical problems involving random dis­
+turbances. They provide a systematic math­
+ematical framework and technique for the 
+analysis of such problems which formerly 
+were treated by empirical and intuitive 
+methods which were frequently arbitrary. 
+Some of the more important implications 
+that should be noted are the following: 
+(1) The power spectrum provides a 
+compact mathematical representation of a 
+random process. 
+(2) Relative to random disturbances, 
+the significant characteristics of a linear 
+dynamic system are contained in the fre­
+quency response function. 
+(3) The significant characteristics 
+of the response of linear systems to random 
+disturbances may be calculated simply (al­
+though the calculated information is only 
+complete in the case of a Gaussian dis­
+turbance). 
+(4) A need exists for detailed in­
+formation on the spectral characteristics 
+of the random processes that occur in 
+aeronautical applications. 
+(5) These analytical techniques pro­
+vide a means of obtaining results that can 
+be directly correlated with test data for 
+random type disturbances. 
+(6) Response to multiple disturb­
+ances, taking into account 
+interrelations 
+between the disturbances, may be obtained 
+in a systematic fashion. 
+(7) Perhaps 
+the 
+most 
+important 
+result offered by these techniques is the 
+new insight into the dynamic interrelations 
+between disturbances and system responses. 
+This new insight provides a valuable guide 
+in planning new theoretical and experimental 
+investigations. 
+(8) Information on the random type 
+input may be obtained readily from a knowl­
+edge of the system frequency response char­
+acteristics and measurements of the system 
+response. 
+(9) The significance of the effects 
+of changes in the frequency response function 
+on the response to a random disturbance can 
+be evaluated in a systematic fashion. 
+IVC:4 
+THE MEASUREMENT 
+OF POWER SPECTRA 
+From the foregoing, it is clear that the 
+power spectrum plays a central role in the 
+analysis of problems involving random dis­
+turbances. 
+Not only can the spectrum of a 
+stationary random process x(t) be defined 
+in two equivalent ways, namely: 
+2 °° 
+φ (ù) = ψ f 
+R ( T ) COS 
+ωτότ 
+° 
+(49) 
+where 
+, ß 
+R(T) = Limit 1 
+f 
+x(t)x(t + r)dt 
+τ-*ω Τ yT 
+2" 
+and 
+(50) 
+where 
+T 
+× ô (ù) = f 2 x(t)e i w t dt. 
+X 
+"" 2 
+(51) 
+IVC:15 
+
+[[page 18]]
+but it can also be defined in terms of the 
+mean-square fluctuation of the result of 
+filtering the noise. 
+If the process is passed through a filter 
+of frequency 
+response function Ô(ù), the 
+mean square fluctuation is 
+T (ω)| φ{ω) dai 
+(52) 
+and this implicitly defines ö (ù) in terms 
+of such mean square fluctuations. 
+The choice of the relation to be used in 
+practice is a question of computational en­
+gineering. For digital calculations, Eq. (49) 
+appears preferable while for analog tech­
+niques, Eq. (52) is preferable, for reasons 
+to be indicated. 
+We shall here discuss some of the con­
+siderations involved in the measurement of 
+power spectra. 
+Based on these considera­
+tions, a recommended procedure for digital 
+calculations is outlined in Appendix A. A 
+few remarks on analog computers are also 
+given in Appendix B. Crude, rapid, digital 
+methods are discussed in Appendix C. 
+In both Eqs. (49) and (50), the power 
+spectrum is defined in terms of infinite 
+integrals. In practice, the information avail­
+able consists of a piece of x(t) and frequently 
+a very short piece. 
+Thus, the infinite in­
+tegrals of Eqs. (49) to (50) (crude digital 
+methods may be better based on other for­
+mulas) must be approximated. 
+In addition, 
+if the calculations are to be performed nu­
+merically, the evaluations must further be 
+restricted to values at uniformly spaced time 
+intervals. 
+These finite approximations have a number 
+of serious consequences in regard to the 
+accuracy and distortion of the true spectrum. 
+We shall next briefly discuss some of these 
+effects. 
+(a) Aliasing 
+In numerical calculations, we are fre­
+quently concerned with data consisting of 
+values of x(t) at equally spaced intervals 
+of time. 
+Such systematic sampling alters 
+the spectrum in an important way which is 
+often overlooked. 
+The important observa­
+tion is this: "A fast cosine wave systemat­
+ically sampled at regular intervals appears 
+the same as a low cosine wave." 
+See 
+Fig. IVC:4. 
+/- 2 wny 
+/—ω 
+Fig. IVC:4 
+Thus, after sampling, the apparent content 
+at any frequency is the result of superposing 
+the content of many frequencies, which have 
+now become aliases of one another. 
+If we 
+define the Nyquist, angular frequency ù çã by 
+IT 
+ç^ 
+interval between samples 
+(53) 
+then the following angular frequencies 
+ù, 2u) ny ± u),4wny± ù , . . . 
+are confounded and become aliases of one 
+another. 
+This fact has substantial repercussions, 
+both in the interpretation of the analysis and 
+in the design of equipment. In order to avoid 
+difficulties from this source, the interval 
+selected for record reading must be small 
+enough to insure that no appreciable power 
+exists above the corresponding Nyquist fre­
+quency. 
+In practice, this may not always be 
+practicable, and consideration must instead 
+be given to removal of the power at the 
+higher frequencies either by rejection in the 
+measuring instruments or by filtering the 
+recorded measurements. 
+IVC:16 
+
+[[page 19]]
+(b) Limited Resolution 
+present. 
+This problem will be considered 
+further at a later point. 
+The finite length of the record inevitably 
+leads to finite resolving power in frequency, 
+and this means that in practice we can only 
+measure average power over frequency bands 
+of finite widths. 
+This averaging leads to a 
+"smearing" or distortion which may be 
+conveniently viewed as equivalent to con­
+volving the true spectrum with a band-pass 
+filter 
+as given by the following relation: 
+oo 
+^meas (ù) = J <&true(<V Á(ù- ù,) áù, 
+-oo 
+(54) 
+where Á(ù) is the filter or "spectral win­
+dow." 
+Thus, measurements can be con­
+sidered to provide measurements of average 
+power over more or less wide frequency 
+intervals. 
+Ideal "square" filters are impossible to 
+achieve and difficult to approximate either 
+electrically or in numerical calculations. 
+Narrow filters, as we shall see below, have 
+serious drawbacks. The simplest electrical 
+circuits yield filters with a large and roughly 
+triangular transmission region about the 
+center frequency but which have finite (though 
+small) transmission at all frequencies. The 
+effects of these small skirts is freqently 
+troublesome. 
+(The 
+shoulders 
+may be 
+"squared up" considerably without difficulty, 
+but this is not too useful.) 
+Numerical 
+calculations 
+may 
+also 
+be 
+tailored to yield a filter which is roughly 
+a large triangle, but which also contains 
+ripples or side lobes at both adjacent and 
+distant frequencies. 
+Obviously the choice 
+of an appropriate filter or "window" plays 
+an important part in spectral measurement 
+and in large measure determines the dis­
+tortion of the true spectrum due to "dif­
+fusion" or "leakage" of power from adjacent 
+or distant frequencies. 
+The choice of a 
+spectral window will, of course, be partic­
+ularly important for non-uniform spectra 
+and critically important if large peaks are 
+(c) Sampling Errors 
+Sampling errors are the errors resulting 
+from the necessary observation of only a 
+small part of the ensemble of functions of 
+interest. 
+We shall only sketch the broad 
+picture here. 
+The details may be found in 
+Ref. 25. 
+If we consider non-overlapping 
+bands of frequencies 
+narrow enough for 
+ö(ù) to be relatively constant, the input 
+variability to be expected in the Gaussian 
+case can be expressed conveniently in terms 
+of the statistical coefficient of variation. 
+If we estimate 
+Ύ 
+ÄÖ = J Φ(ω) οω 
+then the coefficient of variation for ÄÖ 
+defined by 
+root mean square deviation of ÄÖ 
+average of ÄÖ 
+can be shown from the results of Ref. 25 
+to be given approximately by 
+_ I 
+9-L [(length of record) (ù2~ ù, ) 1 ^ 
+d7Tl 
+J 
+(55) 
+The root mean square deviation provides 
+a useful measure of the statistical reliabil­
+ity of measurements and may be used to 
+determine confidence bands (bands within 
+which the average value may be expected 
+to be with a given probability). 
+If we sub­
+stitute the measured value as a rough esti­
+mate of the average value, the interval 
+defined by 
+ÄÖ ± k RMSA<Ï> 
+which is equal to 
+ÄÖ ± k ^ r [(length of record) (ù2-ù)] 2 
+provides confidence bands for a given prob­
+ability level depending upon the value of k. 
+IVC.17 
+
+[[page 20]]
+If the coefficient of variation is small, 
+say less than 0.2, the estimate of ÄÖ is 
+approximately normally distributed. 
+For 
+this case, the probability levels for several 
+values of k are: 
+k 
+1.0 
+1.65 
+1.96 
+2.58 
+Probability 
+Level 
+0.68 
+.90 
+.95 
+.99 
+If the coefficient of variation is not small, 
+this normal distribution approximation is 
+not very good and a more exact procedure, 
+described in Ref. 25, has to be used. 
+In the foregoing, the true spectrum has 
+been assumed to be essentially constant over 
+the interval of estimation. 
+If the spectrum 
+varies appreciably over the filter band width, 
+the statistical reliability of the estimates is 
+reduced as indicated in Ref. 25. This loss 
+of reliability is one of the many difficulties 
+involved in the measurement of spectra 
+having large variations in density. 
+In practice, estimates of average spectral 
+densities do not refer to averages of the 
+simple sort discussed above. Filters, either 
+analog or digital, in practice as indicated 
+earlier are of the form 
+/ Á(ù)Ö(ù)áù 
+where the window Á(ù) generally consists 
+mainly of a large smooth and roughly trian­
+gular central bulge surrounded by other 
+minor lobes or ripples in the numerical 
+case or continuous side bands in the analog 
+case. 
+For the accuracy required by our present 
+purposes, we can replace such a window 
+by a rectangular window approximately equal 
+in width to the separation Äù = ù 2 - ù, 
+where ù 2 and ùé are the frequencies at 
+which the transmission is one-half the peak 
+value (roughly one-half the base of the 
+triangular central bulge of the filter). 
+It is clear from the foregoing that the 
+sampling variability as measured by the 
+coefficient 
+of variation is approximately 
+inversely proportional to the square root 
+of the record length and the square root of 
+effective width of the spectral window. Thus, 
+increasing the width of the spectral window 
+increases the statistical reliability of the 
+estimates but at the expense of greater dis­
+tortion. Alternatively, narrowing the spectral 
+window decreases the statistical reliability. 
+In practice, a wise compromise is required 
+between these two conflicting considerations. 
+Little is known about the sampling var-
+iabilibity of cross-spectra estimates and 
+this problem is currently under study. Cross-
+spectra are frequently used, as suggested by 
+Eq. (44) in the determination of the frequency 
+response function, viz. 
+(56) 
+If both the spectrum and the cross-spec­
+trum are calculated from the same record 
+samples, the system frequency response 
+function will frequently be well-determined 
+even though the sampling variability of the 
+separate spectra is large. 
+This can occur 
+because the statistical fluctuations in the 
+spectrum and eros s-spectrum are not in­
+dependent. 
+While it would be possible, if the memory 
+time of the system were short compared to 
+the lengths of the available records, to 
+approximate the transfer function using the 
+general expression for the frequency re­
+sponse function for an arbitrary disturbance 
+IVC.18 
+
+[[page 21]]
+starting at time zero 
+/yule' 1"" dt 
+T M -- -% 
+: 
+fxltle 
+dt 
+o 
+(57) 
+the computational labor involved would be 
+substantially greater, and the accuracy of 
+the result would not be appreciably improved 
+(and might be worsened). 
+(d) Other Errors 
+Mention should also be made of the effects 
+of instrument, reading, and computational 
+errors. 
+The effects of such error propaga­
+tion are already critical in many applications 
+and form the motivation for the wide atten­
+tion being given to filtering and data smoothing 
+techniques. 
+The character of these errors 
+will differ widely between cases and may in 
+some cases be critical for spectra deter­
+minations. 
+These errors may frequently be kept 
+reasonably small, of the order of one percent, 
+and tend to be more or less constant with 
+frequency. 
+If the spectrum being measured 
+is reasonably flat, no serious difficulties 
+may be encountered from these sources. 
+However, if the spectrum has a wide range 
+of intensity, the effect of these errors will 
+be small in regions of peak power but may 
+provide a sizeable, if not the major, portion 
+of the power in the lower power regions of 
+the spectrum, thus almost completely hiding 
+the true spectrum from our measurements. 
+Possible ways of avoiding such difficulties 
+are mentioned below at the close of the dis­
+cussion of prewhitening. 
+(e) Spectral Windows 
+We have seen that the choice of the spectral 
+window has important effects on the distor­
+tion and reliability of the spectrum estimates. 
+In the numerical calculation, the approxima­
+tion for the autocovariance function used has 
+important effects on the shape of the spectral 
+window. 
+We can see this clearly if we take 
+Rmeas^ = Rtrue ( r ) a 
+( ô ) 
+where a (T) is a weighting function, we obtain 
+oo 
+-00 
+where the spectral window is given by 
+oo 
+Α(ω) = / 
+a(r)e" , C 0 T dr 
+-oo 
+If we simply truncate the autocovariance 
+where 
+α ( τ ) = Ι 
+-τ0<τ<τ0 
+= 0 
+elsewhere 
+the following is obtained 
+*meas (<"> - J Ö true (ùé > το 
+ôï(ù-ù,) 
+d<ü« 
+where our spectral window is of the(sin x)/x 
+type as shown in the sketch with a sizeable 
+peak at 
+ù = 0 and smaller, although ap­
+preciable side lobes at ù = - (3/4)(ôô/ô0)> 
+(5/4)(ð/ô 0), etc. 
+Clearly, this is not a very satisfactory 
+spectral window. 
+We note that the smaller 
+the value chosen for ô0 , the wider the base 
+of the main peak, a condition favoring sta­
+tistical reliability, but increasing the amount 
+of distortion 
+A significant improvement in the spectral 
+window may be achieved quite simply by an 
+appropriate choice for the weighting function 
+á(ô). 
+(For numerical calculations, the 
+effects of the discrete data must also be 
+taken into account. 
+Blackman in Ref. 30 
+IVC:19 
+
+[[page 22]]
+has shown how the analysis for this case 
+can conveniently be simplified by the use 
+of a "Dirac comb.") 
+We shall pursue this matter no further 
+here, but merely note that the calculation 
+procedure for digital computations outlined 
+in Appendix A incorporates a simple but 
+quite effective modification of this function 
+of the form indicated in Fig. IVC:5. As 
+indicated in the appendix, the spectral win­
+dow is roughly triangular with a base width 
+that may be varied in accordance with the 
+dictates of diffusion and statistical relia­
+bility consideration. The side lobes (or rip­
+ples) are small, ± 2 percent of the center 
+peak value, but sometimes troublesome if 
+the spectrum contains sharp peaks. 
+The 
+direct improvement of this side lobe con­
+dition 
+appears 
+extremely 
+difficult 
+and 
+troublesome. 
+An alternative solution is 
+proposed in the next section. 
+It should also be noted that the use of the 
+truncated autocovariance function in ac­
+cordance with the above discussion greatly 
+reduces the amount of calculation without 
+a loss of significant 
+information. 
+This 
+reduction in the amount of calculation pro­
+vides good reason for the choice of Eq. (49) 
+over Eq. (50) in digital computations. 
+(If 
+i 
+\ 
+SINOJTQ 
+only a few estimates are to be made, Eq. 
+(52) could be used in digital computation, but 
+when the usual number of estimates are re­
+quired Eq. (49) will be preferred.) 
+(f) 
+Prewhitening 
+Because the errors and distortion in­
+troduced in the computation are often rather 
+constant with frequency, the least pressing 
+demands on accuracy will be made by mod­
+erately white (that is, pastel) noise spectra. 
+Such noises will have statistical uncertainties 
+in estimated average spectra densities of 
+about the same size at all frequencies. 
+Demands on accuracy and, conversely, 
+degradation of results from computational 
+noise and distortion may often be reduced 
+by analyzing the spectrum of a transformed 
+noise, whose spectrum has been altered 
+to a known extent and in such a direction 
+as to make its spectrum more nearly white. 
+Such a transformation will be called pre­
+whitening. 
+(It is, of course, understood 
+that when prewhitening is used, the resulting 
+estimates of averaged values of R(r)or<ï>(a)) 
+are to be adjusted in the course of the com­
+putation in a way compensating for this 
+transformation.) 
+Another 
+important 
+consideration 
+also 
+points toward prewhitening. 
+Minor lobes 
+in digital filters 
+and gradual cutoffs in 
+analog filters always exist, and are to be 
+reduced only with difficulty. 
+In the com­
+putational filters involved in the computa­
+tion of estimated average values of Ö (ù), 
+this fact is somewhat uncomfortable, since 
+we would prefer averages over short, clearly 
+restricted frequency bands. Such difficulties 
+with "leakage" or "diffusion" of power are 
+least for a flat spectrum and increase as the 
+possibility increases of a high spectral peak 
+leaking through a minor lobe and contributing 
+an amount comparable with that coming from 
+a low portion of the spectrum under the ma jor 
+lobe. 
+Two methods of prewhitening are avail­
+able once the input is at hand, the two familiar 
+IVC:20 
+
+[[page 23]]
+methods of linear filtering. If we are dealing 
+with an analog signal, we may use an ordinary 
+analog filter. 
+If we are dealing with equi-
+spaced digital data, we use a corresponding 
+digital filter. 
+If L(<*>) is the transfer function of the 
+filter, expressing amplitude and phase change 
+as a function of frequency, formally the 
+filter action being 
+e i w t-*L( W)e i w t 
+then the effect on the spectrum is 
+I 
+I 2 
+Ö ( ù ) - Ì û ù ) | Ö(ù) = L f-ù) É_(ù)Ö(ù) 
+and we must compensate our estimate of 
+ö(ù) by division by L(-Ü))L(CO). 
+The determination of L(iu) for particular 
+analog filters and the synthesis of analog 
+filters with prescribed transfer functions 
+are familiar operations. The corresponding 
+matters for the digital equispaced case are 
+less well-known and deserve abrief mention. 
+The simplest nontrivial such filter is 
+the transformation 
+y(t) = x ( t ) - 0 x ( t - l ) 
+If we place x(t) = e 
+we find immediately 
+that 
+L(co) = | - â â ß ù 
+L(-u>)LU) = I + 9 2-20cos ù . 
+It is easy to see that tranformations 
+of the form 
+y ( t ) = a 0x(t) + a , x ( t - I ) + . · .+anx(t-aj) 
+will produce a polynomial of degree n in 
+cos ù for L(-Û>)L(ÛU) and that any such 
+real and non-negative polynomial can be 
+obtained by a proper choice of the coef­
+ficients a0, a,, . . . , an. 
+The inverse transformations 
+to these 
+"moving average schemes" are often called 
+autoregressive schemes, and are occasion­
+ally quite useful, either alone or in com­
+bination with moving average schemes; make 
+L(-CÜ)L(<Ü) the reciprocal a polynomial in 
+cos ω . 
+In combination, moving average 
+and autoregressive schemes make possible 
+the attainment of any rational function of 
+cos ù as an L( -ù)ß(ù). 
+The simplest autoregressive scheme is 
+the inverse of x(t) = y(t) - 8 y (t-1), namely 
+y(t) =fl y ( t - I) + x(t) 
+where, as for a general 
+autoregressive 
+scheme, successive values of y(t) can be 
+calculated from the values of x(t) and the 
+previous calculated values of y(t). 
+When dealing with two or more series 
+simultaneously, it appears, as a general 
+rule, best to prewhiten each series sepa­
+rately and then use these prewhitened series 
+for all spectra and cross-spectra. 
+Finally, prewhitening by other means 
+sometimes offers a way to avoid the dif­
+ficulty with recording and reading errors 
+mentioned above. 
+If the prewhitening can 
+be done before the record is made, for 
+instance by appropriately filtering or ac-
+celerometer output before recording it, then 
+the recorded (and read) spectrum will be 
+nearly flat, and difficulty with errors (which 
+are likely to have an approximately white 
+spectrum) will be minimized. This is often 
+most desirable. 
+IVC:5 
+APPLICATIONS 
+In this section, some of the recent results 
+obtained in the applications of power spectral 
+techniques will be indicated. The results to 
+be presented are not new, but are included 
+in order to provide some concrete examples 
+of the types of applications so far made and 
+the nature of the results. 
+IVC:21 
+
+[[page 24]]
+1,000 
+100 
+φ, (FT/SEC)' 
+RAD/FT 
+IO 
+o NACA 
+Ä NACA TN 3313 
+á NACA (H) 
+0 CLEMENTSON (M.I.T.) 
+— - DOUGLAS AIRC. 
+.IL 
+L 
+I 
+I 
+I 
+I 
+I 
+I—I 
+.001 
+.01 
+.1 
+10 
+Ä = 2 ir/\ #sr 
+Fig. IVC:6 Measured Power Spectra of Atmospheric Turbulence 
+10e 
+10' 
+NORMALIZED 
+POWER 
+SPECTRAL 
+DENSITY, 
+ÖßË) 
+<tf 
+IO' 
+10° 
+IO"1 
+m-2 
+IO r3 
+IO 
+Ö(Á).ó,2 è '* 3fì2t-2 
+U ^ (l +il 2L 2) 2 
+r 4 L i 
+■ i 
+J 
+l_J 
+l_l 
+IO"4 
+IO-3 
+IO'2 
+IO"1 
+10° 
+ù 
+Fig. IVC.-7 Analytic Representation of Atmospneric Turbulence Spectra 
+IVC:22 
+
+[[page 25]]
+Many of the early applications have been 
+concerned with the measurement of the char­
+acteristics and particularly the power spec­
+tra of various random processes of concern 
+and some of these spectra measurements will 
+be presented. 
+Also, some results will be 
+presented on the effects of short period 
+damping on gust loads, the effects of wing 
+bending 
+flexibility 
+on airplane 
+bending 
+moments and structural stress in rough air, 
+and on buffeting leads. 
+(a) Disturbance Characteristics 
+The relatively complete theory existing 
+for the case of a Gaussian disturbance, as 
+has been indicated, has made this type of 
+random process of particular interest. Thus, 
+in many studies, efforts have been made to 
+determine the degree to which the actual 
+random processes encountered in aeronau­
+tical problems can be represented by a 
+Gaussian process. 
+In almost all cases, 
+testing of observed measurements has been 
+restricted to the consideration of the overall 
+probability distribution. 
+It will be recalled that a Gaussian process 
+is characterized by much more stringent 
+conditions; namely, that the multivariate 
+distribution be Gaussian. 
+However, the in­
+dications of the overall probability distri­
+bution, while inconclusive, are a very helpful 
+guide in most cases. 
+Fortunately, in most 
+of the applications so far made, the processes 
+observed appear to be Gaussian to a good 
+degree of approximation. Some of the quan­
+tities which appear to be so characterized 
+at least for some conditions are atmospheric 
+turbulence, airplane loads in rough air, buf­
+feting loads, ocean wave heights, and pres­
+sure fluctuations in acoustic noise. 
+Some 
+experimental data in this regard are given 
+in Refs. 5, 8, and 9. 
+Spectra of Atmospheric Turbulence. As 
+an example of the results obtained in ex­
+perimental measurements of power spectra, 
+some measurements of the spectrum of 
+atmospheric turbulence will be described. 
+A number of flight measurements of tur­
+bulence spectra have recently been made 
+using airplanes, and some of these results 
+obtained from various sources are sum­
+marized in Fig. IVC:6. 
+The ordinate of Fig. IVC:6 is the power 
+spectral density, the abscissa is frequency 
+in radians per foot. The frequency argument 
+Ω = 2 irI λ where λ is the gust wavelength, 
+is useful for airplane studies since insofar 
+as the airplane is concerned, turbulence 
+is essentially a spatial phenomenon since 
+the movement of "eddies" is slow compared 
+to the motion of the airplane. 
+The data shown, in most cases, are for 
+the vertical component of the turbulence. 
+In one case, marked by the squares, the 
+data are for the horizontal component or 
+longitudinal turbulence. 
+The data cover 
+a range of gust wavelengths of from 10 to 
+3000 feet, which is the region that is of most 
+concern for many airplane problems. 
+The spectra differ in intensity as indi­
+cated by the height of the spectra reflecting 
+the variation of turbulence intensity with 
+the weather conditions. 
+The spectra, in 
+each case, show rapid decreases in power 
+with increasing frequency. 
+In fact, the 
+spectra vary roughly as 1/ii , a result in 
+general agreement with theoretical results 
+obtained in the theory of isotropie turbulence. 
+The general shape of these spectra, with 
+rapid decreases in power at the higher fre­
+quencies, leads to some important impli­
+cations in regard to the design of airplanes 
+for smoother flight. 
+Because of the general characteristics 
+of these spectra, it has been convenient in 
+theoretical studies to use the analytical 
+expression for the turbulence spectrum shown 
+on Fig. IVC:7. 
+This expression has been 
+useful in wind tunnel studies of turbulence 
+and can be seen to have the general char­
+acteristics of the measured spectra of at­
+mospheric turbulence. 
+IVC:23 
+
+[[page 26]]
+I 
+r-
+.001 
+SPECTRUM OF 
+RUNWAY HEIGHT 
+.0001 h 
+.00001 
+.000001 h 
+SMOOTH 
+ó = ï 
+0 5 7 FT 
+-I 
+l 
+°' 
+· 
+I 
+10 
+Ë « 
+2 
+T T / X 
+Fig. IVC:8 Measured Power Spectra of Runway Roughness 
+*Ji> 
+éó7, 
+V 
+ft 
+o 
+8'ó 9 
+ώ 
+ω 
+~ºï-'° 
+H- 
+' 
+■â» 
+t 
+<n i o - " 
+z 
+UJ 
+o 
+oc 
+UJ 
+oio-'2 
+û. 
+IO"!* 
+4 
+/ 
+/ 
+/ 
+/ 
+f 
+«\ 
+\ il 
+sq 
+r—r 
+K - T ^ - * - S 
+\ 
+V 
+\ 
+\ 
+1 
+\ 
+V ^s s/ 
+r' \ 
+\ 
+^ Ë 
+\ 
+90*1-
+^ \ 
+V 
+—
+·► -1 
+\ / 
+3<r^—l 
+\\ 
+V K Û 
+* 
+M \\ \ 1 
+i 
+Ë 
+V 
+\ 
+\ 
+.01 
+.02 
+.04 
+.06.08.1 
+.2 
+.4 
+.6 
+.8 I 
+2 
+4 
+6 
+8 10X10° 
+FREQUENCY, f,C.P.S. 
+Fig. IVC:9 Measured Power Spectra of Noise from Jet Engine at a Distance of 200 Ft. 
+IVC:24 
+
+[[page 27]]
+The equation has two parameters, the 
+mean square gust velocity Ü2", which des­
+cribes the turbulence intensity, and the 
+so-called scale of turbulence L. The scale 
+of turbulence L can, in a rough sense, be 
+considered to be proportional to the average 
+eddy size. 
+The curves in Fig. IVC:7 are 
+for a mean square gust velocity equal to 
+1 and for values of L = 200, 600, 1000, and 
+1500 feet. The curves at higher frequencies 
+all approach a shape of 1/il2, but differ 
+in the frequency at which the flattening out 
+occurs. 
+For large values of L, most of the 
+power is at the very low frequencies. 
+Comparison of these curves with the 
+measurements of Fig. IVC:6 and other meas­
+urements of the spectrum of atmospheric 
+turbulence have suggested that a representa­
+tive value of L for atmospheric turbulence 
+is of the order of a thousand feet. 
+For 
+studies of wind tunnel turbulence, L may 
+be expected to be much smaller, perhaps 
+on the order of an inch. 
+For design purposes, the overall gust 
+experience in operations is of concern. 
+Presumably, the overall experience consists 
+of various exposure times to each of the 
+spectra of Fig. IVC:6 as well as for other 
+spectra of turbulence associated with dif­
+ferent weather conditions. 
+The available 
+spectra measurements have suggested that, 
+as a first approximation, the spectral shape 
+might be considered fixed and only the in­
+tensity or root-mean-square gust velocity 
+considered to vary. 
+Thus, the overall gust 
+experience may be considered to consist of 
+exposure to turbulence of variable root-
+mean-square gust velocity, but invariant 
+spectral shape. 
+On this basis, operational data on gust 
+loads have been used in Refs. 18 and 19 
+to estimate the probability distribution of 
+the 
+root-mean-square 
+gust 
+velocity for 
+various types of airplane operations and for 
+various weather conditions. 
+These results 
+provide a basis for the calculation of the 
+airplane gust response experience in op­
+erations. 
+Spectra measurements have also been 
+made in regard to other aeronautical prob­
+lems. 
+Fig. IVC:8 taken from Ref. 16 shows 
+some results that have been obtained in regard 
+to runway roughness. The figure shows the 
+spectra that have been obtained for sections 
+of two runways at Langley Air Force Base, 
+Virginia. 
+One of these runways was con­
+sidered, as designated on the figure, a re­
+latively smooth runway while the other runway 
+was considered a relatively rough runway 
+and was, in fact, no longer in use. Further 
+measurements of the runway spectra are 
+currently underway. 
+Fig. IVC:9 shows the results of some 
+measurements obtained on the noise from 
+a jet engine (reported in Ref. 21). The 
+figure shows the power spectra of pressure 
+fluctuation as measured at two positions 
+in the sound field, as indicated by the sketch 
+on the upper right hand side of the figure. 
+A large number of such measurements have 
+been made in order to define the noise field 
+about jet engines and about propeller-driven 
+aircraft. 
+These measurements of disturbance spec­
+tra have provided at least an initial basis 
+for the calculation of various airplane re­
+sponses; for example, the turbulence spectra 
+have been useful in studies of airplane gust 
+loadings, runway spectra have been useful 
+for studies of airplane taxying loads and 
+the noise spectra have been useful in the 
+study of the noise nuisance and in the study 
+of fatigue failures of panels due to noise. 
+(b) The Effect of Low Damping in Short 
+Period on Loads in Rough Air 
+One of the first analytical results ob­
+tained in the application of power spectral 
+techniques to the gust load problem was 
+the indication of the importance of the short 
+period damping on the loads in rough air, 
+Ref. 5. 
+Experimental verification of this 
+result was obtained in a test in which a 
+rocket-propelled model was flown through 
+1VC:25 
+
+[[page 28]]
+rough air at low altitude at high speeds 
+(Ref. 8). 
+The model covered a range of 
+Mach numbers from about 0.60 to 1.00 which 
+also included a fairly large range of longi­
+tudinal stability conditions. The period and 
+cycles to damp to one-tenth amplitude of 
+the 
+short period oscillation for the test 
+model is shown as a function of Mach number 
+in Fig. 1VC:10 and indicates a fairly rapid 
+deterioration of the short period damping 
+above a Mach number of about 0.9. 
+The test model was a tailless missile 
+and was fired through rough air at the NACA 
+test center at Wallops Island, 
+Virginia. 
+The total missile flight lasted only about 
+20 seconds and yielded 2 seconds of usable 
+record at each of eight test speeds. Inasmuch 
+as the samples that could be obtained were 
+necessarily small, there was some doubt 
+that statistically significant test results could 
+be obtained with this technique. Fig. IVC:11 
+shows sample time histories of the missile 
+normal (vertical) acceleration at two of the 
+test Mach numbers which correspond to 
+airspeeds of roughly 750 miles per hour and 
+600 miles per hour. 
+Theory had predicted pronounced dif­
+ferences in loads for these two test conditions 
+and this can be seen qualitatively to be the 
+case from the relative magnitude of the 
+fluctuations. The missile vertical accelera­
+tion in both cases is seen to be somewhat 
+irregular although the predominating motion 
+is seen to occur at a frequency of roughly 
+10 cycles per second. The frequency char­
+acteristics of the records will be considered 
+in more detail in connection with the power 
+spectra. 
+The frequency distributions of the ac­
+celeration amplitude were determined from 
+the records (readings at 0.01 second) and 
+are shown in Fig. IVC:12 for several test 
+speeds or Mach numbers. The dashed lines 
+are fitted normal distributions. The reason­
+able fit of the normal distribution curves 
+suggests that the process may be considered 
+to have a Gaussian amplitude distribution. 
+In Fig. IVC:13, some of the expected and 
+measured power spectra are compared. The 
+calculated spectra for three of the test Mach 
+numbers are shown on the upper left and are 
+based on airplane measurements of the 
+turbulence over the test course and missile 
+response theory. 
+These results, as can be 
+seen from the relative areas or the root-
+mean-square values shown, suggest rather 
+rapid increases in loads for the speed range 
+covered. 
+Also, the spectra move progres­
+sively to higher frequencies with increasing 
+speed and become more peaked thus closely 
+reflecting the short period characteristics. 
+The measured spectra are shown on the 
+lower right and were obtained by the digital 
+e n · * 
+Û 
+2 
+O 
+o 
+UJ 
+ù 
+i 
+û ' ' 
+O 
+OC 
+UJ 
+Ci­
+ri 
+1 
+1 
+I .. 1. 
+J 
+V I -
+< 
+Q 
+O 
+1 -
+ù 
+LU 
+- 1 
+o 
+> 
+o 
+.7 
+.8 
+.9 
+MACH NUMBER 
+LO 
+Lü 
+O 
+3 
+û-
+Έ 
+< 
+10 
+5 
+r\ 
+1 
+^y i 
+After Rocket 
+Burning 
+i 
+1 
+l 
+L .... i_J 
+.7 
+.8 
+.9 
+MACH NUMBER 
+1.0 
+Fig. IVC:10 Missile Period and Damping 
+IVC:26 
+
+[[page 29]]
+M = 1.00 
+M =0.83 
+I I-
+Äç ïÉËÁ>í\Ë/\/ËË/^^Á>Ë 
+-II· 
+-2 
+0 
+.2 
+4 
+.6 
+.8 
+1.0 
+1.2 
+t,SEC 
+Fig. IVC:11 Time Histories of Missile Acceleration Response 
+in Rough Air at Two Mach Numbers 
+NUMBER OF 
+OBSERVATIONS 
+50 
+40 
+30 
+20 
+10 
+oL 
+30 
+20 
+I0l· 
+m 
+^ 
+V=667 
+M =0.88 
+11 L 
+- 2 - 1 
+0 
+1 
+rt\ V=690 
+l\[ M=0.91 
+rVj 
+m 
+m 
+HI 
+fi 
+Mil 
+o|| 
+A 1111 
+-2 
+-1 
+( 
+h 
+m 
+Ik 
+Il kl 
+llllk f 
+) 
+1 
+2 
+0>- 
+L. Λ o 
+an,g 
+V=7I3 
+„ 
+M =0.94 
+I 
+ÉÀÃÍ».ç 
+L 
+L -oaiffl 
+V = 758 
+M =1.00 
+L 
+lira-" i 
+0 
+I 
+2 
+Äç,ò 
+Fig. IVC.12 Measured Frequency Distribution of Missile Acceleration Response in Rough Air 
+IVC.-27 
+
+[[page 30]]
+SPECTRA OF MISSILE LOADS 
+Mach No. 
+.88 
+- . 9 1 
+- . 9 5 
+(a) CALCULATION. 
+.20 
+Φ An 
+.IOF 
+0 5 
+10 
+f.CPS 
+(b) MODIFIED CALCULATION 
+J 
+L I 
+15 0 5 
+10 
+f.CPS 
+(c) MEASURED. 
+Fig. IVC:13 Comparison of Measured and Calculated Power Spectra 
+of Missile Acceleration in Rough Air 
+NUMBER OF PEAKS 
+Ð 
+) Ì = ¼.9É | 
+VI 
+\ 
+\ 
+A \ \ 
+NUMBER OF PEAKS 
+PER MILE 
+MEASURED 
+CALCULATED 
+100 
+50 
+10 
+5 
+H 
+^ M 
+N 
+1 
+= 0.94 | 
+\ 
+} 
+\ 
+A_ 
+1 \M= 1.00 j 
+Nil 
+MX. 
+UJEJ 
+.8 
+1.6 
+0 
+.8 
+1.6 
+Ì , ò 
+|Äç|, g 
+Fig. 1VC:14 Comparison of Measured Peak Accelerations in Rough Air 
+with Results Calculated from Measured Power Spectra 
+IVC:28 
+
+[[page 31]]
+calculation outlined in Appendix A. 
+The 
+estimates shown are rather crude in two 
+respects. 
+First, due to the small samples 
+available, roughly two seconds for each 
+spectrum, it was necessary to estimate 
+average power over rather wide frequency 
+band widths. 
+In these cases, each point 
+represents an average over roughly .±1.5 
+cps about the values plotted. 
+Second, due 
+to the short record sample available, the 
+statistical reliability for the individual esti­
+mates was rather poor. 
+The root-mean-
+square values are also shown and under the 
+circumstances are considered in reasonable 
+agreement with those calculated. 
+In order to compare the calculated results 
+with those measured, the calculated spec­
+tra were averaged over frequency bands in 
+a roughly equivalent manner to the averag­
+ing contained in the spectra measurements 
+and the results obtained are shown on the 
+lower left of Fig. IVC:13. The calculated 
+results with this modification are seen to 
+be in good agreement with those measured 
+and reflect the rather rapid increases in 
+total power with speed, the progressive 
+movement of the spectra to higher frequency, 
+and the increasing peakedness of the spectra. 
+These results thus appear to substantiate 
+the theoretical expectations and have also 
+served to establish the feasibility of the 
+testing and analysis technique in spite of 
+the limitations on sample size. 
+In order to test the applicability of theo­
+retical results for the Gaussian case for 
+the determination from the power spectrum 
+of the number of peak values exceeding 
+given values, a comparison of the number 
+of accelerations counted from the test records 
+with the number calculated from the meas­
+ured spectra was made. Some of the results 
+are summarized in Fig. 1VC:14. The circled 
+points in each case represent the total number 
+of peak accelerations (maxima and minima) 
+obtained from the records. 
+The dashed 
+curves represent the expected number and 
+were calculated from the measured spectra 
+using Eqs. (33) to (35). The good agreement 
+obtained here and in other such studies has 
+indicated the Gaussian character of the gust 
+response and has indicated the feasibility 
+of calculating these quantities by spectral 
+techniques. 
+(c) Effect 
+of Wing Bending Flexibility 
+on Wing Bending Moments in Rough Air 
+As the next application, Fig. IVC: 15 shows 
+some results obtained in a study of the effects 
+of wing bending flexibility on the root bending 
+moment of a B-29 airplane. 
+The figure 
+shows a comparison of the measured and 
+calculated power spectra of root bending 
+moment. 
+In each case, the solid curve is 
+for the flexible airplane and the dashed curve 
+is for the airplane considered as a rigid 
+body. 
+For the rigid case, the measured 
+spectrum was obtained from nodal point ac­
+celeration measurements and the conversion 
+to bending moment was based on the calibra­
+tion data obtained in steady pullups. 
+In each case, the first peak is associated 
+with the free body mode while the second 
+peak at about 3 cycles per second is as­
+sociated with the fundamental wing bending 
+mode. 
+The effect of wing bending is in 
+both cases given by the bump in the spec­
+trum at the fundamental wing bending fre­
+quency. The ratios of the root-mean-square 
+values are also shown in both cases. Com­
+parison of the measured and calculated 
+results shows rather good agreement in 
+root-mean-square values and in the size 
+and shape of the bump associated with the 
+wing bending effects. 
+(d) Effects of Variations in Turbulence 
+Across the Airplane Span 
+Most of the early applications of spectral 
+techniques to turbulence and buffeting prob­
+lems have assumed the disturbance was one-
+dimensional and uniform across the span. 
+Recent studies (Refs. 12, 14, and 23) have 
+indicated that the effects of variations in 
+the turbulence across the span may give 
+IVC:29 
+
+[[page 32]]
+BENDING -
+MOMENT 
+SPECTRUM 
+CALCULATED 
+Fig. IVC:15 Effect of Wing Bending Flexibility on Root Bending Moments Due to Gusts 
+1.0 r 
+SPECTRUM 
+OF AV. GUST 
+VELOCITY 
+.01 f-
+.001 h 
+.0001 
+OiL/V 
+Fig. IVC:16 Effect of Spanwise Variations of Turbulence 
+on the Average Gust Velocity Across the Airplane Span 
+100 
+IVC:30 
+
+[[page 33]]
+rise to significant effects in some problems 
+and that the two-dimensional disturbance 
+must be considered in these cases. 
+Fig. IVC:16, based on the results of 
+Ref. 23, shows the effect of the airplane 
+span length b on the spectrum of the average 
+gust velocity across the span sensed by the 
+airplane. 
+These results are for isotropie 
+turbulence and the analytical expression for 
+the turbulence spectrum given in Fig. 1VC:7. 
+The abscissa is the nondimensional frequency 
+(uL/V where L is the scale of turbulence, 
+and V is the airplane forward speed. Curves 
+are shown for various values of the ratio 
+of the airplane span to turbulence scale 
+b/L; 
+the curve for b/L = 0, giving the 
+spectrum of turbulence at a point, while 
+the other curves give the spectra of average 
+gust velocity across the span. For increas­
+ing values of b/L, it can be seen that the 
+effective spectrum is progressively reduced, 
+particularly at the higher frequencies. 
+99.5 
+99 
+l·- 
+98 
+Ö 
+95 
+OC 
+ù 
+90 
+Q. 
+O 
+80 
+Ô 
+70 
+UJ 
+UJ 6 0 
+X 50 
+ω 
+40 
+O 30 
+>· 20 
+L 
+\° 
+» 
+^ 
+y— Norn« M Distribution 
+^ζ 
+V . 219 LB. 
+\ ° 
+1.0 
+0.5 
+- 8 0 0 
+- 4 0 0 
+0 
+400 
+âÏÏ 
+WING ROOT SHEAR DISTRIBUTION, POUNDS 
+Fig. IVC.17 Probability Distribution of Wing 
+Root Shear Fluctuations in Buffeting Measured 
+During Stall of a Fighter Type Airplane 
+These results apply directly to wing lift 
+and to overall airplane accelerations and 
+indicate the amount of attenuation due to 
+spanwise gust averaging. The results, while 
+of significance in gust response studies, 
+are of even greater significance in regard 
+to wind tunnel and buffeting studies where 
+the ratio of b/L is likely to be much greater 
+than for the case of atmospheric turbulence. 
+Although the effects of nonuniform tur­
+bulence appear to attenuate the overall air­
+plane load and gust response, they may give 
+rise to a different effect when the internal 
+structural response is considered. 
+Some 
+recent results, Ref. 23, indicate that the 
+bending moments and structural stresses 
+may 
+actually be increased for a two-
+dimensional disturbance, depending upon the 
+airplane's characteristics. 
+(e) Buffeting Loads 
+As a final illustration, some results on 
+buffeting loads obtained in a recent study 
+by W. B. Huston and T. H. Skopinski of 
+NACA are presented. Shown in Fig. IVC:17 
+is the probability distribution of the wing 
+6,000 
+5,000 
+</> 4,000 
+QL 
+o 
+GO 3,000 
+2,000 
+1,000 
+ΠΠ 
+y 
+1 
+i 
+10 
+20 
+30 
+40 
+50 
+FREQUENCY, f , C P S 
+Fig. IVC:18 Measured Power Spectrum 
+of a Wing Shear Fluctuation in Buffeting 
+IVC:31 
+
+[[page 34]]
+shear fluctuations during buffeting as meas­
+ured by wire resistance strain gages located 
+at the wing root. 
+The measurements, over 
+a period of 3.90 seconds, sampled every 
+0.01 second, were obtained during a low-
+speed stall of a fighter airplane. 
+The fluctuating loads have their origin 
+in the unsteady forces associated with the 
+separated flow over the wing; they represent 
+the response of an elastic system to these 
+random unsteady forces. 
+The probability 
+of exceeding a given value of load is plotted 
+on normal probability paper, a special paper 
+which has the property that the normal 
+probability distribution plots as a straight 
+line. 
+The straight line shown is for a 
+normal distribution with the same standard 
+deviation as the measured distribution (219 
+pounds) and appears to yield a good fit. 
+These results suggest that the buffet loads 
+may approximate a Gaussian process. 
+Fig. IVC.T8 shows the power spectral 
+density Ö (f) for the buffet 
+shear 
+loads 
+shown in Fig. IVC:17, as obtained by nu­
+merical procedures. 
+The power spectrum 
+is dominated by the response of the wing 
+in the first symmetrical bending mode which, 
+in ground vibration tests, had a frequency 
+of 9.3 cps. 
+Other modes present can be 
+identified such as first asymmetric bending, 
+18.1 cps, and first torsion, 34.5 cps, but the 
+contribution of these secondary modes is 
+small, and the spectrum is essentially char­
+acteristic of the response of a lightly damped 
+single degree of freedom system toarandorrt 
+input. 
+REFERENCES 
+3. 
+Clementson, G. C , "An Investigation of the Power Spectral Density of Atmospheric 
+Turbulence," Report No. 6445-T-31, (Se. D. thesis), Instrumentation Laboratory, 
+Massachusetts Institute of Technology, Cambridge, Massachusetts, May 1950. 
+Liepmann, H. W., 'On the Application of Statistical Concepts to the Buffeting Problem," 
+Journal of the Aeronautical Sciences, Vol. 19, No. 12, December 1952. 
+Chippendate, G. R-., and Clement, W. F., "A Statistical Study of Atmospheric Turbulence 
+by Flight Measurements/' Report No. 6822-2-T-2, (S. M. thesis), Instrumentation 
+Laboratory, Massachusetts Institute of Technology, Cambridge, Massachusetts, May 
+1951. 
+4. 
+Fung, Y. C , "Statistical Aspects of Dynamic Loads," Journal of the Aeronautical 
+Sciences, Vol. 20, No. 5, May 1953. 
+5. 
+Press, H. and Mazelsky, B., "A Study of the Application of Power Spectral Methods 
+of Generalized Harmonic Analysis to Gust Loads on Airplanes," NACA TN 2853, 
+January 1953. 
+6. 
+Press, H. and Houbolt, J. C , "Some Applications of Generalized Harmonic Analysis 
+to Gust Loads on Airplanes," Paper presented at 22nd Annual Meeting of the Institute 
+of the Aeronautical Sciences, (Preprint No. 449), January 1954. 
+7. 
+Decaulne, P., "Airplane Lateral Response to Statistical Gust Inputs," Project Meteor 
+Report, (S. M. thesis), Massachusetts Institute of Technology Guided Missiles Program, 
+Cambridge, Massachusetts, May 1952. 
+IVC:32 
+
+[[page 35]]
+8. 
+Vitale, A. J., Press, HM and Shufflebarger, C. C,"An Investigation of the Use of 
+Rocket-Powered Model for Gust-Load Studies with an Application to a Tailless Swept -
+Wing Model at Transonic Speeds/' NACA TN 3161, June 1954. 
+9. 
+Summers, R. A., "A Statistical Description of Large-Scale Atmospheric Turbulence," 
+Report T-55, (Se. D. thesis), Instrumentation Laboratory, Massachusetts Institute of 
+Technology, Cambridge, Massachusetts, May 1954. 
+10. 
+Miles, J. W., "On Structural Fatigue Under Random Loading," Journal of the Aeronau­
+tical Sciences, Vol 21, No. 11, November 1954. 
+11. 
+Chilton, R. G., "Some Measurements of Atmospheric Turbulence Obtained from Flow-
+Direction Vanes Mounted on an Airplane," NACA TN3313, November 1954. 
+12. 
+Diederich, F. W., "The Response of an Airplane to Random Atmospheric Disturbances," 
+(Ph. D. thesis), California Institute of Technology, 1954. 
+13. 
+Mazelsky, B., "Extension of the Power Spectral Methods of Generalized Harmonic 
+Analysis to Determine Non-Gaussian Probability Functions of Random Input Disturbances 
+and Output Responses of Linear Systems," Journal of the Aeronautical Sciences, 
+Vol. 21, No. 3, March 1954. 
+14. 
+Liepmann, H. W., "Extension of the Statistical Approach to Buffeting and Gust Response 
+of Wings of Finite Span," Douglas Aircraft Company Report SM-15172, February 1954. 
+15. 
+Houbolt, J. C , "Correlation of Calculation and Flight Studies of the Effect of Wing 
+Flexibility on Structural Response Due to Gusts," NACA TN 3006, August 1953. 
+16. 
+Walls, J. H., Houbolt, J. C , and Press, H., "Some Measurements and Power Spectra 
+of Runway Roughness," NACA TN 3305, November 1954. 
+17. 
+Huston, W. B., and Skopinski, T. H., "Measurements and Analysis of Wing and Tail 
+Buffeting Loads and Fighter Type Airplane," NACA TN 3080, 1954. 
+18. 
+Press, H., Meadows, M. T., and Hadlock, I., "Estimates of Probability Distribution of 
+Root-Mean-Square Gust Velocity of Atmospheric Turbulence by Random-Process 
+Theory," NACA TN 3362, March 1955. 
+19. 
+Press, H., and Meadows, M. T., "A Réévaluation of Gust Load Statistics for Applica­
+tions in Spectral Calculations," NACA TN 3540, August 1955. 
+20. 
+Hess, R. W., Lassiter, L. W., and Hubbard, H. H., "A Study of the Response of Panels 
+to Random Acoustic Excitation," NACA RM L55E13c. 
+21. 
+North, W. J., "Summary Evaluation of Toothed-Nozzle Attachments as a Jet Noise 
+Suppression Device," NACA TN 3516, July 1955. 
+22. 
+Notess, C. B., and Eakin, G. J., "Flight Test Investigation of Turbulence Spectra at 
+Low Altitude Using a Direct Method for Measuring Gust Velocities," Cornell Aero­
+nautical Laboratory, Inc., Report No. VC-839-F-1, July 1954. 
+IVC:33 
+
+[[page 36]]
+23. 
+Diederich, F. W., "The Dynamic Response of a Large Airplane to Continuous Random 
+Atmospheric Disturbances," Paper presented at 22nd Annual Meeting of the Institute 
+of the Aeronautical Sciences (Preprint No. 548), January 1955. 
+24. 
+Connor, R. J., Hawk, J., and Levy, C , "Dynamic Analyses for the C-47 Airplane Gust 
+Load Alleviation System," Report No. SM-14456, Douglas Aircraft Company, Inc., 
+July 29, 1952. 
+25. 
+Tukey, J., "The Sampling Theory of Power Spectral Estimates," Symposium on Ap­
+plications of Autocorrelation Analyses to Physical Problems, Woods Hole, Massachu­
+setts, 1949, Office of Naval Research, Washington, D. C. 
+26. 
+Rice, S. O., "Mathematical Analysis of Noise," Pts. I and II Bell System Technical 
+Journal, Vol. XXIII, No. 3, July 1944, pp. 282-332; Pts. Ill and IV, Vol. XXIV, No. 1, 
+January 1945, pp. 46-156. 
+27. 
+Lawson, J. L. and Uhlenbeck, G. E., Editors, "Threshold Signals," McGraw-Hill 
+Book Company, Inc., 1950, Ch. 3. 
+28. 
+James, H. M., Nichols, N. B., and Phillips, R. S., "Theory of Servo-Mechanisms," 
+McGraw-Hill Book Company, 1947, Chap. 6. 
+29. 
+Bartlett, M. S., "Introduction to Stochastic Processes," Cambridge University Press, 
+1955. 
+30. 
+Blackman, R. B., "Applied Fourier Analysis," Bell Telephone Laboratories. 
+31. 
+Spetner, L. M., "Errors in Power Spectra Due to Finite Samples," Journal of Applied 
+Physics, May 1954. 
+32. 
+Smith, F. B., "Analog Equipment for Processing Randomly Fluctuating Data," Paper 
+presented at the Institute of the Aeronautical Sciences annual meeting (Preprint No. 
+545), January 1955. 
+33. 
+Kenimer, Robert L., "An Analog Cross-Spectrum Analyzer For Certain Telemetered 
+Data," National Telemetering Conference Record, 1955. 
+34. 
+Krendel, E. S., Barnes, G. H., "Interim Report on Human Frequency Response Studies," 
+The Franklin Institute, Wright Air Development Center, June 1954. 
+IVC:34 

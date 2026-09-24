@@ -1,0 +1,85 @@
+Administrator                                                                                                B
+;I 8
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+"L."\ #,##0;\-"L."\ #,##0
+"L."\ #,##0;[Red]\-"L."\ #,##0
+"L."\ #,##0.00;\-"L."\ #,##0.00
+"L."\ #,##0.00;[Red]\-"L."\ #,##0.00
+_-"L."\ * #,##0_-;\-"L."\ * #,##0_-;_-"L."\ * "-"_-;_-@_-
+_-* #,##0_-;\-* #,##0_-;_-* "-"_-;_-@_-
+_-"L."\ * #,##0.00_-;\-"L."\ * #,##0.00_-;_-"L."\ * "-"??_-;_-@_-
+_-* #,##0.00_-;\-* #,##0.00_-;_-* "-"??_-;_-@_-
+"Yes";"Yes";"No"
+"True";"True";"False"
+"On";"On";"Off"
+kryptos2
+multi:
+off:
+OLE_LINK1:
+ciphertext
+multiplier
+transposed
+offset
+alphabet
+substitution
+back-substitution
+cipher back-subst.
+keylength
+key back-subst.2
+27 E'S PLUS 4 LETTERS
+MbP?_
+EPSON Stylus COLOR 600
+LPT1:
+Column C
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+ffffff
+computer
+Microsoft Excel
+nessuna
+kryptos2
+multi
+kryptos2!OLE_LINK1
+Worksheets
+Named Ranges
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console
+-2]\ #,##0.00_);[Red]\([$
+-2]\ #,##0.00\)
+KRYP
+Vigenere
+KRYP
+Variant
+KRYP
+Beaufort
+Vigenere Table decoding with alphabet:
+KRYPTOSABC
+EPSON Stylus COLOR 600
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

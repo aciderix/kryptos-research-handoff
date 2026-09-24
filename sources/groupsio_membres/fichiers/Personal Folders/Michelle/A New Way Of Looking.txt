@@ -1,0 +1,59 @@
+After reading a couple of reviews on Kryptos on the web - 
+
+http://www.derkeiler.com/Newsgroups/sci.crypt/2005-05/1148.html and
+http://www.mysteriesmagazine.com/articles/issue11.html 
+
+something peaked my interest. It was the phrases 'Sanborn teases enthusiasts
+ by saying that one clue, the most obvious key to the sculpture, is sitting 
+in plain view but has been overlooked so far'. So I started to look more 
+closely at the cipher text. Then it hit me - K3 starts with ENDYAHR... and 
+finishes OHW?OB etc. Since when does something start with the END?. Reverse 
+the whole of the bottom cipher section so that it now starts RACKEUAU and 
+finishes DNE. Now we have the cipher the right way round. K4 now reads -
+
+RACKEUAUHUKGIDCJTXZKDGWKPFZMTTVPYNBFNIWAIDULKJTAWZZKESSQJSQTWTOSSKGNRPQQU
+RLFWBBFILOSBLUHGOXOURKBO?
+K3 now reads - 
+
+WHODVTRTTSSLNHEMIEFPIRMDCEEHUEFMFGMHOENPDRAHDTGAHELMLKRTIROLDYRDDSOAE
+OGETISHIECLIHDDTCEABEFWEIRGAOREIPWETSMTTHAAINDDESBITRNTREEAMRAOTOEAUTE
+UTOIFSAOFEETBLREEYGETAMATANEWEHHMAPSRBTFIERCYATCNEEHQYETYOIEAHNEWITDES
+LOFTEOEAHNTERDUENETCHARNEETIDNWTMWEACAIIPLBELENNLSEPRARNHITAGNRPTENMXW
+RMSONSHONLLSLLSDLUYERNTHCAIANHSYDIBIOETPCOEHRSLNHORHAYDNE
+
+Next step. Sanborn has always insisted on the fact that it is the 'position'
+ of the mistakes that is important. Now I see why. Look at the first one in 
+K1, it occurs seven letters from the end of the row. In K2 the mistake occurs
+ nine letters from the end of the row. A difference of TWO. But look at the 
+letters - we have K and R (the first two letters of KRYPTOS) - this is also 
+important. In the new K3 we have 336 letters, divide this by four. Why four? 
+Four quadrants, four question marks, four lines of morse code with extra e's - 
+four seems important. Hence divide by four. This gives a row length of 84.
+  Something else has been staring at me all this time. The compass! A compass
+ has 360 degrees, divide this by 4 and we get 90. This figure is the length of
+ our keyword, as you shall see. But whats the key? Remember the 'obvious' key 
+Sanborn talked about? If we label the keyword KRYPTOS according to each letters
+ position in the alphabet we get the key 0362514. Start writing down the key 
+from 6251403625140362514 etc. Why start at 6? We start from here because the 
+K and R have already been used (the mistakes in K1 and K2). Now we have a line
+ of 90 digits. Where do we put the first letter? The hint is given as Layer Two.
+ We know we have four lines of text each 84 characters long. We start at the 
+second layer/line and now begin to write out the cipher text. WHO under the first
+ 0 (the first letter of the keyword 0=K). Then we put DVTR under the next 0, TTSS
+ under the next 0. Repeat until we get to the last 0. Here we just put a single 
+letter A. Why? Remember Sanborn likes patterns - this cipher involves staggered 
+lines, each line is shifted by two - layer two again. Now start writing the next
+ letters under the 1's but start on line three, so we have HE. Move to the next 
+1 and put LMLK etc until the last 1, here we just pur R and G. Under the first 2
+ put the A on the last row. Repeat and fill in the cipher. We now have
+
+625140362514036251403625140362514036251403625140362514036251403625140362514036251403625140
+      SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPASSAGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWA
+    YWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENING
+  THEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEF
+LAMETOFLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ
+
+
+Nothing too technical about solving this once you have the right cipher and matrix!!
+
+Michelle

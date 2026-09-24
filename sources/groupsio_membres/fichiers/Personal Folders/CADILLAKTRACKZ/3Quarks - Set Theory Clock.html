@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0038)http://www.3quarks.com/en/BerlinClock/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3Quarks - Set Theory Clock</title>
+  
+    
+    <meta name="author" content="Rüdiger Appel">
+    <meta name="keywords" content="3Quarks, Set Theory Clock, Berlin-Clock, Dieter Binninger">
+    <meta name="robots" content="all">
+    
+    <link type="image/x-icon" rel="Shortcut Icon" href="http://www.3quarks.com/favicon.ico"> 
+    <link type="text/css" rel="stylesheet" href="./3Quarks - Set Theory Clock_files/base.css">
+    <!--[if lt IE 9]>
+      <link type="text/css" rel="stylesheet" href="../../stylesheets/stupid-ie.css" />
+    <![endif]-->
+
+    <script type="text/javascript" src="./3Quarks - Set Theory Clock_files/jquery-1.4.2.min.js.download"></script>
+    <script type="text/javascript" src="./3Quarks - Set Theory Clock_files/background.js.download"></script>
+    <script type="text/javascript" src="./3Quarks - Set Theory Clock_files/sidebar.js.download"></script>
+    <script type="text/javascript">
+      
+      $(document).ready(function() {  
+        window.setInterval(function() {
+          var time    = new Date();
+          var seconds = time.getSeconds();
+          var minutes = time.getMinutes();
+          var hours   = time.getHours();
+          
+          var currentTime = hours + ':' + ((minutes < 10) ? '0' : '') + minutes;
+          $('#currentTime').html(currentTime);
+          $('#row1').html(' = 5 hours &times; ' + Math.floor(hours / 5) 
+            + ' = ' + formatHour(5 * Math.floor(hours / 5)));
+          $('#row2').html(' = ' + formatHour(hours % 5));
+          $('#row3').html(' = ' + ' 5 minutes &times; ' + Math.floor(minutes / 5) 
+            + ' = ' + formatMinute(5 * Math.floor(minutes / 5)));
+          $('#row4').html(' = ' + formatMinute(minutes % 5));
+          $('#row5').html(' = ' + (5 * Math.floor(hours / 5)) + ' + ' 
+            + formatHour(hours % 5)
+            + ' and ' + (5 * Math.floor(minutes / 5)) + ' + ' 
+            + formatMinute(minutes % 5)
+            + ' = ' + currentTime + ' hours');
+          
+          setVisible('second', seconds % 2);
+          setVisible('hour05', hours >= 5);
+          setVisible('hour10', hours >= 10);
+          setVisible('hour15', hours >= 15);
+          setVisible('hour20', hours >= 20);
+          setVisible('hour01', (hours % 5) >= 1);
+          setVisible('hour02', (hours % 5) >= 2);
+          setVisible('hour03', (hours % 5) >= 3);
+          setVisible('hour04', (hours % 5) >= 4);
+          setVisible('minute05', minutes >= 5);
+          setVisible('minute10', minutes >= 10);
+          setVisible('minute15', minutes >= 15);
+          setVisible('minute20', minutes >= 20);
+          setVisible('minute25', minutes >= 25);
+          setVisible('minute30', minutes >= 30);
+          setVisible('minute35', minutes >= 35);
+          setVisible('minute40', minutes >= 40);
+          setVisible('minute45', minutes >= 45);
+          setVisible('minute50', minutes >= 50);
+          setVisible('minute55', minutes >= 55);
+          setVisible('minute01', (minutes % 5) >= 1);
+          setVisible('minute02', (minutes % 5) >= 2);
+          setVisible('minute03', (minutes % 5) >= 3);
+          setVisible('minute04', (minutes % 5) >= 4);
+        }, 100);
+      });
+
+      function setVisible(id, visible) {
+        if (visible) {
+          $('#' + id).show();
+          $('#preview-' + id).show();
+        } else {
+          $('#' + id).hide();
+          $('#preview-' + id).hide();
+        }
+      }
+      
+      function formatHour(hour) {
+        return hour + ' hour' + ((hour != 1) ? 's' : '');
+      }
+
+      function formatMinute(minute) {
+        return minute + ' minute' + ((minute != 1) ? 's' : '');
+      }
+
+    </script>
+
+  </head>
+  
+  <body>
+    
+    <div id="wrapper">
+      
+      <div id="page">
+      	
+	      <div id="header">
+	        <h1>
+	        	<span class="home">
+	            <a href="http://www.3quarks.com/index.html">3Quarks</a> 
+						</span>
+	          » Set Theory Clock
+	          <span class="language">
+	            <a href="http://www.3quarks.com/de/Mengenlehreuhr/index.html">deutsch</a>
+	          </span>
+	        </h1>
+	      </div>
+          
+        <div class="topic">
+          <h2>How it functions</h2>
+          <div class="body">
+            <p>
+              The Set Theory Clock, also known as the Berlin Clock, 
+              makes use of the principle of set theory to depict the time. 
+              The time of day is displayed in a 24-hour format and can be determined 
+              by simply adding and multiplying the glowing lights.
+            </p>
+            <p>
+              The first, uppermost row consists of 4 red lights, whereby each of these lights stands for 5 full hours. 
+              The 4 red lights in the second row display one full hour apiece. 
+              For example, if the first 2 lights in the uppermost row and all 4 lights in the second row are lit up, 
+              that represents 1400 hours, or 2 p.m. (2 × 5 + 4 hours). 
+              The third row is composed of 11 lights: 3 red and 8 yellow. 
+              Each light in this row stands for 5 elapsed minutes. 
+              The 3 red lights have been assigned to mark the quarters of an hour and are intended to make reading the clock easier. 
+              Last of all, the yellow row at the very bottom displays units of single minutes.
+            </p>
+            <p>
+              The current time ─ it is now <span id="currentTime">1:41</span> hours ─ results from:
+            </p>
+            <div style="width: 100%; height: 160px; position: relative; margin: 0 1em 1em 1em;
+                 background: transparent url(../../images/berlin-clock/preview/background.png) no-repeat top left;">
+              <div id="row1" style="position: absolute; left: 110px; top: 35px; line-height:22px"> = 5 hours × 0 = 0 hours</div>   
+              <div id="row2" style="position: absolute; left: 110px; top: 60px; line-height:22px"> = 1 hour</div>   
+              <div id="row3" style="position: absolute; left: 110px; top: 85px; line-height:22px"> =  5 minutes × 8 = 40 minutes</div>   
+              <div id="row4" style="position: absolute; left: 110px; top: 110px; line-height:22px"> = 1 minute</div>   
+              <div id="row5" style="position: absolute; left: 110px; top: 135px; line-height:26px; border-top: 1px solid #999"> = 0 + 1 hour and 40 + 1 minute = 1:41 hours</div>   
+              <img id="preview-second" alt="" src="./3Quarks - Set Theory Clock_files/second.png" style="position: absolute; left: 34px; top: 5px; width: 27px; height: 26px; display: inline;">
+              <img id="preview-hour05" alt="" src="./3Quarks - Set Theory Clock_files/hour-left.png" style="position: absolute; left: 5px; top: 39px; width: 19px; height: 14px; display:none">
+              <img id="preview-hour10" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle.png" style="position: absolute; left: 27px; top: 39px; width: 19px; height: 14px; display:none">
+              <img id="preview-hour15" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle.png" style="position: absolute; left: 49px; top: 39px; width: 19px; height: 14px; display:none">
+              <img id="preview-hour20" alt="" src="./3Quarks - Set Theory Clock_files/hour-right.png" style="position: absolute; left: 71px; top: 39px; width: 19px; height: 14px; display:none">
+              <img id="preview-hour01" alt="" src="./3Quarks - Set Theory Clock_files/hour-left.png" style="position: absolute; left: 5px; top: 63px; width: 19px; height: 14px;">
+              <img id="preview-hour02" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle.png" style="position: absolute; left: 27px; top: 63px; width: 19px; height: 14px; display:none">
+              <img id="preview-hour03" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle.png" style="position: absolute; left: 49px; top: 63px; width: 19px; height: 14px; display:none">
+              <img id="preview-hour04" alt="" src="./3Quarks - Set Theory Clock_files/hour-right.png" style="position: absolute; left: 71px; top: 63px; width: 19px; height: 14px; display:none">
+              <img id="preview-minute05" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-left.png" style="position: absolute; left: 5px; top: 88px; width: 6px; height: 14px;">
+              <img id="preview-minute10" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow.png" style="position: absolute; left: 12px; top: 88px; width: 7px; height: 14px;">
+              <img id="preview-minute15" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-red.png" style="position: absolute; left: 20px; top: 88px; width: 7px; height: 14px;">
+              <img id="preview-minute20" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow.png" style="position: absolute; left: 28px; top: 88px; width: 7px; height: 14px;">
+              <img id="preview-minute25" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow.png" style="position: absolute; left: 36px; top: 88px; width: 7px; height: 14px;">
+              <img id="preview-minute30" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-red.png" style="position: absolute; left: 44px; top: 88px; width: 7px; height: 14px;">
+              <img id="preview-minute35" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow.png" style="position: absolute; left: 52px; top: 88px; width: 7px; height: 14px;">
+              <img id="preview-minute40" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow.png" style="position: absolute; left: 60px; top: 88px; width: 7px; height: 14px;">
+              <img id="preview-minute45" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-red.png" style="position: absolute; left: 68px; top: 88px; width: 7px; height: 14px; display:none">
+              <img id="preview-minute50" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow.png" style="position: absolute; left: 76px; top: 88px; width: 7px; height: 14px; display:none">
+              <img id="preview-minute55" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-right.png" style="position: absolute; left: 84px; top: 88px; width: 6px; height: 14px; display:none">
+              <img id="preview-minute01" alt="" src="./3Quarks - Set Theory Clock_files/minute-left.png" style="position: absolute; left: 5px; top: 112px; width: 19px; height: 15px; display: inline;">
+              <img id="preview-minute02" alt="" src="./3Quarks - Set Theory Clock_files/minute-middle.png" style="position: absolute; left: 27px; top: 112px; width: 19px; height: 15px; display:none">
+              <img id="preview-minute03" alt="" src="./3Quarks - Set Theory Clock_files/minute-middle.png" style="position: absolute; left: 49px; top: 112px; width: 19px; height: 15px; display:none">
+              <img id="preview-minute04" alt="" src="./3Quarks - Set Theory Clock_files/minute-right.png" style="position: absolute; left: 71px; top: 112px; width: 19px; height: 15px; display:none">
+            </div>
+            <p>
+              The round yellow light crowning the clock at the top is of minor significance for telling the time: It blinks every second.
+            </p> 
+          </div>
+        </div>
+        
+        <div class="topic">
+          <h2>History</h2>
+          <div class="body">
+            <p>
+              Dieter Binninger, an inventor and tinkerer from Berlin who is also a trained clockmaker, 
+              designed the Set Theory Clock on behalf of the Berlin Senate in 1975. 
+              The clock was installed on Kurfürstendamm in the Berlin-Charlottenburg district 
+              and rapidly evolved into a tourist attraction, though it turned out to have one serious disadvantage: 
+              its inner workings consisted of hundreds of light bulbs, some of which constantly burned out. 
+              BZ, a local Berlin newspaper, sported the headline back then: 
+              “Ku-Damm clock can do a lot, except run”, 
+              which meant the clock had to be inspected and repaired on an ongoing basis. 
+              In the end, the costs for operation and upkeep were running EUR 5000 a year, 
+              and neither the city of Berlin nor the district of Charlottenburg wanted to bear the costs. 
+              For many a year the clock dozed on, more out of order than functioning, 
+              until 1995, 20 years after it had been installed, when it was shut off. 
+              The only reason the clock still exists to this day and has found a new location 
+              in front of the Europa Center complex is thanks to an initiative sponsored 
+              by businessmen at the center in Berlin. 
+            </p>
+              Dieter Binninger tried to rectify the weak points in the construction design of his Set Theory Clock 
+              by developing a long-lasting light bulb, a so-called “perpetual light bulb”. 
+              His idea was to intensely reduce the power input of a standard commercial light bulb in order 
+              to drastically prolong its product life. 
+              Between 1980 and 1982 Binninger registered 3 patents for 
+              “Prolongation of the product life for all-round-usage light bulbs”, 
+              which basically came down to running the light bulb on undervoltage. 
+              Though a longer product life is achieved this way, 
+              the light bulb’s already low efficiency sinks even further at the same time; 
+              the prolonged product life has to be paid with increased costs for electricity. 
+            <p></p>
+            <p>
+              Binninger indicates a mean product life of 150,000 hours for his long-lasting light bulb, 
+              whereby a standard commercial light bulb lasts merely 1000 to 2000 hours, 
+              along with an additional 50% higher power consumption. For a 100 watt light bulb, 
+              this means that additional power costs of around EUR 10 arise during the first 1000 hours in operation 
+              (at an electricity price of EUR 0.20 per kilowatt-hour), 
+              a sum much greater than the purchase price for a normal light bulb. 
+              Which is why Binninger’s method didn’t meet with much success, 
+              but it does continue to provide material for the wildest conspiracy theories to this day. 
+            </p>
+          </div>
+        </div>
+        
+        <div class="topic">
+          <h2>For More Information</h2>
+          <div class="body">
+            <p>The Wikipedia articles on the subject: 
+              <a href="http://de.wikipedia.org/wiki/Mengenlehreuhr">“Set Theory Clock”</a>, 
+              <a href="http://de.wikipedia.org/wiki/Dieter_Binninger">“Dieter Binninger”</a>, 
+              <a href="http://de.wikipedia.org/wiki/Ewigkeitsgl%C3%BChbirne">“Perpetual light bulb”</a> and 
+              <a href="http://en.wikipedia.org/wiki/Incandescent_light_bulb">“Incandescent light bulb”</a> 
+            </p>
+            <p>Binninger’s patents (DE 2921864, DE 3001755 and DE 3213333) can be researched on 
+               <a href="http://depatisnet.dpma.de/">DEPATISnet</a> 
+               at DPMA, the German Patent and Trademark Office.</p>
+            <p>A fan of the Set Theory Clock tells of his encounter with Binninger: 
+               <a href="http://www.froehlich.es/berlin-uhr/index.htm">“Die Berlin-Uhr - Die Stunde schlägt nicht, sondern leuchtet!”</a>
+               (‘The Berlin Clock: The hour doesn’t toll, it lights up!’)</p> 
+            <p>Models of the Berlin Clock produced by Binninger and a successor company turn up now
+             and then at flea markets in Berlin and at 
+               <a href="http://shop.ebay.de/?_from=R40&amp;_trksid=p3907.m570.l1311&amp;_nkw=Berlin+Uhr&amp;_sacat=See-All-Categories">ebay</a>.
+            </p>
+            <p>A tabletop version of the Set Theory Clock is currently being manufactured by the firm 
+               <a href="http://www.berlin-uhr.com/">ASMETEC</a>.
+               <span style="color: #666; display: none">(It’s a sure thing that the author of the Flash conversion would be happy to have their name mentioned)</span></p>
+            <p><a href="http://www.surveyor.in-berlin.de/berlin/uhr/bindexfua.html">“Fragen und Antworten”</a> 
+               (‘Questions and Answers’) about the Berlin Clock.</p>
+            <div class="section seperator">
+              <p style="margin-top: 15px">
+	              My work is published under the terms of the 
+	              <a rel="license" href="http://creativecommons.org/licenses/by/3.0">Creative Commons 3.0 Lizenz</a>.
+	              The Berlin Clock may be used freely for private and commercial purposes
+	              when indication of the author or a link to this website is made.
+              </p>
+            </div>
+           </div>
+        </div>
+          
+	      <div id="footer">
+	        <p>3Quarks » Set Theory Clock, Rüdiger Appel, September 2010</p>
+	      </div>
+			
+      </div> <!-- end page -->
+        
+      <div id="sidebar" style="padding-top: 0px;">
+        <div class="content">
+          <div style="width: 190px; height: 265px; margin: auto; position: relative;
+               background: transparent url(../../images/berlin-clock/background.png) no-repeat top right;">
+            <img id="second" alt="" src="./3Quarks - Set Theory Clock_files/second(1).png" style="position: absolute; left: 70px; top: 10px; width: 50px; height: 50px; display: inline;">
+            <img id="hour05" alt="" src="./3Quarks - Set Theory Clock_files/hour-left(1).png" style="position: absolute; left: 10px; top: 78px; width: 38px; height: 27px; display:none">
+            <img id="hour10" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle(1).png" style="position: absolute; left: 54px; top: 78px; width: 38px; height: 27px; display:none">
+            <img id="hour15" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle(1).png" style="position: absolute; left: 98px; top: 78px; width: 38px; height: 27px; display:none">
+            <img id="hour20" alt="" src="./3Quarks - Set Theory Clock_files/hour-right(1).png" style="position: absolute; left: 142px; top: 78px; width: 38px; height: 27px; display:none">
+            <img id="hour01" alt="" src="./3Quarks - Set Theory Clock_files/hour-left(1).png" style="position: absolute; left: 10px; top: 127px; width: 38px; height: 27px;">
+            <img id="hour02" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle(1).png" style="position: absolute; left: 54px; top: 127px; width: 38px; height: 27px; display:none">
+            <img id="hour03" alt="" src="./3Quarks - Set Theory Clock_files/hour-middle(1).png" style="position: absolute; left: 98px; top: 127px; width: 38px; height: 27px; display:none">
+            <img id="hour04" alt="" src="./3Quarks - Set Theory Clock_files/hour-right(1).png" style="position: absolute; left: 142px; top: 127px; width: 38px; height: 27px; display:none">
+            <img id="minute05" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-left(1).png" style="position: absolute; left: 10px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute10" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow(1).png" style="position: absolute; left: 26px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute15" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-red(1).png" style="position: absolute; left: 42px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute20" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow(1).png" style="position: absolute; left: 58px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute25" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow(1).png" style="position: absolute; left: 74px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute30" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-red(1).png" style="position: absolute; left: 90px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute35" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow(1).png" style="position: absolute; left: 106px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute40" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow(1).png" style="position: absolute; left: 122px; top: 176px; width: 10px; height: 27px;">
+            <img id="minute45" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-red(1).png" style="position: absolute; left: 138px; top: 176px; width: 10px; height: 27px; display:none">
+            <img id="minute50" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-yellow(1).png" style="position: absolute; left: 154px; top: 176px; width: 10px; height: 27px; display:none">
+            <img id="minute55" alt="" src="./3Quarks - Set Theory Clock_files/minute-small-right(1).png" style="position: absolute; left: 170px; top: 176px; width: 10px; height: 27px; display:none">
+            <img id="minute01" alt="" src="./3Quarks - Set Theory Clock_files/minute-left(1).png" style="position: absolute; left: 10px; top: 225px; width: 38px; height: 27px; display: inline;">
+            <img id="minute02" alt="" src="./3Quarks - Set Theory Clock_files/minute-middle(1).png" style="position: absolute; left: 54px; top: 225px; width: 38px; height: 27px; display:none">
+            <img id="minute03" alt="" src="./3Quarks - Set Theory Clock_files/minute-middle(1).png" style="position: absolute; left: 98px; top: 225px; width: 38px; height: 27px; display:none">
+            <img id="minute04" alt="" src="./3Quarks - Set Theory Clock_files/minute-right(1).png" style="position: absolute; left: 142px; top: 225px; width: 38px; height: 27px; display:none">
+          </div>
+        </div>
+      </div> <!-- end sidebar -->
+              
+    </div> <!-- end wrapper -->
+    
+  
+
+
+</body></html>

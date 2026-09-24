@@ -1,0 +1,280 @@
+[[page 1]]
+S=14, 33, 34, 40, 43, 44       T=36, 38, 51, 68, 69, 81    U=5, 11, 55, 88, 90, 92
+B=2, 13, 19, 20, 63      0=1, 6, 8, 15, 35     W= 21, 37, 49, 59, 75
+1 2
+3 4
+5 6
+7 8
+9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+1 O B K R
+1
+2
+3
+4
+2 U O X O G H U L B S O L
+I
+F B B W F L R V Q Q P R N G K S S O
+5
+6
+7
+8
+9
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35
+E A S T N O R T H E A S T
+3 T W T Q S
+J Q S S E K Z Z W A T
+J K L U D I A W I N F B N Y P
+36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+B E R
+4 V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R
+67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97
+L
+I N C L O C K
+A
+4
+N
+3
+B
+5
+O
+5
+C
+2
+P
+3
+D
+3
+Q
+4
+E
+2
+R
+4
+F
+4
+S
+6
+G
+4
+T
+6
+H
+2
+U
+6
+I
+4
+V
+2
+J
+3 W 5
+K
+8
+X
+2
+L
+4
+Y
+1
+M 1
+Z
+4
+A
+N h b
+B
+O
+C
+P r r c
+D
+Q n o
+E
+R s t
+F e o
+S s t
+G e
+T i n
+H
+U
+I
+V t l
+J
+W
+K a k
+X
+L a
+Y e
+M c
+Z l
+O
+U
+G
+B
+I
+W
+V
+R
+S
+W
+J
+E
+W
+K
+I
+N
+Y
+T
+P
+D
+T
+I
+H
+E
+R
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+E
+A
+S
+T
+N
+O
+R
+T
+H
+E
+A
+S
+T
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+B
+E
+R
+L
+I
+N
+C
+L
+O
+C
+K
+First crib 13 letters, qq and ss sequential plain text
+Second crib, 11 letters. TT two different plain text
+N
+Y
+P
+V
+T
+T
+64
+65
+66
+67
+68
+69
+B
+E
+R
+L
+I
+N
+M
+Z
+F
+P
+K
+70
+71
+72
+73
+74
+C
+L
+O
+C
+K
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+26
+27
+28
+29
+30
+31
+32
+33
+34
+N
+O
+R
+T
+H
+E
+A
+S
+T
+F
+L
+R
+V
+22
+23
+24
+25
+E
+A
+S
+T
+FB-44   SO-20
+SS-10  KZ-32

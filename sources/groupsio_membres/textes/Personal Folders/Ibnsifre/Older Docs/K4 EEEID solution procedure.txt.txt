@@ -1,0 +1,343 @@
+From Ibn Sifre to Yahoo Kryptos Group; August, 14, 2013
+
+Part 1 K4 Solution and Procedure with a few possible interpretations
+
+Version 0.5
+
+Bismillah,
+
+Let us begin.
+
+Part 1:
+
+Applying Mask:
+
+Start with K3 and arrange it in 7 rows by 48 columns as shown in Fig 1-1.
+
+           1         2         3         4
+  123456789012345678901234567890123456789012345678
+
+1 ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIACHTNREYULDSLLSLL
+2 NOHSNOSMRWXMNETPRNGATIHNRARPESLNNELEBLPIIACAEWMT
+3 WNDITEENRAHCTENEUDRETNHAEOETFOLSEDTIWENHAEIOYTEY
+4 QHEENCTAYCREIFTBRSPAMHHEWENATAMATEGYEERLBTEEFOAS
+5 FIOTUETUAEOTOARMAEERTNRTIBSEDDNIAAHTTMSTEWPIEROA
+6 GRIEWFEBAECTDDHILCEIHSITEGOEAOSDDRYDLORITRKLMLEH
+7 AGTDHARDPNEOHMGFMFEUHEECDMRIPFEIMEHNLSSTTRTVDOHW
+
+Fig 1-1., K3
+
+Flip K3 about the columns so that column 48 is first and column 1 is last as shown in Fig 1-2.  This is done only to make the technique easier to visualize. Call it K3'.
+
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+
+1 LLSLLSDLUYERNTHCAIANHSYDIBIOETPCOEHRSLNHORHAYDNE
+2 TMWEACAIIPLBELENNLSEPRARNHITAGNRPTENMXWRMSONSHON
+3 YETYOIEAHNEWITDESLOFTEOEAHNTERDUENETCHARNEETIDNW
+4 SAOFEETBLREEYGETAMATANEWEHHMAPSRBTFIERCYATCNEEHQ
+5 AOREIPWETSMTTHAAINDDESBITRNTREEAMRAOTOEAUTEUTOIF
+6 HELMLKRTIROLDYRDDSOAEOGETISHIECLIHDDTCEABEFWEIRG
+7 WHODVTRTTSSLNHEMIEFPIRMDCEEHUEFMFGMHOENPDRAHDTGA
+
+Fig 1-2., K3'
+
+Using the END - YAR (RAY) clue, place K3' in the form of a transverse EM wave with a period of 16 characters as shown in Fig 1-3. Call it EM-K3' 
+
+          4         3         2         1
+  876543210987654321098765432109876543210987654321
+
+4    LLSD    RNTH    NHSY    OETP    RSLN    AYDN
+5    EACA    BELE    EPRA    TAGN    NMXW    NSHO
+6    YOIE    WITD    FTEO    TERD    TCHA    TIDN
+7    FEET    EYGE    TANE    MAPS    IERC    NEEH
+1 LLSEIPWLUYETTHACAIADESBDIBITREECOEHOTOEHORHUTOIE
+2 TMWMLKRIIPLLDYRNNLSAEOGRNHIHIECRPTEDTCERMSOWEIRN
+3 YETDVTRAHNELNHEESLOPIRMEAHNHUEFUENEHOENRNEEHDTGW
+4 SAO    BLRE    TAMA    WEHH    RBTF    YATC    Q
+5 AOR    ETSM    AIND    ITRN    AMRA    AUTE    F
+6 HEL    TIRO    DDSO    ETIS    LIHD    ABEF    G
+7 WHO    TTSS    MIEF    DCEE    MFGM    PDRA    A 
+
+Fig 1-3., EM-K3'
+
+As an aside, notice in Row 1, Columns 41 to 48 of EM-K3' as shown in Fig 1-4 , spell out 'L WPIES LL'.  Maybe it means 'L SPIES LL'; spies surrounded by L's. 
+
+          4        4
+  876543210        012345678
+1 LLSEIPWL   Or  1  LWPIESLL
+
+Fig 1-4.
+
+For brevity sake, display only rows 25 through 48 of EM-K3' as shown in Fig 1-5. Call it W1, and notice the re-ordering of the rows.
+
+           1         2
+  123456789012345678901234
+
+4    LLSD    RNTH    NHSY   
+5    EACA    BELE    EPRA   
+6    YOIE    WITD    FTEO    
+7    FEET    EYGE    TANE 
+1 LLSEIPWLUYETTHACAIADESBD
+2 TMWMLKRIIPLLDYRNNLSAEOGR
+3 YETDVTRAHNELNHEESLOPIRME
+4 SAO    BLRE    TAMA    W
+5 AOR    ETSM    AIND    I
+6 HEL    TIRO    DDSO    E
+7 WHO    TTSS    MIEF    D
+
+Fig. 1-5, W1
+
+OTP, One Time Pad, Decryption Step:
+
+The next step involves treating W1 as a pad and K4 as ciphertext as part of a OTP, one time pad, encryption scheme.  In order to recover the plaintext one needs to follow the following algorithm.
+
+Assign to each letter of the Kryptos alphabet a number as shown in Fig. 1-6:
+
+K  R  Y  P  T  O  S  A  B  C  D  E  F  
+0  1  2  3  4  5  6  7  8  9  10 11 12
+
+G  H  I  J  L  M  N  Q  U  V  W  X  Z 
+13 14 15 16 17 18 19 20 21 22 23 24 25
+
+Fig. 1-6, Letter to Number Mapping for OTP
+
+Then, for a letter of the ciphertext and a letter of the pad, subtract the numbers corresponding to the letters.  If the resulting number is negative then add 26 to it.  Take the resulting number and find its corresponding letter.  That letter is the letter of the plaintext.
+
+Examples:
+ciphertext => NY....
+pad        => EL....
+--------------------
+plaintext  => BE....
+
+Example 1:
+step 1:
+N => 19
+E => 11
+
+step 2:
+19 - 11 = 8
+
+8 => B
+plaintext => B
+
+Example 2:
+step 1:
+Y => 2
+L => 17
+
+step 2:
+2 - 17 = -15
+
+step 3:
+-15 + 26 = 11
+
+11 => E
+plaintext => E
+
+For ease, I have provided a python script that automates this in my folder in the personal folders.
+
+Continuing, Arrange K4 in 6 rows so that they look like small "pyramids" on their sides as shown in Fig 1-2.
+
+1      OBKRUOXOGHULBSO
+2 LIFBBWFLRVQQPRNGKSSO
+3       TWTQSJQSSEKZZW
+
+4 ATJKLUDIAWINFB
+5 NYPVTTMZFPKWGDKZXTJC
+6 DIGKUHUAUEKCAR
+
+Fig 1-6., K4
+
+Take Row 1 of K4 and Row 1, Columns 9 to 23 of W1 (after the LLSEIPWL clue) and apply the OTP for the resulting plain text:
+
+K4 R1 OBKRUOXOGHULBSO
+W1 R1 UYETTHACAIADESB
+      ---------------
+      DSIWLLLVSZHAWKW
+  
+And Take Row 2 of K4 and Row 2, Columns 4 to 23 of W1 and apply the OTP for the resulting plain text:
+
+K4 R2 LIFBBWFLRVQQPRNGKSSO
+W1 R2 MLKRIIPLLDYRNNLSAEOG
+      --------------------
+      ZXFANBCKDFMNDBYANURM
+
+And Take Row 3 of K4 and Row 3, Columns 10 to 23 of W1 and apply the OTP for the resulting plain text:
+
+K4 R3 TWTQSJQSSEKZZW
+W1 R3 NELNHEESLOPIRM
+      --------------
+      EFGRMOCKISWDXO
+  
+  
+Now rearrage W1 so that the wave in the opposite phase as shown in Fig. 1-7, W2.
+
+          1         2
+  123456789012345678901234
+
+1 LLS    LUYE    CAIA    D
+2 TMW    IIPL    NNLS    R
+3 YET    AHNE    ESLO    E
+4 SAO    BLRE    TAMA    W
+5 AOREACAETSMBELEAINDEPRAI
+6 HELYOIETIROWITDDDSOFTEOE
+7 WHOFEETTTSSEYGEMIEFTANED
+1    EIPW    TTHA    DESB
+2    MLKR    LDYR    AEOG
+3    DVTR    LNHE    PIRM
+4    LLSD    RNTH    NHSY
+
+Fig. 1-7, W2
+
+Take Row 4 of K4 and Row 5, Columns 2 to 15 of W2 and apply the OTP for the resulting plain text:
+      
+K4 R4 ATJKLUDIAWINFB
+W1 R5 OREACAETSMBELE
+      ---------------
+      YPONBHZEROABUW
+  
+And Take Row 5 of K4 and Row 6, Columns 2 to 21 of W2 and apply the OTP for the resulting plain text:
+      
+K4 R5 NYPVTTMZFPKWGDKZXTJC
+W1 R6 ELYOIETIROWITDDDSOFT
+      --------------------
+      BERLINHDEXPBCKJIMZTO
+
+And Take Row 6 of K4 and Row 7, Columns 2 to 15 of W2 and apply the OTP for the resulting plain text:
+      
+K4 R6 DIGKUHUAUEKCAR
+W1 R7 HOFEETTTSSEYGE
+      --------------
+      VDRIDDLPIOIAQJ
+
+Now arrange the 'pyramids' base to base and get P1 as shown in Fig. 1-8, 
+
+1      DSIWLLLVSZHAWKW YPONBHZEROABUW
+2 ZXFANBCKDFMNDBYANURM BERLINHDEXPBCKJIMZTO
+3       EFGRMOCKISWDXO VDRIDDLPIOIAQJ
+	  
+Fig. 1-8, P1
+
+
+Misspellings Step:
+
+Guess the misspellings as follows in Fig 1-9.  Don't worry, there are ways to tell if you have the right ones.
+MISS are the rows of the correct letters where a misspelling occurs in the plaintext, as best I can guess, misspellings.  P1 is the plaintext row from the OTP step.  W2 is the row from the ciphertext and the corresponding letter where the misspelling occurred in the plaintext.
+
+
+MISS1       C  I    B        A        S N
+P1-R1      DSIWILLVSZHAWKW YPONBHZEROABUW
+W2-14       Y  T    I        E        E E
+			
+MISS2 K      Q  I      O         S    E T   S 	 
+P1-R2 ZXFANBCKDFMNDBYANURM BERLINHDEXPBCKJIMZTO
+W2-25 M      L  Y      E         T    I D   O
+	  
+MISS3        D  R     R    D      E   C
+P1-R3       EFGRMOCKISWDXO VDRIDDLPIOIAQJ
+W2-36        E  H     P    H      T   Y
+
+Fig. 1-9
+
+Which gives us PC1, our K4 solution to the 97 charters shown in Fig. 1-10
+
+1      DCIWILLVSBHAWKW YPANBHZEROASUN
+2 KXFANBCQDFINDBYANORM BERLINSDEXPECTJIMSTO
+3       EDGRROCKISRDXO DDRIDDLEIOICQJ
+
+Fig. 1-10
+
+Or as follows:
+
+           DCI WILL VS BH AWK WYPAN B HZ ERO A-SUNK X
+       FAN B CQD FIND BY ANORM BERLIN'S D EXPECT JIM S TO
+	   ED GR ROCK IS RD X ODD RIDDLE 10 I C	Q J 
+
+Or perhaps opt 1 in better English reads:
+
+DCI (Director Central Intelligence) Will** vs BH awkward weapon B Hz arrow a-sunk X
+Fan of B CQD (SOS) find by abnormal Berlin's D expect Jim S. to Ed ground rock is RD X
+Odd riddle - 10 I see? J (Jim) 
+
+**?? I'm guessing here - is it Will or Wall?, If "Wall" is it referring to the DCI gallery in the OHB?  Also there is the BH - Book of Honor next to the Memorial Wall, and William Donovan's statue.  If it is "Wall" the pun-riddle could also read "DCI WALL VS B HAWK WYPUN BH HERO A SUN K X" or "DCI WALL VS BH AWK WYPAN B HZERO A SUN K X"
+ 
+Or is it "Will" - William Webster.  If so, it appears that Jim S. is referring to some sort of dispute within the Intelligence community concurring SIGINT collection, perhaps something to to with the NSA listening site at Teufelsberg?  But I can't find anything to collaborate this.  One day I think it's "Will" and the other I like "Wall" better.  The first post I put Wall; here I will put Will.
+
+Misspellings:
+MISS1       C  I    B        A        S N
+MISS2 K      Q  I      O         S    E T   S 	
+MISS3        D  R     R    D      E   C
+
+Fig 1-11
+
+Read Across by rows in the direction of the arrows: MISS1 <-, MISS2 ->, and MISS3 <- We get
+
+NSA BIC KQIO SETS CED RRD
+
+Or ?: NSA BICK Q 10 SETS C ED R RD
+
+Opt 1 ?:  NSA bickering? 10 sets, see Ed our riddle.
+Opt 2 ?:  NSA because of K? 10 sets, see Ed our riddle.
+
+Or If "WALL"
+Opt 1 ?: NSA BACK Q 10 SETS C ED R RD
+
+Read Down going left to right:  
+
+K CQD AIR BRO DASE SEC NTS
+
+K CQD Air brother D - base secret NTs
+
+I'm guessing the following relations:
+K is for C
+C is for CIA
+
+D is for T
+T is for Teufelsberg (Devil's Mountain, Berlin)?
+so D is for Devil 
+
+NTs - Hz Arrow - meaning Antennas
+
+Now W2 Letters at the positions of the misspellings, Fig. 1-12:
+
+W2-14       Y  T    I        E        E E
+W2-25 M      L  Y      E         T    I D    O
+W2-36        E  H     P    H      T   Y
+
+Fig. 1-12
+
+Read Across: W2-14 <-, W2-25 ->, and W2-36  <-
+
+EEEITYMLYETIDOYTHPHE
+
+EEE ITEM LYE T I DOYTH P HE
+Or: EEE item lie T, I doeth protest he
+
+Read Down going left to right:  
+MYYLETHIPEHETTEIYEDO
+
+Or ???
+MY LET HIPE HE TTEIYED O
+
+Opt 1 ?: my letter 'y' hype - he tied zero
+Opt 2 ?: my letter 'y' hype - he tried zero?
+Opt 3 ?: my letter 'y' hype - hands tied O?
+
+Clearly I'm struggling on this one.
+
+
+Part 2:
+
+To be continued, InshaAllah - remember there are 10 parts! K4 is not just 97 charters.
+Hint:  This is harder - but perhaps:
+
+TUX END Q X PIECES X OWNE - R ACT OF LAST LOG A RD Q LRQ
+CNTR L BURIED E - S SOS JIM S AGAIN IS LIE Q
+
+
+
+
+
+
+

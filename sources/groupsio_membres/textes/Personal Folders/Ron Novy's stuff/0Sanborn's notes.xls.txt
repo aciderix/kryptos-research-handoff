@@ -1,0 +1,59 @@
+Calc                                                                                                         B
+GENERAL
+Two versions of K3
+My theory of what this should look like...
+Created by Ron Novy.
+MbP?_
+&C&A
+&CPage &P
+333333
+333333
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+&C&A
+&CPage &P
+333333
+333333
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+&C&A
+&CPage &P
+333333
+333333
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+&C&A
+&CPage &P
+333333
+333333
+ffffff
+ffffff
+333333
+?333333
+Microsoft Excel 97-Tabelle
+Biff8
+Ron Novy
+Root Entry
+Arial1
+Arial1
+Arial1
+Arial
+Version from Sanborn's notes (PT:42x8 
+ CT:24x14)
+Version found on Richard Gay's website (PT:14x24 
+ CT:8x42)
+                      
+Root Entry
+Workbook
+CompObj
+SummaryInformation
+DocumentSummaryInformation

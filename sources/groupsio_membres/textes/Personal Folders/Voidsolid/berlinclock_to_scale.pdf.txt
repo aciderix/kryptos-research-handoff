@@ -1,0 +1,11 @@
+[[page 1]]
+smallest grid that contains berlin clock to scale
+voidsolid
+ 
+ 
+4 4 x 4 4 = 1 9 3 6
+year of the BERLIN olympics
+CLOCKING is using clocks to time races
+example:
+http://www.olympic.org/news/lewis-matches-owens-feat-with-gold-glut/202883
+has all 3

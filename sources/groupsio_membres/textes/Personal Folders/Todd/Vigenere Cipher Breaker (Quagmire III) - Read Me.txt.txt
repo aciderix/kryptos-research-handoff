@@ -1,0 +1,7 @@
+I've been working on a brute force Vigenere Cipher Breaker (Quagmire III) - I've posted a sample screen shot and report.
+
+If anyone is interested in using let me know (it's a vb6 .exe).
+
+And, if anyone has any good key ideas for K4 please speak up!  :)
+
+-t-

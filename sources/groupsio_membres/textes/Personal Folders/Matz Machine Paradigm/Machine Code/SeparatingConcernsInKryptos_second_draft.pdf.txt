@@ -1,0 +1,869 @@
+[[page 1]]
+Separating concerns in Jim Sanborn’s Kryptos 
+Matt Reid 
+Software Engineer 
+Watlington, Oxon, United Kingdom 
+matzreid888@yahoo.co.uk 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+This paper details four discrete layers of 
+information within Jim Sanborn’s 1990 
+Kryptos sculpture. These layers are shown to  
+include 
+a 
+mathematical 
+blueprint 
+for 
+calculating astronomical calendar cycles, a 
+series of static challenge puzzles, two kinetic 
+puzzles and finally a novel classical cipher 
+type known more widely by its key data as K4.  
+The challenge puzzles when solved in order 
+will be shown to  act as a guide to discovery 
+and isolation of the K4 cipher.  Analysis of the 
+K4 cipher type once isolated is presented and 
+classified as being ‘Cymatic’ in nature. 
+1 
+Supporting information and credits 
+Much of the contents of this  paper have already 
+been published piecemeal over the last 14 years 
+by the author to online forums and social media, 
+but not formally entered into the academic record 
+as a holistic body of work. All results within this 
+paper are thought to be the original work of the 
+author, but credit is given to James Churchill who 
+provided useful information on the topic of 
+‘kinetic art’ and further directed attention to a 
+significant set of repeating letter groupings in the 
+Kryptos cipher text in late 2020.  It would be 
+difficult to sensibly condense these findings into a 
+concise treatment, so a companion tool written in 
+HTML and JavaScript is available alongside this 
+paper in order to allow reproduction of the results 
+presented. It will be assumed that readers are 
+already familiar with Kryptos and the plain text 
+(pt) results already decrypted or known to date for 
+sections K1, K2, K3 and K4. 
+1.1 Introduction 
+Despite some 25% of the K4 pt having been 
+disclosed by Jim Sanborn since 2010 there 
+remains confusion as to what Kryptos is and 
+whether or not cryptanalysis can be applied to K4 
+as was the case for sections K1-3.  This paper 
+looks to separate the various concerns that 
+contend for attention in the overall sculpture, so 
+that K4 can be fully isolated with a high degree of 
+confidence.  It is hoped that isolation of the cipher 
+will finally allow for a proper cryptanalysis. To 
+achieve the level of isolation required for such an 
+analysis, 
+four 
+frameworks 
+that 
+exist 
+in 
+superposition are presented for logical separation.  
+Section 2 deals with an ‘implied scheme’ hidden 
+via steganography that exposes a mathematical 
+blueprint for a number of  well known calculations 
+relating to the Solar Lunar cycle.  These cycles are 
+in turn shown to be analogous to the functionality 
+of the Antikythera Mechanism.  Section 3 details 
+a framework predicated on four six letter keys in 
+the pt that lay out a trail of challenge puzzles each 
+of varying difficulty and significance, that once 
+solved in order lead to the identification of 6 
+matrices upon which the K4 cipher is predicated 
+before K4 per se can be used as a key for pt 
+retrieval. Section 4 will show the extraction of 
+additional information via a kinetic scheme that 
+requires physical interaction with discrete rows of 
+Kryptos cipher text (ct).  This kinetic aspect 
+further informs understanding of the K4 ciphers 
+mechanical aspects and reveals an analogue 
+already present in the pt.  Finally, the nature of the 
+isolated K4 framework will be shown to be a 
+novel form of classical cipher that relies on a 
+phenomenon akin to wave interference and as a 
+result has been given a classification of being 
+‘Cymatic’.   
+2 
+Analogue Computation of K1 and K2 
+Publicly available documents prior to the official 
+dedication of Kryptos on November 3rd 1990 
+show that Jim Sanborn had already written to 
+employees on the CIA campus before the 
+installation was complete telling them that parts 
+
+[[page 2]]
+of Kryptos would be encoded using a Vigenère 
+tableau. Examining the layout of these two tableau 
+panels and laying them out in a fixed width font 
+shows that all letters fit within a 31 x 28 grid with 
+the exception of an additional L that sits alone in 
+column 32.  Within this grid an inner 26 x 26 letter  
+square from column 2 row 3 to column 27 row 28 
+can be formed as a Vigenère table.  Such a table is 
+sufficient for the purposes of decrypting K1 and 
+K2 using the keywords PALIMPSEST and 
+ABSCISSA respectively.  Performing these two 
+decryptions using a Vigenère table rather than a 
+decryption function running in software means 
+the solve is actually being undertaken using a 
+basic form of analogue computation.  This point 
+appears to have been overlooked to date, but it is 
+important as the residual mask left by these two 
+decryption 
+operations 
+contains 
+important 
+structural information that can be used to unlock 
+a discrete layer of Kryptos that has been obscured 
+using  steganography.   
+2.1 Artefacts post decryption of K1 & K2  
+If every letter in the previously defined 26 x 26 
+square is shaded to show its utilization in both 
+decryption operations, then it will be seen that 
+only 160 characters of the 676 available have 
+actually been used.  Examining where the 
+boundary lies between the top and bottom panels 
+it is seen that of the 160 characters used, 132 were 
+highlighted in the upper panel and 28 in the lower. 
+ 
+Figure 1: Letters used in the analogue decryption of 
+parts K1 and K2. 
+2.2 
+Effects of 90° right rotation 
+Taking the mask generated from these 160 
+characters a right hand rotation of 90 degrees can 
+be applied, which can then be overlaid on either 
+the tableau or ct panels.  Performing either 
+operation shows that the width of the mask is in 
+fact only 19 characters across, so when laid across 
+the ct panels a region is defined that has a bound 
+of 19x26 on the left and an unbounded region to 
+the right that is 13x28. 
+ 
+Figure 2: 90° right hand rotation of decryption mask 
+overlaying the ct panels. 
+Post rotation and overlay, the distribution of 
+highlighted characters shown above are now 97 in 
+the upper panel and 63 in the lower, which are the 
+respective lengths of parts K4 and K1. 
+2.3 Layout of the top left panel 
+The overlay of the decryption mask detailed in 
+Figure 2 exposes an underlying numerical canvas 
+hidden via steganography that is independent of 
+the ct itself and relies solely on the position of the 
+3 question mark characters and the presence of 
+one additional character that sits alone in the 33rd 
+column of row 23.  Attention is initially drawn to 
+this scheme by the repeating rows of 19 in the 
+rotated decryption mask.  These 3 initial rows of 
+19 blocks can be summed to give values of 38 and 
+57.  These numbers are the degrees and minutes 
+of the northerly coordinates given in the pt of K2.  
+Looking at the location of the ? characters in 
+relation to these repeating rows of 19 a complete 
+numerical description can be derived for all of the 
+given coordinates for the sculpture, which are [38, 
+57, 6.5] and [77, 8, 44].  Following the coordinate 
+blocks the numbers 3, 12 and 7 are defined, which 
+
+[[page 3]]
+can be used to approximate the transcendental 
+numbers pi and e. The last two numbers in the 
+scheme are given as 4 and 48.  The unbounded 
+region in green on the right in figure 3 is a 13x28 
+grid with an extra character in column 33 row 23 
+giving a logical block size of 365 characters.   
+ 
+Figure 3: Steganographic scheme showing the 
+coordinates, 5 additional numbers and a 365 block 
+calendar. 
+2.4 
+A numerical blueprint for gearing 
+The numbers given for the degrees and minutes of 
+the 
+K2 
+coordinates 
+show 
+an 
+intriguing 
+mathematical property, whereby 38, 57, 77 and 8 
+all sum to 180.  Remembering that K1 and K2 
+were derived by driving the tableau layout with a 
+basic analogue algorithm, it can be seen that the 
+numerical relationships detailed in figure 3 show 
+that 180 blocks of the numerical scheme detailed 
+above could be utilized to drive an analogue cycle 
+in which the 180 blocks represent angular degrees.  
+Traversing this path twice would of course be 
+representative of passing through all the degrees 
+of a circle.  Given the presence of a calendar block 
+on the right hand side of the scheme it is  
+reasonable to suggest that the act of passing 
+through 360° may well relate to the passing of a 
+sidereal day.  If this is a valid interpretation then 
+an analogue operation is capable of setting off a 
+cursor that continually cycles through the 180 
+blocks that originally defined the degrees and 
+minutes of the coordinates.  Every time 360 
+blocks have been traversed a second cursor can 
+then be moved one block forward in the calendar 
+section, which gives a basic analogue scheme for 
+computing the day of the year with respect to the 
+Earth’s rotation.  With regards leap years, it is 
+already known that an additional character can be 
+added to K2 for the missing X in the pt. Such an 
+addition will push out the space (shown as *) in 
+row 14 in figure 3 to become a 366th constituent 
+of the calendar block.  Note: In order for the 
+calendar to accommodate February 29th each leap 
+year (in row 14 column 33), the calendar would 
+need to begin on August 31st. 
+2.5 
+Analogue derivation of K3 
+If the 180 block scheme is extended to traverse an 
+additional 12 blocks corresponding to the number 
+6.5 in the numeric scheme shown on row 4, then 
+the repeating cycle of 180 will now traverse 192 
+blocks before starting again.  This is a noteworthy 
+result as the position of the moon when observed 
+each day appears to moves 13° east, so every time 
+the earth rotates 180° the moon will have appeared 
+to have moved 6.5° respectively. Using the 
+analogue strategy employed previously for 
+tracking the calendar day in 2.4, another cursor 
+can be set running in K3 that moves in concert 
+with the traversal of the 192 blocks specified 
+above.  If the value of the character under the 
+cursor in K3 prints every time the cycle repeats 
+then is will simultaneously decrypt K3 due to its 
+192 character skip period. Simultaneously, the 
+same algorithm will also be computing the 
+relative motion of the moon in the sky with 
+respect to the Earth’s rotation. 
+2.6 
+Solar lunar cycles. 
+The derivation of an algorithm capable of 
+showing the lunar cycle in 2.5 draws attention to 
+the numbers participating in the coordinate 
+scheme as a whole.  Given that 38 + 57 + 6 + 5 + 
+77 + 8 + 44 all sum to 235 it can be inferred in 
+light of the previous lunar context that this is a 
+pointer to the Metonic cycle.  The Metonic cycle 
+relates integer numbers of synodic months and 
+solar years in the ratio 235:19.  This cycle, whilst 
+reasonably accurate can have its precision 
+improved by being smoothed over 4 Metonic 
+cycles, giving rise to the Callippic super cycle.  
+This Callippic cycle is of interest as the first 
+three full rows of 19 blocks in the numeric 
+scheme would each be capable of storing the 19  
+
+[[page 4]]
+years of a single Metonic cycle.  The coordinate 
+scheme as a whole has the capacity to track 235 
+blocks relating to individual synodic months, 
+which allows an analogue algorithm to be 
+devised that is capable of tracking 3 historic 
+Metonic cycles of 19 years independently of the 
+current cycle that can be tracked instead in terms 
+of its 235 months.  Such a scheme for recording 
+and tracking periods of time hierarchically is also 
+seen in Berlin’s “Set Theory Clock”. 
+  
+2.7  
+The Saros Cycle 
+ 
+On inspection it can further be shown that the 
+tableau panels also lend themselves to a similar 
+steganographic scheme, but with repeating row 
+widths of 18 blocks rather than 19.  The calendar 
+portion is exposed by virtue of the extra L in 
+column 32 and allows for a discrete analogue 
+computation of the saros cycle that can be used 
+for reasonably accurate eclipse prediction.  This 
+algorithm will not be detailed here, but the point 
+is made that the presence of two separate 
+calendars, one dealing with the Metonic cycle 
+and the other dealing with the Saros is also seen 
+in the Antikythera mechanism, leading the author 
+to conclude that the steganographic scheme is 
+intended to provide a blueprint for the complete 
+recreation of the Antikythera mechanism.  
+ 
+Figure 4: Steganographic scheme showing the Saros 
+calendar embedded in the two tableau panels. 
+3 
+Challenge Puzzles 
+The second discrete layer of Kryptos relates to a 
+series of challenge puzzles that once solved in the 
+correct order lead to the isolation of distinct rows 
+in the ct that have had the K4 cipher scheme 
+overlaid as a palimpsest.  These challenge puzzles 
+vary in difficulty, but have well defined outputs 
+that provide additional information as a reward for 
+their solution.  For the purposes of this paper, only 
+the challenges relevant to the isolation of K4 will 
+be highlighted with the intention of showing them 
+solved in the correct order.  In the steganographic 
+layer detailed previously the two cipher text 
+panels were considered side by side with the two 
+tableau panels.  For all relationships discussed 
+from here on the two panels of cipher text will 
+always be assumed to be side by side with the two 
+panels showing the resulting pt in the same  
+positions.  The K4 cipher text will remain 
+unaltered in both views.  This requirement to 
+consider the ct and pt side by side simultaneously 
+will now be shown to be key to solving the 4 
+following puzzle challenges. 
+3.1  
+Challenge puzzle 1 
+The first logical break in the challenge puzzle 
+layer is found by isolation of the cipher and pt 
+characters in rows 15-20 between columns 17-23.  
+This gives rise to two 7x6 rectangles that are 
+shown here simultaneously for the ct and pt, both 
+of which occupy the exact same grid position 
+within the 32x28 layout.  
+ 
+Figure 5: Challenge Puzzle 1. 
+It is seen that the cipher text in row 15 gives an 
+incomplete anagram of COEPTIS whereby the S 
+is substituted for a B and similarly in the pt an 
+incomplete anagram of ANNUIT is given 
+whereby the N is substituted for a Y.  Isolating the 
+6 letters within the middle of the 7x6 pt rectangle 
+reveals an anagram of, “ID ROWS”.  Given the 
+misspellings are B and Y, this would appear to be 
+a direct reference to the last 8 characters of the 
+unmodified K2 pt, which are ID BY ROWS.  It 
+would also imply that the phrase was intentional 
+rather than an error.  The phrase “ANNUIT 
+COEPTIS” is of course taken from the reverse 
+side of the Great Seal of the United States.  The 
+
+[[page 5]]
+phrase itself is ambiguous in its meaning, but is 
+taken to roughly translate from Latin as, 
+“Providence favors our undertakings”.  This 
+initial result is taken as an indicator that the 
+observation is unlikely to be coincidental and as 
+evidence that the ct and pt panels should continue 
+to be regarded simultaneously as progression is 
+made through the remaining challenge puzzles.  
+3.2  
+Challenge puzzle 2 
+Given that a 7x6 section of the K3 ct has 
+referenced a result from K2, which sits in the 
+panel above it, it is reasonable to examine if there 
+is a reciprocal relationship, such as symmetry. 
+Reflecting the dimensions of the 7x6 rectangle 
+about the 14th and 15th rows gives the result 
+detailed in figure 6. 
+ 
+Figure 6: Challenge puzzle 2. 
+The letters GRE and FIV are not an anagram in 
+the context of this particular challenge, but instead 
+are markers of interest within the ct.  Examining 
+columns 29-31 on rows 1 and 12 it is found that 
+the letters FIV and GRE sit one above the other. 
+Further examination of the locale in which GRE 
+occurs shows two repeating letter groupings of F, 
+RE and V occurring across rows 7-9 and 11-13 as 
+shown in figure 7.  It was previously mentioned in 
+the introduction that the sculpture contains kinetic 
+elements, which will be detailed in section 4, but 
+in order to solve this particular challenge it is 
+necessary to move row one left by 13 characters 
+wrapping on a width of 32 characters.  After 
+performing this operation it can be seen from 
+figure 7 that the ct now contains 3 repeating 
+groups of the letters F, RE and V extending over 
+3 rows in each case.  It can additionally be seen 
+that the occurrence of this pattern in rows 1-3 also 
+contains the additional letters I and G in yellow, 
+all of which were in the original FIV GRE 
+rectangle. 
+ 
+Figure 7: Repeating letter groups of F, RE and V in the 
+horizontal plane after a left shift of 13 in row 1. 
+ 
+In terms of horizontal groupings these are the only 
+instances that exist for F, RE and V in the cipher 
+text, but expanding the search wider and looking 
+for instances of where the letters RE occur in the 
+vertical plane over two rows shows an interesting 
+phenomenon whereby three additional letter 
+groupings can be found in which the F and V 
+occurs in the third row with a spacing of 6 
+characters in each case.  These 3 groupings are 
+found in rows 3-5, 13-15 and rows 24-26, which 
+is of additional interest as row 26 falls squarely 
+within the area occupied by the K4 cipher.  The 
+outputs of challenge puzzle 2 then would appear 
+to be the identification of 6 matrices of dimension 
+3x32, with 3 expressing their respective markers 
+of F, RE and V in the horizontal plane and 3 in the 
+vertical. 
+3.3  
+Challenge puzzle 3 
+The results derived here for challenge puzzle 3 
+were originally found via brute force computation 
+of pt letter frequencies in the regions defined by 
+the previously identified 3x32 matrices.  For the 
+purposes of this paper the solve will proceed 
+instead from information present at the center of 
+another rectangle that participates in the same 
+scheme starting to emerge from the previous two 
+challenges. In keeping with the emerging 
+paradigm starting to take shape, another 7x6 
+rectangle will be drawn to the left of the one 
+previously described in challenge puzzle 2 in rows 
+9-14, but this time in columns 8-14. It can be seen 
+that this rectangle has at its center another 
+anagram that this time spells out the partial 
+sentence, “YES ITS”.  This is significant as it will 
+be remembered that the entry that proceeds “can 
+
+[[page 6]]
+you see anything” in Howard Carter’s diary reads, 
+“Yes, it is wonderful”.   
+ 
+Figure 7: Challenge puzzle 3 shown relative to 
+challenge puzzle 2 in the pt view. 
+Comparing the rows in the pt that contain the 
+letters required to make the string “YES ITS” to 
+those rows participating in the 6 matrices in the ct 
+previously identified, it becomes apparent that 
+there is a strong correlation, with only rows 10 and 
+27 fulfilling the minimum letter condition, but not 
+falling across a 3x32 matrix position.  As a result, 
+these 2 rows have been removed from 
+consideration in figure 8.  After analysis, it also 
+becomes apparent that the letter E, which is shown 
+in yellow in figure 8 appears to be participating in 
+a rudimentary scheme that allows the 3x32 
+matrices to be labelled in a set order.   
+ 
+Figure 8: Simultaneous view of ct and pt showing pt 
+rows containing “YES ITS” relative to ct rows marked 
+with F, RE and V. 
+This scheme is obscured at first glance by two 
+factors.  The first is that there are two qualifying 
+rows that fall across the top and bottom rows of 
+the matrix in rows 11 -13.  As a result of this the 
+frequency of the letter E from row 12 that sits 
+between them is taken instead.  The second 
+obscuration is the word “DESPARATLY” in the 
+pt of row 15, which has had one E altered and one 
+removed.  If these are reintroduced, then row 15 
+now has a frequency count of 5 for the letter E.  
+This allows for labelling of each individual matrix 
+marked by an F, RE and V with a distinct number 
+from 1-6, the results of which can be tabulated as 
+follows. 
+Matrix Number 
+CT Rows 
+1 
+1 – 3 
+2 
+7 - 9 
+3 
+24-26 
+4 
+11 – 13 
+5 
+13 - 15 
+6 
+3 - 5 
+Table 1: Ct 3x32 matrices marked post labelling. 
+3.4 
+Challenge puzzle 4 
+There is a final challenge puzzle that completes 
+the symmetry of the scheme presented so far and 
+fills in the missing 7x6 rectangle that would 
+logically create a complete and symmetrical set of 
+four.  This is shown in figure 9 and is an anagram 
+of “TOMB LR”.   
+  
+Figure 9: Challenge puzzle 4 shown relative to the  
+position of challenge puzzle 1.  
+Only two instances of the letters for TOMB exist 
+in the pt that have a contiguous grouping and 
+which have 3 of those letters in the diagonal.  The 
+first of these is already a composite part of the 
+anagram given in the rectangle shown in figure 9, 
+but the second instance is found in the lower right 
+of the bottom panel with respect to the location of 
+the first instance, which may account for the LR 
+fragment in the initial 6 letters.  If the diagonal 
+components of these two groupings are extended 
+towards the top panel then they eventually 
+converge in the pt view on the letter I.  To put that 
+result in the context of challenge puzzle 1, there is 
+now an implied instance of a 13 stepped pyramid 
+topped by an I. The result already found in 3.1 
+would strongly suggest that attention is being 
+
+[[page 7]]
+directed towards either the Great Seal of the 
+United States or its presence on the US Dollar. 
+With this in mind it is found that extending the 
+center line of the pyramid in the ct view does in 
+fact hit the D of USD in row 1.  As a result, this 
+observation is taken as being a key informational 
+output of challenge puzzle 4. 
+ 
+Figure 10: Hidden 13 stepped pyramid formed by the 
+diagonals of the word TOMB in the upper left and 
+lower right. 
+Rendering this structure in the ct view also reveals 
+that the string ANIT exists along the center line of 
+both the ct and the pt views.  The center of the 
+structure in both instances also holds the letters 
+AET and ATE respectively.   
+3.5 
+Additional structures 
+Taking the letters WW from row 10 in the pt and 
+MM from row 4 in the ct it is possible to mark the 
+lower left and upper right hand corners of a 7x7 
+square that straddles the center line of the pyramid 
+structure perfectly. 
+ 
+Figure 11:  Signatures of Jim Sanborn and Ed Scheidt 
+shown within the 7x7 box formed in columns 13-19 
+and rows 4-10.  The center line of the pyramid structure 
+is shown in green. 
+The ct view of this structure has at its center the 
+initials SJH, which are taken to be the signature 
+for, “Herbert James Sanborn” and the pt view has 
+a more elaborate scheme as shown in figure 11, 
+whereby the surname Scheidt is anagrammed 
+twice on the outskirts of the 7x7 square whilst the 
+name Edward is given a symmetrical rendition 
+within the inner square. 
+4 
+Kinetic elements 
+It was seen previously in section 3 that a left shift 
+of 13 was required in order to make sense of 
+challenge puzzle 2. Given the ct is laid out in a 
+32x28 grid with one extra character sitting in a 
+33rd column on row 23 it is possible to wrap the ct 
+into a cylinder of width 32 by discarding this 
+additional character in row 23, which is deemed 
+an innocuous operation for the purposes of this 
+section as none of the previously identified 
+matrices fall across this row.  The same operation 
+can be applied to the tableau panels, which will 
+cause the extra letter L in column 32 to be 
+discarded and for the panels to be wrapped on a 
+width of 31 characters.  This difference in width 
+means that the tableau cylinder can actually sit 
+comfortably within the dimensions of the ct and 
+pt cylinders. Giving freedom of movement for all 
+rows about the cylinders axis gives rise to a design 
+that is similar to a Jefferson cylinder.  It will be 
+noted that the act of moving individual rows to 
+observe some kind of intended effect is an 
+example of kinetic art, so this section details the 
+outcome of such operations as being distinct from 
+the static information described previously.    
+4.1 
+Effects of row shifting 
+It will be remembered from the previous section 
+that the 3x32 matrix that extended across rows 1-
+3 was found as a result of challenge 3 to be 
+labelled as matrix #1 and that a left shift of 13 in 
+the first row of this same matrix exposed a third 
+horizontal grouping of F, RE and V.  This same 
+shift also causes row one to begin with the letters 
+USD.  This initial configuration for matrix #1 will 
+now be used as a starting point to explore the 
+properties of matrix 1 under a defined set of 
+kinetic operations.  In this initial configuration, it 
+
+[[page 8]]
+is seen that a 4 letter block is present in the ct view 
+composed of 2 vertically occurring  digrams, 
+which are given as “UNYY” as shown in figure 
+12.  This string of “UNYY” is deemed to be 
+significant as it starts on the U of the USD alluded 
+to in challenge 4 and most importantly can be seen 
+to encrypt with “OBKR” using the Vigenère 
+tableau to give a value of “KRYP”.   
+ 
+Figure 12: Effect of left shifting 13 characters in the ct 
+view of matrix 1. 
+It follows immediately that there may be benefit 
+in scanning matrix #1 for the remaining 3 letters, 
+“TOS” that would combine to give a result of 
+“KRYPTOS” for the first 7 letters of K4.  
+Performing such a scan requires finding the letters 
+“CKB” as these will encrypt through the Vigenère 
+tableau to give “TOS”.  A left shift of 10 to row 2 
+allows for such a result and again results in a block 
+of 2 vertically occurring digrams that could be 
+taken at this stage to be either “CKBD” or 
+“CKBF” due to the double occurrence of the letter 
+K in columns 20 and 21. 
+  
+Figure 13:  Effect on the ct after left shifting row 2 by 
+10 characters. 
+Perhaps the most intriguing outcome of this 
+second operation is, “what has not happened” 
+during the movement of row 2.  It can be seen that 
+despite row 2 being left shifted 10 characters, the 
+initial “UNYY” block has remained invariant 
+under the transformation applied.  This property 
+of “invariance under transformation” (iut) will be 
+seen to occur consistently in specific transforms 
+of the 6 matrices previously identified including 
+those for which the K4 plain text is already 
+known. Further exploration of the matrix 
+properties 
+after 
+these 
+previous 
+kinetic 
+transformations have been applied shows a 
+number of other phenomena of importance.  These 
+observations are best viewed in the accompanying 
+HTML tool, but to recap, all transformations 
+applied to the ct are simultaneously applied to the 
+pt view.  The first 13 character left shift in the pt 
+shows an interesting pattern in which two crosses 
+are formed comprised of the letters HOT and EOF 
+in columns 2 and 22 respectively as shown in 
+figure 14. 
+ 
+Figure 14: Corresponding effect in the pt view of 
+matrix when left shifting 13 characters. 
+This pattern in the pt is destroyed after the second 
+transformation in which row 2 is left shifted 10 
+characters, but interestingly a complete 4 letter 
+block for the letters “THEO” is now found as a 
+transformed quantity.    
+ 
+Figure 14: Transformation of the pt matrix when a left 
+shift of 10 is applied to row 2. 
+Analyzing which letters remain in proximity 
+before 
+and 
+after 
+the 
+first 
+and 
+second 
+transformation it is further seen that the letters F 
+and I are also implicated when considering the 
+before and after case, meaning that an entire 6 
+character block has remained invariant.  The 
+relevance of this observation will be discussed 
+below, but it will now be shown that this 
+invariance principle is given a full exposition by 
+way of an actual embedded example in the pt. 
+4.3 
+Invariance under transformation 
+It can readily be calculated that the number of 
+distinct row combinations for a 3x32 matrix can 
+be computed as 32x32x32, giving a total figure of 
+32,768 possible row permutations.  Scanning for 
+the numbers 3, 2, 7, 6 and 8 in the pt it is found 
+that all five numbers occur in proximity within the 
+bounds of a 3x32 matrix over rows 12-14.  
+Furthermore, they can be re-arranged through row 
+shifting to give a visual exposition of the 
+invariance phenomena already shown in 4.2. Note 
+that these operations are applied to the corrected 
+pt matrix containing XLAYERTWO on row 14 
+rather than IDBYROWS.  Left shifting rows 12, 
+13 and 14 by 3 characters will help keep the 
+
+[[page 9]]
+number EIGHT in view during the second 
+transformation step.  If row 14 is now right shifted 
+13 characters it will be seen in figure 15 that the 
+number TWO now sits underneath the numbers 
+SIX and SEVEN.  The number THREE will be 
+seen in figure 15 to be present in a 5 letter cross in 
+column 31.  If row 2 is now right shifted by 7 
+characters then the numbers themselves can be 
+seen to have remained unaltered, but there have 
+been subtle changes to their positions.  Another 
+artefact of the transformation is the emergence of 
+the letters F, RE and V shown in yellow in figure 
+15. 
+   
+Figure 
+15: 
+Exposition 
+of 
+“invariance 
+under 
+transformation” for the numbers 32768 in the 3x32 
+matrix bound by rows 12-14 of the pt.  Effect or a 7 
+character right shift of row 2 is shown directly below. 
+This kinetic exposition of the iut principle that has 
+already seen in matrix #1 is deemed to be 
+important as it is reinforcing the idea that a 3x32 
+matrix may have two positions that can be 
+compared in which the transformation is effected 
+solely by a movement of the middle row.  
+4.4  
+Symmetry operations 
+Before arriving at some concrete conclusions as to 
+the mechanics of the K4 cipher, some additional 
+observations can be made about the previous 
+behaviour of matrix #1 under transformation. 
+Each row and by extension any 3x32 matrix in the 
+ct and pt has a symmetrical opposite, whose row 
+can be defined as 29 – n, where n is the row to be 
+operated on.  This means that matrices 1-6 all have 
+symmetrical counterparts, with the exception of 
+matrix 5, which straddles rows 14 and 15 
+unevenly and forms an exception case.  Every 
+operation is also mirrored in the pt, so 
+simultaneous operations across 4 matrices are 
+made every time a single row movement is made 
+under such a paradigm.  This idea of operating on 
+4 matrices simultaneously echoes the setup of the 
+initial challenge puzzles in which 4 distinct 7x6 
+matrices had to be considered in order to make 
+progress.  If the row shifts on matrix 1 made 
+previously in 4.2 are mirrored in the pt using a 
+counter-symmetric rotation scheme then rows 1-3 
+and 26-28 end up with the configuration shown in 
+figure 17. The letters ANL are present in both the 
+original and mirrored matrix and are shown in red 
+with their diagonals extended to show that they 
+cross above the letters W and L in row 15.   
+ 
+Figure 17: Inferred ray projected above second 
+instance of WL corresponding to the letters YA and R 
+in the ct with the position of R shown in yellow as D in 
+the pt view. 
+The act of joining these two paths for the ANL 
+trigram in the original and mirrored matrices 
+exposes the presence of a second kinetic scheme 
+that is outside the scope of this document to 
+explain fully, but the outcome of the operations it 
+facilitates once followed through to conclusion 
+explain the presence of the raised letters YA and 
+R in the ct.  In short, the blue lines in figure 17 are 
+taken to be metaphoric of light rays passing 
+through focal points defined at the positions of the 
+WL characters, which have a separation width of 
+16. This means that the 2 instances of WL can 
+continually be swapped by rotating the cylinder 
+row 180° each time. 
+4.5  
+The Kryptos alphabet 
+A combination of brute force computation and the 
+solution to the second kinetic scheme very briefly 
+
+[[page 10]]
+described above eventually found that each matrix 
+defined in the ct supports an additional 
+configuration, which is found by rotating the 
+mirrored matrices in a symmetric rather than 
+counter symmetric orientation.  This operation 
+alone is not enough to mix the digraph statistics 
+that are being drawn upon by the cipher scheme 
+significantly enough to offer much difference to 
+the original matrix configuration, but it is 
+reasoned that every time 8 letters have been 
+selected from a given matrix the entire ct and pt 
+are all moved one position right through the 
+Kryptos alphabet.  This combination of difference 
+in symmetry operation combined with the 
+statistical mixing of the diagram relationships is 
+enough to give markedly different results for the 
+optimal solutions to the first and second 
+configuration positions.  The overall effect of such 
+a scheme in which each matrix position supports 
+two configurations is that 12 distinct matrices can 
+be defined that each result in the output of 8 
+letters.  The first configuration for matrix #1 has 
+no Kryptos right shift applied to the ct or pt, but 
+by the time the 12th matrix configuration is 
+reached it will be seen that right shifting has been 
+applied 11 times. These 12 matrices each 
+outputting 8 letters will of course deliver 96 letters 
+of plain text leaving only the final “R” of K4 
+unmapped.   
+5 
+Cymatic behaviour 
+In the course of this paper the proposed mechanics 
+of the K4 cipher have slowly been built from first 
+principles by following guidance from a series of 
+static and kinetic challenges that have each 
+revealed additional information at each step.  
+Using the HTML tool that accompanies this paper 
+it can be seen that the scheme outlined generates 
+all known pt for K4 in the correct positions, but 
+another full paper could be written on what is 
+happening in cryptograms 4 and 7 where the full 
+plaintext is already known.  Contrasting the 
+matrix configurations for cryptograms 4 and 7 it 
+is readily apparent that there are two more 
+phenomena of interest.  The first is that the 
+number of rows being considered for the initial 
+position of any matrix configuration will always 
+contain a permutation of ABC in the vertical plane 
+or diagonal plane, which drastically cuts down the 
+initial row permutations that need to be 
+considered.  This requirement would appear to 
+change after cryptogram 6 at which point the 
+requirement becomes XYZ.  The most significant 
+observation, which can also be seen in the 
+operations already shown for matrix #1 is that all 
+4 views participating in any given solution show 
+a curious reinforcement of positional information 
+relating to digrams that occur in whole blocks of 
+4 characters.  The 8 letters for any given solution 
+are always extracted from the original matrix 
+position in the ct, but the 3 corresponding matrices 
+all appear to show a range of different 
+relationships to the positions from which these 
+characters are extracted from the primary matrix.  
+This phenomenon is akin to a form of interference 
+occurring between the diagram statistics of each 
+matrix view that changes each time the middle 
+row is moved by one character in a transformation 
+operation.  For that reason it is conjectured that 
+the underlying mathematical mechanism of the 
+K4 cipher is actually a maximization function of 
+some description that defines a starting and 
+finishing configuration in which both invariance 
+under transformation and positional statistics both 
+give weight to whether  a given row 
+transformation is indeed the intended finishing  
+configuration.        
+5.1 
+Further research 
+ 
+A candidate solve that satisfies the base 
+constraints outlined for the K4 scheme described 
+in this paper has already been extracted for 96 
+letters that combine with the unmapped R in 
+position 97 to give the following result:  
+ 
+KRYPTO SITE AM EAST.  ROUND EAST 
+NORTH EAST.  I FORCES.  DYNAMO WAVE 
+ROUND GROUP. TE. BERLIN CLOCK. 
+CHURCH TUNNEL. UK GCHQ CODE[R]. 
+ 
+This result was achieved via visual inspection, 
+but new effort is currently underway to explore 
+the roles of automated functions that can keep 
+score of maximum and minimum invariance.
+ 

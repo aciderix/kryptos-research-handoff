@@ -1,0 +1,48 @@
+Bryan D. Levenson
+
+INSTRUCTIONS FOR SPREADSHEET K5-pb2a.xls
+WORKSHEETS "input", "i-o", & "i-o play"
+ 
+1. In "input", type or paste text into red blocks.
+   > Use 1 to 6 for characters beyond Z (such as is needed
+     with 32-character binary alphabet A=00000 to Z=11001,
+     1=11010 to 6=11111) or repeats (such as if decrypting
+     with Line 15 from Kryptos’ Vigenère side -
+     NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL or
+     LJIHGFEDCBASOTPYRKZXWVUQNMLJIHGN).
+
+2. Read Logarithmic Sum in "input"'s A23.							
+3. In "input", copy M3:P34 & Paste Special/Values to R3:U34.
+  
+4. In "input", copy U3:U34 & Paste Special/Values to Q3:Q34.
+  
+5. In "input", highlight Q3:T34 & Sort Descending.
+ 
+6. In "input", copy Q3:T34 & Paste Special/Values to
+   "i-o" D1:G32 and/or "i-o play" D1:G32.
+
+7. In "i-o" and/or "i-o play", read transformed text in
+   outputs.
+
+INSTRUCTIONS FOR SPREADSHEET K5-pb2a.xls
+WORKSHEET "Caesar" and "KRYPTOS-Caesar"
+
+1. Type or paste text into red blocks.
+
+2. Read across rows to find Caesar-shifted texts.
+
+INSTRUCTIONS FOR SPREADSHEET K5-pb2a.xls
+WORKSHEET "Vig-tableau"
+
+1. Type or paste text into red blocks in any/all of these:
+   >AJ8:EB8 & AJ9:EB9
+   >AJ16 (and/or following cells in row 16 if keyword is
+    longer than one letter) and AJ17:EB17
+   >AJ22:EB22
+   >AJ27:EB27
+
+INSTRUCTIONS FOR SPREADSHEET K5-pb2a.xls
+WORKSHEET "Log-Sum"
+
+1. Type/paste text into B2:K11
+2. Read Logarithmic Sum in B24

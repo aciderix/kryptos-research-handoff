@@ -1,0 +1,37 @@
+Last updated on June 27, 2008
+
+  Hello Kryptos people... I'm back and I have some interesting news... A few weeks ago I decided to sit down and watch the Nova Science Now special again and take a closer look at Sanborns notes...  I've come to the conclusion that my previous ideas on the real matrix to K3 are wrong and I've come up with a better solution to K3 and its transposition...  
+
+Instead of using a keyed columnar transposition like I previously thought, it's quite a bit easier to solve.  Starting with Sanborns notes in the Nova Science Now special with the plain text of K3 we have a matrix of 42 columns and 8 rows.  And if we then transpose that matrix into another matrix of 24 columns and 14 rows starting at the bottom left and moving upward we can get the cipher text of K3... The way it works is we go bottom to top, left to right on the first matrix and then top to bottom, right to left when filling in the second to get these.  Note that this also works going from top to bottom, right to left on the first matrix and then bottom to top, left to right when filling in the second matrix.  So when ‘solving’ K3 here is what the two matrices would look like...
+
+Cipher text, 24 columns by 14 rows:
+ENDYAHROHNLSRHEOCPTEOIBI
+DYSHNAIACHTNREYULDSLLSLL
+NOHSNOSMRWXMNETPRNGATIHN
+RARPESLNNELEBLPIIACAEWMT
+WNDITEENRAHCTENEUDRETNHA
+EOETFOLSEDTIWENHAEIOYTEY
+QHEENCTAYCREIFTBRSPAMHHE
+WENATAMATEGYEERLBTEEFOAS
+FIOTUETUAEOTOARMAEERTNRT
+IBSEDDNIAAHTTMSTEWPIEROA
+GRIEWFEBAECTDDHILCEIHSIT
+EGOEAOSDDRYDLORITRKLMLEH
+AGTDHARDPNEOHMGFMFEUHEEC
+DMRIPFEIMEHNLSSTTRTVDOHW
+
+Plain text, 42 columns by 8 rows:
+SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPASSAGED
+EBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWA
+YWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBRE
+ACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENING
+THEHOLEALITTLEIINSERTEDTHECANDLEANDPEEREDI
+NTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEF
+LAMETOFLICKERBUTPRESENTLYDETAILSOFTHEROOMW
+ITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ
+
+I would like to point out here that the direction looks like a forward slash (‘/’) character, or the same direction as the needle on the compass rose if you were facing the ‘N’ marking. ;)  This is another reason why I believe this is the K3 matrix.
+
+So applying this to K4 is pretty simple as there are no possible matrices for 97 letters (it's a prime number) I will assume there is either an extra letter or a missing letter...  Now this is where things get complicated...  There are very few possible matrices with 98 letters (either 7x14 or 14x7) and there are many possible matrices with 96 letters!  So this is my current road block to a K4 solution...
+
+I've started writing some computer software to try every combination of matrix for a 96/98 letter K4 using this method of solving K3 and combined it with the poly-alphabetic Vigenere cipher from K1 and K2 in various orders...  Hopefully this will bring about some real results...  If you’re interested in looking at the current version of the software(only k1, k2 and k3) I’ve put the source code and the output of the code in the files section under 'Personal Folders/Ron Novy’s Stuff'

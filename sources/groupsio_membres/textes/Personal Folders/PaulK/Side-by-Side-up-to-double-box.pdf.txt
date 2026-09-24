@@ -1,0 +1,1129 @@
+[[page 1]]
+Z O B K R U O
+X O G H U L B
+S O L I F B B
+W F L R V Q Q
+P R N G K S S
+O T W T Q S J
+Q S S E K Z Z
+W A T J K L U
+D I A W I N F
+B N Y P V T T
+M Z F P K W G
+D K Z X T J C
+D I G K U H U
+A U E K C A R
+Z O B K R U O
+X O G H U L B
+S O L I F B B
+W F L R V Q Q
+P R N G K S S
+O T W T Q S J
+Q S S E K Z Z
+W A T J K L U
+W I D I A N F
+B N Y P V T T
+M Z F P K W G
+D K Z X T J C
+D I G K U H U
+A U E K C A R
+WIDIA
+STREAM
+DIAWI
+STREAM
+10 SHIFT
+J Y L U B E Y
+H Y Q R E V L
+C Y V S P L L
+G P V B F A A
+Z B X Q U C C
+Y D G D A C T
+A C C O U J J
+G K D T U V E
+G S N S K X P
+L X I Z F D D
+W J P Z U G Q
+N U J H D T M
+N S Q U E R E
+K E O U M K B
+KEY ABSCISS
+C Q E F N O V
+A Q H M V J E
+Y Q J W H E E
+S U J Z W R R
+M K M E S P P
+U Y A R M P X
+K R P V S D D
+S M T U S J O
+S X G W E M W
+D J C J W T T
+J B W J S A H
+F G D O U X F
+F X H F V U O
+N P Z F P Q Y
+J Y L U B E Y
+H Y Q R E V L
+C Y V S P L L
+G P V B F A A
+Z B X Q U C C
+Y D G D A C T
+A C C O U J J
+G K D T U V E
+N S K G S X P
+L X I Z F D D
+W J P Z U G Q
+N U J H D T M
+N S Q U E R E
+K E O U M K B
+C Q E F N O V
+A Q H M V J E
+Y Q J W H E E
+S U J Z W R R
+M K M E S P P
+U Y A R M P X
+K R P V S D D
+S M T U S J O
+F X Q T L M W
+D J C J W T T
+J B W J S A H
+F G D O U X F
+F X H F V U O
+N P Z F P Q Y
+Side-by-side
+Clues K1, K2 and K3 PTs revealed to
+insert S into K2 CT to get XLAYERTWO.
+Analysis of  K2 PT and last 120 
+characters of K2 CT via shifts of 
+ABSCISSA revealed that Z had to be 
+inserted into the beginning of K4 CT. 
+Note that K4 now has 98 characters. 
+I also determined via the relationship of
+DYAHR with HYDRA that the string
+DIAWI in the modiﬁed K4 CT had to undergo 
+a transposition resulting in WIDIA.
+I determined later that both the
+WIDIA stream and the DIAWI
+stream are needed to go forward.
+Clues from discovery of completion
+of Hoover’s name around the 
+periphery and proper application 
+of the meaning of the K1 PT led to 
+the conclusion that the Caesar 
+shift of 10 version of K4 was the 
+version of interest.
+Also developed early on were
+probable keywords
+THEBERLINCLOCK,
+ABSCISS and 
+MENGENLEHREUHR
+MNSQ converts to MASK
+via clues in K1 (AELSN, QELSK.
+Also see MASP  conv. to MASK 
+all in column 1 of 7-column pad).
+Doing a Quagmire III
+substitution with the above
+JYLUB... version and keyword
+ABSCISS, I arrived at this.
+(Note: The ABSCISS keyword was
+provided by a member of the Kryptos
+Group who asked that his name not
+be revealed. I thank him.)
+NOTE: Matrix C is used as the
+CT in the OTP substitution
+coming on the next page.
+A
+B
+C
+Paul Kiesel
+4/29/2019
+1
+
+[[page 2]]
+KEY QQQ
+I K L M Z E Y
+G K Q X Y V L
+B K V P Q L L
+F R V O P A A              
+X S X L F C C              
+R B G A X C T
+S A C Y F J J
+F X D R F V E
+F T N P L X P
+J V I V P D D
+V H P V F G Q
+M N J E R T M
+M T Q M Y R E
+Z C O M C K B
+K E O U M K B
+N S Q U E R E
+N U J H D T M
+W J P Z U G Q
+L X I Z F D D
+G S N S K X P
+G K D T U V E
+A C C O U J J
+Y D G D A C T
+Z B X Q U C C
+G P V B F A A
+C Y V S P L L
+H Y Q R E V L
+J Y L U B E Y
+K E O U M K B
+N S Q U E R E
+N U J H D T M
+W J P Z U G Q
+L X I Z F D D
+N S K G S X P
+G K D T U V E
+A C C O U J J
+Y D G D A C T
+Z B X Q U C C
+G P V B F A A
+C Y V S P L L
+H Y Q R E V L
+J Y L U B E Y
+I K L M Z E Y
+G K Q X Y V L
+B K V P Q L L
+F R V O P A A
+X S X L F C C
+R B G A X C T
+S A C Y F J J
+F X D R F V E
+M T K D W X P
+J V I V P D D
+V H P V F G Q
+M N J E R T M
+M T Q M Y R E
+Z C O M C K B
+This matrix has three columns
+that are the same as in matrix B.
+It serves as a clue to use matrix
+B.
+Keyword of OTP using matrix
+C as CT
+Flipped matrix B due to ZUG 
+clue and VEER clue in matrix 
+C and also VIRTUALLY in 
+morse code slab.
+Result of OTP
+using above matrices
+C C S L R O H
+H H Q W E I K
+C Z K C T A N
+C O G K Y H A
+R Y P F Q N N
+Y V A H F O U
+G R N M E H Z
+Z C U J E K I
+D H A Q D C N
+E B E V Y U U
+P O R B Q K A
+P E H Z M A U
+X V Q E E Z H
+P R B L U C K
+  C C S L R O H
+  H H Q W E I K
+  C Z K C T A N
+  C O G K Y H A
+  R Y P F Q N N
+  B V H U M O U
+  G R N M E H Z
+  Z C U J E K I
+  T H K G T C N
+  E B E V Y U U
+  P O R B Q K A
+  P E H Z M A U
+  X V Q E E Z H
+  P R B L U C K
+OTP using
+Matrix C as
+CT and 
+matrix E as
+keyword.
+D
+E
+F
+WIDIA
+STREAM
+DIAWI
+STREAM
+2
+
+[[page 3]]
+P X P P E T Z G B R C C H C
+R V E O B H C R V Y O Z H C
+B Q H R E K U N H P G K Q S
+L E Z B V G J M U F K C W L
+U E M Q Y T E E M Q Y T E R
+C Z A K U C K H O N H A I O
+K H U A U N I Z U N A N K H
+KEY AX
+R O O M M X M K A H I J S H
+Z P G Q I B Y H U I E S S H
+S R J J M Q H S G J N A F E
+I M R W P A C O Q Z S J I V
+N M Q C C X T X L A B E P S
+A S C I Y P N R T S Q H A D
+X U W V Y G B F Q S G K M N
+KEY CLOCKTHEBERLIN
+Q A X Q E K E Y K J B M Z J
+M O S V B D U J H L T B Z J
+Z P C M E V A B S M F C O G
+B Q Q Z V C Y A G R Z M B X
+F Q G E Y K W K D C R G V B
+K B Y L U O F P W B G J K F
+L W J X U I R H G B S Y E U
+P X P P E D Z G Y R C C H C
+R V E O B H C R V Y O Z H C
+B Q H R E A U N A P G K Q S
+L E Z B V Q J M H F K C W L
+U E M Q Y D E E F Q Y T E R
+C Z A K U C K H O N H A I O
+K H U A U N I Z U N A N K H
+Q A X Q E S E Y Q J B M Z J
+M O S V B D U J H L T B Z J
+Z P C M E P A B Z M F C O G
+B Q Q Z V J Y A S R Z M B X
+F Q G E Y S W K T C R G V B
+K B Y L U O F P W B G J K F
+L W J X U I R H G B S Y E U
+R O O M M T M K R H I J S H
+Z P G Q I B Y H U I E S S H
+S R J J M R H S S J N A F E
+I M R W P H C O G Z S J I V
+N M Q C C T T X E A B E P S
+A S C I Y P N R T S Q H A D
+X U W V Y G B F Q S G K M N
+Rotated 90 degrees.
+According to the
+precedent set by 
+matrices B and D, this 
+matrix should have 
+been chosen to be 
+the CT of the OTP 
+shown on Page 4, but 
+it wasn’t. See matrix
+L on next page to ﬁnd
+out what happened.
+I already determined
+that CLOCKTHE-
+BERLIN was a 
+keyword. Not having
+another clue, I tried 
+it. It worked.
+Because of the 
+TQSJQSS anomaly
+in K4, I determined
+that MENGENLEH-
+REUHR was a 
+probable keyword
+to be used as
+demonstrated.
+Notice APEX and
+Zenith hints.
+Note TREMBLING
+HANDS hint.
+KEY ENLEHREUHRMENG
+F X V P S Z P U U I A R Z R
+D V T O P C G C C J P L Z R
+L Q A R S U Z R R L E M O X
+K E M B L B Q K B K X R B C
+T E E Q W Z I N O B K V V N
+M Z K K J T T V M A F Z K W
+C H H A J H N A B A O E E S 
+F X V P S O P U I I A R Z R
+D V T O P C G C C J P L Z R
+L Q A R S Y Z R Q L E M O X
+K E M B L I Q K R K X R B C
+T E E Q W O I N Z B K V V N
+M Z K K J T T V M A F Z K W
+C H H A J H N A B A O E E S
+G
+H
+I
+J
+WIDIA
+STREAM
+DIAWI
+STREAM
+3
+“The last part is the APEX of the
+Pyramid.” Notice OBKR connected
+to APEX.
+G
+
+[[page 4]]
+KEY Z
+E W U Y O X Y Q Q H S 
+K X K C U P T Y B F B 
+B I Y J X K J N S K O   
+Q X K K J D L T W Z D   
+L A J A N Z A Z W K A   
+B P D D N V X H M T A   
+Z U U M L X Z Z I P P   
+U L S E X Z V   B G G   
+S I G M S A S T D D O
+S F X V P S Z P U U I 
+A R Z R D V T O P C G 
+C C J P L Z R L Q A R 
+S U Z R R L E M O X K 
+E M B L B Q K B K X R 
+B C T E E Q W Z I N O 
+B K V V N M Z K K J T 
+T V M A F Z K W C H H 
+A J H N A B A O E E S
+S C C S L R O H H H Q 
+W E I K C Z K C T A N
+C O G K Y H A R Y P F 
+Q N N B V H U M O U G 
+R N M E H Z Z C U J E 
+K I T H K G T C N E B 
+E V Y U U P O R B Q K 
+A P E H Z M A U X V Q 
+E E Z H P R B L U C K
+K P I J F O Q I A A U 
+D J D R R W T V Z Y Q 
+K T P P I E Q J M T I 
+F Y S N O P J K K P G 
+D Z J S Q U R Z O B J 
+B Q K W E A N J V B W 
+W T Q R X I Q Z M V T 
+W N A N G A N Y E M Q 
+V O I O T A Z H J Y S
+E W U Y O T Y Q H H S 
+K X K C U P T Y B F B 
+B I Y J X K J N S K O 
+R X K N J D L T W Z D
+L A J H N Z K Z W K A 
+B P D D N V T H M X A 
+Z U U M L X Z Z I P P 
+U L S E X Z V   B G G 
+S I G M S A S T D D O
+S F X V P S O P U I I 
+A R Z R D V T O P C G 
+C C J P L Z R L Q A R 
+S Y Z R Q L E M O X K 
+E M B L I Q K R K X R 
+B C T E E Q W O I N Z 
+B K V V N M Z K K J T 
+T V M A F Z K W C H H 
+A J H N A B A O E E S
+S C C S L R O H H H Q 
+W E I K C Z K C T A N 
+C O G K Y H A R Y P F 
+Q N N Y V A H F O U G 
+R N M E H Z Z C U J E 
+K I D H A Q D C N E B 
+E V Y U U P O R B Q K 
+A P E H Z M A U X V Q 
+E E Z H P R B L U C K
+K P I J F O K I A R U 
+D J D R R W T V Z Y Q 
+K T P P I E Q J M T I 
+F C S Z X D W S K P G 
+D Z J S R U R M O B J 
+B Q Q W T K G V V B L 
+W T Q R X I Q Z M V T 
+W N A N G A N Y E M Q 
+V O I O T A Z H J Y S
+Keyword Z from Zenith
+hints in matrix J.
+Says to add (SIGMA) S 
+and S to beginnings (BGG) 
+of the next two matrices
+S added to beginning of
+matrix. Notice now 99
+characters
+This matrix is CT of
+OTP
+S added to beginniing of
+matrix. Notice now 99
+characters.
+This matrix is keyword
+of OTP
+Another Quagmire III
+OTP substitution using
+SFXVP matrix as CT
+and SCCSL matrix as
+Keyword.
+Note: If you repad this to
+nine columns, JUPITER,
+IO, GANYMEDE, 
+EUROPA and JOVIAN
+appear in the matrix in
+various forms of readability,
+OTP
+K
+L
+M
+N
+WIDIA
+STREAM
+DIAWI
+STREAM
+some easy to read and others with the letters in groups. 
+Analysis of this seemed to not lead anywhere. However,
+it is worth noting that all these are part of the JOVIAN
+System and IO, GANYMEDE and EUROPA are
+three of the largest moons of Jupiter. One other of the
+four largest moons is Callisto. It does not appear here.4
+
+[[page 5]]
+K P I J F O Q I A
+A U D J D R R W T
+V Z Y Q K T P P I
+E Q J M T I F Y S
+N O P J K K P G D
+Z J S Q U R Z O B
+J B Q K W E A N J
+V B W W T Q R X I
+Q Z M V T W N A N
+G A N Y E M Q V O
+I O T A Z H J Y S
+GANYMEDE AND IO
+K P I J F O Q I A
+A U D J D R R W T
+V Z Y Q K T P P I
+E Q J M T I F Y S
+N O P J K K P G D
+Z J S Q U R Z O B
+J B Q K W E A N J
+V B W W T Q R X I
+Q Z M V T W N A N
+G A N Y E M Q V O
+I O T A Z H J Y S
+JUPITER AND JOVIAN
+K P I J F O Q I A
+A U D J D R R W T
+V Z Y Q K T P P I
+E Q J M T I F Y S
+N O P J K K P G D
+Z J S Q U R Z O B
+J B Q K W E A N J
+V B W W T Q R X I
+Q Z M V T W N A N
+G A N Y E M Q V O
+I O T A Z H J Y S
+SYSTEM (MAYBE)
+K P I J F O Q I A
+A U D J D R R W T
+V Z Y Q K T P P I
+E Q J M T I F Y S
+N O P J K K P G D
+Z J S Q U R Z O B
+J B Q K W E A N J
+V B W W T Q R X I
+Q Z M V T W N A N
+G A N Y E M Q V O
+I O T A Z H J Y S
+VJYQTM (FROM K1) 
+K P I J F O Q I A
+A U D J D R R W T
+V Z Y Q K T P P I
+E Q J M T I F Y S
+N O P J K K P G D
+Z J S Q U R Z O B
+J B Q K W E A N J
+V B W W T Q R X I
+Q Z M V T W N A N
+G A N Y E M Q V O
+I O T A Z H J Y S
+EUROPA AND IOTA
+E M U F P H Z
+L R F A X Y U
+S D J K Z L D
+K R N S H G N
+F I V J Y Q T
+Q U X Q B Q V
+Y U V L L T R
+E V J Y Q T M
+K Y R D M F D
+W CORRECT
+P INCORRECT
+K CORRECT
+B E T W E E N
+S U B T L E S
+H A D I N G A
+N D T H E A B
+S E N C E O F
+L I G H T L I
+E S T H E N U
+A N C E O F I 
+Q L U S I O N
+L CORRECT
+Q INCORRECT
+L CORRECT
+P A L I M P S
+E S T P A L I
+M P S E S T P
+A L I M P S E
+S T P A L I M
+P S E S T P A
+L I M P S E S
+T P A L I M P
+S E S T P A L
+S CORRECT
+C INCORRECT
+C INCORRECT
+E M U F P H Z
+L R F A X Y U
+S D J K Z L D
+K R N S H G N
+F I V J Y Q T
+Q U X Q B Q V
+Y U V L L T R
+E V J Y Q T M
+K Y R D M F D
+V J Y Q T Q
+N C E O F L
+P A L I M P
+ 
+V J Y Q T M
+N C E O F I
+P A L I M P
+V - 4
+J - 8
+Y - 3
+Q - 7
+T - 6
+M - 3
+VJYQTM - 3 TIMES
+GANYEM - YM
+JOVIAN - JV
+JUPITER - JT
+EUROPA - 0
+IO - 0
+                                   PYRAMID              PYRAMID
+                              VJYQT               VJYQTM
+                            FIVE
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION
+BETWEENSUBTLESHADINGANDTHEABSENTEOFLIGHTLIESTHENUANTEOFIQLUSION
+EESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREES
+MISSPELLED LETTERS IN PYRAMID
+MARKED BY Q IN ROW 6 OF 7-COL
+PAD
+JUPITER AND MOONS.. ONLY IO IS SPELLED WITH LETTERS
+IN PROPER ORDER. VJYQTM IS ALSO SUSPECT.
+STUFF TO CONSIDER IN DECIDING WHAT TO DO NEXT
+“And so, the further 
+along we go, and the 
+more the layers of the 
+onion are unraveled, 
+and the closer we get 
+to cracking the Kryptos 
+sculpture, the TINIER 
+THE GRAIN is that would 
+be responsible for
+cracking that code.”
+- Jim Sanborn in CNN
+2005 interview
+I O T A
+Q
+Step N ampliﬁcation: The following matrix is from the WIDIA stream. The DIAWI stream does not have
+all the Qs delimiting JUPITER. Also, the U is missing from the JUPITER cluster in the DIAWI stream.
+NUANT MEANS TWO
+THINGS TIED 
+TOGETHER. CLUE
+QJNCE AT END OF
+ROW 1 OF K2 CT.
+5
+
+[[page 6]]
+K P I J F O Q I A
+A U D J D R R W T
+V Z Y Q K T P P I
+E Q J M T I F Y S
+N O P J K K P G D
+Z J S Q U R Z O B
+J B Q K W E A N J
+V B W W T Q R X I
+Q Z M V T W N A N
+G A N Y E M Q V O
+I O T A Z H J Y S
+KEY ULTIMATE
+U Q N O T F X K Y
+X Z Z B L O F M U
+K H Q R T I X Q N 
+K F W V I D P S U 
+E F A R U L A Y Y  
+S Q L I F O H W I  
+Q N I L R K Z K Q  
+A P H R N F B Y K 
+I J V E V T W M H
+T E B Q M V O L V
+N Q V H P Z E N D 
+CT MATRIX P/KEY DIAWI
+E O F B I Y C N O
+C I D R Q J Y P H
+P Z D F W M C D T
+N I B F K P S L E  
+V O D F E Y K O G 
+V O D M W U Z J M 
+O C K D T E I E G 
+D H T F F I N M E
+B N A R A W K P T
+I T E O B A X Q A
+C O I L H I V F G
+KEY K1 CT
+D Y X N R X Z C R
+F M R S V Z Y Y U
+R W D R P V M S S
+A K B K Z B C Y R   
+J H G N R U O A S   
+I P G H R C X U U
+J R I I K J A H D
+V E N I J X C E Z
+P C X C R X G Y H
+O Q X Q L P Z P C
+K B A M G W L I J
+E O F B I Y I N O
+P I D R Q J Y P H
+P Z D F W M C D T
+N I B F K P S X E
+Y X L N L Y K O G  
+V O D Z W U M J M
+O C K T T T B O N
+D H X F F I N M E
+B N A R A W K P T
+I T E O B A X Q A
+C O I L H I V F G
+K P I J F O K I A
+R U D J D R R W T
+V Z Y Q K T P P I
+E Q J M T I F C S
+Z X D W S K P G D
+Z J S R U R M O B
+J B Q Q W T K G V
+V B L W T Q R X I
+Q Z M V T W N A N
+G A N Y E M Q V O
+I O T A Z H J Y S
+U Q N O T F T K Y
+M Z Z B L O F M U
+K H Q R T I X Q N
+K F W V I D P G U
+L O H B R L A Y Y
+S Q L V F O A W I
+Q N I E R N M Q K
+A P B R N F B Y K
+I J V E V T W M H
+T E B Q M V O L V
+N Q V H P Z E N D
+D Y X N R X O C R
+S M R S V Z Y Y U
+R W D R P V M S S
+A K B K Z B C C R
+V A Q K A U O A S
+I P G U R C L U U
+J R I C K C K B J
+V E G I J X C E Z
+P C X C R X G Y H
+O Q X Q L P Z P C
+K B A M G W L I J
+Repad to 9 
+columns.
+See previous page.
+ULTIMATE mentioned in
+JS interview.
+Says  overlay and solve 
+for WI(DIA) version. 
+WIDIA version has Row 
+7 as QNILRKZKQ which 
+has part of BERLIN
+backwards. Also says
+revolve, which would 
+place ZEND at the top left.
+After conversion using
+clues in appropriate
+columns, KBAM
+backwards is MASK. 
+DYXNR in ﬁrst row is 
+DYAHR after using clues 
+in that matrix and the 
+bottom rows of the one 
+above it.
+Note clue of scrambled
+CLOCK.
+Clues to use a probable
+scytale transposition.
+In WIDIA version, rows
+4 and 5, cols. 5 thru 9,
+are clues to change letter
+P to letter K. See text and
+matrices on page 10. This
+will likely mean to change 
+the single letter P in matrix
+S to letter K. 
+O
+P
+Q
+R
+WIDIA
+STREAM
+DIAWI
+STREAM
+6
+
+[[page 7]]
+At this point, I want to talk about the necessity of having two streams, WIDIA and
+DIAWI. There were a lot of clues to change DIAWI to WIDIA and I was certain that
+it must be done. I was just not sure if it would occur in the original K4 position or
+if it would occur in the 21 shift position or in other related places in K4 and all 25
+shifts of K4. Because of the necessity of having the original K4 CT as a base for 
+determining the correct shift needed to move forward (determined in part by applying
+the K1 PT to related strings of text appearing alongside DIAWI in the zero shift
+version) I chose to apply the transposition of DIAWI to WIDIA only to the DIAWI
+appearing in the shift zero version of K4. 
+So, I was solid in my conviction that the transformation of DIAWI to WIDIA was
+correct and I moved forward to step F where QMEETYQME appeared vertically
+in the text. I remembered Ed Scheidt one time saying something about having cake
+meaning meet me at seven, or something like that. It reminded me of the words
+EAT BEEF along the ﬁrst column of the K3-K4 work sheet Jim Sanborn provided for
+public viewing. Since MEETY ME had Qs, I knew it deserved to be looked at. It 
+nagged at me for a while and I ultimately decided to start a stream using DIAWI
+unchanged in K4. When I got to step F, instead of MEET ME, I got FEED ME. That
+struck a bell and I decided from that point on to have two streams.
+Now, Sanborn, in his notes, mentioned encountering smoke and mirrors along the
+way, I recognized that step F was the step he must have been referring to, as the
+bottom rows appeared to be a reﬂection of the top rows. Not a true reﬂection, but
+K on top equaled H on the bottom and H on top equaled K on the bottom, etc. At
+ﬁrst, I couldn’t ﬁgure out how to use this information, as the system of conversion
+of letters on the right side did not correspond with the system on the left side. I left
+it and moved along because it appeared to be just smoke and mirrors, as they say.
+Later, I went back and investigated more. I decided to do an OTP using F as CT and 
+ﬂipped F for key. See my ﬁle, ANKH Project, for details. The result of this was that
+I became convinced that both DIAWI and WIDIA streams were necessary in the
+scheme of things.
+Well, I got up to step Q and didn’t have a keyword. I remembered that Sanborn
+mentioned in his interview that K1 would rear its head at the end. So, just for a ﬁrst
+try, I applied K1 CT as key to step P results. It was sort of like an OTP, but, of course,
+some letters of K1 were used more than once, so it wasn’t a true OTP. Anyway,
+I got good results, but the results did not lead anywhere that I could tell.
+So, I got to looking at the result of step Q and realized that there really weren’t
+many diﬀerences in both streams. I decided to do an OTP of the WIDIA version
+as CT and the DIAWI version as keyword. I knew I would get mostly Ks in the
+resultant matrix, so I would look to see if anything stood out in what was not Ks.
+Turned out that QANNQ appeared. I did the same with steps O and P. Same 
+result. I concluded that ANN might well be a keyword. Also, in past matrices, 
+AN and QNN strings showed with associated Qs.
+On page 6 there is a note about changing letter P in matrix S to letter K. This seems
+to be supported by strings such as AXQ, XQ, XP QAXP, XPK and others throughout 
+the matrices. So, AX is turning out to be more than a keyword. Also appearing many 
+times are strings COG, KOG, CGOG, CO, CG and others that seem to  be associated 
+with the strings mentioned above that are pointing to changing the P to a K in matrix S.
+Also, see pages 9, 10 and 12.  As in K1 PT (modiﬁed via FIVJ changed to FIVE to read
+ABSENT EOF LIGHT instead of ABSENCE OF LIGHT) and the whole ﬁrst half of K2
+to alert analysts to insert S to obtain X, there is big emphasis now in changing letter P
+(the P in PRNG as hinted to by PSU in the top matrix on page 9) to letter K in matrix S.
+7
+
+[[page 8]]
+In the meantime I looked again at step R. It seemed to give clues that pointed
+strongly at using a scytale to solve a transposition cipher. Three words were
+readily apparent: COIL in bottom left corner, GATE in bottom right corner and
+EOF (end of ﬁle) in upper left corner of the matrix. I looked again at step P and
+found ZEND on the bottom right corner and also a close approximation of
+REVOLVE in the text. Turning the P matrix 180 degrees would put ZEND at
+the top left corner. Step R had EOF in top left corner, too. Then I recalled the
+K3-K4 sheet that I mentioned before. It has ENDYA (YA being the last letter of
+Russian cyrillic) in the upper left corner, too. 
+I then noticed the TOP#4 on the bottom. Then I saw the locations of the folds. 
+There is a drawing in the bottom right showing how to fold the paper to display
+the contents at the top! Folding the paper such that the two folds are adjacent,
+puts the text together and this text has 99 characters! Notice that Sanborn has
+shifted letters so that EAT BEEF and DLOR (DOOR) are not readily seen on
+the sculpture. Note the code is kept secure in the two DIFFERENT SAFE 
+DEPOSIT BOXES.
+8
+
+[[page 9]]
+P
+R
+Giving  scytale
+and K4 clues
+This is probably
+the beginning  of 
+the next layer
+Notice CEY (KEY) on both
+sides of O and pointing to L. 
+This indicates to change 
+the L in DLOR to O. Also, 
+COYL and EOE mimic
+COIL and EOF in “R”. Also, with 
+a stretch, GATE is there, too.
+We can see obvious relationships among all three above matrices. The question is, can we
+show that the revealed 99 characters of K3 are truly derived by following all the steps that
+I have laid out? The answer is, YES. If we take R and S above and compare them letter-for-
+letter, we can see the connection. Reverting to 11-column pads:
+S
+E N D Y A Y S H N A I 
+A C H T N R W X M N E 
+T P R N G I I A C A E 
+W M T W N H A E O E T 
+F O L S E C T A Y C R 
+E I F T B E E R L B T 
+E E F O A R T N R T I 
+B S E D D I E W F E B 
+A E C T D R Y D L O R
+E O F B I Y C N O C I 
+D R Q J Y P H P Z D F 
+W M C D T N I B F K P 
+S L E V O D F E Y K O 
+G V O D M W U Z J M O 
+C K D T E I E G D H T 
+F F I N M E B N A R A 
+W K P T I T E O B A X 
+Q A C O I L H I V F G
+MATCH ON BOTH
+O=N, N=O SAME POS.
+R=G, SAME POS.
+E=F, SAME POS.
+A=I, I=A SAME POS.
+F=D, D=F SAME POS.
+D=I, SAME POS.
+WIDIA Version
+Also, PELSK in row 4
+says to change P to K.
+PSU hints PSEUDO
+ID P
+ID LOCKS K
+Going to change the P
+to a K. See page 6 and
+page 10.
+9
+
+[[page 10]]
+So, at this point there are some questions that remain unanswered.
+1. How does TUT, just now revealed by looking at keywords ANN and INSTITUTION, enter the
+    picture?
+2. How does the JOVIAN system revealed in step O aﬀect things, if it does? I was not able to discover
+    anything. One of the moons of Jupiter that is present in that matrix is IO. The letters IO are also part of  
+    the word IOTA. A statement by Sanborn that seems related to IOTA is to be found on page 5. At the
+    time, I was satisﬁed that that was the true purpose of the O matrix and the JOVIAN system 
+    appearance there was probably meant to divert attention from IOTA. But, in retrospect, the fact that
+    the cluster of JUPITER letters is delimited so much with Qs prompts me to want to ﬁnd a signiﬁcance 
+    there.
+3. Is there a signiﬁcance to the string FDHBVHH beyond giving credence to the fact that both the
+    DIAWI and WIDIA streams are necessary disregarding that it reﬂects the ABSCISS keyword? (See 
+    ﬁle ANKH Project)
+4. A couple of apparent clues show up in matrices P and Q that I have not found a use for. They may be
+    directly related as containing pieces of keyword THEBERLINCLOCK.
+    a. In step P of the WIDIA stream, taking all of row 7, the string QNILRKZKQ is present. In the distant
+        past, while looking at using shifts of ABSCISSA, I came across a string similarly delimited by Qs on
+        both ends. The string was laid out backwards; I rotated the matrix 180 degrees. There was part 
+        of a word evident, but the length of the string and the nearby word EMBED, inferred to change the 
+        string to have the indicated word spelled correctly. I changed the spelling of the word in the CT and 
+        ran a substitution using the shifts of ABSCISSA. This got results showing that I did what was 
+        expected. Now, in this case of matrix P, the string QNILRKZKQ has part of the word BERLIN 
+        spelled backwards such that ﬂipping it horizontally reveals QKZKRLINQ. In the previous-cited case,
+        all letters, including the Qs were used to correct the spelling. In the case before us, one would
+        conclude to include appropriate letters from the keyword THEBERLINCLOCK. So, QKZKRLINQ
+        would become HEBERLINC. The result has not shown to be eﬀective in any way, so far. But, it 
+        would be prudent to check further. I just looked at it again and now it appears that clues towards
+        solving K4 are being given. The message given by the above was to rotate the matrix by 180 
+        degrees, not to spell out THEBERLINCLOCK.
+    b. In step O of the DIAWI stream, the strings CLUU and COLKC cross at the L. Obviously, the clue
+        is misspelled CLOCK. The right-most column of the matrix has a structure that would repeat if the
+        rows containing O and L were to be exchanged. This process would infer to change also the rows
+        containing the K and C below. The apparent ﬂipping of the letters there might hint at how to set up
+        the matrix towards solving a scytale.
+5. Matrix S is apparently the ﬁnal to run a transposition decryption using the scytale method, and it can be
+    shown that the route I took through the “mask” produces a matrix that is directly related to the S matrix.
+    But, what is the mechanism for getting there? It might not matter, but it might supply a crucial clue as
+    to how to perform the ﬁnal procedure which I have not succeeded in doing so far. I don’t think this is 
+    the case, though.
+.
+11
+
+[[page 11]]
+ENDYAY/ANN
+T K L U H C Z U K K V
+H Y U E F B T L Z K T
+E D Q K Q B V H Y H M
+J Z E J K U K M F T E
+N X X G T J E K C J Q
+M V O E I T M B D I E
+T M N X H B W K B W V
+I Z M L P V M J N M R
+H M Y E L Q C L D F B
+DECRYPT
+ENDYAY/INSTITUTION
+V K T X M X E D T Y V
+M J B K T W Y Q P H M
+I D U I X E Q P Q Y M
+B Z X N T D F A J S E
+W F E Y V O C P G T B
+V V S K N A J W Y P E
+V M S R M W C I F Z V
+N G O S U E J N W S I
+M M P K U W A S Y K B
+DECRYPT
+ JS: Sure. You know, I have been trusting it to an institution in order to get it oﬀ-site from
+where I am, and so that in the event of my demise, it will leave somebody there who can
+say, “Yes, this is the code, you got it,” or whatever. But that’s not easy to do. It’s not easy
+to ﬁnd an institution like that. 
+JS: I have. But when I ﬁrst started the project I said to myself: In order for me to do 
+the right job, for this site and for this institution, I had to assume the same kind of role 
+that they assume. I mean, the CIA employees keep secrets until they die, routinely. 
+Deep Throat not withstanding, these kinds of things can haunt you for your entire life. 
+And I'm sure this could, but on the other hand, somebody might hit it. And that would 
+be great, but sort of game over. 
+So, we have potential keyword ANN (See ﬁfth paragraph on page 7). I tried it on the S matrix 
+using a Quagmire III substitution. The result is matrix T below. 
+Many clues are provided by Sanborn in his interviews. Two of his quotes are to be found below.
+Notice the appearances of DIE and HIT IT in both the lower quotation and in matrix T.  Also 
+note the QCL clue at the bottom and the KLU cluster at the top left and KLU again at top right.
+These all seem to point to the QKQ string in the third row.
+I noted that Sanborn used the word INSTITUTION a few times. It didn’t ﬁt the context of the
+sentences and stood out as something to look at. I used it as keyword in a Quagmire III
+substitution also with matrix S. The result is matrix U. Notice the WAS in the bottom row. It
+occupies the same  positions as QCL in matrix T. Also notice the QPQ in the third row. The
+WAS indicates the original letter P is replaced. See side comments for matrix R on page 6.
+A change of single letter P in matrix S to letter K is indicated.
+T
+U
+I also noticed that many of the letters in matrix T are repeated in matrix U in the same positions.
+I compared the keywords:
+You can see that the FIRST N of ANN lines up with both Ns of INSTITUTION. Note also that
+in the same positions as QCL and WAS in the matrices T and U, the letters TUT appear in
+INSTITUTION. This cannot be simply a coincidence, since K3 talks about opening TUT’s 
+tomb. (Note: It is a coincidence only that designations of matrices T and U are related to the 
+discovery of TUT in INSTITUTION.)
+Don’t forget, we have been using derivatives of the matrix S.
+A N N A N N A N N A N
+I N S T I T U T I O N
+10
+
+[[page 12]]
+Repad to 9 columns/Creation of Scytale Strip
+(Direction of choice of letters indicated by arrows)
+E N D Y A Y S H N 
+A I A C H T N R W 
+X M N E T K R N G 
+I I A C A E W M T 
+W N H A E O E T F 
+O L S E C T A Y C 
+R E I F T B E E R 
+L B T E E F O A R 
+T N R T I B S E D 
+D I E W F E B A E 
+C T D R Y D L O R
+Gate
+(Begin)
+EOF
+This 
+says
+“redirection”
+Row I
+Reconstruction of Above Matrix
+According to Apparent Instructions
+R E D R R C F T G W N
+H R N M T Y E A E A O
+L B S O E A E W R N S
+Y T K E O T B F B E D
+Y F I E T C E A T H A
+Y C E C A E F E T W R
+D E R T I S H A N A D
+N I M I N L E B N I T
+C D T L R O W I X A E
+Row A
+    B
+    C
+    D
+    E
+    F
+    G
+    H
+    I
+Exit
+Using the above matrix, I was not able to come up with a good number of
+characters per revolution to reveal the plaintext.  I also tried with the CT
+repadded but not redirected as above. With the exception of the change of
+letter P in matrix S to letter K, I believe that matrix is the one to solve. 
+S
+Note: Letter P has been
+changed to letter K. See
+comment in bold face on
+page 11.
+Sanborn comment
+in interview:
+“...eke that
+minuscule bit”.
+Conﬁrms change
+from P to K and
+set up for scytale.
+12
+V
+
+[[page 13]]
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ 32
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD  31  
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE  31
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG   30
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA  31
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR 32
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI  31
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE  31
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX 32
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF  31
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ   30
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE  31
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP  31
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG  31
+435
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA 32
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE   30
+TPRNGATIHNRARPESLNNELEBLPIIACAE  31
+WMTWNDITEENRAHCTENEUDRETNHAEOE   30
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR 32
+EIFTBRSPAMHHEWENATAMATEGYEERLB   30
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI 32
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB  31
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT33
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE    29
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR  31
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO  31
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP  31
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR  31
+434
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIV 31
+JYQTQUXQBQVYUVLLTREVJYQTMKYRDMF 31
+DVFPJUDEEHZWETZYVGWHKKQETGFQJNC 31
+EGGWHKK?DQMCPFQZDQMMIAGPFXHQRLG 31
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA 31
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHR 31
+RYIZETKZEMVDUFKSJHKFWHKUWQLSZFT 31
+IHHDDDUVH?DWKBFUFPWNTDFIYCUQZER 31
+EEVLDKFEZMOQQJLTTUGSYQPFEUNLAVI 31
+DXFLGGTEZ?FKZBSFDQVGOGIPUFXHHDR 31
+KFFHQNTGPUAECNUVPDJMQCLQUMUNEDF 31
+QELZZVRRGKFFVOEEXBDMVPNFQXEZLGR 31
+EDNQFMPNZGLFLPMRJQYALMGNUVPDXVK 31
+PDQUMEBEDMHDAFMJGZNUPLGESWJLLAE 31
+TG  2  436
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAI
+ACHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOET
+FOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLBT
+EEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLOR
+ITRKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR 
+434
+Kryptos CT as shown
+on sculpture
+Kryptos CT showing
+original matrix
+Letter
+Count
+Letter
+Count
+13

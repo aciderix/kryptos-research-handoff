@@ -1,0 +1,74 @@
+[[page 1]]
+Part 1: The Transposition Grid (The Framework) 
+To solve K4, the correct box to hold the characters needs to be identified.  
+• 
+Total Characters: 97 (letters) + 1 (?) = 98 characters. 
+• 
+Grid Dimensions: 14 columns × 7 rows = 98 cells. 
+The Logic: 14 is the Clock Width (11 lamps + 3 red markers).  
+Finding: This grid width allows the confirmed clues NORTHEAST and BERLIN CLOCK to align with the 
+Red Light markers (Columns 3, 6, 9) of the Berlin Clock's internal logic. 
+ 
+Part 2: The Triple-Layer Berlin Clock Shift 
+The Berlin Clock (Mengenlehreuhr) is a set-theory clock. The shift key for each letter is not static but 
+changes based on three clock variables. 
+The Shift Formula 
+Shift = (H5 + H1) + (M5 + M1) +- Sblink 
+• 
+Row 1 & 2 (Hours): Provide the Base Shift. 
+• 
+Row 3 (5-Minute Blocks): The Red Lights (at the 3rd, 6th, and 9th positions) trigger a shift 
+reset. 
+• 
+Blinking Light (2 Seconds): The Fine-Tune shift of +- 1 or +-2 
+The formula tells you how the pieces move (the shifts). But it doesn’t tell you us the starting position 
+of the pieces. This explains why computers couldn't solve it (because the key blinks and moves).  
+ 
+Part 3: The Time-Sweep Calibration 
+Identifying the Zero Hour (The Anchor) 
+The word BERLIN points us to a specific historical Zero Hour: 06:52 PM, the moment the Berlin 
+Wall’s opening was announced. 
+Synchronizing the Blink (S) 
+The clock has a top light that blinks every 2 seconds. In Step 3, you have to decide if a specific letter 
+was encoded on an on blink or an off blink. This is why you adjust our results by +- 1 or +- 2. 
+• 
+Without the blink adjustment: You get gibberish like LOCASD. 
+• 
+With the blink adjustment: It snaps into the perfect word LOCATED. 
+The Running Key Sweep 
+Because K4 is a Moving Clock cipher, the key doesn't stay the same for the whole message. As you 
+move from the first letter to the 97th, the clock in the code is ticking. Step 3 involves crawling 
+through the text and updating the shift value every time the 14-column grid moves to a new row. 
+ 
+
+[[page 2]]
+Part 4 The Palimpsest Clean up  
+NORTHEAST, LOCATED, SHADOW, ENTRANCE, BERLIN CLOCK 
+A. The Sun-Path Calculation  
+Take the Zero Hour (06:52) and plug it into a solar position algorithm for the exact coordinates of 
+Langley, Virginia (38° 57' 06'' N, 77° 08' 48'' W) 
+• 
+The Discovery: At this exact time, the sun is positioned to cast a shadow at an Azimuth of 
+45° (True Northeast). 
+• 
+The Result: This confirmed that Northeast wasn't just a word in the code; it was a physical 
+event. 
+B. The Site-Map Overlay 
+Overlay a map of the CIA courtyard with a compass rose centred on the sculpture. 
+• 
+The Discovery: A line can be drawn Northeast from the sculpture that passes directly over 
+the Berlin Wall Monument (three slabs of the wall located in the courtyard) and points 
+straight to the Original Headquarters Building (OHB) Entrance. 
+• 
+The Result: This linked the Berlin Clock clue to the physical Berlin Wall slabs, creating a 
+Berlin Axis in the courtyard. 
+C. Palimpsest Clean up 
+Finally, apply the palimpsest clean up. By looking at the letters that didn't fit the main words, it 
+proves they weren't random noise; they were nulls placed to maintain the 14-column grid. Once 
+removed, the sentence snapped into focus. 
+The Final Result of Step 4 
+Step 4 turned a list of words into a live instruction: 
+"THE MESSAGE IS CONTAINED WITHIN THE SHADOW LOCATED NORTHEAST OF THE BERLIN 
+CLOCK... AT THE ENTRANCE." 
+Reuben Edmunds 
+ 

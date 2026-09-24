@@ -1,0 +1,191 @@
+## word/document.xml
+ 
+ Preface: 
+ The first three lines of K4 are listed first, then the last one . 
+ Words that are bolded, italicized, and underlined are words that I eliminated from being possible words through brute force / trial and error. 
+ Words that are bolded, italicized, and underlined with an asteris k are words that I eliminated from being possible words except if K4 ends with a solitary Z and except if there is a solitary Z before BERLINCLOCK , which is speculation. Otherwise, these words are essentially eliminated in the same way as (2). 
+ Words that are solely underlined are words that fit with ot her words but do not make sense together in my opinion. 
+ I focused the most on the last line of K4 because it is shorter , so that is where most of the modifications to my list can be seen. Many words near the end can be eliminated on the ass umption that if K4 ends with a solitary Q like K3, then any word that comes one space short of the end and also uses the same letter of the keyword as Q in the final four spaces is not possible. I used this same method, but with X instead of Q, to eliminate some words that occur before BERLINCLOCK. The word “ an ” can be eliminated if no vowel follows it. 
+ I have not included words that would arise from changing the O in the 8 th position to U, then decrypting, or words that would arise if the 8 th position were treated as plaintext U. 
+ I have not included any words that begin at the 8 th position on the presumption that the 8 th position has to be modified according to my UNDERGRUUND hypothesis. I may do this and (6) myself at some point and update my list. 
+ Possible words are grouped together at their starting position, e.g. all words that K4 is capable of starting with are listed in the first section titled “O words – 1 st position ”. 
+ Some possible names, abbreviations, honorifics, and other non-words are included, though my choosing of these is arbitrary . 
+ This list may contain errors. Possible errors include: 
+ possible words not being listed, 
+ words included in the list not being possible, and 
+ words that I have “eliminated” actually being plaintext. 
+ This list generally does not include potential misspellings. 
+ It may help to turn off spell-check for this list because Word does not recognize many of the words listed. 
+ O words – 1 st position 
+ MM, My, Me, Meg, Meat, Meal, PM, PS, Pe, Pert, Pere, Per, Peh, Peke, Peg, Pea, Peat, Peag, Peal, A, Am, Amu, Ama, Acre, Ache, Acme, Ay, Ae, As, Ash, Ask, Asker, Askew, Cyme, Cere, Fe, Fer, Fere, Feu, Feh, Feat, Feal, Be, Beat, Hm, Vert, Veg, Pyre, Pya 
+ B words – 2 nd position 
+ Jut, Jug, Jag, Jagra, Jazz, Jazzbo, Mr, Mut, Mug, Muff, Mull, Mulla, Mu, Mm, Ma, Mat, Matza, Mae, Mag, Malm, Mall, Mal, X, Xu, Zuz, Zag, Crew, Cut, Cue, Cuff, Culm, Culpa, Cull, Chew, Chez, Chef, Cat, Caff, Calk, Calm, Calpac, Call, Calla, Calf, Yutz, Ya, Yag, Yaff, Yall, Er, Ere, Erg, Ef, Eff, Eft, Eh, Eke, Eger, Egg, Eat, Suq, Sutra, Suer, Sue, Sulk, She, Shew, Shelf, Sh, Skew, Skep, Skelm, Skelp, Smew 
+ K words – 3 rd position 
+ Re, Rem, Repp, Rep, Ref, Ut, Ft, Few, Few, Fez, Fem, Fer, HQ, He, Hew, Hem, Hemp, Hep, Helm, Help, Her, Herm, Herb, Hz, Kemp, Kempt, Kep, Kelp, Kerf, Kerb, Kef, Gem, Gel, Germ, Me, Mew, Mem, Mel, Merc, A, At, ATM, Atma, Ae, Ag, Aff, Al, Alma, Alp, All, Alfa 
+ R words – 4 th position 
+ Q, Twa, TM, Tram, Tramp, Ew , EMP, Em, Er, Ef, Eff, Glam, Grat, Gram, Gramp, Jr, Frat, Zz 
+ U words – 5 th position 
+ Waw, Wampum, Wampus, Waif, Whips, Whip, Which, Khi, Mm, Ma, Mat, Math, Maw, Maim, Maihem, Mao, Mac, Mach, Mache, Maches, PM, Pa, Pat, Patch, Patchy, Path, Paw, Pac, Pht, Phi, La, Lat, Latch, Lath, Law, Lam, Lamp, Ra, Rat, Ratch, Raw, Raj, Ram, Ramp, Rai, Fa, Fat 
+ O words – 6 th position 
+ MM, Mi, MIA, Mic, Mics, Mop, Mops, Moat, Moan, Moans, Moa, Moc, Mocs, Mob, Mobs, Phpht, PM, Pi, Pipe, Piper, Pipet, Pips, Pip, Pia, Pian, Pic, Pice, Pics, Pom, Poms, Pop, Pope, Popes, Pops, A, At, Aw, Am, Amp, Ai, Aim, Ache, Aches, Cwm, Cwms, CIA, Cop, Cope, Coper, Coper, Copes, Cops, Coax, Coat, Coft, Cob, Cobs, Cover, Cove, Coves, Ft, Fice, Five, Fiver, Fop, Fops, Fob, Fobs, Bo, Bop, Bops, Boa, Hwan, Hm, Hmm, Hi, Hims, Him, Hip, Hips, Hic, Hive, Vims, Vim, Viper, Via, Voces 
+ X words – 7 th position 
+ Taus, Tax, Ta, Tat, Tan, Tang, Tans, Thug, Thurl, Thus, Thump, TV, Wae, Waes, Wax, Waxy, Wat, Watt, Wan, Wand, Want, Wans, Wany, Whet, Whew, Whump, Hm, Mm, Ma, Mae, Maes, Maud, Mat, Matt, Man, Mantram, Mantra, Mans, Many, I, I’m, Ice, Ich, If, Ifs, Om, Oms, Op, Opes, Ope, Ops, Opus, Opt, Oat, Of, Oft, Obe, Over, CM, Cat, Chew, Chug, Churl 
+ O words – 8 th position 
+ [ omitted for previously stated reasons] 
+ G words – 9 th position 
+ Er, Err, Et, Ew, Es, Em, EMP, Hyp, Hypo, Hypos, Hyla, Hylas, Hm, Hmm, Stray, SW, SS, Urp, Us, Um, Ump, X, Xylose, XY, Typo, Typos, TM, NW, NY 
+ H words – 10 th position 
+ Dr, Glam, Glaze, Glace, Glom, Gloze, Gram, Grama, Graze, Grace, Gray, Grosz, Two, Twos, Tram, Trace, Tray, Troy, WW, Ska, Skas, Spam, Spa, Spaz, Spazz, Spae, Spas, Mm, Mr 
+ U words – 11 th position 
+ Wo, Womb, Wombat, Woe, Wos, Za, Zax, Zas, Zoea, Ka, Kame, Kay, Kayo, Kae, Kas, Ma, Mamba, Mama, Max, May, Mayo, Maya, Mae, Mas, Masa, MD, Mo, Mojo, Mom, Mome, Moc, Mos, Pa, Pam, Pax, Pay, Pas, Pase, Pom, Pomo, Pome, Pose, La, Lam, Lamb, Lame, Lama, Lax, Laze, Lac, Lace, Lay, Layup, Las, Lase, Lo, Loco, Loca, Locum, Lose, Lt, Ra, Ram, Rax, Razz, Raze, Race, Ray, Raya, Ras, Rase, Rd, Roma, Rom, Rococos, Rococo, Roc, Rose, Fa, Fame, Fax, Faze, Face, Fay, Foy, Foe, Ft 
+ L words – 12 th position 
+ A, Am, Ameba, Amebas, Ama, Amah, Amu, Ax, Axe, Azo, Ace, Ay, Aye, Ayah, Ae, As, Asea, DJ, Dye, De, Delf, Deem, Deep, Deaf, Om, oz, Oca, Oy, Oe, Os, Ose, Q, TM, Tye, Tela, Telco, Tel, Teem, Tea, Team, Teg, PM, Pelf, Pee, Peep, Pea, Peg, Pegbox, PS, PSA, Vs, Jeep, Jee, Jeu 
+ B words – 13 th position 
+ Jo, Job, Jam, Jap, Java, Javas, Jump, Jumps, Juco, Juba, Jubas, Mo, Mom, Mop, Moa, Moat, Moats, Moc, Mob, Mohalim, Me, Memorise, Memorize, Memories, Memos, Memo, Mem, Mead, Meads, Ma, Map, Mac, Mu, Mumps, Mump, Mum, Mucoas, Mucor, X, Xu, Zoa, Zz, Zep, Za, Zap, Clad, Clads, Clap, Claps, Co, comp, Comps, Complice, Comply, Cop, Copal, Coat, Coats, Coca, Coco, Cob, Cobalt, Coho, Cohos, Covary, Camo, Camos, Cap, Capo, Capas, Caca, Cum, Cup, Cub, Cuba, Yo, Yom, Yob, Ye, Yep, Yea, Yeh, Ya, Yam, Yap, Yum, Yup, Yuca, El, Elf, Ebb, Egad, Egads, EU, Slat, Slats, Slap, Slaps, Slav, Slavs, So, Som, Sop, Sopor, Soap, Soaps, Soca, Sofa, Sofas, Sofar, Sob, Soba, Sobas, SE, Sepal, Septs, Sept, Sea, Seadrome, Sec, Sam, Samosas, Samosa, Sap, Sapor, Sac 
+ S words – 14 th position 
+ La, Lad, Lads, Lat, Lats, Lap, Laps, Lav, Lavs, Om, Op, Opaque, Opal, Opt, Opts, Oat, Oats, Oca, Of, Oba, Obas, Oboli, Obol, Oh, Oho, Ova, Ovary, Ba, Baal, Baalim, Baa, Bad, Badly, Bat, Bap, Em, EMP, Epos, Ecartes, Ecarte, Eco, Ebola, Eh, A, Am, Apos, Apt, Aa, Act, Ah, Aha, Ava, Avast, Avo, Avos, Gad, Gads, Gat, Gats, Gap, Gaps, GB, Um, Ump, Umps, Up, Upas, Updry, Upo, UFO, Uh 
+ O words – 15 th position 
+ MD, Mo, Mos, Movie, Movies, Mora, Moras, Moly, Mola, Pa, Pas, Past, Pasty, Paste, Pastes, Pasts, Pavise, Pavis, Par, Paries, Paris, Part, Parts, Parve, Para, Paras, Pax, Pal, Paly, Poco, Posies, Posy, Porism , Pox, Poxy, Pol, Police, Policy, Poly, A, Aa, Aas, Aal, Ad, Ads, Advise, At, Apsis, Cavie, Cavies, Car, Caries, Carice, Cart, Carte, Cartes, Carts, Carom, Calix, Calyx, Co, Coca, Cocas, Coco, Coff, Coffs, Cor, Corf, Cory, Cox, Col, Colic, Coly, Cola, Fa, FAQ, Fas, Fast, Fasts, Far, Fart, Farts, Faro, Faroe, Fax, Foci, Focus, For, Fora, Foram, Forams, Fox, Ba, Bas, Basics, Basic, Basis, Bastes, Baste, Basts, Bast, Bal, Bo, Bosom, Bos, Ha, Haz, Haft, Hafts, Has, Hast, Hasty, Hart, Harts, Halt, Ho, Hocus, Hos, Holy, HQ, Vas, Vast, Vasty, Vasa, Vav, VA, Varix, Varve, Vary, Vara, Var, Vox 
+ L words – 16 th position 
+ A, Aft, As, Ava, Avo, Ar, Arisen, Arise, Art, Arts, Ax, Axis, Al, Aliment, Alt, Alum, Ala, DC, Dr, Dries, Dry, Drys, Dram, Drams, Oca, Ocas, Of, Off, Offs, Ofay, Ofays, Os, Ovum, Ova, Or, O ra, Ox, Oxim, Oxims, Oxy, Oxo, Q, Trim, Trims, Trix, Tries, Tam, Trams, PS, Pi, Psis, Pst, Plie, Ply, Vs, Jr 
+ I words – 17 th position 
+ Cimex, Cis, Cyme, Cam, Cams, Cay, Cays, Co, Come, Cox, Coz, Cozy, Cozen, Coy, Ft, Fu, Fume, Fumed, Fuzed, Fuse, Fa, Fax, Fay, Fays, Fas, Foment, Fox, Foxy, Fozy, Foy, Foe, Q, Qi, Qis, Que, Si, Sim, Sims, Six, Sic, Sics, Sice, Sis, St, Stye, Styes, Sty, Stem, Stey, Sum, Sums, Sue, Sues, Sam, Sax, Sac, Sacs, Say, Says, So, Som, Some, Sox, Soy, Vim, Vims, Vie, Vies, Vis, Vise, Vum, Vas, Vox, Voe, Rim, Rime, Rimed, Rims, Rice, Riced, Risen, Rise, RV, Rye, Ryes, Ra, Raj, Ram, Rams, Rax, Ras, Rome, Rom, Roc, Roe, Xi, Xis, Xu, X, Li, Limy, Lime, Limen, Lice, Lie, Lt, Lye, Lum, Lumen, Lux, Luxe, Luce, La, Lam, Lax, Lazy, Lac, Lacy, Lay, Fix, Fixed, Fiz, Fice, Fie, Fisc 
+ F words – 18 th position 
+ Fe, Fem, Fez, Feck, Fey, Fes, I, I’m, Icy, Ice, Iced, IE, Is, Ism, TM, Tye, Vex, Vs, Ye, Yes, Um, Umm, Us, Use, A, Am, Ax, Ay, Ays, As, Asci, Om, Omental, Omenta, Ox, Oxy, Oxen, Oz, Oy, Oe 
+ B words – 19 th position 
+ Jedi, My, Myna, Me, Men, Menfolk, Menial, Mental, Menta, Menu, Meno, Med, Media, Mediates, Mediate, Mediae, Medial, ms, Xenial, Xenia, Zen, Zed, Cedi, Ye, Yen, Yenta, Em, Emu, Ex, Ecu, es, Smut, Scut, Syn, SE, Sex, Sext, Sexy, Sexual, Seif, Sei, Sen, Sent, X, Mm 
+ B words – 20 th position 
+ Mu, Mutt, Mut, Mi, MIA, MD, X, Xu, Cut, CIA, Ex, Exit, Exude, En, Ent, Ed, Edit, Suit, Suite, Suttees, Suttee, SUV, Sift, Ski, Skid, Skit, Skite, Skip, Skive, Sky, Skua, Ska, Skat, Skate, Snide, Snip, Snipe, Snivels, Snivel, Snap, Spit, Spite, Spitz, Spud, Sput 
+ W words – 21 st position 
+ Ut, UV, X, Xu, Xi, I, If, IV, Io, Ki, KIA, Kid, Kit, Kittens, Kitten, Kittel, Kitty, Kite, Kip, Kyat, Ka, Kat, Koa, Kopeks, Kopjes, Kopek, Kopje, Kop, Nide, Nip, Nu, Nude, Nudge, Nudges, Na, Nap, Nape, No, Nod, Node, Nope, Novel, Novels, Jivey, Jive, Jade, Jo, Jotty, Jot, Pi, Pial, Pit, Pip, Pipe, Pya, Pud, Pudgy, Put, Putto, Putty, Putt, Putlog, Putz, Pod, Podgy, Podzols, Podzol, Poo, Poof, Poofy, Pool, Pot, Pottos, Potte, Potty, Poteen, Pop, Pope, Di, Diatoms, Diatom, Dial, Dialog, Diazo, Did, Diol, Dit, Ditty, Ditto, Dittos, Dite, Ditz, Ditzy, Dip, Dipt, Diploma, Diplex, Dive, Dual Dudeens, Dudeen, Dude, Dud, Duologs, Duolog, Duo, Dad, Datto, Dattos, Date, Dap 
+ F words – 22 nd position 
+ Foe, Fog, Fogy, Folk, Fozy, Ft, I, ID/Id, Idly, Idle, Io, IQ, It, IP, IV, Ta, Tat, Tate, Tates, Tae, Tael, Taels, Tag, Taj, Tajes, Tall, Talon, Talk, Tale, TV, Vat, Valval, Vale, Vote, Votes, Voe, Volva, Vole, Ya, Yag, Yall, Yale, Yo, Yolk, Ut, Ute, UV, A, Aa, Aal, Ad, Adeem, Adeems, Adz, At, Ate, Apt, Ape, Ajee, Oat, Oaten, Oaf, Od, Odeons, Odeon, Ode, Oot, Oolong, Oozy, Otto, Ottos, Op, Opt, Ope 
+ L words – 23 rd position 
+ A, At, Atlas, Atom, Atoms, Ate, Ates, Ae, Aeon,, Aeons, Ag, Ago, Agog, Age, Ages, Al, All, Along, Ale, Alex, Azo, Azon, Azons, De, Deva, Devas, Devs, Dev, Dey, Deys, Del, Dels, Deem, Deems, Dee, Dees, Oe, Of, Ol, Olla, Ole, Olea, Oleander, Q, Pekan, Pee, Peen, Peens, Pees, Ply, Plex, Plea, Plena, Vela, Vee, Veena, Vees, Jeon, Jee, Jees 
+ R words – 24 th position 
+ Q, TV, To, Tola, Tolar, Ton, Tons, Tong, Tom, Toms, Tog, Togae, Toga, Togs, Tea, Teal, Team, Teas, Tease, Tel, Tela, Telae, Tels, Ten, Tense, Tens, Evan, Evaq, El, Elm, Elms, Els, Eon, Eons, Gym, Gyms, Go, Gox, Goa, Goal, Goas, Gos, Gel, Gels, Gem, Gems, Jean, Flax, Flash, Flag, Fox, Foal, Fon, Fons, Fog, Fogs, Fe, Feal, Fease, Fen, Fens, Fes, Lyase, Lynx, Lo, Lox, Loan, Loam, Long, Log, Lex, Lea, Leal, Lean, Zoa, Zona 
+ V words – 25 th position 
+ VA, Vale, Valet, Van, Vas, Vase, Vs, Ya, Yale, Yald, Yam, Yag, Jam, jag, La, Lax, Lam, Las, Lash, Lag, Ox, Ol, On, Ons, Om, Oms, Os, Osar, Ogle, Ka, Kale, Kas, Knar, Q, Ex, Exact, Ease, El, Elm, Els, Else, En, Enact, Ens, Em, Ems, Es 
+ Q words – 26 th position 
+ X, A, Ax, Axe, Axel, Aa, Aargh, Al, Aloft, Ale, Alef, An, And, Am, Ameer As, Ash, Ag, Ago, Agog, Age, Agee, La, Lar, Lad, Lax, Laxly, Na, Nah, Q, Ma, Mart, Mar, Marth, Mare, Marl, Marly, Mac, Mae, Max, Sac, Sae, Sad, Sade, Sax, Slot, Sloth, Slog, Snot, Smog, Gaol, Gar, Garths, Garth, Gae, Gad, Gadjo 
+ Q words – 27 th position 
+ X, A, Ar, Art, Arty, Arthur, Are, Arene, Arete, Argh, Arf, Act, Ae, Ah, Ad, Adz, Ax, Axe, Lo, Lot, Loth, Log, Loft, Let, Lethe, Left, Lez, No, Not, Nr, Q, Mo, Motts, Mott, Moth, Moths, Mog, Mojo, Mojos, Mol, Mozo, Mozos, Mr, Me, Met, Metre, Meth, Meths, Meet, Mel, So, Soths, Soth, Sot, Sr, SE, Set, Seth, See, Seer, Seen, Sh, She, Go, Got, Goer, Gr, Grey, Grebe, Get, Gee, Gel 
+ P words – 28 th position 
+ Oe, Of, Oft, Ol, Oz, Re, Reb, Ret, Rete, Clot, Clon, Clonk, Et, Eth, Eths, Ef, Eft, Efts, El, Elm, HQ, He, Hey, Hebe, Hen, Het, Heth, Heh, Hz, De, Dey, Deb, Dere, Jehu, X 
+ R words – 29 th position 
+ Q, Tythe, TM, To, Toe, Toea, Tot, Total, Ton, Tong, Tref, Trehala, Trug, The, Them, Theme, Thug, Eon, Er, Ere, Erugo, Ern, En, Enhalo, Enure, Et, Eth, Eh, GB, Greg, Grego, Jo, Joe, Jot, Jota, Jon, Foe, Foh, Fox, Fon, Ft, Lo, Lox, Lot, Lota, Long, Longe, Zoe 
+ N words – 30 th position 
+ Yuk, Yum, Be, Befog, Behoof, Behalf, Beg, Begulf, Bema, Bura, Burg, Bug, Bum, Me, Meh, Meg, Mem, Memo, Mu, Mure, Mura, Mural, Mug, Mugg, Mum, Mumu, Oe, Oh, Ohms, Os, Osmol, Ox, Oz, On, Re, Ref, Rehab, Reg, Rem, Rural, Rug, Rugola, Rum, NE, Nu, Teg, Tegua, Tea, Throb, Throe, Thro, Three, Threap, Thru, Thalami, Thae, Tufa, Tug, He, Heh, Heme, Hemal, Hem, Hug, Huge, Hum, Hz 
+ G words – 31 st position 
+ Ef, Eh, Ego, Egg, Em, Eme, Emeu, Emu, Hull, Hula, Hub, Hue, Hug, Huge, H, Ha, Hall, Halo, Hale, Hao, Haze, Habu, Hae, Hag, Sr, Sulu, Sub, Subacid, Subah, Suba, Sue, Sh, Shelp, Shlub, Shoo, Shoe, Shog, She, Shelf, Sheep, Shea, Sheaf, Sha, Shag, Shul, Ska, Skag, Skua, Smog, Smug, Sal, Sall, Sale, Salep, Salami, Sab, Sabe, Sae, Sag, Sago, Sage, Saga, Sagum, Urea, Urge, UFO, UK, Um, X, Xu, Troop, Trug, Tree, True, Trug, Tule, Tub, Tube, Tuba, Tug, Tho, Thou, The, Thee, Thug, TM, Ta, Tall, Tale, Tala, Tao, Tab, Tabla, Tabu, Tae, Tael, Tag, Za, Nr, Nu, Null, Nub 
+ K words – 32 nd position 
+ Rolf, Room, Roof, Rob, Roband, Robbin, Roe, Roam, Roup, Re, Relaid, Reb, Ree, Ream, Reap, Reg, Ram, Rabbin, Rabbi, Rag, Raga, Rub, Rue, Rug, Ruga, Ulu, Flop, Floc, Floccing, Flocci, Flea, Flam, Flap, Flavin, Flu, Flubdubs, Flubdub, Flub, Fob, Foe, Foehn, Foam, Fog, Fou, Fe, Fez, Fee, Feeb, Feu, Fa, Fab, Fag, Fub, Fug, Ho, Holp, Hola, Hoop, Hoof, Hob, Hoe, Hog, Hogan, Hz, He, Help, Heap, Ha, Half, Hao, Hae, Haemin, Haem, Hag, Hula, Hub, Hue, Hug, Kola, Kob, Koa, Ka, Kab, Kae, Kue, Glom, Glop, Glob, Globin, Glean, Glam, Glum, Go, Golf, Goo, Goop, Goof, Gob, Goban, Goa, GB, Gel, Gee, Geum, Gul, Gulp, Gulag, Gulf, Guam, Mo, Mol, Mola, Moo, Mob, Moa, Mog, Me, Mel, Melvin, Meg, Mega, Ma, Mal, Mao, Mae, Mag, Mu, Mug, A, Al, All, Alb, Alba, Ale, Alec, Ala, Alga, Alum, Alumin, Azo, Ab, Abo, Abe, Aba, Abaci, Ae, Ae, Aa, Aal Ag, Ago, Age, Aga, Agamid 
+ S words – 33 rd position 
+ Lo, Lop, Loan, Load, Loci, Lob, Lz, Lb, Lea, Lean, Lead, Lev, Levi, La, Lam, Lamb, Lap, Lapin, Lac, Lav, Lum, Lupin, Ol, Ooh, Oz, Oba, Oe, Oaf, Zoa, Zz, Zep, Za, Zap, Black, Blain, Blaw, Blawn, Bo, Bomb, Bop, Boa, Bocci, Bob, Be, Bemix, Bean, Bead, Ba, Bam, Bap, Baa, Bah, Bum, Bub, El, Elain, Elf, Ebb, Egad, EU, A, Al, Alp, Ala, Alack, Alcid, Alb, Ab, Aba, Ae, Aa, Aah, Ag, Aga, Glad, Go, Gopik, GOP, Goad, Goa, Gob, Gov, GB, Gem, Gam, Gamb, Gamin, Gap, Gum, Guan 
+ S words – 34 th position 
+ La, Lad, Lag, Lac, Lack, Lain, Laid, Law, Lawn, Om, Op, Of, Obi, Oh, Ba, Ban, Band, Bag, Em, Ebb, Eh, A, Am, Ami, Amin, Amid, Aa, Acid, Ah, AVG, Gan, Gad, Gag, Gawk, GB, Um, Up, Uh 
+ O words – 35 th position 
+ MD, Mi, Mix, Min, Mind, Mid, Middle, Pi, Piu, Pix, Pin, Pinna, Pinwale , Piddle, A, An , Ann, And, Ad, Add, Ag, Ai, Ain, Aid, Aw, Awn, Fix, Fid, Bi, Bin, Bind, HQ, HD, Vinca 
+ T words – 36 th position 
+ Q, Quin, Qi, Bud, Buds, Budge, Bug, Bugs, Dub, Dubs, Dug, Dugs, Dui, Di, Din, Dins, Ding, Dingo, Dingoes, Dinge, Dig, Digs, DJ, Gin, Gins, Gid, Gids, Cub, Cubage, Cuba, Cubs, Cud, Cuds, Cinques, Cinque, Cig, Cigs, CD, I, In, Inn, Inc, Inca, ID/Id, Wu, Wud, Win, Winnow, Wins, Wig, Wigs 
+ W words – 37 th position 
+ X, Xi, I, In, Inn, Ins, IQ, ID/Id, Ids, Igg, Ki, KIA, Kill, Kilo, Kim, Nix, Nil, Nill, Nim, NW, Jiao, Jill, Jin, Jig, DC, Di, Dial, Dill, Din, Dino, Dine, Dim, Dime, Dimer 
+ T words – 38 th position 
+ Na, Nabes, Nabe, Nab, Nae, Nag, Q, Ba, Bal, Bale, Bales, Balk, Balks, Baobab, Babe, Babes, Babus, Babu, Babka, Baa, Bag, Dal, Dale, Dales, Daze, Dazes, Dag, Daub, Daubs, Gal, Gale, Galena, Gales, Galea, Gaze, Gazes, Gab, Gabelle, Gag, Gage, Gaur, Gaurs, Glob, Globs, Glow, Glue, Glues, Gnaw, Gnu, Calk, Calks, Cab, Cabbage, Cage, Clob, Clown, Clew, Club, Clubs, Clue, Clues, I, Ixora, Ill/I’ll, Illegal, In, IQ, I’m, Iglu, Wale, Wales, Wabble, Wab, Wae, Wag, Wage 
+ Q words – 39 th position 
+ X, Xu, A, Al, Ale, Ales, Alp, Alps, Alum, Alulae, Alula, Ab, Abba, Abe, Abele, Ae, Aa, Ag, Age, Agene, Aurae, Aural, Aura, Lo, Lob, Lobs, Loral, Lounge, Low, Lown, Lee, Lees, Lek, Leks, La, Lab, Labs, Lar, Lars, Large, Largo, Law, Lawn, Lues, No, Nob, Noble, Nobs, Noel, Noes, Nopal, Nous, Now, NE, Neb, Nebs, Neem, Nee, New, Na, Nab, Nabs, Nae, Nap, Napa, Naps, Naw, Nu, Nub, Nubs, Q, QA, Quell, Mo, Mob, Mobs, Mop, Mops, Mor, Moral, Morale, Morae, Morse, Morsel, Mow, Mown, Me, Merl, Mew, Mewl, Mu, Mural, Mura, Sleaze, Sleazo, Slum, Slug, So, Sob, Soba, Sop, Sora, Sorgo, Sou, Soul, SE, See, Seel, Seen, Seem, Sepal, Ser, Seral, Sera, Sab, Sable, Sae, Sap, Sargo, Sarge, Sau, Saul, Sub, Suba, Sue, Sup, Sura, Sural, Suq, Glen, Glum, Go, Gob, Gobs, Goes, GOP, Gor, Goral, Gorm, Gorse, Gown, GB, Gee, Gees, Geese, Germ, Gab, Gable, Gabs, Gae, Gaes, Gap, Gaps, Gar, Garage, Gars, Gaun 
+ S words – 40 th position 
+ Lea, Leno, Les, Lesbo, Leg, Lego, Legal, Luau, Lulu, Luna, Lung, Lunge, Lum, Lug, Oba, Oe, Oes, Op, Opal, Ops, Or, Ora, Oral, Orle, Ormolu, Ors, Org, Ow, Owl, Own, Ok, Oka, Zeal, Be, Beale, Beau, Bel, Bell, Bellow, Belle, Beleap, Belga, Bes, Beg, Bull, Bulla, Bulge, Bum, Bus, Bug, Bugle, Eel, Er, Era, Ers, Erg, Ergo, Ew, A, Ab, Aba, Able, Abs, Ae, Apnea, Apse, Ar, Arquebus, Ars, Arse, Argle, Argol, Aw, Awa, Awl, Awn, GB, Gel, Gelee, Gen, Genoa, Gene, Genu, Genua, Gem, Gr, Graze, Graal, Gul, Gull, Gulag, Gun, Gum, Gumbo, Up, Ups, Ural, Ursa, Ursae 
+ J words – 41 st position 
+ Ba, Babe, Baba, Babu, Baa, Baal, Bag, Bloop, Blob, Blog, Bleep, Blah, Blae, Blub, Blue, Ex, Eau, El, Ell, Elbow, En, Enol, Enough, Eng, Em, Embow, Eme, Emeu, Emu, Es, Ego, Egal, Egg, Pa, Pal, Pall, Pale, Pablum, Page, PM, PS, Ra, Rale, Rag, Rage, Raga, Ragg, Ulu, Un, Unau, Um, Umbo, Us, Q, QA, Wall, Wale, Wab, Wae, Waul, Ka, Kale, Kabob, Kabab, Kab, Kae, Kagu, Knob, Knee 
+ Q words – 42 nd position 
+ X, Xu, A, Al, All, Alow, Alb, Album, Albums, Ale, Aleph, Alephs, Ala, Azo, Ab, Abo, Abe, Aba, Ae, Aa, Aal, Ag, Ago, Agog, Age, Aga, Auburn, Augur, Lo, Loo, Loop, Lob, Log, Lough, Lb, Lez, Lee, Lea, Leap, Leg, Leu, La, Laogai, Lab, Lag, Laugh, Lulu, Luau, Lug, No, Noo, Nob, Nog, Nogg, NE, Neb, Nee, Neep, Neap, Neg, Na, Nab, Naevus, Nae, Nag, Nu, Nub, QA, Qua, Quag, Mo, Mol, Moo, Mob, Moa, Mog, Me, Mel, Meou, Meow, Meg, Mu, Mug, Mugg, Slog, Slogan, Slow, Slob, Slop, Slew, Slag, Slaw, Slab, Slap, Slug, Slub, So, Sol, Solum, Sob, Soap, Sou, Sough, SE, Sel, Selva, Sebum, Sebums, See, Seep, Sea, Seawans, Seawan, Seabags, Seabag, Seg, Sal, Saluki, Salp, Sab, Sae, Sag, Sau, Saugh, Sulu, Sub, Suburb, Sue, Glogg, Glow, Glob, Global, Glop, Gleg, Gleba, Glug, Go, Goo, Goop, Gob, Goa, GB, Gel, Gee, Gal, Gab, Gae, Gag 
+ S words - 43 rd position 
+ Lo, Logan, Lour, Low, Lob, Lop, LZ, Lb, Leg, Leggin, Leu, Lev, Leva, La, Lag, Lagan, Lauans, Lauan, Law, Lab, Lap, Lug, Luv, Ol, Oz, Oe, Zouk, Zouks, Zz, Zzz, Zebu, Zebus, Zep, Za, Zag, Zap, Zuz, Bo, Bog, Bogan, Bourn, Bow, Bob, Bop, Be, Beg, Begun, Began, Ba, Bag, Babuls, Babul, Babus, Babu, Babas, Baba, Bap, Bug, Bubu, Bubus, Bub, El, Ebb, Eau, Egg, EU, A, Al, Alum, Alb, Alba, Alp, Ab, Abbas, Abba, Ae, Aa, Ag, Glug, Glum, Go, Gowk, Gowks, Gowan, Gowans, Gob, GOP, GB, Geums, Geum, Gag, Gaga, Gaur, Gaum, Gaums, Gawk, Gawks, Gaza, Gab, Gap, Guv, Ulu, Ulva 
+ S words – 44 th position 
+ Lug, Lum, LZ, Lb, Our, Ow, Oz, Oba, Obas, Op, Opus, Zz, Bur , Burl , Burn , Burb , Bug, Bugs, Bum, Bums, Egg, EU, Ew, Evan, A, Ag, Aga, Again , Auk, Auks, Aw, Awa, Azan, Azans, Ab, Abri, Aba, Ugh, UV 
+ E words – 45 th position 
+ Guv, Guild, Gul, Gun, Gavin, Gag, Gain, Gaining, Gal, Gan, Gang, Jr, Jus, Jug, Jugs, Jun, Jag, Jail, Urn, Urb, Uh, UK, Um, Wu, Was, Wash, Washing, Wag, Wags, Wan, Wans, Wangun, Za, Zas, Zag, Zags, Vug, Vugs, VA, Vas, Vav, Vavs, Vagi, Vain, Vail, Van, Vans, Vang, Brig, Bribing, Bus, Bush, Bushing, Bug, Bugs, Build, Bulb, Buhl, Bub, Bubs, Ba, Bas, Basin, Bash, Bashing, Bag, Bags, Bail, Bal , Bals, Bah, PR, Prig, Pus, Push, Pushing, Pug, Pugs, Pugh, Pul, Puls, Pulvini, Puli, Pun, Puns, Pung, PM 
+ K words – 46 th position 
+ RV, Riving, Rig, Rin, Rind, Rindy, Rib, Us, UV, Ugh, Uh, Un, Uns, Unlit, Unhung, Unhinge, Unbid, Unbind, Fil, Fin, Find, Fib, Flipki, Kis, Kin, Kinin, Kind, Khi, Giving, Gig, Gild, Gin, Gini, Ginny, Gib, Gibing, GB, Mi, Mis, Mig, Mil, Mili, Mild, Mib, A, As, Ash, Ashing, Ag, Ags, Agin, Ai, Ais, Ail, Ain, Al, Als, Ah, Ahs, Ahi, An, Ani 
+ Z words – 47 th position 
+ Si, Six, Sin, Sip, Slit, Shx, Shin, Shia, Shit, Snit, Vs, Viny, VIP, Vid, Gin, Gink, Ginnier, Gip, Gid, Giddier, Glut, Gnu, GB, I, Is, IV, In, Inn, Li, Lip, Lid, Lb, Hi, Hin, Hint, Hip, Hid, Nix, Nixy, Bi, Bin, Blin, Blind, Blinder, Blini 
+ Z words – 48 th position 
+ Si, Sin, Sing, Singe, Since, Sit, Sky, Snack, Snaw, Spy, Spa, Space, Vinier, Via, Vid, Vizier, Vizir, Gun, Gut, Gnaw, Gnawer, I, In, Ink, Inn, Inti, ID/Id, Li, Lin, Linn, Linier, Liane, Lit, Hun, Hung, HUD, Hut, Hi, Hin, Hind, Hinder, Hinge, Hinger, Hid, Hit, Nu, Nun, Nut, Nit, Bun, Bund, Bung, Buy, Bud, Bi, Bikie, Bin, Bind, Binder, Bing, Binger, Binge, Bid, Bidder, Bidi, Biz 
+ W words – 49 th position 
+ Un, Unbe, Undead, Unde, Ut, X, I, In, Inn, Incur, Ian, ID/Id, If, It, NY, Na, Nan, Nab, Nabe, Nack, Naw, Jane, Jab, Jag, Jager, Jaw, Pa, Pan, Pane, Page, Pager, Pac, Pace, Pacer, Pack, Paw, Pawer, Dyne, Dan, Dane, Dab, Dag, Dace 
+ A words – 50 th position 
+ Ki, Kief, Kip, Kir, Kirk, Nib, Nip, Nipa, Yirr, A, An, Ane, Aqua, Ab, Abba, Abe, Ag, Age, Ager, Ace, Acerolas, Acerola, Ai, Aw, Awe, DC, Di, Dib, Die, Dip, NW, Zip, Ti, Tie, Tier, Tip 
+ T words – 51 st position 
+ NE, Neg, Nema, Neat, Neap, Nr, Nu, NW, Q, Qua, Quad, Be, Bert, Beg, Bema, Bead, Beat, Brr, Brut, Bra, Brad, Brat, Bura, Burd, Burp, Burj, Bug, Bum, Bump, De, Def, Deft, Demark, Demarks, Demo, Dead, Dura, Dural, Dura, Dug, Duma, Dump, Duad, GB, Ger, Gem, Gr, Grr, Graal, Grad, Grat, CE, Ceramal, Cero, Cru, Crud, Cruor, Craal, Crap, Cur, Curd, Curt, Cum, I, IE, Irk, IQ, We, Wert, Weft, Weka, Wu, WW 
+ J words – 52 nd position 
+ Bud, But, Bharal, Ba, Baa, Baal, Bad, Bat, Bap, Er, Era, EU, Ef, Eft, Eh, Egal, Ego, Em, EMP, Eat, PR, Pram, Pro, Prowar, Prow, Prom, Prop, Prof, Pud, Put, Putz, Pup, PhD, Pht, PM, Pa, Pad, Pat, Pap, Rut, Ra, Rad, Rat, Rap, Raj, Ural, Urd, Urp, Uh, Um, Ump, Q, Qua, Quark, Quarks, Quo, Qat, Wrap, Wu, Wud, Wha, Wham, Whap, Who, Whom, Whop, Wad, Wadmal, Wat, Wap, Khaf, km 
+ K words – 53 rd position 
+ Ra, Ram, Ramal, Rap, Rd, Row, Rom, Roma, Ut, Up, Upwaft, UV, Fa, Falx, Far, Fop, Folk, Folks, For, Fork, Forks, For a, Ft, Ha, Ham, Hamal, Halala , Halal, Har, Harks, Ho, How, Howk, Howks, Hop, Holk, Holks, Horal, Horas, Hora, HQ, Ka, Kakas, Kaka, Kaf, Kophs, Koph, Kop, Kola, Kolas, Koras, Kora, Kor, Gazar, Gaza, Gam, Gama, Gap, Gal, Gala, Galas, Galaxy, Galax, Gar, Go, Gowk, Gowks, GOP, Gor, Goral, Ma, Makar, Mama, Map, Mal, Mala,Mar, Mark, Marks, Marx, Mara, Maras, MD, Mo, Mow, Mom, Mop, Mol, Mola, Molas, Molal, Mor, Mora, Moras, Moral, A, Aa, Aal, Ad, Adz, At, App 
+ L words – 54 th position 
+ A, Am, Ama, Al, Ala, Alas, Ar, Ark, Arks, Afar, Dwarfish , Dwarf, Dr, Draft, Drastic, Ow, Oz, Om, Op, Ol, Or, Ora, Oral, Of, Q, TM, PM, Jr 
+ U words – 55 th position 
+ Waff, Waft, Was, Wast, War, Warn, Wary, Wart, Wax, Waxy, Waly, WW, Za, Zaffir, Zas, Zarf, Zax, Ka, Kaf, Kas, Karn, Kart, Ma, Mac, Maftir, Mar, Mark, Mary, Mart, Max, Mal, La, Lac, Lacy, Las, Last, Lax, Ra, Racy, Raft, Ras, Fa, FAQ, Fas, Far, Fax 
+ D words – 56 th position 
+ HQ, Vs, X, A, Acai, Act, Aff, Aft, As, Ask, Astir, Ar, Ark, Arf, Art, Artist, Ax, Al, Alnico, Ala, Cry, Cranch, Clan , Q 
+ I words – 57 th position 
+ Can, Cap, Cad, CD, Fa, Faux, Faulty , Fault, Fax, Fair, Fairy, Fail, Fan, Fad, Ft, Q, QA, Ski, Skirr, Skirt, Syn, Sync, Synch, St. Sturt, Stir, VA, Vau, Vault, Vaulty, Vair, Vail, Ra, Rax, Rai, Rail, Ran, Ranch, Rap, Rad, X, Lynch, Lynx, La, Lax, Laic, Lair, Lap, LZ 
+ A words – 58 th position 
+ Ki, Kif, Kis, Kist, Kir, Kilo, Kiln, Kilt, Kilty* , Nu, Nus, Nifty* , Nix, Nixy, Nil, Yurt, A, Ax, Ai, Air, Airy, Airt, Ail, An , Ad, Dust, Duro, Di, Dictum, Dif, Dis, Dish, Dirt, Dirham, Fur, Fichu* , Fico, Fish, Fishy* , Fir, Fil, Filo, Tufty, Tuft, Tux, Ti, Tic, Tis, Tivy, Tiro 
+ W words – 59 th position 
+ UFO, Us, UV, Ulna, X, I, Ictus, Ich, If, Is, Isba* , Isbas, IV, Ivy, Nr, PS, Pry, Pro, Prof, Profs, Ply Ploy, Plot , DC, Dry, Dr 
+ I words – 60 th position 
+ Co, Cot , Cote, Cots, Coy, Coys, Coax, Coo, Cris, Cru, Crus, Crux, Cram, Chi, Chic, Chum, Chay, Cham, Foy, Foys, Fou, Foam, Fro, Fray, Friz, Froe, From, Ft, Q, Sri, Sris, Sr, Snye, Sty, Stum, Sh, Sha, Shy, Sham, Shay, Shim, Vote, Rya, Ryas, Rot , Rote, Rots, Roam, Room, X, Lb, Lo, Lot , Loam 
+ N words – 61 st position 
+ Yum, Ya, Yay, Yam, Yo, Yom, Bi, Bis, Biz, By, Bye, Bys, Bum, Bus, Ba, Bam, Bas, Bay, Bo, Box, Boy, Mi* , Mic, Mis, My* , Mu* , Mum, Mus, Ma* , Mac, Mas, May, Mo* , Mor, Mom, Of, Oi, Oy, Rim, Rue, Rum, Ra, Raj, Ram, Rax, Ray, Ras, Roe, Rom, Nim, Nix, NY, Na, Nam, No, Nom, Ti, Tic, Tis, TV, Tux, To, Tom, Toy, Hi, Hic, Him, Hic, Hue, Hum, Ha, Haj, Ham, Hay 
+ F words – 62 nd position 
+ Fe, I, I’m , Is, TM, Ye, Um, Us, A, Am, Ax, Ay, As, Om, Ox, Oz, Oy, Oe 
+ B word – 63 rd position 
+ X 
+ W words – 75 th position 
+ Uh , Us, Ut, Un , Xu , X , Itch , It, Ink, Incus, Inch, Inc, In, Juku, Jukus, Pew Pe, I, Dex , Dew, De, Duh 
+ G words – 76 th position 
+ Ex, Ew , Ecu, Hwan, HQ, Shh, Sh, Sha, Shah, Shun, Ska, Skas, Swan , Uh, UK, UV, Thug, TV, SW , NW 
+ D words – 77 th position 
+ Hug, Huic, Huh, Hun, Hm, Havoc , Hag, Hah, Han, Ha, Ka, VR, Vas, Vav, Van, Xu, Wu, Was, Wash, Wag, Wagon , Wait , Want , Wan, Cub, Cash , Quit, Kas, X, Q 
+ K words – 78 th position 
+ Rio, Rho, Us, UV, Uh, Un, Fit, GG, Git, GB, Ms, Mi, Mic, As, Aswirl , RV, Ash, Aside , Avid , Avo, Agin, Ago, Agone , Ag, Ait, Ah, Ant, An, A 
+ Z words – 79 th position 
+ Swirl , SW, Sh, Shier, Sib, Sided, Side, Si, Sober, Sob, Sod, So, Vined, Vine, Vibe, Vid, Vide, Vowel , Vow, Gin, Gid, Goner , Gone, God, Go, I, It, Ion, Io, Hone, Honer, Hon, Hobby , Hob, Hod, How, Howe, Ho, Nine, Nib, Nide, Bin, Bine, Bib, Bibb, Bid, Bided , Bide, Bi, Boney , Bone, Bobby , Bob, Bod , Bode , Sock , Gink, Honky , Honk 
+ X words – 80 th position 
+ Tie, Tier, Tip, Tipi, Ti, Wirra , Wirral , WW, HQ, Hi, Hie, Hip, Jib, In, IQ, ID/Id, On, One , Obey, Obe, Owe, Ow, I, Wiki, Ink, Inky 
+ T words – 81 st position 
+ New, NE/Ne, Q, Bey, Bed, Berk, Berks, Be, Briars , Briar , Brr, Del, Dewars, Dewar, Dewax, Dew Dex, De, Cel, Cedars, Cedar, I, IE, IQ, We, Wed, WW, X, Bel 
+ J words – 82 nd position 
+ Blase, Blast, Blare, By, Bract, Bras, Bras, Brash, Brass, El, Elk, Elks, Ew, Eyas, Eyass, Ex, Exact, Exalt, Ed, Edh, Edhs, Erase, Er, Era, Eras, Pi, Pix, Pics, Pic, Pias, Pial, Pia, Rial, Rials, Ria, Rd, Q, Qi, WW, Brassard , Exacta, Kwacha, Kyars, Kyar 
+ C words – 83 rd position 
+ I, IQ, Lacs, Lac, Lase, Lash, Lass, Last, Las, Lars, Lar, Lax, La, WW, Wafe, Waft, Was, Wash, Wast, War, Wars, Ware, Warn, Wax, Wale, Yare, Yarn, Yar, Daft, Dash, Dare, Darn, Dals, Dale, Dal, RV, Raft, Rase, Rash, RAST, Ras, Rare, Rax, Rale, Ra, X, Warsaw 
+ D words – 84 th position 
+ HQ, Cru , Cleu (clue), Clef , Cluu/Clui (clue), Clu (clue), Q, A, Act, AC, Aft, Aqua , Ash, Ass, As, Are, Ar, Ax, Axe, Ale, Alef , Als, Alt, Al, X, Creak , Cream , Afear , Asea , Area , Arum 
+ I words – 85 th position 
+ Chums , Chum , Churr , Cuff , Cuffs , Feu, Feh, Fe, Fur, Furzy , Furl , Q, SE, Shul , Sh, Shh, SS, St, Re, Ref , Ruff , Xu, X, Leu, Leur (lure), Lehr , Lek , Lurks , Lurk , Lt, Vs, Cham , Chams , Charr, Chart , Chars , Char , Chapt, Chaps, Chap, Cum, Fem, Feal , Fear, Fears, Fug, Qua, Sea, Seal , Sears , Sea r , Shaw, Shaws, Shaky , Shaly , Sha, Staw , Star , Rem, Ream , Rear , Reap , Rum, Rump , Leg, Lug , Lum, LZ, Veg, Veal , Vealy , Vug, Vum 
+ G words – 86 th position 
+ Ef, Eff, Effs, Eh, Em, EMP, Ear, Ears, Hm, Hmm, Haws, Haw, Ham, Hams, Halt, Ha, Hard, Hardly , Hart, Haps, Hap, Sum, Sums, Surd, Sups, Sup, Sh, Saw , Saws, Sal, Salt, Sard, Sap, Saps, Urp, Urps, Ump, Umps, Um, UK, TM, Taw, Ta, Tam, Tar, Tart, Tap, Zuz, Zap, Zaps, Za, Nurd, Nu, Xu, X 
+ K words – 87 th position 
+ UK, Um, Umm, Urd, Up, Updry , Ups, Fly, Mm, A, Aw, Am, Amyl , Alt, Al, Art, Ars, Ar, Apt, Aptly , Hz 
+ U words – 88 th position 
+ WW, MD, Mr, My, Mm, Lt, Rd, PS 
+ H words – 89 th position 
+ Dry, Dr, Grappa, Try , SW, Swap, Ska, Spy, Spa, Spaz, Spar, Mm, Mr, WW, Wry 
+ U words – 90 th position 
+ War, Warp, Wap, Zap, Za, Zz, Zzz, Zzzz, Kalpa, Kaf, Ka, Kappa, My, MD, Lymph, La, Law, Lar, Larum, Lap, Lt. Raw, Razz, Ralph, Rap, Ra, Rd, Falbala , Far, Fa, Pa, Paw, Pawpaw, Pal, Palp, Palpal, Par 
+ A words – 91 st position 
+ Kluging , NW, A, Aw, Al, Alga, Algal, Alumine , Alumin* , Alum, Alb, Alba, Alp, Ar, Arguing , Argala, Argal, Arum, Arval, App, Appal, Zz, Zzz, Flu, Flurry , Fluming, Fluking, Huky, TM, Trug, Drug, Drum, Drumly, Dr 
+ U words – 92 nd position 
+ WW, Zz, Mu, Murry , Murra , Murr, Muhly, Mug, Mum, Luging, Lug, Lum, Fur, Furl, Fury, Furry , Fug, Fumy, Fuming, Pur, Purl, Purda* , Purr, Pug, Puking 
+ E words – 93 rd position 
+ Guide , Guid, Gulf, Gul, Ghi, Gain , Gal, Gala, Gawk* , Gay, Gad, Gaby, Gab, Jr, Jury, Jural, Jurat, Juba, Jaw, Jay, Jab, Jabat, Urd, Urb, Uh, Ugly , Um, Wry , Wud, Waif , Wain , Walk , Waly , Waw, Way, Wax, Waxy , Wad, Wady , Wab, Vain* , Vaw, Brr, Buy, Bud, Bur, Burn , Burnt , Bury , Bura , Burd , Bub, Bubal , Baize , Whine , Whin* , Whiz , Whizz , Whiff , White , Whit , Whid* , Ba, Baba , Baby , Bad, Bay, Bawd , Balk , Bald , Bal, Pry, PR, Pula, Pul, Pud, Pur, Pub, Phi, Phiz* , Pain , Paint, Paid , Pal, Paly, Paw, Pawn, Pay, Pax, Pad, Pa, Za, Zax 
+ K words – 94 th position 
+ Urn, Urd, Fin * , Fiat, Fiz* , Fizz, Fit , Fid* , Flat, Frat, Hi, Hin* , Hit , Hid* , Hint, Hide, Gin* , Gift , Gite, Gid* , GB, Grat, Mine, Mitt, Mite, My, Mi, Mid* , Mr, Ai, Aid , Ain , Aide, Alae, Al, Aw, Awn, Awa, Ax, Axal, Ad, Add, Adz, Adze, Aba, Aby, Ki, Kin* , Kine, King, Kif* , Kit , Kite, Kyte 
+ C words – 95 th position 
+ In * , If * , Iff, It , ID/Id, La, Lat, Lt, Wat, X, Raj, Rat, Bal , Bat, Ba 
+ A words – 96 th position 
+ NE/Ne, A, At, Ae, Al, Zz, Fe, De 
+ R words – 97 th position 
+ Q, Z (speculation) 
+ 

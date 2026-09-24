@@ -1,0 +1,11 @@
+
+Using Military Cryptanalysis Part IV, Section III Transposition: Incompletely – Filled Rectangles, as a guide for cryptanalysis, yields the following ‘matrix’.
+
+         1         2         3         4         5         6         7         8
+SLOWLYDESPARATLYSLOWLYTHEREMAINSOFPASSAGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORWAYW
+ASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEH
+OLEALITTLEIINSERTEDTHECANDLEANDPEEREDINTHEHOTAIRESCAPINGFROMTHECHAMBERCAUSEDTHEFLAMETO
+FLICKERBUTPRESENTLYDETAILSOFTHEROOMWITHINEMERGEDFROMTHEMISTXCANYOUSEEANYTHINGQ
+
+It’s an incompletely filled 4 X 86 matrix.  Encryption starts with column 79 ‘END’ and proceeds bottom to top, right to left using 1526374 as the key.  Notice that KSOTPYR could be used as the keyword.
+

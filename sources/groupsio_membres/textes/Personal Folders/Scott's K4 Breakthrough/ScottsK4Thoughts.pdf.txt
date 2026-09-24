@@ -1,0 +1,195 @@
+[[page 1]]
+K4 Breakthrough Thoughts
+By R. Scott Perry
+24 May 2013
+
+[[page 2]]
+Preface
+In March, 2013, I discovered that K4 uses multiple steps (as many had suspected), 
+and decoded one of the steps.  The first step uses cryptography that I am sure 
+would not surprise those that solved K1 through K3.
+On May 20, 2013, 2 1/2 years after Jim Sanborn released the BERLIN clue, I 
+announced this to the Kryptos Yahoo Group.
+The 97 characters in the next step of K4 are (split into two lines for 
+readability):
+PGZFGTEZPFCYGFLJLZGSOJAILWDCCNZFHSHQHIVZKUCGOZAAF
+JEVHOCZVSNHYEHBERLINPEEKRRRHBUXJOPYFFTXBMMQMOFQS
+I do not have a background in cryptography, so I am just a novice (who, through 
+some combination of luck or skill, figured out part of K4).
+Following are some thoughts on how to proceed from here.
+
+[[page 3]]
+Thought #1:  A Mask
+One of the most noticeable features of the partial decoding of K4 is the presence 
+of BERLIN, which is generally assumed to be in the final decoding.
+This leads to two possibilities:  [1] The final text does not include BERLIN (with 
+the word Berlin having randomly appeared in the middle of the decoding steps), or 
+[2] Berlin does appear in the final decoding.
+I find #1 unlikely.  Having looked at perhaps thousands of incorrect decodings of 
+K4, many have short English words in them.  However, getting a 6 letter word is 
+fairly rare – especially one that has such a clear relation to Kryptos (e.g. with 
+the Berlin wall monument at the CIA headquarters near Kryptos).  And many people 
+would call “foul” if the final text of K4 did not indeed have BERLIN where the clue 
+suggested it would be.
+So if we assume that BERLIN is in the final decoded text where it appears in this 
+partial solution, I think that there must be a mask of some sort involved 
+(something that allows further decoding of some characters, but not others, 
+essentially allowing the BERLIN letters to bypass further decoding).
+The most obvious mask I could see was the morse code in Kryptos.  My thought was to 
+put the morse code together in one string, and where the extra letters 'e' appeared 
+no encoding would be done.
+As an example, let's say the the ciphertext is “BERLINPEEKRRRHB”, mask is 
+“eeeeeeINVISIBLE” (with any 'e' outside a word meaning 'do not decode', anything 
+else meaning 'encode'), and the encoding is a simple Caesar cipher (add 1 to the 
+letter, so 'A' becomes 'B').  In this case, it would decode to BERLINQFFLSSSIC.  
+The mask allows further decoding while still letting BERLIN through.
+We would have:
+ciphertext: ...BERLINPEEKRRRHB...
+mask:
+...eeeeeeINVISIBLE...
+plaintext:
+...BERLINQFFLSSSIC...
+Of course, this is simplistic (e.g. the 'RRR' likely requires multiple alphabets), 
+but shows how a mask might work.
+I did try as many possible variations of the morse code as I could (as it it not 
+clear exactly the order that morse code snippets would go in), without luck.
+If a mask is used, and it lets BERLIN through, the mask would need to be at least 
+97 characters long (or repeated to that length).  Also, it would need to have at 
+least 6 “do not decode this letter” marks in it in a row (like the 'e's in the 
+morse code) to allow BERLIN through.
+
+[[page 4]]
+Thought #2:  A 14-Character Key
+Running some statistics on the partial solution to K4 (specifically, the periodic 
+index of coincidence ) reveals that there may be a 14-character key involved.  I 
+calculated them as follows (for key lengths of 2 through 21):
+2,0.0399
+3,0.0355
+4,0.0372
+5,0.0382
+6,0.0355
+7,0.0434
+8,0.0389
+9,0.0438
+10,0.0394
+11,0.0332
+12,0.0321
+13,0.0394
+14,0.0578
+15,0.0292
+16,0.0292
+17,0.0275
+18,0.0426
+19,0.0193
+20,0.0250
+21,0.0317
+Here, you can see that the index of coincidence is highest for a key length of 14.  
+Unfortunately, I am not experienced enough in ciphers to know how likely a key 
+length of 14 is given this data (especially given the short length of ciphertext 
+and the possibility of a mask).  If a periodic cipher is used with a key (such as 
+Vigenere), however, the data suggests a 14-character key.
+Further, the duplicated letters in the partial solution of K4 are “ZF” (at 
+positions 2 and 30), and “HB” (at positions 62 and 76).  The difference between the 
+“ZF” positions is 28 (a multiple of 14), and the difference between the “HB” 
+positions is 14.  I believe this helps increase the chances that a 14-character 
+period is used.
+So where could one find a 14-character key?  Using a word that long is very 
+unlikely; my guess would be it has to do with there being 14 rows on the panels.
+Breaking down the partial solution into 14-character segments results in:
+PGZFGTEZPFCYGF
+LJLZGSOJAILWDC
+CNZFHSHQHIVZKU
+CGOZAAFJEVHOCZ
+VSNHYEHBERLINP
+EEKRRRHBUXJOPY
+FFTXBMMQMOFQS 
+The idea of a 14-character key comes from the PLCCVEF (first column) using one 
+alphabet, GJNGSEF (second column) using another, and so forth.  That could be a 
+Vigenere cipher, or something completely different.
+However, one would still need to account for BERLIN staying where it is (assuming, 
+of course, it does stay there).  The repeated HB suggests that the 'H' before 
+BERLIN is indeed plaintext, and that the second HB is plaintext as well.
+I tried some common methods of attacking the partial decoding with 14-letter keys, 
+but none worked for me.  That could be due to some letters not being decoded (e.g. 
+BERLIN staying as-is with a mask), or it could be due to multiple steps being 
+required. 
+
+[[page 5]]
+Thought 3:  Two Halves; K1+K2 Alignment
+Something that is quite apparent (to me, at least) is that the first half of K4 
+seems somehow different than the second half of K4.  It's hard to place in words 
+how it seems different.  And it may be more than just the halves.  For example, 
+splitting the partial K4 solution into quarters shows an IC (Index of Coincidence) 
+of the 1st and 3rd quarters being identical, with the 2nd and 4th quarters lower.
+This may just be due to the short length of K4.  Statistics work better and better 
+on longer and longer lengths of ciphertext.
+The section after this has some of the statistics.
+Next, with the idea of Kryptos perhaps being a palimpsest, I noted that K1 is 63 
+bytes, with K2 starting at the 64th character of the first panel.  Interestingly, 
+BERLIN starts at the 64th position of K4.
+Encoded K1 (bold) and start of K2:
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE
+GGW
+Partially decoded K4 (BERLIN in bold):
+PGZFGTEZPFCYGFLJLZGSOJAILWDCCNZF
+HSHQHIVZKUCGOZAAFJEVHOCZVSNHYEH
+BERLINPEEKRRRHBUXJOPYFFTXBMMQMO
+FQS
+This gives the possibility that the first half of K4 is somehow related to K1, with 
+the second half of K4 is somehow related to K2.
+My hunch is that K4 is indeed split into two (or more) sections somehow, but that 
+the positioning of BERLIN starting at the 64th position (correlating to the start 
+of K2) is just a coincidence.
+
+[[page 6]]
+Thought 4:  Statistics - Index of Coincidence
+Here is the Index of Coincidence for the encoded and decoded K1, K2, K3, and K4.  
+As a reminder, random letters would tend to be closer to 0.038, with standard 
+English words tending to hover around 0.066.
+K1:
+0.038
+K1 Decoded:
+0.067
+K2:
+0.045
+K2 Decoded:
+0.066
+K3:
+0.066
+K3 Decoded:
+0.066
+K4:
+0.036
+K4 Partial Solution:
+All 97 chars:
+0.037
+1st 48 chars:
+0.045
+2nd 48:
+ 
+0.039
+1st 24 chars:
+0.054
+2st 24 chars:
+0.036
+3rd 24 chars:
+0.054
+4th 24 chars:
+0.047
+From the IC, it is pretty clear that we are not dealing solely with transposition 
+(I.E. at least some of these 97 letters need to be changed into other letters).
+As was mentioned in the previous section, statistics work better when you have more 
+letters to work with.  The statistical breakdown of the smaller segments could 
+easily just be “noise”.
+
+[[page 7]]
+Thought 5:  Length
+There are 97 letters in K4.  That poses a problem for some ciphers, as 97 is a 
+prime number (no two numbers multiplied together result in 97).
+If a cipher is involved that requires the use of a non-prime number of characters, 
+I would find 98 characters to be the most likely (perhaps including the '?' at the 
+end of K3, or perhaps a null character).  98 would work into 7 14-character lines, 
+which fits in nicely with the probability of a 14-character key.  It also fits in 
+nicely with the solution to K3, where Jim Sanborn's chart has 7 lines.

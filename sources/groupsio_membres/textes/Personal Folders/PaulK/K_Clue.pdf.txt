@@ -1,0 +1,101 @@
+[[page 1]]
+The K in MZFPK matching with K in CLOCK is a clue. If you take K4 CT and add the 
+Z in front, as I have already indicated and shown to be part of solving Kryptos, 
+you will now have 98 characters in K4 CT.Repad K4 CT into seven columns:
+Z O B K R U O
+X O G H U L B
+S O L I F B B
+W F L R V Q Q
+P R N G K S S
+O T W T Q S J            E N G
+Q S S E K Z Z    E N
+W A T J K L U
+D I A W I N F
+B N Y P V T T      B E R L I N
+M Z F P K W G    C L O C K
+D K Z X T J C
+D I G K U H U    DIGE TAL INTERPRETATI(ON) //Morse Code//
+A U E K C A R
+You will see that there are four Ks in column ﬁve. //BTW, ﬁve is a signiﬁcant 
+number in Kryptos!// Repad K4 CT again, only in columns of fourteen:
+Z O B K R U O X O G H U L B
+S O L I F B B W F L R V Q Q
+P R N G K S S O T W T Q S J
+Q S S E K Z Z W A T J K L U
+D I A W I N F B N Y P V T T
+M Z F P K W G D K Z X T J C
+D I G K U H U A U E K C A R
+You now see that there are still three Ks in column ﬁve and one K in column 12. 
+Before I go further, let me point out that the K in column 12 is the ﬁrst letter 
+in KLU, which constitutes a clue about something else. But, returning to the Ks 
+in column ﬁve now:
+These Ks in column ﬁve are separated by multiples of fourteen. It comes to one's 
+mind that that is how KEYWORDS are arranged corresponding to the text they are 
+used against. So, let's suppose that these Ks are clues about a keyword. It 
+immediately occurs to us that if this is true, then BERLINCLOCK might be part of a 
+keyword because Sanborn said that BERLINCLOCK is plaintext that lies in those 
+positions in the K4 CT. As it turns out, BERLINCLOCK is part of a fourteen 
+character keyword THEBERLINCLOCK. Now, since the Ks are in the positions that 
+they are in, the keyword must be shifted ﬁve characters to the right and so it 
+begins with CLOCK. So the keyword is used against the 98 character text beginning 
+as CLOCKTHERBERLIN:
+C L O C K T H E B E R L I N
+C L O C K T H E B E R L I N etc.
+or
+The K Clue in MZFPK/CLOCK
+and other important related topics
+Paul Kiesel
+6/22/2021
+1
+
+[[page 2]]
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N
+C L O C K T H
+E B E R L I N     N Y P V T T
+C L O C K T H   M Z F P K
+E B E R L I N
+C L O C K T H
+E B E R L I N
+You can see that the Ks in column ﬁve of the K4 CT correspond to Ks in the same 
+locations in the above pad of keywords. You will also see that the second E in the 
+bottom row (the E in BERLIN) corresponds to the E in the bottom row of the K4 CT 
+seven column pad. This points to another clue. Notice the DIG and UH in row 
+thirteen of the seven column pad of the K4 CT and notice in row fourteen the E 
+under the DIG and R under the UH. This DIGE UHR is an abbreviated form of DIGITAL 
+CLOCK in German and the DIGE part has been pointed to by the misspelled DIGE TAL 
+INTERPRETATI(ON) in the Morse code section.
+The above explanation is not a guess. Having said that, THEBERLINCLOCK is not the 
+only keyword containing fourteen letters that the clues mentioned above point to. 
+The other keyword (also not a guess) is MENGENLEHREUHR (the digital Berlin Clock!). 
+The way MENGENLEHREUHR ﬁts is controlled by the matchup of letters ENGEN in 
+MENGENLEHREUHR with QSJQS in K4 CT, so that the keyword works against the 98 
+characters like this:
+E N L E H R E
+U H R M E N G
+E N L E H R E
+U H R M E N G
+E N L E H R E
+U H R M E N G             Q S J
+E N L E H R E    Q S
+U H R M E N G
+E N L E H R E
+U H R M E N G
+E N L E H R E
+U H R M E N G
+E N L E H R E
+U H R M E N G
+Now, neither of these keywords is going to be used directly on the original K4 CT. 
+Some other cryptographic maneuvers have to be performed ﬁrst. A short time ago, I 
+put in ﬁles a description of what actions have to be taken in taking K4 to a 
+speciﬁc point. This is the ﬁle name: Side-by-Side-up-to-double-box.pdf .
+PaulK
+2
+D I G K U H U    DIGE TAL CLOCK (in German)
+A U E K C A R

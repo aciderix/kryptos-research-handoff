@@ -1,0 +1,14 @@
+    (...)certutil -hashfile 2017-10-10_01.txt
+    SHA1 hash of file 2017-10-10_01.txt:
+    3d b9 34 bf 24 67 38 09 83 58 b4 99 25 68 c3 f1 ec 61 92 46
+    CertUtil: -hashfile command completed successfully.
+
+    (...)certutil -hashfile 2017-10-10_02.txt
+    SHA1 hash of file 2017-10-10_02.txt:
+    3d b9 34 bf 24 67 38 09 83 58 b4 99 25 68 c3 f1 ec 61 92 46
+    CertUtil: -hashfile command completed successfully.
+
+    (...)certutil -hashfile 2017-10-10_03.txt
+    SHA1 hash of file 2017-10-10_03.txt:
+    3d b9 34 bf 24 67 38 09 83 58 b4 99 25 68 c3 f1 ec 61 92 46
+    CertUtil: -hashfile command completed successfully.

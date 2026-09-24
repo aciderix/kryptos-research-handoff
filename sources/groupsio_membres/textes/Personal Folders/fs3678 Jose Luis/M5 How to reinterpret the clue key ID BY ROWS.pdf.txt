@@ -1,0 +1,141 @@
+[[page 1]]
+                                                                                                                                                                                                              
+ 
+M5  How to reinterpret the clue key ID BY ROWS 
+ 
+So the instruction is: use jumps of 9 and 4 BY ROWS. We will name this algorithm combining 2 
+jumps, the TFJ algorithm. We have 6 possible jump patterns: IDID, DIDI, IIDD, DDII, IDDI and 
+DIID. While the TFJ algorithm is as simple as the previous ones, the tables are large. Therefore, 
+in a similar way to what was done in the M4 message, I will include those corresponding to the 
+two tastiest patterns, in this case the first and the last. The table of the IDID pattern, in three 
+parts, is as follows: 
+ 
+
+[[page 2]]
+ 
+ 
+
+[[page 3]]
+ 
+ 
+
+[[page 4]]
+ 
+ 
+
+[[page 5]]
+IDID  pattern   #17 BAUD, #26 TRANSPSW + #34 ED (80% of TRANSPOSED? Also the O is shift -1 
+of the S in the Kryptos alphabet), #31 HOTPL (80% of HOTEL?), #36 TASK , #37 BALL, #58 
+QUAD, #59 BORN, #81 SOON, #83 KING and #89 TALK. 
+DIDI  pattern   #31 HRTEL (80% of HOTEL? In the same place #31 as in the previous pattern) 
+and   #37 ELY + #40 OIE (ELYOIE the exact key of BERLIN! Finally Kryptos confirms the key, and 
+with NYPVTT the right place of BERLIN). 
+IIDD  pattern   #67 LIN (in the right place!) 
+DDII  pattern   #26 YORK, #37 CITE, #40 OIE. 
+IDDI  pattern   #23 PEEK, #27 GAVE, #31 SEAL (this appear later), #34 BALL, #37 IRON, #41 
+GRIME, #88 TELE and #89 PHASP (80% PHASE?). 
+ 
+The table of the DIID pattern is: 
+ 
+
+[[page 6]]
+ 
+ 
+
+[[page 7]]
+ 
+ 
+
+[[page 8]]
+ 
+ 
+
+[[page 9]]
+DIID  pattern   #13 AUTOGE (50% of AUTOGENERATE?), #26 NORTHE (NORTH E! in the right 
+place!), #31 HOTEL, #63 SIGN, #64 BER + #67 MIN (83% of BERLIN in the right place. Also the L 
+is shift -1 of M in the alphabets, and we have found LIN in the right place in the IIDD pattern) 
+and #83 KIND. 
+ 
+Tests: 
+ 
+1 Using an algorithm, derived from the pattern of K4 sequence DIAWINFBN, which uses both 
+alphabets, and expanding the same with the interpretation of I and D BY ROWS; we got the 
+correct plaintext of BERLIN and NORTH E, and the correct key (ELYOIE) of BERLIN. This tests 
+that IDBYROWS is a real clue and that the TFJ algorithm would be very useful for finding clues 
+of words that are part of the K4 plaintext. I have not yet built tables with IK, DK, RQ or SOS 
+patterns, maybe there could be new clues in them. The TFJ algorithm to become the Kryptos 
+algorithm, we must either modify it in some way or apply it in a different way. 
+If we include the 2 EAST, we have ZAQI NORTH EVBY, a correct character in each EAST, that is, 
+only 54% of the correct plaintext. How should the operative in the field do to get the correct 
+plaintext? One possibility would be, that he deduces NORTH EAST from the clue NORTH E. And 
+then he searched all of Kryptos for references to NE. At the coordinates of K2 there are N and 
+W. At the compass, the needle points to the lodestone, WSW. But the other end of the needle 
+points to ENE, EAST NORTH EAST. That possibility does not seem very good but ... maybe 
+Kryptos will give us the instructions or the clues as before. 
+ 
+2 The 1-to-1 relationship between ciphertext and plaintext begins to be confirmed, just as Jim 
+told us. 
+ 
+3 Clues of the transpositional and substitutional code classes mentioned in Pre-Kryptos appear. 
+TRANSPSWED may be referring to the K4 transposition that we saw in the M1 message (LINE 
+BLUE, tested 4 times) and AUTOGE may be referring to these substitution algorithms that we 
+are working with, where the key is auto-generated from positions, jumps and the ciphertext 
+itself. 
+ 
+Some modulo 26 arithmetic to better understand the algorithm. It's just additions and 
+subtractions, no rocket science here. The Vigenere or Quagmire III ciphers (like the one used in 
+K1 and K2), if we use the ordinal numbers of the alphabet, can be expressed like this: 
+ 
+Cipher  P(i) + K(i) = C(i)        Decipher  C(i) - K(i) = P(i)        Using the Kryptos alphabet 
+ 
+Very simply, for each character of the plaintext P that occupies place i, the key K corresponding 
+to place i is added to it and the ciphertext character C of place i is obtained. Something similar 
+happens when we decipher. 
+ 
+For the algorithms we are using it is a little longer to explain. I'm going to use Tip T instead of 
+Pointer so it doesn't get confused with plaintext P. 
+ 
+Decipher T(i-1) - J(i) + C(i) = K(i) Using the ABC alphabet 
+ 
+It is also simple, the pointer or Tip of the previous place T(i-1) is taken, the jump J(i) 
+corresponding to the place i is subtracted, the cipher character C(i) of the place i is added and 
+we obtain the key K(i) of place i. Always using the ABC alphabet. Then, using the Kryptos 
+alphabet, with the key K(i) and the cipher C(i) we obtain the plain P(i). 
+
+[[page 10]]
+ 
+These are asymmetric algorithms, in the sense that we can always decipher but we cannot 
+always cipher. To decipher given a pointer or tip T, a jump J and a code C we can always find a 
+key K and therefore a plain P. But to cipher it is not so simple. We must find a pair K(i) and C(i) 
+that with the alphabet ABC complies with: 
+C(i) - K(i) = J(i) - T(i-1) 
+And at the same time with the Kryptos alphabet complies with: 
+C(i) - K(i) = P(i) 
+Depending on the P(i) that we want to cipher and the corresponding jump, there are times 
+when there is no K(i) and C(i) pair that meets both conditions. That is why I have the theory 
+that this algorithm only gives us clues to find parts of the K4 plaintext or we must modify it in 
+some way or apply it in a different way. Unless the plaintext has been chosen so carefully that 
+K and C pairs that satisfy the conditions always correspond. 
+With Anders' recent observation that part of the words appear correct and the parts that are 
+not correct have some shift, I checked the sequence #32 SOS PALIMYSDTO and indeed the 
+wrong characters are very close to the correct ones in the Kryptos alphabet: Y+1 = P, D+1 = E, 
+T+2 = S and O-1 = T. So #35 PALIMPSEST is a good candidate for plaintext and its place is next 
+to EASTNORTHEAST. It is as if there is a small noise at the end of the words. Is this the way Jim 
+found to modify the algorithm and hide the true plain text from Ed? Or will it be the 
+confirmation that when there is no K and C pair that meets the two conditions, it changes +-1 
+or +-2 places in the Kryptos alphabet so that the operator in the field can still recognize the 
+plaintext? These two alternatives still do not convince me, but I am confident that Kryptos, as 
+it has done so far, will tell us how to do it. 
+ 
+Finally, we see two new examples of duress ciphers. In the IDID pattern place #26, as we 
+mentioned, TRANSPSWED appears, but that is the place where Jim confirms NORTHEAST. In 
+the DIID pattern place #31 HOTEL, but that is the place where Jim confirms the second EAST. 
+Are there two plaintexts interlaced? With the same ciphertext, changing the jump pattern or 
+the initial pointer, we get two different plaintexts, both valid, both useful. In the M7 message I 
+will show how NORTH HOTEL leads us to a new doorway and to one of the logical explanations 
+of the DYHAR cluster. 
+ 
+This has been the fifth message of ten related with K4 and K5, and there is still much more! 
+ 
+Jose Luis 
+ 

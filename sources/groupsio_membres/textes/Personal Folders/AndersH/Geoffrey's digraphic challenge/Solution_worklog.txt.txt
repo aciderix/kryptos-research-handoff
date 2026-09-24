@@ -1,0 +1,722 @@
+Not about K4 but a related challenge.
+
+
+Message #16 on Techniques@kryptos.groups.io, by Geoffrey Caveney, 2020-12-17.
+
+"{
+For those who want to test their cryptanalytic skills, 
+I have done a test encryption of a certain method
+ but *without* any masking step. Here is the ciphertext:
+
+?QDQKBBYEQPMNSAFQZABGPLDPPMQDOYLYTOMPGMLMGGQQGMPVWONICQWDLEBRZRFCFGNLLGQQFNZJTPMEEHPXTZRBTQDLBPVHU
+
+Like K4, it is 97 letters plus a ? at the beginning. 
+Also, I will tell you that it is a plain English message 
+with EASTNORTHEAST and BERLINCLOCK in the same places as the crib clues in K4.
+
+I did not use any masking step for this message. 
+I just used a single step method, 
+and I will tell you that I used a digraphic substitution cipher -- 
+that is, encrypting bigrams or letter pairs rather than individual letters. 
+I did not necessarily pair up adjacent letters in the message.
+
+I'm curious about what the difficulty level of this cipher would be considered to be.
+}"
+
+
+The following analysis, eventually leading to successful decrypt
+thanks to a couple of lucky guesses, 
+is by Anders Hallström in Feb (and March) 2021.
+
+
+
+So let's try to analyse this using the cribs.
+
+CT:
+?QDQKBBYEQPMNSAFQZABGPLDPPMQDOYLYTOMPGMLMGGQQGMPVWONICQWDLEBRZRFCFGNLLGQQFNZJTPMEEHPXTZRBTQDLBPVHU
+PT:
+?.....................EASTNORTHEAST.............................BERLINCLOCK.......................
+
+
+First observations:
+
+* All 26 letters are there. If a 25-letter square method is used,
+  then the unused letter has been reintroduced after encryption to disguise it.
+
+* Quite a few doubles: BB, PP, GGQQ, LL, QQ, EE
+
+* Quite many Q, G, B, P
+
+(Realised during Playfair analysis:)
+
+* In both basic digraph alignments there are swapped digraphs:
+  1) PM, MP
+  2) PM, MP (yes here too), GQQG, LD, DL
+  The one in (1) is more useful because it is close to PT
+  and can be used to refute some Playfair seriations.
+
+
+
+--------------
+1. Playfair
+--------------
+
+Generalised a bit so that double letters in CT are allowed. Assumed to decrypt to double.
+
+
+*** General correction: *** Where it says "fractionation" it should say "seriation"!
+
+
+1.2 Fractionation period = 2: in fact no fractionation.
+We almost know this is not the case, but check it anyway.
+
+1.2e - even alignment
+? QD QK BB ... PL DP PM QD OY LY TO ... FC FG NL LG QQ FN ...
+? .. .. .. ... .E AS TN OR TH EA ST ... .B ER LI NC LO CK ...
+
+***Failure*** right away: double (QQ) does not decrypt to double (LO).
+
+1.2o - odd alignment - likewise
+
+
+1.4 Fractionation period = 4
+1.4.1 1st alignment - aligns with the "?"
+
+?QDQ KBBY (...) GPLD PPMQ DOYL YTOM (...) CFGN LLGQ QFNZ (...) LBPV HU..                           
+?... .... (...) ..EA STNO RTHE AST. (...) BERL INCL OCK. (...) .... ....
+
+PT:
+?. .. ... .. ST RT AS ... BE IN OC ... .. ..
+.. .. ... EA NO HE T. ... RL CL K. ... .. ..
+
+Fractionated digraphs: .E, .A, SN, TO, etc
+Playfair encrypted, assume no "defractionation" of CT.
+With defrac:    SN TO -> PM PQ etc
+Without defrac: SN TO -> PP MQ etc
+
+CT without defrac:
+?D KB ... GL PM DY YO ... CG LG QN ... LP H.                           
+QQ BY ... PD PQ OL TM ... FN LQ FZ ... BV U.                          
+
+***Failure*** right away: double (PP) does not decrypt to double (SN).
+
+Note: With defrac, it does not happen, but I don't like that option...
+It says "no masking" so I assume CT from Playfair rules is used as is.
+
+                                                                                                   
+1.4.2 2nd alignment - aligns after the "?"
+
+...? QDQK (...) PLDP PMQD OYLY TOMP (...) ZRFC FGNL LGQQ FNZJ (...) BPVH U...
+...? .... (...) .EAS TNOR THEA ST.. (...) ...B ERLI NCLO CK.. (...) .... ....
+
+PT:
+ .E TN TH ST (...) .. ER NC CK
+ AS OR EA .. (...) .B LI LO ..
+
+CT without defrac:
+ PD PQ OL TM (...) ZF FN LQ FZ
+ LP MD YY OP (...) RC GL GQ NJ
+
+***Failure*** right away: double (QQ) does not decrypt to double (CO).
+
+
+1.4.3 3rd alignment - aligns with the end
+
+..?Q DQKB (...) LDPP MQDO YLYT OMPG (...) RFCF GNLL GQQF NZJT (...) QDLB PVHU                           
+..?. .... (...) EAST NORT HEAS T... (...) ..BE RLIN CLOC K... (...) .... ....
+
+PT:
+ EA NO HE T. (...) .. RL CL K.
+ ST RT AS .. (...) BE IN OC ..
+
+CT without defrac:
+ LP MD YY OP (...) RC GL GQ NJ
+ DP QO LT MG (...) FF NL QF ZT
+
+***Failure*** right away: double (PP) does not decrypt to double (AT).
+
+
+1.4.4 4th alignment (aligns with no endpoint so less probable)
+
+.?QD QKBB (...) BGPL DPPM QDOY LYTO (...) FCFG NLLG QQFN (...) DLBP VHU.
+.?.. .... (...) ...E ASTN ORTH EAST (...) .BER LINC LOCK (...) .... ....
+                                                    !!!
+***Failure*** right away: double (QQ) does not decrypt to double (LC).
+
+
+1.6 Fractionation period = 6
+1.6.1 1st alignment - aligns with the "?"
+
+?QDQKB (...) ABGPLD PPMQDO YLYTOM (...) RZRFCF GNLLGQ QFNZJT (...) QDLBPV HU....
+?..... (...) ....EA STNORT HEAST. (...) ....BE RLINCL OCK... (...) ...... ......
+
+Fractionated PT:
+ ... STN HEA (...) ... RLI OCK 
+ .EA ORT ST. (...) .BE NCL ... 
+(Pairs SO TR NT etc)
+
+Fractionated PT: (another more compact format)
+ ...E.A SOTRNT HSETA. (...) ...B.E RNLCIL O.C.K.
+
+CT: (as above)
+ ABGPLD PPMQDO YLYTOM (...) RZRFCF GNLLGQ QFNZJT
+
+***Failure*** right away: double (PP) does not decrypt to double (SO).
+
+
+1.6.2 2nd alignment - aligns after the "?"
+
+.....? QDQKBB (...) BGPLDP PMQDOY LYTOMP (...) ZRFCFG NLLGQQ FNZJTP (...) DLBPVH U.....
+.....? ...... (...) ...EAS TNORTH EAST.. (...) ...BER LINCLO CK.... (...) ...... ......
+
+Fractionated PT: (now in the more compact format)
+                    .E.A.S TRNTOH ETA.S. (...) .B.E.R LCILNO C.K...
+                                                          !!
+***Failure*** right away: double (QQ) does not decrypt to double (NO).
+ 
+
+1.6.3 3rd alignment - aligns with the end
+
+....?Q DQKBBY (...) GPLDPP MQDOYL YTOMPG (...) RFCFGN LLGQQF NZJTPM (...) LBPVHU
+....?. ...... (...) ..EAST NORTHE AST... (...) ..BERL INCLOC K..... (...) ......
+                      ! !!
+***Failure*** right away: double (PP) does not decrypt to double (ET).
+
+
+1.6.x - skipping the other alignments as improbable!
+
+
+1.8 Fractionation period = 8
+1.8.1 1st alignment - aligns with the "?"
+
+?QDQKBBY (...) QZABGPLD PPMQDOYL YTOMPGML (...) CFGNLLGQ QFNZJTPM (...) BTQDLBPV HU......
+?....... (...) ......EA STNORTHE AST..... (...) BERLINCL OCK..... (...) ........ ........
+                        !!  !
+***Failure*** right away: double (PP) does not decrypt to double (SR).
+
+
+1.8.2 2nd alignment - aligns after the "?"
+
+.......? QDQKBBYE (...) ZABGPLDP PMQDOYLY TOMPGMLM (...) LEBRZRFC FGNLLGQQ FNZJTPME (...) TQDLBPVH U.......
+.......? ........ (...) .....EAS TNORTHEA ST...... (...) .......B ERLINCLO CK...... (...) ........ ........
+                                                                     !  !!
+***Failure*** right away: double (QQ) does not decrypt to double (IO).
+
+Note that we were close to hitting PT pair (LL) that would have worked!
+
+
+1.8.y - Try to discover an alignment that actually works:
+
+ (...) ABGPLDPP MQDOYLYT OMPGMLMG (...) LEBRZRFCF GNLLGQQF NZJTPMEE (...)
+ (...) ....EAST NORTHEAS T....... (...) .......BE RLINCLOC K....... (...)
+          !  !!                                    !!! !
+Note: OK: double (PP) decrypts to double (.T) - must be (TT)
+Note: OK: double (LL) decrypts to double (LL) - but oops same letter!
+
+***Failure***: Conflict: Double letter must decrypt to always same or always different letter.
+
+
+ (...) FQZABGPL DPPMQDOY LYTOMPGM (...) FCFGNLLG QQFNZJTP (...)
+ (...) .......E ASTNORTH EAST.... (...) .BERLINC LOCK.... (...)
+                                                 !!  !
+Note: OK: double (QQ) decrypts to double (L.) - must be (LL)
+
+So what is this alignment? It's 8th of 8. Does not align in any end -> improbable.
+
+.?QDQKBB YEQPMNSA FQZABGPL DPPMQDOY LYTOMPGM (...) FCFGNLLG QQFNZJTP (...) RBTQDLBP VHU.....
+.?...... ........ .......E ASTNORTH EAST.... (...) .BERLINC LOCK.... (...) ........ ........
+
+Proceed anyway and do some equations for filling the Polybius square.
+
+Now let small = pt, CAPS = CT.
+A1 = row where A is, A2 = col where A is , etc.
+
+Digraph         .e -> PL:
+[standard]
+(.1, e2) = (P1, P2)
+(e1, .2) = (L1, L2)
+*or*
+[same col -> shift right]    *** Wrong, see below (*) ***
+e2 = .2 , P2 = L2 = e2 + 1
+P1 = .1
+L1 = e1
+*or*
+[same row -> shift down]     *** Wrong, see below (*) ***
+e1 = .1 , P1 = L1 = e1 + 1
+P2 = .2
+L2 = e2
+*or*
+[same row -> shift down and swap] (better agreement with [standard])
+P2 = e2
+L2 = .2
+
+*** Correction *** at a later review, see (*) above.
+The conventional rules are in fact
+[same col -> shift/rotate down] and [same row -> shift/rotate right].
+It is the same error below, but the conclusion for swapped digraphs remains.
+In the analysis far below, leading to solution, I did use the correct rules.
+*** End of correction ***
+
+Note: We have swapped digraphs:
+
+Digraph         sr -> PM
+Digraph         s. -> MP
+
+This looks impossible.
+What are the rules?
+[standard]
+ab -> CD => ba -> DC
+[same col -> shift right]         (*) no, shift down
+[same row -> shift down]          (*) no, shift right
+Same rule!
+
+***Failure***: Breach of the swapped digraph rule 
+               "ab -> CD => ba -> DC"
+               with sr -> PM and s. -> MP
+
+
+1.10 Fractionation period = 10
+
+1.10.y - Try to discover an alignment that is consistent with the doubles:
+
+1.10.1:
+
+?QDQKBBYEQ (...) GPLDPPMQDO YLYTOMPGML (...) RZRFCFGNLL GQQFNZJTPM EEHPXTZRBT QDLBPVHU..
+?......... (...) ..EASTNORT HEAST..... (...) ....BERLIN CLOCK..... .......... ..........
+                   ! !! !                        !   !!
+***Failure***: double (PP) does not decrypt to double (EO).
+***Failure***: double (LL) does not decrypt to double (BN).
+
+There is no way to solve LL by realignment.
+
+1.10.2:
+
+QDQKBBYEQP (...) PLDPPMQDOY LYTOMPGMLM (...) ZRFCFGNLLG QQFNZJTPME (...)
+.......... (...) .EASTNORTH EAST...... (...) ...BERLINC LOCK...... (...)
+                                                        !!   !
+Note: OK: double (QQ) decrypts to double (L.) - must be (LL)
+
+What about the swapped digraph:
+ ar -> PM
+ s. -> MP
+
+***Failure***: Breach of the swapped digraph rule 
+
+There is no other way to solve QQ by realignment.
+
+Note:
+Another simple Playfair rule that is breached in many of the trials above:
+"ab" cannot encrypt to anything "A" or "B", it must always be 
+encrypted to two other letters than the PT pair.
+Exception!:
+For example "ABC" => ab -> BC, or if there is a swap rule, ab -> CB.
+
+As a sidenote,the swapped digraph rule also applies to
+standard 4-square where there are only two different alphabets involved.
+
+
+
+Let's jump to the one I suspect a little more, namely period 2x49:
+(And now "fractionation" is corrected to "seriation")
+
+
+1.98 Seriation period = 98
+
+PT:
+?.....................EASTNORTHEAST..............
+...............BERLINCLOCK.......................
+CT: as usual
+?Q DQ KB BY EQ ...
+?Q
+ DQ 
+  KB
+   BY 
+    EQ ...
+In groups of 10 pairs:
+?Q DQ KB BY EQ PM NS AF QZ AB 
+GP LD PP MQ DO YL YT OM PG ML
+MG GQ QG MP VW ON IC QW DL EB
+RZ RF CF GN LL GQ QF NZ JT PM
+EE HP XT ZR BT QD LB PV HU
+PT in groups of 10 pairs:
+?......... .......... ..EASTNORT HEAST..... .........
+.......... .....BERLI NCLOCK.... .......... .........
+=>
+PT pairs:
+... .B .E .R .L .I   .N .C EL AO SC TK N. O. R. T.   H. E. A. S. T. ...
+CT pairs:
+... YL YT OM PG ML   MG GQ QG MP VW ON IC QW DL EB   RZ RF CF GN LL ...
+
+Doubles: We see t. = tt -> LL
+Swapped pairs: We see .c -> GQ, el -> QG
+
+***Failure***: Breach of the swapped digraph rule 
+
+Shared letters in PT and CT pairs: No.
+Repeated digraphs: No.
+
+
+1.98.symmetric_seriation
+
+What if encryption actually was seriation - Playfair - deseriation?
+Then we have CT - seriated:
+?QDQKBBYEQ PMNSAFQZAB GPLDPPMQDO YLYTOMPGML MGGQQGMPV
+WONICQWDLE BRZRFCFGNL LGQQFNZJTP MEEHPXTZRB TQDLBPVHU
+to PT - seriated:
+?......... .......... ..EASTNORT HEAST..... .........
+.......... .....BERLI NCLOCK.... .......... .........
+=>
+PT pairs:
+... .B .E .R .L .I   .N .C EL AO SC TK N. O. R. T.   H. E. A. S. T. ...
+CT pairs:
+... FC QF ZG AN BL   GL PG LQ DQ PF PN MZ QJ DT OP   YM LE YE TH OP ...
+
+Doubles: No.
+Swapped pairs: No. Yes! el -> LQ and e. -> LE. See below.
+Repeated digraphs: t. -> OP twice. OK!
+Shared letters in PT and CT pairs: el -> LQ, e. -> LE
+
+*** Breach of the shared letters rule,
+but it could still be valid with the exception to the rule:
+ELQ => el -> LQ
+However, we also have e# -> LE:
+#ELQ => valid: el -> LQ, e# -> LE
+
+Also suspicious: .c -> PG and sc -> PF. 
+This means (in the standard case when digraph not in same row or col)
+that F and G are on the same row.
+If P,G,F are all in same row or col, then there must also be a swap,
+so that P was shifted to c in both cases.
+
+Also suspicious: tk -> PN and (swapped) #t -> PO. 
+T needs to be on the same row as P, or in adjacent column if PN on same col.
+For example:  #PTO    or   TO
+              .KN          P#
+                           K
+                           N
+Well, possible.
+
+So, let's do a serious trial:
+
+... .B .E .R .L .I   .N .C EL AO SC TK N. O. R. T.   H. E. A. S. T. ...
+... FC QF ZG AN BL   GL PG LQ DQ PF PN MZ QJ DT OP   YM LE YE TH OP ...
+
+.l -> AN  {CT pairs in alpha order}
+.i -> BL  Probably same row, or adjacent row: 
+b. -> CF  (For example, I<L means same row or L right under I)
+ao    DQ    I<L<N, but {if IL same col => BIL same col}.
+            In fact IL same row or B=I<L same col; LN or A=L<N
+            {And if IL same row => B=I same col or BIL same row} => BI or B=I
+r.    DT    O<Q, A<D ((OQ and AD) or A<D=O<Q)
+.e    EL    E<L<Q (we already know we must have ELQ in row or col)
+.a    EY    A<Y, A<D, R<D => "AR<YD" => all same row, or AR,YD *not* same row or col
+cs    FP    S<P, S<T => S<PT => all same row or PT *not* same
+            => but we know from above (tk -> PN, #t -> PO) T<P, T<O, K<N
+            => S<PT<PO => TPO same row or PO *not* same;
+               T<P => PT *is* same row or col => SPT same row.
+               PT same row => TKPN same row with T<P K<N, or KN in square with PT.
+e.    FQ    N<L and L<N => *not* same col => NL same row => A=L, G=N same col
+            NL same row => STPKN *not* same row (overflow) =>
+            STP;KNL with K=P N=T same col.
+            T<O => SPTO same row with T<O in row, or N=T<O in col;
+            but combined with O<Q and ELQ and KNL, options are really few.
+            Can we have row KNELQ? No, impossible to line up O<Q with T<O then.
+            => E<L<Q in col. 
+            => O<Q in col impossible due to L<Q => OQ.
+            => {If T<O in col and OQ and L<Q => TL,
+                but NL and N=T makes this impossible too. => TO!}
+            => TO with T<O in row => SPTOQ (full); KNL;
+.n    GL    B<C<F, E<F
+            C<F => {SP => CF same row}; {SPTOQCF overflows}
+            => SPTOQ;CF;KNL with C=P=K F=S T=N same col; also E<L<Q; T<O in row.
+            CF => BCF with B<C in row.
+.s    HT    ".s -> HT" and ST => HST with S<T in row => HSPTOQ *** Overflow!
+            {{{
+            *** Reviewed afterwards to se where I went wrong, and this is one!!
+            Correction: ST => HST with S<T in row, or H diagonal with T!
+            Since SPTOQ is full => H diag T => H=S same col.
+            This changes a number of other things below.
+            Not corrected in the following, but it is redone farther below.
+            }}}
+el    LQ    
+            {Time for new notation and cleanup:}
+            Adjacent in row: S_T_O; Adjacent in column: E<L<Q;
+            In same row or col, not diagonal: B*I; In diagonal: K/T;
+            In same row anywhere: CF; In same col anywhere: T=N;
+            In same row or adjacent in col: (previously A<Y) A*<Y.
+
+            We have S_T_OPQH; B_CF; KNL; C=K<P F=S N<T; E<L<Q;
+
+            Now the only way to save this is to eliminate P or Q or H 
+            as a dummy letter to be merged with one of the other five.
+
+            We have something like this:
+
+                     F . B C E 
+                     . N I K L .
+                     S T O P Q H
+                     . . . . . .
+                     . . . . .
+
+            BCF and NKL => *not* BL.
+            E<L => *not* I<L => IL => KNLI. => *not* BI => B=I.
+            OQ => AD; A=Q D=O.
+            => D is diagonal with T: D/T => "ro -> DT"; RAD; R=T.
+            ".a -> EY": A*<Y and A=E => RADY or E<L<Q<A<Y
+            ".n -> GL": NL & N<T & L<Q & T_OQ => *not* N_L => G/L => G=N.
+            => N<T=R=G.
+            Forgotten: E*<F. & E<L<Q & F=S & SQ => EF. => B_CFE.
+
+                     F Z B C E 
+                     . N I K L M
+                     S T O P Q H
+                     . R D . A Y
+                     . G . . .
+
+.h -> MY  {Previous pairs finally exhausted! Adding some.}
+n. -> MZ    N*<M with Z in "corner", H*<Y with M in corner.
+            N*<M & N<T => *not* N<M => NM. => NIKLM (full).
+            => M/Z => N=Z => N<T=R=G=Z (full).
+            H*<Y & {S_T_OPQH overfull} => H<Y. => AY & Q<A & T<R. => RADY.
+            ... & T_O & O=D => O<D & R_D. => R_DAY.
+            H<Y with M in corner => M=H<Y.
+            Revisit B=I: BF & NIKLM & S_T_OPQH & F=S & N<T & K<P & L<Q
+            => I<O or I<H only possibilities (of illegal 6).
+            Also G or Z goes with BCFE.
+
+            New summary:
+            NIKLM; S_T_OPQH; R_DAY; B_CFE; 
+            F=S; N<T<R=G=Z; B=I O<D; C=K<P; E<L<Q<A; H<Y.
+
+            *** Note that the following was before adding forgotten E*<F.
+                Correction further below.
+            {{{
+
+kt -> NP    "c. -> GP": C*<G with P in corner. 
+t. -> OP    Full N<T<R=G=Z => *not* C<G => CG. => F_GB_C. (*) {and "ct -> GP"} (*) F_GB_CE. 
+c. -> GP    "r. -> GZ": R*<G => R<G => N<T<R<G=Z => N<T<R<G<Z. => ZE. (*)
+r. -> GZ    ".o -> JQ": OQ again, with J in corner. => J/Q => J=O. => J=O<D.
+.o -> JQ    Note: Possibly same letter I=J so just (IJ)=O<D.
+{all}       Otherwise not sure but most likely J=I=O<D=B; Z_JE; etc.
+
+                     . Z J . E  
+                     . N I K L M
+                     S T O P Q H
+                     . R D . A Y
+                     F G B C E 
+
+Despite the overflow trouble I arrived at a table that looks appealing,
+with many alphabetic sequences in it. Did I actually hit it?
+
+            }}}
+
+            (*) Revised after adding forgotten "E*<F":
+            => F_GB_CE and N<T<R<G<Z: *** Conflict!
+               To match GE with existing N<T<R<G & E<L<Q & NL & TQ,
+               we must wrap around after just 4 rows in N<T<R<G, no room for Z!
+               See chart.
+
+                     F G B C E 
+                     ! Z J ! !    !!This row cannot exist here due to E<L !!
+                     . N I K L M
+                     S T O P Q H
+                     . R D . A Y
+
+            We can try to patch it by merging G/Z and I/J:
+            Now we have a 6 by 4 matrix instead:
+
+                     F  GZ B  C  E  .
+                     .  N  IJ K  L  M
+                     S  T  O  P  Q  H
+                     .  R  D  .  A  Y
+
+            Checking the digraphs: ...OK (small letters = infill from this matrix)
+
+... .B sE rR rL eI   eN tC EL AO SC TK N. Ol Ro To   H. Ea A. Sq To ...
+... FC QF ZG AN BL   GL PG LQ DQ PF PN MZ QJ DT OP   YM LE YE TH OP ...
+
+Does not look too good anymore, infills not convincing, but try decrypting it all:
+
+Note! Now pairs are vertical.
+CT - seriated:
+?QDQKBBYEQ PMNSAFQZAB GPLDPPMQDO YLYTOMPGML MGGQQGMPV
+WONICQWDLE BRZRFCFGNL LGQQFNZJTP MEEHPXTZRB TQDLBPVHU
+to PT - seriated:
+?proce.aal ongt..srre etEASTNORT HEAST.o.ni nebloc.o.
+?til.o.rea cyr.eBERLI NCLOCK.loo .a.qo.s.ye htreet.q.
+
+Interpretation:
+Proceed along the street EASTNORTHEAST for nine blocks
+until you reach the BERLIN CLOCK x look at ... street ...
+
+?proceedal ongthestre etEASTNORT HEASTforni neblocksu
+?tilyourea chtheBERLI NCLOCK.loo ka..o.s.ye street...
+
+                     F  G  B  C  E  .
+                     .  N  IJ K  L  M
+                     S  T  O  P  Q  .
+                        Z
+                     .  R  D  Y  A  H
+
+OK, I see DYAHR here...
+
+                     D  Y  A  H  R
+                     B  C  E  F  G
+                     IJ K  L  M  N
+                     O  P  Q  S  T
+                     U  V  W  X  Z
+
+?QDQKBBYEQ PMNSAFQZAB GPLDPPMQDO YLYTOMPGML MGGQQGMPV
+WONICQWDLE BRZRFCFGNL LGQQFNZJTP MEEHPXTZRB TQDLBPVHU
+
+?proceedal ongthestre etEASTNORT HEASTforni neblocksu
+Ntilyourea chtheBERLI NCLOCKxloo kacrossthe streetxyz
+
+I note that it is highly unclear how the first CT pair
+"?W" can ever decrypt to the needed "?n".
+It should rather have been "?M" for "ZM" -> "xn".
+Was using the rare and somewhat mythical W (from WW knows etc)
+intended as a hint to the seriation?
+
+
+*** Corrected analysis ***
+
+Rewind and replay the analysis from the big mistake "HST".
+Original summary just after the new notation was introduced:
+
+            We have S_T_OPQH; B_CF; KNL; C=K<P F=S N<T; E<L<Q;
+
+*Corrected* analysis and summary:
+
+            ".s -> HT" and ST => HS_T or H/T
+            {SPTOQ is full} => H/T => H=S.
+
+            We have S_T_OPQ; B_CF; KNL; C=K<P; F=S=H; N<T; E<L<Q;
+
+            We have something like this:
+
+                     F . B C E 
+                     . N I K L
+                     S T O P Q
+                     H . . . .
+                     . . . . .
+
+            BCF and NKL => *not* BL.
+            I*<L: E<L => *not* I<L => IL => KNLI. => *not* BI => B=I.
+            "r. -> DT": R*<D
+            "ao -> DQ": OQ => AD; A=Q D=O.
+            => D is diagonal with T: D/T => "ro -> DT"; RAD; R=T.
+            ".a -> EY": A*<Y and A=E => RADY or E<L<Q<A<Y
+            ".n -> GL": NL & N<T & L<Q & T_OQ => *not* N_L => G/L => G=N.
+            => N<T=R=G.
+            Forgotten: E*<F. & E<L<Q & F=S & SQ => EF. => B_CFE.
+
+                     F . B C E 
+                     . N I K L
+                     S T O P Q
+                     . R D . A
+                     H G . . .
+
+.h -> MY  {Previous pairs finally exhausted! Adding some.}
+n. -> MZ    N*<M with Z in "corner", H*<Y with M in corner.
+            N*<M & N<T => *not* N<M => NM. => NIKLM (full).
+            => M/Z => N=Z => N<T=R=G=Z (full).
+            H*<Y with M: *not* MHY+NIKL => M=H<Y or M/Y
+            Revisit B=I: BF & NIKLM & S_T_OPQH & F=S & N<T & K<P & L<Q
+            => I<O only possibility. => B=I<O=D.
+            => M<S only possibility. => F=M<S=H; M_N_IKL.
+            => F__B_CE; M_N_I_KL; S_T_O_PQ; R_DA.
+            Also G or Z goes with BCFE.
+
+            New summary:
+            F__B_CE; M_N_I_KL; S_T_O_PQ; R_DA;
+            F=M<S=H; N<T=R=G=Z; B=I<O=D; C=K<P; E<L<Q=A.
+
+kt -> NP    "c. -> GP": C*<G with P in corner. 
+t. -> OP    Full N<T<R=G=Z => *not* C<G => CG. => F_G_B_CE. {and "ct -> GP"}
+c. -> GP    "r. -> GZ": R*<G => R<G => N<T=R<G=Z.
+r. -> GZ    ".o -> JQ": OQ again, with J in corner. => J/Q => J=O. => B=I<O=D=J. => Z_J.
+.o -> JQ    Note: Possibly same letter I=J so just B=(IJ)<O=D.
+{all}       
+                     F G B C E 
+                     M N I K L
+                     S T O P Q
+                     . Z J . .
+                     H R D Y A
+
+            H*<Y & A*<Y: => HAY or H/A with Y in corner. {If HAY => C=K<P=Y.}
+            RA & GE & E=A & R<G => A<E => A<E<L<Q. => also D<B.
+            A<E => *not* A<Y => AY => R_DAY. => H<Y or H_R_D_YA
+            H*<Y with M in corner: => Same condition on H,Y.
+            E<L & (F=M & G=N & B=I & C=K) & FGBCE & MNIKL
+            {another instance of the principle: 3 edges of a rectangular
+             group forces the 4th edge to share some property}
+            => (F<M & G<N & B<I & C<K).
+
+            New summary:
+            F_G_B_CE; M_N_I_KL; S_T_O_PQ; R_DYA; Z_J;
+            F<M<S=H; R<G<N<T=Z; D<B<I<O=J; C<K<P; A<E<L<Q.
+
+            Oops, must add final application of the law
+            "4 out of 5 have adjacency relations => all 5 must have it".
+            {In fact it is the same for "3+2 => 5".}
+            => F_G_B_C_E; M_N_I_K_L; S_T_O_P_Q; R<G<N<T<Z; D<B<I<O<J;
+               R_D__AY {D and A are spaced exactly two apart}. 
+
+            New final summary:
+            F_G_B_C_E; M_N_I_K_L; S_T_O_P_Q; Z_J; R_D__AY; 
+            F<M<S=H; R<G<N<T<Z; D<B<I<O<J; C<K<P; A<E<L<Q.
+
+This seems to be as far as I can get. The figure above is definitive, 
+except I guessed H,Y.
+I should be able to recognize DYAHR here and fix it up.
+
+            Checking the digraphs: ...OK (small letters = infill from this matrix)
+
+... .B sE tR rL eI   eN tC EL AO SC TK N. O. Ro To   Hk Ea Ac Sr To ...
+... FC QF ZG AN BL   GL PG LQ DQ PF PN MZ QJ DT OP   YM LE YE TH OP ...
+
+            More recovered PT showing now, good.
+
+If I guess H<Y wrong we have: (and these are the only two options)
+
+                     F G B C E 
+                     M N I K L
+                     S T O P Q
+                     H Z J . .
+                     Y R D . A
+
+... .B sE tR rL eI   eN tC EL AO SC TK Nh O. Ro To   Hf Ea A. Sz To ...
+                                        !             !     !  !
+... FC QF ZG AN BL   GL PG LQ DQ PF PN MZ QJ DT OP   YM LE YE TH OP ...
+
+For the record:
+The fully determined partial matrix, without any guessing,
+modulo all valid rotations, is thus:
+
+                     F G B C E 
+                     M N I K L
+                     S T O P Q
+                     . Z J . .
+                     . R D . A   <- H goes in this row
+
+                     |
+                     Y goes in this column
+
+This is what the final set of relations is saying.
+Note that J is not correct since it in reality breaks the formal rules
+and merges with I. It is "not allowed" to have two letters in the same position.
+
+*** End of corrected analysis with added discussion ***
+
+
+--------------
+End of decryption effort. Mission accomplished!
+--------------
+
+For "fadeout", here is the plaintext again:
+
+? Proceed along the street eastnortheast for nine blocks
+until you reach the Berlin Clock x Look across the street xyz
+
+

@@ -1,0 +1,196 @@
+[[page 1]]
+Squares	  
+Going	  over	  the	  calculations	  proposed	  in	  my	  earlier	  document	  it	  occurred	  to	  me	  
+that	  I	  hadn’t	  looked	  in	  a	  great	  deal	  of	  depth	  at	  the	  squares	  used	  to	  help	  move	  
+from	  plain	  text	  to	  the	  encoding	  character	  so	  I	  have	  been	  visiting	  this	  today.	  
+	  
+There	  is	  an	  interesting	  thing	  about	  these	  squares,	  they	  split	  the	  alphabet	  into	  4	  
+with	  two	  outliers	  and	  every	  letter	  in	  the	  partial	  alphabet	  can	  be	  reached	  from	  
+every	  other	  letter	  in	  the	  partial	  alphabet.	  
+	  
+Looking	  for	  example	  at	  A,	  if	  we	  square	  A	  we	  get:	  
+	  
+Y	  
+A	  
+A	  
+C	  
+	  
+Seems	  innocuous	  enough	  but	  what	  happens	  if	  we	  square	  Y?	  
+	  
+A	  
+Y	  
+Y	  
+W	  
+	  
+Now	  A	  has	  moved	  to	  the	  top	  left	  corner	  and	  W	  has	  appeared.	  
+	  
+Following	  this	  chain	  on	  to	  completion	  we	  get:	  
+	  
+Y	  
+A	   	  
+A	   Y	  
+	  
+C	  
+W	  
+A	  
+C	  
+Y	   W	  
+W	   Q	  
+	  
+W	   C	   	  
+I	  
+Q	  
+	  
+Q	  
+I	  
+C	  
+I	  
+Q	   Y	  
+I	  
+A	  
+	  
+After	  this	  it	  starts	  looping	  back	  on	  it’s	  self	  effectively	  exhausting	  this	  alphabet.	  
+	  
+If	  we	  follow	  this	  procedure	  for	  the	  rest	  of	  the	  alphabet	  we	  end	  up	  with	  the	  
+following	  set	  of	  alphabets.	  
+	  
+1	   A	  Y	  C	  W	  Q	  I	  
+2	   B	  X	  F	  T	  H	  R	  
+3	   V	  D	  L	  N	  J	  P	  
+4	   U	  E	  O	  K	  S	  G	  
+	  
+These	  alphabets	  seem	  to	  hold	  true	  regardless	  of	  the	  position	  but	  for	  those	  who	  
+haven’t	  read	  my	  earlier	  PDF	  the	  math	  is	  given	  as:	  
+	  
+Top	  Right:	  
+x1	  =	  (p	  –	  a)	  mod	  26	  
+y1	  =	  (((26	  –	  x)	  +	  a)	  +	  1)	  mod	  26	  
+	  
+
+[[page 2]]
+Bottom	  Left:	  
+x2	  =	  (p	  +	  a)	  mod	  26	  
+y2	  =	  (((26	  –	  x)	  +	  a)	  +	  1)	  mod	  26	  
+	  
+Top	  Left	  =	  (x1,	  y2)	  
+Bottom	  Right	  =	  (x2,	  y1)	  
+	  
+Within	  these	  subsets,	  M	  and	  Z	  are	  unique	  in	  that	  they	  both	  square	  to	  themselves.	  
+This	  means	  that	  they	  do	  not	  fit	  into	  any	  of	  the	  4	  supplied	  alphabets.	  This	  leaves	  
+24	  letters	  in	  the	  primary	  alphabet	  so	  lets	  look	  at	  how	  that	  maps	  to	  the	  subset	  
+alphabets.	  For	  the	  purposes	  of	  illustration	  I’ve	  left	  M	  and	  Z	  in	  place.	  
+	  
+A	  
+B	  
+C	  
+D	  
+E	  
+F	  
+G	  
+H	  
+I	  
+J	  
+K	  
+L	  
+M	  
+N	  
+O	  
+P	  
+Q	  
+R	  
+S	  
+T	  
+U	  
+V	  
+W	  
+X	  
+Y	  
+Z	  
+1	  
+2	  
+1	  
+3	  
+4	  
+2	  
+4	  
+2	  
+1	  
+3	  
+4	  
+3	  
+^	  
+3	  
+4	  
+3	  
+1	  
+2	  
+4	  
+2	  
+4	  
+3	  
+1	  
+2	  
+1	  
+^	  
+	  
+Notice	  what	  happens	  to	  the	  sets	  either	  side	  of	  the	  M?	  The	  numbers	  underneath	  
+have	  mirrored	  each	  other.	  
+	  
+Sliding	  N	  –	  Z	  under	  A	  –	  M	  we	  now	  get	  the	  following	  table:	  
+	  
+A	  
+B	  
+C	  
+D	  
+E	  
+F	  
+G	  
+H	  
+I	  
+J	  
+K	  
+L	  
+M	  
+1	  
+2	  
+1	  
+3	  
+4	  
+2	  
+4	  
+2	  
+1	  
+3	  
+4	  
+3	  
+^	  
+N	  
+O	  
+P	  
+Q	  
+R	  
+S	  
+T	  
+U	  
+V	  
+W	  
+X	  
+Y	  
+Z	  
+3	  
+4	  
+3	  
+1	  
+2	  
+4	  
+2	  
+4	  
+3	  
+1	  
+2	  
+1	  
+^	  
+	  
+I	  haven’t	  worked	  out	  exactly	  where	  this	  is	  going	  yet	  but	  looking	  for	  a	  way	  to	  give	  
+provide	  the	  extrapolate	  B	  from	  A,	  perhaps	  this	  will	  aid	  in	  a	  solution.	  
+	  

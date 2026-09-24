@@ -1,0 +1,61 @@
+## word/document.xml
+ 
+ Information for New Members 
+ 
+ Overview 
+ Welcome to the group, we're glad to have you here! This page will give you some tips on how to blend in. 
+ 
+ Required Introductory Message 
+ First of all, we ask that all new members post some sort of introductory message to the group. Who are you, where are you from, do you have any background in crypto, how did you hear about Kryptos, etc. Please send your message to the standard group addres s: kryptos@yahoogroups.com 
+ 
+ Moderation Guidelines 
+ The group has grown since its founding in 2003. In 2007 it had over 1000 members, and as of 2013 it has nearly 2700. As such, we've had to implement a few guidelines, as follows: 
+ This is a moderated list, w hich means that for most members, anything that they send to the list must first be read and approved by a moderator. We currently have three moderators, all of whom see every new message. Any one of the moderators can approve a message to go through to th e list, with the first response (approve or reject) being the one that applies. 
+ There are a few members whose posts are not moderated. This privilege is usually reserved for cryptologists who have "proved their chops" in that they know something about cryp tanalysis, and have a demonstrated history of posting intelligent, calm, coherent, and worthwhile messages (in other words, there's no need to moderate them, since none of their messages ever get bounced anyway). 
+ The length of delay for message review depe nds on the free time of the moderators. With three moderators, there's usually somebody checking the queue a couple times a day, but every so often all the moderators may be busy with real-world events (especially on weekends), and unapproved messages may sit in the queue a bit longer. Typically though, most messages are approved within 24-72 hours, with many messages being approved within a few hours (or even minutes). 
+ If a message is rejected, and the moderator has time, it will be accompanied by a brief note explaining why it was rejected. But if list traffic is high (and/or the moderator's free time is low), some messages may get rejected without any explanation. 
+ Things that may get a message bounced are: 
+ Flames or personal attacks of any kind 
+ Offt opic posts 
+ Troll messages or "fake" solution announcements such as, "The answer is space aliens." "I've solved Kryptos, it says Mary Magdalene." 
+ Continuing to post about a subject that has already been beaten to death. For example, any potential link between Kryptos and the Da Vinci Code and Dan Brown has been pretty thoroughly debunked, so new messages suggesting such a link tend to get referred over to the brainstorming list at kryptos_sculpture. 
+ Posting excessively. This is loosely defined as "b rainstorming more than once per day". There's a certain amount of subjectivity here, which may vary between moderators. But in general, anyone on the list is usually allowed to post general brainstorming comments or messages once a day, but additional comm ents from the same person may get rejected as "list clutter" at a moderator's discretion. Another exception to this rule is if there's some active back and forth discussion going on, in which case some list members may have several messages show up on the same day (this is again at the moderators' discretion). 
+ If you do have an idea, or post something else to the list, that was rejected, and you feel that it's still worth posting, you're welcome to post it on a different day. 
+ Everyone on the list is also en couraged to subscribe to our sister list, entitled "kryptos_sculpture@yahoogroups.com". It is an unmoderated list, where everyone can post brainstorming ideas, offtopic ruminations, and pretty much anything else they want to their heart's content. Many peo ple routinely monitor both lists. To join the list, please send an email to: kryptos_sculpture-subscribe@yahoogroups.com 
+ 
+ Brainstorming Do's and Don'ts 
+ If you have an idea about Kryptos, we do want to hear it! Before posting though, it's usually a good idea to do at least a cursory check to see if someone else has already posted the same idea. 
+ The first place to check, is at the Kryptos FAQ . Check the "Has anyone thought of.." section to see if your idea is listed there. 
+ Next, try doing a search in the message archive, by going to the group page at http:// groups.yahoo.com/group/kryptos , clicking on "Messages" and then typing something into the "Search" box. Please note that this will only search through a few to several hundred messages at a time (and we have thousands in the archive), so you'll need to click "Next" a few times to continue searching through the entire archive. 
+ If the above steps don't bring up your idea, please feel free to post it. Or, if you're in doubt, post it anyway, it can't hurt. We'd rather hear the same idea several times, than n ot hear it at all because someone might be afraid of being unoriginal! 
+ Please don't, however, expect that if you post an idea, that everyone else on the group is going to immediately drop what they're doing to work on it. There's a common misconception fro m new members, that the Kryptos group is a bunch of highly skilled cryptographers sitting in a circle, staring at each other dumbfounded, and just waiting, like hungry piranha, for someone to throw a new idea into the mix so that they can pounce on it. ;) In reality, the group is hundreds of people from a wide variety of backgrounds and levels of experience. Many of them are people just like you. :) Most are not working on Kryptos on a daily basis. Some aren't working on it at all. A few, yes, do some think ing and working on Kryptos pretty much every day, but most of them are working on their own theories. A few people in the group are even convinced that they have solved Kryptos, and just can't get anyone else to believe (or even duplicate) their solution. 
+ One common "false solution" scenario, is a "Scrabble" method. For example, someone takes a bunch of letters from Kryptos, plays with them like Scrabble tiles, and comes up with a few English words. They conveniently ignore all the extra letters left over, and the fact that they don't actually have a duplicatable coherent method, but they proudly announce that they've "solved" Kryptos. These kinds of messages are usually rejected by the moderators, or deflected over to the unmoderated group. If, however, som eone has come up with some English words, via a method that can be explained and duplicated, then yes, that's worthy of posting to the group. However, it should not be posted as a "solution", unless you've come up with a full coherent sentence. Finding one or two words (especially when they're short words) is not a solution -- it's an "interesting observation". But it's still worth bringing up! :) 
+ If you post an idea, and there isn't any immediate reply, please don't assume that you have been ignored. Every message to the group *is* read by many people. Also, some people don't read the group on a daily basis, but instead let things pile up for days or weeks, and then scan through all the traffic. There are also some group members who do their research by sea rching through the archives for various ideas. So, for example, if you posted an idea about Kryptos and the way the rocks around it were placed, it might not get any immediate reaction, but please rest assured that anyone who was doing any work on Kryptos rock placement would be sure to see it, either right away, or at some point in the future when they reviewed the archives. 
+ Another "Don't", is don't worry if you see someone else post an idea that you already suggested to the group. Don't worry, this doesn 't mean that they're stealing your idea, or that they're the ones that are going to get credit if it leads to a solution. And please don't feel it necessary to post to the group saying, "Hey, I already came up with that." Just let it go by in the flow of b rainstorming. If that idea does lead to a solution, please trust that there's going to be a careful review of the archives to see who suggested what, and when, and that that information will be included in the solution timeline. You will also have an oppor tunity to review the press release before it goes out. 
+ Please do remember what the group is about - Cooperating to find a solution to Kryptos, We believe that it *can* be done! 
+ 
+ Additional Information Sources 
+ Message Archive 
+ Files Area 
+ Websites 
+ Password-Protected Stuff 
+ 
+ Message Archive 
+ It is of course recommended that new members review old messages in the archives. A good way to start is to read the oldest 50 messages, and the most recent 50 messages, and you can spot-check elsewhere in the archives for specific subjects that interest you. 
+ There's also a megabyte download of all of the messages in the archive, from the group's creation in 2003, through mid- April 2005. The archive is a text file, and there is also a Visual Basic reader included with it if you'd like to scan message by message. The archive can be downloaded here: 
+ kryptosarchive.zip (1.2 MB) 
+ 
+ Files Area 
+ There are some documents in the files section which are worth reading, such as in the folders "Gary's PDF's" and "Elonka". 
+ 
+ Websites 
+ There are many excellent informational URLs in the group's "links" section, at: http://groups.yahoo.com/group/Kryptos/links 
+ There's also a lot of information at the wiki database set up by the Yak.n et community: http://kryptos.yak.net 
+ 
+ Password-Protected Stuff 
+ These are resources available to group members, which are password-protected or otherwise private for reasons such as protecting copyright, privacy, or ban dwidth. They are freely available, however, to group members: 
+ www.elonka.com/kryptos/private - has links to videos and hi-res images of Kryptos <li><a href="http://kryptos.prestemon.com/index.cgi">Prestemon's Wiki Database</a> (username: kryptos, passwo rd: iqlusion) 
+ If you have any questions, please let us know. And again, welcome! 
+ 
+ Page created: April 21, 2005, and last modified January 31, 2013 
+ 

@@ -1,0 +1,37 @@
+[[page 1]]
+Mask(Plaintext)  first selectively substitute about 1/3 of the letters with a simple rule like 
+exchange 5 most common letters with 5 least common letters in 2 center \ and 3 / diagonals 
+then double columnar transposition interlacing the green and brown layers with a simple rule like
+green columns with 3857065 and brown rows with 7708440 green rows brown brown columns with kryptos.
+  ?   01  02  03  04  05  06
+07  08  09  10  11  12  13  
+  14  15  16  17  18  19  20
+21  22  23  24  25  26  27  
+  28  29  30  31  32  33  34
+35  36  37  38  39  40  41  
+  42  43  44  45  46  47  48
+49  50  51  52  53  54  55  
+  56  57  58  59  60  61  62
+63  B   E   R   L   I   N   
+  C   L   O   C   K   75  76
+77  78  79  80  81  82  83  
+  84  85  86  87  88  89  90
+91  92  93  94  95  96  97  
+Encipher(Mask(Plaintext)) double transposition using two different grilles with a simple rule like  
+<"K123"||"PTS"> ∩ {KRYO, PTS}  (ENDYAHR KRYPTOS) [each layer is 97 letters in a 8*97 grid]
+        R   Y    K   KR         Y         Y     R   Y   KYR                  Y    KK             
+ KK                     R              K        R                 Y              R      RRY    K 
+      K   K   K                    K           Y     R     K    O         Y                     K
+        O         RK                                    RR K   O                R               R
+  Y           K                                    Y  RO    R  O    O    Y          R Y          
+O   O  R       R       R R                             R         R      O   O             OY  Y  
+      Y R     R                  Y  R      O    O       O O R    R  R                      RO  R 
+                       O  O   RY  OR  RK           R    O              R              R   O      
+    P         S         S         T            T      T          P         T          T          
+        P          P       T                     P                        T       T           T  
+       S           S  T                 P  T                         TT  S  P              T     
+  S        P             T P       P                                   P               P      P  
+          P    P                   P   S      T            S     PT       S       T       S  S   
+  S  S       TP    T      P S        P        T    T       T       T      T   S  T          T    
+    T       T  SP         T   T        T     S   T  T    T        T  T  S        TT ST  P        
+        T         S T      S         T         T     P                   P        SSTT T      PTS

@@ -1,0 +1,36 @@
+User                                                                                                         B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+Sheet1
+Sheet2
+Sheet3
+attackatdawn
+number of columns
+number of rows
+clockwise
+counter clockwise
+MbP?_
+MbP?_
+MbP?_
+User
+User
+Microsoft Excel
+NIST
+Sheet1
+Sheet2
+Sheet3
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

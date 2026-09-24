@@ -1,0 +1,43 @@
+My ideas on how to remove the mask on K4 ciphertext. 
+
+Change K4 ct to small letters ( Can you see anything q?)
+
+obkruoxoghulbsolifbbwflrvqqprngkssotwtqsjqssekzzwatjkludiawinfbnypvttmzfpkwgdkzxtjcdigkuhuauekcar
+
+
+Mirror the ciphertext. Flip 180 degrees 
+
+ɹɐɔʞǝnɐnɥnʞƃıpɔɾʇxzʞpƃʍʞdɟzɯʇʇʌdʎuqɟuıʍɐıpnןʞɾʇɐʍzzʞǝssbɾsbʇʍʇossʞƃuɹdbbʌɹןɟʍqqɟıןosqןnɥƃoxonɹʞqo
+
+Substitute the original letters with the readable flipped letters. 
+( hint from JS: Kryptos is E-Z )
+
+a-e     
+b-q
+c-c
+d-p
+e-a
+f-t
+g-g
+h-h
+i-i
+j-j
+k-k
+l-l
+m-w
+n-u
+o-o
+p-d
+q-b
+r-r
+s-s
+t-f
+u-n
+v-v
+w-m
+x-x
+y-y
+z-z
+Ct after substitution:
+
+oqkrnoxoghnlqsolitqqmtlrvbbdrugkssofmfbsjbssakzzmefjklnpiemiutquydvffwztdkmgpkzxfjcpigknhnenakcer

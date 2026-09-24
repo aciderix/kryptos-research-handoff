@@ -1,0 +1,301 @@
+Empfang                                                                                                      B
+20% - Akzent1
+20% - Akzent2
+20% - Akzent3
+20% - Akzent4
+20% - Akzent5
+20% - Akzent6
+40% - Akzent1
+40% - Akzent2
+40% - Akzent3
+40% - Akzent4
+40% - Akzent5
+40% - Akzent6
+60% - Akzent1
+60% - Akzent2
+60% - Akzent3
+60% - Akzent4
+60% - Akzent5
+60% - Akzent6
+Akzent1
+Akzent2
+Akzent3
+Akzent4
+Akzent5
+Akzent6
+Ausgabe
+Berechnung
+Eingabe
+Ergebnis
+Erkl
+render Text
+Neutral
+Notiz
+Schlecht
+berschrift
+berschrift 1
+berschrift 2
+berschrift 3
+berschrift 4
+Verkn
+pfte Zelle
+Warnender Text
+Zelle 
+berpr
+Tabelle1
+Tabelle2
+Tabelle3
+MbP?_
+ffffff
+ffffff
+SPLX
+AMUR_2
+PCLXL
+InTray1
+InTray2
+InTray3
+InTray4
+InTrayLCT
+InTrayManual
+WM_101
+Arial
+Courier New
+Times New Roman
+Symbol
+Wingdings
+Arial
+Courier
+Times New Roman
+Symbol
+Wingdings
+333333
+?333333
+[Content_Types].xml
+_rels/.rels
+[ILc
+0XFo;
+drs/shapexml.xml
+l]HZ
+FXv6
+ujz\%sm
+&sQp{
+aK#xj
+>k3R
+]Azt
+'/52
+O8A*
+Rd<A
+drs/downrev.xmllP
+[ipVX
+{6_T
+3 8:
+[Content_Types].xmlPK
+_rels/.relsPK
+drs/shapexml.xmlPK
+drs/downrev.xmlPK
+I was always asking me: 1) Why K4 has no jagged ends? 2) What is the meaning of the letters of KRYPTOS (KR SO YP and T on the left)at its right side? 3) What is the meaning of OXO and TWT in K4? 4) Why there are only 29 letters in row 24? 
+I think the solution is that we have to create jagged ends...
+Well, no more explanation necessary, right?<
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+Empfang
+Empfang
+Microsoft Excel
+Tabelle1
+Tabelle2
+Tabelle3
+Arbeitsbl
+tter
+Microsoft Office Excel 2003-Arbeitsbl.
+Biff8
+Excel.Sheet.8
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Cambria1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri
+#,##0\ "
+";\-#,##0\ "
+#,##0\ "
+";[Red]\-#,##0\ "
+#,##0.00\ "
+";\-#,##0.00\ "
+#,##0.00\ "
+";[Red]\-#,##0.00\ "
+_-* #,##0\ "
+"_-;\-* #,##0\ "
+"_-;_-* "-"\ "
+"_-;_-@_-
+_-* #,##0\ _
+_-;\-* #,##0\ _
+_-;_-* "-"\ _
+_-;_-@_-
+_-* #,##0.00\ "
+"_-;\-* #,##0.00\ "
+"_-;_-* "-"??\ "
+"_-;_-@_-
+_-* #,##0.00\ _
+_-;\-* #,##0.00\ _
+_-;_-* "-"??\ _
+_-;_-@_-
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+-;_-
+#0.0
+#0.0
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+#0.0
+-;_-
+?\ _
+@_-@
+#0.0
+#0.0
+20% - Akzent1
+20% - Akzent2
+20% - Akzent3
+20% - Akzent4
+20% - Akzent5
+20% - Akzent6
+40% - Akzent1
+40% - Akzent2
+40% - Akzent3
+40% - Akzent4
+40% - Akzent5
+40% - Akzent6
+60% - Akzent1
+60% - Akzent2
+60% - Akzent3
+60% - Akzent4
+60% - Akzent5
+60% - Akzent6
+Akzent1
+Akzent2
+Akzent3
+Akzent4
+Akzent5
+Akzent6
+Ausgabe
+Berechnung
+Besuchter Hyperlink
+Dezimal
+Dezimal [0]
+Eingabe
+Ergebnis
+Erkl
+render Text
+Hyperlink
+Neutral
+Notiz
+Prozent
+Schlecht
+Standard
+berschrift
+berschrift 1
+berschrift 2
+berschrift 3
+berschrift 4
+Verkn
+pfte Zelle
+hrung
+hrung [0]
+Warnender Text
+Zelle 
+berpr
+TableStyleMedium9PivotStyleLight16
+\\Pbhpdc\25_KM
+DEVMODE,DrvConve
+++++
+DRINGEND
+DRINGEND
+Arial
+admin
+Graustufen
+EXCEL.EXE
+AAAA 
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 
+AAA 
+CDA 
+AAA 
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 
+Textfeld 1
+CompObj

@@ -1,0 +1,183 @@
+[[page 1]]
+Kryptos K4 Analysis 
+ 
+ 
+ 
+Apologies if any of the following have been discussed before and I am simply rediscovering old 
+insights, but I thought some of these were interesting and hopefully might contain some ideas 
+and observations worth exploring. 
+ 
+I am a big fan of the 21 column layout that many have suggested, and have been studying it for 
+a while in various forms. Most of the observations in this document are centered around that 
+format as well as alphabet streams in some form or another. 
+ 
+A small introduction to both the format and the alphabet streams, is the “JKL” that appears in 
+the dead center of the chart (both vertically and horizontally in the 21 column layout. The K is 
+repeated both above and below the center K in the same column, and the JLK lines up perfectly 
+with the standard alphabet starting from column 1. By itself this is just sort of an interesting 
+pattern, but will become more interesting later looking more into alphabet streams and their 
+relationship to the ciphertext (and the plaintext!) 
+ 
+Images and descriptions below: 
+
+[[page 2]]
+ 
+ 
+ 
+ 
+ 
+
+[[page 3]]
+ 
+In this post, the author describes an interesting phenomenon where duplicate plaintext letters 
+appear in the ciphertext in line with the alphabet. For example LINCL -> VTTMZ 
+ 
+https://pcsxcetrasupport3.wordpress.com/2016/08/04/my-first-deep-look-at-kryptos-k4/ 
+ 
+I decided to experiment with different alphabet streams to see how they lined up with the 
+ciphertext. I believe the above post was created before the (EAST)NORTHEAST cribs were 
+disclosed. Interestingly the author’s observation not only continues into that section of the 
+cipher, but if you overlay an oscillating alphabet (A to Z to A to Z, etc…) with the text, it lines up 
+with both cribs perfectly in columns 4 and 8. (An almost similar pattern forms in both sections in 
+columns 12 and 16 as well)
+ 
+ 
+ 
+ 
+
+[[page 4]]
+ 
+Additionally, if you overlay 2 opposing alphabets, you can see that some of the ciphertext lines 
+up with the reverse alphabet as well: 
+ 
+ 
+ 
+This would not be so remarkable by itself, but it continues into the BERLINCLOCK crib as well.  
+ 
+ 
+ 
+ 
+ 
+This next chart gets a little messy, but in it you can see that: 
+ 
+●​ In columns 4 and 8, we have TNORT lining up with VUTSR 
+●​ In columns 4 and 8, we have LINCL lining up with VWXYZ 
+●​ In columns 7 through 10, we have the ciphertext PRNG lining up with PONM 
+●​ In columns 7 through 10, we have the ciphertext MZFP lining up with MNOP 
+ 
+It may all be coincidence, but it does seem to reveal a consistent pattern that begins to look 
+pretty non-random. It begins to look even less random when you look into the positions where 
+this is occurring relative to the overall index. (The abscissa?). The mid-point of many of these 
+sections seem to land at multiples of 13 or 17, both prime. 
+ 
+If not directly tied to the structure of algorithm itself, then possibly a window into the masking 
+technique. 
+ 
+ 
+ 
+
+[[page 5]]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 6]]
+ 
+ 
+ 
+ 
+ 
+
+[[page 7]]
+Some other observations that may or may not be noise. If we assume that the word THE comes 
+before BERLINCLOCK, then there is an interesting relationship to the oscillating alphabet and 
+the THE in EASTNOTHEAST: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 8]]
+There is some interesting symmetry(/potential stego?) that may be nothing but it might be worth 
+looking into as the pattern does tie into the middle sections of the other patterns in places (The 
+Q in column 26, and the T in column 6): 
+ 
+ 
+
+[[page 9]]
+ 
+I discovered this by accident because I was using the wrong indices in the KRYPTOS tableau, 
+but for certain plaintext letters, there is a relationship to the ciphertext letters using the 
+oscillating alphabet and the A-Z indices on the tableau: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 10]]
+ 
+There seems to be a relationship between Columns 1 and 10 in the form of: 
+ 
+(ciphertext = plaintext + offset + |column / 10|) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 11]]
+ 
+…and last, and probably least, A few of the ciphertext doublings are followed by the next letter 
+in the alphabet (mod 26) 1 character away. If you want to get really “tin foil hat”, you can 
+probably connect P, Q, R, S, and T somehow LOL. 
+ 
+ 
+ 
+ 
+ 
+ 
+A couple of side notes that I forgot to mention above as well: 
+ 
+●​ There does seem to be some portions of the ciphertext that line up with repeated 
+KRYPTOS forward and backward, as well as the KRYPTOS alphabet forward and 
+backward. 
+●​ On page 2 of Military Crypanalysis III there is a “Berlin clock” looking cipher described. 
+●​ Also the logo of Ed Scheidt’s company “Tec Sec” has a Berlin clock theme to it (as well 
+as his driveway which I’m sure you’re all aware): 
+ 
+ 
+ 
+ 

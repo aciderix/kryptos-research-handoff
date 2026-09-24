@@ -1,0 +1,362 @@
+## word/document.xml
+ 
+ I assumed there was some tenuous link between the +6/-6 scheme in K4, but it appears the explanation is a lot cleaner: 
+ “BETWEEN SUBTL (E) AND THE ABSENCE OF LIGHT LIES THE NUANCE OF (IQLUS)ION. 
+ E +6 = K 
+ E-6 = Y 
+ +6/-6 is a KEY to K4. 
+ Back to the puzzle at hand, using this theme, I divided them into 4 lines, 24 characters each I believe the use of anagramming signals another columnar transposition cipher using a certain alignment. Line 1 and 4 appear complete, each yielding an “eye clue” – IQLU and KLIU. 
+ Line 2 +6/-6 yields an anagram of TUTANKH EYE with the following letters remaining – d(1) j(1) k(3) l(1) m(5) n(1) p (1) q(1) are the remaining. There appears to be a numeric sequence present here. There appears to be something familiar about this numeric sequence. I’m not sure what just yet. 
+ Speculation: These EYE CLUES in each 24 character line of K4 are meant to establish that you have reached a correct “mask removal” and that the letters are in proper sequence, so that when viewed, they can finally be read properly. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24 
+ 6- 
+ p 
+ k 
+ k 
+ j 
+ l 
+ h 
+ a 
+ e 
+ m 
+ m 
+ i 
+ n 
+ q 
+ n 
+ k 
+ m 
+ d 
+ k 
+ m 
+ m 
+ y 
+ e 
+ t 
+ t 
+ 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ 6+ 
+ b 
+ w 
+ w 
+ v 
+ x 
+ t 
+ m 
+ q 
+ y 
+ y 
+ u 
+ z 
+ c 
+ z 
+ w 
+ y 
+ p 
+ w 
+ y 
+ y 
+ k 
+ q 
+ f 
+ f 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 24 
+ 6- 
+ p 
+ k 
+ k 
+ j 
+ l 
+ h 
+ a 
+ e 
+ m 
+ m 
+ i 
+ n 
+ q 
+ n 
+ k 
+ m 
+ d 
+ k 
+ m 
+ m 
+ y 
+ e 
+ t 
+ t 
+ 
+ V 
+ Q 
+ Q 
+ P 
+ R 
+ N 
+ G 
+ K 
+ S 
+ S 
+ O 
+ T 
+ W 
+ T 
+ Q 
+ S 
+ J 
+ Q 
+ S 
+ S 
+ E 
+ K 
+ Z 
+ Z 
+ 6+ 
+ b 
+ w 
+ w 
+ v 
+ x 
+ t 
+ m 
+ q 
+ y 
+ y 
+ u 
+ z 
+ c 
+ z 
+ w 
+ y 
+ p 
+ w 
+ y 
+ y 
+ k 
+ q 
+ f 
+ f 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ t 
+ u 
+ t 
+ a 
+ n 
+ k 
+ h 
+ 
+ 
+ e 
+ y 
+ e 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ d 
+ 
+ j 
+ 
+ k 
+ k 
+ k 
+ 
+ l 
+ 
+ 
+ m 
+ m 
+ m 
+ m 
+ m 
+ 
+ n 
+ 
+ p 
+ 
+ q 
+ 
+ 
+ 
+ 
+ 

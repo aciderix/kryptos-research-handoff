@@ -1,0 +1,134 @@
+## word/document.xml
+ 
+ Trifid analysis on "BERLIN" with "RUX FILOS" 
+ Just a quick recap that On Dec 2, 2012 I made a suggestion that the first 25 letters of K4 may not be part of the cipher but rather coded , but not enciphered , instructions to the agent regarding how to construct the alphabets to be used in the K4 solution and other clues . In particular I noted that transplanting the raised YAR positions in K3 (positions 4, 5, 7) to K4 gives RUX in 4,5,7 of K4 and then we see in positions 14-18 SOLIF (FILOS backwards). RUX FILOS is part of an alphabet matrix obtained by the following 123, ABC, 123 DEF etc. and leaving out the Q ( to be used a s a null for example ) . 
+ Row 
+ 1. 
+ A 
+ D 
+ G 
+ J 
+ M 
+ P 
+ T 
+ W 
+ Z 
+ 2. 
+ B 
+ E 
+ H 
+ K 
+ N 
+ R 
+ U 
+ X 
+ 3. 
+ C 
+ F 
+ I 
+ L 
+ O 
+ S 
+ V 
+ Y 
+ This is also equivalent to a basic cipher alphabet ADGJMPTWZBEHKNRUXCFILOSVY 
+ S ince a Trifid system, as Chris Hanson for example , points out (YKG message on 11 O ct 2011 ) often is referred to as having Layer 1, 2 and 3, and also in my view could arguably be linked to "ID by ro ws " and coordinates, (All of this from end of K2 clues) I decided to run this alphabet in TRIFID against the C:NYPVTT=P:BERLIN clue. Only two letter s can be directly tested . One would have to start guessing about the period/block siz e and prior or following plaintext to get further. 
+ LAYER 
+ LAYER 
+ LAYER 
+ ONE 
+ 1 
+ 2 
+ 3 
+ TWO 
+ 1 
+ 2 
+ 3 
+ THREE 
+ 1 
+ 2 
+ 3 
+ 1 
+ A 
+ D 
+ G 
+ 1 
+ B 
+ E 
+ H 
+ 1 
+ C 
+ F 
+ I 
+ 2 
+ J 
+ M 
+ P 
+ 2 
+ K 
+ N 
+ R 
+ 2 
+ L 
+ O 
+ S 
+ 3 
+ T 
+ W 
+ Z 
+ 3 
+ U 
+ X 
+ ? 
+ 3 
+ V 
+ Y 
+ ? 
+ B 
+ E 
+ R 
+ L 
+ I 
+ N 
+ LAYER 
+ 2 
+ 2 
+ 2 
+ 3 
+ 3 
+ 2 
+ ROW 
+ 1 
+ 1 
+ 2 
+ 2 
+ 1 
+ 2 
+ COLUMN 
+ 1 
+ 2 
+ 3 
+ 1 
+ 3 
+ 2 
+ Offtake 
+ 2 
+ 2 
+ 2 
+ 3 
+ 3 
+ 2 
+ etc 
+ The result is that 222=N and 332=Y . NYPVTT. C oincidenc e, false trail or are we on to something here? Probably not coincidence. I am a little surprised it is not superenciphered but that could either be because this particular segment is not, or perhaps because as they set up clues in 1989 they decided to have a little "error" put in here to help us out. It is also possible that the first few letter s of each Trifid block does not go through sup erencipher ment , in order to make it possible to tell where to start the deduction of additive when decip h ering. If one is used that is. Well, something to work on. H opefully the thin edge of a thic k wedge. We have perhaps something speaking in favor of Trifid as one of the base systems , and we hav e a plausible alphabet . Perhaps from position 64 until ? 
+ A few other "coincidences" or circumstances from this TRIFID analysis of the BERLIN clue: 
+ C: N=222 (fractionated thirds of BER) , let's say it's a coordinate reference, then noteworthy that; 
+ 2nd row, 22nd column, or vice versa, in a n 8x42 matrix is position 64. 
+ The upper left corner of the partial TRIFID block above has row(2+2+2=6) column (2+1+1=4) = 64 
+ N in NYPVTT is in position 64 in K4 , further; 
+ If K3, final cipher text, is put in an 8x42 matrix , then row 2 column 22=sequential position 64=P as start of string PRNG . This string PRNG also occurs at positions 28-31 in K4 . Start of Trifid sequence and start of actual K4 cipher? Other link? 
+ 97-28=69 (end of NYPVTT) -6(NYPVTT)=63 which is the length of K1 and the sequential number of characters in to K2 at which JHS put a separate letter outside the worksheet matrix. (NYT sheets). And 64-28=36. The sides of a 12x24 matrix=12+24=36. 
+ Some of this could of course just be coincidences. But not likely all of them. Some of it could be "comfort math". Used in the field to provide confirmation of the right path. There is probably a good chance some of it could be pointing us to toward a solution. That for example the sequential position in K4 points to the sequential number in a K 1- 3-based matrix ? That the Trifid numbers point to a sequential number OR a row-column coordinate, as start of a string. The big question then. From which matrix ? It could be a portion of any of the original, intermediate or final matrices. In that case most likely an intermediate one since they are hidden . We have seen that keywords and other messages can be delivered via graphics that are completely hidden unless the K4 message is written out on 26 lines. The multiplicity of clues pointing to the same thing leaves more questions than answers, and it could always be a false trail, but it seems like it would be worth pursuing. 
+ Kent Ramliden 
+ 
+ 
+ 

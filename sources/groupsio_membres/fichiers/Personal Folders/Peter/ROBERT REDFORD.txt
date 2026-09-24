@@ -1,0 +1,100 @@
+                      1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
+  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
+
+
+1 0 1 2 2 2 1 2 0 1 1
+4 2 6 2 0 0 3 6 7 6 1
+N Y P V T T M Z F P K equals 14 02 16 22 20 20 13 26 07 16 11
+
+
+* Bit order *
+
+8 7 6   5 4 3 2 1
+---------------
+1
+2 6 3   1 0 0 0 0
+8 4 2   6 8 4 2 1
+
+
+       N          Y (*)      P           V           T          T    
+      14         02         16          20          22         22
+---------------------------------------------------------------------
+0 1 1 1 0 * 0 0 0 1 0 * 1 0 0 0 0 * 1 0 1 0 0 * 1 0 1 1 0 * 1 0 1 1 0 
+
+
+ BITMASK
+      14
+---------
+0 1 1 0 0
+
+       B (ERLIN)
+      02
+---------
+0 0 0 1 0 *
+
+
+0 1 1 1 0 (14) N
+0 1 1 0 0 (12)
+---------
+0 0 0 1 0 (2)  B
+
+
+Y -> E
+
+0 0 0 1 0 (2) Y
+0 0 1 1 0 (6)
+-------------
+0 0 1 0 0 (4) E
+
+
+EXclusive OR operand explanation
+
+0
+0
+-
+0
+
+1
+1
+-
+0
+
+1
+0
+-
+1
+
+0
+1
+-
+1
+
+
+The bitmask(s) to decode K4 are hidden near the entrance in the Morse section and in K1.
+
+
+* Caveat Emptor *
+
+Von Spiegel
+March 1993
+Vienna, Austria.
+
+There are strong indications that K4 has been super-encrypted as the last step of the process.
+
+Most likely a 2 letter combination was used which could explain the double letter frequency in K4.
+
+There are indicators that the bit-mask has to be encrypted in a similar fashion before use.
+
+
+
+01:11 4-4-2017
+
+
+i.a.o TWO
+
+
+Ni Hao Fonda
+
+
+* In case the Kryptos keyed alphabet is used.

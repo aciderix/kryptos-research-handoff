@@ -1,0 +1,158 @@
+[[page 1]]
+1. OOH completes Hoover’s name via 21 Caesar shift of TTM. DIAWI in Position 
+   57 of K4 shift 0 (26).
+2. 21 shift reveals DIAWI in position 61. Decision to run K4 CT through all
+   25 shifts. Modiﬁed variant, DWAII, revealed in position 31 of 16 shift.
+3. Two other similar strings located. INFBN and NSKGS and their variants,
+   IBFNN and NGKSS. These three strings occupy the same positions but are 
+   separated by 5 Caesar shifts per type and each type is separated from 
+   each succeeding version by -5 shifts.
+4. Versions of all three types appear in the original zero shifted version
+   of K4. They are DIAWI, INFBN and NGKSS.
+5. Considering that the original version of a type lies at position 57, the
+   secondary version at position 61 and the tertiary version at position 31,
+   this sets up the following hierarchy:
+   Primary/Shift          Secondary/Shift          Tertiary/Shift
+   DIAWI/0 (26)            DIAWI/21                 DWAII/16
+   INFBN/5                 INFBN/0 (26)             IBFNN/21
+   NSKGS/10                NSKGS/5                  NGKSS/0 (26)
+6. So, in terms of type, the versions appearing in shift 0 (26) are:
+   DIAWI = Original, INFBN = Secondary and NGKSS = Tertiary.
+7. Viewing the shift 0 (26) version of K4 we have:
+    Z O B K R
+    U O X O G H U L B S O L I F B B W F L R V Q Q P R N G K S S O
+    T W T Q S J Q S S E K Z Z W A T J K L U D I A W I N F B N Y P
+    V T T M Z F P K W G D K Z X T J C D I G K U H U A U E K C A R
+8.  So, the primary version can be considered in front, the secondary version
+    is behind the primary version and the tertiary version is behind the
+    secondary version. 
+9.  Another way of looking at it is that Primary is in full light, Secondary
+    is subtly shaded and it’s fully dark behind the Tertiary.
+10. From K1 PT: Between subtle shading and the absence of light lies the 
+    nuance of illusion. The nuance of illusion lies between what is subtly 
+    shaded and darkness. Therefore, the nuance of illusion lies between 
+    INFBN and darkness. NGKSS is the nuance of illusion, which points to 
+    its Primary (i.e., the non-nuanced version) NSKGS whose location is at 
+    shift 10.
+    J Y L U B
+    E Y H Y Q R E V L C Y V S P L L G P V B F A A Z B X Q U C C Y
+    D G D A C T A C C O U J J G K D T U V E N S K G S X P L X I Z
+    F D D W J P Z U G Q N U J H D T M N S Q U E R E K E O U M K B
+11. Calling your attention to the K2 PT word UNDERGROUND: The corresponding
+    CT is TBJLBQCETBJ. Notice the JLB matches the JLB highlighted in yellow
+    in the K4 shift 10 version. Moreover, you can see the string JLBQCRTE. 
+    The R repeats the “typo” creating the misspelling UNDERGRUUND. The 
+    adjacent E hints to that. The JLB corresponds to PT DER. That needs to
+    be revisited later, but I think I know how it might apply. 
+CLUESandSTUFF.pdf
+
+[[page 2]]
+12. Further, in the CNN interview, Sanborn used the word “tremendous” at 
+    least three times:
+      - ...NO TREMENDOUS MONETARY...
+      - ...HAD TREMENDOUS INTERESTS...
+      - ...TREMENDOUS RESPONSIBILITY...
+    I have highlighted the letters in those phrases that occur in ...
+    HDTMNSQUERE... (bottom row of K4 shift 10) in the same order as they 
+    appear in that string.
+13. Also appearing in the string is MNSQUERE, which sort of hints to
+    MASQUERADE. But, I’m pretty sure it’s pointing to MASK, instead. 
+    Remembering back to K1 we had in the PT 7-column pad, ﬁrst column,
+    AELSN which equals A else N, replace N with A. In the same column,
+    but in the CT, we have QELSK = Q else K, replace Q with K. This 
+    turns MNSQ into MASK! So, K1 enters the picture again.
+14. Speaking of K1, the CT has the characters JYLUB occupying almost
+    25 percent of the 63 positions.
+15. Here is the K2 PT 12-column pad (derived by using the ABSCISSA 
+    shifted keyword of SAABSCIS of the last 120 characters of the K2 CT 
+    (X plus the coordinates). It contains a lot of clues and conﬁrmations:
+ 
+    It calls your attention by saying WOW twice. But it also says ROW O. 
+    YA = YES, Z in the place of S (remember HEATZIDBYROWS) 
+    as conﬁrmed by ESTX right on top of YAOZ. Os also point to P for 
+    PYRAMID derived from the combination of the two spelling errors in K1. 
+    Remember that correcting both of the misspellings results in a W in 
+    the CT. If a W were to replace the P in this instance, the whole word 
+    WEST would precede the X. IQ reminds of IQLUSION. But it also has 
+    (also after O) the ﬁrst six characters (in order, starting from the
+    bottom, immediately above the O) of the second row of the 10 
+    shift K4 CT plus the JY that starts it. See page 1, the characters
+    highlighted in salmon color. 
+ 
+                        W O W F M O P F H H W R
+                        R F H Y D F I C S G O P
+                        O F O B D N J Q Q O Q P
+                        W J Z T T J Y R P J W F
+                        O F M Y D E A Q T Y G E
+                        W F W F M O E P Y W F Q
+                        C F V X Y F A F H H W R
+                        C J Q V P F I C V Y O P
+                        E S T X W F D S M E I Q
+                        Y A O  J B E B M O X S
+Z
+Misspelled 
+       KEY
+                        W O W F M O P F H H W R
+                        R F H Y D F I C S G O P
+                        O F O B D N J Q Q O Q P
+                        W J Z T T J Y R P J W F
+                        O F M Y D E A Q T Y G E
+                        W F W F M O E P Y W F Q
+                        C F V X Y F A F H H W R
+                        C J Q V P F I C V Y O P
+                        E S T X W F D S M E I Q
+                        Y A O  J B E B M O X S
+Z
+Misspelled 
+       KEY
+
+[[page 3]]
+16. Note RQ/YR from the Morse slab. Remember the confusion as to whether
+    the morse said RQ or YR, because this and “SOS” could be read straight
+    ahead or upside down.
+17. Also note RFHYD beginning row 2. This reminds of HYDRA shifted two 
+    positions to the right, but with F instead of A. But there is a JS above 
+    the A at the bottom of column 2 and Os surrounding the F in RFHYD as well 
+    as a column full of Fs. This points to replacing the F in RFHYD with an A, 
+    making it RAHYD. This fact supports my conclusion that DIAWI must undergo 
+    a similar transposition to WIDIA. This is hinted at in the K3 PT and also 
+    the CNN interview. I had already suspected strongly that that was hinted 
+    to by the relationship between HYDRA and DYAHR. I am wondering where to 
+    make the changes (transpositions inferred by this). In other words, do I 
+    change only those strings that have doublets, or do I change all seven-
+    character strings similarly, or WHAT? I believe getting past the mask is
+    dependent upon this process.
+18. Before getting too far away from talking about MASK, which I believe is
+    distinctly revealed by the above information, I want to mention something
+    that I noticed. First, remember that characters JL appear in various 
+    places and are connected directly to K4 CT shift 10. They also appear in
+    the Vigenere Tableau at the end of the ﬁrst row of the bottom panel, the
+    place talked about a lot and where there are disputes about whether the
+    “extra L” was a mistake or not. It was not a mistake. And what’s going on
+    there explains why the extra four columns appear in the tableau. Here is
+    why: The extra L is connected to the J. The JL is referring to K4 shift
+    10 that begins with JYLUB. In the bottom row of the shift 10 version of
+    K4 lie the characters MNSQ. These convert to MASK, as I described above
+    in paragraph 13. Again going to the JL in the tableau, those characters
+    are directly connected, both vertically and horizontally to characters
+    MNQ, three of the characters in MNSQ. The missing letter, S, was missing
+    elsewhere in Kryptos (famously) and so it’s easy to see JL and MASK in 
+    that corner of the tableau. I think this is one of the clues pointing to
+    K4 shift 10 as being of primary importance.
+19. Characters SJ appear between Qs (QSJQ) in K4 shift 0 (26). I believe they
+    are signiﬁcant both because they appear between Qs and they are pencilled
+    darkly in Sanborn’s notes. I’ve talked about them in Paragraph 17, above,
+    but they appear in the string QSJQS which has QS twice separated by a J.
+    This has a unique structure and so I spent a lot of time attempting to 
+    ﬁnd a similar structure elsewhere. I did ﬁnd a similar structure in
+    MENGENLEHREUHR, the name of the Berlin Clock. It exists as ENGEN. I 
+    suspect that using MENGENLEHREUHR as a keyword against K4 with ENGEN 
+    lining up with QSJQS might be worth a try.
+20. I did not mention many clues that I correctly understood or perceived that
+    exist throughout the Kryptos PT and CT as well as in Sanborn’s interview 
+    transcripts, many of which still need interpretation. Three examples:
+    “...Job on the line.” refers to JYLUB as ﬁrst line of K4 shift 10. Both
+    CANDLE and CAUSED refer to CAYLLDDDZ(OUX) which tells where to place the 
+    Z at the front of K4 CT. PEERED means use PYRAMID as special keyword to
+    check causal validity. Clues towards solving K4 exist throughout Kryptos.
+Paul Kiesel 2/25/2019

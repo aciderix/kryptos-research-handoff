@@ -1,0 +1,41 @@
+Patrick Tuminaro                                                                                             B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+Sheet1
+Sheet2
+Sheet3
+Kryptos
+Section 4 character frequency
+Total: 
+MbP?_
+SDDM
+KONICA MINOLTA PagePro 1350W
+MbP?_
+MbP?_
+Patrick Tuminaro
+Patrick Tuminaro
+Microsoft Excel
+PCT Enterprises
+Sheet1
+Sheet2
+Sheet3
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial
+\\MOM\KONICA MINOLTA PagePro 13
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

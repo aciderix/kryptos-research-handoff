@@ -1,0 +1,79 @@
+[[page 1]]
+	  	  Some	  of	  the	  most	  prominent	  features	  visible	  on	  both	  the	  Kryptos	  main	  piece	  
+and	  over	  the	  smaller	  scale	  model	  are	  the	  “S”	  shape	  of	  the	  sculpture	  and	  the	  “EN	  
+DYAHR	  …”	  oddity	  at	  the	  beginning	  of	  the	  lower	  part	  of	  the	  encoded	  section.	  
+	  	  I	  believe	  it	  to	  be	  of	  widespread	  knowledge	  that	  DYAHR	  is	  an	  anagram	  of	  HYDRA,	  
+a	  serpent	  like	  sea-­‐monster	  from	  Greek	  mythology	  with	  many	  heads	  (7,	  9	  or	  more	  
+depending	  on	  the	  source)	  that	  shed	  poisonous	  fumes	  and	  was	  slayed	  by	  Heracles	  
+as	  one	  of	  his	  twelve	  labors.	  
+	  	  This	  observation	  is	  consistent	  with	  other	  features	  from	  the	  ensemble,	  such	  as	  
+the	  pools	  of	  water	  and	  the	  serpentine	  shape	  of	  the	  main	  piece.	  The	  fact	  that	  
+Sanborn	  used	  other	  mythological	  references	  on	  his	  works	  (MEDUSA	  on	  the	  
+Cyrillic	  cylinder	  and	  the	  HYDRA	  solid	  ice	  video	  come	  to	  mind)	  seems	  to	  validate	  
+the	  claim	  that	  it	  would	  be	  reasonable	  to	  assume	  it	  to	  be	  a	  purposely-­‐crafted	  
+reference	  and	  not	  an	  anagrammatic	  coincidence.	  
+	  	  A	  second	  oddity	  can	  be	  seen	  when	  transcribing	  K3	  with	  a	  fixed	  font	  where	  the	  
+word	  HEAD	  can	  be	  read	  perpendicular	  from	  the	  “H”	  in	  DYAHR:	  
+	  
+	  
+	  
+	  	  Further	  exploring	  the	  HYDRA	  theme,	  let	  us	  assume	  that	  EN	  DYAHR	  could	  be	  
+representing	  a	  binary	  hint.	  We	  do	  know	  Sanborn	  has	  used	  ASCII	  binary	  in	  several	  
+other	  works	  so	  is	  familiar	  with	  it	  and	  we	  also	  have	  a	  possible	  reference	  on	  the	  
+morse	  code	  fragment	  that	  reads	  “DIGeTAL	  INTERPRETAT”.	  ASCII	  is	  encoded	  
+with	  7	  bits	  with	  the	  first	  two	  (most	  significant	  bits)	  being	  always	  identical	  when	  
+representing	  the	  alphabet	  letters,	  allowing	  us	  to	  safely	  strip	  these	  first	  two	  bits,	  
+in	  a	  way	  similar	  to	  the	  “EN”	  being	  separated	  from	  the	  remaining	  DYAHR,	  leaving	  
+us	  with	  the	  5	  bits	  necessary	  represent	  the	  set	  of	  26	  alphabet	  characters.	  
+	  
+	  	  Working	  with	  just	  DYAHR	  we	  can	  further	  observe	  that	  the	  raised	  bits	  are	  
+curiously	  the	  only	  ones	  needed	  to	  represent	  the	  letters	  H	  E	  A	  D:	  
+	  
+H	  =	  01000	  
+E	  =	  00101	  
+A	  =	  00001	  
+D	  =	  00100	  
+	  
+
+[[page 2]]
+	  	  Taking	  the	  interpretation	  of	  these	  features	  in	  a	  puzzle	  like	  fashion,	  we	  may	  
+make	  an	  imaginary	  leap	  that	  one	  shall	  need	  to	  slay	  HYDRA’s	  heads	  in	  order	  to	  
+tackle	  the	  puzzle/cipher.	  
+	  	  I	  have	  to	  further	  explore	  this	  path	  but	  the	  following	  notes	  comes	  to	  my	  mind:	  
+	  
+• K4	  can	  be	  converted	  to	  5	  bit	  binary	  yielding	  a	  485	  bit	  map.	  Cutting	  off	  the	  
+“heads”	  in	  a	  way	  consistent	  with	  the	  	  DYAHR	  clue	  would	  allow	  us	  to	  
+develop	  a	  grille	  like	  matrix	  which	  could	  be	  overlaid	  on	  either	  sections	  of	  
+the	  Ciphertext,	  Plaintext	  or	  Tableau.	  	  
+	  
+• It	  remains	  open	  if	  the	  anagramming	  of	  DYAHR	  should	  be	  literally	  applied	  as	  
+a	  step	  of	  permutation	  on	  the	  bits	  taken	  from	  K4	  characters	  or	  if	  it	  is	  just	  a	  
+byproduct	  from	  the	  necessary	  aligning	  of	  K3	  to	  produce	  the	  HYDRA	  hint.	  
+Do	  note	  that	  a	  bit	  permutation	  would	  yield	  an	  ordered	  K4	  intermediate	  
+text,	  consistent	  with	  the	  order	  of	  the	  BERLIN	  clue	  as	  no	  characters	  from	  
+CT	  would	  shift	  position	  to	  the	  final	  PT.	  
+	  
+• The	  fact	  that	  K1	  CT	  begins	  with	  EMUF	  (FUME	  backwards)	  is	  in	  itself	  
+interesting	  as	  might	  relate	  to	  the	  HYDRA	  mythology	  of	  the	  poisonous	  
+fumes	  of	  the	  beast.	  
+	  
+• There	  seems	  to	  be	  some	  kind	  of	  relationship	  between	  K1	  and	  K4.	  In	  the	  
+Antipodes	  sculpture	  we	  do	  have	  2	  samples	  of	  K4	  starting	  right	  next	  to	  K1	  
+(in	  both	  situations	  with	  NYPVTT	  aligned	  with	  the	  beginning	  of	  K1).	  This	  
+may	  hint	  to	  some	  relation	  between	  both	  especially	  if	  we	  take	  into	  account	  
+the	  fact	  that	  the	  first	  occurrence	  only	  matches	  this	  alignment	  by	  virtue	  of	  
+the	  inserted	  empty	  space	  before	  the	  start	  of	  K1	  and	  Sanborn	  choosing	  
+NYPVTT	  for	  the	  2010	  hint	  of	  BERLIN	  (NYPVTT	  starts	  at	  the	  64th	  K4	  
+character	  while	  K1	  is	  63	  characters	  long):	  
+	  
+	  
+	  
+	  
+	  
+	  	  I	  have	  written	  some	  small	  pieces	  of	  code	  that	  convert	  from	  ASCII	  to	  5-­‐bit	  binary	  
+and	  back,	  does	  bit	  permutations	  and	  many	  other	  kinds	  of	  manipulations.	  If	  
+anyone	  has	  an	  idea	  on	  this	  line	  that	  would	  like	  to	  try	  but	  isn’t	  willing	  to	  do	  it	  by	  
+
+[[page 3]]
+hand	  I’d	  be	  glad	  apply	  it	  with	  the	  tools	  I	  have	  providing	  it	  has	  some	  justifiable	  
+logic	  beneath	  it.	  

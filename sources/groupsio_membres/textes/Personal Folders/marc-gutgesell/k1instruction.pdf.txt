@@ -1,0 +1,27 @@
+[[page 1]]
+A hidden instruction in K1?
+Adding the „invisible“ layer of complementary letters to K1 seems 
+to reveal a sort of instruction on how to decipher the first few 
+letters of K4:
+ 
+ QTMKYRDM cipher letters (Layer 4)
+ IMPSESTP key letters (Layer 3)
+ OFIQLUSI complementary letters (Layer 2)
+ UHESCOQE plain letters (Layer 1) 
+GQ?LOBKRU cipher letters (Layer 4)
+  ?YEOOOO key letters (Layer 3)
+  XIQPUVJ complementary letters (Layer 2)
+  YESWOTD plain letters (Layer 1)
+(The mistaken Q on layer 2 in K1 marks a position in K4 and ...) 
+ 
+ QTMKYRDM Layer 4
+ IMPSESQP Layer 3
+ OFIQLUJI Layer 2
+ UHESCODE Layer 1
+GQ?LOBKRU Layer 4
+  ?YEOOQO Layer 3
+  XIQPUAJ Layer 2
+  YESWOND Layer 1
+(can also be used as key letter to fix both mistakes on layer 1 – 
+ COQE → CODE | WOTD → WONDerful)
+Maybe this is just the beginning of the instruction.

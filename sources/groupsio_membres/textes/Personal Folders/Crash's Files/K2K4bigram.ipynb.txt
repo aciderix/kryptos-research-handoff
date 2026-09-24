@@ -1,0 +1,510 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "productive-defensive",
+   "metadata": {},
+   "source": [
+    "# Kryptos K2 & K4 Bigrams Analysis"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "lucky-supervision",
+   "metadata": {},
+   "source": [
+    "### Bottom three lines of K2 - concatenated with a corresponding K4 CT char to create the full CT bi-gram\n",
+    "\n",
+    "There is a strong visual hint/corrsepondance between it's 3 x 31 letters and those of K4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 704,
+   "id": "filled-peoples",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P1L12='ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE'\n",
+    "P1L13='DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP'\n",
+    "P1L14='DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "interstate-modem",
+   "metadata": {},
+   "source": [
+    "### Bottom for lines of K4\n",
+    "\n",
+    "As per the previous comment there is a strong visual hint/corrsepondance between it's 3 x 31 letters and those of K2\n",
+    "\n",
+    "We're going with the theory that Schiedt pre-appended OBKR/BOXE to indicate with section to use as the row reference\n",
+    "\n",
+    "BOX-E is losely the 5 segment of K1/K2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 705,
+   "id": "black-edward",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P2L12='UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO'\n",
+    "P2L13='TWTQSJQSSEKZZWATJKLUDIAWINFBNYP'\n",
+    "P2L14='VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 706,
+   "id": "aware-confirmation",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4L12='.................EASTNORTHEAST.'\n",
+    "K4L13='............................BER'\n",
+    "K4L14='LINCLOCK.......................'\n",
+    "\n",
+    "#Looking for words that satisfy the first pass\n",
+    "#.................EASTNORTHEAST.\n",
+    "#..IO..N.S.................E.BER\n",
+    "#LINCLOCK............A.........."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "closing-calculator",
+   "metadata": {},
+   "source": [
+    "Only run on of the following to try that scenario e.g. [SHIFT]-[ENTER] only the one you want - skip the rest when "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 698,
+   "id": "defensive-differential",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4L12='.................EASTNORTHEAST.'\n",
+    "K4L13='.......................UNDERBER'\n",
+    "K4L14='LINCLOCKTH.....................'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 539,
+   "id": "arbitrary-drinking",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4L12='.................EASTNORTHEAST.'\n",
+    "K4L13='.......................BELOWBER' # CLASH\n",
+    "K4L14='LINCLOCK.......................'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 480,
+   "id": "tough-syndrome",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4L12='.................EASTNORTHEASTR'\n",
+    "K4L13='EGION.......................BER' # CLASH\n",
+    "K4L14='LINCLOCKS......................'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 664,
+   "id": "underlying-central",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4L12='.................EASTNORTHEASTR'\n",
+    "K4L13='EGIONANDSEEKSTOREUNIFIYUNDERBER' # CLASH but not on X/Y; only within the row which is OK as we expecting a stack if \"E\"s etc to balance the English frequencies\n",
+    "K4L14='LINCLOCK.......................'\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 642,
+   "id": "lucky-clear",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4L12='.................EASTNORTHEASTR'\n",
+    "K4L13='EGIONANDSEEKSTOREUNIFIYUNDERBER'\n",
+    "K4L14='LINCLOCKWHERETHEEASTANDWESTMEET'\n",
+    "\n",
+    "# new to try BERLINCLOCKTERMINUS\n",
+    "\n",
+    "#Clashes\n",
+    "#Double Allocation Clash!!!\n",
+    "#RM\n",
+    "#Double Allocation Clash!!!\n",
+    "#RH\n",
+    "#Double Allocation Clash!!!\n",
+    "#ET\n",
+    "#Double Allocation Clash!!!\n",
+    "#IS\n",
+    "#Double Allocation Clash!!!\n",
+    "#TW"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "protective-location",
+   "metadata": {},
+   "source": [
+    "### Join everything together"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 707,
+   "id": "unnecessary-filing",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P1=[P1L12,P1L13,P1L14]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 708,
+   "id": "through-heath",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#P1=[P1L12[::-1],P1L13[::-1],P1L14[::-1]]\n",
+    "# reverse yeilds a single 'L'\n",
+    "#.................EASTNORTHEAST.\n",
+    "#...........L................BER\n",
+    "#LINCLOCK......................."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 709,
+   "id": "mobile-significance",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P2=[P2L12,P2L13,P2L14]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 710,
+   "id": "invalid-partner",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4=[K4L12,K4L13,K4L14]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "atmospheric-trinity",
+   "metadata": {},
+   "source": [
+    "### Create an empty internal variant matrix"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 711,
+   "id": "assured-twenty",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "biGrams=[]\n",
+    "for i in range(0,26):\n",
+    "    biGrams=biGrams+[[]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 712,
+   "id": "lonely-sullivan",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for i in range(0,26):\n",
+    "    for j in range(0,26):\n",
+    "         biGrams[i]=biGrams[i]+[\"\"]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "express-timer",
+   "metadata": {},
+   "source": [
+    "### Populate the matrix with know PT/CT pairs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 713,
+   "id": "weekly-mineral",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for l in range(0,3):\n",
+    "    for x in range(0,31):\n",
+    "        char1=P1[l][x]\n",
+    "        char2=P2[l][x]\n",
+    "        char3=K4[l][x]\n",
+    "        x=ord(char1)-65\n",
+    "        y=ord(char2)-65\n",
+    "        z=ord(char3)-65\n",
+    "        biGrams[x][y]+=char3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 716,
+   "id": "funky-electronics",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#strip the dots\n",
+    "for i in range(0,26):\n",
+    "    for j in range(0,26):\n",
+    "        biGrams[i][j]=biGrams[i][j].replace('.','')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 717,
+   "id": "dutch-costume",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Check for clashes & cleanup the multiple same letter allocations\n",
+    "for i in range(0,26):\n",
+    "    for j in range(0,26):\n",
+    "        if len(biGrams[i][j])>1:\n",
+    "            sum=0.0\n",
+    "            for k in range(0,len(biGrams[i][j])):\n",
+    "                sum+=ord(biGrams[i][j][k])\n",
+    "            avg=int(sum/len(biGrams[i][j]))\n",
+    "            if not chr(avg)==biGrams[i][j][0]:\n",
+    "                print(\"Double Allocation Clash!!!\")\n",
+    "                print(biGrams[i][j])\n",
+    "            else:\n",
+    "                biGrams[i][j]=chr(avg)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 718,
+   "id": "worldwide-treaty",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Check for clashes on the same ROW 0 Can ignore this due to multiple char with internal variant systems\n",
+    "chars=\"\"\n",
+    "clash=False\n",
+    "overallClash=False\n",
+    "for i in range(0,26):\n",
+    "    for j in range(0,25):\n",
+    "        for k in range(j+1,26):\n",
+    "            if biGrams[i][j]==biGrams[i][k] and not (biGrams[i][j]=='' or biGrams[i][k]==''):\n",
+    "                clash=True\n",
+    "                overallClash=True\n",
+    "                lastRow=i\n",
+    "                chars=biGrams[i][j]+' & '+biGrams[i][k]\n",
+    "            if clash:\n",
+    "                print(\"Double Allocation within Row\")\n",
+    "                print(\"Row\",lastRow)\n",
+    "                print(\"Chars\",chars)\n",
+    "                clash=False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 719,
+   "id": "external-function",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# put the \".\" back in\n",
+    "for i in range(0,26):\n",
+    "    for j in range(0,26):\n",
+    "        if biGrams[i][j]=='':\n",
+    "            biGrams[i][j]='.'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 720,
+   "id": "anticipated-irrigation",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "  ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']\n",
+      "A ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "B ['.', '.', '.', '.', '.', 'O', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "C ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "D ['.', '.', '.', '.', '.', 'E', '.', '.', '.', '.', 'K', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'L', '.', '.', '.', '.']\n",
+      "E ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'H', '.', 'C', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'L']\n",
+      "F ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'O', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "G ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'S', '.', '.', '.', '.', '.', '.', '.']\n",
+      "H ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "I ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "J ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "K ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'E', '.']\n",
+      "L ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'A', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "M ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'A', 'C', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "N ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'N', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "O ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "P ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'R', '.', '.', '.', '.', '.', 'T', '.', '.', '.', '.']\n",
+      "Q ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'R', '.', '.', '.', 'I', '.', '.', '.', '.', '.', '.']\n",
+      "R ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'T', '.', '.', '.', '.', '.', '.', '.']\n",
+      "S ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "T ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "U ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'N', '.', '.', '.', '.', '.', '.']\n",
+      "V ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'B', '.', '.', '.', 'S', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "W ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "X ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'T', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "Y ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n",
+      "Z ['.', '.', '.', '.', '.', '.', 'E', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(' ',['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])\n",
+    "for i in range(0,26):\n",
+    "    if biGrams[i]=='':\n",
+    "        biGrams\n",
+    "    print(chr(i+65),biGrams[i])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "smooth-whale",
+   "metadata": {},
+   "source": [
+    "# Try regenerating the K4 PT by re-applying the matrix over the K2/K4's CTs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 721,
+   "id": "connected-cuisine",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "K4sol=['','','']\n",
+    "for l in range(0,3):\n",
+    "    for x in range(0,31):\n",
+    "        char1=P1[l][x]\n",
+    "        char2=P2[l][x]\n",
+    "       \n",
+    "        x=ord(char1)-65\n",
+    "        y=ord(char2)-65\n",
+    "        if not biGrams[x][y]=='':\n",
+    "            K4sol[l]=K4sol[l]+biGrams[x][y]\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 722,
+   "id": "considerable-notion",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      ".................EASTNORTHEAST.\n",
+      "..IO..N.S.................E.BER\n",
+      "LINCLOCK............A..........\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(0,3):\n",
+    "    print(K4sol[i])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "metric-publicity",
+   "metadata": {},
+   "source": [
+    "## General Notes"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "complimentary-czech",
+   "metadata": {},
+   "source": [
+    "### installation on 17 June 1975. Commissioned by the Senate of Berlin and designed by Dieter Binninger, the original full-sized Mengenlehreuhr was originally located at the Kurfürstendamm on the corner with Uhlandstraße. After the Senate decommissioned it in 1995, the clock was relocated to a site in Budapester Straße in front of Europa-Center, where it stands today.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "powerful-advisory",
+   "metadata": {},
+   "source": [
+    "## Uhlandstraße is the western terminus station of line U1 of the Berlin U-Bahn. It is located on Kurfürstendamm in the central Charlottenburg quarter of Berlin, among a mix of chain and high end shopping facilities.\n",
+    "\n",
+    "### The station opened on 12 October 1913 at the intersection of Kurfürstendamm and Uhlandstraße, named after the poet Ludwig Uhland. Built according to plans designed by Alfred Grenander, it was meant to be the first section of a projected metro line connecting Wittenbergplatz with Berlin-Halensee station which was never built.\n",
+    "\n",
+    "Damaged by the bombing of Berlin in World War II, the station was closed briefly in 1945; it went out of service again for four years in 1957, because of the construction of the neighbouring Kurfürstendamm station. From 1970, trains only went to Wittenbergplatz station (1.2 kilometres (0.75 mi), length) but since 1993 trains have run to Warschauer Straße station again.[2] The second entrance at the eastern end of the station, at the junction of Kurfürstendamm and Fasanenstraße, was closed in 1964, but re-opened in 2005.\n",
+    "\n",
+    "\n",
+    "\t52°30′09″N 13°19′32″E"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "focused-cream",
+   "metadata": {},
+   "source": [
+    "### \"Pope's Revenge\"\n",
+    "When the sun shines on the Fernsehturm's tiled stainless-steel dome, the reflection usually appears in the form of a Greek cross. Berliners nicknamed the luminous cross Rache des Papstes, or the \"Pope's Revenge\",[10][11] believing the Christian symbol a divine retaliation for the government’s removal of crosses from East Berlin’s churches. For the same reasons, the structure was also called \"St. Walter\" (from Walter Ulbricht). U.S. President Ronald Reagan mentioned this in his Tear down this wall speech on 12 June 1987.[11]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "organized-category",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

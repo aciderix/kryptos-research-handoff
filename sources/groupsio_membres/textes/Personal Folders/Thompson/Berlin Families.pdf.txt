@@ -1,0 +1,401 @@
+[[page 1]]
+The “Berlin Families”
+Dr Randy Thompson 
+October 2015
+
+[[page 2]]
+“If you spent half as much time paying 
+attention to me as you do studying that 
+sculpture thing, you would understand me a 
+whole lot better.”
+- Sherry Thompson, 2010
+“At a million-to-one against, the odds of me 
+ever solving K4 are still a million times better 
+than the odds of me ever understanding you.”
+- Randy Thompson, 3 Seconds Later (unspoken)
+- Randy Thompson, 5 Seconds Later (said out loud)
+“You’re right dear.  I’ll do better.”
+
+[[page 3]]
+K4 Breakthrough (2013)
+“... you need to solve the technique ﬁrst and then go for 
+the puzzle.” - Ed Scheidt, Wired (21 Jan 2005) 
+There would have to be clues on or around Kryptos 
+Based on those clues, you need to try some methods 
+until you ﬁnd something noteworthy 
+In March 2013, Scott Perry made a breakthrough... 
+Using only characters carved next to one another on 
+the sculpture and numbers found in the plaintext, he 
+obtained BERLIN in the right location 
+He employed methods used in K1, K2, and K3
+
+[[page 4]]
+Scott’s Method (Step 1)
+Quag 3 using ﬁrst 11 ciphertext chars on Kryptos 
+These characters are “EMUFPHZLRFA” 
+K2 says “they used the Earth’s Magnetic Field” 
+In E&M, the Greek letter µ (pronounced “mu”) is 
+used to represent magnetic permeability.  EMUF = 
+Earth’s Magnetic Field 
+K3 references “upper lefthand corner” 
+Arrow on Jim’s work sheet
+
+[[page 5]]
+“Skip-decrypt” starting at 77th character and skipping 
+every 38 chars until done 
+38 degrees North, 77 degrees West (in K2 plaintext) 
+Result: 
+PGZFGTEZPFCYGFLJLZGSOJAILWDCCNZFHSHQHIVZKUC
+GOZAAFJEVHOCZVSNHYEHBERLINPEEKRRRHBUXJOPYFF
+TXBMMQMOFQS 
+Absolutely incredible odds: 309 million to 1 
+Far more impressive than arbitrary ELYOIE sightings
+Scott’s Method (Step 2)
+
+[[page 6]]
+Analyzing Scott’s Find...
+1 23 4
+K4 CT
+K4 PT
+B
+E
+R
+I
+L
+N
+42
+25
+84
+63
+46
+QUAG Key Position
+2
+4
+8
+7
+3
+9
+QUAG Key Letter
+M
+F
+L
+Z
+U
+R
+N
+B
+R
+L
+I
+E
+2
+4
+8
+7
+3
+9
+M
+F
+L
+Z
+U
+R
+E M U F P H Z L R F A
+M U F P H Z L R F 
+N
+B
+R
+L
+I
+E
+1
+3
+7
+6
+2
+8
+M
+F
+L
+Z
+U
+R
+Original pattern is +5, +7, 
++5, +7, +5, ... 
+New pattern is +5, +5, +5, 
++5, +5, ... 
+MUFPZLR or MUFHZLR 
+work too with +4, +4, +4, ...
+
+[[page 7]]
+Encrypting the “Illusion”
+Ed’s Custom Process (aka 
+Masking Technique)? 
+Transposition, spreading 
+BERLIN by amount X 
+Quag III, using subset 
+of EMUFPHZLRFA 
+appropriate for X 
+Transposition, spreading 
+BERLIN by Y to create a 
+ﬁnal spread of X*Y = 38 
+Rotation to create the 
+77 starting point in K4
+Scott’s Implied Encryption  
+Skip-encrypt, using 
+stride of 38, and offset 
+of 77 (degrees on 
+sculpture) 
+Not practical to 
+actually do it that 
+way 
+Quag III, using 
+“EMUFPHZLRFA”
+
+[[page 8]]
+The “BERLIN Families”
+I sought to understand matrix methods like columnar 
+transposition, route transposition, Rail-Fence transposition, etc, 
+as well as their inverses. 
+I studied Quag III substitutions with varying keyword lengths 
+and observed how they interacted with transpositions 
+I found entire families of possible methods and possible paths 
+that would generate the same illusion.  I think that this is why 
+we must “solve the technique ﬁrst and then go for the puzzle” 
+I did not just TRY STUFF 
+Think Ed couldn’t (or wouldn’t) do this? 
+I think it would be trivial (and fun) for him!
+
+[[page 9]]
+Favorite Family Member Step 1
+Rotate K4 one character to the right...
+Is this the reason for the “?” in front of K4?
+R O B K R U O X O G H U L B S O L I F B 
+B W F L R V Q Q P R N G K S S O T W T 
+Q S J Q S S E K Z Z W A T J K L U D I A 
+W I N F B N Y P V T T M Z F P K W G D 
+K Z X T J C D I G K U H U A U E K C A 
+
+[[page 10]]
+Input (from last step): 
+R O B K R U O X O G... 
+Perform a columnar transposition 
+decrypt using 5 columns entered using 
+key (1, 3, 5, 2, 4).  See right-> 
+Output (read off by rows): 
+R Q K B W O S Z W I...  
+Is this the reason for the conspicuous 
+“point ﬁve” found in the coordinates at 
+the end of K2?
+R
+Q
+K
+B
+W
+O
+S
+Z
+W
+I
+B
+J
+X
+F
+N
+K
+Q
+T
+L
+F
+R
+S
+J
+R
+B
+U
+S
+C
+V
+N
+O
+E
+D
+Q
+Y
+X
+K
+I
+Q
+P
+O
+Z
+G
+P
+V
+G
+Z
+K
+R
+T
+H
+W
+U
+N
+T
+U
+A
+H
+G
+M
+L
+T
+U
+K
+Z
+B
+J
+A
+S
+F
+S
+K
+U
+S
+P
+O
+L
+E
+O
+K
+L
+U
+K
+T
+W
+I
+D
+C
+W
+G
+F
+I
+A
+T
+D
+B
+A
+1
+3
+5
+2
+4
+Favorite Family Member Step 2
+
+[[page 11]]
+Input (from last step): R Q K B W O S Z W I... 
+Perform a Quagmire III decryption using the 9 central 
+characters of “EMUF” which are MUFPHZLRF 
+Is this the reason for the (possibly) 9 displaced 
+characters of K3 CT? 
+It’s not just YAR! 
+Steganography!  
+Output: 
+CZHOCSIXEWGTUXQCNMZLIPYYLQQLRAYWEPRFBQBKLKV
+YDUTHXJISQAFKUEZNKPCBTVGNAUOHPELYPFHZOPOMQRE
+MVRQQURVCJ 
+Favorite Family Member Step 3
+
+[[page 12]]
+Input (from last step): C Z H O C S I X E W... 
+Perform a bottom’s-up Rail Fence decryption using 25 
+rails.  With 97 characters, we get a perfect W...  
+Is this the reason for referring to William Webster 
+as “WW”?  (Makes you think of Rail-Fence.)  
+“BERLIN” is exactly where it needs to be
+Favorite Family Member Step 4
+
+[[page 13]]
+Favorite Family Member Result
+VQEOHLOGCZFITVBRYQYZQGIHCOXTCLYLWFKYHSKNBNHY
+ZMMQCUVQOPPATKUQXDLBERLINUECZSWXMPQAPQKUJA
+ERVUEFPRRRJ 
+Not correct, but it may be that this method, or some similar 
+family member, is what Ed intended 
+But where is “CLOCK” (or any other words)?!?!  
+Did Jim add something more to stump Ed (and us)? 
+Berlin Clock encryption?   
+More transposition? 
+New Model…
+K4 PT -> Jim’s Custom Process -> Ed’s Custom Process -> K4 CT
+
+[[page 14]]
+One of the family members contains both “BERLIN” and 
+“KRYPTOS”, but only if the key has two letters modiﬁed in 
+an unmotivated way.  Very intriguing 
+Performing an additional Quagmire III decryption on the 
+result from the last chart using a key consisting of all “F”s 
+produces the letters “BULB”.  Major relevance to the 
+history of the "Berlin Clock" 
+Performing an additional Quagmire III decryption on the 
+result from the last chart using a key consisting of all “L”s 
+produces the letters “GOLD".  Wishful thinking?!?! 
+Using a slightly different process “HANDS” (all Vs) and 
+“HOUR” (all Ls) also appear.  More clock relevance
+Seeking Jim’s Custom Process
+
+[[page 15]]
+Another curiosity, using the results of the previous step: 
+V Q E O H L O G C Z...  
+Perform a “Skip-decrypt” with stride of 79 (or -18) 
+Perform a Quagmire III decryption using the key 
+“XQQQQQQQQV” 
+Note arrow on line 2 
+Also note 4 Qs, X, and V 
+Output: 
+XGJBENLZYPFPTSZNESLXIJWICBKVKTQICCURWYCPDSKI
+VHXDOYLESBOOKZQWVWIBDJBGFOKCWOTIAWKMAAXRH
+UQZPKWULOCQB
+Seeking Jim’s Custom Process
+
+[[page 16]]
+Result from previous page: 
+XGJBENLZYPFPTSZNESLXIJWICBKVKTQICCURWYCPDSKI
+VHXDOYLESBOOKZQWVWIBDJBGFOKCWOTIAWKMAAXRH
+UQZPKWULOCQB 
+Ex-OSS and CIA agent David Doyle wrote these books… 
+An Accurate Watch (William Morrow and Co, 1990) 
+This may have “Berlin Clock” relevance 
+True Man and Traitors: From the OSS to the CIA, My 
+Life in the Shadows (2000) 
+Book not Kryptos relevant, but Doyle might be 
+Interesting, but could be a coincidence
+Seeking Jim’s Custom Process
+
+[[page 17]]
+OK, so my efforts to extend Scott Perry’s ﬁnd have 
+obviously not given us the answer 
+But we now have a family of practical methods for 
+obtaining BERLIN in the right location that are based on 
+Scott’s observation and which all give different results 
+Consider this model again… 
+If Jim really added custom encryption on top of Ed’s 
+design, trying to stump Ed, then it is highly unlikely 
+that we will be able to solve K4 without receiving 
+acknowledgement from Ed that they have solved his 
+part of the puzzle
+Conclusion
+K4 PT -> Jim’s Custom Process -> Ed’s Custom Process -> K4 CT
+
+[[page 18]]
+If the following 3 statements are true: 
+Jim changed the plaintext, 
+Jim altered the encryption by adding another step, and 
+Somebody demonstrates understanding of your intended 
+method,  
+Then your obligation to keep the secret has ended. We 
+would be in the same boat and on the same side 
+If this is the case, please give a head nod to indicate that 
+there is merit on this path 
+Note: at the workshop, Ed laughed at this obvious attempt to 
+“turn” him
+Plea to Ed...

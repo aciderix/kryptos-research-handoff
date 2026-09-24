@@ -1,0 +1,24 @@
+## word/document.xml
+ 
+ Kryptos : A Thought Exercise and Theoretical Model for a Solution 
+ James Foulk 
+ 
+ Consider the following, the word KRYPTOS itself runs behind the ciphertext of the sculpture in a repeating fashion (KRYPTOSKRYPTOS…) creating a palimpsest. The Q in IQLUSION (K1) is created by the cipher letter K. The U in UNDERGRUUND (K2) is created by the cipher letter R. The missing x in XLAYERTWO (K2) is created by the cipher letter S. Consider that D YA H R equals 10010 (L on the same line in the Vignere side when converted to Baudot Code). Consider that ENDYAHR (remember kryptos runs behind it) is meant to be breached and the hole enlarged. There are 337 characters in K3. Remove the question mark. This leaves 336 characters. Remove the first 7 letters of each of the eleven lines. This leaves 259 characters. Remember this number. In K2, the missing X (created by the S) was revealed as a necessity. This is literally a stop. There are 372 characters in K2. Remove the 8 characters after the missing stop. This leaves 364. Remove the 3 question marks. This leaves 361. Remove the x’s (just like Sanborn did with the last one). This leaves 357. Remember that number. In K1 there are 63 characters. Remember that number. 
+ 259 characters left in k3 = 37 7-letter groupings 
+ 357 characters left in K2 = 51 7-letter groupings 
+ 63 characters in K1 = 9 7-letter groupings 
+ 37+51+9= 97 
+ So now we have 97 7-letter groupings in the cipher text. Remember ENDYAHR? Those seven letters provide a model. Remove the first two letters. DYAHR is left to convert to Baudot code. 
+ 0 1 1 0 0 
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+ Now fill it in. 
+ 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+ 
+ The Pattern breaks at Q and X… interesting. 
+ 
+ I believe if you take the 7 letter groupings, remove the first two, then take the remaining 5 and substitute with the appropriate binary digit you will have the key to the final 97 letters in k4 (probably through XOR but perhaps there is an intermediary step). If you encounter an x or a q, substitute a Y ,P,T,O,S depending on the position it occurs (the palimpsest being KRYPTOS). 
+ 
+ 
+ 
+ 

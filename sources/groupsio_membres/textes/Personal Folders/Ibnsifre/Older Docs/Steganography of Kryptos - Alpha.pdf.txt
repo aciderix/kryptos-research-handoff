@@ -1,0 +1,484 @@
+[[page 1]]
+January, 23, 2014
+Alpha 
+Steganography of Kryptos
+From Ibn Şifre to Yahoo Kryptos Group:
+Bismillah,
+Note that the following notation is used to denote using the Kryptos Vigenère cipher:
+For encryption: ENC(key, plaintext) = ciphertext
+For decryption: DEC(key, ciphertext) = plaintext
+Examples:
+key = ELYOIE, plaintext = BERLIN, ciphertext = NYPVTT
+ENC(ELYOIE, BERLIN) = NYPVTT
+DEC(ELYOIE, NYPVTT) = BERLIN
+Steganography of K1 
+With a Search for Keys
+    The ﬁrst thing that one might notice, that at the end of the top ﬁrst line of Kryptos are 
+the letters 'FIVJ' as in 'FIVE - J'.  I believe this to be a clue; that the number ﬁve, as V 
+for ﬁve in Roman numerals is important, and is one of the 'KEYS' of Kryptos.  The 
+misspelling, a 'J', serves as the artist's, Jim Sanborn, signature marker.  It is also of note 
+that Encryption with the key 'V' produces the same result as decryption with 'T'.
+   Looking at K1-K2 section, or K1-2 as I will call it, as a whole, it is known that if one 
+uses the key 'PALIMPSEST' to decrypt it the ﬁrst two lines become the well known 
+readable text.  The rest of the lines become readable if one decodes it using the key 
+'ABSCISSA'. However, one must start decoding with it at the start of the second line.  If 
+starting from the beginning of K1-2, one must either append a 'dummy' character at the 
+beginning of K1-2 or modify the key word to be 'BSCISSAA' to decode K2 properly.
+DEC(ABSCISSA, eEMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+               YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+ 
+ 
+ 
+   VFPJUDEEHZWETZYVGWHKKQETGFQJNCE) = 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+  tPFFWWBMDNSXCVIZPBQJYTQQFXBTTSCIC
+ 
+ 
+ 
+   QHUOIMGRFJNSJEDWNOGRVHWEMVMUFSP
+ 
+ 
+ 
+   ITWASTOTALLYINVISIBLEHOWSTHATPO
+"
+"
+"
+   
+
+[[page 2]]
+    One may also ﬁnd the K2 key by using the text 'VIRTUALLYINVISIBLE' taken from 
+the morse code on one of the rocks.  To ﬁnd this one must append three 'dummy' 
+characters to it and apply it to the start of K2. 
+DEC(eeeVIRTUALLYINVI, VFPJUDEEHZWETZYV) = ERMQSCAJABSCISSA
+   One ﬁnds the K2 key starting at the 9th letter. If starting from K1-2 then one may 
+append 12 twelve dummy characters to K1-2 and decrypt to ﬁnd 'ABSCISSA' - at the 
+same location:
+DEC(VIRTUALLYINVI, eeeeeeeeeeeeEMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+                               YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+                               VFPJUDEEHZWETZYV) = 
+                   ivdajtqqcvmiVVSEZNMKDDMOSSDUIVTDNCZTGMXWWHMU
+                               UPGMSOXNXARLRDKGZVPQGXILVAQNRDU
+                               PJHQSCAJABSCISSA
+    There might be a third, hidden text.  If one uses the key 'CRYPTOS' to encrypt K1 
+appended with two dummy characters, or modiﬁes the key to read 'YPTOSCR' instead 
+using K1 as it is, one gets the following:
+ENC(CRYPTOS, eeEMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+               YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD) = 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ qfGUZLCWKNTJFTEVBGQOOKEYTWEQVQHMKU
+ 
+ 
+ 
+   BPOVXYZHPWTXKVWGYGZQAKGNYOOIXUE
+"
+"
+"
+   
+Again: append zero dummy values to K1-2 from 'PALIMPSEST', one for 'ABSCISSA', 
+and two for 'CRYPTOS' - or start with 'YPTOSCR'
+   One sees toward the end of the ﬁrst line: 'OOKEYTWEQVQH' and at the bottom, where 
+the misspelling of 'IQLUSION' occurs, one ﬁnds a 'Y' (also next to an 'OO').
+I believe that this is signiﬁcant: OO KEY TWEQVQ H
+                                                                     Y
+TWEQVQ with the Q's implies misspellings as 'Q' was the letter used in the misspelling of 
+K1's plaintext. Taken as one word, the only word that ﬁts is TWELVE - again as in 
+IQLUSION a 'Q' to an 'L' for the ﬁrst misspelling and a 'Q' to an 'E' for the second.  
+However, if it is more than one word - then maybe 'T WEAVE' - with the letter 'T' being in 
+reference to the morse code on the rocks 'T IS YOUR...' which is next to 
+'VIRTUALLYINVISIBLE'.  (Possibly 'T' stands for "Truth"?).
+
+[[page 3]]
+Also Note: 
+1. the 'O-H-Y' that surrounds 'KEY and TWELVE' or 'O-H and awkward WYE' (W and 
+then YE that are together) which is prominent in my K4-H plaintext solution.
+2. 'TWELVE H' might mean 12 in hexadecimal - which is 'C', the same letter we used to 
+replace 'K' in Kryptos.
+3. If the phrase means "A SIX' then SIX is BETWEEN 0 and 12. (KEY BETWEEN O 
+AND TWELVE) or the 'KEY' = 'BETWEEN'.  ASIX is an anagram of AXIS and might be a 
+clue to 'ABSCISSA'. And using the ﬁrst seven letters of K1 and the key 'BETWEEN':
+    DEC(BETWEEN, EMUFPHZ) = PALIMPS
+since K1 starts off with the word 'BETWEEN'.  The only word that starts off with the letters 
+'PALIMPS' is 'PALIMPSEST' (or 'PALIMPSESTS').
+Further on point 2: if we encrypt K1 with the key 'C' we get:
+ENC(C, QRTUFWBKDUJAETINZCBKNCDYIWVYUXOZ
+       EPGPTAPLPOETOKKGDQOZEPGRCEDNRUN) = 
+ 
+   
+       QRTUFWBKDUJAETINZCBKNCDYIWVYUXOZ
+       EPGPTAPLPOETOKKGDQOZEPGRCEDNRUN
+"
+   
+Look at the second line. It starts with 'EPGPT' which might be a misspelling of 'EGYPT' as 
+a clue to K3. 
+4.  Consider that 'V' might be a key.  Also correct the misspelling from 'IQLUSION' to 
+'ILLUSION'.  That changes the last of the text of K1 from '...KYRDMFD' to 
+'...WYRDMFD' (again the WYe) and in the the awkward 'Y' at the bottom thus becomes 
+'Z':
+OO KEY TWELVE H
+          ZOO 
+Taking this and decrypting it with a 'V' (or as said before, encrypting it with a 'T' - in the 
+Kryptos Vigenère alphabet decrypting with 'V' is the same as encrypting with 'T' and vice 
+versa) we get:
+DEC(V, OOKEYTWELVEH ZOO) = CCTISBRIUKIM PCC
+or maybe: CC T IS BR IU KIM P CC 
+Which looks like 'CC-CC' and 'KIM Philby' to me; the Cambridge Five spies.  With 
+'T is BRother' or 'T IS BRitish'.  
+
+[[page 4]]
+I'm not sure about the 'IU', but consider if we just correct the one misspelling of Q to L; 
+the one from 'IQLUSION'  and not the one from 'TWEQVE' we get:
+DEC(V, OOKEYTWEQVEH ZOO) = CCTISBRIXKIM PCC
+or maybe: CC T IS BRI X KIM P CC
+or is it: CC T IS B RIX KIM P CC 
+giving 'RIX' instead of 'RIP', (rest in peace).  Also possible is that 'TWELVE' is really 'T 
+WEAVE', which gives us:
+DEC(V, OOKEYTWEAVEHZOO) = CCTISBRIEKIMPCC
+or maybe: CC T IS BR I.E. KIM P CC
+Steganography of K2
+Using the UNDERGRUUND misspelling as a clue. 
+ 
+Observe K2 (modiﬁed to correct for XLAYERTWO):
+ 
+  1234567890123456789012 3 4 56789012
+1 VFPJUDEEHZWETZYVGWHKKQ E T GFQJNCE
+2 GGWHKK?DQMCPFQZDQMMIAG P F XHQRLG
+3 TIMVMZJANQLVKQEDAGDVFR P J UNGEUNA
+4 QZGZLECGYUXUEENJTBJLBQ C r TBJDFHRR
+5 YIZETKZEMVDUFKSJHKFWHK U W QLSZFTI
+6 HHDDDUVH?DWKBFUFPWNTDF I Y CUQZERE
+7 EVLDKFEZMOQQJLTTUGSYQP F E UNLAVIDX
+8 FLGGTEZ?FKZBSFDQVGOGIP U F XHHDRKF
+9 FHQNTGPUAECNUVPDJMQCLQ U M UNEDFQ
+0 ELZZVRRGKFFVOEEXBDMVPN F q XEZLGRE
+1 DNQFMPNZGLFLPMRJQYALMG N U VPDXVKP
+2 DQUMEBEDMHDAFMJGZNUPLG E S WJLLAETG
+ 
+The 'r' in Row 4, Column 24 deciphers to the ﬁrst U in UNDERGRUUND with the key 
+word ABSCISSA.  It should have been an 'e' if one wanted it to decipher to 
+UNDERGROUND. Using an 'e' instead of the 'r' and reading down we get:
+ 
+JeW YE FM Q US
+ 
+
+[[page 5]]
+Or maybe:
+ 
+Jew 'Ye' from? United States
+ 
+Encrypting this with V gives us:
+ 
+FAN X A BH J LY
+ 
+I believe BH is short for BERLIN HEAD, and J is for JIM. The Jew 'Ye' I believe is 
+referring to the Biblical quote from Jesus the Son of Mary, Alayhi Salam, carved into the 
+wall of the OHB lobby in Langley:
+ 
+"And Ye Shall Know the Truth and the Truth Shall Make You Free" John 8:32
+ 
+It is from, in this case, the 'FAN', a Berlin Head, Allen W. Dulles, the DCI who oversaw 
+the building of the OHB and chose this quote to be carved upon it.
+ 
+To see what this might refer to, ﬁrst decipher K2 with ABSCISSA:
+ 
+  1234567890123456789012 3 4 56789012
+1 ITWASTOTALLYINVISIBLEH O W STHATPO
+2 SSIBLE?THEYUSEDTHEEART H S MAGNET
+3 ICFIELDXTHEINFORMATION W A SGATHER
+4 EDANDTRANSMITTEDUNDERG R u UNDTOANU
+5 NKNOWNLOCATIONXDOESLAN G L EYKNOWA
+6 BOUTTHIS?THEYSHOULDITS B U RIEDOUT
+7 THERESOMEWHEREXWHOKNOW S T HEEXACTL
+8 OCATION?ONLYWWTHISWASH I S LASTMES
+9 SAGEXTHIRTYEIGHTDEGREE S F IFTYSE
+0 VENMINUTESSIXPOINTFIVE S e CONDSNO
+1 RTHSEVENTYSEVENDEGREES E I GHTMINU
+2 TESFORTYFOURSECONDSWES T X LAYERTWO
+ 
+And read column 23 down:
+ 
+OHW R GB SIS SET
+ 
+Or maybe "Who are (the) Great Britain SIS Set".  Great Britain's SIS is another name for 
+Britain's MI6.  The 'OHW' is 'Who' backwards.  It might also, at the same time, be short 
+for 'O-H-WYE', giving:
+ 
+Who (O-H-WYE) are (the) MI6 Set?
+ 
+And that 'Set' might be the Cambridge V, or Cambridge Five.  The most famous of 
+whom was Kim Philby. Kim's real ﬁrst name was Harold, but while he was young he was 
+
+[[page 6]]
+nicknamed "Kim" after the young boy in Rudyard Kipling's novel 'Kim'.  That main 
+character's name was Kimball O'Hara - or just Kim.  
+Steganography K3 with some others of K2, and
+With a Search for Keys and Other Clues
+ENDYAHROHNLS - the beginning of K3.  Much has been discussed about it. 
+First let us take a look at the last line of K2 with the ﬁrst lines of K3:
+ "
+"
+"
+"
+"
+"
+"
+"
+"
+"
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+We see, looking at the 'H' going down: 'B HEAD E' (forming a big 'T', or cross, with 
+ENDYAHR) ['ENDYAHR' and 'HEAD' have been known for some time].  This, I believe, 
+is short for 'Berlin Head' in reference to Allen Dulles (if one follows the lettering down 
+one gets 'B HEAD E RAN D'.  'D' might also be in reference to the CIA when Allen 
+Dulles was DCI).  Now, encrypting this with V we get the following:
+Enc(V, BHEADE) = TDAPSA 
+or reading it backwards says: 'AS PAD T' - or just 'AS PAD'. This I believe is a clue that 
+the decryption of K4 involves a one time pad.
+ But what if we encrypt all K3 with the key 'V':
+            1         
+   123456789012
+ 1 AISXPDWRDIGYWDAROZKARETESXYDIPEP
+ 2 ODKIWAXLGSYGGYGGIRDYIRYHWNQHIA
+ 3 KZWICPKEDIWPWZAYGIIAGATGZEEPOPA
+ 4 NHKNISEKAAIWPDOKAIALSWAKIDPARA
+ 5 KBRGYASKENAIDPAERXKAXJDAAIOKPXOW
+ 6 AEBKTWYZPHDDANAIPKPHPKACXAAWGT
+ 7 KAABRPYBERKLAKLPARKRPWHPAAWKIWKE
+ 8 TYASSIEPPDKKHYKANZEAWRPCWEANBAT
+ 9 PAOKSSDEGOAEDYEKACRAPRYSSWXSGRWEK
+10 WVGHGADPCKSDPWSZIARDHCBHBALDA
+ 1 AOSHWEZBAEHADIGYYKKWKMSRDN
+
+[[page 7]]
+First look at the ﬁrst row, 'A IS X - PD WRD I G... or maybe 'A IS X - PDW R DIG...
+'A is X' or 'A is 10' or 'A is Ten' is important to this Kryptos riddle, I believe.  It almost 
+looks like 'A is X' - PaD WoRD, or maybe 'A IS X' - password Riddle One?  
+Now, re-arrange the columns like so:
+            11
+   14237658901
+ 1 AXISWDPRDIG
+ 2 OIDKXAWLGSY
+ 3 KIZWKPCEDIW
+ 4 NNHKESIKAAI
+ 5 KGBRSAYKENA
+ 6 AKEBYWTZPHD
+ 7 KBAAYPRBERK
+ 8 TSYAEISPPDK
+ 9 PKAODSSEGOA
+10 WHVGDAGPCKS
+11 AHOSZEWBAEH
+Note many things: 
+1. The ﬁrst six letters of the ﬁrst row are 'AXIS WD' or 'axis word'; a clue to ABSCISSA.
+2. The diagonal PSABSSCIA, above, colored in red staring at row 9 column 1; as in 'PS 
+- SABSASIC' (repeating the ﬁrst S, and the P is colored blue).  The letters of Abscissa.
+          11
+   14237658901
+ 1 AXISWDPRDIG
+ 2 OIDKXAWLGSY
+ 3 KIZWKPCEDIW
+ 4 NNHKESIKAAI
+ 5 KGBRSAYKENA
+ 6 AKEBYWTZPHD
+ 7 KBAAYPRBERK
+ 8 TSYAEISPPDK
+ 9 PKAODSSEGOA
+10 WHVGDAGPCKS
+11 AHOSZEWBAEH
+3. The reappearence of R-AY in row 5, as shown above, in the same pattern and 
+columns and ENDYAHR but going left to right instead of right to left.  Also note that the 
+
+[[page 8]]
+other letters are 'KGB S K' - maybe 'KGB'S K'?  Or all together 'KGB R SAY K' - maybe 
+the A should be a P so that we get 'KGB R SPY K'?  In addition directly above the R-AY 
+are the letters 'K-SI', which when read backward give 'IS K' - maybe 'KGB R SPY - IS 
+K' (leaving out the other K).
+4. Reﬂection Symmetry
+            1
+   14237658901
+ 1 AXISWDPRDIG
+ 2 OIDKXAWLGSY
+ 3 KIZWKPCEDIW
+ 4 NNHKESIKAAI
+ 5 KGBRSAYKENA
+ 6 AKEBYWTZPHD
+ 7 KBAAYPRBERK
+ 8 TSYAEISPPDK
+ 9 PKAODSSEGOA
+10 WHVGDAGPCKS
+ 1 AHOSZEWBAEH
+Notice in blue the letters that form Kryptos and the other letters in red, YW and SY, 
+which form a sort of symmetry in the ﬁrst 7 columns, shown above.   Now if we look at 
+the original 7 columns again we see another symmetry: AISX in blue, and IWAX in red, 
+shown below:
+   1234567890
+ 1 AISXPDWRDI
+ 2 ODKIWAXLGS
+ 3 KZWICPKEDI
+ 4 NHKNISEKAA
+ 5 KBRGYASKEN
+Also note the S and W symmetry in both; suggesting S and W are linked or the same (I 
+believe that this suggests that W is covering up S).  Also note the SW position of the 
+loadstone at the rocks - again S and W.
+
+[[page 9]]
+5. Note almost all the letters of PALIMPSEST - except L and M - are found in row 8, 
+columns 1 to 9, shown below:
+            1
+   14237658901
+ 1 AXISWDPRDIG
+ 2 OIDKXAWLGSY
+ 3 KIZWKPCEDIW
+ 4 NNHKESIKAAI
+ 5 KGBRSAYKENA
+ 6 AKEBYWTZPHD
+ 7 KBAAYPRBERK
+ 8 TSYAEISPPDK
+ 9 PKAODSSEGOA
+10 WHVGDAGPCKS
+ 1 AHOSZEWBAEH
+6. Observe K2 Encrypted with V, the last 7 rows with columns in order by 1423765, 
+followed by the ﬁrst 7 rows of K3 Encrypted with 'V' (i.e. the 'AXIS WD' order), shown 
+below.  Note that the letters of 'ABSCISSA' form a pattern, in red, like that of 
+'ENDYAHR' - only rotated 90 degrees and ﬂipped about the Y axis. The only letter 
+missing, 'B' in blue, is in multiple positions around this pattern.
+   1423765
+ 5 XAEUUVK
+ 6 DSDSMLS
+ 7 ASMGABV
+ 8 BCGCUAK
+ 9 BIDJZCK
+10 AUGUWWM
+ 1 SBIJIZH
+ 2 SHJLATA
+ 1 AXISWDP
+ 2 OIDKXAW
+ 3 KIZWKPC
+ 4 NNHKESI
+ 5 KGBRSAY
+ 6 AKEBYWT
+ 7 KBAAYPR
+
+[[page 10]]
+7. Another grouping of the letters of Kryptos with two E's forming a big 'X' in K3 
+Encrypted with 'V' in AXIS WD' column order, shown in red, shown below.
+            1
+   14237658901
+ 1 AXISWDPRDIG
+ 2 OIDKXAWLGSY
+ 3 KIZWKPCEDIW
+ 4 NNHKESIKAAI
+ 5 KGBRSAYKENA
+ 6 AKEBYWTZPHD
+ 7 KBAAYPRBERK
+ 8 TSYAEISPPDK
+ 9 PKAODSSEGOA
+10 WHVGDAGPCKS
+ 1 AHOSZEWBAEH
+8. We can ﬁnd other anagrams of 'AISXPDWRDIG', for example:
+First Six letters: PAD IS X
+First seven letters: AXIS WD P (as shown before),
+FIrst eight letters: 'AXIS WRD P' or 'PS I DRAW X', AWD'S RIX P (Allen W. Dulles's RIX 
+P) or AWD'S RIP X?
+    One last observation before moving on; 'ENDYAHROHNLS' is an anagram of 'R LS 
+HOHN AND YE'.  It should, I believe, read: 'R LS JOHN AND YE' , the J misspelled next 
+to the S, for JS - Jim Sanborn.  
+Maybe meaning - 'Our L's - John "And Ye..".  A reference to John 8:32 again, perhaps.
+
+[[page 11]]
+Steganography of K4
+Group K4 in sets of 7 letters as shown below:
+      
+    1234567
+ 1 OBKRUOX
+ 2 OGHULBS
+ 3 OLIFBBW
+ 4 FLRVQQP
+ 5 RNGKSSO
+ 6 TWTQSJQ
+ 7 SSEKZZW
+ 8 ATJKLUD
+ 9 IAWINFB
+10 NYPVTTM
+ 1 ZFPKWGD
+ 2 KZXTJCD
+ 3 IGKUHUA
+ 4 UEKCAR
+Notice in the letters, in red, that run along the sides stopping when JS, in purple, is 
+reached.
+OOOFRTSAINZKIUXSWPOQWD
+Maybe it should read more like:
+OO OF R T SAIN Z KIU X SW POQ
+Going further perhaps, with guessing some misspellings and an extra 'L':
+OO OF ouR T SLAIN Z KIM X SW POS 
+Again an L and M - and maybe an S to complete JS for Jim's signature (going in the 
+other direction too).
+DEC(V,OOOFRTSLAINZKIMXSWPOQ) = CCCJOBDUENWPTNVYDRACX
+Or maybe:
+CCC JOB DUE NW P TNVY D RACX
+                                
+Instead of guessing the last letter to be misspelled as a 'S' instead of a 'Q' we can 
+change it to an 'A', and continuing along the right down edge of K4, we get WD: or 
+AWD, Allen Welsh Dulles.  Then the decrypt becomes:
+
+[[page 12]]
+DEC(V,OOOFRTSLAINZKIMXSWPO AWD) = CCCJOBDUENWPTNVYDRAC ERH
+OR ?:
+CCC JOB DUE NW P TNVY D RACE R H
+Also if we look at rows 14 and 5 and combine them together we can get:
+UEKCAR RNGKSSO 
+Reading them backwards: 
+OSS KGN RRACKEU 
+Maybe, with misspellings (B, C, and D): 
+OSS KGB CRACKED
+One last thing... 
+An interesting bit - W for Welsh (Allen Welsh Dulles):
+ENC(W, BIBLE) = OF OHB
+Of [the] OHB (Original Headquarters Building)
+ 
+   It seems that there are enough clues, to me at least, to suggest that Kryptos has 
+something to do with Allen Dulles, the British SIS, Kim Philby and the Cambridge Five 
+Spies (perhaps about something going back to the OSS days), that K4 might be a One 
+Time Pad, and that Kryptos has something to say concerning the quote of John 8:32 on 
+OHB's wall.  
+    If it is about Kim Philby and the Cambridge Five, it would make sense that K4 is part 
+of a One Time Pad, and that perhaps the pad was used more than once.  That is how 
+they were discovered by the Venona Project.  
+    I suppose if I were to tell an agent about Kryptos - I might say "Cryptos - Cambridge 
+V - Kim P Pals Set". 'KIM P PALS SET' is an anagram of 'K PALIMPSEST'
+  There is maybe more but after awhile, with out further clues, it becomes really thin - 
+and I've gone into the thin quite enough here!
+"
+"
+"
+"
+"
+"
+Selam and Happy Discoveries and Adventures,
+"
+"
+"
+"
+"
+"
+"
+"
+"
+"
+              Ibn Şifre
+SUMHGGJKKIPETCTWGTGGPIBZJEJNJKKQRXWCCYXFSBWMJAZUMC

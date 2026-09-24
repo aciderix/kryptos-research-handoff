@@ -1,0 +1,559 @@
+Ziggy                                                                                                        B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+"Yes";"Yes";"No"
+"True";"True";"False"
+"On";"On";"Off"
+@ @ 
+        
+        
+        
+20% - Accent1
+20% - Accent2
+20% - Accent3
+20% - Accent4
+20% - Accent5
+20% - Accent6
+40% - Accent1
+40% - Accent2
+40% - Accent3
+40% - Accent4
+40% - Accent5
+40% - Accent6
+60% - Accent1
+60% - Accent2
+60% - Accent3
+60% - Accent4
+60% - Accent5
+60% - Accent6
+Accent1
+Accent2
+Accent3
+Accent4
+Accent5
+Accent6
+Calculation
+Check Cell
+Explanatory Text
+Good
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Input
+Linked Cell
+Neutral
+Note
+Output
+Title
+Total
+Warning Text
+main
+factors
+Transpose & Alphabetize
+Sheet3
+PERIOD
+freq
+f(f-1)
+C(f,2)
+max prod.
+keylength
+(probable)$
+Step 4. Read off probable keylength.
+std-prime
+KRYPTOS-prime
+diff of KRYPTOS-prime
+followed by
+enter
+max #4
+Paste Special/Values/Transpose factors to 'factors',
+PRODUCT
+TALLY
+(<=15, probable)
+to chart below. 
+and then Z-A alphabetize A14:V392
+column A (gray) and Paste Special/Values blue line)
+last letter & # entered
+REPEATS
+UU:-
+Step 1/4. Enter text below on rows 6,8, & 10.
+Step 2/4. Enter positions below4
+Step 3/4. Copy rows in box (V14:CJ39) one at a time.T
+Step 4/4. Read off probable keylength in W154 and probable short keylength in AJ154.
+Example>
+Manual listing of last text's preceding and following letters.
+Positions
+Factors of Differences
+Differencesc
+Clear all content on 'Transpose & Alphabetize' tab, on 'main' tab from D14:P39 and from W122:AU147.l
+Step 0/4. Read through all steps on 'main' tab. Notice manual short method on 'Transpose & Alphabetize' tab.
+MbP?_
+DINU"
+SMTJ
+InputBin
+FORMSOURCE
+RESDLL
+UniresDLL
+Interleaving
+ImageType
+JPEGMed
+Orientation
+PORTRAIT
+Collate
+Resolution
+Option1
+PaperSize
+LETTER
+ColorMode
+24bpp
+MXDW
+Column A
+@P@B
+@Q@B
+@R@B
+@S@B
+@T@B
+@U@B
+@V@B
+@W@B
+@P@B
+@Q@^
+@S@^
+@S@G
+@S@G
+@P@G
+@S@G
+@P@G
+?Gb,
+MbP?_
+DINU"
+SMTJ
+InputBin
+FORMSOURCE
+RESDLL
+UniresDLL
+Interleaving
+ImageType
+JPEGMed
+Orientation
+PORTRAIT
+Collate
+Resolution
+Option1
+PaperSize
+LETTER
+ColorMode
+24bpp
+MXDW
+MbP?_
+SDDM
+hp LaserJet 1012
+Column A
+@U@C
+@S@C
+@W@C
+@R@C
+MbP?_
+DINU"
+SMTJ
+InputBin
+FORMSOURCE
+RESDLL
+UniresDLL
+Interleaving
+ImageType
+JPEGMed
+Orientation
+PORTRAIT
+Collate
+Resolution
+Option1
+PaperSize
+LETTER
+ColorMode
+24bpp
+MXDW
+Column N
+@P@k
+@Q@k
+@R@k
+@S@k
+@T@k
+@U@k
+@V@k
+@W@k
+@X@b
+Ziggy
+Microsoft Excel
+main
+factors
+Transpose & Alphabetize
+Sheet3
+Worksheets
+Microsoft Office Excel 2003 Worksheet
+Biff8
+Excel.Sheet.8
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1,
+Lucida Console1
+Arial1,
+Lucida Console1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1
+Arial1
+Arial1,
+Lucida Console1
+Arial1
+Century1(
+Engravers MT1
+Arial1(
+Engravers MT10
+Kryptos Document1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Cambria1
+Calibri1
+Calibri1,
+Lucida Console1
+Arial
+-2]\ #,##0.00_);[Red]\([$
+-2]\ #,##0.00\)
+##0.
+##0.
+##0.
+20% - Accent1
+20% - Accent2
+20% - Accent3
+20% - Accent4
+20% - Accent5
+20% - Accent6
+40% - Accent1
+40% - Accent2
+40% - Accent3
+40% - Accent4
+40% - Accent5
+40% - Accent6
+60% - Accent1
+60% - Accent2
+60% - Accent3
+60% - Accent4
+60% - Accent5
+60% - Accent6
+Accent1
+Accent2
+Accent3
+Accent4
+Accent5
+Accent6
+Calculation
+Check Cell
+Comma
+Comma [0]
+Currency
+Currency [0]
+Explanatory Text
+Followed Hyperlink
+Good
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Hyperlink
+Input
+Linked Cell
+Neutral
+Normal
+Note
+Output
+Percent
+Title
+Total
+Warning Text
+TableStyleMedium9PivotStyleLight16
+Microsoft XPS Document Writer
+Letter
+Microsoft XPS Document Writer
+``````````
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBc
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBc
+/BBBBBBBBBB8
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBc
+ BBBBBBABBBBBBBBBBBBBBBBBB8
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBc
+]]]]]]]]]^^^BBB
+XBBBBBBBBBBBBc
+^^^^^^^^^^^^
+^^]]]]
+^^^]]]]
+^^^]]]]
+^^^^^]]]]
+^^^^]]]]
+^^^^]]]]
+^^^^]]]]
+^^^^^^]]]]
+^^^^^]]]]
+^^^^^]]]]
+^^^^^]]]]
+^^^^^]]]]
+^^^^^]]]]
+^^^^^]]]]
+^^^^^]]]]
+^^^^^^]]]]
+^^^^^^]]]]
+^^^^^^^]]]]
+^^^^^^]]]]
+^^^^^^^]]]]
+^^^^^^^]]]]
+^^^^^^^]]]]
+^^^^^^^]]]]
+^^^^^^^]]]]
+^^^^^^^^]]]]
+^^^^^^^^]]]]
+OOBHHHHHH
+HHHHHHHHHHHHHHHHHHHHHH+
+aaaaaaaaaaaaa
+aaaaaaaaaaaaa
+aaaaaaaaaa
+. C6
+.!C6
+."C6
+.#C6
+.$C6
+.%C6
+.&C6
+1 C6
+1!C6
+1"C6
+1#C6
+1$C6
+1%C6
+1&C6
+4 C6
+4!C6
+4"C6
+4#C6
+4$C6
+4%C6
+4&C6
+6 C6
+6!C6
+6"C6
+6#C6
+6$C6
+6%C6
+6&C6
+HHHHHHHHHHHHHHH
+8 C6
+8!C6
+8"C6
+8#C6
+8$C6
+8%C6
+8&C6
+: C6
+:!C6
+:"C6
+:#C6
+:$C6
+:%C6
+:&C6
+< C6
+<!C6
+<"C6
+<#C6
+<$C6
+<%C6
+<&C6
+> C6
+>!C6
+>"C6
+>#C6
+>$C6
+>%C6
+>&C6
+@ C6
+@!C6
+@"C6
+@#C6
+@$C6
+@%C6
+@&C6
+B C6
+B!C6
+B"C6
+B#C6
+B$C6
+B%C6
+B&C6
+D C6
+D!C6
+D"C6
+D#C6
+D$C6
+D%C6
+D&C6
+F C6
+F!C6
+F"C6
+F#C6
+F$C6
+F%C6
+F&C6
+H C6
+H!C6
+H"C6
+H#C6
+H$C6
+H%C6
+H&C6
+J C6
+J!C6
+J"C6
+J#C6
+J$C6
+J%C6
+J&C6
+L C6
+L!C6
+L"C6
+L#C6
+L$C6
+L%C6
+L&C6
+N C6
+N!C6
+N"C6
+N#C6
+N$C6
+N%C6
+N&C6
+P C6
+P!C6
+P"C6
+P#C6
+P$C6
+P%C6
+P&C6
+R C6
+R!C6
+R"C6
+R#C6
+R$C6
+R%C6
+R&C6
+T C6
+T!C6
+T"C6
+T#C6
+T$C6
+T%C6
+T&C6
+V C6
+V!C6
+V"C6
+V#C6
+V$C6
+V%C6
+V&C6
+X C6
+X!C6
+X"C6
+X#C6
+X$C6
+X%C6
+X&C6
+Z C6
+Z!C6
+Z"C6
+Z#C6
+Z$C6
+Z%C6
+Z&C6
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH+
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH+
+HHHHHHHHHHHHHHHHH+
+HHHHHHHHJHHHHHHHHHHHHHHHHHHHHHHHHHHHH+
+HHHHHHHHHHKHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+8b,HHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHH)
+8e,HHHHHHHHHHHHHHHHHHHHHHHHHD
+>f)HHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHKHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+i(HH)
+8i,HHHHHHHHHHHHHHHHHHHHHHHHHD
+8j,HHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHKHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHLHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+8q,HHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD
+HHHHHHHHHHHHHHHHHHHHHHHH.
+cccccccccccccccc
+/HHHHHHHHHHHHHHHHHHHHHC
+/HHHHHHHHH7
+/HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHO
+/xxxxxxxxxxx{:
+FFFFFFFFFFFFFFFFFFFFFFFF.
+ccccccccccc!
+%cccccccccc.
+Chart 1
+Add 2 to abscissa to get period
+en-US
+Microsoft XPS Document Writer
+Letter
+Microsoft XPS Document Writer
+hp LaserJet 1012
+BBFFFFFFFFFF
+FFBFFFFFFFFF
+FFFFFFFFFFFF
+FFFFFFFFFFFFF
+XpppFXXXXXXXFF8F88888LL
+FFFFFFFF
+FFFFFFFFFF
+FFFFF
+FFFFF
+jV**
+PRP@@D
+FFFFFFFFFFFFF
+Microsoft XPS Document Writer
+Letter
+Microsoft XPS Document Writer
+CompObj

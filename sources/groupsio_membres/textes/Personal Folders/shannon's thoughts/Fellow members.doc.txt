@@ -1,0 +1,23 @@
+Fellow members,
+
+
+
+Spend this day looking at part 4, wondering if maybe it might be easier then we think, maybe sanborn saved the best for last and is laughing at how hard people are making it.  A previous post today had the same idea that I’ve been looking at……if you take the first 49 letters and put them in 7 rows of 7, starting with “O” and writing them vertically, you find more then just the 3 consecutive O’s…..
+
+O	O	O	F	R	T	S
+B	G	L	L	N	W	S
+K	H	I	R	G	T	E
+R	U	F	V	K	Q	K
+U	L	B	Q	S	S	Z
+O	B	B	Q	S	J	Z
+X	S	W	P	O	Q	W
+
+If you look in rows 5 and 6, the “BQS” sequence happens twice, the only letters not in this are A,C,D,M,Y
+
+That leaves you with 48 letters remaining, but there are several ways you can get 48, so that is where I’m at. 
+
+I hope that more people post messeges on here, it’s getting alittle thin on reading material!!!!
+
+Thanks
+Shannon  
+a.k.a, noah

@@ -1,0 +1,258 @@
+[[page 1]]
+K2K4bigram
+February 25, 2022
+1
+Kryptos K2 & K4 Bigrams Analysis
+1.0.1
+Bottom three lines of K2 - concatenated with a corresponding K4 CT char to
+create the full CT bi-gram
+There is a strong visual hint/corrsepondance between it’s 3 x 31 letters and those of K4
+[704]: P1L12='ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE'
+P1L13='DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP'
+P1L14='DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG'
+1.0.2
+Bottom for lines of K4
+As per the previous comment there is a strong visual hint/corrsepondance between it’s 3 x 31 letters
+and those of K2
+We’re going with the theory that Schiedt pre-appended OBKR/BOXE to indicate with section to
+use as the row reference
+BOX-E is losely the 5 segment of K1/K2
+[705]: P2L12='UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO'
+P2L13='TWTQSJQSSEKZZWATJKLUDIAWINFBNYP'
+P2L14='VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR'
+[706]: K4L12='.................EASTNORTHEAST.'
+K4L13='............................BER'
+K4L14='LINCLOCK.......................'
+#Looking for words that satisfy the first pass
+#.................EASTNORTHEAST.
+#..IO..N.S.................E.BER
+#LINCLOCK............A..........
+Only run on of the following to try that scenario e.g. [SHIFT]-[ENTER] only the one you want -
+skip the rest when
+[698]: K4L12='.................EASTNORTHEAST.'
+K4L13='.......................UNDERBER'
+K4L14='LINCLOCKTH.....................'
+1
+
+[[page 2]]
+[539]: K4L12='.................EASTNORTHEAST.'
+K4L13='.......................BELOWBER' # CLASH
+K4L14='LINCLOCK.......................'
+[480]: K4L12='.................EASTNORTHEASTR'
+K4L13='EGION.......................BER' # CLASH
+K4L14='LINCLOCKS......................'
+[664]: K4L12='.................EASTNORTHEASTR'
+K4L13='EGIONANDSEEKSTOREUNIFIYUNDERBER' # CLASH but not on X/Y; only within the␣
+,→row which is OK as we expecting a stack if "E"s etc to balance the English␣
+,→frequencies
+K4L14='LINCLOCK.......................'
+[642]: K4L12='.................EASTNORTHEASTR'
+K4L13='EGIONANDSEEKSTOREUNIFIYUNDERBER'
+K4L14='LINCLOCKWHERETHEEASTANDWESTMEET'
+# new to try BERLINCLOCKTERMINUS
+#Clashes
+#Double Allocation Clash!!!
+#RM
+#Double Allocation Clash!!!
+#RH
+#Double Allocation Clash!!!
+#ET
+#Double Allocation Clash!!!
+#IS
+#Double Allocation Clash!!!
+#TW
+1.0.3
+Join everything together
+[707]: P1=[P1L12,P1L13,P1L14]
+[708]: #P1=[P1L12[::-1],P1L13[::-1],P1L14[::-1]]
+# reverse yeilds a single 'L'
+#.................EASTNORTHEAST.
+#...........L................BER
+#LINCLOCK.......................
+[709]: P2=[P2L12,P2L13,P2L14]
+[710]: K4=[K4L12,K4L13,K4L14]
+2
+
+[[page 3]]
+1.0.4
+Create an empty internal variant matrix
+[711]: biGrams=[]
+for i in range(0,26):
+biGrams=biGrams+[[]]
+[712]: for i in range(0,26):
+for j in range(0,26):
+biGrams[i]=biGrams[i]+[""]
+1.0.5
+Populate the matrix with know PT/CT pairs
+[713]: for l in range(0,3):
+for x in range(0,31):
+char1=P1[l][x]
+char2=P2[l][x]
+char3=K4[l][x]
+x=ord(char1)-65
+y=ord(char2)-65
+z=ord(char3)-65
+biGrams[x][y]+=char3
+[716]: #strip the dots
+for i in range(0,26):
+for j in range(0,26):
+biGrams[i][j]=biGrams[i][j].replace('.','')
+[717]: # Check for clashes & cleanup the multiple same letter allocations
+for i in range(0,26):
+for j in range(0,26):
+if len(biGrams[i][j])>1:
+sum=0.0
+for k in range(0,len(biGrams[i][j])):
+sum+=ord(biGrams[i][j][k])
+avg=int(sum/len(biGrams[i][j]))
+if not chr(avg)==biGrams[i][j][0]:
+print("Double Allocation Clash!!!")
+print(biGrams[i][j])
+else:
+biGrams[i][j]=chr(avg)
+[718]: # Check for clashes on the same ROW 0 Can ignore this due to multiple char with␣
+,→internal variant systems
+chars=""
+clash=False
+overallClash=False
+for i in range(0,26):
+3
+
+[[page 4]]
+for j in range(0,25):
+for k in range(j+1,26):
+if biGrams[i][j]==biGrams[i][k] and not (biGrams[i][j]=='' or␣
+,→biGrams[i][k]==''):
+clash=True
+overallClash=True
+lastRow=i
+chars=biGrams[i][j]+' & '+biGrams[i][k]
+if clash:
+print("Double Allocation within Row")
+print("Row",lastRow)
+print("Chars",chars)
+clash=False
+[719]: # put the "." back in
+for i in range(0,26):
+for j in range(0,26):
+if biGrams[i][j]=='':
+biGrams[i][j]='.'
+[720]: print(' ',['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',␣
+,→'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+for i in range(0,26):
+if biGrams[i]=='':
+biGrams
+print(chr(i+65),biGrams[i])
+['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
+'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+A ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+B ['.', '.', '.', '.', '.', 'O', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+C ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+D ['.', '.', '.', '.', '.', 'E', '.', '.', '.', '.', 'K', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', 'L', '.', '.', '.', '.']
+E ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'H', '.',
+'C', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'L']
+F ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', 'O', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+G ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', 'S', '.', '.', '.', '.', '.', '.', '.']
+H ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+I ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+J ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+4
+
+[[page 5]]
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+K ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', 'E', '.']
+L ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'A', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+M ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'A', 'C', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+N ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', 'N', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+O ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+P ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'R', '.', '.', '.', '.', '.', 'T', '.', '.', '.', '.']
+Q ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'R', '.', '.', '.', 'I', '.', '.', '.', '.', '.', '.']
+R ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', 'T', '.', '.', '.', '.', '.', '.', '.']
+S ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+T ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+U ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', 'N', '.', '.', '.', '.', '.', '.']
+V ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'B', '.',
+'.', '.', 'S', '.', '.', '.', '.', '.', '.', '.', '.']
+W ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+X ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', 'T', '.', '.', '.', '.', '.', '.', '.', '.']
+Y ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+Z ['.', '.', '.', '.', '.', '.', 'E', '.', '.', '.', '.', '.', '.', '.', '.',
+'.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.']
+2
+Try regenerating the K4 PT by re-applying the matrix over the
+K2/K4’s CTs
+[721]: K4sol=['','','']
+for l in range(0,3):
+for x in range(0,31):
+char1=P1[l][x]
+char2=P2[l][x]
+x=ord(char1)-65
+y=ord(char2)-65
+if not biGrams[x][y]=='':
+5
+
+[[page 6]]
+K4sol[l]=K4sol[l]+biGrams[x][y]
+[722]: for i in range(0,3):
+print(K4sol[i])
+…EASTNORTHEAST.
+..IO..N.S…E.BER
+LINCLOCK…A…
+2.1
+General Notes
+2.1.1
+installation on 17 June 1975. Commissioned by the Senate of Berlin and de-
+signed by Dieter Binninger, the original full-sized Mengenlehreuhr was origi-
+nally located at the Kurfürstendamm on the corner with Uhlandstraße. After
+the Senate decommissioned it in 1995, the clock was relocated to a site in Bu-
+dapester Straße in front of Europa-Center, where it stands today.
+2.2
+Uhlandstraße is the western terminus station of line U1 of the Berlin U-
+Bahn.
+It is located on Kurfürstendamm in the central Charlottenburg
+quarter of Berlin, among a mix of chain and high end shopping facilities.
+2.2.1
+The station opened on 12 October 1913 at the intersection of Kurfürstendamm
+and Uhlandstraße, named after the poet Ludwig Uhland. Built according to
+plans designed by Alfred Grenander, it was meant to be the first section of a
+projected metro line connecting Wittenbergplatz with Berlin-Halensee station
+which was never built.
+Damaged by the bombing of Berlin in World War II, the station was closed briefly in 1945; it
+went out of service again for four years in 1957, because of the construction of the neighbouring
+Kurfürstendamm station. From 1970, trains only went to Wittenbergplatz station (1.2 kilometres
+(0.75 mi), length) but since 1993 trains have run to Warschauer Straße station again.[2] The second
+entrance at the eastern end of the station, at the junction of Kurfürstendamm and Fasanenstraße,
+was closed in 1964, but re-opened in 2005.
+52°30￿09￿N 13°19￿32￿E
+2.2.2
+“Pope’s Revenge”
+When the sun shines on the Fernsehturm’s tiled stainless-steel dome, the reflection usually appears
+in the form of a Greek cross. Berliners nicknamed the luminous cross Rache des Papstes, or the
+“Pope’s Revenge”,[10][11] believing the Christian symbol a divine retaliation for the government’s
+removal of crosses from East Berlin’s churches. For the same reasons, the structure was also called
+“St. Walter” (from Walter Ulbricht). U.S. President Ronald Reagan mentioned this in his Tear
+down this wall speech on 12 June 1987.[11]
+[ ]:
+6

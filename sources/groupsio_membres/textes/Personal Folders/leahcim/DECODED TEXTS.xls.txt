@@ -1,0 +1,452 @@
+donkamote                                                                                                    B
+SC7#8
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+!@ @ 
+!@ @ 
+!@ @ 
+!@ @ 
+!@ @ 
+h!!@ @ 
+@ @ 
+Master K4
+# of row characters
+something significant here?
+K1:  KRYPTOS PALIMPSEST
+K2:  KRYPTOS ABSCISSA
+IQLUSION
+UNDERGRUUND
+DESPARATLY 
+why does each row is not full 29 or 30 or 31 or 32 or 33 char*
+X coordinate is commonly known as ABSCISSA
+some observations on K42
+why would Jim S. spend time to stress this part???
+Q U A quagmire?
+25 x 25 square -- hmmmm
+MbP?_
+DINU"
+SMTJ
+InputBin
+Tray1
+RESDLL
+UniresDLL
+HPPreAnalysis
+False
+MSPreAnalysis
+False
+HPReportSymmetricMargins
+False
+HPHideResizingOption
+True
+HPAlignMarginsForMD
+True
+Duplex
+NONE
+HPPrintPreview
+False
+HPOverSprayOption
+Automatic
+HPOverSpray
+HPBorderLessPhoto
+False
+HPCustomBorderless
+True
+HPOutputOrderReverse
+True
+HPOrientRotate180
+False
+JobUI
+True
+PaperSize
+LETTER
+Orientation
+PORTRAIT
+HPDocPropResourceData
+hpzhlw71.cab
+HPNUseDiffFirstPageChoice
+True
+HPMediaTypeDuplexConstraints
+PREPRINTED
+HPPrintInGrayScale
+False
+PrintQuality
+Normal
+PrintQualityGroup
+PQGroup_2
+HPColorMode
+COLOR_MODE
+HPPDLType
+PDL_PCL3
+HPTilingSelection
+True
+HPMediaTypeTreeviewPopup
+True
+ColorMode
+Color24
+MediaType
+PLAIN
+Resolution
+600dpi
+PQDPI
+Installed
+HPMirrorPrint
+False
+HPAutoDuplexScaling
+True
+HPPrintOnBothSidesManually
+False
+HPManualDuplexDialogItems
+InstructionID_01_FACEUP-NOROTATE
+HPManualDuplexPageRotate
+UserRotate
+HPManualFeedOrientation
+FACEUP
+HPSpeedMech
+FastDraft
+HPOutputBinOrientation
+FACEUP
+HPManualDuplexDialogModel
+Modal
+HPManualDuplexPageOrder
+OddPagesFirst
+HPMapManualFeedToTray1
+False
+HPConsumerCustomPaper
+HPCustom
+HPColorSelectionForHPA
+Enabled
+HPBornOnDate
+HPBOD
+HPInputColorSpace
+COLORSMART
+HPDriverData
+DriverData
+HPCustomSizeCommand
+TRUE
+HPSendPreloadCommand
+TRUE
+ESPRITSupported
+True
+HPRESDLLName
+HPFRSW71
+HPRedEyeReduction
+HPDigitalImaging
+HPHomePrinting
+HPSmartFocus
+HPContrast
+HPDigitalFlash
+HPSharpness
+HPSmoothing
+HPJpegPngPassthrough
+True
+HPReverseBandOrderForEvenPages
+ReverseBandOrder
+Halftone
+HT_PATSIZE_DEFAULT
+HPMDSideCount
+True
+HPHagakiPrinting
+TRUE
+HPHTDLLName
+HPFIGW71
+HPMHDLLName
+HPFIEW71
+HPHPAFilter
+True
+ManualDuplexPreventTimeout
+True
+HPICCPrinterFamily
+5700_6500
+HPCRDCommand
+True
+HPSendUnitMeasureCommand
+TRUE
+HPPaperSizeTreeviewPopup
+Metric
+HPSimplifiedUI
+True
+HPPosterPrintingOptionSUI
+False
+HPAutoEnhance
+True
+HPPhotoFix
+BASIC
+HPMaxDpi
+False
+HPSpecialtyInkSupport
+True
+DuplexForBPD
+True
+HPXMLFileUsed
+hpd2500t.xml
+HPCollieBeagleBasset
+True
+PSAlignmentFile
+HPZlAw71
+PSServicesOption
+Clean
+IUPH
+splwow64.exe
+IPACDRWDSGATCAPI
+PPBHAERP
+MbP?_
+DINU"
+SMTJ
+InputBin
+Tray1
+RESDLL
+UniresDLL
+HPPreAnalysis
+False
+MSPreAnalysis
+False
+HPReportSymmetricMargins
+False
+HPHideResizingOption
+True
+HPAlignMarginsForMD
+True
+Duplex
+NONE
+HPPrintPreview
+False
+HPOverSprayOption
+Automatic
+HPOverSpray
+HPBorderLessPhoto
+False
+HPCustomBorderless
+True
+HPOutputOrderReverse
+True
+HPOrientRotate180
+False
+JobUI
+True
+PaperSize
+LETTER
+Orientation
+PORTRAIT
+HPDocPropResourceData
+hpzhlw71.cab
+HPNUseDiffFirstPageChoice
+True
+HPMediaTypeDuplexConstraints
+PREPRINTED
+HPPrintInGrayScale
+False
+PrintQuality
+Normal
+PrintQualityGroup
+PQGroup_2
+HPColorMode
+COLOR_MODE
+HPPDLType
+PDL_PCL3
+HPTilingSelection
+True
+HPMediaTypeTreeviewPopup
+True
+ColorMode
+Color24
+MediaType
+PLAIN
+Resolution
+600dpi
+PQDPI
+Installed
+HPMirrorPrint
+False
+HPAutoDuplexScaling
+True
+HPPrintOnBothSidesManually
+False
+HPManualDuplexDialogItems
+InstructionID_01_FACEUP-NOROTATE
+HPManualDuplexPageRotate
+UserRotate
+HPManualFeedOrientation
+FACEUP
+HPSpeedMech
+FastDraft
+HPOutputBinOrientation
+FACEUP
+HPManualDuplexDialogModel
+Modal
+HPManualDuplexPageOrder
+OddPagesFirst
+HPMapManualFeedToTray1
+False
+HPConsumerCustomPaper
+HPCustom
+HPColorSelectionForHPA
+Enabled
+HPBornOnDate
+HPBOD
+HPInputColorSpace
+COLORSMART
+HPDriverData
+DriverData
+HPCustomSizeCommand
+TRUE
+HPSendPreloadCommand
+TRUE
+ESPRITSupported
+True
+HPRESDLLName
+HPFRSW71
+HPRedEyeReduction
+HPDigitalImaging
+HPHomePrinting
+HPSmartFocus
+HPContrast
+HPDigitalFlash
+HPSharpness
+HPSmoothing
+HPJpegPngPassthrough
+True
+HPReverseBandOrderForEvenPages
+ReverseBandOrder
+Halftone
+HT_PATSIZE_DEFAULT
+HPMDSideCount
+True
+HPHagakiPrinting
+TRUE
+HPHTDLLName
+HPFIGW71
+HPMHDLLName
+HPFIEW71
+HPHPAFilter
+True
+ManualDuplexPreventTimeout
+True
+HPICCPrinterFamily
+5700_6500
+HPCRDCommand
+True
+HPSendUnitMeasureCommand
+TRUE
+HPPaperSizeTreeviewPopup
+Metric
+HPSimplifiedUI
+True
+HPPosterPrintingOptionSUI
+False
+HPAutoEnhance
+True
+HPPhotoFix
+BASIC
+HPMaxDpi
+False
+HPSpecialtyInkSupport
+True
+DuplexForBPD
+True
+HPXMLFileUsed
+hpd2500t.xml
+HPCollieBeagleBasset
+True
+PSAlignmentFile
+HPZlAw71
+PSServicesOption
+Clean
+IUPH
+splwow64.exe
+IPACDRWDSGATCAPI
+PPBHAERP
+donkamote
+donkamote
+Microsoft Excel
+donkamoteorg
+Master K4
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial
+HP Deskjet D2500 series
+Letter
+HP Deskjet D2500 series
+Letter
+ [none]
+ [none]
+DONKAMOTE
+Print driver host for 32bit app
+None
+C:\Windows\splwow64.exe
+donkamote
+donkamote-PC
+&&&&&&&&&&&&&
+"''#
+))))&&&&&&&&)
+"**#
+ "**#
+!"**#
+""**#
+#"**#
+$"**#
+%"**#
+&"**#
+HP Deskjet D2500 series
+Letter
+HP Deskjet D2500 series
+Letter
+ [none]
+ [none]
+DONKAMOTE
+Print driver host for 32bit app
+None
+C:\Windows\splwow64.exe
+donkamote
+donkamote-PC
+&&&&&&&&&&&&&
+"''#
+))))&&&&&&&&)
+"**#
+ "**#
+!"**#
+""**#
+#"**#
+$"**#
+%"**#
+&"**#
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation

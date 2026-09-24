@@ -1,0 +1,388 @@
+[[page 1]]
+ Kryptos K4 via modified VIK CUT technique followed by Double Transposition via Tableaus 21 and 17. 
+Here is the description of the K4 "VIK CUT" and "ADD" to the front procedure as I believe described by 
+the artist in the 7x14 backwards version of K4. It is immediately followed by the double transposition 
+procedure which, among other things, demonstrates the linkage between the misspellings at positions 
+57 (L to Q) of K1, and 116 of K2 (O to U). This serves to link both LO to JFK and 57, possibly the year,  to 
+UU=U2. You can see the 7x14 table with the VIK CUT ADD instructions, the VIG O hint, the OSS arrow, 
+and the aligned doublets in the file 7x14 in this directory. Here is how it works: 
+ 
+First, divide K4 into 16 blocks according to the message statistics series: 63 369 336 97, such that this 
+equals 97 which is the length of K4 [6+3+3+6+9+3+3+6+9+(7²=7+7+7+7+7+7+7)]: 
+ 
+1.OBKRUO (6) 2.XOG(3) 3.HUL(3) 4.BSOLIF(6) 5.BBWFLRVQQ(9) 6.PRN(3) 7.GKS(3) 8.SOTWTQ(6) 9. SJQSSEKZZ(9)= 48 
+10. WATJKLU(7) 11. DIAWINF(7) 12. BNYPVTT(7) 13.MZFPKWG(7) 14.DKZXTJC(7) 15.DIGKUHU(7) 16.AUEKCAR (7)=49 
+The "VIK CUT" in K4 is constructed to get an "A to Z" match-up with the first columnar transposition so 
+the blocks 16 to 10 are placed 16 to 1, 15 to 2 etc. until 10 to 7. The remaining blocks (original 1-9) are 
+now 8 to 16 in their original order so the text order is:  
+AUEKCARDIGKUHUDKZXTJCMZFPKWGBNYPVTTDIAWINWATJKLUOBKRUOXOGHULBSOLIFBBWFLRVQQP
+RNGKSSOTWTQSJQSSEKZZ 
+This string is placed into a set of columnar transposition tables. The hints for lengths of the keywords 
+were provided by the distances between the organized doublets in K4: 7 7 10 4 21 which also provides 
+the hint for alignment of the 7x14 array discussed previously. Continue 7+10=17 + 4=21. The keywords 
+themselves were theorized based on a "direction finding" simulation exercise using the direction of the 
+Kryptos compass (249 degrees as the needle points on the dial out of Langley/DC) and triangulated with 
+the length, in degrees, of K4, at 97 West, (249 rhumbline from Langley at 97West is Dallas at 33N, 97W), 
+and noting the length of K1 at 63, the placement of misspellings involving the letters L.O. , misspellings 
+in columns 11 and 22, the "extra L" read over to O, the number and placement patterns of the question 
+marks, and the shape of various  items on the Sculptor's design model, among other things. 
+ 
+ 
+ 
+ 
+ 
+
+[[page 2]]
+First transposition: 
+J 
+O 
+H 
+N 
+F 
+I 
+T 
+Z 
+G 
+E 
+R 
+A 
+L 
+D 
+K 
+E 
+N 
+N 
+E 
+D 
+Y 
+11 
+17 
+9 
+14 
+7 
+10 
+19 
+21 
+8 
+4 
+18 
+1 
+13 
+2 
+12 
+5 
+15 
+16 
+6 
+3 
+20 
+K 
+V 
+I 
+L 
+W 
+F 
+O 
+S 
+P 
+U 
+N 
+A 
+X 
+A 
+K 
+T 
+I 
+W 
+Z 
+G 
+S 
+L 
+Q 
+A 
+B 
+G 
+W 
+T 
+E 
+V 
+D 
+G 
+U 
+O 
+R 
+R 
+J 
+F 
+F 
+F 
+K 
+J 
+U 
+Q 
+W 
+S 
+B 
+A 
+W 
+K 
+T 
+K 
+K 
+E 
+G 
+D 
+U 
+C 
+B 
+L 
+P 
+U 
+Q 
+O 
+P 
+I 
+O 
+N 
+T 
+T 
+Z 
+T 
+Z 
+S 
+K 
+H 
+I 
+O 
+M 
+B 
+R 
+K 
+H 
+S 
+B 
+R 
+N 
+L 
+Y 
+J 
+Q 
+Z 
+D 
+X 
+S 
+C 
+U 
+ZZ 
+ZZ 
+ZZ 
+ZZ 
+ZZ 
+ZZ 
+ZZ 
+ZZ 
+ 
+Note the vertical JKL in the upper left hand corner of this chart. My theory is that this is a confirmation 
+signal to follow this transposition (Tableau 21) with Tableau 17, keyword JOHNKENNEDYLANCER. Lancer 
+was JFKs Secret Service Cryptonym. We take the results of the first transposition out by row and put it 
+into the columns of Tableau 17 by column number. ZZ means a block box. 
+ 
+Second transposition: 
+J 
+O 
+H 
+N 
+K 
+E 
+N 
+N 
+E 
+D 
+Y 
+L 
+A 
+N 
+C 
+E 
+R 
+8 
+15 
+7 
+11 
+9 
+4 
+12 
+13 
+5 
+3 
+17 
+10 
+1 
+14 
+2 
+6 
+16 
+F 
+R 
+O 
+C 
+S 
+I 
+O 
+T 
+Q 
+N 
+Z 
+K 
+K 
+H 
+F 
+E 
+N 
+K 
+K 
+R 
+B 
+B 
+W 
+P 
+Z 
+A 
+A 
+D 
+K 
+V 
+I 
+O 
+V 
+L 
+J 
+H 
+R 
+L 
+A 
+Z 
+I 
+T 
+B 
+X 
+X 
+E 
+I 
+O 
+S 
+D 
+Y 
+U 
+S 
+J 
+P 
+W 
+G 
+O 
+Z 
+G 
+A 
+S 
+G 
+L 
+M 
+P 
+G 
+J 
+Q 
+B 
+F 
+U 
+K 
+S 
+N 
+S 
+W 
+K 
+C 
+D 
+W 
+B 
+U 
+U 
+Q 
+W 
+R 
+F 
+Q 
+T 
+L 
+T 
+K 
+T 
+T 
+U 
+U 
+ZZ 
+ZZ 
+ZZ 
+ZZ 
+ZZ 
+ 
+After completing Tableau 21 we note the curious fact that in the upper left hand corner it now reads 
+vertically JFK, seemingly pointing back to Tableau 21? Note further that the text when taken out by rows 
+starts FRO and ends TUU. JFK points to JKL which points to JFK and FRO and TUU (shouldn't it be to and 
+fro?). Perhaps this is a little suspicious. Let's see if there is another way to validate the charts and this 
+methodology as serving a designed function in Kryptos. 
+We will test the transposition algorithm on the first three letters written into Tableau 21 to see if this 
+matches up with any other known design feature, like YAR, the misspellings, etc: The first three letters 
+are AUE. 
+A is letter 1 written into Tableau 21 in column number 1. It becomes letter 12 when taken out by row 
+and put into Tableau 17 as second letter in column 3, and is taken out at the end as number 27. U is 
+taken out of Tableau 21 as number 33 and put into Tableau 17 at the bottom of  column number 6. This 
+causes it to end up as number 84, etc. 
+ 
+
+[[page 3]]
+ 
+Into JFK (T21) 
+Out of JFK (T21) 
+Into JKL (T17) 
+Out of JKL (T17) 
+Position relative to 
+Number 1 
+A=1 
+12  
+12 (column 3) 
+27 
+27-27=0 
+U=2 (U2) 
+33 
+33 (column 6) 
+84 
+84-27=57 
+57 is L to Q in K1 
+E=3 
+54 
+54 (column  10) 
+46 mod 97 
+(46+97=143) 
+143-27=116 
+116=O to U in K2 
+ 
+So the double transposition routine algorithm (Tableaus 21 and 17 in this exact keyword order) appears 
+to have a validation design in the positioning of the misspellings? These also link L.O. to JFK and 57 to U2 
+in case that interests anyone. Likewise, the columns in which misspellings occur (11 22 etc.) contain the 
+letter sequence KAIN inside the K4 segment with a few interesting interpretations applicable to both 
+situations. 
+Note that the testing of the double transposition algorithm against the misspelling positions 57 and 116, 
+on a mod97 basis has nothing to do with the modified VIK CUT procedure described above. Other tests 
+show that this is the procedure that fits the "A to Z" theory and the  JKL and JFK "signals" in the upper 
+left hand corner, not to mention the text FRO and TUU. 
+The VIK CUT and double transposition routine described above has been placed for discovery into one 
+other "double art work" routine made by Jim Sanborn, in effect providing a link between Kryptos and 
+the Cyrillic Projector. How this works is described in another note entitled "MEDUSA and FORKYS etc" in 
+Kent R Files. In this case drawing attention to the Quagmire 2 decryption method used in the Cyrillic 
+Projector which was solved by Frank Corr, an official of the American Cryptogram Association. 
+It is not presently known whether this transposition routine has a role in the solution of the remaining 
+unsolved 97 letters, is a dead-end, or side track  design of some sort, or as was recently suggested at the 
+NSA Symposium, perhaps is part of telling a Kryptos and/or CIA Story via Classic Cryptography tools, or a 
+combination of the above./KR 
+ 
+ 

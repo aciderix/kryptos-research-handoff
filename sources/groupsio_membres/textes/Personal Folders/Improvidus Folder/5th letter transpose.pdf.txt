@@ -1,0 +1,458 @@
+[[page 1]]
+This is a 97 letter panagram that I downloaded to test the 5th letter transposition.
+“Jelly like above the high wire six quaking pachyderms kept the climax of the extravaganza
+in a dazzling state of flux”
+I put it into this table and pulled every 5th letter.  That’s what the next table below it is.
+J
+E L L
+1
+2
+3
+4
+Y L
+I
+K E A B O V E T H E H
+I
+G H W I
+R E S
+I
+X Q U A K
+I
+N G
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+P A C H Y D E R M S K E P T T H E C L
+I M A X O F T H E E X T
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+R A V A G A N Z A
+I
+N A D A Z Z L
+I
+N G S T A T E O F F L U X
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+Red = Cell Number,  Green = Letter Number … The little red numbers above.
+5 10 15 20
+y
+a
+t
+g
+1
+2
+3
+4
+25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 3
+8 13 18 23 28 33 38 43 48 53 58 63 68 73 78
+e
+u
+g
+y
+s
+t
+i
+f
+x
+a
+a
+a
+n
+t
+l
+l
+k
+v
+h
+i
+x
+i
+c
+r
+p
+c
+x
+e
+a
+n
+a
+5
+6
+7
+8
+9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35
+83 88 93 1
+6 11 16 21 26 31 36 41 46 51 56 61 66 71 76 81 86 91 96 4
+9 14 19 24 29 34 39
+l
+t
+f
+j
+l
+b
+h
+h
+s
+a
+p
+d
+k
+h m
+t
+t
+g
+i
+z
+g
+e
+u
+l
+e
+e
+i
+r
+q
+n
+h
+36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66
+44 49 54 59 64 69 74 79 84 89 94 2
+7 12 17 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97
+m
+t
+l
+o
+e
+v
+z
+d
+i
+a
+f
+e
+i
+o
+e w
+i
+k
+a
+e
+e
+e
+a
+h
+r
+a
+n
+z
+s
+o
+x
+67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97
+O B K R
+1
+2
+3
+4
+U O X O G H U L B S O L
+I
+F B B W F L R V Q Q P R N G K S S O
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+T W T Q S
+J Q S S E K Z Z W A T
+J K L U D
+I
+A W I
+N F B N Y P
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+V T T M Z F P K W G D K Z X T
+J
+C D
+I
+G K U H U A U E K C A R
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85 896 87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+Above is the K4 cipher.  Below is how it looks when transposed back.
+Q K B W
+1
+2
+3
+4
+O S Z W I
+B
+J X F N K Q T L F R S
+J
+R B U S C V N O E D Q Y X
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+K
+I
+Q P O Z G P V G Z K R T H W U N T U A H G M L T U K Z B
+J
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+A S F S K U S P O L E O K L U K T W I
+D C W G F
+I
+A T D B A R
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97

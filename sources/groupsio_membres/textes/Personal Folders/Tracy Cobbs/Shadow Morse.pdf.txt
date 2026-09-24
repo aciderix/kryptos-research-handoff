@@ -1,0 +1,134 @@
+[[page 1]]
+   The basic cryptographic discovery that I’ve made is a 
+simple substitution code that I’ve been calling “Shadow 
+Morse”.  We know that Sanborn has said that one of his 
+artistic themes is light and shadow, and the word SHADOW is 
+right there in the Morse. 
+ 
+   To form Shadow Morse, simply change every dit to a dah, 
+and every dah to a dit.  This forms the table in the upper 
+right hand corner of my worksheet.  Since correspondences 
+are two-way or reflective, I only wrote each letter once 
+rather than writing the complete alphabet in the left 
+column. 
+ 
+   Next, convert every K0 Morse segment into its 
+corresponding shadow equivalent.  Sanborn has made 
+statements that the alignment or orientation of certain 
+letters in Kryptos is important and this is true of the 
+Morse just as much as it is of the courtyard sculpture.  
+Since 5 of the 7 segments consist of 2 lines of Morse and 
+some Morse letters are longer than others, writing these 
+out on graph paper or in a monospace font gives an 
+inadequate representation of those alignments.  I did make 
+some attempt on my worksheet to indicate those alignments, 
+but it does a pretty crappy job of it.  I’d urge you to 
+look at Jim Gillogly’s pics of the Morse (or any other pics 
+of it that you have) to get a better view of those 
+alignments. 
+ 
+   I believe that the shadow morse translation contains 
+many references to the courtyard sculpture.  Some of these 
+ideas are speculative, but I’ll lay out what I believe I’ve 
+identified. 
+ 
+SOS : I believe that OSO is a reference to the visual 
+nature of the courtyard sculpture when viewed from above.  
+One of the themes of Kryptos is the progression of 
+cryptography from linear, 1D codes (such as Morse), to 2D 
+codes such as Vigenere or Quagmire, to (perhaps?) spatial 
+forms of encoding.  So, traveling into the 3rd dimension to 
+get a view of Kryptos from above, we can see that the 
+copperplate forms an S and the pool beneath the tableau 
+side is one of the O’s.  (Since making this observation, 
+I’ve wondered if there’s anything in particular in the 
+corresponding area bounded by the CT side.  Did you notice 
+anything there when you visited the courtyard?) 
+ 
+
+[[page 2]]
+RQ:  Several of the shadow morse sequences refer to 
+specific lines of the copperplate, I believe.  KF in this 
+case seems to refer to the 10th line of the CT side, which 
+ends in KF.  The PT of this line contains the reference to 
+WW, and I believe this is a major hint to focus on doubled 
+letters as we work through the steps of solving K4.  (I 
+have other evidence supporting this belief which I’ll keep 
+under my hat for now.) 
+ 
+LUCIDEEE 
+MEMORYE: The shadow morse equivalent of LUCIDEEE doesn’t 
+have any meaning that I’ve been able to discover, but the 
+untranslated reading of it definitely does.  More on that 
+later.  In addition, I believe there are some stego 
+messages found by reading the engraved dits and dahs (not 
+the shadow dits and dahs) of LUCID (dropping the 3 “spacer” 
+E’s) in reverse, or from east to west.  My friend Eric 
+Harshbarger once created a puzzle based on non-delimited 
+morse and wrote an app to help solve such sequences 
+(http://www.ericharshbarger.org/epp/2010/unmorser.html), so 
+that helped in finding these messages, since non-delimited 
+morse can be parsed in a huge number of ways.  One of the 
+messages I believe was intended is EAST WEST E.  There’s 
+one more that I won’t disclose for now, and there may be 
+others that I haven’t noticed yet. BTW, on the subject of 
+those “spacer” E’s, I believe I have some idea of the 
+significance of most of those.  This has probably been 
+noted by some folks in the Kryptos Group before, so I can’t 
+claim it as my own discovery.  For this morse segment, I 
+believe the 3 dots after LUCID and the 1 dot after MEMORY 
+refer to the 31 columns of the tableau side and of Jim’s 
+worksheets and the fact that all of the lines of K4 on the 
+sculpture have 31 characters, unlike the varying numbers of 
+characters per line in all the other sections. 
+ 
+T IS YOUR 
+POSITION: My worksheet doesn’t do an adequate job of 
+capturing the alignment of these letters, but I believe 
+they form a “word picture” that roughly translates to “X 
+some KGB moles”.  In addition, interpreting the T IS YOUR 
+line (as engraved, not the shadowed version) as a non-
+delimited string from east to west can produce the message 
+END MORSE T, which I believe is another stego message. 
+ 
+DIG(E)TALEEE 
+INTERPRETATIT: I believe this is a reference to another 
+specific line in the CT, this one being the 4th line of K3.  
+
+[[page 3]]
+I believe this line, in conjunction with other information 
+and discoveries, leads to the key that gets us through the 
+first doorway to the solution to K4.  I think the second 
+line is another sort of “word picture” that I’d interpret 
+as symbolizing the Cold War.  The K(ryptos) team is pulling 
+in one direction, while the K-T(eam) enemy is pulling in 
+the other.  In support of that reading, I’d note that the 
+two halves of this shadow string read in opposite 
+directions and the unshadowed equivalent of K is R.  When 
+you reflect an R, you get the Cyrillic letter YA, which 
+certainly has been noted in the Kryptos Group before. 
+ 
+EEVIRTUALLY 
+EEEEEEINVISIBLE : The significant features of this one are 
+the doubled letters (YY), and the 2 spacers/6 spacers 
+referring to the 26 letters of the alphabet. Also, the fact 
+that E INVISIBLE is a palindromic sequence has been noted 
+before.  Perhaps the shadow reading of this one is also 
+Jim’s way of saying “Hi MOM” (LOL). 
+ 
+EESHADOWEE 
+FORCESEEEEE: Note that the unshadowed morse reading of this 
+one begins with the word SEE reading from east to west, and 
+directly below that in the shadow reading we get a Q.  I 
+believe this is a reference to the ending of K3 “X can you 
+see anything Q”.  With regard to the spacers, I interpret 
+the 2 and the 5 as referring to a 5-digit binary number 
+which can have a value up to 31, which we already know is a 
+significant number.  In addition, I just noted during the 
+process of typing up these notes that FORCES contains a CES 
+corresponding to the misspelling PALIMPCEST, so I applied 
+that to the shadow translations of PALIMPCEST and ABSCISSA 
+as shown.  Since I just discovered that, I’ll have to 
+explore its significance as I try to make my way through 
+further doorways. 
+ 

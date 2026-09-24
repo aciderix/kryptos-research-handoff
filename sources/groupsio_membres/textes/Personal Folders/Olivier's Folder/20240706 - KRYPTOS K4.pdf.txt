@@ -1,0 +1,1440 @@
+[[page 1]]
+Kryptos K4 Code – A possible deciphering method 
+ 
+Olivier ROLIN, July 2024 
+ 
+I. Introduction 
+The objective of this paper is not to propose a complete or definitive solution to the famous KRYPTOS K4 
+code, but simply to share some thoughts and encourage debate to continue the search for the solution. 
+It simply suggests exploring a possible ciphering method, which: 
+- 
+Can explain the clues revealed by the creators of the KRYTPOS sculpture (words “EAST NORTHEAST” 
+and “BERLIN CLOCK”). 
+- 
+Give a possible explanation for the anomaly in the DY A HR sequence present in the upper left corner of 
+the second panel of the sculpture. 
+- 
+Propose a solution for the beginning of the K4 code and some possible results for decrypting the rest of 
+the message. 
+The proposed method is quite simple, based on the successive application of two Vigenère codes. The key 
+used for the first one (1st layer of coding) would be a sentence taken from American literature. The second one (2nd 
+layer of coding) would use a mathematical sequence of letters as the coding key. 
+If this method is the one actually used, the difficulty remains the full discovery of the second key, which refers 
+to geometric sequences of letters and which should likely be hidden in the rest of the sculpture according to a 
+method which remains to be discovered. The DY A HR sequence probably plays a role in the definition of this 
+mathematical stream of letters. 
+II. Main available information regarding the K4 code 
+Without claiming to be exhaustive, statements taken for granted for the K4 code can be summarized as follows: 
+- 
+The K4 code has 97 characters, which is very few to allow statistical processing to find the encryption 
+method.  
+- 
+The encryption process includes at least two successive encoding layers. 
+- 
+According to the creators of the sculpture, a masking technique was used to make the application of 
+decryption methods more complex and prevent “brute force” approaches. 
+- 
+The upper left corner of the second panel of the sculpture features some offset letters (DY A HR anomaly) 
+which are believed to play a role in the encryption method used for the K4 code. 
+- 
+It seems that the K4 code is not the final step of the solving process and that there could be a hidden K5 
+code, the resolution of which could not take place without having previously solved the K4 code. 
+- 
+Several elements of the solution were revealed by the creators of the sculpture: “EAST NORTHEAST” 
+(position 21-33) and “BERLIN CLOCK” (position 63-73). 
+III. 
+Possible encryption method used for the K4 code 
+a) Encryption method principles 
+The encryption method used for the K4 code could be based on the successive application of two layers of 
+Vigenère code. 
+The keys corresponding to each of these codes were defined using the two available clues provided by the 
+creators of the sculpture : “FLRVQQPRNGKSS” means “EASTNORTHEAST” (position 21-33) and 
+“VTTMZFPK” means “BERLINCLOCK” (position 63-74). 
+
+[[page 2]]
+First encryption layer 
+The first layer would be Vigenère code based on a sentence from an 
+American book “Two hundred miles on the Delaware River” published in 
+1867 by Hoff, J. Wallace (https://www.loc.gov/item/01021510/). 
+The specific sentence used would be : “[… ] clear cut against the dark 
+blue sky, Luna's upper edge appeared, forming an enchanting background 
+for the display of the feathery limbs and leafy tree tops on the brow of the 
+rocky eminence.” (the first word “Then” is eluded). 
+Why this sentence? 
+I have not been able to determine whether this book, its subject matter, 
+or its author have any particular connection to Langley or the creators of 
+Kryptos. 
+But, it can be noted that: 
+- 
+This sentence could be a very suitable answer to the question 
+concluding the K3 code: “Can you see anything?”; 
+- 
+This sentence was discovered based on available clues located in 
+the middle of the code; however, it fits perfectly the start of the 
+K4 code, by removing the first word “Then” from the full 
+sentence. 
+ 
+All of this data can be summarized as follows: 
+ 
+Second encryption layer 
+The second layer would be a Vigenère using a key based on geometric sequences of letters, according to the 
+Kryptos alphabet. These sequences are defined by: 
+- 
+A first letter, corresponding to the starting letter of the sequence. 
+- 
+A second letter, corresponding to the constant shift interval between two consecutive letters of the 
+sequence. 
+For example, the sequence associated with the letters D and Y is as follows: 𝐷 
++𝑌
+→ 𝐹
++𝑌
+→ 𝐻
++𝑌
+→ 𝐽
++𝑌
+→ 𝑀…, which 
+gives the sequence DFHJM… 
+By convention, we can note this sequence DY: as we will see next, I think that these sequences are linked to 
+the DY A HR anomaly located at the upper left corner of the second panel of the sculpture. 
+Finally, it should be noted that these sequences of letters are quite comparable to the operating principles of 
+the famous Berlin Clock or Mengenlehreuhr, which appears in the solution given by Jim Sanborn and whose 
+principles were widely thought to have inspired the coding method. 
+ 
+ 
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+O
+T
+W
+T
+Q
+S
+J
+Q
+S
+S
+E
+K
+Z
+Z
+W
+A
+T
+J
+K
+L
+U
+D
+I
+A
+W
+I
+N
+F
+B
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+W G
+D
+K
+Z
+X
+T
+J
+C
+D
+I
+G
+K
+U
+H
+U
+A
+U
+E
+K
+C
+A
+R
+C
+L
+E
+A
+R
+C
+U
+T
+A
+G
+A
+I
+N
+S
+T
+T
+H
+E
+D
+A
+R
+K
+B
+L
+U
+E
+S
+K
+Y
+L
+U
+N
+A
+S
+U
+P
+P
+E
+R
+E
+D
+G
+E
+A
+P
+P
+E
+A
+R
+E
+D
+F
+O
+R
+M
+I
+N
+G
+A
+N
+E
+N
+C
+H
+A
+N
+T
+I
+N
+G
+B
+A
+C
+K
+G
+R
+O
+U
+N
+D
+F
+O
+R
+T
+H
+E
+D
+I
+S
+P
+L
+A
+Y
+O
+F
+T
+H
+CODE K4
+1st LAYER - VIGENERE KEY
+
+[[page 3]]
+b) Application of this method to available clues 
+The application of these principles leads to the following results: 
+ 
+First Clue “EAST NORTHEAST” (Position 21-33) 
+- 
+The TN sequence makes it possible to explain 10 of the 13 letters of this clue, which constitutes, in my 
+opinion, a very good result (or at least a rather promising result). 
+- 
+The sequences located at both ends of the clue (?R and V?) cannot be, at this stage, completely determined: 
+for the sequence ?R, we do not know where its start is located in the code and so the first letter used. For 
+the sequence V?, it is impossible to determine the shift used from a single letter. 
+Second Clue “BERLIN CLOCK” (Position 63-73) 
+- 
+The sequences are shorter than for the first clue, between 3 and 4 characters: DH (4 characters), MT (3 or 
+4 characters), KK (3 or 4 characters): in fact, these last two sequences have the letter K in common at one 
+end, which does not make it possible to determine their exact length. 
+- 
+This method gives “CLOQK” as the solution instead of “CLOCK”, which does not necessarily seem 
+insurmountable, especially since this error could recall the one appearing in the solution of the K1 code 
+(“IQLUSION” instead of “ILLUSION”). 
+- 
+The method also requires an inversion of two letters T and N, in the first Vigenère code (“ENCHATNING” 
+instead of “ENCHANTING”). This point could be seen as a weakness of the proposed solution, but I do 
+not have the impression that it is, in itself, a sufficient reason to definitively rule it out. 
+IV. 
+Beginning of the K4 Code and DY A HR anomaly 
+The application of this method leads to very interesting results for the beginning of the K4 code, especially 
+concerning the first seven letters by using the geometric sequence DY. 
+ 
+This result leads to believe that the solution to the K4 code would start with “FORTY YARDS”. It appears 
+interesting for at least two reasons: 
+- 
+This would be consistent with the expected content of the solution, which is supposed to indicate a precise 
+location, in connection with the 1st clue pointing to the direction “EAST NORTHEAST”. 
+- 
+The DY sequence establishes a direct link with the DY A HR anomaly, which many people believe must 
+play a role in the decryption of the K4 code. 
+Unfortunately, this method does not produce results beyond the first seven letters, and I propose two 
+alternative solutions below to achieve a consistent message for the first line of the K4 code. 
+ 
+ 
+21 22 23 24 25 26 27 28 29 30 31 32 33
+63 64 65 66 67 68 69 70 71 72 73
+CODE K4
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+1st LAYER KEY
+K
+B
+L
+U
+E
+S
+K
+Y
+L
+U
+N
+A
+S
+H
+A
+T
+N
+I
+N
+G
+B
+A
+C
+K
+R
+Y
+T
+W
+J
+C
+Y
+U
+H
+A
+K
+N
+V
+W D
+X
+F
+K
+M
+V
+K
+K
+K
+K
+V ?
+? ?
+SOLUTION
+E
+A
+S
+T
+N
+O
+R
+T
+H
+E
+A
+S
+T
+B
+E
+R
+L
+I
+N
+C
+L
+O
+Q
+K
+2nd LAYER KEY
+? R
+T N
+D H
+M T
+K K
+0
+1
+2
+3
+4
+5
+6
+CODE K4
+O
+B
+K
+R
+U
+O
+X
+1st LAYER KEY
+C
+L
+E
+A
+R
+C
+U
+D
+F
+H
+J
+M Q
+V
+SOLUTION
+F
+O
+R
+T
+Y
+Y
+A
+2nd LAYER KEY
+D Y
+
+[[page 4]]
+a) Solution n°1: Operating a rearrangement of the first layer key 
+The idea is that the key of the 1st layer "Clear cut against the dark blue sky, Luna's upper edge appeared …" 
+can be rearranged by sequence of several letters. 
+By proceeding in this way, we can find the following solution: “FORTY YARDS RUD. HOUR[H]AND EAST 
+NORTHEAST”. 
+ 
+Pros 
+- 
+It gives a consistent solution linked to the indication of a specific location. 
+- 
+It reveals the sequence OH, which immediately follows the anomaly DY A HR anomaly in the K3 code, 
+reinforcing the idea that this specific sequence contains information to create the geometric stream of 
+letters used for coding. 
+- 
+Finally, note that the sequences AB and OH give the same result for character n°13 (solution “H”), which 
+would allow the start of the code to be divided into three sequences of 7 letters. On the other hand, we 
+would lose the OH sequence which would become NH : 
+ 
+Cons 
+- 
+The solution has a mistake in the term “HOURWAND” (instead of “HOURHAND”), unless it should be 
+read “HOUR W AND”, the solution obviously having something to do with clocks. 
+- 
+The AB sequence used for characters 7-12 does not appear anywhere on the sculpture, with the obvious 
+exception of the two panels coding the KRYPTOS alphabet. 
+- 
+The rearrangement of the key of the first layer appears, at this stage, arbitrary (positioning and length of 
+the sequences) and I have not found a logical method allowing to reproduce such a result. 
+b) Solution n°2: Inclusion of a hidden K5 code in the K4 code solution 
+The existence of a K5 code is a serious hypothesis to take into account. In particular, the creators of the 
+sculpture stated that such a code could not be solved without previously decoding the K4 code. 
+A possible hypothesis is that this code is directly embedded in the K4 code, which can lead to the appearance 
+of sequences that do not seem to have any meaning in the K4 solution. I propose such a solution below using the 
+full DY A HR anomaly: 
+ 
+ 
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+CODE K4
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+1st LAYER KEY
+C
+L
+E
+A
+R
+C
+U
+R
+M
+I
+N
+G
+A
+G
+A
+I
+N
+S
+T
+T
+H
+?
+?
+L
+U
+E
+S
+K
+Y
+L
+U
+N
+A
+S
+D
+F
+H
+J
+M Q
+V
+P
+E
+N
+R
+C
+L
+O
+N
+A
+U
+C
+W
+E
+Z
+?
+?
+T
+W
+J
+C
+Y
+U
+H
+A
+K
+N
+V
+V ?
+SOLUTION
+F
+O
+R
+T
+Y
+Y
+A
+R
+D
+S
+R
+U
+D
+H
+O
+U
+R
+W
+A
+N
+D
+E
+A
+S
+T
+N
+O
+R
+T
+H
+E
+A
+S
+T
+T N
+O H
+? ?
+2nd LAYER KEY
+D Y
+A B
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+CODE K4
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+1st LAYER KEY
+C
+L
+E
+A
+R
+C
+U
+R
+M
+I
+N
+G
+A
+N
+A
+I
+N
+S
+T
+T
+H
+?
+?
+L
+U
+E
+S
+K
+Y
+L
+U
+N
+A
+S
+D
+F
+H
+J
+M Q
+V
+P
+E
+N
+R
+C
+L
+Z
+N
+A
+U
+C
+W
+E
+Z
+?
+?
+T
+W
+J
+C
+Y
+U
+H
+A
+K
+N
+V
+V ?
+SOLUTION
+F
+O
+R
+T
+Y
+Y
+A
+R
+D
+S
+R
+U
+D
+H
+O
+U
+R
+W
+A
+N
+D
+E
+A
+S
+T
+N
+O
+R
+T
+H
+E
+A
+S
+T
+T N
+2nd LAYER KEY
+D Y
+? ?
+A B
+N H
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+CODE K4
+O
+B
+K
+R
+U
+O
+X
+O
+G
+H
+U
+L
+B
+S
+O
+L
+I
+F
+B
+B
+W
+F
+L
+R
+V
+Q
+Q
+P
+R
+N
+G
+K
+S
+S
+1st LAYER KEY
+C
+L
+E
+A
+R
+C
+U
+T
+A
+G
+A
+I
+N
+S
+T
+T
+H
+E
+D
+A
+R
+K
+B
+L
+U
+E
+S
+K
+Y
+L
+U
+N
+A
+S
+D
+F
+H
+J
+M Q
+V
+P
+O
+A
+C
+E
+G
+I
+H
+I
+J
+L
+M N
+Q
+R
+Y
+T
+W
+J
+C
+Y
+U
+H
+A
+K
+R
+Q
+V ?
+SOLUTION
+F
+O
+R
+T
+Y
+Y
+A
+X
+R
+Q
+O
+L
+Y
+E
+G
+X
+E
+D
+S
+B
+Y
+E
+A
+S
+T
+N
+O
+R
+T
+H
+E
+A
+X
+S
+T N
+D Y
+P Y
+H R
+R R
+2nd LAYER KEY
++A
++A
+
+[[page 5]]
+Then the solution would be : « FORTY YA[E]DS BY EAST NORTHEAST” with an inserted sequence framed 
+by two Xs “XRQOLYEGX” and which could correspond to a new K5 code. 
+Pros 
+- 
+It allows full use of the DY A HR anomaly, which should be understood like this: the pairs pf letters DY 
+and HR correspond each to a sequence of 2x7 letters and the isolated letter A introduces a jump between 
+the seventh and eighth letters. 
+- 
+The sequence which does not correspond to anything “XRQOLYEGX” is framed by two X’s, and could 
+be seen as isolated from the rest of the solution. It should also be noted that the character X is also used 
+as a separator in the solution to the K2 code. 
+Cons 
+- 
+Postulating the existence of a meaningless sequence within the solution of the K4 code could be a too 
+easy solution, even if the framing of this sequence by the two X's could moderate this assumption. 
+- 
+The last sequence of 7 letters is interrupted after 2 characters, which would suggest that K4 is coded on 
+the basis of a 23-characters lines. Note that this 23rd position could be linked to the position of the spelling 
+error in the K2 solution ("UNDERGRUUND" instead of "UNDERGROUND"), about which Jim Sanborn 
+declared it has some importance. 
+c) The DY A HR anomaly 
+The anomaly in the upper left corner of the second panel of the sculpture, causing certain letters to appear 
+offset comparing to the rest of the text, has been noticed for a long time and is necessarily important. 
+ 
+ 
+ 
+ 
+The method propsed here would make it possible to give an explanation to this anomaly, using several pairs 
+of letters used in this part of the sculpture: 
+- 
+DY for the “FORTY YA[…]” part (position 0 to 6). 
+- 
+OH for the “HOUR[W}AND” part (position 13 to 20) in the solution n°1 above. 
+- 
+Complete DY A HR sequence for “FORTY YA[…]RDS BY” (position 0 to 22) in the solution n°2 above. 
+- 
+TN for the “STNORTHEAS” part (position 23 to 32). 
+The meaning of the isolated A, in the DY A HR anomaly, remains obscure in this approach. 
+The solution n°2 propose an interpretation but several solutions are still possible, without claiming to exhaust 
+the range of possibilities: 
+- 
+It could correspond to the length of the sequence DY (A being the 8th letter of the KRYPTOS alphabet and 
+the DY sequence having 7 characters). 
+- 
+It could be the abscissa to be used for the start of the sequence, its length being predicted or coded 
+elsewhere. 
+- 
+If we admit the possibility of rearranging the key of the 1st layer, it could also refer to the abscissa to be 
+taken into account for this first coding step. 
+- 
+Finally, it could refer to the following sequence to use, located elsewhere in the rest of the sculpture. 
+E
+N
+D
+Y
+A
+H
+R
+O
+H
+N
+C
+H
+T
+N
+R
+E
+Y
+U
+L
+D
+T
+P
+R
+N
+G
+A
+T
+I
+H
+N
+W M
+T
+W N
+D
+I
+T
+E
+E
+T
+F
+O
+L
+S
+E
+D
+T
+I
+W
+
+[[page 6]]
+d) Where is the location indicated by the K4 code ? 
+The solution to the K4 code would point to a location 40 yards 
+in the East-North-East direction. There is, however, a well-known 
+difficulty concerning the starting point: 
+- 
+Either this is the location of the sculpture: 38° 57′ 8.1″ N, 
+77° 08′ 44.8″ W 
+- 
+Either this is the location defined in the K2 code solution, 
+which differs slightly by around 55 yards: 38° 57′ 6.5″ N, 
+77° 08′ 44″ W 
+The two sites are shown here, leading inside the building, 
+ 
+ 
+V. Some thoughts to solve the rest of the K4 code 
+In the absence of a clear vision on how the geometric sequences of letters for the second layer are generated, 
+it is difficult, at this stage, to have a complete solution of the K4 code. However, below are some possible solutions 
+which reveal intelligible sequences in English and which could, without certainty, be part of the solution. 
+Position 44-51: “RAID OVER” 
+ 
+Position 53-73 : “LAYS AS IT’S A BERLIN CLOCK” 
+ 
+Position 91-96 : “HALL UP” 
+ 
+Note that this solution may be of interest if we remember that the location indicated at the beginning of code 
+K4 (40 yds direction East NorthEast) seems to be located in one of the halls of the building. 
+44 45 46 47 48 49 50 51
+CODE K4
+E
+K
+Z
+Z
+W
+A
+T
+J
+1st LAYER KEY
+P
+P
+E
+A
+R
+E
+D
+F
+A
+J
+Z
+B
+L
+K
+C
+P
+P ?
+SOLUTION
+R
+A
+I
+D
+O
+V
+E
+R
+2nd LAYER KEY
+A C
+53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73
+CODE K4
+L
+U
+D
+I
+A
+W
+I
+N
+F
+B
+N
+Y
+P
+V
+T
+T
+M
+Z
+F
+P
+K
+1st LAYER KEY
+R
+M
+I
+N
+G
+A
+N
+E
+N
+C
+H
+A
+T
+N
+I
+N
+G
+B
+A
+C
+K
+Z
+V
+N
+J
+G
+D
+A
+T
+G
+M W D
+X
+F
+K
+M
+V
+K
+K
+K
+K
+SOLUTION
+L
+A
+Y
+S
+A
+S
+I
+T
+S
+A
+B
+E
+R
+L
+I
+N
+C
+L
+O
+Q
+K
+G O
+2nd LAYER KEY
+D H
+M T
+K K
+Z W
+91 92 93 94 95 96
+CODE K4
+U
+E
+K
+C
+A
+R
+1st LAYER KEY
+A
+Y
+O
+F
+T
+H
+K
+Y
+T
+S
+B
+D
+SOLUTION
+H
+A
+L
+L
+U
+P
+2nd LAYER KEY
+K Y
+
+[[page 7]]
+Some curiosities 
+ 
+The meaning of this passage seems quite obscure and is probably not part of the solution, but it seemed 
+interesting to note this possible second occurrence of the word “CLOCK” in the solution. 
+Summary of the different possible solutions identified 
+These different parts of a possible solution obviously do not form a coherent whole because some (maybe all) 
+are undoubtedly “false positives”. However, it may be interesting to summarize them in a single table in order to 
+have an overview. 
+ 
+ 
+33 34 35 36 37 38 39 40 41 42
+CODE K4
+S
+O
+T
+W
+T
+Q
+S
+J
+Q
+S
+1st LAYER KEY
+S
+U
+P
+P
+E
+R
+E
+D
+G
+E
+V
+N
+J
+G
+D
+A
+T
+R
+X
+U
+SOLUTION
+T
+L
+E
+A
+C
+F
+L
+O
+C
+K
+V W
+2nd LAYER KEY
+F
+O
+R
+T
+Y
+Y
+A
+R
+D
+S
+R
+U
+D
+H
+O
+U
+R
+W
+A
+N
+D
+E
+A
+S
+T
+N
+O
+R
+T
+H
+E
+A
+S
+T
+L
+E
+A
+C
+F
+L
+O
+C
+K
+R
+A
+I
+D
+O
+V
+E
+R
+L
+A
+Y
+S
+A
+S
+I
+T
+S
+A
+B
+E
+R
+L
+I
+N
+C
+L
+O
+Q
+K
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+H
+A
+L
+L
+U
+P
+SOLUTION (POSSIBLE FRAGMENTS)

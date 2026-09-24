@@ -1,0 +1,200 @@
+Speaker 1 (00:00):
+Okay. [inaudible]
+Speaker 2 (00:05):
+Wow. So just kind of to set some scope here. We're going to be here for about the next hour and a half.
+Speaker 1 (00:12):
+Okay. It's an interesting times and and a lot of changes if you had to. We're all cryptography. There are some changes that can take place as well as should take place. I can't guarantee anything. Right.
+Speaker 2 (00:29):
+I thought we'd kind of go around with some introductions. And I guess I'll start. Hi, my name is Elonka. And I've been running or co running, the Kryptos group for awhile. I have a big website on it and I, I speak on it quite often. And then I'll go around and kind of, what is your name? What is your interest in Kryptos? And if you have one burning question, go ahead with it.
+Speaker 3 (00:57):
+[Inaudible]
+Speaker 4 (00:58):
+Carl Ellis.
+Speaker 1 (00:59):
+No, the thing just fascinates me. Jew-Lee Lann. I have a site, the Kryptos project.
+Speaker 5 (01:10):
+Pete Bullock, I got interested in cryptology stuff because there was this Forrest Fenn poem “Treasure”. Yeah. I saw a little news article and then I thought, Oh, this sounds interesting. And I'd never felt more alive when I was trying to do that. And then I ordered the books and stuff and I then I decided that that wasn't the real McCoy. There was, it wasn't a real thing. Maybe it was something kind of like the Bletchley park puzzles or something, but maybe not. I don't know what it is, but I just deemed that it wasn't real. So I said I need something real to work on. And I said, ah, Kryptos.
+Speaker 3 (01:47):
+Fitnezz Jim and
+Speaker 1 (01:49):
+My interest actually comes from attending one of Elonka’s presentations back. I'm going to say 2003 or so. Yes. And, and she's been editor for a while and I've been trying to understand all the stuff with cryptography and everything associated with it ever since. And we have learned a lot and none of it has helped me to solve this thing. Denny McDaniels according to the article, I'm the one who flopped on the couch after a volleyball match and solved part three
+Speaker 3 (02:27):
+[Inaudible]
+Speaker 4 (02:28):
+Randy Thompson from Tucson, Arizona. I guess I started looking into this maybe around 2006 after discovering it in some Dan Brown website. But those are fighting words around Jim so I try to not mention [inaudible]
+Speaker 3 (02:45):
+[Inaudible]
+Speaker 4 (02:46):
+Anyhow, so I've been coming to these things I guess the last port, this the fourth time,
+Speaker 2 (02:51):
+Every couple of years. Yeah.
+Speaker 4 (02:53):
+Yup. I'm Doug Price actually worked for the Fort back in the 70s, but I was never a cryppie
+Speaker 6 (03:00):
+Always doing other things, computer stuff at the time. Picked up an interest in cryptography after I left there and was looking at a couple of different things. Beale ciphers for one and it was following that I guess about 15 years or so ago. And Carl Hammer was, I was still alive and pursuing some of those things. Interesting group stumbled across this group and it looked interesting to play with it ever since.
+Speaker 3 (03:40):
+I’m Ed …
+Speaker 1 (03:44):
+So anyhow let me introduce him cause he's I've had an education and my side, we all are saying these things and I look at cryptography as building things. There's other aspects and it would really be from your perspective in the sense of if you had a cryptographic paradigm is there a way either to break it or understand it or which the schema that's involved in that? So there's two different kinds of things in the in the process or times we talking about times and Oh, many years ago the some of the folks that at Langley had a a gathering of people like about 300. And they invited me as a non speaker and to sit in the audience. And, and that was always interesting. It's sort of like sitting in this type of an audience, which is a small audience, but a large scale audience who have looked at Kryptos from lots of perspectives, including NSA and others. And you know, okay. It was interesting. And again, I wasn't acknowledged. So, but from my statement earlier, I just now looking at some of the work that this, the the artists, the next organization does. Is there any interest in council to, should I turn
+Speaker 4 (05:33):
+Frank Corr. I got into Kryptos because I was bored working at Nortel and it's like I need a challenge. I have to spend most of my time getting us to 99.99, 9% availability for phone stuff. And it's like this is boring. So I got into it. I have a website and I will, sorry, I joined, I also joined the ACA after a while and saying, well, American cryptogram association because they have a lot of different kinds of puzzles and you can get a lot of experience cracking various types of codes and take a look at, you know, how does that apply to Kryptos? Been getting more and more involved in too many things in fact, I, as far as I know, the time I spent driving over here is more greater than the time, entire time I spent this year working in Kryptos. [inaudible] wonderful - You've got a real life, I’m the vice president of the American cryptogram association, which means I'm in charge of our convention. Okay. My name is Klaus Schmeh. I'm interested in encryption, history and unsolved codes, things like that in general. And I write about this stuff on my blog and in my books, mainly in German. Bill Briere, a former professional cryptanalyst and currently an amateur cryptanalyst.
+Speaker 1 (06:55):
+Right. Well, welcome all. Yeah. And we did that a few years back. The thought was just like this and my dad helped anyone and obviously it couldn't do very much. Some of the things that you see or you should have seen is the impact of some kind of math function on the English language and now because the tools that you have been using or would be using our tools that's based on the periodicity of letters and things like that within existing codes. And so he has a mask of some type now. Now you don't have that as your initial tool. Gotta remember your process as well as what you're trying to do. And most folks, their process is, let me see how many trials I have and the weighting of Es and things like that. And that will give me some insight. Now added to that is the the math associated with the cryptography. Yes. That some substitution transposition but you carry still you’re carrying the weight of the language and then the other intent was well is there a way to make the challenge so that the first step is not that and I guess to the heart and that's what you're all are facing is how do you do that?
+Speaker 1 (08:43):
+Would you be able to, I'm reading the first question. Would you be able to, I may ask organize an official business trip for a small group to CIA grounds.
+Speaker 2 (09:02):
+[Inaudible]
+Speaker 1 (09:03):
+It's fine. Any answer there is of course not. And you know, a fair amount of people who would like to go walk around and that's just not going to happen. And it sort of, I mentioned it before, some of the folks arrived earlier on in my discussion. But with Jim Sanborn's discussion with Langley was along the lines of where do we put that sculpture? It was put it in the center of the compound for which this question becomes irrelevant. Or, did we put it outside the front door so that folks can have access to it? And it was decided, and I don't know all the reasoning, but I think surmise let's put it in the center because you pretty crowded out there all the time.
+Speaker 2 (09:59):
+Yeah. And they paranoid on that even now.
+Speaker 1 (10:04):
+So because of all the other kinds of things that have taken place. So where you put it is, is sort of a fundamental question and that lands in to this type of thing that says, well, the best you can do is like is either on the internet or actually talk to someone who has access. What did they see or not see? And that's sort of where we are for a lot of years. Let me read the next question. Did you ever meet David Doyle? I don't remember. I know the name, but I don't remember meeting that person. I can't say because honestly, yeah. Cause I do meet a lot of people. Sure. And not like you were good chums who’s David Doyle. An author, an ex-OSS CIA, I I'm a member of OSS [inaudible] perspective. Oh, assessors, the precursors, that means I'm old.
+Speaker 2 (11:18):
+[Inaudible]
+Speaker 1 (11:21):
+To answer that question, I don't, perhaps it could've been a, perhaps never an offhand was Jim Sanborn's dismissal ID BY ROWS as being a mistake correct? Did you play any role in embedding any other intentional misspelling? That's always interesting. When you're doing these types of things, and I'm going to say it in abstract as opposed to answering the direct question. When you're doing these things, you look at the intent. Again, the intent was and still is if I had to communicate to all of them a lock or any of you in a foreign country are other than no problem, call away. And I wanted to do it over a period of time, but I don't know when, when I'm saying all of these kinds of things if I knew when this kind of [inaudible] know, I'm going to call you at 12 o'clock tomorrow, but if I don't know when that gets a little bit more tricky.
+Speaker 1 (12:39):
+And then I have to do something that that you could come back years later and recreate. And that's one of the challenges you are being put into the posture of recreating without having prior knowledge. The person, who would I be talking to, would have prior knowledge that, you know, one of these days somebody like Ed is going to talk to me and if so, how do I do that? Now this type of question here lends itself to what happened. I put a gun to his head and now he wants to tell me there’s a gun there, without getting himself shot. I know how to do that. Okay. And so it's a serious business. Playing’s fine. That's what you're talking about. And if you do it wrong, he's dead. So try not to be wrong. And at the same time it's, it's in essence an escape valve for that person. Now we are, I understand I've mentioned earlier the cryptography is an alarm, but the person is also analog. Maybe by that you've got feelings, you've got stress, all kinds of things takes place when somebody puts a gun against your head. And now the question is, do you say I give up or do you say or rationalize that? Well, I'm not, but I’d like to tell somebody I have a problem, this type of methodology as well.
+Speaker 1 (14:39):
+Many, many, many years ago there was a group of us had about 10, 11 o'clock at Langley and what it was for us. So that sort of tapes overseas and it was actually a captured person and, and that person was trying to tell or at least the belief for us to tell that, you know, say it, I'll tell my wife I'm all right. Or things like that. But how do you do that when, yeah, the gun on this side and a gun on that side and the tape, that gets to be interesting because the analog part of the person, I stopped doing that. I do that now. I can start to currently I used to make those codes for captured people. So it's, it's another avenue of which you are looking at. That was taking advantage of the human side of this paradigm, not rights earlier asked about Bitcoin and that's the digital side.
+Speaker 1 (16:04):
+The human side of it is about 10% to the human side of this type of thing has a much higher percentage of goes into that can be to the person, the person from your position or the person who knows the answer and knows the answer, knows how to use it. B, the balance there. This is, let's say a form of saying, wow, I'd like to better to talk back to you when I'm talking back to you. I realize I may have a gun against my head and I'm under pressure so I don't want to make a mistake. And another facet of foundation for the question is interesting. I assume as a paradigm that when Scheidt and Sanborn are asked questions, they respond as in fair game of 20 questions. No flatly untrue responses, but as ambiguous, misleading as possible.
+Speaker 7 (17:19):
+I've seen a change in that change over the years. I've seen, I've seen Jim and [inaudible].
+Speaker 1 (17:25):
+What about the people know that that's just not right. Yeah. Yeah. And we've talked to, Jim and I have talked about it over the years there. The intent is not to mislead people that writes no response type of answer doesn't necessarily mean is right wrong or otherwise. It's just, I'm not going to mislead. Because it's easy to do that in this type of scenario number. It's, I could say it's the answer is really based on Coca-Cola
+Speaker 7 (18:01):
+[Inaudible]
+Speaker 1 (18:01):
+Just like you're doing with these things. But at the same time you do have to say, well, the intent is to maintain a challenge. The goal 20 years ago started to go in, in from my seat. If it can be a fun thing, they'll try and par is to see how folks approach the problem. It's like I get the chance to talk mathematics and people. Half the problem is how do you approach the problem as opposed to figure it out. All the paradigms and algorithms and things like that. It's, do I use Coke as source or cheap? You never get an answer out of the bat, but you don't necessarily know that upfront. That's the anyhow the answer is, our intent is not to deceive anybody, but we are going to be circumvent. How's that work?
+Speaker 7 (19:17):
+So, so the answer to the question at the bottom is read your character as this
+Speaker 1 (19:23):
+As their incorrect exemption. Yeah, I think so.
+Speaker 7 (19:27):
+Okay. There was no actual misleading. I mean, no actual false. There may be misdirection or distraction or something, but it's [inaudible] introduce things as we go along. That would show up in my dialog
+Speaker 1 (19:49):
+to him is somewhere out in that world that. Well. When can we do, and
+Speaker 7 (19:57):
+I think we go through the [inaudible] I noticed how this are watching.
+Speaker 4 (20:09):
+Maybe just a clarification, kind of a combination of these, lots of these, the current and the previous question. Yeah. not giving incorrect information. If Jim gave information previously that may have been incorrect [inaudible] miscellaneous, not intentionally. Would it be fair game for that to be corrected? Now, an example would be, where he said that ID by rows leaving out the X. Who that made Layer two. He characterized that as a mistake and he was fixing it so that it wouldn't be misled. Was that
+Speaker 8 (20:48):
+A mistake? Was that correct or, or was he perhaps [inaudible] I’d like to have him tell you those answers as opposed to me. Okay. I'm sitting on the sideline and I don't know what the conversation was
+Speaker 7 (21:01):
+Okay. Well that's always been interesting because Ed Scheidt chose to characterize it as a mistake and it seems ambiguous again.
+Speaker 8 (21:12):
+That's right. But at the same time, we don't sit here constantly talking back and forth and just like we have, we don’t have Jim here at the moment. And we have been known to correct one another as we go. Cause my choice of adjectives could be different from his then when you get into the interpretation of a language. So trying to not circumvent what you're asking, but at the same time, if it's a question that Jim set up, then the correct person to answer would be him. How many non N O N K one, two, three and four. I'm sorry, puzzles. Those are there. What's the question? How many non non K one, two, three, four puzzles are there are there more puzzles out there besides K one, two K for right Kryptos I'm going to keep on [inaudible].
+Speaker 8 (22:32):
+Now does Kryptos in general simulate multiple overlapping signals? The technology and I’ll answer it this way can show up in other kinds of things because the intent from my perspective, now you've got an artist and you got the cryppie over here or the person with the math and the math that can be applied to things. It tends not to be applied to everyday instances or like these, cause this is digital. This is analog. So you don't see a lot in analog, the answers and cryptography usage today. But at the same time the, the principles, so the concepts are there to be used and, and people have to use them. These guys use them every day. And the pointing to the cryptogram association. The, in the sense of substitution, transposition, these are things in that context. I'm reading a lot into this work.
+Speaker 8 (23:46):
+Definitely. I think it could lead to puzzles. You said it earlier. And you know, it's always interesting to see that the K4 may not be as something as such. So that’s sort of unique in that sense. But the others have all of the intrinsics of classical cryptographic puzzles. So the answer can be yeah, I think you would see it in other than non Kryptos type of scenarios perhaps not all and perhaps not in the same fashion of how you did the mix. like transpositions and things like that because the, the math model allows you to do it different ways and and, and you can either, you may even get a convoluted way of doing because it lends itself to building layers or you can mix and match, which is a certain amount of that took place as such as principles.
+Speaker 8 (25:08):
+A thing that I had thought of and was asked not to do is this is a based on English language. I could move to a different math base or writes, this is base two, can move to a base 16 and then evolve the problem. A lot of folks thought or different, not a lot, but different folks. Like that's not fair Scheidt when you ran into the or seeing the driveway. That's mine, now it's a two dimensional mind. It's not a pictorial mind, but there's a code out there. Interesting there’s a code in the driveway. Okay. Now there is simple substitution, you know, the Mayan language and you know how to handle base 16. You'd figure it out then the answer, okay, it's there. Well. Taking that and throwing it into adding transposition and some of these other techniques would give you another Excedrin headache for sure. So those are the kinds of things that can take place. Because my example earlier, he's from Slovolia. Right now can, I map my schema to his language thing. Or if I pick a extract Roman language that it's not really on everybody's tongue and then suppose it's not in everybody's database, that all comes to mind. Then it helps me as it narrows it down. How are you going to get to that first step? Sorry, I think I answered this.
+Speaker 8 (27:14):
+One of these, I think this was almost got close. Somebody else have Jim’s sculptures being changed out with new sculptures near the beginning to give them added life because the characteristics are different than the easier to solve originals. Well again, we'll see Jim tonight this is a good question for him. Really. now Jim is like, I think most of us around the table as a man just heard in our testimony. You learn as you go and, and Jim is seeing, you know, he's, he has this as part of this career, part of his things. So he's read up and I've said, you’ll see, I have a nice library in there. And so you send them a book every once in a while and say, this is, there's an interesting, so then the other thing that can be added or not added to your paradigm and what he does, I honestly don't know.
+Speaker 8 (28:24):
+That's his business so I think you may be observing. We all draw on … and a knowledge basis. I've just add, you know, I, I enjoyed you can go into his things because it's not a side that I focused on and of course there, the cryptograms and now and, and my side for you could say the professional side is focusing on digital things was the set of different rules then that would be talking around this type of table here. But at the same time, the basis of the digital side is there was back to that as you ready only doing it that way, you may have spotted that algorithm a little differently. But yet the challenge there they said this is sort of a war story, I'll call it that. And you know, since we all been talking to one another for a lot of time over the years eight or nine years ago it was eight of us that were asked to participate in a project.
+Speaker 8 (29:43):
+And the project was an interesting one. I mean, why I chose to do I, I was asked because of my cryptography and in some math background but their project where it's interesting, how does the human characterize information in and the beginning, and it was eight of us, just like we having here. This was time in a couple of the national what they call national labs, which are defense labs. And, and the first day or so was okay, Ed how would you approach this problem? And I said, well, I don't believe the human uses a base number. And then there was big sigh around the table saying, Oh gee, they use some words that, you know, it's not in polite company. And I'm saying that because those, we understand base two is basically the computer. And so we understand that and we understand how to add logic to that and expand that far as the end to analog interface to that computers.
+Speaker 8 (31:01):
+It's things that started. And so if we don't use base, it's not magic do you believe it can be replicated in math? And I said yes, it was two out of eight that said yes. True story. The other six says no Scheidt because if you could replicate it in the math that you already know, you can clone. And so, which is a true story. One of the guys was actually nominated for the Nobel prize, not for this, but for his work on brain research. This has been much years ago. So we got to different levels things that you see today far as now pinch here. You see here your brain light up here. A lot of the theoretical stuff was done with these many years ago and said, you know, we can do a cause effect or at least we believe we can do a cause effect, but it starts out so give gonna the math Scheidt you know, and that's the, okay.
+Speaker 8 (32:20):
+And then we had some folks that were very good in various types of math that could apply. Type one gentlemen who it's interesting. I'm not a doctorate but everybody in that role was and, and one of the persons wound up working for Lockheed and his work out of theoretical cause this was all strictly theoretical turned up in the F-35 and how much you can do without hands, mental imaging and a lot of…  10 years now it was a long time ago. It was here. Heresy. There's no way any anybody is going to get in a car or getting at anything and have that drive without though that's going to call it tactile tactical relationship. Some of us said, yeah you shouldn't be having to do that. About how is the question before the table. So we got to some extent and then the government thought that maybe this is not a good idea.
+Speaker 8 (33:43):
+He was famous but it's tangent 10 times type of thing. And it's the saying that there is study or there is things that can be done in the analog side of it as well as the digital they do. Or is it exciting because now you can get a feedback, computer will tell you you're wrong. You don't know how to add two and two keep seeing you’re getting five. Well, that's not a better product. Otherwise the same thing. It comes off very dicey. But when you get into the abstract side, then computer falls a lot of times where the human doesn't. And that's some of it. How do you, can you quantify that? How can you quantify how you're doing it? So that's a tangent. Yeah. It's part of the puzzle thing. When was the last time that you worked out for yourself what K4 says [inaudible] I haven't gone back in many, many years to be honest. I guess I can use the answer and get consumed with All this other stuff. You've done it at least once many, many years ago. Yeah, a couple of times. But you know … it's interesting. Jim seems to claim that he did something else on top of this. He may have. And that's up to Jim talking about that part that I worked on. So I guess I thought the question was, was poking at, have you taken actual cipher text at the bottom?
+Speaker 8 (35:42):
+That's okay. You never decrypted K4 yourself like he's saying that end game. Okay, good. Now I stayed away. Sorry, I got really confused. He did not. I have not done that last K4 … what we call K four. Is that what you're calling K4 or is last? So the last part, last part, 97 letters OB. So I intentionally not to do that. I stay away because again, if Jim was going to answer, do something, then okay, Jim does something and then I can honestly say, well, I only know what I did. And that's it. So answer your question in that context. Not really. Try not to deceive you.
+Speaker 6 (36:45):
+Right. So if Jim made an encoding error. Oh, you would not have known that he did. So, yeah. Okay, perfect.
+Speaker 8 (36:55):
+Did Jim write the plain text or did you produce that? No, he did the plaintext, that was part of his contract because he was there. This is a if you read the thing there's a story, different looks, it reads like it's disjointed, but there's a story that goes with it. And then if you, if I'm going to be talking to this gentleman again, out in never, never land. And then he divulges the code and everything else then is there any other level of secret that I can have with him that only him knows and now that gets into a depth that hasn't come out in any of the discussion because it's not apparent there. But at the same time there are other things you can do with these types of things.
+Speaker 8 (37:59):
+Now, I could put the word, this is only an example. It's not in okay. I could put the word Coca-Cola in the text for which was encrypted and then you decrypt it, and then now if Coca-Cola took a meaning, a dual meaning in there then that gets to be interesting in itself because you would be led along the lines of it's a drink as opposed to it means she should use a black pen or something like that. So there's codes that can take place within the content and that that's part of, or can be part of how you deal with this type of correspondence. You know, as such.
+Speaker 7 (38:58):
+The text that's on the sculpture
+Speaker 8 (39:01):
+Mmmm hmmm
+Speaker 7 (39:02):
+At some point you went in and you looked at the ciphertext and worked backwards to the plain text to verify that.
+Speaker 8 (39:07):
+Yeah. Except for K4. I did, I did all the others because the others is it has things that in the early stages I wanted to ensure that the math was still there as such there was a I come to you and say, okay, I can show you how to do a substitution. And you say, I understand and you do some sample and then say, well, okay, then it looks all right. Yeah, that's right. Trust but verify. And, and now if there's a tricky part or tricky part in the sense of you have added some things to, as you're asking here on the K4 or another step or whatever it may be called then do I want to go back and look at that. Or do I say, well you know, Jim, you'd have all the tools that you need to do that go do it. And, and then if I have to verify everything that gets into this kind of questions here who, who's, whose project is, you know, is being driven. And we agreed a long time ago. It really is Jim's project. So so I'm sort of the the back person that just says, you know, two and two IS four, not five, that type of thing. continued, what was Mr Sanborn’s other fever topic to talk about when being taught encryption system, when not
+Speaker 7 (41:06):
+Topics
+Speaker 8 (41:11):
+He talked about what he was planning on doing for us. The sculpture is concerned you know, in the sense of there's a certain amount of mechanics that went to creating that sculpture and the shape and that the size of the letters and then he was going to use, if I remember right. And things like that. They had some tools for to do the etching as such, never seen nothing. And then no. And then the talked about the prototype before the sculpture, the use of stone. You've got the other pieces that are part of that in the pool and things like that. And then so, so the mechanics definitely into the sculpture, talked to that. The intent really is the intent was to create a secret and then the secret could have different levels of being able to break or different kinds of math.
+Speaker 8 (42:53):
+And that's where we had a discussion on he has some of the things that you can use that are pretty well understood. As opposed to that that guy had mentioned earlier using some extinct language, which that becomes unfair. A lot of folks or to pick a language that may not show up in databases today. And that's called unfair too. So part of the discussion was, wow, and this was the line with Langley, let's, this is not a one time system in a sense that the difficulty will be forever, but at the same time can you make it as a challenging type of thing? And then when you get into the supposition, which is very where we have talked about earlier that, you know, okay, three, five, seven years, no short period of time, would that be possible? To what extent would this be a pencil and paper design versus a computer development? Yeah. Are you talking to pencil and paper for executing it or for breaking it. Executing it. Remember I'm only executing it, he’s on the other side…
+Speaker 3 (44:26):
+Speaker 8 (44:33):
+But so, and yeah, I, I've had others say, you know, you definitely have a convoluted mind and things like that. But there were other things talked about other than just the cryptography. And then at the same time the, the, the sensitivity of the project was part of keeping the secret that was what you know, like you, someone earlier I asked, you know, to fact the beginning comment was, well, it's easy, just give me the key
+Speaker 2 (45:22):
+No,
+Speaker 8 (45:25):
+And then that can be terrible. And so so that was discussed as well as it was several months of iteration listing. This happened one [inaudible] and that's why we wound up moving to different places because the media has their way of finding out where you are and things like that. And they have the electronics that are very good. So so saying that you get into can you Mr Sculptor take these concepts, put it into characterization, and then what are my limitations? Since you all are in the business, what's a period? Sorry, because it's more than one sentence in there. And how do you characterize that? And or you know, do we have apostrophes, special characters, special characters don't work. Beans and analog systems. Okay. So you have to take it, take that into account. Now we can be funny and do it in a language for the special character. And then now what I got K one, two and three are one stage encryption. Is that also true for K four?
+Speaker 2 (47:07):
+Huh.
+Speaker 8 (47:11):
+Yeah. You're closer to that answer then? Same as the one stage. No, I would consider more than one stage. I mentioned earlier and I had mentioned in public there is a masking technique that apply so that the English language wouldn’t be available [inaudible]. Would you consider it periodic? Yeah. So I had a question here about what we'd been given already. Jim gave us Berlin.
+Speaker 4 (47:51):
+I was terrified when I saw that was coming out thinking, okay, it's now going to be solved in the next 10 minutes after it's released. And it wasn't and he followed up with another word. Would you consider as a cryptanalyst because he's delivering those clues? [inaudible].
+Speaker 3 (48:06):
+I’m not a cryptanalyst, you are
+Speaker 7 (48:10):
+Cryptographer [inaudible]
+Speaker 4 (48:15):
+So, but Jim is giving us clues without being a cryptanalyst’s or cryptographer’s sense of what is really a clue. And so when he gave us that and we didn't break it immediately, I think most of us realize that if we, if we get another word, another word, another word, it doesn't give us anything else other than just a copy of what we've got already is that this matches up and we know that. So if he gives us an asparagus next year and Ozymandias, five years from now, that doesn't give us any more than Berlin did, I think is that, would that be a correct?
+Speaker 8 (48:50):
+Well that's why I need to defer because what you are doing is from an analytical side, breaking down the process and just say have to depend on the algorithm … and, and let me leave it open rather than give you say that I will give you two words together, three words together and things like that. And what are the weighting factors of things like that in this type of stuff? I'm afraid of that Jim might think he's giving us clues when he's really just giving us additional plain text until it's all out there.
+Speaker 7 (49:25):
+And then we still don't know how to know. It's not about looking 90 letters now.
+Speaker 4 (49:33):
+So it's a process that has nine different encryption steps. You're not getting to be able to reverse it from the plaintext or you maybe it solve it.
+Speaker 8 (49:42):
+And it has two solutions? Yeah. Yeah. Unambiguous. You said you are good show Jim several
+Speaker 7 (49:50):
+Systems, classical systems. Did you advise him as to which ones to use or was that his choice?
+Speaker 8 (49:59):
+[Inaudible] How did that come off?
+Speaker 7 (50:05):
+And that question is what other systems did you show him?
+Speaker 3 (50:19):
+Right.
+Speaker 7 (50:23):
+The answer is yeah, we showed him
+Speaker 8 (50:27):
+But I just don't remember how,
+Speaker 7 (50:29):
+How he selected the demo but it was his selection. Then at the time, I believe it was. So you showed him the how and he did the what. Because that was
+Speaker 8 (50:44):
+part of the discussion as such in other words, ah, he's a sculptor. He wants to put his touch on things and, and so he could do that either through the metal or it could do it in the content, which is really what we talked about. I don't remember
+Speaker 7 (51:07):
+Why would you use the same system for two different parts if there were a number of things available, why use the same one twice
+Speaker 8 (51:17):
+Well now you can't answer the question directly because that's a Jim's call. But I can answer the theoretical side. The theoretical side says as a human, that's what I comment on that in other words I can tell you come up with this answer. There is a linear answer, but I can also say, and I mentioned earlier, if I put a polygram or a polynomial to this there’s a number of answers. Now is the non-linear answer nothing logical to that as if you fit into this type of thing. It's sort of like a, you're going to start to reverse engineer some of these digital algorithms and figure out, well how, how do you get that the answer out of something that starts in English here and works that way? I see,
+Speaker 7 (52:16):
+But if you showed him like 10 different systems, do you expect different … I can guarantee I didn't show him that many
+Speaker 3 (52:31):
+[Inaudible] I think you’ve gone past your one question quota. No it’s fair, it’s a fair question 
+Speaker 7 (52:37):
+Which came first? The Cyrillic projector or the Kryptos sculpture. Cyrillic. They're over in Reston ... I'm going to go get them and take them back to you want to show one more question which was from a member the group. Where's it at? Should be that one. Oh, I'm sorry. Okay. This one first I want to do that. I try … are duress codes written and visually used in Kryptos? If visually then is that the clue in plain sight, so dress code, visual, so in Kryptos there's always an implied thing that we're missing a clue in plain sight is would that be something visually
+Speaker 9 (53:37):
+[Inaudible]
+Speaker 7 (53:40):
+Do you remember who said that first? Ed brought up duress codes. Yeah, I brought up [inaudible] saying that. I think there was something we were missing that was in plain sight. That was Jim. That was like eight years ago or something. [inaudible] Also recently said that something that was key was no longer there. It works great. It's the GPS monitor. Well, is X LAYER TWO a duress code or is it truly a mistake. Yeah. That's the question. You know, but according to what you said about the way they answered the question, if Jim flatly said a thing is a mistake, then it is a mistake. As far as Jim knows it's actually mistake, he's not lying.
+Speaker 8 (54:27):
+Right? Yeah. Now that was the intent.
+Speaker 7 (54:32):
+Leaving the X out was a mistake. I, I read it as he intentionally did it just to cause a wrinkle. The mistake was he didn't check to see that would actually turn out legible text. Cause like he was surprised. So it says ID by Rows. People are just going to run with that. Well that suggests they wouldn't be duress but either. Yeah. Right, right. It would suggest it's not duress he should have done two phrases like that. So it's not a convenient phrase. The X was just a mistake leaving that out. But he does say Jim doesn't lie. And Jim said it was a question.
+Speaker 8 (55:18):
+Okay, last question. Where's the masking technique applied to the plaintext first and then the next level of encryption or encryption first, huh? Yeah. You're getting close. [inaudible]
+Speaker 7 (55:35):
+[Inaudible]
+Speaker 8 (55:36):
+Cause you got process here.
+Speaker 9 (55:39):
+Mmm.
+Speaker 8 (55:42):
+I would say you would look at encryption first and then you mask or would you look at mask first and encryption. Interesting. Okay. Let me defer rather than lie to you or not lie to you, depending on which way you're going with it, if you're encrypting or decrypting. Right. That's why I was reading it and seeing how, unless some symmetric like mask the crypt mask, again, it's essential for methods. And while this is things here that gets into the interesting in regards to masking, you have no, if I just think of [inaudible] driving [inaudible].
+

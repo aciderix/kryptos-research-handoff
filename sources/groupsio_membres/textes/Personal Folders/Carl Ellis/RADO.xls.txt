@@ -1,0 +1,8580 @@
+                                                                                                             B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+0.000000000
+0.00000000
+0.000000000000000
+0.0000000000
+0.0000
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@@ @ 
+@@ @ 
+(@@@ @ 
+@ < 
+@ < 
+9 @ 
+9 9 
+@ 9 
+9 @ 
+8 8 
+@ 8 
+8 @ 
+8 8 
+@ 8 
+8 @ 
+8 8 
+@ 8 
+8 8 
+8 @ 
+8 8 
+@8 @
+@@ @
+h@@@
+@8 @
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+ @ @ 
+h  @ @ 
+@ @ 
+ @ @ 
+ @ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@@ @ 
+@ @ 
+@ @ 
+@ @ 
+@@ @ 
+@ @ 
+@ @ 
+@@ @ 
+@ @ 
+@ @ 
+@ @ 
+p@ @ 
+@ @ 
+p@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+(pp@ @ 
+p@ @ 
+p@ @ 
+p@ @ 
+8pp@ @ 
+p@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ @ 
+@ 7 
+@ 7 
+7 7 
+7 @ 
+7 @ 
+@ @ 
+7 7 
+@ 7 
+@ @ 
+7 @ 
+@ 7 
+p@ @ 
+@ @ 
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(
+        }
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+_)?_);_(
+        }
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*}
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+        }
+00\);_(*
+        
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+        }
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+        }
+00\);_(*
+;_(}
+00\);_(*
+        
+        }
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*
+;_(}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*}
+00\);_(*
+        }
+00\);_(*
+00\);_(*
+        }
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+        
+00\);_(*
+        
+00\);_(*
+        
+00\);_(*
+00\);_(*
+        
+00\);_(*
+00\);_(*
+        
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+00\);_(*
+20% - Accent1
+20% - Accent2
+20% - Accent3
+20% - Accent4
+20% - Accent5
+20% - Accent6
+40% - Accent1
+40% - Accent2
+40% - Accent3
+40% - Accent4
+40% - Accent5
+40% - Accent6
+60% - Accent1
+60% - Accent2
+60% - Accent3
+60% - Accent4
+60% - Accent5
+60% - Accent6
+Accent1
+Accent2
+Accent3
+Accent4
+Accent5
+Accent6
+Calculation
+Check Cell
+Explanatory Text
+Good
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Input
+Linked Cell
+Neutral
+Note
+Output
+Title
+Total
+Warning Text
+Sheet1
+Sheet2
+Sheet3
+IHDR
+0PLTE
+bbb"""
+IDATH
+?$fZ
++1$1{
+ jMFSbj'
+cH#:
+P_=Ii
+H'Em
+#O.3
+AVQssM3
+ix:A
+H"Vi
+YufW
+IEND
+IHDR
+0PLTE
+"""000PPPbbb
+IDATX
+RJZ/u
+P}X}
+*+yi}
+w.3{
+GW_U
+=.[5]
+.zW)
+^10<
+1SDd
+QDGV&
+=7 M
+4&I'
+/x]Bd2h
+F/p2yb\
+G^f?
+IEND
+\niN
+\niN
+IHDR
+0PLTE
+@@@bbb
+PPPr
+IDAT8
+w]M|
+%2O#!
+g=.F
+IEND
+IHDR
+sRGB
+pHYs
+IDATx^
+W7,Z
+U*U$
+JU}}
+*6*)
+}9.]
+qM.-
+b1E,
+q]?\
+81`i
+B`I2K~}D
+-7'S
+T++'U
+RlE%EY9Y
+UE4j
+QE4l
+psE,
+XfFzA^
+:-5l
+70oA~^^nN~^.
+xYsK[,
+F_6~
+(5F{J
+JgTh
+Dii)
+5ii)
+k_klhx
+sss].
+EWE@Ep>
+ukqq
+lD_r
+sY[[
+J%JT
+x^b{
+aXwx
+AtdT(
+,==]F*
+5_$2
+/6##
+z<)))
+o..)
+duu5
+U,hT
+6!D~
+PX,f
+gAEy
+X,u*
+|j}m]=8^
+{Zz:!
+w[W]
+j$|T*Y
+? '{
+\( ~
+kH'b
+GhSD
+8jQ0,
+*_pq
+{>DS
+.G}D\G
+^\Ct
+0$|$
+r4LV
+B(\z]Z
+sa%f
+\anJ
+,bRRI
+GI(B
+Hkd3
+T:UB
+3f_x
+@[bwG
+?QE8
+200 
+P_ Q
+52AB
+K.ur
+h8$'m
+?&Z9*
+s); ?
+J`9A
+*/eX
+(>y_
+.gr/y
+1/yY
+XN^U
+ONCz#w
+:\<L
+=*=cD
+RiFL
+S2y1
+ ?=i+
+J>w,
+Z)Bp
+#c&%_ _
+#lMf<r
+wdYd
+]JnV
+?I2N~K\<
+&?yT
+;55U
+H6"*
+lJD#
+@\Da7
+^fr1
+OO>1
+L-HEZ
+0d!#
+Jqj^
+Fg%_#D
+#ZXLY
+D#~r
+5%EIr
+1").
+_6q$_JLP
+#|.6o4
+:&v*nH
+,^rY
+a5ja*
+!Zz0
+hb;t#t
+Kr.L
+qS4L?[`*P
+}IJ6K
+~I9N
+8*kFf
+l9:$
+8_dGG
+&YRN
+\#{'xM$>
+>IbN
+>^l2m
+Trzq
+hK>@
+2'T"x/
+YH{)^b
+NoSc
+VZZl2
+ a[BV
+PmlL`|
+k+E)dU
+U./rr
+wy#g
+XGV|.
+\,hL
+^^7v7I
+OWE>!\,
+LIrZr
+c)_fd
++sY2QE}Z
+9B%[B
+"P%x;
+uF-!y
+O~=y
+wMfC<A
+JDK Q
+1Z%JP
+)o!}
+WWD~
+D5RT
+$a`nZ
+[Y"DLZP
+;:^=
+z~xR
+k5|7
+2GtR
+3V C
+-CL[8aR
+v"|H
+`DR<
+D,;^>
+B6I}K
+upd<
+J#$Ct
+Lc h
+a)t:s"
+J BQ_
+Q3XFg2
+!EfBq
+tvOJG
+Q>aG
+Kj$"^
+#a6VL
+Di @
+}x.oXv
+CQ@J
+1fbi
+HQ*H:
+K/Rh
+))ia2
+HCE0$
+PbX}
+@f<]
+ZR z
+K%RJP
+(lv+
+;{<D
+CD/-f
+H:XX
+~6[J0
+>GL@9
+8Hlx
+A+C`F
+J~Xa
+O$HxS
+7BR 
+F/"dJ"
+DLN,
+Y ABDf
+jT$Y
+kNX|
+J1}I
+LgU1
+x&H*T2UF
+\TT4(p
+5S@:DC
+nb!a/
+dEJj:
+(d>t#E0d>
+)Po*
+x322
+SR0k`e
+#H#"
+K#OV
+em9f@x
+]nr"
+h <)N
+<QvAv
+Ln`'
+2H^2
+MO& 
+pJJV
+Ca/Mw
+ mHW*b
+ &$17C
+%"~d
+|N2L,!
+8@!Q[E
+4@hX
+{^#0
++7~B
+c!-V+
+W}x!R
+!%\^
+l2ZE
+=ze@'
+Gx4r
+)C]"H
+&B>W
+t8$+
+j2()l
+y|V#P
+7 qPd@
+Dt1GX
+- #z
+AR!q
+[3q4+
+ HKO
+lfA<
+C6rL
+RmK{
+^}k3
+Y"RS"
+Rf;kk
+ryv^
+kLkd
+dJ^l,'+}
+5grV
+_7Jep
+>}bnm]
+]CCC
+LS)N
+Z[[vl
+veegN
+FUo_
+8rlkSS
+W^!n
++/-#
+n~gSss#
+/.`M
+Mo=w
+.,-,
+gwmm
+4V{]
+H=Il
+T[oOW,
+>{$'
+Pg[}~N
+:Z"A
+rifZ
+ioW[g{Siq
+tux<.
+Yvj%
+SW,_E
+&MjnnF'
+nKEcq
+m[w\q
+W^+**
+e^W_}
+._zZf~^
+xnn>
+<(,K,
+T-<f
+u~tf
+|YgG_WG3!
+7w9#
+  9oQD
+'L!SVuK
+yt6eH
+|@,a
+F".*j
+AgSG
+il>w
+b:cEA
+L+9z
+\X)#*pW
+FBP'6l
+QbcDA`
+NUm]GY
+])6{
+~wgo
+=W}v
+Oc=Y
+cqgm
+xsO_k[G
+LAaw
+;h4g
+uW]_\V
+9?C 
+.'5I:
+gE@'$
+su`'
+*nW`
+8uFg
+CYWn
+A&%U0J#
+:;; -
+kohnj
+ID}3'
+svV.
+JJ/5%
+CAAAaa>
+bBOO
+Ng,))
+-%pz
+Ab[l
+w6o*
+;#=Ko
+lPjj:)4
+P2V4V
+PcTs
+|f#5
+#P<`gp
++c@q
+lVmS
+`osk
+zjK8
+OfTB
+fjgt
+/_0!?c0
+eGP+
+E%R<1
++p}R
+55-Y4
+EOO+
+fJ<<
+t?z)
+/_}CU
+-@RF
+=5oB
+"-=i
+600t
+;5%tJ
+#-=%=
+^Woa
+Cq)0
+2Zr!
+tRZC
+'=!]C
+nEO+@(
+ JOQ
+OT,B
+P)yN"
+^qqa7
+Wn~k
+/j>N
+?"2148
+P\'^@
+&b;v
+@_o_vV
+hVey
+Bokn
+*9pp/
+_V0ab
+Z9i|
+5gQey&ik
+L/(.
+8RRS*
+&utw
+l9vSq^Vo
+;jV,
+7{Zj
+rEVf
+cS?_TV
+RX\v
+~X**
+0?;%
+Z^6a
+aGFZ
+V-_V5m*kEJ
+o+.*
+zCjv
+([//
+^}=;;
+?UR^A_
+VT I/
+LuQI
+U"+;#
+]'kjI
+Rsh+<
+Agaa)
+~o(`N
+*#U1D
+\mk^vjA^
+$\W_
+Ak0V
+H-(jmk
+>7iJ%
+NK}H
+,.)<_s
+HKsCF
+(,*<
+)).+-
+bxxP
+FnN^iY
+t.77o
+\SS]1
+.E<PWW
+niiJ
+H+--
+qvNnss
+Cj9;'
+?HV[t
+H^6Y
+hS>y
+0qLT 
+;T~;
+^*RH
+9O#@
+)tq\
+gJAPW
+:?rN
+i,A#
+dU*t
+YEtW!
+\>/9
+>Llm
+:5#%
+nTEQ*,
+i\:v
+TZ#Au|E
+<nFr
+a<@h!cH
+>++.[^S
+4KOP"
+jK1y
+2lJI
+'<to
+vV~_
+</Z}
+G;pt
+2iAHYh;K[
+4\U_
+"`Q1
+FP*"%%
+m<>7
+ ==U
+xpqA*
+'kYE
+QzNc
+aEkt
+=[v^e
+;?W:~
+Fslh
+Tg `
+Pxxh
+wzt4[
+:qzY
+U[Q`
+[Afs
+V,6h
+@o1r
+Tm ps`5
+^TPq
+LOw;
+w?+*
+Ygnl
+g{ZZ
+RCc5
+SO?ZT
+S]Q~oo
+\q9>==
+7.kw
+IE~v
+F+:L.
+9.wU
+.J-W.
+(-=s
+NkJzAq
+_O7Rr
+6=T8
+jb+ `*OhzG
+g>?a
+QRZH
+e0Ze9
+JgOE'VV!-
+ "XC
+M6";+#/3
+>BGV
+a3+V
+HeMus[W
+%eRA
+^w7s
+SmC=
+ Sl7
+Y0>[w
+[W[O
+mnk>x
+om!wK3
+R&T#
+O|~h
+{=4R0
+ugWk}}-N
+?9_}
+pB3t
+xPt<v
+ee,;r
+.s2L
+l]uu;
+\M__
+--]k
+#i6w
+=[k4Y
+1K!bV
+0n|EV
+(Tnq
+L--"
+g;Hf
+474r
+&*&e
+7g2Xb
+nJa'iMT4:
+yT8F
+ U[t
+]5c^Kk#
+f!>N
+z&.BJ
+`wdS/
+|sSF
+txCV
+Ll-*
+~nYY
+mljO
+!'=e|y
+ZBLA
+*UvV
+o~^:r
+@5rL=%
+BBChh
+9B1&
+"kP9
+z+ad
+%{!O
+d}VU
+R8Ai-T
+'n]8gfO
+PSssJ
+t-Y4
+tlII
+A*\}
+{OwV2
+R?Xb
+8m^tW
+M5gK
+ ikk
+ss8c
+APZZ
+]mU3
+4DS i
+;]mm
+/^Py
+$S&D
+*^ym
+R^f*J
+@YJv
+{U[v
+(!V@
+RY__C
+dni~6:
+#5-mbe
+ :M1
+WUU%m
+8gxI
+kBte
+IYqq
+[oqHs'
+(0NO
+(%.:
+NWd@
+6k:V
+15V!
+H:.M
+N\O0
+R2&&
+9ZkTimq
+&WVM
+wh`D5
+r;jO
+d#IB
+hcA)
+Peh`0/->
+s{Lq5
+_`V'
+pYN^nAAnwO
+kjju*
+\]FN
+1}|Z
+V;NW
+tzwY
+3}R^
+cg_zi
+1[9AF
+QKK#
+l%A&
+jjl$
+dUk['
+&Wl~{
+_9qb
+3'Xg
+E"*[l{v
+pJ~Kc;-
+<XL@"
+!\W{
++r"9
+;GZ_
+DU~*
+4@Q$
+W@9dTp
+M_$H
+@$,H
+7*#:
+r)bRB
+<>W 
+N|V0>
+ii)V'c
+9p'A
++<~.
+x5CVYX&"
+A[z~
+A^0$702
+!0$*#p
+KaLN
+X.D 
+3<bq6M"R
+A Q\
+H.Cp
+cJZ2
+Z`J7
+rg*t
+|]:u
+z+'9e
+^83s
+,X-O)p
+1manIyOwg{M
+jCsS]s
+ju2N
+5P]'FmY
+@%h#+H
+@o{S}UQa
+IA{{g
+qvtt
+lvyVf.
+U,a<O
+/~Q 
+mhi5Ym
+jL8v
+]khr
+pEbw
+polo]
+ RS(<
+2IN^
+kioC
+5:kS
+H#Mq
+6p0v
+WA ?
+yd4`
+Z[;pz!@N
+/(jw>
+7c~.!
+GnUW
+s{n]8
+n]=g
+n'/K
+jizI
+tH9n
+j}FBJ
+1jfT
+jnV{
+4<Fc_
+pJZ*
+:>f:y
+/|yrb.
+`~Oo?i
+Z5<4
+Z0v=t
+~BK+
+6wO_
+W^1M
+Z6l3/[
+ dC_
+1_O1
+9P}=^
+hKI0
+  5'h
+wo\KKNL
+gvTPTH7
+9:Jd
+kmm-t
+!2@MKO
+?d+h0&
+3Atd
+?+/g
+5Bov
+>QvN
+RSkP
+tX9(
+tq$q
+hsWG
+`OWF||
+9FB*
+ys_T
+HowZ
+qkW+
+5 l*
+8"SJ5
+6?Xw
+S:J\*
+4d7p
+Vl,2&
+RCp#
+.xX\*
+k'Vlb
+%p@,
+jUKm
+(jss
+^C|"xT
+&PN7
+ovX=
+@<z5
+M1f/Y
+Q$}vx
+P,DOb
+;z2r
+<aTI
+5]wW 
+z&60{
+5kW1
+#n U
+Y*4Eh
+o~}lt
+(<yIJ
+^sJ5M
+9%J3
+K+RS
+T|AA
+Kn^;+
+K[#r
+)YyK
+G$%K
+sMDE
+$O,._
+2!I$
+i&qH
+6{y^QyYi9Y
+#^y~
+M{7n
+rf.f
+I,@a9
+bQNYYI)
+]8of
+k5Y9
+h<55
+L|:h
+G^ZX
+H.V]
+g2r2
+/233
+?|*3%
+mUZfb]}c
+T3~{z^
+33in
+b1:\
+:x-s
+j}vf
+^];Um
+{lxX
+%>nh
+_4;L
+~Okw
+4&BD
+W{wC
+et</5
+vzrRr
+K,W)
+iJMP
+P{Goc
+e42`
+wo3!*+
+bWw'
+`Pgdf
+edf2
+JlbR
+X`bb
+phfYqB
+j}c}
+kFi)
+8oT^JIN
+w(#=>
+igG+
+awNP1c
+f>if
+qi,~
+IV,_
+`OM}
+4%=!
+0fq@
+V"Xg8
+E]v[RV
+!Ar*
+4"H;
+AWGc`
+aoXb
+4e"2
+52OP
+>wT/s
+#F}E
+A!YD
+@aD|
+UH4h
+-_P_[u
+kHTL
+5IbxK
+$#=}J
+sREk
+{|cr%6$
+(uXz
+O9M!
+_)GYBjw
+mN\8Ez
+?DK=#5
+!*dHJ
+#Z&cv
+^)->T
+yK(*A
+=2 H
+:WHP
+Q8R"|(
+RB$F
+rM<h
+MHoF
+yYAcB
+P-QmT*Qo
+bmhQ6
+:rk0
+/,j!
+>#$i
+<>;m
+m)*=
+6q8x|
+6Wo{ 
+ni3R
+}&'s6(
+)x|7
+^[Uy
+3wn^O
+Rr2A
+;h>w
+GoYl
+uNL`z
+6KVn
+IDAT
+#Pkv
+^Z2o|
+-dt<>
+[0_@
+[;PJk
+XZ2o
+ZPZ>m
+5F/g
+}O<g,
+Fe|JFbJN
+;>42
+!xVU
+?944
+A4q(w
+t:C^a
+puC2
+Z}]#e
+?4MX
+4cv9
+efOP
+yCcu
+=]]'
+YXmf3
+OO*+,
+<><16
+Tk,`
+1I@-
+3{v^IIc
+;whD>
+..)A
+ UR*H^
+i(eL
+\AGkG
+PGo'
+[Zm3J
+8_ 7
+H]mS,("
+900,
+XiE@H=p
+gYzVj
+PgGw
+VFz&
+T"(@L
+RrJRO
+ql:P\
+bHN(
+V]<|
+|n[$
+QTA@
+{=E#R
+\:)6
+c>9V'*YKc
+j*-.
+b~wy~
+wZG:N}
+.geQ
+aOjr
+rZda_
+9*_d
+{ZZV
+S[o*
+)R 2
+2W[X
+w[}B2
+0_RYx|
+kcyO
+}`HA
+NncaAL
+Of/[
+Q >5
+e\JF
+q R$H
+S,O~rzA
+Vm(-
+rYw{
+">E,
+^246
+t;z;
+|"z?
+'m@Hm
+dmw_
+[@YC
+Dnt$
+o0.R
+/|!-
+Jqh`
+-+]ZR<
+# mc
+:u*h
+u"*s
+7'=s
+4w=c&
+=RYai
+yoT^-)-
+"YJbk}
+g|pa
+{BROX
+`u!2
+@Nt>y
+Ek72
+b+duP% 
+EgxR
+[_;{
+2i/*\-c
+@P@W(9)
+]*RI
+p+x`
+N3>kb
+I>ir%`~
+ErDP
+=s!7l
+4)e"
+M/Wj
+e{RF^
+<dFv
+4dOHJH/
+XGg'j
+5}:XY
+G&,e3
+SN,_
+6cNV
+y6mZ
+3J[X
+M86u I
+jO_KYiI
+[G;I
+Fln~!}
+7!vr
+MJL:u
+FL#C
+P[{[
+5DnGL
+`z&:
+8aBC
+ VWK
+G|bL
+7:2b
+'qin
+`Ww,
+mbsY
+)IH.3
+;o^w{
+H-S[
+sx^^VvN
+H_zFJ0
+T,IOM
+Jb!#vl
+.>Bl
+GL?Ng
+F#0N
+:\d7
+(VZ2
+#SOT
+[cHD
+)U8v
+,,^Jx
+.-"x
++W-Zx
+1jUr
+b'w8
+o:6&
+MQv+o-
+Try*
+: 1iwc
+v.C~t
+HGr9
+{ir*
+=@oxh4
+g>NJ
+jeB4
+G#$j
+Hjj2DI
+TMt)h
+5isy
+&aV2
+C,?!0M
+(cR"
+)4J\N#
+86mr
+KU(Yc
+?Wmt
+"x_R:
+6$ypx
+[gL/
+>W )%
+$sI@
+/`VJR
+3 ]5
+L#C$?
+x5~-)Y
+(WM%@
+Rj9=
+#X)s3
+|H!O
+"XUq
+Wo,[
+fg3V
+gf!&
+#3-YA
+im,]
+pReIw
+`OG^vqu]
+\?qvZ
+iEXv
+n_%'
+3'#-
+3|(a
+'QQQX
+ofee
+HcjY
+<SV6
+^ym`
+oSr>
+*++{
+KWN~
+]JY2
+7RS3
+(f[M
+;p4.=O
+G?99
+Z]Uu
+Q0)(f)4
+ot0$O(
+{;}N
+]/|q
+sG/)
+@\^QukOcw?
+fOFi
+9U| 
+S'P z
+s_@}
+49;;
+],).A3
+q;0J
+Y,ZKf
+26:N
+)BS=7{
+>8r`
+b)y1z
+b1B]
+9w0A
+-01|
+*i(N
+;0oV
+PYe8
+`wOFF
+}(I)u
+6G?ZH
+A8tH\
+1C&l{#
+U0NZ
+y']P
+sWo^s
+[BH-=#
+v^wz
+- &F
+thB9
+;qIi
+bNV)
+FM]}
+plziN^
+xn^@
+"9`2
+HKc3
+c[[;
+YYO=
+sv1mC
+`JvV
+d#8{1%
+^F1a
+%GV(
+PU$Fk
+)n_@
+9LHO
+~r 5#
+'X<t/
+5k.Z
+R-</n
+|(H7
+SR[[
+'p&T
+{ACJ./(
+XJJ:
+Taa+W
+.dkA
+V \l
+hHoH 
+Qu315
+ut/[
+_it`
+X@p}
+[;kj
+C|ni
+&${B!
+J2X$
+#:V$
+Uu]]\B"
+u~yy
+rUqj
+XA`V!
+'8:y
+A344
+,.,~
+YJJ*
+hSjV
+NAA)
+G</J
+lg.U
+{jrzSSk
+b-(kQD
+@=b@N
+PRb2M
+I;=?
+Q]};
+,,+-
+J>,^
+__O;:
+/*(.
+`+.]
+j|x|BL|PPRG
+Dj!h
+ y.8
+eCYq
+N$2m
+!-8v
+L:I+
+^N["
+vF^^uu
+x-pI
+OJ.((
+JXBO?A
+YhIOR
+B_QE7
+%K6o
+7l(**
+$$5V^s
+`rKJ
+z:Z/
+}RVN
+sf0b
+xp?+
+YsKK
+aNJIFTaZnA
+k7&2
+u39)q
+())-(
+og'%
+Ufx9
+*i #
+My;q
+^:yL
+N#VH
+6#/;
+3ebaN>)
+ZN3AHY
+$j4~
+9/7wD
+"PPZdr
+S:|8
+R"kG{
+ *2y
+1cGtu
+!S&Ox
+!lP~
+0mmM
+j0V=
+7o5;
+}#<8Enj
+v[g]U
+N%K3
+f:k&
+T-,W
+`}S+
+XkW_k
+Ch5p
+Eo2vt
+TUUH
+n[gwCg{
+\FzF
+&gqQQ
+P}S3
+"bh@
+`<px
+0~b0
+%k1Y
+^_Qq
+0'-%
+nLNv
+]PWI
+4Uxsc
+tkVv:9
+HO44
+&%Pn
+0j%f
+%-8F H
+CRm?
+4!Gp
+EPBP
+Hh!K
+rySL
+JE h
+3_GV
+-ABF
+V-%;
+i0qa
+&YD`
+yi>F
+Y3@C
+L1AT
+/px|
+FaiL
+1iOo
+Ui@Q
+g#YS
+pWwT!@V$!lfE>
+z-b#
+p&2 
+x~dPZ
+TAK 
+%{N<
+/)A/I
+#lwN]
+qgWsAA.pk
+l F*
+P6=Q
+Lj,uu
+pn0b
+bT>"
+@Q8 
+(-0\
+titz@
+/2P,
+ZE!o^
+{v_n
+=iEC
+{3&L
+=GN=
+S$1}
+DzQH
+w_9y
+R_Uqi
+jkl#/
+/^V:o~
+sgOYw
+dlcc
+AAzo
+>G'L
+_|F=O
+nr4R[s
+f\=y
+VPNF
+:u*?3;
+j]\k<
+jmki
+0w.y-
+.Tle
+NM0v
+;QDZ
+;vpFO
+V%^7L
+M!J!v
+,,,D9
+ TTP2
+wwwqa
++ddd
+i$>>
+~Y"v
+W&(l
+dtYB
+VTVi
+-^_!_U9
+vz<N
+w %5{
+z=r\
+GAl!
+pX+4
+8{D0
+U6vZVf
+MfM_
+Dq.c
+J|Frn^
+wHgPl
+[7'4
+3cfK{
+aP$f
+y[m2GU
+KX.%E[
+ik,X
+YVf&
+Hl.f
+CR-7
+qDa4
+Ek7m
+!Q,(b
+\Af+d
+Mfn'(t
+`*AF
+Pgss
+'KaMiN
+&K[a
+aaq/x
+ A4.
+hc]=]
++CP2
+cZ0&u
+(IAk
+Fnhu
+?c2ZY
+)(E/E
+DLP~
+dPI~
+'a,,
+\UNN
+RGIy
+|,*l
+XTZ:o
+QJrB
+r$X0Z
+X8fYT
+=n%-&
+ueZ2
+ V0|
+`hIP
+zSf~
+d]e5
+Uk(1t
+RXl0
+7N2V
+y._)GvT
+;AC]
+6:=$
+mMb;
+9c6P
+%7n(D
+l~r5
+2JOO
+b(KU
+) #,
+<>K+)OF
+~#2F
+5.?z
+hXYPX0v
+;hF(j
+<ZS~
+C~G?d
+5d$|f
+txog
+9czqi
+pV{m[
+`3~|Y
+]B[G%
+gBBOO
+0wD2
+jom@
+?i2d
+;Ncj
+52eJDe-
+"z\1
+3<U!1
+9tzF
+KKQ0
+F*.,
+<UV^+P
+tF|S
+ON7Z
+jjTE
+ghv^
+?*5F
+G1h:w
+s!\U
+>s^n
+x>5I
+w0/'
+QF3/
+1zlYi
+p$a0
+--b3
+{eQ7
+Bjq 
+sqP#K
+)"Ci!
+Qf$dv
+ccHI
+j VR
+Cq_$
+TXLTB
+IhMI
+R+E89yhP
+H;\h
+L?M5
+cW\>
+F%M"
+w,)V
+X"X1Bw
+G\j)
+Wb}"
+P9<^
+A8=B-
+ERjb"
+>]Ld
+Jqz(ds
+VC_7S[
+\rY4Ua@
+(z%trO
+Q`~j
+2 BwA
+W`q$
+^k@D
+w7G!hn
+XmR%|
+HP@!
+%U2>
+bPHL"
+~~Wg2
+"niFZ&
+$dzP~*
+cq?7
+8Lz+"\*
+.,u&
+4'w\
+DJZV
+ITW{
+==H-
+3eZsc{
+%yCK
+^X4f
+l4iU]G
+I3WM_
+{#bX
+353G?
+_H&^
+waDP[p
+9nFf
+dhY{gw0
+\s7~
+v[wvfQ]m
+L>=-
+d8Bs
+  z_
+ivAC
+RUMFn6
+8LU9
+qzfd
+&3j!
+V654W^
+kmCN!"
+Hm}SG
+u:t*
+hXgW
+/\:w
+`igG
+C"bm
+,s8)
+W\\"pc
+FyEgm
+^<+Q
+&6]#
+v727
+Z8=5C
+ZMBnU
+fPIZ
+$@/q|
+dsZ&Z
+V+t 
+J'#3
+6vgw
+WVQT
+R+kj
+X__?
+mGw'
+)T8|~
+mZ?z
+pa}u
+}kOSc
+2aR,
+P[$QN
+m/,(Nb
+JK`.
+hB# #$
+ZhLDBW*
+7EC+W.'
+td'cF
+%R,F5*
+s1@A
+*o\:
+}q"N,
+E &FN
+*qWs#
+Xsn.
+jGV~
+$:SD$%
+Bl4!T
+/^<K
+&LbtB
+pA; Z
+~v[K
+5TUV`b3s
+?G7{
+I?~v1
+<?c0
+;%l2
+BZJo
+e+7h
+8-8k
+F-\<:
+^4`;
+H'.Xs_
+HF#x
+;aQ0
+Tp1 
+PUT^
+5JL4
+*0\b
+A|8-
+'1r;
+y2!pa
+:lc:.
+TM]y
+@n^~
+5rNl
+(E;f
+9fMS
+>M-Q
+c[aNv
+)+-#
+~SNv
+TYXP0u
+~Z&So
+W-[9o
+GcgN
+<~Od
+\S}17'c
+4ZR-FcScS
+&1O[
+s2r3S
+JXG9
+-...|
+RDl&
+13a$
+G[;:lE#
+">GWS
+RSR:
+AGQ2tX
+)7g}s
+fYJ>
+<.sf
+&:7L
+@WW3.{
+@4:|
+F*cZn
+P~qI
+?=*f`
+n!%oI
+ l[6
+RGApAoP
+{A1bR
+eKh9^
+t9.]:
+?);+E&
+#CGy
+.@Lf
+sp$lll
+VDm}ek[SjJ
+TxUUUL:W
+fs"(;
+J,|p~
+?#V"
+$Y"Y
+R5wT%
+")S4b@
+lP3E
+b,lSFS
+a1q?
+P:`C
+tno/
+S?z8~
+1O$*
+&z"9
+kcY&
+i#d6
+M{!+
+:b^r
+xb)$
+Ti=N[QnFO
+RiFl
+*BH&
+<yfz
+J?:r8
+A7!*
+Y2v<HX
+u)M.[fa
+dAnQ
+BW/W
+y*.*q
+f##C
+bB&x
+~fo_'
+~[jj
+hqZnQm}
+>}fq
+9{VC
+VnLol
+TO@c
+.ZFD
+pisk
+bQQ^nSG
+*R5$^
+-diF
+_q+{
+rSfFvw_+
++<ah0
+w-Av
+xWUU
+hhXl
+| pi
+X!tb
+.!]Wu
+f.8WQYy
+vM,K
+3WW]
+[5M:M
+re]OoP
+[Z/U
+}Wq*
+j=18=
+^o6!
+su-]1
+bSkC
+E-i>
+HAA<
+\#37
+/bHI
++7.[
+NPww;
+aJKF}
+p1Bv
+#ghV]
+KZf>
+S'.ff
+3u6K
+ ,j^3
+UZK<
+1DP)
+f1Es;zRq=U&
+Lgty|*n
+8Qc4&
+hi01&
+AFGcJY
+vcjz
+aS&M:
+^p42
+FeR(
+SK+:
+I=}=
+*+Krr
+2er}ZF
+temm
+y/\(
+yyY'O
+8+6'
+=^\RB
+goN~^
+yIn^
+(In8
+94h-
+Pe4o
+A'PO
+D2)x
+g.^"e
+FB8\<j
+=0qb
+Lo[#N&Jl
+:f8rZ
+QZJ0
+IDATt]
+,?rp
+s;{W
+MMIO
+BG\F
+=U4x
+-p{l
+7o_I
+eKK+
+!h<:
+;Ic`
+`j|$
+VfpJ
+!KW>
+CM7C:
+YLm/
+Y8<o
+k@4q
+=(7c
+3E)V
+E6QJ8
+ww#$!
+[$1&
+iToTtt
+s0it
+>*6H
+M*HjJ
+R-3I
+)$:N
+!zQ0
+1sJK
+Y]Sf,
+7^+.
+h@S:j
+YT\2
+3BN`
+`u-nr
+j'!m
+C)cK
+=;{lEKs
+'c,Xw
+j+-9Ii
+K+._4
+=!3I
+(%yc
+;s"3/s
+t|D|
+(8`"
+8x]8
+)80x
+}KMK
+?pwC]
+{aa`
+!=Mu
+;"\I
+JMKLIz
+h6/^
+7qtYzz
+z]Hw
+@Hr&L4
+bBEVF
+1rzjjEYQ
+95#c
+]H*MF
+W^m1
+"+;}
+>+;oTn
+;6.6
++;+s
+56Uvtu,_
+cVvfMm
+  !\)
+NcSkq
+wt4gf
+>sFlJ
+"V$D
+Obbr08
+A.-+z
+!!s9
+livQ
+{?{G
+W4vP
+pt7)
+DkR)
+RcLJ
+/95:#
+=asb2f
+*bR+PN
+Ci~~R
+@?&Y?
+(5-#(U8]
+.'ZN
+]bBY>n
+* uP
+TBB<
+;rx_kS
+tWUUewo
+Mb[zZfi
+JR*c
+93/_
+=nd&
++U=N/
+jN[[De
+Yz>)
+T)4N
+F3"\ 
++!&f
+.j ]n
+}>au$
+WL0J
+pbs/
+Akp0p
+6+rqfz2
+10{x
+-3V.
+Zu}e
+/-0R*%/
+,H#N
+V$P%
+=uWT!
+eZW}o_
+"R"l'V
+tK};T
++>=s
+.\r4]$
+nqWL
+qprt
+Nar8kBk
+*VhO
+dijn
+K _h
+dRE:_X<
+8OGD
+)m)B
+,).s8%
+B955
+lokB
+jefFaW
+B)LU
+dfK,
+5\d2r
+qqEEE
+WVn^
+aSvV
+Z[1czv~nNaA
+}bz~
+WU]LLN[
+<sL|gwws{
+^yuWOo
+?wnCu
+|wgWBR
+vSYA^
+TW]DO
+^1m6j
+5T_1
+9%19##k
+`eB\
+soVvFbb
+;z|e
+=c6m
+ZVVX]}9+3
+];W,_s
+YwMii
+,ZRWW
+N2<Z\
+j&{*
+(.Nk
+o28$
+pAoOWq
+CFIYv
+pT&O
+6MPT{
+za^k
+j}Rl
+tc\f
+gHL0
+m:~t
+_h9R
+R'2~
+HQ_`
+Gg]<_/
+0|monF
+9SyS
+W^~u
+(dAP2
+#'B:
+8Z\T
+}7*N
+WV\}
+4g<jO
+ggYn
+8sbv~N
+;S5Ao
+62qqY
+IN\|
+KMN{
+=tBc
+tJBF
+8X2mv
+FEgXf
+#[z$
+F%!*
+2y68
+hX2$S
+V\2A&7Z
+~K,S
+" keV,8
+WN]j
+WT>j
+Kr22j
+5*)+
+A\eBC
+6'e_kG'
+RmLz
+JOK9xp?
+Z<m^
+Cew:-
+5qGL
+G6MY
+2xKNJ
+DKqF
+wB1#
+qf?6
+`<g4
+vF>D
+f2z.
+4Y0T|(~
+1%ev
+5Jds
+GN[>
+`q14D$
+AlW*
+F`;I8
+&VYz
+={kN
+aLM]
+ag?B
+V,?u
+M7s0
+3;'sX
+)RHW
+4|XFP
+xa|y
+Ds^P
+BHla
+O5*?
+_PS#
+EZj|^gx
+"ER|8
+6X{'
+g7H%!g
+JgCl^Fri
+MjNk
+:#%sT
+t5+3w
+mVFrYiBQAX
+>51q
+8-)A
+kg{A^vMC
+P6ip
+dkvJ2
+*E{K#
+PXV"
+)LCP{
+=HWD
+Tgs]G{sm]uJR"
+4R2bA
+LUZ2
+,*,C
+h1<@
+aU2t
+O8jc
+VU55u
+'% t
+0:ijn
+]c#x
+OaA~lB
+HERR3&M
+KB"u
+7vL)
+HYtyG
+w)iY)If
+)$+T
+&a,O<
+Zo/J
+xR]U
+TU]!
+8L.^
+!{^^.lf:
+"]WU]c
+.[1s
+4z-Z.
+,\XTT
+9c:$
+--]]
+F11O
+X!AS
+qTN>
+d2nW
+JWog
+psN+
+z-#@
+2"rz=
+Qzrb
+?i ]\A
+6dQE
+"B5a
+ 2oU
+mpyh
+^lTi
+.l[Z
+|"JLAm
+4A:59
+ajsc
+6oTD
+9mkWrZ*
+Qx\N2
+>khk
++7N`7
+5}4x!%%e}
+0l+S
+Dl\bR
+y9/}
+ZxD"
+/.*C
+5f!)7
+>&&)
+B#mW
+Pw8r
+=Cv9
+,#tC
+?>xCa%N
+G2lk
+Gct,P
+Axd@
+<R0!
+%6ox
+nTX!
+#z)]C
+@-+:J
+?5tbR<L`.
+"eRb"
+,wHR
+\6NTe
+D9Q)
+\KfF
+SQlH
+Sa*o
+DYS}
+d))P
+Y]kA
+#g4W_
+JSmaiIBR"
+0YTJ3
+45>9?
+mP4*
+J+&h
+5Jo/75
+gk|JfJ
+n__G
+LmIN
+L4+'
+J*#v
+(b@~
+&Yjf
+ZVZ(
+!C4;%
+nRV1M
+9hMLO
+jD$"
+Q/[dFP?C
+VGOS'
+lsZS
+G0g(O
+R|TQ|
+qzIMM
+z%:d
+ETK_g
+hM>)
+BR5h
+s2;7
+6"0dl
+wE{r
+/x1^
+_2.s
+]1Ki
+ 5+w
+o#rsmM
+OYs]\
++y\Y
+.gTQ8s
+m~0}
+[|Q.W
+]}SaaiCC3
+b`A6
+xVjJ
+/[;e
+LOg'M
+V=0o6
+Z[[V
+3-=k
+]w&%
+}eTnya
+g'=?y
+0533g
+n}j2
+`0ad
+s 1!
+5 YE
+4JQN
+B" Q/
+JKH(
+'2j:
+]S<i
+s'N4
+%Ww9"
+qS'zm
+@5":
+#sf6 
+<b)g
+z+t,
+?|k6
+O?m;
+1V]8
+X?|}
+.Woy
+JMwS+
+=v<*
+WV]B
+@!!%m
+A}Cm
+1 dZ
+"" (
+  qK
+RCZj
+;v\pL
+8v3G
+r:sx
+]T08
+X~J[
+,D8"DMm5#
+yE`h
+P,'>
+) kf
+Nhii
+>{:#+
+06>iT
+P,R?+r
+<`_P`
+aC1*>
+`VE:
+yid-[
+aW8<)
+\G42
+uuu5
+Vo@N4
+;(,$
+@g:v
+NJN}
+):Yc\4
+]]]|
+G-pmF
+8C"'`
+>.!=
+1$ib
+[%xC
+Qx%6
+tW5o{
+X#b<
+ZtU@
+H4b6
+$j0P8
+6=z{
+,]>v
+TVyy
+|F>/
++Hn)!!
+E!tMFn"A
+R@[J%9
+/Te&
+<ENJ
+ q4%
+iob>
+ND<{
+|`_}u
+"8x!
+-mG'
+Mtc)
+/GZ^
+!)Uci#@TM1
+<9#[
+,&)).1y
+MgwGBr"
+Qw[C
+fO[8
+YK}#
+NdG@
+j#TIH
+b!%5xhZ
+W_}5
+7q3BK
+ZXdS
+X<#"
+;0ft9
+|M@'
+l\vE[s
+/Y:g
+N[0gFBj
+$Ca~>s#
+p}gkKk]
+(#"(
+Y>a<
+5T#>
+QwiTzZ
+WQp7W
+@JKI
+r(IE
+kO+7T
+4RtjYsK
+0/inRR
+:rt_}
+HR]Y
+X3V"
+[R0*
+1ecq
+34r=W
+&s}]=xI
+O6\s]||BAa
+f8[3g
+zUvv
+oJIJ{
+JNIX
+R"1&
+G#8<
+Q,)"
+(,>o0
+,LN+
+P&B-
+PuaoX
+x;Z1f
+/9%)=}
+!w /).K
+EN6f8Tc_Z>n
+v{9[
+waAHQXP8
+W2sr-
+Jmnz
+*TS[
+XqbB
+t).;
+NmYY
+J+4yy
+L0.^<
+ZkJL
+glB*
+.]>M
+CQmS
+^a~o,
+8"\FA
+1KT!
+<ZeDE
+Rh\>G
+G9F1jY4l
+X("!
+#S9%
+.FoJ
+I r}
+/Ih6J
+MQD|
+"]Tq
+r(J^
+muD"
+n4Hpd
+K|<?
+ )Bv
+J5bF
+*5\^
+6$(p
+NB,@
+bL=u
+D4V|
+A]RBvz
+mrj:
+ecDr
+LT#K
+YQ@D
+.66K&
+7vu)
+mM ~
+5&fa[9*?#9=
+}6W4';S
+ N(#Y
+vGW}%N
+daR+
+z[Woo
+VYtg
+8""G
+'\=M
+462H:
+%<,/
+(;EDF
+#jB3
+Q%x0F
+-H+ 
++TP2
+/>.Y
+@?R*{
+RPp$%%
+JVdlR,6Bo
+%3#m
+XKrb
+$>!u
+6oWO
+FtijiF
+ph[s
+tsVz
+(KP'
+dq@H
+I5ZDc
+56ttu
+J}SS{wMK
+y%KW]
+'-BB
+?SSW+
+m#=-
+TG;9
+?<={
+D<<&1u
+}Ue-
+ 4?m
+d%6&
+vttA
+mnj{
+R)!H
+HAa)/
+y6[llzuUckK
+6iCm
+ggG7o
+RTng
+*TlO
+ezV6v
+-Y%W
+IUrF
+Uq3fL
+ouZENj
+0uZEe}[
+^8sVzQYk
+$s{S
+\fHu
+=_}E
+C{>|/-7w
+H%MiA
+>xq`!0b
+?mkk
+tbOG
+R1::
+*tQ+
+!{3kf
+tZqT
+#$N}r
+dumuU
+A//b
+YUjJ:'
+r<Pi#
+rVx=t
+hQq)
+@9O0J
+~(LKKg
+$OWQTTHo
+%%O=
+%0(?u
+!kL/
+ruFI
+:BND
+u+><Xg
+pc@Y
+?%;C
+6==e
+Rpre
+wLg$*)
+}y%8
++&&F
+{WZF
+SgN8
+|^A:
+B 3)
+$ulH
+|2"^
+|]Q7G
+gHiH
+:K2AzJ
+|Sbj@,
+0>=w`
+8#OeJ
+:ssk
+A'0d
+Xt|x
+\:+ 
+~p(t
+,JUD
+t&CY
+;=>O[{'
+3gOkM
+Lp@i
+Qfw<V*929
+P?FC
+|y|a
+(=7K
+2'BN
+9)=U
+` 61b
+dLRk
+]4sv~
+Ks+*s
+s1U6
+W,\\U
+<sF5
+'L4Q
+LLLx
+`^Ax
+`QqA
+3'h#
+;ga_
+>>}z
+Icg[_
+POw_AAVY
+i)yw
+pldppNeuIq
+\kMN
+Bnnj,
+}_VV
+}>16\^
+Z:B4
+Bs%N!
+mZJT.
+jD6}xX
+:)G'
+PzRj
+v4WQ
+ylZU
+]Q,7%yi
+5"CK
+q'wL
+H!Q0
+4&sb2
+7lgZ
+YLIOz`
+pSS+
+Uzz:
+x^,l
+"X\r't
+yq1l
+,''?'
+^O`N
+Mffn
+Vikc
+:}BM
+,A-H
+ MN3^hR
+h6FYd
+1MntD
+9zlX
+XM,6
+tF5]
+H9yi
+Ccc!)Gy
+!?0>
+R!Q3
+".:>:
+eFBH
+;BaD
+A]JI
+-!)1/7c
+P1Q)u(L!
+dmOz
+s{QP
+-[>(G
+>08&
+~_T,
+4&SR
+6skZ
+SU,!
+?)o!hG
+V$gQPs,
+EUbV&
+41=#'
+3u1cGO
+zOFNvrA
+<8&Q9
+(016
+$CrY
+*cBniuT
+1=='
+*->{A
+%E^M
+={Ag2
+)i)iE3
+Ed3d
++JKN
+{l<!!
+pw_wK
+SrK^/
+N)Ra4t
+Y=82h
+) 4P
+BZ<Fg
+Zi d'6+
+OHLG
+CB%L
+DQduAiY
+0h|s:
+}~`p
+Rdh-8
+</1!
+hq9a
+#SP;l`
+FRX3<
+"S@0
+GF"RQzv
++/7\
+}}=h
+P_OL
+e_ ZT^U
+ygff
+Q\R>ns
+n4QD
+oxBg0
+r-LD
+[P<12T
+m[w`
+DW`_
+@25+
+~GvN
+~[EEU{[7
+<`4$
+PW;o
+<U9{
+PD.Z
+3g-^
+u_=w2
+_>zh
+9x<.
+00f=}
+bCcSS{
+#2ckS
+T^]WZ=
+S1_\kC
+XgC3S
+e3*W.Yu
+cRk_
+AVS5
+dmp`
+z}r\
+W_Ae)9)
+tKswC}
+\c:s
+*PQSr?
+'{XT
+|CJZ
+=&S<:h
+m7m^\[
+/\v;~
+B'D0
+UU]^5
+W66\m
+^;{t
+|HPE
+tYT4
+~FZ3o^]Jj*
+0*%i|J
+` )Q
+q_Ok
+KCZa
+T!tn
+)>8m
+|)3c0
+fn&.."
+ihc5(
+ek(I
+Gzd%x
+ayOY
+{F:G
+mCcVO4
+IJ,(
++OI+
+\93fh-
+P:@h
+StQ)
+FXzf
+?nIT
+gNg6\YUFW
+9ihq
+`MMM
+!h!/
+6|"Z
+DApc
+w$H#j
+O>[0w
+1Mji
+:{sD
+hB\h
++Ja2
+}Vd,
+908z
+ )YLJ}
+8`34
+cOUW
+]w>F
+08s"
+43'+i
+ sVH
+O"C@v
+,+YRPP
+6jR"
+W,#)O
+.4/[
+x*#` 
+(F'I
+{Nq%V
+6w.v
+G$AT
+sVfY
+-}Kb
+)}AiMqyekW
+xN->,
+bMS\
+;{VS
+.3s$
+kkM9yQ
+IDAT{V
+W>xh?5
+)}GD
+vv8&@
+7^yi
++,,@
+:..%5
++jzv
+g|U]U5
+[Y\Z
+>f$0
+uLd&'
+ 7w|
+[T>{
+N~x6
+F5oNM~N.Xz
+5sfNNJ
+$2.GmmuJZ
+Q1{6
+z]qQIk
+Z#'6
+@Q~Am]u
+VcBv
+rKKSfV
+?.**
+S2S+g
+{HJ00d
+qKV~!
+bt9l.
+ClV@(
+_oj7
+/ENy
+<,77o
+_]]Y
+4Z5S
+&ly~
+MKJN
+*qw7
+k|(AO
+asPN7
+MKA(
+3'DF
+BGsJ
+Ag4`
+8"|/
+6Y@hr
+$rMD
+mty$a
+WiBN
+ 1\d
+wWi5/
+W2X=
+8+o&
+[<PF
+`85%
+GIxx
+$'7sf
+U\W7
+of&=6:
+X**u
+DLb2
+jlFc>d
+(Dv!
+!*1")
+:6nc
+\;"r
+#G/Am
+Z3:4aJ
+ caDT
+Z@'S
+`7SXr
+SH k
+ZhfdHD
+|B~&
++PZ 
+6[vN&
+j'$!
+auR\
+h_gdlt
+R]vV0
+._X/
+tVIrnN ,
+GyI)
+$@YF
+L ?'Yd
+4T1G
+$KJq
+8j5#=
+Ysb:
+:*2(
+7^nnn
+e%5F}Z,
+vLR}>WUu
+vtrJ
+a4zx}
+a{wg
+j:9%
+vt6Z
+3w8}
+dSlLA
+8:`=
+j!""
+mC5.lwA
+/*5X
+xjN.
+]Xgny\qQ
+XmkkL
+6>X:g
+)2Kf.Z
+7}N]i
++VS1
+BZK!
+H\rF
+Uk%z
+_OAu
+{")1
+rOUE
+VVVq
+[oE{
+;1q9r
+^@FHx
+RrQa
+u{ff
+75U/Y
+//\;s
+e`(>
+a1[d
+_oGsYu
+O=7.W.
+=aubbN
+^=}BI
+.Ye4t
+m&C)&K
+tF1-
+gN]Z
+zFEU_s
+~Zum
+W.OMIi
+Q<48
+YlmiE
+?^})>^
+XP::
+?T<m
+XJJJ
+te6l
+~pt@/
+O!sX
+_*3M
+jK^R~M
+1Dl:
+bEBb
+Z5KT
+\/NRF
+x8aFbL
+r%)U
+VfAv
+3Ua~
+7_OL
+Q!3I
+F)tli
+(&B&c*
+rHRS
+__H`
+TjF6
+8M\(I/
+0f25
+T$0j;
+IIcA_bq
+\Kw/m
+$G0Q
+{"OD
+LOUI
+rsYy
+b+^=
+O$NJJAI
+||u4
+'+sv
+;6nZ
+[n>r
+ Lro
+rxv|
+X?1 
+AcEcG
+9mv"!
+TV2vD
+biMe
+J@#N
+/?3&
+"n5U
+V;6a
+3D\b
+W_y)
+A -d
+`YSn
+lyNn
+a"4wr
+$3gRLT
+zIS]%~@
+tQN:
+Qaef
+dJFG
+V[TI
+VZRQ>
+m-S]
+y#2$
+xc]<ub
+Q+6o
+[8X!
+WR3Rj
+stJw
+:e7)HY
+^&'&
+Qhii!
+soYu
+:ET'A
+F8IoIZ8
+tq_/)i'
+h$0>
+]@pJ
+^~QZ
+{\)f}S
+kkssIyIVqA:
+45b0
+ejeAqI
+4.X8
+ZJX4
+lP#N
+FaQ>
+D78|
+SS32<z
+vMoO
+::Zn
+H1[E
+Z=::
+N&aJ
+r%'%
+'j<v
+c,Ca@
+CTJ!)
+IKq8
+=.9"
+@Ddw8
+kh~",,
+^%<6
+PI3n 
+"#dN*$>&
+]P\Q(
+fgp 
+D%j./9
+vR=X0M
+@C# TL5
+geQA-
+z$A<
+8'5O|,0
+E$0/"
+hij^
+B Er
+tVL0:
+'qQ_+"
+"1@*
+-mlQ8Q
+(oPi
+bdJmJ
+qLgx0
+O($Z
+aplX
+;=F@
+M}^7
+2%<f^P
+(-8'
+xWNly
+*##.t
+q3FMd
+wl^0
+mc#M
+}L"z
+h<[__
+z/4X}Na
+EoS*
+Zp{K
+UW{[
+,]d6
+'N1c
+&*sj
+j$|l[
+mRaA
+((.Z
+%BN{$'a|
+8q$+;
+C5X^Ur^
+!u\V<
+I(SP
+>)>u
+'%)k
+LewX
+YCT2]?
+$/X5r
+Z~_H
+eL'Z
+i(th
+-p!&L
+94!U
+WsN5
+o9*+9
+ {rv
+pv%%
+Z@hW
+I:*U.b>aa
+ZRRVP`
+4u1d
+7vtXW
+:,#m
+5jJo
+ML%NI
+TW\8}
+E@MQq
+6ksU
+9gN\8}
+iino
+NsCy
+{vm^oikPu
+oo,}
+^K{]ce
+]8vr
+4[C}
+_rs/
+zb(Eyy
+<`vv6E
+(-kkm/..>y
+q#($
+mCa1[
+oeJe\7N9
+wQA>A
+9&L;
+rkOY
+SYZ\
+cLrO
+xC[`5
+ryFZ
+6npV``
+w_}^[^
+\S2|
+I0mjXM
+~&%*
++K5*
+E{;//
+/OT%
+bb27
+? //
+=!((
+U^^I
+=:!!
+P<66Z
+gNxp
+Ba{w
+y<tZ
+'Hy'
+;}Bg
+9kim
+Jn.}r
+!V/oo?
+KSkZ
+l1khN
+ZS{x
+=S#`/
+Z>8f/
+ZZP@7*
+Hs**
+!ArL
+.GJ/80
+3yWr
+.zw+=
+W7-Z
+O2.e
+NnMa
+6uZ,
+ZI~m}
+>QPV`
+49la.
+zeiy
+L]~o
+UPT\
+uzt)5
+w3EXj
+B&rM^
+T!>1
+8q"1
+~\Km
+[ZZL
+%T0_/*
+"iHi
+r94$
+O<>|
+5"1^J
+J(^B
+e0X$Dh8/<
+{C$Zv^eGV
+M{XdhbZ
+6#=2
+#GC}
+]-Me
+]W[IP
+@a}|
+XZ0?
+3e?:
+"j+Mm
+BaY+=S
+P_]G,+
+9~Qa
+ii)x
+_DSP
+{@=w:l
+F^;x
+G@TC
+W^qqIJO
+dFF?
+;v4KO
+7IrS]
+f[tH
+_DPG{mb,
+D$+-
+_b,x
+Pn7TQ
+L6gjJ
+PDce
+XS_yd
+WFxy
+]XKK
+/[r3
+Lv||"t
+-l-8
+*u7e<
+hoo9xh/
+JA.]
+S&@a6l
+cnjr
+NOOY
+BM"Q
+vux)F
+6olm
+k&pB
+Ew(T
+RSn5
+x8<W
+NAlX
+|v9-u
+ZPHUc
+e)=,"T
+:M`s
+>!"`
+*_S;
+F0*O
+i6[tT
+\Dd[
+`6af
+ch2pY
+:"1!
+D~F^
+<b2{)U
+lii>
+A2*v @Ki
+F+.'
+'BVEbr
++,_Fh
+YzPw
+#!&J
+r~3o
+b{n!
+^*Yf
+?o2i
+5oXh
+BJ`w
+7/^`
+*d9-
+Kl\I
+d/M\
+^}&{
+;j"O
+VZ~"
+b%E"
+H9tO
+W|P:
+=[\^$
+7r_\~X
+x@if{
+1ir^
+/g4{,
+>S*?
+S-mb
+!&BV
+b%5,
+Di5{
+JDBV
+KH9q
+J/y-
+GSk1
+eE%>#]S
+/_\h
+KiN<e
+l i<
+R>AB
++oKyg
+C+?R
+^03c
+vt{u
+^_Y^
++_M~
+Xyx(W)
+2'nP
+ U^&
+RdK.
+Q|\R
+E|N2
+O$;Z
+*VzS
+lGYP9
+sL4[
+guY)GVj
+Jk5[
+=,fk
+a{z(
+CQ_/m
++O$&m
+^h8(
+xzu:
+?h]4L
+uvSMO
+XaWk
+xryT
+#t:b
+Bm,aO
+Z,AG
+\]mh+a
+\"Ch
+HlT;
+Vx:R
+lDhG
+m6qA
+?|]a
+#&Jss
+h!";
+oj[-
+chu47
+dc!O
+(Nso
+p!q_h
+!AuA
+1(8P4
+EP)a{
+>&Yt
+B]dBqV;
+=h"'
+\1Pr
+K'o,
+pTH$
++V2,W,(
+&?'Hl6q
+T^Po"
+yDLoa
+Z[`z3
+RYQSTX
+ZZ[BBBal
+Z.t6
+m`wB
+$"n4
+@KK#
+CX#qP
+,1OG0@j|
+C0y#A
+Pg[{
+&zk*i-
+Uk<i
+^0~%_a
+bJyl
+D[:|q
+`z>6
+vXiO$2
+`4{)u
+\5(tL 
+)]Rvb
+:"tX
+GtWT
+EK"L
+igC}
+y}Iq
+j[Rr
+\*:t
+LMK*
+agCM
+!'`[TT|
+vJzj
+3=<4
+tQaqEy}
+RUe#]fG
+c;m>
+/?GgO
+s0)1u
+sg/cJs&Q
+Y_kD
+}XK+o
+ix>r
+Ms*Tfc;
+&o_?
+lbWt
+!!Is
+}(88t
+K3`3
+ssvl
+_|jl
+RA:l
+a0%1z2
+J.$$
+yAbRTCm
+Td_}
+c(26
+oZ8k
+OcHb
+1b8m
+`Vv!
+<D[+
+X+o]LR
+>tWjZ
+ud4_a
+Ha,^2o
+rQqQu]
+[ii)
+"4<b
+)(,B
+426&%
+bbb'
+(,*nk3
+@yE5
+/  7
+n@`(
+>7%9
+:ddSk
+QcFb[#
+9xLB
+mhdcO
+(,.ljl
+%!ofK30
+a>,]
+2dHcC[mu
+755VU
+W//[
+C2;;
+gpH 
+QN2J
+3,jdd4
+8j_~
+vvu[
+)S&m
+N@}qB1zx
+99".D/
+v@rr
+g!"-
+63KFk<Zab`
+@,1K
+N{gQa
+PY^v
+<kkjf
+9OCA
+p5?O
+B@HU:$
+TjMhh8
+f<6D'
+ZHi6
+"k.^:
+f":L
+fvv:B
+!s(2
+>~@~lj
+:UWS3g
+|giy
+x,)=
+>v1'
+ .++7
+[6m<v
+vX-9y
+(|V.]
+*EOx
+f*al
+:DDw
+/,VHH8
+D.PZ
+V Mxyv
+Kepj
+B<I&
+qj0g
+f[GcS
+./,F
+80%%
+CK3Xo
+?=7}
+2N$3
+djdRD
+I(|:
+%(Pifbcc9
+. W.
+;y`_
+[ZRv
+hZZzDBRX@
+|:=+
+?@gw
+HKLNd?
+d_z`SNG-
+6\JK[
+~rUbb,
+ZO,%
+S7, pDc
+H|B4g
+v[jZ
+T7ez
+74T)
+VVR>w
+yUUV
+_~Q(
+P;\V
+}ICe
+^)4ikj
+NbPf
+?l !HM#
+UFUK5
+@0$!
+4498L
+3xh?
+iShh4
+2dXRRrh
+!a>Q1
+L2zg
+\/,|
+</>1d
+3}|U&s
+ saa
+0q2a
+1QdFD
+ k\|
+O'&&2
+y]zF2`{
+U"Dq
+Kphb
+=yW.
+IIqc
+:1$$
+7"TD
+/=Od%99
+&55Y<
+=(N<
+XPP\WW
+4ESK
+3..)..
+z/}7ha
+@Aqq
+m$)R[[
+2yV[sc3
+sgsS
+C`}]=
+Qa2`
+6"<*99
+ZYQy
+"..;n
+5j(@
+iJJL
+qD>++
+564Ke
+VjJO
+JlL|PH
+TA\L
+L)]^
+VRZDl
+Bdd8g!
+_/-//Qk<
+\imn
+IIM)
+^RUU
+IVFE
+G(T?
+$wY]
+OP@l
+}Aa 
+btl-
+[(,A:0
+]AY0
+cV4q
+AcS]Hp$2Q
+*Uk[
+v[LNz
+1v F9B[
+OR+;!K
+-gV$n;
+R@T;G
+Q$\1&
+ITPxc
+c?[m&rc
+M}'?
+0erp
+"\%1B
+0 [!H1
+/pt3
+n/Dh
+FhkoF
+G c)4
+[d7J
+w##F
+Lp<a
+?DMI
+6,-+<xhoeE}dx
+7#6.
+ZYE9
+B/<e
+4ai 
+kMu3
+-_q3
+i3fN
+ACRnZ4
+ILH[
+)<"h
+oAa.
+Cn599
+!35r
+/_ZPP
+nZkj
+{ocj
+MbqY}
+c5s&b~.
+qpw55
+0H`u
+[i)hXa
+p5$5
+V0ly
+Wiiq
+a'!s
+ee% 
+`_jmkX
+^7/[
+LabJ`]]
+2cpA
+ZS]_XX2j
+F-#;
+zt6.~ccKEy5YpBJc&N
+Dyt3]
+ZR\1l
+2hd\J&
+zjJFRR
+:y.&&>&:
+Ld2Q
+cy B
+mAi :
+\Mmics
+ytv#~
+VsEy
+X,P`\
+j.\8K)H
+Rrr/
+Q.](
+e_*+
+p/QF
+2G f
+=5wt
+?r:?
+\ykDT
+=kN`p
+|ZYQ}
+sKs;
+|,[@/
++ECT`M"
+m.+R
+PEHJTj
+bUUW5
+,^:O
+  {Q
+4G#O
+BCFP
+JaYQI
+6yl%
+N+4A
+ySqa7m
+6<5s
+$g*T
+.kgP@
+IouZ
+=Uxd
+l@HDhX
+z?mAQ
+&RBNg
+T.y(
+O4|$
+#3c8
+'&MB
+dNOe!
+n]u3%
+v:u5U
+v0B@6G
+c+w 
+;a$G
+IDATId@
+k3i<
+&2l/H
+d^z?
+>UFL
+O?^;c
+X0fn-
+@ND1Dys
+cl\X
+EHnA.
+GA@\8
+.]Aq
+jrr?T
+K?"T
+Wli9s
+f@Pv(
+A@:P
+`UUT
+p`rJ
+%1!~
+`bb#
+yF::
+8Yl]=16
+6gep
+/=YT|
+9;~B
+5hp&
+=s@Bl|Hx
+YS@Z
+3>kp
+[o]AA:j
+qXuZ
+&,2*`
+moIQeXD"
+2uRf
+INJL
+<hDIq
+YV^<k
+AT&3@
+xfL^t
+]^^F
+uJ*p
+{CNz
+,=~9
+ =Ye>
+_8C6q@
+ix~5
+|(1I
+t~ }
+b,ebe
+i==h
+bf&I
+f-R)]P
+9Y%L'
+cG.5
+RSW]QY
+YZRA
+:i=;
+S]SAI
+#{yygp
+82xP]
+U<(}
+^QYIh
+.]P0Q
+WqA1
+9YYBU
+YSYFr\Q^j
+PFDF
+%Ho)
+:nDD
+R981
+x^4q
+maT2
+g/a)
+w4rz
+=}]*5
+Yog+
+0lml
+d.)q6
+nAqJ
+>."'R
+^>^t
+Lt%:
+qboK
+:Nd^
+_RRMA
+.6*-
+Dl.6
+.1{dmo
+KBr2
+m{(g
+\?1)
+:ixH
+Pic 
+`M@Q
+<8`^
+8 |x
+&RXv!
+<,Rr
+-0V8
+EPiJ
+@KN87=e-l
+!AAd
+aG[W
+n|6/,E0
++IxE
+<{Jl
+-!B;
+)(W\
++W.M
+BAc4m
+TAUm
+qh!3l~
++W-#
+<)8:f
+?**z
+,"%q
+{Kq7
+4 /hugg
+Et[]]
+#$@A
+96pO
+%eO?
+QqA>
+M<V3\
+1'3mH
+5k.T
+05`p
+<<BFO
+XEEa
+qhXD
+lTyY
+M&CaQ
+v)kx
+=#=54
+|w@pG8P
+i<3K
+;+7Y
+L?cNx
+;}G)
+?2jt,0
+3g/t
+4KIM-)}
+]T\\X\$S
+rbYrZ"
+g?<*n
+;o~5{
+v"F9`pdzF~F
+6U]c
+qkJZVxD4
+h4^#
+?"zxb
+SRYX
+76&G2
+yl=@c
+6 v\
+.VB<IC?
+fScgDX
+zxeUMAa~9d:
+~Z[t`
+\.SC
+&eAyTUUB
+K%9j
+sgoB
+f~4/?
+<1y9
+szF2
+6D(*{
+N#tKD3
+D1LU?
+2pIp?Q~g
+Ld*|Ii
+77NU
+:}8)
+xS+d
+20yB
+_{Wa
+POo?
+6AG;P
+kdc 
+G)am,(s1X@
+B<I\
+l$D7
+)>xj
+2%1)
+2B`DBO
+)S&3
+II#`
+WT2yLX
+3lz|
+<Xf.
+\<}>
+>N#'
+yquua
+:t0HQ
+YZwv
+<5N)b
+=Quc
+{ {~
+8@LCb
+85)i
+_E0.
+nn.LZ3
+$+3@
+l-8J
+07]p
+3M'8
+R@`0
+gBzG
+AR?B
+0b;u
+Htld
+h}iY~CC
+yCHX
+#q q
+xj-m
+'OIN
+rkDL
+<8JL
+`nPv
+G>BB
+B#"h
+S*))
+<zCp*
+;g>w
+t "?|
+UqI![
+KgP01
+D_IJ
+C;fD
+9eJ4HE
+3\XP
+&/\4+5)
+m8th
+3qR,
+dyqQU[
+)5D'
+3/./7
+pmM3
+QRm@
+yP$S
+q/$:
+(-pP
+=SXM
+O?74<x
+*O/7
+yd;\<xxf
+NaBqa
+7n^%
+3jL,W
+q3gq
+9eJ<
+teEydd
+_S__s
+RRRJ>
+Ai>h 
+ItKS;
+lLOW
+^[{3
+A(deg
+)`jsrP
+7vTiy!A
+qwE+
+`CHL
+j]W_
+B\hH
+do/ON
+&0lAl?p+@
+[840
+e$75W
+DWo^+-.
+zjBD
+W[WZ
+P;;C(;
+tEAn
+AFzz
+^-;'
+5;WsRK
+[e*Yzg
+1q,:g
+GRoc
+&zQl}
+M&w$z
+&hb<
+'8~i
+2c9@{Rxts
+FMFT#Is
+faKHka
+?0w1)
+@0K9c
+M[tw
+l2i^
+^4wE
+:it]
+vnx/
+Z90Z
+W%Qv
+kfI8
+T)~Z
+</ji
+p28M
+[ZuRG
+)3(a!
+[bw2
+|RCf
+r28z
+sF<y
+Pc!l
+A0$c
+M?(\
+-]I?
+XP+#
+;Bd$w
+lPn5@0
+,"xD
+Ck/@g
+]=6O
+wsqB
+y|~g
+p)))
+:ES9<l
+<g~,1
+8z%?
+dXb J
+cObX
+Ylm)
+'?NIIcL
+dZFF&
+9*-/
+jZ|\WG
+W_}E4
+&n!?z|_A
+k2">
+NCFz
+s&+;x
+lI`@
+.]&yV
+l0,^
+75MM
+5~>A 
+1*;B
+hN}Qa
+s[W{
+xp5u
+JFEA
+/r V
+1#>a
+O$"&L
+fcs%
+@Dy7>
+Xt!z
+k'SLo
+p26:Lm
+x&pp(P
+kQI1
+mc11
+-"pa
+5-.!5-
+0kvl
+d-c?
+oOm}
+6o~n
+hF%%
+hni[
+Xiii
+53Z'
+2h\l$E`
+< `m
+Wff6
+p_iB
+@L++
+r|y6
+A?(d|9%%
+"On|
+kx|4
+2AanD
+oge%
+2338
+tUVVq
+z3'#
+mIII
+-dFT
+PfO)b
+U]YJ
+mT;j0
+24(|
+cJNN
+Mrb.
+XgI0A
+e(dzM
+l_yY}
+0{[o
+W^:|
+R<!@
+sr@*O0
+OOw,
+miEB
+b*@j
+eMX|
+uvrr
+|^83
+w'gTw
+FXK(
+xbhf
+HD9f
+Z$Id
+`Uxz
+G\9/"!c
+<#x/
+vR"k61
+*51T
+n}Xh$
+0(L1
+H<09
+uAu\
+;k/5:n
+(hcM
+NR4N
+#BKU
+xWw3
+2u<c9
+\:(M4
+4!H)YI
+dNzBN
+,]:=>
+,x]]
+WWVY
+;KSU
+` c@\(\,
+ kEe
+l?-n,t
+=gZuM
+X"dV
+g$L}
+4?32C
+jFa7
+(&SQ
+|1Xs
+R:h e
+>475
+>,28
+T-zT4
+=fTD
+m<GdS
+:m|x
+<42"<
+0%G~
+!Va0
+0EFF
+`NQ`
+:hS]
+PB8k
+tK@^h
+Q#'@
+=zXJ
+j-hd
+eaQ>
+ELbA
+1[X0~.
+U3jT
+-U1hOPz
+=*$-
+?C5MTb
+_WwWs=w:@
+sXEy
++tzcW
+1btnV
+A3zt,
+];O2
+0S;;
+TpXPRR
+}PeY
+KI--
+6S.cY
+niYI\|
+US'O
+b(H_ 
+#6IK
+0/7c
+^C[a~
+tzj(9
+AA~[c-
+LvP@Ia
+88(9
+vBcBn
+759U
++:*:
+OmU9%
+c-KJsbcGX
+MuuS
+2&_'L
+A|R2f{,+
+>}bO
+;EQNv
+_Cc9"
+27+w
+%Phh
+{vvz
+[[ 4a
+`KquwDd
+uj;$X
+ dF'A
+q"Xi#
+$@dtv
+fm#ohj
+. Z5
+4GG7
+(h=r(D
+}2`e
+_t+1
+!%6?
+-8[P
+/H,9
+mhj`q ~
+|*xVL4
+ kWX;I
+F@6T)
+j0)Q
+4 ~d
+g&gIE
+@Vp:Zk
+QZgz[
+=z+{
+?(-2
+EKzj
+M-|N
+gJ /qX
+7awss
+low/O
+Yu@{8Ax 
+auFz
+.%tO/
+9$!p<
+T[WC
+p'vD
+o,JK*
+h@77G:
+XpFe~
+.W7ubr
+/^6C
+/X8g
+ N:x`
+EE_|
+TM}!eBH
+cbF0
+}-YA
+_U]&%
+|tLRRn
+dO<P
+W[Y#`k
+{KNn
+pZxrlV
+9/XM
+&>~^
+q/;'uH
+z&p04
+Q,NJ
+8E!c
+&T\o
+%20)
+qc"9V
+/\.).
+_|C\
+..n0$@
+&rD4
+2`Bl
+Z&"S
+m^KKv
+>72z
+ys(C
+=hho
+LFEy
+"C/\8
+&8b:
+zCKS
+rvcs
+_Hsx}
+D8>8
+bd0L
+!HO-z
+%wvtK
+1%U@
+1JYY
+<M$2
+-L.s
+`59u
+d<2*l
+SN!|
+x7[i
+Rjta
+T-9)
+eH9!
+EK)^
+,WDN
+8H1i
+}DBDh[
+W 8x
+6F#k
+YLpL|
+utvW
+k[G;
+k;I\
+~vfEG
+fzcFv(0K!w
+/Yv7
+%h=Awb.(M
+8[Yg
+iCU5
+/U~a*
+k7NVT
+._>?(
+8}__
+In.S
+Mk4BL}
+660-
+r5XN
+Ab8P
+a%k{
+^Zw'
+0}bn
+9sg!h
+~t(/
+Eh4d
+WA~B/PLUCA
+CDGYn
+ 8%6"
+Y[j!
+{3$xDP
+:k]{-eM
+S}zCyq
+G_TT
+/8je
+O*+h
+beEIscCg[
+vP@LG
+/Y<;/'#5
+A>:sf
+HUSpoMO
+Wn1z
+28jt
+={:$l
+\=#8,
+:$JH
+.cmmkWW7@
+`_V^J
+c6nz
+MMON
+.U;:
+TVZN
+2;{gg
+MOn|
+uswu
+8)b>
+a]ttL<b
+8WmYy!
+U3qeEB
+qTddb
+iUYOb
+]^zc
+0Eiyn
+ !!E
+-3g#
+>.#bB
+gN]V
+{VNajJ
+nXdx
+IFnnN
+frJc_
+BTIL
+PAMOM
+*UYjtG
+8ft,
+RSSM
+XQ<@
+n?'7
+k><j4
+(fj5
+sg)Ds
+mPo7
+j-g 
+\9{@e
+~J[G
+QdX8
+J%&Rd61
+)lnn
+jiFv
+:P1(]
+lhp:
+'S()g
+ tA'
+vTyP>%
+SfI)^A6
+qKAf
+a[h<X
+8T !
+ #FF,Ej>
+6~_t
+I/B/\
+.Z}p
+iO?6
+YKCF
+0+EzG<m
+g;u':
+\GGT
+(Hxzy4
+VH{9
+qJ~J
+r(\lk
+|?(eI(
+<E#t
+tA,n
+N]%C
+x%W7,
+b+x)n
+6 x0(
+{]OC_/{
+oh[K+
+Gh=P
+u&FdPXb
+?\,&
+Tx=P
+RQq6
+N{k3O
++z1I&k
+V7$hpee)
+u9(!tC
+>$+'
+<WX_
+7;ns
+e[n^
++Ev)
+9}1a
+a2Az
+kU.k
+,XYK&
+yz;l
+<bDd
+8EJ)Z
+u_Wn
+&h-)a
+n7"\
+sx\]
+`aEV
+pK80
+-@|f
+Z<{~
+=  0#=
+:@n@
+gVfA
+_],J
+`b*g
+10Rg6f
+Rh-Z
+$&1!G
+DHTP
+iut4aG
+fccI
+83gM
+0AXx
+bo#RE
+L[{{
+#JHNJ?~
+!#|0j,
+c'0e
+0wAU
+uZ{{29
+n*[$
+Tb.^
+fV99
+lfjelf3z
+[BBZ
+'={{
+sWWzx
+2QSQ
+K45F
+T ~j
+\zT[M
+P%3#
+PVF1%
+aTZBG
+IjZ"
+fay!
++fF[
+HWNv
+7_`J25v
+y4PG
+gYv6
+u</:/4
+ZLFR"
+Sg>y
+uFz6I<
+IrLL
+U[G:
+V]CN
+@anA
+MQ?d
+6lbx
+ndjE
+DhBHR
+VUep
+Bov6
+7OJ U
+E9YM
+)$otv
+Yw*l
+dxxY
+fs* [
+yo\}
+!KBn
+L*)j`
+-wl9
+&q?29
+/_?,_
+Ta2'Nu
+SEDK
+oeZF
+U+w,]
+JJsH
+8M?U
+kcC+q
+>tn1
+d)1b
+%D={
+`_7o]g5
+C,x)
+Nqrv
+OtT<p
+Ovtpk
+/?zy
+][7~
+'{zz
+p=\0
+ml.U
+')_!
+S~9y
+chdd&b}do
+(5a^ip
+DXYVV$
+yK8_0
+s[5-
+=7(2C5
+v~~N)
+L4x^
+8lM]
+wrR&
+oy.|&-d*
+;n8S
+C%}.
+N=z0V
+M?ytW
+BOick
+bgmYp
+{yvF
+?z"SW
+jibb
++Uct
+=Nd 
+Yu|0t
+;4(8
+KLHC$
+{ppp
+=HIM
+5XdF
+==zv
+;K3K]m
+TZYZ
+fy2'
+`lU.
+qJ~%
+nNv&q
+px-[
+d30"!
+bgLL
+G\;c
+~TTd
+KAD#
+=`fi
+M@(DD~
+{k;K
+RV&(8
+"rDJ
+e%tS
+MkRa
+{LB|
+{ qd
+|/c6Q?b
+bcII
+<Y/v
+34B_
+dF\@vN&
+:wa)
+!oK"
+}caiB
+[X\IE
+iT'f
+'&&z
+e ,3H
+(Ah`
+ztsS
+EyFv4aDc
+&IY>
+_G?^UQ^Y
+bCUe
+zE)5I
+U*t1)
+7u5u%
+BcI{
+k@VB
+$:I<
+hqQ9
+-ALADE
+?(m]
+J&UM
+]=QI.)
+1D@@
+JegkX
+Uj2&q
+x"Ut
+7Tsv
+umvV!
+(Asb1
+xE9~
+IDATs
+>GOC
+B5V1
+m08O
++CwU
+_dam
+^QIGY#73
+V%3B
+79+M
+[=R4<
+y}Mf
+(vqp
+ZcufV
+TxRdVI
+108$(
+8D~^
+WY]WT
+B+l/
+G.VM
+y[[9
+oYn~JM]
+z#BU
+?S(L
+X]]A
+'d~l
+zdwB
+{E|~
+DRdD
+HDU)-0
+I;vj3nb
+JEf^
+qYmm
+kK+`k
+{w'$'1
+e>~b
+_@`A^^LT
+C6F'
+<e||\
+dbft
+eKWu
+6m>}
+?q94z
+r9<?
+Cv5|y
+o1W.
+gAl+
+ut1^
+q`ty
+Z[-G|
+.][o
+]_kt
+iHF7bto
+9Hy<}
+A'Nt
+nMUe
+Z  Q
+NLHNH
+"A*]
+:}D[N
+*a\D
+Z[rG-;v4
+>3?wn
+7l^\
+X(S7E
+@~Ny
+Zq@UKc
+NQfU
+?/VN
+3?||
+@B">
+fP$!{
+ ?f 
+2(_u
+z<##
+4ijg
+r$E'
+p%DEb&
+(/sw
+D(R<
+BMHU
+G}% 
+W@nS
+[dxhh3//D
+T)x:
+[VV0a
+ZYYV
+<`jR
+W%BJ9f
+qDc|
+P~GG%
+b%e 
+{!JPb
+  9Y@@
+lIzF*
+8`@_Z
+>mnNV1
+jpgb
+k^<{
+N\9m
+Xqvr]
+OV:o
+,=\*B\
+'qbk
+!plY
+`((`B
+G%4hk
+ e$}g
+-T@ZV
+8x`b@
+3$Ob[
+j%i9
+T\X[8
+daZ"7
+~H8cK
+,\@m
+9VY!
+3oZV
+>=#e
+CSaq
+Cp~aj
+DQ#!
+OP| jX
+J&T8
+\#Q3p
+g.bo
+.]:Qz"
+oBr4
+taMj
+%e<kS3c6$
+bvqu
+TbI)(M
+RXF,+N
+_Ju<
+1^(b
+%XXv
+x_YR
+ Rsv
+|&/k
+Ff&-
+"t%$
+Ch%z
+k3==C-
+urPS?
+5RGI0
+39ZY
+|;th
+?']9Ta
+6mZ#
+/d5ao
+QZz*
+W}=]
+6mCe
+kefe
+s;~I
+n4)c
+&[Y9
+ixhH
+;N}5,
+1s&m
+VAMCLL
+:N<e
+nIIN`
+YMCe
+Mpvs
+S8dcO
+13'3
+%H537
+cW$L
+n!8?
+NO.%
+{yycI
+ngme
+pcQE
+m!9+*
+,5#|
+ f@W
+.uRrjd
+w]}#
+sAMR9n
+qZFE
+:xE%
+j9</N
+Iv}e
+\|/*
+tdab
+Xg7oO
+Yr%v
+-[4a
+yjlb
+^Ee5b
+Lis=C
+0vLaW#
+jW[j
+`alT
+`Mm-
+V1Rt
+E)OSn
+&xi4
+z\ME
+xCMc
+U VVeni
+&G=S
+[f}1
+&X]-
+ND +
+wJJA
+TZ\WY
+<"[A
+w&M+
+A\GB
+ ,P4J75
+b5;^M
+d|*k!
+E2YU
+zfZ9
+\]&X
+\KbU
+Pn!6
+4JX/
+}QIfU
+&=f+!1
+5ufX
+t1'3
+=YXR
+]y%4u5
+HcXg
+1-uA
+CSCE0
+aIY[
+9kk[
+=xJ#
+2i(.+(*
+)lRr
+dFz&F
+Vff%h
+#}JKKF
+i@KT
+Nh9S
+[S-p
+0lD78
+4yHH
+1TQW
+gO_q
+-7>s
+3dh_PKe%
+$)Sd
+B5#=
+>7/;-%
+}mzF
+2*7'1
+M[&'&
+oSf"
++H.+
+iIIv
+T+SLv
+X[Qu
+XGnJ
+k$,3
+tsQw"U"
+$-@x
+%j;s
+xn~ZAQ
+llMV
+9w4-=
+7n^f
+xFjF
+HKO:u
+3VO_
+#;vn
+<:RS
+w/^>&
+,`JY
+TJ>`gi|
+FE-L
+BeWRX
+NzrW
+;..a
+r@kB
+bP4#M
+t<}\
+m 4G!
+q\l"
+\9ui
+EJKk
+daA6
+h/_=qu
+^+k{x
+F"s/
+5emv
+L@Uf
+,<;T
+:tb0
+_2U:
+!@*jB
+,dnzv
+L'g;8
+4kDO
+7`q0
+M[kB
+TTXenfW
+G,QA>7A
+q$XLfK0I$dlz*Z
+vlaf
+un_y
+b19 
+:,F&
+#tuq#]
+'OBZ
+*221su!
+H6b?
+L525
+GS++E#R
+:%'665
+H9^L
+v#%!
+/^J)
+0~<C
+\I|9
+nY[9U
+N=59
+48@G_k
+u#ZV
+%EqX|
+^%*B
+TQc$
+*+x2[
+).-#i
+qRT,
+'xNx8
+5zDHpse
+c9L[
+@vNJzFzTt
+3]RR`iefem
+s{v$1
+?pY0<S\
++A$Io
+KeD]B
+vH'G
+/_ge
+$YQ[
+d0,&v
+^}: 
+K1J*!>
+3f$7
+:#.U
+\\&L
+$%yQ
+&MJOM
+)xJl
+J}Vv
+HCEQ
+>[[(
+P[;c
+u;?j
+7sstrc
+``JX
+?}1j
+PO/w
+?XH(;9:
+:&&N
+i.S;!.
+mkea`m
+`wOg
+A={u
+}{vfe
+wo:w
+H,UUY
+RS2V
+c`nbL
+);+=3
+MD=l}
+5+C[
+ecjh,
+0J03
+)6h*
+OQSJ
++!& 
+;;YK
+Z0rT7&
+T[UE
+6o#S
+u),.~
+C,#zh
+sB|"EW2
+@('64`
+i<h6
+amiC
+251'
+EiY9
+y|v6
+k|b<B
+$8(h
+ikQn%~
+F&AMZ
+xz1M
+5]Og
+KZ*TV
+o4hn
+R}%[
+*.8A>
+XX5:
+hju:%e
+IA_@
+=x{j5
+jpiz
+flhB
+!N8|
+bIU(
+X=AL
+E\'X
+wjBx@
+Y][I
+FK^G#
+WgMT5
+Q@IA
+hU=-!
+h1_Dx
+xjx 
+WeGVT
+B}M=
+IQSb
+n]=o
+267E-
+n[L5T
+bE%B
+Q%z4
+Nkswp$r
+SU#*N0
+Jdrd\A
+4MJ+
+$=KuF
+:\ Y&*
+Tr7E
+meA0
+HD'X
++P)0
+,TYI
+/+.T
+oWRZ
+4Ge%_'
+L|pA
+j0~K
+aYkT
+5i&@
++J+&
+4Cdi
+0C>{
+kWo3
+zBWF
+ZI)3
+@#>d
+>91G
+YS`/).
+0b2(
+tk;pp7ss
+Z*7n
+PW_v
+'N I
+bI|B
+i4! /
+b$H3
+9H7Q
+iyy4
+O6v&0
+vs~'M
+D):!
+dVv.c
+h$''Z
+c:6$
+xi@`
+?]Xe
+IQq6e
+>GF0^
+wtBwB
+*txZ
++!##
+)(.pp
+J$8p
+Jjee
+L/G~
+=AM}
+hIzz
+BX7V
+z9**
+={w2]
+q@6>ED
+.eCx
+9<>1q
+*,2_
+q|8)
+4kiN
+_D7]
+N]8/
+0Sl0
+={v}
+jB,tC26%
+9Jo{
++,JLI
+<yJK
+U+h`
+s:wi
+ETd\
+pswa
+|YI9
+97T/
+\<?O0
+yu:Z
+!S1Bs
+V<;>
+@oBk
+?OAp~
+DBC[X
+'3+[;[
+3To_
+<ydeg
+/[9n
+Cy)S
+ LFz
+~{e%Z
+)1]#j}]
+BJ(V67
+EC23
+N.<:
+NLM}
+IOO7p
+{\,?p
+8=*d
+J9}>
+/\<Em2
+,c2+
+b3}8
+rY0z
+Y3N@
+oV=9
+b!"M`
+IuY%Y/
+rmnn)*
+,QLJ
+8a-b
++:GV
+G%M{
+hDd8
+"""`~2c
+U*#.
+=I6-
+Z*c3
+0e20
+k-D2vk
+7Q]S
+i<gv
+g58#sHV
+q&G%$-Z
+f*cU
+d]tdJ
+].JW
+U< 5
+{<#k
+J;FscOo
+sk7\
+Y1 5
+ r/?
+b#.j
+)",y
+9ejI~
+c[Z4
+;;+n^
+e$}b<
+4111n
+%KYv
+v~Iq
+N.Z<?4,
+  6{
+$O/gr
+[xsPZvTd"J
+~nj@
+<i&5
+YH6&
+5kZJJ*~
+58}`rr
+Yx ::P
+:OXh
+E(^2
+5DTt
+1cF;
+*+(wp
+D^vv
+=}<3
+*;;s
+Q### 
+gLda#
+P|'&$
+ 0zz
+azZUW
+HBkm5
+kzq1k
+BYi%G?
+(G,W
+GGG0
+H<RD
+_VU70&
+VsYI
+#R:911
+N=j}qQ
+2d@tL*
+W)zq
+TQtGCC9
+Q9*=qA
+:5q1,,B4
+u5Ut
+%WW]E
+cG{Om
+Gk{5
+!RRU
+|/::
+fd]}
+qqr&N
+!;7I{
+ZfR2
+L'X 
+zIY  
+e:j5&
+vpa@
+[Xa+dk
+Y]V5
+RYvL\8
+;Uwu
+qwuq/
+J]8{9+X
+66&e
+.LD/
+%&*Zgj$
+&J(NIN
+ YEx
+ol"/C
+5D#\
+,^@N
+Y /\
+%t1e2
+1/68
+B~tt\Ks
+p.srve
+$#1a 
+}{g!
+HJ]QVJB#
+5Z5g
+CR`a 
+#b7%
+~{#Z
+(:3t
+BP<r
+=UU4
+&,X45<$
+|fqV
+cGOo
+56ttw
+6dHMY
+4E:y
+5pj[
+19(\y
+>u^KW
+n4mp
+pxX,Q
+ARb:
+Ysf]
+O[7o
+Gyz+
+W6wt
+/=Gm
+bQ5z~
+_p=e@,
+1``|~
+r&+Y
+EbAx*
+O8xx
+YfOcS
++[VY
+!|uhQ
+eD_]
+wxRR
+W_~i1
+iG!>g
+U/zpYDD
+H+..
+Rdln\'
+V`a4(;
+!f{[GqQ
++'{xj
+,<:"j
+P'(v
+g$gppG
+x&&y
+o{brpBR0
+1<>u
+##:{g
+D=1;'
+b$K_
+fw^J
+95iTL
+e(Nw
+4dH&
+nn^t 
+CC"9g)US
+69NV.
+&rH 
+;( |
+-5MX.
+'0Sg
+%o(((B
+>q]|
+|LZ[ 
+B4%L
+:$+>
+VaI>
+fg*`
+O*K: 
+U@Op
+a~DT
+neJBfQA
+5RugO
+T*~[;
+)d }
+>E9.
+3GV 
+ (ak0
+#)9z|/
++9\a
+[,]6o
+&=$z
+-IAl!
+eh=}
+#4<$u
+o?hm
+~Tth
+@jrf
+?U96C
+AeC"
+V?P^aO
+c[gW
+,m@70
+DG`F
+R2j3
+WEKO
+xflD_
+AZQQ!.o
+'u<N
+(mdF
+a7D+
+tw32
+p/HV
+Z199
+.M^n
+x::Q
+aYSt
+up[7o
+aaA<%p
+bx,4
+2V %rT
+l(?e2
+4eR\R"u
+mnvru
+sP8"Cd
+*,ZY
+EEX"+
+'d6570.U89a
+w-8r
+aa8/&&
+(DVk
+G\r2
+08gN
+$!L_
+;fJLtrkK7P#
+<:'g
+QY11
+"jkA
+t77O
+{ y!
+66*:
+<3fN
+]BeB
+6-5e
+C{k}\l
+~'F>
+, >'-u
+?/%5
+{73_
+Dp8#c
+}&#'
+uuwpuuX
+Qaa#G
+2"O56>j
+BQS[
+jPjJr@Hh\t
+H;F*.
+f&.V
+M?\cY
+d&=<
+  Nv
+3:92
+b+xB
+'HSv
+|HHH0
+%eUr<
+(v!C
+!i;|
+p{W;
+L^94-
+5,{i
+J7Mo'
+m=-M
+" m<
+^0`q
+/-/`
+$><R
+~8]L
+bcwv
+Y-XAz
+~AN2c@
+2).9kD
+jD2`
+W!hB
+y5f)&
+ %tj-
+dJ.5
+M:"!
+>!a$
+/ KRv
+GLRmd*'!H
+H]/+
+}^7o
+bO8zqFi
+yT&<
+}:v)
+S {=
+g[+3K/bXdT ,o!
+v-M4r
+yzz0)
+ll6@KS/
+DXpR
+-|_''3
+ft|DPD
+x\|$
+`fdg
+J;EY
+lp(#R
+<=f4l
+>*A+$4H
+89;RK!
+~Wei
+pw`Z
+BjHP4
+TWQr
+JJj+
+yttx
+dXv-
+e!2+
+<eL[G}yi#
+tYW>
+/l\5c
+*'ErJ
+2L{G
+.\459)
+~<2*
+_Bj9jt
+F/_9
+^Z1~b6
+5``b]M
+R^n~cc
+UO?<o>
+Hytvw
+FF8{
+?.-u
+PWZU3e
+6RI@D
+orP8_
+aDjj
+< &3g
+<a0y--+
+Ukpd
+/6""r
+}Hz&
+Q@/X
+JparT*I
+1+,8
+~(2<
+&{:~
+p' OgWw
+QCKM[
+UX1[~
+&,Z<
+/[Sd
+m,5+
+wKu%
+twS=&-E{
+N^aA
+rRGf
+UWht
+"n[XTq
+'O_:y
+pGpnik]
+)g7e
+#&.}
+AiCn\
+N,?qa
+]r4J
+{`k;98
+y3zz
+5#Ff
+`N ,
+Lru7
+IRj0
+l2b^
+?+%C
+99;X
+[*5;q
+~Q-9
+dP*H
+pfhP
+UV h
+.:Y\
+tvYYp
+gK[w(
+1;89H[|
+%/9=
+x8Uc`
+6wA I
+g>6m
+`UX&
+d\!N
+\3]z:
+@7AQ
+b80-a
+_yjl<
+tP9M
+wo[[;H
+4y,c'
+rNqwB-
+5PMU
+iTp&
+b4{?
+#<.o/
+_Z[^
+eXR\
+strl1d
+S q`
+0iJzfNh
+AHC?
+(B2c>
+=0tx
+uM -
+bE3@
+zG=C`z
+;~80<2)q``@
+W^=K
+:bLTlWG7
+:'+g@
+k1Bu
+@k}c\r*>Z
+tt$1b
+I(Dz
+fIDATj
+yBb$
+4tDA
+08q8k
+z@Lz
+g4;w
+P',{% 
+*-zUR
+*gwb
+}}7/
+a9j4E
+@!k`
+{lecU
+9b*?bFg
+!}Pz
+ht/\
+eKcO
+Wk'Z
+qqjh
+Wm_{
+RZYU
+#sG<C
+N|d5
+<l4+
+%6:[
+u}M}[S`d
+#eMbR
+D2v+m=:qK
+7n|!
+8Rxq 
+9z*"sUR7
+C#5,/
+#`cD
+U*P@
+X0|&
+:lhdx
+bN0{6K
+4yRbR$Y
+yS'O
+SnjT'&
+eTfpx
+h@e~
+Z8*QKAU
+@oo?":#
+6%gh
+]i:~
+8f(BY@8$U
+YCBB
+|z&S
+MoLJ
+fIcssdLtb|B
+G%1)
+!a#3(
+B?11i
+AJ;!.&
+25%i
+x||}
+633c
+hYY)z
+-Y:j
+HdhX
+}tYbj"
+%NH-bTl
+l'QA
+6!Zdk
++pFe%
+EVVZO9
+q Sz
+. $\
+/mkA3A
+c-'<
+WPFP4
+)e.O
+/bni
+"gwv
+0-olivT9{
+`u0J\
+)l=e
+w7W'
+?c/w
+}]-A
+V[G-
+Z5Rm*;O
++.6i
+<7tH
+(4j'
+>YP`
+m/[X
+8[0W
+~ u(
+qEsI
+&(%X
+>};m
+cy_]=
+rd0k
+dR#V
+>1I%aC
+d6lQ
+ovha
+^&9fx-vz_
+  X-4]-o
+>cH@
+y&;dm
+z4-$uL9!G
+AbdYq
+&isI
+~LeIS
+2pu0{;3
+vy8:UW
+L^TQfnV
+mpRi
+jM_0z
+3FlT
+~.T=u
+dz-&
+c)/-
+[LLM
+>Sxx
+~ijB2ms
+'`/I|
+(K{zR
+olnwtqe
+9:'4
+DGlm
+ !B)
+P?!$
+N8mC
+z#9%
+J2i4
+dF_KEe}XH
+&lN*
+WUE3
+81yV
+x{VVTP"
+^JbR
+=eBzVF#ny
+nnoim
+kK^1;\
+06.6
+&T%;Z
+Xmk3a
+_Gwgg
+>TP 
+?85>%
+3"8(
+,,)DS0&"2!#=&'
+Om=>ga
+\[}U
+6`l|B
+GOsS
+okldv8t
+i3g3
++++_
+DbRC
+I3x.
+q:9;
+W/_,
+]9Y#6
++NJJY
+p-*.
+%wD3
+D|0mE
+d!*k
+!KNz[
+4"+mhV
+nuc{
+5U.Re}s
+JIL9}
+2lHOg{KE-2
+9(05+
+mL.A
+1'o^n
+\^QA
+zz{a
+m@!a
+@AiG
+bbc6
+hZ[:&M
+-},.6
+>*xx
+~R\\
+@x2A7
+T2>G
+@G f
+ILHJHH
+"4 jH
+=zBWw
+^9CG
+(:&C
+k-k%
+TQ-wv
+h;!N
+wkz|<<q
+fsC#
+zfj6
+S$%v
+K]^S
+v ,$
+5Tf4
+M{.d@
+3&1^
+cg_g
+yt,B
+2^be
+4iY<
+\UZD
+p'!S3Mc
++0a}c
+]pm+
+dXPH(
+7w'@
+{Z*N
+=7//,
+78?Y
+f3pI
+.J2J
+Wo@i
+@~)q
+mkj!
+^N.C
+pQtCKK
+uFCi=:/A
+R4Eg@|T
+#:Bf
+L:/ry
+s;Jw
+:R8)
+<xOot
+X$&/^
+UdTT
+48P%
+2Icg
+Cg'*s
+BZek
+rEs]
+X)@6
+^I^j
+. *253
+d'klm
+n{mCDl,0
+\;~f
+tV8N
+~,&*
+FVR\zp
+>pRcfM
+}6,|
+'}u`
+WT&5'
+R>>e
+daN@
+&+N[-~
+$ty4
+=Q:a
+.AA=
+ERXV
+X2ibzb
+Z{Cs
+leue5
+DJe+
+;S<.
+DGR^VJ^n
++\yY
+c4b3
+fPT\
+Rc&L
+#(x"
++A1#
+I1b,
+&l#wWw
+cgUUMzZ.5N
+ &DQr
+nC$vh
+_&+$<
+QU]=}
+]=yrnI
+6-3s
+\T<u
+|gGW{+
+ 'kbyY
+S'OM
+9+9/
+4Zia1
+3g&W
+H./1
+t{6o
+X3;+s
+@c[l
+{\Ithh
+xfMzYa
+iYQ\^=cF
+VWUO
+y{{_
+8DcK$
+6iR5
+6;$;
+iA_j
+aJMN
+{_Yi9
+UUUC
+siqC
+j-gv
+|F`Xp
+\)F1
+t#f#
+%'f?1l
+tz+0
+!_[NJ
+{)v3k
+fm#)
+Wc7;
+kr<qh
+>H:Tfcc
+mc]G{g
+yjwAqe
+KdlSd7
+(_|~
+f`0pc
+~aWO#
+'X\w
+{>7+
+XQ^>
+:f\0
+m$L3*
+[T7h
+AoTo
+BtF-
+:LA 
+"x H
+%P/@{
+ng2W
+['Fi
+tfg(4@T
+oXqF
+zu1(
+Vc{q
+m,DJ
+Obz$
+S]^RZ
+AfP!z
+_jk:w
+-#y^
+rB~q
+-Fo(:
+hR\TO9
+?J5s
+6_nn
+3CB:5?g(
+JKzC
+{uNs
+.]L-
+)HHMgZl
+Jv;-7+
+xZ&[
+`IvF6>XOW7
+P!m@)
+d-1:
+|Sjf
+S\\J
+S'NN
+3{aE
+fN_4
+J()-
+;yY@`
+'["'7
+JN"/
+:*\3
+7n@e
+H5EkW
+"M^0o
+aCav.p
+/4|US
+U5UD
+9Ko\_T^J
+3#md4:m
+VZ4s
+E)X2X
+9l5<
+,)Xs
+Usg,X
+oOKZu
+JHHZ
+;j/7N
+~7Zd
+7o>jx
+]Tq2it
+;A1\]K
+uBby$
+w^xe
+ol9}
+KD$z
+90Hx
+B?W[
+6oK{
+(<`B4>
+:aB8{
+6ILJ
+|osGo
+qj90
+_'}Z3y*
+iT#T
+g/\|
+1iM-x
+iSA)
+r<IiZ
+AAZN
+p[gNV
+u_8q
+2%1-
+;thR
+`tBtb0
+sALa
+*s"PKd
+.pI;w
+tuwP
+H&Sx@
+aIj4?
+!>F/
+:&o-Z
+O~J9
+0yhl
+1T-L@
+X,}f
+lFKz
+'/;`
+0'?6
+,*&{
+5)-yP
+UTrn
+L9aU
+)mPDZM
+ tLjR*
+Mr&d&
+a?&#
+@h$5#
+%&&P
+y9YI
+A?I'
+dB|c
+X`@|i[
+.,_0y
++rJE
+Z3%5)
+(*)&;r
+kVnz
+8zYUe
+jV,l
+&GbBj^6
+Spe"
+'W#q
+XIF#@Z*
+)ANI
+Viy9sN
+5yZreuBAyr
+Xivv{mm
+?k22k
+_jhk
+_U6k
+wWQN
+ubim`
+jn>g
+v$4L
+YW8s.
+inBS
+74<l
+uTbDi
+quIY
+E4k{
+ \Y9
+L[SC
+mglfgy
+Y9%E
+VkAA
+')+%5
+fCVJ
+9JgP
+/^8}x
+E+W]
+$EYQAz
+<V]DD
+'QM$
+]f5z
+Z;Di
+5`Jq
+>ofr
+F1Tqf&x:/
+TM*%6
+)9-HI
+ *)-
+A)ngC3|
+INbJuA
+rvN.
+p+++
+DNa1
+Q&hL
+h]m=>4
+>PR\
+q,Y</
+&qII
+"-5q
+h>uV
+,xEe
+ r 3q
+A_zFZKs
+gL]w
+Y46+q
+y^o$
+-tja
+,%tyl
+BD/y
+xsdx
+<V8L12t6GDo
+8=\6
+}P|XSRH
+YBM1
+{Qdl
+Bk 8
+*Se<
+-7hA
+UJ{-P
+BrpMh
+L#d@Y
+EBk*
+6?$b
+Opy(%R
+YL2XI
+Ld@E
+542L@
+#bi\.
+EXM$#BM
+Bo$%
+0QPJ
++%W7
+,zdYA
+,pNY
+P}.,0a%`
+AZkCS
+@6@Pg
+'&&c
+ULLT
+c*V!
+sPIma
+;4"<
+`)U=
+NNn8s
+G-Z}_wgRZ
+slxX
+VU&'
+tvS#
+Q8Ft?
+iSg`
+{pp`
+FSEE5^
+ed@@
+}[iA
+!)#Z
+,z^^>
+Nbs";N
+\^=m
+qhSs
+=+.\N
+LKoZG
+;=3k
+i3W/M
+^7ab%lG
+?RX1q
+V_STQ
+9am8bs&
+NZ0k
+bM]8
+IN<u
+.LJN
+VSU]
+!zISn
+~4?/
+5k7,[
+g>SXXt
+VgxK
+(d`b
+R0={
+\n<~
+lUP=
+<i]m
+~@:v
+N+@@
+X8o&<Y/
+.+FY
+RVa~
+pVYQ]C=6WF^
+}7t)
+!_NiIKC
+tk[[
+{TfI
+o(%#c
+/<O?]
+{sKJEQYYykcs
+dqWE
+Nv2D,_Z=
+$%vuu
+~UXR
+g.]{
+b}nn
+Yo*-+'f
+JKM{
+9|`GcS
+$uJr&
+S23K
+95`d
+`t0![6
+2An@
+Jg{hr
+IsV.
+4DB9
+f+U&
+%dUy
+H^@7H
+!Qi2
+aiH?#
+~Gi/
+Qmmc
+dN $
+E[{#-=>7
+LComyO
+%xY.
+`79j
+[@vc
+zzM8;
+-4$'
+])/9k
+p|.v
+)3'+
+k($Z
+i4(B*mP
+':5F
+[[^AV
+yCNVi
+DfFvNv
+hd1^y
+AE$6w 
+ P)p
+XCY'
+Z(ji
+1*bq
+)n*X
+WsKssgk
+JO^f
+j)`.
+m=#Cg
+@/.>P
+M[k/
+0&8h
+G?+3
+;}CW
+<f~A
+l<,W
+3l$3
+2ubf
+-y0n
+E'mxz
+XhKc
+ShcQ
+Om=]
+q9N.
+XXZ\9m
+OMNA
+vrHpz
+brRnvV_o/1|
+&+yb
+4FBo
+sVVN~^1
+a${Yq
+:,=x
+D~dH({
+:L42/`
+`"+W,
+ycKs#$
+u'Qe
+*aZit@
+(G&N
+g))*
+ZVjVy
+tAdy
+FkGc
+7gJr2
+fcQY
+MdFif20L.
+"?K[
+]FKEAq~N6
+=--U
+QNC:nR
+R^i$
+TY~VFqn
+ONA!
+wt@L[QT:k
+J6dw
+&UOZ
+36o~
+BA^!
+Zm~~
+`.V`^^.
+)yknnD
+?$#q
+?G|~
+s/^8
+JUS&
+AQ!J
+nh{.
+=WTP
+`VnN/t
+8!X"
+9lxv
+n())
+K/iA
+l0 T
+C!z 
+\zg;
+334;b
+c1l:
+0a:>
+>.Y@A
+!!J8Z
+(10h
+|b_rM
+#U*&E
+mf4Q
+X)Q\
+Jh<1
+EDH4
+]r)!"EuA.
+X0jq
+~4A$>
+RJv9
+UoUUv
+O~rf
+apNZ
+ZD7:$
+R,]L
+c1Bo
+]l#P
+H#h8
+qSX#
+q%P-T
+%b)H~
+AL#,
+h;8)1qE'
+t=fT
+uV\X
+c<<D
+m:*Zq
+/"T8
+"vu$
+wx((
+ Iht
+Ei3S
+hzpp
+$(nX
+M4-0
+@jr%A
+,lK:e
+ry\G*^
+@:(Nw$$
+Z\OH
+Q\dA
+jh"4
+A}_~KlM
+uEba
+\S.7
+b!xA
+b"Dx
+a1?q
+Jx<^
+_Tn2
+fu|z
+^_^V]
+ 1bs
+\5B9
+.6n=
+;fLQ}
+D}G}
+"J?@
+>z_u
+wU7Q
+NVP>
+UJN]
+=SWNA
+WP]D
+(&e>v
+mygl+*
+J/V~LN
+O:6Ne{
+W}C<
+gG+/
+x/Vp;
+_ysLP
++f#P
+xIq/~
+*Vj)q
+UY9>f9
+gd8n,
+q3<^
+xrQ!v
+|xO^
+/'Jn3
+Q]nU
+s!\:%
+ ~$|F=
+?Vr{
+S*o$
+Z.3k
+;*~I,
+*F2>
+P|"'G
++/? 
+%/"o!
+f>6PL-
+bElG
+3j.V|L
+KB7ETL
+XQ0(
+$'D1u
+xwJ]
+pP ?
+OqHlu
+b9)4
+:o**V
+bYt1
+jv>d
+.bcGE
++$>3n
+\G^Y
+RRbc
+g5o&
+T.<V
+|q\u
+Q41rE
+_TV`
+#J)c
+IEND
+sets by squares. It was formulated in 1928 by Tibor Rad
+ and has been generalized to more `
+ proved that this number is at least 1/9 and conjectured that it is at least 1/4 a constant Z
+which cannot be further improved. This assertion was proved for the case of equal squares Z
+independently by A. Sokolin, R. Rad
+, and V. A. Zalgaller. However, in 1973, Mikl
+s Ajtai [
+the total area covered by the system.c
+Richard Rad
+ starting in late 1940s. A typical setting is a finite family of convex figures in the ^
+Euclidean space Rd that are homothetic to a given X, for example, a square as in the original .
+question, a disk, or a d-dimensional cube. Let`
+where S ranges over finite families just described, and for a given family S, I ranges over all b
+subfamilies that are independent, i.e. consist of disjoint sets, and bars denote the total volume X
+(or area, in the plane case). Although the exact value of F(X) is not known for any two-^
+dimensional convex X, much work was devoted to establishing upper and lower bounds in various c
+classes of shapes. By considering only families consisting of sets that are parallel and congruent \
+to X, one similarly defines f(X), which turned out to be much easier to study. Thus, R. Rad
+proved that if X is a triangle, f(X) is exactly 1/6 and if X is a centrally symmetric hexagon, f(X)d
+F(X) and f(X) that improve upon earlier results of R. Rad
+ and V. A. Zalgaller. In particular, they 
+proved that
+57 = "FIVE, & ONES, SEVEN"?
+384 = 2*192
+1/4 - 1/384 = 95/384  
+432/1728 - 1/384 = 427.5/1728 
+STARTING AFTER ONLY PT "END" IN !
+UPPER CIPHER QUADRANT, THERE ARE #
+47 LETTERS REMAINING IN K2; 384 TO 
+END OF K3 IF "?" INCLUDED.
+MIDPT. K4
+2^6 = 1/6 * 384 =
+K1 ERROR @  #57
+1728=(2^6)*(3^3).\
+disproved Rad
+'s conjecture, by constructing a system of squares of two different sizes for 
+A bunch of rather coincidental numbers here - I submit that, whether or not it O
+has any bearing on the solution to K4, the entire Kryptos sculpture "mentions" S
+the Covering Problem of Rad
+.  Ran into it whilst studying tiling planes, squaring S
+squares, and generally trying to find something mathematically definite and at the 
+is equal to 1/4._
+In 2008, Sergey Bereg, Adrian Dumitrescu, and Minghui Jiang established new bounds for various _
+1728 / 9 = 192
+1728 / 4 = 432T
+The covering problem of Rad
+ is an unsolved problem in geometry concerning covering 
+motivated by some results of Giuseppe Vitali, Tibor Rad
+ observed that for every covering of a a
+unit interval, one can select a subcovering consisting of pairwise disjoint intervals with total ]
+length at least 1/2 and that this number cannot be improved.  He then asked for an analogous 
+statement in the plane.C
+is the guaranteed maximum total area of a pairwise disjoint subset?b
+If the area of the union of a finite set of squares in the plane with parallel sides is one, what :
+KRYPTOS, WITH THE "YA-R" & THE EXTRA TABLEAU "L" REMOVED, :
+HAS 1728 LETTERS & 4 QUERIES.  OR, WITH THE EIGHT LETTERS :
+LAYERTWO REMOVED, "L-YA-R" LEFT IN & ALL QUERIES COUNTED, 
+IT ALSO COMES TO 1728.;
+THE 'ACCIDENTALLY' OMITTED CT "S" BEFORE "LAYERTWO" IS NOT >
+COUNTED, AS IT IS NOT, IN FACT, ON THE SCULPTURE.   I CONJEC -=
+TURE THAT IT WAS REMOVED TO 'BALANCE' THE EXTRA 'L' ON LINE  8
+ONE OF THE LOWER TABLEAU QUADRANT AND STILL LEAVE A 432-6
+LETTER COUNT IN THE UPPER CIPHER QUADRANT, AND A 1732-$
+LETTER COUNT IN THE WORK AS A WHOLE.`
+Croft, H.T., Falconer, K.J., Guy, R.K., Unsolved Problems in Geometry, Springer, New York (1991)c
+Categories:
+Covering lemmas
+Discrete geometry 
+Unsolved problems in mathematics8
+Zalgaller, V.A., Remarks on a problem of Rado (in Russian), Matematicheskoe Prosveshchenie 5, .
+Bereg, Sergey; Dumitrescu, Adrian; Jiang, Minghui; On covering problems of Rado, in Algorithm Q
+(2008), Springer ISBN 978-3-540-69900-2
+64 = 1' LETTER OF K2.
+39 + 58 =
+2 + 47 =
+   and that 2 
+   for any convex planar X.
+1728 / 51/7  =  336 
+nobody was conscious of the math theory forcing the numbers?T
+parameters simply the unavoidable artifacts of a particular visual construction, andP
+same time "visual".  Was it designed with the math in mind, or are the numerical
+MOD(384,337) = \
+Problems analogous to Tibor Rad
+'s conjecture but involving other shapes were considered by 
+On Covering Problems of Rado
+TX 75083, USA
+besp@utdallas.edu
+ad@cs.uwm.edu
+mjiang@cc.usu.eduO
+disjoint squares, such that I covers at least 1/4 of the area covered by S. He alsoO
+showed that the greedy algorithm (repeatedly choose the largest square disjointP
+from those previously selected) finds an independent set of area at least 1/9 ofO
+the area covered by S. The analogous question for other shapes and many similarL
+problems have been considered by R. Rado in his three papers (1949, 1951 andP
+1968) on this subject. After 45 years (in 1973), Ajtai came up with a surprisingN
+improved upper and lower bounds for squares, disks, convex sets, centrally symmetricK
+convex sets, and others, as well as algorithmic solutions to these variants
+of the problem.
+1 IntroductionU
+disjoint squares with total area at least c times the union area of the squares in S?S
+square disjoint from those previously selected, can find an independent subset I ofX
+disjoint squares with total area at least 1/9 of the area of the union of all squares inX
+for the area ratio is obvious: take four unit squares sharing a common vertex, then only
+one of them may be selected.V
+T. Rado conjectured that, for any finite set of axis-parallel squares, at least 1/4 of>
+squares has also been considered by R. Rado in a more general setting for variousQ
+to a closed compact convex set with nonempty interior. Denote by |C| the Lebesgue5
+ranges over all independent subsets of S. Also define<
+to the equation
+In Section 3, we show that the algorithmic idea of A1 can be generalized to obtain anV
+In Section 4, we present another algorithm A2 that achieves an even better lower bound(
+A2 adds at most three squares at a time.T
+set S in the plane.We improve the lower bounds on f(S) for the two latter cases.
+table.Q
+The problem of finding a maximum area independent set in a set of (axis-parallel)R
+squares is NP-hard since the problem of finding a maximum independent set in a set:
+2 Algorithm A1 and Lower Bounds for Squares and HypercubesJ
+In this section we prove Theorem 1. We first consider the planar case. Let
+then repeat this step.U
+convex set S in the plane. Let S = {S1, . . . , Sn} be a set of n homothetic copies of S.Q
+The analysis remains largely the same as that for squares. The following lemma is
+analogous to (3). 
+the inequalities in (2) and (7).S
+tighter analysis.0
+4 Algorithm A2 and a New Lower Bound for SquaresS
+We present a simple greedy algorithm for axis-parallel squares and prove Theorem 3.)
+in S that intersect the selected squares.L
+in Fig. 2(b), which contains 7 unit squares and 2 squares of side length s. 6
+2, 3, 4, are rotated copies of a system of 66 squares.3
+5 A New Upper Bound for Squares: Proof of Theorem 4Y
+be obtained in the same way, by starting from a system of non-overlapping (i.e., interiorY
+disjoint) squares and then applying the above transformation; the effect is that any pairU
+1/4 upper bound, Ajtai found a more complicated system of 66 squares of sides 1 andX
+2 (see [1]) that does so, if used in combination with four larger squares arranged as inW
+the original construction (where the length of the attached four blocks equals the side
+S1 S2
+S4 S3^
+of 4 large squares of side 10 bordered by 4 rotated copies of R (some squares are shared amonge
+adjacent blocks). The shaded rectangles in the figure represent holes in the tiling, and are not part
+of the square system.
+Referencesc
+2. Bereg, S., Dumitrescu, A., Jiang, M.: Maximum area independent set in disk intersectionR
+graphs. International Journal of Computational Geometry & Applications (to appear)`
+3. Chan, T.: Polynomial-time approximation schemes for packing and piercing fat objects. Journal 
+4. Croft, H.T., Falconer, K.J., Guy, R.K.: Unsolved Problems in Geometry. Springer, New York\
+5. Erlebach, T., Jansen, K., Seidel, E.: Polynomial-time approximation schemes for geometricC
+6. Fowler, R.J., Paterson, M.S., Tanimoto, S.L.: Optimal packing and covering in the plane are>
+7. Hochbaum, D.S., Maass, W.: Approximation schemes for covering and packing problems in<
+9. Rado, R.: Some covering theorems (I). Proceedings of the London Mathematical Society 51,
+10. Rado, R.: Some covering theorems (II). Proceedings of the London Mathematical Society 53,
+11. Rado, R.: Some covering theorems (III). Journal of the London Mathematical Society 42,
+1 Department of Computer Science, University of Texas at Dallas, Box 830688, Richardson,
+3 Department of Computer Science, Utah State University, Logan, UT 84322-4205, USA
+* Partially supported by NSF CAREER grant CCF-0444188.E
+** Partially supported by NSF grant DBI-0743670 and USU grant A13501.9
+Sergey Bereg1, Adrian Dumitrescu2*, and Minghui Jiang3**,
+T. Rado12 observed that a greedy algorithm, which repeatedly selects the largest
+S. This lower bound was improved by R. Rado9 to 1/8.75 in 1949, and improved+
+further by Zalgaller15 to 1/8.6 in 1960. On the other hand, an upper bound of 1/4
+the union area can be covered by a subset of disjoint squares.  For congruent squares,Q
+the conjecture was confirmed by Norlander8, Sokolin13, and Zalgaller15.  For the )
+general case, Ajtai1 came up with an ingenious construction with several hundred
+U+211D
+U+2022
+congruent to S, and I ranges over all independent subsets of S1.>
+The results of Zalgaller15 and Ajtai1, respectively, give lower and upper bounds
+Our algorithm is based on a novel idea that can be easily generalized to obtainR
+simple algorith<
+m A1 that improves the now 48-year-old lower bound by Zalgaller15. N
+1/8.999955 . . . was obtained by R. Rado (9, Theorem 8) in 1949.*
+pendent set by repeatedly adding at most four disjoint squares at a time; our algorithmU
+Theorem 3. Let S be a set of n axis-parallel squares in the plane. Then there is an
+In Section 5, we present an improved upper bound for squares. Our construction U
+We know much more about f(S) than about F(S). For example, f(S) = 1/4 for a
+square S4.  R. Rado9 showed that f(S) = 1/6 for a triangle S, f(S) = 1/4 for a
+Convex Set S in R2 
+Old Bound 
+New Bound
+square 
+F(S) > 1/8.4797
+disk 
+F(S) > 1/8.3539
+F(S) > 1/8.4898 2 
+centrally symmetric 
+F(S) > 1/8.5699
+F(S) > 1/8.999955 9 
+f(S) > 1/4.4810
+arbitrary 
+of unit squares is already NP-hard6. On the other hand, maximum weight independent
+set admits polynomial-time approximation schemes3,5,7 in square intersection graphs. 0
+independent set in terms of the maximum weight of any independent set, we boundS
+Our algorithms come with a different guarantee:  while they bound the weight of an S
+the total area of an independent set in terms of the union area.   Some proofs are "
+omitted in this extended abstract.K
+ Springer-Verlag Berlin Heidelberg 2008  On Covering Problems of Rado 2008*
+Abstract. T. Rado conjectured in 1928 that if S is a finite set of axis-parallel
+(1)S
+S = {S1, . . . , Sn} be a set of n axis-parallel squares. For each square Si in S, K
+denote by Ti the smallest axis-parallel square that contains all squares in S that 
+intersect Si (Ti contains Si but is not necessarily concentric with Si). Denote by 
+independent set I, our algorithm A1 initializes I to be empty, then repeats the +
+following selection round until S is empty:V
+3.  Let Si and Sj be two squares that intersect Sk and touch two opposite sides of Tk.
+(We will prove later that Si and Sj exist, are disjoint, and are different from Sk.) If
+both zi and zj are at most zk, add Si and Sj to I, delete from S the squares that
+Analysis:   In each selection round, step 3 is repeated at most n times since zk is O
+strictly increasing.  So the algorithm terminates in O(n2) steps.  Later in this section 8
+we will describe an efficient implementation of the algorithm and analyze its running R
+time in more detail.   We next prove that the algorithm achieves a lower bound of 
+(2)X
+Si and Sj clearly exist:   even if no other squares in S intersect Sk, in which case 
+(3)#
+Tk = Sk, we can sti<
+(4)@
+Either Si or Sj becomes Sk for the next iteration.   It then follows from (3) and (4)
+(5)+
+Si and Sj are disjoint (hence are both different from Sk) in every iteration because
+(6)>
+(8)@
+= 1 + [2zk(xi + xj) + 2zk2 / xi2 + xj2] - [xk2 / xi2 + xj2]
+(9)?
+(10)*
+1/8.5699.  Note that this bound already improves the previous best bound of 
+1/8.6 by Zalgaller15.
+Generalization to higher dimensions. The algorithm can be easily generalized to 
+3 Lower Bounds for Centrally Symmetric Convex Sets in the PlaneP
+We make two changes to algorithm A1, and call the modified algorithm  
+Alt+0194V
+The first change is in the definitions of Ti, xi, and yi. For each convex set Si in S,+
+define Ti as the convex hull of the union of the convex sets in S that intersect Si (Ti
+U+2113R
+U+2032U
+sets in S that intersect Sk, let Si and Sj be any two convex sets that are tangent, 
+Proof:  We refer back to Fig. 1. The two supporting lines of Sk perpendicular to the line[
+because otherwise Si would be disjoint from Sk.  Now Si intersects the two supporting
+to Si.  The supporting line through si, which is tangent to Sk, must also intersect Si
+lines through ti and si. On the other hand, Sk is tangent to the two supporting lines
+Lemma 1.  In<
+argument also shows that Sj intersects the two supporting lines through sj and tj, and
+The following lemma is analogous to the equality |Ti| = yi2 for squares, and maintains3
+1.  Let S0 be the largest square in S.   Assume without loss of generality that S0 is a
+intersects S0 at a distinct corner as shown in Fig. 2(a) (possibly with a different 
+correspondence between the squares and the corners), and when the three squares Z
+squares, 3 squares of side length s, and 10 rectangles of side lengths 1 and s. S
+Lemma 4.   Suppose that the algorithm selects one square, S0, in a selection round.
+independent set I, our algorithm A2 initializes I to be empty, then repeats the following 
+intersect S0.
+Otherwise add S0 to I.
+3.  For each square Si added to I, remove from S the squares that intersect Si.   In a 
+selection round, let J be the set of selected squares, and let T be the set of squares
+selection round until S is empty:
+Subset of or equal to
+Superset of or equal to]
+(4Problem D6): What is the smallest number c such that, for any finite set S of axis-parallel
+Is an Element of
+Fig. 2.    *
+Fig. 3. 7
+a) Starting point: a system of four congruent squares. 
+squares of sides 1 and 2. M
+Fig. 1.  Algorithm 
+1 for centrally symmetric convex sets in the plane.  The 
+of touching squares results in a pair of squares intersecting in their interior.   Finally byZ
+squares.   Alternatively, one can consider the squares as closed sets, to start with, and 0
+use non-overlapping squares in the construction.W
+The second step is to consider a system Q of 13 squares of side 1 and 2 such as that inX
+point is a system of 4 non-overlapping squares shown in Fig. 3a).   Now slightly enlargeV
+Fig. 3b), which can be also viewed as a system of four squares A1, A2, A3, and A4, the@
+vertices of which are drawn as circles; these squares are only used in the analysis.   Q Z
+has the nice property that any independent set can cover at most one quarter of (the area \
+of) each Ai.   Although Q by itself does not appear to be useful in reducing the conjectured
+Fig. 3a).   His construction is shown schematically in Fig. 3c).   A calculation done forX
+length of the large squares), yields an upper bound of [1 / 4] - [1 / 1728].   By using 7
+all eight outer sides of the four squares and eight blocks (an obvious optimization) 5
+yields a further improvement to [1 / 4] - [1 / 1080]. 
+system R that serves the same purpose but uses fewer squares.  Finally, we construct
+adjacent blocks in the tiling to share common parts in the original system R.   To K
+two adjacent sides of a large square S.   R consists of 38 unit squares and 16 squares of*
+tiling of the plane, see Fig. 5.   We say that a square Ai is not covered, if 0% of its area9
+is covered by I.
+quarter of (the area of) each Ai, conform with Fig. 4(b) and 4(d).   By the assumption,
+the 10 unit squares in the bottom row of squares A7 through A11 cannot be in I.   It is2
+Obviously, the property in the lemma holds also for Z2 in place of Z1.   We now move5
+S2, S3, and S4, each of side 10, and arrange them as in Fig. 5(a).   Place four rotated
+a block (cell) of the tiling.   All the 92 2
+2 squares shown in Fig. 4(d), for each of the four X
+copies of R are assigned to the unique block containing the four large squares.   It is 
+important to notice that some of the 2
+2 squares are shared among adjacent blocks in '
+contained entirely in different blocks.[
+the tiling; however the 2
+2 squares Ai used in the analysis are not shared, i.e., they are %
+to the final step - the tiling - which completes our construction.  Take four squares S1,W
+Let T be the infinite set of squares obtained by replicating the block in Fig. 5(b), as in 
+tiling.   Observe that at most one of the Si can be in I, so at most one quarter of the area+
+squares, say S2, is selected in an independent set I, it forces the 10 unit squares in both
+Assume now that one of the Si, say S2, belongs to I.   Observe that the 20 unit squares
+adjacent to top and right sides of S2 do not belong to I (the same holds for the unit square $
+arbitrarily close to this bound, by using a suitably large (square) section of the tiling instead -*
+since the boundary effects are negligible.V
+implement the tiling idea, consider the new system R shown in Fig. 4(a), which bordersC
+Proof:   Observe that R has the property that any independent set can cover at most one
+All even intersections of Lg. S & all 2-dist. corners circled
+Fig. 4. 
+a) Preliminaries for the tiling: the new system R bordering two sides of a large square S.0
+b) The labeling of the squares used in the proof of the upper bound in Lemma 5./
+c) Two rectangles Z1 and Z2 superimposed on R. 
+d) A system of 23 squares of side 2, Ai, i = 1, . . . , 23, superimposed on R (some of the squares in R are only partially covered by the squares Ai).&
+(Vol. II of Unsolved Problems in Intuitive Mathematics)K
+Hallard T. Croft, Kenneth J. Falconer, Richard K. Guy; Springer-Verlag 1991(
+90-25041, 0-387-97506-3 or 3-540-97506-30
+The Rad
+s' Problem on Selecting Disjoint Squaresl
+It is known (See Norlander, Sokolin, and Zalgaller) that, given a finite collection of congruent, similarly-i
+situated squares in the plane that covers the total area A, we may select a non-overlapping subcollection9
+that covers an area of 
+A or more.   T. Rad
+ observed that if the sides of the squares are not necessarily 
+equal (but still parallel) the "greedy algorithm" (repeatedly choose the largest square disjoint from thoseh
+bound.     R. Rad
+ conjectured that area 
+A was always possible, but he could only prove A x (4/35) = A x*
+A x (8/63) = A x 0.126, if only two sizes of square are allowed.   However, Ajtai has concocted an example 
+involving hundreds of squares of sides 1 and 2 with no disjoint subset covering area 
+A, disproving Rad
+'s V
+Many similar problems may be found in Rad
+'s three papers on the subject.   There is, of course, ad
+d-dimensional analog for parallel-sided d-cubes with volume or d-dimensional content replacing area.
+Unsolved Problems in Geometry, Ed. Paul R. Halmos
+Packing & Covering   - D6  
+U+211A
+U+2124
+U+2131
+U+2018
+U+2019o
+as an exercise.)   Rad
+ considers such problems for disks, centro-symetric convex sets, &c., as well as for 
+squares.
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+[Content_Types].xml
+%NY 
+<nho
+u}{S
+!]/&
+!&S5
+<%O;
+_rels/.rels
+drs/picturexml.xml
+i/yq
+4 XnJ!
+Es-3
+TyJ'
+ra8v
+eAX^
+@2d9
+p/#?
+U\I 
+yj{[
+drs/downrev.xml\
+,n26
+w}`>H
+u\+K
+;27%oFQ
+YXzA
+{`AU
+[Content_Types].xmlPK
+_rels/.relsPK
+drs/picturexml.xmlPK
+drs/downrev.xmlPK
+MbP?_
+ffffff
+ffffff
+333333
+?333333
+MbP?_
+333333
+?333333
+Microsoft Excel
+Sheet1
+Sheet2
+Sheet3
+Worksheets
+Microsoft Office Excel 2003 Worksheet
+Biff8
+Excel.Sheet.8
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Verdana10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Monotype Corsiva10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS1
+Calibri1
+Calibri1
+Calibri10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Monotype Corsiva10
+Monotype Corsiva10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Monotype Corsiva10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Monotype Corsiva10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS10
+Arial Unicode MS1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri10
+Arial Unicode MS1
+Calibri1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Verdana1
+Cambria1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri1
+Calibri
+20% - Accent1
+20% - Accent2
+20% - Accent3
+20% - Accent4
+20% - Accent5
+20% - Accent6
+40% - Accent1
+40% - Accent2
+40% - Accent3
+40% - Accent4
+40% - Accent5
+40% - Accent6
+60% - Accent1
+60% - Accent2
+60% - Accent3
+60% - Accent4
+60% - Accent5
+60% - Accent6
+Accent1
+Accent2
+Accent3
+Accent4
+Accent5
+Accent6
+Calculation
+Check Cell
+Comma
+Comma [0]
+Currency
+Currency [0]
+Explanatory Text
+Good
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Input
+Linked Cell
+Neutral
+Normal
+Note
+Output
+Percent
+Title
+Total
+Warning Text
+TableStyleMedium9PivotStyleLight16
+which any subsystem consisting of disjoint squares covers the area at most 1/4
+1/1728 of %
+planar general shapes and higher dimensions by Richard Rado.  In a letter to Wac
+aw Sierpi
+ski, _
+, T, Sur un probl
+me relatif 
+ un th
+me de Vitali, Fundamenta Mathematica 11, 228
+229 (1928)
+rie des Sciences Math. Astr. et Phys. 21, 61
+63 (1973)`
+Ajtai, M., The solution of a problem of T. Rado, Bulletin de l
+Acad
+mie Polonaise des Sciences, 
+Rado, R., Some covering theorems (I), (II), Proc. of the London Math. Soc. 51, 241
+264 (1949) and 
+53, 243
+267 (1951)
+148 (1960)^
+theory 
+ SWAT 2008, ed by J. Gudmunsson, Lect. Notes in Comp. Sci. 5124, 294
+305 '
+squares in the plane, then there exists an independent subset I 
+ S of pairwiseS
+example disproving T. Rado
+s conjecture. We revisit Rado
+s problem and presentT
+Rado
+s problem on selecting disjoint squares is a famous unsolved problem in geometryJ
+squares in the plane, there exists an independent subset I 
+ S of pairwiseU
+J. Gudmundsson (Ed.): SWAT 2008, LNCS 5124, pp. 294
+305, 2008.Q
+We introduce some definitions. Throughout the paper, the term 
+convex set
+ refersQ
+of 1/8.6 
+ F(S) 
+ 1/4 
+ 1/1728, for a square S. In Section 2, we present a very
+for any convex set S in the plane, and f(S) 
+ 1/7 for any centrally symmetric convexP
+From the two inequalities (2) and (10), it follows by induction that |I|/|S| 
+2 >Q
+We prove Theorem 2 in this section. Note that Theorem 1 implies a bound of F(S) 
+Following the same chain of reasoning from (2) to (10), we obtain a bound of F(S) 
+letting 
+ tend to zero, one recovers the same upper bound for systems of intersectingS
+Fig. 5. (a) A large square of side 10 bordered by the system R. (b) S1 
+ S2 
+ S3 
+ S4 bordered\
+by 4 rotated copies of R (some squares are shared among adjacent copies). The block 
+ is the^
+large dashed square containing S1 
+ S2 
+ S3 
+ S4. (c) Tiling of the plane with blocks composed^
+1. Ajtai, M.: The solution of a problem of T. Rado. Bulletin de l
+Acad
+emie Polonaise des Sciences,9
+erie des Sciences Math. Astr. et Phys. 21, 61
+63 (1973)Z
+of Algorithms 46, 178
+189 (2003)\
+intersection graphs. SIAM Journal on Computing 34, 1302
+1323 (2005)^
+NP-complete. Information Processing Letters 12, 133
+137 (1981)X
+image processing and VLSI. Journal of ACM 32, 130
+136 (1985)J
+8. Norlander, G.: A covering problem. Nordisk Mat. Tidskr. 6, 29
+31 (1958)[
+264 (1949)]
+267 (1951)Z
+130 (1968)a
+12. Rado, T.: Sur un probl`eme relatif `a un th
+eor`eme de Vitali. Fund. Math. 11, 228
+229 (1928)Y
+13. Sokolin, A.: Concerning a problem of Rado. C.R. Acad. Sci. U.R.S.S (N.S.) 26, 871
+872[
+14. Yaglom, I.M., Boltyanski
+i, V. G.: Convex Figures. Holt, Rinehart and Winston, New YorkZ
+15. Zalgaller, V.A.: Remarks on a problem of Rado. Matem. Prosveskcheric 5, 141
+148 (1960)X
+2 Department of Computer Science, University of Wisconsin
+Milwaukee, WI 53201-0784, USA
+squares and disproved T. Rado
+s conjecture in 1973!  The problem of selecting disjointV
+classes of convex sets, in his three papers entitled 
+Some covering theorems
+ 9,10,11.N)U
+f(S) = inf/S1
+sup/I |I|/|S1|,
+measure of a convex set C in 
+d, i.e., the area in the plane, or the volume in the 3-
+where S ranges over all finite sets of convex sets in 
+d that are homothetic to S, and I7)8
+where S1 ranges over all finite sets of convex sets in 
+d that are homothetic and 
+Theorem 1. Let S be a set of n axis-parallel hypercubes in 
+d. There exists an O(dn2)
+time algorithm A1 that computes an independent set I 
+ S such that |I|/|S| 
+That is, F(S) 
+d for a hypercube S in 
+improved lower bound of F(S) 
+2 > 1/8.5699, for any centrally symmetric convex",#
+set S in the plane.  The previous best lower bound of F(S) 
+ (1 +1/200704)/9 =
+Theorem 2. For any centrally symmetric convex set S in the plane, F(S) 
+1/8.5699. In particular, for a disk S, F(S) 
+disk, where 
+disk = 8.3539 . . ..
+for squares.  The algorithm Z implicit in Zalgaller
+s lower bound15 computes an inde-A)C
+O(n2) time algorithm A2 that computes an independent set I 
+ S such that |I|/|S| 
+refines Ajtai
+s idea1 and consists of an infinite number of squares tiling the plane.
+Theorem 4. For a square S, F(S) 
+ 1/4
+ 1/384 .
+centrally symmetric hexagon S, f(S) 
+3 > 1/4.4106 for a disk S, f(S) 
+ 1/16
+Theorem 5. For any convex set S in the plane, f(S) 
+ 1/6. This inequality cannot be
+improved. For any centrally symmetric convex set S in the plane, f(S) 
+(S)/4 where
+(S) is the packing density of S; in particular, f(S) > 1/4.4810.
+We summarize our results for convex sets in 
+2, Theorems 2, 3, 4, and 5, in the following-).
+F(S) 
+ 1/4 
+ 1/384
+F(S) 
+ 1/8.6 15
+F(S) < 1/4 
+ 1/1728 1 
+f(S) 
+ 1/7 9 
+f(S) 
+ 1/6
+*/F.P
+xi the side length of Si.   Denote by yi the side length of Ti.   Put zi = yi 
+ xi.
+Let 
+2.   Recall that 
+2 = (
+46+2)2/9 = 8.5699 . . . > (5/2)2.  To construct an
+2.  If yl 
+, add Sl to I, delete from S the squares that intersect Sl, then return.
+    Otherwise, set k 
+ l and continue with the next step.V
+intersect Si or Sj , then return. Otherwise, set k 
+ i or j such that zk increases,
+.  Consider a selection round.  If yl 
+ in step 2, then |Sl|/|Tl| = xl2/yl2 
+.',(
+K,L)M
+O,P)R
+Now suppose that yl > 
+.   Then the algorithm proceeds to step 3.  The two squares 
+In every iteration of step 3, our choice of Si and Sj implies that xi+xj +xk 
+ yk =-,.
+xk + zk.  Therefore, xi + xj 
+ zk. 
+ll take Si = Sj = Sk.   Since xi 
+ xl, xj 
+ xl, and xl = 1, we have zk 
+ 2. 
+In the first iteration, zk = yl 
+ xl > 
+ 1.   The value zk is strictly increasing. 
+It follows that, in every iteration of step 3, 
+ 1 < zk 
+ 2. 9,:
+that, in every iteration, 
+ 2 < xk 
+ 1. $,%
+yk = xk +zk > (
+2)+(
+1) = 2
+ 2(5/2)
+3 = 2 
+ xi +xj . 
+When the selection round ends, we have zi 
+ zk and zj 
+ zk.  Therefore,  |Ti| = yi2(,)
+Q,R)@
+ = (xi +zi)2 
+ (xi +zk)2;   |Tj| = yj2 = (xj +zj)2 
+ (xj +zk)2. 
+$,%)'
+Since Sk 
+ Ti and Sk 
+ Tj, we also have |Ti 
+ Tj| 
+ |Sk| = xk2. 
+<,=)>
+1.  Find the largest square Sl in S. Assume without loss of generality
+ that xl = 1.
+ This assumption mainly simplifies the analysis, and is not implemented in the algorithm.
+Then, |Ti 
+ Tj| / |Si| + |Sj | = |Ti| + |Tj| 
+ |Ti 
+ Tj| / |Si| + |Sj | 
+ [(xi + zk)2 + (xj + zk)2 / xi2 + xj2] - [xk2 / xi2 + xj2]
+$,%)&*'
+,,-)/*0
+2,3)4
+8,9):*;
+$,%)&*'
+,,-).
+2,3)4
+8,9):*
+ 1 + [2zk(xi + xj) + 2zk2 / (xi2 + xj2)2 / 2] - [
+ 2)2 / 2]
+, )!
+%,&)'
+9)>*>
+= 1 + [4zk / (xi + xj)] + [4zk2 / (xi + xj)2] - [
+ 2)2 / 2]
++),*-
+ 2)2/2, where the last inequality follows from (3). 
+Recall that 
+2 is the solution to the equation 9 
+ 2)2/2 = 
+So we have |Si| + |Sj| / |Ti 
+ Tj| 
+any dimension d 
+ 2 to achieve a bound of 1/
+d, where 
+d is the solution to (1). -,.
+We omit the running time analysis.   Note that 
+ (5/2)d.   Set the threshold for 0,1
+yl in the two cases to 
+d1/d.  Then the inequality yk > xi + xj in (6) still holds, and 
+(9) becomes [|Ti 
+ Tj | / |Si| + |Sj|]
+ [(xi + zk)d + (xj + zk)d / xid + xjd] 
+ [xkd / xid + xjd]
+$,%)&*'
+,,-).
+2,3)4
+8,9):**
+ [2(zk/2 + zk)d / 2(zk/2)d] 
+1/d 
+ 2)d
+= 3d 
+d1/d
+ 2)d/2.
+2 > 1/8.5699 for a square S. We extend this bound for any centrally symmetric
+contains Si).   Define the width of a convex set S along a line 
+ as the distance 
+between the pair of supporting lines of S perpendicular to 
+.   For each line 
+ through 
+The second change is in step 3 of the selection round. We refer to Fig. 1. Let 
+ be aV
+line through the center of Sk such that w
+) / wk(
+) = ak.   Then, among the convex 
+respectively, to the two supporting lines of Tk perpendicular to 
+..,/
+the center of Si, denote by wi(
+) the width of Si along 
+, and denote by w
+line 
+ is horizontal, and the four supporting lines are vertical in this example.
+ intersect 
+ at the two points si and sj . The two supporting lines of Tk perpendicular to!,"
+the line 
+ intersect 
+ at the two points ti and tj . The supporting line through ti is tangent*,+
+ each iteration of step 3 of the selection round, xi + xj 
+ zk.
+-?7@-D7E-I7J-X
+through si and sj. It follows by similarity that xi / xk 
+ |tisi| / |sisj|.  A symmetric
+2,4*5
+satisfies xj / xk 
+ |sj tj| / |sisj|. 
+the width of Ti along 
+.   Define ai = max 
+ ) / wi(
+ ), xi = 
+|Si|, and yi = ai 
+ xi.
+.*/,0
+.Therefore, xi+xj 
+ [|tisi| + |sj tj| / |sisj|] xk = [w
+ wk(
+) / wk(
+)] xk = (ak
+1)xk = yk
+xk = zk. 
+9,:)<
+Lemma 2.  For each Si in S, |Ti| 
+ yi2 .
+-$7%8&-[
+Proof:   Let Ti
+ be the Steiner symmetrization of Ti with respect to the center of Si. Then
+|Ti| 
+ |Ti
+| (14, Exercise 6-9).   Let S
+i be the concentric homothetic copy of Si scaled by
+(*),+
+ai.  Then S
+i contains Ti
+.   Therefore |Ti| 
+ |Ti
+i| = (ai 
+ xi)2 = y2.
+1,2)3
+2 > 1/8.5699 for any centrally symmetric convex set S in the plane. For the special
+case that S is a disk, we can derive a better bound of F(S) 
+disk > 1/8.3539 by aA,E
+Let S = {S
+, . . . , Sn} be a set of n axis-parallel squares. Denote by x
+ the side length
+intersect Si. Note that S
+i is concentric with Si.
+Let s be a real number to be chosen later, such that 3/4 < s 
+ 1. To construct an W
+unit square.   Let S0 
+ S \ {S0} be the set of squares of side length at least s that
+Lemma 3. Suppose that the algorithm selects three squares S
+, and S
+, in a 
+Proof:   It can be shown that the ratio of the area of the region R = S
+3  V
+over the total area of the three squares S
+, and S
+ is maximized when each square T
+have equal side length x
+ = x
+ = x
+ = s.   In this case the region is the union of 8 unit P
+-;7<-a
+of Si.  For a square Si = [x, x + l] 
+ [y, y + l], we denote by S
+I the square [x 
+ 1, x + l +1] 
+ [y 
+ 1, y + l + 1], which contains all possible squares of side length at most 1 that 
+2.  If S0 contains three disjoint squares S
+, and S
+, then add S
+, and S
+ to I.
+Then |T| / |J| 
+ 7 + 2s
+selection round.   Then |T| / |J| 
+ (8 + 3s
+ + 10s) / (3s
+: -465-V
+Proof:   It can be shown that the maximum covered area in S
+0 is the shaded area shown<,=
+Balancing the two bounds in Lemmas 3 and 4, we obtain a quartic equation 3s4+9s2
+ 4 = 0, which has only one positive root s0 = 0.8601 . . .. Choose s = s0, and we.,/
+have (8 + 3s2 + 10s) / (3s2) = 7+2s2 = 
+square = 8.4797 . . ..
+space.   For a finite set S of convex sets in 
+d, define its union volume (or union area/)0
+F(S) = inf / S
+sup / I |I|/|S|,
+improved lower bounds for hypercubes in any dimension d 
+ 2. Let 
+d be the solutionB,C
+For d = 2, 
+2 = (
+46 + 2)2/9 = 8.5699 . . ..
+when d = 2) as |S| = | 
+S C|. For a convex set S in 
+d, define
+[3d 
+d1/d
+ 2)d] / 2 = 
+d.                                                             
+square, where 
+square = 8.4797 . . .. That is, F(S) 
+square for a square S.
+f(S) 
+ 1/16 9 
+(a) Maximum area of R = S
+3 . 
+(b) Maximum covered area in S
+We first describe briefly Ajtai
+s ingenious idea for the construction in [1].   The starting\
+each square with respect to its center by a small 
+ > 0.   All constructions we discuss will]
+this end we first construct a variant R
+ of R that admits a symmetry axis, which allows&+')(
+side 2.   By replicating copies of R, rotated by 0
+, 90
+, 180
+, and 270
+, we construct a#+$
+Lemma 5. Let I be an independent set of squares in the system R
+{S} in Fig. 4(a).
+->:?-Q
+Assume that S 
+ I, and consider the 10
+4 rectangle Z1 which borders S from above.
+-475-
+Then |I 
+ Z1| 
+enough to show that at least one of the squares Ai (i 
+ {1, 2, 3, 4, 5} 
+ {7, 8, 9, 10, 11}1,2
+is not covered.   Observe that either B2 
+ I or B3 
+ I (otherwise A9 is not covered and we ',(
+are done).   Since R 
+ Z1 admits a vertical symmetry axis, we can assume that B2 
+It follows that e 
+ I (otherwise A10 is not covered), and that B4 
+ I (else A11 is not 
+covered).   But then A4 is not covered, since f,B3, C3, C4 /
+ I.   This completes the proof.
+copies of R bordering the outer 8 sides of S1 
+ S2 
+ S3 
+ S4 as in Fig. 5(b), and obtain
+a tiling
+ of the plane, whose blocks (tiles) are made up from the previous pieces.   To
+   Here we use this term in a broader sense, where the tile can have holes.[
+Fig. 5(c).   Let I be an independent set of squares in T.   Fix any given block 
+ in the7+8
+of S1 
+ S2 
+ S3 
+ S4 is covered by I.   Similarly I covers at most one quarter of the area 
+in each of the 92 2
+2 squares assigned to 
+.   Observe that if one of the four large[
+the bottom row of R 
+ Z1 and the leftmost column of R 
+ Z2 to be out of I.   For the 
+analysis, we can argue independently for each block.   Fix any block 
+ in the tiling.   C
+The area covered by T in 
+ is |T 
+| = (4 
+ 100) + (4 
+ 92) = 768.
+92, thus [|I 
+| / |T 
+ 92 / 768 = [1 / 4] 
+ [50 / 384], i.e., much smaller than required.
+In the (easy) case that none of the Si is in I, the area covered by I in 
+ is |I 
+ 23 = %,&
+in the corner, but this is irrelevant here).   By Lemma 5, |I 
+ 100 + (4 
+ 23 
+ 2) = 190, <+>
+thus |I 
+| / |T 
+ 190 /<
+ 768 = [1 / 4 
+ 1 / 384], as desired. Of course, one can get 
+Here we refine Ajtai
+s idea in several ways to obtain a better bound.  First, we find a 
+b) Ajtai
+s idea: an ambiguous system Q of 13 %M&
+c) Ajtai
+s construction shown schematically. Ri, i = 1,-M.</
+previously selected) gives a non-overlapping subset of area A/9 = A x 0.111
+ , and he asked for a larger<T=
+0.114
+ .  Zalgaller improved this to A/8.6 = A x 0.116
+ , and Mirsky remarked to us that he could obtain%T&
+conjecture.    What then is the largest number c
+, such that there is always a disjoint collection of squares?
+covering area c
+A?   From the above remarks, 0.116 < c
+ < 0.25.
+Improve Rad
+'s bounds 1/(3d - 7-d) 
+ cd 
+ 2-d for the optimal ratio cd in d dimensions.   (That c1 = 
+ is left 
+EPSON WorkForce 435 Series
+Open cfg file 
+aabbbbbbbbbbbbbLMNOOOOOOOOOO
+acccccccccccccLM
+OOOOOOOOOOR?
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLU
+UUUUUUUUUUW@
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLMXMMMMMMMMMMT?
+acccccccccccccLMXMMMMMMMMMMT?
+ddcccccccccccccLMXMMMMMMMMMMT?
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLMSMMMMMMMMMMT?
+acccccccccccccLM
+MMMMMMMMMMT?
+acccccccccccccLM
+MMMMMMMMMMT?
+accccccfffffffLM
+MMMMMMMMMMT?
+aaccccccfffffffLM
+MMMMMMMMMMT?
+acccccccccccccLMYMMMMMMMMMMT?
+acccccccccccccLZ
+MZZZMMMMMMT?
+acccccccccccccLZ
+MZZZMMMMMMT?
+acccccccccchffLZ
+MZZZMMMMMMT?
+gacccccccc
+ffffLZ
+ZZZZMMMMMMT?
+aaccccccchhffffLZ
+ZZZZMMMMMMT?
+aacccccccjjffffLM
+ZMMMMMMMMMT?
+aaccccchhkkffffLMYMMMMMMMMMMT?
+acccccjjlllmmmLM
+MMMMMMMMMMTA
+accchhkknnnopoLZ
+ZZZZZZZZZZ]?
+acccjjllmmmqqqLZ
+ZZZZZZZZZZ]?
+achhkknnpopqqqLYYYYYYYYZZZZ]?
+acjjllmmqqqqqqLY
+YYYY
+YYYYYY?
+ahkknnopqqqqqqLY
+YYYYYYB
+ZhhhhhhhRRFhhRhhh\Rhhhr\\FhhhR~
+ajllmmqqqqqqqqLYYYYYY
+YYYYYYB
+ajnnopqqqqqqqqLY
+YYYY
+YYYYYYB
+eajmmqqqqqqqqqqLY
+YYYYYYYYYYYB
+ckopqqqqqqqrrrLY
+YYYYYYYYYYYB
+clqqqqqqqqqqqqLYYYYYYYYYYYYYC
+cnqqqqqqrrrqqqLY
+YYYYYYYYY
+acmqqqqqqqqqqffLY
+YYYYYYYYY
+&&GG'
+scpqqqqrrq
+aqffLYYYYYYYY
+'&GG'
+tcqqqqqqqq
+aqquLYYYYYYYY
+(&GG'
+hhqqqrrqqqqqqquLYYYYYYYY^[__`E
+)&GG'
+xwyyyyyyyyyyyyz{?IIIIIIFFFFFJE
+*&GG'
+|y}}yyyyyyyyyz
+GGGKE
++&GG'
+yyyyyyyyyyyy~
+{wyyyyyyyyyyyy~
+}yyyyyyyyyyyy
+}yyyyyyyyyyyy
+}yyyyyyyyyyyy
+}yyyyyyyyyyyy
+xxxxxxxxxxxxxx
+xxxxxxxxxxxxxx
+xxxxxxxxxxxxx
+>xxxxxxxxxxxxxx
+xxxxxxxxxxxxxx
+xxxxxxxxxxxxx
+{xxxxxxxxxxxxxx
+xxxxxxxxxxxxxx
+xxxxxxxxxxxxx
+xxxxxxxxxxxxx
+xxxxxxxxxxxxx
+h~\hR
+nZfnnZfZfZfnZfnZfnn
+>xxxxxxxxxxxxxx
+>xxxxxxxxxxxxxx
+>xxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx{{
+xxxxxxxxxxxxxxx
+ZZZZ,`PNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNN
+frac{|I|}{|S|}, 
+Picture 2
+ F(X)=\inf_{S}\sup_{I}\frac{|I|}{|S|}, 
+frac{1}{384},
+Picture 3
+ \frac{1}{8.4797}\leq F(\textrm{square})\leq\frac{1}{4}-\frac{1}{384},
+frac{1}{6}
+Picture 4
+f(X)\geq\frac{1}{6}
+Picture 4
+EPSON WorkForce 435 Series
+Open cfg file 
+FFFFF
+FBFFFF8FF
+P*****P
+hhhh
+hhhh
+h~h~~h~h~ph~ph
+EPSON WorkForce 435 Series
+Open cfg file 
+CompObj

@@ -1,0 +1,24 @@
+    E       N        I        G        M        A
+01000101 01001110 01001001 01000111 01001101 01000001
+
+01000101 01001110 01001001 01000111 01001101 01000001
+
+00001000 00010101 00000111 00000100 00010010 00010001 00011010 00001101 00001000 000000001
+   8       21        7         4       18       17       26       13       8         1
+
+
+ ABCDEFGHIJKLMNOPQRSTUVWXTZ1988
+
+8 21 7 4 18 17 26 13 8 1
+H  T G D  R  Q  Z  M I A 
+
+
+Mister Ed applied an additional trick, decode the CSI hint from the NY Times worksheet to find out what he did.
+
+
+
+
+02:17 11-9-2015
+
+
+TWO and Tring Nobi

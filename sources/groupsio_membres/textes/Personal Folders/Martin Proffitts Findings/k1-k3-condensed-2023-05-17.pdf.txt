@@ -1,0 +1,429 @@
+[[page 1]]
+K1 to K3 condensed version
+2023-05-17
+K1 to K3 condensed version
+To try and summarise all of my findings from my previous posts and documents to
+just the relevant sections without all the pre-amble.
+K1 sets direction
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF
+IQLUSION
+In this statement we note the following
+• 𝑆𝑆−𝐴𝐿−𝑁𝐼are the key characters
+• Anything is POSSIBLE
+• Illusions have to be VISIBLE
+• Illusions are based on LIES. This adds 𝐿𝑌to the options
+K2 shows us our friends
+IT WAS TOT𝐴𝐿𝐿𝑌−𝐼𝑁VISIBLE HOWS THAT PO𝑆𝑆IBLE?
+When we bring LIES into the equation from K1, we quickly find the letter pair 𝐿𝑌which
+is prominent in this phrase. It was actually this pair that drew me to the movement of
+characters and originally made it stand out.
+What we note from this is the set 𝐴𝐿𝐿𝑌−𝐼𝑁−𝑆𝑆
+If we then look to K4, we very quickly find:𝑆𝑆𝑂𝑇𝑊𝑇𝑄𝑆𝐽𝑄𝑆𝑆which denotes the
+sculptors initials surrounded by Qs inside pairs of SS.
+We also note that the initials are rotated but how?
+K2 rotates to define a location in K3
+The first statement in K2 is:
+IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE?
+Here, we find the characters 𝐴𝐿−𝐼𝑁−𝑆𝑆. By placing a pivot point between the
+𝐼−𝑁we can rotate these 6 characters to become 𝑆𝑆−𝑁𝐼−𝐴𝐿. This then matches
+with the order of characters in K1.
+Martin Proffitt
+1
+
+[[page 2]]
+K1 to K3 condensed version
+2023-05-17
+My current theory defines blocks of 6 characters with every centre pair rotated back-
+wards and the outer pairs swapped in position.
+For example: 𝐶𝑁𝐵𝐹𝐿𝑆becomes 𝐿𝑆𝐹𝐵𝐶𝑁. In case you’re wondering, no, these
+pairs do not appear in the cipher. For this, look closely at my own profile. Maybe you’ll
+appreciate the answer.
+When we then look to K3, we again find the letters 𝑆𝑆−𝑁𝐼−𝐴𝐿and we’ll cover this
+shortly.
+K2 is a key cutting machine for a 97 character key
+Take the phrase THE EARTHS MAGNETIC FIELD. This is 22 characters long (without
+spaces) and comes in the pattern 3, 6, 8, 5.
+If you haven’t read my previous posts about K3, don’t worry, I’ll explain this later but
+from this we discern that there are 4 characters that don’t move.
+The sum of the numbers in the coordinates is 64. Add to this 22 and you’re left with 11
+difference to 97. Subtract from this 4 and you are left with 7. This gives the sequence
+[3, 6, 8, 5, 7] + 4
+For the example to work, we need to split the 4 in half [2, 2]
+Now we come to the coordinates.
+Extract the numbers from the coordinates. This is:
+[3, 8, 5, 7, 6, 5, 7, 7, 8, 4, 4]
+Add to this the set of numbers from THE EARTHS MAGNETIC FIELD and for the purposes
+of this example, we’ll place the 4 at the end.
+[3, 6, 8, 5, 7, 3, 8, 5, 7, 6, 5, 7, 7, 8, 4, 4, 2, 2]
+Now to the cadence.
+This is the order that people speak within the passage.
+Person 1. IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE ?
+Person 2. THEY USED THE EARTHS MAGNETIC FIELD 𝑋
+Person 2. THE INFORMATION WAS GATHERED AND TRANSMITTED UNDERGRU-
+UND TO AN UNKNOWN LOCATION 𝑋
+Person 1. DOES LANGLEY KNOW ABOUT THIS ?
+Person 2. THEY SHOULD ITS BURIED OUT THERE SOMEWHERE 𝑋
+Martin Proffitt
+2
+
+[[page 3]]
+K1 to K3 condensed version
+2023-05-17
+Person 1. WHO KNOWS THE EXACT LOCATION ?
+Person 2. ONLY WW THIS WAS HIS LAST MESSAGE 𝑋
+• This is a lie. Someone else knows
+Person 2. THIRTY EIGHT DEGREES FIFTY SEVEN MINUTES SIX POINT FIVE SEC-
+ONDS NORTH SEVENTY SEVEN DEGREES EIGHT MINUTES FORTY FOUR SECONDS
+WEST 𝑋
+Person 2. LAYER TWO
+This gives the cadence 1 −2 −2 −1 −2 −1 −2 −2 −2
+This cadence is incomplete, we need a 1 −2 at the beginning. The whole beat of this
+cadence always felt wrong to me, it was always missing something like walking in half
+way through a conversation
+1 −2 −1 −2 −2 −1 −2 −2 −2
+Take this cadence and split it over the top of the sequence we just generated.
+1
+1
+2
+1
+2
+2
+1
+2
+1
+2
+2
+2
+2
+3, 6, 8, 5, 7, 3, 8, 5, 7, 6, 5, 7, 7, 8, 4, 4, 2, 2
+These match perfectly and this is a key cutting machine.
+Take the ciphertext and split it according to the pattern shown. I’m going to use the
+following puython code to achieve this, placing the result in columns to attempt to
+show what I mean.
+1
+import pandas as pd
+2
+3
+cipher = (
+4
+"OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZ"
+5
+"WATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
+6
+)
+7
+8
+cadence = [1, 2, 1, 2, 2, 1, 2, 1, 2, 2, 2]
+9
+sequence = [3, 6, 8, 5, 7, 3, 8, 5, 7, 6, 5, 7, 7, 8, 4, 4,
+2, 2]
+10
+11
+i, j = 0, 0
+12
+data = {}
+13
+for c in cadence:
+14
+m = []
+15
+b = sequence[i:(i + c)]
+16
+i += c
+17
+for a in b:
+18
+m += [*cipher][j:(j + a)]
+Martin Proffitt
+3
+
+[[page 4]]
+K1 to K3 condensed version
+2023-05-17
+19
+j += a
+20
+data[i] = m
+21
+22
+df = pd.DataFrame.from_dict(data, orient='index')
+23
+print(df.transpose().fillna('').to_string(index=False))
+This gives us the result:
+1
+O
+R
+F
+L
+S
+K
+K
+N
+Z
+G
+K
+2
+B
+U
+B
+R
+S
+Z
+L
+Y
+F
+K
+C
+3
+K
+O
+B
+V
+O
+Z
+U
+P
+P
+U
+A
+4
+X
+W
+Q
+T
+W
+D
+V
+K
+H
+R
+5
+O
+F
+Q
+W
+A
+I
+T
+W
+U
+6
+G
+P
+T
+T
+A
+T
+G
+A
+7
+H
+R
+Q
+J
+W
+M
+D
+U
+8
+U
+N
+S
+I
+K
+E
+9
+L
+G
+J
+N
+Z
+10
+B
+K
+Q
+F
+X
+11
+S
+S
+B
+T
+12
+O
+S
+J
+13
+L
+E
+C
+14
+I
+D
+15
+I
+Unless I’m very much mistaken, that to me looks like a key.
+Now we just need a lock.
+K2 gives us directions
+OnethingthatbotheredmeaboutK2isthatIcouldn’taccountfortheUtoOconversion
+from the word UNDERGRUUND
+Take the coordinates and remove all the numbers from it so that:
+THIRTY EIGHT DEGREES FIFTY SEVEN MINUTES SIX POINT FIVE SECONDS NORTH
+SEVENTY SEVEN DEGREES EIGHT MINUTES FORTY FOUR SECONDS WEST X
+Becomes
+DEGREES MINUTES POINT SECONDS NORTH DEGREES MINUTES SECONDS WEST X
+Now: DEGREES MINUTES SECONDS is 21 characters without spaces. This is the char-
+acter U in the alphabet.
+In the word UNDERGRUUND we have two of them. Remove them.
+POINT NORTH WEST X
+This is 15 characters without spaces. This is the letter O.
+Martin Proffitt
+4
+
+[[page 5]]
+K1 to K3 condensed version
+2023-05-17
+K2 tells you where to look
+We remove the letter U in the previous step but we still have 2 left to deal with.
+In the word UNDERGRUUND, there are 2 Us here. Remove them.
+UNDER GR ND
+These letters do not appear anywhere together in the whole ciphertext. These are an
+ideantifier for a later phase.
+K2 uncovered phrases
+THE INFORMATION WAS GATHERED
+I presume this is what we’re doing right now?
+UNKNOWN LOCATION 𝑋
+Do not have an answer here
+DOES LANGLEY KNOW ABOUT THIS ?
+Do not have an answer here
+THEY SHOULD ITS BURIED OUT THERE SOMEWHERE 𝑋
+Do not have an answer here
+WHO KNOWS THE EXACT LOCATION ?
+Do not have an answer here
+ONLY WW THIS WAS HIS LAST MESSAGE 𝑋
+The word ONLY is a lie but the rest is unanswered
+And the new one
+POINT NORTH WEST X
+I think this needs to read POINT X NORTH WEST but I’m not sure yet.
+Martin Proffitt
+5
+
+[[page 6]]
+K1 to K3 condensed version
+2023-05-17
+K3 is a perpetual motion machine
+This is largely a copy-paste job from my previous document. Don’t worry if you’ve not
+read it. You don’t have to. This explains everything you need to know.
+In passage 2, we located the boundaries of the room as set out in passage 1.
+These are: SS and AL. It is my opinion that within these boundaries, everything we
+require will fit. Here, I will go through the process of packing the room with all that is
+required to move forward possibly into the cipher text known as K4.
+The length of the relevant section is 141 characters. By the time this is finished, you
+will be left with only 97 characters.
+The characters SS and AL define the boundaries of the room we leave these in
+place throughout this build. These are the 4 characters I mentioned earlier in
+this paper.
+1
+SS AGEDEBRISTHATENCUMBEREDTHELOWERPARTOFTHEDOORW
+2
+AYWASREMOVEDWITHTREMBLINGHANDSIMADEATINYBREACHI
+3
+NTHEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+The first thing we need to do is clear the passage debris, so lets get rid of that.
+1
+SS THATENCUMBEREDTHELOWERPARTOFTHEDOORWAYWASRE
+2
+MOVEDWITHTREMBLINGHANDSIMADEATINYBREACHINTH
+3
+EUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+The next instruction tells us OF THE DOORWAY WAS REMOVED so lets get rid of that:
+1
+SS THATENCUMBEREDTHELOWERPARTWITHT
+2
+REMBLINGHANDSIMADEATINYBREACHIN
+3
+THEUPPERLEFTHANDCORNERANDTHENWIDENINGTHEHOLE AL
+I MADE A TINY BREACH IN THE UPPER LEFT HAND CORNER
+OK, lets do that: Take “A TINY BREACH” and move it, overwriting “THATENCUMBE”
+1
+SS ATINYBREACHREDTHELOWERPARTWITHT
+2
+REMBLINGHANDSIMADEINTHEUPPERLEF
+3
+THANDCORNERANDTHENWIDENINGTHEHOLE AL
+Next step:
+THEN WIDENING THE HOLE A LITTLE I INSERTED THE CANDLE AND PEERED IN
+This one confused me until I realised it meant everything after INSERTED so lets do
+that.
+Martin Proffitt
+6
+
+[[page 7]]
+K1 to K3 condensed version
+2023-05-17
+1
+SS ATINYBREACHREDTHELOWERPARTWITHT
+2
+REMBLINGHANDSIMADEINTHEUPPERLEF
+3
+THANDCORNERTHECANDLEANDPEEREDIN AL
+Reading this passage, you will notice that it states “A TINY BREACH RED THE LOWER
+PART” and THE CANDLE AND PEERED IN should be made in the upper left hand cor-
+ner.
+Note how there is an A missing in the word RE[A]D. If I read this correctly, this
+passage contains the word DESPARATLY, which uses an A in place of an E, and
+there is an E missing. I believe the A in READ is the counterpart to the missing E
+in DESPERATELY.
+So, lets do that:
+1
+SS THECANDLEANDPEEREDINREDTHELOWER
+2
+PARTWITHTREMBLINGHANDSIMADEINTH
+3
+EUPPERLEFTHANDCORNERATINYBREACH AL
+This, if I’m not mistaken, is a perpetual motion machine. It is constantly reversing
+itself around TREMBLING HANDS.
+K3 Uncovered phrases
+THE HOT AIR ESCAPING FROM THE CHAMBER
+I believe we do not need this section, it literally escapes.
+CAUSED THE FLAME TO FLICKER
+I have not yet understood this phrase but it may relate to the change in structure of
+this phrase as it moves between locations.
+BUT PRESENTLY DETAILS OF THE ROOM WITHIN
+The word PRESENTLY is a lie but DETAILS OF THE ROOM WITHIN may relate to how K4
+should be cut at one end.
+EMERGED FROM THE MIST
+I believe this is the second cut.
+Finally
+Martin Proffitt
+7
+
+[[page 8]]
+K1 to K3 condensed version
+2023-05-17
+CAN YOU SEE ANYTHING Q
+I’m not the first person to think this is a question directed at the character Q but given
+that the best place to look for something is from an elevated position, I personally
+believe that this question is being called up to the Q in IQLUSION who I imagine
+answering “No, I’m in the dark”.
+In other words, look between the Qs.
+Coverage
+In this, we cover some, if not all the meanings of
+• PALIMPSEST as a keyword
+• ABSCISSA as a keyword
+• The Q in IQLUSION
+• The U in UNDERGRUUND
+• The A and missing E in DESPARATLY
+We find a way to rotate the characters We find multiple meanings for K1 and K2 We
+find 2 separate machines
+And yet there is still more to find.
+Final thoughts
+One thing I am coming to believe is that Mr Sandborn re-used every single part of this
+sculpture, often with multiple meanings.
+Whilst there is still many phrases left to decipher and I do not believe K4 will be broken
+until every single phrase has been understood, I am not yet entirely convinced that
+every part of this cipher is related to how K4 ciphertext moves.
+Only time will tell on this and we’re not there yet.
+I think only K1 is fully explained right now.
+Martin Proffitt
+8

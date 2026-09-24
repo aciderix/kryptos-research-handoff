@@ -1,0 +1,22 @@
+[[page 1]]
+ 
+The vigenere table on the sculpture slants to the left from the top.  A picture being worth a thousand 
+words I have a picture above with red lines.  Using this table with a key word to select the alphabets 
+means I will move down or up the left side selecting alphabets.  I will use the key word fidlebats and 
+encrypt “jimsanbornsculptor” …
+F I D L E B A T S F I D L E B A T S
+k
+j
+i m s a n b o r n s c u
+l
+p
+t
+o r
+M
+Y T Y W M R I C A O U N F Y E E C A
+c
+The reason for this exercise.  B and A ajoin each other in the alphabet.  P and T ajoin each other in the 
+table.  Consequently we get a double E cipher letter.  I think that is a crib.  In my transposition table I 
+have some double letters in the rows and this suggests to me if there is an eight letter word that was 
+used to encipher the message that is has a common two letter digram in it.  Like ST or ED. 
+k,M,c are Key, Message and cipher.

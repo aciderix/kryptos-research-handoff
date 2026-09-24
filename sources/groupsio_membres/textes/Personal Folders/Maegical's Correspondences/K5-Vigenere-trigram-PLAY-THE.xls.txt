@@ -1,0 +1,299 @@
+Dan                                                                                                          B
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+_("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)
+_(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)
+_("$"* #,##0.00_);_("$"* \(#,##0.00\);_("$"* "-"??_);_(@_)
+_(* #,##0.00_);_(* \(#,##0.00\);_(* "-"??_);_(@_)
+0;[Red]0
+0.00;[Red]0.00
+0.00_);[Red]\(0.00\)
+Probable Word
+Test Word
+verdigris
+# OF LETTERS IN TABLEAU
+- VIGEN
+RE SIDE
+OBKR..KCAR = K4
+FIRST OCCURENCES
+RACK..RKBO = K4 REVERSED
+38576.5-77844
+encipher left-top-in (Vigen
+decipher left-in-top (Vigen
+Step1:
+Step2:
+Enter Keyword into Row 6 (length <=10)
+Enter Cryptogram into Row 8.
+SECRET
+FIELD
+EXAMPLES:
+APEX
+GAMES
+Step 3a:
+Step 3b:C
+Read down columns in rows 34 and following to find key letters (or)J
+(more quickly) Look for repeats in rows 45-51 by finding positive numbers.
+MbP?_
+SDDM
+hp LaserJet 1012
+MbP?_
+>=aAZ
+0M]v
+MbP?_
+Microsoft Excel
+Probable Word
+Test Word
+Worksheets
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1
+Arial1
+Arial1,
+Lucida Console1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1
+Arial1
+Arial1
+Arial1
+Arial1
+Arial1,
+Lucida Console1
+Arial1
+Arial1
+Arial1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console1,
+Lucida Console
+HCZLX...CJ = DISATaGfOO
+IB ordered alphabetically through Kryptos LJ
+HGNF
+iqtno
+qg = DISATaGfOO
+IB ordered alphabetically through Kryptos ngh
+ASOCF
+ST = HCZLX
+CJ ordered by most letters through Std. Dist. #3 (from Simon Singh)
+iqtno
+hp LaserJet 1012
+*UU  PT  Vf!!PT!!Vf""PT""Vf##PT
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+eeeaaaa
+'dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+ccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+hhhhhhhhhhhhhhhdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`
+@gggggggggggggggggggggggggggggggggga
+ddddddddddi
+tttttttttt
+ttttttttt
+tttttttt
+ttttttt
+tttttt
+ttttt
+&g{{h
+tttt
+'f{{{h
+4d{{{{g
+{{{{{
+6c{{{{{g
+{{{{
+7f{{g
+8b{{{{{{g
+9e{{{g
+{{{{{{
+;b{{{{{{g
+{{{{{
+<f{{g
+{{{{
+=e{{{g
+>d{{{{g
+?c{{{{{g
+{{{{{{
+@f{{g
+{{{{{
+Ae{{{g
+{{{{
+Bd{{{{g
+Cc{{{{{g
+Db{{{{{{g
+{{{{{{
+Ee{{{g
+{{{{{
+Fd{{{{g
+{{{{
+Gc{{{{{g
+Hb{{{{{{g
+{{{{{{
+Id{{{{g
+{{{{{
+Jc{{{{{g
+{{{{
+Kb{{{{{{g
+{{{{{{
+Lc{{{{{g
+{{{{{
+Mb{{{{{{g
+$###
+$######
+*---
+6666 
+;;;;; 
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+;;;;;88"
+2##7
+;;;;;88"
+;;;;;88"
+4##8
+4$CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCDDDDDDD
+;;;;;88"
+5#3)
+5$3.
+5%3$
+5&3 
+5(3/
+5)3,
+5*3(
+5+30
+5,30
+5-3+
+5/3*
+5030
+513+
+523)
+543(
+553.
+5631
+573(
+5930
+5:3*
+5;3*
+5<32
+5=3.
+5>33
+5?3 
+5@3)
+5A3$
+5B34
+5D31
+5E3+
+5F3$
+5G32
+5H3 
+5I3+
+5J3)
+5K3(
+5M3!
+5N3$
+5O3&
+5S33
+5U3(
+5W3$
+5X3*
+5Z3*
+5[30
+5\3%
+5]32
+5^3'
+5`3%
+5a32
+5c3'
+5d33
+5f3!
+5g3&
+5h3!
+5i3 
+5j3&
+5k3)
+5l33
+5m3*
+5n31
+5o3*
+5p3+
+5q3!
+5r3(
+5s3$
+5t3)
+5x3$
+5y3*
+5{32
+5|3)
+5}3*
+5~3*
+EEEEE88"
+6#F9
+6$CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+EEEEE88"
+EEEEE88"
+8#F:
+8$CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+8GEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE88"
+BBBBBBI
+:##<
+:$CCCJJJJJCCCCCCCCCCC
+<#KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+D"O>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OO
+E"OPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOO
+F"Q>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ROO
+G"OSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSOO
+H"OTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTOO
+I"OTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTOO
+J"OUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUOO
+K"VWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOO
+L"OWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOO
+M"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+N"O>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OO
+O"OPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOO
+P"Q>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ROO
+Q"OSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSOO
+R"OTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTXOO
+S"OTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTYOO
+T"OUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUOO
+U"VWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWZOO
+V"OWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWZOO
+W"OUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUOO
+X"Q[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[YOO
+Y"O[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[YOO
+Z"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+["U\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\UU
+\"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+]!L=
+]"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\UUU
+^"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO]^OO
+_"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO]^OO
+`"O________________________________________________________________________________________________YOO
+a"OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+#O@@
+Root Entry
+Workbook
+SummaryInformation
+DocumentSummaryInformation
