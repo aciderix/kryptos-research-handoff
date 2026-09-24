@@ -54,6 +54,12 @@ Compilation : `gcc -O2 -march=native -o t1 t1_sculpture_keys.c` (idem pour les a
 - **Symétrie des cribs** : positions 23–33 et 73–63 en miroir exact autour de la position 48 (11 paires). Fait géométrique ; les familles « pliure » qui l'exploitent sont testées en T5.
 - **M-94** (diapositives NSA) : 25 disques en ordre fixe, génératrice fixe : **impossible** (positions 21 et 71 : E→F et O→F sur le même disque).
 - **Lettres doublées** : 5 des 6 doublets de K4 sont en position ≡ 4 (mod 7) ; p ≈ 0,0006 (module 7 seul), **p ≈ 0,02** (modules 3–16 balayés). Relevé par J. Gillogly en 2005 dans l'archive du groupe (base 7 §7.2). Statistique choisie après coup, mais c'est le signal « 7 » le plus net.
+- **Le « 7 » conjoint** (`stats_7.py` → `results_stats7.txt`, 100 000 mélanges) :
+  - coïncidences à l'écart 7 : 9, pour 3,3 attendues (p = 0,005 seul) ;
+  - doublets, écart et largeur 3m sont indépendants sous le nul ; avec le **meilleur module m de 2 à 24** pour chaque texte, les trois ensemble donnent **p ≈ 10⁻⁵**, et le meilleur module de K4 est 7 ;
+  - paire 65/72 (P → R puis C) : aucune substitution fonction de i mod 7 n'est possible.
+- **Simulation des familles** (`sim_7.py` → `results_sim7.txt`) : période 7, autoclés, ligne + colonne, progressive, clés courantes, transpositions en 7 colonnes. L'écart 7 est facile à produire ; **la concentration des doublets ne l'est par aucune** (≤ 3 %). Détail en base 7 §8.2.
+- **Regroupement des lettres** (Improvidus, groups.io) : p ≈ 0,018 corrigé, mais il disparaît quand on retire les doublets (p 0,06–0,17). Ce n'est pas un signal indépendant.
 
 ## 4. Ce qui reste ouvert (et pourquoi)
 

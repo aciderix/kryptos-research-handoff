@@ -1,0 +1,18 @@
+corpus 208051
+K4 : (6, 5, 9, 11) (doublets, doublets dans la meilleure classe mod 7, coïncidences écart 7, bigrammes verticaux largeur 21)
+famille                                          doubl. D7>=5 C7moy C7>=9 V21moy V21>=11 D&C&V
+hasard uniforme                                   3.66 0.0005  3.45 0.0057  4.32  0.0085 0.0000
+Vigenère clé courante anglaise                    3.74 0.0005  3.55 0.0075  4.46  0.0115 0.0000
+Vigenère période 7                                3.70 0.0018  5.81 0.1475  5.57  0.0452 0.0000
+autoclé sur le clair, écart 7                     3.84 0.0015  6.05 0.1770  4.78  0.0192 0.0000
+autoclé sur le chiffré, écart 7                   3.72 0.0010  7.25 0.2913  4.54  0.0112 0.0000
+clé ligne + colonne, largeur 7                    3.69 0.0013  3.51 0.0083  4.23  0.0067 0.0000
+clé progressive période 7                         3.66 0.0020  3.39 0.0088  4.32  0.0070 0.0000
+clé courante + clé période 7                      3.67 0.0003  3.59 0.0092  4.23  0.0092 0.0000
+transposition colonnes (7) puis clé courante      3.63 0.0008  3.58 0.0105  4.46  0.0127 0.0000
+clé courante puis colonnes→lignes (7)             3.82 0.0005  3.56 0.0092  4.53  0.0143 0.0000
+période 7 puis colonnes→lignes (7)                5.41 0.0315  3.50 0.0112  5.89  0.0643 0.0000
+
+real	0m3.274s
+user	0m3.571s
+sys	0m0.040s
