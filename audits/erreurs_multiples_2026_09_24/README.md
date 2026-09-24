@@ -33,8 +33,8 @@
 C'était la seconde hypothèse de la NSA (1992) pour l'intervalle 7. Elle était éliminée sans erreur par un seul argument (22 donne A et 72 donne C, qui devraient tous deux valoir « 0 »), donc elle pouvait se rouvrir avec une seule erreur. Tout le chiffré étant gravé, la clé est connue et seul σ est inconnu : le test est puissant.
 
 - **Écart 7** : K4 demande **au moins 5 erreurs** sur 24 dans les 9 variantes (clé lue dans σ, en A–Z ou en KRYPTOS ; VIG, BEAU, VARB). Détail : σ 8 / 6 / 5 ; A–Z 7 / 6 / 7 ; KRYPTOS 6 / 5 / 6.
-- **Tous les écarts** (`res_t23_allL.jsonl`, K4 seul ; écarts 1 à 15 au moment de la rédaction, le calcul continue) : jamais moins de 4 erreurs.
-- ⇒ **Éliminé de façon robuste** : il faudrait 4 à 5 erreurs dans les 24 lettres des cribs, alors que le taux du fragment (4 %) en prévoit environ une.
+- **Tous les écarts** (`res_t23_allL.jsonl`, K4 seul, L = 1 à 96) : de 1 à 23, au moins 3 erreurs (en général 4 ou 5). Au-delà de 24, 0 ou 1 erreur, mais seulement parce qu'il reste au plus 11 à 13 équations, mal reliées : le test n'y a plus de puissance. Ces écarts longs sont jugés, avec les alphabets à mot-clé, par déchiffrement complet (`../motcle_pas7_2026_09_24/` §4 : éliminés).
+- ⇒ **Éliminé de façon robuste aux écarts courts** : il faudrait 3 à 5 erreurs dans les 24 lettres des cribs, alors que le taux du fragment (4 %) en prévoit environ une.
 
 ## 3. Période 7 avec décalage à chaque ligne du cuivre (T24)
 

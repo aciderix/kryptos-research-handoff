@@ -43,6 +43,11 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
   - **Les 8 signes raturés de la feuille NOVA (2006) sont exactement sous LINCLOCK** (66–73). Si ce sont des lettres de clé, elles livrent 8 lettres de clé de K4 : demande prioritaire à Paradigm, table de reconnaissance prête.
   - Attaque par recuit sur le texte entier (`audits/recuit_2026_09_24/`) : l'outil ne passe pas encore son contrôle positif ; rien n'est conclu sur K4.
 
+- **Alphabets à mot-clé (24/09, nuit)** : `audits/motcle_pas7_2026_09_24/README.md`. On essaie tous les alphabets à mot-clé (237 988, tirés de 59 497 mots), comme ceux qu'employait Sanborn. Pour chacun, la clé est connue en 24 points ; quand elle est déterminée, on déchiffre les 97 lettres. Éliminées, K4 au niveau du hasard et contrôles positifs retrouvés :
+  - clés à pas 7 (décalage par ligne du cuivre ou par ligne de 7) ;
+  - autoclé sur le clair (écarts 1–13, dont l'hypothèse NSA) et sur le chiffré (tous écarts) ;
+  - **clé courante tirée d'un texte anglais inconnu**, famille jusqu'ici réputée irréfutable : les deux fragments de clé devraient être de l'anglais ; ils ne le sont jamais (puissance 99,5 %).
+
 ## Principes de travail
 
 - Distinguer fait source, interprétation, hypothèse, recette, expérience et preuve.

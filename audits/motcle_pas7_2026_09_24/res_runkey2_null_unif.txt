@@ -1,0 +1,8 @@
+graine 31 : -4.581 MNOTACKOFSPEN|GIDEAROREEZ JUGS c1 r0 | thème IQLUSION c0 r1 | clair=dico VARB lu-1 endroit
+graine 35 : -4.510 UTHENITEFATEA|AHSNEANENEA EMBOLDEN c0 r0 | thème KRYPTOS c1 r1 | clair=dico BEAU lu-1 endroit
+graine 32 : -4.566 WUSURECODSAGH|WDONTHINTAN TERWARDS c0 r1 | thème BERLIN c1 r0 | clair=thème VIG lu-2 endroit
+graine 36 : -4.767 IEENUESTHANKV|OFWHOBIRTAI MANHOLE c1 r1 | thème VIRTUALLY c1 r1 | clair=thème BEAU lu-0 envers
+graine 33 : -4.700 HIATIESILLOSE|VDASITALLFW NAUSEATED c0 r1 | thème MAGNETIC c1 r0 | clair=dico VARB lu-3 endroit
+graine 37 : -4.630 RUNESEOFSTRIC|AMERISOPERZ PITCHPOLING c0 r1 | thème MAGNETIC c0 r1 | clair=dico VARB lu-2 endroit
+graine 34 : -4.723 GHOUEDMOMESVO|ASTHASTARFL CAGES c1 r1 | thème UNDERGRUUND c1 r0 | clair=dico VIG lu-1 endroit
+graine 38 : -4.460 VOUARETEREAPO|LSUETORESAI DELTA c0 r0 | thème BERLIN c0 r0 | clair=dico VARB lu-2 endroit

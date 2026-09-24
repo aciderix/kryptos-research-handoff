@@ -217,3 +217,648 @@
 {"L": 25, "key": "sig", "mode": "VIG", "n": 20, "emin": 5, "drop": [26, 28, 32, 65, 68]}
 {"L": 25, "key": "sig", "mode": "BEAU", "n": 20, "emin": 4, "drop": [27, 33, 67, 68]}
 {"L": 25, "key": "sig", "mode": "VARB", "n": 20, "emin": 4, "drop": [25, 32, 65, 67]}
+{"L": 25, "key": "AZ", "mode": "VIG", "n": 20, "emin": 5, "drop": [27, 32, 65, 67, 73]}
+{"L": 25, "key": "AZ", "mode": "BEAU", "n": 20, "emin": 3, "drop": [27, 28, 68]}
+{"L": 25, "key": "AZ", "mode": "VARB", "n": 20, "emin": 5, "drop": [27, 32, 65, 68, 73]}
+{"L": 25, "key": "KA", "mode": "VIG", "n": 20, "emin": 6, "drop": [25, 27, 32, 68, 70, 73]}
+{"L": 25, "key": "KA", "mode": "BEAU", "n": 20, "emin": 4, "drop": [27, 32, 68, 73]}
+{"L": 25, "key": "KA", "mode": "VARB", "n": 20, "emin": 6, "drop": [27, 29, 32, 68, 70, 73]}
+{"L": 26, "key": "sig", "mode": "VIG", "n": 19, "emin": 2, "drop": [27, 73]}
+{"L": 26, "key": "sig", "mode": "BEAU", "n": 19, "emin": 1, "drop": [65]}
+{"L": 26, "key": "sig", "mode": "VARB", "n": 19, "emin": 3, "drop": [26, 65, 73]}
+{"L": 26, "key": "AZ", "mode": "VIG", "n": 19, "emin": 4, "drop": [27, 28, 32, 73]}
+{"L": 26, "key": "AZ", "mode": "BEAU", "n": 19, "emin": 3, "drop": [32, 65, 73]}
+{"L": 26, "key": "AZ", "mode": "VARB", "n": 19, "emin": 4, "drop": [27, 32, 67, 73]}
+{"L": 26, "key": "KA", "mode": "VIG", "n": 19, "emin": 5, "drop": [27, 28, 32, 71, 73]}
+{"L": 26, "key": "KA", "mode": "BEAU", "n": 19, "emin": 2, "drop": [27, 73]}
+{"L": 26, "key": "KA", "mode": "VARB", "n": 19, "emin": 5, "drop": [27, 28, 32, 71, 73]}
+{"L": 27, "key": "sig", "mode": "VIG", "n": 18, "emin": 3, "drop": [27, 32, 66]}
+{"L": 27, "key": "sig", "mode": "BEAU", "n": 18, "emin": 2, "drop": [65, 66]}
+{"L": 27, "key": "sig", "mode": "VARB", "n": 18, "emin": 3, "drop": [27, 66, 73]}
+{"L": 27, "key": "AZ", "mode": "VIG", "n": 18, "emin": 6, "drop": [32, 65, 68, 70, 72, 73]}
+{"L": 27, "key": "AZ", "mode": "BEAU", "n": 18, "emin": 4, "drop": [27, 66, 72, 73]}
+{"L": 27, "key": "AZ", "mode": "VARB", "n": 18, "emin": 6, "drop": [32, 65, 66, 68, 72, 73]}
+{"L": 27, "key": "KA", "mode": "VIG", "n": 18, "emin": 6, "drop": [27, 29, 32, 70, 72, 73]}
+{"L": 27, "key": "KA", "mode": "BEAU", "n": 18, "emin": 4, "drop": [27, 32, 66, 73]}
+{"L": 27, "key": "KA", "mode": "VARB", "n": 18, "emin": 6, "drop": [27, 29, 32, 66, 72, 73]}
+{"L": 28, "key": "sig", "mode": "VIG", "n": 17, "emin": 3, "drop": [28, 29, 73]}
+{"L": 28, "key": "sig", "mode": "BEAU", "n": 17, "emin": 2, "drop": [28, 31]}
+{"L": 28, "key": "sig", "mode": "VARB", "n": 17, "emin": 2, "drop": [28, 73]}
+{"L": 28, "key": "AZ", "mode": "VIG", "n": 17, "emin": 3, "drop": [28, 32, 73]}
+{"L": 28, "key": "AZ", "mode": "BEAU", "n": 17, "emin": 1, "drop": [33]}
+{"L": 28, "key": "AZ", "mode": "VARB", "n": 17, "emin": 3, "drop": [32, 33, 73]}
+{"L": 28, "key": "KA", "mode": "VIG", "n": 17, "emin": 3, "drop": [28, 30, 32]}
+{"L": 28, "key": "KA", "mode": "BEAU", "n": 17, "emin": 2, "drop": [28, 32]}
+{"L": 28, "key": "KA", "mode": "VARB", "n": 17, "emin": 3, "drop": [30, 32, 33]}
+{"L": 29, "key": "sig", "mode": "VIG", "n": 16, "emin": 3, "drop": [32, 63, 73]}
+{"L": 29, "key": "sig", "mode": "BEAU", "n": 16, "emin": 1, "drop": [63]}
+{"L": 29, "key": "sig", "mode": "VARB", "n": 16, "emin": 2, "drop": [29, 73]}
+{"L": 29, "key": "AZ", "mode": "VIG", "n": 16, "emin": 4, "drop": [29, 32, 68, 73]}
+{"L": 29, "key": "AZ", "mode": "BEAU", "n": 16, "emin": 2, "drop": [32, 63]}
+{"L": 29, "key": "AZ", "mode": "VARB", "n": 16, "emin": 4, "drop": [32, 33, 63, 73]}
+{"L": 29, "key": "KA", "mode": "VIG", "n": 16, "emin": 4, "drop": [29, 31, 32, 73]}
+{"L": 29, "key": "KA", "mode": "BEAU", "n": 16, "emin": 3, "drop": [29, 32, 73]}
+{"L": 29, "key": "KA", "mode": "VARB", "n": 16, "emin": 4, "drop": [31, 32, 63, 73]}
+{"L": 30, "key": "sig", "mode": "VIG", "n": 15, "emin": 5, "drop": [64, 65, 67, 72, 73]}
+{"L": 30, "key": "sig", "mode": "BEAU", "n": 15, "emin": 3, "drop": [30, 72, 73]}
+{"L": 30, "key": "sig", "mode": "VARB", "n": 15, "emin": 4, "drop": [32, 64, 72, 73]}
+{"L": 30, "key": "AZ", "mode": "VIG", "n": 15, "emin": 4, "drop": [30, 32, 69, 73]}
+{"L": 30, "key": "AZ", "mode": "BEAU", "n": 15, "emin": 2, "drop": [30, 72]}
+{"L": 30, "key": "AZ", "mode": "VARB", "n": 15, "emin": 4, "drop": [32, 64, 69, 73]}
+{"L": 30, "key": "KA", "mode": "VIG", "n": 15, "emin": 4, "drop": [64, 68, 69, 73]}
+{"L": 30, "key": "KA", "mode": "BEAU", "n": 15, "emin": 2, "drop": [30, 69]}
+{"L": 30, "key": "KA", "mode": "VARB", "n": 15, "emin": 4, "drop": [64, 68, 69, 73]}
+{"L": 31, "key": "sig", "mode": "VIG", "n": 14, "emin": 3, "drop": [32, 72, 73]}
+{"L": 31, "key": "sig", "mode": "BEAU", "n": 14, "emin": 2, "drop": [68, 72]}
+{"L": 31, "key": "sig", "mode": "VARB", "n": 14, "emin": 2, "drop": [69, 73]}
+{"L": 31, "key": "AZ", "mode": "VIG", "n": 14, "emin": 3, "drop": [32, 69, 73]}
+{"L": 31, "key": "AZ", "mode": "BEAU", "n": 14, "emin": 2, "drop": [32, 72]}
+{"L": 31, "key": "AZ", "mode": "VARB", "n": 14, "emin": 3, "drop": [32, 69, 73]}
+{"L": 31, "key": "KA", "mode": "VIG", "n": 14, "emin": 4, "drop": [32, 33, 72, 73]}
+{"L": 31, "key": "KA", "mode": "BEAU", "n": 14, "emin": 1, "drop": [69]}
+{"L": 31, "key": "KA", "mode": "VARB", "n": 14, "emin": 4, "drop": [32, 33, 69, 73]}
+{"L": 32, "key": "sig", "mode": "VIG", "n": 13, "emin": 2, "drop": [32, 73]}
+{"L": 32, "key": "sig", "mode": "BEAU", "n": 13, "emin": 0, "drop": []}
+{"L": 32, "key": "sig", "mode": "VARB", "n": 13, "emin": 2, "drop": [32, 73]}
+{"L": 32, "key": "AZ", "mode": "VIG", "n": 13, "emin": 2, "drop": [32, 73]}
+{"L": 32, "key": "AZ", "mode": "BEAU", "n": 13, "emin": 0, "drop": []}
+{"L": 32, "key": "AZ", "mode": "VARB", "n": 13, "emin": 2, "drop": [32, 73]}
+{"L": 32, "key": "KA", "mode": "VIG", "n": 13, "emin": 3, "drop": [32, 63, 73]}
+{"L": 32, "key": "KA", "mode": "BEAU", "n": 13, "emin": 1, "drop": [32]}
+{"L": 32, "key": "KA", "mode": "VARB", "n": 13, "emin": 3, "drop": [32, 63, 73]}
+{"L": 33, "key": "sig", "mode": "VIG", "n": 12, "emin": 2, "drop": [72, 73]}
+{"L": 33, "key": "sig", "mode": "BEAU", "n": 12, "emin": 3, "drop": [33, 68, 72]}
+{"L": 33, "key": "sig", "mode": "VARB", "n": 12, "emin": 1, "drop": [65]}
+{"L": 33, "key": "AZ", "mode": "VIG", "n": 12, "emin": 2, "drop": [65, 73]}
+{"L": 33, "key": "AZ", "mode": "BEAU", "n": 12, "emin": 3, "drop": [65, 67, 73]}
+{"L": 33, "key": "AZ", "mode": "VARB", "n": 12, "emin": 2, "drop": [65, 73]}
+{"L": 33, "key": "KA", "mode": "VIG", "n": 12, "emin": 3, "drop": [64, 65, 73]}
+{"L": 33, "key": "KA", "mode": "BEAU", "n": 12, "emin": 2, "drop": [67, 72]}
+{"L": 33, "key": "KA", "mode": "VARB", "n": 12, "emin": 3, "drop": [64, 72, 73]}
+{"L": 34, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 34, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 34, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 34, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 34, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 34, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 34, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 34, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 34, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 35, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [67]}
+{"L": 35, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [68]}
+{"L": 35, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [67]}
+{"L": 35, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [68, 73]}
+{"L": 35, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [67]}
+{"L": 35, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [67, 73]}
+{"L": 35, "key": "KA", "mode": "VIG", "n": 11, "emin": 3, "drop": [66, 68, 73]}
+{"L": 35, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [67]}
+{"L": 35, "key": "KA", "mode": "VARB", "n": 11, "emin": 3, "drop": [66, 67, 73]}
+{"L": 36, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 36, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 36, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [63, 73]}
+{"L": 36, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 36, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 36, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 36, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [67, 73]}
+{"L": 36, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 36, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [67, 73]}
+{"L": 37, "key": "sig", "mode": "VIG", "n": 11, "emin": 0, "drop": []}
+{"L": 37, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [65]}
+{"L": 37, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 37, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [68, 73]}
+{"L": 37, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 37, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [63, 73]}
+{"L": 37, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [68, 73]}
+{"L": 37, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 37, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [68, 73]}
+{"L": 38, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [65, 67]}
+{"L": 38, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 38, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 38, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 38, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 38, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 38, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [69, 73]}
+{"L": 38, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 38, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [69, 73]}
+{"L": 39, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 39, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [68]}
+{"L": 39, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [68]}
+{"L": 39, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 39, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 39, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 39, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 39, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 39, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 40, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 40, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [68]}
+{"L": 40, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 40, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 40, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [63]}
+{"L": 40, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 40, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [71, 73]}
+{"L": 40, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [63]}
+{"L": 40, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [71, 73]}
+{"L": 41, "key": "sig", "mode": "VIG", "n": 11, "emin": 0, "drop": []}
+{"L": 41, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 41, "key": "sig", "mode": "VARB", "n": 11, "emin": 0, "drop": []}
+{"L": 41, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [68, 73]}
+{"L": 41, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 41, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [63, 73]}
+{"L": 41, "key": "KA", "mode": "VIG", "n": 11, "emin": 3, "drop": [67, 72, 73]}
+{"L": 41, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 41, "key": "KA", "mode": "VARB", "n": 11, "emin": 3, "drop": [63, 72, 73]}
+{"L": 42, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [66, 67]}
+{"L": 42, "key": "sig", "mode": "BEAU", "n": 11, "emin": 3, "drop": [65, 66, 67]}
+{"L": 42, "key": "sig", "mode": "VARB", "n": 11, "emin": 4, "drop": [65, 68, 69, 71]}
+{"L": 42, "key": "AZ", "mode": "VIG", "n": 11, "emin": 3, "drop": [67, 72, 73]}
+{"L": 42, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [67]}
+{"L": 42, "key": "AZ", "mode": "VARB", "n": 11, "emin": 3, "drop": [68, 72, 73]}
+{"L": 42, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [67]}
+{"L": 42, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [67]}
+{"L": 42, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [68]}
+{"L": 43, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [66]}
+{"L": 43, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 43, "key": "sig", "mode": "VARB", "n": 11, "emin": 0, "drop": []}
+{"L": 43, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 43, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 43, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 43, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 43, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 43, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 44, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [68, 72]}
+{"L": 44, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [63]}
+{"L": 44, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [66, 71]}
+{"L": 44, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 44, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 44, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 44, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 44, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 44, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 45, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 45, "key": "sig", "mode": "BEAU", "n": 11, "emin": 2, "drop": [63, 72]}
+{"L": 45, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 45, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 45, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 45, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 45, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 45, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 45, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 46, "key": "sig", "mode": "VIG", "n": 11, "emin": 0, "drop": []}
+{"L": 46, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 46, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 46, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 46, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 46, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 46, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 46, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 46, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 47, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 47, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 47, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [72]}
+{"L": 47, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 47, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 47, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 47, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 47, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 47, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 48, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [63]}
+{"L": 48, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 48, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 48, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 48, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 48, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 48, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 48, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 48, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 49, "key": "sig", "mode": "VIG", "n": 11, "emin": 3, "drop": [65, 67, 70]}
+{"L": 49, "key": "sig", "mode": "BEAU", "n": 11, "emin": 2, "drop": [68, 70]}
+{"L": 49, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [66, 67]}
+{"L": 49, "key": "AZ", "mode": "VIG", "n": 11, "emin": 3, "drop": [66, 68, 73]}
+{"L": 49, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 3, "drop": [68, 70, 73]}
+{"L": 49, "key": "AZ", "mode": "VARB", "n": 11, "emin": 3, "drop": [66, 67, 73]}
+{"L": 49, "key": "KA", "mode": "VIG", "n": 11, "emin": 3, "drop": [68, 70, 73]}
+{"L": 49, "key": "KA", "mode": "BEAU", "n": 11, "emin": 2, "drop": [68, 70]}
+{"L": 49, "key": "KA", "mode": "VARB", "n": 11, "emin": 3, "drop": [66, 68, 73]}
+{"L": 50, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [65, 71]}
+{"L": 50, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [72]}
+{"L": 50, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [65]}
+{"L": 50, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 50, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 50, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 50, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 50, "key": "KA", "mode": "BEAU", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 50, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 51, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 51, "key": "sig", "mode": "BEAU", "n": 11, "emin": 2, "drop": [63, 67]}
+{"L": 51, "key": "sig", "mode": "VARB", "n": 11, "emin": 3, "drop": [63, 67, 73]}
+{"L": 51, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 51, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 51, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 51, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 51, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 51, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 52, "key": "sig", "mode": "VIG", "n": 11, "emin": 3, "drop": [63, 67, 69]}
+{"L": 52, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 52, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 52, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 52, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 52, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 52, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 52, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 52, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 53, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [72]}
+{"L": 53, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [65]}
+{"L": 53, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [72]}
+{"L": 53, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 53, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [72]}
+{"L": 53, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 53, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 53, "key": "KA", "mode": "BEAU", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 53, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 54, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [71, 73]}
+{"L": 54, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 54, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 54, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 54, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 54, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 54, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [69, 73]}
+{"L": 54, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 54, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 55, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 55, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [70]}
+{"L": 55, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 55, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 55, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 55, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 55, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [66, 73]}
+{"L": 55, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [70]}
+{"L": 55, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [70, 73]}
+{"L": 56, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [70]}
+{"L": 56, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 56, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [67, 71]}
+{"L": 56, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 56, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 56, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 56, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 56, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 56, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 57, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [67]}
+{"L": 57, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 57, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 57, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 57, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 57, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 57, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 57, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 57, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 58, "key": "sig", "mode": "VIG", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 58, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [65]}
+{"L": 58, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [69, 72]}
+{"L": 58, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 58, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 58, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 58, "key": "KA", "mode": "VIG", "n": 11, "emin": 3, "drop": [68, 72, 73]}
+{"L": 58, "key": "KA", "mode": "BEAU", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 58, "key": "KA", "mode": "VARB", "n": 11, "emin": 3, "drop": [68, 72, 73]}
+{"L": 59, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 59, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 59, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 59, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 59, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 59, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 59, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 59, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 59, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 60, "key": "sig", "mode": "VIG", "n": 11, "emin": 0, "drop": []}
+{"L": 60, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 60, "key": "sig", "mode": "VARB", "n": 11, "emin": 0, "drop": []}
+{"L": 60, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 60, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 60, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 60, "key": "KA", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 60, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 60, "key": "KA", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 61, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [63]}
+{"L": 61, "key": "sig", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 61, "key": "sig", "mode": "VARB", "n": 11, "emin": 0, "drop": []}
+{"L": 61, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 61, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 61, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 61, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [63, 73]}
+{"L": 61, "key": "KA", "mode": "BEAU", "n": 11, "emin": 0, "drop": []}
+{"L": 61, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [63, 73]}
+{"L": 62, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 62, "key": "sig", "mode": "BEAU", "n": 11, "emin": 2, "drop": [63, 65]}
+{"L": 62, "key": "sig", "mode": "VARB", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 62, "key": "AZ", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 62, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 62, "key": "AZ", "mode": "VARB", "n": 11, "emin": 1, "drop": [73]}
+{"L": 62, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [64, 73]}
+{"L": 62, "key": "KA", "mode": "BEAU", "n": 11, "emin": 1, "drop": [73]}
+{"L": 62, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [64, 73]}
+{"L": 63, "key": "sig", "mode": "VIG", "n": 11, "emin": 1, "drop": [73]}
+{"L": 63, "key": "sig", "mode": "BEAU", "n": 11, "emin": 1, "drop": [63]}
+{"L": 63, "key": "sig", "mode": "VARB", "n": 11, "emin": 1, "drop": [67]}
+{"L": 63, "key": "AZ", "mode": "VIG", "n": 11, "emin": 2, "drop": [69, 73]}
+{"L": 63, "key": "AZ", "mode": "BEAU", "n": 11, "emin": 1, "drop": [63]}
+{"L": 63, "key": "AZ", "mode": "VARB", "n": 11, "emin": 2, "drop": [72, 73]}
+{"L": 63, "key": "KA", "mode": "VIG", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 63, "key": "KA", "mode": "BEAU", "n": 11, "emin": 2, "drop": [68, 73]}
+{"L": 63, "key": "KA", "mode": "VARB", "n": 11, "emin": 2, "drop": [65, 73]}
+{"L": 64, "key": "sig", "mode": "VIG", "n": 10, "emin": 0, "drop": []}
+{"L": 64, "key": "sig", "mode": "BEAU", "n": 10, "emin": 0, "drop": []}
+{"L": 64, "key": "sig", "mode": "VARB", "n": 10, "emin": 1, "drop": [73]}
+{"L": 64, "key": "AZ", "mode": "VIG", "n": 10, "emin": 1, "drop": [73]}
+{"L": 64, "key": "AZ", "mode": "BEAU", "n": 10, "emin": 1, "drop": [73]}
+{"L": 64, "key": "AZ", "mode": "VARB", "n": 10, "emin": 1, "drop": [73]}
+{"L": 64, "key": "KA", "mode": "VIG", "n": 10, "emin": 3, "drop": [65, 66, 73]}
+{"L": 64, "key": "KA", "mode": "BEAU", "n": 10, "emin": 0, "drop": []}
+{"L": 64, "key": "KA", "mode": "VARB", "n": 10, "emin": 3, "drop": [66, 69, 73]}
+{"L": 65, "key": "sig", "mode": "VIG", "n": 9, "emin": 1, "drop": [65]}
+{"L": 65, "key": "sig", "mode": "BEAU", "n": 9, "emin": 1, "drop": [65]}
+{"L": 65, "key": "sig", "mode": "VARB", "n": 9, "emin": 1, "drop": [65]}
+{"L": 65, "key": "AZ", "mode": "VIG", "n": 9, "emin": 2, "drop": [72, 73]}
+{"L": 65, "key": "AZ", "mode": "BEAU", "n": 9, "emin": 1, "drop": [72]}
+{"L": 65, "key": "AZ", "mode": "VARB", "n": 9, "emin": 2, "drop": [65, 73]}
+{"L": 65, "key": "KA", "mode": "VIG", "n": 9, "emin": 3, "drop": [65, 67, 73]}
+{"L": 65, "key": "KA", "mode": "BEAU", "n": 9, "emin": 2, "drop": [65, 73]}
+{"L": 65, "key": "KA", "mode": "VARB", "n": 9, "emin": 3, "drop": [67, 72, 73]}
+{"L": 66, "key": "sig", "mode": "VIG", "n": 8, "emin": 1, "drop": [73]}
+{"L": 66, "key": "sig", "mode": "BEAU", "n": 8, "emin": 0, "drop": []}
+{"L": 66, "key": "sig", "mode": "VARB", "n": 8, "emin": 1, "drop": [73]}
+{"L": 66, "key": "AZ", "mode": "VIG", "n": 8, "emin": 1, "drop": [73]}
+{"L": 66, "key": "AZ", "mode": "BEAU", "n": 8, "emin": 0, "drop": []}
+{"L": 66, "key": "AZ", "mode": "VARB", "n": 8, "emin": 1, "drop": [73]}
+{"L": 66, "key": "KA", "mode": "VIG", "n": 8, "emin": 2, "drop": [68, 73]}
+{"L": 66, "key": "KA", "mode": "BEAU", "n": 8, "emin": 1, "drop": [73]}
+{"L": 66, "key": "KA", "mode": "VARB", "n": 8, "emin": 2, "drop": [68, 73]}
+{"L": 67, "key": "sig", "mode": "VIG", "n": 7, "emin": 0, "drop": []}
+{"L": 67, "key": "sig", "mode": "BEAU", "n": 7, "emin": 0, "drop": []}
+{"L": 67, "key": "sig", "mode": "VARB", "n": 7, "emin": 0, "drop": []}
+{"L": 67, "key": "AZ", "mode": "VIG", "n": 7, "emin": 1, "drop": [73]}
+{"L": 67, "key": "AZ", "mode": "BEAU", "n": 7, "emin": 1, "drop": [73]}
+{"L": 67, "key": "AZ", "mode": "VARB", "n": 7, "emin": 1, "drop": [73]}
+{"L": 67, "key": "KA", "mode": "VIG", "n": 7, "emin": 2, "drop": [69, 73]}
+{"L": 67, "key": "KA", "mode": "BEAU", "n": 7, "emin": 0, "drop": []}
+{"L": 67, "key": "KA", "mode": "VARB", "n": 7, "emin": 2, "drop": [69, 73]}
+{"L": 68, "key": "sig", "mode": "VIG", "n": 6, "emin": 1, "drop": [73]}
+{"L": 68, "key": "sig", "mode": "BEAU", "n": 6, "emin": 0, "drop": []}
+{"L": 68, "key": "sig", "mode": "VARB", "n": 6, "emin": 1, "drop": [73]}
+{"L": 68, "key": "AZ", "mode": "VIG", "n": 6, "emin": 1, "drop": [73]}
+{"L": 68, "key": "AZ", "mode": "BEAU", "n": 6, "emin": 0, "drop": []}
+{"L": 68, "key": "AZ", "mode": "VARB", "n": 6, "emin": 1, "drop": [73]}
+{"L": 68, "key": "KA", "mode": "VIG", "n": 6, "emin": 2, "drop": [70, 73]}
+{"L": 68, "key": "KA", "mode": "BEAU", "n": 6, "emin": 1, "drop": [73]}
+{"L": 68, "key": "KA", "mode": "VARB", "n": 6, "emin": 2, "drop": [70, 73]}
+{"L": 69, "key": "sig", "mode": "VIG", "n": 5, "emin": 0, "drop": []}
+{"L": 69, "key": "sig", "mode": "BEAU", "n": 5, "emin": 0, "drop": []}
+{"L": 69, "key": "sig", "mode": "VARB", "n": 5, "emin": 0, "drop": []}
+{"L": 69, "key": "AZ", "mode": "VIG", "n": 5, "emin": 1, "drop": [73]}
+{"L": 69, "key": "AZ", "mode": "BEAU", "n": 5, "emin": 0, "drop": []}
+{"L": 69, "key": "AZ", "mode": "VARB", "n": 5, "emin": 1, "drop": [73]}
+{"L": 69, "key": "KA", "mode": "VIG", "n": 5, "emin": 2, "drop": [71, 73]}
+{"L": 69, "key": "KA", "mode": "BEAU", "n": 5, "emin": 1, "drop": [73]}
+{"L": 69, "key": "KA", "mode": "VARB", "n": 5, "emin": 2, "drop": [71, 73]}
+{"L": 70, "key": "sig", "mode": "VIG", "n": 4, "emin": 0, "drop": []}
+{"L": 70, "key": "sig", "mode": "BEAU", "n": 4, "emin": 0, "drop": []}
+{"L": 70, "key": "sig", "mode": "VARB", "n": 4, "emin": 0, "drop": []}
+{"L": 70, "key": "AZ", "mode": "VIG", "n": 4, "emin": 1, "drop": [73]}
+{"L": 70, "key": "AZ", "mode": "BEAU", "n": 4, "emin": 1, "drop": [73]}
+{"L": 70, "key": "AZ", "mode": "VARB", "n": 4, "emin": 1, "drop": [73]}
+{"L": 70, "key": "KA", "mode": "VIG", "n": 4, "emin": 2, "drop": [72, 73]}
+{"L": 70, "key": "KA", "mode": "BEAU", "n": 4, "emin": 1, "drop": [73]}
+{"L": 70, "key": "KA", "mode": "VARB", "n": 4, "emin": 2, "drop": [72, 73]}
+{"L": 71, "key": "sig", "mode": "VIG", "n": 3, "emin": 0, "drop": []}
+{"L": 71, "key": "sig", "mode": "BEAU", "n": 3, "emin": 1, "drop": [73]}
+{"L": 71, "key": "sig", "mode": "VARB", "n": 3, "emin": 1, "drop": [73]}
+{"L": 71, "key": "AZ", "mode": "VIG", "n": 3, "emin": 1, "drop": [73]}
+{"L": 71, "key": "AZ", "mode": "BEAU", "n": 3, "emin": 0, "drop": []}
+{"L": 71, "key": "AZ", "mode": "VARB", "n": 3, "emin": 1, "drop": [73]}
+{"L": 71, "key": "KA", "mode": "VIG", "n": 3, "emin": 0, "drop": []}
+{"L": 71, "key": "KA", "mode": "BEAU", "n": 3, "emin": 0, "drop": []}
+{"L": 71, "key": "KA", "mode": "VARB", "n": 3, "emin": 0, "drop": []}
+{"L": 72, "key": "sig", "mode": "VIG", "n": 2, "emin": 0, "drop": []}
+{"L": 72, "key": "sig", "mode": "BEAU", "n": 2, "emin": 0, "drop": []}
+{"L": 72, "key": "sig", "mode": "VARB", "n": 2, "emin": 0, "drop": []}
+{"L": 72, "key": "AZ", "mode": "VIG", "n": 2, "emin": 1, "drop": [73]}
+{"L": 72, "key": "AZ", "mode": "BEAU", "n": 2, "emin": 1, "drop": [73]}
+{"L": 72, "key": "AZ", "mode": "VARB", "n": 2, "emin": 1, "drop": [73]}
+{"L": 72, "key": "KA", "mode": "VIG", "n": 2, "emin": 1, "drop": [73]}
+{"L": 72, "key": "KA", "mode": "BEAU", "n": 2, "emin": 0, "drop": []}
+{"L": 72, "key": "KA", "mode": "VARB", "n": 2, "emin": 1, "drop": [73]}
+{"L": 73, "key": "sig", "mode": "VIG", "n": 1, "emin": 0, "drop": []}
+{"L": 73, "key": "sig", "mode": "BEAU", "n": 1, "emin": 0, "drop": []}
+{"L": 73, "key": "sig", "mode": "VARB", "n": 1, "emin": 0, "drop": []}
+{"L": 73, "key": "AZ", "mode": "VIG", "n": 1, "emin": 1, "drop": [73]}
+{"L": 73, "key": "AZ", "mode": "BEAU", "n": 1, "emin": 0, "drop": []}
+{"L": 73, "key": "AZ", "mode": "VARB", "n": 1, "emin": 1, "drop": [73]}
+{"L": 73, "key": "KA", "mode": "VIG", "n": 1, "emin": 1, "drop": [73]}
+{"L": 73, "key": "KA", "mode": "BEAU", "n": 1, "emin": 1, "drop": [73]}
+{"L": 73, "key": "KA", "mode": "VARB", "n": 1, "emin": 1, "drop": [73]}
+{"L": 74, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 74, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 75, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 76, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 77, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 78, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 79, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 80, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 81, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 82, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 83, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 84, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 85, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 86, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 87, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 88, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 89, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 90, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 91, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 92, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 93, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 94, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 95, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "sig", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "sig", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "sig", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "AZ", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "AZ", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "AZ", "mode": "VARB", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "KA", "mode": "VIG", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "KA", "mode": "BEAU", "n": 0, "emin": 0, "drop": []}
+{"L": 96, "key": "KA", "mode": "VARB", "n": 0, "emin": 0, "drop": []}

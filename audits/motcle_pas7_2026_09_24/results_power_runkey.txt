@@ -1,0 +1,8 @@
+part des vraies clés anglaises sous -4.4 : 0.170
+part des vraies clés anglaises sous -4.58 : 0.062
+part des vraies clés anglaises sous -4.98 : 0.005
+part des vraies clés anglaises sous -5.2 : 0.001
+part des vraies clés anglaises sous -5.5 : 0.000
+médiane -4.126024021042718 1er centile -4.85632602373759
+1 erreur(s) : part sous -4.98 = 0.163 ; sous -4.40 = 0.600
+2 erreur(s) : part sous -4.98 = 0.433 ; sous -4.40 = 0.831
