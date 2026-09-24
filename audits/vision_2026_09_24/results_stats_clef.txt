@@ -1,0 +1,10 @@
+A-Z      VIG: clé BLZCDCYYGCKAZ | MUYKLGKORNA ; IC 0.0471 ; égalités proches 3
+A-Z      BEAU: clé JLJODEGKUKKKL | OCGGBGOKTRU ; IC 0.0797 ; égalités proches 9
+KRYPTOS  VIG: clé BKVSBPCXFCTAC | LRCFPLJIHUA ; IC 0.0399 ; égalités proches 2
+KRYPTOS  BEAU: clé XYHANZEFHYHMK | BNENTXBQRMA ; IC 0.0435 ; égalités proches 2
+Beaufort A–Z seul : P(IC >= 0.0797) = 0.0048 ; P(égalités proches >= 9) = 0.00108
+Maximum sur 4 conventions : P(IC >= 0.0797) = 0.0189 ; P(égalités proches >= 9) = 0.00428
+
+real	0m32.901s
+user	0m32.887s
+sys	0m0.008s

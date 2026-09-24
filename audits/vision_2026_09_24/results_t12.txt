@@ -1,0 +1,117 @@
+clair τ=A-Z BEAU L=6 (12 contraintes) : K4 COMPATIBLE ; témoins 18/50
+clair τ=A-Z BEAU L=9 (6 contraintes) : K4 COMPATIBLE ; témoins 38/50
+clair τ=A-Z BEAU L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 33/50
+clair τ=A-Z BEAU L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 33/50
+clair τ=A-Z BEAU L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 28/50
+clair τ=A-Z BEAU L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 21/50
+clair τ=A-Z BEAU L=41 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+clair τ=A-Z BEAU L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 20/50
+clair τ=A-Z BEAU L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 47/50
+clair τ=KRYPTOS VIG L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 41/50
+clair τ=KRYPTOS VIG L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 28/50
+clair τ=KRYPTOS VIG L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 29/50
+clair τ=KRYPTOS VIG L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 12/50
+clair τ=KRYPTOS BEAU L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 40/50
+clair τ=KRYPTOS BEAU L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 33/50
+clair τ=KRYPTOS BEAU L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 28/50
+clair τ=KRYPTOS BEAU L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 22/50
+clair τ=KRYPTOS BEAU L=40 (11 contraintes) : K4 COMPATIBLE ; témoins 11/50
+clair τ=KRYPTOS BEAU L=41 (11 contraintes) : K4 COMPATIBLE ; témoins 16/50
+clair τ=KRYPTOS BEAU L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 29/50
+clair τ=KRYPTOS BEAU L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 27/50
+clair τ=KRYPTOS VARB L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 34/50
+clair τ=KRYPTOS VARB L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 26/50
+clair τ=KRYPTOS VARB L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 29/50
+clair τ=KRYPTOS VARB L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 18/50
+clair τ=A-Z inv VIG L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 41/50
+clair τ=A-Z inv VIG L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 26/50
+clair τ=A-Z inv VIG L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 27/50
+clair τ=A-Z inv VIG L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 22/50
+clair τ=A-Z inv BEAU L=5 (14 contraintes) : K4 COMPATIBLE ; témoins 13/50
+clair τ=A-Z inv BEAU L=7 (10 contraintes) : K4 COMPATIBLE ; témoins 23/50
+clair τ=A-Z inv BEAU L=8 (8 contraintes) : K4 COMPATIBLE ; témoins 35/50
+clair τ=A-Z inv BEAU L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 42/50
+clair τ=A-Z inv BEAU L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 30/50
+clair τ=A-Z inv BEAU L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 38/50
+clair τ=A-Z inv BEAU L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 23/50
+clair τ=A-Z inv BEAU L=40 (11 contraintes) : K4 COMPATIBLE ; témoins 18/50
+clair τ=A-Z inv BEAU L=44 (9 contraintes) : K4 COMPATIBLE ; témoins 37/50
+clair τ=A-Z inv BEAU L=45 (8 contraintes) : K4 COMPATIBLE ; témoins 37/50
+clair τ=A-Z inv BEAU L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 39/50
+clair τ=A-Z inv VARB L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 39/50
+clair τ=A-Z inv VARB L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 31/50
+clair τ=A-Z inv VARB L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 28/50
+clair τ=A-Z inv VARB L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 18/50
+clair τ=KRYPTOS inv VIG L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 39/50
+clair τ=KRYPTOS inv VIG L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 39/50
+clair τ=KRYPTOS inv VIG L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 30/50
+clair τ=KRYPTOS inv VIG L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 23/50
+clair τ=KRYPTOS inv VIG L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 13/50
+clair τ=KRYPTOS inv BEAU L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 39/50
+clair τ=KRYPTOS inv BEAU L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 34/50
+clair τ=KRYPTOS inv BEAU L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 36/50
+clair τ=KRYPTOS inv BEAU L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 23/50
+clair τ=KRYPTOS inv BEAU L=43 (10 contraintes) : K4 COMPATIBLE ; témoins 30/50
+clair τ=KRYPTOS inv BEAU L=46 (7 contraintes) : K4 COMPATIBLE ; témoins 42/50
+clair τ=KRYPTOS inv BEAU L=47 (6 contraintes) : K4 COMPATIBLE ; témoins 45/50
+clair τ=KRYPTOS inv VARB L=35 (6 contraintes) : K4 COMPATIBLE ; témoins 35/50
+clair τ=KRYPTOS inv VARB L=36 (7 contraintes) : K4 COMPATIBLE ; témoins 32/50
+clair τ=KRYPTOS inv VARB L=37 (8 contraintes) : K4 COMPATIBLE ; témoins 27/50
+clair τ=KRYPTOS inv VARB L=38 (9 contraintes) : K4 COMPATIBLE ; témoins 26/50
+clair τ=KRYPTOS inv VARB L=39 (10 contraintes) : K4 COMPATIBLE ; témoins 11/50
+chiffré τ=A-Z BEAU L=32 (13 contraintes) : K4 COMPATIBLE ; témoins 14/50
+chiffré τ=A-Z BEAU L=34 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=A-Z BEAU L=37 (11 contraintes) : K4 COMPATIBLE ; témoins 20/50
+chiffré τ=A-Z BEAU L=39 (11 contraintes) : K4 COMPATIBLE ; témoins 28/50
+chiffré τ=A-Z BEAU L=41 (11 contraintes) : K4 COMPATIBLE ; témoins 20/50
+chiffré τ=A-Z BEAU L=43 (11 contraintes) : K4 COMPATIBLE ; témoins 20/50
+chiffré τ=A-Z BEAU L=47 (11 contraintes) : K4 COMPATIBLE ; témoins 20/50
+chiffré τ=A-Z BEAU L=48 (11 contraintes) : K4 COMPATIBLE ; témoins 19/50
+chiffré τ=A-Z BEAU L=57 (11 contraintes) : K4 COMPATIBLE ; témoins 12/50
+chiffré τ=A-Z BEAU L=59 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=A-Z BEAU L=60 (11 contraintes) : K4 COMPATIBLE ; témoins 19/50
+chiffré τ=A-Z BEAU L=66 (8 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=A-Z BEAU L=68 (6 contraintes) : K4 COMPATIBLE ; témoins 35/50
+chiffré τ=KRYPTOS BEAU L=34 (11 contraintes) : K4 COMPATIBLE ; témoins 18/50
+chiffré τ=KRYPTOS BEAU L=36 (11 contraintes) : K4 COMPATIBLE ; témoins 18/50
+chiffré τ=KRYPTOS BEAU L=38 (11 contraintes) : K4 COMPATIBLE ; témoins 16/50
+chiffré τ=KRYPTOS BEAU L=41 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=KRYPTOS BEAU L=47 (11 contraintes) : K4 COMPATIBLE ; témoins 22/50
+chiffré τ=KRYPTOS BEAU L=48 (11 contraintes) : K4 COMPATIBLE ; témoins 15/50
+chiffré τ=KRYPTOS BEAU L=52 (11 contraintes) : K4 COMPATIBLE ; témoins 25/50
+chiffré τ=KRYPTOS BEAU L=54 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=KRYPTOS BEAU L=56 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=KRYPTOS BEAU L=60 (11 contraintes) : K4 COMPATIBLE ; témoins 18/50
+chiffré τ=KRYPTOS BEAU L=61 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=KRYPTOS BEAU L=64 (10 contraintes) : K4 COMPATIBLE ; témoins 28/50
+chiffré τ=KRYPTOS BEAU L=67 (7 contraintes) : K4 COMPATIBLE ; témoins 36/50
+chiffré τ=A-Z inv BEAU L=36 (11 contraintes) : K4 COMPATIBLE ; témoins 16/50
+chiffré τ=A-Z inv BEAU L=38 (11 contraintes) : K4 COMPATIBLE ; témoins 22/50
+chiffré τ=A-Z inv BEAU L=44 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=A-Z inv BEAU L=45 (11 contraintes) : K4 COMPATIBLE ; témoins 27/50
+chiffré τ=A-Z inv BEAU L=46 (11 contraintes) : K4 COMPATIBLE ; témoins 28/50
+chiffré τ=A-Z inv BEAU L=51 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=A-Z inv BEAU L=52 (11 contraintes) : K4 COMPATIBLE ; témoins 24/50
+chiffré τ=A-Z inv BEAU L=54 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=A-Z inv BEAU L=56 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=A-Z inv BEAU L=61 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=A-Z inv BEAU L=62 (11 contraintes) : K4 COMPATIBLE ; témoins 26/50
+chiffré τ=A-Z inv BEAU L=64 (10 contraintes) : K4 COMPATIBLE ; témoins 22/50
+chiffré τ=A-Z inv BEAU L=67 (7 contraintes) : K4 COMPATIBLE ; témoins 38/50
+chiffré τ=KRYPTOS inv BEAU L=37 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=KRYPTOS inv BEAU L=39 (11 contraintes) : K4 COMPATIBLE ; témoins 23/50
+chiffré τ=KRYPTOS inv BEAU L=43 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=KRYPTOS inv BEAU L=44 (11 contraintes) : K4 COMPATIBLE ; témoins 18/50
+chiffré τ=KRYPTOS inv BEAU L=45 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=KRYPTOS inv BEAU L=46 (11 contraintes) : K4 COMPATIBLE ; témoins 13/50
+chiffré τ=KRYPTOS inv BEAU L=51 (11 contraintes) : K4 COMPATIBLE ; témoins 22/50
+chiffré τ=KRYPTOS inv BEAU L=57 (11 contraintes) : K4 COMPATIBLE ; témoins 21/50
+chiffré τ=KRYPTOS inv BEAU L=59 (11 contraintes) : K4 COMPATIBLE ; témoins 24/50
+chiffré τ=KRYPTOS inv BEAU L=62 (11 contraintes) : K4 COMPATIBLE ; témoins 20/50
+chiffré τ=KRYPTOS inv BEAU L=66 (8 contraintes) : K4 COMPATIBLE ; témoins 34/50
+chiffré τ=KRYPTOS inv BEAU L=68 (6 contraintes) : K4 COMPATIBLE ; témoins 34/50
+TOTAL : 1080 cas tranchables ; K4 compatible dans 112 ; attendu pour un chiffré aléatoire : 210.9
+
+real	0m0.061s
+user	0m0.061s
+sys	0m0.000s
