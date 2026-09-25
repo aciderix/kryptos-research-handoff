@@ -223,3 +223,29 @@ Il reste trois possibilités, qu'aucun test sur les 24 lettres des cribs ne peut
 - AAA 6/18–6/19 : lus, absents.
 
 Seul l'original, en lumière transmise ou en infrarouge sous l'encre, les montrerait. **Fait nouveau pour la base** : les signes étaient déjà recouverts en 2006. Sanborn (ou quelqu'un d'autre) les a donc cachés avant le tournage.
+
+## Septième partie (25/09, soir) : relais DeepSeek n° 4, « les doublets suivent Fibonacci »
+
+**L'observation.** Cinq des six doublets (18, 25, 32, 46, 67) sont espacés de 7, 7, 14, 21, soit 7 × (1, 1, 2, 3) : des écarts de Fibonacci. Le sixième (42) est écarté.
+
+**Le calcul est exact. Mais la probabilité n'est pas « très faible ».**
+- Il y a 14 cases ≡ 4 (mod 7). Parmi les 2 002 façons d'y placer 5 doublets, **15** ont des écarts de Fibonacci : p = 0,75 %.
+- On a cherché une loi *après* avoir vu les positions. En admettant n'importe quelle loi simple (Fibonacci, arithmétique, doublement, pas constant), p ≈ **2 %**. Et le doublet 42 a été écarté pour que la loi tienne.
+- Trois des cinq doublets (25, 32, 67) sont **dans les cribs**. Ils sont doublets parce que le clair y porte NO, ST, IN. Leur place est donc celle des cribs, et non un choix du chiffreur.
+- **Le mécanisme proposé ne produit pas l'effet.** Une clé qui suit une récurrence dans chaque colonne fixe des *valeurs*. Un doublet apparaît là où la différence de clé coïncide avec une différence de bigramme du clair, donc là où le texte le veut. Aucune loi sur la clé ne place les doublets à des rangs de Fibonacci.
+
+**Test exact de la famille proposée** (`fib7.c`). Dans chaque colonne i ≡ r (mod 7), la clé x_n = k[r + 7n] suit une même récurrence :
+- ordre 2 : x_n = a·x_{n−1} + b·x_{n−2} + c ;
+- ordre 3 : + d·x_{n−3}. Cela couvre k[i] = k[i−7] + k[i−14] − k[i−21] et k[i] = 2k[i−7] − k[i−21], les deux formules du relais.
+
+Chaque colonne a sa graine libre. On teste exactement, par élimination de Gauss dans GF(2) et GF(13), qu'une graine reproduit les 2 à 4 valeurs de clé données par les cribs, puis la même chose en retirant une lettre (une erreur).
+
+| Portée | Contrôle positif | K4 | Témoins K4 mélangé |
+|---|---|---|---|
+| Ordre 2, **tous** les coefficients (26³), A–Z et KRYPTOS × 5 types × 3 conventions × 2 sens | 20 cas exacts (témoins 0/200) | **0**, et 0 avec une erreur | 0/200 |
+| Ordre 3, coefficients dans {0, ±1, ±2}, constante libre | — | **0** sans erreur ; 39 avec une erreur | 90 % des témoins compatibles avec une erreur (p = 0,08) : famille trop lâche à ce niveau |
+| Fibonacci pur (a = b = 1), constante libre, 101 086 alphabets à mot-clé × 5 types × 3 conventions × 2 sens | — | **0** | 0/30 |
+
+**Bilan.** La famille « Fibonacci au pas 7 » est **éliminée**, pour A–Z et KRYPTOS avec n'importe quels coefficients d'ordre 2, et pour tous les alphabets à mot-clé dans le cas Fibonacci pur.
+- L'ordre 3 est éliminé sans erreur. Avec une erreur admise, il est trop lâche pour trancher.
+- La régularité 7, 7, 14, 21 est une coïncidence du niveau de 1 à 2 %, portée pour moitié par l'emplacement des cribs.
