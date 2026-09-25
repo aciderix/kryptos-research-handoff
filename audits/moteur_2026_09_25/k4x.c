@@ -150,18 +150,36 @@ static void build_t16(void) {
 /* configurations : largeur w = 2..48 (A = ligne i / w, B = colonne i mod w) ; deux mots superposés p1 < p2 ≤ 26 (A = i mod p1, B = i mod p2) */
 #define NGMAX 400
 static unsigned char GA[NGMAX][NP], GB[NGMAX][NP]; static int NG;
-/* cohérence sans l'arête « skip » : valeurs val(A) − val(B) = K (nœuds A = 0..63, B = 64..127), propagation par composantes */
-static int gconsistent(int g, const int *K, int skip) {
-  int val[128]; unsigned char seen[128]; memset(seen, 0, sizeof seen); int done[NP] = {0};
-  for (int s0 = 0; s0 < NP; s0++) { if (s0 == skip || done[s0]) continue;
-    int st[256], sp = 0; st[sp++] = GA[g][s0]; seen[GA[g][s0]] = 1; val[GA[g][s0]] = 0;
+/* cycles fondamentaux, calculés une fois par configuration : arbre couvrant, potentiels symboliques
+   val(x) = Σ coef·K[t] ; chaque arête hors de l'arbre donne une équation Σ ±K[t] ≡ 0 (mod 26) */
+#define NCYC 24
+static signed char GCY[NGMAX][NCYC][NP]; static int GNC[NGMAX], GNT[NGMAX]; /* GNT : arêtes utiles */
+static void build_cycles(int g) {
+  signed char pot[128][NP]; unsigned char seen[128]; memset(seen, 0, sizeof seen); int intree[NP] = {0}; GNC[g] = 0;
+  for (int s0 = 0; s0 < NP; s0++) { int r = GA[g][s0]; if (seen[r]) continue; seen[r] = 1; memset(pot[r], 0, NP);
+    int st[256], sp = 0; st[sp++] = r;
     while (sp) { int u = st[--sp];
-      for (int t = 0; t < NP; t++) { if (t == skip) continue; int a = GA[g][t], b = 64 + GB[g][t];
-        if (a != u && b != u) continue;
-        if (a == u && !seen[b]) { seen[b] = 1; val[b] = md(val[a] - K[t]); st[sp++] = b; }
-        else if (b == u && !seen[a]) { seen[a] = 1; val[a] = md(val[b] + K[t]); st[sp++] = a; }
-        if (seen[a] && seen[b]) { done[t] = 1; if (md(val[a] - val[b] - K[t])) return 0; } } } }
-  return 1;
+      for (int t = 0; t < NP; t++) { int a = GA[g][t], b = 64 + GB[g][t];
+        if (a == u && !seen[b]) { seen[b] = 1; memcpy(pot[b], pot[a], NP); pot[b][t] -= 1; intree[t] = 1; st[sp++] = b; }  /* val(b) = val(a) − K */
+        else if (b == u && !seen[a]) { seen[a] = 1; memcpy(pot[a], pot[b], NP); pot[a][t] += 1; intree[t] = 1; st[sp++] = a; } } } }
+  for (int t = 0; t < NP; t++) if (!intree[t]) { int a = GA[g][t], b = 64 + GB[g][t]; signed char *c = GCY[g][GNC[g]++];
+    for (int u = 0; u < NP; u++) c[u] = pot[a][u] - pot[b][u]; c[t] -= 1; }
+}
+/* nombre de cycles fondamentaux violés, et test « une erreur » : il existe une arête t telle que tous les cycles
+   violés passent par t et qu'un réglage de K[t] les satisfasse tous (valeur commune de correction) */
+static int gcheck(int g, const int *K, int *one) {
+  int viol[NCYC], nv = 0, res[NCYC];
+  for (int c = 0; c < GNC[g]; c++) { int s = 0; for (int u = 0; u < NP; u++) s += GCY[g][c][u] * K[u]; s = md(((s % 26) + 26) % 26); if (s) { res[nv] = s; viol[nv++] = c; } }
+  *one = 0; if (!nv) { *one = 1; return 1; }
+  for (int t = 0; t < NP && !*one; t++) { int ok = 1, need = -1;
+    for (int c = 0; c < GNC[g] && ok; c++) { int co = GCY[g][c][t]; int isv = -1; for (int q = 0; q < nv; q++) if (viol[q] == c) isv = q;
+      if (isv < 0) { if (co) { /* cycle satisfait qui passe par t : la correction doit être nulle modulo ce coefficient */ if (need < 0) need = 0; else if (need != 0) ok = 0; } continue; }
+      if (!co) { ok = 0; break; }
+      /* co·δ ≡ −res : on n'accepte que co = ±1 (cas général des arbres) */
+      int d = co == 1 ? md(26 - res[isv]) : co == -1 ? res[isv] : -1; if (d < 0) { ok = 0; break; }
+      if (need < 0) need = d; else if (need != d) ok = 0; }
+    if (ok && need > 0) *one = 1; }
+  return 0;
 }
 /* redondance = 24 − (nœuds − composantes) : nombre d'équations indépendantes des inconnues ; on garde les configurations ≥ GRED */
 static int redundancy(int g) { int comp[128], nn = 0; for (int i = 0; i < 128; i++) comp[i] = -1;
@@ -174,6 +192,7 @@ static void build_g(void) {
   NG = 0;
   for (int w = 2; w <= 48; w++) { for (int t = 0; t < NP; t++) { GA[NG][t] = POS[t] / w; GB[NG][t] = POS[t] % w; } GLAB[NG][0] = 0; GLAB[NG][1] = w; if (redundancy(NG) >= GRED) NG++; }
   for (int p1 = 2; p1 <= 26; p1++) for (int p2 = p1 + 1; p2 <= 26; p2++) { for (int t = 0; t < NP; t++) { GA[NG][t] = POS[t] % p1; GB[NG][t] = POS[t] % p2; } GLAB[NG][0] = p1; GLAB[NG][1] = p2; if (redundancy(NG) >= GRED) NG++; }
+  for (int g = 0; g < NG; g++) build_cycles(g);
   fprintf(stderr, "clé additive : %d configurations de redondance ≥ %d\n", NG, GRED);
 }
 /* ------------------ main ------------------ */
@@ -271,8 +290,7 @@ int main(int argc, char **argv) {
                   if (err <= cut) UPD(F_A, err, mo); } }
             }
             if (doG && inv && mo < 2) { int c0 = 0, c1 = 0;
-              for (int g = 0; g < NG; g++) { if (gconsistent(g, K, -1)) { c0++; c1++; continue; }
-                for (int sk = 0; sk < NP; sk++) if (gconsistent(g, K, sk)) { c1++; break; } }
+              for (int g = 0; g < NG; g++) { int one; c0 += gcheck(g, K, &one); c1 += one; }
               lb[z][F_G0] += c0; lb[z][F_G1] += c1; }
             if (doF) {
               /* autoclé vers l'avant sur le clair : k_i = Z[p_{i+L}] ; on remonte depuis la dernière lettre de crib de chaque classe */
