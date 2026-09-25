@@ -1,0 +1,17 @@
+0 TIJVMSRSHVXOMCJVXOENA CODESMAYBEDIVIDEDINTU
+1 KQUUCLWYXVHZTFGJMKJHG TWODIFFERENTCLASSESNA
+2 DYRPMASMZZNAKCUEURRHJ MELYSUBSTITUTIONALAND
+3 KLGEMVFMOKCUEURKSVVMZ TRANSPOSITIONALTYPEST
+4 YYZIUTJJUJCZZITRFHVCT HETRANSPOSITIONALBEIN
+5 XNNVBGIXKJNZFXKTBVYYX GTHEHARDESTTODECHPHER
+6 NBZYIAKNVEKPYZIUTJYCA WHTHOUTHEKEYETRANSEWJ
+
+lecture : CODES MAY BE DIVIDED INT(O) TWO DIFFERENT CLASSES NAMELY SUBSTITUTIONAL AND TRANSPOSITIONAL TYPES THE
+          TRANSPOSITIONAL BEING THE HARDEST TO DEC(I)PHER W(I)THOUT (T)HE KEY ETRANS…
+position 20 : clair O, clé G : chiffré attendu U, relevé A → se lit U
+position 121 : clair I, clé U : chiffré attendu C, relevé B → se lit H
+position 127 : clair I, clé U : chiffré attendu C, relevé B → se lit H
+
+=> 121 et 127 : la même erreur deux fois (clair I, clé U : B au lieu de C, une case trop à gauche) ;
+   133 : une lettre omise ; la suite de la clé glisse d'un rang (comme l'X omis de K2) ;
+   20 : INTU au lieu de INTO (faute du clair, ou lecture du relevé).

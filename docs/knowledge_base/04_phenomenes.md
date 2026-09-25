@@ -40,6 +40,7 @@
   - La largeur 21 n'est pas une preuve de plus. 3 de ses 11 paires viennent des deux autres signaux : les doublets QQ (25), ZZ (46) et TT (67) sont **empilés exactement tous les 21**. Le premier chiffre publié, 10⁻⁵, les comptait deux fois.
   - Ce n'est **pas** une substitution dépendant de i mod 7 : en 65 et 72, P chiffre R puis C. Ce n'est pas non plus une autoclé sur le chiffré à l'écart 7.
   - Aucune des 10 familles simulées (`sim_7.py`) ne concentre les doublets comme K4.
+  - **Profil (25/09, `audits/simulateur_2026_09_25/`)** : écart 7 en excès, mais écarts 14, 21, 28, 35, 42, 49 au niveau du hasard (2, 3, 4, 1, 3, 0). Le « 7 » relie des **voisins**, pas une période. Sur 52 procédés simulés, seule l'autoclé sur le clair à l'écart 7, forme Vigenère, produit ce profil. Elle est éliminée pour les alphabets de Sanborn (T18, T27, T34). Aucun procédé positionnel ne concentre les doublets.
   - **Le mécanisme du 7 est la question ouverte principale.**
 
 ## Phénomène 3 — Une seule lettre claire, plusieurs chiffrées, mais rapprochées

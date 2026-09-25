@@ -48,6 +48,12 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
   - autoclé sur le clair (écarts 1–13, dont l'hypothèse NSA) et sur le chiffré (tous écarts) ;
   - **clé courante tirée d'un texte anglais inconnu**, famille jusqu'ici réputée irréfutable : les deux fragments de clé devraient être de l'anglais ; ils ne le sont jamais (puissance 99,5 %).
 
+- **Simulateur Sanborn (25/09, fin)** : `audits/simulateur_2026_09_25/README.md`, base 7 §12.10. On ne teste plus une famille contre les cribs. On demande quel procédé manuel fabrique un texte qui ressemble à K4 sur ses 97 lettres : 52 procédés, un million de faux K4 chacun.
+  - Le « 7 » ne relie que des **voisins** : l'écart 7 est en excès, les écarts 14 à 49 sont au hasard. Ce n'est donc pas une période, quelle que soit la clé.
+  - Un seul procédé manuel produit ce profil : l'autoclé sur le clair à l'écart 7, **forme Vigenère** (Beaufort et Variante ne le produisent pas). C'est l'hypothèse de la NSA, précisée.
+  - T34 la teste avec deux alphabets à mot-clé indépendants (Quagmire IV, 5,3 × 10¹¹ paires, recherche exacte, clair entier lu) : K4 au moins 7 équations fausses sur 17, témoins 5 à 7. **Éliminée**, même avec le taux d'erreur de Sanborn.
+  - Aucun procédé positionnel ne concentre les doublets. Le « 7 » reste inexpliqué, et un hasard n'est pas exclu (10⁻³ à 10⁻² après correction).
+
 ## Principes de travail
 
 - Distinguer fait source, interprétation, hypothèse, recette, expérience et preuve.

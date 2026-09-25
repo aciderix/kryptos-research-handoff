@@ -1,0 +1,14 @@
+SIMULATION trifide période 7 (blocs en 0), 200000 textes anglais de 97 lettres, cubes aléatoires :
+  doublets par phase (i mod 7 du premier) : 0:0.614 1:0.545 2:0.580 3:0.575 4:0.552 5:0.570 6:0.479  (total 3.92 par texte)
+  coïncidences à l'écart 7 : 4.07 par texte (K4 : 9)
+  « au moins 4 doublets, tous sauf un dans une même phase » : 0.0144 ; et en plus ≥ 9 coïncidences à l'écart 7 : 0.00052
+contrôle positif (P = 7, φ = 4) : 20/20 reconnus
+K4 — trifide, périodes 2..40, toutes phases :
+  P=7 φ=0 : 72 égalités ; K4 impossible ; témoins aléatoires 0/200, K4 mélangé 0/200 (non tranchés 0)
+  P=7 φ=1 : 72 égalités ; K4 impossible ; témoins aléatoires 0/200, K4 mélangé 0/200 (non tranchés 0)
+  P=7 φ=2 : 72 égalités ; K4 impossible ; témoins aléatoires 0/200, K4 mélangé 0/200 (non tranchés 0)
+  P=7 φ=3 : 72 égalités ; K4 impossible ; témoins aléatoires 0/200, K4 mélangé 0/200 (non tranchés 0)
+  P=7 φ=4 : 72 égalités ; K4 impossible ; témoins aléatoires 0/200, K4 mélangé 0/200 (non tranchés 0)
+  P=7 φ=5 : 72 égalités ; K4 impossible ; témoins aléatoires 0/200, K4 mélangé 0/200 (non tranchés 0)
+  P=7 φ=6 : 72 égalités ; K4 impossible ; témoins aléatoires 0/200, K4 mélangé 0/200 (non tranchés 0)
+TOTAL : 819 cas ; K4 compatible 0, non tranché 0 ; attendu au hasard : 0.0 (aléatoire), 0.0 (K4 mélangé)

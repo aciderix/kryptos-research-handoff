@@ -1,0 +1,6 @@
+=== de
+clé courante anglaise (score, max)      K4  -5.119 | témoins min  -5.343 médiane  -5.014 max  -4.675 | p = 0.762
+=== fr
+clé courante anglaise (score, max)      K4  -4.804 | témoins min  -5.235 médiane  -4.971 max  -4.499 | p = 0.238
+=== la
+clé courante anglaise (score, max)      K4  -5.064 | témoins min  -5.108 médiane  -4.978 max  -4.479 | p = 0.714

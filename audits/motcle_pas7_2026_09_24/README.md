@@ -34,6 +34,8 @@ Pour L ≤ 13, chaque classe modulo L contient une lettre des cribs. On propage 
 - **Contrôle positif** (PALIMPSEST, écart 7) : 0 erreur, clair retrouvé en entier, −4,29.
 ⇒ **Éliminé** pour les alphabets à mot-clé.
 
+*Correctif du 25/09 (`../relais_2026_09_25/`, T27).* Ce programme propage depuis la première lettre de crib de chaque classe, sans ré-ancrage : une seule lettre fausse y compte plusieurs fois. Avec le comptage juste, par équations de chaîne, l'écart 7 demande au moins 10 erreurs, et tous les écarts L ≤ 48 au moins 2, comme les témoins. La conclusion ne change pas.
+
 ## 3. Clé courante tirée d'un texte anglais inconnu (`kwrunkey.c`)
 
 C'était une famille « impossible à réfuter avec 24 lettres » (base 2 §3, n° 4) : avec un alphabet libre, n'importe quel texte convient. Avec un alphabet à mot-clé fixé, les cribs donnent la clé en deux fragments, de 13 lettres (positions 21–33) et de 11 lettres (63–73). Si la clé est un texte anglais, **ces fragments doivent être de l'anglais**. On note les deux fragments (18 quadrigrammes), à l'endroit et à l'envers, avec la lettre-clé lue dans l'alphabet du mot, en A–Z ou en KRYPTOS.

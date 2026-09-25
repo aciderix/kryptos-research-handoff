@@ -1,0 +1,56 @@
+corpus : 16774416 lettres ; mots de 7 lettres : 9465 ; cribs insérés : oui ; 1000000 chiffrés par procédé
+K4 : A7=9 A14+A21=5 doublets=6 Dmax=5 (classe 4 : 5) cribs-doublets=3 IC7=0.0419
+
+procédé                                      doubl    A7    IC7 | P(A7≥9) P(voisin) P(Dmax≥5)   P(A7&D) P(voisin&D)  P(cd=3)   P(tout)
+ 0 hasard uniforme                              3.69  3.46 0.0385 | 7.65e-03 2.92e-03 8.62e-04  8.00e-06   4.00e-06 6.90e-05  0.00e+00
+ 1 Vigenère KA période 7, clé aléatoire     3.69  5.27 0.0633 | 9.41e-02 4.81e-03 9.57e-04  1.39e-04   8.00e-06 0.00e+00  0.00e+00
+ 2 Vigenère KA période 7, mot de 7 lettres    3.67  5.28 0.0633 | 9.41e-02 4.60e-03 9.35e-04  1.24e-04   5.00e-06 0.00e+00  0.00e+00
+ 3 Vigenère KA période 2–20 (≠ 7, 14)     3.69  3.46 0.0406 | 8.20e-03 2.90e-03 7.65e-04  7.00e-06   2.00e-06 3.90e-05  0.00e+00
+ 4 clé courante anglaise                       3.82  3.55 0.0397 | 9.30e-03 3.29e-03 8.80e-04  1.30e-05   5.00e-06 4.40e-05  0.00e+00
+ 5 autoclé clair écart 7                      3.48  5.82 0.0427 | 1.42e-01 4.86e-02 6.08e-04  1.19e-04   3.70e-05 0.00e+00  0.00e+00
+ 6 autoclé chiffré écart 7                   3.69  1.52 0.0356 | 9.00e-06 3.00e-06 4.75e-04  0.00e+00   0.00e+00 0.00e+00  0.00e+00
+ 7 autoclé clair écart 1                      3.49  4.35 0.0428 | 2.20e-02 6.91e-03 5.53e-04  2.10e-05   7.00e-06 0.00e+00  0.00e+00
+ 8 autoclé chiffré écart 1                   1.57  3.01 0.0379 | 4.67e-03 1.75e-03 3.00e-06  0.00e+00   0.00e+00 0.00e+00  0.00e+00
+ 9 clé ligne + colonne (largeur 7)             3.69  3.46 0.0385 | 8.15e-03 3.12e-03 9.66e-04  6.00e-06   1.00e-06 0.00e+00  0.00e+00
+10 clé progressive période 7                  3.69  3.39 0.0389 | 6.26e-03 2.63e-03 9.46e-04  4.00e-06   3.00e-06 0.00e+00  0.00e+00
+11 période 7 + clé courante                   3.69  3.54 0.0397 | 9.31e-03 3.25e-03 7.73e-04  8.00e-06   4.00e-06 5.20e-05  0.00e+00
+12 période 7 puis transposition 7 colonnes     5.50  4.59 0.0403 | 4.86e-02 1.92e-02 1.29e-02  7.35e-04   2.86e-04 4.03e-04  1.20e-05
+13 transposition 7 colonnes puis période 7     3.69  5.72 0.0591 | 1.23e-01 1.74e-02 1.10e-03  1.46e-04   2.00e-05 7.90e-05  1.00e-06
+14 période 7 puis lignes de 7 permutées       3.69  5.69 0.0633 | 1.30e-01 9.82e-03 9.42e-04  1.85e-04   1.30e-05 6.10e-05  1.00e-06
+15 période 7 + erreurs de Sanborn (4 %)        3.67  5.13 0.0614 | 8.21e-02 4.67e-03 9.41e-04  1.17e-04   7.00e-06 0.00e+00  0.00e+00
+16 période 7 + une lettre omise (saut de phase)  3.69  5.14 0.0542 | 8.31e-02 6.41e-03 8.78e-04  9.70e-05   5.00e-06 0.00e+00  0.00e+00
+17 période 7 + autoclé chiffré écart 7 (mixte)  3.69  3.46 0.0384 | 1.82e-02 6.77e-03 9.06e-04  1.60e-05   8.00e-06 7.10e-05  0.00e+00
+18 période 7 + autoclé clair écart 7 (mixte)  3.69  5.60 0.0422 | 1.22e-01 4.12e-02 8.17e-04  1.41e-04   5.30e-05 4.70e-05  0.00e+00
+19 clé transposée (mot L=8–20 en 7 colonnes)  3.69  3.46 0.0399 | 7.99e-03 2.80e-03 8.17e-04  6.00e-06   1.00e-06 5.60e-05  0.00e+00
+20 clé de Fibonacci k[i]=k[i-7]+k[i-6]         3.69  3.46 0.0385 | 7.80e-03 3.05e-03 7.46e-04  3.00e-06   3.00e-06 6.50e-05  0.00e+00
+21 clé en chaîne k[i]=k[i-7]+k[i-1]           3.69  3.46 0.0384 | 7.88e-03 3.11e-03 7.60e-04  5.00e-06   2.00e-06 5.40e-05  0.00e+00
+22 disque tourné par bloc de 7                 2.62  3.39 0.0389 | 6.21e-03 2.51e-03 1.82e-04  3.00e-06   0.00e+00 0.00e+00  0.00e+00
+23 deux clés superposées 7 et 8               3.69  3.46 0.0403 | 7.83e-03 3.14e-03 8.72e-04  1.20e-05   3.00e-06 7.10e-05  0.00e+00
+24 Beaufort KA période 7                       3.69  5.28 0.0633 | 9.43e-02 4.64e-03 9.74e-04  1.47e-04   7.00e-06 0.00e+00  0.00e+00
+25 Porta période 7                             3.78  5.28 0.0633 | 9.45e-02 4.67e-03 2.04e-03  2.43e-04   1.60e-05 0.00e+00  0.00e+00
+26 transposition 7 colonnes seule (témoin)     5.67  5.72 0.0591 | 1.23e-01 1.75e-02 1.38e-02  2.05e-03   2.86e-04 4.00e-04  2.60e-05
+27 Vigenère KA période 14                     3.69  3.46 0.0504 | 9.70e-03 9.87e-04 9.37e-04  1.10e-05   2.00e-06 0.00e+00  0.00e+00
+28 Vigenère KA période 21                     3.70  3.46 0.0454 | 7.82e-03 1.13e-03 8.54e-04  4.00e-06   0.00e+00 0.00e+00  0.00e+00
+29 Quagmire III alphabet quelconque, période 7  3.69  5.28 0.0633 | 9.38e-02 4.64e-03 1.99e-03  2.50e-04   3.00e-06 7.00e-05  1.00e-06
+30 période 7 puis méthode K3 (deux rotations)  3.99  3.79 0.0424 | 1.79e-02 4.88e-03 1.32e-03  4.40e-05   1.70e-05 7.70e-05  1.00e-06
+31 méthode K3 (deux rotations) puis période 7  3.69  5.87 0.0647 | 1.40e-01 7.87e-03 1.08e-03  1.72e-04   1.60e-05 6.50e-05  0.00e+00
+32 période 7 + masque en dents de scie (Matson)  3.69  3.66 0.0446 | 1.06e-02 2.66e-03 8.51e-04  4.00e-06   1.00e-06 0.00e+00  0.00e+00
+33 période 7 avec k4 = k5                      3.52  5.27 0.0633 | 9.40e-02 4.67e-03 8.73e-04  1.14e-04   1.00e-06 0.00e+00  0.00e+00
+34 autoclé clair écart 7, Beaufort            3.49  3.60 0.0388 | 1.03e-02 3.84e-03 6.12e-04  2.50e-05   8.00e-06 0.00e+00  0.00e+00
+35 transposition 7 colonnes puis clé courante  3.71  3.59 0.0396 | 1.01e-02 3.65e-03 8.00e-04  1.30e-05   4.00e-06 5.00e-05  0.00e+00
+36 Chaocipher                                   3.74  3.39 0.0384 | 6.92e-03 2.67e-03 9.93e-04  6.00e-06   4.00e-06 6.40e-05  0.00e+00
+37 Gronsfeld (chiffres) période 7              3.90  5.28 0.0633 | 9.43e-02 4.60e-03 9.56e-04  1.51e-04   1.20e-05 0.00e+00  0.00e+00
+38 période 7 puis addition en chaîne c[i]+=c[i-1]  3.69  3.46 0.0385 | 9.67e-03 3.75e-03 8.07e-03  7.10e-05   2.60e-05 0.00e+00  0.00e+00
+39 clé KRYPTOS (0..6 dans KA) période 7       4.74  5.27 0.0633 | 9.38e-02 4.68e-03 1.05e-03  1.27e-04   1.00e-06 0.00e+00  0.00e+00
+40 période 7 puis grille 14 colonnes lue en colonnes  6.08  3.66 0.0405 | 1.18e-02 4.00e-03 1.98e-02  2.84e-04   1.02e-04 2.28e-04  1.00e-06
+41 grille 14 colonnes lue en colonnes puis période 7  3.69  5.02 0.0596 | 6.54e-02 7.47e-03 1.56e-03  1.22e-04   1.80e-05 5.90e-05  2.00e-06
+42 période 7 puis grille 7×14 écrite en colonnes  5.26  3.46 0.0407 | 8.50e-03 3.40e-03 1.78e-02  1.93e-04   6.20e-05 3.18e-04  1.00e-06
+43 période 14 puis transposition 7 colonnes    3.70  3.46 0.0385 | 8.05e-03 3.12e-03 8.24e-04  1.00e-05   4.00e-06 6.30e-05  0.00e+00
+44 clé courante puis transposition 7 colonnes  3.78  3.58 0.0397 | 9.80e-03 3.54e-03 9.02e-04  8.00e-06   5.00e-06 8.30e-05  0.00e+00
+45 Beaufort mixte : période 7 + chiffré écart 7  3.69  3.46 0.0384 | 1.82e-02 6.71e-03 8.56e-04  1.90e-05   8.00e-06 5.40e-05  0.00e+00
+46 période 7 + erreurs de copie c=p (10 %)     3.68  4.95 0.0589 | 6.85e-02 4.83e-03 9.35e-04  9.80e-05   7.00e-06 0.00e+00  0.00e+00
+47 période 7 puis autoclé chiffré écart 7   3.69  3.46 0.0384 | 1.80e-02 6.76e-03 8.49e-04  2.20e-05   1.00e-05 5.20e-05  0.00e+00
+48 autoclé clair écart 7, Variant Beaufort    3.49  3.60 0.0388 | 1.00e-02 3.72e-03 6.00e-04  2.00e-05   1.00e-06 0.00e+00  0.00e+00
+49 autoclé clair écart 7, Vig., chiffré en alphabet ≠  3.48  5.82 0.0427 | 1.42e-01 4.82e-02 6.34e-04  1.44e-04   3.80e-05 0.00e+00  0.00e+00
+50 autoclé clair écart 7, lettre-clé dans un alphabet ≠  3.70  3.55 0.0392 | 9.76e-03 3.51e-03 8.18e-04  1.80e-05   2.00e-06 5.90e-05  0.00e+00
+51 autoclé clair écart 7, Vig. A–Z          3.41  5.82 0.0429 | 1.41e-01 4.69e-02 5.76e-04  1.23e-04   4.10e-05 0.00e+00  0.00e+00

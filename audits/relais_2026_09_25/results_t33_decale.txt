@@ -1,0 +1,3 @@
+  type 2 VARB : 3 hors 0–9 ; alphabet ZYXWVQPOMKJHFDCBAGNIRSETUL ; clé ·5422·56··6352·540·202··
+K4 : minimum de valeurs hors 0–9 : 1
+témoins K4 mélangé (30) : [np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(2)]
