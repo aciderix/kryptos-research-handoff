@@ -118,5 +118,28 @@ Familles de la base 2 déclarées indécidables avec un alphabet quelconque, rej
 
 **T6, Quagmire I, II, IV à période moyenne** (`res_T6_periodique26_lin.txt`, p = 1..26, erreurs de Sanborn) : K4 au niveau des témoins pour toutes les périodes. Le plus bas est p = 19, à 0,065 : c'est l'égalité connue de Bean.
 
+**T6, alphabets en matrice** (1 395 188, 30 témoins, 6 936 s, `res_T6_mat.txt`) :
+- ligne + colonne et deux mots superposés : K4 a 12 815 cas compatibles sans erreur, **moins que tous les témoins** (13 134 à 22 469) ; avec une erreur, p = 0,94 ;
+- autoclé vers l'avant : sur le clair, 4 erreurs (témoins 3–5) ; sur le chiffré, 11 cribs justes (témoins 10–11, p = 0,32).
+
+## 8. Bilan
+
+| Chantier | Résultat |
+|---|---|
+| T0 moteur | C/OpenMP, élagage exact, 35 à 300 fois plus rapide ; contrôles positifs pour chaque famille |
+| T1 témoins | 30 témoins K4 mélangé sur 1,4 M alphabets : K4 banal partout ; seul écart (EUODOS) déchiffré en charabia |
+| T2 dictionnaire | 430 000 mots, puis 2,96 M alphabets à deux mots : aucun signal |
+| T3 erreurs de Sanborn | modèle validé sur le vrai fragment ; K4 jamais à ≤ 3 erreurs : périodique à mot-clé éliminé |
+| T4 familles manquantes | TABP (NSA 1992) et Quagmire IV : aucun signal ; T16 et conventions mélangées au niveau des témoins |
+| T5 texte entier | attaque qui fonctionne (contrôle) ; K4 : e_min = 2 prouvé pour la famille « ligne du cuivre », charabia avec la meilleure paire d'erreurs |
+| T6 familles indécidables | ligne + colonne, deux mots superposés, autoclé vers l'avant, Q1–Q4 à p ≤ 26 : aucun signal avec les alphabets à mot-clé |
+
+**Limites.**
+- Alphabets **non** construits sur un mot-clé.
+- Clés choisies à la main, sans générateur.
+- Correspondance qui n'est pas lettre à lettre.
+- T5 : 275 couples d'erreurs non parcourus.
+- Autoclé sur le clair compté sans ré-ancrage : la version corrigée de l'autre session est en T27.
+
 **T3 sur le dictionnaire élargi** (`res_T3_sanborn_dico.txt`) : e_min ≥ 5 pour toute période de 1 à 14 ; aucun cas « à la Sanborn » à ≤ 3 erreurs (p = 0,32 à 1).
 
