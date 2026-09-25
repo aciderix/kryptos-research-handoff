@@ -22,3 +22,4 @@ Les bases suivantes sont à consulter **avant tout calcul** :
 10. [`10_registre_des_tentatives.md`](10_registre_des_tentatives.md) — **registre complet des tentatives**, une ligne par tentative et son résultat (réussi, éliminé, sans signal, non concluant, bloqué, non fait, corrigé). Il couvre l'héritage du dépôt d'origine, les tests du 22 au 25/09, les recherches documentaires, les outils, les raisonnements corrigés et ce qui n'a pas été fait.
 
 Principe : comprendre l'intention de Sanborn et ce qu'il met à disposition, puis ne lancer un calcul que si une information nouvelle fixe une recette qui sort de la portée déjà couverte.
+- [`11_depot_amont_2026_09_25.md`](11_depot_amont_2026_09_25.md) — ce que le dépôt amont `jcolinpatrick/kryptos` apporte encore : archives AAA expurgées, quatrième lettre entourée (D pâle), anomalie E0d de Bean vérifiée, résultats négatifs de mai–juin 2026.
