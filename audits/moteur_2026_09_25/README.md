@@ -108,4 +108,7 @@ Familles de la base 2 déclarées indécidables avec un alphabet quelconque, rej
 
 ## 7. Résultats des grands balayages
 
-(rempli à la fin des files d'attente)
+**T2, dictionnaire élargi** (684 730 alphabets, 30 témoins, 2 332 s, `res_T2_dico.txt`) : K4 dans la distribution des témoins pour toutes les familles (p = 0,13 à 1). Meilleurs de K4 : p7 10 / 7 / 6 ; blocs 7 ; T16 8 ; autoclé sur le clair 4 ; autoclé sur le chiffré 10 cribs justes ; clé courante −4,80 (témoins −4,99 à −4,56). **Aucun nom propre, lieu ou terme thématique ne fait sortir K4 du hasard.**
+
+**T3 sur le dictionnaire élargi** (`res_T3_sanborn_dico.txt`) : e_min ≥ 5 pour toute période de 1 à 14 ; aucun cas « à la Sanborn » à ≤ 3 erreurs (p = 0,32 à 1).
+
