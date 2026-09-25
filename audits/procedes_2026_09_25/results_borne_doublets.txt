@@ -1,0 +1,17 @@
+corpus 16774427 lettres ; doublets anglais (a,a) : 0.0332
+   meilleur alphabet à mot-clé : MATHERINGJKLOPQSUVWXYZBCDF  ; avec contrainte des cribs : WHERINOPQSTUVXYZABCDFGJKLM
+
+borne                                                            taux  P(≥5/14) | avec cribs  P(≥5/14)
+(a) résonance, alphabet A–Z                                     0.067    0.0016 |      0.000    0.0000
+(a) résonance, alphabet KRYPTOS                                 0.063    0.0012 |      0.000    0.0000
+(a) résonance, alphabet GIRASOL                                 0.071    0.0022 |      0.070    0.0019
+(a) résonance, meilleur des 101086 alphabets à mot-clé          0.136    0.0317 |      0.099    0.0090
+(b) bijection quelconque (alphabets libres par position)        0.171    0.0749 |      0.160    0.0589
+(c1) fonction de p_i (autoclé, état dépendant du clair)         0.226    0.1920 |      0.219    0.1740
+(c2) fonction de p_{i-1} p_i                                    0.308    0.4429 |      0.282    0.3562
+
+K4 : 5 doublets sur 14 cases (dont 3 aux cribs, NO, ST, IN) ; hors colonne 4 : 1 sur 82.
+P(≥2 doublets sur les 11 cases hors cribs | taux) : 0.000→0.000, 0.000→0.000, 0.070→0.176, 0.099→0.300, 0.160→0.544, 0.219→0.731, 0.282→0.860
+P(O | N) = 0.087 ; meilleur successeur de N : D (0.189)
+P(T | S) = 0.172 ; meilleur successeur de S : T (0.172)
+P(N | I) = 0.263 ; meilleur successeur de I : N (0.263)

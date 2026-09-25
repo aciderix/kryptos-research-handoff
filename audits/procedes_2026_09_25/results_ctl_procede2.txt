@@ -1,0 +1,17 @@
+empreinte : doublets par colonne 1 2 0 0 1 0 1 ; écarts 7/14/21 : 5 7 8 ; doublets de crib 0 0 1
+σ = KRYPTOSABCDEFGHIJLMNQUVWXZ ; 19776 procédés à un terme × 5000 simulations
+balayage : 27 s
+référence (clé courante anglaise, quasi hasard) : logL = -42.91 ; MEILLEUR ΔlogL = 11.46
+
+rang procédé                                                                                ΔlogL  doubl. écarts   cribs  IC col |  d(c4)     A7    A14    A21
+   1 BEAU, base période 7                                                                     11.46   -7.52   -6.46   -3.30  -14.17 |  0.040  0.059  0.068  0.066
+   2 VAR, base période 7 - clair[i-6] lu en ρ (colonne 6)                                    11.44   -7.46   -6.61   -3.14  -14.25 |  0.039  0.056  0.065  0.064
+   3 VIG, base période 7 + clair[i-2] lu en σ (colonne 6)                                    11.43   -7.44   -6.58   -3.23  -14.22 |  0.040  0.057  0.065  0.065
+   4 VAR, base période 7                                                                      11.42   -7.55   -6.45   -3.28  -14.20 |  0.039  0.058  0.066  0.067
+   5 VIG, base période 7 - chiffré[i-1] lu en σ (colonne 6)                                 11.42   -7.50   -6.53   -3.26  -14.20 |  0.040  0.056  0.066  0.066
+   6 VIG, base période 7 + chiffré[i-1] lu en ρ (colonne 6)                                 11.41   -7.47   -6.57   -3.28  -14.18 |  0.040  0.057  0.065  0.065
+   7 VIG, base période 7 + clair[i-1] lu en ρ (colonne 6)                                    11.40   -7.48   -6.57   -3.21  -14.25 |  0.039  0.056  0.065  0.065
+   8 BEAU, base période 7 + chiffré[i-5] lu en A–Z (colonne 6)                             11.39   -7.46   -6.61   -3.18  -14.27 |  0.039  0.056  0.064  0.065
+   9 BEAU, base période 7 + chiffré[i-1] lu en ρ (colonne 6)                                11.39   -7.47   -6.55   -3.30  -14.20 |  0.039  0.056  0.065  0.066
+  10 VIG, base période 7 + chiffré[i-1] lu en σ (colonne 3)                                 11.38   -7.46   -6.56   -3.34  -14.16 |  0.039  0.056  0.065  0.066
+

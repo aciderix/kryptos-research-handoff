@@ -1,0 +1,16 @@
+référence (clé courante anglaise, quasi hasard) : logL = -29.23 ; MEILLEUR ΔlogL = 3.32
+deux termes (551 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 3.25
+référence (clé courante anglaise, quasi hasard) : logL = -26.90 ; MEILLEUR ΔlogL = 2.28
+deux termes (516 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 2.39
+référence (clé courante anglaise, quasi hasard) : logL = -25.90 ; MEILLEUR ΔlogL = 2.93
+deux termes (305 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 1.82
+référence (clé courante anglaise, quasi hasard) : logL = -24.52 ; MEILLEUR ΔlogL = 1.51
+deux termes (517 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 1.81
+référence (clé courante anglaise, quasi hasard) : logL = -27.61 ; MEILLEUR ΔlogL = 3.66
+deux termes (574 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 3.22
+référence (clé courante anglaise, quasi hasard) : logL = -22.17 ; MEILLEUR ΔlogL = 1.15
+deux termes (438 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 1.22
+référence (clé courante anglaise, quasi hasard) : logL = -25.68 ; MEILLEUR ΔlogL = 1.38
+deux termes (306 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 0.60
+référence (clé courante anglaise, quasi hasard) : logL = -29.99 ; MEILLEUR ΔlogL = 4.77
+deux termes (582 combinaisons des 60 meilleurs) : MEILLEUR2 ΔlogL = 4.78
