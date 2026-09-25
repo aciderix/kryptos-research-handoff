@@ -132,3 +132,25 @@ Avec le petit fragment de 97 lettres (4 erreurs, dont 3 du même écart), cela f
 - **Quatre modèles « artistiques » nouveaux**, que les tests antérieurs ne couvraient pas, sont éliminés ou au niveau du hasard : phases de blocs libres, sauts de phase dans les cribs, clé courante en allemand, français ou latin.
 - **Fait documentaire nouveau** : la maquette de 1988 porte les mêmes types d'erreurs que les chiffres ultérieurs de Sanborn (lettre omise avec glissement de clé, erreur de table répétée).
 - **Défaut corrigé en cours de route** : dans T30 et T31, l'indice de clé était d'abord réduit modulo 26 avant de l'être modulo p. Le contrôle positif de T30 passait quand même, car il était construit avec la même erreur ; celui de T31 a révélé le défaut. Tous les résultats ci-dessus sont ceux de la version corrigée.
+
+## Quatrième partie (25/09, suite) : les dernières familles de clés, avec les alphabets de Sanborn
+
+| Test | Famille | K4 | Témoins | Verdict |
+|---|---|---|---|---|
+| **T32** `t32_progressive_motcle.c` | **Clé progressive** : mot-clé de p lettres qui avance de s à chaque tour (p = 2–26, s = 1–25, tour commençant n'importe où). Avec un alphabet libre, la famille était trop lâche (compatible pour p = 8, 10–13) | p ≤ 11 : plus de 5 erreurs ; p = 12–13 : 5 | 3 à 5 à p = 12–13 ; même niveau ailleurs | **Aucun signal** ; contrôle positif (PALIMPSEST, p = 8, pas 3) retrouvé à 0 erreur |
+| **T33** `t33_cle_chiffres.py` | **Toute clé faite de chiffres 0–9** : Gronsfeld, Gromark quelle que soit l'amorce, dates, coordonnées de K2, heures. Filtre : les 24 valeurs de clé imposées par les cribs doivent être dans 0–9 (au hasard, ≈ 10⁻¹⁰ par alphabet) | au mieux 3 valeurs hors 0–9 | 2 à 5 (30 témoins) | **Aucun signal** pour toute clé numérique avec un alphabet à mot-clé. Avec une constante ajoutée (fenêtre de 10 valeurs n'importe où), le filtre n'a plus de pouvoir (témoins 0–2, K4 1) |
+
+**Où en est-on.** Avec les alphabets que Sanborn a toujours employés (mots-clés, dont KRYPTOS, GIRASOL, A–Z), **toutes** les familles de clés « faisables à la main » testées sont éliminées ou au niveau du hasard :
+- période, avec ou sans erreurs ni sauts de phase ;
+- clé de 7 décalée par bloc ou par ligne, à toute phase ;
+- clé progressive ;
+- autoclés sur le clair et sur le chiffré ;
+- clé courante en anglais, allemand, français ou latin ;
+- clé numérique de toute sorte ;
+- clé transposée à la K3 ;
+- convention changée par ligne.
+
+Il reste trois possibilités, qu'aucun test sur les 24 lettres des cribs ne peut trancher :
+1. **L'alphabet n'est pas un alphabet à mot-clé** (tableau tourné ou retourné d'une façon non standard, pochoir). Avec un alphabet libre, la plupart de ces familles deviennent trop lâches pour être jugées.
+2. **La correspondance n'est pas lettre à lettre.** E. Dunin (2023) : Sanborn parle de rangs dans le clair et « recule dès qu'on précise 1:1 ». Les compositions avec transposition sont largement couvertes par le registre (`docs/two_systems_landscape.md`, preuve de Bean pour toute permutation avec une clé périodique), mais pas pour toute clé.
+3. **Une clé choisie à la main, sans générateur** (liste de mots, pochoir posé sur le tableau : « Stencil Patterns, circa 1988 », dossier scellé par Sanborn aux AAA).

@@ -1,0 +1,8 @@
+  type 0 VIG : 3 hors 0–9 ; alphabet ZXWVSRQPOMKJHFEDBAYLGNITUC ; clé ·2127·2496·0354261263540
+  type 0 VIG : 3 hors 0–9 ; alphabet ZYXWVRQPOMKJHFEDBAGNILTUCS ; clé ·4249·2574·0339252371550
+  type 0 VIG : 3 hors 0–9 ; alphabet ZXWVSRQPMKJFEDBAYLGNIHCUOT ; clé ·2109422·6·0154285685970
+  type 0 VARB : 3 hors 0–9 ; alphabet CUTINGLYABDEFHJKMOPQRSVWXZ ; clé ·2127·2496·0354261263540
+  type 0 VARB : 3 hors 0–9 ; alphabet SCUTLINGABDEFHJKMOPQRVWXYZ ; clé ·4249·2574·0339252371550
+  type 0 VARB : 3 hors 0–9 ; alphabet TOUCHINGLYABDEFJKMPQRSVWXZ ; clé ·2109422·6·0154285685970
+K4 : minimum de valeurs hors 0–9 : 3
+témoins K4 mélangé (30) : [np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(4), np.int64(5), np.int64(5), np.int64(5), np.int64(5)]
