@@ -13,6 +13,8 @@
 | `results_recherche_K4_AZ.txt` | K4, σ = A–Z |
 | `temoins.txt`, `results_recherche_temoins*.txt` | 12 K4 mélangés (un terme), 8 (deux termes) |
 | `ctl_procede*.txt`, `results_ctl_procede*.txt` | deux contrôles positifs (faux K4 de procédé connu) |
+| `t35_fautes_de_recopie.c`, `results_t35.txt` | T35 : le « 7 » vu comme des fautes de recopie d'une feuille de 7 colonnes |
+| `agrandir_signes_nova.py` | agrandit les 8 signes de la feuille NOVA depuis `Personal Folders/pi/K4 NOVA.jpg` (image non versionnée) |
 
 ## 1. La borne : ce qu'un chiffre déchiffrable peut faire
 
@@ -87,3 +89,21 @@ Pour les meilleurs procédés, la signature jointe (profil de l'écart 7, au moi
   2. **Un choix délibéré** : Sanborn aurait fixé des lettres de clé pour créer des doublets visibles, comme motif. Il emploie déjà des lettres doublées de remplissage dans le fragment Zola. Mais 3 doublets correspondent à des lettres claires connues, ce ne sont donc pas des nulles.
   3. **Un élément qui n'est pas lettre à lettre** : homophones, nulles, correspondance « non 1:1 » à laquelle Sanborn ne s'est jamais laissé enfermer.
 - **Conséquence pratique.** Les doublets alignés ne sont pas une empreinte de clé à retrouver. Ce sont soit du bruit, soit la trace d'une intervention manuelle.
+
+## 4. T35 : et si le « 7 » était une faute de recopie ? (hors cribs dans l'idée, cribs pour le test)
+
+**Idée.** Aucun chiffre déchiffrable ne produit l'empreinte de K4 (§1–§2). Une **recopie à la main** depuis une feuille de 7 colonnes la produit, en revanche, sans effort :
+- l'œil qui glisse sur la case du dessus recopie la lettre 7 rangs avant. Cela donne des répétitions à l'écart 7, jamais à 14 : c'est exactement le profil « de proche en proche » ;
+- la lettre précédente répétée au même endroit de chaque ligne (pli, blanc entre deux groupes) donne des doublets dans une seule colonne.
+
+C'est le seul modèle rencontré qui explique les deux traits à la fois. Il désigne **sans ajustement** les lettres fautives : la seconde de chaque répétition. Dans les cribs, cela fait M = {22, 26, 33, 68, 72}. Le chiffre sous-jacent pourrait alors être simple, par exemple une période 7 (feuille de 7 colonnes, KRYPTOS).
+
+**Test.** On retire M des cribs, il reste 19 lettres, puis on reteste les clés périodiques p = 1–26 de deux façons : (A) alphabet quelconque, Quagmire III, solveur exact ; (B) 101 088 alphabets à mot-clé, 5 types. On compare avec 200 masques de 5 positions de crib tirés au hasard.
+
+| | Masque M | Masques au hasard |
+|---|---|---|
+| (A) cas compatibles sur 78, alphabet quelconque | 16 (aucun à p = 7 ; surtout p ≥ 14) | 18,9 en moyenne ; 41 sur 60 font au moins aussi bien |
+| (B) erreurs encore nécessaires à p = 7, alphabets à mot-clé | 7 | 5 à 7 (surtout 6) |
+| (B) Σ e_min pour p ≤ 13 | 87 | 83,6 en moyenne ; 193 sur 200 font au moins aussi bien |
+
+**Résultat.** Retirer les lettres désignées par le modèle n'aide **pas**. M fait même un peu moins bien que des masques au hasard. Le modèle « fautes de recopie + clé simple » est donc **éliminé** : avec ou sans ces lettres, aucune clé périodique ne s'ajuste. Des fautes de recopie restent possibles, mais le chiffre qui est dessous n'est pas simple, et on ne gagne rien.
