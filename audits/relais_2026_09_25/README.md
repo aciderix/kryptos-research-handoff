@@ -262,6 +262,8 @@ Chaque colonne a sa graine libre. On teste exactement, par élimination de Gauss
 
 **T16 sur une grille de 105 = 15 × 7** (clé de 1 à 7 lettres écrite en lignes de 7 et relue par colonnes, à la manière de K3, sur les 105 cases d'un K4 d'origine) : contrôle retrouvé (e = 0, témoins 8–9). Résultat sur 1,4 M alphabets (`../moteur_2026_09_25/res_T16_grille105.txt`) : **K4 au mieux 7 erreurs, témoins 6–8 (p = 0,87). Aucun signal** : la grille de 105 ne fait pas mieux que celles de 97 et 98.
 
+**Complément (autre session, même nuit ; base 7 §12.17).** La grille 2 × 13 est, en tant que groupe, Z/26 (théorème chinois des restes). Elle ne diffère de T18 que par le remplissage au mot-clé. Tous les groupes abéliens d'ordre 26 à 36 (grilles 5 × 6 et 6 × 6, trifide, XOR 5 bits) ont été testés avec un alphabet quelconque (T36, `../autocle_groupes_2026_09_25/`). Résultat : impossible sans erreur, et au niveau des témoins avec une erreur. Avec deux codages libres, K4 est compatible sans erreur (T36b).
+
 ## Neuvième partie (25/09, nuit) : relais Gemini, « sept détails fondamentaux »
 
 | Point | Vérification | Verdict |

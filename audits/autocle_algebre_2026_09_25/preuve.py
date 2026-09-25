@@ -7,8 +7,9 @@ Modèle. Domaine σ : x_i = σ(clair_i), y_i = σ(chiffré_i).
   VIG : y_i = x_i + x_{i-7}     BEAU : y_i = x_{i-7} - x_i     VAR : y_i = x_i - x_{i-7}
 Les deux cribs (21–33 et 63–73) sont distants de 42 = 6×7 : chaque classe mod 7 contient donc
 des positions des DEUX blocs, et les chaînes de récurrence les relient. On rassemble toutes les
-égalités que les cribs imposent à σ, puis on teste si une égalité σ(X)=σ(Y) (X≠Y) ou σ(X)=0
+égalités que les cribs imposent à σ, puis on teste si une égalité σ(X)=σ(Y) (X≠Y)
 est dans l'espace engendré (mod 2 ET mod 13, donc mod 26). Si oui, aucune permutation ne convient.
+(Version du 25/09 au soir : « σ(X)=0 » était aussi compté comme contradiction, à tort ; corrigé.)
 """
 import itertools
 CT="OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR"
@@ -56,9 +57,8 @@ def inspan(vec,M,p):
     return len(rref(M,p))==len(rref(M+[[x%p for x in vec]],p))
 
 def contradiction(rows):
-    for X in range(26):
-        e=[1 if c==X else 0 for c in range(26)]
-        if inspan(e,rows,2) and inspan(e,rows,13): return ("σ(%c)=0"%(65+X))
+    # Correction du 25/09 (nuit) : « σ(X)=0 » n'est PAS une contradiction (une permutation envoie
+    # toujours une lettre sur 0). Seules deux lettres distinctes forcées sur la même valeur le sont.
     for X,Y in itertools.combinations(range(26),2):
         e=[1 if c==X else 25 if c==Y else 0 for c in range(26)]
         if inspan(e,rows,2) and inspan(e,rows,13): return ("σ(%c)=σ(%c)"%(65+X,65+Y))

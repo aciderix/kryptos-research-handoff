@@ -267,6 +267,9 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | LFSR d'ordre 1–5 | 101 086 alphabets | **Éliminé** | `relais_2026_09_25` 5ᵉ partie |
 | « Fibonacci au pas 7 » (colonnes mod 7 en récurrence d'ordre 2) | — | **Éliminé** | idem 7ᵉ partie |
 | Agrandissement des images NOVA des 8 signes | deux agrandissements indépendants | **Bloqué** : taches opaques, signes déjà masqués en 2006 | idem 6ᵉ partie ; `procedes` §4 |
+| T36 | Autoclé sur le clair à l'écart 7 dans 23 groupes d'ordre 26 à 36 (grilles 5 × 6, 6 × 6, trifide, XOR 5 bits), même codage partout ; 3 conventions | **Éliminé sans erreur** (67 cas sur 67, optimum prouvé ; 197/197 contrôles retrouvés) ; **non concluant** avec une erreur (83 % des témoins font aussi bien) | `autocle_groupes_2026_09_25` |
+| T36b | Idem, codage du chiffré indépendant du codage du clair (les deux libres) | **Non concluant** : K4 compatible sans erreur, comme 55 à 95 % des témoins | idem |
+| Relais « cinq angles morts » (25/09, nuit) | 105 = 15 × 7, place des cribs, autoclé hors alphabet, doublets, cadran | Place des cribs : **faux** (base 4 juste) ; 105 : calcul circulaire, lecture déjà notée, sans effet ; doublets et cadran : déjà connus ou éliminés ; autoclé : T36 | base 7 §12.17 |
 
 
 ### F bis. 25/09 : relecture intégrale de kryptosbot.com (archive, findings, research-questions)
@@ -284,6 +287,20 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | Lettre de l'avocat sur *The Lost Symbol* (2009) | Lue sur le montage ; l'attribution du paragraphe du chapitre 53 est de KryptosBot | idem, A.9 |
 | État amont (findings) : Stehle ≈ 1/205, largeur 21 indépendante des W, 13 302 candidats sans survivant, Mengenlehreuhr et Weltzeituhr sans signal | Repris ; cohérent avec nos mesures | idem, C |
 | Rapport amont `docs/REAL_K4_CURRENT_POSITION.md` | **Non fait** : hors de notre périmètre d'accès | — |
+
+### F ter. 25/09 (nuit) : travaux d'une session parallèle, et leur recoupement
+| Tentative | Résultat | Où |
+|---|---|---|
+| Relecture du dépôt amont `jcolinpatrick/kryptos` (rapports, mémoires, 278 commits) | **Réussi** : dossiers AAA expurgés, E0d de Bean vérifiée (faible après correction), négatifs de mai–juin ; aucun résultat positif | base 11 |
+| Listes Oranchak et liste anglaise amont (863 080 alphabets), toutes familles, 30 témoins | **Sans signal** (p = 0,81 à 1) | base 11 §8–9 ; `moteur_2026_09_25/res_T2c_anglais_amont.txt` |
+| Relais « cinq angles morts », vérifié une seconde fois | Mêmes verdicts que la base 7 §12.17 | `relais_2026_09_25` 8ᵉ partie |
+| T16 sur une grille de 105 = 15 × 7 | **Sans signal** (K4 7 erreurs, témoins 6–8, p = 0,87) | `moteur_2026_09_25/res_T16_grille105.txt` |
+| Autoclé à l'écart 7 sur une grille 2 × 13 remplie par mot-clé (`k4coord.c`) | **Éliminé** (K4 3 fausses sur 10, comme les témoins) | `relais_2026_09_25` 8ᵉ partie |
+| Preuve algébrique : autoclé à l'écart 7, alphabet commun quelconque | **Réussi** sans erreur (impossible, 3 conventions ; preuve à la main de T18). « Deux erreurs nécessaires en Vigenère » **corrigé** : une suffit (66 ou 73) | `autocle_algebre_2026_09_25` ; `autocle_groupes_2026_09_25/verif_une_erreur.py` |
+| Relais Gemini « sept détails » ; lettres entourées du tableau | Points 1–6 déjà connus ; les lettres entourées sont quatre recherches ordinaires dans le tableau, sans lien avec les cribs | `relais_2026_09_25` 9ᵉ partie |
+| `K4_cheat_sheet.txt` et `CONUMDRUM.txt` (dossiers personnels) | **Éliminé** : masques jetables ; CONUMDRUM réfuté par EASTNORTHEAST | base 7 §12.18 |
+| *Secret Past* (1992) : lettre Drysdale de 1995 | Relevé : œuvre chez un collectionneur privé, aucune photo publique | base 7 §12.19 |
+| Clé A–Z presque nulle sur EASTNORTHEAST (9/13 à ±2) | Mesuré : p = 0,006 après correction ; ne se prolonge pas (Viterbi ±2, p = 0,08) ; localisation sans puissance | `procedes_2026_09_25` §6 |
 
 ---
 
@@ -325,6 +342,7 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | Rectangle 14 × 7 « avec le ? » tenu pour la feuille de travail | Hypothèse de mise en page | base 9 §7 |
 | Qui a exécuté K4 : Scheidt (*Museum & Arts* 1990) ou Sanborn (WaPo 1999) | Tranché pour Sanborn (Scheidt 1991 et 2015) | base 5 ; base 6 |
 | Martinsburg : « aucune convention simple » | ASCII 7 bits | `martinsburg_2026_09_25` |
+| Autoclé à l'écart 7, alphabet commun : « deux erreurs nécessaires en Vigenère » (preuve algébrique, première version) | Une seule suffit (66 ou 73) : le script comptait σ(X) = 0 comme une contradiction | `autocle_algebre_2026_09_25` ; base 7 §12.17 |
 
 ---
 
@@ -343,6 +361,7 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | Déclassification de « The Fourth Breakthrough? » (NSA 1999) | Demande administrative | Non faite |
 | Perturbation du chiffré, étape B (amont) | — | Non faite |
 | 275 couples d'erreurs de l'attaque sur le texte entier | Faible priorité | Non faits |
+| Autoclé Vigenère à l'écart 7 avec deux alphabets libres, sur les 97 lettres | Les cribs ne tranchent pas (T36b) ; il faut noter le clair entier, et le recuit a échoué à son contrôle | Ouvert |
 | Passes SAT inachevées (route de K3 : 148 configurations ; grilles irrégulières : 32 ; contrôles nuls progressive et ligne + colonne) | Calculs arrêtés | Non repris |
 | 26 photos KryptosBot, OCR des dossiers AAA 9/4 et 9/5, vidéos et longs fils du groupe | Priorité basse | Non faits |
 
