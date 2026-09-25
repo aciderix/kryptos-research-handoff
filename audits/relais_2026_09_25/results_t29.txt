@@ -1,0 +1,33 @@
+phase 0 : 4 blocs de 7 portent des lettres des cribs
+phase 1 : 6 blocs de 7 portent des lettres des cribs
+phase 2 : 6 blocs de 7 portent des lettres des cribs
+phase 3 : 6 blocs de 7 portent des lettres des cribs
+phase 4 : 5 blocs de 7 portent des lettres des cribs
+phase 5 : 5 blocs de 7 portent des lettres des cribs
+phase 6 : 4 blocs de 7 portent des lettres des cribs
+101086 alphabets, 21 chiffrés, seuil 4, threads 4
+K4      0 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  1 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  2 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  3 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  4 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  5 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  6 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  7 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  8 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin  9 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 10 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 11 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 12 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 13 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 14 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 15 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 16 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 17 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 18 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 19 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+témoin 20 : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0  | minimum 5
+
+real	5m16.832s
+user	20m52.989s
+sys	0m0.127s

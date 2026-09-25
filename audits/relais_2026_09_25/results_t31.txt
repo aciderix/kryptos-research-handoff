@@ -1,0 +1,31 @@
+13735 configurations, 101086 alphabets, 21 chiffrés
+K4 e=3 p=13 saut +1 en 31 et -1 en 70 type=3 VIG alphabet=EPIRUSABCDFGHJKLMNOQTVWXYZ
+K4 e=3 p=13 saut +1 en 31 et -1 en 70 type=3 VIG alphabet=ESQUIRABCDFGHJKLMNOPTVWXYZ
+K4 e=3 p=13 saut +1 en 31 et -1 en 70 type=3 VIG alphabet=EXPIRSABCDFGHJKLMNOQTUVWYZ
+K4 e=3 p=13 saut +1 en 31 et -1 en 70 type=3 VIG alphabet=EXPRSDABCFGHIJKLMNOQTUVWYZ
+K4 e=3 p=13 saut +1 en 31 et -1 en 70 type=3 VIG alphabet=ZEPHYRSABCDFGIJKLMNOQTUVWX
+K4      0 : minimum (p ≤ 13) : 3 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:5 e=4:164 e=5:0
+témoin  1 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:9 e=5:0
+témoin  2 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:120 e=5:0
+témoin  3 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:98 e=5:0
+témoin  4 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:5 e=5:0
+témoin  5 : minimum (p ≤ 13) : > 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0 e=5:0
+témoin  6 : minimum (p ≤ 13) : 3 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:1 e=4:26 e=5:0
+témoin  7 : minimum (p ≤ 13) : > 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:0 e=5:0
+témoin  8 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:3 e=5:0
+témoin  9 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:59 e=5:0
+témoin 10 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:7 e=5:0
+témoin 11 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:50 e=5:0
+témoin 12 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:62 e=5:0
+témoin 13 : minimum (p ≤ 13) : 3 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:1 e=4:56 e=5:0
+témoin 14 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:11 e=5:0
+témoin 15 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:17 e=5:0
+témoin 16 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:1 e=5:0
+témoin 17 : minimum (p ≤ 13) : 3 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:5 e=4:24 e=5:0
+témoin 18 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:6 e=5:0
+témoin 19 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:4 e=5:0
+témoin 20 : minimum (p ≤ 13) : 4 ; histogramme : e=0:0 e=1:0 e=2:0 e=3:0 e=4:2 e=5:0
+
+real	6m11.094s
+user	12m12.496s
+sys	0m0.063s

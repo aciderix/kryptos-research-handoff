@@ -105,3 +105,30 @@ Chaque idée est mesurée avant d'être retenue.
   - une curiosité mesurée : KZ, TJ, DI (p ≈ 1,4 × 10⁻³, après coup) ;
   - un lien recadré, faible mais réel : GIRASOL passe la contrainte des doublets (p ≈ 0,01 parmi les alphabets de Sanborn) ;
   - deux prédictions précises pour le jour où l'on pourra lire les 8 signes.
+
+---
+
+# Troisième partie (25/09, suite) : modèles « à la Sanborn », testés exactement
+
+Chaque modèle ci-dessous est un **geste plausible d'un artiste qui chiffre à la main**. Chacun a un contrôle positif (chiffré synthétique retrouvé) et des témoins « K4 mélangé ».
+
+| Test | Modèle | Portée | K4 | Témoins | Verdict |
+|---|---|---|---|---|---|
+| **T29** `t29_pas7_phases.c` | « Disque tourné de temps en temps » : clé de 7 + décalage libre par bloc de 7, blocs commençant **à n'importe quelle phase** (kwsweep et k4x ne testaient que la phase 0). Ce modèle explique à lui seul les coïncidences à l'écart 7, les doublets à phase fixe et le conflit 65/72 | 101 086 alphabets à mot-clé × 5 types × VIG/BEAU (inverses et VARB couverts) × 7 phases | **au moins 5 erreurs** | au moins 5 (20 témoins) | **Éliminé** pour les alphabets de Sanborn |
+| **T30** `t30_saut_de_phase.c` | Clé périodique où Sanborn « perd sa place » : saut de phase de ±1 à ±3, **y compris dans un crib** (le registre ne couvrait que les sauts entre les cribs) | p = 2–13, x = 22–73, alphabet **quelconque**, 3 conventions ; 11 232 cas | compatible dans 115 cas | **491 attendus** | Sous le hasard. Le seul groupe rare (p = 8, Beaufort, saut +2 entre 64 et 67 ; 1 à 3 % des témoins de même égalité de Bean, `t30b_bean.c`) est une fluctuation parmi des milliers de cas |
+| **T31** `t31_saut_motcle.c` | Même modèle (un ou deux sauts, dont un dans chaque crib), **alphabets de Sanborn** | p = 2–13, sauts ±1 à ±3, 13 735 configurations × 101 086 alphabets | au moins 3 erreurs (5 cas, une seule configuration, alphabets sans lien avec Sanborn) | 3 à 4 (et plus) | Au niveau du hasard |
+| **Clé courante non anglaise** (k4x `-e r` avec d'autres tables) | Clé tirée d'un texte **allemand** (thème Berlin), **français** ou **latin** ; alphabets à mot-clé | quadrigrammes : 11 livres allemands, 10 français, 2 latins ; contrôle positif allemand retrouvé (−4,26) | −5,12 / −4,80 / −5,06 | p = 0,76 / 0,24 / 0,71 | **Aucun signal** (`results_cle_courante_langues.txt`) |
+
+## La maquette de 1988, relue en entier (`maquette_1988_erreurs.py`)
+
+Le bloc de démonstration (7 × 21, Vigenère A–Z, clé RUG) avait une « dernière ligne altérée au relevé ». **Elle ne l'est pas.** On y trouve trois erreurs de Sanborn :
+1. **Une lettre omise** en 133, le T de « (T)HE KEY ». Toute la suite de la clé glisse d'un rang, et la dernière ligne se lit « WITHOUT HE KEY ETRANS… ». C'est l'erreur de l'X omis de K2 (« charabia »), vingt ans avant qu'il l'avoue.
+2. **La même erreur de table, deux fois** (121 et 127) : clair I avec la clé U donne **B** au lieu de C, une case trop à gauche. D'où « DECHPHER » et « WHTHOUT ».
+3. « INTU » pour « INTO » (position 20) : faute du clair, ou lecture du relevé.
+
+Avec le petit fragment de 97 lettres (4 erreurs, dont 3 du même écart), cela fait deux chiffres manuels de Sanborn, et dans les deux ses erreurs sont **systématiques** : même case mal lue, même glissement de clé, lettre omise.
+
+## Bilan de la troisième partie
+- **Quatre modèles « artistiques » nouveaux**, que les tests antérieurs ne couvraient pas, sont éliminés ou au niveau du hasard : phases de blocs libres, sauts de phase dans les cribs, clé courante en allemand, français ou latin.
+- **Fait documentaire nouveau** : la maquette de 1988 porte les mêmes types d'erreurs que les chiffres ultérieurs de Sanborn (lettre omise avec glissement de clé, erreur de table répétée).
+- **Défaut corrigé en cours de route** : dans T30 et T31, l'indice de clé était d'abord réduit modulo 26 avant de l'être modulo p. Le contrôle positif de T30 passait quand même, car il était construit avec la même erreur ; celui de T31 a révélé le défaut. Tous les résultats ci-dessus sont ceux de la version corrigée.

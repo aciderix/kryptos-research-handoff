@@ -25,6 +25,9 @@ static uint32_t lc_used;
 static int lc_vcon[LC_MAXV][LC_MAXC], lc_nvc[LC_MAXV];
 static int lc_trail[LC_MAXV], lc_nt;
 static long lc_nodes, lc_limit;
+#ifdef LC_THREADPRIVATE /* une copie des variables du solveur par thread OpenMP (t30, 25/09) */
+#pragma omp threadprivate(lc_con, lc_ncon, lc_nvar, lc_val, lc_used, lc_vcon, lc_nvc, lc_trail, lc_nt, lc_nodes, lc_limit)
+#endif
 
 static void lc_reset(int nvar) {
   lc_nvar = nvar; lc_ncon = 0; lc_used = 0; lc_nt = 0; lc_nodes = 0;
