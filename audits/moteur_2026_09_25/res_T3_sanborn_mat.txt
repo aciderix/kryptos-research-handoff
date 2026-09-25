@@ -1,0 +1,43 @@
+== résumé (1395188 alphabets, 30 témoins K4 mélangé, graine 5000, SMAX 3) ==
+p= 1 e_min                        K4 14 | témoins min 14 médiane 15 max 16 | p = 0.258
+p= 1 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 1 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 2 e_min                        K4 13 | témoins min 12 médiane 14 max 14 | p = 0.484
+p= 2 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 2 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 3 e_min                        K4 13 | témoins min 12 médiane 13 max 13 | p = 1.000
+p= 3 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 3 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 4 e_min                        K4 11 | témoins min 11 médiane 12 max 12 | p = 0.452
+p= 4 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 4 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 5 e_min                        K4 10 | témoins min 10 médiane 11 max 11 | p = 0.452
+p= 5 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 5 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 6 e_min                        K4 10 | témoins min  9 médiane  9 max 10 | p = 1.000
+p= 6 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 6 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 7 e_min                        K4  9 | témoins min  8 médiane  9 max 10 | p = 0.968
+p= 7 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 7 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 8 e_min                        K4  9 | témoins min  7 médiane  8 max  9 | p = 1.000
+p= 8 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 8 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 9 e_min                        K4  8 | témoins min  8 médiane  8 max  9 | p = 0.774
+p= 9 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p= 9 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=10 e_min                        K4  7 | témoins min  5 médiane  7 max  7 | p = 1.000
+p=10 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=10 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=11 e_min                        K4  6 | témoins min  5 médiane  6 max  7 | p = 0.903
+p=11 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=11 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=12 e_min                        K4  5 | témoins min  5 médiane  6 max  6 | p = 0.484
+p=12 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=12 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=13 e_min                        K4  5 | témoins min  3 médiane  5 max  5 | p = 1.000
+p=13 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=13 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=14 e_min                        K4  6 | témoins min  4 médiane  5 max  5 | p = 1.000
+p=14 eS0 (toutes à la Sanborn)   K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000
+p=14 eS1 (≤ 1 quelconque)       K4 99 | témoins min 99 médiane 99 max 99 | p = 1.000

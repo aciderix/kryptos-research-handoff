@@ -1,0 +1,5 @@
+famille L : 19 lettres dans les cribs, 3 composantes, 6 équations
+clés exactes : 374940 (rejetées pour collision : 23387812)
+famille L : 374940 clés exactes ; meilleur score -4.466 par quadrigramme ; 750.6 s
+clair : KUQBTIMESITWASTHEWORSEASTNORTHEASTOFTIMESITWASTHEAGEOFWISDOMITWBERLINCLOCKERLINCLOCKFOOLISHNESSIT
+σ : AJZMKQBLUCNIDPXESOFVTGWRHY  clé : 1 4 11 15 18 12 13 13 22 0

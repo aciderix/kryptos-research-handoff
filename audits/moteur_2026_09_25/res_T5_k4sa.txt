@@ -1,0 +1,48 @@
+=== K4, famille P
+famille P : 21 lettres dans les cribs, 1 composantes, 4 équations
+clés exactes : 0 (rejetées pour collision : 17576)
+famille P : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== K4, famille L
+famille L : 21 lettres dans les cribs, 1 composantes, 4 équations
+clés exactes : 0 (rejetées pour collision : 11881376)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 1 (ALJSLOIIBWWBFRNQXVRTGFFSKTQDQZJKJSDLZKWSUKURUCOZGGOXBHDPYUBZBLPWWCTKHITKVOTMNUUSAQTENGPRESKOFIAAK), famille L
+famille L : 20 lettres dans les cribs, 1 composantes, 5 équations
+clés exactes : 0 (rejetées pour collision : 456976)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 2 (TLKSUOIABIWBBRYQXTRMGFPSWTQKQXJKCSILZUWSAJERUAIZAGONBHDPEWTFFLPOVDFKUZTKKWNJZTUGDQVKCGLSKUOBSNRHO), famille L
+famille L : 23 lettres dans les cribs, 2 composantes, 3 équations
+clés exactes : 0 (rejetées pour collision : 308915776)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 3 (JLLSDOIWBNWBNRPQXTRZGFKSGTQZQTJKDSGLZHWSUOKRURIZTVOXBHUGVOFPFFPYWITKABNKLSBCKUUJAQTKCOIASDUMWAKEE), famille L
+famille L : 21 lettres dans les cribs, 2 composantes, 5 équations
+clés exactes : 0 (rejetées pour collision : 456976)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 4 (KLUSIOIIBFWBYRVQXMRFGFWSDTQXQJJKISKLZUWSEJCRKKAOQGOPBHDPTWTKLBGBLGUKUZTNNDPOZUUNAZTOSEACKWTFSARHV), famille L
+famille L : 22 lettres dans les cribs, 3 composantes, 5 équations
+clés exactes : 0 (rejetées pour collision : 456976)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 5 (LLDSAOINBBWBPRTQXZRPGFGSKTQTQCJKGSULZAWSKJARUWUKZLOXHGKBTWIWFFPYIKTVEFOBNDOIZOUJTQMECSKNDUUVSKRHA), famille L
+famille L : 20 lettres dans les cribs, 1 composantes, 5 équations
+clés exactes : 0 (rejetées pour collision : 456976)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 6 (ULISWOIFBNWBVRTQXFRKGFDSZTQJQDJKKSHLZUWSCJRROZAKLGOXBHDPMUTAOFPYWUTKKZTBGNPGVEUKAQTSLINCWBUKSAEOI), famille L
+famille L : 22 lettres dans les cribs, 2 composantes, 4 équations
+clés exactes : 0 (rejetées pour collision : 11881376)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 7 (DLASIOIBBYWBTRMQXPRWGFKSXTQCQIJKUSULZEWSAJSEUGKKRGOVOHOPZWTDFFPLBHBLCITNNDFKZSUJAQTAWGKZKUOTVRKUN), famille L
+famille L : 19 lettres dans les cribs, 2 composantes, 7 équations
+clés exactes : 0 (rejetées pour collision : 676)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 8 (ILWSNOINBPWBTRZQXKRGGFZSTTQDQGJKHSALZKWSRJREUAAKDBOXBHGLFKBKFOPYWUTIATVKOZPULUUJOQTKCNFCVUSMSDEWI), famille L
+famille L : 23 lettres dans les cribs, 5 composantes, 6 équations
+clés exactes : 0 (rejetées pour collision : 17576)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 9 (ALISFOIYBVWBMRFQXWRDGFXSJTQIQKJKUSULZCWSUDZBUTOKIGOLRHDPPWTSUKPOFATKRZTBNQGHKUNCEVTNJGKZKOSBLWAAE), famille L
+famille L : 19 lettres dans les cribs, 1 composantes, 6 équations
+clés exactes : 0 (rejetées pour collision : 17576)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s
+=== témoin 10 (AOBKROIIOBILNRNOXPTBGFFLOWQGQZNKSCSTZKTSTAQSUCKZWJPABWDFDLTULSGYXFQRVJTWKBUGVHUSURKKKHDWUMJZAEPEI), famille L
+famille L : 22 lettres dans les cribs, 2 composantes, 4 équations
+clés exactes : 0 (rejetées pour collision : 23762752)
+famille L : 0 clés exactes ; meilleur score -10638297872340425182000709632.000 par quadrigramme ; 0.0 s

@@ -1,0 +1,12 @@
+== résumé (101086 alphabets, 30 témoins K4 mélangé, graine 5000) ==
+p7 pure                                  K4  10.000 | témoins min   9.000 médiane  10.000 max  11.000 | p = 0.935
+p7 + décalage ligne cuivre              K4   7.000 | témoins min   7.000 médiane   8.000 max   9.000 | p = 0.290
+p7 + décalage ligne de 7                K4   7.000 | témoins min   5.000 médiane   7.000 max   7.000 | p = 1.000
+blocs T11/T11b                           K4   7.000 | témoins min   7.000 médiane   8.000 max   9.000 | p = 0.097
+T16 clé transposée                     K4   9.000 | témoins min   8.000 médiane   9.000 max   9.000 | p = 1.000
+autoclé clair L≤13                    K4   4.000 | témoins min   4.000 médiane   5.000 max   5.000 | p = 0.194
+autoclé chiffré (cribs justes, max)    K4  10.000 | témoins min   9.000 médiane  10.000 max  10.000 | p = 0.645
+clé courante anglaise (score, max)      K4  -4.983 | témoins min  -5.150 médiane  -5.006 max  -4.627 | p = 0.355
+p7 convention par ligne cuivre           K4   9.000 | témoins min   7.000 médiane   9.000 max  10.000 | p = 0.968
+p7 convention par ligne de 7             K4   9.000 | témoins min   7.000 médiane   8.000 max   9.000 | p = 1.000
+p7 convention alternance 2/3             K4   9.000 | témoins min   8.000 médiane   9.000 max  10.000 | p = 0.968

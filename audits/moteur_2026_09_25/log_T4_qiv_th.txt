@@ -1,0 +1,3 @@
+T16 : 5835 partitions distinctes
+Quagmire IV : 497 alphabets thématiques
+alphabets 497, 31 chiffrés, 271.6 s
