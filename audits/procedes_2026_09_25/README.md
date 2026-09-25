@@ -150,3 +150,9 @@ Les deux équerres touchent le bord droit. Ces amas redisent les mêmes répéti
 - Sur le crib, EASTNORTHEAST n'est pas retrouvé : quatre de ses décalages (+11, +10, +6, +3) sortent de ±2.
 
 **Lecture.** L'écart est réel au niveau de 0,6 % après correction. Mais il ne se prolonge pas de façon détectable hors du crib. Le projet a regardé des centaines de statistiques ; un p de 0,006 y est attendu de temps en temps. À garder comme un fait à expliquer : clé proche de A sur 21–33, mais pas sur 63–73.
+
+**Localisation sans clair (25/09, nuit).** Idée : une zone chiffrée par des décalages de ±2 garde dans ses lettres chiffrées la trace des fréquences de l'anglais (lettres autour de E, T, A, O). On fait glisser une fenêtre de 13 lettres sur K4 et on note sa vraisemblance sous « anglais brouillé de ±2 ».
+- Résultat : 21–33 donne +1,36, 63–73 donne 0,03. Des fenêtres voisines de 24–44 sont légèrement positives, et 80–92 aussi.
+- Mais 68 % des K4 mélangés ont une fenêtre qui fait au moins aussi bien : **le test n'a aucune puissance**. Sur 13 lettres, les fréquences seules ne distinguent rien.
+- La zone du phénomène ne peut donc pas être localisée à partir du chiffré seul.
+- **Explication écartée** : une clé en « période 7 + décalage par ligne du cuivre » presque nulle sur la ligne 26 (celle d'EASTNORTHEAST). Elle imposerait une clé constante sur chaque ligne de BERLINCLOCK, alors qu'on lit 12, −6, −2 sur la ligne 27 et 10, 11, 6, 10, −12, −9, −13, 0 sur la ligne 28.
