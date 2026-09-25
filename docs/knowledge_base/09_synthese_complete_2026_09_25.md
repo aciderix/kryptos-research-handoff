@@ -251,6 +251,9 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 
 ## 6. Où en est la question du « 7 »
 
+> **Ajout du 25/09 (nuit) : preuve algébrique** (`audits/autocle_algebre_2026_09_25/`). L'autoclé sur le clair à l'écart 7 — le **seul** procédé que le simulateur retenait pour l'excès à l'écart 7 — est **impossible sans erreur**, pour un alphabet mixte σ quelconque commun aux deux côtés (Q3), dans les trois conventions : Vigenère et Variante forcent σ(L) = 0, Beaufort force σ(K) = σ(S). C'est une contradiction exacte tirée des seules 24 lettres, sans mot-clé ni budget d'erreur. Raison : les deux cribs sont distants de 42 = 6 × 7, donc chaque classe mod 7 relie les deux blocs, et les auto-chiffrements 32 (S→S) et 73 (K→K) forcent σ(N)=0 et σ(L)=0. En Vigenère, il faut **deux** erreurs, sur l'une des paires (25,66), (25,73), (32,66), (32,73), pour lever la contradiction — et même alors, pas d'anglais. L'empreinte « écart 7 » n'est donc pas une autoclé sur le clair propre.
+
+
 **Ce qui est acquis.**
 - Le « 7 » est dans les **positions du chiffré** (écart 7, doublets ≡ 4 mod 7), pas dans une période de clé.
 - Il est propre à K4 (K1–K3 n'en ont pas).
