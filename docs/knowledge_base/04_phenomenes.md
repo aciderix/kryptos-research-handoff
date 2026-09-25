@@ -41,6 +41,7 @@
   - Ce n'est **pas** une substitution dépendant de i mod 7 : en 65 et 72, P chiffre R puis C. Ce n'est pas non plus une autoclé sur le chiffré à l'écart 7.
   - Aucune des 10 familles simulées (`sim_7.py`) ne concentre les doublets comme K4.
   - **Profil (25/09, `audits/simulateur_2026_09_25/`)** : écart 7 en excès, mais écarts 14, 21, 28, 35, 42, 49 au niveau du hasard (2, 3, 4, 1, 3, 0). Le « 7 » relie des **voisins**, pas une période. Sur 52 procédés simulés, seule l'autoclé sur le clair à l'écart 7, forme Vigenère, produit ce profil. Elle est éliminée pour les alphabets de Sanborn (T18, T27, T34). Aucun procédé positionnel ne concentre les doublets.
+  - **Borne (25/09, `audits/procedes_2026_09_25/`)** : dans un chiffre déchiffrable, un doublet revient à « prédire » la lettre claire suivante. Aucune clé indépendante du texte ne rend probables 5 doublets sur 14 dans une colonne : 0 avec A–Z ou KRYPTOS, 6 % au mieux avec des alphabets libres. Une recherche automatique sur environ 20 000 procédés manuels n'en trouve aucun. Les doublets alignés sont soit un hasard, soit une intervention manuelle (clé choisie), soit un élément qui n'est pas lettre à lettre.
   - **Le mécanisme du 7 est la question ouverte principale.**
 
 ## Phénomène 3 — Une seule lettre claire, plusieurs chiffrées, mais rapprochées

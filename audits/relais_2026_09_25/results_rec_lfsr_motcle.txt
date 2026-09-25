@@ -1,0 +1,21 @@
+== 101086 alphabets × 2 sens × 5 types × 3 conventions ; 30 témoins K4 mélangé ==
+21–33 + 63–73  ordre 1 (22 équations, 2 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 + 63–73  ordre 2 (20 équations, 3 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 + 63–73  ordre 3 (18 équations, 4 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 + 63–73  ordre 4 (16 équations, 5 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 + 63–73  ordre 5 (14 équations, 6 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 seul       ordre 1 (12 équations, 2 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 seul       ordre 2 (11 équations, 3 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 seul       ordre 3 (10 équations, 4 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+21–33 seul       ordre 4 ( 9 équations, 5 inconnues) : K4        4 | témoins min 0 médiane 3 max 15 | p = 0.4516 | témoins avec au moins un cas : 76.7 %
+21–33 seul       ordre 5 ( 8 équations, 6 inconnues) : K4     2476 | témoins min 2274 médiane 2720 max 3636 | p = 0.8387 | témoins avec au moins un cas : 100.0 %
+63–73 seul       ordre 1 (10 équations, 2 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+63–73 seul       ordre 2 ( 9 équations, 3 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+63–73 seul       ordre 3 ( 8 équations, 4 inconnues) : K4        9 | témoins min 0 médiane 3 max 15 | p = 0.1613 | témoins avec au moins un cas : 56.7 %
+63–73 seul       ordre 4 ( 7 équations, 5 inconnues) : K4     2811 | témoins min 2030 médiane 2577 max 3646 | p = 0.3548 | témoins avec au moins un cas : 100.0 %
+63–73 seul       ordre 5 ( 6 équations, 6 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+66–73 (8 signes) ordre 1 ( 7 équations, 2 inconnues) : K4        0 | témoins min 0 médiane 0 max 6 | p = 1.0000 | témoins avec au moins un cas : 6.7 %
+66–73 (8 signes) ordre 2 ( 6 équations, 3 inconnues) : K4      106 | témoins min 20 médiane 78 max 300 | p = 0.3226 | témoins avec au moins un cas : 100.0 %
+66–73 (8 signes) ordre 3 ( 5 équations, 4 inconnues) : K4    71001 | témoins min 44607 médiane 70261 max 90265 | p = 0.4839 | témoins avec au moins un cas : 100.0 %
+66–73 (8 signes) ordre 4 ( 4 équations, 5 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %
+66–73 (8 signes) ordre 5 ( 3 équations, 6 inconnues) : K4        0 | témoins min 0 médiane 0 max 0 | p = 1.0000 | témoins avec au moins un cas : 0.0 %

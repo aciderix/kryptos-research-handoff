@@ -1,1 +1,2 @@
 clé additive : 190 configurations de redondance ≥ 3
+alphabets 101086, 31 chiffrés, 646.9 s

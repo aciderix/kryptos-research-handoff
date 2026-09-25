@@ -54,6 +54,11 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
   - T34 la teste avec deux alphabets à mot-clé indépendants (Quagmire IV, 5,3 × 10¹¹ paires, recherche exacte, clair entier lu) : K4 au moins 7 équations fausses sur 17, témoins 5 à 7. **Éliminée**, même avec le taux d'erreur de Sanborn.
   - Aucun procédé positionnel ne concentre les doublets. Le « 7 » reste inexpliqué, et un hasard n'est pas exclu (10⁻³ à 10⁻² après correction).
 
+- **Recherche de procédés et borne des doublets (25/09, soir)** : `audits/procedes_2026_09_25/README.md`, base 7 §12.11.
+  - Borne : dans un chiffre déchiffrable, un doublet revient à « prédire » la lettre claire suivante. **Aucune clé indépendante du texte**, quelle qu'elle soit, ne rend probables les doublets alignés de K4 : 0 avec A–Z ou KRYPTOS et les cribs, 6 % au mieux avec des alphabets libres.
+  - Recherche automatique parmi environ 20 000 procédés manuels déchiffrables, contrôles positifs réussis : aucun ne produit la concentration. Les meilleurs ne font que forcer SS en 32 à partir du crib.
+  - Les doublets alignés sont donc un hasard, une intervention manuelle ou un élément qui n'est pas lettre à lettre, et non l'empreinte d'une clé.
+
 ## Principes de travail
 
 - Distinguer fait source, interprétation, hypothèse, recette, expérience et preuve.

@@ -1,0 +1,5 @@
+== résumé (101086 alphabets, 30 témoins K4 mélangé, graine 5000) ==
+clé ligne+colonne / 2 mots superposés : nb e=0 K4     834 | témoins min     714 médiane    1041 max    2705 | p = 0.903
+clé ligne+colonne / 2 mots superposés : nb e≤1 K4  106392 | témoins min   96608 médiane  112961 max  176549 | p = 0.613
+autoclé clair vers l'avant L≤13       K4   5.000 | témoins min   4.000 médiane   5.000 max   5.000 | p = 1.000
+autoclé chiffré vers l'avant (cribs justes, max) K4   9.000 | témoins min   9.000 médiane   9.000 max  10.000 | p = 1.000
