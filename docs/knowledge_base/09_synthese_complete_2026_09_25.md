@@ -16,6 +16,8 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 
 **Statut.** Aucune solution, aucun clair, aucune revendication de percée.
 
+**Liste complète des tentatives**, avec leur résultat (réussi, éliminé, sans signal, non concluant, bloqué, non fait, corrigé) : [`10_registre_des_tentatives.md`](10_registre_des_tentatives.md). Ce document-ci en donne la lecture d'ensemble.
+
 ---
 
 ## 0. L'essentiel en dix points
@@ -48,10 +50,30 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 | Correspondance **lettre à lettre** (la lettre gravée n° i donne la lettre claire n° i) | Sanborn 2011 (« 1-1 ») et 2013 (N = B, Y = E… « déchiffre ») (S) ; CNN 2019 (« un-à-un », cité par Bean) ; statistique de Bean (une même lettre claire donne des chiffrés proches) | **Probable, avec réserve** : Sanborn « recule dès qu'on précise 1:1 » (E. Dunin, 2023) ; Scheidt hésite (2013) |
 | Deux **auto-chiffrements** : 32 (S → S) et 73 (K → K) | cribs | Fait. Dans toute famille additive, ils imposent une clé nulle en 32 et 73, et portent une grande part du pouvoir éliminatoire |
 | **Égalité de Bean** : même lettre chiffrée P pour R (27) et R (65), écart 38 | cribs | Fait |
+| **Aucune transposition pure** n'est possible : les cribs contiennent 3 E, le chiffré de K4 n'en a que 2 | comptage | Fait |
+| Avec toute clé additive, les contraintes de Bean ne laissent que **624 suites de clé** possibles aux 24 positions | dépôt d'origine (`MEMORY.md`) | Fait (sous l'hypothèse lettre à lettre) |
+| Le K4 d'*Antipodes* (1997) est **identique lettre pour lettre** à celui de Kryptos | transcription de J. Wilson, vérifiée (base 5) | Fait : aucune variante à exploiter |
+| K4 compte **8 K** (2, 31, 45, 52, 73, 77, 86, 93) ; seul 73 est un auto-chiffrement | NSA 2014 ; cribs | Fait |
 | Mise en page : 4 + 31 + 31 + 31 ; EASTNORTHEAST tient dans la ligne 26 ; BER / LINCLOCK coupé entre les lignes 27 et 28 | cuivre | Fait |
 | Le panneau du bas (K3, « ? », K4) fait **exactement 14 × 31 = 434** caractères ; la feuille de travail NOVA porte K3 + « ? » + K4 sur 31 colonnes et 14 lignes | transcription ; reconstitution « All Charts » (S) | Fait (cuivre) ; probable (feuille) |
 | **8 signes raturés** sous VTTMZFPK (66–73, soit LINCLOCK), **déjà masqués au tournage de NOVA (2006)**, sous correcteur sur les photos de 2026 | images NOVA du dépôt ; reconstitution « All Charts » ; message d'un membre (2026) | Fait ; nature inconnue |
 | **K5** : 97 caractères, « codage semblable », BERLINCLOCK au même rang que dans K4 | lettre de Sanborn, 12/11/2025 (P, transcription) | Déclaration |
+
+### 1.1 L'œuvre, le site et la fabrication
+- **La rose des vents.** L'aiguille gravée pointe vers la magnétite. Mesurée sur deux photos indépendantes (CIA ; Gillogly, 1999), elle est orientée à 246–247° / 66–67° dans le repère de la rose : **axe OSO–ENE**. Le NE est exclu. C'est la direction du premier crib (EASTNORTHEAST), gravée trente ans avant l'indice de 2020.
+  - Le cadran lui-même n'est pas orienté nord-sud : « it's offset » (Sanborn, NOVA 2006). La NSA notait en 1991 « 230°–240° ». L'orientation par rapport au vrai nord n'a jamais été mesurée.
+  - L'aiguille et la magnétite sont un motif ancien de Sanborn (sculptures de 1980), pas un indice créé pour K4. Elles **ne fixent aucun paramètre** de chiffrement.
+- **Le Morse (K0)** est réparti sur **deux dalles**. La dalle de la rose porte « T IS YOUR / POSITION » (contre la magnétite) et « DIGETAL INTERPRETATI ». Le U de YOUR est bien un U : la transcription de Rumkin (G) était fausse. L'ordre de lecture « de l'entrée à la cour » qui circule n'est qu'un ordre de liste. Les plaques de l'entrée **ont bougé** (constat de la CIA, 2008).
+- **« Deux systèmes, un indice majeur »** (inauguration, 5/11/1990) porte sur **la plaque du bas, K3 + K4**, pas sur K4 seul. Sanborn : « I used that table to encipher **the top plate** ». Lettre de 1989 : le texte se déchiffre « en partie avec le tableau, en partie avec un système potentiellement redoutable ».
+- **Chronologie de fabrication** (manuscrit de livre de Sanborn, vers 2009, AAA 6/9) :
+  - le tableau a été découpé **avant** que le clair existe ;
+  - le clair était encore « sans cesse révisé » à la mi-1989 ;
+  - K3 et K4 ont été découpés par **une seule personne**, « pratiquement sans erreur ». Le risque porte donc sur la feuille de chiffrement, pas sur la découpe ;
+  - Webster n'a reçu qu'une clé **partielle** ;
+  - les photos officielles de 1990 cachent **volontairement** une partie du texte.
+- **Les « textes brouillés » de 2025** sont le clair découpé par phrases et remélangé pour la CIA en 1989. Ce n'est pas une étape du chiffrement.
+- **Le lot vendu en 2025** comprend le clair manuscrit, « le système de codage original de K4 », les clairs de découpe, les chartes de K1–K3, un K1 et un « K4 alternatif » de 1988 (devenu K5), et les textes brouillés. Aucune photo des pièces 1 à 7 n'a été publiée.
+- **Exclu faute de source** : « THE COMPASS ROSE IS HERE », qui vient du clair reconstruit de SolveKryptos, et « la clé est KOMITET » (message anonyme).
 
 ---
 
@@ -80,6 +102,18 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
   - Big Techday 2013 (P), en montrant ses feuilles : « à peu près la façon dont je l'ai fait » ; on **retourne la feuille, on la met à l'envers**, on l'**éclaire** ;
   - NPR 1999 (P) : des systèmes « **spatiaux** », à motifs, de lumière et d'ombre, absents de K1–K3, « peut-être » dans K4 ;
   - 2003 (S) : c'est **Sanborn**, et non Scheidt, qui s'étonne que personne n'ait retrouvé « la matrice d'origine » ni ne l'ait passée par « tous les shifts ».
+- **La presse de 1990–1991** (AAA 16/2 et 6/18) :
+  - l'autre moitié du texte est codée « dans un **système moderne créé pour le projet** par un cryptographe expert » (*Washington Post*, 14/01/1990) ;
+  - « trois ou quatre » systèmes, de complexité croissante (*Museum & Arts*, 1990) ;
+  - AP (mars 1991) : le « quadrant inférieur droit » (K4) est « un tout autre jeu, **de codes multiples** » ; certaines parties « pourraient ne **jamais** être déchiffrées sans ce que sait Webster » ; même déchiffré, « le message n'aura pas de sens » ; deux enveloppes, la traduction et « **les mots-clés** nécessaires pour casser le code ».
+- **Autres paroles sur la méthode** :
+  - Scheidt 2003 (S) : les clés sont « **dissimulées sur la sculpture** », retrouvables grâce aux indices présents ; « la clé n'est pas forcément le mot-clé… **la clé est l'algorithme** ».
+  - Scheidt 2005 : il faut « **d'abord trouver la technique** » ; quatre procédés en tout, « deux semblables, deux différents ».
+  - Scheidt 2015 : « Jim a dit que **quelque chose qui était clé n'est plus là** » ; des mots à double sens (« coca-cola ») ; « K4 n'est peut-être pas quelque chose de ce genre, c'est en ça qu'il est unique ».
+  - Sanborn 2006 : « si je faisais des erreurs, **c'était une bonne chose** », cela rendait le déchiffrement plus dur.
+  - Sanborn 2025 : « **Qui dit que c'est même une solution mathématique ?** »
+  - Sanborn 2005 (WSJ) : « la clé la plus évidente de la sculpture, personne ne l'a remarquée ».
+- **La pratique personnelle de Sanborn** juste après Kryptos (feuilles russes de 1990–1991, AAA 6/8) : une grille à trois lignes clair / clé / chiffré, comme la feuille de K1–K2 ; un **Quagmire II** (alphabet ТЕНЬ, clé МЕДУЗА), retrouvé sur 22 lettres sur 23 ; des coquilles de clé sur la feuille même. Aucune transposition, aucun autre procédé.
 - **Contraintes de pratique, toutes concordantes** : crayon et papier ; « résoluble par un humain », « un procédé très long n'est probablement pas le bon » (Scheidt 2011) ; « cryptographie classique, pas quelque chose de bizarre », « facile à utiliser » (2006) ; mémorisable ; deux enveloppes remises à Webster, le message et « les mots-clés » (1990).
 - Sanborn n'a « aucune idée de ce qu'est l'ASCII ou le XOR » (2022, S). Le binaire de son œuvre de Martinsburg (1999) est de l'ASCII 7 bits ordinaire, sans chiffrement (audit `martinsburg_2026_09_25`).
 - La méthode existe **par écrit** : Paradigm détient une description, « aussi appelée la clé » (Sanborn 2025).
@@ -101,6 +135,8 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 - « Scheidt n'a jamais déchiffré K4 » contre « une fois, deux fois » : il a fait tourner son procédé, pas les 97 lettres gravées.
 - Fautes voulues (2013) contre fautes accidentelles (2019–2020) : les deux existent. Le dépôt au Copyright Office (2010) montre que le Q de K1 et le U en trop de K2 ne sont **pas** dans le clair de Sanborn ; DESPARATLY y est.
 - « 1:1 » (2011, 2013, 2019) contre le recul de Sanborn quand on précise (2023) : non résolu. C'est l'une des trois portes que les 24 lettres laissent ouvertes (§6).
+- Qui a exécuté K4 : « encoded for Sanborn » par l'ancien de la CIA (*Museum & Arts*, 1990) contre « avec le système en main, Sanborn s'est mis à chiffrer » (*Washington Post*, 1999). Tranché pour Sanborn par Scheidt lui-même (1991 : « voilà comment on fait, et c'était tout » ; 2015 : il n'a jamais déchiffré K4).
+- Clé « complète » remise à Webster (« this is the key and the actual text », 1990) contre clé « partielle » (manuscrit, vers 2009 ; « il n'a pas eu toute la banane », 2006) : Sanborn a lui-même présenté son récit de 1990 comme incomplet (« need to know »).
 
 ---
 
@@ -152,6 +188,14 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 
 ### 5.1 Tableau par solidité
 
+**0. Héritage du dépôt d'origine** (repris de `MEMORY.md` et du journal d'antériorité, 1 044 entrées ; non rejoué ici sauf mention)
+- Transposition pure (comptage des lettres) ; Hill 2 × 2, fractionnements, Playfair, César, affine, Atbash ; clés périodiques en A–Z et KRYPTOS ; autoclés en A–Z et KRYPTOS.
+- Chaocipher (142 000 paires, bruit) ; VIC, Ubchi, chiffre soviétique en trois étapes ; clé interrompue ; Wichmann-Hill ; récurrences linéaires et affines d'ordre 1 à 8.
+- Grilles et routes jusqu'à 20 × 20 ; Myszkowski, AMSCO, Nihiliste ; grilles tournantes, Cardan, Fleissner ; carré latin, bandes.
+- TABP (transposition puis substitution périodique, trois versions) ; cadre de composition (105 000 branches, max 6/24) ; campagne cartésienne à deux couches (206 448 profils).
+- Perturbation du chiffré, étape A : 10 465 764 réglages, une lettre de K4 changée, 0 passage (l'étape B n'a pas été faite).
+- Palette {B,G,I,K,O,W,Z} : artefact, ligne retirée.
+
 **A. Éliminé pour tout alphabet (26! couverts), et robuste aux erreurs**
 - Clé **périodique**, p = 1 à 26, Quagmire I à IV : K4 n'est jamais plus proche que le hasard, quel que soit le nombre d'erreurs admis (sauf p = 19, égalité de Bean) ; à p = 7, il l'est **moins** (T22, CP-SAT).
 - **Autoclé sur le chiffré** : 3 à 5 erreurs requises aux écarts 1–23 (T23), alors que le taux de Sanborn en prévoit environ une.
@@ -180,7 +224,9 @@ Avec une seule lettre mal chiffrée, ces tests tombent au niveau du hasard (T19�
 T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste sous le hasard. L'autoclé sur le chiffré à l'écart 7 était aussi éliminée sans erreur par deux lettres (A en 22 et C en 72 devraient valoir 0) ; elle l'est désormais avec erreurs (A).
 
 **D. Sources de clé fixées, toutes négatives**
-- Textes de la sculpture lus en 13 parcours et en 2D sur cylindre (T1, 57 617 placements) ; tableau GIRASOL de 1988 (T10) ; mots visibles sur l'œuvre ; groupes de E du Morse.
+- Textes de la sculpture lus en 13 parcours et en 2D sur cylindre (T1, 57 617 placements) ; tableau GIRASOL de 1988 (T10) ; mots visibles sur l'œuvre ; groupes de E du Morse ; miroir du Morse.
+- Superpositions physiques : écran replié ou en miroir, plaque du haut posée sur la plaque du bas, lettre du tableau au dos comme clé ou comme sélecteur, batterie de 40 géométries × 15 fonctions ; réglettes M-138 découpées dans le tableau.
+- Gromark amorcé par des dates ; Gromark avec un alphabet de l'œuvre ; clé par paliers.
 - Carter (livre et journal de fouilles), inscriptions du hall de la CIA et de Langley, directive Truman de la boîte de cuivre, cahier des charges de 1988, lettre de Sanborn de 1989 (T6, T7) ; suite de 1/563 (T8) ; chiffré de K3 comme clé ; feuille de K3 empilée sur K4.
 
 **E. Structures éliminées sous l'hypothèse lettre à lettre**
@@ -278,6 +324,9 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 | L'analyse NSA de K4 (1998–1999) | Demande de déclassification visant « The Fourth Breakthrough? » | Classifiée |
 | Le « big hint » donné à la CIA vers 1997–1998 | Archives CIA ; témoignage | Jamais publié |
 | Curiosités U, KZ-TJ-DI, clé Beaufort répétée | Une solution devra les expliquer ou les rendre fortuites | Conservées comme contrôles |
+| La méthode de Sanborn dans ses œuvres de 1991 (*Code Room*, *Covert Obsolescence*, clé MEDUSA : « je suis resté aux systèmes de la période Kryptos ») | Relevés publics de leurs textes codés | Piste documentaire jamais instruite |
+| Orientation réelle de la rose des vents ; géométrie mesurée de l'écran et du site ; sens de lecture des dalles Morse | Relevé sur place, vue aérienne nette | Données absentes. Aucune ne fixerait seule un paramètre |
+| Masques des « E » du Morse (règle des intervalles) | Une règle définie d'avance et une transcription vérifiée | Règle non définie ; la règle des groupes est éliminée |
 
 ---
 
@@ -287,6 +336,7 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 | Base | Contenu |
 |---|---|
 | **09** (ce document) | Synthèse complète au 25/09 ; point d'entrée |
+| **10** | Registre complet des tentatives : tests, recherches documentaires, outils, raisonnements corrigés, avec leur résultat |
 | 08 | Synthèse du 24/09, complétée le 25/09 ; tableaux de recoupement des sources |
 | 01 | Corpus de l'artiste : tout ce que Sanborn et Scheidt ont dit, par date |
 | 02 | Tout ce qui a été testé et réfuté, avec la portée de chaque test |
@@ -313,6 +363,7 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 
 ### 10.4 Sources et règles
 - `sources/docs_utilisateur_2026_09_24/` : documents versés par l'utilisateur.
+- `sources/aaa_sanborn_papers/` : exports PDF des dossiers numérisés du fonds Sanborn (Archives of American Art, Git LFS), à citer comme le demande le Smithsonian.
 - `sources/groupsio_membres/` : copie des fichiers réservés aux membres du groupe. **Ne pas republier.** Le dépôt est privé depuis le 24/09. S'il redevient public, ce dossier doit d'abord être retiré de tout l'historique git.
 - Aucun identifiant de compte n'est écrit dans le dépôt. Les adresses des membres sont remplacées par « [courriel] ».
 - On n'utilise **ni** le clair acheté par Paradigm **ni** son vérificateur payant pour ajuster une méthode : une seule soumission, à la toute fin.
