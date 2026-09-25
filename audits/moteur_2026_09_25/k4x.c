@@ -6,7 +6,8 @@
  *   p  clé période 7 : pure (P), + décalage par ligne du cuivre (L), + décalage par ligne de 7 (R) ; e_min exact.
  *   b  disque tourné par bloc de n = 5..14, toutes phases (T11/T11b) ; motif s·j (s = 0..25) ou KRYPTOS ; e_min exact.
  *   t  T16 : mot-clé de longueur 1..7 écrit en lignes de 7, relu par colonnes (5 040 ordres, ou l'inverse) ; e_min exact.
- *   a  autoclé sur le clair, L = 1..13 (lettre-clé lue dans l'alphabet du clair, A–Z ou KRYPTOS) ; e_min.
+ *   a  autoclé sur le clair, L = 1..13 (lettre-clé lue dans l'alphabet du clair, A–Z ou KRYPTOS) ; e_min, la chaîne étant
+ *      ré-ancrée à chaque lettre de crib (sans ré-ancrage, une seule lettre fausse compterait plusieurs fois : T27, 25/09).
  *   c  autoclé sur le chiffré, L = 1..96 : lettres des cribs reproduites (max, si au moins 11 cribs après L).
  *   r  clé courante anglaise : score quadrigrammes des deux fragments de clé (max) ; il faut -q qg.bin.
  *   m  période 7, convention (VIG/BEAU/VARB) fixée par ligne du cuivre, par ligne de 7, ou en alternance 2/3 ; e_min.
@@ -224,7 +225,7 @@ int main(int argc, char **argv) {
                   for (int r = 0; r < L && err <= cut; r++) { int s0 = -1; for (int t = 0; t < NP; t++) if (POS[t] % L == r) { s0 = POS[t]; break; }
                     int p = CPL[s0];
                     for (int i = s0 + L; i < 97; i += L) { int k = Z[p], x = X[CT[i]], y = mo == 0 ? md(x - k) : mo == 1 ? md(k - x) : md(x + k); p = YI[y];
-                      if (ISC[i] && p != CPL[i] && ++err > cut) break; } }
+                      if (ISC[i]) { if (p != CPL[i] && ++err > cut) break; p = CPL[i]; } } } /* ré-ancrage (T27, 25/09) : err = équations de chaîne fausses = erreurs minimales */
                   if (err <= cut) UPD(F_A, err, mo); } }
             }
             if (doC) {

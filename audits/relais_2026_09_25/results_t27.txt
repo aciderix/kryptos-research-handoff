@@ -1,0 +1,39 @@
+# T27 — autoclé sur le clair, alphabets à mot-clé (202 172 alphabets distincts), erreurs = équations de chaîne fausses
+# Compilation : gcc -O3 -march=native -fopenmp ; 228 656 532 cas (≥ 8 équations) par chiffré, ≈ 12 s sur 4 threads
+
+## Contrôle positif 3 (PALIMPSEST, écart 7, VIG, une copie en 73)
+mode 3 graine 1 ; positions « copie » : 73
+cas (≥ 8 équations) : 228656532, dont L = 7 : 7884708
+L = 7, histogramme de F (erreurs minimales) : 1:1 8:1 9:1 10:15 11:173 12:2187 13:23105 14:173745 15:871690 16:2737424 17:4076366
+tous L, histogramme de F : 1:1 2:1 3:49 4:2976 5:63368 6:880848 7:7091151 8:28911436 9:34810662 10:26958559 11:39139643 12:8054996 13:8039353 14:8119082 15:8289386 16:8417362 17:8184837 18:8206312 19:33486510
+sauvés par une seule « copie » : L = 7 : 1 ; tous L : 1
+meilleur clair (F ≤ 1, L ≤ 13) : -3.989 PALIMPSEST/00 Q3 VIG clé-σ L=7 F=1 (copie) WHENTHEYHADFINISHEDTHEASTNORTHEASTHECITYTHROUGHTHEOLDGATEANDEASBERLINCLOCKFTHEWALLTHEYFOUNDTHEBER
+CAS PALIMPSEST/00 Q3 VIG clé-σ L=7 : F=1 copie (fausse en 73) ; ancien comptage 1 ; 17 équations ; quadri -3.989 WHENTHEYHADFINISHEDTHEASTNORTHEASTHECITYTHROUGHTHEOLDGATEANDEASBERLINCLOCKFTHEWALLTHEYFOUNDTHEBER
+
+## Contrôle positif 4 (même chose, une lettre fausse en 42, au milieu d'une chaîne)
+CAS PALIMPSEST/00 Q3 VIG clé-σ L=7 : F=1 (fausse en 63) ; ancien comptage 2 ; 17 équations ; quadri -4.072 WHENTHEYHADFINISHEDTHEASTNORTHEASTHECITYTHEOUGHTHROLDGATRANDEASBERLINCLOCKFTHEWALLTHEYFOUNDTHEBER
+
+## K4
+mode 0 graine 0 ; positions « copie » : 32 73
+cas (≥ 8 équations) : 228656532, dont L = 7 : 7884708
+L = 7, histogramme de F (erreurs minimales) : 10:5 11:163 12:2252 13:22562 14:166031 15:832988 16:2679026 17:4181681
+tous L, histogramme de F : 2:3 3:74 4:3184 5:64631 6:898755 7:7104393 8:28580956 9:35133180 10:27361385 11:38765588 12:8222880 13:8508110 14:7789619 15:8060657 16:8189610 17:8263874 18:8114242 19:33595391
+sauvés par une seule « copie » : L = 7 : 0 ; tous L : 0
+meilleur clair (F ≤ 1, L ≤ 13) : -99.000  
+
+## Témoins (K4 mélangé, graines 1–10 ; lettres uniformes, graines 1–5) : L = 7 et tous L, erreurs minimales
+t27_shuf_1 | 10:4 11:119 12:2031 13:22714 1 | tous L : 2:1 3:105 4:3410 5:77899 6:973 | copies : 0
+t27_shuf_10 | 10:15 11:181 12:2578 13:26730  | tous L : 2:4 3:95 4:3540 5:80206 6:1055 | copies : 0
+t27_shuf_2 | 9:1 10:9 11:140 12:2172 13:216 | tous L : 2:1 3:78 4:3300 5:71798 6:9648 | copies : 0
+t27_shuf_3 | 10:6 11:124 12:2113 13:21665 1 | tous L : 3:233 4:6697 5:81298 6:984843  | copies : 0
+t27_shuf_4 | 9:1 10:16 11:206 12:3006 13:29 | tous L : 2:1 3:109 4:3421 5:61012 6:855 | copies : 0
+t27_shuf_5 | 9:2 10:13 11:155 12:2425 13:23 | tous L : 2:1 3:128 4:4300 5:71637 6:923 | copies : 0
+t27_shuf_6 | 10:11 11:184 12:2326 13:23031  | tous L : 2:6 3:159 4:3647 5:66541 6:895 | copies : 0
+t27_shuf_7 | 9:1 10:8 11:141 12:2186 13:226 | tous L : 2:3 3:165 4:3606 5:72305 6:957 | copies : 0
+t27_shuf_8 | 10:5 11:206 12:2688 13:24306 1 | tous L : 3:69 4:2682 5:65292 6:910376 7 | copies : 0
+t27_shuf_9 | 10:18 11:159 12:2357 13:24967  | tous L : 3:220 4:5432 5:78231 6:946025  | copies : 0
+t27_unif_1 | 10:8 11:161 12:2107 13:21888 1 | tous L : 2:1 3:120 4:4059 5:79756 6:967 | copies : 0
+t27_unif_2 | 10:4 11:110 12:1749 13:20163 1 | tous L : 1:1 2:3 3:123 4:3352 5:71060 6 | copies : 0
+t27_unif_3 | 10:9 11:189 12:2514 13:23823 1 | tous L : 2:2 3:58 4:3118 5:72651 6:9276 | copies : 0
+t27_unif_4 | 9:1 10:14 11:236 12:3139 13:28 | tous L : 2:7 3:179 4:2827 5:57621 6:810 | copies : 0
+t27_unif_5 | 9:3 10:52 11:190 12:2004 13:20 | tous L : 2:4 3:111 4:4639 5:82061 6:985 | copies : 0
