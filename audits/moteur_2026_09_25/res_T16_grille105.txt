@@ -1,0 +1,2 @@
+== résumé (1395188 alphabets, 30 témoins K4 mélangé, graine 5000) ==
+T16 clé transposée                     K4   7.000 | témoins min   6.000 médiane   7.000 max   8.000 | p = 0.871
