@@ -21,6 +21,8 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
 - Les corrections apportées par la relecture : le rectangle 14 × 7 « avec le ? » n'est qu'une hypothèse de mise en page ; plusieurs chiffres de l'ancien dépôt sont dépassés.
 - Les leçons de méthode, ce qui trancherait (K5, les 8 signes, la description de la méthode) et un guide du dépôt.
 
+**Registre complet des tentatives : [`docs/knowledge_base/10_registre_des_tentatives.md`](docs/knowledge_base/10_registre_des_tentatives.md).** Chaque test, recherche documentaire, outil et raisonnement corrigé, avec son résultat : réussi, éliminé, sans signal, non concluant, bloqué, non fait ou corrigé.
+
 ## Mise à jour du 24 septembre 2026
 
 - **Synthèse du 24/09** : `docs/knowledge_base/08_synthese_2026_09_24.md`, qui recoupe l'ensemble des bases (remplacée comme point d'entrée par la base 9).
