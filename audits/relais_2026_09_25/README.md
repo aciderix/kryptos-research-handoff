@@ -154,3 +154,41 @@ Il reste trois possibilités, qu'aucun test sur les 24 lettres des cribs ne peut
 1. **L'alphabet n'est pas un alphabet à mot-clé** (tableau tourné ou retourné d'une façon non standard, pochoir). Avec un alphabet libre, la plupart de ces familles deviennent trop lâches pour être jugées.
 2. **La correspondance n'est pas lettre à lettre.** E. Dunin (2023) : Sanborn parle de rangs dans le clair et « recule dès qu'on précise 1:1 ». Les compositions avec transposition sont largement couvertes par le registre (`docs/two_systems_landscape.md`, preuve de Bean pour toute permutation avec une clé périodique), mais pas pour toute clé.
 3. **Une clé choisie à la main, sans générateur** (liste de mots, pochoir posé sur le tableau : « Stencil Patterns, circa 1988 », dossier scellé par Sanborn aux AAA).
+
+## Cinquième partie (25/09, soir) : relais DeepSeek n° 3, « les 8 signes sous LINCLOCK sont la clé »
+
+**La thèse.** Les 8 signes raturés sous VTTMZFPK (feuille NOVA 2006) seraient la clé des positions 66–73 : KLGKORNA en Vigenère A–Z, OIECBAQK en Vigenère KRYPTOS, etc. Ils élimineraient d'un coup la période 7, les deux autoclés à l'écart 7, les clés constante, progressive, LCG et Fibonacci. Ils donneraient un « F » en ASCII par la parité, et la graine d'un registre à décalage (LFSR).
+
+**Vérification point par point.**
+
+| Affirmation | Vérifié | Verdict |
+|---|---|---|
+| Table des clés en 66–73 (6 variantes) | identique à `../erreurs_multiples_2026_09_24/huit_signes.py` (base 7 §12.2) | **exact, déjà au dépôt** |
+| « Les 8 signes sont la clé » | ces 8 lettres sont **calculées à partir du crib** (chiffré gravé + clair LINCLOCK). Personne n'a lu les signes | **raisonnement circulaire**. La table dit ce qu'on lirait *si* les signes étaient des lettres de clé ; elle ne dit pas qu'ils le sont |
+| « Test à 8 lettres plus fort que les cribs » | c'est une réécriture de 8 des 24 lettres de crib | **aucune information nouvelle** |
+| Période 7 impossible (K25 − K26 = 1, K32 − K33 = 1, K67 − K68 = 5) | vrai en Vigenère A–Z : K25 = 3, K32 = 0, K67 = 11 devraient être égaux | **exact mais connu** (Bean) ; T22 élimine toute période ≤ 26 pour **tout** alphabet, même avec erreurs |
+| Autoclé sur le clair à l'écart 7 impossible (K73 = A ≠ P66 = L) | vrai en A–Z et en KRYPTOS | **connu** (T18, NSA). Une seule équation, et elle porte sur 73 (K → K), la lettre qui pourrait être une copie « à la Sanborn ». Donc aussi fragile à une erreur que T18 (T19). L'élimination robuste vient de T27 et T34 |
+| Autoclé sur le chiffré à l'écart 7 impossible | même équation isolée | **connu** (T23 : au moins 5 erreurs, tous alphabets) |
+| Période 14 « encore possible, K(11) = L, K(12) = G » | **faux** : 67 mod 14 = 11 veut dire K67 = K11, où K11 est inconnu. Les signes ne donnent pas K11 | erreur d'indice ; p = 14 déjà éliminée (T22) |
+| Clés constante, progressive, LCG, Fibonacci | vrai | connu (T32 : progressive avec alphabets à mot-clé, aucun signal) |
+| Parité → 01000110 = « F », « invariant structurel des trois conventions » | l'invariance est **arithmétique** : 26 est pair, donc C − P, C + P et P − C ont la même parité. En KRYPTOS on obtient 0xF4, qui n'est pas une lettre. L'ordre des bits et le codage (A = 0) sont choisis après coup | **numérologie** : environ une chance sur 10 de tomber sur une lettre majuscule, et beaucoup de lectures possibles |
+| Le « pas » entre colonnes 4 et 5 dérive (1, 1, 5) : clé 2D, grille 14 × 7 | vrai en A–Z. Avec un alphabet à mot-clé, l'écart devient σ(O) − σ(N), σ(T) − σ(S), σ(N) − σ(I) (empreinte des doublets, base 7 §12.1). La « grille 14 × 7 » avec une valeur par ligne et une par colonne est la famille R (décalage par ligne de 7) | déjà testé : alphabets à mot-clé, au moins 6 erreurs, comme les témoins (`../moteur_2026_09_25/`, T1) ; alphabet libre, 75 % des témoins compatibles (trop lâche) ; T29 à toute phase, éliminé |
+| Récurrence d'ordre 3 ou plus, LFSR à 8 états | **testé ici** | voir ci-dessous |
+
+**Test nouveau : la clé suit-elle une récurrence linéaire (LFSR) ?** (`rec_lfsr.c`)
+- **Modèle.** k_n = a₁k_{n−1} + … + a_r k_{n−r} + c (mod 26), ordre r = 1 à 5, coefficients inconnus.
+- **Résolution.** Exacte, par élimination de Gauss dans GF(2) et GF(13) (restes chinois). Sur les deux fragments de clé donnés par les cribs (21–33 et 63–73), sur chacun seul, et sur les 8 positions 66–73 seules.
+- **Portée.** 101 086 alphabets à mot-clé × 2 sens × 5 types × 3 conventions, 30 témoins K4 mélangé ; A–Z et KRYPTOS avec 2 000 témoins.
+- **Contrôle positif** (clé k_n = 3k_{n−1} + 5k_{n−2} + 7k_{n−3} + 11, Quagmire III KRYPTOS) : retrouvé, p = 0,02 sur 50 témoins.
+- **K4, deux fragments ensemble** : **aucune récurrence d'ordre 1 à 5**, avec aucun des 3 millions de cas (témoins : 0 aussi). Une récurrence qui engendrerait toute la clé est donc éliminée pour les alphabets à mot-clé.
+- **Fragments isolés, ou 66–73 seul.** Il reste assez d'inconnues pour que des récurrences locales existent. K4 en a autant que les témoins (p = 0,16 à 1).
+- **Le seul écart apparent.** En A–Z et KRYPTOS, sur 66–73 à l'ordre 3, K4 compte 17 cas, contre au plus 29 pour 2 000 témoins (p = 0,007). Examiné (`rec_decode.c`) :
+  - les 17 cas se réduisent à **4 récurrences distinctes**, car en A–Z les types Q1/Q2/Q3 sont le même chiffre, et le sens inverse permute les conventions ;
+  - 34 % des témoins ont au moins une récurrence ;
+  - aucune ne reproduit BER (63–65), ni a fortiori EASTNORTHEAST ;
+  - prolongées au-delà de 73 (lecture « graine de registre »), elles donnent du charabia. Exemple en A–Z : « TENWOULKKZMJVGAIAQRHUDT ». Le « TENWOUL » initial ne tient pas.
+
+**Bilan.** Rien de neuf dans la thèse, sinon le test LFSR, qui est négatif.
+- Les éliminations annoncées sont exactes, mais elles étaient connues et découlent des cribs, pas des signes.
+- Les signes restent **non lus**. Leur nature n'est pas établie : lettres de clé, lettres retirées, ou annotation du clair.
+- Seule une photo de l'original trancherait. L'utilisateur a choisi de ne pas la demander.
