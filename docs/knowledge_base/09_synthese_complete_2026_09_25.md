@@ -22,7 +22,7 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 
 ## 0. L'essentiel en dix points
 
-1. **K4 compte 97 lettres. Le « ? » qui les précède n'est pas chiffré.** Cinq sources indépendantes le disent (§1). Les cribs sont aux rangs 21–33 (EASTNORTHEAST) et 63–73 (BERLINCLOCK) **du clair**, ce que l'acheteur du clair a fait vérifier par programme en 2026.
+1. **K4 compte 97 lettres. Le « ? » qui les précède n'est pas chiffré.** Quatre sources indépendantes le disent, et une cinquième est compatible (§1). Les cribs sont aux rangs 21–33 (EASTNORTHEAST) et 63–73 (BERLINCLOCK) **du clair**, ce que l'acheteur du clair a fait vérifier par programme en 2026.
 2. **Deux auteurs.** Scheidt a conçu le procédé ; Sanborn l'a « changé » (« I fucked with it », 2025) et a chiffré K4 seul, fin 1989–1990. **Personne n'a jamais redéchiffré K4** : ni Sanborn, ni Scheidt.
 3. **Sanborn fait des erreurs de chiffrement, et elles sont systématiques** : 4 sur 97 dans un petit chiffre d'atelier de même longueur, 3 dans K1–K2, 2 types répétés dans sa maquette de 1988. Avec ce taux, les 24 lettres des cribs n'ont qu'environ 31 % de chances d'être toutes justes. **Toute élimination doit dire si elle tient avec une ou deux erreurs.**
 4. **Un seul signal statistique résiste aux corrections : le « 7 ».** Cinq des six doublets sont en position ≡ 4 (mod 7), et il y a neuf coïncidences à l'écart 7 pour 3,3 attendues. Ensemble : p ≈ 2 × 10⁻⁴ brut, **10⁻³ à 10⁻² après correction** du choix fait après coup. Très improbable, pas exclu.
@@ -45,7 +45,7 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 | Fait | Sources | Solidité |
 |---|---|---|
 | Chiffré : `OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR` | cuivre ; transcriptions concordantes | **Établi** |
-| **97 lettres, « ? » non chiffré** | (1) note de Sanborn IMG_1340 : « ? (lignes 4, 8, 10, 25) not coded » (P) ; (2) son fichier pour le NYT, 2010 : « ? » non numéroté, O = 1 … R = 97 (P) ; (3) la NSA compte le « ? » dans K3 : 436 + 337 + 97 (P) ; (4) Sanborn, NPR 2005 : « les 97 derniers caractères », donné comme indice (P) ; (5) test de vérification : positions citées jusqu'à 96–97, jamais au-delà (S, 2005 et 2009). Le « 98 » de Scheidt (2005) compte très probablement le « ? » | **Établi** |
+| **97 lettres, « ? » non chiffré** | (1) note de Sanborn IMG_1340 : « ? or like 4, 8, 10, 25 ‹ ? › coded » : ce sont les lignes des quatre « ? », mais le mot devant « coded » est illisible (« not » probable, non certain ; base 5, 25/09) : indice compatible, pas preuve (P) ; (2) son fichier pour le NYT, 2010 : « ? » non numéroté, O = 1 … R = 97 (P) ; (3) la NSA compte le « ? » dans K3 : 436 + 337 + 97 (P) ; (4) Sanborn, NPR 2005 : « les 97 derniers caractères », donné comme indice (P) ; (5) test de vérification : positions citées jusqu'à 96–97, jamais au-delà (S, 2005 et 2009). Le « 98 » de Scheidt (2005) compte très probablement le « ? » | **Établi** |
 | Cribs **EASTNORTHEAST** en 21–33 et **BERLINCLOCK** en 63–73, rangs **du clair** | indices de 2010, 2014, 2020 (P) ; contrôle par programme du clair saisi par Sanborn : 97 lettres, A–Z, cribs à leur rang (Paradigm, 2026, S) | **Établi** |
 | Correspondance **lettre à lettre** (la lettre gravée n° i donne la lettre claire n° i) | Sanborn 2011 (« 1-1 ») et 2013 (N = B, Y = E… « déchiffre ») (S) ; CNN 2019 (« un-à-un », cité par Bean) ; statistique de Bean (une même lettre claire donne des chiffrés proches) | **Probable, avec réserve** : Sanborn « recule dès qu'on précise 1:1 » (E. Dunin, 2023) ; Scheidt hésite (2013) |
 | Deux **auto-chiffrements** : 32 (S → S) et 73 (K → K) | cribs | Fait. Dans toute famille additive, ils imposent une clé nulle en 32 et 73, et portent une grande part du pouvoir éliminatoire |
@@ -62,6 +62,7 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 ### 1.1 L'œuvre, le site et la fabrication
 - **La rose des vents.** L'aiguille gravée pointe vers la magnétite. Mesurée sur deux photos indépendantes (CIA ; Gillogly, 1999), elle est orientée à 246–247° / 66–67° dans le repère de la rose : **axe OSO–ENE**. Le NE est exclu. C'est la direction du premier crib (EASTNORTHEAST), gravée trente ans avant l'indice de 2020.
   - Le cadran lui-même n'est pas orienté nord-sud : « it's offset » (Sanborn, NOVA 2006). La NSA notait en 1991 « 230°–240° ». L'orientation par rapport au vrai nord n'a jamais été mesurée.
+  - Trois études de rose dessinées par Sanborn (IMG_1518, papiers AAA, photo de KryptosBot ; mesure `measurements/rose_studies_img1518.py`) montrent l'aiguille à 63°, 55° et 66°, entre NE et ENE. Deux sont à 1 à 4° de l'aiguille gravée. Si ces études sont celles de Kryptos, l'orientation ENE est un choix dessiné (base 5, 25/09).
   - L'aiguille et la magnétite sont un motif ancien de Sanborn (sculptures de 1980), pas un indice créé pour K4. Elles **ne fixent aucun paramètre** de chiffrement.
 - **Le Morse (K0)** est réparti sur **deux dalles**. La dalle de la rose porte « T IS YOUR / POSITION » (contre la magnétite) et « DIGETAL INTERPRETATI ». Le U de YOUR est bien un U : la transcription de Rumkin (G) était fausse. L'ordre de lecture « de l'entrée à la cour » qui circule n'est qu'un ordre de liste. Les plaques de l'entrée **ont bougé** (constat de la CIA, 2008).
 - **« Deux systèmes, un indice majeur »** (inauguration, 5/11/1990) porte sur **la plaque du bas, K3 + K4**, pas sur K4 seul. Sanborn : « I used that table to encipher **the top plate** ». Lettre de 1989 : le texte se déchiffre « en partie avec le tableau, en partie avec un système potentiellement redoutable ».
@@ -124,6 +125,7 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 - Thèmes : une direction (ENE), une **horloge publique** de Berlin (Weltzeituhr), l'Égypte en 1986, le Mur en 1989, « délivrer un message » ; une énigme qui mène « dans plusieurs directions ».
 - **Longueurs réglées en coupant le clair** : les brouillons de K3 (photo de la vente) montrent le plan « 11 Lines | 342 » et « 3 lines 93 ». Sanborn coupe « slowly » (6 lettres) pour que K3, le « ? » et K4 tiennent en 14 × 31. Le petit fragment de 97 lettres a un clair **coupé au milieu d'un mot**. Un clair candidat peut donc omettre un petit mot, ou finir au milieu d'un mot.
 - K4 se résout sans K1–K3 ; K5 ne se résout pas sans K4.
+- Dans un carnet qui contient aussi des croquis du site de Kryptos, Sanborn écrit sous le titre « copper "Veil" » des idées de clair pour une pièce de cuivre codée : des phrases courtes et impératives, une fuite par bribes (« Grab the rope… Tunnel… Run… Hold your breath… Catch your breath » ; IMG_1580–1582). Date et œuvre inconnues. *Lecture* : un clair décousu, fait de bribes, comme le dit Scheidt en 2015 (base 5, 25/09).
 
 ### 2.4 Ce que pensait la NSA
 - 1992 : « légère propriété à l'intervalle 7 » ; hypothèses : autoclé sur le clair, ou alphabets suivis d'une transposition ; « KRYPTOS joue très probablement un rôle intégral ».
@@ -173,7 +175,7 @@ Il ne rapporte rien de nouveau par le calcul. Il dit ce qui est établi, ce qui 
 | Clé Beaufort A–Z localement répétée : JLJODEGKUKKKL \| OCGGBGOKTRU | p ≈ 0,001 | **p ≈ 0,004** (4 conventions) | — | Curiosité, statistique choisie après coup. Le triplé KKK seul est banal (10,7 %) |
 | Propriété U de Caveney : les 3 digrammes « à une lettre d'écart » répétés contiennent tous U, et les 6 U y participent | p ≈ 1,8 × 10⁻⁴ | 6,5 × 10⁻⁴ (écarts 2–4) | — | Curiosité non expliquée ; coût réel du choix après coup inconnu (×10 à ×100) |
 | KZ, TJ, DI « comprimés » (pas de 5 puis de 3) | p ≈ 1,4 × 10⁻³ | — | — | Curiosité, après coup |
-| Stehle : c[i+4] − c[i] = 5 cinq fois en 55–63 | p ≈ 0,0002 | p ≈ 0,0065 (tous écarts et différences) | — | Curiosité locale |
+| Stehle : c[i+4] − c[i] = 5 cinq fois en 55–63 | p ≈ 0,0002 | p ≈ 0,0065 (tous écarts et différences) ; ≈ 1/205 selon la remesure amont d'août 2026 (écarts 1–30) | — | Curiosité locale |
 | Miroir des cribs autour de 48 (11 paires) | fait géométrique | — | — | La pliure complète est éliminée (T5) |
 | Regroupement des lettres (Improvidus) | p ≈ 0,018 corrigé | 0,06–0,17 sans les doublets | non | **Expliqué** par les doublets |
 | IC des positions 0–20 (0,0667, « anglais ») | 2,4 % | 42 % des K4 mélangés ont une fenêtre aussi forte | — | **Non significatif** |
@@ -325,6 +327,7 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 | Le « big hint » donné à la CIA vers 1997–1998 | Archives CIA ; témoignage | Jamais publié |
 | Curiosités U, KZ-TJ-DI, clé Beaufort répétée | Une solution devra les expliquer ou les rendre fortuites | Conservées comme contrôles |
 | La méthode de Sanborn dans ses œuvres de 1991 (*Code Room*, *Covert Obsolescence*, clé MEDUSA : « je suis resté aux systèmes de la période Kryptos ») | Relevés publics de leurs textes codés | Piste documentaire jamais instruite |
+| *Secret Past* (1992) : une œuvre de Sanborn dont la moitié « duplique le texte de Kryptos » (liste de la galerie Drysdale, IMG_1485) | Retrouver l'œuvre ou une photo, et comparer son K4 et son « ? » au cuivre | Piste nouvelle (25/09), non instruite ; *Antipodes* (1997) a un K4 identique |
 | Orientation réelle de la rose des vents ; géométrie mesurée de l'écran et du site ; sens de lecture des dalles Morse | Relevé sur place, vue aérienne nette | Données absentes. Aucune ne fixerait seule un paramètre |
 | Masques des « E » du Morse (règle des intervalles) | Une règle définie d'avance et une transcription vérifiée | Règle non définie ; la règle des groupes est éliminée |
 

@@ -104,7 +104,7 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | Entretien d'histoire orale de 2009 (Archives of American Art) | **Réussi** : lu en entier | base 1 §4 bis |
 | *The Cryptogram* 1991, lettre de Sanborn de 1989, discours de Webster, article de Yandle | **Réussi** : « en partie avec le tableau, en partie avec un système potentiellement redoutable » ; deux enveloppes, dont les **mots-clés** | base 1 §4 ter |
 | Photos RR Auction (12, puis 31) | **Réussi** : transcription de l'inauguration, contrat, plaque d'essai, brouillons (le Q d'IQLUSION absent du brouillon) | base 1 §4 quinquies |
-| Photos KryptosBot des papiers de Sanborn | **Réussi** pour IMG_1340 (voir 24/09), 1410, 1555, 1569 ; IMG_1236 et « 7 × 88 » rattachés à d'autres projets ; 26 images **non lues** | base 1 §4 sexies ; base 5 |
+| Photos KryptosBot des papiers de Sanborn | **Réussi** pour IMG_1340 (voir 24/09), 1410, 1555, 1569 ; IMG_1236 et « 7 × 88 » rattachés à d'autres projets ; les autres lues le 25/09 (voir F) | base 1 §4 sexies ; base 5 |
 | Fonds Sanborn des Archives of American Art | **Réussi** : numérisé et accessible (EDAN) ; 16 dossiers lus, dont le manuscrit de 2009, la dédicace, la presse de 1990–1991, les feuilles russes | base 5 |
 | Site aaa.si.edu et web.archive.org en direct | **Bloqué** (403) ; contourné par l'EDAN et les copies fournies | base 5 |
 | Dossier « Stencil Patterns, circa 1988 » | **Bloqué** : scellé par le donateur (AAA, 2025) | base 5 ; base 7 §11.2 |
@@ -156,7 +156,7 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | Tentative | Résultat | Où |
 |---|---|---|
 | Documents versés par l'utilisateur (NSA 1991–1992 et 2014, ABC 1991, NOVA 2006, réunion de 2015, Carter, Martinsburg) | **Réussi** : lus en entier ; Scheidt n'a jamais vérifié K4 ; « rugosité à l'intervalle 7 » (NSA 1992) ; plan orienté de la cour (NSA 1991) | base 6 |
-| IMG_1340 « 4, 8, 10, 25 » | **Réussi** : ce sont les lignes des quatre « ? » ; « ? … not coded » | base 6 ; audit `vision` §1 |
+| IMG_1340 « 4, 8, 10, 25 » | **Réussi** : ce sont les lignes des quatre « ? ». **Corrigé le 25/09** : le mot devant « coded » est illisible ; indice compatible, pas preuve | base 6 ; audit `vision` §1 ; base 5 (25/09) |
 | Fichiers du groupe (1 780 fichiers inventoriés, 460 Mo lus) | **Réussi** : fichier NYT de Sanborn (« ? » non numéroté), pièces NSA 1993–1999, transcription Scheidt 2020, comptes rendus de dîners | base 7 §1–§3 |
 | 81 clairs complets revendiqués par des membres | Vérifiés : **aucun** n'est dérivé par une méthode reproductible ; la « solution » de 2025 est un masque jetable | base 7 §3 |
 | Archive des messages 2003–2018 (20 250 messages) | **Réussi** : témoignages directs, antériorité des doublets (2002), petit fragment de 97 lettres | base 7 §7–§9 |
@@ -267,6 +267,23 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | LFSR d'ordre 1–5 | 101 086 alphabets | **Éliminé** | `relais_2026_09_25` 5ᵉ partie |
 | « Fibonacci au pas 7 » (colonnes mod 7 en récurrence d'ordre 2) | — | **Éliminé** | idem 7ᵉ partie |
 | Agrandissement des images NOVA des 8 signes | deux agrandissements indépendants | **Bloqué** : taches opaques, signes déjà masqués en 2006 | idem 6ᵉ partie ; `procedes` §4 |
+
+
+### F bis. 25/09 : relecture intégrale de kryptosbot.com (archive, findings, research-questions)
+| Tentative | Résultat | Où |
+|---|---|---|
+| Lecture des trois pages et des **42 photos** de la page d'archive (14 seulement le 23/09) | **Réussi** : toutes vues, passages manuscrits agrandis | base 5, complément du 25/09 |
+| Relecture agrandie d'IMG_1340 | **Corrigé** : le mot devant « coded » est illisible ; « section » confirmé (et non « seeding ») | idem, A.1 |
+| Orientation de l'aiguille sur trois études de rose dessinées (IMG_1518) | **Réussi** : 63°, 55° et 66°, entre NE et ENE ; deux proches de l'aiguille gravée (66–67°) | `measurements/rose_studies_img1518.py` |
+| Tableau aux lettres entourées (IMG_1223–1224), « piste vivante » du projet amont | Déjà analysé le 23/09 (6/18) ; relu : clés G/G, Q/Q, B/V (et non A/W) ; aucune paire des cribs | base 5, A.3 |
+| Carte sur transparent (IMG_1221) | **Réussi** : carte du projet d'Alexandria de Sanborn et Urban (non réalisé), pas de Kryptos | idem, A.4 |
+| « He lied » (IMG_1384) | **Réussi** : coordonnées à 37° de la jaquette du *Da Vinci Code* ; réaction probable à Dan Brown | idem, A.5 |
+| « ? = J » (IMG_1531) | **Éliminé** (98 caractères, contraire au fichier NYT et au contrôle de Paradigm) | idem, A.6 |
+| *Secret Past* (1992), copie du texte de Kryptos (IMG_1485) | Piste documentaire **non faite** | idem, A.7 |
+| Carnet relié : croquis du site, vocabulaire du renseignement, clair « copper Veil » (IMG_1580–1582) | Relevé ; date et œuvre inconnues ; rien de testable | idem, A.8 |
+| Lettre de l'avocat sur *The Lost Symbol* (2009) | Lue sur le montage ; l'attribution du paragraphe du chapitre 53 est de KryptosBot | idem, A.9 |
+| État amont (findings) : Stehle ≈ 1/205, largeur 21 indépendante des W, 13 302 candidats sans survivant, Mengenlehreuhr et Weltzeituhr sans signal | Repris ; cohérent avec nos mesures | idem, C |
+| Rapport amont `docs/REAL_K4_CURRENT_POSITION.md` | **Non fait** : hors de notre périmètre d'accès | — |
 
 ---
 
