@@ -47,3 +47,61 @@
 | 5 témoins uniformes | 9 à 10 | 1 à 2 | 0 |
 
 ⇒ L'hypothèse de la NSA (autoclé sur le clair à l'écart 7) est **exclue pour les alphabets à mot-clé**. Il faudrait au moins 10 lettres fausses sur 24, et une copie en 32 ou 73 n'y change rien. Sur l'ensemble des écarts, K4 est au niveau du hasard. Avec un alphabet **libre**, T19 reste valable : une seule erreur rouvre la famille, comme pour un texte aléatoire, donc le test y est sans pouvoir.
+
+---
+
+# Recoupements du 25/09 : ce que la communauté n'a pas vu ? Pistes essayées et mesurées
+
+**Démarche.** Partir des faits les plus solides, et chercher **un seul mécanisme** qui les explique ensemble :
+- le « 7 » : doublets alignés et coïncidences à l'écart 7, p ≈ 2 × 10⁻⁴ ;
+- l'absence de clé périodique : 65/72, et K4 est *moins* compatible avec la période 7 que le hasard (T22) ;
+- l'échec de toutes les clés à pas 7 avec les alphabets de Sanborn.
+
+Chaque idée est mesurée avant d'être retenue.
+
+## 1. Un chiffre FRACTIONNANT à période 7, décalé sur la mise en page (T28, `t28_trifide.c`) : éliminé
+- **Idée.** Un trifide de Delastelle (27 symboles) de période 7 produit un « 7 » sans clé périodique.
+  - Si ses blocs commencent en 4, début de la première ligne pleine de K4 sur le cuivre, les doublets 18, 25, 32, 46 et 67 sont tous en tête de bloc.
+  - En tête de bloc, les lettres chiffrées 0 et 1 sont faites de la même coordonnée de six lettres claires.
+  - Chaque crib contient alors un bloc entier : NORTHEA et INCLOCK.
+- **Antériorité.** Le registre déclare le trifide éliminé « pour toutes les périodes » (E-S-09, E-S-42b, E-S-44), probablement avec des blocs commençant à la première lettre. On teste ici **toutes les phases**.
+- **Test exact.** Cube quelconque ; union-find sur les 81 trits, puis recherche d'un cube bijectif ; périodes 2 à 40, toutes phases (819 cas).
+  - **K4 : 0 compatible** ; témoins 0/200 par cas ; contrôle positif (P = 7, φ = 4) 20/20.
+- **Simulation** (200 000 textes anglais, cubes aléatoires) : le trifide de période 7 ne concentre **pas** les doublets sur une phase (0,48 à 0,61 par phase), et il ne donne que 4,1 coïncidences à l'écart 7, contre 9 pour K4.
+- ⇒ **Piste fermée**, et l'antériorité est confirmée pour toutes les phases.
+
+## 2. Clé lue verticalement sur la feuille 31 × 14, et « 1-2-3 »
+- **Déjà éliminé** : clé = chiffré de K3 à la même colonne, d = 1 à 11 lignes plus haut (`../k3ct_key_2026_09_23/`), et texte de la feuille de K3 dans tous les sens (`../k3_chart_stack_2026_09_23/`).
+- Le « 1-2-3 » de Sanborn (03/03/2019) concerne les lettres désalignées de K1–K3 : « no, those letters were intended to refer to "1-2-3" ». Ce n'est pas un indice sur K4.
+
+## 3. Un motif de répétition jamais mesuré : KZ, TJ, DI « comprimés » (`motif_kz_tj_di.c`)
+- **Fait.** Trois bigrammes se répètent dans le même ordre, régulièrement espacés aux deux endroits :
+  - K45 Z46 · T50 J51 · D55 I56, soit un pas de 5 ;
+  - K77 Z78 · T80 J81 · D83 I84, soit un pas de 3.
+  - Les distances entre les deux occurrences diminuent : 32, 30, 28. Le groupe DI tombe les deux fois en fin de ligne d'une grille de 14 (colonne 13).
+  - B. Briere (2009) avait noté la « répétition symétrique » sans la mesurer.
+- **Mesure** (2 millions de mélanges de K4) : **p ≈ 1,4 × 10⁻³** pour « trois bigrammes répétés, en progression arithmétique aux deux endroits ». La statistique est définie après coup ; le facteur à payer pour ce choix est inconnu.
+- **Aucun mécanisme connu** ne la produit. Dans une clé additive, il faudrait les mêmes clairs **et** les mêmes clés aux deux endroits, avec une lecture de la clé « un sur deux » : c'est l'allure d'une grille ou d'un masque qui prélève les mêmes lettres avec un autre pas.
+- ⇒ **Curiosité à garder comme contrôle**, pas un signal.
+
+## 4. GIRASOL : la résonance des doublets, recadrée
+- **Rappel** (base 7 §12.1). Si les doublets de la phase 4 viennent d'un écart de clé fixe, l'alphabet du clair doit vérifier σ(O) − σ(N) = σ(T) − σ(S) = σ(N) − σ(I). Seuls **0,54 %** des alphabets à mot-clé le font.
+- **GIRASOL** (le tableau de la maquette de 1988) le fait, avec un écart de **15** pour les trois paires. KRYPTOS et A–Z ne le font pas.
+- **Recadrage.** L'autre session estimait p ≈ 0,07, en comparant à 80 mots thématiques. Mais l'ensemble des alphabets **que Sanborn a réellement employés** est fixé d'avance et petit : KRYPTOS, GIRASOL, et A–Z si l'on veut. Qu'un sur deux ou trois passe un filtre à 0,54 % donne **p ≈ 0,01 à 0,016**. C'est faible, mais cela relie deux faits indépendants : les doublets de K4 et l'alphabet de 1988.
+- **Ce que GIRASOL ne donne pas.** Aucune structure de clé :
+  - avec une clé de période 7 en Beaufort GIRASOL, il faudrait 14 erreurs sur 24 ;
+  - les familles à pas 7, les autoclés et la clé courante avec GIRASOL tombent déjà (`../motcle_pas7_2026_09_24/`, où GIRASOL fait partie des mots thématiques).
+- **Deux prédictions vérifiables**, si l'hypothèse « écart de clé fixe en phase 4, alphabet GIRASOL » est juste :
+  1. Les doublets hors cribs, BB (18–19) et ZZ (46–47), cachent des bigrammes clairs d'écart 15 en GIRASOL. Parmi eux, en anglais courant : **IN, ST, NO, OU, HI, VE, PL, MS, UD**.
+  2. **Les 8 signes sous LINCLOCK**, s'ils sont des lettres de clé en GIRASOL, se lisent :
+     - Vigenère **MQABTLDG** ;
+     - Beaufort **IUDXONZR** ;
+     - variante **FCXTBUPG**.
+     - Ces lignes s'ajoutent à la table de reconnaissance de `../erreurs_multiples_2026_09_24/results_huit_signes.txt`.
+
+## Bilan honnête
+- Aucun moment Eurêka **vérifié**. Les deux idées qui pouvaient expliquer le « 7 » d'un coup, le fractionnement décalé et la clé verticale, sont fermées par des tests exacts.
+- Il reste :
+  - une curiosité mesurée : KZ, TJ, DI (p ≈ 1,4 × 10⁻³, après coup) ;
+  - un lien recadré, faible mais réel : GIRASOL passe la contrainte des doublets (p ≈ 0,01 parmi les alphabets de Sanborn) ;
+  - deux prédictions précises pour le jour où l'on pourra lire les 8 signes.
