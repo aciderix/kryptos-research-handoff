@@ -14,6 +14,7 @@
 | `temoins.txt`, `results_recherche_temoins*.txt` | 12 K4 mélangés (un terme), 8 (deux termes) |
 | `ctl_procede*.txt`, `results_ctl_procede*.txt` | deux contrôles positifs (faux K4 de procédé connu) |
 | `t35_fautes_de_recopie.c`, `results_t35.txt` | T35 : le « 7 » vu comme des fautes de recopie d'une feuille de 7 colonnes |
+| `geometrie_14x7.py`, `amas_14x7.py` et leurs résultats | géométrie des répétitions sur la feuille 14 × 7, sans hypothèse de clé (§5) |
 | `agrandir_signes_nova.py` | agrandit les 8 signes de la feuille NOVA depuis `Personal Folders/pi/K4 NOVA.jpg` (image non versionnée) |
 
 ## 1. La borne : ce qu'un chiffre déchiffrable peut faire
@@ -107,3 +108,31 @@ C'est le seul modèle rencontré qui explique les deux traits à la fois. Il dé
 | (B) Σ e_min pour p ≤ 13 | 87 | 83,6 en moyenne ; 193 sur 200 font au moins aussi bien |
 
 **Résultat.** Retirer les lettres désignées par le modèle n'aide **pas**. M fait même un peu moins bien que des masques au hasard. Le modèle « fautes de recopie + clé simple » est donc **éliminé** : avec ou sans ces lettres, aucune clé périodique ne s'ajuste. Des fautes de recopie restent possibles, mais le chiffre qui est dessous n'est pas simple, et on ne gagne rien.
+
+## 5. Pas une question de familles : la forme des répétitions sur la feuille 14 × 7
+
+Tout ce qui suit se fait sans aucune hypothèse de clé. Avec le « ? » en tête, K4 fait **98 = 14 × 7** caractères, soit un rectangle plein. Les comparaisons portent sur 100 000 mélanges des lettres de K4.
+
+**Directions de voisinage** (`geometrie_14x7.py`). Deux relations seulement dépassent le hasard, toutes deux orthogonales :
+- lettre = lettre du dessus : 9 contre 3,25 (p = 0,005). Les 9 cas se répartissent sur les colonnes 0, 1, 1, 2, 3, 3, 4, 5, 6 ;
+- dernière paire de chaque ligne : 5 doublets contre 0,5.
+
+Le reste est au hasard : diagonales 2 et 3 (contre 2,8), deux cases plus loin 2 et 2 (contre 2,5 et 3,0).
+
+**Amas** (`amas_14x7.py`). Les lettres identiques forment **3 amas d'au moins 3 cases**, contre 0,5 attendu (p = 0,011), et 27 cases appartiennent à des amas d'au moins 2, contre 11,9 (p = 0,002) :
+- O O O, en colonne 1, lignes 0 à 2 ;
+- B en équerre, (1,6) (2,5) (2,6) ;
+- S en équerre, (4,5) (4,6) (5,5).
+
+Les deux équerres touchent le bord droit. Ces amas redisent les mêmes répétitions sous une autre forme : ce n'est pas un signal indépendant.
+
+**Comparaison avec le fragment Zola.** Sanborn y répète la dernière lettre d'une ligne chiffrée pour l'allonger jusqu'à la marge (…ULL, …AWW, …RSSS). Ces lettres sont **ajoutées**, puis retirées avant de déchiffrer.
+- Dans K4, cela ne tient pas : le clair enregistré fait 97 lettres, avec les cribs aux mêmes rangs que le chiffré. Un ajout avant le rang 21 décalerait tout.
+- Et les secondes lettres des doublets de crib (26, 33, 68) portent de vraies lettres claires (O, T, N).
+- Le lien avec Zola se réduit donc à une **habitude de la main** : doubler une lettre en bout de ligne. Dans K4, elle ne serait pas une lettre ajoutée mais une lettre **remplacée**, donc une perte d'information.
+
+**Lecture.**
+- Le « 7 » décrit une feuille de 14 × 7 qui commençait sans doute par le « ? », et invisible sur le cuivre. Sur cette feuille, chaque case tient à la case du dessus, la dernière case de chaque ligne tient à sa voisine de gauche, et rien ne passe en diagonale.
+- Aucune clé appliquée lettre à lettre ne produit cela (borne du §1). Une recopie distraite non plus : elle aurait des diagonales et se concentrerait en début de ligne.
+- Restent une opération faite **ligne à ligne sur la feuille**, qui n'est pas lettre à lettre (masque, retouche), ou le hasard (10⁻³ à 10⁻² après correction).
+- Retirer les lettres concernées ne rend aucune clé simple compatible (T35, §4). Le mécanisme ne se reconstituera donc pas à partir des 97 lettres seules.

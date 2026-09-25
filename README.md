@@ -49,6 +49,10 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
   - **clé courante tirée d'un texte anglais inconnu**, famille jusqu'ici réputée irréfutable : les deux fragments de clé devraient être de l'anglais ; ils ne le sont jamais (puissance 99,5 %).
 
 - **Simulateur Sanborn (25/09, fin)** : `audits/simulateur_2026_09_25/README.md`, base 7 §12.10. On ne teste plus une famille contre les cribs. On demande quel procédé manuel fabrique un texte qui ressemble à K4 sur ses 97 lettres : 52 procédés, un million de faux K4 chacun.
+- **Moteur unique C/OpenMP (25/09)** : `audits/moteur_2026_09_25/README.md`. Six chantiers T0–T6 : 1,4 à 3 millions d'alphabets à mot-clé, 30 témoins, contrôles positifs.
+  - Aucune famille ne place K4 hors des témoins : période et variantes à 7, erreurs de Sanborn, transposition + substitution (NSA 1992), Quagmire IV, ligne + colonne, deux mots superposés.
+  - L'attaque sur le texte entier passe désormais son contrôle ; sur K4, charabia.
+  - Relais DeepSeek n° 3–4 vérifiés : `audits/relais_2026_09_25/README.md`, 5ᵉ–7ᵉ parties. Les 8 signes étaient déjà masqués en 2006 ; LFSR et « Fibonacci au pas 7 » sont éliminés.
   - Le « 7 » ne relie que des **voisins** : l'écart 7 est en excès, les écarts 14 à 49 sont au hasard. Ce n'est donc pas une période, quelle que soit la clé.
   - Un seul procédé manuel produit ce profil : l'autoclé sur le clair à l'écart 7, **forme Vigenère** (Beaufort et Variante ne le produisent pas). C'est l'hypothèse de la NSA, précisée.
   - T34 la teste avec deux alphabets à mot-clé indépendants (Quagmire IV, 5,3 × 10¹¹ paires, recherche exacte, clair entier lu) : K4 au moins 7 équations fausses sur 17, témoins 5 à 7. **Éliminée**, même avec le taux d'erreur de Sanborn.
