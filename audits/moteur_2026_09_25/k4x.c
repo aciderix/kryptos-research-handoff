@@ -123,18 +123,20 @@ static int eval_t16(const int *K, const M5 *EQ0, int cut) {
     if (NP - agree < best) best = NP - agree; }
   return best;
 }
+static int T16N[4] = {97, 98}, NT16N = 2; /* longueurs de grille ; T16N=105 : K4 d'origine de 105 lettres (15 × 7), hypothèse des 8 signes */
 static void build_t16(void) {
+  if (getenv("T16N")) { NT16N = 0; for (char *p = getenv("T16N"); *p && NT16N < 4; ) { T16N[NT16N++] = atoi(p); while (*p && *p != ',') p++; if (*p) p++; } }
   static int pis[5040][7]; int n = 0, pi[7] = {0, 1, 2, 3, 4, 5, 6};
   do { memcpy(pis[n++], pi, sizeof pi); int i = 5; while (i >= 0 && pi[i] > pi[i + 1]) i--; if (i < 0) break;
     int j = 6; while (pi[j] < pi[i]) j--; int x = pi[i]; pi[i] = pi[j]; pi[j] = x; for (int l = i + 1, r = 6; l < r; l++, r--) { x = pi[l]; pi[l] = pi[r]; pi[r] = x; } } while (1);
   int cap = 5040 * 7 * 2 * 2; T16M = malloc(sizeof(*T16M) * cap); T16P = calloc(cap, sizeof(M5)); T16NC = malloc(sizeof(int) * cap); NT16 = 0;
   uint64_t *hs = calloc(1 << 22, 8);
-  for (int k = 0; k < n; k++) for (int inv = 0; inv < 2; inv++) for (int N = 97; N <= 98; N++) for (int L = 1; L <= 7; L++) {
-    int h = (N + 6) / 7, full = N % 7 == 0 ? 7 : N % 7, rd[98], t = 0, rank[98];
+  for (int k = 0; k < n; k++) for (int inv = 0; inv < 2; inv++) for (int ni = 0; ni < NT16N; ni++) for (int L = 1; L <= 7; L++) { int N = T16N[ni];
+    int h = (N + 6) / 7, full = N % 7 == 0 ? 7 : N % 7, rd[112], t = 0, rank[112];
     for (int qq = 0; qq < 7; qq++) { int col = pis[k][qq], hc = col < full ? h : h - 1; for (int r = 0; r < hc; r++) { if (!inv) rd[t] = r * 7 + col; else rank[r * 7 + col] = t; t++; } }
     if (inv) for (int m = 0; m < N; m++) rd[m] = rank[m];
     /* rd[i] = rang de lecture de la position i ; la clé de i est la lettre (rang mod L) du mot */
-    signed char cl[NP]; int map[98]; for (int i = 0; i < 98; i++) map[i] = -1; int nx = 0; uint64_t hh = 1469598103934665603ULL;
+    signed char cl[NP]; int map[112]; for (int i = 0; i < 112; i++) map[i] = -1; int nx = 0; uint64_t hh = 1469598103934665603ULL;
     for (int u = 0; u < NP; u++) { int c = rd[POS[u]] % L; if (map[c] < 0) map[c] = nx++; cl[u] = map[c]; hh = (hh ^ (uint64_t)cl[u]) * 1099511628211ULL; }
     hh |= 1; uint32_t ix = hh & ((1 << 22) - 1); int dup = 0; while (hs[ix]) { if (hs[ix] == hh) { dup = 1; break; } ix = (ix + 1) & ((1 << 22) - 1); }
     if (dup) continue;
