@@ -252,6 +252,9 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 
 ## 6. Où en est la question du « 7 »
 
+> **Ajout du 25/09 (nuit) : preuve algébrique** (`audits/autocle_algebre_2026_09_25/`). L'autoclé sur le clair à l'écart 7 — le **seul** procédé que le simulateur retenait pour l'excès à l'écart 7 — est **impossible sans erreur**, pour un alphabet mixte σ quelconque commun aux deux côtés (Q3), dans les trois conventions : en Vigenère, les auto-chiffrements 32 (S→S) et 73 (K→K) forcent σ(N) = σ(L) ; Variante et Beaufort aboutissent aussi à deux lettres sur la même valeur. C'est une contradiction exacte tirée des seules 24 lettres, sans mot-clé. Raison : les deux cribs sont distants de 42 = 6 × 7, donc chaque classe mod 7 relie les deux blocs. C'est la preuve à la main du résultat de T18. **Correction** : la première version annonçait qu'il fallait deux erreurs en Vigenère ; c'était un artefact du script, qui comptait « σ(X) = 0 » comme une contradiction. **Une** erreur suffit, en 66 ou 73 (Vigenère), 25 ou 32 (Variante), 24, 28, 31, 32, 67 ou 70 (Beaufort) : vérifié par CP-SAT et en rejouant la récurrence sur le chiffré (`audits/autocle_groupes_2026_09_25/verif_une_erreur.py`). Avec une erreur, les 24 lettres ne tranchent plus (T19, T36).
+
+
 **Ce qui est acquis.**
 - Le « 7 » est dans les **positions du chiffré** (écart 7, doublets ≡ 4 mod 7), pas dans une période de clé.
 - Il est propre à K4 (K1–K3 n'en ont pas).
@@ -350,6 +353,7 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 | 05 | Audit des sources primaires (papiers de Sanborn aux Archives of American Art) |
 | 06 | Documents versés par l'utilisateur le 24/09 (NSA 1991–1992, NOVA 2006, réunion de 2015…) |
 | 07 | Fichiers et archive du groupe kryptos.groups.io (2003–2026), balayages, tests T7–T36, relais |
+| 11 | Ce que le dépôt amont `jcolinpatrick/kryptos` apporte encore (AAA expurgé, E0d, négatifs de mai–juin, 863 080 alphabets de sa liste anglaise) |
 
 ### 10.2 Audits (`audits/`)
 - **21/09** : fiabilité du registre amont, cellules ouvertes, authenticité documentaire, trois audits de solutions publiées (`k4_audit_001` à `003`). État : « le blocage est documentaire ».

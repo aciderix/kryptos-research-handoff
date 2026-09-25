@@ -136,3 +136,23 @@ Les deux équerres touchent le bord droit. Ces amas redisent les mêmes répéti
 - Aucune clé appliquée lettre à lettre ne produit cela (borne du §1). Une recopie distraite non plus : elle aurait des diagonales et se concentrerait en début de ligne.
 - Restent une opération faite **ligne à ligne sur la feuille**, qui n'est pas lettre à lettre (masque, retouche), ou le hasard (10⁻³ à 10⁻² après correction).
 - Retirer les lettres concernées ne rend aucune clé simple compatible (T35, §4). Le mécanisme ne se reconstituera donc pas à partir des 97 lettres seules.
+
+## 6. Observation du 25/09 (nuit) : sur EASTNORTHEAST, le chiffré n'est que le clair décalé de ±2
+
+- En Vigenère A–Z, la clé des positions 21–33 vaut, en décalage signé, **1, 11, −1, 2, 3, 2, −2, −2, 6, 2, 10, 0, −1**. Neuf lettres sur 13 sont chiffrées à ±2 rangs de leur clair (E→F, S→R, T→V, O→Q, R→P, T→R, E→G, S→S, T→S).
+- Sur BERLINCLOCK : 12, −6, −2, 10, 11, 6, 10, −12, −9, −13, 0, soit **2 sur 11**, le niveau du hasard.
+- **Significativité** (K4 mélangé, 3 000 tirages) : p nominal 2 × 10⁻⁵. En corrigeant pour la recherche (alphabets A–Z ou KRYPTOS de chaque côté, VIG et VARB, BEAU centré n'importe où, seuils ±1, ±2, ±3, deux cribs), **p = 0,006**.
+- C'est l'effet E0b de Materna et Bean (lettres de KRYPTOS « presque en place »), vu autrement : il ne concerne pas les lettres de KRYPTOS, mais **toute la zone du premier crib**, et disparaît sur le second.
+
+**Conséquence testable** (`../moteur_2026_09_25/viterbi_pm2.c`). Si la zone est chiffrée par de petits décalages, le chiffré voisin devrait redonner de l'anglais en décalant chaque lettre d'au plus ±2. On cherche le meilleur anglais par programmation dynamique sur les quadrigrammes.
+- **Contrôle** (anglais + clé aléatoire dans [−2, 2], 40 lettres) : −3,66 par quadrigramme, contre −3,97 en moyenne pour les témoins ; p = 0,02. Le test a peu de puissance, car 5 choix par lettre suffisent à fabriquer du pseudo-anglais.
+- **K4**, positions 0–63 : −4,04 (« NDISTOWNHISMASONHEADVENTUPONTOHISTORY… »), témoins −4,19 en moyenne, **p = 0,08**. Fenêtres 0–21, 21–34 et 34–63 : p = 0,26, 0,17 et 0,22.
+- Sur le crib, EASTNORTHEAST n'est pas retrouvé : quatre de ses décalages (+11, +10, +6, +3) sortent de ±2.
+
+**Lecture.** L'écart est réel au niveau de 0,6 % après correction. Mais il ne se prolonge pas de façon détectable hors du crib. Le projet a regardé des centaines de statistiques ; un p de 0,006 y est attendu de temps en temps. À garder comme un fait à expliquer : clé proche de A sur 21–33, mais pas sur 63–73.
+
+**Localisation sans clair (25/09, nuit).** Idée : une zone chiffrée par des décalages de ±2 garde dans ses lettres chiffrées la trace des fréquences de l'anglais (lettres autour de E, T, A, O). On fait glisser une fenêtre de 13 lettres sur K4 et on note sa vraisemblance sous « anglais brouillé de ±2 ».
+- Résultat : 21–33 donne +1,36, 63–73 donne 0,03. Des fenêtres voisines de 24–44 sont légèrement positives, et 80–92 aussi.
+- Mais 68 % des K4 mélangés ont une fenêtre qui fait au moins aussi bien : **le test n'a aucune puissance**. Sur 13 lettres, les fréquences seules ne distinguent rien.
+- La zone du phénomène ne peut donc pas être localisée à partir du chiffré seul.
+- **Explication écartée** : une clé en « période 7 + décalage par ligne du cuivre » presque nulle sur la ligne 26 (celle d'EASTNORTHEAST). Elle imposerait une clé constante sur chaque ligne de BERLINCLOCK, alors qu'on lit 12, −6, −2 sur la ligne 27 et 10, 11, 6, 10, −12, −9, −13, 0 sur la ligne 28.

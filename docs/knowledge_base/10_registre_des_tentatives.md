@@ -288,6 +288,20 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | État amont (findings) : Stehle ≈ 1/205, largeur 21 indépendante des W, 13 302 candidats sans survivant, Mengenlehreuhr et Weltzeituhr sans signal | Repris ; cohérent avec nos mesures | idem, C |
 | Rapport amont `docs/REAL_K4_CURRENT_POSITION.md` | **Non fait** : hors de notre périmètre d'accès | — |
 
+### F ter. 25/09 (nuit) : travaux d'une session parallèle, et leur recoupement
+| Tentative | Résultat | Où |
+|---|---|---|
+| Relecture du dépôt amont `jcolinpatrick/kryptos` (rapports, mémoires, 278 commits) | **Réussi** : dossiers AAA expurgés, E0d de Bean vérifiée (faible après correction), négatifs de mai–juin ; aucun résultat positif | base 11 |
+| Listes Oranchak et liste anglaise amont (863 080 alphabets), toutes familles, 30 témoins | **Sans signal** (p = 0,81 à 1) | base 11 §8–9 ; `moteur_2026_09_25/res_T2c_anglais_amont.txt` |
+| Relais « cinq angles morts », vérifié une seconde fois | Mêmes verdicts que la base 7 §12.17 | `relais_2026_09_25` 8ᵉ partie |
+| T16 sur une grille de 105 = 15 × 7 | **Sans signal** (K4 7 erreurs, témoins 6–8, p = 0,87) | `moteur_2026_09_25/res_T16_grille105.txt` |
+| Autoclé à l'écart 7 sur une grille 2 × 13 remplie par mot-clé (`k4coord.c`) | **Éliminé** (K4 3 fausses sur 10, comme les témoins) | `relais_2026_09_25` 8ᵉ partie |
+| Preuve algébrique : autoclé à l'écart 7, alphabet commun quelconque | **Réussi** sans erreur (impossible, 3 conventions ; preuve à la main de T18). « Deux erreurs nécessaires en Vigenère » **corrigé** : une suffit (66 ou 73) | `autocle_algebre_2026_09_25` ; `autocle_groupes_2026_09_25/verif_une_erreur.py` |
+| Relais Gemini « sept détails » ; lettres entourées du tableau | Points 1–6 déjà connus ; les lettres entourées sont quatre recherches ordinaires dans le tableau, sans lien avec les cribs | `relais_2026_09_25` 9ᵉ partie |
+| `K4_cheat_sheet.txt` et `CONUMDRUM.txt` (dossiers personnels) | **Éliminé** : masques jetables ; CONUMDRUM réfuté par EASTNORTHEAST | base 7 §12.18 |
+| *Secret Past* (1992) : lettre Drysdale de 1995 | Relevé : œuvre chez un collectionneur privé, aucune photo publique | base 7 §12.19 |
+| Clé A–Z presque nulle sur EASTNORTHEAST (9/13 à ±2) | Mesuré : p = 0,006 après correction ; ne se prolonge pas (Viterbi ±2, p = 0,08) ; localisation sans puissance | `procedes_2026_09_25` §6 |
+
 ---
 
 ## G. Outils : validés, en échec, corrigés
@@ -328,6 +342,7 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | Rectangle 14 × 7 « avec le ? » tenu pour la feuille de travail | Hypothèse de mise en page | base 9 §7 |
 | Qui a exécuté K4 : Scheidt (*Museum & Arts* 1990) ou Sanborn (WaPo 1999) | Tranché pour Sanborn (Scheidt 1991 et 2015) | base 5 ; base 6 |
 | Martinsburg : « aucune convention simple » | ASCII 7 bits | `martinsburg_2026_09_25` |
+| Autoclé à l'écart 7, alphabet commun : « deux erreurs nécessaires en Vigenère » (preuve algébrique, première version) | Une seule suffit (66 ou 73) : le script comptait σ(X) = 0 comme une contradiction | `autocle_algebre_2026_09_25` ; base 7 §12.17 |
 
 ---
 

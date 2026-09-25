@@ -7,6 +7,7 @@
 | `t36_autocle_groupes.py`, `results_t36.txt`, `results_t36.json` | T36 : 23 groupes, 3 conventions, K4 + contrôle positif + 20 témoins (CP-SAT) |
 | `t36_controles.py`, `results_t36_controles.txt` | contrôles positifs pour les groupes où aucun texte anglais ne reste dans les 26 lettres ; taux de fermeture de l'anglais |
 | `t36_tau_libre.py`, `results_t36_tau_libre.txt` | T36b : codage du chiffré τ indépendant du codage du clair σ |
+| `verif_une_erreur.py` | Z/26, alphabet commun : quels rangs de crib, retirés seuls, rendent l'autoclé compatible ; la récurrence est rejouée lettre par lettre sur le chiffré. Corrige `../autocle_algebre_2026_09_25/` (« deux erreurs » en Vigenère : une suffit, en 66 ou 73) |
 
 Lancement : `CORPUS=…/corpus_all.txt python3 t36_autocle_groupes.py 30 20`, puis `python3 t36_controles.py 3` et `python3 t36_tau_libre.py 30 20`. Le corpus anglais vient de `../erreurs_multiples_2026_09_24/corpus_get.sh` (Gutenberg). Il faut `pip install ortools`.
 
@@ -82,6 +83,7 @@ Moyennes sur les 67 cas : 40 % des témoins sont compatibles sans erreur, et 83 
 - **Sans erreur, l'autoclé sur le clair à l'écart 7 est éliminée dans tous les groupes testés**, avec un même codage pour le clair, la clé et le chiffré. Cela vaut pour les 3 conventions, les nombres modulo 26 à 36, les coordonnées de grille (5 × 6, 6 × 6, 3 × 3 × 3) et le XOR sur 5 bits. Pour l'ordre 26, c'est un théorème (Z/26 seul), déjà couvert par T18.
 - **Avec une erreur, aucun pouvoir de décision** : K4 fait comme 30 à 100 % des témoins. C'est la même situation que T19 dans Z/26. Le changement de « base » n'ajoute rien de décidable.
 - **Avec deux codages libres (T36b), aucun pouvoir de décision, même sans erreur.** Le coin ouvert du procédé désigné est donc un peu plus large que ce qu'écrivait la base 9 (§6, point 1). Il ne comprend pas seulement « un alphabet libre et une erreur », mais aussi « deux alphabets libres, sans erreur ». Seul le texte entier (97 lettres) ou un nouveau clair connu peut trancher ; les 24 lettres des cribs n'y suffisent pas.
+- **Une seule erreur suffit bien** (`verif_une_erreur.py`, Z/26, alphabet commun) : il suffit de retirer 66 ou 73 en Vigenère, 25 ou 32 en Variante, et 24, 28, 31, 32, 67 ou 70 en Beaufort. Par exemple, en Vigenère sans le rang 73, σ = NLKWEXSJPHGTVDIRUAMCQOYBZF satisfait toutes les autres lettres des cribs, récurrence rejouée sur le vrai chiffré.
 - **La fermeture sur 26 lettres** rend les groupes de plus de 28 éléments très peu plausibles pour un texte gravé en A–Z seulement.
 
 **Ce qui n'est pas couvert.** Les structures non additives (tables quelconques de 26 × 26, qui ne sont plus des groupes), et les groupes non abéliens. Pour ces familles, 24 lettres ne décident rien : leur espace de clés est bien plus grand que celui d'un alphabet libre, qui est déjà indécidable avec une erreur.
