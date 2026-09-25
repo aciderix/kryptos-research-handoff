@@ -1,0 +1,2 @@
+T16 : 5835 partitions distinctes
+alphabets 1395188, 31 chiffrés, 9073.4 s
