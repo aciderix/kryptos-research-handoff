@@ -1,0 +1,17 @@
+colonnes (avec « ? ») des 9 répétitions verticales : [0, 1, 1, 2, 3, 3, 4, 5, 6]
+== avec « ? » en tête (98 = 14 × 7)
+  droite                               K4 =  6   mélanges : moyenne  2.99   p = 0.07946
+  droite, dernière paire de la ligne   K4 =  5   mélanges : moyenne  0.50   p = 0.00006
+  dessous                              K4 =  9   mélanges : moyenne  3.25   p = 0.00463
+  diag. bas-droite                     K4 =  2   mélanges : moyenne  2.79   p = 0.77417
+  diag. bas-gauche                     K4 =  3   mélanges : moyenne  2.81   p = 0.53735
+  deux à droite                        K4 =  2   mélanges : moyenne  2.49   p = 0.71701
+  deux dessous                         K4 =  2   mélanges : moyenne  2.99   p = 0.80676
+== sans « ? »
+  droite                               K4 =  6   mélanges : moyenne  2.99   p = 0.07944
+  droite, dernière paire de la ligne   K4 =  0   mélanges : moyenne  0.47   p = 1.00000
+  dessous                              K4 =  9   mélanges : moyenne  3.25   p = 0.00463
+  diag. bas-droite                     K4 =  2   mélanges : moyenne  2.78   p = 0.77251
+  diag. bas-gauche                     K4 =  3   mélanges : moyenne  2.81   p = 0.53823
+  deux à droite                        K4 =  2   mélanges : moyenne  2.49   p = 0.71640
+  deux dessous                         K4 =  2   mélanges : moyenne  2.99   p = 0.80676

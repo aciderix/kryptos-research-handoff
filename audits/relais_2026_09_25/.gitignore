@@ -2,3 +2,5 @@ ctl_lfsr
 rec_decode
 rec_lfsr
 w2.bin
+ctl_fib7
+fib7

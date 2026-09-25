@@ -1,0 +1,3 @@
+ordre 2, 17576 jeux de coefficients, 3 alphabets, 201 chiffrés
+sans erreur : K4 0 cas | témoins min 0 moyenne 0.0 max 0 ; au moins un cas : 0.0 % | p = 1.0000
+au plus une erreur : K4 0 cas | témoins min 0 moyenne 0.0 max 0 ; au moins un cas : 0.0 % | p = 1.0000

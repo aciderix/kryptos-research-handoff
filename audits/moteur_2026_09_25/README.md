@@ -110,5 +110,13 @@ Familles de la base 2 déclarées indécidables avec un alphabet quelconque, rej
 
 **T2, dictionnaire élargi** (684 730 alphabets, 30 témoins, 2 332 s, `res_T2_dico.txt`) : K4 dans la distribution des témoins pour toutes les familles (p = 0,13 à 1). Meilleurs de K4 : p7 10 / 7 / 6 ; blocs 7 ; T16 8 ; autoclé sur le clair 4 ; autoclé sur le chiffré 10 cribs justes ; clé courante −4,80 (témoins −4,99 à −4,56). **Aucun nom propre, lieu ou terme thématique ne fait sortir K4 du hasard.**
 
+**T2, deux mots-clés** (2 960 415 alphabets : 40 mots thématiques × 59 497 mots, dans les deux ordres ; 10 témoins ; 931 s ; `res_T2_deux_mots.txt`) : p7 9 / 7 / 6 ; blocs 7 ; autoclé sur le chiffré 10 ; clé courante −4,68 (témoins −4,79 à −4,51). K4 au niveau des témoins partout (p = 0,45 à 1).
+
+**T6, alphabets linéaires** (`res_T6_lin.txt`, 30 témoins) :
+- clé ligne + colonne et deux mots superposés : 834 cas compatibles sans erreur, contre 714 à 2 705 pour les témoins (médiane 1 041), p = 0,90 ; avec une erreur, p = 0,61 ;
+- autoclé vers l'avant, sur le clair : 5 erreurs (témoins 4–5) ; sur le chiffré : 9 cribs justes (témoins 9–10), p = 1.
+
+**T6, Quagmire I, II, IV à période moyenne** (`res_T6_periodique26_lin.txt`, p = 1..26, erreurs de Sanborn) : K4 au niveau des témoins pour toutes les périodes. Le plus bas est p = 19, à 0,065 : c'est l'égalité connue de Bean.
+
 **T3 sur le dictionnaire élargi** (`res_T3_sanborn_dico.txt`) : e_min ≥ 5 pour toute période de 1 à 14 ; aucun cas « à la Sanborn » à ≤ 3 erreurs (p = 0,32 à 1).
 
