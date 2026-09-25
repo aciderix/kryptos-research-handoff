@@ -74,7 +74,7 @@ Pour chaque mécanisme manuel plausible en 1989, se demander s'il produit **à l
 
 ### B. « Les anomalies sont des indices »
 - IQLUSION et UNDERGRUUND sont des **accidents de fabrication**, prouvés par la feuille : la décision n'existait pas au moment du chiffrement.
-- Dans ses notes (IMG_1340, si la lecture est juste), Sanborn présente le L en trop et les « ? » comme des **particularités expliquées** (« not coded »).
+- Dans ses notes (IMG_1340, si la lecture est juste), Sanborn présente le L en trop et les « ? » comme des **particularités expliquées** (« not coded »). *Réserve (25/09, base 5)* : le mot « not » est illisible sur l'agrandissement.
 - Le discours « mes erreurs sont voulues » (2005) est **postérieur**, et il le nuance lui-même en 2020 (« certaines n'étaient pas voulues »).
 - ⇒ **Donner plus de poids aux documents d'époque** (lettre de 1989, discours de 1990, feuilles de travail) qu'aux entretiens ultérieurs. Les programmes de recherche fondés sur Q, U, L, « ? » reposent sur une lecture probablement erronée.
 

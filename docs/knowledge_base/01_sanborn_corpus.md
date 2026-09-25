@@ -333,6 +333,8 @@ Un encart place trois affleurements « devant l'entrée » : *Morse Strata* (au 
 
 **Mise à jour 24/09 (IMG_1340 résolu).** Les nombres « 4, 8, 10, 2? » se lisent **« 4, 8, 10, 25 »** : ce sont **exactement les lignes du panneau chiffré qui portent les quatre « ? »** (vérifié sur la transcription, `audits/vision_2026_09_24/data/panel_wikipedia.txt`). Le point 4 dit donc : « ? (lignes 4, 8, 10, 25) : non codés ». Le « ? » qui précède OBKR n'appartient pas au chiffrement : **K4 = 97 lettres**. Le point 3 (« Extra L at end of line, bottom chart section ») décrit le L en trop de la ligne N, **première ligne de la plaque du bas** du tableau (la NSA, 14/11/1991, note que les plaques haute et basse sont boulonnées sous la ligne M). Voir base 6.
 
+**Réserve du 25/09 (relecture agrandie, base 5).** Les nombres 4, 8, 10, 25 sont lisibles, et « section » l'est aussi (« Bottom chart section »). Mais le mot entre « 25 » et « coded » est illisible : « not » écrit très vite, tiret ou « + » (KryptosBot lit « (+) coded »). La note est donc un **indice compatible**, pas une preuve. Le « ? » non chiffré reste établi par le fichier NYT de Sanborn, la NSA, NPR 2005 et le contrôle de Paradigm.
+
 
 **« Compass cipher » (IMG_1569), recherche du 23/09.**
 - **Lecture confirmée sur la photo :** « Beaufort cipher / Compass cipher / Morse code / Alphabet code », puis « Cryptonyms », « Overlord / Normandy Invasion, H Bo[mb] ».

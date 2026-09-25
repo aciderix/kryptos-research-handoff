@@ -304,3 +304,128 @@ Lecture complète dans [`07_groupsio_2026_09_24.md`](07_groupsio_2026_09_24.md).
   - l'audio CBC *As It Happens* du 24/11/2014 (6 Mo, non transcrit) ;
   - les vidéos du groupe ;
   - le contenu classifié de l'analyse NSA de K4 (1998–1999).
+
+---
+
+## Complément du 25/09 : relecture intégrale de kryptosbot.com (archive, findings, research-questions)
+
+**Ce qui a été lu.**
+- Les trois pages, en entier : `/archive/`, `/findings/`, `/research-questions/` (site reconstruit le 04/09/2026).
+- **Les 42 images** de la page d'archive, une par une, avec agrandissements des passages manuscrits difficiles.
+- Le 23/09, nous n'en avions lu que 14 ; la page en compte aujourd'hui 42, dont 7 marquées « NEW — April 2026 ».
+- KryptosBot est le site de Colin Patrick, **l'auteur du dépôt d'origine** (`jcolinpatrick/kryptos`). Ses pages « findings » et « research-questions » donnent donc l'état amont le plus récent (juin–septembre 2026), plus récent que notre `MEMORY.md` (mai 2026).
+- Les images ne sont pas versées au dépôt : droits de Sanborn.
+
+### A. Ce qui change pour nous
+
+**1. IMG_1340 : le mot devant « coded » est illisible. Correction de notre lecture.**
+- Agrandie à la loupe, la dernière ligne se lit : « 4. ? or like 4, 8, 10, 25 ‹ ? › coded. », suivie de « At top of … » (lecture incertaine).
+- Entre « 25 » et « coded », il n'y a qu'un petit signe : un trait horizontal avec une courte barre, que croise la jambe d'une lettre de la ligne du dessus. Ce peut être « not » écrit très vite, un tiret ou un « + ». KryptosBot lit « (+) coded ».
+- Ce qui reste sûr :
+  - les nombres 4, 8, 10 et 25 sont lisibles, et ce sont bien **les lignes des quatre « ? »** du panneau chiffré (constat du 24/09) ;
+  - la ligne précédente se lit « Extra L at end of line, Bottom chart **section** » (et non « seeding »).
+- **Conséquence.** IMG_1340 n'est plus une preuve que le « ? » n'est pas chiffré, seulement un indice compatible. La conclusion « K4 = 97 lettres, « ? » non chiffré » reste **établie** par les autres sources :
+  - le fichier de Sanborn pour le NYT (« ? » non numéroté, O = 1 … R = 97) ;
+  - le compte de la NSA (436 + 337 + 97) ;
+  - Sanborn sur NPR en 2005 (« les 97 derniers caractères ») ;
+  - le contrôle de Paradigm (97 lettres, A–Z seulement).
+- Corrigé dans les bases 1, 6, 7, 8 et 9 et dans l'audit « vision ».
+
+**2. IMG_1518 : trois études de rose des vents, aiguille entre NE et ENE (nouveau, mesuré).**
+- Trois roses dessinées au crayon sur papier quadrillé, avec N, E, S, W et une aiguille. La feuille est non datée et son dossier n'est pas indiqué.
+- Mesure (`measurements/rose_studies_img1518.py`, même méthode que pour la rose gravée : homographie sur les quatre lettres cardinales, qui corrige la perspective de la photo). Axe de l'aiguille dans le repère de chaque rose :
+
+| Étude | Axe de l'aiguille | Intervalle à 95 % |
+|---|---|---|
+| en haut à gauche | 63,1° / 243,1° | 60,3–65,9° |
+| en haut à droite | 54,7° / 234,7° | 52,1–57,3° |
+| en bas | 65,9° / 245,9° | 63,3–68,4° |
+
+- **Lecture.** Sanborn a essayé plusieurs orientations entre le NE (45°) et l'ENE (67,5°). Deux des trois études sont à 1 à 4° de l'aiguille gravée à Kryptos (66–67°, base 1).
+  - Si ces études sont bien celles de Kryptos, l'orientation ENE de l'aiguille est un **choix dessiné**, et non un effet du placement des pierres. Cela renforce le lien avec le crib EASTNORTHEAST.
+  - Réserve : Sanborn dessinait des aiguilles pointées vers des magnétites dès 1980 (base 5, 16/2). La feuille peut venir d'une autre œuvre.
+  - Comme pour la rose gravée, cela **ne fixe aucun paramètre** de chiffrement.
+
+**3. Le tableau aux lettres entourées (IMG_1223, IMG_1224) : c'est le tableau de 6/18 déjà analysé.**
+- La page « findings » présente ces « lettres entourées nouvellement documentées » comme l'une des deux pistes vivantes du projet amont, « en attente d'une analyse préenregistrée ».
+- C'est le tableau KRYPTOS tracé à la main du dossier 6/18, lu le 23/09 (§6/18 ci-dessus). Relu ici sur IMG_1223, avec la convention « ligne = lettre-clé, colonne = lettre claire de la ligne KRYPTOS du haut » :
+  - K entouré sur la ligne G, colonne G : clé G, clair G ;
+  - H entouré sur la ligne Q, colonne Q : clé Q, clair Q ;
+  - T entouré sur la ligne **B**, colonne V : clé B, clair V. La ligne A juste au-dessus porte une marque à sa première lettre. Notre lecture du 23/09 (« clé A / clair W ») supposait une ligne de plus ; les deux donnent T.
+- Aucune de ces trois recherches ne correspond à une paire des cribs de K4, ni aux clés de K1–K2. **Observation seulement**, comme le 23/09.
+
+**4. La carte sur transparent (IMG_1221) vient du projet d'Alexandria, pas de Kryptos.**
+- IMG_1152 et le montage « Lost Symbol » de KryptosBot montrent un projet de Sanborn et Jim Urban (le paysagiste de la cour de la CIA, base 5 §6/10) pour Alexandria (Virginie), **non réalisé**. Le cuivre y était perforé d'un texte descriptif et de « la plus ancienne carte publiée de la ville », que le soleil projetait sur le parvis.
+- Le transparent ambré à quadrillage de rues est donc cette carte d'Alexandria. Sur la photo, il est posé sur une épreuve du tableau KRYPTOS du même dossier ; rien n'indique un lien voulu. La lecture « Jones Point, Masonic Memorial » de KryptosBot est une spéculation.
+
+**5. IMG_1384, « He lied » : il s'agit de Dan Brown, pas d'une manipulation de coordonnées.**
+- La page porte les coordonnées de K2 (38° 57′ 6,5″ N, 77° 8′ 44″ W), puis la même avec 37°, et « He lied » entouré.
+- La version à 37° est celle de la jaquette du *Da Vinci Code* (2003), et non du *Lost Symbol* comme l'écrit KryptosBot. Dan Brown a déclaré le décalage « intentionnel » à *Good Morning America* (12/01/2004), dont la transcription est dans les papiers de Sanborn (§6/15 ci-dessus). « He lied » est vraisemblablement la réaction de Sanborn à cette déclaration.
+- La précision au dixième de seconde s'explique par le repère géodésique dont Sanborn a tiré ses coordonnées (NOVA 2006, base 6). Rien pour K4.
+
+**6. IMG_1531 : un J dessiné sur un « ? » de pochoir.**
+- Sur une épreuve de caractères pochoir (! ? $), un J est tracé au crayon par-dessus le « ? ». C'est sans doute le dessin d'une lettre J de pochoir à partir de la forme du point d'interrogation.
+- L'hypothèse de KryptosBot (« le « ? » coderait J ») est **exclue** : K4 aurait alors 98 caractères, alors que le fichier NYT de Sanborn commence à O = 1 et que le clair contrôlé par Paradigm fait 97 lettres A–Z.
+
+**7. Nouvelle piste documentaire : *Secret Past* (1992), une œuvre qui « duplique le texte de Kryptos ».**
+- Liste de dépôt de la galerie Nancy Drysdale, 15/09/1992 (IMG_1485) : « 5. SECRET PAST (Courtyard) : 1/2 Cyrillic Alphabet and KGB document, 1/2 **duplicates text of Kryptos at CIA Headquarters**. Copper, Petrified wood. 80″ × 45″ × 13″ ».
+- *Antipodes* (1997) reprend K4 à l'identique (vérifié, ci-dessus). *Secret Past* est une copie **antérieure** (1992) : si l'on retrouve l'œuvre ou une photo, on pourra vérifier si son K4 et son « ? » sont identiques au cuivre de Langley. Piste non instruite.
+
+**8. Le carnet relié : Kryptos, vocabulaire du renseignement et le « Veil » de cuivre.**
+- Un même carnet relié (IMG_1566–1571, 1574, 1580–1582, 1587, 1591, 1595, 1573 ; pages qui transparaissent l'une dans l'autre) contient trois ensembles :
+  - des croquis de conception du site : strates « Red / Cu / Black » de l'entrée, arbre pétrifié, plaque de cuivre, « Red slate ridge through courtyard », plan « Go: C.I.A. » ;
+  - du vocabulaire du renseignement : Kubark, cryptonymes, « Beaufort cipher, Compass cipher », « Frequency Tables forming » ;
+  - des fournisseurs de marbre italiens.
+- Aux pages IMG_1580 et 1582, sous le titre « **copper "Veil"** », Sanborn écrit une liste de phrases courtes :
+  - Grab the rope / Step onto the shore / Step into the boat / Land on the runway / "Grab my arm" / "Hold onto the raft" / Quickly / Hurry ;
+  - Duck / Crawl / Tunnel / Run / Fly / Hold your breath / Get out of the way / Take cover / Quiet / Get down / Shhh / I can't breathe / My heart's pounding / Catch your breath.
+  - Voisine (IMG_1581) : « we are safe / Home free », « meteorites "messages" coded "where it landed" ».
+- Ce sont des idées de **clair** pour une pièce de cuivre codée : une fuite, par bribes.
+- Ni la date ni l'œuvre ne sont établies. « Veil » n'est pas un titre connu de Sanborn ; ce peut être une pièce de Kryptos ou une œuvre ultérieure.
+- *Lecture* : elles montrent un clair en **phrases courtes et impératives, décousues**. Cela rejoint Scheidt en 2015 (« ça se lit de façon décousue, mais il y a une histoire ») et la base 4 §D (clair fait de mots codés plutôt que de prose). Rien de testable sans position.
+
+**9. Lettre de l'avocat de Sanborn sur *The Lost Symbol* (24/11/2009, visible dans le montage de KryptosBot).**
+- Sanborn avait entouré plusieurs passages du livre de Dan Brown :
+  - « It's buried out there somewhere » ;
+  - les pages 106–107 et 135 ;
+  - le début du chapitre 30 (« le savoir passé sous terre, resurgi dans l'Europe de la Renaissance ») ;
+  - un paragraphe du chapitre 53, qui « devrait être une reprise mot pour mot de vos écrits » ;
+  - « Key4 » (page 230), employé « au lieu de votre mention d'un 4ᵉ panneau ».
+- Le montage attribue ce paragraphe du chapitre 53 au passage sur les « chiffres segmentés » (une tablette brisée dont on garde les morceaux en des lieux différents). La lettre ne le dit pas : c'est une attribution de KryptosBot.
+- *Lecture* : si c'est bien ce passage, Sanborn y reconnaissait ses propres mots sur un secret réparti en morceaux. C'est cohérent avec sa pratique : clair remis en phrases mélangées à plusieurs personnes (1989), clé partielle remise à Webster, « les 4 panneaux sont nécessaires » (2011). Aucun paramètre.
+
+### B. Photos déjà connues ou sans portée pour K4
+- **Déjà dans la base** : IMG_1236 et 1238 (autres projets, note de composeur « 7a88 ») ; IMG_1249 (dédicace) ; IMG_1410 (« I wrote the plain text for Kryptos to be enigmatic ») ; IMG_1555 (« Code Breaker » sur « Coded ») ; IMG_1569–1571 ; IMG_1492 (*Washington Post* 1991) ; IMG_1197 (article de 1999 sur Gillogly et Stein).
+- **Feuilles russes de 6/8** : IMG_1211 (clé ЧШЖИФ de période 5 ; on y voit le N latin à la place de И) et IMG_1202 (feuille « 3B », clé МЕДУЗА, texte du KGB sur Sakharov ; la page arabe est une feuille séparée).
+- **Autres œuvres, 1994–2000** :
+  - IMG_1543 et 1541 : factures de découpe au jet d'eau, lettres en miroir « FUMEE », disque de cuivre de 48″ dont les lignes suivent « le tableau de décodage russe » ;
+  - IMG_1242 et 1540 : pochoirs FUMEE et ОБМАН ;
+  - IMG_1560 et 1561 : « Avoid the pitfall of the obvious », liste « TRUTH », « Filter Names » des œuvres *Filter Media* de 1994 ;
+  - IMG_1428 et 1614 : bouées et feux de navigation.
+- **Divers** :
+  - IMG_1483 : lettre de démarchage de 1989, où Kryptos est décrit par ses bassins et la force de Coriolis, sans un mot du code ;
+  - IMG_1100 : photo d'une pierre rouge près du tableau, portant une tache ronde de vert-de-gris. Un objet de cuivre ou de bronze y a reposé. Le rapprochement avec le repère USGS « en bronze, à moitié enterré, adjacent à Kryptos, retiré » (Sanborn 2013, base 7) est possible mais non établi.
+
+### C. Ce que disent les pages « findings » et « research-questions » (état amont, juin–septembre 2026)
+- **671,1 milliards de réglages** testés. Un audit de **13 302 réponses candidates** produites par le projet : aucune ne survit.
+- **Anomalie de Stehle** remesurée en août 2026 sur 200 000 chiffrés : environ **1 sur 205** (écarts 1–30). Le « 1 sur 642 » cité par `docs/procedural_anomaly_recipes.md` est dépassé. C'est cohérent avec notre p ≈ 0,0065 (écarts 1–48 et toutes différences, base 7 §8.1).
+- **Largeur 21 et les W** :
+  - l'anomalie survit si l'on remplace les cinq W par d'autres lettres, et disparaît si l'on retire deux ou trois caractères quelconques ;
+  - elle dépend donc de la structure des positions, pas des W.
+  - Cela concorde avec notre constat : 3 des 11 paires viennent des doublets et de l'écart 7, empilés tous les 21 (base 7 §8.2).
+- **Perturbation du chiffré** : l'étape A (une lettre changée) est négative ; l'étape B (deux lettres, ancrées dans les archives) n'a jamais été faite.
+- **Composition mono + transposition + clé courante** : puissance de détection nulle à 97 lettres. C'est un résultat de limite, cohérent avec notre audit « recuit ».
+- Mengenlehreuhr (480 permutations) et Weltzeituhr testées avec les alphabets à mot-clé thématiques ; route extérieure × Quagmire III intérieur (25 272 réglages, 10/06/2026) : **aucun signal**.
+- Pistes vivantes selon le site : les lettres entourées du tableau (voir A.3) et des **mesures sur la sculpture** elle-même. Rapport d'état amont : `docs/REAL_K4_CURRENT_POSITION.md` du dépôt source, non lu ici (accès hors de notre périmètre).
+
+### D. Lectures de KryptosBot à ne pas reprendre
+| Affirmation du site | Ce qu'on constate |
+|---|---|
+| « Bottom chart seeding » ; « ? or like 4, 8, 10, 25 (+) coded », « nombres inexpliqués » | « section » ; les nombres sont les lignes des quatre « ? » ; le mot devant « coded » est illisible |
+| 37° 57′ 6,5″ sur la jaquette du *Lost Symbol* | *Da Vinci Code* (2003) |
+| « 7×88 » : une mise en page de K4 en 7 lignes | Note de composeur (« 7a88 on a side ») sur une épreuve de police pochoir, avec un texte sur les musées de Washington |
+| IMG_1202 : grille « à écritures mêlées » | Grille entièrement cyrillique (Quagmire II, clé МЕДУЗА) ; la page arabe est à part |
+| IMG_1221 : Old Town Alexandria, Jones Point, Masonic Memorial | Carte du projet d'Alexandria de Sanborn et Urban, non réalisé |
+| IMG_1531 : le « ? » coderait J | Exclu par la numérotation de Sanborn et le contrôle de Paradigm |
+| IMG_1566–1567 : ECLIPSE mot-clé, « 3 mots » = trois mots-clés | Vocabulaire et questionnaire thématique d'un carnet (« le sigle actuel de la CIA », « la police la plus courante »…) ; aucun lien avec une clé |
+| IMG_1518 : « lignes de visée » codant une direction | Trois études d'orientation de l'aiguille (55–66°) |
