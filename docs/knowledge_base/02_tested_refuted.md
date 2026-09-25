@@ -214,7 +214,7 @@ Sources :
 
 ## 3. Ce qui reste réellement ouvert
 
-> **Mise à jour du 24/09 (base 6).** Scheidt (1991, 2015) n'a jamais vérifié K4 : Sanborn l'a chiffré seul, probablement fin 1989–1990 (après la chute du Mur), avec des erreurs possibles. Scheidt dit aussi que le **changement de base** a été envisagé puis **écarté**, et que le **masque** est la première étape. Le « ? » avant OBKR n'est **pas codé** (IMG_1340 : lignes 4, 8, 10, 25).
+> **Mise à jour du 24/09 (base 6).** Scheidt (1991, 2015) n'a jamais vérifié K4 : Sanborn l'a chiffré seul, probablement fin 1989–1990 (après la chute du Mur), avec des erreurs possibles. Scheidt dit aussi que le **changement de base** a été envisagé puis **écarté**, et que le **masque** est la première étape. *Corrigé le 24/09 (base 7 §2.11 et §11.6)* : ce qui a été écarté est la base **mathématique** (base 2, base 16), et le masque change la « base de langue » ; la « première étape » dont parle Scheidt est celle de l'analyste, et l'ordre du masque n'est pas dit. Le « ? » avant OBKR n'est **pas codé** (IMG_1340 : lignes 4, 8, 10, 25).
 
 > **Mise à jour du 23/09 (source primaire retrouvée).** « Deux systèmes… indice majeur » (Sanborn, inauguration 1990) porte sur **la plaque du bas, K3 + K4**, pas sur K4 seul (base 1, §4 quinquies). Les familles « deux couches » (substitution + transposition, etc.) ne reposent donc plus que sur le « masquage » de Scheidt (2020) et « plus d'une étape » (2015). Elles ne sont ni plus ni moins réfutées qu'avant, mais **moins prioritaires** qu'un système unique inconnu, sans le tableau.
 

@@ -6,6 +6,8 @@
 **Dernier commit connu avant les corrections de cette session:** `4432b47`
 **Langue de travail actuelle:** français possible ; les noms de fichiers, identifiants et citations restent en anglais.
 
+> **Mise à jour du 25/09/2026.** Ce document décrit l'état du 21/09. Depuis, plus de 35 tests exacts et une relecture intégrale ont été faits. Pour reprendre, lire d'abord la synthèse complète : [`docs/knowledge_base/09_synthese_complete_2026_09_25.md`](docs/knowledge_base/09_synthese_complete_2026_09_25.md).
+
 ## 1. Mission générale
 
 Kryptos est une sculpture de Jim Sanborn installée à la CIA. K1, K2 et K3 sont résolus. K4 est le bloc final de 97 caractères, dont deux fragments sont connus : `EASTNORTHEAST` et `BERLINCLOCK`.
