@@ -72,6 +72,10 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
   - Borne : dans un chiffre déchiffrable, un doublet revient à « prédire » la lettre claire suivante. **Aucune clé indépendante du texte**, quelle qu'elle soit, ne rend probables les doublets alignés de K4 : 0 avec A–Z ou KRYPTOS et les cribs, 6 % au mieux avec des alphabets libres.
   - Recherche automatique parmi environ 20 000 procédés manuels déchiffrables, contrôles positifs réussis : aucun ne produit la concentration. Les meilleurs ne font que forcer SS en 32 à partir du crib.
   - Les doublets alignés sont donc un hasard, une intervention manuelle ou un élément qui n'est pas lettre à lettre, et non l'empreinte d'une clé.
+- **Autoclé à l'écart 7 dans « autre chose » que les 26 lettres (T36, 25/09, nuit)** : `audits/autocle_groupes_2026_09_25/README.md`, base 7 §12.17.
+  - Coordonnées de grille, trifide, XOR sur 5 bits, nombres modulo 27 à 36 : 23 groupes, 67 cas, optimum prouvé. Sans erreur, K4 n'est compatible dans aucun ; avec une erreur, il fait comme les témoins. Avec 26 symboles, il n'existe pas d'autre groupe que Z/26.
+  - Avec deux codages libres, un pour le clair et un pour le chiffré (T36b), les cribs ne tranchent plus rien. C'est le seul coin encore ouvert du procédé que désigne le simulateur.
+  - Le relais « cinq angles morts » est vérifié point par point : la place des cribs sur le cuivre est juste (le relais mettait le « ? » en tête de ligne), et le « K4 de 105 lettres » repose sur un calcul circulaire qui ne changerait rien.
 
 ## Principes de travail
 

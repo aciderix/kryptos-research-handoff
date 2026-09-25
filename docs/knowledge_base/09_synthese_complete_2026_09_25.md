@@ -221,6 +221,7 @@ Avec une seule lettre mal chiffrée, ces tests tombent au niveau du hasard (T19�
 - T11 et T11b (disque tourné par bloc) ;
 - T13 (Hill par blocs à petits coefficients) ;
 - T18 (autoclé sur le clair à l'écart 7, chaînes entre cribs) ;
+- T36 : la même autoclé calculée dans « autre chose » que Z/26, c'est-à-dire 23 groupes d'ordre 26 à 36 (coordonnées de grille 5 × 6 et 6 × 6, trifide, XOR sur 5 bits) avec un même codage partout. Au moins une équation fausse dans les 67 cas, mais 83 % des témoins font aussi bien avec une erreur. Avec exactement 26 symboles, un autre groupe n'existe pas (tout groupe abélien d'ordre 26 est Z/26) ; au-delà de 28, l'anglais ne reste presque jamais dans les 26 lettres ;
 - toute substitution qui ne dépend que de i mod 7, même par ligne de 21 : en 65 et 72, P chiffre R puis C. L'argument repose sur ces deux lettres. La clé de période 7, elle, reste éliminée avec erreurs (A).
 
 T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste sous le hasard. L'autoclé sur le chiffré à l'écart 7 était aussi éliminée sans erreur par deux lettres (A en 22 et C en 72 devraient valoir 0) ; elle l'est désormais avec erreurs (A).
@@ -238,7 +239,7 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 
 **F. « Solutions » publiées.** Aucune n'est dérivée de façon reproductible. Sur 81 clairs complets trouvés dans les dossiers des membres, et 48 803 déchiffrements confrontés aux cribs, rien n'approchait les cribs avant leur publication. La plus élaborée (2025) est un masque jetable : chaque position a sa propre clé.
 
-**G. Indécidable avec 24 lettres.** Le hasard y est compatible dans la majorité des cas : Quagmire IV et clés composées longues avec alphabets quelconques, demi-pliures, Gromark à deux alphabets, ligne + colonne avec alphabet quelconque, clé courante avec alphabet quelconque, sélecteur libre.
+**G. Indécidable avec 24 lettres.** Le hasard y est compatible dans la majorité des cas : Quagmire IV et clés composées longues avec alphabets quelconques, demi-pliures, Gromark à deux alphabets, ligne + colonne avec alphabet quelconque, clé courante avec alphabet quelconque, sélecteur libre ; autoclé sur le clair à l'écart 7 avec **deux** codages libres, un pour le clair et un pour le chiffré (T36b : K4 compatible sans erreur, comme 55 à 95 % des témoins).
 
 ### 5.2 La borne des doublets (25/09) : pourquoi aucune famille de clés ne suffit
 - Dans un chiffre qu'on peut déchiffrer lettre à lettre, à état donné, **une seule** lettre claire produit c[i+1] = c[i]. Un doublet revient donc à « prédire » la lettre claire suivante.
@@ -260,7 +261,8 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 1. **L'excès à l'écart 7.** Sur 52 procédés manuels simulés (un million de faux K4 chacun), un seul le rend naturel : l'autoclé sur le clair à l'écart 7, **forme Vigenère**, lettre-clé lue dans l'alphabet du clair (4,9 % des tirages, contre 0,29 % au hasard et 0,48 % pour une période 7). En Beaufort ou en Variante, l'excès disparaît : c[i] = c[i+7] équivaut à p[i−7] = p[i+7] seulement en Vigenère.
    - Éliminée pour les alphabets de Sanborn, même avec ses erreurs (T27, T34).
    - Éliminée pour **tout** alphabet s'il n'y a **aucune** erreur (T18). Avec une erreur, les 24 lettres n'ont plus aucune puissance (78 à 97 % des témoins passent).
-   - **Seul coin non fermé** : cette autoclé avec un alphabet qui n'est pas construit sur un mot-clé, et au moins une erreur. Les recherches libres sur 97 lettres ne tranchent pas (audit « recuit »).
+   - **Seul coin non fermé** : cette autoclé avec un alphabet qui n'est pas construit sur un mot-clé, et au moins une erreur, **ou** avec deux alphabets libres (clair et chiffré), même sans erreur (T36b). Les recherches libres sur 97 lettres ne tranchent pas (audit « recuit »).
+   - Changer de « base » (coordonnées, chiffres, XOR, groupes d'ordre 27 à 36) ne rouvre rien : même constat que dans Z/26 (T36, `audits/autocle_groupes_2026_09_25/`).
 2. **Les doublets alignés.** Aucune clé ne les explique (borne, §5.2). Aucun des ≈ 20 000 procédés déchiffrables simulés ne les reproduit (au plus 11 % de doublets en colonne 4, contre 36 % pour K4 ; signature jointe ≤ 2 × 10⁻⁶). L'autoclé du point 1 ne les concentre pas non plus : dans le simulateur, la signature complète reste ≤ 10⁻⁵ pour tout procédé positionnel. Seules les transpositions finales concentrent les doublets (1–2 %), et l'alignement des cribs les exclut.
 
 **Il reste trois explications.** Les 24 lettres ne permettent pas de choisir entre elles :
@@ -305,7 +307,7 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 6. **Ne pas compter deux fois.** La largeur 21 recoupait les doublets et l'écart 7 ; le premier chiffre conjoint (10⁻⁵) était faux.
 7. **Distinguer ce qui est calculé de ce qui est lu.** Les « 8 lettres de clé » des positions 66–73 sont calculées à partir du crib ; elles n'apportent aucune contrainte tant que personne n'a lu les signes.
 8. **Antériorité.** Les doublets mod 7 sont connus depuis 2002–2003. Chercher dans l'archive du groupe avant de présenter une piste comme nouvelle.
-9. **Relais d'IA.** Les relais Gemini (23–24/09) et DeepSeek (25/09) reformulaient surtout la base, avec des erreurs de compte : 8 paires à l'écart 7 au lieu de 9 ; « 8 dernières lettres » pour les premières de la dernière ligne ; lettres de clé calculées depuis le crib prises pour une lecture. Chaque point a été vérifié. Les tests qui en sont sortis (audits du 23/09, T26, T27, LFSR, Fibonacci au pas 7) sont tous négatifs.
+9. **Relais d'IA.** Les relais Gemini (23–24/09) et DeepSeek (25/09) reformulaient surtout la base, avec des erreurs de compte : 8 paires à l'écart 7 au lieu de 9 ; « 8 dernières lettres » pour les premières de la dernière ligne ; lettres de clé calculées depuis le crib prises pour une lecture. Chaque point a été vérifié. Les tests qui en sont sortis (audits du 23/09, T26, T27, LFSR, Fibonacci au pas 7, T36) sont tous négatifs. Le relais « cinq angles morts » (25/09, nuit ; base 7 §12.17) affirmait que la place des cribs sur le cuivre était fausse : c'est lui qui se trompait, en mettant le « ? » en tête de la ligne 25.
 10. **Changer de question.** « Quelle famille passe les 24 lettres ? » est la boucle de la communauté depuis 35 ans. « Quel procédé fabrique un texte qui ressemble à K4 sur ses 97 lettres ? » a donné en un jour la borne des doublets et le profil du « 7 ».
 
 ---
@@ -318,7 +320,7 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 | Les **8 signes** sous LINCLOCK : lettres de clé, clair LINCLOCK, début d'une 15ᵉ ligne (K4 d'abord long de 105 lettres), note ? | Photo de l'original en lumière transmise, rasante ou infrarouge (Paradigm). Table de reconnaissance prête (`audits/erreurs_multiples_2026_09_24/results_huit_signes.txt`) | Illisibles dans toutes les copies disponibles, masqués dès 2006. Demande non envoyée (choix de l'utilisateur) |
 | La **description écrite** de la méthode | Publication par Paradigm | Au coffre |
 | Le « 7 » : hasard, intervention ou étape qui n'est pas lettre à lettre ? | K5, les 8 signes ou la méthode. Les 24 lettres ne suffisent pas | Ouvert, recadré (§6) |
-| Autoclé Vigenère à l'écart 7 avec un alphabet **non** construit sur un mot-clé et au moins une erreur | Plus de clair connu (K5) ; une attaque sur 97 lettres qui passe son contrôle positif dans cette famille | Seul coin non fermé du procédé désigné par le profil |
+| Autoclé Vigenère à l'écart 7 avec un alphabet **non** construit sur un mot-clé et au moins une erreur, ou avec deux alphabets libres sans erreur (T36b) | Plus de clair connu (K5) ; une attaque sur 97 lettres qui passe son contrôle positif dans cette famille | Seul coin non fermé du procédé désigné par le profil. Le calcul dans un autre groupe que Z/26 n'y change rien (T36) |
 | Alphabets non construits sur un mot-clé ; clés choisies à la main (liste de mots, pochoir) | Une source qui fixe l'alphabet ou la clé : « Stencil Patterns, circa 1988 », dossier scellé par le donateur aux Archives of American Art | Hors d'atteinte des 24 lettres |
 | Une lettre retirée ou ajoutée entre les cribs | Protocole écrit (base 7 §10.3) | Priorité basse : clair de 97 lettres avec les cribs aux rangs du cuivre ; longueurs réglées sur le papier |
 | Transposition de tous les bits (forme extrême de DeSeve) | Protocole écrit (base 7 §10.6) | Peu plausible (valeurs 26–31 sans lettre) |
@@ -347,14 +349,14 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 | 04 | Les phénomènes de K4 (lettres de KRYPTOS, « 7 », pas de transposition) et relecture critique |
 | 05 | Audit des sources primaires (papiers de Sanborn aux Archives of American Art) |
 | 06 | Documents versés par l'utilisateur le 24/09 (NSA 1991–1992, NOVA 2006, réunion de 2015…) |
-| 07 | Fichiers et archive du groupe kryptos.groups.io (2003–2026), balayages, tests T7–T35, relais |
+| 07 | Fichiers et archive du groupe kryptos.groups.io (2003–2026), balayages, tests T7–T36, relais |
 
 ### 10.2 Audits (`audits/`)
 - **21/09** : fiabilité du registre amont, cellules ouvertes, authenticité documentaire, trois audits de solutions publiées (`k4_audit_001` à `003`). État : « le blocage est documentaire ».
 - **22/09** : éliminations algébriques par SAT avec alphabets inconnus (`algebraic_elimination_2026_09_22`, raisonnement dans `docs/k4_mechanism_reasoning_2026_09_22.md`) ; exploration 01.
 - **23/09** : une vingtaine d'audits courts, un par piste relayée : erreur tolérée (`one_slip`), crib décalé, chaque crib seul, alphabets à mot-clé, Wheatstone, Gromark (portée et dates), superpositions de plaques, pliure, serpentin, textes de Langley, chiffré de K3 comme clé, Morse (E, miroir), XOR 5 bits, ligne + colonne Beaufort, clé par paliers, tableau comme sélecteur, batterie positionnelle, mots visibles, catalogue « 20 hypothèses ».
 - **24/09** : `vision` (T1–T21, statistiques revues), `erreurs_multiples` (e_min, empreinte des doublets, 8 signes), `motcle_pas7` (alphabets à mot-clé, clé courante anglaise), `recuit` (attaque libre : ne passe pas son contrôle).
-- **25/09** : `matrices` (alphabets en matrice), `blocs_motcle`, `martinsburg` (ASCII 7 bits), `relais` (T27–T33, sept parties), `moteur` (C/OpenMP, T0–T6), `simulateur` (52 procédés, T34), `procedes` (borne des doublets, ≈ 20 000 procédés, T35, géométrie).
+- **25/09** : `matrices` (alphabets en matrice), `blocs_motcle`, `martinsburg` (ASCII 7 bits), `relais` (T27–T33, sept parties), `moteur` (C/OpenMP, T0–T6), `simulateur` (52 procédés, T34), `procedes` (borne des doublets, ≈ 20 000 procédés, T35, géométrie), `autocle_groupes` (T36 : autoclé à l'écart 7 dans 23 groupes ; T36b : deux codages libres).
 - **Outil prêt** : `k5_depth` (attaque en profondeur K4/K5, sans paramètre libre).
 
 ### 10.3 Documents de méthode (`docs/`)

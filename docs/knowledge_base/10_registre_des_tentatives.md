@@ -267,6 +267,9 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | LFSR d'ordre 1–5 | 101 086 alphabets | **Éliminé** | `relais_2026_09_25` 5ᵉ partie |
 | « Fibonacci au pas 7 » (colonnes mod 7 en récurrence d'ordre 2) | — | **Éliminé** | idem 7ᵉ partie |
 | Agrandissement des images NOVA des 8 signes | deux agrandissements indépendants | **Bloqué** : taches opaques, signes déjà masqués en 2006 | idem 6ᵉ partie ; `procedes` §4 |
+| T36 | Autoclé sur le clair à l'écart 7 dans 23 groupes d'ordre 26 à 36 (grilles 5 × 6, 6 × 6, trifide, XOR 5 bits), même codage partout ; 3 conventions | **Éliminé sans erreur** (67 cas sur 67, optimum prouvé ; 197/197 contrôles retrouvés) ; **non concluant** avec une erreur (83 % des témoins font aussi bien) | `autocle_groupes_2026_09_25` |
+| T36b | Idem, codage du chiffré indépendant du codage du clair (les deux libres) | **Non concluant** : K4 compatible sans erreur, comme 55 à 95 % des témoins | idem |
+| Relais « cinq angles morts » (25/09, nuit) | 105 = 15 × 7, place des cribs, autoclé hors alphabet, doublets, cadran | Place des cribs : **faux** (base 4 juste) ; 105 : calcul circulaire, lecture déjà notée, sans effet ; doublets et cadran : déjà connus ou éliminés ; autoclé : T36 | base 7 §12.17 |
 
 
 ### F bis. 25/09 : relecture intégrale de kryptosbot.com (archive, findings, research-questions)
@@ -343,6 +346,7 @@ Ces résultats viennent du dépôt source (`jcolinpatrick/kryptos`). Ils sont re
 | Déclassification de « The Fourth Breakthrough? » (NSA 1999) | Demande administrative | Non faite |
 | Perturbation du chiffré, étape B (amont) | — | Non faite |
 | 275 couples d'erreurs de l'attaque sur le texte entier | Faible priorité | Non faits |
+| Autoclé Vigenère à l'écart 7 avec deux alphabets libres, sur les 97 lettres | Les cribs ne tranchent pas (T36b) ; il faut noter le clair entier, et le recuit a échoué à son contrôle | Ouvert |
 | Passes SAT inachevées (route de K3 : 148 configurations ; grilles irrégulières : 32 ; contrôles nuls progressive et ligne + colonne) | Calculs arrêtés | Non repris |
 | 26 photos KryptosBot, OCR des dossiers AAA 9/4 et 9/5, vidéos et longs fils du groupe | Priorité basse | Non faits |
 
