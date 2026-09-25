@@ -192,3 +192,34 @@ Il reste trois possibilités, qu'aucun test sur les 24 lettres des cribs ne peut
 - Les éliminations annoncées sont exactes, mais elles étaient connues et découlent des cribs, pas des signes.
 - Les signes restent **non lus**. Leur nature n'est pas établie : lettres de clé, lettres retirées, ou annotation du clair.
 - Seule une photo de l'original trancherait. L'utilisateur a choisi de ne pas la demander.
+
+## Sixième partie (25/09, soir) : réponse de DeepSeek (« lire les signes sans Paradigm ») : vérifiée sur les images
+
+**Propositions et vérifications.**
+
+1. **« 8 lettres de clé connues contraindraient la clé ; des familles éliminées pourraient rouvrir. »**
+   - **Faux.** Si les signes sont des lettres de clé, leurs valeurs sont **forcément** celles de la table (clé = chiffré − clair, déjà connus en 66–73), à la convention près.
+   - Elles ne peuvent donc ni rouvrir une famille éliminée par les cribs ni en éliminer une autre : c'est la même information.
+   - Leur seul apport possible serait d'**identifier la convention et l'alphabet**. Par exemple, lire OIECBAQK désignerait Quagmire III KRYPTOS en Vigenère. Il faudrait pour cela les lire.
+   - Le « test de cohérence des signes avec les structures de clé » (§4 de la réponse) est lui aussi exactement le test sur les cribs restreint à 66–73. `rec_lfsr.c` l'a déjà fait, fragment « 8 signes ».
+
+2. **« Les signes étaient lisibles en 2006 (rushes NOVA) ; le correcteur n'est arrivé qu'en 2026. »** Vérifié sur les images du dépôt :
+   - `sources/groupsio_membres/fichiers/Personal Folders/pi/K4 NOVA.jpg` (« I circled the point of interest ») : image extraite de la vidéo NOVA, 1209 × 553. Agrandie et contrastée (`nova_8_taches_agrandi.png`), elle montre une rangée oblique d'environ 8 **taches sombres pleines**. On ne peut pas lire leur forme.
+   - `.../pi/number 3.jpg` (« Jims K4 notes from NOVA ») et `.../Brandon's Files/K3K4 Video Stills.pdf` (2013, images à 04:35 et 04:36 de la vidéo de 12:36) : même rangée à côté de « TOP #4 » et du visage souriant. Brandon écrit : « *The 8 blobs here could be magic marker or wax pen drawn over the plastic sheet to conceal whatever is underneath* ».
+   - ⇒ **Dès 2006, les signes étaient des taches opaques qui masquaient quelque chose.** Ce n'étaient pas des caractères lisibles. Le correcteur vu en 2026 n'a rien fait disparaître de lisible. Les rushes NOVA ne peuvent pas les révéler, sauf à trouver une image nettement meilleure, ce qui semble peu probable.
+3. **« Les photos RR Auction de 2025 montrent la feuille avant le correcteur. »**
+   - **Non.** La maison a annoncé qu'« aucune photo ne sera fournie des pièces 1 à 7 », c'est-à-dire tout le matériel de travail de K4 (base 1 §4 quinquies).
+   - Les photos publiées (plaque d'essai, contrat, badge, atelier, discours) ne montrent pas cette feuille.
+4. **« Les dossiers AAA 6/18 et 6/19 peuvent contenir la feuille. »**
+   - **Déjà lus en entier** (6/18 : 17 images ; 6/19 : 124/124 ; base 5).
+   - 6/19 ne contient que des propositions de tiers. 6/18 contient des chartes et de la presse, pas la feuille 31 × 14.
+5. **« Les signes ne sont peut-être pas des lettres. »** D'accord : on ne peut pas savoir, puisqu'ils sont masqués.
+   - Mais l'exemple avancé est faux : il y a **9** coïncidences à l'écart 7, et non 8 (positions 0, 7, 12, 15, 32, 45, 65, 76, 86). DeepSeek oublie la position 7.
+   - Chiffres, flèches, lettres de clé, LINCLOCK recopié, lettres retirées : aucune hypothèse n'est testable tant que le dessous n'est pas visible.
+
+**Bilan.** La réponse a raison sur l'essentiel : on ne connaît pas les signes, et toute table en 66–73 est une hypothèse. Mais les trois sources qu'elle propose ne peuvent pas les montrer :
+- NOVA 2006 : déjà masqués ;
+- RR Auction : pièces de travail non photographiées ;
+- AAA 6/18–6/19 : lus, absents.
+
+Seul l'original, en lumière transmise ou en infrarouge sous l'encre, les montrerait. **Fait nouveau pour la base** : les signes étaient déjà recouverts en 2006. Sanborn (ou quelqu'un d'autre) les a donc cachés avant le tournage.
