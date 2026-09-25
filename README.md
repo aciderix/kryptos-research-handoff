@@ -12,9 +12,18 @@ Les cellules F-02, F-07, F-08, F-10 et les mécanismes physiques/procéduraux qu
 
 Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il contient le contexte, les règles de preuve, les sources utiles, les corrections du registre, les outils et le prompt complet à donner au prochain agent.
 
+## Mise à jour du 25 septembre 2026 : synthèse complète
+
+**À lire en premier : [`docs/knowledge_base/09_synthese_complete_2026_09_25.md`](docs/knowledge_base/09_synthese_complete_2026_09_25.md)**, écrite après relecture de tout le dépôt.
+- Ce qui est établi sur le texte et les auteurs.
+- Les signaux statistiques triés, et les éliminations classées par solidité (tout alphabet, alphabets de Sanborn, « sans erreur » seulement, indécidable).
+- Où en est la question du « 7 ».
+- Les corrections apportées par la relecture : le rectangle 14 × 7 « avec le ? » n'est qu'une hypothèse de mise en page ; plusieurs chiffres de l'ancien dépôt sont dépassés.
+- Les leçons de méthode, ce qui trancherait (K5, les 8 signes, la description de la méthode) et un guide du dépôt.
+
 ## Mise à jour du 24 septembre 2026
 
-- **Synthèse (à lire en premier)** : `docs/knowledge_base/08_synthese_2026_09_24.md`, qui recoupe l'ensemble des bases.
+- **Synthèse du 24/09** : `docs/knowledge_base/08_synthese_2026_09_24.md`, qui recoupe l'ensemble des bases (remplacée comme point d'entrée par la base 9).
 
 - Documents versés par l'utilisateur (NSA 1991–1992 et 2014, Scheidt et Sanborn 1991, NOVA 2006, réunion Scheidt 2015…) : `sources/docs_utilisateur_2026_09_24/`, lus et résumés dans `docs/knowledge_base/06_documents_2026_09_24.md`.
 - Audit « vision » (liens entre les pistes, tests exacts nouveaux en C, statistiques revues) : `audits/vision_2026_09_24/README.md`. Aucune solution ; plusieurs familles nouvelles éliminées ; la note IMG_1340 est résolue (« ? » non codés).
@@ -48,16 +57,15 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
   - autoclé sur le clair (écarts 1–13, dont l'hypothèse NSA) et sur le chiffré (tous écarts) ;
   - **clé courante tirée d'un texte anglais inconnu**, famille jusqu'ici réputée irréfutable : les deux fragments de clé devraient être de l'anglais ; ils ne le sont jamais (puissance 99,5 %).
 
-- **Simulateur Sanborn (25/09, fin)** : `audits/simulateur_2026_09_25/README.md`, base 7 §12.10. On ne teste plus une famille contre les cribs. On demande quel procédé manuel fabrique un texte qui ressemble à K4 sur ses 97 lettres : 52 procédés, un million de faux K4 chacun.
 - **Moteur unique C/OpenMP (25/09)** : `audits/moteur_2026_09_25/README.md`. Six chantiers T0–T6 : 1,4 à 3 millions d'alphabets à mot-clé, 30 témoins, contrôles positifs.
   - Aucune famille ne place K4 hors des témoins : période et variantes à 7, erreurs de Sanborn, transposition + substitution (NSA 1992), Quagmire IV, ligne + colonne, deux mots superposés.
   - L'attaque sur le texte entier passe désormais son contrôle ; sur K4, charabia.
-  - Relais DeepSeek n° 3–4 vérifiés : `audits/relais_2026_09_25/README.md`, 5ᵉ–7ᵉ parties. Les 8 signes étaient déjà masqués en 2006 ; LFSR et « Fibonacci au pas 7 » sont éliminés.
+- **Relais DeepSeek n° 3–4** vérifiés : `audits/relais_2026_09_25/README.md`, 5ᵉ–7ᵉ parties. Les 8 signes étaient déjà masqués en 2006 ; LFSR et « Fibonacci au pas 7 » sont éliminés.
+- **Simulateur Sanborn (25/09, fin)** : `audits/simulateur_2026_09_25/README.md`, base 7 §12.10. On ne teste plus une famille contre les cribs. On demande quel procédé manuel fabrique un texte qui ressemble à K4 sur ses 97 lettres : 52 procédés, un million de faux K4 chacun.
   - Le « 7 » ne relie que des **voisins** : l'écart 7 est en excès, les écarts 14 à 49 sont au hasard. Ce n'est donc pas une période, quelle que soit la clé.
   - Un seul procédé manuel produit ce profil : l'autoclé sur le clair à l'écart 7, **forme Vigenère** (Beaufort et Variante ne le produisent pas). C'est l'hypothèse de la NSA, précisée.
   - T34 la teste avec deux alphabets à mot-clé indépendants (Quagmire IV, 5,3 × 10¹¹ paires, recherche exacte, clair entier lu) : K4 au moins 7 équations fausses sur 17, témoins 5 à 7. **Éliminée**, même avec le taux d'erreur de Sanborn.
   - Aucun procédé positionnel ne concentre les doublets. Le « 7 » reste inexpliqué, et un hasard n'est pas exclu (10⁻³ à 10⁻² après correction).
-
 - **Recherche de procédés et borne des doublets (25/09, soir)** : `audits/procedes_2026_09_25/README.md`, base 7 §12.11.
   - Borne : dans un chiffre déchiffrable, un doublet revient à « prédire » la lettre claire suivante. **Aucune clé indépendante du texte**, quelle qu'elle soit, ne rend probables les doublets alignés de K4 : 0 avec A–Z ou KRYPTOS et les cribs, 6 % au mieux avec des alphabets libres.
   - Recherche automatique parmi environ 20 000 procédés manuels déchiffrables, contrôles positifs réussis : aucun ne produit la concentration. Les meilleurs ne font que forcer SS en 32 à partir du crib.
