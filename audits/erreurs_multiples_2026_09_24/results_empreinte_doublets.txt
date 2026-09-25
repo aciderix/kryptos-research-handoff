@@ -1,0 +1,30 @@
+== 1. Doublets par phase de clé dans les chiffres périodiques de Sanborn ==
+fragment (SHADOW) : 97 lettres, 7 doublets (≈ 3.7 attendus au hasard) ; par phase {0: 3, 2: 4}
+   phase 0 (S→H, différence 18) : clairs ['NE', 'NE', 'ON']
+   phase 2 (A→D, différence 23) : clairs ['TR', 'SP', 'AT', 'AT']
+K1 (PALIMPSEST) : 63 lettres, 1 doublets (≈ 2.4 attendus au hasard) ; par phase {5: 1}
+   phase 5 (P→S, différence 23) : clairs ['HE']
+K2 (ABSCISSA) : 369 lettres, 21 doublets (≈ 14.2 attendus au hasard) ; par phase {0: 1, 1: 3, 2: 3, 3: 3, 4: 1, 5: 3, 6: 3, 7: 4}
+   phase 0 (A→B, différence 25) : clairs ['AS']
+   phase 1 (B→S, différence 2) : clairs ['NU', 'NU', 'PO']
+   phase 2 (S→C, différence 23) : clairs ['BO', 'HE', 'AT']
+   phase 3 (C→I, différence 20) : clairs ['LE', 'LE', 'BY']
+   phase 4 (I→S, différence 9) : clairs ['UT']
+   phase 5 (S→S, différence 0) : clairs ['TT', 'SS', 'SS']
+   phase 6 (S→A, différence 25) : clairs ['OT', 'XW', 'NM']
+   phase 7 (A→A, différence 0) : clairs ['SS', 'EE', 'TT', 'TT']
+
+== 2. Filtre : σ(O)−σ(N) = σ(N)−σ(I) = σ(T)−σ(S) (alphabets à mot-clé) ==
+alphabets (sens direct ; le sens inverse donne le même verdict) : 118958, compatibles 645 (0.54 %)
+mots thématiques compatibles : [('BERLIN', 'suite', 1, 'BERLINOPQSTUVWXYZACDFGHJKM'), ('GIRASOL', 'standard', 15, 'GIRASOLBCDEFHJKMNPQTUVWXYZ')]
+KRYPTOS : None  A–Z : None
+
+== 3. Taux de doublets ρ(d) ==
+A–Z             différences les plus fréquentes : [(13, 6.8), (23, 5.9), (14, 5.8), (19, 5.5)] (en %)
+KRYPTOS         différences les plus fréquentes : [(10, 6.2), (23, 5.9), (1, 5.0), (17, 4.8)] (en %)
+GIRASOL         différences les plus fréquentes : [(19, 7.0), (15, 7.0), (3, 5.2), (25, 5.1)] (en %)
+BERLIN (suite)  différences les plus fréquentes : [(1, 7.5), (5, 7.0), (14, 6.2), (12, 6.0)] (en %)
+meilleur alphabet possible (pas 1) : 16.4 % ; avec la contrainte I-N-O / S-T : 14.3 %
+P(≥ 5 doublets sur les 14 cases de la phase 4 | taux 3.9 %) = 0.00013
+P(≥ 5 doublets sur les 14 cases de la phase 4 | taux 7.0 %) = 0.002
+P(≥ 5 doublets sur les 14 cases de la phase 4 | taux 14.3 %) = 0.039

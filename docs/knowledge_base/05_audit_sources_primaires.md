@@ -75,6 +75,7 @@
 - **À demander à Paradigm (ajout du 24/09, base 7 §11.6)** : des photos nettes, en lumière rasante ou transmise, de deux feuilles de la vente.
   - La feuille K3 + K4 en 31 × 14 : sous la dernière ligne, à l'aplomb de VTTMZFPK, **8 signes raturés**, recouverts de correcteur sur les photos de Paradigm (lecture d'un membre). Ce seraient peut-être des lettres retirées de K4.
   - La feuille du bas de K2 : la note « could take out » à côté de l'X retiré (lecture d'un membre).
+  - *Précision (24/09, soir, base 7 §12.2)* : les 8 signes sont **exactement sous LINCLOCK** (positions 66–73, fin de BERLINCLOCK) et datent d'avant 2006. S'ils sont des lettres de clé, ils livrent 8 lettres de clé de K4. C'est la demande la plus prometteuse ; table de reconnaissance dans `audits/erreurs_multiples_2026_09_24/results_huit_signes.txt`.
 
 ## Triage d'un relais IA (« tout ce qui est disponible sur la boîte 6 », 23/09)
 Relais transmis par l'utilisateur. Les références pointaient vers des pages d'accueil (reddit.com, si.edu, paradigm.xyz), jamais vers les pages précises.

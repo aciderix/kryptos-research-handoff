@@ -37,6 +37,17 @@ Le document principal est [`HANDOFF_NEXT_AGENT.md`](HANDOFF_NEXT_AGENT.md). Il c
   - **Feuille K3 + K4 de NOVA** (31 × 14) : 8 signes raturés sous VTTMZFPK, sous correcteur sur les photos de Paradigm. Illisibles ; à demander à Paradigm.
   - Aussi : EAST « not inadvertent » (Sanborn, 2020) ; un « big hint » donné à la CIA vers 1997–1998, jamais publié (Gillogly 1999) ; les seuils d'IoC du hasard de Matson (2022), à utiliser comme témoins.
 
+- **Nombre minimal d'erreurs et nouveaux liens (24/09, soir)** : `audits/erreurs_multiples_2026_09_24/README.md`, base 7 §12.
+  - Au-delà d'une erreur : pour chaque famille, combien de lettres des cribs faudrait-il déclarer fausses, comparé au hasard ? Clé périodique (p ≤ 26, Quagmire I–IV) et autoclé sur le chiffré (seconde hypothèse NSA) restent éliminées **quel que soit le nombre plausible d'erreurs**. Période 7 avec décalage ou retournement par ligne : aucun signal.
+  - **Empreinte des doublets** : dans les chiffres périodiques de Sanborn (petit fragment, K1, K2), les doublets suivent les phases de la clé. Celle de K4 désigne une différence de clé fixe entre les colonnes 4 et 5 de chaque ligne de 7, mais un alphabet réaliste ne suffit pas à l'expliquer.
+  - **Les 8 signes raturés de la feuille NOVA (2006) sont exactement sous LINCLOCK** (66–73). Si ce sont des lettres de clé, elles livrent 8 lettres de clé de K4 : demande prioritaire à Paradigm, table de reconnaissance prête.
+  - Attaque par recuit sur le texte entier (`audits/recuit_2026_09_24/`) : l'outil ne passe pas encore son contrôle positif ; rien n'est conclu sur K4.
+
+- **Alphabets à mot-clé (24/09, nuit)** : `audits/motcle_pas7_2026_09_24/README.md`. On essaie tous les alphabets à mot-clé (237 988, tirés de 59 497 mots), comme ceux qu'employait Sanborn. Pour chacun, la clé est connue en 24 points ; quand elle est déterminée, on déchiffre les 97 lettres. Éliminées, K4 au niveau du hasard et contrôles positifs retrouvés :
+  - clés à pas 7 (décalage par ligne du cuivre ou par ligne de 7) ;
+  - autoclé sur le clair (écarts 1–13, dont l'hypothèse NSA) et sur le chiffré (tous écarts) ;
+  - **clé courante tirée d'un texte anglais inconnu**, famille jusqu'ici réputée irréfutable : les deux fragments de clé devraient être de l'anglais ; ils ne le sont jamais (puissance 99,5 %).
+
 ## Principes de travail
 
 - Distinguer fait source, interprétation, hypothèse, recette, expérience et preuve.

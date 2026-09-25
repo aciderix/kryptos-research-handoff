@@ -1,0 +1,4 @@
+p=8 BEAU saut +2 en 64 : K4 1 ; témoins uniformes 0.0015 ; témoins avec c27 = c65 : 0.0280
+p=8 BEAU saut +2 en 65 : K4 1 ; témoins uniformes 0.0005 ; témoins avec c27 = c65 : 0.0227
+p=8 BEAU saut +2 en 66 : K4 1 ; témoins uniformes 0.0160 ; témoins avec c27 = c65 : 0.0097
+p=8 BEAU saut +2 en 67 : K4 1 ; témoins uniformes 0.0132 ; témoins avec c27 = c65 : 0.0070

@@ -1,0 +1,27 @@
+== résumé (271138 ordres × 2 routes × π, π⁻¹ ; 30 témoins K4 mélangé, graine 7000 ; score noté si e ≤ 3) ==
+p= 1 e_min     K4  15.000 | témoins min  14.000 médiane  14.000 max  15.000 | p = 1.000
+p= 1 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 2 e_min     K4  13.000 | témoins min  12.000 médiane  13.000 max  13.000 | p = 1.000
+p= 2 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 3 e_min     K4  12.000 | témoins min  11.000 médiane  12.000 max  13.000 | p = 0.935
+p= 3 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 4 e_min     K4  11.000 | témoins min   9.000 médiane  11.000 max  12.000 | p = 0.935
+p= 4 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 5 e_min     K4  10.000 | témoins min  10.000 médiane  10.000 max  11.000 | p = 0.742
+p= 5 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 6 e_min     K4  10.000 | témoins min   9.000 médiane  10.000 max  10.000 | p = 1.000
+p= 6 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 7 e_min     K4   8.000 | témoins min   8.000 médiane   9.000 max   9.000 | p = 0.355
+p= 7 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 8 e_min     K4   8.000 | témoins min   8.000 médiane   8.000 max   9.000 | p = 0.935
+p= 8 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p= 9 e_min     K4   8.000 | témoins min   7.000 médiane   7.000 max   8.000 | p = 1.000
+p= 9 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p=10 e_min     K4   7.000 | témoins min   6.000 médiane   7.000 max   7.000 | p = 1.000
+p=10 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p=11 e_min     K4   6.000 | témoins min   5.000 médiane   6.000 max   7.000 | p = 0.935
+p=11 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p=12 e_min     K4   5.000 | témoins min   4.000 médiane   5.000 max   6.000 | p = 0.806
+p=12 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000
+p=13 e_min     K4   5.000 | témoins min   4.000 médiane   5.000 max   5.000 | p = 1.000
+p=13 score max K4 -99.000 | témoins min -99.000 médiane -99.000 max -99.000 | p = 1.000

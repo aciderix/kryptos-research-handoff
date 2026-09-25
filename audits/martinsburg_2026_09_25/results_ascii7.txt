@@ -1,0 +1,17 @@
+ 1 décalage 4 (8/8 lisibles, 6 bits en trop à droite) : 'ASHINGTO'                               | noms : WASHINGTON, ADAMS, JEFFERSON, MADISON, MONROE
+ 2 décalage 0 (8/8 lisibles, 6 bits en trop à droite) : 'ACKSON,V'                               | noms : JACKSON, VAN BUREN, HARRISON, TYLER, POLK, TA
+ 3 décalage 5 (7/7 lisibles, 6 bits en trop à droite) : 'RE,PIER'                                | noms : MORE, PIERCE, BUCHANAN, LINCOLN, JOHNSON, GRA
+ 4 décalage 4 (7/7 lisibles, 4 bits en trop à droite) : 'RFIELD,'                                | noms : GARFIELD, ARTHUR, CLEVELAND, HARRISON, CLEV[E
+ 5 décalage 4 (7/7 lisibles, 6 bits en trop à droite) : 'KINLEY,'                                | noms : MCKINLEY, ROOSEVELT, TAFT, WILSON, HARDING, C
+ 6 décalage 3 (8/8 lisibles, 0 bits en trop à droite) : 'OVER,ROO'                               | noms : HOOVER, ROOSEVELT, TRUMAN, EISENHOWER, K[ENNE
+ 7 décalage 3 (8/8 lisibles, 0 bits en trop à droite) : 'HNSON,NI'                               | noms : JOHNSON, NIXON, FORD, CARTER, REAGAN, BUSH, [
+ 8 décalage 3 (7/7 lisibles, 6 bits en trop à droite) : 'MILTON,'                                | noms : HAMILTON, WOLCOTT, DEXTER, GALLATIN, CAMPBELL
+ 9 décalage 3 (7/7 lisibles, 6 bits en trop à droite) : 'AUFORD,'                                | noms : CRAWFORD, RUSH, INGHAM, MCLANE, DUANE, TANEY[
+10 décalage 2 (8/8 lisibles, 0 bits en trop à droite) : 'RY,EWING'                               | noms : BURY, EWING, FORWARD, SPENCER, BIBB, WALKER, 
+11 décalage 2 (8/8 lisibles, 0 bits en trop à droite) : 'RWIN,GUT'                               | noms : CORWIN, GUTHRIE, COBB, THOMAS, DIX, CHASE, FE
+12 décalage 2 (7/7 lisibles, 5 bits en trop à droite) : 'LLOCH,B'                                | noms : CULLOCH, BOUTWELL, RICHARDSON, BRISTOW, MORRI
+13 décalage 3 (8/8 lisibles, 0 bits en trop à droite) : 'N,WINDOM'                               | noms : MAN, WINDOM, FOLGER, GRESHAM, MANNING, FAIRCH
+14 décalage 5 (7/7 lisibles, 5 bits en trop à droite) : 'R,CARLI'                                | noms : TER, CARLISLE, GAGE, SHAW, CORTELYOU, MACVEAG
+15 décalage 5 (7/7 lisibles, 6 bits en trop à droite) : 'ASS,HOU'                                | noms : GLASS, HOUSTON, MELLON, MILLS, WOODIN, MORGEN
+16 décalage 5 (8/8 lisibles, 0 bits en trop à droite) : 'N,SNYDER'                               | noms : SON, SNYDER, HUMPHREY, ANDERSON, DILLON, FO[W
+17 décalage 2 (7/7 lisibles, 6 bits en trop à droite) : 'NNEDY,C'                                | noms : KENNEDY, CONNALLY, SCHULTZ, SIMON, BLUMENTHAL

@@ -1,0 +1,8 @@
+{"famille": "ligne+colonne 7", "mode": "VIG", "K4": 0, "temoins_aleatoires": {"0": 32, "None": 5, "1": 2, "2": 1}, "temoins_K4_melange": {"0": 28, "None": 8, "1": 4}}
+{"famille": "ligne+colonne 7", "mode": "BEAU", "K4": 0, "temoins_aleatoires": {"0": 26, "1": 4, "None": 10}, "temoins_K4_melange": {"None": 12, "1": 8, "0": 20}}
+{"famille": "Fibonacci sur les lignes", "mode": "VIG", "K4": null, "temoins_aleatoires": {"0": 11, "None": 8, "2": 1}, "temoins_K4_melange": {"0": 6, "None": 12, "1": 2}}
+{"famille": "Fibonacci sur les lignes", "mode": "BEAU", "K4": 0, "temoins_aleatoires": {"None": 16, "0": 4}, "temoins_K4_melange": {"0": 5, "None": 15}}
+{"famille": "Fibonacci sur les lignes", "mode": "VARB", "K4": 0, "temoins_aleatoires": {"0": 12, "None": 7, "1": 1}, "temoins_K4_melange": {"1": 2, "None": 10, "0": 8}}
+{"famille": "boussole a[j] = 6j", "mode": "VIG", "K4": 3, "temoins_aleatoires": {"3": 8, "2": 8, "4": 3, "5": 1}, "temoins_K4_melange": {"2": 4, "3": 12, "4": 4}}
+{"famille": "boussole a[j] = 6j", "mode": "BEAU", "K4": 3, "temoins_aleatoires": {"3": 8, "4": 7, "2": 5}, "temoins_K4_melange": {"3": 12, "4": 6, "2": 2}}
+{"famille": "boussole a[j] = 6j", "mode": "VARB", "K4": 3, "temoins_aleatoires": {"3": 13, "4": 3, "2": 4}, "temoins_K4_melange": {"3": 13, "5": 1, "4": 4, "2": 2}}

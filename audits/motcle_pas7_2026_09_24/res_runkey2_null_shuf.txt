@@ -1,0 +1,8 @@
+graine 201 : -4.784 ORGLEALEAIDAS|EWISHOSELCA FAMILYES c1 r1 | thème MEDUSA c1 r1 | clair=thème BEAU lu-2 endroit
+graine 205 : -4.479 GRATHATTEONWE|GEIDELYHERZ ENNEMI c0 r1 | thème DESPARATLY c0 r0 | clair=thème BEAU lu-1 endroit
+graine 202 : -4.652 ECINTHEHOTGRG|SAINTOLASWO CINGHALESE c1 r1 | thème CARTER c0 r0 | clair=thème BEAU lu-2 endroit
+graine 206 : -4.630 SCHIGHISFEVEY|CHOENEDASKI FUNKE c0 r1 | thème UNDERGRUUND c0 r0 | clair=thème VIG lu-0 endroit
+graine 203 : -4.397 POSSTODITONUP|CARDOITWASI UNBIDDEN c0 r1 | thème SANBORN c0 r0 | clair=dico VIG lu-0 endroit
+graine 207 : -4.503 SEONSETTELOVE|ESJOSESHECZ THREAD c1 r0 | thème SHADOW c0 r1 | clair=dico VARB lu-2 endroit
+graine 204 : -4.560 AKERBYALETUEK|HICHTHERATD WARNINGS c1 r1 | thème VIRTUALLY c1 r0 | clair=thème VARB lu-2 endroit
+graine 208 : -4.516 DIWHERDASWAKE|UTANGOFHECL MEDITATIVENESS c1 r0 | thème VIRTUALLY c1 r1 | clair=dico VIG lu-1 envers
