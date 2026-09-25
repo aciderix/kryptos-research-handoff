@@ -15,7 +15,9 @@
  * n'y essaie que l'alphabet à l'endroit et VIG/BEAU. Élagage exact : dans un groupe (phase, bloc, classe), la plus grande
  * multiplicité c vérifie c ≤ 1 + (nombre de paires égales) ; on ne calcule exactement que ce qui peut battre le record.
  * Sortie : pour chaque famille, meilleur de K4, distribution des meilleurs des témoins, p empirique ; cas notables de K4.
- * Usage : k4x -a alphas.bin -e pbtacrm -n NNULL [-q qg.bin] [-s graine] [-T seuil]   (CTX=… remplace K4, contrôle positif)
+ * Usage : k4x -a alphas.bin -e pbtacrm -n NNULL [-q qg.bin] [-s graine] [-T seuil] [-2 themes.bin]   (CTX=… remplace K4, contrôle positif)
+ * -2 : Quagmire IV ; au lieu des 5 types, chaque alphabet est apparié à chaque alphabet thématique (clair θ / chiffré σ et
+ *      clair σ / chiffré θ). Pour les familles p, b, t, inverser l'un ou l'autre alphabet ne change rien (VIG ↔ BEAU au signe près).
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -36,7 +38,7 @@ static const char *FNAME[NF] = {"p7 pure", "p7 + décalage ligne cuivre", "p7 + 
   "T16 clé transposée", "autoclé clair L≤13", "autoclé chiffré (cribs justes, max)", "clé courante anglaise (score, max)",
   "p7 convention par ligne cuivre", "p7 convention par ligne de 7", "p7 convention alternance 2/3"};
 static const int FMAX[NF] = {0,0,0,0,0,0,1,1,0,0,0}; /* 1 : plus grand = meilleur */
-static int thr = 3;
+static int thr = 3, NTH = 0, NTY = 5; static int (*THS)[26];
 /* paires */
 static int PA[NPR], PB[NPR];
 typedef struct { uint64_t w[5]; } M5;
@@ -140,10 +142,10 @@ static void build_t16(void) {
 }
 /* ------------------ main ------------------ */
 int main(int argc, char **argv) {
-  const char *afile = 0, *ev = "p", *qf = 0; int NNULL = 20; uint64_t seed0 = 1000;
+  const char *afile = 0, *ev = "p", *qf = 0, *thf = 0; int NNULL = 20; uint64_t seed0 = 1000;
   for (int i = 1; i < argc; i++) { if (!strcmp(argv[i], "-a")) afile = argv[++i]; else if (!strcmp(argv[i], "-e")) ev = argv[++i];
     else if (!strcmp(argv[i], "-n")) NNULL = atoi(argv[++i]); else if (!strcmp(argv[i], "-q")) qf = argv[++i];
-    else if (!strcmp(argv[i], "-s")) seed0 = strtoull(argv[++i], 0, 10); else if (!strcmp(argv[i], "-T")) thr = atoi(argv[++i]); }
+    else if (!strcmp(argv[i], "-s")) seed0 = strtoull(argv[++i], 0, 10); else if (!strcmp(argv[i], "-T")) thr = atoi(argv[++i]); else if (!strcmp(argv[i], "-2")) thf = argv[++i]; }
   for (int x = -128; x < 128; x++) M26T[x + 128] = ((x % 26) + 26) % 26;
   const char *e = "EASTNORTHEAST", *b = "BERLINCLOCK"; int n = 0;
   for (int i = 0; i < 13; i++) { POS[n] = 21 + i; PT[n] = e[i] - 'A'; n++; }
@@ -175,6 +177,9 @@ int main(int argc, char **argv) {
   FILE *af = fopen(afile, "rb"); if (!af) return 4; fseek(af, 0, SEEK_END); long na = ftell(af) / 26; fseek(af, 0, SEEK_SET);
   char *AB = malloc(na * 26); if (fread(AB, 26, na, af) != (size_t)na) return 3; fclose(af);
   int AZ[26], KAP[26]; for (int i = 0; i < 26; i++) { AZ[i] = i; KAP[KA[i] - 'A'] = i; }
+  if (thf) { FILE *f = fopen(thf, "rb"); if (!f) return 5; fseek(f, 0, SEEK_END); NTH = ftell(f) / 26; fseek(f, 0, SEEK_SET);
+    THS = malloc(sizeof(*THS) * NTH); for (int q = 0; q < NTH; q++) { char w[26]; if (fread(w, 1, 26, f) != 26) return 5; for (int i = 0; i < 26; i++) THS[q][w[i] - 'A'] = i; } fclose(f);
+    NTY = 2 * NTH; fprintf(stderr, "Quagmire IV : %d alphabets thématiques\n", NTH); }
   float (*best)[NF] = malloc(sizeof(*best) * NCT);
   for (int z = 0; z < NCT; z++) for (int f = 0; f < NF; f++) best[z][f] = FMAX[f] ? -1e9f : 99;
   double t0 = omp_get_wtime();
@@ -187,9 +192,10 @@ int main(int argc, char **argv) {
       int S[26]; const char *a = AB + (ai >> 1) * 26; int rev = ai & 1;
       for (int i = 0; i < 26; i++) S[(rev ? a[25 - i] : a[i]) - 'A'] = i;
       int inv = !rev; /* familles invariantes : seulement à l'endroit */
-      for (int ty = 0; ty < 5; ty++) {
-        const int *Y = ty == 0 ? S : ty == 1 ? AZ : ty == 2 ? S : ty == 3 ? S : KAP;
-        const int *X = ty == 0 ? S : ty == 1 ? S : ty == 2 ? AZ : ty == 3 ? KAP : S;
+      for (int ty = 0; ty < NTY; ty++) {
+        const int *Y, *X;
+        if (!NTH) { Y = ty == 0 ? S : ty == 1 ? AZ : ty == 2 ? S : ty == 3 ? S : KAP; X = ty == 0 ? S : ty == 1 ? S : ty == 2 ? AZ : ty == 3 ? KAP : S; }
+        else { const int *T = THS[ty >> 1]; if (ty & 1) { Y = S; X = T; } else { Y = T; X = S; } } /* Quagmire IV : alphabet thématique d'un côté */
         int YI[26]; for (int i = 0; i < 26; i++) YI[Y[i]] = i;
         for (int z = 0; z < NCT; z++) {
           const int *CT = CTS[z];
