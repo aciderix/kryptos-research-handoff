@@ -1,0 +1,5 @@
+famille L : 21 lettres dans les cribs, 2 composantes, 3 équations
+clés exactes : 582924 (rejetées pour collision : 308332852)
+famille L : 582924 clés exactes ; meilleur score -6.377 par quadrigramme ; 212.2 s
+clair : ROGIAIKRDJCOEBRARYWESEASTNORTHEAMTCUFEAPONEMIOBYFRDTOWVQKCSHANWBERVINCLOCKBUYUHTTEFYTIEUGBNARECUT
+σ : AXHDEVFSCZKQJIPMBLUNGTYRWO  clé : 2 17 16 10 18 12 17 1 16 0

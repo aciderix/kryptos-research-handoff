@@ -1,0 +1,6 @@
+== résumé (101086 alphabets, 10 témoins K4 mélangé, graine 5000) ==
+p7 pure                                  K4   8.000 | témoins min   8.000 médiane   9.000 max   9.000 | p = 0.273
+p7 + décalage ligne cuivre              K4   7.000 | témoins min   6.000 médiane   7.000 max   7.000 | p = 1.000
+p7 + décalage ligne de 7                K4   6.000 | témoins min   5.000 médiane   6.000 max   6.000 | p = 1.000
+blocs T11/T11b                           K4   7.000 | témoins min   7.000 médiane   7.000 max   8.000 | p = 0.636
+T16 clé transposée                     K4   7.000 | témoins min   7.000 médiane   7.000 max   8.000 | p = 0.636

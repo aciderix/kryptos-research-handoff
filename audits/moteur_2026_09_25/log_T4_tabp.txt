@@ -1,0 +1,2 @@
+ordres de colonnes : 271138 (permutations complètes w ≤ 8 : 46232)
+498.6 s

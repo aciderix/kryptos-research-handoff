@@ -8,7 +8,7 @@
  * 2. Pour chaque clé exacte, les 24 lettres des cribs sont justes par construction ; il reste à placer les composantes
  *    (une base chacune, la première fixée à 0 : σ n'est défini qu'à une rotation près) et les lettres libres.
  *    Recuit (déplacement d'une composante, échange de lettres libres) noté aux quadrigrammes du clair entier.
- * Usage : k4sa FAM(P|L|R) [iters par clé] [redémarrages] [graine]   (CTX = chiffré ; défaut K4)
+ * Usage : k4sa FAM(P|L) [iters par clé] [redémarrages] [graine]   (CTX = chiffré ; défaut K4 ; DROP = position de crib retirée : une erreur)
  * Sortie : nombre de clés exactes, meilleur score (log10 moyen / quadrigramme) et clair ; meilleure clé.
  */
 #include <stdio.h>
@@ -17,11 +17,12 @@
 #include <stdint.h>
 #include <math.h>
 #include <omp.h>
-#define NP 24
+#define NPM 24
+static int NP = 24;
 #define N 97
 #define NV 10 /* m0..m6, a1..a3 (a0 = 0) */
 static const char *K4 = "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR";
-static int POS[NP], PT[NP], CT[N], SEG[N], NSEG; static float *QG; static char FAM;
+static int POS[NPM], PT[NPM], CT[N], SEG[N], NSEG; static float *QG; static char FAM;
 static inline int md(int x) { x %= 26; return x < 0 ? x + 26 : x; }
 static int segof(int i) { return FAM == 'P' ? 0 : FAM == 'L' ? (i + 27) / 31 : (i / 7 == 3 ? 0 : i / 7 == 4 ? 1 : i / 7 == 9 ? 2 : i / 7 == 10 ? 3 : -1); }
 /* variables de clé d'une position i : m[i%7] et a[seg] (seg 0 → rien) */
@@ -77,6 +78,9 @@ int main(int argc, char **argv) {
   const char *e = "EASTNORTHEAST", *b = "BERLINCLOCK"; int n = 0;
   for (int i = 0; i < 13; i++) { POS[n] = 21 + i; PT[n] = e[i] - 'A'; n++; }
   for (int i = 0; i < 11; i++) { POS[n] = 63 + i; PT[n] = b[i] - 'A'; n++; }
+  if (getenv("DROP")) { const char *q = getenv("DROP"); while (*q) { int d = atoi(q), m = 0; for (int t = 0; t < n; t++) if (POS[t] != d) { POS[m] = POS[t]; PT[m] = PT[t]; m++; } n = m;
+      while (*q && *q != ',') q++; if (*q == ',') q++; } } /* DROP = "32,66" : positions retirées */
+  NP = n;
   const char *C = getenv("CTX") ? getenv("CTX") : K4; for (int i = 0; i < N; i++) CT[i] = C[i] - 'A';
   { FILE *f = fopen(getenv("QG") ? getenv("QG") : "qg.bin", "rb"); QG = malloc(456976 * 4); if (!f || fread(QG, 4, 456976, f) != 456976) return 2; fclose(f); }
   /* segments renumérotés : le segment de la première lettre de crib vaut 0 */
@@ -85,7 +89,7 @@ int main(int argc, char **argv) {
   /* graphe */
   for (int x = 0; x < 26; x++) { comp[x] = -1; incrib[x] = 0; }
   for (int t = 0; t < NP; t++) { incrib[CT[POS[t]]] = 1; incrib[PT[t]] = 1; }
-  NC = 0; NEQ = 0; int used[NP] = {0};
+  NC = 0; NEQ = 0; int used[NPM] = {0};
   for (int x = 0; x < 26; x++) if (incrib[x] && comp[x] < 0) {
     int q[26], h = 0, tl = 0; q[tl++] = x; comp[x] = NC; root[x] = x; memset(coef[x], 0, sizeof coef[x]);
     while (h < tl) { int u = q[h++];
@@ -129,6 +133,7 @@ int main(int argc, char **argv) {
       #pragma omp critical
       if (s > gbest) { gbest = s; memcpy(gpos, pos, sizeof pos); memcpy(gk, SOLS[si], sizeof gk); gi = si; } } }
   int P[N]; if (gi >= 0) decode(gpos, gk, P);
+  if (gi < 0) { printf("famille %c : aucune clé exacte\n", FAM); return 0; }
   printf("famille %c : %ld clés exactes ; meilleur score %.3f par quadrigramme ; %.1f s\n", FAM, nsol, gbest / (N - 3), omp_get_wtime() - t0);
   if (gi >= 0) { printf("clair : "); for (int i = 0; i < N; i++) putchar('A' + P[i]); printf("\nσ : "); char a[27]; for (int x = 0; x < 26; x++) a[gpos[x]] = 'A' + x; a[26] = 0; printf("%s  clé :", a);
     for (int v = 0; v < NV; v++) printf(" %d", gk[v]); printf("\n"); }

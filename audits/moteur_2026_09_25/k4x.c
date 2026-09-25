@@ -10,6 +10,9 @@
  *   c  autoclé sur le chiffré, L = 1..96 : lettres des cribs reproduites (max, si au moins 11 cribs après L).
  *   r  clé courante anglaise : score quadrigrammes des deux fragments de clé (max) ; il faut -q qg.bin.
  *   m  période 7, convention (VIG/BEAU/VARB) fixée par ligne du cuivre, par ligne de 7, ou en alternance 2/3 ; e_min.
+ *   g  clé additive à deux entrées k = R[A] + C[B] : ligne + colonne (largeur 2..48, « ID BY ROWS ») ou deux mots
+ *      superposés (périodes p1 < p2 ≤ 26) ; nombre de cas compatibles sans erreur et avec au plus une erreur (somme).
+ *   f  autoclé vers l'avant (T17) : clé = clair L plus loin (L ≤ 13, e_min) ou chiffré L plus loin (cribs justes, max).
  * Invariances exploitées (familles p, b, t) : inverser l'alphabet ou passer de VIG à VARB change la clé en ±K + constante
  * dans le même type ; ces familles sont invariantes par K → −K + c (motifs KRYPTOS ajoutés avec leur opposé), donc on
  * n'y essaie que l'alphabet à l'endroit et VIG/BEAU. Élagage exact : dans un groupe (phase, bloc, classe), la plus grande
@@ -33,11 +36,14 @@ static int NCT; static int (*CTS)[97];
 static float *QG;
 static unsigned char M26T[256];
 static inline int md(int x) { return M26T[x + 128]; } /* x dans [−128, 127] */
-enum { F_P, F_L, F_R, F_B, F_T, F_A, F_C, F_RK, F_ML, F_MR, F_MA, NF };
+enum { F_P, F_L, F_R, F_B, F_T, F_A, F_C, F_RK, F_ML, F_MR, F_MA, F_G0, F_G1, F_FP, F_FC, NF };
 static const char *FNAME[NF] = {"p7 pure", "p7 + décalage ligne cuivre", "p7 + décalage ligne de 7", "blocs T11/T11b",
   "T16 clé transposée", "autoclé clair L≤13", "autoclé chiffré (cribs justes, max)", "clé courante anglaise (score, max)",
-  "p7 convention par ligne cuivre", "p7 convention par ligne de 7", "p7 convention alternance 2/3"};
-static const int FMAX[NF] = {0,0,0,0,0,0,1,1,0,0,0}; /* 1 : plus grand = meilleur */
+  "p7 convention par ligne cuivre", "p7 convention par ligne de 7", "p7 convention alternance 2/3",
+  "clé ligne+colonne / 2 mots superposés : nb e=0", "clé ligne+colonne / 2 mots superposés : nb e≤1",
+  "autoclé clair vers l'avant L≤13", "autoclé chiffré vers l'avant (cribs justes, max)"};
+static const int FMAX[NF] = {0,0,0,0,0,0,1,1,0,0,0,1,1,0,1}; /* 1 : plus grand = meilleur */
+static const int FSUM[NF] = {0,0,0,0,0,0,0,0,0,0,0,1,1,0,0}; /* 1 : compte (somme sur tous les cas) */
 static int thr = 3, NTH = 0, NTY = 5; static int (*THS)[26];
 /* paires */
 static int PA[NPR], PB[NPR];
@@ -140,6 +146,36 @@ static void build_t16(void) {
   for (int c = 7; c >= 1; c--) for (int q = 0; q < NT16; q++) if (T16NC[q] == c) { memcpy(m2[k], T16M[q], NP); p2[k] = T16P[q]; n2[k] = c; k++; }
   free(T16M); free(T16P); free(T16NC); T16M = m2; T16P = p2; T16NC = n2;
 }
+/* ------------------ clé additive à deux entrées : k_i = R[A(i)] + C[B(i)] ------------------ */
+/* configurations : largeur w = 2..48 (A = ligne i / w, B = colonne i mod w) ; deux mots superposés p1 < p2 ≤ 26 (A = i mod p1, B = i mod p2) */
+#define NGMAX 400
+static unsigned char GA[NGMAX][NP], GB[NGMAX][NP]; static int NG;
+/* cohérence sans l'arête « skip » : valeurs val(A) − val(B) = K (nœuds A = 0..63, B = 64..127), propagation par composantes */
+static int gconsistent(int g, const int *K, int skip) {
+  int val[128]; unsigned char seen[128]; memset(seen, 0, sizeof seen); int done[NP] = {0};
+  for (int s0 = 0; s0 < NP; s0++) { if (s0 == skip || done[s0]) continue;
+    int st[256], sp = 0; st[sp++] = GA[g][s0]; seen[GA[g][s0]] = 1; val[GA[g][s0]] = 0;
+    while (sp) { int u = st[--sp];
+      for (int t = 0; t < NP; t++) { if (t == skip) continue; int a = GA[g][t], b = 64 + GB[g][t];
+        if (a != u && b != u) continue;
+        if (a == u && !seen[b]) { seen[b] = 1; val[b] = md(val[a] - K[t]); st[sp++] = b; }
+        else if (b == u && !seen[a]) { seen[a] = 1; val[a] = md(val[b] + K[t]); st[sp++] = a; }
+        if (seen[a] && seen[b]) { done[t] = 1; if (md(val[a] - val[b] - K[t])) return 0; } } } }
+  return 1;
+}
+/* redondance = 24 − (nœuds − composantes) : nombre d'équations indépendantes des inconnues ; on garde les configurations ≥ GRED */
+static int redundancy(int g) { int comp[128], nn = 0; for (int i = 0; i < 128; i++) comp[i] = -1;
+  int used[128] = {0}; for (int t = 0; t < NP; t++) { if (!used[GA[g][t]]) { used[GA[g][t]] = 1; nn++; } if (!used[64 + GB[g][t]]) { used[64 + GB[g][t]] = 1; nn++; } }
+  int nc = 0; for (int x = 0; x < 128; x++) if (used[x] && comp[x] < 0) { int st[128], sp = 0; st[sp++] = x; comp[x] = nc;
+    while (sp) { int u = st[--sp]; for (int t = 0; t < NP; t++) { int a = GA[g][t], b = 64 + GB[g][t], o = a == u ? b : b == u ? a : -1; if (o >= 0 && comp[o] < 0) { comp[o] = nc; st[sp++] = o; } } } nc++; }
+  return NP - (nn - nc); }
+static int GRED = 3, GLAB[NGMAX][3];
+static void build_g(void) {
+  NG = 0;
+  for (int w = 2; w <= 48; w++) { for (int t = 0; t < NP; t++) { GA[NG][t] = POS[t] / w; GB[NG][t] = POS[t] % w; } GLAB[NG][0] = 0; GLAB[NG][1] = w; if (redundancy(NG) >= GRED) NG++; }
+  for (int p1 = 2; p1 <= 26; p1++) for (int p2 = p1 + 1; p2 <= 26; p2++) { for (int t = 0; t < NP; t++) { GA[NG][t] = POS[t] % p1; GB[NG][t] = POS[t] % p2; } GLAB[NG][0] = p1; GLAB[NG][1] = p2; if (redundancy(NG) >= GRED) NG++; }
+  fprintf(stderr, "clé additive : %d configurations de redondance ≥ %d\n", NG, GRED);
+}
 /* ------------------ main ------------------ */
 int main(int argc, char **argv) {
   const char *afile = 0, *ev = "p", *qf = 0, *thf = 0; int NNULL = 20; uint64_t seed0 = 1000;
@@ -167,6 +203,7 @@ int main(int argc, char **argv) {
   for (int z = 1; z < NCT; z++) { memcpy(CTS[z], CTS[0], sizeof CTS[0]); uint64_t s = (seed0 + z) * 0x9E3779B97F4A7C15ULL;
     for (int i = 96; i > 0; i--) { s ^= s << 13; s ^= s >> 7; s ^= s << 17; int j = s % (i + 1); int t = CTS[z][i]; CTS[z][i] = CTS[z][j]; CTS[z][j] = t; } }
   if (qf) { FILE *f = fopen(qf, "rb"); QG = malloc(456976 * 4); if (!f || fread(QG, 4, 456976, f) != 456976) return 2; fclose(f); }
+  int doG = !!strchr(ev, 'g'), doF = !!strchr(ev, 'f'); if (doG) { if (getenv("GRED")) GRED = atoi(getenv("GRED")); build_g(); }
   int doP = !!strchr(ev, 'p'), doB = !!strchr(ev, 'b'), doA = !!strchr(ev, 'a'), doC = !!strchr(ev, 'c'), doR = !!strchr(ev, 'r') && QG, doM = !!strchr(ev, 'm'), doT = !!strchr(ev, 't');
   NBL = 0; MINNB = 99;
   for (int nn = 5; nn <= 14; nn++) for (int phi = 0; phi < nn; phi++) { int bi = NBL++; BN[bi] = nn;
@@ -181,12 +218,12 @@ int main(int argc, char **argv) {
     THS = malloc(sizeof(*THS) * NTH); for (int q = 0; q < NTH; q++) { char w[26]; if (fread(w, 1, 26, f) != 26) return 5; for (int i = 0; i < 26; i++) THS[q][w[i] - 'A'] = i; } fclose(f);
     NTY = 2 * NTH; fprintf(stderr, "Quagmire IV : %d alphabets thématiques\n", NTH); }
   float (*best)[NF] = malloc(sizeof(*best) * NCT);
-  for (int z = 0; z < NCT; z++) for (int f = 0; f < NF; f++) best[z][f] = FMAX[f] ? -1e9f : 99;
+  for (int z = 0; z < NCT; z++) for (int f = 0; f < NF; f++) best[z][f] = FSUM[f] ? 0 : FMAX[f] ? -1e9f : 99;
   double t0 = omp_get_wtime();
   #pragma omp parallel
   {
     float (*lb)[NF] = malloc(sizeof(*lb) * NCT);
-    for (int z = 0; z < NCT; z++) for (int f = 0; f < NF; f++) lb[z][f] = FMAX[f] ? -1e9f : 99;
+    for (int z = 0; z < NCT; z++) for (int f = 0; f < NF; f++) lb[z][f] = FSUM[f] ? 0 : FMAX[f] ? -1e9f : 99;
     #pragma omp for schedule(dynamic, 16)
     for (long ai = 0; ai < na * 2; ai++) {
       int S[26]; const char *a = AB + (ai >> 1) * 26; int rev = ai & 1;
@@ -233,6 +270,27 @@ int main(int argc, char **argv) {
                       if (ISC[i] && p != CPL[i] && ++err > cut) break; } }
                   if (err <= cut) UPD(F_A, err, mo); } }
             }
+            if (doG && inv && mo < 2) { int c0 = 0, c1 = 0;
+              for (int g = 0; g < NG; g++) { if (gconsistent(g, K, -1)) { c0++; c1++; continue; }
+                for (int sk = 0; sk < NP; sk++) if (gconsistent(g, K, sk)) { c1++; break; } }
+              lb[z][F_G0] += c0; lb[z][F_G1] += c1; }
+            if (doF) {
+              /* autoclé vers l'avant sur le clair : k_i = Z[p_{i+L}] ; on remonte depuis la dernière lettre de crib de chaque classe */
+              for (int zr = 0; zr < 3; zr++) { const int *Z = zr == 0 ? Y : zr == 1 ? AZ : KAP;
+                for (int L = 1; L <= 13; L++) { int cut = CUT(F_FP), err = 0;
+                  for (int r = 0; r < L && err <= cut; r++) { int s0 = -1; for (int t = NP - 1; t >= 0; t--) if (POS[t] % L == r) { s0 = POS[t]; break; }
+                    int p = CPL[s0];
+                    for (int i = s0 - L; i >= 0; i -= L) { int k = Z[p], x = X[CT[i]], y = mo == 0 ? md(x - k) : mo == 1 ? md(k - x) : md(x + k); p = YI[y];
+                      if (ISC[i] && p != CPL[i] && ++err > cut) break; } }
+                  if (err <= cut) UPD(F_FP, err, mo); } }
+              /* vers l'avant sur le chiffré : k_i = Z[c_{i+L}] */
+              int kreq[NP]; for (int t = 0; t < NP; t++) { int x = X[CT[POS[t]]], y = Y[PT[t]]; kreq[t] = mo == 0 ? md(x - y) : mo == 1 ? md(x + y) : md(y - x); }
+              for (int zr = 0; zr < 3; zr++) { const int *Z = zr == 0 ? X : zr == 1 ? AZ : KAP;
+                int ag[97] = {0}, bk[26][97], nb[26] = {0};
+                for (int i = 22; i < 97; i++) { int v = Z[CT[i]]; bk[v][nb[v]++] = i; }
+                for (int t = 0; t < NP; t++) { int v = kreq[t]; for (int q = 0; q < nb[v]; q++) if (bk[v][q] > POS[t]) ag[bk[v][q] - POS[t]]++; }
+                for (int L = 1; L <= 96 - 33; L++) if (ag[L] > lb[z][F_FC]) lb[z][F_FC] = ag[L]; } /* L ≤ 63 : les 13 lettres d'EASTNORTHEAST ont leur clé */
+            }
             if (doC) {
               int kreq[NP]; for (int t = 0; t < NP; t++) { int x = X[CT[POS[t]]], y = Y[PT[t]]; kreq[t] = mo == 0 ? md(x - y) : mo == 1 ? md(x + y) : md(y - x); }
               for (int zr = 0; zr < 3; zr++) { const int *Z = zr == 0 ? X : zr == 1 ? AZ : KAP;
@@ -257,19 +315,19 @@ int main(int argc, char **argv) {
       }
     }
     #pragma omp critical
-    for (int z = 0; z < NCT; z++) for (int f = 0; f < NF; f++) if (FMAX[f] ? lb[z][f] > best[z][f] : lb[z][f] < best[z][f]) best[z][f] = lb[z][f];
+    for (int z = 0; z < NCT; z++) for (int f = 0; f < NF; f++) { if (FSUM[f]) best[z][f] += lb[z][f]; else if (FMAX[f] ? lb[z][f] > best[z][f] : lb[z][f] < best[z][f]) best[z][f] = lb[z][f]; }
     free(lb);
   }
   double dt = omp_get_wtime() - t0;
   fprintf(stderr, "alphabets %ld, %d chiffrés, %.1f s\n", na, NCT, dt);
   printf("== résumé (%ld alphabets, %d témoins K4 mélangé, graine %llu) ==\n", na, NNULL, (unsigned long long)seed0);
   for (int f = 0; f < NF; f++) {
-    if ((f <= F_R && !doP) || (f == F_B && !doB) || (f == F_A && !doA) || (f == F_C && !doC) || (f == F_RK && !doR) || (f >= F_ML && !doM) || (f == F_T && !doT)) continue;
+    if ((f <= F_R && !doP) || (f == F_B && !doB) || (f == F_A && !doA) || (f == F_C && !doC) || (f == F_RK && !doR) || (f >= F_ML && f <= F_MA && !doM) || (f == F_T && !doT) || ((f == F_G0 || f == F_G1) && !doG) || ((f == F_FP || f == F_FC) && !doF)) continue;
     int better = 0; float v[1024]; int nv = 0;
     for (int z = 1; z < NCT; z++) { v[nv++] = best[z][f]; if (FMAX[f] ? best[z][f] >= best[0][f] : best[z][f] <= best[0][f]) better++; }
     for (int i = 0; i < nv; i++) for (int j = i + 1; j < nv; j++) if (v[j] < v[i]) { float x = v[i]; v[i] = v[j]; v[j] = x; }
     if (!nv) { printf("%-40s K4 %7.3f\n", FNAME[f], best[0][f]); continue; }
-    printf("%-40s K4 %7.3f | témoins min %7.3f médiane %7.3f max %7.3f | p = %.3f\n", FNAME[f], best[0][f], v[0], v[nv / 2], v[nv - 1], (better + 1.0) / (NNULL + 1));
+    printf(FSUM[f] ? "%-40s K4 %7.0f | témoins min %7.0f médiane %7.0f max %7.0f | p = %.3f\n" : "%-40s K4 %7.3f | témoins min %7.3f médiane %7.3f max %7.3f | p = %.3f\n", FNAME[f], best[0][f], v[0], v[nv / 2], v[nv - 1], (better + 1.0) / (NNULL + 1));
   }
   return 0;
 }
