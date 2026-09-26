@@ -45,3 +45,9 @@ Bon pour structure/trame/proportions ; pas un relevé au mm (voir README).
   (clé KRYPTOS) — non ré-étiquetées cellule par cellule ici.
 - Reconstruction, pas relevé : revalider sur photogrammétrie calibrée avant
   conclusion forte.
+
+## Maillage portable
+- `mesh/copper_sheet_meters.obj` — l'écran de cuivre (les DEUX panneaux, lettres
+  découpées incluses) exporté en OBJ, **mis à l'échelle en mètres** (ancrage 12 ft).
+  109 183 sommets, 231 770 faces. Chargeable dans n'importe quel outil 3D
+  (Blender, MeshLab, trimesh, CloudCompare…). Script : `scripts/export_obj2.py`.
