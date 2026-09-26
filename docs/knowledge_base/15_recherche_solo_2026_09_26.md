@@ -38,8 +38,33 @@ perturbation d'un alphabet connu : il est « loin » de tout ce qu'on lit sur l'
 défini par un **objet physique / ordre spatial** (pochoir, ordre des perforations — non dérivable d'un texte), ou (b) une
 remise en cause d'une brique du squelette (à instruire en phase solo).
 
+## S2 — Alphabets STRUCTURÉS/mémorisables (affine, affine∘keyed) — FERMÉ (contrôlé)
+
+**Idée.** Entre « mot-clé » (éliminé) et « proche d'A–Z » (fermé S1) et « libre » (intractable), il reste des alphabets
+**structurés et mémorisables** (contrainte « papier-crayon » de Scheidt) jamais testés comme alphabet de l'autoclé : les
+**affines** (x→a·x+b, a coprime à 26 : 12×26=312 chacun) et les **affine∘keyée** (KRYPTOS/PALIMPSEST/ABSCISSA puis
+affine). L'affine standalone est éliminé, mais **pas** comme alphabet interne de l'autoclé écart-7.
+
+**Portée & outil.** `audits/crossbase_2026_09_26/affine.c` (σ,τ affines) et `sweep2.c` (σ,τ = affine∘base keyée, bases
+{A–Z, KRYPTOS, PALIMPSEST, ABSCISSA} — subsume affine pur et keyed pur). κ dérivé des cribs, filtre exact.
+
+**Contrôle positif : PASSE** (une paire fabriquée affine, et affine∘keyée, est retrouvée 97/97, 0 erreur).
+
+**K4 réel : 0 survivant** — affine σ,τ : 0/97 344 ; affine∘keyée σ,τ : 0/1 557 504 ; aux tolérances **2 ET 4 erreurs**.
+
+**Verdict : FERMÉ (contrôlé).**
+
+## Bilan intermédiaire de la phase solo
+Sous l'autoclé écart-7 Vigenère, l'alphabet de K4 n'est : ni proche d'un alphabet connu (S1, même base ET croisé), ni
+affine, ni affine∘keyée (S2) — **tous contrôlés**. Le cas « alphabet libre » reste, lui, **intractable** (base 13), pas
+éliminé. Donc : soit l'alphabet est **arbitraire/externe** (pochoir — l'utilisateur refuse cette issue « donnée
+externe »), soit **une brique du squelette autoclé-écart-7-Vigenère est à réinterroger** → priorité S3.
+
 ## Prochaines hypothèses solo (file)
-- S2 : alphabets « géométriques » dérivés du **tableau gravé lu par routes** (colonnes, diagonales, spirale, boustrophédon)
-  comme σ et/ou τ — distinct de T1 (qui lisait les textes comme *clé courante*, pas comme *alphabet* de l'autoclé) et de
-  H3 (mots-clés). Enumérable (quelques dizaines de routes) → test déterministe.
-- S3 : remise en cause contrôlée d'une brique du squelette (ordre autoclé, sens, convention par ligne) sur les 97 lettres.
+- **S3 (priorité)** : remise en cause CONTRÔLÉE du squelette. Tests déterministes via cribs, sans dégénérescence
+  d'alphabet libre : (a) autoclé sur le CHIFFRÉ écart-7 avec alphabets structurés (affine/keyed) — l'autoclé-chiffré
+  était éliminée pour A–Z/KRYPTOS, pas pour affine ; (b) conventions Beaufort/variante **restreintes aux alphabets
+  structurés** (le profil désigne Vigenère mais la vérification directe des cribs est gratuite) ; (c) lag ≠ 7 avec
+  alphabet structuré (contrôle de cohérence).
+- **Interprétatif** : re-examiner les invariants durs (auto-chiffrements 32→S, 73→K ; égalité de Bean P en 27 et 65)
+  comme contraintes directes sur (σ,τ) structurés, pour voir s'ils forcent une structure lisible.
