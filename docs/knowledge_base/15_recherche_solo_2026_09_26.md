@@ -60,6 +60,32 @@ affine, ni affine∘keyée (S2) — **tous contrôlés**. Le cas « alphabet lib
 éliminé. Donc : soit l'alphabet est **arbitraire/externe** (pochoir — l'utilisateur refuse cette issue « donnée
 externe »), soit **une brique du squelette autoclé-écart-7-Vigenère est à réinterroger** → priorité S3.
 
+## S3 — Réinterroger le SQUELETTE (toutes conventions, clé clair/chiffré) — FERMÉ (contrôlé)
+
+**Idée.** Ne pas tenir pour acquis « autoclé écart-7 **Vigenère sur le clair** ». Moteur générique `s3.c` :
+convention ∈ {Vigenère, Beaufort, Variante} × source de clé ∈ {clair, chiffré}, écart 7, σ,τ = affine∘keyée,
+κ dérivé par chaîne (bruteforce 26 → robuste, sans hypothèse de signe). Contrôle positif validé sur les 6 configs
+(clé-clair : 97/97 ; clé-chiffré : 90/97 + 0 erreur de crib, les 7 manquants = amorce non contrainte, normal).
+
+**K4 réel : 0 survivant / 9 345 024 configurations**, à ≤2 **et** ≤4 erreurs.
+
+**Verdict : FERMÉ (contrôlé).** Aucun autoclé écart-7 standard (toute convention, clé sur clair ou chiffré) avec un
+alphabet **structuré** (proche-connu, affine, affine∘keyée) ne produit les cribs de K4.
+
+## Bilan de la phase solo (S1+S2+S3) et conclusion honnête
+
+Sous le squelette « écart-7 auto-référent », **tout alphabet non arbitraire est éliminé, contrôlé** (S1 proche-connu,
+S2 structuré, S3 toutes conventions/sources). Les seuls espaces restants sont **prouvés indécidables avec 24 lettres**
+(alphabet libre : variété dim 19, base 13 ; Quagmire à période moyenne, base 02 §3) — ce n'est pas un manque d'effort
+mais un **mur informationnel** : les 97 lettres + 24 cribs ne contiennent pas de quoi fixer un alphabet arbitraire.
+
+**Recadrage (aligné sur « comprendre la pièce comme un tableau »).** Si K4 est soluble **sans K5**, la contrainte
+manquante — l'alphabet — doit venir d'une **feature VISIBLE de l'œuvre**, pas d'un texte. Le candidat le plus fort
+n'est pas un mot-clé (tous éliminés) mais l'**ordre spatial des lettres/perforations de l'écran** (un « pochoir » que
+Sanborn a gravé) : c'est « ce qu'on voit », pas une donnée future comme K5. Le blocage concret devient alors **une
+donnée mesurable, pas scellée** : un relevé/photo haute résolution de la géométrie de l'écran K4 (jamais mesurée,
+base 02 §3.1) permettrait de dériver l'alphabet candidat et de le tester déterministiquement (moteur prêt : `crossbase/`).
+
 ## Prochaines hypothèses solo (file)
 - **S3 (priorité)** : remise en cause CONTRÔLÉE du squelette. Tests déterministes via cribs, sans dégénérescence
   d'alphabet libre : (a) autoclé sur le CHIFFRÉ écart-7 avec alphabets structurés (affine/keyed) — l'autoclé-chiffré
