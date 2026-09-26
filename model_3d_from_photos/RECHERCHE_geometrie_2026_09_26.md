@@ -128,3 +128,24 @@ La famille « un panneau est la clé optique de l'autre » est **fermée par la 
   (ou la direction de la rose des vents en coordonnées modèle).
 - **Détail fin (tunnels #4, profondeur, trous)** : **non fiable** sur une reconstruction
   (mesure Bowen, pas Sanborn) → exige un relevé calibré réel.
+
+## Addendum 4 — Orientation réelle (doc NSA trouvé) — 26/09
+Doc NSA localisé : `sources/.../psizx29/KRYPTOS-Statue-NSA.pdf` (FOIA 2014, The Black
+Vault, DOCID 4112086, p.4). C'est le « plan/indices de site » NSA cherché.
+Faits d'orientation (doc NSA + web) :
+- Écran S au **coin nord-ouest** de la cour.
+- **Lodestone** magnétique + **boussole gravée** dans une pierre plate → dévie vers
+  **WSW ~240°** (texte NSA « South-by-SouthWest » ; annotation manuscrite « 230°–240° » ;
+  vue aérienne Elonka « ~220° »).
+- **Rose 16 points ; ENE = 67,5°** = axe que « pointe » le message (NORTHEAST) ; ligne
+  de visée sur l'axe intercardinal.
+- 2 bancs (Nord / Sud) de part et d'autre du bassin.
+
+**Blocage géoréférencement (honnête)** : ces données sont **qualitatives/imprécises**
+(éléments boussole ~220–240°, volontairement déviés ; azimut de l'écran non documenté).
+Le modèle n'a **pas de nord embarqué**. Déduire le nord des 2 rochers (lodestone vs
+pierre-boussole) laisse ~20° d'incertitude + risque de reflet (handedness Blender). Une
+simulation d'ombres/rayon (IDÉE 2/3) sur un nord à ±20° serait **garbage-in**.
+**Débloquer proprement** = azimut réel mesuré de l'écran (relevé/aérien géoréférencé),
+OU sweep du nord 0–360° traité comme paramètre inconnu cherché (avec contrôle), plutôt
+qu'un nord fabriqué.
