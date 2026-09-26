@@ -99,3 +99,32 @@ Le modèle est une **reconstruction** (photos + police Phillips). Donc :
   un relevé réel.
 - **Bloqué** faute de géoréférencement (pas de nord connu dans le modèle) : ombres
   solaires datées (#8).
+
+## Addendum 3 — Idées optiques (lumière / cylindre / vecteur) — 26/09
+Toutes déterminées, cribs + baseline hasard (0,93 moy). Scripts : `optics_tests.py`, `idee1_conic.py`.
+
+- **IDÉE 5 « machine à laver » (cylindre coaxial)** : enrouler table + K4 sur un même
+  cylindre, superposer (direct/retourné), lire la lettre-table comme clé Vigenère/Beaufort.
+  cribs 0–2/24 = **bruit. NÉGATIF.**
+- **#5 Ordres de lecture géométriques → écart-7** : l'ordre gravé (haut→bas) porte
+  l'écart-7 = 9 (z=+3,26) ; **aucun** autre parcours 3D (angle, x, y, arc, distances)
+  ne dépasse le bruit (z ≤ +1). ⇒ le signal autoclé vit dans **l'ordre de lecture gravé**,
+  pas dans un parcours spatial. **Négatif pour l'ordre spatial ; léger contre « gravé = mélangé ».**
+- **IDÉE 1 « lanterne magique » (projection conique)** : lumière au centre d'arc de la
+  table → rayons par les trous → panneau chiffré. 38/879 rayons touchent le chiffré (4 %,
+  rasants) depuis le centre-table ; **0** depuis centre-chiffré / inflexion / arbre.
+  **Géométriquement ABSENTE** (les lobes se tournent le dos).
+
+### Motif fort (conclusion de branche)
+**TOUT appariement statique table↔chiffré qu'on peut construire est négatif** : overlay 2D,
+normales (#3), projection conique (IDÉE 1), superposition par point de vue (#2), enroulement
+cylindre (IDÉE 5), tube/8. + raison théorique : le mécanisme survivant est une **autoclé**
+(clé générée par le texte, écart 7), donc **la clé n'est pas sur un panneau statique**. →
+La famille « un panneau est la clé optique de l'autre » est **fermée par la preuve**.
+
+### Ce qui reste, et ce qui bloque
+- **IDÉE 2 (rayon ENE) / IDÉE 3 (masque solaire)** : **bloquées** — le modèle n'a **pas de
+  nord** (pas de géoréférencement). Débloquables si on fournit l'orientation nord du modèle
+  (ou la direction de la rose des vents en coordonnées modèle).
+- **Détail fin (tunnels #4, profondeur, trous)** : **non fiable** sur une reconstruction
+  (mesure Bowen, pas Sanborn) → exige un relevé calibré réel.
