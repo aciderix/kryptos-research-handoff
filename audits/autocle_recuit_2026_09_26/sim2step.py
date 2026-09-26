@@ -48,11 +48,23 @@ def step1(p, primer):  # autoclé écart-7 Vigenère (A-Z)
         y[i] = (p[i] + k) % 26
     return y
 
-def step2(y, primer, mode):  # verticale locale largeur-7
+def step2(y, primer, mode, lag=LAG):  # substitution à modificateur voisin (lag=7 vertical, lag=1 horizontal)
     c = [0] * N
     for i in range(N):
-        k = primer[i] if i < LAG else y[i - LAG]
+        k = primer[i % lag] if i < lag else y[i - lag]
         c[i] = (y[i] + k) % 26 if mode == "add" else (k - y[i]) % 26
+    return c
+
+def forced_control(rng):
+    """Contrôle positif du DÉTECTEUR : un chiffré aléatoire où l'on FORCE 5 doublets en colonne 4.
+    Doit faire monter concentration→~1 et déclencher la signature jointe : prouve que la mesure
+    détecte une concentration quand elle existe (le négatif n'est pas dû à un détecteur aveugle)."""
+    c = [rng.randrange(26) for _ in range(N)]
+    for pos in [4, 11, 18, 46, 67]:      # positions ≡ 4 mod 7
+        c[pos + 1] = c[pos]              # force le doublet
+    # force aussi quelques coïncidences écart-7 pour la moitié "excès"
+    for i in [0, 7, 14, 21, 28, 35]:
+        c[i + 7] = c[i]
     return c
 
 def ecart7(c):
@@ -98,32 +110,34 @@ def main():
         return hit / n, sum(es) / n, sum(concs) / n
     wr, we, wc = witness_stats(3000)
 
-    def run_family(twostep, mode="add"):
-        hit = 0; es = []; concs = []; nds = []; joint = 0
-        trials = 0
+    def run_family(twostep, mode="add", lag=LAG):
+        es = []; concs = []; nds = []; joint = 0; trials = 0
         for _ in range(npl):
             b = rng.choice(blobs); i = rng.randrange(0, len(b) - N)
             p = insert_cribs(b[i:i + N])
             for _r in range(20):  # amorces aléatoires
-                pr1 = [rng.randrange(26) for _ in range(LAG)]
-                y = step1(p, pr1)
-                if twostep:
-                    pr2 = [rng.randrange(26) for _ in range(LAG)]
-                    c = step2(y, pr2, mode)
-                else:
-                    c = y
+                y = step1(p, [rng.randrange(26) for _ in range(LAG)])
+                c = step2(y, [rng.randrange(26) for _ in range(max(lag, 1))], mode, lag) if twostep else y
                 e, nd, conc, _ = signature(c)
                 es.append(e); concs.append(conc); nds.append(nd); trials += 1
                 if e >= e0 and nd >= 5 and conc >= 0.8:
                     joint += 1
         return joint / trials, sum(es) / trials, sum(concs) / trials, sum(nds) / trials, trials
 
+    # contrôle positif du détecteur
+    fc = [signature(forced_control(rng)) for _ in range(500)]
+    fj = sum(1 for e, nd, conc, _ in fc if e >= e0 and nd >= 5 and conc >= 0.8) / len(fc)
+    fconc = sum(c for _, _, c, _ in fc) / len(fc)
+    print("CONTRÔLE POSITIF du détecteur (doublets FORCÉS en colonne 4) : joint=%.3f  conc_moy=%.2f  => le détecteur voit une concentration quand elle existe.\n" % (fj, fconc))
+
     print("=== fréquence de la SIGNATURE JOINTE (ecart7>=%d ET >=5 doublets ET concentration>=0.8) ===" % e0)
-    print("témoins K4-mélangé      : joint=%.4f  ecart7_moy=%.2f  conc_moy=%.2f" % (wr, we, wc))
-    for name, ts, mode in [("étape 1 seule (autoclé)", False, "add"),
-                           ("2 étapes (i) additif   ", True, "add"),
-                           ("2 étapes (ii) beaufort ", True, "bea")]:
-        j, e, conc, nd, tr = run_family(ts, mode)
+    print("témoins K4-mélangé          : joint=%.4f  ecart7_moy=%.2f  conc_moy=%.2f" % (wr, we, wc))
+    for name, ts, mode, lag in [("étape 1 seule (autoclé)    ", False, "add", LAG),
+                                ("2 ét. VERTICAL (i) additif ", True, "add", 7),
+                                ("2 ét. VERTICAL (ii) beaufort", True, "bea", 7),
+                                ("2 ét. HORIZONTAL additif   ", True, "add", 1),
+                                ("2 ét. HORIZONTAL beaufort  ", True, "bea", 1)]:
+        j, e, conc, nd, tr = run_family(ts, mode, lag)
         print("%s: joint=%.4f  ecart7_moy=%.2f  conc_moy=%.2f  doublets_moy=%.2f  (%d essais)" % (name, j, e, conc, nd, tr))
 
 if __name__ == "__main__":

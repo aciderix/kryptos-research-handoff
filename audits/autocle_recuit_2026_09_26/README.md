@@ -98,3 +98,50 @@ du noyau, solveur dédié à l'autoclé, bien plus de calcul) pourrait un jour f
 les méthodes standard (recuit libre, énumération crib-exacte à la T5, recuit ancré-variété) ne le franchissent pas, et
 la cause est la dimension de la variété crib-consistante induite par l'alphabet libre auto-référent.
 
+
+---
+
+## 7. Volet « analyse conjointe » (26/09, échange chef+MECA) — le « 7 » = un mécanisme + une main
+
+Après la clôture du coin T36b (§1–6), un second volet, en **échange** avec l'agent chef (« comprendre la pièce
+comme un tableau »), a testé l'hypothèse que le profil du « 7 » serait **deux étapes** plutôt qu'une clé, dont une
+**géométrie physique** largeur-7 (lumière/ombre — la signature de sculpteur de Sanborn). Outil : `sim2step.py`.
+
+**Modèle testé (falsifiable).** Étape 1 = autoclé écart-7 Vigenère (produit l'excès écart-7). Étape 2 = substitution
+à modificateur voisin `c[i]=combine(y[i], y[i±d])` (d=7 vertical, d=1 horizontal), qui **change** des lettres (pas un
+réarrangement : le comptage 3 E→2 E interdit la transposition). Critère = reproduire la **signature jointe** de K4
+(excès écart-7 **et** concentration des doublets adjacents en une classe mod 7 — K4 : 5/6 en colonne 4), avec témoins
+« K4 mélangé » et **contrôle positif du détecteur** (doublets forcés en colonne 4).
+
+**Résultats** (8000 essais/famille ; K4 : écart7=9, 6 doublets, concentration 0.83 en colonne 4) :
+
+| Famille | signature jointe | écart7_moy | concentration_moy |
+|---|---|---|---|
+| Contrôle positif (doublets forcés col. 4) | **0.128** | — | 0.66 |
+| témoins K4-mélangé | 0.0000 | 3.31 | 0.50 |
+| étape 1 seule (autoclé écart-7) | 0.0000 | **7.30** | 0.48 |
+| 2 ét. vertical additif | 0.0000 | 3.40 | 0.51 |
+| 2 ét. vertical beaufort | 0.0000 | 4.98 | 0.55 |
+| 2 ét. horizontal additif | 0.0000 | 5.77 | 0.47 |
+| 2 ét. horizontal beaufort | 0.0000 | 2.38 | 0.48 |
+
+**Deux faits structurels.**
+1. L'étape 1 (autoclé écart-7) reproduit l'**excès** (7.30 vs 3.3) ; **aucune** étape-2 (verticale ni horizontale) ne
+   reproduit la **concentration** des doublets (conc reste ≈ 0.5 = hasard). Le contrôle positif (0.128 vs 0.0000)
+   prouve que le détecteur **voit** une concentration quand elle existe : le négatif n'est pas un artefact.
+2. Une étape-2 **additive à l'écart 7 détruit l'excès** de l'étape 1 : `c[i]=c[i+7] ⟺ y[i-7]=y[i+7]` (écart-14 =
+   hasard). Empiler deux opérations écart-7 est **auto-destructeur**.
+3. **Géométrie distincte** (mesure directe sur K4) : l'excès écart-7 est **colonne-uniforme** (2,1,2,1,1,1,1) ; les
+   doublets sont **colonne-4-localisés** (5/6). Ils diffèrent statistiquement (base 09 §4) **et** géométriquement — un
+   appareil unique largeur-7 les lierait aux mêmes colonnes.
+
+**Convergence (logée en base 14 par le chef).** Le « 7 » = **un mécanisme + une main** :
+- l'**excès écart-7** est **mécanique**, lettre-à-lettre (autoclé écart-7 — le « classique » de Scheidt ; son décalage
+  7 = |KRYPTOS|, la « clé la plus évidente » gravée) ;
+- la **concentration des doublets** n'est **reproductible par aucun procédé positionnel** → base 09 §6 passe de 3 à
+  **2** explications : hasard faible (p≈0.02, 5/6 sur 6 doublets) **ou** un **geste manuel** de Sanborn en regardant le
+  clair (« I fucked with it » au sens littéral), **pas** un appareil lumière/ombre reproductible.
+
+**Portée.** Signal modeste (~2.6σ après correction du look-elsewhere) : « classe de mécanisme plausible », pas une
+solution. Négatif de capacité sur la moitié « doublets » ; réinterprétation (KRYPTOS=7) sur la moitié « excès ».
+Antériorité : clé périodique-7 KRYPTOS éliminée (T22) — c'est l'**autoclé** écart-7 qui survit, pas la clé périodique.
