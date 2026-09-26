@@ -73,3 +73,29 @@ Géométrie déterminée (une seule tôle → rangées à même hauteur ; col30 
 **(b) Adjacence (couture)** : la colonne extérieure de la table = la clé `KRYPTOSABC…` (sa 1ʳᵉ colonne) vient border le chiffré. Colonnes de couture (haut→bas) : bord chiffré `EYVGTQYHEFFEDDECTWTETBAREUTV`, centre `JDEGARIEXFQEPGAEEERBIBTEROPR` — aucun mot, aucun crib.
 
 **Verdict** : adjacences déterminées, mais ni crib ni mot ni déchiffrement. Seul fait notable : la colonne‑clé KRYPTOS borde le chiffré à la fermeture. Élargir au‑delà de ces registrations = fishing (interdit par le frontier). Script : `scripts/tube_eight.py`.
+
+## Addendum 2 — Tests 3D « sculpture » (idées lumière/point de vue/normales) — 26/09
+Méthodo : portée d'avance, cribs comme falsificateur, baseline hasard.
+
+- **#3 Overlay par NORMALES** (`scripts/normal_overlay.py`) : pour chaque lettre de K4,
+  rayon le long de la normale radiale → cherche la table. **6/97 atteignent la table
+  (sortant), 0/97 (entrant).** Les deux lobes du S **tournent le dos** l'un à l'autre
+  (convexes vers l'extérieur). Overlay-par-normale **géométriquement absent**. NÉGATIF.
+- **#2 Anamorphose / POINT DE VUE** (`scripts/viewpoint_overlay.py`) : 12 000 points de
+  vue ; projection centrale des deux panneaux ; appariement des lettres qui se
+  superposent → clé → cribs. 1 756 vues donnent ≥20 superpositions, mais meilleur
+  score **3/24** (hasard : 0,91 moy, max 7/24). NÉGATIF (bruit).
+- **#1 Lumière/ombre (version alignement)** = projection centrale depuis un point =
+  mathématiquement #2 → NÉGATIF. (La version « ombre parallèle » = le dépliage, déjà
+  fait, redonne le texte, pas d'info neuve.)
+
+### Réserve METHODO majeure (vaut pour toute la suite)
+Le modèle est une **reconstruction** (photos + police Phillips). Donc :
+- **Fiables** (géométrie GROSSIÈRE captée par photos+police) : centroïdes de lettres,
+  relation entre panneaux, courbure du S, points de vue. → tests #2/#3/#5/#6/#10 défendables.
+- **NON fiables sur ce modèle** (détail FIN = choix du modeleur, pas Sanborn) : angle des
+  tunnels, profondeur exacte, orientation sous-lettre, trous « non-lettre ». → idées
+  #4/#7 mesureraient Bowen, pas Sanborn : **à ne PAS conclure sur ce modèle** ; exigent
+  un relevé réel.
+- **Bloqué** faute de géoréférencement (pas de nord connu dans le modèle) : ombres
+  solaires datées (#8).
