@@ -15,7 +15,7 @@ if ! { [ -f "$KA_LOCK" ] && kill -0 "$(cat "$KA_LOCK" 2>/dev/null)" 2>/dev/null;
       # best-effort mesh heartbeat when the env is present; harmless no-op otherwise
       mesh_ready && mesh_call heartbeat_session '{}' >/dev/null 2>&1 || true
       sleep 60
-    done ) &
+    done ) >/dev/null 2>&1 </dev/null & disown 2>/dev/null || true
   echo $! > "$KA_LOCK" 2>/dev/null || true
 fi
 
