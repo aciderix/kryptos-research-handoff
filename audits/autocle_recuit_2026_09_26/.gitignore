@@ -1,0 +1,7 @@
+ac7
+ac7b
+build_qg
+qg.bin
+corpus/
+__pycache__/
+*.out
