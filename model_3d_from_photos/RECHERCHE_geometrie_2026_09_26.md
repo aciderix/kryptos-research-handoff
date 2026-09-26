@@ -173,3 +173,15 @@ Correction (merci utilisateur) : mon Nord d'IDÉE 3 était faux. Calé sur le pl
 pure, det=+1, lettres à l'endroit). Nord modèle = (−0,323 ; 0,947). Détails : GEOREF.md.
 **IDÉE 3 refaite à l'orientation correcte** : cribs ombrés 79–96 % = **non-cribs** 84–97 %
 → aucune sélectivité, **négatif définitif** (le 22–24/24 antérieur = artefact de couverture confirmé).
+
+## Addendum 7 — Transposition à la largeur physique mesurée (31) — FERMÉ
+Croisement géométrie × porte « non-1:1 ». Testé sur K4 : ordre gravé vs colonnes,
+boustrophedon, largeurs 7/14/21/**31** (physique mesurée), lecture par blocs 4+31×3.
+Métrique = écart-7 (z vs 20 000 permutations) + concentration des doublets (mod 7).
+**Résultat** : seul l'ordre gravé porte le signal (écart-7 z=+3,26 ; conc 0,83).
+**Aucune** transposition ne le renforce (toutes → z≤+2,1 et conc≈0,50). → le signal
+est intrinsèque à l'ordre de lecture (cohérent autoclé + doublets manuels).
+**La porte transposition est fermée jusqu'à la largeur physique 31 incluse.**
+Recoupement algébrique confirmé : pos 32 (S→S, P[25]=N) ⇒ σ(N)=0 ; pos 73 (K→K,
+P[66]=L) ⇒ σ(L)=0 ⇒ σ(N)=σ(L) contradiction ⇒ autoclé pur impossible sans erreur ;
+avec 1 erreur, 0 pouvoir ; 2 alphabets libres, indécidable (T36b). Le verrou = σ libre.
