@@ -62,3 +62,14 @@ désormais disponible (elle manquait).
   liens écart‑7, colonnes multiples de 7).
 - `letters_cipher_panel.csv` — coordonnées 3D/mètres par lettre.
 - Scripts : `k4_physical_tests.py`, `k4_figure_overlay.py`.
+
+## Addendum — « refermer en tube / en 8 » (idée utilisateur, 26/09) — TESTÉ, NÉGATIF
+Géométrie déterminée (une seule tôle → rangées à même hauteur ; col30 = centre/inflexion, col0 = bord extérieur, pour les DEUX panneaux) :
+- **Jonction centrale** (croisement du 8) : cipher‑col30 ↔ tableau‑col30.
+- **Nouvelle jonction en fermant** : cipher‑col0 ↔ tableau‑col0.
+
+**(a) Superposition (tube = fold, lettre table = clé Vigenère sur K4)** : cribs, registrations naturelles (col directe/miroir × Vig/Beaufort/Variante, rangées fixées par la hauteur). Meilleur = **3/24** ; hasard = 0,93 moy, max 6/24 → **bruit, aucun signal**. Ne déchiffre pas.
+
+**(b) Adjacence (couture)** : la colonne extérieure de la table = la clé `KRYPTOSABC…` (sa 1ʳᵉ colonne) vient border le chiffré. Colonnes de couture (haut→bas) : bord chiffré `EYVGTQYHEFFEDDECTWTETBAREUTV`, centre `JDEGARIEXFQEPGAEEERBIBTEROPR` — aucun mot, aucun crib.
+
+**Verdict** : adjacences déterminées, mais ni crib ni mot ni déchiffrement. Seul fait notable : la colonne‑clé KRYPTOS borde le chiffré à la fermeture. Élargir au‑delà de ces registrations = fishing (interdit par le frontier). Script : `scripts/tube_eight.py`.
