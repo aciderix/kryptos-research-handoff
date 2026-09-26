@@ -91,11 +91,26 @@ Recoupement neuf des deux agents, convergé indépendamment :
   remarquée** » (Sanborn, WSJ 2005) et à « **KRYPTOS joue un rôle intégral** » (NSA 1992).
 - **Antériorité stricte** : une clé **périodique**-7 KRYPTOS est **éliminée** (T22, `motcle_pas7`). L'**autoclé** écart-7
   est le survivant. « 7 = |KRYPTOS| » est donc une **réinterprétation du survivant**, pas une résurrection de l'éliminé.
-- **Levier actionnable (en cours d'évaluation)** : l'autoclé écart-7 a aussi une **amorce de 7 lettres**
-  (keystream[0..6] = clé externe). La base 13 montre que le coin est intractable parce que l'alphabet libre laisse une
-  **variété de dimension 10/18**. **Fixer l'amorce = KRYPTOS** ajoute 7 équations : si cela fait tomber la dimension au
-  point de rendre la variété **énumérable**, c'est la « contrainte manquante » qu'on attribuait à K5 — mais **gratuite,
-  tirée de la sculpture**. Mesure demandée à l'agent MÉCANISME. Variantes d'amorce : PALIMPSEST/ABSCISSA tronqués à 7.
+- **Levier « amorce = KRYPTOS » : TESTÉ, NÉGATIF (26/09).** L'autoclé écart-7 a une amorce de 7 lettres
+  (keystream[0..6]). Hypothèse : la fixer à KRYPTOS ajouterait 7 contraintes gratuites et rendrait la variété (base 13)
+  énumérable. **Mesure** : le noyau ne tombe que de **21 → 16** dimensions (réduction de 5 seulement — les 7 équations
+  introduisent 2 variables neuves σ(Y), σ(P) et ne sont pas toutes indépendantes) ; 16 dims ≈ 10¹⁹ solutions → **toujours
+  non énumérable**. Un mot d'amorce de 7 lettres est **trop petit d'un ordre de grandeur** : ce que K5 achète, c'est un
+  **jeu de cribs entier** (~17 équations), pas 7. **Aucune attaque K4 lancée** (resterait intractable, règle d'or).
+  Antériorité : « amorce=KRYPTOS + alphabet libre + écart-7 » n'était pas dans base 02/10 (l'éliminé = A–Z/KRYPTOS, T9) —
+  test légitime, verdict : ne débloque pas.
+- **Reformulation du LOCK (résultat du débat).** Ce qui verrouille K4 n'est **pas l'amorce**, c'est **l'ALPHABET**
+  (libre, non construit sur mot-clé) : il porte l'essentiel des 16–21 dimensions. Les alphabets à mot-clé sont éliminés
+  (T27, T34). Le résidu non testé = un **alphabet mixte non-motclé**, typiquement issu d'un **gabarit / pochoir physique**.
+- **Nouvelle priorité documentaire (levier le plus fort, > amorce, ≈ K5).** « **Stencil Patterns, circa 1988** »,
+  dossier **scellé** par le donateur aux Archives of American Art (base 09 §9). Un pochoir **définit un alphabet mixte
+  non-motclé** — exactement la source qui fixerait σ (et τ) et donc les ~16 dimensions restantes, là où l'amorce n'en
+  fixe que 5. Cette piste relie fond (le lock = l'alphabet), forme (un objet physique de découpe) et le « masque » de
+  Scheidt. À instruire côté documentaire.
+- **Piste mécanique ouverte (contre-argument chef, à mesurer).** Le clair étant **coupé au milieu d'un mot**, K4 est une
+  **tranche** d'un clair plus long ; alors l'amorce de l'autoclé n'est peut-être pas un mot externe mais **les 7 lettres
+  du clair qui précèdent la fenêtre K4** — ce qui expliquerait l'échec de « amorce=KRYPTOS » et rendrait la FORME (la
+  coupe) mécaniquement porteuse. À chiffrer (probablement +7 inconnues, donc aggravant, mais reformule ce que K5 apporte).
 
 ## 7. Garde-fous (honnêteté)
 
@@ -109,8 +124,10 @@ Recoupement neuf des deux agents, convergé indépendamment :
 
 - La piste « lecture optique / appareil largeur-7 » est **close** (falsifiée), ce qui évite à la communauté et à nous de
   la rechasser.
-- Le seul levier de calcul restant qui **ne dépend pas de K5** est le §6 : **amorce KRYPTOS pour l'autoclé écart-7 à
-  alphabet libre**. S'il n'énumère pas, on revient au diagnostic des bases 09/13 (K5 / 8 signes / méthode Paradigm).
+- Le levier « amorce KRYPTOS » est **testé et négatif** (§6) : il ne réduit la variété que de 5 dimensions. Le vrai
+  verrou est l'**alphabet libre** (~16 dims). Le levier le plus fort qui **ne dépend pas de K5** devient donc une
+  **source d'alphabet non-motclé** : « Stencil Patterns, circa 1988 » (scellé, AAA) en tête. À défaut, on reste sur le
+  diagnostic des bases 09/13 (K5 / 8 signes / méthode Paradigm).
 - Le fait structurant à retenir : les deux moitiés du « 7 » sont indépendantes (stat. **et** géométriquement) — l'une est
   un mécanisme (autoclé), l'autre est la main de l'auteur ou le hasard.
 
