@@ -86,6 +86,22 @@ Sanborn a gravé) : c'est « ce qu'on voit », pas une donnée future comme K5. 
 donnée mesurable, pas scellée** : un relevé/photo haute résolution de la géométrie de l'écran K4 (jamais mesurée,
 base 02 §3.1) permettrait de dériver l'alphabet candidat et de le tester déterministiquement (moteur prêt : `crossbase/`).
 
+## S4 — Porte « non-1:1 » : transposition colonnaire + autoclé structuré — FERMÉ (contrôlé) pour largeurs 7/14/21
+
+**Idée (interne, jamais bien faite).** Sanborn recule sur le 1:1 (E. Dunin 2023) ; « étape non lettre-à-lettre » est une
+des trois portes ouvertes (base 09 §6). Si K4 = **transposition(autoclé(clair))**, des familles éliminées « sous 1:1 »
+redeviennent possibles. Test : dé-transposer K4 par des transpositions colonnaires **fixes** (largeurs 7, 14, 21 — les
+largeurs du « 7 » — dans les deux sens), puis relancer le moteur autoclé à alphabet structuré (`sweep2`) sur chaque
+variante dé-transposée.
+
+**Contrôle positif : PASSE.** Transpositions colonnaires vérifiées inversibles ; un faux K4 = colonne(autoclé σ,τ
+structurés) est **retrouvé** (0 erreur, cribs en place) par le pipeline dé-transpose→`sweep2`.
+
+**K4 réel : 0 survivant** sur les 6 variantes (largeurs 7/14/21 × 2 sens) × 1 557 504 paires d'alphabets, tol 3.
+
+**Verdict : FERMÉ (contrôlé)** pour cette classe. Portée : transpositions colonnaires régulières de largeur 7/14/21 ;
+**non couvert** : transpositions irrégulières/libres (sous-déterminées avec 24 cribs) et autres largeurs.
+
 ## Prochaines hypothèses solo (file)
 - **S3 (priorité)** : remise en cause CONTRÔLÉE du squelette. Tests déterministes via cribs, sans dégénérescence
   d'alphabet libre : (a) autoclé sur le CHIFFRÉ écart-7 avec alphabets structurés (affine/keyed) — l'autoclé-chiffré

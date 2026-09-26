@@ -3,3 +3,5 @@ affine
 sweep2
 s3
 *.o
+variants.txt
+ctl.txt
