@@ -166,3 +166,10 @@ cribs 92 % vs non-cribs 73 % à 15h = effet de **position** (K4 en bas, face dé
 soleil SW), pas un masque cryptographique. Sweep du nord : « meilleur » = 24/24 mais 97/97
 ombré (nuit totale). **Aucun masque stéganographique.** Seul fait thématique (non décodant) :
 à 15h l'ombre pointe ENE ~48°.
+
+## Addendum 6 — Géoréférencement corrigé + IDÉE 3 refaite — 26/09
+Correction (merci utilisateur) : mon Nord d'IDÉE 3 était faux. Calé sur le plan NSA
+(axe S = 50,6° de N, mesuré sur le trait utilisateur). Transform Option A (rotation
+pure, det=+1, lettres à l'endroit). Nord modèle = (−0,323 ; 0,947). Détails : GEOREF.md.
+**IDÉE 3 refaite à l'orientation correcte** : cribs ombrés 79–96 % = **non-cribs** 84–97 %
+→ aucune sélectivité, **négatif définitif** (le 22–24/24 antérieur = artefact de couverture confirmé).
