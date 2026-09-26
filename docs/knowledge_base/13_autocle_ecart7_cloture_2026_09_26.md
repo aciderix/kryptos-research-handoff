@@ -82,6 +82,17 @@ sert `audits/k5_depth/`.
 - **Réserve** : ce gain suppose que K4 et K5 **partagent** le(s) alphabet(s) et le procédé (plausible d'après « codage
   semblable » ; à vérifier dès publication). Premier test immédiat, sans paramètre libre : les lettres de K5 en 63–73
   (base 09 §9). Puis l'attaque en profondeur `audits/k5_depth/` (K4 et K5 en même temps).
+- **Mesure (26/09, round conjoint chef+MECA)** : ajouter un second jeu de cribs K5 (mêmes σ,τ, autoclé écart-7,
+  BERLINCLOCK au même rang) fait tomber le noyau σ,τ de **19 à ~5** (min 3, max 8 ; 40 K5 simulés) — régime **solvable**
+  (26⁵ élagué + l'objectif 97-lettres discrimine). À comparer : fixer σ seul (pochoir à deux alphabets) → 8 ; fixer σ
+  ET τ (pochoir unique) → ~0. Donc **K5 réduit autant ou plus qu'un demi-pochoir**. Classement par
+  (réduction × obtenabilité) : **K5** (fort + peut-être publié) > géométrie de l'écran (obtenable maintenant mais
+  spéculative) > dossier scellé « Stencil 1988 » (réduction maximale mais hors d'atteinte). Lecture : « comprendre » la
+  pièce = la clé est un **pochoir** (un objet, pas un mot) ; **débloquer** = **K5**. Script : `audits/autocle_recuit_2026_09_26/k5_vs_stencil.py`.
+- **Précision « 7 = |KRYPTOS| »** (cf. §5) : cela vaut pour le **décalage / période** de l'autoclé (l'écart 7), **pas**
+  pour le **contenu** de l'amorce de 7 lettres. Celle-ci est très probablement la **queue du clair précédent** (K4 est une
+  tranche, coupée au milieu d'un mot) — ce que confirme l'échec mesuré de « amorce = KRYPTOS » (n'ôte que 5 dimensions,
+  21→16). Le mot gravé KRYPTOS donne la **longueur** du décalage, pas les lettres de l'amorce.
 
 ## 6. Portée, limites, antériorité
 
