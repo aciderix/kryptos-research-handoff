@@ -18,7 +18,7 @@ mesh_call register_session "{\"name\":\"$NAME\",\"session_id\":\"$SESSION_ID\",\
 # events (startup/resume/clear). Best-effort: never breaks the session.
 HB_LOCK="${TMPDIR:-/tmp}/.mesh-heartbeat.pid"
 if ! { [ -f "$HB_LOCK" ] && kill -0 "$(cat "$HB_LOCK" 2>/dev/null)" 2>/dev/null; }; then
-  ( while true; do mesh_call heartbeat_session '{}' >/dev/null 2>&1 || true; sleep 60; done ) &
+  ( while true; do mesh_call heartbeat_session '{}' >/dev/null 2>&1 || true; sleep 60; done ) >/dev/null 2>&1 </dev/null & disown 2>/dev/null || true
   echo $! > "$HB_LOCK" 2>/dev/null || true
 fi
 
