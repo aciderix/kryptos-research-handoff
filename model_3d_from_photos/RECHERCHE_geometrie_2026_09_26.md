@@ -149,3 +149,20 @@ simulation d'ombres/rayon (IDÉE 2/3) sur un nord à ±20° serait **garbage-in*
 **Débloquer proprement** = azimut réel mesuré de l'écran (relevé/aérien géoréférencé),
 OU sweep du nord 0–360° traité comme paramètre inconnu cherché (avec contrôle), plutôt
 qu'un nord fabriqué.
+
+## Addendum 5 — Plan de site NSA trouvé + IDÉE 3 (ombres solaires) — 26/09
+**Plan de site NSA** (DOCID 4110824, 14 NOV 91) fourni par l'utilisateur : diagramme de
+la cour AVEC flèche Nord. Extraction : Nord = haut ; **table de Vigenère au NORD**,
+**cryptogramme K1–K4 au SUD** (axe long du S ≈ N–S) ; lecture côté concave (est) ;
+lodestone+boussole à l'**entrée ouest** (hors sculpture → IDÉE 2 non calculable sur le modèle).
+
+**Nord du modèle** dérivé : `Nm = normalize(cA−cB)`. Soleil (NOAA) à Langley :
+Inaug 5/11/1990 15h = alt 20°, az 228° (SW) ; Berlin 9/11/1989 ~13h = alt 32°, az 197°.
+
+**IDÉE 3 (ombre arbre+panneaux sur K4)** `scripts/idee3_solar.py` — **NÉGATIF (artefact)** :
+le soleil bas ombre **75–96 lettres/97**. Le « crib-overlap 22–24/24 » est un pur effet de
+**couverture** (77–99 % ombré → cribs ombrés par force), pas un masque sélectif. Contrôle :
+cribs 92 % vs non-cribs 73 % à 15h = effet de **position** (K4 en bas, face détournée du
+soleil SW), pas un masque cryptographique. Sweep du nord : « meilleur » = 24/24 mais 97/97
+ombré (nuit totale). **Aucun masque stéganographique.** Seul fait thématique (non décodant) :
+à 15h l'ombre pointe ENE ~48°.
