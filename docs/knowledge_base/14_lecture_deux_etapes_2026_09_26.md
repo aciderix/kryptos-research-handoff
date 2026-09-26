@@ -107,10 +107,34 @@ Recoupement neuf des deux agents, convergé indépendamment :
   non-motclé** — exactement la source qui fixerait σ (et τ) et donc les ~16 dimensions restantes, là où l'amorce n'en
   fixe que 5. Cette piste relie fond (le lock = l'alphabet), forme (un objet physique de découpe) et le « masque » de
   Scheidt. À instruire côté documentaire.
-- **Piste mécanique ouverte (contre-argument chef, à mesurer).** Le clair étant **coupé au milieu d'un mot**, K4 est une
-  **tranche** d'un clair plus long ; alors l'amorce de l'autoclé n'est peut-être pas un mot externe mais **les 7 lettres
-  du clair qui précèdent la fenêtre K4** — ce qui expliquerait l'échec de « amorce=KRYPTOS » et rendrait la FORME (la
-  coupe) mécaniquement porteuse. À chiffrer (probablement +7 inconnues, donc aggravant, mais reformule ce que K5 apporte).
+- **Amorce = clair précédent (contre-argument chef, confirmé).** Le clair étant **coupé au milieu d'un mot**, K4 est une
+  **tranche** d'un clair plus long ; l'amorce de l'autoclé n'est donc probablement pas un mot externe mais **les 7 lettres
+  du clair qui précèdent la fenêtre K4**. Mesure : modéliser l'amorce comme « 7 lettres inconnues » = le cas baseline
+  (nullspace 21) → n'aide pas (on ne connaît pas le clair précédent). Conséquence : **« 7 = |KRYPTOS| » vaut pour le
+  DÉCALAGE de l'autoclé, pas pour le CONTENU de l'amorce.** La FORME (la coupe) redevient bien porteuse sur le FOND, et si
+  K4/K5 sont des tranches consécutives, K5 fournit précisément ce contexte précédent.
+
+### 6 bis. Classement MESURÉ des leviers (réduction de la variété × obtenabilité)
+
+Le vrai verrou = l'**alphabet libre**. On a mesuré (mod 13) de combien chaque levier réduit le noyau, en partant de
+**nullspace 19** (σ, τ libres, un texte) :
+
+| Levier | nullspace après | Régime | Obtenabilité |
+|---|---|---|---|
+| **K5** (2ᵉ chiffré, mêmes σ,τ, BERLINCLOCK même rang ; ~17 éq. sur les mêmes inconnues) | **~5** (3–8) | **SOLVABLE** (26⁵ élagué + objectif 97 lettres discriminant) | « in the future » (Paradigm) ; outil `k5_depth` prêt |
+| Pochoir fixant **σ** | 8 | traitable | dossier scellé (AAA) |
+| Pochoir fixant **σ et τ** | **~0** | directement résoluble | dossier scellé (AAA) |
+| Amorce = KRYPTOS | 16 (−5) | intractable | gratuit, mais insuffisant |
+
+**Classement final (corrigé par la mesure) :** **1. K5** — forte réduction (19→5, solvable) ET obtenable → meilleure
+espérance. **2. Géométrie mesurée de l'écran** — obtenable maintenant, mais payoff spéculatif (n'aide que si l'ordre des
+perforations EST l'alphabet). **3. « Stencil Patterns 1988 »** — meilleur payoff brut (→0) mais scellé → obtenabilité
+≈ 0. **Correction d'une erreur de raisonnement** : « K5 laisse l'alphabet libre » était faux — les équations de cribs de
+K5 **contraignent** σ,τ (sans les fixer), d'où 19→5. Cela **confirme et explique** la priorité K5 des bases 09/13, avec
+un chiffre.
+
+**Les deux énoncés cohabitent :** *comprendre* la pièce = la clé est un **objet** (pochoir/alphabet, 7 = |KRYPTOS| en
+décalage, doublets = la main) ; *débloquer* K4 = **K5** (le levier le plus fort ET le seul réellement obtenable).
 
 ## 7. Garde-fous (honnêteté)
 
@@ -124,10 +148,10 @@ Recoupement neuf des deux agents, convergé indépendamment :
 
 - La piste « lecture optique / appareil largeur-7 » est **close** (falsifiée), ce qui évite à la communauté et à nous de
   la rechasser.
-- Le levier « amorce KRYPTOS » est **testé et négatif** (§6) : il ne réduit la variété que de 5 dimensions. Le vrai
-  verrou est l'**alphabet libre** (~16 dims). Le levier le plus fort qui **ne dépend pas de K5** devient donc une
-  **source d'alphabet non-motclé** : « Stencil Patterns, circa 1988 » (scellé, AAA) en tête. À défaut, on reste sur le
-  diagnostic des bases 09/13 (K5 / 8 signes / méthode Paradigm).
+- Le verrou est l'**alphabet libre** (nullspace 19). Classement mesuré des leviers (§6 bis) : **K5** (19→5, solvable, et
+  obtenable) domine ; le pochoir a le meilleur payoff brut (→0) mais est scellé ; la géométrie de l'écran est obtenable
+  mais spéculative ; l'amorce KRYPTOS est insuffisante (−5). **Priorité d'action = K5** (outil `k5_depth` prêt) ; le
+  pochoir/objet reste la clé de *compréhension* de la pièce.
 - Le fait structurant à retenir : les deux moitiés du « 7 » sont indépendantes (stat. **et** géométriquement) — l'une est
   un mécanisme (autoclé), l'autre est la main de l'auteur ou le hasard.
 
