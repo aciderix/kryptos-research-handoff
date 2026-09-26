@@ -273,6 +273,8 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 - **une intervention faite en regardant le clair**, par exemple des lettres de clé choisies pour faire un motif. *Lecture* : c'est compatible avec « I fucked with it » et avec le goût de Sanborn pour les « codes qui dépendent entièrement de motifs » ;
 - **une étape qui n'est pas lettre à lettre**. *Lecture* : c'est compatible avec le recul de Sanborn sur « 1:1 » et avec le « masque » de Scheidt.
 
+> **Mise à jour du 26/09 (base 14, analyse conjointe).** Ces trois explications se réduisent à **deux**. L'hypothèse « étape spatiale / appareil physique de largeur 7 » (lumière-ombre) a été **testée et falsifiée** : aucune opération positionnelle (verticale ou horizontale, largeur-7 ou voisin ; additif ou Beaufort ; 8000 essais/famille, contrôle positif du détecteur validé) ne reproduit la concentration des doublets, et une étape verticale additive à l'écart 7 **détruit** même l'excès de l'étape 1. De plus, les deux moitiés du « 7 » sont indépendantes **géométriquement** (excès écart-7 réparti sur les 7 colonnes ; doublets localisés en colonne 4), ce qui exclut un appareil unique. Restent donc : (a) le **hasard** (faible), ou (b) un **geste manuel** de Sanborn (« I fucked with it » au sens littéral, la main de l'auteur dans le chiffré) — pas un dispositif reproductible. L'excès à l'écart 7, lui, reste **mécanique** : autoclé Vigenère écart-7 (seul procédé qui le produit), et 7 = |KRYPTOS| (réinterprétation du survivant, le périodique-7 restant éliminé, T22). Seul levier de calcul hors K5 : fixer l'**amorce KRYPTOS** de cette autoclé pour réduire la variété de la base 13 (à l'essai). Détail : [`14_lecture_deux_etapes_2026_09_26.md`](14_lecture_deux_etapes_2026_09_26.md).
+
 ---
 
 ## 7. Ce que la relecture corrige ou nuance
@@ -354,6 +356,9 @@ T16 (clé transposée à la manière de K3) perd son zéro strict, mais reste so
 | 06 | Documents versés par l'utilisateur le 24/09 (NSA 1991–1992, NOVA 2006, réunion de 2015…) |
 | 07 | Fichiers et archive du groupe kryptos.groups.io (2003–2026), balayages, tests T7–T36, relais |
 | 11 | Ce que le dépôt amont `jcolinpatrick/kryptos` apporte encore (AAA expurgé, E0d, négatifs de mai–juin, 863 080 alphabets de sa liste anglaise) |
+| **12** | Reprise d'équipe (26/09) : passe « liens croisés » documentaire — Secret Past 1992, Code Room/MEDUSA, 8 signes, masque de Scheidt : instruits et clos (RADAR ou déjà couvert) |
+| **13** | Clôture au calcul du dernier coin ouvert : autoclé écart-7 à alphabet(s) libre(s) intractable sur 97 lettres (variété de dim 10/18) ; ce que K5 achète |
+| **14** | Analyse conjointe (26/09) : le « 7 » = autoclé écart-7 (mécanique) + concentration des doublets (hasard ou main de Sanborn) ; piste « appareil physique largeur-7 » falsifiée ; 7 = |KRYPTOS| ; levier amorce KRYPTOS |
 
 ### 10.2 Audits (`audits/`)
 - **21/09** : fiabilité du registre amont, cellules ouvertes, authenticité documentaire, trois audits de solutions publiées (`k4_audit_001` à `003`). État : « le blocage est documentaire ».

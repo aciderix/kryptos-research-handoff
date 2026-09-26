@@ -1,109 +1,118 @@
-# 14 — Comprendre la pièce, pas casser la serrure : le « 7 » comme signature de DEUX étapes (26/09/2026)
+# 14 — Comprendre la pièce, pas casser la serrure : ce que le « 7 » est vraiment (26/09/2026)
 
-**Nature de ce document.** Analyse **conjointe** chef ↔ agent MÉCANISME (échange Mesh du 26/09), en réponse à la
-consigne : cesser de tester des familles (« casser la serrure ») et **comprendre** la pièce comme un tableau — chercher
-un recoupement que ni nous ni la communauté n'aurions fait. Aucune solution, aucun clair. Ce n'est pas un test de clé :
-c'est une **hypothèse de compréhension**, avec ses appuis, ses garde-fous et son point faible. Statut du test décisif :
-**en cours** (§5).
+**Nature.** Analyse **conjointe** chef ↔ agent MÉCANISME (échange Mesh du 26/09), en réponse à la consigne : cesser de
+« casser la serrure » et **comprendre** la pièce. Aucune solution, aucun clair. Méthode : une hypothèse a été posée
+(lecture spatiale/optique), **testée**, **falsifiée par la mesure**, et remplacée par une conclusion plus sobre et plus
+solide. Ce document remplace la piste « appareil physique » que la relecture avait laissée ouverte.
 
 ---
 
-## 1. Le point de départ (regard global)
+## 1. La question de départ (regard global)
 
-Deux constats qu'on relie rarement :
-- **Sanborn n'est pas cryptographe, c'est un sculpteur** dont la signature, sur toute son œuvre, est de **projeter un
-  texte codé perforé avec une source de lumière ponctuelle** : *Cyrillic Projector*, *Code Room* / *Covert Obsolescence*
-  (« Medusa »), *Lux*, *Radiance*, *Meridian*, *Antipodes*. NPR 1999 : K4 utilise des « systèmes **spatiaux, de lumière
-  et d'ombre**, **absents de K1–K3** ». Big Techday 2013 : « on **retourne la feuille**, on la met à l'envers, on
-  l'**éclaire** ».
-- **Scheidt** insiste à l'inverse : système **classique, papier-crayon, résoluble à la main**. Et : « **plus d'une
-  étape** » (2015).
+Sanborn est un **sculpteur** dont la signature est de **projeter un texte codé perforé avec une lumière ponctuelle**
+(*Cyrillic Projector*, *Code Room*, *Lux*, *Radiance*, *Antipodes*…) ; NPR 1999 : K4 utiliserait des « systèmes
+**spatiaux, de lumière et d'ombre**, absents de K1–K3 ». Scheidt, lui, dit **classique, papier-crayon**, « **plus d'une
+étape** ». Hypothèse initiale (chef) : et si le « 7 » était l'empreinte d'une **manipulation physique** (largeur-7,
+lumière/ombre) plutôt qu'une clé ?
 
-La tension se résout si K4 est fait de **deux étapes de natures différentes** : une cryptographique (Scheidt) et une
-**spatiale** (Sanborn, « **I fucked with it** »).
+## 2. Le fait structurant : les deux moitiés du « 7 » sont indépendantes — statistiquement ET géométriquement
 
-## 2. La clé de voûte : les deux moitiés du « 7 » sont INDÉPENDANTES
-
-Le seul signal robuste de K4 est le « 7 », et il a **deux moitiés statistiquement indépendantes** (base 09 §4 ; base 04) :
+Le seul signal robuste de K4 a **deux moitiés** :
 1. l'**excès à l'écart 7** (9 coïncidences c[i]=c[i+7] pour 3,3 attendues) ;
-2. les **doublets alignés** (5 des 6 doublets en position ≡ 4 mod 7).
+2. la **concentration des doublets** (5 des 6 doublets ≡ 4 mod 7).
 
-Leur **indépendance** (corrélation < 0,02) est le levier : **une seule** opération produirait les deux de façon
-**corrélée**. Leur indépendance **impose deux mécanismes distincts** — ce qui est exactement « plus d'une étape ».
+- **Indépendance statistique** : corrélation < 0,02 (base 09 §4).
+- **Indépendance géométrique** (mesuré, sous-question du 26/09) : l'excès écart-7 est **réparti uniformément** sur les 7
+  colonnes (2,1,2,1,1,1,1) ; les doublets sont **localisés en colonne 4** (5/6 : positions 18, 25, 32, 46, 67 ; le 6ᵉ en
+  colonne 0, position 42). **Un seul appareil de largeur 7 lierait les deux aux mêmes colonnes.** Ils vivent sur des
+  géométries distinctes ⇒ **deux phénomènes de natures différentes**, ce qui est « plus d'une étape ».
 
-## 3. Mesures géométriques sur le chiffré seul (agent MÉCANISME, sans aucune clé, 5000 témoins « K4 mélangé »)
+## 3. Mesures sur le chiffré seul (agent MÉCANISME, aucune clé, témoins « K4 mélangé »)
 
-Test purement géométrique (aucune hypothèse de clé) :
-- **Écart-k, k = 1…14 : seul l'écart 7 déborde** (K4 = 9, P(témoin ≥ K4) = 0,004). Tous les autres au hasard, y compris
-  14 (P = 0,81) et 21 (P = 0,52).
-- **Sur largeur 7 : l'adjacence VERTICALE (+7) déborde** (P = 0,004) ; les **diagonales (+6/+8) sont au hasard**
-  (P = 0,68). **Largeurs 5, 6, 8, 9, 10, 14, 21 : aucun débordement vertical** (P = 0,20–0,85).
-- ⇒ **largeur 7 spécifiquement, vertical spécifiquement.**
+- **Écart-k, k=1..14 : seul l'écart 7 déborde** (K4=9, P≈0,004). 14 (P=0,81), 21 (P=0,52) au hasard ⇒ **voisin immédiat
+  seulement**, donc **pas de pli global ni de superposition de rangées éloignées**.
+- **Largeur 7 : adjacence verticale (+7) déborde ; diagonales (+6/+8) au hasard** ; largeurs 5,6,8,9,10,14,21 : rien.
+  ⇒ largeur 7 et vertical spécifiquement.
 
-Trois faits neufs pour une lecture physique :
-- **(a) Voisin immédiat seulement.** L'effet est écart-7 pur ; écart-14/21 au hasard ⇒ **un pli en deux ou une
-  superposition de rangées éloignées est EXCLU**. Ce qui survit = adjacence verticale **locale** (rang r ↔ r+1).
-- **(b) Vertical, pas diagonal** ⇒ compatible avec une projection/superposition **orthogonale** sur grille étroite (une
-  lumière traversant des perforations caste des ombres orthogonales ; un décalage oblique donnerait des diagonales — on
-  n'en a aucune).
-- **(c) Largeur 7 unique.**
+## 4. L'hypothèse « appareil physique » est FALSIFIÉE
 
-## 4. L'hypothèse de compréhension (à deux étapes)
+On a étendu le simulateur (base 10 F) avec un procédé à **deux étapes** : étape 1 = autoclé écart-7 (Vigenère) ;
+étape 2 = substitution à modificateur de voisin `c[i] = combine(x[i], x[i±k])`, testée en **vertical** (k=7) **et
+horizontal** (k=1), formes additive et Beaufort. Critère = reproduire la **signature jointe** (écart7 ≥ 9 **ET** ≥ 5
+doublets **ET** concentration ≥ 0,8), 8000 essais par famille. **Contrôle positif du détecteur** : en forçant des
+doublets en colonne 4, le détecteur mesure joint = 0,128 et conc = 0,66 (vs 0,50) — il **voit** une concentration quand
+elle existe.
 
-- **Étape 1 — lettre à lettre, papier-crayon (Scheidt).** Une **autoclé de type Vigenère à l'écart 7** : c'est le **seul**
-  procédé qui rend naturel l'**excès à l'écart 7** (simulateur, base 10 F, §6). Identifiable mais intractable sur les
-  seules 97 lettres connues (base 13) — d'où le rôle de K5.
-- **Étape 2 — PAS lettre à lettre, spatiale (Sanborn).** Une **opération verticale locale de largeur 7** (rang r ↔ r+1)
-  qui **concentre les doublets alignés**. Contrainte forte (garde-fou du compte des lettres, §6) : ce **n'est pas** un
-  réarrangement (la transposition pure est exclue — les cribs demandent 3 E, K4 n'en a que 2) ; c'est une
-  **substitution à modificateur vertical** : `c[i] = combine(x[i], x[i−7])`, où `x` est la sortie de l'étape 1. Modèles
-  physiques : « bavure / mauvais recalage » de lumière entre perforations verticalement adjacentes ; superposition de
-  deux moitiés de largeur 7 décalées d'un rang.
+| Famille | joint | écart7_moy | conc_moy |
+|---|---|---|---|
+| Témoins K4 mélangé | 0,0000 | 3,31 | 0,50 |
+| **Étape 1 seule (autoclé écart-7)** | 0,0000 | **7,30** | 0,48 |
+| 2 ét. vertical additif | 0,0000 | 3,40 | 0,51 |
+| 2 ét. vertical Beaufort | 0,0000 | 4,98 | 0,55 |
+| 2 ét. horizontal additif | 0,0000 | 5,77 | 0,47 |
+| 2 ét. horizontal Beaufort | 0,0000 | 2,38 | 0,48 |
 
-Ce schéma réconcilie **tout le corpus de paroles** : « plus d'une étape » (Scheidt), « systèmes spatiaux de lumière et
-d'ombre absents de K1–K3 » (Sanborn NPR 1999), « on retourne la feuille et on l'éclaire » (2013), « I fucked with it »
-(2025), et le recul de Sanborn sur le « 1:1 » (une étape non lettre-à-lettre casse la stricte correspondance).
+**Deux raisons structurelles :**
+1. Une étape-2 **additive à l'écart 7 détruit l'excès** de l'étape 1 : composer deux autoclés écart-7 rend c[i]=c[i+7]
+   équivalent à y[i−7]=y[i+7] (répétition écart-14 = hasard). Maths et données concordent (l'excès tombe de 7,3 à 3,4).
+2. **Mismatch mécanique** : les doublets sont une adjacence **horizontale** (c[i]=c[i+1]) localisée à une **colonne** ;
+   une opération **verticale** (r↔r+1) agit sur les relations verticales, pas sur des doublets horizontaux.
 
-## 5. Le test qui tranche (falsifiable) — EN COURS
+**Résultat : aucune opération positionnelle** — verticale ou horizontale, largeur-7 ou voisin — **ne concentre les
+doublets** (conc reste ≈ 0,50). Seule une **main forcée** le fait (contrôle positif). L'idée d'un **appareil physique**
+largeur-7 (ma piste initiale) est **falsifiée** : elle serait reproductible et concentrerait par un mécanisme ; elle ne
+le fait pas, et la colonne 4 n'est pas « l'endroit d'un appareil » (sinon l'écart-7 y serait aussi localisé — il ne l'est
+pas). La colonne 4 est en partie alignée sur les cribs (positions 25, 32, 67 = lettres de crib N, S, I ; 18 et 46 hors
+crib).
 
-Étendre le simulateur (base 10 F) avec le procédé à **deux étapes** ci-dessus et vérifier s'il reproduit la
-**SIGNATURE JOINTE** que **aucun des 52 procédés déjà simulés ne reproduit** : excès à l'écart 7 **ET** concentration
-des doublets dans **une seule paire de colonnes de 7** (colonnes 4–5, base 09 §7). Protocole : contrôle positif (faux K4
-fabriqué avec étape 1 + étape 2, signature retrouvée) ; témoins « K4 mélangé » ; **look-elsewhere payé**.
-- **Si oui** → l'hypothèse à deux étapes gagne un vrai appui de mécanisme (la première « classe de procédé » qui
-  reproduit la signature complète de K4).
-- **Si non** → l'autoclé reste seule à expliquer l'excès, et l'étape 2 spatiale ne tient pas.
+## 5. La conclusion (convergence finale)
 
-*(Résultat à intégrer ici dès que l'agent MÉCANISME l'a produit.)*
+Le « 7 » est **deux choses de natures différentes**, et une seule est un mécanisme :
 
-## 6. Garde-fous (pour ne pas « se peindre un tableau »)
+- **L'excès à l'écart 7 = mécanique, lettre-à-lettre : une autoclé Vigenère à l'écart 7** (le « système classique »
+  papier-crayon de Scheidt). C'est le **seul** procédé qui le reproduit (7,3 vs 3,3). Solide. Reste **intractable** sur
+  les seules 97 lettres connues, alphabet libre (base 13) — d'où le rôle de K5, ou d'une contrainte documentaire (§6).
+- **La concentration des doublets ≠ mécanisme.** Aucun procédé positionnel testé ne la produit. Les **trois** explications
+  de la base 09 §6 se réduisent donc à **deux** :
+  - **(a) le hasard** — signal faible (p ≈ 0,02 corrigé, 5/6 sur seulement 6 doublets) ;
+  - **(b) un geste manuel de Sanborn** — quelques lettres choisies en regardant le clair pour faire un motif ≡ 4 mod 7,
+    soit « **I fucked with it** » au sens **littéral** : la main de l'auteur *dans* le chiffré, une marque d'auteur, **pas
+    une serrure** ni un appareil reproductible.
 
-1. **Signal modeste.** P = 0,004 brut ; après paiement du choix (largeur × écart ≈ 100 tests) ≈ 10⁻² à quelques % —
-   soit **≈ 2,6 σ**, **suggestif, pas décisif**. Même un succès au §5 = « **classe de mécanisme plausible** », **pas** une
-   solution ni la clé.
-2. **Compte des lettres.** L'étape 2 ne peut pas être un simple déplacement (transposition exclue) : elle **doit changer
-   des lettres** (substitution à structure 2D).
-3. **Objet largeur-7 jamais vu.** La seule feuille connue fait **31 colonnes** ; le « ? » n'est pas chiffré (98 = 14×7
-   mort). La largeur 7 est **inférée du chiffré**, pas d'un objet physique attesté. **C'est le point faible testable de
-   l'hypothèse** : elle prédit un support/gabarit de largeur 7 qu'on n'a jamais observé.
-4. **Antériorité.** Le modèle de l'étape 2 (`c[i] = combine(x[i], x[i−7])`) **diffère** des familles éliminées voisines :
-   « toute substitution qui dépend de i mod 7 » (éliminée par les paires 65/72) dépend de la **position**, pas de la
-   **lettre voisine** ; « autoclé sur le chiffré à l'écart 7 » (éliminée par 22/72) est testée en **crib-fit**, ici on
-   teste une **signature statistique** après une étape 1. À confirmer explicitement dans l'audit (§5).
+**Lecture « comme un tableau » :** une moitié du « 7 » est du **chiffre** (l'autoclé), l'autre moitié est
+vraisemblablement **la main de l'artiste**. Le « spatial/lumière » de Sanborn colore peut-être l'atelier ou la mise en
+page, mais **la signature des doublets ne porte aucune empreinte d'appareil physique**.
 
-## 7. Convergences faibles (notées, non probantes)
+## 6. Le « 7 » comme longueur de clé — et un levier documentaire gratuit (ouvert)
 
-- **Les deux cribs nomment les deux ingrédients d'une lecture spatiale** : EASTNORTHEAST = une **direction** (= l'aiguille
-  gravée de la rose, ENE, mesurée, 30 ans avant l'indice) ; BERLINCLOCK = une **horloge à champs lumineux** (lumière/temps).
-  « La clé est l'algorithme… dissimulée sur la sculpture » (Scheidt) ; « la clé la plus évidente, personne ne l'a
-  remarquée » (Sanborn 2005). Convergent avec §4 sans rien prouver.
+Recoupement neuf des deux agents, convergé indépendamment :
+- Un autoclé de décalage L produit son excès **pile à l'écart L** (vérifié L = 5..9). L'écart observé **= 7 = |KRYPTOS|**
+  (7 lettres). Cela relie le **seul mécanisme survivant** à « **la clé la plus évidente de la sculpture, personne ne l'a
+  remarquée** » (Sanborn, WSJ 2005) et à « **KRYPTOS joue un rôle intégral** » (NSA 1992).
+- **Antériorité stricte** : une clé **périodique**-7 KRYPTOS est **éliminée** (T22, `motcle_pas7`). L'**autoclé** écart-7
+  est le survivant. « 7 = |KRYPTOS| » est donc une **réinterprétation du survivant**, pas une résurrection de l'éliminé.
+- **Levier actionnable (en cours d'évaluation)** : l'autoclé écart-7 a aussi une **amorce de 7 lettres**
+  (keystream[0..6] = clé externe). La base 13 montre que le coin est intractable parce que l'alphabet libre laisse une
+  **variété de dimension 10/18**. **Fixer l'amorce = KRYPTOS** ajoute 7 équations : si cela fait tomber la dimension au
+  point de rendre la variété **énumérable**, c'est la « contrainte manquante » qu'on attribuait à K5 — mais **gratuite,
+  tirée de la sculpture**. Mesure demandée à l'agent MÉCANISME. Variantes d'amorce : PALIMPSEST/ABSCISSA tronqués à 7.
 
-## 8. Ce que ça change pour la suite
+## 7. Garde-fous (honnêteté)
 
-- Si le §5 réussit : la priorité n'est plus « quelle clé ? » mais « **quelle opération spatiale de largeur 7** » — et
-  K5 sert à fixer l'étape 1 (autoclé) pendant que l'étape 2 est une classe géométrique restreinte.
-- Si le §5 échoue : on revient au diagnostic des bases 09/13 (blocage documentaire, K5).
-- Dans les deux cas, l'**indépendance des deux moitiés du « 7 »** (§2) reste le fait structurant à ne pas oublier.
+1. **Signal modeste** : écart-7 P ≈ 0,004 brut, ≈ 2,6 σ après look-elsewhere ; concentration p ≈ 0,02 sur 6 doublets.
+   Rien de décisif. On bâtit peu sur peu.
+2. **Négatif de capacité, pas d'impossibilité** pour l'étape 1 (base 13).
+3. **Pas d'objet largeur-7 attesté** : la piste physique reposait sur une largeur inférée du chiffré ; elle est
+   maintenant falsifiée comme mécanisme, indépendamment de cette faiblesse.
 
-*(Base 14. Analyse conjointe chef ↔ MÉCANISME, branche `claude/zealous-cerf-o7d96b`. Mesures géométriques et test §5 =
-agent MÉCANISME. La base 09 sera mise à jour pour pointer vers 12, 13 et 14.)*
+## 8. Ce que ça change
+
+- La piste « lecture optique / appareil largeur-7 » est **close** (falsifiée), ce qui évite à la communauté et à nous de
+  la rechasser.
+- Le seul levier de calcul restant qui **ne dépend pas de K5** est le §6 : **amorce KRYPTOS pour l'autoclé écart-7 à
+  alphabet libre**. S'il n'énumère pas, on revient au diagnostic des bases 09/13 (K5 / 8 signes / méthode Paradigm).
+- Le fait structurant à retenir : les deux moitiés du « 7 » sont indépendantes (stat. **et** géométriquement) — l'une est
+  un mécanisme (autoclé), l'autre est la main de l'auteur ou le hasard.
+
+*(Base 14. Analyse conjointe chef ↔ MÉCANISME, branche `claude/zealous-cerf-o7d96b`. Mesures, simulations et test =
+agent MÉCANISME (`audits/autocle_recuit_2026_09_26/` + sim2step). Rédaction et arbitrage = chef.)*
