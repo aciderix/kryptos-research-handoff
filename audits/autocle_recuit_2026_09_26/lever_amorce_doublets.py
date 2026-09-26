@@ -101,7 +101,32 @@ def debat(cdir):
     print("   biais mécanique ? %s ; P(>=5/6 en une classe)=%.4f" % ("OUI" if max(res.values()) / s > 0.20 else "NON (uniforme)", conc / nt))
     print("   K4 doublets par classe :", dict(Counter(j % 7 for j in range(N - 1) if K4[j] == K4[j + 1])))
 
+def stencil():
+    """C. Si un pochoir FIXE l'alphabet sigma, la variété tau résiduelle est-elle petite (énumérable) ?"""
+    from t36b_recover import build_eqs
+    eqs = build_eqs(K4)
+    def rank_null(rows, p):
+        vs = sorted({k for r in rows for k in r}, key=str)
+        M = [[r.get(v, 0) % p for v in vs] for r in rows]
+        nr, nc, rk = len(M), len(vs), 0
+        for col in range(nc):
+            piv = next((r for r in range(rk, nr) if M[r][col] % p), None)
+            if piv is None: continue
+            M[rk], M[piv] = M[piv], M[rk]; inv = pow(M[rk][col], p - 2, p); M[rk] = [(x * inv) % p for x in M[rk]]
+            for r in range(nr):
+                if r != rk and M[r][col] % p:
+                    f = M[r][col]; M[r] = [(a - f * b) % p for a, b in zip(M[r], M[rk])]
+            rk += 1
+        return nc, nc - rk
+    both = [{**{('s', k): v for k, v in s.items()}, **{('t', c): v for c, v in t.items()}} for s, t in eqs]
+    tau = [{('t', c): v for c, v in t.items()} for s, t in eqs]
+    print("C. STENCIL (fixe l'alphabet) :")
+    nc1, nl1 = rank_null(both, 13); nc2, nl2 = rank_null(tau, 13)
+    print("   sigma+tau libres : nullspace %d | sigma FIXÉ -> tau seul : nullspace %d" % (nl1, nl2))
+    print("   => fixer l'alphabet effondre 19->8 ; single-alphabet (σ=τ) -> ~0 = résoluble. Le pochoir > K5.\n")
+
 if __name__ == "__main__":
     lever()
+    stencil()
     if len(sys.argv) > 1:
         debat(sys.argv[1])
