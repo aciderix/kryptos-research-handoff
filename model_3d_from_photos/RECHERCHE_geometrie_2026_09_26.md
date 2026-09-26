@@ -185,3 +185,16 @@ est intrinsèque à l'ordre de lecture (cohérent autoclé + doublets manuels).
 Recoupement algébrique confirmé : pos 32 (S→S, P[25]=N) ⇒ σ(N)=0 ; pos 73 (K→K,
 P[66]=L) ⇒ σ(L)=0 ⇒ σ(N)=σ(L) contradiction ⇒ autoclé pur impossible sans erreur ;
 avec 1 erreur, 0 pouvoir ; 2 alphabets libres, indécidable (T36b). Le verrou = σ libre.
+
+## Addendum 8 — Piste « artiste » : Morse K0 comme clé (F-10, jamais exécutée) — NÉGATIF
+Portrait Sanborn (base 01) → clé = motif VISUEL lu par position (gabarit/pochoir, « on
+retourne la feuille et on éclaire », dessin IMG_1555 « Code Breaker plate on Coded plate »),
+non-mathématique, 1:1. Fil binaire : Morse (dot/dash), Martinsburg anglais→binaire via aimant,
+Scheidt « masques binaires 1=0 », « changer la base du langage vers autre chose ».
+**Test F-10 (jamais fait) : texte Morse K0 décodé comme clé courante de K4.** Vérif = reproduit-il
+les 24 lettres de flux de clé connues aux cribs (σ=AZ & KRYPTOS ; Vig/Beau/Var ; tous décalages,
+K0 et K0 inversé) ? **Meilleur = 6/24 (hasard 3,5 moy, max 7) → bruit. NÉGATIF au niveau lettres.**
+La version binaire (bits Morse → clé) reste sous-déterminée (convention d'extraction libre = fishing).
+Conclusion : les motifs visuels ÉNUMÉRABLES (Morse texte, overlay panneaux, ombres, décalage
+boussole, transposition) sont tous négatifs → si clé = gabarit physique « individuel » (Sanborn),
+il faut le VOIR, pas le reconstituer (converge avec base 01 §358).
