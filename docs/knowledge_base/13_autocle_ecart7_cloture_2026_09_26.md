@@ -65,6 +65,24 @@ disparaît dès que l'alphabet est **libre** *et* la clé **auto-référente**. 
   (même rang pour BERLINCLOCK) ou un nouveau clair connu. Cohérent avec T18 / T19 / T36b.
 - **Aucun essai sur K4 n'a été présenté comme concluant** (règle d'or : contrôle d'abord).
 
+## 5 bis. Ce que K5 achète (le levier, cadrage vers l'avant)
+
+Cette clôture **n'est pas un cul-de-sac** : elle énonce exactement pourquoi **K5 débloquerait le coin**, et donc à quoi
+sert `audits/k5_depth/`.
+
+- K5 est un **second chiffré**, 97 caractères, « codage semblable » (Sanborn, 12/11/2025), avec **BERLINCLOCK au même
+  rang** (63–73). Si le même système opère avec **le(s) même(s) alphabet(s)** σ (et τ), alors les cribs de K5 fournissent
+  **de nouvelles équations de chaîne sur les mêmes inconnues**.
+- Ces équations **réduisent la dimension de la variété** crib-consistante. Le coin bloque aujourd'hui parce que cette
+  variété est de dimension 10 à 18 (§3) ; chaque contrainte indépendante de K5 en retranche une part. Une variété
+  suffisamment réduite redevient **finie / énumérable** — le régime où l'énumération à la T5 fonctionne.
+- Et comme l'objectif (score anglais sur les 97 lettres) **discrimine déjà la vérité** (§2 pt 1), une variété réduite
+  suffit : dès que l'espace crib-consistant est petit, on énumère et on **localise** l'aiguille. Autrement dit, le seul
+  ingrédient manquant est **de la contrainte**, pas un meilleur objectif — et c'est précisément ce que K5 apporte.
+- **Réserve** : ce gain suppose que K4 et K5 **partagent** le(s) alphabet(s) et le procédé (plausible d'après « codage
+  semblable » ; à vérifier dès publication). Premier test immédiat, sans paramètre libre : les lettres de K5 en 63–73
+  (base 09 §9). Puis l'attaque en profondeur `audits/k5_depth/` (K4 et K5 en même temps).
+
 ## 6. Portée, limites, antériorité
 
 - **Négatif de capacité, pas preuve d'impossibilité.** Une recherche plus fine (paramétrage explicite du noyau de la
@@ -77,5 +95,6 @@ disparaît dès que l'alphabet est **libre** *et* la clé **auto-référente**. 
 - **Prochain pas** : `audits/k5_depth/` le jour de la publication de K5 ; les 8 signes sous LINCLOCK ; la description de
   la méthode détenue par Paradigm.
 
-*(Ce document est la base 13, écrite sur la branche `claude/loving-einstein-fizl93`. Il suit la base 12 « liens croisés »
-du chef. À l'intégration, vérifier la numérotation et ajouter la ligne au guide du dépôt, base 09 §10.1.)*
+*(Base 13, écrite par l'agent MÉCANISME sur la branche `claude/loving-einstein-fizl93`. Numérotation arbitrée par le
+chef : base 12 = documentaire/liens croisés (chef) ; base 13 = ce document. La base 09 (synthèse) et son guide §10.1
+sont mis à jour par le chef, qui y pointera vers 12 et 13 — un seul propriétaire édite 09.)*
