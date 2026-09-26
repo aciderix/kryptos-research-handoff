@@ -1,4 +1,5 @@
 # Local and generated artifacts
+.claude/settings.local.json
 .env
 .env.*
 *.sqlite
