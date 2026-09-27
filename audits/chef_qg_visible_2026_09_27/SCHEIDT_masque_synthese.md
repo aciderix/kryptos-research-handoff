@@ -85,3 +85,11 @@ Idée (résout la tension IC-aléatoire vs peu-de-dof) : clé longue k_i=(a·k_{
 × Vig/Beau/var × alphabets{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z} (lfsr_key.c, déterministe). Meilleur 8/24,
 qoff −3.85 = charabia. NÉGATIF net. (Lag-2 classique couvert ; lag-3+ prior faible.) ⇒ le générateur de clé
 long-à-partir-de-graine-courte n'est ni autoclé, ni Gromark, ni récurrence-linéaire-Z26.
+
+## CHAOCIPHER (Byrne) — keyword-seeded NÉGATIF
+Excellent fit théorique Scheidt : 1:1, hand-cipher, 2 alphabets DYNAMIQUES (permutent après chaque lettre)
+⇒ clé effective longueur-texte ⇒ IC plat / retire biais ⇒ « change of base » + « more than one step » ;
+graine = 2 alphabets mémorisables (mots-clés). Testé (chao.c, round-trip validé) : paires de mots-clés
+{KRYPTOS,PALIMPSEST,ABSCISSA,IQLUSION,SANBORN,SCHEIDT,BERLINCLOCK,A-Z}² en LEFT×RIGHT, décrypt déterministe.
+Meilleur 0/24 cribs, qoff −3.58 = null. NÉGATIF. (Chaocipher à alphabets LIBRES : recherche intraçable —
+permutation dynamique cascade, cribs épars all-or-nothing ; et non « mémorisable » donc hors description Scheidt.)
