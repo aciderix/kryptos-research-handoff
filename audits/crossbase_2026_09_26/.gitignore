@@ -5,3 +5,4 @@ s3
 *.o
 variants.txt
 ctl.txt
+visible_sweep
