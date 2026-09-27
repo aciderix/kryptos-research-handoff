@@ -182,3 +182,22 @@ Meilleur K4 = colIC 0.0769. **CONTRÔLE NUL (ic_null.c, 2000 shuffles, même pip
 mean_max=0.0742, P(null≥K4)=**0.275**. ⇒ le « signal » est du **bruit de tests-multiples sur texte
 court** ; aucune transposition ne révèle de périodicité réelle. **Product-cipher périodique∘transposition
 FERMÉ.** (Garde-fou anti-pareidolia appliqué : jugement sur le nul, pas sur le max brut.)
+
+## 11. Masquage « composé » + running-key exhaustif — FERMÉS ; carte-frontière
+- **Vigenère COMPOSÉ 2 mots-clés publics** (double_vig.c) : p=svinv[c ±Ka[i%la] ±Kb[i%lb]], 30 mots × paires
+  × signes × alphabets{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z}. Interprétation « masquage = composer pour cacher
+  la période » (LCM). Meilleur 6/24, charabia. NÉGATIF.
+- **Tableau Vigenère comme clé courante** (row/col-major, tous offsets, formes, alphabets) : 3/24. NÉGATIF.
+- ⇒ **RUNNING-KEY EXHAUSTÉ** : clairs K1/K2/K3 (chef §5), chiffrés K1/K2/K3 (MÉCA runkey_ct), Morse (chef §8),
+  Carter (base), tableau (chef §11). TOUS négatifs.
+
+### CARTE-FRONTIÈRE (conjointe chef+MÉCA) — invariants + tout l'éliminé
+Invariants POSITIFS (mesurés) : 1:1 longueur, **97 premier**, **26 lettres présentes** (J inclus),
+**IC=0,036 ≈ aléatoire** (polyalpha franc, clé effectivement longue), excès écart-7 **réel mais diffus** (z=3,28).
+ÉLIMINÉ (preuve/contrôle) : autoclé tout écart/forme (preuve MÉCA) ; tout alphabet LIBRE (impossible/sous-déterminé,
+preuve MÉCA) ; périodique (IC) ; fractionnement bifid/trifid ; digraphique/blocs Playfair/Hill (26 lettres + 97 premier + doublets-dans-paire, MÉCA) ;
+transposition∘autoclé ; product-cipher périodique∘transposition (nul) ; running-key (exhausté) ; progressif linéaire ;
+clé-grille/overlay géométrique (géométrie réelle) ; Vigenère composé 2 mots-clés.
+BOX RESTANTE : mécanisme à alphabet PUBLIC dont le FLUX DE CLÉ vient d'une source publique **non encore
+identifiée** alignée aux 97 positions (1:1, polyalpha), OU un « masquage » NON-standard (recette Scheidt non
+publiquement spécifiée). ⇒ le progrès viendra d'une IDÉE sur la SOURCE/recette, pas d'un balayage de plus.
