@@ -199,6 +199,8 @@ reproductible. Faisceau de preuves complet et croisé :
 | Clé = Berlin Clock/Mengenlehreuhr (4 encodages, 2 conventions, tous horaires) + null strict | `clockkey` | chef | K 7-13/97 ≤ null-max 16-18 → FERMÉ |
 | Complexité linéaire Berlekamp-Massey (GF2 & GF13) | `linear_complexity` | MÉCA | LC MAXIMALE = null |
 | Robustesse aux erreurs de reconstruction (perturber lettres non-crib) | `sensitivity_test` | MÉCA | IC(key)≈0.040 → verdict non-artefact |
+| Transposition-grille du keystream (périodique-puis-transposé), w=2-24, 2 sens | `ktranspose` | chef | max périodicité 1.59 ≤ null-max 2.30 → FERMÉ |
+| Base ≠ 26 (relabel bijectif) | — (argument) | chef | IC & complexité linéaire invariants → déjà couvert |
 | Unicité alphabet sous P complet | moteur exact | MÉCA | sous-dét. 25 = signature OTP |
 | Autoclé (self/clair/chiffré, tout lag) ; récurrence Gromark/LFSR | agnostique | chef+MÉCA | =hasard |
 | Texte transposé/anagrammé | IC | MÉCA | exclu (IC préservé≠0.039) |
