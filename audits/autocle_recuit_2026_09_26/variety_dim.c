@@ -33,7 +33,9 @@ static void add_xi(int*row,int i,int sgn){
   int ks=((j+1)&1)? -1: 1; /* (-1)^{j+1} */
   row[KAP(r)]=(row[KAP(r)]+sgn*ks+26)%26;
 }
-static void known(int i,int v){ int row[NC]; memset(row,0,sizeof row); row[SIG(v)]=(row[SIG(v)]+1)%26; add_xi(row,i,-1); addrow(row); }
+static int TIE=0; /* si 1 : sigma=tau (Quagmire III) -> colonne sigma(z) fusionnee avec tau(z) */
+static int SIGc(int z){ return TIE? TAU(z) : SIG(z); }
+static void known(int i,int v){ int row[NC]; memset(row,0,sizeof row); row[SIGc(v)]=(row[SIGc(v)]+1)%26; add_xi(row,i,-1); addrow(row); }
 static void equal(int a,int b){ int row[NC]; memset(row,0,sizeof row); add_xi(row,a,+1); add_xi(row,b,-1); addrow(row); }
 
 /* rang mod p sur les colonnes qui apparaissent */
@@ -60,7 +62,9 @@ static void report(const char*label){
          label,na,nrow,r2,r13,na-r2,na-r13);
 }
 
-int main(void){
+int main(int argc,char**argv){
+  if(argc>1 && !strcmp(argv[1],"tie")){ TIE=1; printf("=== MODE TIE (sigma=tau, Quagmire III) ===\n"); }
+  else printf("=== MODE INDEP (sigma,tau libres, T36b) ===\n");
   for(int i=0;i<97;i++) C[i]=K4[i]-'A';
   /* --- ETAPE 0 : 24 cribs --- */
   const char*e="EASTNORTHEAST",*b="BERLINCLOCK";

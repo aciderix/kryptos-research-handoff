@@ -29,3 +29,22 @@ CONSEQUENCE :
   solution, pas pour la trouver).
 
 Reproductible : variety_dim.c (autonome, pas de dependance).
+
+--- MODE TIE (sigma=tau, Quagmire III comme K1-K3) — DIRECTION 2 du chef ---
+Dimension mesuree (variety_dim tie) :
+  24 cribs (sigma=tau)   : dim2=9  dim13=9   (base 13 : "tie dim 10" ; ecart de bookkeeping kappa)
+  + toutes contraintes ecart-7 (p8=A,p39=N,p83=C,egalites,p20=C,p58=C) : dim INCHANGE (9) a chaque ajout.
+=> Meme en sigma=tau, les contraintes ecart-7 ne reduisent la variete de RIEN.
+
+Attaque reelle sigma=tau sur K4 (ac7 tie, autocle ecart-7, quadgram, 800k iters x4) :
+  BEST qoff=-6.21, cribs 9/24 = CHARABIA. (cible solution ~-4.3/24-24 ; base 13 tie : -6.9 a -8.2.)
+=> DIRECTION 2 (sigma=tau + erreur + ecart-7) NE reduit PAS au solvable et NE trouve PAS de clair.
+
+THEOREME GENERAL (la lecon) : AUCUNE contrainte derivee d'une COINCIDENCE de chiffre (c_a=c_b :
+ecart-7, doublets c_i=c_{i+1}, egalite de Bean c_27=c_65, etc.) ne peut reduire la variete des
+alphabets. Preuve : une coincidence c_a=c_b EST une lettre chiffree repetee ; donc tau(c_a)=tau(c_b)
+(resp. sigma^-1) est AUTOMATIQUE, et toute relation de clair qu'on en derive (p_x=p_y) est satisfaite
+par TOUT (sigma,tau) compatible modele. Ces coincidences donnent des LETTRES DE CLAIR gratuites
+(vraies dans toute solution) mais ZERO contrainte cryptographique. Confirme par le rang (invariant)
+en mode indep ET tie. Consequence : la voie "contraintes publiques internes du chiffre -> variete
+plus petite -> enumeration" est fermee. Le verrou (alphabet libre, dim 9-18) tient.
