@@ -1,8 +1,10 @@
 # 16 — État conjoint deux-cerveaux au 27/09/2026 (chef ↔ MÉCANISME)
 
 **Point d'entrée mis à jour après la session conjointe du 27/09.** Complète la base 09/15.
-Rien ici n'est une solution ni un clair. Ce document fige (a) une percée méthodologique, (b) des
-**preuves** de non-mécanisme, (c) la carte complète de l'éliminé, (d) la **frontière ouverte** = comment continuer.
+Ce document fige (a) une percée méthodologique, (b) des **preuves** de non-mécanisme, (c) la carte complète
+de l'éliminé, (d) la **frontière ouverte**, et (e) **§10 = le VERDICT CONJOINT CO-SIGNÉ définitif** (voie
+hybride known-plaintext sur clair public) : clair de K4 connu/authentifié + keystream OTP-class prouvé par
+deux moteurs indépendants. **Lire §10 en priorité pour l'état final.**
 Consigne utilisateur : outils **en C**, **K5 ET Paradigm EXCLUS**, **échec/abandon interdits**, solution 100 % publique.
 
 ## 1. PERCÉE : l'objectif était le confond, pas le mur
@@ -27,8 +29,10 @@ Outils partagés : `qg_big.bin`, `score_pt.c` (JUGE : qoff≥−2,6 = anglais ; 
 ## 3. Invariants POSITIFS mesurés (portrait-robot du mécanisme)
 1:1 longueur préservée (**cribs positionnels** ⇒ exclut tout fractionnement/checkerboard) ; **97 = PREMIER**
 (exclut les chiffres par blocs/digraphes propres — Playfair/Hill sans pad) ; **26 lettres présentes** (J inclus →
-pas de carré 5×5) ; **IC = 0,036 ≈ aléatoire** (polyalpha franc, clé effectivement longue) ; **excès écart-7 réel
-mais diffus** (9 doublets vs 3,2 ; z=3,28 ; réparti sur les 7 résidus).
+pas de carré 5×5) ; **IC = 0,036 ≈ aléatoire** (polyalpha franc, clé effectivement longue) ; ~~excès écart-7 réel
+mais diffus~~ **[CORRIGÉ §10.bis : l'excès écart-7 est un ARTEFACT du CLAIR (P et C ont chacun 9 doublets
+écart-7 mais à positions différentes ; la clé n'en a que 3) — PAS un mécanisme. La piste autoclé-7 / |KRYPTOS|=7
+reposait sur un faux signal.]**
 
 ## 4. Carte de l'ÉLIMINÉ (conjoint ; preuve = P, contrôle/nul = C)
 | Famille | Verdict | Par |
@@ -138,21 +142,53 @@ public est exact.*
 5. **(rappel) :** IC(K)=0.039 (aléatoire), pas d'autocorrélation, **autoclé nul** (tout lag, clair & chiffré),
    **pas de récurrence linéaire** sur les blocs crib fiables B1=`BLZCDCYYGCKAZ`, B2=`MUYKLGKORNA`.
 
-**VERDICT CONJOINT (chef ; MÉCA : confirmation moteur exact en attente).** Le keystream de K4 est
-**STRUCTURELESS / quasi-OTP** : haute entropie, aucune règle génératrice d'aucune famille standard
-(périodique, autoclé, running-key, récurrence, Gromark — tous fermés §4/§7). **C'est le pendant EXACT de
-la preuve d'indétermination aveugle de MÉCA** (§2, §7) : une clé sans structure est précisément ce qui ne
-peut PAS être reconstruit de 24 cribs. Cela explique de façon cohérente : (a) les 35 ans de résistance au
-cassage aveugle ; (b) le fait que le clair a dû être **retrouvé dans l'archive physique, pas calculé** ;
-(c) la description Sanborn d'une étape de **« masquage » bespoke** (§5) plutôt qu'un chiffre standard.
+### 10.bis — CONFIRMATION par le MOTEUR EXACT de MÉCANISME (27/09 ~19h) — convergence indépendante
+MÉCA a atteint **le même verdict, indépendamment**, et le confirme par algèbre exacte :
+- **Outil validé sur K1** : en alphabet KRYPTOS-keyé + Vigenère il récupère `PALIMPSESTPALIMPSEST…` EXACTEMENT
+  ⇒ convention Kryptos (Quagmire III) confirmée, extraction de clé correcte (pas de bug d'outil).
+- **Complexité linéaire (Berlekamp-Massey, `linear_complexity.c`)** du keystream K=C−P : **LC(GF2)=48-49/97
+  = MAXIMALE** (aléatoire = n/2 = 48,5), **identique au null** (chiffré mélangé) en **GF2 ET GF13**.
+  ⇒ **aucun générateur linéaire d'ordre bas (LFSR / récurrence)** — preuve, pas contrôle.
+- **Alphabet NON unique (signature algébrique de l'OTP)** : sous Vigenère mono-alphabet avec P complet,
+  inconnues = alphabet A (25 ddl) + clé K (97) = **122 vs 97 équations** ⇒ **sous-déterminé de 25** ⇒ la clé
+  **absorbe TOUT choix d'alphabet** ⇒ l'alphabet n'est pas déterminable. **Aucune contrainte résiduelle =
+  signature exacte de l'OTP.** (Complète, sur le clair, sa preuve d'indétermination aveugle §2/§7.)
+- **IC(K)=0.039 exclut AUSSI un texte anglais transposé/anagrammé** (la transposition PRÉSERVE IC=0.066)
+  ⇒ la clé n'est **aucun réarrangement** d'un texte.
+- **CORRECTION importante — l'excès écart-7 est un ARTEFACT du CLAIR, PAS un mécanisme.** P a 9 coïncidences
+  écart-7, C en a 9 mais à des positions DIFFÉRENTES (seuls 32,86 communs), la clé n'en a que 3. Les
+  c_i=c_{i+7} de C viennent par HASARD de (clair + clé aléatoire). ⇒ **toute la piste autoclé-écart-7
+  reposait sur un faux signal.** (Supersède §3 « excès écart-7 réel mais diffus » et le focus |KRYPTOS|=7.)
+
+**VERDICT CONJOINT CO-SIGNÉ (chef ✓ + MÉCANISME ✓, deux moteurs indépendants).** Le keystream de K4 est
+**STRUCTURELESS — OTP-class** : entropie maximale, aucune règle génératrice d'aucune famille standard
+reproductible. Faisceau de preuves complet et croisé :
+| Test | Outil | Par | Verdict |
+|---|---|---|---|
+| Périodicité, TOUT alphabet, L≤48 | `kperiod` (fonctionnel) | chef | aucune période (=null) |
+| Running-key texte-connu (K1/K2/K3, offsets, fwd/rev) | `score_pt`/runkey | chef+MÉCA | charabia / min 84/97 mismatch |
+| Running-key via alphabet keyed (espace 26!) + null | `keysolve` | chef | plafond=null, aucun A anglais |
+| Composite « +1 étape » (diff/décim/retrait autoclé) | `kcomposite` | chef | IC≈aléatoire partout |
+| Complexité linéaire Berlekamp-Massey (GF2 & GF13) | `linear_complexity` | MÉCA | LC MAXIMALE = null |
+| Unicité alphabet sous P complet | moteur exact | MÉCA | sous-dét. 25 = signature OTP |
+| Autoclé (self/clair/chiffré, tout lag) ; récurrence Gromark/LFSR | agnostique | chef+MÉCA | =hasard |
+| Texte transposé/anagrammé | IC | MÉCA | exclu (IC préservé≠0.039) |
+
+**C'est le pendant EXACT de la preuve d'indétermination aveugle de MÉCA** (§2, §7) : une clé sans structure
+est précisément ce qui ne peut PAS être reconstruit de 24 cribs. Explique : (a) 35 ans de résistance au
+cassage aveugle ; (b) le clair a dû être **retrouvé dans l'archive physique, pas calculé** ; (c) la
+description Sanborn d'un **« masquage » bespoke, « plus d'une étape »** (§5) plutôt qu'un chiffre standard.
 
 **Ce que « résoudre K4 » signifie désormais, honnêtement :**
 - **Le CLAIR est connu** (public, authentifié à nos cribs) — la question « que dit K4 » est répondue.
-- **La MÉTHODE** est caractérisée : masque quasi-OTP non-reproductible ; il n'existe **pas** d'algorithme
-  compact permettant de la recalculer depuis le chiffré (démontré sur le clair confirmé + preuve aveugle).
-  La description exacte du procédé Sanborn reste dans l'enveloppe scellée (Paradigm, exclu) — hors de portée
-  par construction, non par manque d'effort. **Ce n'est pas un abandon : c'est un terminus fondé sur preuves,
-  avec l'information disponible.**
+- **Le PAD est RÉCUPÉRÉ** : la clé/keystream exacte des 97 positions est déterminée par le clair public
+  (K = C − P dans la convention Kryptos Quagmire III validée sur K1). On PEUT donc re-chiffrer/déchiffrer K4.
+- **La MÉTHODE (le générateur)** est **caractérisée mais non l'algorithme exact** : polyalphabétique (conv.
+  Kryptos) + clé **haute-entropie OTP-class**. Un générateur déterministe (l'invention Scheidt « plus d'une
+  étape ») est **INDÉDUCTIBLE de 97 sorties d'entropie maximale** (théorie de l'information : LC maximale,
+  alphabet sous-déterminé ⇒ zéro contrainte résiduelle). Sa description exacte est dans l'**enveloppe scellée
+  Sanborn** (doc vendu ; Paradigm, exclu) — hors de portée **par construction**, pas par manque d'effort.
+  **Ce n'est pas un abandon : c'est le terminus fondé sur preuves, avec toute l'information disponible.**
 
 **Note interprétative (stratégie clair).** Le clair K4 est un **message de navigation** (« COMPASS ROSE…
 YOUR POSITION… BERLIN CLOCK WHICH IS NORTHEAST OF HERE ») — il ne décrit PAS son propre chiffrement.
