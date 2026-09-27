@@ -8,8 +8,22 @@ deux moteurs indépendants. **Lire §10 en priorité pour l'état final.**
 Consigne utilisateur : outils **en C**, **K5 ET Paradigm EXCLUS**, **échec/abandon interdits**, solution 100 % publique.
 
 ---
-## 0. RÉSUMÉ EXÉCUTIF (verdict conjoint, 27/09/2026)
-**K4 est résolu au sens du CLAIR, et sa méthode est CARACTÉRISÉE ; le générateur exact est prouvé hors de portée de l'information publique.**
+> ## ⚠️ RETRACTION / SUSPENSION (28/09/2026) — lire AVANT le §0
+> **Le verdict « OTP-class » ci-dessous (§0, §10, §10.bis) est SUSPENDU car construit sur des données EXCLUES.**
+> Toute l'analyse « keystream K=C−P » a utilisé le clair reconstruit de SolveKryptos, que **notre propre
+> Base 1 §7 classe niveau X — EXCLU** (« reconstruction communautaire… danger : raisonnement circulaire si
+> on s'en sert pour valider une méthode »). Soustraire un clair reconstruit (≈73 lettres non confirmées) au
+> chiffré produit du bruit **par construction** → conclure « OTP » est **circulaire**. Sanborn n'a confirmé
+> que les 4 ancres ; le clair réel (Kobek/Byrne) est scellé jusqu'en 2075.
+> **Ce qui SURVIT** (indépendant du faux clair) : (a) les 24 valeurs de clé aux **cribs authentiques**
+> (`BLZCDCYYGCKAZ` pos 21-33, `MUYKLGKORNA` pos 63-73) ; (b) la **structure pas-7 du chiffré** (doublets en
+> colonnes de 7, Stehle 2002) — la « correction écart-7=artefact » de §10.bis est ELLE AUSSI retirée (elle
+> comptait les positions du faux clair) ; (c) le panneau bas = **14×31=434** = K3(14×24) + « ? » + K4 →
+> **grille 14×7 pour « ? »+K4**. **Direction active : attaque AVEUGLE matrice 14×7 (voir §11).**
+> Garde-fou : des variantes 7-grille ont déjà échoué faute de rigueur (Hallström 7/24) ⇒ juge qg_big + null obligatoires.
+
+## 0. RÉSUMÉ EXÉCUTIF (⚠️ SUSPENDU — voir bandeau ci-dessus)
+**~~K4 est résolu au sens du CLAIR, et sa méthode est CARACTÉRISÉE~~** [le « clair » utilisé est niveau-X exclu ; verdict suspendu].
 
 1. **Le clair est connu et authentifié.** Retrouvé (pas cassé) dans les archives Sanborn par Kobek & Byrne
    (sept. 2025), public via solvekryptos.com : « THE COMPASS ROSE IS HERE X EAST NORTHEAST THIS IS YOUR
@@ -243,3 +257,31 @@ conf=0 (24/24 exact) atteint par recuit (meilleur 23/24, conf=1) ; TOUS qoff −
 (tau surtout pinné, alpha rarement permutation — caveat MÉCA). MÉCA couvre d'autres seeds ; verdict conjoint
 en attente. Si aucun des deux n'atteint conf=0 anglais : CONSTAT (variété charabia-dominée, aiguille
 inatteignable par recherche) — pas un abandon, on bascule l'effort sur axe (B) masquage-hors-répertoire.
+
+## 11. NOUVELLE DIRECTION AVEUGLE — matrice 14×7 (28/09/2026, après retrait du faux clair)
+Le verdict OTP étant suspendu (bandeau en tête), on repart de zéro **à l'aveugle** : chiffré + 2 cribs
+AUTHENTIQUES seulement (EASTNORTHEAST@21-33, BERLINCLOCK@63-73), zéro clair reconstruit. Outil : `grid7.c`.
+
+**Fondation géométrique (dépôt) :** panneau bas = **14×31 = 434** = K3 (14×24=336) + « ? » + K4 (97).
+Reste **14×7 = 98** pour « ? »+K4 ; 7 = |KRYPTOS|. Sanborn (2019/2013) : grilles qu'on **tourne/retourne**
+(« flip over, upside down, shine a light »), « la matrice d'origine… tous les shifts ». Scheidt : « masque »,
+« pas de maths », crayon-papier, mot-clé mémorisable. NSA 1993 : K3 = transposition colonnaire à clé,
+lecture **bas-en-haut**. ⇒ modèle : **transposition/route sur grille 7-large (couche Scheidt) + Vigenère
+Quagmire-KRYPTOS (couche Sanborn)**, position-préservante aux cribs (Sanborn CNN 2019 : 1:1 même position).
+
+**SIGNAUX RÉELS mesurés (indépendants de tout clair) :**
+1. **Doublets alignés en colonne 4** : 5 des 6 doublets adjacents C[i]=C[i+1] démarrent à i≡4 mod 7
+   (histogramme c4=5, c0=1). = observation Stehle 2002, confirmée sur le chiffré réel.
+2. **9 coïncidences verticales C[i]=C[i+7]** (positions 0,7,12,15,32,45,65,76,86) vs ~3,5 au hasard.
+3. **Clé-crib RÉELLE** (2 ancres seules) : AZ = `BLZCDCYYGCKAZ`(21-33) + `MUYKLGKORNA`(63-73) ;
+   KRYPTOS-convention = `BKVSBPCX FCTAC` + `LRCFPLJIHUA`. Ne doit RIEN à SolveKryptos.
+4. **Pas vertical −3 récurrent** : k[i+7]−k[i] = 23(=−3) sur 4 des 10 paires crib connues
+   (B→Y, D→A, C→Z, U→R) — cohérent avec « décalages 1-2-3 » (Sanborn 2019). Non uniforme (autres 2,3,8,15,16).
+
+**Correction propagée :** la « dismissal écart-7=artefact » (§10.bis) est RETIRÉE (elle comptait le faux
+clair) ; l'excès écart-7 du chiffré est un **vrai indice** de la grille 7-large.
+
+**Prochaines étapes (juge qg_big + CONTRÔLE NUL obligatoires, garde-fou Hallström 7/24) :**
+(a) chercher un mot-clé écrit dans la grille 7-large + route (colonnes bas-haut, flip H/V, rotations) dont
+la lecture reproduit les 24 valeurs de clé réelles, puis étendre aux 97 et déchiffrer ; (b) modéliser le
+lien de clé entre colonnes voisines d'un bloc de 7 (question centrale base 08 §7). Division chef/MÉCA à convenir.
