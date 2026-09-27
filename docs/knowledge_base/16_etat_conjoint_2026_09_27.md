@@ -285,3 +285,36 @@ clair) ; l'excès écart-7 du chiffré est un **vrai indice** de la grille 7-lar
 (a) chercher un mot-clé écrit dans la grille 7-large + route (colonnes bas-haut, flip H/V, rotations) dont
 la lecture reproduit les 24 valeurs de clé réelles, puis étendre aux 97 et déchiffrer ; (b) modéliser le
 lien de clé entre colonnes voisines d'un bloc de 7 (question centrale base 08 §7). Division chef/MÉCA à convenir.
+
+## 12. BATTERIE AVEUGLE RIGOUREUSE (28/09, chef seul) — cribs authentiques SEULEMENT, zéro faux clair
+Convention Quagmire **verrouillée sur K1** (`conv_test.c`, id=1 : clé=KAL[(posK C−posK P) mod26] → retrouve
+PALIMPSESTPALIMPSEST + déchiffre K1 en entier ; moteur validé sur K1 par contrôle positif). Clé-crib réelle
+(2 ancres) en convention KRYPTOS : EAST(21-33)=`RDUMRIYWOYNKY`, BERLIN(63-73)=`ELYOIECBAQK`.
+(NB : `ELYOIE` recoupe la remarque d'archive « ELY/OIE clés de BERLIN, échoue sur CLOCK » → clé pas un mot simple.)
+
+**Tests (tous jugés qg_big + contrôle nul ; filtre anti-paréidolie : EAST fixe le mot-clé, BERLIN doit être
+cohérent ; garde-fou Hallström 7/24) :**
+| Modèle testé (aveugle) | Outil | Résultat |
+|---|---|---|
+| Vigenère **périodique période 7** (keyed) | à la main | NON : résidu 0 (pos 21,28,63,70) = clés R,W,E,B toutes différentes |
+| **Route-grille + mot-clé** (Model 1 : transpose le chiffré) largeurs 7,14,4,21,31,2,13 × 8 routes × L≤24 | `route_solve` | NON : aucune route ne rend les 24 cribs cohérents avec un mot-clé répété |
+| **Route-grille + mot-clé** (Model 2 : transpose le clair) + rotations 90° | `route_solve2` | NON (seul « fit » = L=24 trivial sans redondance → charabia qoff −4.0) |
+| **Transposition colonnaire KEYÉE K3** (colonnes triées par mot-clé, haut-bas & bas-haut, simple & double) | `keyed_route` | NON : 0 solution cohérente |
+| **Clé additive grille** key=R[ligne]+K7[col] | à la main | NON : diffs verticales 4,5,19,25,1,13 non constantes |
+| **Running-key** = K1/K2/K3 (clair/chiffré, tous offsets, 2 sens, 2 conventions) | `runkey_crib` | NON : 3-5/24 = bruit |
+
+**CONCLUSION AVEUGLE HONNÊTE (remplace le faux verdict OTP) :** avec les 24 cribs authentiques SEULS,
+**aucun générateur à peu de paramètres ne se détermine** — ni standard, ni grille/transposition/geste-K3
+(les idées mêmes de la nouvelle piste). Ce n'est **pas** « OTP » (ça, c'était l'artefact du faux clair) :
+c'est la **SOUS-DÉTERMINATION** (preuve aveugle de MÉCA, §2/§7, ici re-confirmée sur données réelles).
+Fait dur plaintext-indépendant : **IC(chiffré)=0,036** ⇒ le chiffré n'a PAS les fréquences de l'anglais
+⇒ K4 n'est PAS une simple transposition d'une substitution monoalphabétique ⇒ couche polyalpha à clé
+**effectivement longue/apériodique**. 24 cribs < paramètres ⇒ indéterminé.
+La structure pas-7 (doublets col4, §11) est **réelle mais ne provient PAS d'une clé période-7** (réfutée
+ci-dessus) : indice de surface non exploitable depuis les cribs seuls (déjà le cas pour Stehle depuis 2002).
+
+**Ce que ça implique (sans abandon, sans faux clair) :** solvable seulement par (a) contraintes de clair
+réelles supplémentaires (scellées jusqu'en 2075 — interdites/indispo), ou (b) un modèle non-standard exact
+que 24 cribs ne peuvent DISTINGUER du hasard (⇒ tout « hit » exotique serait de la paréidolie : le fit
+trivial L=24 le montre). Piste restante légitime = **couche de transposition à plusieurs étapes** encore
+non couverte, à ne retenir QUE si elle bat le nul de façon décisive. Outils : `audits/chef_qg_visible_2026_09_27/tools/`.
