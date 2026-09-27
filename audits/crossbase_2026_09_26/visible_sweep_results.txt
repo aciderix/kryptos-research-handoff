@@ -1,0 +1,25 @@
+H-VISIBLE-ALPHABET — BATCH 1 (ordre spatial du texte grave) — 2026-09-27
+Moteur : visible_sweep.c (autocle ecart-7 ; sigma,tau in {14 candidats spatiaux + AZ + KRYPTOS} ;
+VIG/BEAU/VAR ; cle=PLAIN et CIPHER ; kappa derive des cribs). Controle positif + temoins K4-melange.
+
+CONTROLE POSITIF : PASS (6/6 configs, err=0 ; PLAIN rec=97/97, CIPHER rec=90/97 = 7 tetes de
+chaine non contraintes par les cribs, normal, cf. base 15 S3).
+
+K4 REEL :
+  1536 configs (16 sig x 16 tau x 3 conv x 2 src). survivants a tol<=2 : 0. a tol<=4 : 0.
+  min_crib_errors(K4) = 12 / 24.
+
+TEMOINS K4-MELANGE (2000, seed 12345) :
+  P(temoin_min <= K4_min=12) = 1678/2000 = 0.839
+  dont exactement 12 : 1353/2000
+  histogramme min-erreurs : 9:1  10:27  11:297  12:1353  13:322
+
+VERDICT : NEGATIF, CONTROLE. K4 se comporte comme un texte aleatoire de meme multiset :
+il est dans le MODE de la distribution des temoins (12). Les 14 alphabets derives de
+l'ordre spatial du texte grave ne rendent pas les cribs compatibles sous l'autocle ecart-7,
+ni comme sigma ni comme tau, dans aucune des 3 conventions ni des 2 sources de cle.
+La borne ~12/24 est le plancher atteignable en choisissant parmi ces 16 alphabets pour
+N'IMPORTE quel texte -> ces alphabets-la n'apportent aucune contrainte utile.
+
+Portee : ferme BATCH 1 de H-VISIBLE-ALPHABET. Ne ferme PAS la classe "feature visible"
+en general (BATCH 2 = decimations du tableau KRYPTOS ; BATCH 3 = autres sources, a venir).
