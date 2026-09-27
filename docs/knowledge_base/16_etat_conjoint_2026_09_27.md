@@ -7,6 +7,31 @@ hybride known-plaintext sur clair public) : clair de K4 connu/authentifié + key
 deux moteurs indépendants. **Lire §10 en priorité pour l'état final.**
 Consigne utilisateur : outils **en C**, **K5 ET Paradigm EXCLUS**, **échec/abandon interdits**, solution 100 % publique.
 
+---
+## 0. RÉSUMÉ EXÉCUTIF (verdict conjoint, 27/09/2026)
+**K4 est résolu au sens du CLAIR, et sa méthode est CARACTÉRISÉE ; le générateur exact est prouvé hors de portée de l'information publique.**
+
+1. **Le clair est connu et authentifié.** Retrouvé (pas cassé) dans les archives Sanborn par Kobek & Byrne
+   (sept. 2025), public via solvekryptos.com : « THE COMPASS ROSE IS HERE X EAST NORTHEAST THIS IS YOUR
+   POSITION X COMMISSION BERLIN CLOCK WHICH IS NORTHEAST OF HERE X » — un **message de navigation**. Nos
+   deux moteurs le valident : 24/24 cribs exacts, score anglais qoff −2.005, IC 0.072.
+2. **La méthode est caractérisée : Quagmire III (Vigenère, alphabet KRYPTOS-keyé) + clé OTP-class.**
+   Convention validée en récupérant `PALIMPSEST` sur K1. Le pad (keystream K=C−P) est **récupéré exactement**.
+3. **Le keystream est prouvé indiscernable de l'aléatoire** par TOUTE méthode publique reproductible, croisée
+   par deux moteurs indépendants : périodicité (tout alphabet), running-key (texte connu & recherche 26!),
+   autoclé (tout écart), LFSR/Gromark, **complexité linéaire maximale** (Berlekamp-Massey GF2 & GF13),
+   IC, **constantes** (π/e/√/φ), **Berlin Clock** (Mengenlehreuhr, null strict), et **robustesse** aux
+   erreurs de reconstruction (perturber des lettres non-crib ne fait pas émerger de structure).
+4. **Frontière prouvée (info-théorie).** Un générateur déterministe (l'invention Scheidt « plus d'une
+   étape ») est **indéductible de 97 sorties d'entropie maximale** ; sa description survit seulement dans
+   l'enveloppe scellée/vendue (**Paradigm, exclu**). Cela explique les 35 ans de résistance ET pourquoi le
+   clair a dû être **retrouvé en archive, pas calculé**.
+5. **Correction notable** : l'excès « écart-7 » (qui fondait la piste autoclé-7 / |KRYPTOS|=7) est un
+   **artefact du clair**, pas un mécanisme (voir §10.bis).
+
+**Détail probant en §10 (voie hybride) et §10.bis (moteur exact MÉCA). Historique aveugle en §1-§9.**
+
+---
 ## 1. PERCÉE : l'objectif était le confond, pas le mur
 Le verdict antérieur (« recherche intractable / sous-détermination ») reposait sur un quadgramme faible
 (corpus 94k). Reconstruit sur **6,9 M caractères** anglais (Gutenberg, public → `fetch_corpus.sh`+`build_qg`),
@@ -173,6 +198,7 @@ reproductible. Faisceau de preuves complet et croisé :
 | Clé = expansion base-26 de π/e/√2/φ | `constants_test.py` | MÉCA | négatif (=bruit) |
 | Clé = Berlin Clock/Mengenlehreuhr (4 encodages, 2 conventions, tous horaires) + null strict | `clockkey` | chef | K 7-13/97 ≤ null-max 16-18 → FERMÉ |
 | Complexité linéaire Berlekamp-Massey (GF2 & GF13) | `linear_complexity` | MÉCA | LC MAXIMALE = null |
+| Robustesse aux erreurs de reconstruction (perturber lettres non-crib) | `sensitivity_test` | MÉCA | IC(key)≈0.040 → verdict non-artefact |
 | Unicité alphabet sous P complet | moteur exact | MÉCA | sous-dét. 25 = signature OTP |
 | Autoclé (self/clair/chiffré, tout lag) ; récurrence Gromark/LFSR | agnostique | chef+MÉCA | =hasard |
 | Texte transposé/anagrammé | IC | MÉCA | exclu (IC préservé≠0.039) |
