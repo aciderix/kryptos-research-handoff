@@ -119,7 +119,16 @@ public est exact.*
    maintenant fermé **par preuve sur le clair**, plus seulement par l'IC.
 2. **K non-anglais :** `score_pt`/`qg_big` sur K=C−P, P−C, C+P ⇒ **qoff≈−4.0** (pire que charabia −3.5 ;
    un running-key anglais donnerait ~−2.0). ⇒ **exclut running-key / book-cipher** (confirme l'exhaustion running-key §4).
-3. **(rappel) :** IC(K)=0.039 (aléatoire), pas d'autocorrélation, **autoclé nul** (tout lag, clair & chiffré),
+3. **`keysolve.c` — le dernier candidat standard fort, FERMÉ.** Hypothèse : K4 = running-key à travers un
+   **alphabet keyed** (comme K1/K2 Quagmire) ⇒ K paraît aléatoire en alphabet standard mais le key-text
+   **en alphabet A** serait anglais. On **recuit sur la permutation A (tout l'espace 26!)** pour maximiser
+   `qg_big(key-text)`, 3 variantes (Vigenère/Beaufort/var-Beaufort). **RÉSULTAT : plafond qoff≈−3.25
+   (charabia) POUR LES 3 ; et le NULL (chiffré mélangé) atteint le MÊME plateau (−3.16..−3.22) — le vrai
+   key-text NE BAT PAS le null.** ⇒ **aucun alphabet keyed ne rend la clé de K4 anglaise** ⇒ running-key
+   via alphabet keyed (Quagmire) **exclu sous clair connu**. (Les fragments anglais qui apparaissent
+   — « THE OUT EMPT », « HERIC ABLE FATH » — sont exactement les artefacts de paréidolie du garde-fou §1 :
+   un optimiseur 26! en fabrique depuis N'IMPORTE quelle séquence, y compris le null.)
+4. **(rappel) :** IC(K)=0.039 (aléatoire), pas d'autocorrélation, **autoclé nul** (tout lag, clair & chiffré),
    **pas de récurrence linéaire** sur les blocs crib fiables B1=`BLZCDCYYGCKAZ`, B2=`MUYKLGKORNA`.
 
 **VERDICT CONJOINT (chef ; MÉCA : confirmation moteur exact en attente).** Le keystream de K4 est
@@ -137,6 +146,17 @@ cassage aveugle ; (b) le fait que le clair a dû être **retrouvé dans l'archiv
   La description exacte du procédé Sanborn reste dans l'enveloppe scellée (Paradigm, exclu) — hors de portée
   par construction, non par manque d'effort. **Ce n'est pas un abandon : c'est un terminus fondé sur preuves,
   avec l'information disponible.**
+
+**Note interprétative (stratégie clair).** Le clair K4 est un **message de navigation** (« COMPASS ROSE…
+YOUR POSITION… BERLIN CLOCK WHICH IS NORTHEAST OF HERE ») — il ne décrit PAS son propre chiffrement.
+Attendre un générateur « Berlin-Clock » comme clé est donc probablement de la **paréidolie sémantique**
+(le crib BERLIN CLOCK = repère géographique du message, pas une spec de méthode). **Front résiduel
+strictement admissible** (spécifier précisément → tester cribs+qg_big+**contrôle nul**, faible probabilité
+a priori) : générateurs PUBLICS exotiques non-cipher (états lampes Mengenlehreuhr, séquence dérivée d'un
+cap/coordonnées). **Usage à haute valeur du clair** : servir d'une hypothèse de méthode pour
+**valider/corriger les ~73 positions non-crib** de la reconstruction (une méthode structurée qui collerait
+aux 24 cribs ET reproduirait la reconstruction publique = double confirmation). À ce jour **aucune** méthode
+structurée ne colle ⇒ **cohérent avec l'OTP**.
 
 ## 9. Fusion (A) — couverture chef seeds 500-525 (18h) : charabia, aucun point exact
 Recherche crib-exacte factorisée (ac7f, WC=40, gate crib dur, mono-solve sig), 26 seeds : AUCUN point
