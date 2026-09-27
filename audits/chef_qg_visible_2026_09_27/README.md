@@ -157,5 +157,5 @@ padding/null/omission d'1 lettre. Signature à vérifier (MÉCA) : K4 omet-il ex
 ### CE QUI RESTE (box très étroite : public + non-autoclé + non-périodique + compatible 97 premier + IC plat)
 1. Chiffre digraphique avec pad/null d'1 lettre (Playfair/two-square) — MÉCA en cours ; à réconcilier avec 97 impair.
 2. « Masquage » de Scheidt NON-standard / LAYERED (combinaison), pas un chiffre de manuel — à modéliser depuis sources primaires (interviews Scheidt/Sanborn).
-3. Progressive/interrompu à alphabet public (stepped) — re-test décisif au qg_big possible.
+3. Progressive/Trithemius linéaire (shift=a·i+b, tout alphabet/forme) : TESTÉ déterministe = négatif (max 7/24, charabia). Reste: interrompu/masquage Scheidt non-standard, LAYERED.
 ⇒ Redirection nette (PAS abandon) : comprendre la technique de « masquage » réelle de Scheidt + combinaisons multi-couches.
