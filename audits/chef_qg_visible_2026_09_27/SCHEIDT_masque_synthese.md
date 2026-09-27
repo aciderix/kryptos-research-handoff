@@ -93,3 +93,10 @@ graine = 2 alphabets mémorisables (mots-clés). Testé (chao.c, round-trip vali
 {KRYPTOS,PALIMPSEST,ABSCISSA,IQLUSION,SANBORN,SCHEIDT,BERLINCLOCK,A-Z}² en LEFT×RIGHT, décrypt déterministe.
 Meilleur 0/24 cribs, qoff −3.58 = null. NÉGATIF. (Chaocipher à alphabets LIBRES : recherche intraçable —
 permutation dynamique cascade, cribs épars all-or-nothing ; et non « mémorisable » donc hors description Scheidt.)
+
+## Décimation K3-style ∘ substitution (decim_ic + null) — FERMÉ
+« Deux systèmes K3+K4 = indice majeur » ⇒ K4 = substitution courte-période masquée par une décimation
+type-K3 (×m mod 97, 97 premier). Détecteur : dé-décimer K4 (×m), chercher période réveillée (colIC).
+Meilleur m=91 → colIC 0.0667 (semble anglais!) MAIS **contrôle nul** : shuffles atteignent 0.108,
+P(null≥K4)=0.770 ⇒ BRUIT tests-multiples. Aucune décimation ne révèle de période. FERMÉ.
+(Garde-fou anti-pareidolia : le 0.0667 seul trompait ; le nul tranche.)
