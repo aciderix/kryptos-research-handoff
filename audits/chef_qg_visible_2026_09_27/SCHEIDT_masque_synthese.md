@@ -53,3 +53,10 @@ TEST (chef, gromark_solve.c, qg_big) : recuit (sig,tv) par amorce. Contrôle pos
 2-alphabets-libres (sur-déterminé en liberté), pas du signal. **GROMARK FERMÉ** (résout Bean : sous-déterminé,
 crib-compatibles indiscernables de l'aléatoire). Confirme empiriquement la LOI de MÉCA (2 alphabets libres = sous-déterminé).
 Garde-fou : jugé sur le CONTRÔLE NUL, pas sur les fragments lisibles ni le qoff brut.
+
+## Clé INTERROMPUE (disrupted Vigenère) — variante standard NÉGATIVE
+Front frontière #1 (« une étape de plus », apériodique, mémorisable) : mot-clé + reset de l'index sur
+lettre-déclencheur (interruptor) dans le CHIFFRÉ ; σ=KRYPTOS-keyé ; 20 mots-clés thématiques × 26 interruptors
+× Vig/Beau/var (interrupted.c, déterministe fixe donc pas de jeu). Meilleur : 5/24 cribs, **qoff −4,06** (pire
+que l'aléatoire). NÉGATIF net. (Variantes restantes non testées : interruptor sur le CLAIR, autres règles de
+reset, autres alphabets — prior faible ; à ne rouvrir qu'avec une raison.)
