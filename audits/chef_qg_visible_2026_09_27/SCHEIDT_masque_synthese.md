@@ -78,3 +78,10 @@ public candidat est proposé, keyread lit la clé aux 24 positions et teste la s
 - **Clé = phrase anglaise mémorisée ?** (keyletters.c) : les cribs RÉVÈLENT la clé (k_i=c_i∓p_i). Lues via
   A-Z / KRYPTOS / PALIMPSEST / ABSCISSA × Vig/Beau/var, les lettres de clé aux 24 positions = **non-anglais**
   (ex. KRYPTOS/Vig : RDUMRIYWOYNKY). ⇒ la clé n'est pas une phrase anglaise simple sous alphabet public évident.
+
+## Clé par RÉCURRENCE LINÉAIRE sur Z26 (Fibonacci-graine) — NÉGATIF
+Idée (résout la tension IC-aléatoire vs peu-de-dof) : clé longue k_i=(a·k_{i-1}+b·k_{i-2}) mod 26, graine
+(k0,k1) courte mémorisable ⇒ clé apériodique à basse-dof ⇒ DÉCIDABLE. Balayage complet a,b,k0,k1∈[0,25]
+× Vig/Beau/var × alphabets{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z} (lfsr_key.c, déterministe). Meilleur 8/24,
+qoff −3.85 = charabia. NÉGATIF net. (Lag-2 classique couvert ; lag-3+ prior faible.) ⇒ le générateur de clé
+long-à-partir-de-graine-courte n'est ni autoclé, ni Gromark, ni récurrence-linéaire-Z26.
