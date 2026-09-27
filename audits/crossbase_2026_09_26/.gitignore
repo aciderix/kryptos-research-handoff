@@ -7,3 +7,5 @@ variants.txt
 ctl.txt
 visible_sweep
 decim_autokey
+decim_null_keyed.txt
+*_null_*.txt
