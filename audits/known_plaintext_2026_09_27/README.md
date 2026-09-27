@@ -1,3 +1,24 @@
+# ⚠️ RÉTRACTATION (2026-09-27, soir) — lire en premier
+
+Le clair « THE COMPASS ROSE IS HERE … » utilisé ci-dessous vient de **SolveKryptos** : c'est une
+**reconstruction communautaire**, que **base 1 §7 avait déjà classée « niveau X — EXCLU, risque de
+raisonnement circulaire »**. Kobek & Byrne n'ont pas publié le clair réel. Notre « validation » (cribs aux
+bonnes positions) était **circulaire** : la reconstruction est bâtie autour des cribs. Donc :
+
+1. **Invalide** : toute conclusion tirée des ~73 lettres non-crib — en particulier « keystream aléatoire /
+   OTP-class » (IC, Berlekamp-Massey, constantes, sensibilité). Soustraire un texte inventé au chiffré
+   produit du bruit : ces tests mesuraient notre propre bruit.
+2. **Faux, doublement** : « l'excès écart-7 est un artefact du clair ». (a) P n'est pas vérifié ; (b) le
+   raisonnement était **logiquement erroné** : avec une clé aléatoire, P(c_i = c_{i+7}) = 1/26 quel que soit
+   le clair — la structure du clair ne peut pas passer dans le chiffré. **L'excès écart-7 de K4 (9 vs 3,3,
+   p≈0,004) reste une anomalie RÉELLE et NON expliquée.**
+3. **Reste valide** : la validation de la convention sur K1 (PALIMPSEST) et tous les résultats qui
+   n'utilisent que les **24 cribs** (bijcheck, gapscan, digraphique, periodic_known, Gromark, grid14x7…).
+
+Le verdict « méthode = one-time pad » est **retiré**. K4 reste ouvert.
+
+---
+
 # Analyse KNOWN-PLAINTEXT de K4 (2026-09-27) — le keystream est indiscernable de l'aléatoire
 
 **Contexte.** Le clair de K4 est PUBLIC depuis sept. 2025 (retrouvé — pas cassé — dans les archives
