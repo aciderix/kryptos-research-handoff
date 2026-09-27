@@ -238,3 +238,18 @@ alphabet KRYPTOS, Vigenère, 100 %.
   Vigenère ni en autoclé écart-7 — ne reproduit les cribs. Ne réfute PAS un lien K1-3↔K4 qui
   passerait par une étape de masquage/transposition (cas indécidable base 09 §6, hors portée
   des 24 cribs). Scripts : scratchpad site_keys_test.py, AB_test.py.
+
+## Addendum 12 — Clé géométrique 1:1-préservée (idée utilisateur « la forme = la clé ») — NÉGATIF
+Rappel de contrainte : Sanborn confirme le **1:1** (BERLINCLOCK ↔ NYPVTTMZFPK, positions
+64-74 de l'ordre linéaire publié). Donc une **transposition qui réordonne le chiffré est
+exclue** (elle casserait ce repère). Version testée, compatible 1:1 : les lettres restent en
+place, mais le **décalage** de chaque position vient de sa **géométrie physique** (mapping
+propre des 97 lettres K4 → cellules : fin rangée 24 + rangées 25/26/27, 0/97 manquante).
+- Familles : col, row, row+col (= cellule du tableau à la position), row-col, 2·col,
+  rang d'arc (cylindre), rang de hauteur z, arc+z, lettre-tableau@(row+col). × VIG/BEA/VAR ×
+  AZ & KRYPTOS.
+- Résultat : **meilleur = 3/24**. Null (keystream aléatoire/position) : moyenne 0,92, **max 6**,
+  P(≥6)=0,0004. Le meilleur géométrique est **sous** ce que le hasard produit.
+- **Verdict** : NÉGATIF. La disposition physique (colonne, rangée, arc, hauteur) ne fournit pas
+  le flux de clé. « La forme = la clé » réfutée sous forme 1:1-préservée. Script : scratchpad
+  geom_key_test.py. (Transposition pure du chiffré : exclue par le 1:1, non testée à dessein.)
