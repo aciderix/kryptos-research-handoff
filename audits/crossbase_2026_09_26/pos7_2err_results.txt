@@ -1,0 +1,15 @@
+Attaque 2-ERREURS sur cle POSITIONNELLE k[i]=A[i%7]+B[ligne(i)], alphabet CONNU (AZ/KRYPTOS),
+VIG/BEAU/VAR. base 10 §I : "275 couples d'erreurs (T5) JAMAIS FAITS". 2026-09-27. Moteur pos7_2err.c
+(solveur lineaire mod2 x mod13 = mod26, enumere toutes les paires de cribs errones, LIT le clair).
+
+CONTROLE POSITIF : PASS (cle positionnelle fabriquee + 2 erreurs plantees -> retrouvee, rec>=90/97).
+
+K4 REEL : 0 / 1656 paires (di,dj) x (2 alphabets x 3 conv) rendent les 22 cribs restants CONSISTANTS.
+=> Aucune solution a EXACTEMENT 2 erreurs pour un alphabet connu : le modele positionnel exige >2
+erreurs, donc n'est pas la structure (a alphabet connu). NEGATIF.
+
+Complement (base T5, moteur_2026_09_25) : avec alphabet LIBRE, e_min=2 EST atteignable mais le
+meilleur texte lu = -6.38 (charabia). Donc la porte "2 erreurs + cle positionnelle" est fermee des
+deux cotes : alphabet connu (pas de solution 2-err) ET alphabet libre (2-err = charabia).
+
+VERDICT : NEGATIF. Le "trou 275 couples" est comble : rien de lisible a 2 erreurs positionnelles.

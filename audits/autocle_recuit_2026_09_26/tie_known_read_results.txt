@@ -1,0 +1,18 @@
+Test DETERMINISTE (idee chef) : sigma=tau FIXE a un alphabet CONNU + autocle ecart-7, lire le clair.
+2026-09-27. Moteur tie_known_read.c (kappa derive des cribs par majorite => tolere erreurs ;
+qoff = quadgram hors-cribs ; ex/5 = accord avec le clair etendu p8=A,p20=C,p39=N,p58=C,p83=C).
+
+Alphabets sigma=tau in {AZ, KRYPTOS, PALIMPSEST, ABSCISSA} ; conv VIG/BEAU/VAR ; src PLAIN/CIPHER.
+24 lectures deterministes. Cible d'une solution : qoff ~ -4.3, cribErr 0-1, ex 5/5.
+
+RESULTAT : TOUTES charabia.
+- meilleur qoff = -7.81 (ABSCISSA/VIG/PLAIN), cribErr 16/24, ex 2/5.
+- meilleur cribErr = 14/24 (PALIMPSEST/BEAU/PLAIN), qoff -8.40 (charabia).
+- aucun config : ni clair lisible, ni cribErr <= 2, ni ex >= 4/5.
+(les configs CIPHER commencant par "OBKRUOX..." = artefact d'echo de l'autocle-chiffre, non signifiant.)
+
+VERDICT : NEGATIF DETERMINISTE. sigma=tau fixe a un alphabet CONNU de l'oeuvre ne dechiffre pas K4,
+meme en tolerant des erreurs (cribErr 14-17, pas 1). Ce n'est donc PAS un cas "1 erreur en 32/73" :
+les alphabets connus sont franchement faux (coherent avec la contradiction T18, profonde). La faille
+espere "reopening ecart-7 a alphabet connu" est FERMEE. Le verrou reste l'alphabet INCONNU/libre,
+non fixe par l'oeuvre visible (theoreme des coincidences : aucune structure interne ne le fixe).

@@ -1,0 +1,19 @@
+k_min mesure : combien de lettres d'alphabet (tau) faut-il FIXER pour rendre la variete
+crib-consistante enumerable (dim<=5, regime solvable base 14) ? Moteur variety_dim fixk. 2026-09-27.
+
+INDEP (sigma,tau libres, T36b) : dim 21 -> -1 par lettre fixee -> dim<=5 a k=16.
+  => il faut ~16 lettres d'alphabet fixees (quasi tout) pour atteindre le solvable. Coherent avec
+     base 14 (pochoir COMPLET requis) et mon estimation >=12.
+TIE (sigma=tau, Quagmire III) : dim 9 -> dim<=5 a k=4, dim<=3 a k=6.
+  => 4-5 lettres suffiraient EN DIMENSION. BEAUCOUP plus favorable.
+
+MAIS deux verrous demeurent pour le cas tie :
+1. Aucune feature visible de l'oeuvre ne fixe meme 4-5 lettres d'un alphabet (chef, verdict epuise ;
+   theoreme des coincidences : aucune structure interne ne fixe l'alphabet).
+2. base 13 a DEJA enumere la variete sigma=tau (CP-SAT tie) : ses membres crib-consistants sont
+   CHARABIA (22-24 cribs, qoff -6.9 a -8.2). Donc meme rendue solvable en dimension, la variete ne
+   contient pas de clair lisible. Confirme par tie_known_read (alphabet connu complet -> 14-17 err).
+
+CONCLUSION : le k_min favorable en tie (4-5) ne debloque rien en pratique, faute (1) d'ancre visible
+et (2) de contenu lisible dans la variete. Quantifie l'ecart exact : il manque ~4-5 lettres d'alphabet
+VISIBLES (tie) ou ~16 (indep) que ni l'oeuvre publique ni les cribs ne fournissent.
