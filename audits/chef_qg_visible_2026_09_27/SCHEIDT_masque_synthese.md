@@ -67,3 +67,14 @@ Pour un alphabet PUBLIC fixé, les 24 cribs DÉTERMINENT k_i=σ(c_i)∓σ(p_i) a
 AUCUNE constance par résidu mod 7, aucune progression arithmétique ⇒ clé non-structurée sous cet alphabet
 (cohérent avec périodique-public FERMÉ par MÉCA). **Usage frontière** : dès qu'une source de clé / un alphabet
 public candidat est proposé, keyread lit la clé aux 24 positions et teste la structure AVANT tout balayage.
+
+## Attaques info-DISPONIBLE (recadrage user : ne pas invoquer d'info externe)
+- **2-alph autoclé écart-7, recherche LOURDE** (ac7s structuré double-crib, 12 graines × 400k×120, qg_big) :
+  atteint 21-23/24 cribs consist=0 mais **qoff plafonne −3,13 (charabia)** à tout point crib-cohérent trouvé.
+- **Variété crib-EXACTE** (variety_solve.c : système homogène Z26, noyau Gauss mod2 & mod13 → dim mod2=35,
+  mod13=35 ; cohérent avec MÉCA 59−rang24). Recherche DANS le noyau : les points BIJECTIFS (chiffre valide)
+  ne sont pas atteints par recuit (dim trop grande) ⇒ nécessite propagation-contrainte (moteur MÉCA, faisable
+  seulement en dim-9). ⇒ 2-alph autoclé **exhausté avec l'info disponible** : aucun anglais trouvé.
+- **Clé = phrase anglaise mémorisée ?** (keyletters.c) : les cribs RÉVÈLENT la clé (k_i=c_i∓p_i). Lues via
+  A-Z / KRYPTOS / PALIMPSEST / ABSCISSA × Vig/Beau/var, les lettres de clé aux 24 positions = **non-anglais**
+  (ex. KRYPTOS/Vig : RDUMRIYWOYNKY). ⇒ la clé n'est pas une phrase anglaise simple sous alphabet public évident.
