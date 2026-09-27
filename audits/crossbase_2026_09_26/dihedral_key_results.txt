@@ -1,0 +1,13 @@
+"Flip the chart, shine a light" (Sanborn Big Techday 2013) — tableau KRYPTOS 26x26 diedral -> keystream
+running-key 1:1 -> Vigenere/Beau/Var(K4) alphabet CONNU. 2026-09-27. Moteur dihedral_key.c.
+8 transformees diedrales x {AZ,KRYPTOS} x {VIG,BEAU,VAR} x tous offsets (0..579). 1:1 (preserve Bean).
+
+CONTROLE POSITIF : PASS (running-key connu chiffre English+cribs, recupere 97/97).
+
+K4 REEL : meilleur = 7/24 cribs (dih=id, KRYPTOS, BEAU, off=27), ex 0/5, qoff -8.34 = CHARABIA.
+7/24 sur ~28000 configs = niveau hasard pour un running-key (E[max] ~ 7-8). Aucun clair lisible.
+
+VERDICT : NEGATIF CONTROLE. Le tableau KRYPTOS transforme diedralement, lu comme running-key 1:1
+avec alphabet connu, ne dechiffre pas K4. Coherent avec T1 (running keys de la sculpture negatifs).
+Fidele a "flip the chart / turn it / shine a light" au sens litteral, et preserve le 1:1 (Bean).
+NON encore fait : clairs K1/K2/K3 en grille diedrale + chiffre K1-K3 comme grid-cle (extension).
