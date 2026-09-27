@@ -115,3 +115,9 @@ après cette transposition : charabia. NÉGATIF.
 ## Autoclé sur CHIFFRÉ (ciphertext-autokey), σ=τ libre, tous écarts — NÉGATIF
 ac7g src=1, σ=τ libre, écarts 5-14, qg_big : charabia partout (best lag14 qoff −2.91 mais 13/24 cribs).
 (σ=τ ciphertext-autokey gap-7 a d'ailleurs la contradiction points-fixes : σ(Q)=σ(V)=0.) Famille close.
+
+## Quagmire IV (2 alphabets keyés + clé-mot) — NÉGATIF ; + exclusion Porta par points-fixes
+« K4 = une étape de plus que K1/K2 (Quagmire III) » → Quagmire IV (PA keyé kw1, CA keyé kw2, clé périodique).
+Balayage PA×CA∈{A-Z,KRYPTOS,PALIMPSEST,ABSCISSA} × clé∈20 mots, déterministe (quag4.c). Aucun hit
+(best 0/24, qoff −3.48). NÉGATIF. — Note : les 2 POINTS FIXES (S→S@32,K→K@73) excluent AUSSI tout chiffre
+sans point fixe (Porta/réciproques), gratuitement (même argument que Playfair).
