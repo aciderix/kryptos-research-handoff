@@ -125,3 +125,9 @@ Balayage : largeur W=2..24 × ordre colonnes {id, rev} × direction {inverse, av
 Résultat : **AUCUN hit** (meilleur qoff -3.51, 10/24 cribs, conflits). ⇒ K4 n'est pas une
 transposition colonnaire d'un autoclé à alphabet visible. (La transposition ∘ alphabet LIBRE
 resterait un grand espace de recherche = même mur dimensionnel que §0/§3, non déterministe.)
+
+## 7. JUGE PARTAGÉ (score_pt.c) — interface pour la fusion 14h
+`score_pt qg_big.bin <clair97>` → `qoff cribs verdict`. Seuil : anglais réel qoff>=-2.6 (typ -2.0),
+charabia <=-3.2. Auto-test : vrai clair -1.79/24-24 = CANDIDAT ; charabia -3.14 (même à 21/24 cribs
+forcés) = charabia. **Le compte de cribs ne décide PAS ; qoff décide.** MÉCA : ton énumérateur de
+la variété crib-cohérente peut piper ses candidats clairs dans ce juge pour trouver l'aiguille anglaise.
