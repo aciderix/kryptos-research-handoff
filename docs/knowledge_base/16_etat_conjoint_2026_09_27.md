@@ -171,6 +171,7 @@ reproductible. Faisceau de preuves complet et croisé :
 | Composite « +1 étape » (diff/décim/retrait autoclé) | `kcomposite` | chef | IC≈aléatoire partout |
 | Clé = expansion base-26 d'une constante (√2,√3,√5,√6,√7,√8,√10,√11,√13, φ) | `constkey` (bignum C, 0 param) | chef | max 12/97 = bruit |
 | Clé = expansion base-26 de π/e/√2/φ | `constants_test.py` | MÉCA | négatif (=bruit) |
+| Clé = Berlin Clock/Mengenlehreuhr (4 encodages, 2 conventions, tous horaires) + null strict | `clockkey` | chef | K 7-13/97 ≤ null-max 16-18 → FERMÉ |
 | Complexité linéaire Berlekamp-Massey (GF2 & GF13) | `linear_complexity` | MÉCA | LC MAXIMALE = null |
 | Unicité alphabet sous P complet | moteur exact | MÉCA | sous-dét. 25 = signature OTP |
 | Autoclé (self/clair/chiffré, tout lag) ; récurrence Gromark/LFSR | agnostique | chef+MÉCA | =hasard |
@@ -195,10 +196,14 @@ description Sanborn d'un **« masquage » bespoke, « plus d'une étape »** (§
 **Note interprétative (stratégie clair).** Le clair K4 est un **message de navigation** (« COMPASS ROSE…
 YOUR POSITION… BERLIN CLOCK WHICH IS NORTHEAST OF HERE ») — il ne décrit PAS son propre chiffrement.
 Attendre un générateur « Berlin-Clock » comme clé est donc probablement de la **paréidolie sémantique**
-(le crib BERLIN CLOCK = repère géographique du message, pas une spec de méthode). **Front résiduel
-strictement admissible** (spécifier précisément → tester cribs+qg_big+**contrôle nul**, faible probabilité
-a priori) : générateurs PUBLICS exotiques non-cipher (états lampes Mengenlehreuhr, séquence dérivée d'un
-cap/coordonnées). **Usage à haute valeur du clair** : servir d'une hypothèse de méthode pour
+(le crib BERLIN CLOCK = repère géographique du message, pas une spec de méthode). **FERMÉ EXPLICITEMENT
+sur le clair public (27/09, `clockkey.c`)** : 4 encodages Mengenlehreuhr (somme lampes, champ de bits
+24-lampes, flux 4-rangées/min, quarts rouges) × 2 conventions (AZ, KRYPTOS) × tous horaires × 2 directions,
+avec **null strict uniforme** — la meilleure correspondance de K (7-13/97) reste **sous le max du null
+(16-18/97)** ⇒ aucun lien horloge→keystream. (Rejoint les négatifs amont : Mengenlehreuhr/Weltzeituhr
+« sans signal », route × Quagmire III 25 272 réglages nuls, 0/48 masques UTC — base 02/05/10.) **Front
+résiduel restant** (faible proba, non spécifié déterministiquement) : séquence dérivée d'un cap/coordonnées
+(la géométrie du dépôt l'étudie comme POINTAGE, jamais comme keystream). **Usage à haute valeur du clair** : servir d'une hypothèse de méthode pour
 **valider/corriger les ~73 positions non-crib** de la reconstruction (une méthode structurée qui collerait
 aux 24 cribs ET reproduirait la reconstruction publique = double confirmation). À ce jour **aucune** méthode
 structurée ne colle ⇒ **cohérent avec l'OTP**.
