@@ -198,3 +198,15 @@ La version binaire (bits Morse → clé) reste sous-déterminée (convention d'e
 Conclusion : les motifs visuels ÉNUMÉRABLES (Morse texte, overlay panneaux, ombres, décalage
 boussole, transposition) sont tous négatifs → si clé = gabarit physique « individuel » (Sanborn),
 il faut le VOIR, pas le reconstituer (converge avec base 01 §358).
+
+## Addendum 9 — Idée diagonale (utilisateur) : table KEY régulière + diagonales du chiffré
+- **Panneau KEY** (table de Vigenère) : opérations diagonales (retirer diagonales uniformes,
+  garder extrémités/entre) → n'extraient que la **structure régulière** de la table
+  (alphabet droit vs keyed) ; **zéro information** (table = outil, pas cachette). La seule
+  déviation gravée = le L en trop (Sanborn: esthétique).
+- **Panneau CODE** (chiffré gravé, 28 lignes) : coïncidences directionnelles vs hasard.
+  ↘ (bas-droite) déborde : **53 vs 35,4±5,7, z=+3,07**. MAIS localisé à **49/53 dans K1-K3**
+  (lignes 16-22), lettres E/F/T/N/D = **fréquences anglaises** (K3 = transposition → garde
+  l'anglais). **Sur K4 SEUL : ↘ z=+0,52, ↙ z=+1,13 = rien.** Seul l'écart-7 survit sur K4.
+- **Verdict** : le détecteur diagonal marche (s'allume sur l'anglais de K1-K3) mais **K4 est
+  plat sur toutes les diagonales**. Idée diagonale fermée pour K4.
