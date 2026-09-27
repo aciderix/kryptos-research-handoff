@@ -131,3 +131,31 @@ resterait un grand espace de recherche = même mur dimensionnel que §0/§3, non
 charabia <=-3.2. Auto-test : vrai clair -1.79/24-24 = CANDIDAT ; charabia -3.14 (même à 21/24 cribs
 forcés) = charabia. **Le compte de cribs ne décide PAS ; qoff décide.** MÉCA : ton énumérateur de
 la variété crib-cohérente peut piper ses candidats clairs dans ce juge pour trouver l'aiguille anglaise.
+
+## 8. Morse running-key + CARTE DU SOUS-ESPACE RESTANT (synthèse conjointe chef+MÉCA, ~13h)
+Morse d'entrée comme clé courante (3 ordres × {KRYPTOS,A-Z} × Vig/Beau/var, tous offsets) : négatif (qoff -3.66).
+
+### Verdict combiné (preuves MÉCA + fermetures déterministes chef)
+- AUTOCLÉ (tout écart g=1..14, Vig/Beau/var, plaintext/ciphertext) : **ÉLIMINÉ**.
+  - alphabet libre σ=τ : IMPOSSIBLE (cribs forcent pi[B]=pi[Z] & pi[L]=pi[N], bijcheck.c).
+  - alphabet libre 2-alph : SOUS-DÉTERMINÉ (variété perm dim 21) — ne peut identifier un clair.
+  - g=7 n'a rien de spécial (gapscan.c).
+  - alphabet keyword visible (σ=τ + Quagmire 2-alph) : négatif déterministe (chef).
+- FRACTIONNEMENT bifid/trifid (public + libre) : ÉLIMINÉ (chef).
+- TRANSPOSITION colonnaire ∘ autoclé-alphabet-visible ; serpentin/route (base) : ÉLIMINÉ.
+- RUNNING-KEY public (K1/K2/K3, Morse, Carter[base]) : négatif.
+- PÉRIODIQUE (Vigenère/Quagmire à clé) : exclu par l'IC plat de K4 à toute période (base).
+
+### LOI (MÉCA) : tout modèle à ALPHABET LIBRE est impossible ou sous-déterminé par 24 cribs.
+⇒ **l'alphabet DOIT être public/keyword.** Or presque tout mécanisme à alphabet public est fermé ci-dessus.
+
+### CONTRAINTE STRUCTURELLE FORTE : 97 est PREMIER.
+⇒ aucun chiffre par BLOCS ou DIGRAPHES ne pave 97 proprement : Hill (n≥2), Playfair/two/four-square
+(digraphes = longueur paire), bifid/trifid seriated, ADFGVX (double la longueur). Tous exigent
+padding/null/omission d'1 lettre. Signature à vérifier (MÉCA) : K4 omet-il exactement une lettre (carré 25) ?
+
+### CE QUI RESTE (box très étroite : public + non-autoclé + non-périodique + compatible 97 premier + IC plat)
+1. Chiffre digraphique avec pad/null d'1 lettre (Playfair/two-square) — MÉCA en cours ; à réconcilier avec 97 impair.
+2. « Masquage » de Scheidt NON-standard / LAYERED (combinaison), pas un chiffre de manuel — à modéliser depuis sources primaires (interviews Scheidt/Sanborn).
+3. Progressive/interrompu à alphabet public (stepped) — re-test décisif au qg_big possible.
+⇒ Redirection nette (PAS abandon) : comprendre la technique de « masquage » réelle de Scheidt + combinaisons multi-couches.
