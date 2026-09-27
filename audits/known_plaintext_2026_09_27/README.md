@@ -55,3 +55,9 @@ indice était un artefact du clair.
 Existe-t-il un alphabet keyé A **inconnu** (hors KRYPTOS/PALIMPSEST/ABSCISSA) rendant la clé un
 TEXTE anglais (running-key) ? 25 ddl d'alphabet pour 97 lettres ⇒ **paréidolie probable** : à ne
 tester qu'avec hill-climb qg_big + **contrôle nul strict** (même procédure sur (P,C) mélangés).
+
+## Addendum — générateurs publics FIXES (constantes) écartés (constants_test.py)
+Test propre (constantes = 0 paramètre libre, pas de paréidolie) : keystream vs base-26 de
+π, e, √2, √3, √5, φ (tous offsets, AZ & KRYPTOS × VIG/BEA/VAR). Meilleur = **11/97** ;
+null (clés aléatoires) atteint **18/97**. ⇒ le keystream matche les constantes MOINS que le
+hasard : aucune constante mathématique publique n'engendre la clé. Scelle encore le verdict OTP-class.
