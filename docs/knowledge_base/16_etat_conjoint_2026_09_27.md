@@ -170,7 +170,7 @@ reproductible. Faisceau de preuves complet et croisé :
 | Running-key via alphabet keyed (espace 26!) + null | `keysolve` | chef | plafond=null, aucun A anglais |
 | Composite « +1 étape » (diff/décim/retrait autoclé) | `kcomposite` | chef | IC≈aléatoire partout |
 | Clé = expansion base-26 d'une constante (√2,√3,√5,√6,√7,√8,√10,√11,√13, φ) | `constkey` (bignum C, 0 param) | chef | max 12/97 = bruit |
-| Clé = expansion base-26 de π/e/√2/φ | (MÉCA, en cours) | MÉCA | — |
+| Clé = expansion base-26 de π/e/√2/φ | `constants_test.py` | MÉCA | négatif (=bruit) |
 | Complexité linéaire Berlekamp-Massey (GF2 & GF13) | `linear_complexity` | MÉCA | LC MAXIMALE = null |
 | Unicité alphabet sous P complet | moteur exact | MÉCA | sous-dét. 25 = signature OTP |
 | Autoclé (self/clair/chiffré, tout lag) ; récurrence Gromark/LFSR | agnostique | chef+MÉCA | =hasard |
