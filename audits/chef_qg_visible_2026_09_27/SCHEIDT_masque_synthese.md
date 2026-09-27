@@ -100,3 +100,9 @@ type-K3 (×m mod 97, 97 premier). Détecteur : dé-décimer K4 (×m), chercher p
 Meilleur m=91 → colIC 0.0667 (semble anglais!) MAIS **contrôle nul** : shuffles atteignent 0.108,
 P(null≥K4)=0.770 ⇒ BRUIT tests-multiples. Aucune décimation ne révèle de période. FERMÉ.
 (Garde-fou anti-pareidolia : le 0.0667 seul trompait ; le nul tranche.)
+
+## Clé POLYNOMIALE k_i=(d·i³+a·i²+b·i+c) mod 26 (deg 2 & 3) — NÉGATIF
+Résout la tension IC↔résolubilité par un autre biais : peu de dof (a,b,c[,d]) MAIS apériodique (IC plat),
+hand-computable. Énumération complète deg2 (26³) et deg3 (26⁴) × Vig/Beau/var × alphabets{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z}.
+Meilleur 9/24 cribs, qoff −3.68..−4.02 = charabia. NÉGATIF (déterministe/décisif). ⇒ le générateur de clé
+apériodique-basse-dof n'est ni polynomial ni les autres testés (autoclé/Gromark/récurrence).
