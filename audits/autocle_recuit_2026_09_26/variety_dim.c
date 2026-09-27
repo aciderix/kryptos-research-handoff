@@ -62,15 +62,30 @@ static void report(const char*label){
          label,na,nrow,r2,r13,na-r2,na-r13);
 }
 
+/* fixe tau(y)=const (row a un seul 1 sur TAU(y)) -> mesure la reduction par lettre d'alphabet fixee */
+static void fix_tau(int y){ int row[NC]; memset(row,0,sizeof row); row[TAU(y)]=1; addrow(row); }
+
 int main(int argc,char**argv){
-  if(argc>1 && !strcmp(argv[1],"tie")){ TIE=1; printf("=== MODE TIE (sigma=tau, Quagmire III) ===\n"); }
-  else printf("=== MODE INDEP (sigma,tau libres, T36b) ===\n");
+  int fixk=0;
+  for(int a=1;a<argc;a++){ if(!strcmp(argv[a],"tie"))TIE=1; if(!strcmp(argv[a],"fixk"))fixk=1; }
+  printf(TIE? "=== MODE TIE (sigma=tau) ===\n":"=== MODE INDEP (sigma,tau libres) ===\n");
   for(int i=0;i<97;i++) C[i]=K4[i]-'A';
   /* --- ETAPE 0 : 24 cribs --- */
   const char*e="EASTNORTHEAST",*b="BERLINCLOCK";
   for(int k=0;k<13;k++) known(21+k, e[k]-'A');
   for(int k=0;k<11;k++) known(63+k, b[k]-'A');
   report("24 cribs (base 13)");
+  if(fixk){
+    /* fixe des lettres d'alphabet (tau) qui APPARAISSENT, une a une, et re-mesure la dim */
+    int done[26]={0};
+    for(int step=1;step<=20;step++){
+      int y=-1; for(int L=0;L<26;L++) if(appear[TAU(L)] && !done[L]){ y=L; break; }
+      if(y<0) break; done[y]=1; fix_tau(y);
+      char lab[40]; snprintf(lab,sizeof lab,"+ fix %d lettre(s) alphabet",step);
+      report(lab);
+    }
+    return 0;
+  }
   /* --- ETAPE 1 : valeurs NEUVES (coincidence ecart-7, cote non-crib) --- */
   known(8,'A'-'A');  report("+ p8=A (c15=c22)");
   known(39,'N'-'A'); report("+ p39=N (c32=c39)");
