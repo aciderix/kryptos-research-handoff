@@ -66,3 +66,18 @@ Tout mécanisme STANDARD spécifiable est clos. Reste, strictement :
 **contrôle nul** (clés/amorces aléatoires) → ne retenir que si K4 sort du nul. Le progrès viendra d'une IDÉE
 sur la SOURCE DE CLÉ, pas d'un balayage de plus. Outils C : `audits/chef_qg_visible_2026_09_27/tools/`,
 `audits/autocle_recuit_2026_09_26/` (moteur exact MÉCA).
+
+## 7. THÉORÈME-CADRE (informel) sur la reconstructibilité de la clé — ajouté 27/09 ~15h
+Pour que K4 soit résoluble depuis les 24 cribs SEULS, la clé aux 73 positions non-crib doit être
+DÉTERMINÉE par les 24 connues via le mécanisme. Trois seules façons, toutes fermées :
+1. clé = le clair (autoclé, tout écart/forme, clair/chiffré) → impossible/sous-déterminé (preuve).
+2. clé engendrée d'une graine courte (autoclé, Gromark, récurrence-Z26, polynomiale deg2/3, Chaocipher) → tous nuls.
+3. clé courte/périodique → exclue par IC=0.036 (aléatoire).
+⇒ Aucune clé à la fois PLEINE-ENTROPIE (IC plat) ET reconstructible-depuis-24-cribs n'existe dans un
+mécanisme STANDARD. Deux issues restantes (info disponible) :
+(A) 2 alphabets libres (variété dim-21) : un point anglais EXISTE (qg_big=−1.77) mais = aiguille
+    inatteignable par recuit/énumération en dim-21 → seul le moteur de propagation exact (MÉCA) peut trancher.
+(B) opération de « masquage » hors répertoire → génération+test continus (chaque candidat : déterministe +
+    cribs + qg_big + CONTRÔLE NUL). Fermés ce jour côté (B) : récurrence-Z26, Chaocipher-keyword, décimation-K3,
+    polynomiale, transposition grille-physique 31-large, ciphertext-autoclé σ=τ libre.
+Tools chef : audits/chef_qg_visible_2026_09_27/tools/ (poly_key, lfsr_key, chao, decim_ic, keyread, keyletters, variety_solve, gromark_solve…).
