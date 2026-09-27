@@ -47,3 +47,13 @@ feature visible enumerable de cette maniere. Reste (base 15) : soit une conventi
 encore imaginee, soit une etape non-1:1 (batch 3 : decimations x m mod 97, a venir), soit K5.
 
 Portee : ferme la famille "ordre spatial visible" (batch 1+increment). Ne ferme pas batch 3.
+
+--- AJOUT : 4 alphabets structures "texte du site" (K0keyed/K1keyed +REV), lag-7 identite ---
+25 alphabets (19 spatiaux + 4 site + AZ + KRYPTOS). Selftest PASS.
+K4 : 0 survivant tol<=4 ; min = 10/24 (UN seul config : sig=K0keyed tau=read_K4_first VIG/PLAIN).
+  Clair de ce config = CHARABIA (ORLPQBOZLQ...EMLINCLOC...) : kappa derive des cribs force ~14/24
+  lettres de crib, reste = bruit. PAS une solution.
+Temoins K4-melange (2000, seed 777), meme famille de 25 : P(temoin_min <= 10) = 36/2000 = 0.018.
+VERDICT : NEGATIF. Le 10/24 est une curiosite mince (1 config/3750, clair illisible) ; le compte
+de cribs seul ne discrimine pas (14/24 "fittes" sans anglais). Confirme le besoin d'un meilleur
+discriminateur que le compte de cribs (cf. idee (d) : discriminateur base 13 mal specifie).
