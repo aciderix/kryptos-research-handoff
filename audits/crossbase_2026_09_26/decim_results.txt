@@ -1,0 +1,17 @@
+Porte NON-1:1 par DECIMATION de position (x m mod 97) avant autocle ecart-7 structure — 2026-09-27
+Moteur : decim_autokey.c. Pour chaque m=2..96 (fwd + inverse = 190 permutations, m=1 identite exclue),
+D_k = E[(m*k) mod 97] ; puis sweep autocle ecart-7 structure (alphabets keyes AZ/KRYPTOS/PALIMPSEST/
+ABSCISSA ; VIG/BEAU/VAR ; cle=clair et chiffre ; kappa derive cribs, analytique). Controle positif +
+temoins K4-melange (memes 190 decimations appliquees).
+
+CONTROLE POSITIF : PASS. fake = decim_m(autocle(clair+cribs)) ; de-transpose par inv(m) ; le sweep
+retrouve 0 erreur, 97/97 (m=5,7,11). Pipeline correct.
+
+K4 REEL (keyed) : 0 survivant tol<=3 ; min = 10/24 (dir=0, m=36).
+TEMOINS K4-melange (300, seed 0xBEEF), memes 190 decimations : P(temoin_min <= 10) = 256/300 = 0.853 ;
+mode a 10 (234/300). histogramme : 8:1 9:21 10:234 11:44.
+
+VERDICT : NEGATIF CONTROLE. Le min 10/24 de K4 est TYPIQUE (85% des textes aleatoires de meme multiset
+font aussi bien sur leurs decimations). La decimation de position ne revele aucun autocle structure.
+=> la porte non-1:1 par decimation reguliere x m mod 97 (alphabets keyes) est fermee. Non couvert :
+alphabets affine sous decimation (12 mul, en attente) et lag != 7.
