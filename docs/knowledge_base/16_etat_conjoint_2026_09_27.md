@@ -92,3 +92,11 @@ Tools chef : audits/chef_qg_visible_2026_09_27/tools/ (poly_key, lfsr_key, chao,
   colonnes + détecteur de période (w7_ic.c). Meilleur K4 colIC=0.0806 MAIS null P(null≥K4)=0.880 = BRUIT. NÉGATIF.
 - MF_Primes26-97 (alphabet dérivé des primes) : juste un alphabet public de plus ; n'ouvre aucun mécanisme mort.
 ⇒ Les sources rassemblées CONFIRMENT le portrait-robot mais n'apportent AUCUN mécanisme testable neuf qui survive.
+
+## 9. Fusion (A) — couverture chef seeds 500-525 (18h) : charabia, aucun point exact
+Recherche crib-exacte factorisée (ac7f, WC=40, gate crib dur, mono-solve sig), 26 seeds : AUCUN point
+conf=0 (24/24 exact) atteint par recuit (meilleur 23/24, conf=1) ; TOUS qoff −3.19..−3.59 = charabia.
+⇒ la variété dim-21 est charabia-dominée ; les points bijectifs 24/24 restent hors de portée du recuit
+(tau surtout pinné, alpha rarement permutation — caveat MÉCA). MÉCA couvre d'autres seeds ; verdict conjoint
+en attente. Si aucun des deux n'atteint conf=0 anglais : CONSTAT (variété charabia-dominée, aiguille
+inatteignable par recherche) — pas un abandon, on bascule l'effort sur axe (B) masquage-hors-répertoire.
