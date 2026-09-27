@@ -1,0 +1,11 @@
+lag != 7 : autocle structure (affine∘keyed, 4 bases, VIG/BEAU/VAR, clair+chiffre) — s3lag.c — 2026-09-27
+Controle positif (selftest lag7) : OK (clair 97/97 ; chiffre 90/97 = amorce, normal).
+K4 reel, 9 345 024 configs/lag, tol<=2 :
+  lag=5 : 0 survivant
+  lag=6 : 0 survivant
+  lag=7 : 0 survivant  (= base 15 S3, deja connu)
+  lag=8 : 0 survivant
+  lag=9 : 0 survivant
+VERDICT : NEGATIF pour tout lag 5-9. Le squelette autocle a alphabet STRUCTURE est clos a tous lags
+(coherent : le profil ecart-7 designe lag 7, mais meme lag 7 structure = 0 ; alphabet libre reste
+intractable, base 13).

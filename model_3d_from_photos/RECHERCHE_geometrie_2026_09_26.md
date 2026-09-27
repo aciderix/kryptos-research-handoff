@@ -253,3 +253,27 @@ propre des 97 lettres K4 → cellules : fin rangée 24 + rangées 25/26/27, 0/97
 - **Verdict** : NÉGATIF. La disposition physique (colonne, rangée, arc, hauteur) ne fournit pas
   le flux de clé. « La forme = la clé » réfutée sous forme 1:1-préservée. Script : scratchpad
   geom_key_test.py. (Transposition pure du chiffré : exclue par le 1:1, non testée à dessein.)
+
+## Addendum 13 — Hypothèse « courbure/rose » (transcript ChatGPT 2026-09-27) — ÉVALUÉE, NÉGATIVE
+Trois affirmations du transcript, testées avec la même rigueur que l'autoclé :
+
+1. **« courbure → alphabet σ » (ordre de lecture le long de l'arc)** : réfutée. (a) Le transcript
+   lui-même échoue déjà sur EASTNORTHEAST (attendu G ≠ réel S en pos 33). (b) Preuve algébrique plus
+   forte (audits/autocle_recuit_2026_09_26/bijcheck.c) : sous σ=τ autoclé écart-7, les 24 cribs
+   FORCENT pi[B]=pi[Z] ET pi[L]=pi[N] ⇒ AUCUNE permutation ne marche, quel que soit σ (géométrique
+   ou non). L'idée « la courbure fabrique l'alphabet » est morte sous l'autoclé supposé.
+2. **« rose des vents → clé » (azimut du vecteur cellule-tableau → cellule-chiffré, cross-panneau)** :
+   testée (scripts/geom_rose_test.py), 0/97 non appariées, azimut variant sur 163°. Familles
+   sector16 / deg-quantifié / rang / paire ENE-WSW(3,11) / offsets constants 3,11 × VIG,BEA,VAR ×
+   AZ,KRYPTOS. **Meilleur réel = 3/24** ; null (azimut permuté) moyenne 1,84, max 7, **P(≥3)=0,22**.
+   ⇒ dans le hasard. La direction ~WSW est une propriété géométrique lisse (rotation progressive du
+   panneau, pas de rupture à K4), pas une clé. Cohérent avec Addendum 12 (features intra-panneau).
+3. **« normale locale ≈ ENE (67,5°) au E de NORTHEAST »** : une coïncidence ponctuelle sur 97
+   positions × plusieurs définitions d'angle = artefact de tests multiples (le transcript en avertit
+   lui-même). Pas un mécanisme.
+
+**Ce qui reste ouvert (inchangé)** : l'**overlay des deux panneaux superposables** (28×31, même
+rayon, colonnes +4 % — Test 2) reste la seule piste géométrique non éliminée, MAIS l'**opération**
+(quelle cellule lue, sens, transformation) reste non spécifiée ⇒ pas encore une expérience
+admissible. Le transcript ne la spécifie pas non plus. Verdict : l'« Eurêka courbure » n'apporte
+pas de mécanisme ; il redit (correctement) que la clé est spatiale/visuelle, ce qui était déjà acquis.

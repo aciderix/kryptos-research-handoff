@@ -1,0 +1,65 @@
+H-VISIBLE-ALPHABET — famille GELEE des 19 alphabets d'ordre spatial — 2026-09-27
+Moteur : visible_sweep.c (autocle ecart-7 ; sigma,tau in {19 candidats spatiaux + AZ + KRYPTOS} = 21 ;
+VIG/BEAU/VAR ; cle=PLAIN et CIPHER ; kappa derive des cribs). Controle positif + temoins K4-melange.
+Famille gelee par le chef (anti-fishing) : 19 conventions nommees, pre-enregistrees, non ajustables.
+Les memes 21 alphabets sont appliques aux temoins (comparaison au niveau FAMILLE).
+
+Les 19 candidats (alpha[pos]=lettre) :
+ 0 read_full_first        EMUFPHZLRAXYSDJKNGIVQTBWCO
+ 1 read_full_first_REV    RACKEUHGIDJTXZWPFMVYNBLSQO
+ 2 read_full_last         OQSLBNYVMFPWZXTJDIGHUEKCAR
+ 3 read_K4_first          OBKRUXGHLSIFWVQPNTJEZADYMC
+ 4 colmajor_first         EYVGTQHFDCWBARUMIZLNPSKOXJ
+ 5 colmajor_first_REV     IRXJPOBTCEFDAVYSKQHNLGUMWZ
+ 6 colmajor_mirror_first  JXRIVDEAFPCTBONHKQYSMLUGZW
+ 7 colmajor_mirror_K4     ROPKSYABNCGFEUIWQHVDLJTXZM
+ 8 rows_upsidedown        VTMZFPKWGDXJCIUHAERQSLNBYO
+ 9 rows_mirror_first      JVIFNGHSRKDLZUYXAPMETQBCWO
+10 rows_mirror_K4         RKBOSGNPQVLFWIUHXYADJTZECM
+11 arc_first              EFCUGVYTAQRDBHWNIMLPZSKOXJ
+12 arc_first_REV          QRTFPEIXBOAKJDNSCYHLVZUMWG
+13 boustrophedon          EMUFPHZLRAXYSDJKNGIVTQBWCO
+14 diag_sum_first         EMYUQVFTGPHJWIZXLDKRBACNSO
+15 diag_sum_first_REV     RAPCYOKNSEBIUFGHLTWDQMVJXZ
+16 antidiag_first         JVIDFENMCGAHRLSYQUKTXZBPWO
+17 freq_desc              ETDFNLRHAUQMIGSPKOZVWYJBCX  (keye par frequence -- "le masque enleve le biais")
+18 freq_asc               XCBJYWVZOKPSGIMQUAHRLNFDTE
+
+CONTROLE POSITIF : PASS (6/6 configs, err=0 ; PLAIN 97/97, CIPHER 90/97 = amorce non contrainte).
+
+K4 REEL : 2646 configs (21x21x3x2). survivants tol<=2 : 0. tol<=4 : 0. min_crib_errors(K4) = 12/24.
+
+TEMOINS K4-MELANGE (2000, seed 12345), MEME famille de 21 alphabets :
+  P(temoin_min <= K4_min=12) = 1900/2000 = 0.950
+  dont exactement 12 : 1389/2000
+  histogramme min-erreurs : 9:1  10:40  11:470  12:1389  13:100
+
+VERDICT : NEGATIF FORT, CONTROLE, AU NIVEAU FAMILLE. K4 est dans le MODE de la distribution
+des temoins (12) et 95% des textes aleatoires de meme multiset font aussi bien ou mieux avec
+CETTE MEME famille. => l'alphabet de K4 n'est PAS encode dans l'ordre visible des lettres du
+chiffre (lecture/reverse/flip/miroir/transpose/arc/diagonale/antidiag/boustrophedon/frequence),
+ni comme sigma ni comme tau, dans aucune convention ni source de cle, a 0-4 erreurs.
+
+Combine avec la relecture HD du TABLEAU par le chef (table STANDARD, aucun alphabet cache) :
+les DEUX sources visibles d'un alphabet arbitraire (tableau grave ; ordre spatial du chiffre)
+sont fermees. => si l'autocle ecart-7 est le squelette, l'alphabet libre ne vient PAS d'une
+feature visible enumerable de cette maniere. Reste (base 15) : soit une convention visible non
+encore imaginee, soit une etape non-1:1 (batch 3 : decimations x m mod 97, a venir), soit K5.
+
+Portee : ferme la famille "ordre spatial visible" (batch 1+increment). Ne ferme pas batch 3.
+
+--- AJOUT : 4 alphabets structures "texte du site" (K0keyed/K1keyed +REV), lag-7 identite ---
+25 alphabets (19 spatiaux + 4 site + AZ + KRYPTOS). Selftest PASS.
+K4 : 0 survivant tol<=4 ; min = 10/24 (UN seul config : sig=K0keyed tau=read_K4_first VIG/PLAIN).
+  Clair de ce config = CHARABIA (ORLPQBOZLQ...EMLINCLOC...) : kappa derive des cribs force ~14/24
+  lettres de crib, reste = bruit. PAS une solution.
+Temoins K4-melange (2000, seed 777), meme famille de 25 : P(temoin_min <= 10) = 36/2000 = 0.018.
+VERDICT : NEGATIF. Le 10/24 est une curiosite mince (1 config/3750, clair illisible) ; le compte
+de cribs seul ne discrimine pas (14/24 "fittes" sans anglais). Confirme le besoin d'un meilleur
+discriminateur que le compte de cribs (cf. idee (d) : discriminateur base 13 mal specifie).
+
+--- AJOUT : alphabet ORDRE-MORSE (arbre Morse, point<trait), lag-7 identite ---
+27 alphabets (25 precedents + Morse_order + Morse_order_REV). Selftest PASS.
+K4 : 0 survivant tol<=4 ; min = 10/24 (INCHANGE : toujours le config K0keyed/read_K4_first illisible ;
+Morse n'ajoute aucun config plus bas). P(temoin_min<=10)=45/2000=0.022.
+VERDICT : NEGATIF. L'ordre-Morse comme alphabet (sigma/tau) ne produit pas de solution.

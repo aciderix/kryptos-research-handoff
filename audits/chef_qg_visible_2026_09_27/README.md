@@ -131,3 +131,73 @@ resterait un grand espace de recherche = même mur dimensionnel que §0/§3, non
 charabia <=-3.2. Auto-test : vrai clair -1.79/24-24 = CANDIDAT ; charabia -3.14 (même à 21/24 cribs
 forcés) = charabia. **Le compte de cribs ne décide PAS ; qoff décide.** MÉCA : ton énumérateur de
 la variété crib-cohérente peut piper ses candidats clairs dans ce juge pour trouver l'aiguille anglaise.
+
+## 8. Morse running-key + CARTE DU SOUS-ESPACE RESTANT (synthèse conjointe chef+MÉCA, ~13h)
+Morse d'entrée comme clé courante (3 ordres × {KRYPTOS,A-Z} × Vig/Beau/var, tous offsets) : négatif (qoff -3.66).
+
+### Verdict combiné (preuves MÉCA + fermetures déterministes chef)
+- AUTOCLÉ (tout écart g=1..14, Vig/Beau/var, plaintext/ciphertext) : **ÉLIMINÉ**.
+  - alphabet libre σ=τ : IMPOSSIBLE (cribs forcent pi[B]=pi[Z] & pi[L]=pi[N], bijcheck.c).
+  - alphabet libre 2-alph : SOUS-DÉTERMINÉ (variété perm dim 21) — ne peut identifier un clair.
+  - g=7 n'a rien de spécial (gapscan.c).
+  - alphabet keyword visible (σ=τ + Quagmire 2-alph) : négatif déterministe (chef).
+- FRACTIONNEMENT bifid/trifid (public + libre) : ÉLIMINÉ (chef).
+- TRANSPOSITION colonnaire ∘ autoclé-alphabet-visible ; serpentin/route (base) : ÉLIMINÉ.
+- RUNNING-KEY public (K1/K2/K3, Morse, Carter[base]) : négatif.
+- PÉRIODIQUE (Vigenère/Quagmire à clé) : exclu par l'IC plat de K4 à toute période (base).
+
+### LOI (MÉCA) : tout modèle à ALPHABET LIBRE est impossible ou sous-déterminé par 24 cribs.
+⇒ **l'alphabet DOIT être public/keyword.** Or presque tout mécanisme à alphabet public est fermé ci-dessus.
+
+### CONTRAINTE STRUCTURELLE FORTE : 97 est PREMIER.
+⇒ aucun chiffre par BLOCS ou DIGRAPHES ne pave 97 proprement : Hill (n≥2), Playfair/two/four-square
+(digraphes = longueur paire), bifid/trifid seriated, ADFGVX (double la longueur). Tous exigent
+padding/null/omission d'1 lettre. Signature à vérifier (MÉCA) : K4 omet-il exactement une lettre (carré 25) ?
+
+### CE QUI RESTE (box très étroite : public + non-autoclé + non-périodique + compatible 97 premier + IC plat)
+1. Chiffre digraphique avec pad/null d'1 lettre (Playfair/two-square) — MÉCA en cours ; à réconcilier avec 97 impair.
+2. « Masquage » de Scheidt NON-standard / LAYERED (combinaison), pas un chiffre de manuel — à modéliser depuis sources primaires (interviews Scheidt/Sanborn).
+3. Progressive/Trithemius linéaire (shift=a·i+b, tout alphabet/forme) : TESTÉ déterministe = négatif (max 7/24, charabia). Reste: interrompu/masquage Scheidt non-standard, LAYERED.
+⇒ Redirection nette (PAS abandon) : comprendre la technique de « masquage » réelle de Scheidt + combinaisons multi-couches.
+
+## 9. Overlay géométrique 2-panneaux = clé-grille (overlay_key.c) — FERMÉ (lead géométrique de MÉCA)
+Le seul lead géométrique non tranché (overlay tableau +4% cellule-à-cellule, doc RECHERCHE_geometrie
+Test 2) se réduit à une CLÉ-GRILLE LINÉAIRE : shift_i=(A·row+B·col+C) mod 26 avec les coords (row,col)
+physiques MESURÉES de K4 (extraites du modèle 3D, k4_rowcol.csv, reconstruit K4 exactement).
+Subsume : overlay tabula-recta (A=B=1), « ID BY ROWS » (B=0), clé-colonne (A=0), diagonales, dérive +4%.
+Balayage déterministe A,B∈[-4,4] × C∈[0,25] × σ{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z} × formes{Vig,Beau,var}.
+Résultat : max 7/24 cribs, tout charabia (qg_big). **NÉGATIF.** ⇒ overlay géométrique/clé-grille/ID-BY-ROWS
+FERMÉS avec l'objectif décisif, sur la géométrie réelle. Cohérent avec RECHERCHE_geometrie (tout
+appariement statique table↔chiffré = bruit). Le lead géométrique est clos.
+
+## 10. Écart-7 réel mais diffus + « masquage = transposition sur périodique » FERMÉ (contrôle nul)
+(a) **Excès écart-7 CONFIRMÉ** (gapstat.c) : K4 a 9 doublets chiffrés à l'écart 7 vs ~3.2 attendus
+(z=3.28, p≈0.005 ; 7 = |KRYPTOS| pré-spécifié). AUCUN autre écart ne ressort (|z|<1.5). MAIS les
+9 doublets sont DIFFUS (répartis sur les 7 résidus mod 7, tirés par O/K fréquents) ⇒ signal réel
+mais non-actionnable seul, et l'autoclé-7 (mécanisme évident) est PROUVÉ impossible (MÉCA).
+(b) **Hypothèse « masquage Scheidt = transposition masquant une périodicité polyalpha »** (product
+cipher : Vigenère périodique ∘ transposition ⇒ IC global plat, période cachée) : testée par
+détecteur de Friedman (ic_detect.c) — de-transposer puis chercher un IC-colonne réveillé.
+Meilleur K4 = colIC 0.0769. **CONTRÔLE NUL (ic_null.c, 2000 shuffles, même pipeline complet)** :
+mean_max=0.0742, P(null≥K4)=**0.275**. ⇒ le « signal » est du **bruit de tests-multiples sur texte
+court** ; aucune transposition ne révèle de périodicité réelle. **Product-cipher périodique∘transposition
+FERMÉ.** (Garde-fou anti-pareidolia appliqué : jugement sur le nul, pas sur le max brut.)
+
+## 11. Masquage « composé » + running-key exhaustif — FERMÉS ; carte-frontière
+- **Vigenère COMPOSÉ 2 mots-clés publics** (double_vig.c) : p=svinv[c ±Ka[i%la] ±Kb[i%lb]], 30 mots × paires
+  × signes × alphabets{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z}. Interprétation « masquage = composer pour cacher
+  la période » (LCM). Meilleur 6/24, charabia. NÉGATIF.
+- **Tableau Vigenère comme clé courante** (row/col-major, tous offsets, formes, alphabets) : 3/24. NÉGATIF.
+- ⇒ **RUNNING-KEY EXHAUSTÉ** : clairs K1/K2/K3 (chef §5), chiffrés K1/K2/K3 (MÉCA runkey_ct), Morse (chef §8),
+  Carter (base), tableau (chef §11). TOUS négatifs.
+
+### CARTE-FRONTIÈRE (conjointe chef+MÉCA) — invariants + tout l'éliminé
+Invariants POSITIFS (mesurés) : 1:1 longueur, **97 premier**, **26 lettres présentes** (J inclus),
+**IC=0,036 ≈ aléatoire** (polyalpha franc, clé effectivement longue), excès écart-7 **réel mais diffus** (z=3,28).
+ÉLIMINÉ (preuve/contrôle) : autoclé tout écart/forme (preuve MÉCA) ; tout alphabet LIBRE (impossible/sous-déterminé,
+preuve MÉCA) ; périodique (IC) ; fractionnement bifid/trifid ; digraphique/blocs Playfair/Hill (26 lettres + 97 premier + doublets-dans-paire, MÉCA) ;
+transposition∘autoclé ; product-cipher périodique∘transposition (nul) ; running-key (exhausté) ; progressif linéaire ;
+clé-grille/overlay géométrique (géométrie réelle) ; Vigenère composé 2 mots-clés.
+BOX RESTANTE : mécanisme à alphabet PUBLIC dont le FLUX DE CLÉ vient d'une source publique **non encore
+identifiée** alignée aux 97 positions (1:1, polyalpha), OU un « masquage » NON-standard (recette Scheidt non
+publiquement spécifiée). ⇒ le progrès viendra d'une IDÉE sur la SOURCE/recette, pas d'un balayage de plus.

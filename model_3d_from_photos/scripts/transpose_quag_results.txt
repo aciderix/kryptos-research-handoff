@@ -1,0 +1,15 @@
+Porte NON-1:1 : ordres de lecture PHYSIQUES du 3D comme transposition ∘ Quagmire — 2026-09-27.
+Moteur transpose_quag.c (de-transpose K4 par un ordre physique reel, puis Quagmire crib-solve, LIRE le clair).
+Donnees : k4_geom.txt (row,col,arc_s des 97 lettres K4, modele Bowen). qg 6.5M.
+Ordres testes (8) : identity, reverse, colmajor(+rev), serpentine(+rev), arc_sorted(+rev).
+Alphabets : AZ, KRYPTOS, PALIMPSEST, ABSCISSA (Quagmire III sigma=tau). conv VIG/BEAU/VAR. periode 1-14.
+
+CONTROLE POSITIF : PASS (Vig AZ P=5 ordre identite -> cribErr 0, recovered 97/97).
+
+K4 REEL : AUCUN (ordre × alphabet × conv × periode) a cribErr<=3. min cribErr = 8/24
+(identity/AZ/BEAU/P=13), clair charabia. EASTNORTHEAST recupere au min (fit de crib), reste bruit.
+
+VERDICT : NEGATIF CONTROLE. Les ordres de lecture physiques mesures du modele 3D, comme transposition
+avant une substitution Quagmire a alphabet connu, ne dechiffrent pas K4. Porte non-1:1 (ordres 3D +
+alphabets connus) fermee. NON couvert encore : ordres 3D × alphabets a MOT-CLE (extension possible,
+prior faible car TABP abstrait deja negatif) ; spirale/diagonale (ordres supplementaires).
