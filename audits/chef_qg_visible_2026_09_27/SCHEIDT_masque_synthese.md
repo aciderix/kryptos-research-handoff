@@ -40,3 +40,16 @@ A. **Clé longue expansée d'un mot-clé** (Gromark chain, ou mot-clé → suite
 B. **Vigenère(mot-clé) ∘ transposition-colonnaire-à-ordre-mot-clé** (largeurs 7/‹mot›, ordres = rang des
    lettres du mot-clé), détecteur de période après dé-transposition (déjà outillé, ic_detect) + solve qg_big.
 C. Écarter définitivement le fractionnement (fait, contrainte 1).
+
+## RÉSOLUTION Gromark (la seule famille laissée OUVERTE par la littérature — Bean 2021)
+Gromark = meilleur fit Scheidt (amorce mémorisable → clé longue → retire biais → 1:1 → « plus d'une étape »).
+Bean : 39 amorces (base10, 5 chiffres, 2 alphabets LIBRES) crib-compatibles, clairs « proches anglais mais
+non convaincants » — c'est le CONFOND du scoring faible que qg_big lève.
+TEST (chef, gromark_solve.c, qg_big) : recuit (sig,tv) par amorce. Contrôle positif (vrai primer) plafonne
+à qoff -2.81 (dim-2-alphabets dur). Scan des 39 amorces sur K4 : meilleur qoff -2.74, fragments lisibles.
+**CONTRÔLE NUL (15 amorces ALÉATOIRES non-crib-compatibles, même budget)** : meilleur qoff -2.84, moyenne -2.99
+— **IDENTIQUE** aux 39 de Bean (moyenne -3.03, best -2.74). Les 39 ne gagnent que sur le COMPTE DE CRIBS
+(compatibles par construction), PAS sur l'anglais. ⇒ le plafond ~-2.8 est le **plancher de jeu** du Gromark
+2-alphabets-libres (sur-déterminé en liberté), pas du signal. **GROMARK FERMÉ** (résout Bean : sous-déterminé,
+crib-compatibles indiscernables de l'aléatoire). Confirme empiriquement la LOI de MÉCA (2 alphabets libres = sous-déterminé).
+Garde-fou : jugé sur le CONTRÔLE NUL, pas sur les fragments lisibles ni le qoff brut.
