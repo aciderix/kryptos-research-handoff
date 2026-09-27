@@ -83,3 +83,16 @@ FUSION : réduction algébrique des cribs (moteur/matrices MÉCA — ramène le 
 ~18 dof libres réels, garantit la cohérence-cribs) **+ objectif `qg_big`** (désormais décisif).
 C'est la seule voie où objectif validé + recherche structurée peuvent converger. Fronts visibles
 keyword + fractionnement = FERMÉS. **Aucune conclusion d'impossibilité.**
+
+## 3. Recherche STRUCTURÉE 2-alphabets par équations de cribs (ac7s.c) — sous-détermination reproduite
+Levier : positions double-crib (p_i ET p_{i-7} connus) ⇒ 8 lettres de tau DÉRIVÉES de sigma
+(R:(T,E) N:(H,A) G:(E,S) K:(A,T) S:(S,N) Z:(L,B) F:(O,E) P:(C,R)) + 2 contraintes de cohérence
+sigma (sig[S]+sig[N]=sig[T]+sig[O] ; sig[A]+sig[T]=sig[K]+sig[I]). Auto-satisfait 10 cribs,
+réduit tau à 18 libres. Recuit sig+tau_libre+kappa scoré qg_big.
+Résultat K4 (5 graines, 500k×40) : atteint **consist=0, taucol=0 (tau perm valide), 20-22/24
+cribs** MAIS **qoff -3.25 à -3.39 = charabia** (jamais l'anglais -2.0). ⇒ le sous-espace
+crib-cohérent est ATTEIGNABLE et contient massivement du charabia : **sous-détermination réelle**
+du modèle 2-alph Vig autoclé écart-7 par (public + 24 cribs), reproduite avec recherche structurée
++ objectif décisif. Trancher « pas de solution anglaise dans ce modèle » vs « aiguille manquée »
+exige l'ÉNUMÉRATION algébrique de la variété crib-cohérente scorée par qg_big (moteur MÉCA + qg_big).
+NB : PIN est spécifique au chiffré K4 (non validable sur contrôle générique) ; conclusion prudente.
