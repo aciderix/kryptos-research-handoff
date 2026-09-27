@@ -34,9 +34,9 @@ static void setcribs(void){const char*e="EASTNORTHEAST",*b="BERLINCLOCK";
 static inline int md(int x){x%=26;return x<0?x+26:x;}
 
 /* 21 alphabets: 19 candidats spatiaux (famille GELEE, chef) + AZ + KRYPTOS (alpha[pos]=lettre) */
-#define M 25
-#define IAZ 23
-#define IKRY 24
+#define M 27
+#define IAZ 25
+#define IKRY 26
 static const char *ANAME[M]={
  "read_full_first","read_full_first_REV","read_full_last","read_K4_first",
  "colmajor_first","colmajor_first_REV","colmajor_mirror_first","colmajor_mirror_K4",
@@ -44,6 +44,7 @@ static const char *ANAME[M]={
  "boustrophedon",
  "diag_sum_first","diag_sum_first_REV","antidiag_first","freq_desc","freq_asc",
  "K0keyed","K0keyed_REV","K1keyed","K1keyed_REV",
+ "Morse_order","Morse_order_REV",
  "AZ","KRYPTOS"};
 static const char *ALPHA[M]={
  "EMUFPHZLRAXYSDJKNGIVQTBWCO","RACKEUHGIDJTXZWPFMVYNBLSQO","OQSLBNYVMFPWZXTJDIGHUEKCAR",
@@ -54,6 +55,7 @@ static const char *ALPHA[M]={
  "EMYUQVFTGPHJWIZXLDKRBACNSO","RAPCYOKNSEBIUFGHLTWDQMVJXZ","JVIDFENMCGAHRLSYQUKTXZBPWO",
  "ETDFNLRHAUQMIGSPKOZVWYJBCX","XCBJYWVZOKPSGIMQUAHRLNFDTE",
  "SORQLUCIDMEYHAWFTPNGVBJKXZ","ZXKJBVGNPTFWAHYEMDICULQROS","BETWNSULHADIGCOFQJKMPRVXYZ","ZYXVRPMKJQFOCGIDAHLUSNWTEB",
+ "ETIANMSURWDKGOHVFLPJBXCYZQ","QZYCXBJPLFVHOGKDWRUSMNAITE",
  "ABCDEFGHIJKLMNOPQRSTUVWXYZ","KRYPTOSABCDEFGHIJLMNQUVWXZ"};
 
 static int PERM[M][26];       /* perm[letter]=pos */

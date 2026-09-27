@@ -57,3 +57,9 @@ Temoins K4-melange (2000, seed 777), meme famille de 25 : P(temoin_min <= 10) = 
 VERDICT : NEGATIF. Le 10/24 est une curiosite mince (1 config/3750, clair illisible) ; le compte
 de cribs seul ne discrimine pas (14/24 "fittes" sans anglais). Confirme le besoin d'un meilleur
 discriminateur que le compte de cribs (cf. idee (d) : discriminateur base 13 mal specifie).
+
+--- AJOUT : alphabet ORDRE-MORSE (arbre Morse, point<trait), lag-7 identite ---
+27 alphabets (25 precedents + Morse_order + Morse_order_REV). Selftest PASS.
+K4 : 0 survivant tol<=4 ; min = 10/24 (INCHANGE : toujours le config K0keyed/read_K4_first illisible ;
+Morse n'ajoute aucun config plus bas). P(temoin_min<=10)=45/2000=0.022.
+VERDICT : NEGATIF. L'ordre-Morse comme alphabet (sigma/tau) ne produit pas de solution.
