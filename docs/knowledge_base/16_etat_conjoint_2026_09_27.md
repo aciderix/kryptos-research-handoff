@@ -81,3 +81,14 @@ mécanisme STANDARD. Deux issues restantes (info disponible) :
     cribs + qg_big + CONTRÔLE NUL). Fermés ce jour côté (B) : récurrence-Z26, Chaocipher-keyword, décimation-K3,
     polynomiale, transposition grille-physique 31-large, ciphertext-autoclé σ=τ libre.
 Tools chef : audits/chef_qg_visible_2026_09_27/tools/ (poly_key, lfsr_key, chao, decim_ic, keyread, keyletters, variety_solve, gromark_solve…).
+
+## 8. Sources du dépôt MINÉES (27/09 ~18h, à la demande user) — aucun mécanisme neuf
+- **AAA Jim Sanborn papers** (primaires, base 05) : 6/11 "Codes Research" = rien sur K4 ; 6/8 feuilles russes =
+  pratique perso de Sanborn = Quagmire II/III à mot-clé (P/K/C), DÉJÀ éliminé ; K4 est le système de SCHEIDT,
+  multi-couches, à mots-clés (pluriel, enveloppe Webster). Aucune règle de calcul nouvelle.
+- **Format P/K/C confirmé** (feuilles Sanborn) = Plaintext/Key/Ciphertext (répond au P/C de l'image user).
+- **groups.io (MF papers, Mike's stuff)** : idée la plus concrète = 7×7 / largeur-7 dual columnar transposition +
+  Vigenère (7=|KRYPTOS|, engage l'excès écart-7). TESTÉ : dé-transposition largeur-7 TOUS les 5040 ordres de
+  colonnes + détecteur de période (w7_ic.c). Meilleur K4 colIC=0.0806 MAIS null P(null≥K4)=0.880 = BRUIT. NÉGATIF.
+- MF_Primes26-97 (alphabet dérivé des primes) : juste un alphabet public de plus ; n'ouvre aucun mécanisme mort.
+⇒ Les sources rassemblées CONFIRMENT le portrait-robot mais n'apportent AUCUN mécanisme testable neuf qui survive.
