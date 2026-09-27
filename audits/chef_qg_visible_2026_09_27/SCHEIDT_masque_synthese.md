@@ -111,3 +111,7 @@ apériodique-basse-dof n'est ni polynomial ni les autres testés (autoclé/Groma
 Lecture de K4 dans sa VRAIE grille gravée 28×31 (rows 24-27, cols 0-30) en colonne-major (spécifique à
 notre atout 3D). Détecteur de période : maxColIC 0.0444 (= K4 direct, aucune période révélée). σ=τ autoclé
 après cette transposition : charabia. NÉGATIF.
+
+## Autoclé sur CHIFFRÉ (ciphertext-autokey), σ=τ libre, tous écarts — NÉGATIF
+ac7g src=1, σ=τ libre, écarts 5-14, qg_big : charabia partout (best lag14 qoff −2.91 mais 13/24 cribs).
+(σ=τ ciphertext-autokey gap-7 a d'ailleurs la contradiction points-fixes : σ(Q)=σ(V)=0.) Famille close.
