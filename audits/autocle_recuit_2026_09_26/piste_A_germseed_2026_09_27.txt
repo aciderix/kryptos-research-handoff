@@ -1,0 +1,13 @@
+PISTE A — recuit autocle ecart-7 (ac7.c) sur K4 REEL, initialise depuis des alphabets STRUCTURES
+(germes sigma/tau), objectif quadgram. Date 2026-09-27. Agent MECA.
+base 13 avait teste recuit a froid + ancre-variete (germe CP-SAT) ; PAS depuis ces germes structures precis.
+
+qg.bin = 6.53M quadgrammes (plancher -8.82). Cible anglais ~ -4.3 (24/24 cribs). 400k iters/germe.
+germe sig=KRYPTOS  tau=AZ         -> qoff -5.20, cribs 7/24  (charabia)
+germe sig=K0keyed  tau=readK4first-> qoff -5.30, cribs 9/24  (charabia)
+germe sig=freqdesc tau=AZ         -> qoff -5.19, cribs 7/24  (charabia)
+germe sig=KRYPTOS  tau=KRYPTOS    -> qoff -5.26, cribs 7/24  (charabia)
+
+VERDICT : NEGATIF. Aucun germe structure ne mene le recuit vers une solution (tous ~-5.2, 7-9/24 cribs :
+l'annealer echange des cribs contre un peu d'anglais, reste du charabia). Confirme base 13 : le gradient
+quadgram ne guide pas depuis un point structure de la variete vers l'aiguille. Le blocage est la RECHERCHE.
