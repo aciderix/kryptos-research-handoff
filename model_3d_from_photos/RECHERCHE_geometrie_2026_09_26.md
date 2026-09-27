@@ -218,3 +218,23 @@ décalages (0/1-indexés), différences 4-1-2-1-1-5, Morse des nombres→bits→
 KRYPTOS→lettres, longueurs/bits Morse comme décalages, XOR 5 bits (« changer la base »). ×
 Vig/Beau/Var/XOR × alphabets AZ & KRYPTOS × tous décalages. **Meilleur = 4/24 (hasard 3,6 moy,
 max 7) → bruit. NÉGATIF.** Aucune clé dérivée simple (Morse/binaire/rangs) ne reproduit K4.
+
+## Addendum 11 — Clés auto-référentielles du site + clairs K1-3 + erreurs (idée utilisateur) — NÉGATIF
+Hypothèse (indice Sanborn « K1-3 liés à K4 ») : la clé de flux de K4 vient de la sculpture
+elle-même. Protocole : Vigenère (VIG/BEA/VAR × alphabets AZ & KRYPTOS × tous décalages) +
+autoclé écart-7 (flux clair et chiffré). **Contrôle positif validé** : K1/PALIMPSEST →
+alphabet KRYPTOS, Vigenère, 100 %.
+- **Mots gravés (site + Morse + clair K1-3)** : 104 candidats (BETWEEN, SHADING, IQLUSION,
+  INVISIBLE, UNDERGRUUND, LANGLEY, WW, WEBSTER, SLOWLY, DESPARATLY, CANYOUSEEANYTHING,
+  SHADOWFORCES, LUCIDMEMORY, VIRTUALLYINVISIBLE, TISYOURPOSITION, BERLINCLOCK,
+  EASTNORTHEAST, KRYPTOS…). Meilleur = **5/24**.
+- **A — clairs ENTIERS K1/K2/K3 comme flux long** (direct ET inversé, + concaténations).
+  Meilleur = **5/24**.
+- **B — « erreurs » de Sanborn** (IQLUSION, UNDERGRUUND, DESPARATLY, lettres fautives Q/U/A,
+  corrections L/O/E, « ? »). Meilleur = **4/24**.
+- **Null familial** (max sur 7000 essais aléatoires, répété) : moyenne des max = **5,7/24**,
+  95e centile 7. Nos meilleurs (4-5/24) sont **SOUS le plancher du hasard**.
+- **Verdict** : NÉGATIF. Aucune clé tirée du site, du clair de K1-3, ou des erreurs — ni en
+  Vigenère ni en autoclé écart-7 — ne reproduit les cribs. Ne réfute PAS un lien K1-3↔K4 qui
+  passerait par une étape de masquage/transposition (cas indécidable base 09 §6, hors portée
+  des 24 cribs). Scripts : scratchpad site_keys_test.py, AB_test.py.
