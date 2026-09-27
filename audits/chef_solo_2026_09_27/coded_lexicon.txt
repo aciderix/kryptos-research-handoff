@@ -1,0 +1,35 @@
+# Lexique « mots codés » K4 — GELÉ, sourcé knowledge-base (pré-spécifié, NON ajusté à un clair espéré)
+# Provenance stricte : cribs confirmés + thèmes déclarés par Sanborn (2025) + carnet « copper Veil »
+# (base 5, IMG_1580-82) + vocabulaire K1-K3. Aucun mot ajouté pour faire « lire » un candidat.
+# Usage : objectif = couverture par segmentation dans CE lexique + anglais courant.
+# GARDE-FOU (rigueur) : sur une variété dim-19, presque tout se segmente en QUELQUE chose.
+# Le test valable n'est PAS « le candidat se segmente » mais « le VRAI clair planté est un
+# OUTLIER net vs points aléatoires de la variété sous cet objectif ». Sinon = trap SolveKryptos.
+
+## Directions (rose des vents 16/32 points) — crib EASTNORTHEAST confirmé
+NORTH SOUTH EAST WEST
+NORTHEAST NORTHWEST SOUTHEAST SOUTHWEST
+EASTNORTHEAST EASTSOUTHEAST WESTNORTHWEST WESTSOUTHWEST
+NORTHNORTHEAST NORTHNORTHWEST SOUTHSOUTHEAST SOUTHSOUTHWEST
+NNE ENE ESE SSE SSW WSW WNW NNW
+
+## Horloge / Berlin (crib BERLINCLOCK confirmé ; indices 2025)
+BERLIN CLOCK BERLINCLOCK WELTZEITUHR WORLDCLOCK MENGENLEHREUHR
+WALL FALL DIAL RING SATURN HOUR TIME ALEXANDERPLATZ
+
+## Thèmes déclarés (Scientific American 2025, K2, parcours)
+EGYPT PYRAMID CARTER TOMB TUTANKHAMUN NINETEENEIGHTYSIX NINETEENEIGHTYNINE
+SHADOW LIGHT INVISIBLE VIRTUALLY MAGNETIC FIELD LODESTONE COMPASS
+BURIED LOCATION LAYER UNDERGROUND LANGLEY WEBSTER POSITION DELIVER MESSAGE
+NUANCE ILLUSION SHADING ABSENCE
+
+## Carnet « copper Veil » (base 5) — style : impératifs courts, décousus, fuite/évasion
+GRAB ROPE STEP SHORE BOAT LAND RUNWAY ARM HOLD RAFT QUICKLY HURRY
+DUCK CRAWL TUNNEL RUN FLY BREATH BREATHE COVER TAKECOVER QUIET GETDOWN
+HEART POUNDING CATCH SAFE HOME FREE METEORITE CODED WHERE LANDED
+
+## Anglais fonctionnel court (liants d'un clair « disjointed »)
+THE AND OF TO IN IS IT AT ON A X WAS ARE YOU YOUR WHO ONLY THIS THAT WITH FROM
+CAN SEE ANYTHING YES WONDERFUL THINGS
+
+# Séparateurs : Sanborn « toutes mes sections sont séparées par des X » (base 7 §7.1) → X = délimiteur de phrase.
