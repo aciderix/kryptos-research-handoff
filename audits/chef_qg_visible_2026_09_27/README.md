@@ -96,3 +96,14 @@ du modèle 2-alph Vig autoclé écart-7 par (public + 24 cribs), reproduite avec
 + objectif décisif. Trancher « pas de solution anglaise dans ce modèle » vs « aiguille manquée »
 exige l'ÉNUMÉRATION algébrique de la variété crib-cohérente scorée par qg_big (moteur MÉCA + qg_big).
 NB : PIN est spécifique au chiffré K4 (non validable sur contrôle générique) ; conclusion prudente.
+
+## 4. GARDE-FOU anti-pareidolia (wordfrag.c) — les « mots lisibles » sont des ARTEFACTS
+Les sorties de recuit contiennent des mots anglais ("YOU WILL", "VERY", "PAST GOT", + cribs).
+Démonstration qu'ils ne sont PAS du signal :
+- le MÊME optimiseur (σ=τ, cribs forcés) sur des chiffrés ALÉATOIRES (sans message) produit les
+  mêmes fragments (cribs forcés + mots incidents type SPEAK/SHOT). Couverture-mots aléatoire = 3-9%.
+- couverture-mots : aléatoire pur 0-9% ; sorties K4 en échec 13-34% (gonflée par l'optimiseur qui
+  MAXIMISE l'anglais + FORCE les cribs) ; vraie solution 42% ET qoff -1.77 ET lisible en continu.
+- "LIZY" = fuite du corpus (Austen, "Lizzy" fréquent) : biais du scoreur, pas un mot de K4.
+RÈGLE : ne jamais juger sur des mots aperçus. Solution « lue » SEULEMENT si qoff→~-2.0 ET prose
+continue ET cribs satisfaits SANS forçage. Aucune sortie K4 n'a franchi ce seuil.
