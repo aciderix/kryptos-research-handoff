@@ -114,3 +114,14 @@ Balayage déterministe : clés {K1K2K3, K2, K3, K2K3, K3K2, K2rev, K3rev} × σ 
 formes {Vig, Beaufort, variante} × TOUS offsets d'alignement. Score qg_big + cribs.
 Résultat : aucun combo n'atteint 12/24 cribs ni qoff > -2.9. **Négatif total.** La clé courante
 n'est pas le texte résolu de l'œuvre.
+
+## 6. Transposition ∘ substitution (transpo.c + quag2) — FERMÉ
+Hypothèse artiste (K4 = « différent/plus dur » : fusionne K3=transposition et K1/K2=substitution) :
+clair -(autoclé écart-7)-> intermédiaire -(transposition colonnaire)-> K4. On dé-transpose K4
+puis test DÉTERMINISTE (quag2) de l'autoclé à alphabets visibles fixes.
+Balayage : largeur W=2..24 × ordre colonnes {id, rev} × direction {inverse, avant} ×
+  - 6 paires d'alphabets (KRYPTOS/PALIMPSEST/ABSCISSA/A-Z, style Quagmire 2 alphabets) ;
+  - 15 mots-clés visibles en σ=τ.
+Résultat : **AUCUN hit** (meilleur qoff -3.51, 10/24 cribs, conflits). ⇒ K4 n'est pas une
+transposition colonnaire d'un autoclé à alphabet visible. (La transposition ∘ alphabet LIBRE
+resterait un grand espace de recherche = même mur dimensionnel que §0/§3, non déterministe.)
