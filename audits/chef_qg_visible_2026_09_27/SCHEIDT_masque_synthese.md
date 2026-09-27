@@ -60,3 +60,10 @@ lettre-déclencheur (interruptor) dans le CHIFFRÉ ; σ=KRYPTOS-keyé ; 20 mots-
 × Vig/Beau/var (interrupted.c, déterministe fixe donc pas de jeu). Meilleur : 5/24 cribs, **qoff −4,06** (pire
 que l'aléatoire). NÉGATIF net. (Variantes restantes non testées : interruptor sur le CLAIR, autres règles de
 reset, autres alphabets — prior faible ; à ne rouvrir qu'avec une raison.)
+
+## Outil de frontière : keyread.c (lecture directe du flux de clé)
+Pour un alphabet PUBLIC fixé, les 24 cribs DÉTERMINENT k_i=σ(c_i)∓σ(p_i) aux 24 positions. Si la clé est
+« simple/mémorisable » (Scheidt), ces 24 valeurs doivent montrer une structure. Pour σ=KRYPTOS (Vig/Beau/var) :
+AUCUNE constance par résidu mod 7, aucune progression arithmétique ⇒ clé non-structurée sous cet alphabet
+(cohérent avec périodique-public FERMÉ par MÉCA). **Usage frontière** : dès qu'une source de clé / un alphabet
+public candidat est proposé, keyread lit la clé aux 24 positions et teste la structure AVANT tout balayage.
