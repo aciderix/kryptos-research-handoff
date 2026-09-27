@@ -107,3 +107,10 @@ Démonstration qu'ils ne sont PAS du signal :
 - "LIZY" = fuite du corpus (Austen, "Lizzy" fréquent) : biais du scoreur, pas un mot de K4.
 RÈGLE : ne jamais juger sur des mots aperçus. Solution « lue » SEULEMENT si qoff→~-2.0 ET prose
 continue ET cribs satisfaits SANS forçage. Aucune sortie K4 n'a franchi ce seuil.
+
+## 5. Running-key auto-référentiel (runkey.c) — FERMÉ
+Hypothèse artiste : K4 se déchiffre avec le PROPRE texte résolu de l'œuvre (K1/K2/K3), 100% public.
+Balayage déterministe : clés {K1K2K3, K2, K3, K2K3, K3K2, K2rev, K3rev} × σ {KRYPTOS-keyé, A-Z} ×
+formes {Vig, Beaufort, variante} × TOUS offsets d'alignement. Score qg_big + cribs.
+Résultat : aucun combo n'atteint 12/24 cribs ni qoff > -2.9. **Négatif total.** La clé courante
+n'est pas le texte résolu de l'œuvre.
