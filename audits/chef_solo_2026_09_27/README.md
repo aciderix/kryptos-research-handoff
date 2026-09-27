@@ -40,3 +40,12 @@ Idem tableau (`kryptos_tableau_panel_flattened.png`) = table STANDARD (KRYPTOS k
 Sous tout autoclé (tout lag, σ=τ/2 alphabets, structuré/libre) K4 n'est pas déchiffrable depuis public+24 cribs ; seul l'autoclé écart-7 produit le profil. Le manque quantifié = **~16 lettres d'alphabet (2 alphabets)** externes au chiffré. Fronts offensifs restants (repris à 14h avec MÉCANISME) : masque de Scheidt comme vraie 1ʳᵉ étape (fractionnement/recombinaison AVANT substitution) ; Morse F-10 (règle figée) ; transpositions physiques 3D non colonnaires ; toute feature visible fixant plusieurs lettres d'alphabet. **On ne conclut PAS à l'impossibilité.**
 
 Outils C dans ce dossier. Branche chef : claude/stoic-faraday-e8oeoy. Branche MÉCANISME : claude/ecstatic-volta-cn51vq.
+
+## Vérification indépendante (chef solo, 2026-09-27 ~09h20) — les 2 négatifs porteurs confirmés
+1. **Contradiction σ=τ (base 9 §6) re-dérivée à la main** : pos 32 (S→S, clé p25=N) ⟹ σ⁻¹(N)=0 ; pos 73 (K→K, clé p66=L) ⟹ σ⁻¹(L)=0 ⟹ N et L à l'index 0 = contradiction exacte. Pas de bug.
+2. **Recherche free-alphabet intractable, reproduite indépendamment** : j'ai bâti un scorer quadgramme backoff (corpus repo : Carter+Nova+clairs K1-K3, 94k chars, build_qg.c) et fait tourner ac7 (moteur MÉCANISME).
+   - Contrôle positif INDEP (faux K4 anglais planté, 200k×40) : NON retrouvé (20/24 cribs, 33/97, charabia).
+   - Contrôle positif TIE σ=τ (300k×60) : NON retrouvé (21/24, 29/97).
+   - K4 réel INDEP (400k×80) : best 21/24 cribs, qoff −3.07, charabia (cribs formés par crib-soft, reste = bruit).
+   ⇒ la vraie solution est reconnaissable mais introuvable par recherche ; confirmé sur 3 configs. base 13 juste.
+Outils : build_qg.c (chef). qg.bin non committé (dérivable du corpus). Fronts NON-autoclé restent ouverts (masque-first, transpo 3D non-colonnaire, feature visible → 14h avec MÉCANISME).
