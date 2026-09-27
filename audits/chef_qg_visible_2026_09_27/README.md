@@ -159,3 +159,13 @@ padding/null/omission d'1 lettre. Signature à vérifier (MÉCA) : K4 omet-il ex
 2. « Masquage » de Scheidt NON-standard / LAYERED (combinaison), pas un chiffre de manuel — à modéliser depuis sources primaires (interviews Scheidt/Sanborn).
 3. Progressive/Trithemius linéaire (shift=a·i+b, tout alphabet/forme) : TESTÉ déterministe = négatif (max 7/24, charabia). Reste: interrompu/masquage Scheidt non-standard, LAYERED.
 ⇒ Redirection nette (PAS abandon) : comprendre la technique de « masquage » réelle de Scheidt + combinaisons multi-couches.
+
+## 9. Overlay géométrique 2-panneaux = clé-grille (overlay_key.c) — FERMÉ (lead géométrique de MÉCA)
+Le seul lead géométrique non tranché (overlay tableau +4% cellule-à-cellule, doc RECHERCHE_geometrie
+Test 2) se réduit à une CLÉ-GRILLE LINÉAIRE : shift_i=(A·row+B·col+C) mod 26 avec les coords (row,col)
+physiques MESURÉES de K4 (extraites du modèle 3D, k4_rowcol.csv, reconstruit K4 exactement).
+Subsume : overlay tabula-recta (A=B=1), « ID BY ROWS » (B=0), clé-colonne (A=0), diagonales, dérive +4%.
+Balayage déterministe A,B∈[-4,4] × C∈[0,25] × σ{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z} × formes{Vig,Beau,var}.
+Résultat : max 7/24 cribs, tout charabia (qg_big). **NÉGATIF.** ⇒ overlay géométrique/clé-grille/ID-BY-ROWS
+FERMÉS avec l'objectif décisif, sur la géométrie réelle. Cohérent avec RECHERCHE_geometrie (tout
+appariement statique table↔chiffré = bruit). Le lead géométrique est clos.
