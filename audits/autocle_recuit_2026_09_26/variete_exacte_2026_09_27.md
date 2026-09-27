@@ -48,7 +48,39 @@ charabia sous 1 erreur.
   faut une contrainte externe (qui violerait « 100 % visible »). La recherche `qg_big` intérieure
   reste la seule voie si on garde ce modèle (fusion), mais l'objet est intrinsèquement ambigu ici.
 
-## Portée
-Élimine proprement (algébre + qg_big) le cas **σ=τ alphabet libre** (non couvert avant) et
-**caractérise** l'ambiguïté du cas 2-alphabets. Reste offensif : cf. `bijcheck` généralisable à
-d'autres écarts/formes (Beaufort, variante) et à des couches non-autoclé.
+## Balayage de l'ÉCART (gapscan.c) — g=7 n'est PAS spécial ; toute la famille autoclé fermée
+`gapscan.c` mesure, pour chaque écart g=1..14, la dim de la variété crib-EXACTE et le nb de
+collisions forcées (impossibilité). Résultat :
+
+| g | TIE forcedPI (dim) | INDEP forcedTAU/SIG (dim) |
+|---|---|---|
+| 1 | 172 (dim4) IMPOSSIBLE | 22/18 (dim14) IMPOSSIBLE |
+| 2 | 73 IMPOSSIBLE | 15/6 IMPOSSIBLE |
+| 3 | 40 IMPOSSIBLE | 1/0 IMPOSSIBLE |
+| 4 | 47 IMPOSSIBLE | 1/1 IMPOSSIBLE |
+| 5 | 18 IMPOSSIBLE | **0/0 faisable dim19** |
+| 6 | 2 IMPOSSIBLE | 0/0 faisable dim20 |
+| **7** | **2 IMPOSSIBLE** | **0/0 faisable dim21** |
+| 8-11 | 3-4,1 IMPOSSIBLE | 0/0 faisable dim21-24 |
+| 12-14 | 0 faisable dim14-15 | 0/0 faisable dim26-27 |
+
+Lecture :
+- **g=7 (|KRYPTOS|) n'a rien de spécial** algébriquement : ni collision distinctive, ni dim basse.
+- **TIE alphabet libre : IMPOSSIBLE pour g=1..11**, sous-déterminé (dim≥14) pour g≥12. FERMÉ.
+- **INDEP alphabet libre : IMPOSSIBLE pour g=1..4** (sur-contraint — g=1 force 22+18 collisions !),
+  faisable seulement g=5..14 mais **toujours dim≥19** = massivement sous-déterminé.
+- **AUCUN écart ne donne une variété bien déterminée** : l'autoclé à alphabet libre est soit
+  impossible, soit sous-déterminé (dim≥19). Pour une solution UNIQUE publique il faudrait un
+  alphabet PUBLIC (mot-clé) — or le chef a fermé tous les alphabets mot-clé VISIBLES sous autoclé.
+
+## CONCLUSION (mécanisme) — famille autoclé écart-fixe ÉLIMINÉE
+En combinant : keyword σ=τ / 2-alph négatifs (chef, qg_big) + σ=τ libre impossible/charabia (ici) +
+2-alph libre sous-déterminé à tout écart (ici). ⇒ **K4 n'est pas un chiffre autoclé à écart fixe**
+(ni Vigenère ; formes Beaufort/variante = mêmes équations ±signes, mêmes conclusions de rang).
+Redirection : mécanisme NON-autoclé (clé périodique publique + couche visuelle/transposition non
+colonnaire, clé Berlin-Clock/nombre, ou masque non-1:1 hors bifid déjà fermé). Choix à instruire
+côté artiste/doc (chef). Interdits respectés (K5/Paradigm exclus, public, C, pas d'abandon).
+
+## Portée / outils
+`variety_dim.c` (dim), `bijcheck.c` (faisabilité permutation + drop cribs), `gapscan.c` (balayage
+écart), `tie_enum2.c` (énumération exacte scorée qg_big, contrôle positif PASS). Réutilisables.
