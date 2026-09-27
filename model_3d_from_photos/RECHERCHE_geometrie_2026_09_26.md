@@ -210,3 +210,11 @@ il faut le VOIR, pas le reconstituer (converge avec base 01 §358).
   l'anglais). **Sur K4 SEUL : ↘ z=+0,52, ↙ z=+1,13 = rien.** Seul l'écart-7 survit sur K4.
 - **Verdict** : le détecteur diagonal marche (s'allume sur l'anglais de K1-K3) mais **K4 est
   plat sur toutes les diagonales**. Idée diagonale fermée pour K4.
+
+## Addendum 10 — Clés dérivées Morse/binaire/rangs (idée utilisateur) — NÉGATIF
+Les 7 lettres manquantes de la suite alphabétique de la table = KRYPTOS (rangs 11,15,16,18,19,20,25).
+Batterie testée comme clé/masque de K4 (produit-elle les cribs ?) : KRYPTOS répété, rangs comme
+décalages (0/1-indexés), différences 4-1-2-1-1-5, Morse des nombres→bits→lettres 5 bits, Morse de
+KRYPTOS→lettres, longueurs/bits Morse comme décalages, XOR 5 bits (« changer la base »). ×
+Vig/Beau/Var/XOR × alphabets AZ & KRYPTOS × tous décalages. **Meilleur = 4/24 (hasard 3,6 moy,
+max 7) → bruit. NÉGATIF.** Aucune clé dérivée simple (Morse/binaire/rangs) ne reproduit K4.
