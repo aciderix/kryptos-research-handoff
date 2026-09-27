@@ -169,3 +169,16 @@ Balayage déterministe A,B∈[-4,4] × C∈[0,25] × σ{KRYPTOS,PALIMPSEST,ABSCI
 Résultat : max 7/24 cribs, tout charabia (qg_big). **NÉGATIF.** ⇒ overlay géométrique/clé-grille/ID-BY-ROWS
 FERMÉS avec l'objectif décisif, sur la géométrie réelle. Cohérent avec RECHERCHE_geometrie (tout
 appariement statique table↔chiffré = bruit). Le lead géométrique est clos.
+
+## 10. Écart-7 réel mais diffus + « masquage = transposition sur périodique » FERMÉ (contrôle nul)
+(a) **Excès écart-7 CONFIRMÉ** (gapstat.c) : K4 a 9 doublets chiffrés à l'écart 7 vs ~3.2 attendus
+(z=3.28, p≈0.005 ; 7 = |KRYPTOS| pré-spécifié). AUCUN autre écart ne ressort (|z|<1.5). MAIS les
+9 doublets sont DIFFUS (répartis sur les 7 résidus mod 7, tirés par O/K fréquents) ⇒ signal réel
+mais non-actionnable seul, et l'autoclé-7 (mécanisme évident) est PROUVÉ impossible (MÉCA).
+(b) **Hypothèse « masquage Scheidt = transposition masquant une périodicité polyalpha »** (product
+cipher : Vigenère périodique ∘ transposition ⇒ IC global plat, période cachée) : testée par
+détecteur de Friedman (ic_detect.c) — de-transposer puis chercher un IC-colonne réveillé.
+Meilleur K4 = colIC 0.0769. **CONTRÔLE NUL (ic_null.c, 2000 shuffles, même pipeline complet)** :
+mean_max=0.0742, P(null≥K4)=**0.275**. ⇒ le « signal » est du **bruit de tests-multiples sur texte
+court** ; aucune transposition ne révèle de périodicité réelle. **Product-cipher périodique∘transposition
+FERMÉ.** (Garde-fou anti-pareidolia appliqué : jugement sur le nul, pas sur le max brut.)
