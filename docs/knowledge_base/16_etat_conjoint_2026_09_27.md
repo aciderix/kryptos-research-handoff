@@ -128,7 +128,14 @@ public est exact.*
    via alphabet keyed (Quagmire) **exclu sous clair connu**. (Les fragments anglais qui apparaissent
    — « THE OUT EMPT », « HERIC ABLE FATH » — sont exactement les artefacts de paréidolie du garde-fou §1 :
    un optimiseur 26! en fabrique depuis N'IMPORTE quelle séquence, y compris le null.)
-4. **(rappel) :** IC(K)=0.039 (aléatoire), pas d'autocorrélation, **autoclé nul** (tout lag, clair & chiffré),
+4. **`kcomposite.c` — sonde « plus d'une étape » / composite (hint Scheidt), FERMÉE.** Une couche
+   progressive/LFSR/grille ou périodique+autoclé laisse une empreinte sous **différenciation / décimation /
+   retrait d'autoclé** même si le keystream brut paraît random. Testé : D1(K), D2(K), décimation pas 2-12,
+   retrait auto (K_i−K_{i-d}), retrait clair (K_i−P_{i-d}), retrait chiffré (K_i−C_{i-d}), d=0..14.
+   **RÉSULTAT : IC*26 ≈ 1.0 (aléatoire) PARTOUT.** Seuls « pics » = artefacts : Cremove d=0 =1.865 est la
+   tautologie triviale (K−C = −P = le clair anglais) ; décimation pas 7 =1.14 est du bruit (n=14).
+   ⇒ **aucune structure composite cachée.** Verdict quasi-OTP robuste.
+5. **(rappel) :** IC(K)=0.039 (aléatoire), pas d'autocorrélation, **autoclé nul** (tout lag, clair & chiffré),
    **pas de récurrence linéaire** sur les blocs crib fiables B1=`BLZCDCYYGCKAZ`, B2=`MUYKLGKORNA`.
 
 **VERDICT CONJOINT (chef ; MÉCA : confirmation moteur exact en attente).** Le keystream de K4 est
