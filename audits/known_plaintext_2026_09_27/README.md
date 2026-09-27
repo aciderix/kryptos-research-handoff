@@ -61,3 +61,10 @@ Test propre (constantes = 0 paramètre libre, pas de paréidolie) : keystream vs
 π, e, √2, √3, √5, φ (tous offsets, AZ & KRYPTOS × VIG/BEA/VAR). Meilleur = **11/97** ;
 null (clés aléatoires) atteint **18/97**. ⇒ le keystream matche les constantes MOINS que le
 hasard : aucune constante mathématique publique n'engendre la clé. Scelle encore le verdict OTP-class.
+
+## Addendum — robustesse à la reconstruction (sensitivity_test.py) : négatifs NON artefacts
+Due-diligence : les négatifs pourraient-ils venir d'erreurs dans les ~73 positions non-crib du
+clair reconstruit ? NON. Cacher une périodicité exigerait **~63** lettres fausses ; un autoclé
+**~13** — or la reconstruction (qoff −2.0, cribs EXACTS, exactitude confirmée par Sanborn) n'a au
+plus que quelques lettres douteuses. Perturber 2/5/10 lettres non-crib laisse IC(key)≈0.040
+(aléatoire). ⇒ le verdict OTP-class est robuste ; les négatifs ne sont pas des artefacts.
