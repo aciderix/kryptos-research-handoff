@@ -1,0 +1,47 @@
+Experience (d) — le mur "alphabet libre intractable" (base 13) est-il un artefact de l'OBJECTIF ?
+Date 2026-09-27. Agent MECA, en reponse a l'idee du chef (msg mesh 985cd0da).
+
+HYPOTHESE (chef) : base 13 conclut "intractable" avec un controle positif dont le clair = anglais
+Gutenberg fluide. Mais le clair de K4 est "enigmatique/decousu, mots codes" (Sanborn/Scheidt ; base 4
+D). Si le vrai clair K4 score BAS en quadgram anglais (comme le charabia crib-consistant ~-7), alors
+le quadgram ne peut PAS discriminer la verite => "intractable" serait un artefact d'objectif, mur
+ROUVERT ; passer a un objectif "couverture lexicale".
+
+PROTOCOLE : qg.bin construit ici (6.53M quadgrammes Gutenberg, plancher -8.82). Moteur ac7.c
+(autocle ecart-7 VIG, deux alphabets libres sigma,tau ; kappa amorce). On fabrique un controle positif
+(ac7 gen) a partir d'un clair, cribs inseres, sigma/tau/kappa aleatoires ; on mesure le qoff (quadgram
+hors-cribs) de la VERITE, la sonde d'identifiabilite (recuit demarre DEPUIS la verite : reste-t-elle un
+optimum ?), et l'attaque a froid (meilleur charabia atteignable).
+
+CLAIRS TESTES (97 lettres, cribs 21-33/63-73 inseres par gen) :
+- anglais : extrait Gutenberg (pg1342).
+- mots-codes (style "Veil", base 5 IMG_1580-82 + directions + Berlin/clock) :
+  EASTNORTHEAST BERLIN... GRAB THE ROPE DUCK CRAWL TUNNEL RUN HOLD YOUR BREATH TAKE COVER QUIET
+  GET DOWN WEST SOUTH ...
+
+RESULTATS :
+  clair anglais (verite)                         : qoff = -4.33 (24/24 cribs)
+  clair mots-codes (verite)                      : qoff = -4.78 (24/24 cribs)
+  identifiabilite mots-codes (recuit DES la verite): qoff = -4.77, cribs 24/24, RECUPERE 96/97
+  attaque A FROID (6 restarts, mots-codes)       : qoff = -5.44, cribs 11/24, recupere 17/97 (charabia)
+  (rappel base 13 : charabia crib-consistant ~ -7.1 a -7.6)
+
+VERDICT : HYPOTHESE NON CONFIRMEE. Le clair mots-codes score -4.78, PAS -7 : il reste NETTEMENT
+au-dessus du charabia, et il demeure un OPTIMUM FORT et IDENTIFIABLE sous le quadgram anglais (recuit
+depuis la verite reste a 96/97). Raison : le style "Veil" est fait de MOTS ANGLAIS courts (GRAB, ROPE,
+DUCK, CRAWL, TUNNEL, RUN, HOLD, BREATH, COVER, QUIET, WEST, SOUTH) ; seuls quelques quadgrammes de
+jonction sont mediocres (TNO, STN...), la moyenne sur 97 lettres reste ~anglaise. Donc le discriminateur
+base 13 n'est PAS mal specifie : le mur est une INTRACTABILITE DE RECHERCHE (trouver l'aiguille dans la
+variete crib-consistante dim-18), pas un artefact d'objectif.
+
+CONSEQUENCE : un objectif "couverture lexicale" n'ameliorerait pas la RECONNAISSANCE (deja bonne, la
+verite est un optimum) ; il ne pourrait aider que la RECHERCHE (gradient plus lisse). Le blocage de fond
+reste : la variete crib-consistante est trop grande, il faut plus de CONTRAINTE (K5) ou une recherche
+fondamentalement meilleure. base 13 est CONFIRMEE, pas rouverte.
+
+CAVEAT (steelman) : un clair fait de tokens NON-anglais (pur code numerique/compas sans mots) scorerait
+plus bas ; mais ce n'est pas le style documente de Sanborn (mots codes = MOTS reels a double sens,
+"coca-cola" Scheidt 2015 ; Compass/Cryptonyms = mots). Le test couvre le style reel plausible.
+
+Fichiers (scratchpad, non versionnes : qg.bin 1.8MB, corpus) ; reproductible via corpus_get.sh +
+build_qg.c + ac7.c (gen/score/attack). Seed gen=42.
