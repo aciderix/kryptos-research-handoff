@@ -106,3 +106,8 @@ Résout la tension IC↔résolubilité par un autre biais : peu de dof (a,b,c[,d
 hand-computable. Énumération complète deg2 (26³) et deg3 (26⁴) × Vig/Beau/var × alphabets{KRYPTOS,PALIMPSEST,ABSCISSA,A-Z}.
 Meilleur 9/24 cribs, qoff −3.68..−4.02 = charabia. NÉGATIF (déterministe/décisif). ⇒ le générateur de clé
 apériodique-basse-dof n'est ni polynomial ni les autres testés (autoclé/Gromark/récurrence).
+
+## Transposition grille PHYSIQUE 31-large (modèle 3D, colonne-major) — NÉGATIF
+Lecture de K4 dans sa VRAIE grille gravée 28×31 (rows 24-27, cols 0-30) en colonne-major (spécifique à
+notre atout 3D). Détecteur de période : maxColIC 0.0444 (= K4 direct, aucune période révélée). σ=τ autoclé
+après cette transposition : charabia. NÉGATIF.
