@@ -1,0 +1,31 @@
+Dimension de la variete crib-consistante (autocle ecart-7 Vig, 2 alphabets libres) et effet des
+contraintes ecart-7 (idee chef). Moteur variety_dim.c (rang exact mod 2 et mod 13). 2026-09-27.
+
+Derivation (chef, CORRECTE) : c_i=c_{i+7} => (tau injective) sigma^-1(p_{i-7})=sigma^-1(p_{i+7})
+=> p_{i-7}=p_{i+7}, independant de sigma,tau. La ou un cote est crib -> lettre de clair a position neuve.
+
+MESURE (bookkeeping : 26 tau + 7 kappa + 26 sigma ; on inclut kappa explicitement, d'ou dim=21
+la ou base13 en compte 18 apres elimination de kappa -- le DELTA est ce qui compte) :
+  24 cribs (base 13)            : dim2=21 dim13=21
+  + p8=A  (c15=c22)             : dim inchange
+  + p39=N (c32=c39)             : dim inchange
+  + p83=C (c76=c83)             : dim inchange
+  + p0=p14, p5=p19, p38=p52, p79=p93 : dim inchange
+  + p20=C, p58=C (derivables)   : dim inchange
+  => RANG INCHANGE a chaque ajout : AUCUNE reduction de la variete.
+
+CAUSE (verifiee a la main) : une coincidence c_i=c_{i+7} est LITTERALEMENT une lettre chiffree
+REPETEE (K4[15]=K4[22]=L ; K4[32]=K4[39]=S ; K4[76]=K4[83]=D ; K4[7]=K4[14]=O ; ...). La contrainte
+p_{i-7}=p_{i+7} se reduit alors a tau(x)=tau(x) (ex. tau(L)=tau(L)) : TAUTOLOGIE, vraie pour tout
+(sigma,tau). Elle ne contraint donc PAS les alphabets.
+
+CONSEQUENCE :
+- NEGATIF pour la reduction de variete : la piste "contraintes ecart-7 -> variete plus petite -> B'
+  tractable" NE marche pas. La variete reste dim ~18 (base 13), intractable. B' inchange.
+- POSITIF (modeste, public, CONDITIONNEL au modele autocle-Vig + coincidence mecanique, ~3.3/9
+  attendues par hasard) : on obtient des LETTRES DE CLAIR GRATUITES, vraies dans TOUTE solution :
+  p8=A, p20=C, p39=N, p58=C (=p72 crib), p83=C ; + egalites p0=p14, p5=p19, p38=p52, p79=p93.
+  C'est une extension du clair connu au-dela des 24 cribs officiels (utile pour valider/lire une
+  solution, pas pour la trouver).
+
+Reproductible : variety_dim.c (autonome, pas de dependance).
