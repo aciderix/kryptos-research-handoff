@@ -1,25 +1,49 @@
-H-VISIBLE-ALPHABET — BATCH 1 (ordre spatial du texte grave) — 2026-09-27
-Moteur : visible_sweep.c (autocle ecart-7 ; sigma,tau in {14 candidats spatiaux + AZ + KRYPTOS} ;
+H-VISIBLE-ALPHABET — famille GELEE des 19 alphabets d'ordre spatial — 2026-09-27
+Moteur : visible_sweep.c (autocle ecart-7 ; sigma,tau in {19 candidats spatiaux + AZ + KRYPTOS} = 21 ;
 VIG/BEAU/VAR ; cle=PLAIN et CIPHER ; kappa derive des cribs). Controle positif + temoins K4-melange.
+Famille gelee par le chef (anti-fishing) : 19 conventions nommees, pre-enregistrees, non ajustables.
+Les memes 21 alphabets sont appliques aux temoins (comparaison au niveau FAMILLE).
 
-CONTROLE POSITIF : PASS (6/6 configs, err=0 ; PLAIN rec=97/97, CIPHER rec=90/97 = 7 tetes de
-chaine non contraintes par les cribs, normal, cf. base 15 S3).
+Les 19 candidats (alpha[pos]=lettre) :
+ 0 read_full_first        EMUFPHZLRAXYSDJKNGIVQTBWCO
+ 1 read_full_first_REV    RACKEUHGIDJTXZWPFMVYNBLSQO
+ 2 read_full_last         OQSLBNYVMFPWZXTJDIGHUEKCAR
+ 3 read_K4_first          OBKRUXGHLSIFWVQPNTJEZADYMC
+ 4 colmajor_first         EYVGTQHFDCWBARUMIZLNPSKOXJ
+ 5 colmajor_first_REV     IRXJPOBTCEFDAVYSKQHNLGUMWZ
+ 6 colmajor_mirror_first  JXRIVDEAFPCTBONHKQYSMLUGZW
+ 7 colmajor_mirror_K4     ROPKSYABNCGFEUIWQHVDLJTXZM
+ 8 rows_upsidedown        VTMZFPKWGDXJCIUHAERQSLNBYO
+ 9 rows_mirror_first      JVIFNGHSRKDLZUYXAPMETQBCWO
+10 rows_mirror_K4         RKBOSGNPQVLFWIUHXYADJTZECM
+11 arc_first              EFCUGVYTAQRDBHWNIMLPZSKOXJ
+12 arc_first_REV          QRTFPEIXBOAKJDNSCYHLVZUMWG
+13 boustrophedon          EMUFPHZLRAXYSDJKNGIVTQBWCO
+14 diag_sum_first         EMYUQVFTGPHJWIZXLDKRBACNSO
+15 diag_sum_first_REV     RAPCYOKNSEBIUFGHLTWDQMVJXZ
+16 antidiag_first         JVIDFENMCGAHRLSYQUKTXZBPWO
+17 freq_desc              ETDFNLRHAUQMIGSPKOZVWYJBCX  (keye par frequence -- "le masque enleve le biais")
+18 freq_asc               XCBJYWVZOKPSGIMQUAHRLNFDTE
 
-K4 REEL :
-  1536 configs (16 sig x 16 tau x 3 conv x 2 src). survivants a tol<=2 : 0. a tol<=4 : 0.
-  min_crib_errors(K4) = 12 / 24.
+CONTROLE POSITIF : PASS (6/6 configs, err=0 ; PLAIN 97/97, CIPHER 90/97 = amorce non contrainte).
 
-TEMOINS K4-MELANGE (2000, seed 12345) :
-  P(temoin_min <= K4_min=12) = 1678/2000 = 0.839
-  dont exactement 12 : 1353/2000
-  histogramme min-erreurs : 9:1  10:27  11:297  12:1353  13:322
+K4 REEL : 2646 configs (21x21x3x2). survivants tol<=2 : 0. tol<=4 : 0. min_crib_errors(K4) = 12/24.
 
-VERDICT : NEGATIF, CONTROLE. K4 se comporte comme un texte aleatoire de meme multiset :
-il est dans le MODE de la distribution des temoins (12). Les 14 alphabets derives de
-l'ordre spatial du texte grave ne rendent pas les cribs compatibles sous l'autocle ecart-7,
-ni comme sigma ni comme tau, dans aucune des 3 conventions ni des 2 sources de cle.
-La borne ~12/24 est le plancher atteignable en choisissant parmi ces 16 alphabets pour
-N'IMPORTE quel texte -> ces alphabets-la n'apportent aucune contrainte utile.
+TEMOINS K4-MELANGE (2000, seed 12345), MEME famille de 21 alphabets :
+  P(temoin_min <= K4_min=12) = 1900/2000 = 0.950
+  dont exactement 12 : 1389/2000
+  histogramme min-erreurs : 9:1  10:40  11:470  12:1389  13:100
 
-Portee : ferme BATCH 1 de H-VISIBLE-ALPHABET. Ne ferme PAS la classe "feature visible"
-en general (BATCH 2 = decimations du tableau KRYPTOS ; BATCH 3 = autres sources, a venir).
+VERDICT : NEGATIF FORT, CONTROLE, AU NIVEAU FAMILLE. K4 est dans le MODE de la distribution
+des temoins (12) et 95% des textes aleatoires de meme multiset font aussi bien ou mieux avec
+CETTE MEME famille. => l'alphabet de K4 n'est PAS encode dans l'ordre visible des lettres du
+chiffre (lecture/reverse/flip/miroir/transpose/arc/diagonale/antidiag/boustrophedon/frequence),
+ni comme sigma ni comme tau, dans aucune convention ni source de cle, a 0-4 erreurs.
+
+Combine avec la relecture HD du TABLEAU par le chef (table STANDARD, aucun alphabet cache) :
+les DEUX sources visibles d'un alphabet arbitraire (tableau grave ; ordre spatial du chiffre)
+sont fermees. => si l'autocle ecart-7 est le squelette, l'alphabet libre ne vient PAS d'une
+feature visible enumerable de cette maniere. Reste (base 15) : soit une convention visible non
+encore imaginee, soit une etape non-1:1 (batch 3 : decimations x m mod 97, a venir), soit K5.
+
+Portee : ferme la famille "ordre spatial visible" (batch 1+increment). Ne ferme pas batch 3.

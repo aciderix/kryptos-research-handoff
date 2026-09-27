@@ -33,23 +33,30 @@ static void setcribs(void){const char*e="EASTNORTHEAST",*b="BERLINCLOCK";
   for(int i=0;i<11;i++){iscrib[CB[i]]=1;cribL[CB[i]]=b[i]-'A';}}
 static inline int md(int x){x%=26;return x<0?x+26:x;}
 
-/* 16 alphabets: 14 candidats spatiaux + AZ + KRYPTOS (alpha[pos]=lettre) */
-static const char *ANAME[16]={
+/* 21 alphabets: 19 candidats spatiaux (famille GELEE, chef) + AZ + KRYPTOS (alpha[pos]=lettre) */
+#define M 21
+#define IAZ 19
+#define IKRY 20
+static const char *ANAME[M]={
  "read_full_first","read_full_first_REV","read_full_last","read_K4_first",
  "colmajor_first","colmajor_first_REV","colmajor_mirror_first","colmajor_mirror_K4",
  "rows_upsidedown","rows_mirror_first","rows_mirror_K4","arc_first","arc_first_REV",
- "boustrophedon","AZ","KRYPTOS"};
-static const char *ALPHA[16]={
+ "boustrophedon",
+ "diag_sum_first","diag_sum_first_REV","antidiag_first","freq_desc","freq_asc",
+ "AZ","KRYPTOS"};
+static const char *ALPHA[M]={
  "EMUFPHZLRAXYSDJKNGIVQTBWCO","RACKEUHGIDJTXZWPFMVYNBLSQO","OQSLBNYVMFPWZXTJDIGHUEKCAR",
  "OBKRUXGHLSIFWVQPNTJEZADYMC","EYVGTQHFDCWBARUMIZLNPSKOXJ","IRXJPOBTCEFDAVYSKQHNLGUMWZ",
  "JXRIVDEAFPCTBONHKQYSMLUGZW","ROPKSYABNCGFEUIWQHVDLJTXZM","VTMZFPKWGDXJCIUHAERQSLNBYO",
  "JVIFNGHSRKDLZUYXAPMETQBCWO","RKBOSGNPQVLFWIUHXYADJTZECM","EFCUGVYTAQRDBHWNIMLPZSKOXJ",
  "QRTFPEIXBOAKJDNSCYHLVZUMWG","EMUFPHZLRAXYSDJKNGIVTQBWCO",
+ "EMYUQVFTGPHJWIZXLDKRBACNSO","RAPCYOKNSEBIUFGHLTWDQMVJXZ","JVIDFENMCGAHRLSYQUKTXZBPWO",
+ "ETDFNLRHAUQMIGSPKOZVWYJBCX","XCBJYWVZOKPSGIMQUAHRLNFDTE",
  "ABCDEFGHIJKLMNOPQRSTUVWXYZ","KRYPTOSABCDEFGHIJLMNQUVWXZ"};
 
-static int PERM[16][26];       /* perm[letter]=pos */
+static int PERM[M][26];       /* perm[letter]=pos */
 static void build_perms(void){
-  for(int a=0;a<16;a++){
+  for(int a=0;a<M;a++){
     int seen[26]={0},n=0;
     for(int p=0;p<26;p++){int L=ALPHA[a][p]-'A'; PERM[a][L]=p; seen[L]=1; n++;}
     if(n!=26){fprintf(stderr,"ALPHA %d not 26!\n",a);exit(2);}
@@ -99,7 +106,7 @@ static void encrypt(int conv,int src,const int*sig,const int*tau,const int*kap,c
 /* min erreurs de crib sur tous les configs (16 sig x 16 tau x 3 conv x 2 src) pour un ct donne */
 static int sweep_min(const int*ct){
   int mn=99;
-  for(int s=0;s<16;s++)for(int t=0;t<16;t++)for(int c=0;c<3;c++)for(int k=0;k<2;k++){
+  for(int s=0;s<M;s++)for(int t=0;t<M;t++)for(int c=0;c<3;c++)for(int k=0;k<2;k++){
     int e=decode(c,k,ct,PERM[s],PERM[t],NULL); if(e<mn)mn=e;
   }
   return mn;
@@ -113,7 +120,7 @@ int main(int argc,char**argv){
     int ok=1;
     for(int conv=0;conv<3;conv++)for(int src=0;src<2;src++){
       rs=1000+conv*7+src;
-      int si=0,ti=14; /* sig=read_full_first, tau=AZ (candidat x connu) */
+      int si=0,ti=IAZ; /* sig=read_full_first, tau=AZ (candidat x connu) */
       int kap[LAG];for(int i=0;i<LAG;i++)kap[i]=rnd()%26;
       int pt[N];for(int i=0;i<N;i++)pt[i]=rnd()%26;
       for(int i=0;i<24;i++){int p=(i<13?CE[i]:CB[i-13]);pt[p]=cribL[p];}
@@ -132,7 +139,7 @@ int main(int argc,char**argv){
   if(argc>=2&&!strcmp(argv[1],"run")){
     int tol=argc>2?atoi(argv[2]):2;
     long tested=0,surv=0; int gmin=99;
-    for(int s=0;s<16;s++)for(int t=0;t<16;t++)for(int c=0;c<3;c++)for(int k=0;k<2;k++){
+    for(int s=0;s<M;s++)for(int t=0;t<M;t++)for(int c=0;c<3;c++)for(int k=0;k<2;k++){
       int pt[N]; int e=decode(c,k,ct,PERM[s],PERM[t],pt); tested++;
       if(e<gmin)gmin=e;
       if(e<=tol){surv++;
@@ -155,7 +162,7 @@ int main(int argc,char**argv){
       for(int i=N-1;i>0;i--){int j=rnd()%(i+1);int tmp=sh[i];sh[i]=sh[j];sh[j]=tmp;}
       int m=sweep_min(sh); if(m<25)hist[m]++; if(m<=k4min)le++; if(m==k4min)eq++;
     }
-    printf("K4 min_crib_errors = %d (sur 16x16x3x2=1536 configs)\n",k4min);
+    printf("K4 min_crib_errors = %d (sur %dx%dx3x2=%d configs)\n",k4min,M,M,M*M*6);
     printf("temoins K4-melange = %d ; P(temoin_min <= K4_min) = %d/%d = %.4f\n",nwit,le,nwit,(double)le/nwit);
     printf("dont == : %d\n",eq);
     printf("histogramme min-erreurs temoins:\n");
