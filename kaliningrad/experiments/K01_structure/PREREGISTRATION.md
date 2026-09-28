@@ -30,3 +30,15 @@ Texte allemand réservé de 1 000 lettres en 6 blocs : (a) un même bloc transpo
 
 ## Portée
 Tests de structure seulement ; aucune « lecture » ne sera proposée à ce stade.
+
+## Amendement 1 (2026-09-28, avant tout calcul sur le texte réel ; seuls les contrôles synthétiques n'avaient pas encore tourné)
+1. **Données** : le test porte sur `data/transcription_v1.txt` (confrontation avec la transcription indépendante de Corsair_nv, voir
+   `docs/01_transcription_v1.md`) : le glyphe « x » de v0 est un r cursif (noté r), 5 lectures corrigées en z. v0 est rejouée en
+   **sensibilité** (T1-T3 sont presque insensibles aux étiquettes ; T4, lui, n'a de sens qu'avec r).
+2. **Sections** : correction d'un compte erroné dans le texte ci-dessus. Il y a 6 lettres soulignées, donc 6 blocs complets
+   S1..S6 = 166, 169, 162, 169, 169, 144 lettres (le bloc de 144 est S6 ; le bloc final « eimat » est exclu). T1-T3 portent sur ces
+   6 blocs ; sensibilité : S1..S5 seuls (longueurs 162-169).
+3. **Contrôles** : les tailles des blocs synthétiques sont celles de v1. Un contrôle (e) est ajouté pour T4 : mots allemands sous une
+   substitution simple (T4 doit y rester au niveau du hasard, sinon il répond à autre chose qu'à l'anagramme).
+4. **Lexiques de T4** : `wordfreq` (50 000 mots les plus fréquents) pour de, nl, en, sv, da, cs, pl, fr, it ; le latin n'est pas
+   disponible dans `wordfreq` et est abandonné. Null T4 : 200 tirages. T3 : 300 permutations (coût de calcul), les autres 10 000.

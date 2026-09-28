@@ -15,4 +15,6 @@ télégramme à livre de code) et les autres sont trop courts, déjà travaillé
   e, n, r, i, s « comme l'allemand » (Thomas) ⇒ idée de transposition d'un texte allemand ; lettres soulignées à intervalles presque
   réguliers ⇒ sections de 162-169 lettres (Norbert) ; hypothèse « le même passage chiffré 7 fois » (T. Ernst, transcription partielle
   des sections 1-2) ; lectures allemandes partielles non concluantes (A. Ulyanenkov : « Heimat »). Aucune solution.
-- Un blog russe (dirty.ru) aurait une transcription et un comptage : **inaccessible** depuis cet environnement (politique réseau).
+- Un blog russe (dirty.ru) aurait une transcription et un comptage : inaccessible sous ce domaine, mais **lu sur d3.ru** (lien
+  fourni par le user) : transcription complète de Corsair_nv (14/07/2015) et fréquences ; aucune analyse cryptographique dans les
+  42 commentaires. Voir `01_transcription_v1.md`.
