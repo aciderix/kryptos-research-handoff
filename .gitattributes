@@ -1,1 +1,1 @@
-sources/aaa_sanborn_papers/*.pdf filter=lfs diff=lfs merge=lfs -text
+kryptos/sources/aaa_sanborn_papers/*.pdf filter=lfs diff=lfs merge=lfs -text
