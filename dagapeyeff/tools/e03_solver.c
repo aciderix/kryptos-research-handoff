@@ -128,7 +128,7 @@ int main(int argc,char**argv){
       for(int r=0;r<H;r++)for(int c=0;c<W;c++) S[Pt[c]*H+r]=sy[txt[r*W+c]];
       { int mt0[25]; for(int i=0;i<25;i++) mt0[i]=letters[i]; int Pd[14]; best_key(mt0,Pd); int okk=0; for(int c=0;c<W;c++) okk+=(Pd[c]==Pt[c]);
         printf("   [diag] DP avec le vrai carré : %d/%d colonnes à la bonne place\n",okk,W); }
-      { double ft=inv_score(Pt); double fb=-1; int okb=0; for(int z=0;z<5;z++){ int Pk[14]; for(int c=0;c<W;c++)Pk[c]=c; for(int i=W-1;i>0;i--){int j=rnd()%(i+1);int x=Pk[i];Pk[i]=Pk[j];Pk[j]=x;}
+      if(getenv("DIAGINV")){ double ft=inv_score(Pt); double fb=-1; int okb=0; for(int z=0;z<5;z++){ int Pk[14]; for(int c=0;c<W;c++)Pk[c]=c; for(int i=W-1;i>0;i--){int j=rnd()%(i+1);int x=Pk[i];Pk[i]=Pk[j];Pk[j]=x;}
           double fz=key_anneal_inv(Pk,200000); if(fz>fb){fb=fz; okb=0; for(int c=0;c<W;c++){ /* adjacences correctes */ for(int d=0;d+1<W;d++) if(Pk[c]==Pt[d]&&c+1<W&&Pk[c+1]==Pt[d+1]) okb++; }} }
         printf("   [diag] invariant : vraie clé %.0f ; meilleur trouvé %.0f (adjacences justes %d/%d)\n",ft,fb,okb,W-1); }
       int P[14],mp[25],pl[196]; double q=solve(P,mp,NULL); plain_of(P,pl); int rec=0; for(int i=0;i<N;i++) if(mp[pl[i]]==txt[i]) rec++;
@@ -143,6 +143,15 @@ int main(int argc,char**argv){
     int P[14],mp[25],pl[196]; double pr[256]; double q=solve(P,mp,pr); plain_of(P,pl);
     printf("MEILLEUR qoff=%.3f ; clé (bloc lu par colonne du clair) :",q); for(int c=0;c<W;c++)printf(" %d",P[c]+1); printf("\nCLAIR=");
     for(int i=0;i<N;i++)putchar('A'+mp[pl[i]]); printf("\n");
+    { /* vérification directe : clair + carré + clé -> chiffré -> grille imprimée (+ nulles conservées en B) -> 392 chiffres */
+      int inv[26]; for(int l=0;l<26;l++)inv[l]=-1; int pres[25]={0}; for(int i=0;i<N;i++)pres[S[i]]=1; int coll=0;
+      for(int sy=0;sy<25;sy++) if(pres[sy]){ if(inv[mp[sy]]>=0)coll++; inv[mp[sy]]=sy; }
+      int S2[196]; for(int r=0;r<H;r++)for(int c=0;c<W;c++) S2[P[c]*H+r]=inv[mp[pl[r*W+c]]];
+      int G[196],k=0; for(int i=0;i<196;i++) G[i]=(GEO==0||i%14!=13)?S2[k++]:CT196[i];
+      FILE*g=fopen(argv[2],"r");char d[1000];int nd=0,ch;while((ch=fgetc(g))!=EOF)if(ch>='0'&&ch<='9')d[nd++]=ch;fclose(g);
+      const char rowd[5]={'6','7','8','9','0'}; int bad=0;
+      for(int i=0;i<196;i++) if(G[i]<0||d[2*i]!=rowd[G[i]/5]||d[2*i+1]!='1'+G[i]%5) bad++;
+      printf("ré-enchiffrement : %d/196 paires différentes, collisions carré=%d %s\n",bad,coll,(bad||coll)?"ÉCHEC":"(exact)"); }
     int same=0; for(int R=0;R<RESTARTS;R++) if(pr[R]>=q-0.02) same++; printf("redémarrages atteignant le meilleur (±0,02) : %d/%d\n",same,RESTARTS);
     return 0; }
   return 1; }
