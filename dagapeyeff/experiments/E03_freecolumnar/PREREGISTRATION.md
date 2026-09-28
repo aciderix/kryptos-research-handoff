@@ -62,4 +62,12 @@ Sinon : **négatif**, consigné tel quel.
 
 ## Contrôles définitifs (24 départs)
 - E03-B7 : **10/10** (179-182/182 lettres ; qoff −9,23 … −10,16 ; min récupéré **−10,156**) → admissible.
-- E03-B13, B14, A14 : en cours.
+- E03-B13, B14, A14 avec ce solveur (DP exacte dans le recuit du carré) : trop lent (30-60 min par contrôle,
+  B13 1/3, B14 1/1, A14 1/1 au moment de l'arrêt ; `logs/mise_au_point_v2/`).
+
+## AMENDEMENT 1 (avant tout run réel de B13, B14, A14) — solveur accéléré
+Pendant le recuit du carré, la DP exacte est remplacée par la **relaxation d'affectation** (algorithme hongrois,
+majorant du meilleur chemin, O(W³)) ; la clé finale reste calculée **exactement** par DP à chaque alternance.
+Réglages : SIGIT = 20 000, ROUNDS = 6, RESTARTS = 24 (≈ 15 s par résolution en largeur 14). Mêmes cellules,
+mêmes critères, même seuil (≥ 6/10 contrôles). B7 (déjà exécutée avec la version exacte) est re-contrôlée avec
+cette version pour comparaison, sans nouveau run réel.

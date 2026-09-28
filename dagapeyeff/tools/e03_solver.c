@@ -65,15 +65,28 @@ static double dp_value(const int*map,int*P){
   double gb=-1e30; int be=0; for(int e=0;e<W;e++) if(DPv[(long)full*W+e]>gb){gb=DPv[(long)full*W+e];be=e;}
   if(P){ int m=full,cur=be; for(int i=W-1;i>=0;i--){ P[i]=cur; int pv=DPp[(long)m*W+cur]; m&=~(1<<cur); cur=pv; } }
   return gb; }
+/* (1c) relaxation d'affectation : max sum A[x][succ(x)] sur les permutations succ sans point fixe (sous-tours
+ * permis) — algorithme hongrois O(W^3) ; majorant rapide du meilleur chemin, utilisé pendant le recuit du carré */
+static double assign_value(const int*map){
+  for(int x=0;x<W;x++)for(int y=0;y<W;y++){ double a=0; for(int r=0;r<H;r++) a+=BG[map[S[x*H+r]]][map[S[y*H+r]]]; A[x][y]=a; }
+  int n=W; double u[15]={0},v[15]={0}; int p[15]={0},way[15]={0};
+  for(int i=1;i<=n;i++){ p[0]=i; int j0=0; double minv[15]; int used[15]; for(int j=0;j<=n;j++){minv[j]=1e30;used[j]=0;}
+    do{ used[j0]=1; int i0=p[j0],j1=0; double delta=1e30;
+      for(int j=1;j<=n;j++) if(!used[j]){ double cost=(i0-1==j-1)?1e6:-A[i0-1][j-1]; double cur=cost-u[i0]-v[j];
+        if(cur<minv[j]){minv[j]=cur;way[j]=j0;} if(minv[j]<delta){delta=minv[j];j1=j;} }
+      for(int j=0;j<=n;j++){ if(used[j]){u[p[j]]+=delta;v[j]-=delta;} else minv[j]-=delta; } j0=j1; } while(p[j0]!=0);
+    do{ int j1=way[j0]; p[j0]=p[j1]; j0=j1; } while(j0); }
+  double tot=0; for(int j=1;j<=n;j++) tot+=A[p[j]-1][j-1]; return tot; }
+static int SURR=1; /* 1 : relaxation d'affectation pendant le recuit du carré ; 0 : DP exacte */
 static int SIGIT=5000;
 /* recuit sur le carré, chaque carré noté par la meilleure clé exacte (bigrammes) */
 static void sigma_anneal_dp(int*map){
   int used[26]; for(int l=0;l<26;l++)used[l]=-1; for(int s=0;s<25;s++) used[map[s]]=s;
   int pres[25]={0},np=0,plist[25]; for(int i=0;i<N;i++) pres[S[i]]=1; for(int s=0;s<25;s++) if(pres[s]) plist[np++]=s;
-  double cur=dp_value(map,NULL),best=cur; int bm[25]; memcpy(bm,map,sizeof bm);
+  double cur=SURR?assign_value(map):dp_value(map,NULL),best=cur; int bm[25]; memcpy(bm,map,sizeof bm);
   for(int it=0;it<SIGIT;it++){ double T=4.0*pow(0.2/4.0,(double)it/SIGIT);
     int a=plist[rnd()%np]; int nl=rnd()%26; int b=used[nl]; if(b==a) continue; int la=map[a];
-    map[a]=nl; if(b>=0)map[b]=la; double ns=dp_value(map,NULL);
+    map[a]=nl; if(b>=0)map[b]=la; double ns=SURR?assign_value(map):dp_value(map,NULL);
     if(ns>=cur||urand()<exp((ns-cur)/T)){cur=ns;used[nl]=a;used[la]=b; if(cur>best){best=cur;memcpy(bm,map,sizeof bm);}}
     else {map[a]=la; if(b>=0)map[b]=nl;} }
   memcpy(map,bm,sizeof bm); }
@@ -114,7 +127,7 @@ int main(int argc,char**argv){
   FILE*f=fopen(argv[1],"rb");QG=malloc(4*456976);if(fread(QG,4,456976,f)!=456976)return 2;fclose(f); make_bigrams();
   if(getenv("SEED")){rs^=0x9E3779B97F4A7C15ULL*(uint64_t)atoll(getenv("SEED"));for(int i=0;i<10;i++)rnd();}
   if(getenv("W"))W=atoi(getenv("W")); if(getenv("GEO"))GEO=atoi(getenv("GEO"));
-  if(getenv("RESTARTS"))RESTARTS=atoi(getenv("RESTARTS")); if(getenv("ROUNDS"))ROUNDS=atoi(getenv("ROUNDS")); if(getenv("SUBIT"))SUBIT=atoi(getenv("SUBIT")); if(getenv("SIGIT"))SIGIT=atoi(getenv("SIGIT"));
+  if(getenv("RESTARTS"))RESTARTS=atoi(getenv("RESTARTS")); if(getenv("ROUNDS"))ROUNDS=atoi(getenv("ROUNDS")); if(getenv("SUBIT"))SUBIT=atoi(getenv("SUBIT")); if(getenv("SIGIT"))SIGIT=atoi(getenv("SIGIT")); if(getenv("SURR"))SURR=atoi(getenv("SURR"));
   DPv=malloc(sizeof(float)*((long)1<<W)*W); DPp=malloc(((long)1<<W)*W);
   load(argv[2]); set_seq_from(CT196); if(N%W){fprintf(stderr,"N=%d non divisible par W=%d\n",N,W);return 4;} H=N/W;
   printf("GEO=%d N=%d W=%d H=%d R=%d ROUNDS=%d SUBIT=%d\n",GEO,N,W,H,RESTARTS,ROUNDS,SUBIT);

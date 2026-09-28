@@ -1,0 +1,4 @@
+GEO=1 N=182 W=14 H=13 R=24 ROUNDS=4 SUBIT=40000
+   [diag] DP avec le vrai carré : 14/14 colonnes à la bonne place
+CTRL #0 qoff=-9.679 (vraie clé -9.679) récupéré=182/182 OK
+   [diag] DP avec le vrai carré : 14/14 colonnes à la bonne place
