@@ -43,6 +43,16 @@ static void enc_E(const int*pl,int*out,int W,const int*P){ int k=0,H=N/W,ex=N%W;
 static void enc_I(const int*pl,int*out,int W,const int*P){ int H=N/W,ex=N%W,k=0;
   for(int j=0;j<W;j++){int c=P[j],len=H+(c<ex); for(int r=0;r<len;r++) out[r*W+c]=pl[k++];} }
 
+/* ---- famille P (E06) : lecture VERTICALE des colonnes imprimées (NC = N/14 colonnes), lignes paires (0-indexées)
+ * dans l'ordre sE (7!), lignes impaires dans l'ordre sO (7!). PMODE 0 : toutes les colonnes en lignes paires, puis
+ * toutes en lignes impaires (généralise la largeur 7 d'E04) ; 1 : colonne par colonne, paires puis impaires ;
+ * 2 : colonne par colonne, impaires puis paires. */
+static int PMODE=0, PBEST=0;
+static void idx_P(int*idx,const int*sE,const int*sO){ int NC=N/14,k=0;
+  if(PMODE==0){ for(int b=0;b<2;b++) for(int c=0;c<NC;c++) for(int j=0;j<7;j++) idx[k++]=(2*(b?sO[j]:sE[j])+b)*NC+c; }
+  else for(int c=0;c<NC;c++) for(int q=0;q<2;q++){ int b=(PMODE==1)?q:1-q; for(int j=0;j<7;j++) idx[k++]=(2*(b?sO[j]:sE[j])+b)*NC+c; } }
+static void dec_P(const int*in,int*out,const int*sE,const int*sO){ int idx[196]; idx_P(idx,sE,sO); for(int k=0;k<N;k++) out[k]=in[idx[k]]; }
+static void enc_P(const int*pl,int*out,const int*sE,const int*sO){ int idx[196]; idx_P(idx,sE,sO); for(int k=0;k<N;k++) out[idx[k]]=pl[k]; }
 /* ---- énumération des permutations (algorithme de Heap, itératif) ---- */
 typedef struct{int s; int W; int P[16]; int P2[16]; int W2;} Hit;
 static int TOPN=10; static Hit *top; static int ntop=0; static int THR=1<<30; static long CNTABOVE=0;
@@ -99,13 +109,23 @@ static double solve_sub(const int*pl,int*best){
     if(getenv("CHK")){ double full=0; for(int k=0;k+3<N;k++) full+=QG[((m[pl[k]]*26+m[pl[k+1]])*26+m[pl[k+2]])*26+m[pl[k+3]]]; double fb=0; for(int k=0;k+3<N;k++) fb+=QG[((bm[pl[k]]*26+bm[pl[k+1]])*26+bm[pl[k+2]])*26+bm[pl[k+3]]]; fprintf(stderr,"  cur suivi=%.2f recalculé=%.2f | best suivi=%.2f recalculé=%.2f\n",cur,full,b,fb); }
     if(b>gb){gb=b;memcpy(best,bm,sizeof bm);} }
   return gb/(N-3); }
-static void decode(const int*S,const Hit*h,int*out){ int mid[196]; if(h->W2){dec_E(S,mid,h->W2,h->P2); dec_E(mid,out,h->W,h->P);} else if(FAM=='E') dec_E(S,out,h->W,h->P); else dec_I(S,out,h->W,h->P); }
+static void decode(const int*S,const Hit*h,int*out){ int mid[196]; if(FAM=='P'){ dec_P(S,out,h->P,h->P2); return; } if(h->W2){dec_E(S,mid,h->W2,h->P2); dec_E(mid,out,h->W,h->P);} else if(FAM=='E') dec_E(S,out,h->W,h->P); else dec_I(S,out,h->W,h->P); }
 typedef struct{double q; Hit h; int map[25]; int pl[196];} Final;
 /* étage 2 sur la liste courante top[0..ntop) ; met à jour *fb */
 static void stage2(const int*S,Final*fb){
   for(int i=0;i<ntop;i++){ int pl[196],m[25]; decode(S,&top[i],pl); double q=solve_sub(pl,m);
     if(getenv("VERB")&&i<2) printf("    top%d R=%d stat(décodé)=%d q=%.3f\n",i,top[i].s,stat(pl),q);
     if(q>fb->q){ fb->q=q; fb->h=top[i]; memcpy(fb->map,m,sizeof m); memcpy(fb->pl,pl,sizeof pl);} } }
+static int scan_P(const int*S,int record){
+  int sE[7],cE[7]={0},best=-1,buf[196]; for(int i=0;i<7;i++)sE[i]=i;
+  #define INNER { int sO[7],cO[7]={0}; for(int k=0;k<7;k++)sO[k]=k; \
+    { dec_P(S,buf,sE,sO); int s=stat(buf); if(s>best)best=s; if(record)push(s,7,sE,7,sO);} int i2=1; \
+    while(i2<7){ if(cO[i2]<i2){ if(i2&1){int t=sO[cO[i2]];sO[cO[i2]]=sO[i2];sO[i2]=t;} else {int t=sO[0];sO[0]=sO[i2];sO[i2]=t;} \
+      dec_P(S,buf,sE,sO); int s=stat(buf); if(s>best)best=s; if(record)push(s,7,sE,7,sO); cO[i2]++; i2=1; } else { cO[i2]=0; i2++; } } }
+  INNER; int i=1;
+  while(i<7){ if(cE[i]<i){ if(i&1){int t=sE[cE[i]];sE[cE[i]]=sE[i];sE[i]=t;} else {int t=sE[0];sE[0]=sE[i];sE[i]=t;} INNER; cE[i]++; i=1; } else { cE[i]=0; i++; } }
+  #undef INNER
+  return best; }
 static void load(const char*p,int geo){ FILE*f=fopen(p,"r"); char d[1000]; int n=0,ch; while((ch=fgetc(f))!=EOF) if(ch>='0'&&ch<='9') d[n++]=ch; fclose(f);
   N=0; for(int i=0;i<196;i++){ if(geo==1&&i%14==13) continue; int a=d[2*i]-'0',b=d[2*i+1]-'0'; S0[N++]=((a==0)?4:a-6)*5+(b-1);} }
 
@@ -115,12 +135,15 @@ static char FAM='E'; static int WMIN=2,WMAX=9,W1MAX=6,W2MAX=6;
  * renvoie le meilleur global ; bw[] reçoit le meilleur qoff par largeur */
 static Final pipeline(const int*S,double*bw,int verbose){
   Final fb; fb.q=-1e30; int mx;
-  if(FAM=='D'){ for(int a=2;a<=W1MAX;a++) for(int b=2;b<=W2MAX;b++){ ntop=0; mx=scan_double(S,a,b,1); Final f; f.q=-1e30; stage2(S,&f);
+  if(FAM=='P'){ int m0=PMODE; for(int pm=(getenv("PMODE")?m0:0);pm<=(getenv("PMODE")?m0:2);pm++){ PMODE=pm; ntop=0; mx=scan_P(S,1); Final f; f.q=-1e30; stage2(S,&f); f.h.W2=7;
+      bw[pm]=f.q; if(verbose) printf("  mode P%d : Rmax=%d ; meilleur qoff=%.3f\n",pm,mx,f.q); if(f.q>fb.q){fb=f; fb.h.s=fb.h.s; PBEST=pm;} } PMODE=PBEST; }
+  else if(FAM=='D'){ for(int a=2;a<=W1MAX;a++) for(int b=2;b<=W2MAX;b++){ ntop=0; mx=scan_double(S,a,b,1); Final f; f.q=-1e30; stage2(S,&f);
       bw[a*16+b]=f.q; if(verbose) printf("  W1=%d W2=%d : Rmax=%d ; meilleur qoff=%.3f\n",a,b,mx,f.q); if(f.q>fb.q) fb=f; } }
   else for(int w=WMIN;w<=WMAX;w++){ ntop=0; mx=scan_single(S,FAM,w,1); Final f; f.q=-1e30; stage2(S,&f);
       bw[w]=f.q; if(verbose) printf("  W=%d : Rmax=%d ; meilleur qoff=%.3f\n",w,mx,f.q); if(f.q>fb.q) fb=f; }
   return fb; }
 static void print_final(const Final*f){
+  if(FAM=='P') printf("mode P%d ; ",PMODE);
   printf("MEILLEUR qoff=%.3f W=%d P=",f->q,f->h.W); for(int k=0;k<f->h.W;k++)printf("%d ",f->h.P[k]+1);
   if(f->h.W2){printf("| W2=%d Q=",f->h.W2); for(int k=0;k<f->h.W2;k++)printf("%d ",f->h.P2[k]+1);} printf(" (R=%d)\nCLAIR=",f->h.s);
   for(int i=0;i<N;i++) putchar('A'+f->map[f->pl[i]]); printf("\n"); }
@@ -133,6 +156,7 @@ int main(int argc,char**argv){
   if(getenv("W1MAX"))W1MAX=atoi(getenv("W1MAX")); if(getenv("W2MAX"))W2MAX=atoi(getenv("W2MAX")); if(getenv("TOP"))TOPN=atoi(getenv("TOP"));
   if(getenv("A3"))A3=atoi(getenv("A3")); if(getenv("A4"))A4=atoi(getenv("A4")); if(getenv("A5"))A5=atoi(getenv("A5"));
   if(getenv("T0S"))T0S=atof(getenv("T0S")); if(getenv("T1S"))T1S=atof(getenv("T1S"));
+  if(getenv("PMODE"))PMODE=atoi(getenv("PMODE"));
   if(getenv("ITER2"))ITER2=atoi(getenv("ITER2")); if(getenv("REST2"))REST2=atoi(getenv("REST2"));
   if(getenv("SEED")){rs^=0x9E3779B97F4A7C15ULL*(uint64_t)atoll(getenv("SEED"));for(int i=0;i<10;i++)rnd();}
   st3=calloc(15625,4); st4=calloc(390625,4); st5=calloc(9765625,4); top=calloc(TOPN,sizeof(Hit));
@@ -144,7 +168,7 @@ int main(int argc,char**argv){
       int inv[26]; for(int l=0;l<26;l++)inv[l]=-1; int pres[25]={0},coll=0; for(int i=0;i<N;i++)pres[S0[i]]=1;
       for(int x=0;x<25;x++) if(pres[x]){ if(inv[f.map[x]]>=0)coll++; inv[f.map[x]]=x; }
       int pl[196],ct[196],mid[196]; for(int i=0;i<N;i++) pl[i]=inv[f.map[f.pl[i]]];
-      if(f.h.W2){ enc_E(pl,mid,f.h.W,f.h.P); enc_E(mid,ct,f.h.W2,f.h.P2);} else if(FAM=='E') enc_E(pl,ct,f.h.W,f.h.P); else enc_I(pl,ct,f.h.W,f.h.P);
+      if(FAM=='P'){ enc_P(pl,ct,f.h.P,f.h.P2); (void)mid; } else if(f.h.W2){ enc_E(pl,mid,f.h.W,f.h.P); enc_E(mid,ct,f.h.W2,f.h.P2);} else if(FAM=='E') enc_E(pl,ct,f.h.W,f.h.P); else enc_I(pl,ct,f.h.W,f.h.P);
       int bad=0; for(int i=0;i<N;i++) if(ct[i]!=S0[i]) bad++;
       printf("ré-enchiffrement : %d/%d symboles différents, collisions=%d %s\n",bad,N,coll,(bad||coll)?"ÉCHEC":"(exact)"); }
     return 0; }
@@ -159,7 +183,9 @@ int main(int argc,char**argv){
       int L[25],m=0; for(int l=0;l<26;l++) if(l!=9) L[m++]=l; for(int i=24;i>0;i--){int j=rnd()%(i+1);int x=L[i];L[i]=L[j];L[j]=x;} int sy[26]; for(int i=0;i<25;i++) sy[L[i]]=i;
       int pl[196]; for(int i=0;i<N;i++) pl[i]=sy[txt[i]];
       int S[196],W=0,W2=0,P[16],Q[16];
-      if(FAM=='D'){ W=2+rnd()%(W1MAX-1); W2=2+rnd()%(W2MAX-1); for(int i=0;i<W;i++)P[i]=i; for(int i=W-1;i>0;i--){int j=rnd()%(i+1);int x=P[i];P[i]=P[j];P[j]=x;}
+      if(FAM=='P'){ W=7; W2=7; if(!getenv("PMODE")) PMODE=rnd()%3; for(int i=0;i<7;i++){P[i]=i;Q[i]=i;} for(int i=6;i>0;i--){int j=rnd()%(i+1);int x=P[i];P[i]=P[j];P[j]=x; j=rnd()%(i+1); x=Q[i];Q[i]=Q[j];Q[j]=x;}
+        enc_P(pl,S,P,Q); }
+      else if(FAM=='D'){ W=2+rnd()%(W1MAX-1); W2=2+rnd()%(W2MAX-1); for(int i=0;i<W;i++)P[i]=i; for(int i=W-1;i>0;i--){int j=rnd()%(i+1);int x=P[i];P[i]=P[j];P[j]=x;}
         for(int i=0;i<W2;i++)Q[i]=i; for(int i=W2-1;i>0;i--){int j=rnd()%(i+1);int x=Q[i];Q[i]=Q[j];Q[j]=x;} int mid[196]; enc_E(pl,mid,W,P); enc_E(mid,S,W2,Q); }
       else { W=WMIN+rnd()%(WMAX-WMIN+1); for(int i=0;i<W;i++)P[i]=i; for(int i=W-1;i>0;i--){int j=rnd()%(i+1);int x=P[i];P[i]=P[j];P[j]=x;}
         if(FAM=='E') enc_E(pl,S,W,P); else enc_I(pl,S,W,P); }
