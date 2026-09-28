@@ -135,12 +135,13 @@ static char FAM='E'; static int WMIN=2,WMAX=9,W1MAX=6,W2MAX=6;
 /* pipeline complet sur une suite S : pour chaque largeur (ou couple), étage 1 (TOP clés par R) puis étage 2 ;
  * renvoie le meilleur global ; bw[] reçoit le meilleur qoff par largeur */
 static Final pipeline(const int*S,double*bw,int verbose){
-  Final fb; fb.q=-1e30; int mx;
-  if(FAM=='P'){ int m0=PMODE; for(int pm=(getenv("PMODE")?m0:0);pm<=(getenv("PMODE")?m0:2);pm++){ PMODE=pm; ntop=0; mx=scan_P(S,1); Final f; f.q=-1e30; stage2(S,&f); f.h.W2=7;
+  Final fb; fb.q=-1e30; fb.h.s=-1; int mx; int s1=getenv("STAGE1ONLY")!=NULL;
+  #define KEEP1 if(s1&&ntop>0&&top[0].s>fb.h.s) fb.h=top[0];
+  if(FAM=='P'){ int m0=PMODE; for(int pm=(getenv("PMODE")?m0:0);pm<=(getenv("PMODE")?m0:2);pm++){ PMODE=pm; ntop=0; mx=scan_P(S,1); KEEP1 Final f; f.q=-1e30; stage2(S,&f); f.h.W2=7;
       bw[pm]=f.q; if(verbose) printf("  mode P%d : Rmax=%d ; meilleur qoff=%.3f\n",pm,mx,f.q); if(f.q>fb.q){fb=f; fb.h.s=fb.h.s; PBEST=pm;} } PMODE=PBEST; }
-  else if(FAM=='D'){ for(int a=2;a<=W1MAX;a++) for(int b=2;b<=W2MAX;b++){ ntop=0; mx=scan_double(S,a,b,1); Final f; f.q=-1e30; stage2(S,&f);
+  else if(FAM=='D'){ for(int a=2;a<=W1MAX;a++) for(int b=2;b<=W2MAX;b++){ ntop=0; mx=scan_double(S,a,b,1); KEEP1 Final f; f.q=-1e30; stage2(S,&f);
       bw[a*16+b]=f.q; if(verbose) printf("  W1=%d W2=%d : Rmax=%d ; meilleur qoff=%.3f\n",a,b,mx,f.q); if(f.q>fb.q) fb=f; } }
-  else for(int w=WMIN;w<=WMAX;w++){ ntop=0; mx=scan_single(S,FAM,w,1); Final f; f.q=-1e30; stage2(S,&f);
+  else for(int w=WMIN;w<=WMAX;w++){ ntop=0; mx=scan_single(S,FAM,w,1); KEEP1 Final f; f.q=-1e30; stage2(S,&f);
       bw[w]=f.q; if(verbose) printf("  W=%d : Rmax=%d ; meilleur qoff=%.3f\n",w,mx,f.q); if(f.q>fb.q) fb=f; }
   return fb; }
 static void print_final(const Final*f){
@@ -199,6 +200,7 @@ int main(int argc,char**argv){
         if(FAM=='E') enc_E(pl,S,W,P); else enc_I(pl,S,W,P); }
       int strue=stat(pl); THR=strue; CNTABOVE=0;
       if(getenv("DIAG2")){ int mm[25]; for(int z=0;z<atoi(getenv("DIAG2"));z++){ double q0=solve_sub(pl,mm); printf("   appel %d : %.3f\n",z,q0);} double qq=solve_sub(pl,mm); int rr=0; for(int i=0;i<N;i++) if(mm[pl[i]]==txt[i]) rr++; printf("   [diag] étage 2 sur le vrai clair : qoff=%.3f récupéré=%d/%d\n",qq,rr,N); continue; }
+      if(getenv("STAGE1ONLY")){ Final f1=pipeline(S,bw,0); printf("CTRL #%d W=%d W2=%d R(vrai)=%d R(meilleur)=%d (W=%d) rang vrai=%ld\n",t,W,W2,strue,f1.h.s,f1.h.W,CNTABOVE+1); continue; }
       Final f=pipeline(S,bw,getenv("VERB")!=NULL); int rec=0; for(int sh=-16;sh<=16;sh++){ int r=0; for(int i=0;i<N;i++){int j=i+sh; if(j>=0&&j<N&&f.map[f.pl[i]]==txt[j]) r++;} if(r>rec) rec=r; } /* tolère un décalage (clé tournée) */
       int mt[25]={0}; for(int i=0;i<N;i++) mt[pl[i]]=txt[i]; double qt=qsc(pl,mt)/(N-3);
       int sq=0; for(int i=0;i<N;i++) if(f.map[f.pl[i]]==L[f.pl[i]]) sq++; /* carré retrouvé (indépendant de l'ordre) */
