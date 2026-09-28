@@ -1,0 +1,32 @@
+GEO=1 N=182 FAM=E W=2..11 (D: W1<=6 W2<=6) TOP=1 ITER2=15000 REST2=3 A=1,2,3
+CTRL #0 W=2 W2=0 R(vrai)=94 R(meilleur)=94 (W=2) rang vrai=1
+CTRL #1 W=6 W2=0 R(vrai)=131 R(meilleur)=131 (W=6) rang vrai=1
+CTRL #2 W=2 W2=0 R(vrai)=66 R(meilleur)=66 (W=2) rang vrai=1
+CTRL #3 W=10 W2=0 R(vrai)=18 R(meilleur)=60 (W=11) rang vrai=2697213
+CTRL #4 W=10 W2=0 R(vrai)=136 R(meilleur)=136 (W=10) rang vrai=1
+CTRL #5 W=9 W2=0 R(vrai)=65 R(meilleur)=65 (W=9) rang vrai=1
+CTRL #6 W=7 W2=0 R(vrai)=66 R(meilleur)=66 (W=7) rang vrai=1
+CTRL #7 W=2 W2=0 R(vrai)=70 R(meilleur)=71 (W=11) rang vrai=2
+CTRL #8 W=8 W2=0 R(vrai)=102 R(meilleur)=102 (W=8) rang vrai=1
+CTRL #9 W=7 W2=0 R(vrai)=162 R(meilleur)=162 (W=7) rang vrai=1
+CTRL #10 W=5 W2=0 R(vrai)=57 R(meilleur)=72 (W=11) rang vrai=36
+CTRL #11 W=3 W2=0 R(vrai)=59 R(meilleur)=60 (W=11) rang vrai=2
+CTRL #12 W=5 W2=0 R(vrai)=44 R(meilleur)=66 (W=11) rang vrai=623
+CTRL #13 W=5 W2=0 R(vrai)=92 R(meilleur)=92 (W=5) rang vrai=1
+CTRL #14 W=4 W2=0 R(vrai)=46 R(meilleur)=55 (W=11) rang vrai=46
+CTRL #15 W=5 W2=0 R(vrai)=49 R(meilleur)=61 (W=11) rang vrai=61
+CTRL #16 W=10 W2=0 R(vrai)=71 R(meilleur)=71 (W=10) rang vrai=1
+CTRL #17 W=8 W2=0 R(vrai)=117 R(meilleur)=117 (W=8) rang vrai=1
+CTRL #18 W=7 W2=0 R(vrai)=41 R(meilleur)=54 (W=11) rang vrai=227
+CTRL #19 W=7 W2=0 R(vrai)=63 R(meilleur)=63 (W=7) rang vrai=1
+CTRL #20 W=8 W2=0 R(vrai)=96 R(meilleur)=96 (W=8) rang vrai=1
+CTRL #21 W=9 W2=0 R(vrai)=148 R(meilleur)=148 (W=9) rang vrai=1
+CTRL #22 W=7 W2=0 R(vrai)=78 R(meilleur)=78 (W=7) rang vrai=1
+CTRL #23 W=9 W2=0 R(vrai)=62 R(meilleur)=62 (W=9) rang vrai=1
+CTRL #24 W=3 W2=0 R(vrai)=88 R(meilleur)=88 (W=3) rang vrai=1
+CTRL #25 W=4 W2=0 R(vrai)=163 R(meilleur)=163 (W=4) rang vrai=1
+CTRL #26 W=6 W2=0 R(vrai)=46 R(meilleur)=63 (W=11) rang vrai=144
+CTRL #27 W=9 W2=0 R(vrai)=102 R(meilleur)=102 (W=9) rang vrai=1
+CTRL #28 W=8 W2=0 R(vrai)=77 R(meilleur)=77 (W=8) rang vrai=1
+CTRL #29 W=6 W2=0 R(vrai)=41 R(meilleur)=58 (W=11) rang vrai=515
+==> 0/30

@@ -1,0 +1,32 @@
+GEO=1 N=182 FAM=I W=2..11 (D: W1<=6 W2<=6) TOP=1 ITER2=15000 REST2=3 A=1,2,3
+CTRL #0 W=6 W2=0 R(vrai)=32 R(meilleur)=37 (W=6) rang vrai=143
+CTRL #1 W=4 W2=0 R(vrai)=108 R(meilleur)=109 (W=4) rang vrai=7
+CTRL #2 W=6 W2=0 R(vrai)=125 R(meilleur)=126 (W=6) rang vrai=3
+CTRL #3 W=11 W2=0 R(vrai)=48 R(meilleur)=57 (W=11) rang vrai=736453
+CTRL #4 W=7 W2=0 R(vrai)=163 R(meilleur)=173 (W=7) rang vrai=979
+CTRL #5 W=4 W2=0 R(vrai)=65 R(meilleur)=76 (W=4) rang vrai=21
+CTRL #6 W=5 W2=0 R(vrai)=96 R(meilleur)=98 (W=5) rang vrai=43
+CTRL #7 W=4 W2=0 R(vrai)=73 R(meilleur)=73 (W=4) rang vrai=1
+CTRL #8 W=8 W2=0 R(vrai)=34 R(meilleur)=48 (W=8) rang vrai=2751
+CTRL #9 W=4 W2=0 R(vrai)=41 R(meilleur)=44 (W=4) rang vrai=13
+CTRL #10 W=6 W2=0 R(vrai)=55 R(meilleur)=57 (W=6) rang vrai=253
+CTRL #11 W=6 W2=0 R(vrai)=33 R(meilleur)=37 (W=6) rang vrai=139
+CTRL #12 W=11 W2=0 R(vrai)=72 R(meilleur)=92 (W=11) rang vrai=4205169
+CTRL #13 W=2 W2=0 R(vrai)=57 R(meilleur)=57 (W=2) rang vrai=1
+CTRL #14 W=7 W2=0 R(vrai)=65 R(meilleur)=73 (W=7) rang vrai=1945
+CTRL #15 W=10 W2=0 R(vrai)=50 R(meilleur)=63 (W=10) rang vrai=36975
+CTRL #16 W=10 W2=0 R(vrai)=45 R(meilleur)=62 (W=10) rang vrai=690019
+CTRL #17 W=2 W2=0 R(vrai)=71 R(meilleur)=71 (W=2) rang vrai=1
+CTRL #18 W=10 W2=0 R(vrai)=37 R(meilleur)=60 (W=10) rang vrai=2604790
+CTRL #19 W=2 W2=0 R(vrai)=112 R(meilleur)=112 (W=2) rang vrai=1
+CTRL #20 W=8 W2=0 R(vrai)=67 R(meilleur)=73 (W=8) rang vrai=5261
+CTRL #21 W=2 W2=0 R(vrai)=141 R(meilleur)=141 (W=2) rang vrai=1
+CTRL #22 W=6 W2=0 R(vrai)=78 R(meilleur)=90 (W=6) rang vrai=391
+CTRL #23 W=5 W2=0 R(vrai)=49 R(meilleur)=55 (W=5) rang vrai=25
+CTRL #24 W=4 W2=0 R(vrai)=60 R(meilleur)=60 (W=4) rang vrai=1
+CTRL #25 W=7 W2=0 R(vrai)=63 R(meilleur)=67 (W=7) rang vrai=206
+CTRL #26 W=2 W2=0 R(vrai)=61 R(meilleur)=61 (W=2) rang vrai=1
+CTRL #27 W=8 W2=0 R(vrai)=67 R(meilleur)=98 (W=8) rang vrai=35065
+CTRL #28 W=3 W2=0 R(vrai)=86 R(meilleur)=89 (W=3) rang vrai=3
+CTRL #29 W=7 W2=0 R(vrai)=94 R(meilleur)=100 (W=7) rang vrai=34
+==> 0/30
