@@ -1,0 +1,40 @@
+GEO=0 N=196 FAM=D W=2..9 (D: W1<=7 W2<=7) TOP=20 ITER2=40000 REST2=8 A=1,2,3
+  W1=2 W2=2 : Rmax=8 ; meilleur qoff=-13.155
+  W1=2 W2=3 : Rmax=8 ; meilleur qoff=-13.055
+  W1=2 W2=4 : Rmax=16 ; meilleur qoff=-12.713
+  W1=2 W2=5 : Rmax=17 ; meilleur qoff=-13.083
+  W1=2 W2=6 : Rmax=28 ; meilleur qoff=-12.903
+  W1=2 W2=7 : Rmax=36 ; meilleur qoff=-12.979
+  W1=3 W2=2 : Rmax=10 ; meilleur qoff=-13.002
+  W1=3 W2=3 : Rmax=11 ; meilleur qoff=-13.185
+  W1=3 W2=4 : Rmax=24 ; meilleur qoff=-13.074
+  W1=3 W2=5 : Rmax=25 ; meilleur qoff=-12.630
+  W1=3 W2=6 : Rmax=25 ; meilleur qoff=-12.945
+  W1=3 W2=7 : Rmax=32 ; meilleur qoff=-13.043
+  W1=4 W2=2 : Rmax=14 ; meilleur qoff=-12.858
+  W1=4 W2=3 : Rmax=16 ; meilleur qoff=-12.807
+  W1=4 W2=4 : Rmax=26 ; meilleur qoff=-12.972
+  W1=4 W2=5 : Rmax=24 ; meilleur qoff=-13.097
+  W1=4 W2=6 : Rmax=32 ; meilleur qoff=-12.739
+  W1=4 W2=7 : Rmax=37 ; meilleur qoff=-12.921
+  W1=5 W2=2 : Rmax=21 ; meilleur qoff=-13.057
+  W1=5 W2=3 : Rmax=23 ; meilleur qoff=-12.916
+  W1=5 W2=4 : Rmax=30 ; meilleur qoff=-12.939
+  W1=5 W2=5 : Rmax=32 ; meilleur qoff=-12.779
+  W1=5 W2=6 : Rmax=38 ; meilleur qoff=-12.839
+  W1=5 W2=7 : Rmax=43 ; meilleur qoff=-12.879
+  W1=6 W2=2 : Rmax=26 ; meilleur qoff=-12.934
+  W1=6 W2=3 : Rmax=26 ; meilleur qoff=-12.890
+  W1=6 W2=4 : Rmax=35 ; meilleur qoff=-12.729
+  W1=6 W2=5 : Rmax=40 ; meilleur qoff=-12.741
+  W1=6 W2=6 : Rmax=41 ; meilleur qoff=-12.749
+  W1=6 W2=7 : Rmax=49 ; meilleur qoff=-12.893
+  W1=7 W2=2 : Rmax=34 ; meilleur qoff=-12.850
+  W1=7 W2=3 : Rmax=35 ; meilleur qoff=-12.741
+  W1=7 W2=4 : Rmax=45 ; meilleur qoff=-12.906
+  W1=7 W2=5 : Rmax=49 ; meilleur qoff=-12.844
+  W1=7 W2=6 : Rmax=47 ; meilleur qoff=-12.934
+  W1=7 W2=7 : Rmax=41 ; meilleur qoff=-12.842
+MEILLEUR qoff=-12.630 W=3 P=1 2 3 | W2=5 Q=2 1 4 5 3  (R=19)
+CLAIR=SDISIDITDOODHNDSENNINAOROIMMITWHEICIEYECDACLEYHSTCANYTONTSTTRIAMASCYREIHEHERDINIONGNYEMRYTOADMTERHUSMOSITYOMEDSNONIORKSYOYSOSHAMNOWCRHISOHEITSMTERHAACTORMOOLDMANANONSHAHANCYTYEAERASHSTCLYTMIDTHONE
+ré-enchiffrement : 0/196 symboles différents, collisions=0 (exact)
