@@ -1,0 +1,8 @@
+E06 — résumé (2026-09-28T11:48:07Z, 4 cœurs)
+fr | contrôles ==> 4/5 | réel mode P1 ; MEILLEUR qoff=-12.435 W=7 P=6 7 5 4 2 3 1 | W2=7 Q | null qoff=-12.536 qoff=-12.344 qoff=-12.406 
+de | contrôles ==> 1/5 | réel  | null 
+it | contrôles ==> 1/5 | réel  | null 
+es | contrôles ==> 3/5 | réel mode P2 ; MEILLEUR qoff=-13.032 W=7 P=1 2 5 4 6 7 3 | W2=7 Q | null qoff=-12.745 qoff=-12.821 qoff=-12.667 
+la | contrôles ==> 2/5 | réel  | null 
+nl | contrôles ==> 1/5 | réel  | null 
+enA | contrôles ==> 3/5 | réel mode P0 ; MEILLEUR qoff=-12.653 W=7 P=4 6 1 5 7 3 2 | W2=7 Q | null qoff=-12.704 qoff=-12.527 qoff=-12.849 

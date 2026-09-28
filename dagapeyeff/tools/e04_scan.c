@@ -113,6 +113,7 @@ static void decode(const int*S,const Hit*h,int*out){ int mid[196]; if(FAM=='P'){
 typedef struct{double q; Hit h; int map[25]; int pl[196];} Final;
 /* étage 2 sur la liste courante top[0..ntop) ; met à jour *fb */
 static void stage2(const int*S,Final*fb){
+  if(getenv("STAGE1ONLY")) return;
   for(int i=0;i<ntop;i++){ int pl[196],m[25]; decode(S,&top[i],pl); double q=solve_sub(pl,m);
     if(getenv("VERB")&&i<2) printf("    top%d R=%d stat(décodé)=%d q=%.3f\n",i,top[i].s,stat(pl),q);
     if(q>fb->q){ fb->q=q; fb->h=top[i]; memcpy(fb->map,m,sizeof m); memcpy(fb->pl,pl,sizeof pl);} } }
@@ -173,7 +174,10 @@ int main(int argc,char**argv){
       printf("ré-enchiffrement : %d/%d symboles différents, collisions=%d %s\n",bad,N,coll,(bad||coll)?"ÉCHEC":"(exact)"); }
     return 0; }
   if(!strcmp(argv[3],"null")){ int nn=atoi(argv[4]);
-    for(int t=0;t<nn;t++){ int S[196]; memcpy(S,S0,sizeof(int)*N); for(int i=N-1;i>0;i--){int j=rnd()%(i+1);int x=S[i];S[i]=S[j];S[j]=x;}
+    int colnull=getenv("NULLKIND")&&!strcmp(getenv("NULLKIND"),"col"); /* col : mélange à l'intérieur de chaque colonne imprimée */
+    for(int t=0;t<nn;t++){ int S[196]; memcpy(S,S0,sizeof(int)*N);
+      if(colnull){ int NC=N/14; for(int c=0;c<NC;c++) for(int r=13;r>0;r--){int q=rnd()%(r+1);int x=S[r*NC+c];S[r*NC+c]=S[q*NC+c];S[q*NC+c]=x;} }
+      else for(int i=N-1;i>0;i--){int j=rnd()%(i+1);int x=S[i];S[i]=S[j];S[j]=x;}
       Final f=pipeline(S,bw,1); printf("NULL #%d qoff=%.3f (W=%d W2=%d)\n",t,f.q,f.h.W,f.h.W2); }
     return 0; }
   if(!strcmp(argv[3],"control")){
