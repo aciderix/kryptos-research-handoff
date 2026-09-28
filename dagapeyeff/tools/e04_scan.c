@@ -185,6 +185,10 @@ int main(int argc,char**argv){
     int ok=0;
     for(int t=0;t<nc;t++){ long off=rnd()%(CL-5000); int txt[196],k=0; while(k<N){int ch=C[off++]; if(ch<'A'||ch>'Z')continue; if(ch=='J')ch='I'; txt[k++]=ch-'A';}
       int L[25],m=0; for(int l=0;l<26;l++) if(l!=9) L[m++]=l; for(int i=24;i>0;i--){int j=rnd()%(i+1);int x=L[i];L[i]=L[j];L[j]=x;} int sy[26]; for(int i=0;i<25;i++) sy[L[i]]=i;
+      if(getenv("CLS13")){ /* E14 : fusion en 13 classes équilibrées (anglais), classe -> symbole de son représentant */
+        const char*cls="E TZ AQ OX IK NV SB HP RY DG LF CW UM"; int rep[26]; for(int l=0;l<26;l++) rep[l]=l;
+        for(const char*q=cls;*q;){ while(*q==' ')q++; if(!*q)break; int a=*q-'A'; q++; while(*q&&*q!=' '){ rep[*q-'A']=a; q++; } }
+        for(int i=0;i<N;i++) txt[i]=rep[txt[i]]; }
       int pl[196]; for(int i=0;i<N;i++) pl[i]=sy[txt[i]];
       int S[196],W=0,W2=0,P[16],Q[16];
       if(FAM=='P'){ W=7; W2=7; if(!getenv("PMODE")) PMODE=rnd()%3; for(int i=0;i<7;i++){P[i]=i;Q[i]=i;} for(int i=6;i>0;i--){int j=rnd()%(i+1);int x=P[i];P[i]=P[j];P[j]=x; j=rnd()%(i+1); x=Q[i];Q[i]=Q[j];Q[j]=x;}
