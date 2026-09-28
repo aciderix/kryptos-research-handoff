@@ -102,3 +102,19 @@ moins d'une heure ; largeurs 13/14 à clé libre : incertain.
 ## 5. Mise à jour après E16 (2026-09-28)
 T2 (nulles régulières), T3 (routes) et les clés K1/K2 d'E03 sous « 13 classes » : **négatifs** ; T1 à clé libre
 (largeurs 13/14) : **sans puissance** avec une statistique invariante sur 182 symboles. Voir `experiments/E16_thirteen_classes_gaps/RESULTS.md`.
+
+## 6. Proposition externe auditée : « flux des lignes et flux des colonnes transposés séparément » (DeepSeek, relayée par le user, 2026-09-28)
+Mécanisme proposé : clair → coordonnées ; suite des chiffres de ligne (6-0) et suite des chiffres de colonne (1-5)
+transposées **chacune avec sa propre clé**, puis réintercalées. L'alternance serait alors conservée par construction.
+- **Prédiction nécessaire** : chaque paire imprimée réunirait la ligne d'une lettre et la colonne d'une **autre** lettre.
+  La table 5×5 serait donc le produit des deux fréquences marginales (ligne et colonne indépendantes).
+- **Données** : dépendance forte (G = 86,8 ; p = 0,0002, E12 S1). Cases vides impossibles sous le produit : 61 attendu
+  9,4 fois (observé 0), 71 attendu 6,9 (observé 1, en colonne 14), 73 attendu 6,1 (0), 95 attendu 4,1 (0). Les paires
+  **décalées** d'un chiffre, qui mélangent vraiment deux lettres, sont, elles, indépendantes (p = 0,40, § 3).
+- **Simulation** (exploratoire, 5 000 tirages : anglais réservé, carré aléatoire, colonnaires de largeurs 2/4/7/14/28 à
+  clés différentes sur L et C) : P(G ≥ 86,8) = 1/5 000 ; P(G ≥ 86,8 **et** ≤ 18 symboles) = 0/5 000 ; 24,7 symboles en
+  moyenne (réel 18). Le produit des marges ne donne pas non plus 13 symboles plats mais environ 20 à profil décroissant.
+- **Source** : le livre (p. 124-125) transpose le flux **entier** des coordonnées, pas deux flux séparés.
+- Si les deux clés sont **identiques**, les paires restent entières : c'est une transposition de paires, déjà testée
+  (E01-E09, E14-E16).
+⇒ **Réfutée** par une propriété du chiffré seul, indépendamment de la langue, du carré et des clés.
