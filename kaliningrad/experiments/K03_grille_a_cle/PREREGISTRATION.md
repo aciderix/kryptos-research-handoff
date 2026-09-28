@@ -9,7 +9,9 @@ Chaque section complète de taille carrée est un morceau de texte **allemand** 
 
 ## Modèles (texte en lignes de q lettres, q = 13 ou 12 ; C = section chiffrée, découpée en q morceaux de q)
 - **V1 (colonnes à clé)** : le morceau j est la colonne π(j) du carré ; le clair se lit en lignes.
-- **V2 (lignes à clé, lecture en colonnes)** : le morceau j est la ligne π(j) ; le clair se lit en colonnes.
+- **V2 (opération inverse de V1)** : C[k·q + π(j)] = clair[j·q + k] (écriture en colonnes à clé, lecture en lignes).
+  (Correction avant calcul : la « V2 lignes à clé, lecture en colonnes » écrite d'abord est identique à V1 sur un carré complet.
+  La permutation de lignes lues en lignes conserverait les contacts dans chaque ligne : déjà exclue par K02.)
 Pour chacun, on ajoute la lecture inversée du résultat (clair lu à l'envers) : 4 lectures au total, on garde la meilleure, **la
 même règle s'appliquant aux contrôles et aux nuls**.
 
