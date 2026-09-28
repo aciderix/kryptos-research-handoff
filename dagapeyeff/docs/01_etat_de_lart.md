@@ -11,7 +11,7 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 | Wikipédia, « D'Agapeyeff cipher » | secondaire | texte ; citation du livre sur les nulles (« if every third, fourth, or fifth letter… is a dummy ») ; oubli de la méthode par l'auteur |
 | Shulman, *The Cryptogram*, avril/mai 1952 ; *The Cryptogram* 1959 ; Barker, *Cryptologia* 2(2):144-147 (1978) | secondaires anciennes | analyses ; Barker : 392 chiffres → 196 paires = 14×14 ⇒ transposition carrée suggérée. **Textes non consultés** (derrière paywall) |
 | K. Schmeh, MysteryTwister C3 (PDF) | secondaire | texte (identique) ; hypothèse d'une erreur d'enchiffrement |
-| N. Pelling, Cipher Mysteries (2008, 2 billets) | analyse | 14×14 ; triplets 75 75 75 et 63 63 63 ; 16 transpositions diagonales testées (programme C++) ; hypothèse Polybe + colonnaire |
+| N. Pelling, Cipher Mysteries (2008, 2 billets ; 2013) | analyse | 14×14 ; triplets 75 75 75 et 63 63 63 ; 16 transpositions diagonales testées (programme C++) ; hypothèse Polybe + colonnaire ; 2013 : « 04 » = bourrage final, extraction par colonnes réordonnées |
 | numberworld.blog (2013, partie 1) | analyse | alternance ; IC 1,743 ; **symboles rares concentrés dans la dernière colonne** ; « représentation 2 » = transposition lignes↔colonnes |
 | dagapeyeffresearch.com | projet computationnel | phases 3-7 : Polybe SA, colonnaire (dont 5040 ordres de largeur 7), ADFGX (faux positif k=7 retiré), two-square, Playfair, langues RU/FR/DE/eo, 116 cribs, 42 mots-clés ; **aucune solution** |
 | github.com/ajejfiejof/dagapeyeff-cipher-solver | projet | analyse structurelle, double transposition de Kerckhoffs, blocs 7×14 ; **aucune solution**, pas de contrôle synthétique |
@@ -52,6 +52,7 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 | Transpositions diagonales 14×14 (16 variantes) | Pelling 2008 | 16 routes |
 | Lignes↔colonnes (représentation 2) | numberworld 2013 | 1-2 routes |
 | Colonnaire (dont 5040 ordres de largeur 7) | dagapeyeffresearch | largeur 7 exhaustive ; 14×14 « testé » sans détail |
+| Écriture par lignes, extraction par colonnes **avec réordonnancement interne** ; « 04 » = X de bourrage final unique (clair de 195 lettres) | Pelling, Cipher Mysteries, 23/12/2013 (hypothèse, non résolue) | hypothèse ; pas de clé publiée. Ne relève pas que 8 lignes (pas 1) finissent par un symbole rare |
 | Double transposition (Kerckhoffs) | GitHub ajejfiejof | partielle, sans contrôle |
 | ADFGX, two-square, Playfair | dagapeyeffresearch | négatifs |
 | Nulles (motifs de suppression) | dagapeyeffresearch (« null-removal patterns ») | détails non publiés |
