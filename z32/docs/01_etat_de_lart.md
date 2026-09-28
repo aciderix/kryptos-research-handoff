@@ -60,6 +60,7 @@ Même règle que pour d'Agapeyeff : **« pas testé chez nous » ≠ « jamais t
 | Géométrie polaire depuis le mont Diablo (déclinaison, cadran 12/24 h, pouces) | Grinell, Foxon (tests de sensibilité), Praetorian, Stampher | nombreuses |
 | Statistiques de multiplicité, n-grammes, cycles d'homophones du Z32 | Oranchak (table « Cipher comparisons ») | faite (Z32 : 32 / 29, multiplicité 0,906) |
 | **Contrainte par les budgets d'homophones du Zodiac (clés Z408/Z340), calibrée** | **ici (E01)** | nouvelle ; résultat négatif (≈ 2 % de puissance) |
+| **Cycle strict des homophones comme test, calibré** | **ici (E03)** | nouveau ; inadmissible (faux rejet 37 % / 96 %) |
 
 ## 5. Faits structurels recalculés ici
 - 32 positions, 29 classes (transcriptions modernes), égalités 1=26 (C), 2=32 (triangle vide), 6=14 (O).

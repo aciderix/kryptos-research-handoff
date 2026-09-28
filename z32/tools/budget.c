@@ -36,6 +36,14 @@ static Score score(const int*let,const int*cls,int n){
   return s; }
 static void kvec(const Score*s,char*out){ int o=0; for(int L=0;L<26;L++) if(s->m[L]&&s->k[L]>1) o+=sprintf(out+o,"%c%d ",'A'+L,s->k[L]); if(!o) strcpy(out,"-"); }
 
+
+/* E03 : cohérence d'un texte avec un cycle strict des homophones (voir experiments/E03_cycles) */
+static int cyc_ok(const int*let,const int*cls,int n){
+  for(int L=0;L<26;L++){ int s[64],m=0; for(int i=0;i<n;i++) if(let[i]==L) s[m++]=cls[i]; if(m<2) continue;
+    int ok=0; for(int per=1;per<=m&&!ok;per++){ int good=1; for(int a=0;a<m&&good;a++) for(int b=a+1;b<m;b++){ int same=(s[a]==s[b]), cong=((b-a)%per==0); if(same!=cong){good=0;break;} } if(good) ok=1; }
+    if(!ok) return 0; }
+  return 1; }
+
 static int Z32CLS[32];
 static void load_z32(void){ char b[64]; int n=readfile("data/z32_cipher_oranchak.txt",b,63); if(n!=32){fprintf(stderr,"Z32 : %d symboles\n",n); exit(3);} classes_of(b,32,Z32CLS); }
 
@@ -53,6 +61,16 @@ int main(int argc,char**argv){
     hist("Z408 (clair réel) jugé avec K340",X1,n1); hist("Z340 section 1 (clair réel) jugé avec K408",X2,n2);
     int v=0; for(;v<40;v++){ int a=0,b=0; for(int i=0;i<n1;i++) a+=X1[i]<=v; for(int i=0;i<n2;i++) b+=X2[i]<=v; if(a>=0.95*n1&&b>=0.95*n2) break; }
     printf("seuil v (X <= v pour >= 95 %% des fenêtres, deux sens) = %d\n",v); return 0; }
+  if(!strcmp(argv[1],"cycle")){
+    static char c408[500],p408[500],c340[500],p340[500]; readfile("data/z408_cipher_oranchak.txt",c408,499); readfile("data/z408_plaintext_aligned.txt",p408,499);
+    readfile("data/z340_cipher_oranchak.txt",c340,499); readfile("data/z340_plaintext.txt",p340,499);
+    int n1=0,b1=0,n2=0,b2=0;
+    for(int w=0;w+32<=390;w++){ int let[32],cls[32]; classes_of(c408+w,32,cls); for(int i=0;i<32;i++) let[i]=p408[w+i]-'A'; Score s=score(let,cls,32); if(!s.locks) continue; n1++; b1+=!cyc_ok(let,cls,32); }
+    char s1[153]; for(int k=0;k<153;k++) s1[k]=c340[17*(k%9)+(2*k)%17];
+    for(int w=0;w+32<=153;w++){ int let[32],cls[32]; classes_of(s1+w,32,cls); for(int i=0;i<32;i++) let[i]=p340[w+i]-'A'; Score s=score(let,cls,32); if(!s.locks) continue; n2++; b2+=!cyc_ok(let,cls,32); }
+    printf("faux rejet (vraies fenêtres incohérentes avec un cycle strict) : Z408 %d/%d = %.3f ; Z340 section 1 %d/%d = %.3f\n",b1,n1,(double)b1/n1,b2,n2,(double)b2/n2);
+    printf("admissible (<= 10 %% dans les deux) : %s\n",((double)b1/n1<=0.10&&(double)b2/n2<=0.10)?"OUI":"NON");
+    return 0; }
   if(!strcmp(argv[1],"cand")){
     FILE*f=fopen(argv[2],"r"); char line[512];
     while(fgets(line,sizeof line,f)){ char txt[128]; int a=0,b=1; int nf=sscanf(line,"%127s %d %d",txt,&a,&b); if(nf<1||txt[0]=='#') continue;
