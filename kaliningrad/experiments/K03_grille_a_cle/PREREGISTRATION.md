@@ -37,3 +37,8 @@ sections (oracle : lisibilité + cohérence des clés), jamais sur le seul score
 Un résultat négatif n'exclut que les grilles carrées à clé simple (colonnes ou lignes) avec lettres inchangées et plaintext
 allemand ; il laisse ouvertes les routes, doubles transpositions, grilles tournantes, substitutions combinées, et l'hypothèse B
 (pseudo-texte).
+
+## Amendement 1 (avant tout calcul sur le texte réel)
+Premier essai des contrôles : le critère « ≥ 90 % des positions » compte comme échecs des résultats lisibles dont les lignes sont
+décalées circulairement (ambiguïté propre à ces grilles). Nouveau critère de succès : **≥ 90 % des paires de lettres voisines du
+résultat sont voisines dans le clair**. L'effort de recherche est ensuite fixé sur les contrôles (règle inchangée).

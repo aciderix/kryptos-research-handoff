@@ -111,9 +111,13 @@ int main(int argc, char **argv) {
             int var = b & 1; encrypt(pn, q, perm, var, c);
             double s = search(c, q, R, I, &bv, &bd, bp);
             decrypt(c, q, bp, bv, bd, out);
-            int good = 0; for (int i = 0; i < n; i++) good += out[i] == pn[i];
-            ok += good >= 0.9 * n;
-            printf("bloc %2d q=%d var=%d score=%.3f vrai=%.3f correct=%d/%d\n", b, q, var, s, score(pn, n), good, n);
+            /* critère (amendement 1) : part des lettres voisines du résultat qui sont voisines dans le clair */
+            int idx[256], cidx[256], oidx[256], good = 0;
+            for (int i = 0; i < n; i++) idx[i] = i;
+            encrypt(idx, q, perm, var, cidx); decrypt(cidx, q, bp, bv, bd, oidx);
+            for (int i = 0; i + 1 < n; i++) good += oidx[i + 1] == oidx[i] + 1;
+            ok += good >= 0.9 * (n - 1);
+            printf("bloc %2d q=%d var=%d score=%.3f vrai=%.3f contacts=%d/%d\n", b, q, var, s, score(pn, n), good, n - 1);
         }
         printf("SUCCES %d/%d (q=%d, bruit=%.2f, R=%d, I=%d)\n", ok, nb, q, noise, R, I);
     } else if (!strcmp(argv[1], "solve") || !strcmp(argv[1], "null")) {
