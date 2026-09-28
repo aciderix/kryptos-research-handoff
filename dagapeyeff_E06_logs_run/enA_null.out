@@ -1,0 +1,13 @@
+GEO=0 N=196 FAM=P W=2..9 (D: W1<=6 W2<=6) TOP=50 ITER2=40000 REST2=8 A=1,2,3
+  mode P0 : Rmax=48 ; meilleur qoff=-12.750
+  mode P1 : Rmax=46 ; meilleur qoff=-12.748
+  mode P2 : Rmax=50 ; meilleur qoff=-12.704
+NULL #0 qoff=-12.704 (W=7 W2=7)
+  mode P0 : Rmax=46 ; meilleur qoff=-12.593
+  mode P1 : Rmax=47 ; meilleur qoff=-12.693
+  mode P2 : Rmax=51 ; meilleur qoff=-12.527
+NULL #1 qoff=-12.527 (W=7 W2=7)
+  mode P0 : Rmax=44 ; meilleur qoff=-12.862
+  mode P1 : Rmax=52 ; meilleur qoff=-12.849
+  mode P2 : Rmax=51 ; meilleur qoff=-12.888
+NULL #2 qoff=-12.849 (W=7 W2=7)
