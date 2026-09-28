@@ -1,0 +1,41 @@
+GEO=1 N=182 FAM=D W=2..9 (D: W1<=7 W2<=7) TOP=10 ITER2=15000 REST2=3 A=1,2,3
+  W1=2 W2=2 : Rmax=16 ; meilleur qoff=-11.582
+  W1=2 W2=3 : Rmax=13 ; meilleur qoff=-11.403
+  W1=2 W2=4 : Rmax=23 ; meilleur qoff=-11.569
+  W1=2 W2=5 : Rmax=25 ; meilleur qoff=-11.256
+  W1=2 W2=6 : Rmax=29 ; meilleur qoff=-11.470
+  W1=2 W2=7 : Rmax=36 ; meilleur qoff=-11.263
+  W1=3 W2=2 : Rmax=13 ; meilleur qoff=-11.197
+  W1=3 W2=3 : Rmax=14 ; meilleur qoff=-11.509
+  W1=3 W2=4 : Rmax=17 ; meilleur qoff=-11.500
+  W1=3 W2=5 : Rmax=31 ; meilleur qoff=-11.303
+  W1=3 W2=6 : Rmax=31 ; meilleur qoff=-11.101
+  W1=3 W2=7 : Rmax=36 ; meilleur qoff=-11.267
+  W1=4 W2=2 : Rmax=15 ; meilleur qoff=-11.454
+  W1=4 W2=3 : Rmax=17 ; meilleur qoff=-11.515
+  W1=4 W2=4 : Rmax=20 ; meilleur qoff=-11.383
+  W1=4 W2=5 : Rmax=28 ; meilleur qoff=-11.396
+  W1=4 W2=6 : Rmax=31 ; meilleur qoff=-11.245
+  W1=4 W2=7 : Rmax=44 ; meilleur qoff=-11.125
+  W1=5 W2=2 : Rmax=31 ; meilleur qoff=-11.353
+  W1=5 W2=3 : Rmax=26 ; meilleur qoff=-11.381
+  W1=5 W2=4 : Rmax=29 ; meilleur qoff=-11.343
+  W1=5 W2=5 : Rmax=40 ; meilleur qoff=-11.383
+  W1=5 W2=6 : Rmax=43 ; meilleur qoff=-11.366
+  W1=5 W2=7 : Rmax=41 ; meilleur qoff=-11.354
+  W1=6 W2=2 : Rmax=37 ; meilleur qoff=-11.338
+  W1=6 W2=3 : Rmax=27 ; meilleur qoff=-11.437
+  W1=6 W2=4 : Rmax=33 ; meilleur qoff=-11.392
+  W1=6 W2=5 : Rmax=38 ; meilleur qoff=-11.406
+  W1=6 W2=6 : Rmax=46 ; meilleur qoff=-11.306
+  W1=6 W2=7 : Rmax=46 ; meilleur qoff=-11.325
+  W1=7 W2=2 : Rmax=34 ; meilleur qoff=-11.300
+  W1=7 W2=3 : Rmax=39 ; meilleur qoff=-11.269
+  W1=7 W2=4 : Rmax=52 ; meilleur qoff=-11.059
+  W1=7 W2=5 : Rmax=52 ; meilleur qoff=-11.350
+  W1=7 W2=6 : Rmax=50 ; meilleur qoff=-11.309
+  W1=7 W2=7 : Rmax=61 ; meilleur qoff=-11.327
+paires (symbole = lettres) : 62=B/T 63=Q/R 64=V/O 65=C/U 72=Y/P 74=H/D 75=A/Z 81=E 82=N/W 83=S/X 84=K/L 85=I/G 91=M/F
+MEILLEUR qoff=-11.059 W=7 P=4 2 3 5 6 1 7 | W2=4 Q=4 1 2 3  (R=36)
+CLAIR=YSSAYTRAFTHECURGPIONOLLOAFORKSEIRSWHOTERSTADTHIGATCHBYACTICANTICEIMETOWRUMILDNODWASUNNEANEESOFMEOLENTERAGOINGONESSLOPERAMILDDLOASUNWEFULFULRAVITYPRADMRHEMSHAPPEBETSTAFEETONSERAIDINNS
+vérification directe (chaque lettre lue appartient au symbole observé) : 0/182 écarts (exact)
