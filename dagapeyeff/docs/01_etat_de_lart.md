@@ -44,7 +44,7 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 | « THE MAP THAT WAS PREPARED FOR THE EXPEDITION… » | commentaire, 2025 | texte complet et mécanisme non fournis | **Non vérifiable** |
 | Sommes des groupes mod 26 → noms de fibres | commentaire, 2026 | mécanisme ad hoc ; aucun ré-enchiffrement proposé | **Non admissible** |
 | ADFGX k=7 | dagapeyeffresearch | retiré par l'auteur (surajustement, 14 % des positions) | **Retirée** |
-| Colonnaire 2×98 + Polybe standard, clair **espéranto** (vocabulaire récurrent sur 30 relances, scores « au-dessus de l'anglais ») | msgtrail.com | ni clair complet ni clé publiés ; compte « 17 lettres » (18 observées) ; un score supérieur à l'anglais évoque un optimum dégénéré du modèle | **Non vérifiable** ; largeur 2 couverte ici en 7 langues (E04, E05) mais **pas en espéranto** → E07 |
+| Colonnaire 2×98 + Polybe standard, clair **espéranto** (vocabulaire récurrent sur 30 relances, scores « au-dessus de l'anglais ») | msgtrail.com | ni clair complet ni clé publiés ; compte « 17 lettres » (18 observées) ; un score supérieur à l'anglais évoque un optimum dégénéré du modèle | **Non vérifiable** et **non reproduite** : E07 (espéranto, largeur 2 incluse, contrôles + null) négatif |
 
 ## 4. Registre des familles déjà testées (par d'autres), sans solution
 | Famille | Qui | Couverture connue |

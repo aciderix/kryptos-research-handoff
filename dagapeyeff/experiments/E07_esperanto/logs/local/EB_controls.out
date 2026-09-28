@@ -1,0 +1,12 @@
+GEO=1 N=182 FAM=E W=2..11 (D: W1<=6 W2<=6) TOP=50 ITER2=40000 REST2=8 A=1,2,3
+CTRL #0 W=5 W2=0 R(vrai)=59  qoff=-10.057 (vrai -10.083)  récupéré=181/182 carré=182/182 OK
+CTRL #1 W=3 W2=0 R(vrai)=78  qoff=-11.424 (vrai -10.294)  récupéré=66/182 carré=66/182 ÉCHEC
+CTRL #2 W=6 W2=0 R(vrai)=20  qoff=-9.824 (vrai -9.824)  récupéré=182/182 carré=182/182 OK
+CTRL #3 W=9 W2=0 R(vrai)=75  qoff=-10.273 (vrai -10.287)  récupéré=181/182 carré=181/182 OK
+CTRL #4 W=7 W2=0 R(vrai)=205  qoff=-10.952 (vrai -9.691)  récupéré=62/182 carré=62/182 ÉCHEC
+CTRL #5 W=9 W2=0 R(vrai)=111  qoff=-9.989 (vrai -10.029)  récupéré=181/182 carré=181/182 OK
+CTRL #6 W=4 W2=0 R(vrai)=86  qoff=-9.946 (vrai -9.947)  récupéré=181/182 carré=181/182 OK
+CTRL #7 W=5 W2=0 R(vrai)=22  qoff=-9.654 (vrai -9.689)  récupéré=181/182 carré=181/182 OK
+CTRL #8 W=11 W2=0 R(vrai)=58  qoff=-10.875 (vrai -10.488)  récupéré=112/182 carré=112/182 ÉCHEC
+CTRL #9 W=9 W2=0 R(vrai)=68  qoff=-10.163 (vrai -10.147)  récupéré=162/182 carré=162/182 ÉCHEC
+==> 6/10

@@ -1,0 +1,56 @@
+GEO=0 N=196 FAM=I W=2..11 (D: W1<=6 W2<=6) TOP=50 ITER2=40000 REST2=8 A=1,2,3
+  W=2 : Rmax=4 ; meilleur qoff=-13.508
+  W=3 : Rmax=9 ; meilleur qoff=-13.209
+  W=4 : Rmax=12 ; meilleur qoff=-13.148
+  W=5 : Rmax=7 ; meilleur qoff=-12.961
+  W=6 : Rmax=11 ; meilleur qoff=-13.338
+  W=7 : Rmax=12 ; meilleur qoff=-13.304
+  W=8 : Rmax=4 ; meilleur qoff=-13.218
+  W=9 : Rmax=9 ; meilleur qoff=-13.418
+  W=10 : Rmax=11 ; meilleur qoff=-13.165
+  W=11 : Rmax=20 ; meilleur qoff=-13.204
+NULL #0 qoff=-12.961 (W=5 W2=0)
+  W=2 : Rmax=8 ; meilleur qoff=-13.172
+  W=3 : Rmax=8 ; meilleur qoff=-13.461
+  W=4 : Rmax=11 ; meilleur qoff=-13.246
+  W=5 : Rmax=13 ; meilleur qoff=-13.122
+  W=6 : Rmax=11 ; meilleur qoff=-13.270
+  W=7 : Rmax=6 ; meilleur qoff=-12.939
+  W=8 : Rmax=20 ; meilleur qoff=-13.208
+  W=9 : Rmax=16 ; meilleur qoff=-13.329
+  W=10 : Rmax=21 ; meilleur qoff=-13.300
+  W=11 : Rmax=14 ; meilleur qoff=-13.264
+NULL #1 qoff=-12.939 (W=7 W2=0)
+  W=2 : Rmax=14 ; meilleur qoff=-13.108
+  W=3 : Rmax=3 ; meilleur qoff=-13.521
+  W=4 : Rmax=10 ; meilleur qoff=-13.203
+  W=5 : Rmax=16 ; meilleur qoff=-12.931
+  W=6 : Rmax=4 ; meilleur qoff=-13.202
+  W=7 : Rmax=5 ; meilleur qoff=-13.286
+  W=8 : Rmax=9 ; meilleur qoff=-12.958
+  W=9 : Rmax=14 ; meilleur qoff=-13.031
+  W=10 : Rmax=17 ; meilleur qoff=-13.142
+  W=11 : Rmax=8 ; meilleur qoff=-13.420
+NULL #2 qoff=-12.931 (W=5 W2=0)
+  W=2 : Rmax=3 ; meilleur qoff=-13.232
+  W=3 : Rmax=13 ; meilleur qoff=-13.559
+  W=4 : Rmax=25 ; meilleur qoff=-13.602
+  W=5 : Rmax=10 ; meilleur qoff=-13.469
+  W=6 : Rmax=6 ; meilleur qoff=-13.160
+  W=7 : Rmax=8 ; meilleur qoff=-13.320
+  W=8 : Rmax=8 ; meilleur qoff=-13.040
+  W=9 : Rmax=7 ; meilleur qoff=-13.122
+  W=10 : Rmax=10 ; meilleur qoff=-13.028
+  W=11 : Rmax=24 ; meilleur qoff=-12.945
+NULL #3 qoff=-12.945 (W=11 W2=0)
+  W=2 : Rmax=9 ; meilleur qoff=-13.346
+  W=3 : Rmax=5 ; meilleur qoff=-13.235
+  W=4 : Rmax=15 ; meilleur qoff=-13.359
+  W=5 : Rmax=7 ; meilleur qoff=-13.157
+  W=6 : Rmax=8 ; meilleur qoff=-12.742
+  W=7 : Rmax=6 ; meilleur qoff=-13.307
+  W=8 : Rmax=12 ; meilleur qoff=-13.089
+  W=9 : Rmax=10 ; meilleur qoff=-13.155
+  W=10 : Rmax=8 ; meilleur qoff=-13.326
+  W=11 : Rmax=14 ; meilleur qoff=-13.151
+NULL #4 qoff=-12.742 (W=6 W2=0)

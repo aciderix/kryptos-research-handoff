@@ -1,0 +1,2 @@
+E07 — résumé (2026-09-28T12:23:52Z)
+DB | contrôles ==> 4/5 | réel MEILLEUR qoff=-12.373 W=6 P=4 2 5 3 6 1 | W2=7 Q=6 7 2 1 5 4 3  (R=41) | null qoff=-12.476 qoff=-12.301 qoff=-12.461 

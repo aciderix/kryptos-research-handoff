@@ -1,0 +1,5 @@
+E07 — résumé (2026-09-28T12:31:53Z)
+EB | contrôles ==> 6/10 | réel MEILLEUR qoff=-12.522 W=8 P=6 4 2 1 3 5 7 8  (R=25) | null qoff=-12.263 qoff=-12.524 qoff=-12.449 qoff=-12.209 qoff=-12.434 
+EA | contrôles ==> 4/5 | réel MEILLEUR qoff=-12.839 W=2 P=2 1  (R=10) | null qoff=-12.519 qoff=-12.554 qoff=-12.585 qoff=-12.651 qoff=-12.606 
+IB | contrôles ==> 9/10 | réel MEILLEUR qoff=-12.649 W=7 P=2 3 4 5 1 6 7  (R=13) | null qoff=-12.607 qoff=-12.707 qoff=-12.654 qoff=-12.620 qoff=-12.483 
+IA | contrôles ==> 5/5 | réel MEILLEUR qoff=-12.956 W=4 P=4 1 2 3  (R=7) | null qoff=-12.961 qoff=-12.939 qoff=-12.931 qoff=-12.945 qoff=-12.742 

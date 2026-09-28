@@ -1,0 +1,14 @@
+GEO=0 N=196 FAM=E W=2..11 (D: W1<=6 W2<=6) TOP=50 ITER2=40000 REST2=8 A=1,2,3
+  W=2 : Rmax=10 ; meilleur qoff=-12.839
+  W=3 : Rmax=11 ; meilleur qoff=-13.473
+  W=4 : Rmax=12 ; meilleur qoff=-12.931
+  W=5 : Rmax=27 ; meilleur qoff=-12.879
+  W=6 : Rmax=23 ; meilleur qoff=-12.846
+  W=7 : Rmax=43 ; meilleur qoff=-13.090
+  W=8 : Rmax=35 ; meilleur qoff=-12.909
+  W=9 : Rmax=39 ; meilleur qoff=-12.881
+  W=10 : Rmax=43 ; meilleur qoff=-12.998
+  W=11 : Rmax=50 ; meilleur qoff=-12.905
+MEILLEUR qoff=-12.839 W=2 P=2 1  (R=10)
+CLAIR=KTIAUSUELUDAEULONIOOEUNKAEBLAOAKEKUSELURKIUDMITIOKNKTSXANORTAROSKLIUSTLKANSROTUTITJJNDANONLILDUIRTEEKTUTIONAMSKPRERKEDSSRTOKARMIANNIALRETOPEMODESESDMSMMRASREALITISMIIROMDLTASSIROTRIDOSTEKIEDIDADPC
+ré-enchiffrement : 0/196 symboles différents, collisions=0 (exact)
