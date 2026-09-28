@@ -1,0 +1,26 @@
+géométrie A (N=196) profil : [20, 17, 17, 17, 17, 16, 15, 14, 12, 12, 11, 11, 9, 3, 2, 1] ; symboles distincts 18
+  anglais      D=  20.4 p=0.0007
+  français     D=  19.6 p=0.0003
+  allemand     D=  27.9 p=0.0003
+  italien      D=  17.9 p=0.0027
+  espagnol     D=  21.3 p=0.0003
+  latin        D=  14.9 p=0.0017
+  néerlandais  D=  37.1 p=0.0003
+  espéranto    D=  20.5 p=0.0010
+  uniforme k=13 D=  16.9 p=0.0003
+  uniforme k=14 D=  10.4 p=0.0003
+  uniforme k=15 D=  10.6 p=0.0003
+  uniforme k=18 D=  25.0 p=0.0003
+géométrie B (N=182) profil : [20, 17, 17, 16, 16, 15, 14, 13, 12, 12, 11, 10, 9, 0, 0, 0] ; symboles distincts 13
+  anglais      D=  29.4 p=0.0020
+  français     D=  26.9 p=0.0003
+  allemand     D=  35.7 p=0.0003
+  italien      D=  26.0 p=0.0013
+  espagnol     D=  29.4 p=0.0003
+  latin        D=  23.3 p=0.0003
+  néerlandais  D=  44.6 p=0.0003
+  espéranto    D=  28.8 p=0.0003
+  uniforme k=13 D=   0.3 p=0.9817
+  uniforme k=14 D=   6.9 p=0.0017
+  uniforme k=15 D=  14.0 p=0.0003
+  uniforme k=18 D=  35.8 p=0.0003
