@@ -58,7 +58,13 @@ static double solve(void){
     init_assign(R>0); int P[16]; for(int i=0;i<W;i++)P[i]=i; for(int i=W-1;i>0;i--){int j=rnd()%(i+1);int t=P[i];P[i]=P[j];P[j]=t;}
     double cur=score_key(P,NULL),best=cur; int bP[16],bL[13][2],bC[13]; memcpy(bP,P,sizeof P); memcpy(bL,LET,sizeof LET); memcpy(bC,CNT,sizeof CNT);
     for(int it=0;it<ITERS;it++){ double T=3.0*pow(0.05/3.0,(double)it/ITERS);
-      if(FAM=='N'||urand()<0.6){ /* échange de deux lettres entre symboles différents */
+      double u=urand();
+      if(u<0.25){ /* échange des paires ENTIÈRES de deux symboles de même taille (corrige une correspondance symbole -> classe) */
+        int s1=rnd()%13,s2=rnd()%13; if(s1==s2||CNT[s1]!=CNT[s2]) continue;
+        int t0=LET[s1][0],t1=LET[s1][1]; LET[s1][0]=LET[s2][0]; LET[s1][1]=LET[s2][1]; LET[s2][0]=t0; LET[s2][1]=t1;
+        double ns=score_key(P,NULL);
+        if(ns>=cur||urand()<exp((ns-cur)/T)) cur=ns; else { t0=LET[s1][0];t1=LET[s1][1]; LET[s1][0]=LET[s2][0]; LET[s1][1]=LET[s2][1]; LET[s2][0]=t0; LET[s2][1]=t1; }
+      } else if(FAM=='N'||u<0.65){ /* échange de deux lettres entre symboles différents */
         int s1=rnd()%13,s2=rnd()%13; if(s1==s2) continue; int a=rnd()%CNT[s1],b=rnd()%CNT[s2];
         int t=LET[s1][a]; LET[s1][a]=LET[s2][b]; LET[s2][b]=t; if(CNT[s1]==1) LET[s1][1]=LET[s1][0]; if(CNT[s2]==1) LET[s2][1]=LET[s2][0];
         double ns=score_key(P,NULL);
