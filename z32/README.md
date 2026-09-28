@@ -17,6 +17,7 @@ la distance d'unicité d'un homophonique ; on peut **réfuter** des familles, pa
 
 | E02 | la note FBI « 32 symbols 26 different » contre les 29 classes modernes : examen des glyphes sur la photo haute résolution | **pas de désaccord** : 26 = symboles uniques (29 − 3) ; les distinctions modernes sont délibérées ([résultats](experiments/E02_glyphes_26_29/RESULTS.md)) |
 | E03 | cycle strict des homophones (habitude du Z408) comme test | **inadmissible** : 37 % des vrais passages du Z408 et 96 % du Z340 le violent ([résultats](experiments/E03_cycles/RESULTS.md)) |
+| E04 | audit de Stampher : « le chiffre vise les zones des crimes » (87 % des survivants à 8 h/10 h, 5,2×) | enrichissement réel (4,2×) mais **effet d'orthographe** : des répétitions aléatoires font aussi bien 1 fois sur 60 (p = 0,017 > 0,01 pré-inscrit) ([résultats](experiments/E04_audit_stampher/RESULTS.md)) |
 
 **Document primaire** : la note du cryptanalyste du FBI (juillet 1970) montre que les mots probables NORTH, SOUTH, EAST,
 WEST, MILES, YARDS, FEET, BOMB et KILL ont déjà été essayés, sans résultat ([§ 2](docs/01_etat_de_lart.md)).
