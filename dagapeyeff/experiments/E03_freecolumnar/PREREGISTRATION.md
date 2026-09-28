@@ -71,3 +71,12 @@ majorant du meilleur chemin, O(W³)) ; la clé finale reste calculée **exacteme
 Réglages : SIGIT = 20 000, ROUNDS = 6, RESTARTS = 24 (≈ 15 s par résolution en largeur 14). Mêmes cellules,
 mêmes critères, même seuil (≥ 6/10 contrôles). B7 (déjà exécutée avec la version exacte) est re-contrôlée avec
 cette version pour comparaison, sans nouveau run réel.
+
+### Contrôles définitifs, solveur accéléré (avant runs réels B13, B14, A14)
+| Cellule | Récupérés | min qoff récupéré |
+|---|---|---|
+| E03-B13 | **9/10** | −10,039 |
+| E03-B14 | **9/10** | −10,168 |
+| E03-A14 | **8/10** | −9,680 |
+| E03-B7 (comparaison) | 8/10 | −9,747 |
+Toutes admissibles (≥ 6/10). Les échecs finissent à −10,0 … −12,0.

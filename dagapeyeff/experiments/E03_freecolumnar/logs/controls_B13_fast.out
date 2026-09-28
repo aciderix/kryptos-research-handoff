@@ -1,0 +1,22 @@
+GEO=1 N=182 W=13 H=14 R=24 ROUNDS=6 SUBIT=40000
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #0 qoff=-9.253 (vraie clé -9.253) récupéré=182/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #1 qoff=-9.680 (vraie clé -9.715) récupéré=181/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #2 qoff=-9.199 (vraie clé -9.199) récupéré=182/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #3 qoff=-10.039 (vraie clé -10.012) récupéré=179/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #4 qoff=-9.695 (vraie clé -9.695) récupéré=182/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #5 qoff=-11.981 (vraie clé -9.650) récupéré=26/182 ÉCHEC
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #6 qoff=-9.098 (vraie clé -9.120) récupéré=181/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #7 qoff=-9.528 (vraie clé -9.528) récupéré=182/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #8 qoff=-9.684 (vraie clé -9.684) récupéré=182/182 OK
+   [diag] DP avec le vrai carré : 13/13 colonnes à la bonne place
+CTRL #9 qoff=-9.074 (vraie clé -9.074) récupéré=182/182 OK
+==> 9/10 contrôles récupérés (≥90%)
