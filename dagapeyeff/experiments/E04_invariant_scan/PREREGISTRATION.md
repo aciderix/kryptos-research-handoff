@@ -69,3 +69,11 @@ Sinon : **négatif**.
 (≥ 90 % des lettres du texte reçoivent la bonne lettre), mesure indépendante de l'ordre des segments ; les
 contrôles I sont refaits avec cette mesure (+ I et D en géométrie A). Pour un candidat réel en famille I, le
 critère 2 (lisibilité) s'applique aux segments, et l'ordre des segments est alors une question séparée.
+
+### Contrôles après amendement 1 (avant runs réels I et D)
+| Famille | Géométrie | Récupérés |
+|---|---|---|
+| I | B | **10/10** (carré retrouvé 182/182 partout) |
+| I | A | **5/5** |
+| D | A | **5/5** |
+Toutes les familles sont admissibles.
