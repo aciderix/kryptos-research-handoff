@@ -1,0 +1,23 @@
+Z408 (clair réel) jugé avec K340 (n=316) : X=0:136 (cum 0.430) X=1:129 (cum 0.839) X=2:51 (cum 1.000)
+Z340 section 1 (clair réel) jugé avec K408 (n=122) : X=0:38 (cum 0.311) X=1:40 (cum 0.639) X=2:27 (cum 0.861) X=3:8 (cum 0.926) X=4:9 (cum 1.000)
+seuil v (X <= v pour >= 95 % des fenêtres, deux sens) = 4
+
+grammaire de Stampher : 2044224 phrases, 154572 de 32 lettres, 61 satisfont les verrous
+leurres Stampher : X408 (n=61) : X=0:9 (cum 0.148) X=1:27 (cum 0.590) X=2:15 (cum 0.836) X=3:8 (cum 0.967) X=4:1 (cum 0.984) X=5:1 (cum 1.000)
+leurres Stampher : X340 (n=61) : X=0:7 (cum 0.115) X=1:18 (cum 0.410) X=2:21 (cum 0.754) X=3:5 (cum 0.836) X=4:9 (cum 0.984) X=6:1 (cum 1.000)
+incompatibles (X408>4 et X340>4) : 1/61
+
+fenêtres 108111 ; satisfaisant les verrous 42
+leurres corpus : X408 (n=42) : X=0:6 (cum 0.143) X=1:8 (cum 0.333) X=2:12 (cum 0.619) X=3:5 (cum 0.738) X=4:8 (cum 0.929) X=5:2 (cum 0.976) X=7:1 (cum 1.000)
+leurres corpus : X340 (n=42) : X=0:3 (cum 0.071) X=1:16 (cum 0.452) X=2:11 (cum 0.714) X=3:2 (cum 0.762) X=4:7 (cum 0.929) X=5:2 (cum 0.976) X=7:1 (cum 1.000)
+incompatibles (X408>4 et X340>4) : 1/42 = 0.024
+
+ESTIMATEFOURRADIANSANDFIVEINCHES   route(0,1) X408=0 X340=1 l408=-11.91 l340=-inf besoins>1 : A3 D2 E3 F2 I4 N3 R2 S2 T2 
+INTHREEANDTHREEEIGHTHSRADIANSTEN   route(0,1) X408=2 X340=3 l408=-inf l340=-inf besoins>1 : A3 D2 E5 H4 I2 N3 R3 S2 T4 
+THREEANDTHREEEIGHTHSRADIANSSIXIN   route(8,29) X408=1 X340=2 l408=-inf l340=-inf besoins>1 : A2 D2 E4 H3 I4 N3 R3 S3 T3 
+THREEANDTHREEEIGHTHSRADIANSSIXIN   route(0,1) VERROUS VIOLÉS
+TOWNSHIPTHREENORTHRANGETHREEWEST   route(0,1) VERROUS VIOLÉS
+TWELVEINCHESALONGTHETHREERADIANS   route(0,1) VERROUS VIOLÉS
+THREERADIANSFROMMOUNTAREATWOINCH   route(0,1) X408=1 X340=1 l408=-inf l340=-inf besoins>1 : A4 E3 I2 M2 N3 O3 R3 T2 
+USEPIOVERTWOFOURANDTHREEQUARTERS   route(0,1) X408=3 X340=0 l408=-inf l340=-11.01 besoins>1 : A2 E5 O2 R5 T3 U2 
+USETWOPOINTSFOURANDTHREEQUARTERS   route(0,1) X408=2 X340=0 l408=-inf l340=-9.51 besoins>1 : A2 E4 N2 O2 R4 S2 T4 U2 
