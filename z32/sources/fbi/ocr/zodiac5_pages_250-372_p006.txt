@@ -1,0 +1,72 @@
+ye
+
+daisies: Sx of
+2 TOA aL
+az a
+TO \
+xX
+
+“ @His
+
+u
+
+co)
+A
+D
+d
+
+> hw Oe
+
+The cryptographic equivalents used in specimens .
+Q2 and Q6 are the same as those used in the original
+"Zodiac" cipher; both the original ciphertext and
+its decryption have been published. However, the
+following differences should be noted between the
+eryptograms in the submitted specimens and the cryptograns
+authored-by “Zodiac:” a
+
+(1) The longer “%odiac" ciphers were inscribed
+into a rectangle. The end of the first ("solved")
+cryptogram, when deciphered, was unintelligible;
+the author apparently used the cipher symbols
+
+to complete the rectangle. Since the second
+cipher remains unsolved, it is aot known whether
+any nulls are used to complete the rectangle.
+The cryptogram in specimen Q2 does not follow
+the same pattern of inacribing the message into
+a Complete rectangle (i.e., the last line of
+the ocryptogran contains only 3 symbols).
+
+(2) The “Zodiac" cryptograms contained 17 symbols
+per row. The cryptogram in specimens Q2 and
+Q6 contain 13 symbols per row.
+
+The decryptiona of specimens Q2 and 96
+follow. Garbled portions of the plaintext have been
+
+corrected; these corrections are underlined.
+
+Beacdman 02
+
+MUST DIE FOR HER FIPTY MEGAHERTZ SCREECH
+AND HER ee ee SHE IS §0 1 SIBLY
+SHALLOW AND STUCK
+
+Specimen 06
+
+IP YOU WISH TO KNOW MY IDENTITY YOU WILL
+
+PUT SOME EFFORT INTO IT NOT FIDDLE AND
+YART AROUND HERE I8 A CLUS AS MISSU
+SHE REMEMBERS WHO DRAWS [HE SYNBOL T'
+HAVE MZ GOOD LUCK
+
+Page 3 (over)
+80426031 D LL
+
+WILL
+
+phos
+
+ee NT
