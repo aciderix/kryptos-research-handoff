@@ -28,16 +28,22 @@ Dépendance des bigrammes (G-test) p = 0,71 ; doublons 19 (mélanges 13,6 ; p = 
 15 (12,9) ; bigrammes répétés 67 (68,5). ⇒ **aucune structure séquentielle détectable**.
 Les 5 symboles rares (04, 71, 92, 93, 94) n'apparaissent **que** dans la colonne 14.
 
-## 4. Conséquences (DÉDUCTIONS, pas des tests)
-- L'indice de coïncidence « proche de l'anglais » (IC × 25 = 1,74) est une **coïncidence** : 13 symboles quasi
-  uniformes (IC × 25 ≈ 1,92) plus 5 symboles rares donnent ≈ 1,74. L'argument « IC anglais ⇒ lettres anglaises en
-  substitution simple », commun à toute la littérature (numberworld, dagapeyeffresearch, et nos E01-E09), est
-  **invalidé** : le profil est celui d'un tirage uniforme sur 13 symboles, pas celui d'une langue.
-- Cela explique l'échec systématique de E01-E09 (et des travaux antérieurs) : **toute** combinaison
-  « transposition + Polybe d'un texte en langue naturelle » est exclue par les seuls comptes, quelle que soit la
-  transposition (p ≤ 0,003 dans 8 langues).
-- Modèles compatibles restant à examiner (HYPOTHÈSES) : (a) colonnes 1-13 = remplissage aléatoire (nulles) tiré
-  dans 13 cases, le message éventuel étant ailleurs (colonne 14 : 14 symboles, sous la distance d'unicité ⇒
-  invérifiable seul) ; (b) couche de chiffrement forte (polyalphabétique à longue clé) sur un alphabet réduit ;
-  (c) clair lui-même non linguistique (code numérique, alphabet réduit/fusionné) ; (d) erreur ou canular. Chaque
-  piste exige une pré-inscription et un critère de preuve ; (a) et (d) peuvent rendre le défi **insoluble**.
+## 4. Portée — séparée en quatre niveaux (révisée le 2026-09-28 après relecture critique)
+1. **Observation** : 18 symboles distincts sur 196 ; 13 hors colonne 14 ; les 5 symboles rares seulement en
+   colonne 14 ; 12 symboles d'effectif ≥ 11, un seul entre 3 et 8.
+2. **Résultat statistique** : le profil rang-fréquence est rejeté pour 8 langues naturelles (p ≤ 0,003), **en
+   géométrie A (aucune colonne retirée) comme en B** ; hors colonne 14, il est compatible avec un tirage uniforme
+   sur 13 symboles (p = 0,98) et sans structure séquentielle détectable.
+3. **Portée exacte** : sont rejetés tous les mécanismes où **chaque paire du chiffré correspond une-à-une à une
+   lettre du clair** dans l'une de ces 8 langues — quel que soit le carré et **quelle que soit la transposition des
+   paires** (les comptes y sont invariants), colonne 14 comprise ou exclue. **Non couverts** : nulles insérées
+   ailleurs (enseignées par l'auteur), homophones, couche polyalphabétique, fractionnation (bornée par
+   l'alternance parfaite, à tester formellement), clair non linguistique.
+4. **Conclusion** : **non déterminée**. « Le clair n'est pas linguistique » n'est **pas** démontré tant que la
+   capacité des mécanismes documentés (notamment langue + nulles) à produire ce profil n'a pas été calibrée sur des
+   textes réels (→ E12). L'idée que l'IC « anglais » soit une coïncidence reste une **interprétation**.
+
+## 5. Pistes (HYPOTHÈSES, à pré-inscrire)
+(a) langue naturelle + nulles selon une règle de l'auteur (à calibrer en premier) ; (b) colonnes 1-13 = remplissage,
+message ailleurs (colonne 14 : sous la distance d'unicité) ; (c) couche polyalphabétique sur alphabet réduit ;
+(d) clair non linguistique (code numérique, alphabet fusionné) ; (e) erreur ou canular.

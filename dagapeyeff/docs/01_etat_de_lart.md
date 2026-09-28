@@ -29,9 +29,9 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 | **Les 8 occurrences des 5 symboles les plus rares (04,71,92,93,94) sont toutes en colonne 14** de la grille 14×14 ; P(hasard) ≈ 10⁻⁸ | CONNU qualitativement (numberworld 2013) ; **quantifié ici** |
 
 **Conséquences logiques (déduites, pas testées) :**
-- ⚠️ **Invalidé par E11** : « IC ≈ anglais ⇒ lettres anglaises en substitution simple ». Le profil de fréquences est
-  incompatible avec toute langue naturelle (p ≤ 0,003, 8 langues) et, hors colonne 14, identique à un tirage uniforme
-  sur 13 symboles ; l'IC anglais est une coïncidence. Ci-dessous, déduction initiale conservée pour mémoire :
+- ⚠️ **Mis en cause par E11** : « IC ≈ anglais ⇒ lettres anglaises en substitution simple ». Le profil de fréquences
+  rejette, pour 8 langues, tout mécanisme « une paire = une lettre » (p ≤ 0,003) ; la conclusion sur la nature du clair
+  reste **non déterminée** tant que « langue + nulles » n'est pas calibré (E12). Déduction initiale conservée pour mémoire :
 - IC ≈ anglais ⇒ les paires sont des **lettres intactes** (substitution monoalphabétique par paire). Une
   fractionation qui transposerait lignes et colonnes indépendamment (bifide/trifide) aplatirait l'IC ⇒ exclue.
 - Alternance parfaite ⇒ toute transposition agit sur des **paires entières** (ou préserve la parité).
