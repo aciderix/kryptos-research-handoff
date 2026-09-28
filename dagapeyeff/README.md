@@ -2,6 +2,8 @@
 
 - [`docs/00_choix_du_defi.md`](docs/00_choix_du_defi.md) — pourquoi d'Agapeyeff plutôt que Zodiac Z32
 - [`docs/01_etat_de_lart.md`](docs/01_etat_de_lart.md) — sources, faits structurels, solutions revendiquées auditées, registre des familles déjà testées
+- [`docs/02_mecanismes_du_livre.md`](docs/02_mecanismes_du_livre.md) — matrice des mécanismes du livre
+- [`docs/03_relecture_du_livre.md`](docs/03_relecture_du_livre.md) — relecture complète du livre et de E01-E15 : trous identifiés
 - [`docs/PROTOCOLE.md`](docs/PROTOCOLE.md) — règles obligatoires
 - [`data/`](data/) — chiffré + provenance
 - [`tools/`](tools/) — outils C (mesures, solveurs)

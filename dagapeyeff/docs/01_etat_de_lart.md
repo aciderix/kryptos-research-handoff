@@ -7,7 +7,7 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 ## 1. Sources consultées
 | Source | Nature | Apport |
 |---|---|---|
-| d'Agapeyeff, *Codes and Ciphers*, OUP 1939, p. 158 | primaire | le défi ; le livre enseigne le carré de Polybe à alphabet mélangé et l'ajout de nulles (pp. 124-126 selon Pelling). **Non consulté directement** : l'exemplaire archive.org est l'édition 1974 (sans le défi), en prêt contrôlé |
+| d'Agapeyeff, *Codes and Ciphers*, OUP 1939, p. 158 | primaire | le défi ; le livre enseigne le carré de Polybe à alphabet mélangé et l'ajout de nulles (pp. 124-126 selon Pelling). **Consulté** (scan archive.org `codesciphers0000daga`, réimpression Gale 1974 de l'édition 1939) : le défi y figure p. 158, 395/395 chiffres vérifiés (voir `data/PROVENANCE.md`) ; relecture complète : `docs/03_relecture_du_livre.md` |
 | Wikipédia, « D'Agapeyeff cipher » | secondaire | texte ; citation du livre sur les nulles (« if every third, fourth, or fifth letter… is a dummy ») ; oubli de la méthode par l'auteur |
 | Shulman, *The Cryptogram*, avril/mai 1952 ; *The Cryptogram* 1959 ; Barker, *Cryptologia* 2(2):144-147 (1978) | secondaires anciennes | analyses ; Barker : 392 chiffres → 196 paires = 14×14 ⇒ transposition carrée suggérée. **Textes non consultés** (derrière paywall) |
 | K. Schmeh, MysteryTwister C3 (PDF) | secondaire | texte (identique) ; hypothèse d'une erreur d'enchiffrement |
