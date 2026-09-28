@@ -44,6 +44,7 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 | « THE MAP THAT WAS PREPARED FOR THE EXPEDITION… » | commentaire, 2025 | texte complet et mécanisme non fournis | **Non vérifiable** |
 | Sommes des groupes mod 26 → noms de fibres | commentaire, 2026 | mécanisme ad hoc ; aucun ré-enchiffrement proposé | **Non admissible** |
 | ADFGX k=7 | dagapeyeffresearch | retiré par l'auteur (surajustement, 14 % des positions) | **Retirée** |
+| Colonnaire 2×98 + Polybe standard, clair **espéranto** (vocabulaire récurrent sur 30 relances, scores « au-dessus de l'anglais ») | msgtrail.com | ni clair complet ni clé publiés ; compte « 17 lettres » (18 observées) ; un score supérieur à l'anglais évoque un optimum dégénéré du modèle | **Non vérifiable** ; largeur 2 couverte ici en 7 langues (E04, E05) mais **pas en espéranto** → E07 |
 
 ## 4. Registre des familles déjà testées (par d'autres), sans solution
 | Famille | Qui | Couverture connue |
@@ -55,6 +56,8 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 | Écriture par lignes, extraction par colonnes **avec réordonnancement interne** ; « 04 » = X de bourrage final unique (clair de 195 lettres) | Pelling, Cipher Mysteries, 23/12/2013 (hypothèse, non résolue) | hypothèse ; pas de clé publiée. Ne relève pas que 8 lignes (pas 1) finissent par un symbole rare |
 | Double transposition (Kerckhoffs) | GitHub ajejfiejof | partielle, sans contrôle |
 | ADFGX, two-square, Playfair | dagapeyeffresearch | négatifs |
+| « Recherche exhaustive » substitution + transposition simple | G. Lasry, **cité** par dagapeyeffresearch (findings) | source primaire non trouvée : **cité, non vérifié** |
+| Espéranto vs anglais (8 configurations, 40 recuits) | dagapeyeffresearch | comparaison de scores bruts entre langues (échelles non comparables), sans contrôle |
 | Nulles (motifs de suppression) | dagapeyeffresearch (« null-removal patterns ») | détails non publiés |
 | Langues autres que l'anglais | dagapeyeffresearch | RU, FR, DE, eo |
 
