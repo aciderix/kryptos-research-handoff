@@ -56,3 +56,16 @@ Sinon : **négatif**.
 - Étage 2 : un départ réussit ≈ 45 % des fois ; plancher du modèle (0,01 / 1 / 10 / 100 comptes) sans effet ;
   8 départs indépendants : 19/20 sur le vrai clair. Trois fautes de parenthèses dans le code, et une mesure de
   récupération non tolérante au décalage, corrigées pendant la mise au point.
+
+## Contrôles (réglages définitifs : TOP 50 / 20, 8 départs × 40 000)
+| Famille | Géométrie | Récupérés | Remarque |
+|---|---|---|---|
+| E | B (182) | **9/10** | admissible |
+| E | A (196) | **4/5** | admissible |
+| D | B | **8/10** | admissible |
+| I | B | 3/10 (mesure positionnelle) | les 7 « échecs » trouvent de l'anglais au niveau de la vérité (qoff −9,4…−9,8) : en sens inverse, une clé fausse ne fait que **permuter des segments** anglais (colonnes contiguës) |
+
+**AMENDEMENT 1 (avant tout run réel)** : pour I, le succès d'un contrôle est jugé par le **carré retrouvé**
+(≥ 90 % des lettres du texte reçoivent la bonne lettre), mesure indépendante de l'ordre des segments ; les
+contrôles I sont refaits avec cette mesure (+ I et D en géométrie A). Pour un candidat réel en famille I, le
+critère 2 (lisibilité) s'applique aux segments, et l'ordre des segments est alors une question séparée.

@@ -167,6 +167,8 @@ int main(int argc,char**argv){
       if(getenv("DIAG2")){ int mm[25]; for(int z=0;z<atoi(getenv("DIAG2"));z++){ double q0=solve_sub(pl,mm); printf("   appel %d : %.3f\n",z,q0);} double qq=solve_sub(pl,mm); int rr=0; for(int i=0;i<N;i++) if(mm[pl[i]]==txt[i]) rr++; printf("   [diag] étage 2 sur le vrai clair : qoff=%.3f récupéré=%d/%d\n",qq,rr,N); continue; }
       Final f=pipeline(S,bw,getenv("VERB")!=NULL); int rec=0; for(int sh=-16;sh<=16;sh++){ int r=0; for(int i=0;i<N;i++){int j=i+sh; if(j>=0&&j<N&&f.map[f.pl[i]]==txt[j]) r++;} if(r>rec) rec=r; } /* tolère un décalage (clé tournée) */
       int mt[25]={0}; for(int i=0;i<N;i++) mt[pl[i]]=txt[i]; double qt=qsc(pl,mt)/(N-3);
-      printf("CTRL #%d W=%d W2=%d R(vrai)=%d  qoff=%.3f (vrai %.3f)  récupéré=%d/%d %s\n",t,W,W2,strue,f.q,qt,rec,N,rec>=0.9*N?"OK":"ÉCHEC"); ok+=(rec>=0.9*N); }
+      int sq=0; for(int i=0;i<N;i++) if(f.map[f.pl[i]]==L[f.pl[i]]) sq++; /* carré retrouvé (indépendant de l'ordre) */
+      int succ=(rec>=0.9*N)||(FAM=='I'&&sq>=0.9*N);
+      printf("CTRL #%d W=%d W2=%d R(vrai)=%d  qoff=%.3f (vrai %.3f)  récupéré=%d/%d carré=%d/%d %s\n",t,W,W2,strue,f.q,qt,rec,N,sq,N,succ?"OK":"ÉCHEC"); ok+=succ; }
     printf("==> %d/%d\n",ok,nc); return 0; }
   return 1; }
