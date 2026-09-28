@@ -57,5 +57,5 @@ L'étage 1 (R, invariant par substitution **et** par langue) a été comparé la
   57-58). Attendu sous H0 : ≈ 1/(n+1) dépassement par cellule ; observé 2/10 (E), 10/36 (D), 1/10 (I).
 - L'anglais ne l'explique pas (clé imposée, 60 départs : −12,80). Un recuit sur 14! ordres de lignes crée autant
   de répétitions sur des mélanges ⇒ seule la famille **exhaustive et petite** (5 040) est informative.
-- Statut : OBSERVATION significative (p ≈ 10⁻³ après ≈ 60 cellules), **sans interprétation** ; E05 teste si une
-  autre langue l'explique.
+- Statut initial : OBSERVATION jugée significative sur 10-40 mélanges. **Mise à jour (E08)** : avec 2 000
+  mélanges, p local = 0,006-0,0095 et p global (16 cellules) = 0,11 ⇒ **compatible avec le hasard**, close.
