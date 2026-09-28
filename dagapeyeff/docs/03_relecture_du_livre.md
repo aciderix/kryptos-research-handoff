@@ -98,3 +98,7 @@ Suite proposée (E16, à pré-inscrire) : statistique de dépendance entre symbo
 d'E03 à clé imposée, puis colonnaire complète largeurs 13 et 14 à clé libre **seulement si** la puissance est
 démontrée sur contrôles (§ 2 bis) ; puis solveur de paires d'E15 sur les meilleurs candidats. (a), (b) et K1/K2 :
 moins d'une heure ; largeurs 13/14 à clé libre : incertain.
+
+## 5. Mise à jour après E16 (2026-09-28)
+T2 (nulles régulières), T3 (routes) et les clés K1/K2 d'E03 sous « 13 classes » : **négatifs** ; T1 à clé libre
+(largeurs 13/14) : **sans puissance** avec une statistique invariante sur 182 symboles. Voir `experiments/E16_thirteen_classes_gaps/RESULTS.md`.

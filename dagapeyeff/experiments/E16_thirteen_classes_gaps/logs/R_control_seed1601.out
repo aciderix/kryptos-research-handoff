@@ -1,0 +1,6 @@
+E16 cellule R mode control PR_REST=6 PR_ITERS=150000 TOP=10 FREST=20 FITER=100000
+CTRL #0 vrai=spir-down-c0-in/dir1 R(vrai)=47 | trouvé=spir-down-c0-in/dir1 qoff=-9.218 lues=174/182 OK
+CTRL #1 vrai=d2-row-bou/dir0 R(vrai)=35 | trouvé=d1-col-bou/dir1 qoff=-9.555 lues=174/182 OK
+CTRL #2 vrai=spir-right-c1-in/dir0 R(vrai)=69 | trouvé=spir-right-c2-in/dir0 qoff=-9.878 lues=26/182 ÉCHEC
+CTRL #3 vrai=d0-row-bou/dir1 R(vrai)=52 | trouvé=d0-row-bou/dir0 qoff=-9.323 lues=176/182 OK
+==> 3/4

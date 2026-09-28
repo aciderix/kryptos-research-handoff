@@ -1,0 +1,11 @@
+E16 cellule F mode s1ctrl PR_REST=6 PR_ITERS=150000 TOP=10 FREST=20 FITER=100000
+CTRL1 #0 I W=14 R(vrai)=29 Rmax trouvé=76 (>= vrai)
+CTRL1 #1 E W=13 R(vrai)=99 Rmax trouvé=129 (>= vrai)
+CTRL1 #2 E W=14 R(vrai)=88 Rmax trouvé=77 
+CTRL1 #3 I W=13 R(vrai)=52 Rmax trouvé=77 (>= vrai)
+CTRL1 #4 E W=13 R(vrai)=23 Rmax trouvé=71 (>= vrai)
+CTRL1 #5 E W=14 R(vrai)=40 Rmax trouvé=70 (>= vrai)
+CTRL1 #6 I W=13 R(vrai)=69 Rmax trouvé=105 (>= vrai)
+CTRL1 #7 E W=13 R(vrai)=61 Rmax trouvé=74 (>= vrai)
+CTRL1 #8 I W=13 R(vrai)=171 Rmax trouvé=187 (>= vrai)
+CTRL1 #9 I W=13 R(vrai)=35 Rmax trouvé=79 (>= vrai)

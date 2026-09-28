@@ -1,0 +1,6 @@
+E16 cellule K mode null PR_REST=6 PR_ITERS=150000 TOP=10 FREST=20 FITER=100000
+NULL #0 qoff=-11.367 candidat=K1 Rmax=19
+NULL #1 qoff=-11.514 candidat=K1 (inverse) Rmax=13
+NULL #2 qoff=-11.535 candidat=K2 (inverse) Rmax=10
+NULL #3 qoff=-11.573 candidat=K1 Rmax=16
+NULL #4 qoff=-11.173 candidat=K2 Rmax=9

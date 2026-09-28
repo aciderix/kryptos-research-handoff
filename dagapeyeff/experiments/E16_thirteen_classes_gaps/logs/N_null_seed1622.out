@@ -1,0 +1,6 @@
+E16 cellule N mode null PR_REST=6 PR_ITERS=150000 TOP=10 FREST=20 FITER=100000
+NULL #0 qoff=-10.718 candidat=nulles k=3 phase=1 Rmax=5
+NULL #1 qoff=-10.861 candidat=nulles k=3 phase=0 Rmax=17
+NULL #2 qoff=-10.898 candidat=nulles k=4 phase=3 Rmax=14
+NULL #3 qoff=-10.794 candidat=nulles k=3 phase=1 Rmax=12
+NULL #4 qoff=-10.644 candidat=nulles k=3 phase=0 Rmax=9
