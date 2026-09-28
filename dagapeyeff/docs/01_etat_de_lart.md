@@ -67,3 +67,11 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 **Ce qui manque dans ces travaux (et justifie notre protocole) :** aucun ne publie de **contrôle synthétique**
 (message planté puis retrouvé), de **distribution nulle** calibrée, ni de **ré-enchiffrement** exact ; aucun
 n'utilise explicitement la contrainte « colonne 14 » comme **prédiction** à satisfaire.
+
+## 5. Antériorités sur le profil de fréquences (vérifiées le 2026-09-28)
+| Constat | Qui | Statut |
+|---|---|---|
+| Distribution « trop plate pour un message anglais de 196 caractères » | Wikipédia (phrase non sourcée) ; M. Knul (Cipher Mysteries, 22/01/2014) ; J. Melichar (Cipher Mysteries, 03/06/2014 : comparaison à des textes, « the most uniquely written passage of 196 characters ever written, or there is something else in play ») | qualitatif, sans p-valeur |
+| « En retirant les caractères qui n'apparaissent que dans la dernière colonne, il ne reste que 13 lettres » | T. Rodrigues (Cipher Mysteries, 19/05/2014), noté comme problématique pour « substitution + transposition » | observation, non développée |
+| Recherche dans Gutenberg par distribution de fréquences triée | N. Pelling (Cipher Mysteries, 01/05/2021) | **proposée, jamais exécutée** |
+| Ici (E11-E13) | — | quantification (8 langues, p ≤ 0,003), ajustement « uniforme sur 13 » (p = 0,98), calibration des mécanismes du livre (E12), hypothèse « 13 classes équilibrées » testée (E13) : **non trouvées ailleurs** dans les sources consultées |

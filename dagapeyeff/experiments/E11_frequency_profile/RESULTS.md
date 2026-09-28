@@ -1,5 +1,8 @@
 # E11 — Profil de fréquences : **incompatible** avec une substitution monoalphabétique d'une langue naturelle
 
+Antériorités : platitude notée qualitativement (Wikipédia ; Knul et Melichar, Cipher Mysteries 2014) ; « 13 lettres
+sans la dernière colonne » remarqué par T. Rodrigues (2014) — voir `docs/01_etat_de_lart.md` § 5. Apport ici : quantification.
+
 Statut : **OBSERVATION calibrée** (tests choisis après avoir remarqué l'anomalie, mais p-valeurs calculées par
 simulation sur des textes réels ; plusieurs statistiques indépendantes concordent). Script : `tools/profile_tests.py` ;
 sortie : `profile_tests.out`. Aucun modèle de transposition ni de carré n'intervient : ces tests portent sur les
