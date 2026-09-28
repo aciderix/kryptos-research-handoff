@@ -22,3 +22,5 @@ __pycache__/
 *.gz
 *.log
 .claude/settings.local.json
+# journaux et binaires temporaires des scripts autonomes (les journaux définitifs sont copiés dans logs/)
+dagapeyeff/experiments/*/logs_run/
