@@ -1,0 +1,7 @@
+GEO=1 N=182 FAM=D W=2..9 (D: W1<=7 W2<=7) TOP=20 ITER2=40000 REST2=8 A=1,2,3
+CTRL #0 W=7 W2=7 R(vrai)=29  qoff=-12.759 (vrai -9.708)  récupéré=19/182 carré=46/182 ÉCHEC
+CTRL #1 W=2 W2=4 R(vrai)=46  qoff=-9.222 (vrai -9.263)  récupéré=176/182 carré=182/182 OK
+CTRL #2 W=2 W2=2 R(vrai)=60  qoff=-10.844 (vrai -11.008)  récupéré=129/182 carré=129/182 ÉCHEC
+CTRL #3 W=5 W2=5 R(vrai)=54  qoff=-10.328 (vrai -10.382)  récupéré=174/182 carré=174/182 OK
+CTRL #4 W=3 W2=4 R(vrai)=111  qoff=-11.086 (vrai -10.534)  récupéré=67/182 carré=67/182 ÉCHEC
+==> 2/5

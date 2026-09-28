@@ -1,0 +1,40 @@
+GEO=1 N=182 FAM=D W=2..9 (D: W1<=7 W2<=7) TOP=20 ITER2=40000 REST2=8 A=1,2,3
+  W1=2 W2=2 : Rmax=16 ; meilleur qoff=-13.536
+  W1=2 W2=3 : Rmax=13 ; meilleur qoff=-13.444
+  W1=2 W2=4 : Rmax=23 ; meilleur qoff=-13.458
+  W1=2 W2=5 : Rmax=25 ; meilleur qoff=-13.550
+  W1=2 W2=6 : Rmax=29 ; meilleur qoff=-13.323
+  W1=2 W2=7 : Rmax=36 ; meilleur qoff=-13.291
+  W1=3 W2=2 : Rmax=13 ; meilleur qoff=-12.911
+  W1=3 W2=3 : Rmax=14 ; meilleur qoff=-13.207
+  W1=3 W2=4 : Rmax=17 ; meilleur qoff=-13.487
+  W1=3 W2=5 : Rmax=31 ; meilleur qoff=-13.289
+  W1=3 W2=6 : Rmax=31 ; meilleur qoff=-13.075
+  W1=3 W2=7 : Rmax=36 ; meilleur qoff=-13.200
+  W1=4 W2=2 : Rmax=15 ; meilleur qoff=-13.573
+  W1=4 W2=3 : Rmax=17 ; meilleur qoff=-13.423
+  W1=4 W2=4 : Rmax=20 ; meilleur qoff=-13.486
+  W1=4 W2=5 : Rmax=28 ; meilleur qoff=-13.314
+  W1=4 W2=6 : Rmax=31 ; meilleur qoff=-13.243
+  W1=4 W2=7 : Rmax=44 ; meilleur qoff=-13.402
+  W1=5 W2=2 : Rmax=31 ; meilleur qoff=-13.549
+  W1=5 W2=3 : Rmax=26 ; meilleur qoff=-13.333
+  W1=5 W2=4 : Rmax=29 ; meilleur qoff=-13.377
+  W1=5 W2=5 : Rmax=40 ; meilleur qoff=-13.125
+  W1=5 W2=6 : Rmax=43 ; meilleur qoff=-12.984
+  W1=5 W2=7 : Rmax=41 ; meilleur qoff=-13.163
+  W1=6 W2=2 : Rmax=37 ; meilleur qoff=-13.338
+  W1=6 W2=3 : Rmax=27 ; meilleur qoff=-13.391
+  W1=6 W2=4 : Rmax=33 ; meilleur qoff=-13.226
+  W1=6 W2=5 : Rmax=38 ; meilleur qoff=-13.335
+  W1=6 W2=6 : Rmax=46 ; meilleur qoff=-13.189
+  W1=6 W2=7 : Rmax=46 ; meilleur qoff=-13.204
+  W1=7 W2=2 : Rmax=34 ; meilleur qoff=-13.203
+  W1=7 W2=3 : Rmax=39 ; meilleur qoff=-13.284
+  W1=7 W2=4 : Rmax=52 ; meilleur qoff=-13.228
+  W1=7 W2=5 : Rmax=52 ; meilleur qoff=-13.128
+  W1=7 W2=6 : Rmax=50 ; meilleur qoff=-13.308
+  W1=7 W2=7 : Rmax=61 ; meilleur qoff=-13.361
+MEILLEUR qoff=-12.911 W=3 P=2 3 1 | W2=2 Q=2 1  (R=8)
+CLAIR=HDUHNEEELSSAULNRAUILDNISTUHGLATOROSTIINALLIUNATEOHNGEHATOGTSGIHRLTSHHADURSEIIUSSOUTLESENDREINADIGLIEADEINGULOLNURENDTSEHALSAOGEGARERTNINERRTDEDIOHOTDAANANARIHNDTTERDINSOSRERGOTESASOD
+ré-enchiffrement : 0/182 symboles différents, collisions=0 (exact)

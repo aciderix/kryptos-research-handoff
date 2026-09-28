@@ -1,0 +1,40 @@
+GEO=1 N=182 FAM=D W=2..9 (D: W1<=7 W2<=7) TOP=20 ITER2=40000 REST2=8 A=1,2,3
+  W1=2 W2=2 : Rmax=16 ; meilleur qoff=-13.098
+  W1=2 W2=3 : Rmax=13 ; meilleur qoff=-12.933
+  W1=2 W2=4 : Rmax=23 ; meilleur qoff=-12.973
+  W1=2 W2=5 : Rmax=25 ; meilleur qoff=-12.816
+  W1=2 W2=6 : Rmax=29 ; meilleur qoff=-12.807
+  W1=2 W2=7 : Rmax=36 ; meilleur qoff=-12.637
+  W1=3 W2=2 : Rmax=13 ; meilleur qoff=-12.787
+  W1=3 W2=3 : Rmax=14 ; meilleur qoff=-12.913
+  W1=3 W2=4 : Rmax=17 ; meilleur qoff=-12.989
+  W1=3 W2=5 : Rmax=31 ; meilleur qoff=-12.507
+  W1=3 W2=6 : Rmax=31 ; meilleur qoff=-12.536
+  W1=3 W2=7 : Rmax=36 ; meilleur qoff=-12.565
+  W1=4 W2=2 : Rmax=15 ; meilleur qoff=-13.002
+  W1=4 W2=3 : Rmax=17 ; meilleur qoff=-12.870
+  W1=4 W2=4 : Rmax=20 ; meilleur qoff=-12.766
+  W1=4 W2=5 : Rmax=28 ; meilleur qoff=-12.758
+  W1=4 W2=6 : Rmax=31 ; meilleur qoff=-12.612
+  W1=4 W2=7 : Rmax=44 ; meilleur qoff=-12.625
+  W1=5 W2=2 : Rmax=31 ; meilleur qoff=-12.656
+  W1=5 W2=3 : Rmax=26 ; meilleur qoff=-12.697
+  W1=5 W2=4 : Rmax=29 ; meilleur qoff=-12.840
+  W1=5 W2=5 : Rmax=40 ; meilleur qoff=-12.378
+  W1=5 W2=6 : Rmax=43 ; meilleur qoff=-12.664
+  W1=5 W2=7 : Rmax=41 ; meilleur qoff=-12.552
+  W1=6 W2=2 : Rmax=37 ; meilleur qoff=-12.787
+  W1=6 W2=3 : Rmax=27 ; meilleur qoff=-12.490
+  W1=6 W2=4 : Rmax=33 ; meilleur qoff=-12.833
+  W1=6 W2=5 : Rmax=38 ; meilleur qoff=-12.752
+  W1=6 W2=6 : Rmax=46 ; meilleur qoff=-12.524
+  W1=6 W2=7 : Rmax=46 ; meilleur qoff=-12.558
+  W1=7 W2=2 : Rmax=34 ; meilleur qoff=-12.566
+  W1=7 W2=3 : Rmax=39 ; meilleur qoff=-12.495
+  W1=7 W2=4 : Rmax=52 ; meilleur qoff=-12.596
+  W1=7 W2=5 : Rmax=52 ; meilleur qoff=-12.591
+  W1=7 W2=6 : Rmax=50 ; meilleur qoff=-12.361
+  W1=7 W2=7 : Rmax=61 ; meilleur qoff=-12.659
+MEILLEUR qoff=-12.361 W=7 P=4 7 6 1 3 2 5 | W2=6 Q=2 5 1 4 3 6  (R=42)
+CLAIR=EIPEENTUSPAUDNPSAEUDSLEDESUDESAPRLIOUSCRILEREONCURARLADISNUTLLAIROPLPNAITASUIACELICPDNCINCPREPTSSOITLODSAPRLPURTITEREONTANSELUETDUNEETUDITTCRITLLLAITTORITASUCCOTECEALLENASURNCOAAPOIU
+ré-enchiffrement : 0/182 symboles différents, collisions=0 (exact)

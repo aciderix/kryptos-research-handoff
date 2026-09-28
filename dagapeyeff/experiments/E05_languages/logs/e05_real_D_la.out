@@ -1,0 +1,40 @@
+GEO=1 N=182 FAM=D W=2..9 (D: W1<=7 W2<=7) TOP=20 ITER2=40000 REST2=8 A=1,2,3
+  W1=2 W2=2 : Rmax=16 ; meilleur qoff=-12.392
+  W1=2 W2=3 : Rmax=13 ; meilleur qoff=-12.327
+  W1=2 W2=4 : Rmax=23 ; meilleur qoff=-12.260
+  W1=2 W2=5 : Rmax=25 ; meilleur qoff=-12.326
+  W1=2 W2=6 : Rmax=29 ; meilleur qoff=-12.220
+  W1=2 W2=7 : Rmax=36 ; meilleur qoff=-12.136
+  W1=3 W2=2 : Rmax=13 ; meilleur qoff=-12.219
+  W1=3 W2=3 : Rmax=14 ; meilleur qoff=-12.417
+  W1=3 W2=4 : Rmax=17 ; meilleur qoff=-12.343
+  W1=3 W2=5 : Rmax=31 ; meilleur qoff=-12.049
+  W1=3 W2=6 : Rmax=31 ; meilleur qoff=-11.757
+  W1=3 W2=7 : Rmax=36 ; meilleur qoff=-11.996
+  W1=4 W2=2 : Rmax=15 ; meilleur qoff=-12.335
+  W1=4 W2=3 : Rmax=17 ; meilleur qoff=-12.265
+  W1=4 W2=4 : Rmax=20 ; meilleur qoff=-12.179
+  W1=4 W2=5 : Rmax=28 ; meilleur qoff=-12.227
+  W1=4 W2=6 : Rmax=31 ; meilleur qoff=-12.267
+  W1=4 W2=7 : Rmax=44 ; meilleur qoff=-12.178
+  W1=5 W2=2 : Rmax=31 ; meilleur qoff=-12.203
+  W1=5 W2=3 : Rmax=26 ; meilleur qoff=-12.190
+  W1=5 W2=4 : Rmax=29 ; meilleur qoff=-12.202
+  W1=5 W2=5 : Rmax=40 ; meilleur qoff=-11.995
+  W1=5 W2=6 : Rmax=43 ; meilleur qoff=-12.222
+  W1=5 W2=7 : Rmax=41 ; meilleur qoff=-11.913
+  W1=6 W2=2 : Rmax=37 ; meilleur qoff=-12.133
+  W1=6 W2=3 : Rmax=27 ; meilleur qoff=-11.860
+  W1=6 W2=4 : Rmax=33 ; meilleur qoff=-11.914
+  W1=6 W2=5 : Rmax=38 ; meilleur qoff=-12.133
+  W1=6 W2=6 : Rmax=46 ; meilleur qoff=-11.967
+  W1=6 W2=7 : Rmax=46 ; meilleur qoff=-11.812
+  W1=7 W2=2 : Rmax=34 ; meilleur qoff=-11.851
+  W1=7 W2=3 : Rmax=39 ; meilleur qoff=-11.922
+  W1=7 W2=4 : Rmax=52 ; meilleur qoff=-12.069
+  W1=7 W2=5 : Rmax=52 ; meilleur qoff=-11.945
+  W1=7 W2=6 : Rmax=50 ; meilleur qoff=-11.986
+  W1=7 W2=7 : Rmax=61 ; meilleur qoff=-12.014
+MEILLEUR qoff=-11.757 W=3 P=1 2 3 | W2=6 Q=2 5 3 4 6 1  (R=31)
+CLAIR=UPEIUPENSORRPUSOCEROTUCMLRNEEMITCESEUNCSUINUOPACOLISNOCTANETTUAPECRLELLOIOSPERTUSLINCPTUISMONUMINNIANSICISSTASEPERNPONICINOTEISLATACANCLITIONPMCSCAEIUSPERTUAPEELSMEATSTMORTUMREURULMA
+ré-enchiffrement : 0/182 symboles différents, collisions=0 (exact)
