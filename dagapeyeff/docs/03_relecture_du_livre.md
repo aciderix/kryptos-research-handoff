@@ -34,6 +34,28 @@ invite à développer : syllabes ⇒ **plus** de symboles) ; torches de Fortius 
 Porta (p. 33) ; nihiliste (p. 50) ; fractionnation MANCHESTER (p. 124-125 : une colonnaire sur coordonnées séparées ne
 peut pas conserver l'alternance parfaite, puisque les colonnes de rang impair commencent par une coordonnée de colonne).
 
+## 2 bis. Ce que la relecture complète de E01-E15 corrige dans la liste ci-dessus
+(Ajouté après relecture de **tous** les `RESULTS.md` ; la première version de ce document ne s'appuyait que sur
+E11-E13, les pré-inscriptions d'E14-E15 et des extraits d'E01/E14.)
+- **T1 n'est pas vierge.** E03 a testé la largeur 13 (géométrie B, clé libre) en « une paire = une lettre » et y a
+  relevé une **OBSERVATION non résolue** : sur 11 graines, deux clés récurrentes K1/K2, propres au vrai chiffré, qui
+  captent une structure de bigrammes réelle (+1,4 sur une clé quelconque) sans donner d'anglais. Elle a été close en
+  E04 par un argument de contiguïté (K1 : 13 trigrammes, 0 quadrigramme répétés), mais **jamais examinée sous
+  « 13 classes »**. Or ce comportement (structure réelle, pas d'anglais lisible) est ce qu'on attend d'un bon
+  ordre de colonnes quand chaque symbole vaut deux lettres. Premier test de E16, presque gratuit : solveur de paires
+  d'E15 **à clé imposée** K1 et K2. Réserve : sous « 13 classes », la vraie clé produit beaucoup de répétitions
+  (E14 : R = 57-173 aux largeurs 2-11), ce qui plaide plutôt **contre** K1 (R = 13).
+- **Limite de puissance connue (E04 § 5-6).** Sur 182 symboles, une statistique invariante (répétitions, et
+  vraisemblablement toute dépendance de voisinage) ne départage plus des espaces de clés au-delà d'environ 10¹⁰ :
+  un recuit sur 13! ou 14! ordres crée autant de structure sur des mélanges. La partie « largeur 13/14 » de E16
+  doit donc d'abord **prouver sa puissance sur contrôles** ; elle peut échouer.
+- **T2 est probablement déjà très contraint.** Avec des nulles une sur k et sans transposition, les suites de
+  k−1 vrais symboles gardent la contiguïté du clair fusionné, qui répète beaucoup de n-grammes. Or l'ordre imprimé a
+  des répétitions au niveau des mélanges (E11 § 3 : 67 bigrammes répétés contre 68,5 ; E04 : 5 trigrammes contre
+  6,2 ± 2,6). E16 (a) devrait le confirmer vite.
+- **T3** : E01 couvrait les routes pour le cas injectif ; l'espace est petit (64 routes), donc la statistique
+  invariante garde sa puissance. Trou entier et peu coûteux.
+
 ## 3. Contrôles exploratoires faits pendant la relecture (OBSERVATION, non pré-inscrits, descriptifs)
 - **Appariement décalé d'un chiffre** (colonne de la paire i, ligne de la paire i+1) : 20 symboles, profil
   d'allure anglaise (23, 17, 16, 14, 13, …, 3, 1). **Piège** : la table est **indépendante** (G = 16,2 ; p = 0,40), donc
@@ -60,6 +82,7 @@ l'erreur d'encodage et le canular dans la catégorie « compatible, invérifiabl
 
 Suite proposée (E16, à pré-inscrire) : statistique de dépendance entre symboles voisins, **invariante par relabellisation**
 (donc sans connaître l'appariement), calibrée sur contrôles « 13 classes » :
-(a) nulles régulières k = 3, 4, 5, toutes phases, sans transposition ; (b) 64 routes × 2 géométries ; (c) colonnaire
-complète largeurs 13 et 14, clé libre, par recuit sur cette statistique ; puis solveur de paires d'E15 sur les
-meilleurs candidats. Coût estimé : quelques heures.
+(a) nulles régulières k = 3, 4, 5, toutes phases, sans transposition ; (b) 64 routes × 2 géométries ; (c) clés K1/K2
+d'E03 à clé imposée, puis colonnaire complète largeurs 13 et 14 à clé libre **seulement si** la puissance est
+démontrée sur contrôles (§ 2 bis) ; puis solveur de paires d'E15 sur les meilleurs candidats. (a), (b) et K1/K2 :
+moins d'une heure ; largeurs 13/14 à clé libre : incertain.
