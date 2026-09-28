@@ -1,0 +1,31 @@
+de_2229.txt	Language: German	Title: Faust: Der Tragödie erster Teil
+de_22367.txt	Language: German	Title: Die Verwandlung
+de_5323.txt	Language: German	Title: Effi Briest
+de_6343.txt	Language: German	Title: Kritik der reinen Vernunft
+es_17073.txt	Language: Spanish	Title: La Regenta
+es_2000.txt	Language: Spanish	Title: Don Quijote
+fr_13951.txt	Language: French	Title: Les trois mousquetaires
+fr_17489.txt	Language: French	Title: Les misérables Tome I: Fantine
+fr_17493.txt	Language: French	Title: Les misérables Tome II: Cosette
+fr_18108.txt	Language: French	Title: Jean-nu-pieds, Vol. 2
+fr_4650.txt	Language: French	Title: Candide, ou l'optimisme
+it_1009.txt	Language: Italian	Title: La Divina Commedia di Dante: Inferno
+it_1012.txt	Language: Italian	Title: La Divina Commedia di Dante
+it_45334.txt	Language: Italian	Title: I promessi sposi.
+it_7121.txt	Language: Italian	Title: Da Firenze a Digione: Impressioni di un reduce Garibaldino
+it_997.txt	Language: Italian	Title: Divina Commedia di Dante: Inferno
+it_998.txt	Language: Italian	Title: Divina Commedia di Dante: Purgatorio
+la_218.txt	Language: Latin	Title: C. Iuli Caesaris De Bello Gallico, I-IV
+la_227.txt	Language: Latin	Title: Aeneidos
+la_229.txt	Language: Latin	Title: The Bucolics and Eclogues
+la_231.txt	Language: Latin	Title: Georgicon
+la_4317.txt	Language: Latin	Title: Prophetia Ionae
+la_825.txt	Language: Latin	Title: Latin Vulgate, Bible Book Titles and Names
+la_826.txt	Language: Latin	Title: Latin Vulgate, Esther: Liber Esther
+nl_10113.txt	Language: Dutch	Title: De mannen van '80 aan het woord
+nl_11024.txt	Language: Dutch	Title: Max Havelaar
+nl_24009.txt	Language: Dutch	Title: Het Leven der Dieren: Deel 1, Hoofdstuk 14: Buideldieren; Hoofdstuk 15: Kloakdieren
+nl_2838.txt	Language: Dutch	Title: De Beurs Lacht
+nl_28560.txt	Language: Dutch	Title: Een Kerstlied in Proza
+nl_6712.txt	Language: Dutch	Title: Akbar: een oosterse roman
+nl_8096.txt	Language: Dutch	Title: Reize naar Surinamen en door de binnenste gedeelten van Guiana — Deel 1
