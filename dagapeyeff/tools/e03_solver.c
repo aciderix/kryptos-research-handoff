@@ -154,7 +154,15 @@ int main(int argc,char**argv){
       int P[14],mp[25]; double q=solve(P,mp,NULL); if(q>mx)mx=q; printf("NULL #%d qoff=%.3f clé",t,q); for(int c=0;c<W;c++)printf(" %d",P[c]+1); printf("\n"); }
     printf("==> max null = %.3f\n",mx); return 0; }
   if(!strcmp(argv[3],"real")){
-    int P[14],mp[25],pl[196]; double pr[256]; double q=solve(P,mp,pr); plain_of(P,pl);
+    int P[14],mp[25],pl[196]; double pr[256]; double q;
+    if(getenv("KEY")){ /* clé imposée (1-indexée) : seul le carré est résolu, RESTARTS départs × SUBIT itérations */
+      char buf[256]; strncpy(buf,getenv("KEY"),255); buf[255]=0; char*t=strtok(buf," ,"); for(int c=0;c<W&&t;c++,t=strtok(NULL," ,")) P[c]=atoi(t)-1;
+      plain_of(P,pl); double gb=-1e30; int cnt[25]={0}; for(int i=0;i<N;i++)cnt[S[i]]++;
+      for(int R=0;R<RESTARTS;R++){ int m[25]; int lt[26]; for(int i=0;i<26;i++)lt[i]=i; for(int i=25;i>0;i--){int j=rnd()%(i+1);int x=lt[i];lt[i]=lt[j];lt[j]=x;}
+        for(int i=0;i<25;i++)m[i]=lt[i]; double sc=sub_anneal(pl,m,SUBIT,2.5,0.05); pr[R]=sc/(N-3); if(sc>gb){gb=sc;memcpy(mp,m,sizeof m);} }
+      q=gb/(N-3); printf("CLÉ IMPOSÉE ; carré résolu seul\n"); }
+    else q=solve(P,mp,pr);
+    plain_of(P,pl);
     printf("MEILLEUR qoff=%.3f ; clé (bloc lu par colonne du clair) :",q); for(int c=0;c<W;c++)printf(" %d",P[c]+1); printf("\nCLAIR=");
     for(int i=0;i<N;i++)putchar('A'+mp[pl[i]]); printf("\n");
     { /* vérification directe : clair + carré + clé -> chiffré -> grille imprimée (+ nulles conservées en B) -> 392 chiffres */
