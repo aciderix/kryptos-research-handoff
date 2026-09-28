@@ -24,8 +24,8 @@ Ré-enchiffrement exact partout (trivial sans les autres critères). Aucun clair
 
 ## 3. Null (RÉSULTAT)
 - E, B : 10 mélanges, pipeline complet : −12,095 … −12,567 (max **−12,095**). Réel −12,385 : **sous le max**.
-- I, B et D, B : voir `logs/null_*` (complétés en fin de run) ; valeurs disponibles au moment de la rédaction :
-  I −12,56 / −12,58 ; D −12,28 … −12,45. Les réels I-B (−12,73) et D-B (−12,33) sont **dans** cette plage.
+- I, B : 10 mélanges : −12,431 … −12,813 (max **−12,431**). Réel −12,731 : **sous le max**.
+- D, B : 10 mélanges : −12,085 … −12,445 (max **−12,085**). Réel −12,332 : **sous le max**.
 
 ## 4. Critères
 Critère 1 exige qoff ≥ min(contrôles récupérés) − 0,5 ≈ −10,6 **et** > max(null) + 0,5 : **aucune** cellule ne
@@ -44,3 +44,18 @@ s'en approche (écart ≈ 2 unités). Critères 2-5 non atteints.
   interrompue, grille tournante 14×14, nulles ailleurs qu'en colonne 14, langue autre que l'anglais, **erreur
   d'enchiffrement**. Limite méthodologique : sur 182 lettres, la statistique invariante ne départage plus des
   espaces de clés au-delà d'environ 10¹⁰ (cf. E03) ; ces familles exigent le solveur joint clé + carré.
+
+## 6. OBSERVATION indépendante de la langue : excès de répétitions en largeur 7 (non expliqué)
+L'étage 1 (R, invariant par substitution **et** par langue) a été comparé largeur par largeur au null :
+- **E, B, largeur 7** : R max réel **46** ; null E04 (10 mélanges) 22-35 ; 36 mélanges supplémentaires
+  (totaux, par colonnes, par lignes : composition des colonnes/lignes préservée) : max 41. Moyenne sur les
+  5 040 clés : 9,2 (σ 4,3).
+- Meilleure clé `7 3 6 1 4 2 5` : deux **6-grammes** répétés, `85 74 91 82 81 64` (écart 60) et
+  `62 75 82 81 62 81` (écart 41), chacun formé de cases d'une **même colonne imprimée** lues dans l'ordre de
+  lignes 7, 11, 3, 9, 13, 5, 1 (lignes impaires) puis 8, 12, 4, 10, 14, 6, 2 (paires).
+- Excès aussi en D pour une largeur interne 7 (W2 = 4 : 52 vs 36-43 ; W2 = 5 : 52 vs 40-51 ; W2 = 7 : 61 vs
+  57-58). Attendu sous H0 : ≈ 1/(n+1) dépassement par cellule ; observé 2/10 (E), 10/36 (D), 1/10 (I).
+- L'anglais ne l'explique pas (clé imposée, 60 départs : −12,80). Un recuit sur 14! ordres de lignes crée autant
+  de répétitions sur des mélanges ⇒ seule la famille **exhaustive et petite** (5 040) est informative.
+- Statut : OBSERVATION significative (p ≈ 10⁻³ après ≈ 60 cellules), **sans interprétation** ; E05 teste si une
+  autre langue l'explique.

@@ -36,3 +36,76 @@ NULL #2 qoff=-12.601 (W=7 W2=0)
   W=3 : Rmax=11 ; meilleur qoff=-13.059
   W=4 : Rmax=13 ; meilleur qoff=-12.901
   W=5 : Rmax=7 ; meilleur qoff=-13.224
+  W=6 : Rmax=23 ; meilleur qoff=-12.801
+  W=7 : Rmax=13 ; meilleur qoff=-13.236
+  W=8 : Rmax=24 ; meilleur qoff=-12.794
+  W=9 : Rmax=25 ; meilleur qoff=-12.963
+  W=10 : Rmax=25 ; meilleur qoff=-12.725
+  W=11 : Rmax=21 ; meilleur qoff=-12.665
+NULL #3 qoff=-12.665 (W=11 W2=0)
+  W=2 : Rmax=11 ; meilleur qoff=-13.291
+  W=3 : Rmax=16 ; meilleur qoff=-13.280
+  W=4 : Rmax=8 ; meilleur qoff=-12.952
+  W=5 : Rmax=11 ; meilleur qoff=-12.972
+  W=6 : Rmax=10 ; meilleur qoff=-13.034
+  W=7 : Rmax=12 ; meilleur qoff=-12.926
+  W=8 : Rmax=10 ; meilleur qoff=-13.038
+  W=9 : Rmax=12 ; meilleur qoff=-13.092
+  W=10 : Rmax=13 ; meilleur qoff=-12.800
+  W=11 : Rmax=16 ; meilleur qoff=-13.040
+NULL #4 qoff=-12.800 (W=10 W2=0)
+  W=2 : Rmax=13 ; meilleur qoff=-13.280
+  W=3 : Rmax=4 ; meilleur qoff=-13.195
+  W=4 : Rmax=14 ; meilleur qoff=-13.067
+  W=5 : Rmax=10 ; meilleur qoff=-13.196
+  W=6 : Rmax=6 ; meilleur qoff=-13.210
+  W=7 : Rmax=10 ; meilleur qoff=-12.431
+  W=8 : Rmax=16 ; meilleur qoff=-13.023
+  W=9 : Rmax=13 ; meilleur qoff=-13.011
+  W=10 : Rmax=13 ; meilleur qoff=-12.919
+  W=11 : Rmax=20 ; meilleur qoff=-12.486
+NULL #5 qoff=-12.431 (W=7 W2=0)
+  W=2 : Rmax=9 ; meilleur qoff=-12.970
+  W=3 : Rmax=4 ; meilleur qoff=-13.386
+  W=4 : Rmax=7 ; meilleur qoff=-12.661
+  W=5 : Rmax=18 ; meilleur qoff=-12.603
+  W=6 : Rmax=11 ; meilleur qoff=-12.727
+  W=7 : Rmax=12 ; meilleur qoff=-12.971
+  W=8 : Rmax=41 ; meilleur qoff=-12.591
+  W=9 : Rmax=12 ; meilleur qoff=-12.578
+  W=10 : Rmax=10 ; meilleur qoff=-12.643
+  W=11 : Rmax=11 ; meilleur qoff=-12.814
+NULL #6 qoff=-12.578 (W=9 W2=0)
+  W=2 : Rmax=2 ; meilleur qoff=-13.275
+  W=3 : Rmax=7 ; meilleur qoff=-13.210
+  W=4 : Rmax=7 ; meilleur qoff=-13.149
+  W=5 : Rmax=5 ; meilleur qoff=-13.045
+  W=6 : Rmax=5 ; meilleur qoff=-13.020
+  W=7 : Rmax=11 ; meilleur qoff=-12.813
+  W=8 : Rmax=23 ; meilleur qoff=-12.863
+  W=9 : Rmax=14 ; meilleur qoff=-12.898
+  W=10 : Rmax=20 ; meilleur qoff=-12.986
+  W=11 : Rmax=19 ; meilleur qoff=-12.993
+NULL #7 qoff=-12.813 (W=7 W2=0)
+  W=2 : Rmax=4 ; meilleur qoff=-13.252
+  W=3 : Rmax=6 ; meilleur qoff=-13.044
+  W=4 : Rmax=12 ; meilleur qoff=-12.513
+  W=5 : Rmax=7 ; meilleur qoff=-12.972
+  W=6 : Rmax=11 ; meilleur qoff=-12.793
+  W=7 : Rmax=10 ; meilleur qoff=-12.959
+  W=8 : Rmax=26 ; meilleur qoff=-12.957
+  W=9 : Rmax=7 ; meilleur qoff=-13.079
+  W=10 : Rmax=10 ; meilleur qoff=-12.782
+  W=11 : Rmax=16 ; meilleur qoff=-12.906
+NULL #8 qoff=-12.513 (W=4 W2=0)
+  W=2 : Rmax=8 ; meilleur qoff=-13.294
+  W=3 : Rmax=2 ; meilleur qoff=-13.029
+  W=4 : Rmax=22 ; meilleur qoff=-13.266
+  W=5 : Rmax=12 ; meilleur qoff=-12.809
+  W=6 : Rmax=9 ; meilleur qoff=-12.775
+  W=7 : Rmax=11 ; meilleur qoff=-12.578
+  W=8 : Rmax=19 ; meilleur qoff=-12.838
+  W=9 : Rmax=9 ; meilleur qoff=-13.137
+  W=10 : Rmax=18 ; meilleur qoff=-12.863
+  W=11 : Rmax=17 ; meilleur qoff=-12.929
+NULL #9 qoff=-12.578 (W=7 W2=0)
