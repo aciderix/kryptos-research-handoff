@@ -1,0 +1,7 @@
+règle bourrage : lignes 3 4 7 8 9 10 12 14 -> M=188 ; BOU=1 FREE=0 R=8 I=400000
+NULL #0 qoff=-12.245
+NULL #1 qoff=-12.117
+NULL #2 qoff=-12.122
+NULL #3 qoff=-12.137
+NULL #4 qoff=-12.214
+==> max null = -12.117

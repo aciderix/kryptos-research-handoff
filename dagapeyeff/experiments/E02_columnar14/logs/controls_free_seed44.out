@@ -1,0 +1,5 @@
+règle bourrage : lignes 3 4 7 8 9 10 12 14 -> M=188 ; BOU=0 FREE=1 R=8 I=400000
+CTRL #0 qoff=-12.383 (vraie clé -9.598) récupéré=12/188 ÉCHEC
+CTRL #1 qoff=-12.560 (vraie clé -9.601) récupéré=30/188 ÉCHEC
+CTRL #2 qoff=-12.046 (vraie clé -9.876) récupéré=12/188 ÉCHEC
+==> 0/3 contrôles récupérés (≥90%)

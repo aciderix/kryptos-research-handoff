@@ -10,4 +10,5 @@
 | Cellule | Famille | Statut |
 |---|---|---|
 | E01 | Polybe (carré inconnu) + route sur grille 14×14 / 14×13 (256 cellules) | **négatif** — contrôles 20/20, réel sous le max du null ([résultats](experiments/E01_routes14/RESULTS.md)) |
-| E02 | Polybe (carré inconnu) + colonnaire à clé largeur 14, 8 bourrages (clé 6!×8!) | pré-inscrite |
+| E02 | Polybe (carré inconnu) + colonnaire à clé largeur 14, 8 bourrages (clé 6!×8!) | **négatif** — contrôles 8/10, réel au niveau de la médiane du null, 3 graines → 3 clés ([résultats](experiments/E02_columnar14/RESULTS.md)) |
+| E03 | colonnaire à clé **libre** + carré inconnu (solveur DP exact sur la clé) | solveur en validation sur contrôles |

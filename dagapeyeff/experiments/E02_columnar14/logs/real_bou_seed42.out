@@ -1,0 +1,14 @@
+règle bourrage : lignes 3 4 7 8 9 10 12 14 -> M=188 ; BOU=1 FREE=0 R=8 I=400000
+MEILLEUR qoff=-12.298 ; clé (ligne imprimée par colonne du clair) : 10 4 7 12 9 14 8 3 1 6 5 11 2 13
+par redémarrage : -12.414 -12.298 -12.519 -12.401 -12.396 -12.591 -12.331 -12.427
+CLAIR=HLLDOFNATASHAFLNONSOTEWODTHDOHISSORDISLANIIIWILSIRIRIEEANLADSDWWRITWWFFDRNFORLTRADEEITLONESTRODDEDILSEDANWARFISWOTSOFTHHEOHNESWEREEADANTHETIAALOASSTREWENTINHSFNTHEHDLOREILTTOOTSEAFIEDONSAW|KXVBVYVK
+ré-enchiffrement : 0/196 paires différentes, collisions carré=0 (exact)
+  stabilité #0 qoff=-12.329 identique=11/188
+  stabilité #1 qoff=-12.544 identique=17/188
+  stabilité #2 qoff=-12.323 identique=27/188
+  stabilité #3 qoff=-12.448 identique=12/188
+  stabilité #4 qoff=-12.455 identique=24/188
+  stabilité #5 qoff=-12.585 identique=27/188
+  stabilité #6 qoff=-12.532 identique=18/188
+  stabilité #7 qoff=-12.542 identique=16/188
+stabilité : 0/8 redémarrages redonnent le même clair (≥95%)
