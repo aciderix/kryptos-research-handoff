@@ -33,7 +33,7 @@ Pour (B), le chiffré de 182 symboles a ensuite été imprimé par lignes de 13,
    bigramme par paires de colonnes adjacentes, bigrammes marginalisés de `qg_joint`).
 2. Puis ROUNDS = 4 alternances : clé optimale exacte (DP avec liaison fin de ligne → début de ligne suivante) ;
    carré par recuit quadgrammes (40 000 itérations).
-3. RESTARTS = 6 départs (rang de fréquence, perturbé). Score final : qoff quadgrammes joints sur N lettres.
+3. RESTARTS = 24 départs (rang de fréquence, perturbé). Score final : qoff quadgrammes joints sur N lettres.
 
 ## Contrôles (avant le vrai chiffré)
 1. **Positifs** : pour chaque (W, N), textes d'*Alice* (hors corpus), carré et clé aléatoires ; succès si ≥ 90 %
@@ -56,3 +56,6 @@ Sinon : **négatif**, consigné tel quel.
 - Statistique invariante par substitution (répétitions de bigrammes/trigrammes de symboles) : trop faible sur
   182 lettres (vraie clé maximale dans 1 cas sur 6) → abandonnée.
 - Recuit sur le carré noté par la clé exacte (ci-dessus) : 2/3 (W=13, 4 départs).
+- Même solveur, 6 départs, 5 contrôles par configuration (`logs/mise_au_point/`) : B13 4/10, B14 3/5, A14 2/5
+  → 9/20 ≈ 45 % ; les échecs finissent au niveau du hasard (≈ −12,2), donc ce sont des départs ratés, pas de
+  faux optimums. Taux par départ ≈ 9,5 % ⇒ 24 départs (≈ 90 % attendu), à **mesurer** sur 10 nouveaux contrôles.
