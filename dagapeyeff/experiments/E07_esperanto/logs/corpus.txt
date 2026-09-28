@@ -1,0 +1,18 @@
+eo_11511.txt	Language: Esperanto	Title: Robinsono Kruso
+eo_17425.txt	Language: Esperanto	Title: La Falo de Uŝero-Domo
+eo_17665.txt	Language: Esperanto	Title: Mia kontrabandulo
+eo_17945.txt	Language: Esperanto	Title: Mark Twain: Tri Noveloj
+eo_18178.txt	Language: Esperanto	Title: Rakontoj
+eo_18326.txt	Language: Esperanto	Title: La Murdoj de Kadavrejo-Strato
+eo_18836.txt	Language: Esperanto	Title: Aliaj Tempoj
+eo_19030.txt	Language: Esperanto	Title: Puphejmo
+eo_19182.txt	Language: Esperanto	Title: La Sinjorino el la Maro
+eo_19183.txt	Language: Esperanto	Title: Hedda Gabler
+eo_19803.txt	Language: Esperanto	Title: Popolmalamiko
+eo_19858.txt	Language: Esperanto	Title: Konstruestro Solness
+eo_20006.txt	Language: Esperanto	Title: Dua Libro de l' Lingvo Internacia
+eo_20802.txt	Language: Esperanto	Title: Ĉe la koro de la tero
+eo_22070.txt	Language: Esperanto	Title: La Karavano
+eo_24074.txt	Language: Esperanto	Title: La Nigra Galero
+eo_24145.txt	Language: Esperanto	Title: Doktoro Jekyll kaj Sinjoro Hyde
+eo_8224.txt	Language: Esperanto	Title: Fundamenta Krestomatio
