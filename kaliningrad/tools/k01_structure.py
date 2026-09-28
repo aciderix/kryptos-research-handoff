@@ -148,4 +148,5 @@ if __name__ == '__main__':
         full = secs[:6]
         print("sections (variante A) :", [len(s) for s in secs])
         perm_tests(full, "réel S1-S6")
+        perm_tests(secs[:5], "réel S1-S5 (sensibilité : sans la page 2 pâle)")
         anagram_test(words, "réel", words)
