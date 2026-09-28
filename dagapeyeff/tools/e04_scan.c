@@ -112,7 +112,7 @@ static double solve_sub(const int*pl,int*best){
 static void decode(const int*S,const Hit*h,int*out){ int mid[196]; if(FAM=='P'){ dec_P(S,out,h->P,h->P2); return; } if(h->W2){dec_E(S,mid,h->W2,h->P2); dec_E(mid,out,h->W,h->P);} else if(FAM=='E') dec_E(S,out,h->W,h->P); else dec_I(S,out,h->W,h->P); }
 /* ---- étage 2 « paires » (E15) : 13 symboles, chacun = 2 lettres (un seul = 1 lettre) ; lecture par Viterbi ---- */
 static int PAIRMODE=0, PR_REST=8, PR_ITERS=200000;
-static int PL_[13][2], PC_[13];
+static int PL_[13][2], PC_[13]; static int BPL[13][2], BPC[13], BLAB[25], CURLAB[25];
 static double pviterbi(const int*y,int n,int*best){
   double dp[8],nd[8]; static int bp[196][8];
   for(int s=0;s<8;s++) dp[s]=0;
@@ -128,7 +128,7 @@ static double pviterbi(const int*y,int n,int*best){
 static double solve_pair(const int*pl,int*letters){
   int lab[25]; for(int i=0;i<25;i++) lab[i]=-1; int y[196],k=0,cnt[13]={0};
   for(int i=0;i<N;i++){ if(lab[pl[i]]<0){ if(k>=13) return -1e30; lab[pl[i]]=k++; } y[i]=lab[pl[i]]; cnt[y[i]]++; }
-  if(k!=13) return -1e30;
+  if(k!=13) return -1e30; memcpy(CURLAB,lab,sizeof lab);
   int ord[13]; for(int i=0;i<13;i++) ord[i]=i; for(int i=0;i<13;i++)for(int j=i+1;j<13;j++) if(cnt[ord[j]]>cnt[ord[i]]){int t=ord[i];ord[i]=ord[j];ord[j]=t;}
   static const char OE[]="ETAOINSHRDLCUMWFGYPBVKXQZ"; double gb=-1e30; int bL[13][2],bC[13];
   for(int R=0;R<PR_REST;R++){ int L[25]; for(int i=0;i<25;i++) L[i]=OE[i]-'A';
@@ -145,13 +145,13 @@ static double solve_pair(const int*pl,int*letters){
       if(cur>best){best=cur; memcpy(cL,PL_,sizeof cL); memcpy(cC,PC_,sizeof cC);} }
     if(best>gb){gb=best; memcpy(bL,cL,sizeof bL); memcpy(bC,cC,sizeof bC);} }
   memcpy(PL_,bL,sizeof bL); memcpy(PC_,bC,sizeof bC); if(letters) pviterbi(y,N,letters); return gb/(N-3); }
-typedef struct{double q; Hit h; int map[25]; int pl[196];} Final;
+typedef struct{double q; Hit h; int map[25]; int pl[196]; int bpl[13][2], bpc[13], blab[25];} Final;
 /* étage 2 sur la liste courante top[0..ntop) ; met à jour *fb */
 static void stage2(const int*S,Final*fb){
   if(getenv("STAGE1ONLY")) return;
   for(int i=0;i<ntop;i++){ int pl[196],m[25]; decode(S,&top[i],pl); double q; if(PAIRMODE){ int let[196]; q=solve_pair(pl,let); memcpy(pl,let,sizeof let); for(int z=0;z<25;z++) m[z]=z; } else q=solve_sub(pl,m);
     if(getenv("VERB")&&i<2) printf("    top%d R=%d stat(décodé)=%d q=%.3f\n",i,top[i].s,stat(pl),q);
-    if(q>fb->q){ fb->q=q; fb->h=top[i]; memcpy(fb->map,m,sizeof m); memcpy(fb->pl,pl,sizeof pl);} } }
+    if(q>fb->q){ fb->q=q; fb->h=top[i]; memcpy(fb->map,m,sizeof m); memcpy(fb->pl,pl,sizeof pl); if(PAIRMODE){ memcpy(fb->bpl,PL_,sizeof fb->bpl); memcpy(fb->bpc,PC_,sizeof fb->bpc); memcpy(fb->blab,CURLAB,sizeof fb->blab);} } } }
 static int scan_P(const int*S,int record){
   int sE[7],cE[7]={0},best=-1,buf[196]; for(int i=0;i<7;i++)sE[i]=i;
   #define INNER { int sO[7],cO[7]={0}; for(int k=0;k<7;k++)sO[k]=k; \
@@ -181,9 +181,10 @@ static Final pipeline(const int*S,double*bw,int verbose){
   return fb; }
 static void print_final(const Final*f){
   if(FAM=='P') printf("mode P%d ; ",PMODE);
+  if(PAIRMODE){ memcpy(BPL,f->bpl,sizeof BPL); memcpy(BPC,f->bpc,sizeof BPC); memcpy(BLAB,f->blab,sizeof BLAB); printf("paires (symbole = lettres) :"); for(int c=0;c<25;c++) if(BLAB[c]>=0){ int q=BLAB[c]; printf(" %d%d=%c%s",c/5==4?0:c/5+6,c%5+1,'A'+BPL[q][0],BPC[q]==2?(char[]){'/', (char)('A'+BPL[q][1]),0}:""); } printf("\n"); }
   printf("MEILLEUR qoff=%.3f W=%d P=",f->q,f->h.W); for(int k=0;k<f->h.W;k++)printf("%d ",f->h.P[k]+1);
   if(f->h.W2){printf("| W2=%d Q=",f->h.W2); for(int k=0;k<f->h.W2;k++)printf("%d ",f->h.P2[k]+1);} printf(" (R=%d)\nCLAIR=",f->h.s);
-  for(int i=0;i<N;i++) putchar('A'+f->map[f->pl[i]]); printf("\n"); }
+  for(int i=0;i<N;i++) putchar('A'+(PAIRMODE?f->pl[i]:f->map[f->pl[i]])); printf("\n"); }
 
 int main(int argc,char**argv){
   setbuf(stdout,NULL); if(argc<4) return 1;
@@ -200,6 +201,10 @@ int main(int argc,char**argv){
   load(argv[2],geo);
   printf("GEO=%d N=%d FAM=%c W=%d..%d (D: W1<=%d W2<=%d) TOP=%d ITER2=%d REST2=%d A=%d,%d,%d\n",geo,N,FAM,WMIN,WMAX,W1MAX,W2MAX,TOPN,ITER2,REST2,A3,A4,A5);
   double bw[256];
+  if(!strcmp(argv[3],"real")&&PAIRMODE){ Final f=pipeline(S0,bw,1); print_final(&f);
+    int dec[196],mid[196]; if(FAM=='D'){dec_E(S0,mid,f.h.W2,f.h.P2); dec_E(mid,dec,f.h.W,f.h.P);} else decode(S0,&f.h,dec);
+    int bad=0; for(int i=0;i<N;i++){ int q=BLAB[dec[i]]; if(q<0||(BPL[q][0]!=f.pl[i]&&BPL[q][1]!=f.pl[i])) bad++; }
+    printf("vérification directe (chaque lettre lue appartient au symbole observé) : %d/%d écarts %s\n",bad,N,bad?"ÉCHEC":"(exact)"); return 0; }
   if(!strcmp(argv[3],"real")){ Final f=pipeline(S0,bw,1); print_final(&f);
     { /* vérification directe : ré-enchiffrement */
       int inv[26]; for(int l=0;l<26;l++)inv[l]=-1; int pres[25]={0},coll=0; for(int i=0;i<N;i++)pres[S0[i]]=1;
