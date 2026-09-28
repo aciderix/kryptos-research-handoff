@@ -52,3 +52,24 @@ Si (A) est vrai avec bourrage final, la route gagnante doit envoyer la colonne 1
 4. ré-enchiffrement exact des 392 chiffres avec le carré et la route trouvés ;
 5. stabilité : même clair sur ≥ 6/8 redémarrages.
 Sinon : **négatif**, consigné tel quel.
+
+---
+## AMENDEMENT 1 (2026-09-28) — décidé à cause des CONTRÔLES, AVANT tout run sur le vrai chiffré
+
+**Constat (contrôles positifs en échec, 1/4) :** avec `qg_big` (modèle conditionnel à repli, repris de
+`kryptos/`), le recuit converge vers un **optimum dégénéré ≈ −3,24/quadgramme**, alors que la vraie clé vaut
+−1,93. Cause : le repli attribue ln(0,5/13) ≈ −3,26 à tout contexte trigramme **jamais vu** ; une substitution libre
+envoie les symboles vers des lettres rares pour fabriquer des contextes inédits, notés mieux qu'un quasi-anglais.
+
+**Changements (seuls ceux-ci) :**
+1. Score = log-probabilité **jointe** ln(count(abcd)/N), plancher ln(0,01/N) (`tools/build_qg_joint.c`, même
+   corpus Gutenberg 13,6 M lettres). Échelle : anglais ≈ −9,5 par quadgramme.
+2. Textes des contrôles tirés d'un livre **hors corpus d'entraînement** (Gutenberg n° 11, *Alice*), pour éviter
+   un contrôle optimiste.
+3. Critère 1 ré-exprimé dans la nouvelle échelle, relativement aux contrôles et au null :
+   **qoff(meilleure cellule réelle) > max(null) + 0,5 ET ≥ min(qoff des contrôles récupérés) − 0,5.**
+Recuit : 8 redémarrages × 60 000 itérations, comme prévu. Tout le reste (famille, géométries, sens, prédiction
+« colonne 14 », critères 2-5) est inchangé.
+
+**Remarque hors E01 :** les recherches Kryptos à alphabet libre qui ont rapporté des plateaux « charabia ≈ −3,25 »
+avec `qg_big` peuvent avoir été piégées par ce même optimum dégénéré. À signaler dans `kryptos/`.
