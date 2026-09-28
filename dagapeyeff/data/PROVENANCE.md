@@ -9,3 +9,9 @@ Transcriptions comparées (identiques, chiffre à chiffre, 79 groupes × 5 = 395
 
 Non vérifié contre un fac-similé de l'édition 1939 (l'exemplaire archive.org est l'édition 1974, en prêt
 contrôlé, et ne contient pas le défi). **Risque résiduel : erreur de transcription commune aux deux sources.**
+
+## Vérification sur source primaire (2026-09-28)
+Scan de l'édition originale (archive.org `codesciphers0000daga`, PDF fourni par le user, non versé au dépôt pour
+raison de droits) : le défi figure p. 158 (« Here is a cryptogram upon which the reader is invited to test his
+skill »), après les solutions des cryptogrammes des p. 141 et 150. Les **395 chiffres sont identiques** à
+`ciphertext_1939.txt` (comparaison automatique sur le texte extrait + contrôle visuel de la page).
