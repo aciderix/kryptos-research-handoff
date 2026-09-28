@@ -110,11 +110,46 @@ static double solve_sub(const int*pl,int*best){
     if(b>gb){gb=b;memcpy(best,bm,sizeof bm);} }
   return gb/(N-3); }
 static void decode(const int*S,const Hit*h,int*out){ int mid[196]; if(FAM=='P'){ dec_P(S,out,h->P,h->P2); return; } if(h->W2){dec_E(S,mid,h->W2,h->P2); dec_E(mid,out,h->W,h->P);} else if(FAM=='E') dec_E(S,out,h->W,h->P); else dec_I(S,out,h->W,h->P); }
+/* ---- étage 2 « paires » (E15) : 13 symboles, chacun = 2 lettres (un seul = 1 lettre) ; lecture par Viterbi ---- */
+static int PAIRMODE=0, PR_REST=8, PR_ITERS=200000;
+static int PL_[13][2], PC_[13];
+static double pviterbi(const int*y,int n,int*best){
+  double dp[8],nd[8]; static int bp[196][8];
+  for(int s=0;s<8;s++) dp[s]=0;
+  for(int k=0;k<n;k++){ int c=PC_[y[k]]; for(int s=0;s<8;s++) nd[s]=-1e30;
+    for(int s=0;s<8;s++){ if(dp[s]<-1e29) continue; int b1=(s>>2)&1,b2=(s>>1)&1,b3=s&1;
+      for(int b=0;b<c;b++){ int ns=((s<<1)&7)|b; double v=dp[s];
+        if(k>=3) v+=QG[((PL_[y[k-3]][b1]*26+PL_[y[k-2]][b2])*26+PL_[y[k-1]][b3])*26+PL_[y[k]][b]];
+        if(v>nd[ns]){nd[ns]=v; bp[k][ns]=s;} } }
+    memcpy(dp,nd,sizeof dp); }
+  int bs=0; for(int s=1;s<8;s++) if(dp[s]>dp[bs]) bs=s;
+  if(best){ int s=bs; for(int k=n-1;k>=0;k--){ best[k]=PL_[y[k]][s&1]; s=bp[k][s]; } }
+  return dp[bs]; }
+static double solve_pair(const int*pl,int*letters){
+  int lab[25]; for(int i=0;i<25;i++) lab[i]=-1; int y[196],k=0,cnt[13]={0};
+  for(int i=0;i<N;i++){ if(lab[pl[i]]<0){ if(k>=13) return -1e30; lab[pl[i]]=k++; } y[i]=lab[pl[i]]; cnt[y[i]]++; }
+  if(k!=13) return -1e30;
+  int ord[13]; for(int i=0;i<13;i++) ord[i]=i; for(int i=0;i<13;i++)for(int j=i+1;j<13;j++) if(cnt[ord[j]]>cnt[ord[i]]){int t=ord[i];ord[i]=ord[j];ord[j]=t;}
+  static const char OE[]="ETAOINSHRDLCUMWFGYPBVKXQZ"; double gb=-1e30; int bL[13][2],bC[13];
+  for(int R=0;R<PR_REST;R++){ int L[25]; for(int i=0;i<25;i++) L[i]=OE[i]-'A';
+    if(R>0) for(int i=24;i>0;i--){int j=rnd()%(i+1);int t=L[i];L[i]=L[j];L[j]=t;}
+    PC_[ord[0]]=1; PL_[ord[0]][0]=PL_[ord[0]][1]=L[0]; for(int q=1;q<13;q++){ PC_[ord[q]]=2; PL_[ord[q]][0]=L[q]; PL_[ord[q]][1]=L[25-q]; }
+    double cur=pviterbi(y,N,NULL),best=cur; int cL[13][2],cC[13]; memcpy(cL,PL_,sizeof cL); memcpy(cC,PC_,sizeof cC);
+    for(int it=0;it<PR_ITERS;it++){ double T=3.0*__builtin_pow(0.05/3.0,(double)it/PR_ITERS); double u=(double)(rnd()>>11)*(1.0/9007199254740992.0);
+      int s1=rnd()%13,s2=rnd()%13; if(s1==s2) continue;
+      if(u<0.3){ if(PC_[s1]!=PC_[s2]) continue; int t0=PL_[s1][0],t1=PL_[s1][1]; PL_[s1][0]=PL_[s2][0];PL_[s1][1]=PL_[s2][1];PL_[s2][0]=t0;PL_[s2][1]=t1;
+        double ns=pviterbi(y,N,NULL); if(ns>=cur||(double)(rnd()>>11)*(1.0/9007199254740992.0)<__builtin_exp((ns-cur)/T)) cur=ns; else { t0=PL_[s1][0];t1=PL_[s1][1]; PL_[s1][0]=PL_[s2][0];PL_[s1][1]=PL_[s2][1];PL_[s2][0]=t0;PL_[s2][1]=t1; } }
+      else { int a=rnd()%PC_[s1],b=rnd()%PC_[s2]; int t=PL_[s1][a]; PL_[s1][a]=PL_[s2][b]; PL_[s2][b]=t; if(PC_[s1]==1)PL_[s1][1]=PL_[s1][0]; if(PC_[s2]==1)PL_[s2][1]=PL_[s2][0];
+        double ns=pviterbi(y,N,NULL); if(ns>=cur||(double)(rnd()>>11)*(1.0/9007199254740992.0)<__builtin_exp((ns-cur)/T)) cur=ns;
+        else { t=PL_[s1][a]; PL_[s1][a]=PL_[s2][b]; PL_[s2][b]=t; if(PC_[s1]==1)PL_[s1][1]=PL_[s1][0]; if(PC_[s2]==1)PL_[s2][1]=PL_[s2][0]; } }
+      if(cur>best){best=cur; memcpy(cL,PL_,sizeof cL); memcpy(cC,PC_,sizeof cC);} }
+    if(best>gb){gb=best; memcpy(bL,cL,sizeof bL); memcpy(bC,cC,sizeof bC);} }
+  memcpy(PL_,bL,sizeof bL); memcpy(PC_,bC,sizeof bC); if(letters) pviterbi(y,N,letters); return gb/(N-3); }
 typedef struct{double q; Hit h; int map[25]; int pl[196];} Final;
 /* étage 2 sur la liste courante top[0..ntop) ; met à jour *fb */
 static void stage2(const int*S,Final*fb){
   if(getenv("STAGE1ONLY")) return;
-  for(int i=0;i<ntop;i++){ int pl[196],m[25]; decode(S,&top[i],pl); double q=solve_sub(pl,m);
+  for(int i=0;i<ntop;i++){ int pl[196],m[25]; decode(S,&top[i],pl); double q; if(PAIRMODE){ int let[196]; q=solve_pair(pl,let); memcpy(pl,let,sizeof let); for(int z=0;z<25;z++) m[z]=z; } else q=solve_sub(pl,m);
     if(getenv("VERB")&&i<2) printf("    top%d R=%d stat(décodé)=%d q=%.3f\n",i,top[i].s,stat(pl),q);
     if(q>fb->q){ fb->q=q; fb->h=top[i]; memcpy(fb->map,m,sizeof m); memcpy(fb->pl,pl,sizeof pl);} } }
 static int scan_P(const int*S,int record){
@@ -158,7 +193,7 @@ int main(int argc,char**argv){
   if(getenv("W1MAX"))W1MAX=atoi(getenv("W1MAX")); if(getenv("W2MAX"))W2MAX=atoi(getenv("W2MAX")); if(getenv("TOP"))TOPN=atoi(getenv("TOP"));
   if(getenv("A3"))A3=atoi(getenv("A3")); if(getenv("A4"))A4=atoi(getenv("A4")); if(getenv("A5"))A5=atoi(getenv("A5"));
   if(getenv("T0S"))T0S=atof(getenv("T0S")); if(getenv("T1S"))T1S=atof(getenv("T1S"));
-  if(getenv("PMODE"))PMODE=atoi(getenv("PMODE"));
+  if(getenv("PMODE"))PMODE=atoi(getenv("PMODE")); if(getenv("PAIR"))PAIRMODE=atoi(getenv("PAIR")); if(getenv("PR_REST"))PR_REST=atoi(getenv("PR_REST")); if(getenv("PR_ITERS"))PR_ITERS=atoi(getenv("PR_ITERS"));
   if(getenv("ITER2"))ITER2=atoi(getenv("ITER2")); if(getenv("REST2"))REST2=atoi(getenv("REST2"));
   if(getenv("SEED")){rs^=0x9E3779B97F4A7C15ULL*(uint64_t)atoll(getenv("SEED"));for(int i=0;i<10;i++)rnd();}
   st3=calloc(15625,4); st4=calloc(390625,4); st5=calloc(9765625,4); top=calloc(TOPN,sizeof(Hit));
@@ -186,6 +221,7 @@ int main(int argc,char**argv){
     int ok=0;
     for(int t=0;t<nc;t++){ long off=rnd()%(CL-5000); int txt[196],k=0; while(k<N){int ch=C[off++]; if(ch<'A'||ch>'Z')continue; if(ch=='J')ch='I'; txt[k++]=ch-'A';}
       int L[25],m=0; for(int l=0;l<26;l++) if(l!=9) L[m++]=l; for(int i=24;i>0;i--){int j=rnd()%(i+1);int x=L[i];L[i]=L[j];L[j]=x;} int sy[26]; for(int i=0;i<25;i++) sy[L[i]]=i;
+      int txtorig[196]; memcpy(txtorig,txt,sizeof txtorig);
       if(getenv("CLS13")){ /* E14 : fusion en 13 classes équilibrées (anglais), classe -> symbole de son représentant */
         const char*cls="E TZ AQ OX IK NV SB HP RY DG LF CW UM"; int rep[26]; for(int l=0;l<26;l++) rep[l]=l;
         for(const char*q=cls;*q;){ while(*q==' ')q++; if(!*q)break; int a=*q-'A'; q++; while(*q&&*q!=' '){ rep[*q-'A']=a; q++; } }
@@ -201,7 +237,7 @@ int main(int argc,char**argv){
       int strue=stat(pl); THR=strue; CNTABOVE=0;
       if(getenv("DIAG2")){ int mm[25]; for(int z=0;z<atoi(getenv("DIAG2"));z++){ double q0=solve_sub(pl,mm); printf("   appel %d : %.3f\n",z,q0);} double qq=solve_sub(pl,mm); int rr=0; for(int i=0;i<N;i++) if(mm[pl[i]]==txt[i]) rr++; printf("   [diag] étage 2 sur le vrai clair : qoff=%.3f récupéré=%d/%d\n",qq,rr,N); continue; }
       if(getenv("STAGE1ONLY")){ Final f1=pipeline(S,bw,0); printf("CTRL #%d W=%d W2=%d R(vrai)=%d R(meilleur)=%d (W=%d) rang vrai=%ld\n",t,W,W2,strue,f1.h.s,f1.h.W,CNTABOVE+1); continue; }
-      Final f=pipeline(S,bw,getenv("VERB")!=NULL); int rec=0; for(int sh=-16;sh<=16;sh++){ int r=0; for(int i=0;i<N;i++){int j=i+sh; if(j>=0&&j<N&&f.map[f.pl[i]]==txt[j]) r++;} if(r>rec) rec=r; } /* tolère un décalage (clé tournée) */
+      Final f=pipeline(S,bw,getenv("VERB")!=NULL); int rec=0; for(int sh=-16;sh<=16;sh++){ int r=0; for(int i=0;i<N;i++){int j=i+sh; int lt=PAIRMODE?f.pl[i]:f.map[f.pl[i]]; if(j>=0&&j<N&&lt==(PAIRMODE?txtorig[j]:txt[j])) r++;} if(r>rec) rec=r; } /* tolère un décalage (clé tournée) */
       int mt[25]={0}; for(int i=0;i<N;i++) mt[pl[i]]=txt[i]; double qt=qsc(pl,mt)/(N-3);
       int sq=0; for(int i=0;i<N;i++) if(f.map[f.pl[i]]==L[f.pl[i]]) sq++; /* carré retrouvé (indépendant de l'ordre) */
       int succ=(rec>=0.9*N)||(FAM=='I'&&sq>=0.9*N);
