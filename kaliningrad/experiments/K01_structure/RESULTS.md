@@ -39,6 +39,9 @@ da 0,146 (0,14) ; cs 0,131 (0,52) ; pl 0,117 (0,19) ; fr 0,153 (0,61) ; it 0,146
 4. Le texte se comporte comme le contrôle (c) : **un seul texte continu, découpé en sections, avec une seule règle de
    lettres** (ou pas de chiffre au niveau des lettres). Portée : T4 ne dit rien si les espaces sont factices (transposition sur le
    bloc entier puis espaces arbitraires) ; ce cas n'est pas couvert par K01.
+   **Précision apportée par K02** : l'homogénéité des sections n'implique pas une substitution lettre à lettre ; K02 montre que les
+   lettres voisines ne sont pas liées, ce qui exclut une langue lue dans l'ordre (même substituée) : un texte **transposé** sur de
+   grands blocs, ou un pseudo-texte, se comporte lui aussi comme le contrôle (c).
 
 ## 4. Observations (non testées ici, pour la suite)
 - **IC** : en 26 lettres (variante A), IC = **0,083** ; avec lettre + apostrophe comme symbole distinct (35 symboles), 0,063. Le
