@@ -1,0 +1,43 @@
+profil observé (colonnes 1-13, 182) : [20, 17, 17, 16, 16, 15, 14, 13, 12, 12, 11, 10, 9]
+
+== Q1(a) partition équilibrée optimale (glouton fréquente + rare)
+  en : D=2.78 p=0.1989 ; profil attendu [24.1, 20.1, 18.1, 16.6, 15.5, 14.5, 13.6, 12.6, 11.7, 10.7, 9.7, 8.4, 6.4]
+  fr : D=6.07 p=0.0100 ; profil attendu [30.4, 19.6, 17.4, 15.9, 14.8, 13.8, 12.9, 12.0, 11.1, 10.3, 9.2, 8.0, 6.5]
+  de : D=6.24 p=0.0100 ; profil attendu [30.8, 20.2, 17.1, 15.6, 14.4, 13.5, 12.7, 11.9, 11.1, 10.3, 9.4, 8.4, 6.7]
+  it : D=4.47 p=0.0498 ; profil attendu [25.0, 21.4, 18.8, 16.9, 15.6, 14.4, 13.4, 12.1, 11.1, 10.1, 9.1, 7.9, 6.2]
+  es : D=5.90 p=0.0199 ; profil attendu [27.2, 22.2, 18.4, 16.5, 15.0, 13.9, 12.8, 11.8, 11.0, 10.1, 9.1, 7.9, 6.1]
+  la : D=2.45 p=0.1927 ; profil attendu [23.4, 19.9, 18.2, 16.8, 15.8, 14.7, 13.7, 12.7, 11.7, 10.6, 9.5, 8.3, 6.6]
+  nl : D=11.64 p=0.0033 ; profil attendu [34.0, 21.7, 18.2, 15.9, 14.4, 13.2, 12.3, 11.3, 10.3, 9.4, 8.4, 7.3, 5.7]
+  eo : D=7.67 p=0.0100 ; profil attendu [29.7, 21.2, 17.9, 16.2, 15.0, 13.8, 12.9, 12.0, 11.0, 10.1, 9.0, 7.7, 5.4]
+
+== Q1(c) partitions aléatoires (200, anglais)
+  fraction p>0,05 : 0.000 ; médiane p 0.0005
+
+== Q1(b) partitions de Wolseley (3921 mots du livre, anglais, 2000 extraits communs)
+  fraction p>0,05 : 0.0000 ; p>0,01 : 0.0051 ; meilleurs :
+    TOTALLY            p=0.0430 D=6.26
+    SCALLOPS           p=0.0375 D=6.15
+    DUREXQ             p=0.0370 D=5.73
+    INTERCEPT          p=0.0310 D=6.53
+    IOURNALIST         p=0.0300 D=5.82
+    ROYAL              p=0.0280 D=6.75
+    OUTSIDE            p=0.0230 D=6.74
+    RANDOM             p=0.0230 D=6.46
+    NATALY             p=0.0225 D=7.34
+    NARROW             p=0.0170 D=7.22
+    TRANSLATED         p=0.0165 D=6.94
+    NATIONAL           p=0.0145 D=8.61
+    INIUSTICE          p=0.0145 D=7.59
+    AMINATION          p=0.0130 D=8.88
+    TEDIOUS            p=0.0130 D=8.64
+  (30 meilleurs mots, autres langues : p max)
+    fr : TRANSMITTER p=0.0033
+    de : TRANSLATED p=0.0066
+    it : TRANSMITTER p=0.0033
+    es : TRANSMITTER p=0.0033
+    la : TRANSMITTER p=0.0033
+    nl : TRANSMITTER p=0.0033
+    eo : STRANGERS p=0.0199
+
+== Q2 puissance du test de dépendance des bigrammes (classes équilibrées, anglais non transposé, n=182)
+  fraction d'extraits où la dépendance est détectée (p<0,05) : 0.997
