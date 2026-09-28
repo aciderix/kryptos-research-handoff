@@ -149,8 +149,9 @@ int main(int argc,char**argv){
       printf("CTRL #%d qoff=%.3f (vraie clé %.3f) récupéré=%d/%d %s\n",t,q,qscore(tp,mt)/(N-3),rec,N,rec>=0.9*N?"OK":"ÉCHEC"); if(rec>=0.9*N) ok++; }
     printf("==> %d/%d contrôles récupérés (≥90%%)\n",ok,nc); return 0; }
   if(!strcmp(argv[3],"null")){ int nn=atoi(argv[4]); double mx=-1e9;
-    for(int t=0;t<nn;t++){ set_seq_from(CT196); for(int i=N-1;i>0;i--){int j=rnd()%(i+1);int x=S[i];S[i]=S[j];S[j]=x;}
-      int P[14],mp[25]; double q=solve(P,mp,NULL); if(q>mx)mx=q; printf("NULL #%d qoff=%.3f\n",t,q); }
+    uint64_t ns=getenv("NSHUF")?(0x2545F4914F6CDD1DULL*(uint64_t)atoll(getenv("NSHUF"))|1):0; /* mélange fixe, indépendant de SEED */
+    for(int t=0;t<nn;t++){ set_seq_from(CT196); for(int i=N-1;i>0;i--){ uint64_t z; if(ns){ns^=ns<<13;ns^=ns>>7;ns^=ns<<17;z=ns;} else z=rnd(); int j=z%(i+1);int x=S[i];S[i]=S[j];S[j]=x;}
+      int P[14],mp[25]; double q=solve(P,mp,NULL); if(q>mx)mx=q; printf("NULL #%d qoff=%.3f clé",t,q); for(int c=0;c<W;c++)printf(" %d",P[c]+1); printf("\n"); }
     printf("==> max null = %.3f\n",mx); return 0; }
   if(!strcmp(argv[3],"real")){
     int P[14],mp[25],pl[196]; double pr[256]; double q=solve(P,mp,pr); plain_of(P,pl);
