@@ -1,6 +1,6 @@
 # E03 — Polybe 5×5 (carré inconnu) + transposition colonnaire à clé LIBRE, grilles complètes — PRÉ-INSCRIPTION
 
-Rédigée avant tout run sur le vrai chiffré (2026-09-28). **Version de travail : contrôles en cours ; la version définitive sera commitée avant le premier run réel.** Solveur mis au point sur contrôles seuls.
+Rédigée avant tout run sur le vrai chiffré (2026-09-28). **Figée pour la cellule E03-B7 avant son premier run réel ; les autres cellules restent en validation (chacune sera lancée seulement après ses 10 contrôles).** Solveur mis au point sur contrôles seuls.
 
 ## Statut de nouveauté
 - DÉJÀ TESTÉ : colonnaire largeur 7 (5040 ordres, dagapeyeffresearch, sans contrôle ; « tous les ordres notés
@@ -59,3 +59,7 @@ Sinon : **négatif**, consigné tel quel.
 - Même solveur, 6 départs, 5 contrôles par configuration (`logs/mise_au_point/`) : B13 4/10, B14 3/5, A14 2/5
   → 9/20 ≈ 45 % ; les échecs finissent au niveau du hasard (≈ −12,2), donc ce sont des départs ratés, pas de
   faux optimums. Taux par départ ≈ 9,5 % ⇒ 24 départs (≈ 90 % attendu), à **mesurer** sur 10 nouveaux contrôles.
+
+## Contrôles définitifs (24 départs)
+- E03-B7 : **10/10** (179-182/182 lettres ; qoff −9,23 … −10,16 ; min récupéré **−10,156**) → admissible.
+- E03-B13, B14, A14 : en cours.
