@@ -24,3 +24,4 @@ __pycache__/
 .claude/settings.local.json
 # journaux et binaires temporaires des scripts autonomes (les journaux définitifs sont copiés dans logs/)
 dagapeyeff/experiments/*/logs_run/
+dagapeyeff/experiments/E16_thirteen_classes_gaps/e16_bin
