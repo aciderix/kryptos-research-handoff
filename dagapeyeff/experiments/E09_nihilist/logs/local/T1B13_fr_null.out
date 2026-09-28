@@ -1,0 +1,5 @@
+TRANSP=1 GEO=1 N=182 W=13 H=14 R=24 ROUNDS=6 SUBIT=40000
+NULL #0 qoff=-11.926 clé 1 7 4 12 8 3 11 6 2 10 13 9 5
+NULL #1 qoff=-11.869 clé 6 12 4 9 1 5 3 2 13 8 10 7 11
+NULL #2 qoff=-12.044 clé 6 11 7 2 3 1 9 4 10 5 13 8 12
+==> max null = -11.869

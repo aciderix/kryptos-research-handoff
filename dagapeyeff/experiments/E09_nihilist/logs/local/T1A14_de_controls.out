@@ -1,0 +1,12 @@
+TRANSP=1 GEO=0 N=196 W=14 H=14 R=24 ROUNDS=6 SUBIT=40000
+   [diag] DP avec le vrai carré : 14/14 colonnes à la bonne place
+CTRL #0 qoff=-9.345 (vraie clé -9.345) récupéré=196/196 OK
+   [diag] DP avec le vrai carré : 14/14 colonnes à la bonne place
+CTRL #1 qoff=-9.296 (vraie clé -9.330) récupéré=193/196 OK
+   [diag] DP avec le vrai carré : 14/14 colonnes à la bonne place
+CTRL #2 qoff=-9.336 (vraie clé -9.336) récupéré=196/196 OK
+   [diag] DP avec le vrai carré : 14/14 colonnes à la bonne place
+CTRL #3 qoff=-9.086 (vraie clé -9.086) récupéré=196/196 OK
+   [diag] DP avec le vrai carré : 14/14 colonnes à la bonne place
+CTRL #4 qoff=-9.237 (vraie clé -9.237) récupéré=196/196 OK
+==> 5/5 contrôles récupérés (≥90%)

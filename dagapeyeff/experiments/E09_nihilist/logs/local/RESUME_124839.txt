@@ -1,0 +1,12 @@
+E09 — résumé (2026-09-28T12:48:39Z)
+T1A14:en | contrôles ==> 3/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.004 ; clé (bloc lu pa | null qoff=-11.964 qoff=-12.161 qoff=-11.997 
+T1B13:en | contrôles ==> 4/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-11.967 ; clé (bloc lu pa | null qoff=-11.820 qoff=-11.650 qoff=-11.953 
+T1A14:fr | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.124 ; clé (bloc lu pa | null qoff=-12.254 qoff=-12.171 qoff=-12.186 
+T1B13:fr | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-11.750 ; clé (bloc lu pa | null qoff=-11.926 qoff=-11.869 qoff=-12.044 
+T1A14:de | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.659 ; clé (bloc lu pa | null qoff=-12.864 qoff=-12.763 qoff=-12.746 
+T1B13:de | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.716 ; clé (bloc lu pa | null qoff=-12.559 qoff=-12.561 qoff=-12.648 
+T1A14:it | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.167 ; clé (bloc lu pa | null qoff=-11.951 qoff=-12.178 qoff=-11.996 
+T1B13:it | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-11.871 ; clé (bloc lu pa | null qoff=-11.689 qoff=-11.579 qoff=-11.803 
+T0A14:fr | contrôles ==> 4/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.205 ; clé (bloc lu pa | null qoff=-11.976 qoff=-11.948 qoff=-12.204 
+T0A14:de | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.838 ; clé (bloc lu pa | null qoff=-12.694 qoff=-12.779 qoff=-12.768 
+T0A14:it | contrôles ==> 5/5 contrôles récupérés (≥90%) | réel MEILLEUR qoff=-12.114 ; clé (bloc lu pa | null qoff=-11.994 qoff=-11.998 qoff=-12.041 
