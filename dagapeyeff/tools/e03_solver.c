@@ -119,18 +119,22 @@ static double solve(int*bestP,int*bestmap,double*perR){
 
 static void load(const char*p){FILE*f=fopen(p,"r");char d[1000];int n=0,c;while((c=fgetc(f))!=EOF)if(c>='0'&&c<='9')d[n++]=c;fclose(f);
   for(int i=0;i<196;i++){int a=d[2*i]-'0',b=d[2*i+1]-'0'; CT196[i]=((a==0)?4:a-6)*5+(b-1);} }
-static void set_seq_from(const int*g196){ N=0; for(int i=0;i<196;i++) if(GEO==0||i%14!=13) S[N++]=g196[i]; }
+static int TRANSP=0; /* 1 : la suite du solveur est la grille imprimée lue par COLONNES (transposition nihiliste lue par lignes) */
+static int POS[196]; /* POS[k] = indice (0..195) dans la grille imprimée du k-ième symbole de la suite du solveur */
+static void set_seq_from(const int*g196){ N=0; int NC=GEO?13:14;
+  if(!TRANSP){ for(int i=0;i<196;i++) if(GEO==0||i%14!=13){ POS[N]=i; S[N++]=g196[i]; } }
+  else for(int c=0;c<NC;c++) for(int r=0;r<14;r++){ POS[N]=r*14+c; S[N++]=g196[r*14+c]; } }
 
 static char*CORPUS; static long CL;
 int main(int argc,char**argv){
   setbuf(stdout,NULL); if(argc<4) return 1;
   FILE*f=fopen(argv[1],"rb");QG=malloc(4*456976);if(fread(QG,4,456976,f)!=456976)return 2;fclose(f); make_bigrams();
   if(getenv("SEED")){rs^=0x9E3779B97F4A7C15ULL*(uint64_t)atoll(getenv("SEED"));for(int i=0;i<10;i++)rnd();}
-  if(getenv("W"))W=atoi(getenv("W")); if(getenv("GEO"))GEO=atoi(getenv("GEO"));
+  if(getenv("W"))W=atoi(getenv("W")); if(getenv("TRANSP"))TRANSP=atoi(getenv("TRANSP")); if(getenv("GEO"))GEO=atoi(getenv("GEO"));
   if(getenv("RESTARTS"))RESTARTS=atoi(getenv("RESTARTS")); if(getenv("ROUNDS"))ROUNDS=atoi(getenv("ROUNDS")); if(getenv("SUBIT"))SUBIT=atoi(getenv("SUBIT")); if(getenv("SIGIT"))SIGIT=atoi(getenv("SIGIT")); if(getenv("SURR"))SURR=atoi(getenv("SURR"));
   DPv=malloc(sizeof(float)*((long)1<<W)*W); DPp=malloc(((long)1<<W)*W);
   load(argv[2]); set_seq_from(CT196); if(N%W){fprintf(stderr,"N=%d non divisible par W=%d\n",N,W);return 4;} H=N/W;
-  printf("GEO=%d N=%d W=%d H=%d R=%d ROUNDS=%d SUBIT=%d\n",GEO,N,W,H,RESTARTS,ROUNDS,SUBIT);
+  printf("TRANSP=%d GEO=%d N=%d W=%d H=%d R=%d ROUNDS=%d SUBIT=%d\n",TRANSP,GEO,N,W,H,RESTARTS,ROUNDS,SUBIT);
   if(!strcmp(argv[3],"control")){
     int nc=atoi(argv[4]); FILE*g=fopen(argv[5],"rb");fseek(g,0,SEEK_END);CL=ftell(g);fseek(g,0,SEEK_SET);CORPUS=malloc(CL);if(fread(CORPUS,1,CL,g)!=(size_t)CL)return 3;fclose(g);
     int ok=0;
@@ -169,7 +173,7 @@ int main(int argc,char**argv){
       int inv[26]; for(int l=0;l<26;l++)inv[l]=-1; int pres[25]={0}; for(int i=0;i<N;i++)pres[S[i]]=1; int coll=0;
       for(int sy=0;sy<25;sy++) if(pres[sy]){ if(inv[mp[sy]]>=0)coll++; inv[mp[sy]]=sy; }
       int S2[196]; for(int r=0;r<H;r++)for(int c=0;c<W;c++) S2[P[c]*H+r]=inv[mp[pl[r*W+c]]];
-      int G[196],k=0; for(int i=0;i<196;i++) G[i]=(GEO==0||i%14!=13)?S2[k++]:CT196[i];
+      int G[196]; memcpy(G,CT196,sizeof G); for(int k=0;k<N;k++) G[POS[k]]=S2[k]; /* nulles de la colonne 14 conservées en B */
       FILE*g=fopen(argv[2],"r");char d[1000];int nd=0,ch;while((ch=fgetc(g))!=EOF)if(ch>='0'&&ch<='9')d[nd++]=ch;fclose(g);
       const char rowd[5]={'6','7','8','9','0'}; int bad=0;
       for(int i=0;i<196;i++) if(G[i]<0||d[2*i]!=rowd[G[i]/5]||d[2*i+1]!='1'+G[i]%5) bad++;
