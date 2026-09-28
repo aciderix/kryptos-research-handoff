@@ -9,4 +9,5 @@
 
 | Cellule | Famille | Statut |
 |---|---|---|
-| E01 | Polybe (carré inconnu) + route sur grille 14×14 / 14×13 | pré-inscrite |
+| E01 | Polybe (carré inconnu) + route sur grille 14×14 / 14×13 (256 cellules) | **négatif** — contrôles 20/20, réel sous le max du null ([résultats](experiments/E01_routes14/RESULTS.md)) |
+| E02 | Polybe (carré inconnu) + colonnaire à clé largeur 14, 8 bourrages (clé 6!×8!) | pré-inscrite |

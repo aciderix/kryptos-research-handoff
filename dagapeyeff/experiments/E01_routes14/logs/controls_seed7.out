@@ -1,0 +1,22 @@
+   [diag] vraie route seule : qoff=-9.261 récupéré=196/196 | qoff de la VRAIE clé=-9.261 | symboles=23
+CTRL geoA #0 vraie=spir-right-c2-out/dir1  trouvée=spir-right-c2-out/dir1  qoff=-9.261  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.167 récupéré=196/196 | qoff de la VRAIE clé=-9.167 | symboles=20
+CTRL geoA #1 vraie=d7-row-bou/dir0  trouvée=d2-col-bou/dir0  qoff=-9.167  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.875 récupéré=196/196 | qoff de la VRAIE clé=-9.875 | symboles=24
+CTRL geoA #2 vraie=d2-col-bou/dir0  trouvée=d2-col-bou/dir0  qoff=-9.875  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.190 récupéré=196/196 | qoff de la VRAIE clé=-9.190 | symboles=20
+CTRL geoA #3 vraie=d6-row/dir0  trouvée=d0-col/dir1  qoff=-9.190  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.661 récupéré=196/196 | qoff de la VRAIE clé=-9.661 | symboles=22
+CTRL geoA #4 vraie=d5-row-bou/dir0  trouvée=d5-row-bou/dir0  qoff=-9.661  récupéré=196/196 OK
+==> géométrie A : 5/5 contrôles récupérés (≥90%)
+   [diag] vraie route seule : qoff=-9.519 récupéré=182/182 | qoff de la VRAIE clé=-9.519 | symboles=22
+CTRL geoB #0 vraie=diag-anti-c3/dir0  trouvée=diag-anti-c3/dir0  qoff=-9.519  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-9.466 récupéré=182/182 | qoff de la VRAIE clé=-9.466 | symboles=22
+CTRL geoB #1 vraie=d6-row-bou/dir0  trouvée=d0-col-bou/dir0  qoff=-9.466  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-9.423 récupéré=182/182 | qoff de la VRAIE clé=-9.423 | symboles=24
+CTRL geoB #2 vraie=d2-col/dir0  trouvée=d2-col/dir0  qoff=-9.423  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-9.720 récupéré=182/182 | qoff de la VRAIE clé=-9.720 | symboles=21
+CTRL geoB #3 vraie=d3-row-bou/dir1  trouvée=d4-col-bou/dir1  qoff=-9.720  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-9.309 récupéré=182/182 | qoff de la VRAIE clé=-9.309 | symboles=21
+CTRL geoB #4 vraie=d0-row-bou/dir1  trouvée=d6-col-bou/dir0  qoff=-9.309  récupéré=182/182 OK
+==> géométrie B : 5/5 contrôles récupérés (≥90%)

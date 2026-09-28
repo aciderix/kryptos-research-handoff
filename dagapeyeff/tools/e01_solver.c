@@ -163,6 +163,7 @@ int main(int argc,char**argv){
   if(argc<4){fprintf(stderr,"usage: e01_solver qg.bin cipher.txt control|null|real [n] [corpus]\n");return 1;}
   FILE*f=fopen(argv[1],"rb");QG=malloc(4*456976);if(fread(QG,4,456976,f)!=456976)return 2;fclose(f);
   load_cipher(argv[2]);
+  if(getenv("SEED")){rs^=0x9E3779B97F4A7C15ULL*(uint64_t)atoll(getenv("SEED"));for(int i=0;i<10;i++)rnd();}
   if(getenv("RESTARTS"))RESTARTS=atoi(getenv("RESTARTS")); if(getenv("ITERS"))ITERS=atoi(getenv("ITERS"));
   if(!strcmp(argv[3],"control")){
     int nc=argc>4?atoi(argv[4]):5; const char*cp=argc>5?argv[5]:NULL;
@@ -185,7 +186,7 @@ int main(int argc,char**argv){
       printf("==> géométrie %c : %d/%d contrôles récupérés (≥90%%)\n",geo?'B':'A',ok,nc);}
     return 0;}
   if(!strcmp(argv[3],"null")){
-    int nn=argc>4?atoi(argv[4]):10; double mx=-9;
+    int nn=argc>4?atoi(argv[4]):10; double mx=-1e9;
     for(int t=0;t<nn;t++){int S[196];memcpy(S,CT,sizeof S);for(int i=195;i>0;i--){int j=rnd()%(i+1);int x=S[i];S[i]=S[j];S[j]=x;}
       Best b; search(S,&b,0,-1); if(b.q>mx)mx=b.q; printf("NULL #%d best qoff=%.3f (geo%c %d)\n",t,b.q,b.geo?'B':'A',b.r);}
     printf("==> max null = %.3f\n",mx); return 0;}
@@ -201,6 +202,21 @@ int main(int argc,char**argv){
         if(b.dir==0){for(int k=0;k<196;k++)if(ROUTE[b.r][k]==cell)ppos=k;} else ppos=ROUTE[b.r][cell];
         printf("%d ",ppos);}
       printf("\n");}
+    { /* vérification directe : clair + carré + route -> 392 chiffres, comparés au fichier */
+      int n=b.n,inv[26]; for(int l=0;l<26;l++)inv[l]=-1; int pres[25]={0}; for(int i=0;i<196;i++) if(b.geo==0||i%14!=13) pres[CT[i]]=1; for(int s=0;s<25;s++) if(pres[s]) inv[b.map[s]]=s; /* symboles présents seulement */
+      int S[MAXN],S196[196]; memcpy(S196,CT,sizeof S196);
+      if(b.dir==0) for(int k=0;k<n;k++) S[ROUTE[b.r][k]]=inv[b.plain[k]]; else for(int k=0;k<n;k++) S[k]=inv[b.plain[ROUTE[b.r][k]]];
+      if(b.geo==0) memcpy(S196,S,sizeof S196); else {int k=0;for(int r=0;r<14;r++)for(int c=0;c<13;c++)S196[r*14+c]=S[k++];} /* (B) : nulles de la colonne 14 conservées */
+      FILE*g=fopen(argv[2],"r");char d[1000];int nd=0,ch;while((ch=fgetc(g))!=EOF)if(ch>='0'&&ch<='9')d[nd++]=ch;fclose(g);
+      const char rowd[5]={'6','7','8','9','0'}; int bad=0;
+      for(int i=0;i<196;i++){ if(S196[i]<0){bad++;continue;} if(d[2*i]!=rowd[S196[i]/5]||d[2*i+1]!='1'+S196[i]%5) bad++; }
+      printf("ré-enchiffrement : %d/196 paires différentes %s\n",bad,bad?"ÉCHEC":"(exact)"); }
+    { /* stabilité : 8 recuits indépendants (1 redémarrage chacun) sur la cellule gagnante */
+      int H=14,W=b.geo?13:14,n=H*W,S[MAXN],pl[MAXN]; if(b.geo==0)memcpy(S,CT,sizeof(int)*196); else{int k=0;for(int r=0;r<14;r++)for(int c=0;c<13;c++)S[k++]=CT[r*14+c];}
+      apply_route(S,n,b.r,b.dir,pl); int same=0;
+      for(int t=0;t<8;t++){ L=n; memcpy(SEQ,pl,sizeof(int)*n); int m[25]; double q=solve_sub(1,ITERS,m); int eq=0; for(int i=0;i<n;i++) if(m[pl[i]]==b.plain[i]) eq++;
+        printf("  stabilité #%d qoff=%.3f identique=%d/%d\n",t,q,eq,n); if(eq>=0.95*n) same++; }
+      printf("stabilité : %d/8 redémarrages redonnent le même clair (≥95%%)\n",same); }
     return 0;}
   return 1;
 }

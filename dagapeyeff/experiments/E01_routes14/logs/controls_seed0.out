@@ -1,0 +1,22 @@
+   [diag] vraie route seule : qoff=-9.577 récupéré=196/196 | qoff de la VRAIE clé=-9.577 | symboles=21
+CTRL geoA #0 vraie=d3-row/dir0  trouvée=d1-row/dir1  qoff=-9.577  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.548 récupéré=196/196 | qoff de la VRAIE clé=-9.548 | symboles=22
+CTRL geoA #1 vraie=spir-right-c0-in/dir1  trouvée=spir-right-c0-in/dir1  qoff=-9.548  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.317 récupéré=196/196 | qoff de la VRAIE clé=-9.317 | symboles=21
+CTRL geoA #2 vraie=diag-main-c0-zz/dir0  trouvée=diag-main-c0-zz/dir0  qoff=-9.317  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.669 récupéré=196/196 | qoff de la VRAIE clé=-9.669 | symboles=22
+CTRL geoA #3 vraie=d4-row/dir1  trouvée=d4-row/dir0  qoff=-9.669  récupéré=196/196 OK
+   [diag] vraie route seule : qoff=-9.720 récupéré=196/196 | qoff de la VRAIE clé=-9.720 | symboles=23
+CTRL geoA #4 vraie=diag-main-c2/dir1  trouvée=diag-main-c2/dir1  qoff=-9.720  récupéré=196/196 OK
+==> géométrie A : 5/5 contrôles récupérés (≥90%)
+   [diag] vraie route seule : qoff=-9.590 récupéré=182/182 | qoff de la VRAIE clé=-9.590 | symboles=23
+CTRL geoB #0 vraie=spir-down-c0-in/dir0  trouvée=spir-down-c0-in/dir0  qoff=-9.590  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-9.580 récupéré=182/182 | qoff de la VRAIE clé=-9.580 | symboles=22
+CTRL geoB #1 vraie=diag-anti-c1/dir0  trouvée=diag-main-c0/dir0  qoff=-9.580  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-9.413 récupéré=182/182 | qoff de la VRAIE clé=-9.413 | symboles=23
+CTRL geoB #2 vraie=d2-col-bou/dir0  trouvée=d2-col-bou/dir0  qoff=-9.413  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-11.842 récupéré=108/182 | qoff de la VRAIE clé=-9.487 | symboles=22
+CTRL geoB #3 vraie=d3-col-bou/dir0  trouvée=d4-row-bou/dir1  qoff=-9.487  récupéré=182/182 OK
+   [diag] vraie route seule : qoff=-9.229 récupéré=182/182 | qoff de la VRAIE clé=-9.229 | symboles=23
+CTRL geoB #4 vraie=spir-right-c1-in/dir1  trouvée=spir-right-c1-in/dir1  qoff=-9.229  récupéré=182/182 OK
+==> géométrie B : 5/5 contrôles récupérés (≥90%)
