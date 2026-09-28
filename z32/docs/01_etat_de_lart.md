@@ -25,11 +25,9 @@ Même règle que pour d'Agapeyeff : **« pas testé chez nous » ≠ « jamais t
 - Conséquences :
   1. **Antériorité** : l'attaque par mots probables (points cardinaux, unités, BOMB, KILL) et la superposition avec les
      chiffres précédents ont été faites **dès juillet 1970** par le FBI, sans résultat.
-  2. **Désaccord de transcription** : le FBI compte **26** symboles différents, et non 29, sur l'original. Si trois paires
-     de glyphes que les transcriptions modernes distinguent (candidats visuels : triangle plein 12 / triangles vides 2 et
-     32 ; F inversé 11 / F 20 ; quadrilatère plein 5 / quadrilatère à réserve 24 ; cercle centré 19 / réticule 29) sont en
-     fait un même symbole, les verrous changent. Hypothèse à instruire, pas un fait établi (le cryptanalyste a pu se
-     tromper de compte).
+  2. **Compte des symboles** : « 26 different » se lit le plus simplement comme **26 symboles uniques** (29 classes − 3
+     classes répétées = 26), ce qui concorde avec les transcriptions modernes. L'autre lecture (26 classes) exigerait des
+     fusions de glyphes que la photographie haute résolution contredit (`experiments/E02_glyphes_26_29/`).
 - p. 46 : inventaire des lettres (« One page letter, map and envelope postmarked 26 June 1970 »).
 - `zodiac5 pages 250-372.pdf`, p. 123 : en décembre 1991, un particulier remet au FBI un document de 118 pages « Rules of
   Decoding the Mount Diablo Code » (proposition privée ; contenu non publié).

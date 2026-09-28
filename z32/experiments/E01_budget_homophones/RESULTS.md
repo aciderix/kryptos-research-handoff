@@ -42,6 +42,5 @@ d'homophones d'un chiffre à l'autre : supposer une réutilisation exacte n'est 
   presque tout.
 - Un résultat secondaire utile : deux candidats cités (Allen, Foxon) **violent les verrous en lecture directe**, ce qu'un
   lecteur des résumés ne voit pas.
-- Piste suivante (hors E01) : la note manuscrite du cryptanalyste du FBI (1970) compte **26** symboles distincts, non 29
-  (`docs/01_etat_de_lart.md` § 2) ; si des glyphes que les transcriptions modernes distinguent sont en fait identiques, les
-  verrous changent, et donc toute la sélection des candidats.
+- Piste suivante (hors E01) : le compte « 26 symboles » de la note du FBI — examinée en E02 : c'est le nombre de symboles
+  uniques (29 − 3), pas un désaccord de transcription ; piste close.
