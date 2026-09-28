@@ -63,6 +63,11 @@ Règle : **« pas testé dans notre dépôt » ≠ « jamais testé »**. Chaque
 | Espéranto vs anglais (8 configurations, 40 recuits) | dagapeyeffresearch | comparaison de scores bruts entre langues (échelles non comparables), sans contrôle |
 | Nulles (motifs de suppression) | dagapeyeffresearch (« null-removal patterns ») | détails non publiés |
 | Langues autres que l'anglais | dagapeyeffresearch | RU, FR, DE, eo |
+| **Code de dictionnaire** (Concise Oxford, méthode de Mansfield ; retrait du défi en 1952 rapproché de la 4ᵉ éd. du COD, 1951) | M. Knul, Cipher Mysteries, janv.-févr. 2014 | hypothèse, non exécutée |
+| Code de dictionnaire sur les groupes de 5 chiffres bruts ; chiffres 6-9/0 comme nulles | brendanhiggins.dev (« The 85+ year old CTF ») | exploratoire, sans contrôle ; valeur max 92857 > taille du dictionnaire |
+| Message de 98 caractères en chiffres 1-5, les chiffres 6-0 servant d'habillage | J. Melichar, Cipher Mysteries, 2014 | hypothèse ; cf. ici `03_relecture_du_livre.md` § 3 (flux des 2ᵉ chiffres : 25 symboles) |
+| Triplets (75 75 75, 63 63 63) = « AAA » fin de message ⇒ trois chiffrés distincts | « Jake », Cipher Mysteries, 2019 | hypothèse |
+| Nulles « null-removal patterns » | dagapeyeffresearch (phase 7, « pending ») | non publié |
 
 **Ce qui manque dans ces travaux (et justifie notre protocole) :** aucun ne publie de **contrôle synthétique**
 (message planté puis retrouvé), de **distribution nulle** calibrée, ni de **ré-enchiffrement** exact ; aucun

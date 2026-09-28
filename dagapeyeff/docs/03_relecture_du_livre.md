@@ -56,6 +56,18 @@ E11-E13, les pré-inscriptions d'E14-E15 et des extraits d'E01/E14.)
 - **T3** : E01 couvrait les routes pour le cas injectif ; l'espace est petit (64 routes), donc la statistique
   invariante garde sa puissance. Trou entier et peu coûteux.
 
+## 2 ter. Antériorités (vérifiées le 2026-09-28 : nos journaux, `01_etat_de_lart.md`, Cipher Mysteries 2008/2013 et commentaires, dagapeyeffresearch, brendanhiggins.dev)
+| Trou | Déjà fait par nous ? | Déjà fait par d'autres ? | Verdict |
+|---|---|---|---|
+| T1 largeur 13/14 × « 13 classes » | largeur 13/14 en injectif seulement (E02, E03) ; K1/K2 jamais revus sous « 13 classes » | largeur 14 (Pelling, dagapeyeffresearch) en injectif ; « 13 classes » n'existe nulle part ailleurs | **nouveau** (la combinaison) |
+| T2 nulles régulières × « 13 classes » | injectif seulement (E12, profil) ; comptes de répétitions d'E04/E11 déjà défavorables | citation du livre connue de tous ; aucun test systématique publié (dagapeyeffresearch : « pending ») | **nouveau mais probablement déjà tranché** par nos données : simple vérification |
+| T3 routes × « 13 classes » | routes en injectif (E01) | 16 diagonales (Pelling 2008), injectif | **nouveau** (la combinaison) |
+| T4 Richelieu | non | rien trouvé | **nouveau** |
+| T5 code numérique chiffré | non | **code de dictionnaire déjà proposé** (Knul 2014 ; brendanhiggins.dev) sous forme brute ; la variante « chiffres re-chiffrés par paires » n'est pas publiée | **redite partielle** ; invérifiable sans le dictionnaire |
+| T6 message court dans les nulles | non | idée voisine (« remplissage aléatoire », brendanhiggins.dev ; lettres aléatoires insérées, triggernick.com, non consulté) | **redite partielle** ; invérifiable |
+| T7 numérotation libre de Wolseley | numérotation standard seulement (E13 b) | rien trouvé | **nouveau**, mais purement documentaire |
+| Flux des seuls 2ᵉ chiffres (§ 3) | ici, descriptif | Melichar 2014 ; brendanhiggins.dev (6-9/0 = nulles) | **redite** |
+
 ## 3. Contrôles exploratoires faits pendant la relecture (OBSERVATION, non pré-inscrits, descriptifs)
 - **Appariement décalé d'un chiffre** (colonne de la paire i, ligne de la paire i+1) : 20 symboles, profil
   d'allure anglaise (23, 17, 16, 14, 13, …, 3, 1). **Piège** : la table est **indépendante** (G = 16,2 ; p = 0,40), donc
