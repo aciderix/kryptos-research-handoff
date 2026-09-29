@@ -17,7 +17,7 @@ Même protocole que `dagapeyeff/docs/PROTOCOLE.md`. Choix de la cible : `docs/00
 | K04 répétitions de mots | les mots du chiffré sont-ils ceux du clair (toute substitution, avec ou sans anagramme) ? | **non** : 182 formes distinctes sur 194 mots, jamais atteint dans 13 langues en prose (russe, polonais, finnois… compris) ; espaces posés après coup sur des lettres mélangées |
 | K06 routes | colonnes, zigzags, diagonales, spirales, toutes largeurs, par section et texte entier ? | **non** (contrôles 29/30 ; aucune suite crédible, meilleur score −13,7 contre −9 pour de l'allemand) |
 | K05 grille tournante | blocs carrés = allemand sous grille de Fleissner ? | **non** (contrôles 19/20 et 17/20 ; réel au niveau des nuls, p ≥ 0,14) |
-| K07 transposition sans langue | même question avec un score insensible à la substitution et à la langue (texte entier) | **non** pour les routes et les colonnes à clé 5-20 (MI réel 0,38-0,44 = nuls ; une vraie remise en ordre ≈ 0,9-1,1) ; blocs : sans puissance |
+| K07 transposition sans langue | même question avec un score insensible à la substitution et à la langue (texte entier) | **non** pour les routes et les colonnes à clé 5-40 (MI réel 0,38-0,44 = nuls ; une vraie remise en ordre ≈ 0,9-1,1) ; blocs : sans puissance |
 | K08 double transposition | Würfel (deux clés de colonnes 3-9), avec ou sans substitution, toute langue ? | **non** (contrôles 8/10 ; MI réel 0,408 = nuls ; clés ≥ 10 colonnes : hors de portée, déclaré) |
 | K09 transpositions simples | barrière (2-100 rails) ou décimation, blocs et texte entier (+ substitution sur le texte entier) ? | **non** (contrôles 10/10 ; réel au niveau des nuls, textes illisibles) |
 

@@ -25,3 +25,8 @@ Sur le texte entier, **ni une route classique, ni une transposition en colonnes 
 d'une substitution simple quelconque, et dans n'importe quelle langue**, ne rend au texte des contacts de langue naturelle : le
 meilleur MI trouvé (0,44) est celui que la même recherche obtient sur des lettres mélangées au hasard, loin de 0,9-1,1.
 Cela ferme l'hypothèse C pour ces deux familles, sans aucune hypothèse de langue.
+
+## 4. Extension aux clés longues (amendement 2 : w = 21..40, texte entier)
+Réel : MI = **0,489** (w = 35). Nuls (11 calculés avant arrêt, décision acquise) : 0,485 à 0,502, moyenne 0,495 ; 9 sur 11 ≥ réel
+(p ≈ 0,8). Seuil de langue pré-inscrit (≥ 0,6) non atteint. ⇒ **pas de transposition en colonnes à clé de 21 à 40 colonnes non
+plus**, avec ou sans substitution. Au total : clés de 5 à 40 colonnes exclues sur le texte entier.
