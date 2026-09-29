@@ -21,3 +21,7 @@ Pour chaque procédé et chaque taille (169 et 979) : 10 textes allemands réser
 tirés au hasard ; exigé : le bon candidat classé premier ≥ 9 fois sur 10.
 Nuls : 100 permutations aléatoires de chaque suite, même recherche. Décision : dépasser tous les nuls et atteindre un niveau de
 langue (quadrigrammes ≥ −10,5 ; MI ≥ 0,7) ; revendication seulement sur texte lisible.
+
+## Amendement 1 (avant le texte réel)
+Critère de succès des contrôles : ≥ 90 % des lettres voisines recollées, sens et rotation indifférents (une décimation par k et par
+n − k donnent le même texte lu à l'envers et décalé ; le critère « texte identique » comptait ces cas comme échecs).
