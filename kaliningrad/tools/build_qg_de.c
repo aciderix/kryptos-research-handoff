@@ -1,4 +1,4 @@
-/* build_qg_de.c — German quadrigram model for K16.
+/* build_qg_de.c — German quadrigram model for K16.\n * Independent Gutenberg corpus only; never train on the Kaliningrad ciphertext.
  * Output: 456976 float32 log10 probabilities, A-Z only.
  * Usage: build_qg_de output.bin corpus1.txt corpus2.txt ...
  * Gutenberg headers/footers are ignored.
