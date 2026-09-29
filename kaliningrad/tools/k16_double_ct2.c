@@ -53,7 +53,7 @@ static double chain_score(double m[64][64], int d) {
     int left[64], right[64]; for (int i = 0; i < d; i++) left[i] = right[i] = -1;
     double sum = 0;
     for (int it = 1; it <= d; it++) {
-        double best = -1e18; int b1 = -1, b2 = -1;
+        double best = 0; int b1 = -1, b2 = -1;
         for (int p1 = 0; p1 < d; p1++) {
             if (right[p1] != -1) continue;
             int inc[64] = {0};
@@ -104,19 +104,38 @@ static void mutate(int *k, int w) {
     else if (mv == 1) { if (a > b) { int x = a; a = b; b = x; } while (a < b) { int x = k[a]; k[a] = k[b]; k[b] = x; a++; b--; } }
     else { int v = k[a]; if (a < b) memmove(k + a, k + a + 1, sizeof(int) * (b - a)); else memmove(k + b + 1, k + b, sizeof(int) * (a - b)); k[b] = v; }
 }
-static void mutate_ct2(int *k, int w) {       /* répertoire de mouvements de CrypTool 2 */
+static void mutate_ct2(int *k, int w) {       /* mouvements de Hill Climbing de CrypTool 2 */
     int r = rint_(100), tmp[64];
-    if (r < 50) { int n = 1 + rint_(9); for (int i = 0; i < n; i++) { int a = rint_(w), b = rint_(w), x = k[a]; k[a] = k[b]; k[b] = x; } }
-    else if (r < 70) { int n = 1 + rint_(2); for (int j = 0; j < n; j++) { int l = 1 + rint_(w - 1), f = rint_(w), t = (f + l + rint_(w - l > 0 ? w - l : 1)) % w;
-                        for (int i = 0; i < l; i++) { int x = k[(f + i) % w]; k[(f + i) % w] = k[(t + i) % w]; k[(t + i) % w] = x; } } }
-    else if (r < 90) { int l = 1 + rint_(w - 1), f = rint_(w), t = (f + 1 + rint_(w - 1)) % w; memcpy(tmp, k, sizeof(int) * w);
-                        int t0 = (t - f + w) % w, nn = (t0 + l) % w; for (int i = 0; i < nn; i++) { int ff = (f + i) % w, tt = (((t0 + i) % nn) + f) % w; k[tt] = tmp[ff]; } }
-    else { int p = 1 + rint_(w - 1); memcpy(tmp, k, sizeof(int) * w); memcpy(k, tmp + p, sizeof(int) * (w - p)); memcpy(k + w - p, tmp, sizeof(int) * p); }
+    if (r < 50) {
+        int n = rint_(10); /* CT2: Random.Next(10) = 0..9 */
+        for (int i = 0; i < n; i++) { int a = rint_(w), b = rint_(w), x = k[a]; k[a] = k[b]; k[b] = x; }
+    } else if (r < 70) {
+        int n = rint_(3); /* CT2: Random.Next(3) = 0..2 */
+        for (int j = 0; j < n; j++) {
+            int l = 1 + rint_(w - 1), f = rint_(w), t = (f + l + rint_(w - l)) % w;
+            for (int i = 0; i < l; i++) { int a = (f + i) % w, b = (t + i) % w, x = k[a]; k[a] = k[b]; k[b] = x; }
+        }
+    } else if (r < 90) {
+        /* Portage direct de Blockshift() CT2. */
+        int l = 1 + rint_(w - 1), f = rint_(w), t = (f + 1 + rint_(w - 1)) % w;
+        memcpy(tmp, k, sizeof(int) * w);
+        int t0 = (t - f + w) % w, nn = (t0 + l) % w;
+        for (int i = 0; i < nn; i++) {
+            int ff = (f + i) % w, tt = (((t0 + i) % nn) + f) % w;
+            k[tt] = tmp[ff];
+        }
+    } else {
+        int p = 1 + rint_(w - 1);
+        memcpy(tmp, k, sizeof(int) * w);
+        memcpy(k, tmp + p, sizeof(int) * (w - p));
+        memcpy(k + w - p, tmp, sizeof(int) * p);
+    }
 }
 static double stage2(const int *c, int n, int w1, int w2, int R, int I, int *bk2) {
     int k[64], q[64], t[2048]; double best = -1e18;
     for (int r = 0; r < R; r++) {
         randperm(k, w2); undo(c, n, w2, k, t); double cur = idp(t, n, w1);
+        if (r == 0 || cur > best) { best = cur; memcpy(bk2, k, sizeof(int) * w2); }
         for (int it = 0; it < I; it++) {
             memcpy(q, k, sizeof(int) * w2); mutate_ct2(q, w2); undo(c, n, w2, q, t); double s = idp(t, n, w1);
             double T = T2A * pow(T2B / T2A, (double)it / I);
@@ -129,6 +148,7 @@ static double stage1(const int *t, int n, int w1, int R, int I, int *bk1, int *o
     int k[64], q[64], p[2048], pos[2048]; double best = -1e18;
     for (int r = 0; r < R; r++) {
         randperm(k, w1); mapping(n, w1, k, pos); for (int i = 0; i < n; i++) p[i] = t[pos[i]]; double cur = quad(p, n);
+        if (r == 0 || cur > best) { best = cur; memcpy(bk1, k, sizeof(int) * w1); memcpy(out, p, sizeof(int) * n); }
         for (int it = 0; it < I; it++) {
             memcpy(q, k, sizeof(int) * w1); mutate(q, w1); mapping(n, w1, q, pos); for (int i = 0; i < n; i++) p[i] = t[pos[i]];
             double s = quad(p, n), T = 0.3 * pow(0.005 / 0.3, (double)it / I);
