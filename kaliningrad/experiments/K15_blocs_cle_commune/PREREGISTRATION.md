@@ -32,3 +32,6 @@ Premier passage des contrôles à effort faible : C-Q 7/10, C-MI 3/10, U-Q 6/10,
 échecs sont des échecs de recherche (score trouvé < score du vrai clair), aux grandes largeurs. Effort relevé pour C et U
 (8 départs × 40 000 itérations) et contrôles refaits ; D : contrôle MI interrompu (5 essais faits, trop lent), refait avec l'effort
 retenu. Effort gelé après ces contrôles.
+Contrôles à effort relevé (8 × 40 000) : C-Q **10/10**, U-Q **9/10**, U-MI **7/10**, C-MI 5/10 (sans puissance ; échecs à 16-19 colonnes,
+remises en ordre partielles à MI 0,62-0,80). Combinaisons retenues : C-Q, U-Q, U-MI, F-Q, F-MI (effort F : 3 × 60 000) ; R déjà jugée.
+Ordre d'exécution : le texte réel d'abord ; les nuls seulement si le seuil de langue est atteint (la règle exige les deux).
