@@ -44,5 +44,6 @@ de preuve), HYPOTHÈSE.
 ## 4. Autres observations (explorations)
 - Doublets : à l'intérieur des mots, 43 contre 66 attendus (p = 0,0008) ; dans le texte continu, 67 contre 80 (p = 0,06) : les
   lettres doublées tombent volontiers à cheval sur un espace — geste d'habillage (l'auteur coupe entre deux lettres identiques).
-- Aucune photo meilleure que les deux images 688 × 841 de 2015 (recherche du 2026-09-29, `00_choix.md`). La bouteille est une
-  « tchebourachka » soviétique (forme apparue vers la fin des années 1960, selon la presse de 2015 qui la décrit ainsi).
+- Aucune photo meilleure que les deux images 688 × 841 de 2015 (recherche du 2026-09-29, `00_choix.md`). La presse de 2015
+  appelle la bouteille une « tchebourachka » (surnom soviétique d'une bouteille de limonade, lié au dessin animé de 1969) : si
+  c'est exact, le dépôt est postérieur aux années 1960 (datation à vérifier, non établie ici).
