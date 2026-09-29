@@ -26,3 +26,9 @@ Nuls : lettres mélangées **à l'intérieur de chaque bloc**, même recherche (
 ## Décision
 Répond si le meilleur score dépasse tous les nuls et atteint un niveau de langue (MI additionné ≥ 0,7 ; quadrigrammes ≥ −10,5) ;
 revendication seulement sur texte lisible.
+
+## Amendement 1 (avant tout calcul sur le texte réel des familles C, U, D, F ; la famille R, contrôles 10/10, a déjà été jugée)
+Premier passage des contrôles à effort faible : C-Q 7/10, C-MI 3/10, U-Q 6/10, U-MI 4/10, D-Q 4/10, F-Q 10/10, F-MI 8/10 ; tous les
+échecs sont des échecs de recherche (score trouvé < score du vrai clair), aux grandes largeurs. Effort relevé pour C et U
+(8 départs × 40 000 itérations) et contrôles refaits ; D : contrôle MI interrompu (5 essais faits, trop lent), refait avec l'effort
+retenu. Effort gelé après ces contrôles.
