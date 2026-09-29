@@ -25,5 +25,6 @@ Même protocole que `dagapeyeff/docs/PROTOCOLE.md`. Choix de la cible : `docs/00
 | K12 empreinte du flux | à quelles familles de chiffres le flux de 979 lettres ressemble-t-il ? | **seulement transposition (± substitution) ou chaîne tirée lettre à lettre** ; exclus : clair, substitution, Vigenère, Playfair, Bifid, homophonique (contrôles : familles parfaitement séparées) |
 | K13 transpositions restantes | nihiliste (blocs), Myszkowski (5-15), AMSCO (3-12), ± substitution ? | **non** (contrôles 8-10/10 ; aucun résultat n'approche un niveau de langue) |
 | K14 double transposition, grandes clés | Übchi (même clé 10-15) ; deux clés différentes 10-20 ? | Übchi **non** (contrôles 9/10, réel = nuls) ; deux clés différentes longues : **hors de portée** (sans puissance, non interprété) |
+| K15 blocs à clé commune | même clé pour les 6 blocs (routes, colonnes, Übchi, grille tournante), scores additionnés, ± substitution ? | **non** (contrôles 7-10/10 ; un score apparemment élevé — grille tournante MI 0,84 — égalé par les lettres mélangées) ; colonnes+substitution et double par bloc : sans puissance |
 
 Synthèse d'étape : [`docs/02_synthese.md`](docs/02_synthese.md).

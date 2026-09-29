@@ -45,6 +45,7 @@ de preuve), HYPOTHÈSE.
 | Barrière (rail fence, 2-100 rails) et décimation, blocs et texte entier, avec ou sans substitution | K09 |
 | Transposition nihiliste (blocs carrés), Myszkowski (5-15), AMSCO (3-12), ± substitution | K13 |
 | Double transposition « même clé » (Übchi) 10-15 colonnes, lettres intactes | K14 |
+| Chiffrement par blocs à clé commune : routes (± subst.), colonnes 5-20, Übchi 5-15 (± subst.), grille tournante (± subst.) | K15 |
 | Les 6 blocs comme colonnes d'une transposition (liens entre blocs au même rang, décalage ±30) | exploration, p = 0,30 |
 
 ## 3. Ce qui reste (HYPOTHÈSES)
