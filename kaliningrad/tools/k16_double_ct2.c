@@ -1,12 +1,13 @@
-/* K16 — double transposition à grandes clés, IDP porté de CrypTool 2 (Lasry)
-   Réimplémentation en C de l'évaluation IDP et des mouvements de CrypPlugins/IDPAttack/IDPAnalyser.cs (CrypTool 2,
-   https://github.com/CrypToolProject/CrypTool-2, licence Apache 2.0) ; méthode : Lasry, Kopal & Wacker, Cryptologia 38(3), 2014. : recuit sur K2 noté par le potentiel de juxtaposition des colonnes (IDP, bigrammes
-   allemands), puis recuit sur K1 (quadrigrammes). Voir experiments/K14_double_grandes_cles/PREREGISTRATION.md.
-   Compilation : gcc -O2 -o k14 tools/k14_double_idp.c -lm
-   Usage :
-     k14 ctrl  <qg.bin> <texte_reserve> <nessais> <wmin> <wmax> <connues 0/1> <R2> <I2> <R1> <I1> <graine>
-     k14 solve <qg.bin> <lettres> <wmin> <wmax> <R2> <I2> <R1> <I1> <graine>
-     k14 null  <qg.bin> <lettres> <nnull> <wmin> <wmax> <R2> <I2> <R1> <I1> <graine> */
+/* K16 — double transposition à grandes clés : attaque « diviser pour régner » de Lasry.
+   Étape K2 : recuit sur la seconde clé, noté par l'IDP (potentiel de juxtaposition des colonnes, bigrammes allemands) ;
+   étape K1 : recuit sur la première clé (quadrigrammes). Criblage des paires de largeurs par IDP normalisé (score z contre
+   des clés aléatoires), option K16_SCREEN=Rs,Is,top.
+   L'évaluation IDP (plages exactes de fin de colonne, fenêtre glissante, score de matrice par chaîne gloutonne) et le
+   répertoire de mouvements sont réimplémentés en C d'après CrypPlugins/IDPAttack/IDPAnalyser.cs (CrypTool 2,
+   https://github.com/CrypToolProject/CrypTool-2, licence Apache 2.0) ; méthode : Lasry, Kopal & Wacker, Cryptologia 38(3), 2014.
+   Voir experiments/K16_double_lasry/PREREGISTRATION.md.
+   Compilation : gcc -O2 -o k16 tools/k16_double_ct2.c -lm
+   Usage : identique à k14_double_idp.c (ctrl / solve / null). */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
