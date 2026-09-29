@@ -29,3 +29,8 @@ la famille (correction pour 8 statistiques ≈ 4 % de faux rejet global par fami
 Rapport : tableau famille × statistique (percentile de la bouteille).
 Contrôle : chaque famille, jugée sur un échantillon supplémentaire d'elle-même, doit être déclarée compatible avec elle-même
 ≥ 90 % du temps, et F1-F3, F6-F8 doivent être distinguables entre elles.
+
+## Amendement 1 (avant le texte réel)
+Premier passage des contrôles avec 200 échantillons par famille : auto-compatibilité 0,82-0,85 pour F1, F3, F7 (< 0,90 exigé) —
+bornes à 99,5 % mal estimées sur 200 tirages. Passage à **1 000 échantillons par famille** ; critères inchangés. Homophonique (F8) :
+26 symboles, les 14 lettres les plus fréquentes reçoivent 1 ou 2 symboles, les 12 plus rares partagent un symbole existant (fusion).

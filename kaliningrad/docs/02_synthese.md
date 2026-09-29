@@ -26,6 +26,8 @@ de preuve), HYPOTHÈSE.
 - **K11 (pré-inscrit, confirmé)** : la règle est locale à deux lettres — on coupe quand deux voyelles ou deux consonnes se
   rencontrent, d'autant plus que le mot en cours est long ; l'identité des lettres n'apporte rien (dans une vraie langue, elle est
   le premier prédicteur des espaces). Les « mots » n'ont ni terminaisons ni débuts de langue.
+- **K12 (pré-inscrit)** : le flux n'est compatible qu'avec une transposition (± substitution) ou une chaîne tirée lettre à lettre ;
+  clair, substitution, Vigenère, Playfair, Bifid, homophonique sont exclus.
 - Réserve : la feuille 2 (pâle) ne montre pas l'effet.
 
 ## 2. Hypothèses exclues (RÉSULTATS)
