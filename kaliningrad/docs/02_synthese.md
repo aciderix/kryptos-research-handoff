@@ -44,6 +44,7 @@ de preuve), HYPOTHÈSE.
 | Double transposition en colonnes (clés 3-9), avec ou sans substitution, toute langue | K08 |
 | Barrière (rail fence, 2-100 rails) et décimation, blocs et texte entier, avec ou sans substitution | K09 |
 | Transposition nihiliste (blocs carrés), Myszkowski (5-15), AMSCO (3-12), ± substitution | K13 |
+| Double transposition « même clé » (Übchi) 10-15 colonnes, lettres intactes | K14 |
 | Les 6 blocs comme colonnes d'une transposition (liens entre blocs au même rang, décalage ±30) | exploration, p = 0,30 |
 
 ## 3. Ce qui reste (HYPOTHÈSES)
@@ -64,3 +65,4 @@ de preuve), HYPOTHÈSE.
 - Aucune photo meilleure que les deux images 688 × 841 de 2015 (recherche du 2026-09-29, `00_choix.md`). La presse de 2015
   appelle la bouteille une « tchebourachka » (surnom soviétique d'une bouteille de limonade, lié au dessin animé de 1969) : si
   c'est exact, le dépôt est postérieur aux années 1960 (datation à vérifier, non établie ici).
+\n\n## 5. Frontière de ce qui est testable ici\nDouble transposition à deux clés différentes de 10 colonnes et plus, ou à clé répétée de 16 colonnes et plus : nos solveurs\n(recuit conjoint, diviser pour régner) n'ont pas la puissance voulue sur des messages plantés (K08, K14). Ni confirmée ni exclue.\n
