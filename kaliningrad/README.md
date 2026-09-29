@@ -21,5 +21,6 @@ Même protocole que `dagapeyeff/docs/PROTOCOLE.md`. Choix de la cible : `docs/00
 | K08 double transposition | Würfel (deux clés de colonnes 3-9), avec ou sans substitution, toute langue ? | **non** (contrôles 8/10 ; MI réel 0,408 = nuls ; clés ≥ 10 colonnes : hors de portée, déclaré) |
 | K09 transpositions simples | barrière (2-100 rails) ou décimation, blocs et texte entier (+ substitution sur le texte entier) ? | **non** (contrôles 10/10 ; réel au niveau des nuls, textes illisibles) |
 | **K10 habillage** (exploration contrôlée) | les espaces viennent-ils du clair, ou ont-ils été posés après coup ? | **posés après coup en regardant les lettres voisines** : frontières consonne\|voyelle 50 au lieu de 88 (z = −6,0 ; transcription indépendante −6,5 ; 488 fenêtres de 9 langues réelles : jamais sous −2,8) ⇒ un flux de lettres existant a été maquillé en « mots » |
+| **K11 règle des espaces** (pré-inscrit) | quelle règle place les espaces ? | **coupure quand deux voyelles ou deux consonnes se rencontrent**, croissante avec la longueur du mot (p = 0,001 sur v1 et sur Corsair ; contrôles plantés 10/10, faux positifs 0/10, textes réels 40/40 au niveau du nul) ; l'identité des lettres n'aide pas (−9 contre +70 à +115 dans les vraies langues) |
 
 Synthèse d'étape : [`docs/02_synthese.md`](docs/02_synthese.md).

@@ -23,7 +23,10 @@ de preuve), HYPOTHÈSE.
 - **Interprétation (non démontrée)** : texte fabriqué en deux couches, un flux de lettres dans lequel aucun test n'a détecté de
   dépendance, puis un habillage en « mots » (espaces selon les lettres voisines, abréviations en grappes de consonnes, apostrophes
   après consonnes, « i » isolé). Compatible avec un chiffré maquillé comme avec un texte artificiel découpé après coup.
-- Réserve : la feuille 2 (pâle) ne montre pas l'effet. Suite : K11.
+- **K11 (pré-inscrit, confirmé)** : la règle est locale à deux lettres — on coupe quand deux voyelles ou deux consonnes se
+  rencontrent, d'autant plus que le mot en cours est long ; l'identité des lettres n'apporte rien (dans une vraie langue, elle est
+  le premier prédicteur des espaces). Les « mots » n'ont ni terminaisons ni débuts de langue.
+- Réserve : la feuille 2 (pâle) ne montre pas l'effet.
 
 ## 2. Hypothèses exclues (RÉSULTATS)
 | Hypothèse | Test |
