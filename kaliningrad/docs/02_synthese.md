@@ -17,6 +17,16 @@ de preuve), HYPOTHÈSE.
   comme en allemand), mais **46 f et 36 w** : aucune fenêtre de 979 lettres de 5 textes allemands n'atteint les deux à la fois
   (maximum 41 f). ö (7) et ü (2) présents, ê (17).
 
+## 1 bis. Le schéma d'ensemble (K10, 2026-09-29)
+Le texte a été fabriqué **en deux couches** :
+1. **un flux de lettres** sans aucun enchaînement (aucun contact à aucune distance, aucun biais humain mesurable, aucune structure
+   verticale ni entre blocs), découpé en 6 blocs de ~165 lettres marqués par une lettre soulignée suivie d'un point ;
+2. **un habillage** posé ensuite pour le faire ressembler à une langue : espaces placés **selon les lettres voisines** (on coupe
+   entre deux consonnes, deux voyelles ou deux lettres identiques ; z = −6 contre des textes réels ≈ 0), grappes de consonnes
+   transformées en abréviations (aucune voyelle sur 27 lettres), apostrophes accrochées aux consonnes, « i » isolé.
+Conséquence : la donnée à déchiffrer est le flux sans espaces ; sa fabrication *avant* l'habillage va dans le sens d'un vrai chiffré
+maquillé (A) plutôt que d'un charabia écrit mot à mot. Réserve : la feuille 2 (pâle) ne montre pas l'effet.
+
 ## 2. Hypothèses exclues (RÉSULTATS)
 | Hypothèse | Test |
 |---|---|
