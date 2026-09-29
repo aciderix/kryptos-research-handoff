@@ -1,0 +1,41 @@
+# Synthèse d'étape (2026-09-29) — ce que le cryptogramme n'est pas, ce qu'il peut encore être
+
+Niveaux : CONNU (sources / transcription), RÉSULTAT (test pré-inscrit, contrôles réussis), OBSERVATION (exploration, sans valeur
+de preuve), HYPOTHÈSE.
+
+## 1. Faits établis
+- CONNU : transcription v1, confirmée par une transcription indépendante (Corsair_nv, 2015) et par les longueurs de blocs de
+  Norbert (2017) : 6 blocs de **166, 169, 162, 169, 169, 144** lettres terminés chacun par **une lettre soulignée suivie d'un
+  point**, puis « eimat » et une rangée de points.
+- RÉSULTAT (K02) : **aucun lien entre lettres voisines** (z = 0,5 ; une langue, même chiffrée par substitution, donne z ≈ 37-40).
+- RÉSULTAT (K04) : **pas de mots répétés** (182 formes distinctes sur 194 mots ; jamais observé en prose dans 13 langues).
+- RÉSULTAT (K02-T6) + OBSERVATION : les espaces ne sont pas posés au hasard (« i » isolé 7 fois ; n et t en fin de mot ; les 9
+  abréviations ne contiennent **aucune voyelle** sur 27 lettres).
+- OBSERVATION : les **116 apostrophes suivent toutes une consonne** (n 41, t 28, r 13, d 12, f 6, s 6, l 5, m 3, z 2) : ce ne sont
+  pas des signes mélangés avec les lettres ; elles sont attachées à leur lettre.
+- OBSERVATION : fréquences les plus proches de l'**allemand** (seule langue compatible parmi 13 pour le profil trié ; e 17,2 %
+  comme en allemand), mais **46 f et 36 w** : aucune fenêtre de 979 lettres de 5 textes allemands n'atteint les deux à la fois
+  (maximum 41 f). ö (7) et ü (2) présents, ê (17).
+
+## 2. Hypothèses exclues (RÉSULTATS)
+| Hypothèse | Test |
+|---|---|
+| Une langue naturelle lue dans l'ordre, en clair ou sous substitution simple (russe translittéré, ukrainien, finnois, allemand…) | K02 |
+| Les mots du clair conservés (substitution fixe, avec ou sans lettres brouillées dans chaque mot) | K04 (+ K01-T4 pour l'allemand) |
+| Le même passage chiffré 7 fois (transposition) ; ou sous 7 substitutions | K01 |
+| Grille carrée à colonnes (avec ou sans clé) sur les blocs carrés, allemand | K02, K03 |
+| Routes classiques (colonnes, zigzags, diagonales, spirales), toutes largeurs, par bloc et texte entier, allemand | K06 |
+| Grille tournante (Fleissner) sur les blocs carrés, allemand | K05 |
+| Les 6 blocs comme colonnes d'une transposition (liens entre blocs au même rang, décalage ±30) | exploration, p = 0,30 |
+
+## 3. Ce qui reste (HYPOTHÈSES)
+- **A′ — allemand (d'un style particulier) mélangé par une transposition à clé plus complexe** (double transposition, grille à
+  trous non standard…), espaces et apostrophes ajoutés pour « faire langue ». Pour : absence de contacts et de répétitions,
+  profil allemand, ö/ü, blocs réguliers. Contre : excès de f et w jamais vu en allemand ordinaire.
+- **C — transposition + substitution** (le profil trié allemand est compatible, p = 0,12) : clé double, pratiquement hors de
+  portée sans indice.
+- **B — pseudo-texte sans message** (lettres choisies à la main avec des fréquences « allemandes », habillées en mots, blocs
+  réguliers). Pour : aucun mécanisme simple ne répond ; les abréviations sans voyelle et le « i » isolé sont des choix d'habillage.
+  Contre : une main qui invente produit en général des enchaînements (lettres prononçables, motifs favoris) ; ici, aucun
+  enchaînement mesurable (motifs répétés : OBSERVATION marginale, p ≈ 0,03 non retenue).
+- Le mot final « eimat » (« Heimat » ?) après le dernier bloc n'est pas expliqué : en clair, il signerait un auteur germanophone.
