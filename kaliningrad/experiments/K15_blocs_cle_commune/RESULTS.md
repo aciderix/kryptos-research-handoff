@@ -11,7 +11,7 @@ familles C, U, D, F ; ordre d'exécution : réel d'abord, nuls seulement si le s
 | C colonnes à clé 5-20 | **10/10** (effort relevé ; 7/10 d'abord) | 5/10 — sans puissance |
 | U même clé deux fois 5-15 | **9/10** | **7/10** |
 | F grille tournante 13×13 (S2, S4, S5) | **10/10** | **8/10** |
-| D double transposition par bloc 5-13 | 4/10 (effort faible) — sans puissance | contrôle interrompu (trop lent) — sans puissance |
+| D double transposition par bloc 5-13 | 4/10 (effort faible), puis **6/10** (6 × 40 000) — sans puissance | 4/10 (6 × 40 000) — sans puissance |
 
 ## 2. Bouteille
 | Combinaison | score réel | seuil de langue | verdict |
@@ -31,3 +31,8 @@ Sous l'hypothèse d'une **clé commune aux blocs**, ni une route classique (± s
 ne produisent le flux. Non testés faute de puissance : colonnes par bloc avec substitution, double transposition par bloc à deux clés.
 Leçon de méthode : un score de langue élevé (F-MI 0,84, au-dessus du seuil fixé) peut n'être qu'un artefact d'une recherche trop
 libre ; seul le nul l'a montré.
+
+## 4. Exploration déclarée (non interprétable) : double transposition par bloc, clés communes
+Contrôles insuffisants (6/10 et 4/10), mais les échecs du score quadrigrammes sont souvent des détections partielles (−11,5 à −12,2,
+contre ≈ −14,5 au hasard) : une bouteille ainsi chiffrée donnerait probablement un signal visible. Texte réel (quadrigrammes, 6 ×
+40 000) : **−14,39** (w = 13, 13), niveau du hasard, texte illisible. Aucun indice en faveur de cette famille ; pas d'exclusion formelle.
