@@ -27,7 +27,8 @@ de preuve), HYPOTHÈSE.
   rencontrent, d'autant plus que le mot en cours est long ; l'identité des lettres n'apporte rien (dans une vraie langue, elle est
   le premier prédicteur des espaces). Les « mots » n'ont ni terminaisons ni débuts de langue.
 - **K12 (pré-inscrit)** : le flux n'est compatible qu'avec une transposition (± substitution) ou une chaîne tirée lettre à lettre ;
-  clair, substitution, Vigenère, Playfair, Bifid, homophonique sont exclus.
+  dans les implémentations testées, clair, substitution, Vigenère, Playfair, Bifid, homophonique sont exclus. Un seul texte découpé
+  ou six segments séparés : non décidable par la composition des blocs (puissance 2 %).
 - Réserve : la feuille 2 (pâle) ne montre pas l'effet.
 
 ## 2. Hypothèses exclues (RÉSULTATS)
@@ -42,6 +43,7 @@ de preuve), HYPOTHÈSE.
 | Routes ou colonnes à clé (5-40) sur le texte entier **avec substitution en plus, toute langue** (score invariant) | K07 |
 | Double transposition en colonnes (clés 3-9), avec ou sans substitution, toute langue | K08 |
 | Barrière (rail fence, 2-100 rails) et décimation, blocs et texte entier, avec ou sans substitution | K09 |
+| Transposition nihiliste (blocs carrés), Myszkowski (5-15), AMSCO (3-12), ± substitution | K13 |
 | Les 6 blocs comme colonnes d'une transposition (liens entre blocs au même rang, décalage ±30) | exploration, p = 0,30 |
 
 ## 3. Ce qui reste (HYPOTHÈSES)
