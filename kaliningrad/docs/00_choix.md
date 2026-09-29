@@ -18,3 +18,8 @@ télégramme à livre de code) et les autres sont trop courts, déjà travaillé
 - Un blog russe (dirty.ru) aurait une transcription et un comptage : inaccessible sous ce domaine, mais **lu sur d3.ru** (lien
   fourni par le user) : transcription complète de Corsair_nv (14/07/2015) et fréquences ; aucune analyse cryptographique dans les
   42 commentaires. Voir `01_transcription_v1.md`.
+- Recherche d'autres photos (2026-09-29) : articles de 2015 de Rosbalt, KP Kaliningrad, klops.ru, Vesti, NEWSru, LiveJournal
+  « sell_off ». Détails nouveaux : trouvée par le monteur Evgueni Iaromtchouk, rue Lénine 64-66 ; deux feuilles roulées, serrées
+  par de la feuille d'aluminium puis du fil de cuivre ; « écriture calligraphique » ; langue non reconnue par les linguistes
+  locaux (anglais, allemand, français, suédois, finnois, estonien, lituanien, letton, polonais exclus par eux). **Aucune image
+  meilleure** que les deux photos 688 × 841 de strana39.ru (reprises par Schmeh et d3.ru) ; les autres liens sont morts.

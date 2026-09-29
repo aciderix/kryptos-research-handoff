@@ -26,16 +26,23 @@ de preuve), HYPOTHÈSE.
 | Grille carrée à colonnes (avec ou sans clé) sur les blocs carrés, allemand | K02, K03 |
 | Routes classiques (colonnes, zigzags, diagonales, spirales), toutes largeurs, par bloc et texte entier, allemand | K06 |
 | Grille tournante (Fleissner) sur les blocs carrés, allemand | K05 |
+| Routes ou colonnes à clé (5-20) sur le texte entier **avec substitution en plus, toute langue** (score invariant) | K07 |
 | Les 6 blocs comme colonnes d'une transposition (liens entre blocs au même rang, décalage ±30) | exploration, p = 0,30 |
 
 ## 3. Ce qui reste (HYPOTHÈSES)
 - **A′ — allemand (d'un style particulier) mélangé par une transposition à clé plus complexe** (double transposition, grille à
   trous non standard…), espaces et apostrophes ajoutés pour « faire langue ». Pour : absence de contacts et de répétitions,
   profil allemand, ö/ü, blocs réguliers. Contre : excès de f et w jamais vu en allemand ordinaire.
-- **C — transposition + substitution** (le profil trié allemand est compatible, p = 0,12) : clé double, pratiquement hors de
-  portée sans indice.
+- **C — transposition + substitution** (le profil trié allemand est compatible, p = 0,12) : exclue pour les routes et les colonnes
+  à clé sur le texte entier (K07) ; restent les transpositions plus complexes.
 - **B — pseudo-texte sans message** (lettres choisies à la main avec des fréquences « allemandes », habillées en mots, blocs
   réguliers). Pour : aucun mécanisme simple ne répond ; les abréviations sans voyelle et le « i » isolé sont des choix d'habillage.
   Contre : une main qui invente produit en général des enchaînements (lettres prononçables, motifs favoris) ; ici, aucun
   enchaînement mesurable (motifs répétés : OBSERVATION marginale, p ≈ 0,03 non retenue).
 - Le mot final « eimat » (« Heimat » ?) après le dernier bloc n'est pas expliqué : en clair, il signerait un auteur germanophone.
+
+## 4. Autres observations (explorations)
+- Doublets : à l'intérieur des mots, 43 contre 66 attendus (p = 0,0008) ; dans le texte continu, 67 contre 80 (p = 0,06) : les
+  lettres doublées tombent volontiers à cheval sur un espace — geste d'habillage (l'auteur coupe entre deux lettres identiques).
+- Aucune photo meilleure que les deux images 688 × 841 de 2015 (recherche du 2026-09-29, `00_choix.md`). La bouteille est une
+  « tchebourachka » soviétique (forme apparue vers la fin des années 1960, selon la presse de 2015 qui la décrit ainsi).

@@ -25,3 +25,10 @@ Nuls : permutations aléatoires des lettres de la suite réelle, même recherche
 Une suite répond si son MI maximal dépasse tous ses nuls ; la remise en ordre trouvée est alors examinée : ses contacts doivent
 atteindre le niveau d'une langue (z ≥ 10 contre des mélanges), et le texte doit ensuite être attaqué comme une substitution simple
 (cellule suivante). Aucune revendication sans texte lisible.
+
+## Amendement 1 (avant tout calcul sur le texte réel des familles 2-3)
+- MI(1) est identique pour un texte et son inverse : le critère de succès des contrôles accepte le clair retrouvé à l'envers
+  (lettres voisines recollées dans un sens ou dans l'autre), comme en K05.
+- La montée simple échoue sur la famille 3 en sens V1 (colonnes de longueurs inégales) : recherche remplacée par un **recuit
+  simulé** (T de 0,02 à 0,0005 bit), effort fixé sur les contrôles puis gelé.
+- Famille 1 (routes) : contrôles des blocs 4/10 (169) et 4/10 (144) ⇒ **sans puissance sur les blocs** ; texte entier 8/10.
