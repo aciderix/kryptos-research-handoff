@@ -28,19 +28,23 @@ Détail (v1) : aux frontières réelles, 43 voyelle|voyelle (attendu 24), 99 con
 (attendu 15). Taux d'espace selon la paire de lettres du flux : consonne-voyelle 10,6 % ; consonne-consonne 23 % ; voyelle-voyelle
 31 % ; voyelles doublées 55 % (« ee » coupé 13 fois sur 24).
 
-## 3. Ce que cela établit
-- Les « mots » ont été obtenus en **découpant une suite de lettres déjà existante**, et les coupures ont été choisies **selon les
-  lettres de part et d'autre** : on coupe entre deux consonnes, entre deux voyelles, entre deux lettres identiques ; on garde
-  ensemble consonne + voyelle. Le flux sans espaces, lui, reste au niveau du hasard (alternance voyelle/consonne : 444 contre 442,7
-  attendu ; aucun contact, K02). Des mots inventés un par un laisseraient au contraire une trace dans le flux.
-- C'est un **habillage** destiné à faire ressembler la suite à une langue (mots « prononçables »), comme les autres traits déjà
-  relevés : abréviations formées de grappes de consonnes (27 lettres, aucune voyelle), apostrophes toujours après une consonne,
-  « i » isolé, doublets coupés.
-- Conséquence pour le déchiffrement : **la vraie donnée est le flux de lettres sans espaces** (variante A de toutes nos cellules),
-  et ce flux a été produit **avant** l'habillage, par un procédé sans enchaînement de lettres. Cela va dans le sens d'un **vrai
-  chiffré déguisé** (hypothèse A : texte mélangé puis maquillé) plutôt que d'un charabia inventé mot à mot, sans l'exclure tout à
-  fait (quelqu'un pourrait écrire un flux au hasard puis le couper).
-- Non trouvé dans les sources lues (Cipherbrain 2016-2017 : « perhaps wrong spaces » évoqué sans mesure ; blog russe 2015).
+## 3. Ce que cela établit, et ce que cela suggère seulement
+**Établi (observation robuste)** : les frontières de mots sont anormalement dépendantes de la **paire** de lettres qu'elles séparent
+(interaction lettre d'avant × lettre d'après), bien au-delà de ce qu'expliquent les fins et débuts de mots pris séparément (le
+mélange de l'ordre des mots conserve ceux-ci), et à un niveau jamais observé dans 9 langues réelles. Reproduit sur une transcription
+indépendante et sur des moitiés disjointes.
+
+**Suggéré seulement (interprétation)** : les espaces auraient été posés sur un flux de lettres déjà écrit, en regardant les lettres
+de part et d'autre. K10 ne distingue pas : (1) un chiffré découpé après coup ; (2) un texte artificiel produit lettre par lettre
+puis découpé ; (3) un autre procédé produisant le même couplage. Et « flux au hasard » signifie seulement qu'**aucun de nos tests
+n'a détecté de dépendance** dans le flux sans espaces (alternance voyelle/consonne 444 contre 442,7 attendu ; aucun contact, K02),
+pas que l'indépendance est démontrée.
+
+Cohérence avec les autres traits (sans valeur de preuve supplémentaire) : abréviations formées de grappes de consonnes (27 lettres,
+aucune voyelle), apostrophes toujours après une consonne, « i » isolé, doublets coupés. Conséquence pratique, prudente : les
+mots manuscrits ne sont probablement pas les unités cryptographiques ; l'objet à analyser est le flux sans espaces (ce que font
+déjà toutes nos cellules). Non trouvé dans les sources lues (Cipherbrain 2016-2017 : « perhaps wrong spaces » évoqué sans mesure ;
+blog russe 2015). Suite : K11 (identification pré-inscrite de la règle de placement des espaces).
 
 ## 4. Réserve : la page 2
 La feuille 2 ne montre pas l'effet (z = −0,2 ; Corsair −1,3 sur 4 de ses 5 lignes) ; échantillon petit (36 mots) et page très
