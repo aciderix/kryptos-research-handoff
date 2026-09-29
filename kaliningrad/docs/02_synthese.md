@@ -28,6 +28,7 @@ de preuve), HYPOTHÈSE.
 | Grille tournante (Fleissner) sur les blocs carrés, allemand | K05 |
 | Routes ou colonnes à clé (5-20) sur le texte entier **avec substitution en plus, toute langue** (score invariant) | K07 |
 | Double transposition en colonnes (clés 3-9), avec ou sans substitution, toute langue | K08 |
+| Barrière (rail fence, 2-100 rails) et décimation, blocs et texte entier, avec ou sans substitution | K09 |
 | Les 6 blocs comme colonnes d'une transposition (liens entre blocs au même rang, décalage ±30) | exploration, p = 0,30 |
 
 ## 3. Ce qui reste (HYPOTHÈSES)
