@@ -26,3 +26,8 @@ Nuls : lettres de la suite réelle mélangées, même recherche (30 pour le text
 ## Décision
 Une suite répond si son meilleur score dépasse tous ses nuls **et** atteint un niveau de langue (quadrigrammes ≥ −10,5 ; MI ≥ 0,7).
 Aucune revendication sans texte lisible. Un négatif exclut la famille dans sa portée, pas ses variantes hors portée.
+
+## Amendement 1 — effort gelé d'après les contrôles (avant le texte réel)
+Premier passage (effort faible) : N 169 6/10, N 144 8/10, M-MI 7/10 (échecs de recherche : score trouvé < score vrai) ; M-Q 10/10,
+A-Q 10/10, A-MI 8/10. Effort augmenté pour N (40 départs × 40 000) et M-MI (8 × 20 000) : N 169 10/10, N 144 10/10, M-MI 10/10.
+Effort gelé : N 40 × 40 000 ; M-Q 3 × 10 000 ; M-MI 8 × 20 000 ; A-Q et A-MI 3 × 10 000.
