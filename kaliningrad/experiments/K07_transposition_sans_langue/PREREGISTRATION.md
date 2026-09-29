@@ -32,3 +32,8 @@ atteindre le niveau d'une langue (z ≥ 10 contre des mélanges), et le texte do
 - La montée simple échoue sur la famille 3 en sens V1 (colonnes de longueurs inégales) : recherche remplacée par un **recuit
   simulé** (T de 0,02 à 0,0005 bit), effort fixé sur les contrôles puis gelé.
 - Famille 1 (routes) : contrôles des blocs 4/10 (169) et 4/10 (144) ⇒ **sans puissance sur les blocs** ; texte entier 8/10.
+
+## Amendement 2 — extension aux clés longues (2026-09-29, avant calcul sur le texte réel)
+Famille 3 étendue à w = 21..40 (texte entier), recuit 5 × 20 000. Essai de puissance (3 textes allemands substitués) : 2/3
+retrouvés en entier, le 3e (sens V1) recolle 67 % des contacts avec MI = 0,69, très au-dessus du niveau des mélanges (≈ 0,44) ⇒
+**décision fondée sur la détection** : le texte répond si son MI dépasse ses nuls (30) et atteint ≥ 0,6.
