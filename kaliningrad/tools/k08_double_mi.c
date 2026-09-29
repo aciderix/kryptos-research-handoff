@@ -15,8 +15,11 @@ static unsigned long long rnd(void) { rs ^= rs << 13; rs ^= rs >> 7; rs ^= rs <<
 static int rint_(int n) { return (int)(rnd() % (unsigned long long)n); }
 static double rnd01(void) { return (rnd() >> 11) * (1.0 / 9007199254740992.0); }
 static double LOG2[4096], T0 = 0.02, T1 = 0.0005;
+static int SAME = 0;   /* K14 amendement : même clé deux fois (Übchi), w2 = w1, k2 = k1 */
+static float *QGQ = 0; /* si défini : score quadrigrammes au lieu de MI */
 
 static double mi(const int *p, int n) {
+    if (QGQ) { double q = 0; for (int i = 0; i + 3 < n; i++) q += QGQ[((p[i] * 26 + p[i + 1]) * 26 + p[i + 2]) * 26 + p[i + 3]]; return q / (n - 3); }
     static int cnt[676], cx[26], cy[26];
     memset(cnt, 0, sizeof cnt); memset(cx, 0, sizeof cx); memset(cy, 0, sizeof cy);
     for (int i = 0; i + 1 < n; i++) { cnt[p[i] * 26 + p[i + 1]]++; cx[p[i]]++; cy[p[i + 1]]++; }
@@ -59,13 +62,14 @@ static void mutate(int *k, int w) {
 }
 
 static double anneal(const int *c, int n, int w1, int w2, int R, int I, int *b1, int *b2) {
-    int k1[64], k2[64], c1[64], c2[64], out[1024]; double best = -1;
+    int k1[64], k2[64], c1[64], c2[64], out[1024]; double best = -1e18;
     for (int r = 0; r < R; r++) {
-        randperm(k1, w1); randperm(k2, w2);
+        randperm(k1, w1); randperm(k2, w2); if (SAME) memcpy(k2, k1, sizeof(int) * w1);
         decrypt2(c, n, w1, k1, w2, k2, out); double cur = mi(out, n);
         for (int it = 0; it < I; it++) {
             memcpy(c1, k1, sizeof(int) * w1); memcpy(c2, k2, sizeof(int) * w2);
-            if (rint_(2)) mutate(c1, w1); else mutate(c2, w2);
+            if (SAME) { mutate(c1, w1); memcpy(c2, c1, sizeof(int) * w1); }
+            else if (rint_(2)) mutate(c1, w1); else mutate(c2, w2);
             decrypt2(c, n, w1, c1, w2, c2, out); double s = mi(out, n);
             double T = T0 * pow(T1 / T0, (double)it / I);
             if (s >= cur || rnd01() < exp((s - cur) / T)) {
@@ -86,6 +90,8 @@ static int load_letters(const char *s, int *out, int max) {
 int main(int argc, char **argv) {
     for (int i = 1; i < 4096; i++) LOG2[i] = log2(i);
     if (getenv("K08_T0")) T0 = atof(getenv("K08_T0"));
+    if (getenv("K08_SAME")) SAME = 1;
+    if (getenv("K08_QG")) { QGQ = malloc(sizeof(float) * 456976); FILE *fq = fopen(getenv("K08_QG"), "rb"); if (!fq || fread(QGQ, sizeof(float), 456976, fq) != 456976) return 3; fclose(fq); T0 = 0.3; T1 = 0.005; }
     if (argc < 2) return 1;
     if (!strcmp(argv[1], "ctrl")) {
         FILE *fp = fopen(argv[2], "rb"); fseek(fp, 0, SEEK_END); long L = ftell(fp); fseek(fp, 0, SEEK_SET);
@@ -96,13 +102,14 @@ int main(int argc, char **argv) {
         rs = strtoull(argv[9], 0, 10) * 2654435761ULL + 17; int ok = 0;
         for (int e = 0; e < ne; e++) {
             int p[1024], c[1024], k1[64], k2[64], b1[64], b2[64], idx[1024], cidx[1024], oidx[1024], sub[26];
-            randperm(sub, 26);
+            randperm(sub, 26); if (QGQ) for (int i = 0; i < 26; i++) sub[i] = i;   /* score allemand : lettres intactes */
             int o = rint_(M - n); for (int i = 0; i < n; i++) p[i] = sub[txt[o + i]];
             int w1 = wmin + rint_(wmax - wmin + 1), w2 = wmin + rint_(wmax - wmin + 1);
-            randperm(k1, w1); randperm(k2, w2); encrypt2(p, n, w1, k1, w2, k2, c);
-            double best = -1; int bw1 = 0, bw2 = 0, t1[64], t2[64];
+            if (SAME) w2 = w1;
+            randperm(k1, w1); randperm(k2, w2); if (SAME) memcpy(k2, k1, sizeof(int) * w1); encrypt2(p, n, w1, k1, w2, k2, c);
+            double best = -1e18; int bw1 = 0, bw2 = 0, t1[64], t2[64];
             for (int a = (known ? w1 : wmin); a <= (known ? w1 : wmax); a++)
-                for (int b = (known ? w2 : wmin); b <= (known ? w2 : wmax); b++) {
+                for (int b = (known ? w2 : wmin); b <= (known ? w2 : wmax); b++) { if (SAME && b != a) continue;
                     double s = anneal(c, n, a, b, R, I, t1, t2);
                     if (s > best) { best = s; bw1 = a; bw2 = b; memcpy(b1, t1, sizeof t1); memcpy(b2, t2, sizeof t2); }
                 }
@@ -119,11 +126,11 @@ int main(int argc, char **argv) {
         int isnull = !strcmp(argv[1], "null"), nn = isnull ? atoi(argv[5]) : 1, a0 = isnull ? 6 : 5;
         int R = atoi(argv[a0]), I = atoi(argv[a0 + 1]); rs = strtoull(argv[a0 + 2], 0, 10) * 2654435761ULL + 19;
         for (int k = 0; k < nn; k++) {
-            int cc[1024], out[1024], b1[64], b2[64], t1[64], t2[64], bw1 = 0, bw2 = 0; double best = -1;
+            int cc[1024], out[1024], b1[64], b2[64], t1[64], t2[64], bw1 = 0, bw2 = 0; double best = -1e18;
             memcpy(cc, c, sizeof(int) * n);
             if (isnull) for (int i = n - 1; i > 0; i--) { int j = rint_(i + 1), t = cc[i]; cc[i] = cc[j]; cc[j] = t; }
             for (int a = wmin; a <= wmax; a++)
-                for (int b = wmin; b <= wmax; b++) {
+                for (int b = wmin; b <= wmax; b++) { if (SAME && b != a) continue;
                     double s = anneal(cc, n, a, b, R, I, t1, t2);
                     if (s > best) { best = s; bw1 = a; bw2 = b; memcpy(b1, t1, sizeof t1); memcpy(b2, t2, sizeof t2); }
                 }

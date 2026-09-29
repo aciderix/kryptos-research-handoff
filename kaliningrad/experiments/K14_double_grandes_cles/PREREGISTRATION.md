@@ -26,3 +26,14 @@ Nuls : 20 permutations aléatoires du flux réel, même recherche complète.
 La bouteille répond si le meilleur score final (quadrigrammes du clair candidat) dépasse ses nuls et atteint ≥ −10,5, avec un texte
 lisible. Sinon : double transposition à clés de 10 à 20 colonnes (lettres intactes, allemand) exclue dans la mesure de la puissance
 mesurée.
+
+## Amendement 1 (avant tout calcul sur la bouteille)
+- Attaque « diviser pour régner » (clés différentes, 10-20) : le score de juxtaposition reconnaît bien la vraie clé K2 (vraie −5,16 à
+  −5,33 ; trouvée −5,5 à −5,8 ; aléatoire −5,8 à −6,1), mais la recherche ne la trouve que pour les petites largeurs (1/4 à largeurs
+  connues, même avec 80 000 itérations et température réglée). ⇒ **déclarée sans puissance**, non appliquée à la bouteille.
+- Ajout du cas historique **« même clé deux fois »** (Übchi, armée allemande 1914) : recherche conjointe sur une seule clé (outil K08,
+  option `K08_SAME`), deux scores (quadrigrammes, lettres intactes ; MI, substitution admise). Essais à largeurs connues :
+  quadrigrammes 3/3 pour 11-14 colonnes, 0/5 pour 16-19. **Portée fixée : 10-15 colonnes, largeur inconnue.** Contrôles : 10 textes par
+  score, exigé ≥ 7/10 ; nuls : 20 ; décision : dépasser les nuls et atteindre le niveau de langue (−10,5 ; MI 0,7).
+- Correction de l'outil K08 (initialisation du meilleur score à −1, inadaptée aux scores négatifs ; sans effet sur K08, dont le score
+  MI est toujours positif) ; en mode quadrigrammes, pas de substitution des textes de contrôle.
