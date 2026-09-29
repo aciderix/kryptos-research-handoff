@@ -1,0 +1,44 @@
+name: K16 German calibration
+
+on:
+  push:
+    paths:
+      - 'kaliningrad/tools/build_qg_de.c'
+      - 'kaliningrad/tools/k16_double_ct2.c'
+      - 'kaliningrad/experiments/K16_double_lasry/**'
+      - 'kaliningrad/data/controle_de_kant_6343.txt'
+  workflow_dispatch:
+
+jobs:
+  calibration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download independent German corpus
+        run: |
+          mkdir -p /tmp/k16-corpus
+          for id in 2229 2230 50234 14997 6525 6383 7939 61354 51722; do
+            curl -fsSL --retry 3 -o /tmp/k16-corpus/pg$id.txt \
+              https://www.gutenberg.org/cache/epub/$id/pg$id.txt
+          done
+      - name: Build German quadgram model
+        run: |
+          gcc -O2 -o /tmp/build_qg_de kaliningrad/tools/build_qg_de.c -lm
+          /tmp/build_qg_de /tmp/qg_de.bin /tmp/k16-corpus/*.txt
+          ls -lh /tmp/qg_de.bin
+      - name: Compile K16
+        run: gcc -O2 -o /tmp/k16 kaliningrad/tools/k16_double_ct2.c -lm
+      - name: Positive controls
+        env:
+          K16_SCREEN: '2,150,8'
+          K16_VERBOSE: '1'
+        run: |
+          /tmp/k16 ctrl /tmp/qg_de.bin kaliningrad/data/controle_de_kant_6343.txt 10 10 20 0 2 150 2 150 20260929
+      - name: Upload calibration log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: k16-calibration-log
+          path: |
+            /tmp/qg_de.bin
