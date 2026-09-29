@@ -65,4 +65,8 @@ de preuve), HYPOTHÈSE.
 - Aucune photo meilleure que les deux images 688 × 841 de 2015 (recherche du 2026-09-29, `00_choix.md`). La presse de 2015
   appelle la bouteille une « tchebourachka » (surnom soviétique d'une bouteille de limonade, lié au dessin animé de 1969) : si
   c'est exact, le dépôt est postérieur aux années 1960 (datation à vérifier, non établie ici).
-\n\n## 5. Frontière de ce qui est testable ici\nDouble transposition à deux clés différentes de 10 colonnes et plus, ou à clé répétée de 16 colonnes et plus : nos solveurs\n(recuit conjoint, diviser pour régner) n'ont pas la puissance voulue sur des messages plantés (K08, K14). Ni confirmée ni exclue.\n
+
+
+## 5. Frontière de ce qui est testable ici
+Double transposition à deux clés différentes de 10 colonnes et plus, ou à clé répétée de 16 colonnes et plus : nos solveurs
+(recuit conjoint, diviser pour régner) n'ont pas la puissance voulue sur des messages plantés (K08, K14). Ni confirmée ni exclue.
