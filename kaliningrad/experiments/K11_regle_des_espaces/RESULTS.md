@@ -40,6 +40,23 @@ qui termine ou commence un mot améliore énormément la prédiction (M3 − M0 
 +48 sur 40 fenêtres) ; bouteille : **−9,2**. Les « mots » n'ont aucune terminaison ni aucun début typiques d'une langue ; seule
 compte la rencontre de deux lettres de même classe.
 
-**Portée** : cela décrit précisément le procédé d'**habillage** (faire des « mots » en coupant les rencontres voyelle-voyelle et
-consonne-consonne, jusqu'à une longueur de 3 à 8 lettres). Cela ne dit pas d'où vient le flux de lettres (chiffré ou texte
+**Portée** : cela décrit précisément le procédé d'**habillage** (une règle de segmentation dépendant des classes voyelle/consonne des lettres adjacentes et de la longueur du
+segment courant ; l'intention — « rendre prononçable » — reste une interprétation). Cela ne dit pas d'où vient le flux de lettres (chiffré ou texte
 artificiel) et ne donne aucune lecture.
+
+## 4. Vérification du modèle (exploration, déclarée) : ce que la règle reproduit et ce qu'elle manque
+Règle M2 ajustée sur une moitié des lignes, rejouée 2 000 fois sur le flux de lettres de l'autre moitié (lignes sans abréviation),
+puis l'inverse ; comparaison aux lignes réelles :
+| Trait | observé | simulé (intervalle 95 %) | |
+|---|---|---|---|
+| nombre de mots | 125 | 133 (121-146) | reproduit |
+| longueur moyenne | 4,95 | 4,83 (4,4-5,3) | reproduit |
+| mots de 9 lettres et plus | 10 | 12 (7-18) | reproduit |
+| frontières entre lettres identiques | 18 | 15 (9-21) | reproduit |
+| frontières consonne\|voyelle | 30 | 38 (29-48) | reproduit (limite) |
+| mots d'une lettre | 10 | 19 (11-28) | **trop peu** |
+| mots de deux lettres | 5 | 13 (6-20) | **trop peu** |
+| mots « i » | 7 | 1,9 (0-5) | **trop** |
+La règle à deux lettres décrit bien la segmentation courante, mais l'auteur **évite en plus les mots de 1-2 lettres**, **sauf « i »**,
+qu'il isole délibérément (mot spécial, comme la conjonction « i » du polonais, du tchèque ou du croate). Modèle complet à préciser
+(seuil de longueur minimale + traitement propre de « i ») ; cela ne change pas la conclusion pré-inscrite.
