@@ -26,7 +26,7 @@ Empreinte : IC 0,0832 ; MI(1) excès 0,0025 ; MI(2) 0,0020 ; IC périodique max 
 | **F10 chaîne i.i.d., fréquences de la bouteille** | **compatible** | — |
 
 ## 3. Conclusion (RÉSULTAT)
-- Sont **exclus** comme générateurs du flux : texte clair, substitution simple, Vigenère (et polyalphabétiques périodiques de ce
+- **Dans les familles, paramètres et implémentations pré-inscrits de K12**, les statistiques utilisées excluent comme générateurs du flux : texte clair, substitution simple, Vigenère (et polyalphabétiques périodiques de ce
   type), Playfair, Bifid, substitution homophonique. Les raisons sont nettes : l'IC du flux est celui d'une langue (0,083), trop
   élevé pour les chiffres qui aplatissent les fréquences ; et il n'a aucun contact, contrairement aux chiffres qui les gardent.
 - Restent **compatibles**, sans pouvoir être séparés par une empreinte statistique (limite annoncée d'avance) : une **transposition**
@@ -34,3 +34,12 @@ Empreinte : IC 0,0832 ; MI(1) excès 0,0025 ; MI(2) 0,0020 ; IC périodique max 
   simples ou à clé courte sont déjà exclus un par un (K03, K05-K09).
 - Le flux n'utilise que **22 lettres** (aucun j, q, x, y) : banal pour de l'allemand transposé (j, q, x, y y sont rares) ; à garder
   pour la suite.
+
+## 4. Compléments (après discussion, explorations déclarées)
+- Portée : l'exclusion vaut pour les implémentations testées (Vigenère clé 3-12, Playfair standard, Bifid période 5-10, homophonique
+  à 26 symboles…), pas automatiquement pour toutes les variantes historiques de ces familles.
+- Bifid (auto-compatibilité 0,88) : l'exclusion ne dépend pas de ce contrôle limite — IC de la bouteille 0,0832 contre 0,0480 ± 0,0041
+  pour Bifid (maximum 0,066 sur 1 000 échantillons), soit 8,5 écarts-types au-dessus.
+- « Un seul texte transposé puis découpé » contre « six segments transposés séparément » : **non décidable par la composition des
+  blocs** — puissance mesurée 2 % (χ² d'homogénéité : 6 morceaux contigus d'allemand, moyenne 99,4 ; découpage aléatoire, 109,1 ;
+  bouteille 94,6).
